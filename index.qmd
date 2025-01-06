@@ -6,6 +6,12 @@ format:
 
 # Bem-vindo {.unnumbered}
 
-This is a Quarto book.
+Este *e-book* apresenta os principais Sistemas de Informações em Saúde (SIS) do Brasil, sua história, dados, usos e indicadores. Busca ser uma referência continuamente atualizada sobre estes sistemas e seus dados.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+# Como citar este material?
+
+
+
+# Sobre o autor
+
+Raphael Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, Mestre em Saúde Coletiva pela Universidade Federal de Juiz de Fora e Doutor em Informação e Comunicação Científica e Tecnológica pela Fundação Oswaldo Cruz.
