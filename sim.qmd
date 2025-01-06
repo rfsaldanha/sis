@@ -9,9 +9,21 @@
 
 ## Histórico
 
-## Ficha de coleta de dados
-
 ## Dados disponíveis
+
+### Ficha de coleta
+
+### Dicionário de dados
+
+## Acesso aos dados
+
+### TabNet
+
+### TabWin
+
+### R
+
+### PCDaS
 
 ## Principais usos e indicadores
 
