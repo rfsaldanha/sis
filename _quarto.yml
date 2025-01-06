@@ -28,6 +28,7 @@ book:
     - sinan.qmd
     - sivep.qmd
     - siops.qmd
+    - rnds.qmd
     - referencias.qmd
 
 bibliography: references.bib
