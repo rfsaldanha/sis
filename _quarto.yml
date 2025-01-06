@@ -13,6 +13,7 @@ book:
   date: today
   search: true
   downloads: [pdf, epub]
+  google-analytics: G-2M7VLSRDCB
   chapters:
     - index.qmd
     - intro.qmd
