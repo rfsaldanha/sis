@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: docs
+
+execute:
+  freeze: false
+
+lang: pt 
+
+book:
+  title: "Sistemas de Informações em Saúde"
+  author: "Raphael de Freitas Saldanha"
+  date: today
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - historico.qmd
+    - referencias.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
