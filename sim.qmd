@@ -1,11 +1,18 @@
 # SIM -- Sistema de Informação sobre Mortalidade
 
-## Quadro resumo
+## Resumo
 
-## História
+-  Ano de criação
+-  Cobertura
+-  Unidade
+-  Divulgação de dados
+
+## Histórico
+
+## Ficha de coleta de dados
 
 ## Dados disponíveis
 
-## Usos e indicadores principais
+## Principais usos e indicadores
 
-## Bibliografia recomendada recomendados
+## Bibliografia recomendada
