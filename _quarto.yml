@@ -11,10 +11,22 @@ book:
   title: "Sistemas de Informações em Saúde"
   author: "Raphael de Freitas Saldanha"
   date: today
+  search: true
+  downloads: [pdf, epub]
   chapters:
     - index.qmd
     - intro.qmd
+    - organizacao.qmd
     - historico.qmd
+    - sim.qmd
+    - sinasc.qmd
+    - sih.qmd
+    - sia.qmd
+    - cnes.qmd
+    - siab.qmd
+    - sinan.qmd
+    - sivep.qmd
+    - siops.qmd
     - referencias.qmd
 
 bibliography: references.bib
