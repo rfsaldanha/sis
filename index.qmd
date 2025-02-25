@@ -6,11 +6,11 @@ format:
 
 # Bem-vindo {.unnumbered}
 
-Este *e-book* apresenta os principais Sistemas de Informações em Saúde (SIS) do Brasil, sua história, dados, usos e indicadores. Busca ser uma referência continuamente atualizada sobre estes sistemas e seus dados.
+Este *e-book* busca apresentar os principais Sistemas de Informações em Saúde (SIS) do Brasil, com detalhes sobre sua história, dados disponíveis, principais usos e indicadores. Seu conteúdo será Busca ser uma continuamente atualizado.
 
 # Como citar este material?
 
-
+> SALDANHA, Raphael. Sistemas de Informação em Saúde do Brasil. Ebook. Disponível em <>. DOI: .
 
 # Sobre o autor
 
