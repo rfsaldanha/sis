@@ -10,7 +10,7 @@ Este *e-book* busca apresentar os principais Sistemas de Informações em Saúde
 
 # Como citar este material?
 
-> SALDANHA, Raphael. Sistemas de Informação em Saúde do Brasil. Ebook. Disponível em <>. DOI: .
+> SALDANHA, Raphael de Freitas. Sistemas de Informação em Saúde do Brasil. Ebook. Disponível em <>. DOI: .
 
 # Sobre o autor
 
