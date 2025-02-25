@@ -23,7 +23,7 @@ O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada 
 %%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito "
 %%| label: fig-do
 
-flowchart LR
+flowchart TD
 do[Declaração de Óbito] --> via1[1a Via]
 do --> via2[2a Via]
 do --> via3[3a Via]
