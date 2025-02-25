@@ -8,7 +8,7 @@ execute:
 lang: pt 
 
 book:
-  title: "Sistemas de Informações em Saúde"
+  title: "Sistemas de Informações em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   date: today
   doi: xxx
@@ -18,7 +18,6 @@ book:
   chapters:
     - index.qmd
     - introducao.qmd
-    - organizacao.qmd
     - historico.qmd
     - sim.qmd
     - sinasc.qmd

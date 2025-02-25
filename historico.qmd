@@ -1,4 +1,4 @@
-# Histórico Brasileiro
+# Breve histórico da experiência brasileira
 
 Historicamente no Brasil, levantamentos não sistemáticos tinham como objetivo informar a administração pública sobre as estatísticas de mortalidade desde os tempos coloniais. Apenas em 1973 foi regulamentado o Registro Civil no país [@brasilLei60151973], sendo atribuída ao Instituto Brasileiro de Geografia e Estatística (IBGE) a responsabilidade da construção de estatísticas do Registro Civil para o conhecimento das dinâmicas de evolução populacional no território brasileiro. Contudo, as barreiras de acesso ao Registro Civil desta época, como a cobrança para o registro de nascimentos e óbitos, incorriam em significante subnotificação e distorções nos quantitativos de nascimentos e óbitos, criando um grande contingente de pessoas que viviam à margem da sociedade, os ``sem-registros'' [@viacavaSistemaInformacaoSobre2009; @makrakisRegistroCivilNo2000]. Desta forma, para o aperfeiçoamento destas estatísticas, se fazia necessário a coleta de dados no local de ocorrência destes eventos, como maternidades e hospitais, aproximando assim a coleta de dados ao setor saúde. 
 
@@ -11,3 +11,19 @@ A promulgação da Constituição Federal em 1988 deu início a construção de 
 Com o estabelecimento do SUS e a promulgação da Constituição Federal, foi criado em 1991 o Departamento de Informática do SUS (DataSUS), inicialmente vinculado à Fundação Nacional de Saúde -- FUNASA [@brasilDecreto1001991], absorvendo funcionários oriundos da Diretoria de Sistemas de Saúde do DATAPREV (Empresa de Tecnologia e Informações da Previdência) e outros órgãos. Compreendendo as dificuldades impostas pelo distanciamento institucional entre o DataSUS e o Ministério da Saúde, em 1998 foram iniciadas ações para viabilizar a sua transferência para a administração direta do Ministério da Saúde, efetivada em 2002 [@brasilDecreto41942002; @BrasilDataSUS2002]. 
 
 Dentre as competências do DataSUS [@brasilDecreto41942002], pode-se destacar a responsabilidade pela manutenção e desenvolvimento de sistemas de informações em saúde; o desenvolvimento, pesquisa e incorporação de tecnologias de informática necessárias às ações de saúde; definição de normas e padrões para a transmissão e transferência de informações em saúde; a integração nacional das bases de dados e sistemas do SUS e a manutenção do acervo das bases de dados. 
+
+## Conjuntos de Sistemas de Informação em Saúde
+
+### Sistemas de Informações Vitais
+
+O Brasil conta atualmente com dois sistemas de informações vitais, o Sistema de Informações sobre Mortalidade (SIM) e o Sistema de Informações sobre Nascidos Vivos (SINASC). A implantação destes sistemas se origina na reorganização do Registro Civil brasileiro, que visava padronizar os instrumentos de coleta de dados sobre óbitos e nascimentos e produzir dados de maneira uniforme em todo o território nacional.
+
+### Sistemas de Informações de Morbidade
+
+Existem atualmente dois sistemas de informação em saúde consolidados, que apresentam dados sobre a morbidade da população brasileira: o Sistema de Informações de Agravos de Notificação (SINAN) e o Sistema de Informações Hospitalares (SIH).
+
+### Outros Sistemas de Informação
+
+Além dos sistemas de informações em saúde descritos anteriormente, pode-se destacar alguns outros. O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada. O Sistema de Informação do Programa Nacional de Imunização (SI-PNI) contempla dados sobre vacinação da população brasileira. O Sistema de Informações Sobre Orçamentos Públicos em Saúde (SIOPS), apresenta dados sobre orçamentos públicos e gastos em saúde. O Sistema de Vigilância Epidemiológica (SIVEP) apresenta subsistemas específicos para malária e gripe (Síndrome Respiratória Aguda Grave -- SRAG).
+
+Além dos sistemas de informação em saúde, cabe também destacar a importância do Cadastro Nacional de Estabelecimentos de Saúde (CNES), que apresenta dados cadastrais sobre todos os estabelecimentos de saúde no território nacional, e de profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares.
