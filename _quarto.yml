@@ -46,6 +46,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  epub: 
+    toc: true
 
 
 
