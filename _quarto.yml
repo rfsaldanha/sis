@@ -33,6 +33,7 @@ book:
     - referencias.qmd
   appendices:
     - cid.qmd
+    - pop.qmd
     - rnds.qmd
 
 bibliography: references.bib
