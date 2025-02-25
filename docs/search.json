@@ -1,5 +1,45 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sistemas de Informações em Saúde do Brasil",
+    "section": "",
+    "text": "Bem-vindo\nEste e-book busca apresentar os principais Sistemas de Informações em Saúde (SIS) do Brasil, com detalhes sobre sua história, dados disponíveis, principais usos e indicadores. Seu conteúdo será Busca ser uma continuamente atualizado.\n\n\nComo citar este material?\n\nSALDANHA, Raphael de Freitas. Sistemas de Informação em Saúde do Brasil. Ebook. Disponível em &lt;&gt;. DOI: .\n\n\n\nSobre o autor\nRaphael Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, Mestre em Saúde Coletiva pela Universidade Federal de Juiz de Fora e Doutor em Informação e Comunicação Científica e Tecnológica pela Fundação Oswaldo Cruz.",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "introducao.html",
+    "href": "introducao.html",
+    "title": "1  Introdução",
+    "section": "",
+    "text": "A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus sistemas de informações, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais (ABOUZAHR; BOERMA, 2005; WHO, 2008).\n\n\n\n\n\n\nSistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para coletar, processar, reportar e usar informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa (LIPPEVELD, 2001).\n\n\n\nO emprego do termo “sistema” implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. Este contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS (WHO, 2008). Cientes de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.\n\n\n\n\nABOUZAHR, C.; BOERMA, T. Health Information Systems: The Foundations of Public Health. Bulletin of the World Health Organization, 2005.\n\n\nLIPPEVELD, T. Routine Health Information Systems: The Glue of a Unified Health System. Keynotes Address. Anais...Washington: Workshop on Issues; Innovation in Routine Health Information in Developing Countries, 2001.\n\n\nWHO. Framework and Standards for Country Health Information Systems. 2. ed. Genebra: [s.n.].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "historico.html",
+    "href": "historico.html",
+    "title": "2  Breve histórico da experiência brasileira",
+    "section": "",
+    "text": "2.1 O Departamento de Informática do SUS – DataSUS\nHistoricamente no Brasil, levantamentos não sistemáticos tinham como objetivo informar a administração pública sobre as estatísticas de mortalidade desde os tempos coloniais. Apenas em 1973 foi regulamentado o Registro Civil no país (BRASIL, 1973), sendo atribuída ao Instituto Brasileiro de Geografia e Estatística (IBGE) a responsabilidade da construção de estatísticas do Registro Civil para o conhecimento das dinâmicas de evolução populacional no território brasileiro. Contudo, as barreiras de acesso ao Registro Civil desta época, como a cobrança para o registro de nascimentos e óbitos, incorriam em significante subnotificação e distorções nos quantitativos de nascimentos e óbitos, criando um grande contingente de pessoas que viviam à margem da sociedade, os ``sem-registros’’ (MAKRAKIS, 2000; VIACAVA, 2009). Desta forma, para o aperfeiçoamento destas estatísticas, se fazia necessário a coleta de dados no local de ocorrência destes eventos, como maternidades e hospitais, aproximando assim a coleta de dados ao setor saúde.\nEntre os anos 1970 e 1980, os primeiros sistemas de informação em saúde de abrangência nacional foram criados (MINISTÉRIO DA SAÚDE, 2009). A primeira Reunião Nacional sobre Sistemas de Informação em Saúde ocorreu em 1975, visando discutir uma implantação mais ampla e abrangente de sistemas (BRASIL, 1975).\nA promulgação da Constituição Federal em 1988 deu início a construção de um arcabouço legislativo necessário para a construção do Sistema Único de Saúde (SUS), abrindo caminho para sua regulamentação (BRASIL, 1990a) e de medidas necessárias para seu financiamento, regulação e controle social (BRASIL, 1990b). A gestão participativa e o processo de descentralização da saúde tornaram os municípios e estados importantes atores na geração e uso de dados dos diferentes sistemas de informação (MINISTÉRIO DA SAÚDE, 2009).\nCom o estabelecimento do SUS e a promulgação da Constituição Federal, foi criado em 1991 o Departamento de Informática do SUS (DataSUS), inicialmente vinculado à Fundação Nacional de Saúde – FUNASA (BRASIL, 1991), absorvendo funcionários oriundos da Diretoria de Sistemas de Saúde do DATAPREV (Empresa de Tecnologia e Informações da Previdência) e outros órgãos. Compreendendo as dificuldades impostas pelo distanciamento institucional entre o DataSUS e o Ministério da Saúde, em 1998 foram iniciadas ações para viabilizar a sua transferência para a administração direta do Ministério da Saúde, efetivada em 2002 (BRASIL, 2002a; BRASIL, 2002b).\nDentre as competências do DataSUS (BRASIL, 2002a), pode-se destacar a responsabilidade pela manutenção e desenvolvimento de sistemas de informações em saúde; o desenvolvimento, pesquisa e incorporação de tecnologias de informática necessárias às ações de saúde; definição de normas e padrões para a transmissão e transferência de informações em saúde; a integração nacional das bases de dados e sistemas do SUS e a manutenção do acervo das bases de dados.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Breve histórico da experiência brasileira</span>"
+    ]
+  },
+  {
+    "objectID": "historico.html#conjuntos-de-sistemas-de-informação-em-saúde",
+    "href": "historico.html#conjuntos-de-sistemas-de-informação-em-saúde",
+    "title": "2  Breve histórico da experiência brasileira",
+    "section": "2.2 Conjuntos de Sistemas de Informação em Saúde",
+    "text": "2.2 Conjuntos de Sistemas de Informação em Saúde\n\n2.2.1 Sistemas de Informações Vitais\nO Brasil conta atualmente com dois sistemas de informações vitais, o Sistema de Informações sobre Mortalidade (SIM) e o Sistema de Informações sobre Nascidos Vivos (SINASC). A implantação destes sistemas se origina na reorganização do Registro Civil brasileiro, que visava padronizar os instrumentos de coleta de dados sobre óbitos e nascimentos e produzir dados de maneira uniforme em todo o território nacional.\n\n\n2.2.2 Sistemas de Informações de Morbidade\nExistem atualmente dois sistemas de informação em saúde consolidados, que apresentam dados sobre a morbidade da população brasileira: o Sistema de Informações de Agravos de Notificação (SINAN) e o Sistema de Informações Hospitalares (SIH).\n\n\n2.2.3 Outros Sistemas de Informação\nAlém dos sistemas de informações em saúde descritos anteriormente, pode-se destacar alguns outros. O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada. O Sistema de Informação do Programa Nacional de Imunização (SI-PNI) contempla dados sobre vacinação da população brasileira. O Sistema de Informações Sobre Orçamentos Públicos em Saúde (SIOPS), apresenta dados sobre orçamentos públicos e gastos em saúde. O Sistema de Vigilância Epidemiológica (SIVEP) apresenta subsistemas específicos para malária e gripe (Síndrome Respiratória Aguda Grave – SRAG).\nAlém dos sistemas de informação em saúde, cabe também destacar a importância do Cadastro Nacional de Estabelecimentos de Saúde (CNES), que apresenta dados cadastrais sobre todos os estabelecimentos de saúde no território nacional, e de profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares.\n\n\n\n\nBRASIL. Lei nº 6.015, de 31 de dezembro de 1973. Presidência da República, 1973.\n\n\nBRASIL. Lei nº 8.142, de 28 de dezembro de 1990. Presidência da República, b1990.\n\n\nBRASIL. Lei nº 8.080, de 19 de setembro de 1990. Presidência da República, a1990.\n\n\nBRASIL. Decreto nº 100, de 16 de abril de 1991. Presidência da República, 1991.\n\n\nBRASIL. Decreto nº 4.194, de 11 de abril de 2002. Presidência da República, a2002.\n\n\nBRASIL, M. DA S. Relatório Final Da 5a Conferência Nacional de Saúde. Brasília: MS, 1975.\n\n\nBRASIL, M. DA S. DATASUS Trajetória 1991-2002. Brasília: Ministério da Saúde, 2002b.\n\n\nMAKRAKIS, S. O Registro Civil no Brasil. {Disserta{\\c c}{\\~a}o de Mestrado}—Rio de Janeiro: Fundação Getúlio Vargas, Escola Brasileira de Administração Pública, 2000.\n\n\nMINISTÉRIO DA SAÚDE, F. O. C., Organização Pan-Americana da Saúde. A experiência brasileira em sistemas de informação em saúde. Brasília: Ministério da Saúde, 2009. v. 2\n\n\nVIACAVA, F. Sistema de Informação Sobre Nascidos Vivos (Sinasc). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Breve histórico da experiência brasileira</span>"
+    ]
+  },
+  {
     "objectID": "sim.html",
     "href": "sim.html",
     "title": "3  SIM – Sistema de Informação sobre Mortalidade",
@@ -77,6 +117,49 @@
     "text": "3.7 Bibliografia recomendada\n\n3.7.1 Documentos auxiliares\n\nHistórico do SIM\nEstrutura do SIM\nManual de preenchimento da Declaração de Óbito\nA Declaração de Óbito: documento necessário e importante\n\n\n\n3.7.2 Vídeos recomendados\n\n\n\n\n3.7.3 Qualidade do preenchimento dos dados\n\n\n3.7.4 Indicadores de saúde\n\n\n\n\nINFORMAÇÃO PARA A SAÚDE, R. I. DE. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSENNA, M. DE C. M. Sistema de Informações Sobre Mortalidade (SIM). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "referencias.html",
+    "href": "referencias.html",
+    "title": "Referências",
+    "section": "",
+    "text": "ABOUZAHR, C.; BOERMA, T. Health Information Systems: The Foundations of\nPublic Health. Bulletin of the World Health\nOrganization, 2005.\n\n\nBRASIL. Lei nº 6.015, de 31 de dezembro de 1973. Presidência da\nRepública, 1973.\n\n\nBRASIL. Lei nº 8.142, de 28 de dezembro de 1990. Presidência da\nRepública, b1990.\n\n\nBRASIL. Lei nº 8.080, de 19 de setembro de 1990. Presidência da\nRepública, a1990.\n\n\nBRASIL. Decreto nº 100, de 16 de abril de 1991. Presidência da\nRepública, 1991.\n\n\nBRASIL. Decreto nº 4.194, de 11 de abril de 2002. Presidência da\nRepública, a2002.\n\n\nBRASIL, M. DA S. Relatório Final Da 5a\nConferência Nacional de\nSaúde. Brasília: MS,\n1975.\n\n\nBRASIL, M. DA S. DATASUS\nTrajetória 1991-2002.\nBrasília: Ministério da Saúde,\n2002b.\n\n\nINFORMAÇÃO PARA A SAÚDE, R. I. DE. Indicadores\nBásicos Para a Saúde No Brasil:\nConceitos e Aplicações.\nBrasília: Organização\nPan-Americana da Saúde, 2008.\n\n\nLIPPEVELD, T. Routine Health Information Systems: The Glue of a\nUnified Health System. Keynotes Address.\nAnais...Washington: Workshop on Issues; Innovation in\nRoutine Health Information in Developing Countries, 2001.\n\n\nMAKRAKIS, S. O Registro Civil no Brasil.\n{Disserta{\\c c}{\\~a}o de Mestrado}—Rio de Janeiro:\nFundação Getúlio Vargas, Escola\nBrasileira de Administração\nPública, 2000.\n\n\nMINISTÉRIO DA SAÚDE, F. O. C., Organização Pan-Americana da Saúde.\nA experiência brasileira em sistemas de\ninformação em\nsaúde. Brasília: Ministério da\nSaúde, 2009. v. 2\n\n\nSENNA, M. DE C. M. Sistema de\nInformações Sobre\nMortalidade (SIM). Em: A\nExperiência Brasileira Em Sistemas de\nInformação Em Saúde. B.\nTextos Básicos de\nSaúde. Brasília:\nMinistério da Saúde, 2009. v. 2.\n\n\nVIACAVA, F. Sistema de Informação\nSobre Nascidos Vivos (Sinasc). Em: A\nExperiência Brasileira Em Sistemas de\nInformação Em Saúde. B.\nTextos Básicos de\nSaúde. Brasília:\nMinistério da Saúde, 2009. v. 2.\n\n\nWHO. Framework and Standards for Country Health Information\nSystems. 2. ed. Genebra: [s.n.].",
+    "crumbs": [
+      "Referências"
+    ]
+  },
+  {
+    "objectID": "cid.html",
+    "href": "cid.html",
+    "title": "Apêndice A — CID – Classificação Internacional de Doenças",
+    "section": "",
+    "text": "A.1 Histórico",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#estrutura",
+    "href": "cid.html#estrutura",
+    "title": "Apêndice A — CID – Classificação Internacional de Doenças",
+    "section": "A.2 Estrutura",
+    "text": "A.2 Estrutura",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#edições-da-cid-no-brasil",
+    "href": "cid.html#edições-da-cid-no-brasil",
+    "title": "Apêndice A — CID – Classificação Internacional de Doenças",
+    "section": "A.3 Edições da CID no Brasil",
+    "text": "A.3 Edições da CID no Brasil\n\nA.3.1 CID-9\n\n\nA.3.2 CID-10\n\n\nA.3.3 CID-11",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
     ]
   }
 ]
