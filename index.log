@@ -1,0 +1,655 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.26)  25 FEB 2025 15:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**index.tex
+(./index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2023/07/07 v3.41 KOMA-Script document class (report)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+Class scrreprt Info: File `scrsize11pt.clo' used instead of
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2688.
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (11pt)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count184
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 11
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 446.76004pt
+(typearea)              DIV departure   = -14%
+(typearea)              \evensidemargin = 11.49748pt
+(typearea)              \oddsidemargin  = 11.49748pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 582.20026pt
+(typearea)              \topmargin      = -37.40001pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1799.
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\scr@dte@chapter@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5994.
+\scr@dte@section@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 6005.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 6005.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 6014.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 6024.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 6024.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 6034.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 6034.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 6045.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 6045.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 6055.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 6055.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7240.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count192
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7257.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count193
+Class scrreprt Info: Redefining `\numberline' on input line 7428.
+\bibindent=\dimen140
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip65
+For additional information on amsmath, use the `?' option.
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen141
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks19
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks20
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks21
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count272
+\l__pdf_internal_box=\box55
+\g__pdf_backend_object_int=\count273
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_int=\count275
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-02-18 L3 Experimental document command parser
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count287
+\g__um_fonts_used_int=\count288
+\l__um_primecount_int=\count289
+\g__um_primekern_muskip=\muskip17
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2023/11/15 v3.01 Predefined colors according to Unix/X11 (UK)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count290
+\FV@InFile=\read2
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count291
+\FV@StepNumber=\count292
+\FV@OutFile=\write3
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip68
+\fb@frw=\dimen153
+\fb@frh=\dimen154
+\FrameRule=\dimen155
+\FrameSep=\dimen156
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count293
+\LTcapwidth=\dimen157
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@gbox=\box61
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks23
+)
+Class scrreprt Info: longtable captions redefined on input line 112.
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen170
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen171
+\ar@mcellbox=\box62
+\extrarowheight=\dimen172
+\NC@list=\toks24
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box63
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count302
+\calc@Bcount=\count303
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count304
+\calc@Cskip=\skip77
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count305
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box64
+\fn@width=\dimen175
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
+)
+\pandoc@box=\box65
+\cslhangindent=\skip78
+\csllabelwidth=\skip79
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box66
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
+\pgf@xd=\dimen188
+\pgf@yd=\dimen189
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count306
+\c@pgf@countb=\count307
+\c@pgf@countc=\count308
+\c@pgf@countd=\count309
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count310
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count311
+))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count312
+\pgfsyssoftpath@bigbuffer@items=\count313
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen190
+\pgfmath@count=\count314
+\pgfmath@box=\box67
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count315
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen191
+\pgf@picmaxx=\dimen192
+\pgf@picminy=\dimen193
+\pgf@picmaxy=\dimen194
+\pgf@pathminx=\dimen195
+\pgf@pathmaxx=\dimen196
+\pgf@pathminy=\dimen197
+\pgf@pathmaxy=\dimen198
+\pgf@xx=\dimen199
+\pgf@xy=\dimen256
+\pgf@yx=\dimen257
+\pgf@yy=\dimen258
+\pgf@zx=\dimen259
+\pgf@zy=\dimen260
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen261
+\pgf@path@lasty=\dimen262
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen263
+\pgf@shorten@start@additional=\dimen264
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count316
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen265
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen266
+\pgf@pt@y=\dimen267
+\pgf@pt@temp=\dimen268
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen269
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen270
+\pgf@sys@shading@range@num=\count317
+\pgf@shadingcount=\count318
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box71
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box72
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen271
+\pgf@nodesepend=\dimen272
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read4
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
+\c@tcbbreakpart=\count319
+\c@tcblayer=\count320
+\c@tcolorbox@number=\count321
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen273
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen274
+\pgffor@skip=\dimen275
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count322
+\pgfplotmarksize=\dimen276
+)
+\tikz@lastx=\dimen277
+\tikz@lasty=\dimen278
+\tikz@lastxsaved=\dimen279
+\tikz@lastysaved=\dimen280
+\tikz@lastmovetox=\dimen281
+\tikz@lastmovetoy=\dimen282
+\tikzleveldistance=\dimen283
+\tikzsiblingdistance=\dimen284
+\tikz@figbox=\box82
+\tikz@figbox@bg=\box83
+\tikz@tempbox=\box84
+\tikz@tempbox@bg=\box85
+\tikztreelevel=\count323
+\tikznumberofchildren=\count324
+\tikznumberofcurrentchild=\count325
+\tikz@fig@count=\count326
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count327
+\pgfmatrixcurrentcolumn=\count328
+\pgf@matrix@numberofcolumns=\count329
+)
+\tikz@expandcount=\count330
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box86
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+(/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/Users/raphaelsaldanha/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
+)
+Package pdfcol Info: pdfTeX's color stacks are not available.
+\tcb@testbox=\box87
+\tcb@totalupperbox=\box88
+\tcb@totallowerbox=\box89
+))
+
+! LaTeX Error: File `fontawesome5.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.174 \definecolor
+                  {quarto-callout-color}{HTML}{909090}^^M 
+Here is how much of TeX's memory you used:
+ 26740 strings out of 476793
+ 597376 string characters out of 5801804
+ 1920839 words of memory out of 5000000
+ 48418 multiletter control sequences out of 15000+600000
+ 558085 words of font info for 38 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 108i,1n,107p,10900b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+No pages of output.

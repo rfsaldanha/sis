@@ -9,7 +9,7 @@
 
 ## Histórico e organização
 
-O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. Um histórico mais completo sobre o SIM está disponível em um [documento escrito pelo DataSUS](www/assets/sim/INTRO.pdf).
+O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. Um histórico mais completo sobre o SIM está disponível em um [documento escrito pelo DataSUS](assets/sim/INTRO.pdf).
 
 ::::: {.callout}
 Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito [@sennaSistemaInformacoesSobre2009]. 
@@ -41,7 +41,7 @@ A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo p
 
 A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontrado um número excessivo de declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
 
-Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](www/assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
+Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
 
 ## Modelo da Declaração de Óbito
 
@@ -49,7 +49,7 @@ Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no
 
 ## Estrutura e dicionário de dados
 
-Confira o documento de [estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf).
+Confira o documento de [estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf).
 
 ## Acesso aos dados
 
@@ -112,10 +112,10 @@ Segundo a RIPSA [@OPAS2008], os dados do SIM são utilizados na construção de 
 
 ### Documentos auxiliares
 
--  [Histórico do SIM](www/assets/sim/INTRO.pdf)
--  [Estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf)
--  [Manual de preenchimento da Declaração de Óbito](www/assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
--  [A Declaração de Óbito: documento necessário e importante](www/assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
+-  [Histórico do SIM](assets/sim/INTRO.pdf)
+-  [Estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf)
+-  [Manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
+-  [A Declaração de Óbito: documento necessário e importante](assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
 
 ### Vídeos recomendados
 
