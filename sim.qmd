@@ -49,21 +49,64 @@ Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no
 
 ## Estrutura e dicionário de dados
 
-Adaptado do documento de [estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf).
-
-| Sessão | Nome do campo | Nome DBF | Valores válidos | Descrição | Característica | Disponibilidade |
+Confira o documento de [estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf).
 
 ## Acesso aos dados
 
 ### TabNet
 
+Os dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.
+
+-  [TabNet SIM](https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10)
+
 ### TabWin
+
+Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+
+-  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
+Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+
+```{r}
+#| message: false
+library(microdatasus)
+
+sim_raw <- fetch_datasus(
+  year_start = 2021,
+  year_end = 2021,
+  uf = "AC",
+  information_system = "SIM-DO"
+)
+
+sim_p <- process_sim(sim_raw)
+
+sim_p
+```
+
 ### PCDaS
 
+Os dados do SIM estão disponíveis na PCDaS para acesso via *notebooks*.
+
+-  [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
+-  [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
+
+### Outras formas
+
+Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.
+
+-  [OpenDataSUS - SIM](https://opendatasus.saude.gov.br/dataset/sim)
+
 ## Principais usos e indicadores
+
+Segundo a RIPSA [@OPAS2008], os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes:
+
+-  Taxa de mortalidade infantil
+-  Taxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal
+-  Taxa de mortalidade em menores de cinco anos
+-  Razão de mortalidade materna
+-  Mortalidade proporcional por grupos de causas
 
 ## Bibliografia recomendada
 
@@ -77,6 +120,8 @@ Adaptado do documento de [estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD
 ### Vídeos recomendados
 
 {{< video https://www.youtube.com/watch?v=I_wFPYkDbF8 >}}
+
+{{< video https://www.youtube.com/watch?v=DuyB5bsz7yM >}}
 
 ### Qualidade do preenchimento dos dados
 
