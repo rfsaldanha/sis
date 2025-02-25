@@ -8,10 +8,11 @@ execute:
 lang: pt 
 
 book:
-  title: "Sistemas de Informações em Saúde no Brasil"
+  title: "Sistemas de Informações em Saúde do Brasil"
   author: "Raphael de Freitas Saldanha"
   date: today
   doi: xxx
+  issn: xxx
   search: true
   downloads: [pdf, epub]
   google-analytics: G-2M7VLSRDCB
@@ -29,8 +30,10 @@ book:
     - sivep.qmd
     - siops.qmd
     - sipni.qmd
-    - rnds.qmd
     - referencias.qmd
+  appendices:
+    - cid.qmd
+    - rnds.qmd
 
 bibliography: references.bib
 csl: abnt.csl
