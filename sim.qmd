@@ -2,18 +2,56 @@
 
 ## Resumo
 
--  Ano de criação
--  Cobertura
--  Unidade
--  Divulgação de dados
+-  Ano de criação: 1975
+-  Cobertura: Dimensões pública e privada do SUS
+-  Unidade: Declaração de Óbito
+-  Divulgação de dados: anual, com um ano de defasagem
 
-## Histórico
+## Histórico e organização
 
-## Dados disponíveis
+O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. Um histórico mais completo sobre o SIM está disponível em um [documento escrito pelo DataSUS](www/assets/sim/INTRO.pdf).
 
-### Ficha de coleta
+::::: {.callout}
+Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito [@sennaSistemaInformacoesSobre2009]. 
+:::
 
-### Dicionário de dados
+Este instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil. 
+
+O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na @fig-do. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.
+
+```{mermaid}
+%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito "
+%%| label: fig-do
+
+flowchart LR
+do[Declaração de Óbito] --> via1[1a Via]
+do --> via2[2a Via]
+do --> via3[3a Via]
+
+via1 --> sms[Secretaria Municipal de Saúde]
+
+via2 --> fam[Família]
+fam --> rg[Registro Civil]
+rg --> ao[Atestado de Óbito]
+
+via3 --> es[Estabelecimento de Saúde]
+```
+
+A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a *causa básica do óbito* e demais *causas secundárias*, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.
+
+A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontrado um número excessivo de declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
+
+Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](www/assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
+
+## Modelo da Declaração de Óbito
+
+![Modelo de Declaração de Óbito](images/Wikipedia-Declarac%CC%A7a%CC%83o_de_o%CC%81bito_Brasil.jpg){#modelo-do}
+
+## Estrutura e dicionário de dados
+
+Adaptado do documento de [estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf).
+
+| Sessão | Nome do campo | Nome DBF | Valores válidos | Descrição | Característica | Disponibilidade |
 
 ## Acesso aos dados
 
@@ -28,3 +66,18 @@
 ## Principais usos e indicadores
 
 ## Bibliografia recomendada
+
+### Documentos auxiliares
+
+-  [Histórico do SIM](www/assets/sim/INTRO.pdf)
+-  [Estrutura do SIM](www/assets/sim/Estrutura_SIM_para_CD.pdf)
+-  [Manual de preenchimento da Declaração de Óbito](www/assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
+-  [A Declaração de Óbito: documento necessário e importante](www/assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
+
+### Vídeos recomendados
+
+{{< video https://www.youtube.com/watch?v=I_wFPYkDbF8 >}}
+
+### Qualidade do preenchimento dos dados
+
+### Indicadores de saúde
