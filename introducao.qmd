@@ -1,1 +1,7 @@
 # Introdução
+
+A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus *sistemas de informações*, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
+
+Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001]. 
+
+O emprego do termo "sistema" implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. Este contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS [@worldhealthorganisationFrameworkStandardsCountry2008]. Cientes de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.
