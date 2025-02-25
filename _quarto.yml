@@ -34,6 +34,7 @@ book:
     - referencias.qmd
 
 bibliography: references.bib
+csl: abnt.csl
 
 format:
   html:
