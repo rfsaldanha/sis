@@ -45,7 +45,7 @@ Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no
 
 ## Modelo da Declaração de Óbito
 
-![Modelo de Declaração de Óbito](assets/sim/Wikipedia-Declarac%CC%A7a%CC%83o_de_o%CC%81bito_Brasil.jpg){#modelo-do}
+![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do}
 
 ## Estrutura e dicionário de dados
 
