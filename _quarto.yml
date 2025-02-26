@@ -29,12 +29,14 @@ book:
     - siab.qmd
     - sivep.qmd
     - sisvan.qmd
+    - sisagua.qmd
     - siops.qmd
     - sipni.qmd
     - referencias.qmd
   appendices:
     - cid.qmd
     - pop.qmd
+    - pns.qmd
     - rnds.qmd
 
 bibliography: references.bib
