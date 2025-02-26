@@ -6,7 +6,7 @@ format:
 
 # Bem-vindo {.unnumbered}
 
-Este *e-book* busca apresentar os principais Sistemas de Informações em Saúde (SIS) do Brasil, com detalhes sobre sua história, dados disponíveis, principais usos e indicadores. Seu conteúdo será Busca ser uma continuamente atualizado.
+Este *e-book* busca apresentar os principais Sistemas de Informações em Saúde (SIS) do Brasil, com detalhes sobre sua história, dados disponíveis, principais usos e indicadores.
 
 # Como citar este material?
 
