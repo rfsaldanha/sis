@@ -30,7 +30,7 @@ Os dados do SIH são distribuídos em dois conjuntos:
 
 ### TabNet
 
-Os dados do SIH podem ser acessados no sistema TabNet do DataSUS, na seção "Epidemiológicas e Morbidade".
+Os dados do SIH podem ser acessados no sistema TabNet do DataSUS, na seção "Assistência à Saúde".
 
 -  [TabNet SIH](https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/)
 

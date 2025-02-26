@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 execute:
-  freeze: false
+  freeze: auto
 
 lang: pt 
 
@@ -24,9 +24,9 @@ book:
     - sinasc.qmd
     - sih.qmd
     - sia.qmd
+    - sinan.qmd
     - cnes.qmd
     - siab.qmd
-    - sinan.qmd
     - sivep.qmd
     - sisvan.qmd
     - siops.qmd
