@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; SIA – Sistema de Informações Ambulatoriais – Sistemas de Informações em Saúde do Brasil</title>
+<title>6&nbsp; SIA – Sistema de Informações Ambulatoriais do SUS – Sistemas de Informações em Saúde do Brasil</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./cnes.html" rel="next">
+<link href="./sinan.html" rel="next">
 <link href="./sih.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -90,7 +124,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sia.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sia.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais do SUS</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -173,25 +207,25 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sia.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cnes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./siab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SIAB – Sistema de Informação de Atenção Básica</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais do SUS</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sinan.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SINAN – Sistema de Informação de Agravos de Notificação</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">SINAN – Sistema de Informação de Agravos de Notificação</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cnes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./siab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SIAB – Sistema de Informação de Atenção Básica</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -258,15 +292,38 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">6.1</span> Resumo</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">6.2</span> Histórico e organização</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">6.3</span> Estrutura dos dados</a>
+  <ul class="collapse">
+  <li><a href="#arquivos-de-procedimentos-ambulatoriais" id="toc-arquivos-de-procedimentos-ambulatoriais" class="nav-link" data-scroll-target="#arquivos-de-procedimentos-ambulatoriais"><span class="header-section-number">6.3.1</span> Arquivos de Procedimentos Ambulatoriais</a></li>
+  <li><a href="#registro-das-ações-ambulatoriais-de-saúde" id="toc-registro-das-ações-ambulatoriais-de-saúde" class="nav-link" data-scroll-target="#registro-das-ações-ambulatoriais-de-saúde"><span class="header-section-number">6.3.2</span> Registro das Ações ambulatoriais de saúde</a></li>
+  <li><a href="#boletim-de-produção-ambulatorial-individualizado" id="toc-boletim-de-produção-ambulatorial-individualizado" class="nav-link" data-scroll-target="#boletim-de-produção-ambulatorial-individualizado"><span class="header-section-number">6.3.3</span> Boletim de Produção Ambulatorial Individualizado</a></li>
+  </ul></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">6.4</span> Acesso aos dados</a>
+  <ul class="collapse">
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">6.4.1</span> TabNet</a></li>
+  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">6.4.2</span> TabWin</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">6.4.3</span> R</a></li>
+  </ul></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">6.5</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">6.5.1</span> Documentos auxiliares</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais do SUS</span></h1>
 </div>
 
 
@@ -283,8 +340,163 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </header>
 
 
+<section id="resumo" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">6.1</span> Resumo</h2>
+<ul>
+<li>Ano de criação: 1994</li>
+<li>Cobertura: Dimensões pública do SUS</li>
+<li>Unidade: Autorização de Procedimento Ambulatorial (AP)</li>
+<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
+</ul>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">6.2</span> Histórico e organização</h2>
+<p>O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada.</p>
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">6.3</span> Estrutura dos dados</h2>
+<p>Confira o documento de <a href="assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf">estrutura do SIA</a>, onde estão descritas as variáveis disponíveis.</p>
+<p>Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.</p>
+<section id="arquivos-de-procedimentos-ambulatoriais" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="arquivos-de-procedimentos-ambulatoriais"><span class="header-section-number">6.3.1</span> Arquivos de Procedimentos Ambulatoriais</h3>
+<p>Os procedimentos ambulatoriais se dividem em “comuns”, denominado “PA”, de “alta complexidade”, denominado “APAC”.</p>
+<p>Os arquivos de APAC se dividem nas seguintes subcategorias:</p>
+<ul>
+<li>Laudos diversos (AD)</li>
+<li>Medicamentos (AM)</li>
+<li>Nefrologia (AN)</li>
+<li>Quimioterapia (AQ)</li>
+<li>Radioterapia (AR)</li>
+<li>Cirurgia Bariátrica (AB)</li>
+<li>Confecção de Fístula Arteriovenosa (ACF)</li>
+<li>Tratamento Dialítico (ATD)</li>
+</ul>
+</section>
+<section id="registro-das-ações-ambulatoriais-de-saúde" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="registro-das-ações-ambulatoriais-de-saúde"><span class="header-section-number">6.3.2</span> Registro das Ações ambulatoriais de saúde</h3>
+<ul>
+<li>Atenção Domiciliar (SAD)</li>
+<li>Psicossocial (PS)</li>
+</ul>
+</section>
+<section id="boletim-de-produção-ambulatorial-individualizado" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="boletim-de-produção-ambulatorial-individualizado"><span class="header-section-number">6.3.3</span> Boletim de Produção Ambulatorial Individualizado</h3>
+<ul>
+<li>BPA-I</li>
+</ul>
+</section>
+</section>
+<section id="acesso-aos-dados" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">6.4</span> Acesso aos dados</h2>
+<section id="tabnet" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">6.4.1</span> TabNet</h3>
+<p>Os dados do SIA podem ser acessados no sistema TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
+<ul>
+<li><a href="https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/">TabNet SIA</a></li>
+</ul>
+</section>
+<section id="tabwin" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">6.4.2</span> TabWin</h3>
+<p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
+<ul>
+<li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
+</ul>
+</section>
+<section id="r" class="level3" data-number="6.4.3">
+<h3 data-number="6.4.3" class="anchored" data-anchor-id="r"><span class="header-section-number">6.4.3</span> R</h3>
+<p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sia_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">1</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">2</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SIA-PA"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(sia_raw)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      PA_CODUNI PA_GESTAO PA_CONDIC PA_UFMUN PA_REGCT PA_INCOUT PA_INCURG
+1...1   9966501    120000        EP   120020     0000      0000      0000
+2...2   6861849    120000        EP   120040     0000      0000      0000
+3...3   6861849    120000        EP   120040     0000      0000      0000
+4...4   6861849    120000        EP   120040     0000      0000      0000
+5...5   5336171    120000        EP   120020     0000      0000      0000
+6...6   6861849    120000        EP   120040     0000      0000      0000
+      PA_TPUPS PA_TIPPRE PA_MN_IND     PA_CNPJCPF     PA_CNPJMNT     PA_CNPJ_CC
+1...1       73        00         M 04034526003401 04034526000143 00000000000000
+2...2       39        00         I 13325100000130 00000000000000 00000000000000
+3...3       39        00         I 13325100000130 00000000000000 00000000000000
+4...4       39        00         I 13325100000130 00000000000000 00000000000000
+5...5       05        00         M 04034526002359 04034526000143 00000000000000
+6...6       39        00         I 13325100000130 00000000000000 00000000000000
+      PA_MVM PA_CMP PA_PROC_ID PA_TPFIN PA_SUBFIN PA_NIVCPL PA_DOCORIG
+1...1 202101 202101 0301060118       06      0000         2          I
+2...2 202101 202101 0204020093       06      0000         2          I
+3...3 202101 202101 0205020046       06      0000         2          I
+4...4 202101 202101 0206020031       06      0000         3          I
+5...5 202101 202101 0206020031       06      0000         3          I
+6...6 202101 202101 0206020031       06      0000         3          I
+         PA_AUTORIZ       PA_CNSMED PA_CBOCOD PA_MOTSAI PA_OBITO PA_ENCERR
+1...1 0000000000000 702100748633294    223505        00        0         0
+2...2 0000000000000 980016288806388    225320        00        0         0
+3...3 0000000000000 980016288806388    225320        00        0         0
+4...4 0000000000000 980016288806388    225320        00        0         0
+5...5 0000000000000 980016288211643    225320        00        0         0
+6...6 0000000000000 980016288806388    225320        00        0         0
+      PA_PERMAN PA_ALTA PA_TRANSF PA_CIDPRI PA_CIDSEC PA_CIDCAS PA_CATEND
+1...1         0       0         0      0000      0000      0000        02
+2...2         0       0         0      0000      0000      0000        02
+3...3         0       0         0      0000      0000      0000        02
+4...4         0       0         0      0000      0000      0000        02
+5...5         0       0         0      0000      0000      0000        02
+6...6         0       0         0      0000      0000      0000        02
+      PA_IDADE IDADEMIN IDADEMAX PA_FLIDADE PA_SEXO PA_RACACOR PA_MUNPCN
+1...1      042        0      130          1       M         99    120020
+2...2      042        0      130          1       F         03    120040
+3...3      042        0      130          1       M         03    120040
+4...4      071        0      130          1       F         03    120040
+5...5      065        0      130          1       F         01    120033
+6...6      036        0      130          1       M         04    120040
+      PA_QTDPRO PA_QTDAPR PA_VALPRO PA_VALAPR PA_UFDIF PA_MNDIF PA_DIF_VAL
+1...1         1         1      0.00      0.00        0        0          0
+2...2         1         1      9.16      9.16        0        0          0
+3...3         1         1     37.95     37.95        0        0          0
+4...4         1         1    136.41    136.41        0        0          0
+5...5         1         1    136.41    136.41        0        1          0
+6...6         1         1    136.41    136.41        0        0          0
+      NU_VPA_TOT NU_PA_TOT PA_INDICA PA_CODOCO PA_FLQT PA_FLER PA_ETNIA
+1...1          0      0.00         5         1       K       0     &lt;NA&gt;
+2...2          0      9.16         5         1       K       0     &lt;NA&gt;
+3...3          0     37.95         5         1       K       0     &lt;NA&gt;
+4...4          0    136.41         5         1       K       0     &lt;NA&gt;
+5...5          0    136.41         5         1       K       0     &lt;NA&gt;
+6...6          0    136.41         5         1       K       0     &lt;NA&gt;
+      PA_VL_CF PA_VL_CL PA_VL_INC PA_SRV_C PA_INE PA_NAT_JUR
+1...1        0        0         0     &lt;NA&gt;   &lt;NA&gt;       1023
+2...2        0        0         0   121001   &lt;NA&gt;       2062
+3...3        0        0         0   121002   &lt;NA&gt;       2062
+4...4        0        0         0   121003   &lt;NA&gt;       2062
+5...5        0        0         0   121003   &lt;NA&gt;       1023
+6...6        0        0         0   121003   &lt;NA&gt;       2062</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">6.5</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="6.5.1">
+<h3 data-number="6.5.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">6.5.1</span> Documentos auxiliares</h3>
+<ul>
+<li><a href="assets/sia/Manual_Operacional_SIA2010.pdf">Manual operacional</a></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -711,8 +923,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./cnes.html" class="pagination-link" aria-label="CNES -- Cadastro Nacional de Estabelecimentos de Saúde">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./sinan.html" class="pagination-link" aria-label="SINAN -- Sistema de Informação de Agravos de Notificação">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">SINAN – Sistema de Informação de Agravos de Notificação</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

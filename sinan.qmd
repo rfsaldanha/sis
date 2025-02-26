@@ -1,1 +1,271 @@
 # SINAN -- Sistema de Informação de Agravos de Notificação
+
+## Resumo
+
+-  Ano de criação: 1993
+-  Cobertura: Dimensões pública e privada do SUS
+-  Unidade: Ficha de notificação
+-  Divulgação de dados: mensal, com defasagem variada
+
+## Histórico e organização
+
+O SINAN é um instrumento fundamental para a vigilância epidemiológica nacional, sendo responsável por coletar, transmitir e disseminar dados sobre uma lista de doenças e agravos de saúde, cuja notificação é compulsória em todo território nacional. A [lista de doenças e agravos](https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/lista-nacional-de-notificacao-compulsoria-de-doencas-agravos-e-eventos-de-saude-publica) é atualizada permanentemente, conforme mudanças no cenário epidemiológico nacional, contando atualmente com 57 doenças e agravos [@msPortaria33282022; @msPortaria4202022].
+
+Interessante observar que esta lista inclui, além de doenças infecto-contagiosas, a notificação compulsória de acidentes de trabalho, acidentes por animais peçonhentos, eventos adversos de vacinação, casos de óbito infantil e materno e casos de violência doméstica, sexual e tentativas de suicídio, permitindo ao sistema de saúde monitorar rapidamente diversos tipos de eventos de saúde de interesse.
+
+A implantação do SINAN, foi iniciada em 1993 de forma gradual, e enfrentou problemas iniciais relacionados a indefinições do fluxo de informações, gestão múltipla do sistema e limitações do programa informatizado. A regulamentação do funcionamento do SINAN foi alcançada em 1998, possibilitando ganhos de melhoria em seus dados [@caetanoSistemaInformacaoAgravos2009]. 
+
+A unidade fundamental de operação do SINAN são as *fichas de notificação*, que são diferenciadas para cada doença e agravo de notificação compulsória. Todo caso suspeito é notificado no SINAN, sendo lançado progressivamente dados referentes ao paciente e suas condições de saúde, além de informações sobre a investigação do caso, atividades de diagnóstico, resultados de exames e o desfecho final do caso. As informações do SINAN subsidiam análises epidemiológicas, acompanhamento de endemias e epidemias e apoiam ações de planejamento, gestão e monitoramento da saúde.
+
+## Estrutura dos dados
+
+Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis.
+
+### Acidentes por Animais Peçonhentos
+
+-  [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
+-  [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/ANIMPN_DIC_DADOS.pdf)
+
+### Botulismo
+
+-  [Ficha de notificação](assets/sinan/agravos/BOTUN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/BOTUN_DIC_DADOS.pdf)
+
+### Doença de Chagas
+
+-  [Ficha de notificação](assets/sinan/agravos/CHAGAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
+
+### Cólera
+
+-  [Ficha de notificação](assets/sinan/agravos/COLEN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
+
+### Coqueluche
+
+-  [Ficha de notificação](assets/sinan/agravos/COQUEN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/COQUEN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/COQUEN_DIC_DADOS.pdf)
+
+### Dengue
+
+-  [Ficha de notificação](assets/sinan/agravos/DENGON_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/DENGON_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/DENGON_DIC_DADOS.pdf)
+-  [Nota informativa](assets/sinan/agravos/DENGON_NOTA_INFORMATIVA.pdf)
+
+### Rotavírus
+
+-  [Dicionário de dados](assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf)
+
+### Difteria
+
+-  [Ficha de notificação](assets/sinan/agravos/DIFTEN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
+
+### Esquistossomose
+
+-  [Ficha de notificação](assets/sinan/agravos/ESQUIN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/ESQUIN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf)
+
+### Doenças Exantemáticas
+
+-  [Ficha de notificação](assets/sinan/agravos/EXANT_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/EXANT_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/EXANT_DIC_DADOS.pdf)
+
+### Febre Amarela
+
+-  [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
+
+### Febre Maculosa
+
+-  [Ficha de notificação](assets/sinan/agravos/FMACUN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
+
+### Febre Tifóide
+
+-  [Ficha de notificação](assets/sinan/agravos/FTIFON_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/FTIFON_DIC_DADOS.pdf)
+
+### Hanseníase
+
+-  [Ficha de notificação](assets/sinan/agravos/HANSN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf)
+-  [Caderno de análise](assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/HANSN_DIC_DADOS.pdf)
+
+### Hantavirose
+
+-  [Ficha de notificação](assets/sinan/agravos/HANTAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
+
+### Hepatites Virais
+
+-  [Ficha de notificação](assets/sinan/agravos/HEPANET_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
+
+### Intoxicação Hexógena
+
+-  [Ficha de notificação](assets/sinan/agravos/IEXOGN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/IEXOGN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf)
+
+### Leishmaniose Visceral
+
+-  [Ficha de notificação](assets/sinan/agravos/LEISHN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf)
+-  [Caderno de análise](assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/LEISHN_DIC_DADOS.pdf)
+
+### Leishimaniosse Tegumentar Americana
+
+-  [Ficha de notificação](assets/sinan/agravos/LTAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf)
+-  [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/LTAN_DIC_DADOS.pdf)
+
+### Leptospirose
+
+-  [Ficha de notificação](assets/sinan/agravos/LEPTON_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
+
+### Malária
+
+-  [Ficha de notificação](assets/sinan/agravos/MALAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
+
+### Meningite
+
+-  [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
+-  [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
+-  [Tutorial de análises epidemiológicas](assets/sinan/agravos/MENIN_TUTORIAL_ANALISES_EPIDEMIO.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/MENIN_DIC_DADOS.pdf)
+
+### Notificação Individual
+
+-  [Ficha de notificação](assets/sinan/agravos/NINDIN_FICHA.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/NINDIN_DIC_DADOS.pdf)
+
+### Peste
+
+-  [Ficha de notificação](assets/sinan/agravos/PESTEN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/PESTEN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/PESTEN_DIC_DADOS.pdf)
+
+### Paralisia Flácida Aguda
+
+-  [Ficha de notificação](assets/sinan/agravos/PFAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/PFAN_FICHA.pdf)
+
+### Raiva Humana
+
+-  [Ficha de notificação](assets/sinan/agravos/RAIVAN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
+
+### Sífilis Congênita
+
+-  [Ficha de notificação](assets/sinan/agravos/SIFICN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf)
+-  [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/SIFICN_DIC_DADOS.pdf)
+
+### Sífilis em Gestante
+
+-  [Ficha de notificação](assets/sinan/agravos/SIFIGEN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf)
+-  [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf
+-  [Dicionário de dados](assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf)
+
+### Síndrome da Rubéola Congênita
+
+-  [Ficha de notificação](assets/sinan/agravos/SRCN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/SRCN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/SRCN_DIC_DADOS.pdf)
+
+### Tétano Acidental
+
+-  [Ficha de notificação](assets/sinan/agravos/TETACN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
+
+### Tétano Neonatal
+
+-  [Ficha de notificação](assets/sinan/agravos/TETANN_FICHA.pdf)
+-  [Instrucional](assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/TETANN_DIC_DADOS.pdf)
+
+### Tuberculose
+
+-  [Ficha de notificação](assets/sinan/agravos/TUBEN_FICHA.pdf)
+-  [Ficha de acompanhamento](assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf)
+-  [Instrucional](assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
+
+### Violência Interpessoal/Autoprovocada
+
+-  [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
+-  [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
+
+## Acesso aos dados
+
+### TabNet
+
+Os dados do SINAN podem ser acessados no sistema TabNet do DataSUS, na seção "Epidemiológicas e Morbidade".
+
+-  [TabNet SINAN](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
+
+### TabWin
+
+Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+
+-  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+
+### R
+
+Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+
+```{r}
+#| message: false
+library(microdatasus)
+
+sinan_raw <- fetch_datasus(
+  year_start = 2017,
+  year_end = 2017,
+  information_system = "SINAN-DENGUE"
+)
+
+sinan_p <- process_sinan_dengue(sinan_raw)
+
+sinan_p
+```
+
+## Bibliografia recomendada
+
+### Documentos auxiliares
+
+-  [Manual do Sistema](assets/sinan/manual_sinan.pdf)
+-  [Manual de Normas e Rotinas](assets/sinan/manual_normas_rotinas_2ed.pdf)
+
+### Videos
+
+{{< video https://www.youtube.com/watch?v=czwBtHR8g7c >}}

@@ -1,1 +1,82 @@
-# SIA -- Sistema de Informações Ambulatoriais
+# SIA -- Sistema de Informações Ambulatoriais do SUS
+
+## Resumo
+
+-  Ano de criação: 1994
+-  Cobertura: Dimensões pública do SUS
+-  Unidade: Autorização de Procedimento Ambulatorial (AP)
+-  Divulgação de dados: mensal, com até dois meses  de defasagem
+
+## Histórico e organização
+
+O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada.
+
+## Estrutura dos dados
+
+Confira o documento de [estrutura do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf), onde estão descritas as variáveis disponíveis.
+
+Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.
+
+### Arquivos de Procedimentos Ambulatoriais
+
+Os procedimentos ambulatoriais se dividem em "comuns", denominado "PA", de "alta complexidade", denominado "APAC".
+
+Os arquivos de APAC se dividem nas seguintes subcategorias:
+
+-  Laudos diversos (AD)
+-  Medicamentos (AM)
+-  Nefrologia (AN)
+-  Quimioterapia (AQ)
+-  Radioterapia (AR)
+-  Cirurgia Bariátrica (AB)
+-  Confecção de Fístula Arteriovenosa (ACF)
+-  Tratamento Dialítico (ATD)
+
+### Registro das Ações ambulatoriais de saúde
+
+-  Atenção Domiciliar (SAD)
+-  Psicossocial (PS)
+
+### Boletim de Produção Ambulatorial Individualizado 
+
+-  BPA-I
+
+## Acesso aos dados
+
+### TabNet
+
+Os dados do SIA podem ser acessados no sistema TabNet do DataSUS, na seção "Assistência à Saúde".
+
+-  [TabNet SIA](https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/)
+
+### TabWin
+
+Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+
+-  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+
+### R
+
+Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+
+```{r}
+#| message: false
+library(microdatasus)
+
+sia_raw <- fetch_datasus(
+  year_start = 2021,
+  month_start = 1,
+  year_end = 2021,
+  month_end = 2,
+  uf = "AC",
+  information_system = "SIA-PA"
+)
+
+head(sia_raw)
+```
+
+## Bibliografia recomendada
+
+### Documentos auxiliares
+
+-  [Manual operacional](assets/sia/Manual_Operacional_SIA2010.pdf)
