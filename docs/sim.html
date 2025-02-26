@@ -224,7 +224,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sih.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIH – Sistema de Informações Hospitalares</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIH – Sistema de Informações Hospitalares do SUS</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -259,14 +259,20 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./sisvan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./siops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sipni.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIPNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SIPNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -317,7 +323,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">3.1</span> Resumo</a></li>
   <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">3.2</span> Histórico e organização</a></li>
   <li><a href="#modelo-da-declaração-de-óbito" id="toc-modelo-da-declaração-de-óbito" class="nav-link" data-scroll-target="#modelo-da-declaração-de-óbito"><span class="header-section-number">3.3</span> Modelo da Declaração de Óbito</a></li>
-  <li><a href="#estrutura-e-dicionário-de-dados" id="toc-estrutura-e-dicionário-de-dados" class="nav-link" data-scroll-target="#estrutura-e-dicionário-de-dados"><span class="header-section-number">3.4</span> Estrutura e dicionário de dados</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">3.4</span> Estrutura dos dados</a></li>
   <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">3.5</span> Acesso aos dados</a>
   <ul class="collapse">
   <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">3.5.1</span> TabNet</a></li>
@@ -330,9 +336,8 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
   <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">3.7</span> Bibliografia recomendada</a>
   <ul class="collapse">
   <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">3.7.1</span> Documentos auxiliares</a></li>
-  <li><a href="#vídeos-recomendados" id="toc-vídeos-recomendados" class="nav-link" data-scroll-target="#vídeos-recomendados"><span class="header-section-number">3.7.2</span> Vídeos recomendados</a></li>
-  <li><a href="#qualidade-do-preenchimento-dos-dados" id="toc-qualidade-do-preenchimento-dos-dados" class="nav-link" data-scroll-target="#qualidade-do-preenchimento-dos-dados"><span class="header-section-number">3.7.3</span> Qualidade do preenchimento dos dados</a></li>
-  <li><a href="#indicadores-de-saúde" id="toc-indicadores-de-saúde" class="nav-link" data-scroll-target="#indicadores-de-saúde"><span class="header-section-number">3.7.4</span> Indicadores de saúde</a></li>
+  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">3.7.2</span> Vídeos</a></li>
+  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">3.7.3</span> Avaliação da qualidade dos dados</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -364,13 +369,13 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 <ul>
 <li>Ano de criação: 1975</li>
 <li>Cobertura: Dimensões pública e privada do SUS</li>
-<li>Unidade: Declaração de Óbito</li>
+<li>Unidade: Declaração de Óbito (DO)</li>
 <li>Divulgação de dados: anual, com um ano de defasagem</li>
 </ul>
 </section>
 <section id="histórico-e-organização" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">3.2</span> Histórico e organização</h2>
-<p>O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. Um histórico mais completo sobre o SIM está disponível em um <a href="assets/sim/INTRO.pdf">documento escrito pelo DataSUS</a>.</p>
+<p>O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada.</p>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -382,7 +387,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </div>
 </div>
 <p>Este instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.</p>
-<p>O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na <a href="#fig-do" class="quarto-xref">Figura&nbsp;<span>3.1</span></a>. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.</p>
+<p>O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na <a href="sinasc.html#fig-do" class="quarto-xref">Figura&nbsp;<span>4.1</span></a>. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-do" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -414,6 +419,7 @@ Figura&nbsp;3.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 <p>A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a <em>causa básica do óbito</em> e demais <em>causas secundárias</em>, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.</p>
 <p>A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontrado um número excessivo de declarações de óbito com causas mal definidas <span class="citation" data-cites="sennaSistemaInformacoesSobre2009">(<a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>)</span>.</p>
 <p>Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no <a href="assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf">manual de preenchimento</a>, disponibilizado pelo Ministério da Saúde.</p>
+<p>Um histórico mais aprofundado sobre a construção e evolução do SIM está disponível <a href="assets/sim/INTRO.pdf">neste documento</a>.</p>
 </section>
 <section id="modelo-da-declaração-de-óbito" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="modelo-da-declaração-de-óbito"><span class="header-section-number">3.3</span> Modelo da Declaração de Óbito</h2>
@@ -424,9 +430,9 @@ Figura&nbsp;3.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </figure>
 </div>
 </section>
-<section id="estrutura-e-dicionário-de-dados" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="estrutura-e-dicionário-de-dados"><span class="header-section-number">3.4</span> Estrutura e dicionário de dados</h2>
-<p>Confira o documento de <a href="assets/sim/Estrutura_SIM_para_CD.pdf">estrutura do SIM</a>.</p>
+<section id="estrutura-dos-dados" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">3.4</span> Estrutura dos dados</h2>
+<p>Confira o documento de <a href="assets/sim/Estrutura_SIM_para_CD.pdf">estrutura do SIM</a>, onde estão descritas as variáveis disponíveis.</p>
 </section>
 <section id="acesso-aos-dados" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">3.5</span> Acesso aos dados</h2>
@@ -502,7 +508,7 @@ Figura&nbsp;3.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </section>
 <section id="principais-usos-e-indicadores" class="level2" data-number="3.6">
 <h2 data-number="3.6" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">3.6</span> Principais usos e indicadores</h2>
-<p>Segundo a RIPSA <span class="citation" data-cites="OPAS2008">(<a href="referencias.html#ref-OPAS2008" role="doc-biblioref">INFORMAÇÃO PARA A SAÚDE, 2008</a>)</span>, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes:</p>
+<p>Segundo <span class="citation" data-cites="OPAS2008">RIPSA (<a href="referencias.html#ref-OPAS2008" role="doc-biblioref">2008</a>)</span>, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:</p>
 <ul>
 <li>Taxa de mortalidade infantil</li>
 <li>Taxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal</li>
@@ -510,6 +516,7 @@ Figura&nbsp;3.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 <li>Razão de mortalidade materna</li>
 <li>Mortalidade proporcional por grupos de causas</li>
 </ul>
+<p>Consulte o <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf">livro da RIPSA</a> para maiores detalhes sobre esses e outros indicadores.</p>
 </section>
 <section id="bibliografia-recomendada" class="level2" data-number="3.7">
 <h2 data-number="3.7" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">3.7</span> Bibliografia recomendada</h2>
@@ -522,21 +529,32 @@ Figura&nbsp;3.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 <li><a href="assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf">A Declaração de Óbito: documento necessário e importante</a></li>
 </ul>
 </section>
-<section id="vídeos-recomendados" class="level3" data-number="3.7.2">
-<h3 data-number="3.7.2" class="anchored" data-anchor-id="vídeos-recomendados"><span class="header-section-number">3.7.2</span> Vídeos recomendados</h3>
+<section id="vídeos" class="level3" data-number="3.7.2">
+<h3 data-number="3.7.2" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">3.7.2</span> Vídeos</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I_wFPYkDbF8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/DuyB5bsz7yM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="qualidade-do-preenchimento-dos-dados" class="level3" data-number="3.7.3">
-<h3 data-number="3.7.3" class="anchored" data-anchor-id="qualidade-do-preenchimento-dos-dados"><span class="header-section-number">3.7.3</span> Qualidade do preenchimento dos dados</h3>
-</section>
-<section id="indicadores-de-saúde" class="level3" data-number="3.7.4">
-<h3 data-number="3.7.4" class="anchored" data-anchor-id="indicadores-de-saúde"><span class="header-section-number">3.7.4</span> Indicadores de saúde</h3>
+<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="3.7.3">
+<h3 data-number="3.7.3" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">3.7.3</span> Avaliação da qualidade dos dados</h3>
+<ul>
+<li>Artigo <em>Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil</em> <span class="citation" data-cites="cavalcanteQualidadeDosRegistros2023">(<a href="referencias.html#ref-cavalcanteQualidadeDosRegistros2023" role="doc-biblioref">CAVALCANTE; SANTANA, 2023</a>)</span>. Disponível <a href="https://doi.org/10.1590/1414-462X202331040547">aqui</a>.</li>
+<li>Artigo <em>Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC</em>. <span class="citation" data-cites="jorgeAnaliseQualidadeEstatisticas2007">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>)</span>. Disponível <a href="https://doi.org/10.1590/S1413-81232007000300014">aqui</a>.</li>
+<li>Artigo <em>Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review</em>. <span class="citation" data-cites="reboucasAvaliacaoQualidadeSistema2025">(<a href="referencias.html#ref-reboucasAvaliacaoQualidadeSistema2025" role="doc-biblioref">REBOUÇAS et al., 2025</a>)</span>. Disponível <a href="https://doi.org/10.1590/1413-81232025301.08462023">aqui</a>.</li>
+</ul>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-cavalcanteQualidadeDosRegistros2023" class="csl-entry" role="listitem">
+CAVALCANTE, F.; SANTANA, V. S. <a href="https://doi.org/10.1590/1414-462x202331040547"><span>Qualidade dos registros de ocupa<span>ç</span><span>ã</span>o das doen<span>ç</span>as associadas ao asbesto no sistema de informa<span>ç</span><span>ã</span>o sobre mortalidade, Brasil</span></a>. <strong>Cadernos Sa<span>ú</span>de Coletiva</strong>, v. 31, n. 4, p. e31040547, 2023.
+</div>
+<div id="ref-jorgeAnaliseQualidadeEstatisticas2007" class="csl-entry" role="listitem">
+JORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. <a href="https://doi.org/10.1590/S1413-81232007000300014"><span>An<span>á</span>lise da qualidade das estat<span>í</span>sticas vitais brasileiras: a experi<span>ê</span>ncia de implanta<span>ç</span><span>ã</span>o do SIM e do SINASC</span></a>. <strong>Ci<span>ê</span>ncia &amp; Sa<span>ú</span>de Coletiva</strong>, v. 12, n. 3, p. 643–654, jun. 2007.
+</div>
+<div id="ref-reboucasAvaliacaoQualidadeSistema2025" class="csl-entry" role="listitem">
+REBOUÇAS, P. et al. <a href="https://doi.org/10.1590/1413-81232025301.08462023"><span>Avalia<span>ç</span><span>ã</span>o da qualidade do Sistema Brasileiro de Informa<span>ç</span><span>õ</span>es sobre Mortalidade (SIM): uma scoping review</span></a>. <strong>Ci<span>ê</span>ncia &amp; Sa<span>ú</span>de Coletiva</strong>, v. 30, n. 1, p. e08462023, jan. 2025.
+</div>
 <div id="ref-OPAS2008" class="csl-entry" role="listitem">
-INFORMAÇÃO PARA A SAÚDE, R. I. DE. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
+RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
 </div>
 <div id="ref-sennaSistemaInformacoesSobre2009" class="csl-entry" role="listitem">
 SENNA, M. DE C. M. Sistema de <span>Informa<span>ç</span><span>õ</span>es</span> Sobre <span>Mortalidade</span> (<span>SIM</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.

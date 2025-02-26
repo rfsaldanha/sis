@@ -1,1 +1,120 @@
 # SINASC -- Sistema de Informação sobre Nascidos Vivos
+
+## Resumo
+
+-  Ano de criação: 1990
+-  Cobertura: Dimensões pública e privada do SUS
+-  Unidade: Declaração de Nascido Vivo (DNV)
+-  Divulgação de dados: anual, com um ano de defasagem
+
+## Histórico e organização
+
+O SINASC foi concebido estruturalmente de maneira semelhante ao SIM. A partir de 1990, ele passa a ser implantado nacionalmente, de forma gradual e planejada, pelo Ministério da Saúde, apresentando dados consolidados a partir de 1994. Em seu funcionamento inicial, o SINASC enfrentou problemas de cobertura, principalmente nas regiões Norte e Nordeste, e também apresentava poucas rotinas internas de controle de qualidade que foram posteriormente criadas, tão como questões sobre dupla entrada de dados foram solucionadas. @szwarcwaldAvaliacaoInformacoesSistema2019 estima que a abrangência do SINASC seja superior a 90% dos nascidos vivos na maioria das Unidades da Federação, ainda que coberturas inferiores a 60% sejam encontrados em alguns municípios localizados nas áreas mais remotas e empobrecidas do país, o que demonstra a necessidade de esforços do poder público para o aumento da cobertura do SINASC.
+
+O documento básico do SINASC é a *Declaração de Nascido Vivo (DNV)*, padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV também é emitida em três vias e distribuída gratuitamente, seguindo o seguinte fluxo: a primeira via da DNV é retida pela unidade de saúde e encaminhada para a secretaria municipal de saúde, a segunda via é entregue à família para ser apresentada no Registro Civil, e que validará a obtenção do Certidão de Nascimento, já a terceira via é arquivada junto ao prontuário médico do recém-nascido na unidade de saúde. 
+
+```{mermaid}
+%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo "
+%%| label: fig-do
+
+flowchart TD
+dn[Declaração de Nascido Vivo] --> via1[1a Via]
+dn --> via2[2a Via]
+dn --> via3[3a Via]
+
+via1 --> sms[Secretaria Municipal de Saúde]
+
+via2 --> fam[Família]
+fam --> rg[Registro Civil]
+rg --> ao[Certidão de Nascimento]
+
+via3 --> es[Estabelecimento de Saúde]
+```
+
+O SINASC apresenta informações sobre as condições de saúde do nascido vivo
+
+circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.
+
+::::: {.callout}
+Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade [@viacavaSistemaInformacaoSobre2009]. 
+:::
+
+## Modelo da Declaração de Nascido Vivo
+
+![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv}
+
+## Estrutura dos dados
+
+Confira o documento de [estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf), onde estão descritas as variáveis disponíveis.
+
+## Acesso aos dados
+
+### TabNet
+
+Os dados do SINASC podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.
+
+-  [TabNet SINASC](https://datasus.saude.gov.br/nascidos-vivos-desde-1994)
+
+### TabWin
+
+Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+
+-  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+
+### R
+
+Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+
+```{r}
+#| message: false
+library(microdatasus)
+
+sinasc_raw <- fetch_datasus(
+  year_start = 2021,
+  year_end = 2021,
+  uf = "AC",
+  information_system = "SINASC"
+)
+
+sinasc_p <- process_sinasc(sinasc_raw)
+
+sinasc_p
+```
+
+### PCDaS
+
+Os dados do SINASC estão disponíveis na PCDaS para acesso via *notebooks*.
+
+-  [Dados SINASC](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-nascidos-vivos/)
+
+### Outras formas
+
+Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados pr eliminares do ano corrente.
+
+-  [OpenDataSUS - SINASC](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc)
+
+## Principais usos e indicadores
+
+Segundo @OPAS2008, os dados do SINASC são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:
+
+-  Taxa de fecundidade total
+-  Taxa específica de fecundidade
+-  Taxa bruta de natalidade
+
+Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para maiores detalhes sobre esses e outros indicadores.
+
+## Bibliografia recomendada
+
+### Documentos auxiliares
+
+-  [Estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf)
+-  [Manual de preenchimento da Declaração de Nascido Vivo](assets/sinasc/declaracao-nascido-vivo-manual-instrucoes-preenchimento.pdf)
+
+### Vídeos
+
+{{< video https://www.youtube.com/watch?v=7-KFz_8vdjk >}}
+
+### Avaliação da qualidade dos dados
+
+-  Artigo *Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura* [@pedrazaQualidadeSistemaInformacoes2012]. Disponível [aqui](https://doi.org/10.1590/S1413-81232012001000021).
+-  Artigo *Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007* [@luquettiQualidadeNotificacaoAnomalias2010]. Disponível [aqui](https://doi.org/10.1590/S0102-311X2010000900009).

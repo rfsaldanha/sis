@@ -6,6 +6,6 @@ A rápida disponibilidade de dados confiáveis é essencial para a tomada de dec
 Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001]. 
 :::
 
-
-
 O emprego do termo "sistema" implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. Este contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS [@worldhealthorganisationFrameworkStandardsCountry2008]. Cientes de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.
+
+![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#ciclo_vida_sistemas}
