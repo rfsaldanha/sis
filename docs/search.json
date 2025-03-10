@@ -474,7 +474,7 @@
     "href": "cid.html",
     "title": "Apêndice A — CID – Classificação Internacional de Doenças",
     "section": "",
-    "text": "A.1 Histórico",
+    "text": "A.1 Histórico\nOs códigos da Classificação Internacional de Doenças estão presentes em diversos SIS, sendo um importante componente para a descrição de eventos de saúde como óbitos e internações. Este apêndice visa apresentar as principais características dessa classificação.\nAs primeiras classificações de doenças se iniciaram com os trabalhos de John Graunt (1620 – 1674) e a construção de tabelas de mortalidade em Londres. A classificação pioneira visava normatizar e permitir a comparação das principais causas de óbito no tempo.\nOutras classificações de doenças foram também propostas por William Farr (1807 – 1883), visando melhor padronizar a nomenclatura das doenças e causas de óbito.\nO Instituto Internacional de Estatística criou um comitê em 1891, chefiado por Jacques Bertillon (1851-1922), para preparar uma nova classificação de causas de óbito. A classificação proposta por este grupo se inspirou na classificação usada na cidade de Paris, recebendo boa aprovação e utilização em países da Europa, EUA e Canadá.\nSucessivas revisões foram realizadas no decorrer do tempo, visando melhor normatizar a nomenclatura e estrutura hierárquica das causas de óbito.\nA Organização Mundial da Saúde (OMS), criada em 1948, passou a se responsabilizar pela manutenção e atualização da classificação de causas de óbito.\nUma descrição histórica da CID mais completa pode ser encontrada neste documento.",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
@@ -485,7 +485,7 @@
     "href": "cid.html#estrutura",
     "title": "Apêndice A — CID – Classificação Internacional de Doenças",
     "section": "A.2 Estrutura",
-    "text": "A.2 Estrutura",
+    "text": "A.2 Estrutura\nA CID segue uma estrutura hierárquica de capítulos, categorias e subcategorias, agrupando causas específicas seguindo em geral um ordenamento biológico vinculado aos órgãos e aparelhos do corpo humano.\nOs capítulos são descritos por números romanos. Já as categorias, subcategorias e causas seguem um sistema de letras e números.\nExemplo: “Cólera devida a Vibrio cholerae 01, biótipo El Tor” na CID-10:\n\nCapítulo I: Algumas doenças infecciosas e parasitárias\nCategoria A00-B99: Doenças infecciosas intestinais\nSubcategoria A00: Cólera\nCódigo A00.1: Cólera El Tor",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
