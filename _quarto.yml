@@ -11,8 +11,6 @@ book:
   title: "Sistemas de Informação em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   date: today
-  doi: 10.5281/zenodo.14933369
-  issn: xxx
   search: true
   downloads: [pdf, epub]
   google-analytics: G-2M7VLSRDCB
@@ -45,7 +43,8 @@ csl: abnt.csl
 format:
   html:
     theme:
-      - journal
+      light: journal
+      dark: darkly
   pdf:
     documentclass: scrreprt
   epub: 
