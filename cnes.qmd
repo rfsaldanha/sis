@@ -113,3 +113,4 @@ Os dados do CNES estão disponíveis na PCDaS para acesso via *notebooks*.
 -  Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
 -  Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
 -  Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).
+

@@ -32,7 +32,7 @@ book:
     #- sisagua.qmd
     #- siops.qmd
     #- sipni.qmd
-    #- referencias.qmd
+    - referencias.qmd
   appendices:
     - cid.qmd
     #- pop.qmd

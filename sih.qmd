@@ -92,3 +92,4 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 ### Avaliação da qualidade dos dados
 
 -  Artigo *Qualidade das bases de dados hospitalares no Brasil: alguns elementos* [@machadoQualidadeBasesDados2016]. Disponível [aqui](https://doi.org/10.1590/1980-5497201600030008).
+
