@@ -8,7 +8,7 @@ execute:
 lang: pt 
 
 book:
-  title: "Sistemas de Informações em Saúde no Brasil"
+  title: "Sistemas de Informação em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   date: today
   doi: 10.5281/zenodo.14933369
