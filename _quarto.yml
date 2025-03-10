@@ -8,7 +8,7 @@ execute:
 lang: pt 
 
 book:
-  title: "Sistemas de Informações em Saúde do Brasil"
+  title: "Sistemas de Informações em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   date: today
   doi: 10.5281/zenodo.14933369
@@ -26,18 +26,18 @@ book:
     - sia.qmd
     - sinan.qmd
     - cnes.qmd
-    - siab.qmd
-    - sivep.qmd
-    - sisvan.qmd
-    - sisagua.qmd
-    - siops.qmd
-    - sipni.qmd
-    - referencias.qmd
+    #- siab.qmd
+    #- sivep.qmd
+    #- sisvan.qmd
+    #- sisagua.qmd
+    #- siops.qmd
+    #- sipni.qmd
+    #- referencias.qmd
   appendices:
     - cid.qmd
-    - pop.qmd
-    - pns.qmd
-    - rnds.qmd
+    #- pop.qmd
+    #- pns.qmd
+    #- rnds.qmd
 
 bibliography: references.bib
 csl: abnt.csl
@@ -45,8 +45,7 @@ csl: abnt.csl
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - journal
   pdf:
     documentclass: scrreprt
   epub: 

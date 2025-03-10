@@ -39,7 +39,7 @@ via3 --> es[Estabelecimento de Saúde]
 
 A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a *causa básica do óbito* e demais *causas secundárias*, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.
 
-A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontrado um número excessivo de declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
+A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
 
 Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
 

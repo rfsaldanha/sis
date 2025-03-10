@@ -1,11 +1,17 @@
 # Introdução
 
-A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus *sistemas de informações*, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
+A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus *sistemas de informaçãos*, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
 
 ::::: {.callout}
 Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001]. 
 :::
 
-O emprego do termo "sistema" implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. Este contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS [@worldhealthorganisationFrameworkStandardsCountry2008]. Cientes de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.
+O emprego do termo "sistema" implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. O conhecimento deste contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS [@worldhealthorganisationFrameworkStandardsCountry2008]. Ciente de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.
 
-![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#ciclo_vida_sistemas}
+No Brasil, os SIS pretender cobrir uma série de eventos de saúde que ocorrem durante o ciclo de vida do cidadão, tão como sobre o próprio sistema de saúde. Alguns exemplos de eventos de saúde são nascimentos, internações, imunizações e óbitos, entre outros. 
+
+A @fig-ciclo-vida-sistemas apresenta as siglas de alguns dos principais SIS existentes no Brasil.
+
+![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#fig-ciclo-vida-sistemas}
+
+O objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.

@@ -1,1 +1,115 @@
 # CNES -- Cadastro Nacional de Estabelecimentos de Saúde
+
+## Resumo
+
+-  Ano de criação: 2000
+-  Cobertura: Dimensões pública e privada do SUS
+-  Unidade: Ficha de cadastro
+-  Divulgação de dados: mensal, com até dois meses de defasagem
+
+## Histórico e organização
+
+Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS) realizada pelo IBGE. No mesmo ano, foi implantado o o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH) no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH seja administrativo, para pagamento de serviços prestados, sua implantação demandou a construção de fichas cadastrais de estabelecimentos e de profissionais de saúde.
+
+O SNCPCH foi estinto em 1980, mas suas fichas continuaram ativas compondo o o Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e o SIH, na década de 1990. Após a implantação do SIA em 1994 e verificação de inconsistências nos dados sobre os estabelecimentos de saúde, foi implantada a ficha Ficha de Cadastro de Estabelecimentos de Saúde -- FCES (Portaria n° 1890/GM/MS/1997), sendo continuamente aperfeiçoada.
+
+Após a consolidação da FCES, a portaria 403/SAS/MS/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), com um escopo ainda limitado, visando subsidiar principalmente o processo de faturamento no SIA e SIH, e parcialmente pesquisas estatísticas.
+
+Com avanços sobre o modelo de pactuação de cadastramento na Comissão Intergestores Tripartite (CIT) e realização de consultas públicas, a primeira versão do CNES é disponibilizada em 2001. Ainda neste ano também é iniciado um processo de recadastramento informatizado, que se estendeu até 2003.
+
+O CNES apresenta atualmente dados cadastrais sobre todos os estabelecimentos de saúde, profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares no território nacional. O código único do CNES é utilizado em sistemas como o SIH e SIA para referenciar a unidade de saúde onde a hospitalização e os procedimentos ambulatoriais ocorreram. 
+
+::::: {.callout}
+Estabelecimento de saúde é definido como o espaço físico delimitado e permanente onde são realizados ações e serviços de saúde humana sob responsabilidade técnica (art. 360, da PRC/MS nº 01/2017).
+:::
+
+Em termos de dimensão, para o mês de abril de 2020, o CNES apresenta 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023]. 
+
+Como se trata de um cadastro, suas informações são atualizadas permanentemente e os dados históricos de todos os meses anteriores estão disponíveis para acesso, sendo possível acompanhar mensalmente a evolução da rede de unidades de saúde no Brasil, tão como a dinâmica dos profissionais no sistema de saúde. 
+
+Mais informações sobre o CNES podem ser encontradas [aqui](https://wiki.saude.gov.br/cnes/index.php/Página_principal).
+
+## Estrutura dos dados
+
+Os dados do CNES são apresentados nos seguintes recortes:
+
+-  Estabelecimentos (ST): a partir de agosto de 2005
+-  Estabelecimento de Ensino (EE): a partir de março de 2007
+-  Estabelecimento filantrópico (EF): a partir de março de 2007
+-  Profissional (PF): a partir de agosto de 2005
+-  Equipes (EP): a partir de abril de 2007
+-  Equipamentos (EQ): a partir de agosto de 2005
+-  Gestão e metas (GM): a partir de junho de 2007
+-  Habilitação (HB): a partir de março de 2007
+-  Incentivos (IN): a partir de novembro de 2007
+-  Leitos (LT): a partir de outubro de 2005
+-  Regra Contratutal (RC): a partir de março de 2007
+-  Serviço Especializado (SR): a partir de agosto de 2005
+-  Dados complementares (DC): a partir de agosto de 2005
+
+Confira o documento de [estrutura do CNES](assets/cnes/IT_CNES_1706.pdf), onde estão descritas as variáveis disponíveis.
+
+## Acesso aos dados
+
+### Consulta direta
+
+É possível realizar a consulta direta de fichas sobre estabelecimentos e profissionais de saúde diretamente no [site do CNES](https://cnes.datasus.gov.br).
+
+### Outras formas
+
+Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares.
+
+-  [OpenDataSUS - CNES](https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude)
+-  [OpenDataSUS - Monitoramento do CNES](https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes)
+-  [OpenDataSUS - Hospitais e leitos](https://opendatasus.saude.gov.br/dataset/hospitais-e-leitos)
+-  [OpenDataSUS - Unidades Básicas de Saúde](https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs)
+
+### TabNet
+
+Os dados do CNES podem ser acessados no sistema TabNet do DataSUS, na seção "Rede Assistencial".
+
+-  [TabNet SINAN](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
+
+### TabWin
+
+Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+
+-  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+
+### ElasticCNES
+
+O DataSUS apresenta alguns [painéis do CNES](https://elasticnes.saude.gov.br) construídos a partir da tecnologia ElasticSearch.
+
+### R
+
+Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+
+```{r}
+#| message: false
+library(microdatasus)
+
+cnes_st_raw <- fetch_datasus(
+  year_start = 2021,
+  year_end = 2021,
+  month_start = 10,
+  month_end = 10,
+  uf = "AC",
+  information_system = "CNES-ST"
+)
+
+cnes_st_p <- process_cnes(cnes_st_raw, information_system = "CNES-ST")
+
+cnes_st_p
+```
+
+### PCDaS
+
+Os dados do CNES estão disponíveis na PCDaS para acesso via *notebooks*.
+
+-  [Dados CNES](https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/)
+
+## Bibliografia recomendada
+
+-  Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
+-  Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
+-  Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).

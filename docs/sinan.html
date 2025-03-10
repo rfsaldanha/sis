@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>7&nbsp; SINAN – Sistema de Informação de Agravos de Notificação – Sistemas de Informações em Saúde do Brasil</title>
+<title>7&nbsp; SINAN – Sistema de Informação de Agravos de Notificação – Sistemas de Informações em Saúde no Brasil</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,7 +94,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2db5a64a0f9238d29502e24e892d8c52.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -131,7 +131,39 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -159,19 +191,19 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Sistemas de Informações em Saúde do Brasil</a> 
+      <a href="./">Sistemas de Informações em Saúde no Brasil</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informações-em-Saúde-do-Brasil.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informações-em-Saúde-no-Brasil.pdf">
               <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informações-em-Saúde-do-Brasil.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informações-em-Saúde-no-Brasil.epub">
               <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -242,42 +274,6 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./siab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SIAB – Sistema de Informação de Atenção Básica</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sivep.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sisvan.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./siops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sipni.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SIPNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Referências</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
@@ -291,18 +287,6 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
   <div class="sidebar-item-container"> 
   <a href="./cid.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">CID – Classificação Internacional de Doenças</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pop.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Estimativas populacionais</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./rnds.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">RNDS – Rede Nacional de Dados em Saúde</span></span></a>
   </div>
 </li>
       </ul>
@@ -402,14 +386,62 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 </section>
 <section id="histórico-e-organização" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">7.2</span> Histórico e organização</h2>
-<p>O SINAN é um instrumento fundamental para a vigilância epidemiológica nacional, sendo responsável por coletar, transmitir e disseminar dados sobre uma lista de doenças e agravos de saúde, cuja notificação é compulsória em todo território nacional. A <a href="https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/lista-nacional-de-notificacao-compulsoria-de-doencas-agravos-e-eventos-de-saude-publica">lista de doenças e agravos</a> é atualizada permanentemente, conforme mudanças no cenário epidemiológico nacional, contando atualmente com 57 doenças e agravos <span class="citation" data-cites="msPortaria33282022 msPortaria4202022">(<a href="referencias.html#ref-msPortaria33282022" role="doc-biblioref">BRASIL, 2022a</a>, <a href="referencias.html#ref-msPortaria4202022" role="doc-biblioref">2022b</a>)</span>.</p>
+<p>O SINAN é um instrumento fundamental para a vigilância epidemiológica nacional, sendo responsável por coletar, transmitir e disseminar dados sobre uma lista de doenças e agravos de saúde, cuja notificação é compulsória em todo território nacional. A <a href="https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/lista-nacional-de-notificacao-compulsoria-de-doencas-agravos-e-eventos-de-saude-publica">lista de doenças e agravos</a> é atualizada permanentemente, conforme mudanças no cenário epidemiológico nacional, contando atualmente com 57 doenças e agravos <span class="citation" data-cites="msPortaria33282022 msPortaria4202022">(<a href="#ref-msPortaria33282022" role="doc-biblioref">BRASIL, 2022a</a>, <a href="#ref-msPortaria4202022" role="doc-biblioref">2022b</a>)</span>.</p>
 <p>Interessante observar que esta lista inclui, além de doenças infecto-contagiosas, a notificação compulsória de acidentes de trabalho, acidentes por animais peçonhentos, eventos adversos de vacinação, casos de óbito infantil e materno e casos de violência doméstica, sexual e tentativas de suicídio, permitindo ao sistema de saúde monitorar rapidamente diversos tipos de eventos de saúde de interesse.</p>
-<p>A implantação do SINAN, foi iniciada em 1993 de forma gradual, e enfrentou problemas iniciais relacionados a indefinições do fluxo de informações, gestão múltipla do sistema e limitações do programa informatizado. A regulamentação do funcionamento do SINAN foi alcançada em 1998, possibilitando ganhos de melhoria em seus dados <span class="citation" data-cites="caetanoSistemaInformacaoAgravos2009">(<a href="referencias.html#ref-caetanoSistemaInformacaoAgravos2009" role="doc-biblioref">CAETANO, 2009</a>)</span>.</p>
+<p>A implantação do SINAN, foi iniciada em 1993 de forma gradual, e enfrentou problemas iniciais relacionados a indefinições do fluxo de informações, gestão múltipla do sistema e limitações do programa informatizado. A regulamentação do funcionamento do SINAN foi alcançada em 1998, possibilitando ganhos de melhoria em seus dados <span class="citation" data-cites="caetanoSistemaInformacaoAgravos2009">(<a href="#ref-caetanoSistemaInformacaoAgravos2009" role="doc-biblioref">CAETANO, 2009</a>)</span>.</p>
 <p>A unidade fundamental de operação do SINAN são as <em>fichas de notificação</em>, que são diferenciadas para cada doença e agravo de notificação compulsória. Todo caso suspeito é notificado no SINAN, sendo lançado progressivamente dados referentes ao paciente e suas condições de saúde, além de informações sobre a investigação do caso, atividades de diagnóstico, resultados de exames e o desfecho final do caso. As informações do SINAN subsidiam análises epidemiológicas, acompanhamento de endemias e epidemias e apoiam ações de planejamento, gestão e monitoramento da saúde.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-do" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-do">flowchart TD
+cs[Caso suspeito] --&gt; us[Unidade de Saúde]
+us --&gt; not[Notificação do caso suspeito]
+not --&gt; sms[Secretaria Municipal de Saúde]
+sms --&gt; ses[Secretaria Estadual de Saúde]
+ses --&gt; ms[Ministério da Saúde]
+us --&gt; aco[Acompanhamento do caso suspeito]
+aco --&gt; exam[Exames clínicos e laboratoriais]
+exam --&gt; diag[Diagnóstico do caso]
+diag --&gt; conf(Caso confirmado)
+diag --&gt; desc(Caso descartado)
+diag --&gt; incon(Caso inconclusivo)
+conf --&gt; atua[Atualização do caso suspeito]
+desc --&gt; atua
+incon --&gt; atua
+atua --&gt; sms
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.1: Fluxo de emissão e destinação das vias da Declaração de Óbito
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">7.3</span> Estrutura dos dados</h2>
-<p>Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis.</p>
+<p>O SINAN apresenta dados para <em>todos os casos suspeitos notificados</em>, independente do diagnóstico final. Desta forma, para se obter o total de casos <em>confirmados</em> para determinada doença ou agravo, deve-se filtrar os dados segundo o diagnóstico final.</p>
+<p>Durante epidemias, observa-se no SINAN um aumento de casos notificados, que podem ou não serem confirmados posteriormente com o acompanhamento do caso.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Uma possível utilidade para se manter o registro dos casos descartados é o cálculo do <em>Indicador de Positividade</em>, que avalia a proporção de casos confirmados dentre os casos notificados.</p>
+<p><span class="math display">\[
+pos = \frac{c_c}{c_c + c_d + c_i}
+\]</span></p>
+<p>Onde <span class="math inline">\(c_c\)</span> são casos confirmados, <span class="math inline">\(c_d\)</span> são casos descartados e <span class="math inline">\(c_i\)</span> são casos com diagnóstico inconclusivo.</p>
+</div>
+</div>
+</div>
+<p>Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis, apresentados a seguir.</p>
 <section id="acidentes-por-animais-peçonhentos" class="level3" data-number="7.3.1">
 <h3 data-number="7.3.1" class="anchored" data-anchor-id="acidentes-por-animais-peçonhentos"><span class="header-section-number">7.3.1</span> Acidentes por Animais Peçonhentos</h3>
 <ul>
@@ -752,7 +784,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': true});
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/czwBtHR8g7c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
-<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list">
 <div id="ref-msPortaria4202022" class="csl-entry" role="listitem">
 BRASIL, M. DA S. Portaria <span>GM/MS</span> nº 420, de 2 de março de 2022. <strong>Diário Oficial da União</strong>, b2022.
 </div>
