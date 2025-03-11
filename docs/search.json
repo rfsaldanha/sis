@@ -485,7 +485,7 @@
     "href": "cid.html#estrutura",
     "title": "Apêndice A — CID – Classificação Internacional de Doenças",
     "section": "A.2 Estrutura",
-    "text": "A.2 Estrutura\nA CID segue uma estrutura hierárquica de capítulos, categorias e subcategorias, agrupando causas específicas seguindo em geral um ordenamento biológico vinculado aos órgãos e aparelhos do corpo humano.\nOs capítulos são descritos por números romanos. Já as categorias, subcategorias e causas seguem um sistema de letras e números.\nExemplo: “Cólera devida a Vibrio cholerae 01, biótipo El Tor” na CID-10:\n\nCapítulo I: Algumas doenças infecciosas e parasitárias\nCategoria A00-B99: Doenças infecciosas intestinais\nSubcategoria A00: Cólera\nCódigo A00.1: Cólera El Tor",
+    "text": "A.2 Estrutura",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
@@ -500,6 +500,17 @@
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html",
+    "href": "codmun.html",
+    "title": "Apêndice B — Código do município",
+    "section": "",
+    "text": "Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\n\n\n\n\n\n\nOs SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.\n\n\n\nA tabela abaixo, gerada com ajuda do pacote {geobr} apresenta os códigos dos municípios brasileiros.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Código do município</span>"
     ]
   }
 ]

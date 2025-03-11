@@ -33,6 +33,7 @@ book:
     - referencias.qmd
   appendices:
     - cid.qmd
+    - codmun.qmd
     #- pop.qmd
     #- pns.qmd
     #- rnds.qmd

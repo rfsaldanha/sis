@@ -1,0 +1,36 @@
+# Código do município
+
+Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.
+
+Os códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.
+
+::::: {.callout}
+Os SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.
+:::
+
+A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) apresenta os códigos dos municípios brasileiros. 
+
+```{r}
+#| message: false
+#| echo: false
+library(geobr)
+library(sf)
+library(dplyr)
+library(DT)
+
+mun <- read_municipal_seat() |>
+  st_drop_geometry() |>
+  mutate(code_muni = as.character(code_muni)) |>
+  select(-c(code_state, code_region, year)) |>
+  select(name_region, abbrev_state, name_muni, code_muni)
+
+datatable(
+  data = mun,
+  rownames = FALSE,
+  options = list(
+    language = list(
+      url = "//cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json"
+    )
+  )
+)
+```
