@@ -91,7 +91,7 @@ sim_p
 
 Você pode usar a biblioteca PySUS.
 
--  [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)```
+-  [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)
 
 ### PCDaS
 
