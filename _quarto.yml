@@ -14,7 +14,9 @@ book:
   date: today
   search: true
   # downloads: [pdf, epub]
-  google-analytics: G-2M7VLSRDCB
+  google-analytics: 
+    tracking-id: G-2M7VLSRDCB
+    anonymize-ip: false
   chapters:
     - index.qmd
     - introducao.qmd
