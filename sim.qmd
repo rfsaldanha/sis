@@ -87,6 +87,12 @@ sim_p <- process_sim(sim_raw)
 sim_p
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)```
+
 ### PCDaS
 
 Os dados do SIM estão disponíveis na PCDaS para acesso via *notebooks*.
