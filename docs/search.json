@@ -505,12 +505,12 @@
   {
     "objectID": "codmun.html",
     "href": "codmun.html",
-    "title": "Apêndice B — Código do município",
+    "title": "Apêndice B — Códigos dos municípios",
     "section": "",
-    "text": "Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\n\n\n\n\n\n\nOs SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.\n\n\n\nA tabela abaixo, gerada com ajuda do pacote {geobr} apresenta os códigos dos municípios brasileiros.",
+    "text": "Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\n\n\n\n\n\n\nOs SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.\n\n\n\nA tabela abaixo, gerada com ajuda do pacote {geobr} (PEREIRA; GONCALVES, 2024), apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa ‘Procurar’.\n\n\n\n\n\n\n\n\n\n\nPEREIRA, R. H. M.; GONCALVES, C. N. geobr: Download Official Spatial Data Sets of Brazil. [s.l: s.n.].",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Código do município</span>"
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Códigos dos municípios</span>"
     ]
   }
 ]

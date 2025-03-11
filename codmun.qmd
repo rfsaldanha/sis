@@ -1,4 +1,4 @@
-# Código do município
+# Códigos dos municípios
 
 Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.
 
@@ -8,7 +8,7 @@ Os códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Un
 Os SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.
 :::
 
-A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) apresenta os códigos dos municípios brasileiros. 
+A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa 'Procurar'.
 
 ```{r}
 #| message: false
