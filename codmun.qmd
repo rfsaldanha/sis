@@ -22,7 +22,12 @@ mun <- read_municipal_seat() |>
   st_drop_geometry() |>
   mutate(code_muni = as.character(code_muni)) |>
   select(-c(code_state, code_region, year)) |>
-  select(name_region, abbrev_state, name_muni, code_muni)
+  select(
+    `Região` = name_region,
+    `UF` = abbrev_state,
+    `Município` = name_muni,
+    `Código` = code_muni
+  )
 
 datatable(
   data = mun,
