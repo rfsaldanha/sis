@@ -29,11 +29,19 @@ Exemplo: "Cólera devida a Vibrio cholerae 01, biótipo El Tor" na CID-10:
 -  Subcategoria A00: Cólera
 -  Código A00.1: Cólera El Tor
 
+Você pode acessar e explorar o catálogo da CID nos links abaixo:
+
+-  [CID-10 no DataSUS](http://www2.datasus.gov.br/cid10/V2008/WebHelp/listacateg.htm)
+-  [CID-10 na OMS](https://icd.who.int/browse10)
+-  [CID-11 na OMS](https://icd.who.int/browse/2025-01/mms/pt)
+
 
 ## Edições da CID no Brasil
 
-### CID-9
+O DataSUS usou a CID-9 até 1995, passando a divulgar dados considerando a CID-10 à partir de 1996. 
 
-### CID-10
+O Ministério da Saúde [participou ativamente](https://www.gov.br/saude/pt-br/assuntos/noticias/2022/julho/ministerio-da-saude-coordena-traducao-do-novo-codigo-internacional-de-doencas-para-a-lingua-portuguesa) da construção da CID-11, que entrou em vigor globalmente em 2022.
 
-### CID-11
+::::: {.callout}
+Atualmente, o DataSUS segue trabalhando com a CID-10 e estudando a transição dos SIS para a CID-11.
+:::
