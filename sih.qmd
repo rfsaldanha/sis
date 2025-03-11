@@ -62,6 +62,12 @@ sih_p <- process_sinasc(sih_raw)
 sih_p
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS SIH](https://pysus.readthedocs.io/en/latest/databases/SIH.html)
+
 ### PCDaS
 
 Os dados do SIH estão disponíveis na PCDaS para acesso via *notebooks*.

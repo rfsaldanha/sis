@@ -102,6 +102,12 @@ cnes_st_p <- process_cnes(cnes_st_raw, information_system = "CNES-ST")
 cnes_st_p
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS CNES](https://pysus.readthedocs.io/en/latest/databases/CNES.html)
+
 ### PCDaS
 
 Os dados do CNES estão disponíveis na PCDaS para acesso via *notebooks*.

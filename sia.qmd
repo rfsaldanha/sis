@@ -75,6 +75,12 @@ sia_raw <- fetch_datasus(
 head(sia_raw)
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS SIA](https://pysus.readthedocs.io/en/latest/databases/SIA.html)
+
 ## Bibliografia recomendada
 
 ### Documentos auxiliares

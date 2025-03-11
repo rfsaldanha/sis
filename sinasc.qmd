@@ -81,6 +81,12 @@ sinasc_p <- process_sinasc(sinasc_raw)
 sinasc_p
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS SINASC](https://pysus.readthedocs.io/en/latest/databases/SINASC.html)
+
 ### PCDaS
 
 Os dados do SINASC estão disponíveis na PCDaS para acesso via *notebooks*.

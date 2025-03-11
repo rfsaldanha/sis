@@ -296,6 +296,12 @@ sinan_p <- process_sinan_dengue(sinan_raw)
 sinan_p
 ```
 
+### Python
+
+Você pode usar a biblioteca PySUS.
+
+-  [PySUS SINAN](https://pysus.readthedocs.io/en/latest/databases/SINAN.html)
+
 ## Bibliografia recomendada
 
 ### Documentos auxiliares
