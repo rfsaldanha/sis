@@ -1,1 +1,30 @@
 # SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde
+
+## Resumo
+
+-  Ano de criação: 2000
+-  Cobertura: Dimensões pública do SUS
+-  Divulgação de dados: mensal, com até dois meses  de defasagem
+
+## Histórico e organização
+
+No Conselho Nacional de Saúde de 1993 foi lançada a ideia de criar um sistema de informações sobre despesas em saúde de todos os entes federados. A portaria MS/PGR nº 529 de 30 de abril de 1999 designou uma equipe para desenvolver o projeto de implantação do Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS), sendo institucionalizado pela Portaria Conjunta MS/PGR nº 1163, de 11 de outubro de 2000.
+
+O SIOPS é alimentado pelos estados, Distrito Federal e municípios pelo preencimento de um formulário em *software* desenvolvido pelo DataSUS, passando a ter o registro obrigatório à partir de 2023 (Lei Complementar nº 141, de 13 de janeiro de 2012). Os dados contidos no SIOPS são de natureza declaratória e buscam manter compatibilidade com as informações contábeis dos estados e municípios. 
+
+Um dos indicadores gerados pelo SIOPS é o do percentual de recursos próprios aplicados em ações e serviços públicos de saúde, que demonstra a situação relativa ao cumprimento da Constituição Federal. 
+
+Um histórico mais detalhado sobre o SIOPS pode ser consultado [aqui](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops).
+
+## Acesso aos dados
+
+O SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.
+
+-  [SIOPS - Indicadores](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores)
+
+## Bibliografia recomendada
+
+### Documentos auxiliares
+
+-  [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
+-  [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)

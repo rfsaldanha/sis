@@ -294,7 +294,7 @@
     "href": "sia.html#resumo",
     "title": "6  SIA – Sistema de Informações Ambulatoriais do SUS",
     "section": "",
-    "text": "Ano de criação: 1994\nCobertura: Dimensões pública do SUS\nUnidade: Autorização de Procedimento Ambulatorial (AP)\nDivulgação de dados: mensal, com até dois meses de defasagem",
+    "text": "Ano de criação: 1990\nCobertura: Dimensões pública do SUS\nUnidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial\nDivulgação de dados: mensal, com até dois meses de defasagem",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SIA -- Sistema de Informações Ambulatoriais do SUS</span>"
     ]
@@ -304,7 +304,7 @@
     "href": "sia.html#histórico-e-organização",
     "title": "6  SIA – Sistema de Informações Ambulatoriais do SUS",
     "section": "6.2 Histórico e organização",
-    "text": "6.2 Histórico e organização\nO Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada.",
+    "text": "6.2 Histórico e organização\nO Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada (particular).\nO SIA foi instituído pela Portaria GM/MS n.º 896 de 29 de junho de 1990 tendo origem no projeto SICAPS (Sistema de Informação e Controle Ambulatorial da Previdência Social).\nA implantação do SIA em território nacional se deu em 1995, com o uso do Boletim de Produção Ambulatorial Consolidado (BPA-C), onde era registrado apenas o procedimento realizado e a quantidade conforme profissional.\nA Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.\nEm 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identidicação do profissional e do paciente.\nMais detalhes sobre o histórico do SIA podem ser encontrados aqui.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SIA -- Sistema de Informações Ambulatoriais do SUS</span>"
     ]
@@ -314,7 +314,7 @@
     "href": "sia.html#estrutura-dos-dados",
     "title": "6  SIA – Sistema de Informações Ambulatoriais do SUS",
     "section": "6.3 Estrutura dos dados",
-    "text": "6.3 Estrutura dos dados\nConfira o documento de estrutura do SIA, onde estão descritas as variáveis disponíveis.\nOs dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.\n\n6.3.1 Arquivos de Procedimentos Ambulatoriais\nOs procedimentos ambulatoriais se dividem em “comuns”, denominado “PA”, de “alta complexidade”, denominado “APAC”.\nOs arquivos de APAC se dividem nas seguintes subcategorias:\n\nLaudos diversos (AD)\nMedicamentos (AM)\nNefrologia (AN)\nQuimioterapia (AQ)\nRadioterapia (AR)\nCirurgia Bariátrica (AB)\nConfecção de Fístula Arteriovenosa (ACF)\nTratamento Dialítico (ATD)\n\n\n\n6.3.2 Registro das Ações ambulatoriais de saúde\n\nAtenção Domiciliar (SAD)\nPsicossocial (PS)\n\n\n\n6.3.3 Boletim de Produção Ambulatorial Individualizado\n\nBPA-I",
+    "text": "6.3 Estrutura dos dados\nConfira o documento de estrutura do SIA, onde estão descritas as variáveis disponíveis.\n\n\n\n\n\n\nUm campo de grande interesse no SIA é o código do procedimento executado no atendimento ambulatorial. Este código é gerenciado por um outro sistema denominado Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS – SIGTAP.\nVocê pode consultar o SIGTAP aqui.\n\n\n\nOs dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.\n\n6.3.1 Arquivos de Procedimentos Ambulatoriais\nOs procedimentos ambulatoriais se dividem em “comuns”, denominado “PA”, de “alta complexidade”, denominado “APAC”.\nOs arquivos de APAC se dividem nas seguintes subcategorias:\n\nLaudos diversos (AD)\nMedicamentos (AM)\nNefrologia (AN)\nQuimioterapia (AQ)\nRadioterapia (AR)\nCirurgia Bariátrica (AB)\nConfecção de Fístula Arteriovenosa (ACF)\nTratamento Dialítico (ATD)\n\n\n\n6.3.2 Registro das Ações ambulatoriais de saúde\n\nAtenção Domiciliar (SAD)\nPsicossocial (PS)\n\n\n\n6.3.3 Boletim de Produção Ambulatorial Individualizado\n\nBPA-I",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SIA -- Sistema de Informações Ambulatoriais do SUS</span>"
     ]
@@ -460,6 +460,56 @@
     ]
   },
   {
+    "objectID": "siops.html",
+    "href": "siops.html",
+    "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
+    "section": "",
+    "text": "9.1 Resumo",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "siops.html#resumo",
+    "href": "siops.html#resumo",
+    "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
+    "section": "",
+    "text": "Ano de criação: 2000\nCobertura: Dimensões pública do SUS\nDivulgação de dados: mensal, com até dois meses de defasagem",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "siops.html#histórico-e-organização",
+    "href": "siops.html#histórico-e-organização",
+    "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
+    "section": "9.2 Histórico e organização",
+    "text": "9.2 Histórico e organização\nNo Conselho Nacional de Saúde de 1993 foi lançada a ideia de criar um sistema de informações sobre despesas em saúde de todos os entes federados. A portaria MS/PGR nº 529 de 30 de abril de 1999 designou uma equipe para desenvolver o projeto de implantação do Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS), sendo institucionalizado pela Portaria Conjunta MS/PGR nº 1163, de 11 de outubro de 2000.\nO SIOPS é alimentado pelos estados, Distrito Federal e municípios pelo preencimento de um formulário em software desenvolvido pelo DataSUS, passando a ter o registro obrigatório à partir de 2023 (Lei Complementar nº 141, de 13 de janeiro de 2012). Os dados contidos no SIOPS são de natureza declaratória e buscam manter compatibilidade com as informações contábeis dos estados e municípios.\nUm dos indicadores gerados pelo SIOPS é o do percentual de recursos próprios aplicados em ações e serviços públicos de saúde, que demonstra a situação relativa ao cumprimento da Constituição Federal.\nUm histórico mais detalhado sobre o SIOPS pode ser consultado aqui.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "siops.html#acesso-aos-dados",
+    "href": "siops.html#acesso-aos-dados",
+    "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
+    "section": "9.3 Acesso aos dados",
+    "text": "9.3 Acesso aos dados\nO SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.\n\nSIOPS - Indicadores",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "siops.html#bibliografia-recomendada",
+    "href": "siops.html#bibliografia-recomendada",
+    "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
+    "section": "9.4 Bibliografia recomendada",
+    "text": "9.4 Bibliografia recomendada\n\n9.4.1 Documentos auxiliares\n\nCartilha de orientação SIOPS\nPanfleto SIOPS",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
+    ]
+  },
+  {
     "objectID": "referencias.html",
     "href": "referencias.html",
     "title": "Referências",
@@ -507,7 +557,18 @@
     "href": "codmun.html",
     "title": "Apêndice B — Códigos dos municípios",
     "section": "",
-    "text": "Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\n\n\n\n\n\n\nOs SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.\n\n\n\nA tabela abaixo, gerada com ajuda do pacote {geobr} (PEREIRA; GONCALVES, 2024), apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa ‘Procurar’.\n\n\n\n\n\n\n\n\n\n\nPEREIRA, R. H. M.; GONCALVES, C. N. geobr: Download Official Spatial Data Sets of Brazil. [s.l: s.n.].",
+    "text": "B.1 Tabela de códigos\nDiversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\nA tabela abaixo, gerada com ajuda do pacote {geobr} (PEREIRA; GONCALVES, 2024), apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa ‘Procurar’.\nO projeto IBGE Cidades também é uma ótima forma de consultar os códigos dos municípios.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#criação-de-municípios-e-divisão-territorial-brasileira",
+    "href": "codmun.html#criação-de-municípios-e-divisão-territorial-brasileira",
+    "title": "Apêndice B — Códigos dos municípios",
+    "section": "B.2 Criação de municípios e Divisão Territorial Brasileira",
+    "text": "B.2 Criação de municípios e Divisão Territorial Brasileira\nO IBGE é responsável pela Divisão Territorial Brasileira (DTB), mantendo um histórico sobre a criação, extinção e junção de municípios, alterasões de divisas e outras modificações da DTB.\nAcesse a página da DTB para mais detalhes.\n\n\n\n\nPEREIRA, R. H. M.; GONCALVES, C. N. geobr: Download Official Spatial Data Sets of Brazil. [s.l: s.n.].",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Códigos dos municípios</span>"

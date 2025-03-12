@@ -27,11 +27,11 @@ book:
     - sia.qmd
     - sinan.qmd
     - cnes.qmd
+    - siops.qmd
     #- siab.qmd
     #- sivep.qmd
     #- sisvan.qmd
     #- sisagua.qmd
-    #- siops.qmd
     #- sipni.qmd
     - referencias.qmd
   appendices:
@@ -53,6 +53,3 @@ format:
   #  documentclass: scrreprt
   #epub: 
   #  toc: true
-
-
-

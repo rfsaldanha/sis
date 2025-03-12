@@ -210,6 +210,12 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./siops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./referencias.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Referências</span></a>
   </div>
@@ -294,19 +300,35 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <section id="resumo" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">6.1</span> Resumo</h2>
 <ul>
-<li>Ano de criação: 1994</li>
+<li>Ano de criação: 1990</li>
 <li>Cobertura: Dimensões pública do SUS</li>
-<li>Unidade: Autorização de Procedimento Ambulatorial (AP)</li>
+<li>Unidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial</li>
 <li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
 <section id="histórico-e-organização" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">6.2</span> Histórico e organização</h2>
-<p>O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada.</p>
+<p>O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada (particular).</p>
+<p>O SIA foi instituído pela Portaria GM/MS n.º 896 de 29 de junho de 1990 tendo origem no projeto SICAPS (Sistema de Informação e Controle Ambulatorial da Previdência Social).</p>
+<p>A implantação do SIA em território nacional se deu em 1995, com o uso do Boletim de Produção Ambulatorial Consolidado (BPA-C), onde era registrado apenas o procedimento realizado e a quantidade conforme profissional.</p>
+<p>A Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.</p>
+<p>Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identidicação do profissional e do paciente.</p>
+<p>Mais detalhes sobre o histórico do SIA podem ser encontrados <a href="https://wiki.saude.gov.br/sia/index.php/Página_principal">aqui</a>.</p>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">6.3</span> Estrutura dos dados</h2>
 <p>Confira o documento de <a href="assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf">estrutura do SIA</a>, onde estão descritas as variáveis disponíveis.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Um campo de grande interesse no SIA é o código do procedimento executado no atendimento ambulatorial. Este código é gerenciado por um outro sistema denominado Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS – SIGTAP.</p>
+<p>Você pode consultar o <a href="http://sigtap.datasus.gov.br">SIGTAP aqui</a>.</p>
+</div>
+</div>
+</div>
 <p>Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.</p>
 <section id="arquivos-de-procedimentos-ambulatoriais" class="level3" data-number="6.3.1">
 <h3 data-number="6.3.1" class="anchored" data-anchor-id="arquivos-de-procedimentos-ambulatoriais"><span class="header-section-number">6.3.1</span> Arquivos de Procedimentos Ambulatoriais</h3>

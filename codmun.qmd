@@ -8,6 +8,8 @@ Os códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Un
 Os SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.
 :::
 
+## Tabela de códigos
+
 A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa 'Procurar'.
 
 ```{r}
@@ -39,3 +41,11 @@ datatable(
   )
 )
 ```
+
+O projeto [IBGE Cidades](https://cidades.ibge.gov.br) também é uma ótima forma de consultar os códigos dos municípios.
+
+## Criação de municípios e Divisão Territorial Brasileira
+
+O IBGE é responsável pela Divisão Territorial Brasileira (DTB), mantendo um histórico sobre a criação, extinção e junção de municípios, alterasões de divisas e outras modificações da DTB.
+
+Acesse a [página da DTB](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html) para mais detalhes.

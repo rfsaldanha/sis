@@ -2,18 +2,34 @@
 
 ## Resumo
 
--  Ano de criação: 1994
+-  Ano de criação: 1990
 -  Cobertura: Dimensões pública do SUS
--  Unidade: Autorização de Procedimento Ambulatorial (AP)
+-  Unidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial
 -  Divulgação de dados: mensal, com até dois meses  de defasagem
 
 ## Histórico e organização
 
-O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada.
+O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada (particular).
+
+O SIA foi instituído pela Portaria GM/MS n.º 896 de 29 de junho de 1990 tendo origem no projeto SICAPS (Sistema de Informação e Controle Ambulatorial da Previdência Social). 
+
+A implantação do SIA em território nacional se deu em 1995, com o uso do Boletim de Produção Ambulatorial Consolidado (BPA-C), onde era registrado apenas o procedimento realizado e a quantidade conforme profissional.
+
+A Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.
+
+Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identidicação do profissional e do paciente.
+
+Mais detalhes sobre o histórico do SIA podem ser encontrados [aqui](https://wiki.saude.gov.br/sia/index.php/Página_principal).
 
 ## Estrutura dos dados
 
 Confira o documento de [estrutura do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf), onde estão descritas as variáveis disponíveis.
+
+::::: {.callout}
+Um campo de grande interesse no SIA é o código do procedimento executado no atendimento ambulatorial. Este código é gerenciado por um outro sistema denominado Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS -- SIGTAP.
+
+Você pode consultar o [SIGTAP aqui](http://sigtap.datasus.gov.br).
+:::
 
 Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.
 
