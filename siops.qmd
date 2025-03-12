@@ -18,9 +18,17 @@ Um histórico mais detalhado sobre o SIOPS pode ser consultado [aqui](https://ww
 
 ## Acesso aos dados
 
+### Dados agregados
+
 O SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.
 
 -  [SIOPS - Indicadores](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores)
+
+### Dados desagregados
+
+O SIOPS permite a consulta de dados desagregados por meio de uma API.
+
+-  [API SIOPS](https://opendatasus.saude.gov.br/dataset/siops)
 
 ## Bibliografia recomendada
 

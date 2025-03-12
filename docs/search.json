@@ -494,7 +494,7 @@
     "href": "siops.html#acesso-aos-dados",
     "title": "9  SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde",
     "section": "9.3 Acesso aos dados",
-    "text": "9.3 Acesso aos dados\nO SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.\n\nSIOPS - Indicadores",
+    "text": "9.3 Acesso aos dados\n\n9.3.1 Dados agregados\nO SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.\n\nSIOPS - Indicadores\n\n\n\n9.3.2 Dados desagregados\nO SIOPS permite a consulta de dados desagregados por meio de uma API.\n\nAPI SIOPS",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde</span>"
     ]
