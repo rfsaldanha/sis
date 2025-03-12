@@ -302,6 +302,13 @@ Você pode usar a biblioteca PySUS.
 
 -  [PySUS SINAN](https://pysus.readthedocs.io/en/latest/databases/SINAN.html)
 
+### InfoDengue
+
+O projeto InfoDengue, mantido pela FGV EMAp e Fiocruz, apresenta estimativas da incidência da Dengue a partir de dados do SINAN, usando técnicas de *nowcasting* para reduzir os efeitos do atraso de notificação. O acesso aos dados é possível por uma API.
+
+-  [InfoDengue](https://info.dengue.mat.br)
+-  [InfoDengue API](https://info.dengue.mat.br/services/)
+
 ## Bibliografia recomendada
 
 ### Documentos auxiliares

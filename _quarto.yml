@@ -29,7 +29,6 @@ book:
     - cnes.qmd
     - siops.qmd
     #- siab.qmd
-    #- sivep.qmd
     #- sisvan.qmd
     #- sisagua.qmd
     #- sipni.qmd
@@ -37,6 +36,7 @@ book:
   appendices:
     - cid.qmd
     - codmun.qmd
+    - sivep.qmd
     #- pop.qmd
     #- pns.qmd
     #- rnds.qmd

@@ -573,5 +573,49 @@
       "Apêndices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Códigos dos municípios</span>"
     ]
+  },
+  {
+    "objectID": "sivep.html",
+    "href": "sivep.html",
+    "title": "Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica",
+    "section": "",
+    "text": "C.1 SIVEP-Gripe\nDe forma complementar aos SIS, o Sistema de Vigilância Epidemiológica busca reunir dados de doenças específicas de modo a auxiliar a atuação da Vigilância Epidemiológica, contando com dados atualizados de forma mais rápida e fichas específicas.\nO SIVEP-Gripe foi implantado em 2000 vizando o monitoramento do vírus da gripe no país à partir de uma rede de vigilância sentinela da síndrome gripal.\nEm 2009, com a epidemia do vírus Influenza A (H1N1), o SIVEP-Gripe passou a também reunir dados sobre Síndrome Respiratória Aguda Grave (SRAG), contribuindo para a vigilância da circulação de vírus respiratórios no Brasil.\nEm 20 de março de 2020, com a declaração da transmissão comunitária de COVID-19 no Brasil, o SIVEP-Gripe passou por atualizações para registrar detalhes sobre casos da pandemia.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>SIVEP -- Sistema de Vigilância Epidemiológica</span>"
+    ]
+  },
+  {
+    "objectID": "sivep.html#sivep-gripe",
+    "href": "sivep.html#sivep-gripe",
+    "title": "Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica",
+    "section": "",
+    "text": "C.1.1 Acesso aos dados\nOs dados do SIVEP-Gripe são atualmente de acessíveis pelo público pelo OpenDataSUS.\n\nOpenDataSUS SRAG",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>SIVEP -- Sistema de Vigilância Epidemiológica</span>"
+    ]
+  },
+  {
+    "objectID": "sivep.html#sivep-malária",
+    "href": "sivep.html#sivep-malária",
+    "title": "Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica",
+    "section": "C.2 SIVEP-Malária",
+    "text": "C.2 SIVEP-Malária\nO SIVEP-Malária apresenta dados de vigilância epidemiológica da malária. Atualmente, o acesso aos dados são restritos.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>SIVEP -- Sistema de Vigilância Epidemiológica</span>"
+    ]
+  },
+  {
+    "objectID": "sivep.html#sivep-dda",
+    "href": "sivep.html#sivep-dda",
+    "title": "Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica",
+    "section": "C.3 SIVEP-DDA",
+    "text": "C.3 SIVEP-DDA\nO SIVEP-DDA apresenta dados de vigilância epidemiológica de Doenças Diarreicas Agudas (DDA). Atualmente, o acesso aos dados são restritos.\nAlguns dados agregados são apresentados em um painel de visualização interativo.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>SIVEP -- Sistema de Vigilância Epidemiológica</span>"
+    ]
   }
 ]

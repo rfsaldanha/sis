@@ -1,1 +1,27 @@
 # SIVEP -- Sistema de Vigilância Epidemiológica
+
+De forma complementar aos SIS, o Sistema de Vigilância Epidemiológica busca reunir dados de doenças específicas de modo a auxiliar a atuação da Vigilância Epidemiológica,  contando com dados atualizados de forma mais rápida e fichas específicas.
+
+## SIVEP-Gripe
+
+O SIVEP-Gripe foi implantado em 2000 vizando o monitoramento do vírus da gripe no país à partir de uma *rede de vigilância sentinela* da síndrome gripal. 
+
+Em 2009, com a epidemia do vírus Influenza A (H1N1), o SIVEP-Gripe passou a também reunir dados sobre Síndrome Respiratória Aguda Grave (SRAG), contribuindo para a vigilância da circulação de vírus respiratórios no Brasil.
+
+Em 20 de março de 2020, com a declaração da transmissão comunitária de COVID-19 no Brasil, o SIVEP-Gripe passou por atualizações para registrar detalhes sobre casos da pandemia.
+
+### Acesso aos dados
+
+Os dados do SIVEP-Gripe são atualmente de acessíveis pelo público pelo OpenDataSUS.
+
+-  [OpenDataSUS SRAG](https://opendatasus.saude.gov.br/dataset/?q=srag&sort=score+desc%2C+metadata_modified+desc)
+
+## SIVEP-Malária
+
+O SIVEP-Malária apresenta dados de vigilância epidemiológica da malária. Atualmente, o acesso aos dados são restritos.
+
+## SIVEP-DDA
+
+O SIVEP-DDA apresenta dados de vigilância epidemiológica de [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Atualmente, o acesso aos dados são restritos.
+
+Alguns dados agregados são apresentados em um [painel de visualização interativo](https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025).
