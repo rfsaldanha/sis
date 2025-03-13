@@ -30,13 +30,13 @@ book:
     - siops.qmd
     - sisagua.qmd
     #- siab.qmd
-    #- sisvan.qmd
     #- sipni.qmd
     - referencias.qmd
   appendices:
     - cid.qmd
     - codmun.qmd
     - sivep.qmd
+    - sisvan.qmd
     #- pop.qmd
     #- pns.qmd
     #- rnds.qmd
