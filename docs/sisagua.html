@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica – Sistemas de Informação em Saúde no Brasil</title>
+<title>10&nbsp; SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano – Sistemas de Informação em Saúde no Brasil</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./codmun.html" rel="prev">
+<link href="./referencias.html" rel="next">
+<link href="./siops.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -91,7 +112,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cid.html">Apêndices</a></li><li class="breadcrumb-item"><a href="./sivep.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sisagua.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -181,7 +202,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sisagua.html" class="sidebar-item-text sidebar-link">
+  <a href="./sisagua.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></a>
   </div>
 </li>
@@ -214,7 +235,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sivep.html" class="sidebar-item-text sidebar-link active">
+  <a href="./sivep.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></span></a>
   </div>
 </li>
@@ -230,21 +251,20 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#sivep-gripe" id="toc-sivep-gripe" class="nav-link active" data-scroll-target="#sivep-gripe"><span class="header-section-number">C.1</span> SIVEP-Gripe</a>
-  <ul class="collapse">
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">C.1.1</span> Acesso aos dados</a></li>
-  </ul></li>
-  <li><a href="#sivep-malária" id="toc-sivep-malária" class="nav-link" data-scroll-target="#sivep-malária"><span class="header-section-number">C.2</span> SIVEP-Malária</a></li>
-  <li><a href="#sivep-dda" id="toc-sivep-dda" class="nav-link" data-scroll-target="#sivep-dda"><span class="header-section-number">C.3</span> SIVEP-DDA</a></li>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">10.1</span> Resumo</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">10.2</span> Histórico e organização</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">10.3</span> Estrutura dos dados</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">10.4</span> Acesso aos dados</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">10.5</span> Bibliografia recomendada</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cid.html">Apêndices</a></li><li class="breadcrumb-item"><a href="./sivep.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Apêndice C — SIVEP – Sistema de Vigilância Epidemiológica</h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></h1>
 </div>
 
 
@@ -261,30 +281,90 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<p>De forma complementar aos SIS, o Sistema de Vigilância Epidemiológica busca reunir dados de doenças específicas de modo a auxiliar a atuação da Vigilância Epidemiológica, contando com dados atualizados de forma mais rápida e fichas específicas.</p>
-<section id="sivep-gripe" class="level2" data-number="C.1">
-<h2 data-number="C.1" class="anchored" data-anchor-id="sivep-gripe"><span class="header-section-number">C.1</span> SIVEP-Gripe</h2>
-<p>O SIVEP-Gripe foi implantado em 2000 vizando o monitoramento do vírus da gripe no país à partir de uma <em>rede de vigilância sentinela</em> da síndrome gripal.</p>
-<p>Em 2009, com a epidemia do vírus Influenza A (H1N1), o SIVEP-Gripe passou a também reunir dados sobre Síndrome Respiratória Aguda Grave (SRAG), contribuindo para a vigilância da circulação de vírus respiratórios no Brasil.</p>
-<p>Em 20 de março de 2020, com a declaração da transmissão comunitária de COVID-19 no Brasil, o SIVEP-Gripe passou por atualizações para registrar detalhes sobre casos da pandemia.</p>
-<section id="acesso-aos-dados" class="level3" data-number="C.1.1">
-<h3 data-number="C.1.1" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">C.1.1</span> Acesso aos dados</h3>
-<p>Os dados do SIVEP-Gripe são atualmente de acessíveis pelo público pelo OpenDataSUS.</p>
+<section id="resumo" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">10.1</span> Resumo</h2>
 <ul>
-<li><a href="https://opendatasus.saude.gov.br/dataset/?q=srag&amp;sort=score+desc%2C+metadata_modified+desc">OpenDataSUS SRAG</a></li>
+<li>Ano de criação: 1999</li>
+<li>Cobertura: Dimensões pública e privada do SUS</li>
+<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
+<section id="histórico-e-organização" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">10.2</span> Histórico e organização</h2>
+<p>O SISAGUA é um instrumento do <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/situacao-de-saude/vigiagua">Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA)</a>, que tem como finalidade auxiliar o gerenciamento de riscos à saúde associados à qualidade da água para consumo humano. Seu obketivo é “promover a melhoria da qualidade da água destinada à população a partir da geração de informações em tempo hábil para planejamento, tomada de decisão e execução de ações de saúde relacionadas à água para consumo humano”.</p>
+<p>O sistema conta com dados gerados rotineiramento pelos serviços de abastacimento de água e por profissionais de vigilância em saúde.</p>
+<p>A primeira versão do SISAGUA foi concebida em 1999 pela Fundação Nacional de Saúde (Funasa), sendo disponibilizada em 2000. Em 2003, o sistema foi modificado e passou a se vinculado à Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde. Desde então, o SISAGUA tem sido atualizado continuamente, se adequando a legislação vigente e incorporando melhorias no sistema.</p>
 </section>
-<section id="sivep-malária" class="level2" data-number="C.2">
-<h2 data-number="C.2" class="anchored" data-anchor-id="sivep-malária"><span class="header-section-number">C.2</span> SIVEP-Malária</h2>
-<p>O SIVEP-Malária apresenta dados de vigilância epidemiológica da malária. Atualmente, o acesso aos dados são restritos.</p>
+<section id="estrutura-dos-dados" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">10.3</span> Estrutura dos dados</h2>
+<p>Os dados do SISAGUA se dividem em três categorias principais:</p>
+<ul>
+<li>Cadastro: Formas de abastecimento existentes no município, com atualização anual;</li>
+<li>Controle: Monitoramento da qualidade da água realizado pelos prestadores de serviço de abastecimento de água, conforme parâmetros, número de amostras e frequência definida na norma de potabilidade, com atualização mensal, trimestral e semestral;</li>
+<li>Vigilância: Monitoramento da qualidade da água realizado pelas Secretarias de Saúde dos municípios, com atualização de rotina, ou por denúncia, surto ou ocorrência de desastre.</li>
+</ul>
+<p>O sistema apresenta variáveis específicas para cada categoria:</p>
+<ul>
+<li>Cadastro
+<ul>
+<li>Formas de abastecimento de água disponíveis no município
+<ul>
+<li>Nome</li>
+<li>Instituição responsável sobre as estações de tratamento de água</li>
+<li>Responsável técnico</li>
+</ul></li>
+<li>Sistema de distribuição de água ou ponto de consumo
+<ul>
+<li>Município abastecido</li>
+<li>População estimada abastecida</li>
+<li>Áreas e locais de abastecimento</li>
+</ul></li>
+</ul></li>
+<li>Controle
+<ul>
+<li>Forma de abastecimento de água</li>
+<li>Identificação do local de coleta</li>
+<li>Indicadores de qualidade da água</li>
+</ul></li>
+<li>Vigilância
+<ul>
+<li>Dados gerais do município</li>
+<li>Código de identificação da amostra</li>
+<li>Motivo da coleta e responsável</li>
+<li>Forma de abastecimento de água</li>
+<li>Informações de procedência</li>
+<li>Ponto de coleta</li>
+<li>Endereço,</li>
+<li>Coordenadas geográficas</li>
+<li>Data e hora da coleta</li>
+<li>Resultados das análises dos parâmetros do monitoramento da qualidade da água</li>
+</ul></li>
+</ul>
+<p>O sistema também apresenta dados sobre abastecimento de água por carro pipa.</p>
 </section>
-<section id="sivep-dda" class="level2" data-number="C.3">
-<h2 data-number="C.3" class="anchored" data-anchor-id="sivep-dda"><span class="header-section-number">C.3</span> SIVEP-DDA</h2>
-<p>O SIVEP-DDA apresenta dados de vigilância epidemiológica de <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda">Doenças Diarreicas Agudas (DDA)</a>. Atualmente, o acesso aos dados são restritos.</p>
-<p>Alguns dados agregados são apresentados em um <a href="https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025">painel de visualização interativo</a>.</p>
+<section id="acesso-aos-dados" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">10.4</span> Acesso aos dados</h2>
+<p>Os dados do SISAGUA podem ser acessados no portal OpenDataSUS:</p>
+<ul>
+<li><a href="https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&amp;sort=score+desc%2C+metadata_modified+desc">OpenDataSUS SISAGUA</a></li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">10.5</span> Bibliografia recomendada</h2>
+<ul>
+<li>Artigo <em>Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade</em> <span class="citation" data-cites="oliveiraSistemaInformacaoVigilancia2019">(<a href="referencias.html#ref-oliveiraSistemaInformacaoVigilancia2019" role="doc-biblioref">OLIVEIRA et al., 2019</a>)</span>. Disponível <a href="https://doi.org/10.5123/S1679-49742019000100024">aqui</a>.</li>
+<li>Artigo <em>Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020</em> <span class="citation" data-cites="mataSistemaInformacaoVigilancia2022">(<a href="referencias.html#ref-mataSistemaInformacaoVigilancia2022" role="doc-biblioref">MATA; OLIVEIRA JÚNIOR; RAMALHO, 2022</a>)</span>. Disponível <a href="https://doi.org/10.1590/S2237-96222022000300003">aqui</a>.</li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-mataSistemaInformacaoVigilancia2022" class="csl-entry" role="listitem">
+MATA, R. N. D.; OLIVEIRA JÚNIOR, A. D.; RAMALHO, W. M. <a href="https://doi.org/10.1590/s2237-96222022000300003"><span>Sistema de Informa<span>ç</span><span>ã</span>o de Vigil<span>â</span>ncia da Qualidade da <span>Á</span>gua para Consumo Humano (Sisagua): avalia<span>ç</span><span>ã</span>o da completitude dos dados sobre cobertura de abastecimento, 2014-2020</span></a>. <strong>Epidemiologia e Servi<span>ç</span>os de Sa<span>ú</span>de</strong>, v. 31, n. 3, p. e20211095, 2022.
+</div>
+<div id="ref-oliveiraSistemaInformacaoVigilancia2019" class="csl-entry" role="listitem">
+OLIVEIRA, A. D. et al. <a href="https://doi.org/10.5123/S1679-49742019000100024"><span>Sistema de Informa<span>ç</span><span>ã</span>o de Vigil<span>â</span>ncia da Qualidade da <span>Á</span>gua para Consumo Humano (Sisagua): caracter<span>í</span>sticas, evolu<span>ç</span><span>ã</span>o e aplicabilidade*</span></a>. <strong>Epidemiologia e Servi<span>ç</span>os de Sa<span>ú</span>de</strong>, v. 28, n. 1, abr. 2019.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -851,11 +931,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./codmun.html" class="pagination-link" aria-label="Códigos dos municípios">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Códigos dos municípios</span></span>
+      <a href="./siops.html" class="pagination-link" aria-label="SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./referencias.html" class="pagination-link" aria-label="Referências">
+        <span class="nav-page-text">Referências</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

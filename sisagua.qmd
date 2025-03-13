@@ -1,1 +1,63 @@
 # SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+
+## Resumo
+
+-  Ano de criação: 1999
+-  Cobertura: Dimensões pública e privada do SUS
+-  Divulgação de dados: mensal, com até dois meses de defasagem
+
+## Histórico e organização
+
+O SISAGUA é um instrumento do [Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA)](https://www.gov.br/saude/pt-br/composicao/seidigi/demas/situacao-de-saude/vigiagua), que tem como finalidade auxiliar o gerenciamento de riscos à saúde associados à qualidade da água para consumo humano. Seu obketivo é "promover a melhoria da qualidade da água destinada à população a partir da geração de informações em tempo hábil para planejamento, tomada de decisão e execução de ações de saúde relacionadas à água para consumo humano".
+
+O sistema conta com dados gerados rotineiramento pelos serviços de abastacimento de água e por profissionais de vigilância em saúde.
+
+A primeira versão do SISAGUA foi concebida em 1999 pela Fundação Nacional de Saúde (Funasa), sendo disponibilizada em 2000. Em 2003, o sistema foi modificado e passou a se vinculado à Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde. Desde então, o SISAGUA tem sido atualizado continuamente, se adequando a legislação vigente e incorporando melhorias no sistema.
+
+## Estrutura dos dados
+
+Os dados do SISAGUA se dividem em três categorias principais: 
+
+-  Cadastro: Formas de abastecimento existentes no município, com atualização anual;
+-  Controle: Monitoramento da qualidade da água realizado pelos prestadores de serviço de abastecimento de água, conforme parâmetros, número de amostras e frequência definida na norma de potabilidade, com atualização mensal, trimestral e semestral;
+-  Vigilância: Monitoramento da qualidade da água realizado pelas Secretarias de Saúde dos municípios, com atualização de rotina, ou por denúncia, surto ou ocorrência de desastre.
+
+O sistema apresenta variáveis específicas para cada categoria:
+
+-  Cadastro
+    - Formas de abastecimento de água disponíveis no município
+        - Nome
+        - Instituição responsável sobre as estações de tratamento de água
+        - Responsável técnico
+    - Sistema de distribuição de água ou ponto de consumo
+        - Município abastecido
+        - População estimada abastecida
+        - Áreas e locais de abastecimento
+- Controle
+    - Forma de abastecimento de água
+    - Identificação do local de coleta
+    - Indicadores de qualidade da água
+- Vigilância
+    - Dados gerais do município
+    - Código de identificação da amostra
+    - Motivo da coleta e responsável
+    - Forma de abastecimento de água
+    - Informações de procedência
+    - Ponto de coleta
+    - Endereço,
+    - Coordenadas geográficas
+    - Data e hora da coleta
+    - Resultados das análises dos parâmetros do monitoramento da qualidade da água
+
+O sistema também apresenta dados sobre abastecimento de água por carro pipa.
+
+## Acesso aos dados
+
+Os dados do SISAGUA podem ser acessados no portal OpenDataSUS:
+
+-  [OpenDataSUS SISAGUA](https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&sort=score+desc%2C+metadata_modified+desc)
+
+## Bibliografia recomendada
+
+-  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade* [@oliveiraSistemaInformacaoVigilancia2019]. Disponível [aqui](https://doi.org/10.5123/S1679-49742019000100024).
+-  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).

@@ -28,9 +28,9 @@ book:
     - sinan.qmd
     - cnes.qmd
     - siops.qmd
+    - sisagua.qmd
     #- siab.qmd
     #- sisvan.qmd
-    #- sisagua.qmd
     #- sipni.qmd
     - referencias.qmd
   appendices:
