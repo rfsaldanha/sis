@@ -36,7 +36,7 @@ datatable(
   rownames = FALSE,
   options = list(
     language = list(
-      url = "//cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json"
+      url = "https://cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json"
     )
   )
 )

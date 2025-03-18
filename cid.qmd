@@ -29,12 +29,41 @@ Exemplo: "Cólera devida a Vibrio cholerae 01, biótipo El Tor" na CID-10:
 -  Subcategoria A00: Cólera
 -  Código A00.1: Cólera El Tor
 
-Você pode acessar e explorar o catálogo da CID nos links abaixo:
+Você pode acessar e explorar o catálogo da CID-10 na tabela abaixo:
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+library(readr)
+library(dplyr)
+library(DT)
+
+cid10 <- read_csv2("assets/tabela_cid10.csv") |>
+  select(-tipo) |>
+  rename(
+    `Capítulo` = capitulo,
+    `Grupo` = grupo,
+    `Código` = codigo,
+    `Descrição` = descricao
+  )
+
+datatable(
+  data = cid10,
+  rownames = FALSE,
+  options = list(
+    language = list(
+      url = "https://cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json"
+    )
+  )
+)
+```
+
+Nos links a seguir, você pode consultar a hierarquia da CID-10 e CID-11 no Ministério da Saúde e na OMS:
 
 -  [CID-10 no DataSUS](http://www2.datasus.gov.br/cid10/V2008/WebHelp/listacateg.htm)
 -  [CID-10 na OMS](https://icd.who.int/browse10)
 -  [CID-11 na OMS](https://icd.who.int/browse/2025-01/mms/pt)
-
 
 ## Edições da CID no Brasil
 
