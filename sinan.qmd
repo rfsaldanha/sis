@@ -132,7 +132,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Febre Oropouche
 
--  [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
+-  [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche ](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
 
 ### Febre Tifóide
 
