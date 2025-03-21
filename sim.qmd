@@ -53,6 +53,14 @@ Um histórico mais aprofundado sobre a construção e evolução do SIM está di
 
 Confira o documento de [estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf), onde estão descritas as variáveis disponíveis.
 
+### Préfixo dos arquivos
+-  DO: Declarações de óbito
+-  DOEXT: Declarações de óbitos por causas externas
+-  DOFET: Declarações de óbitos fetais
+-  DOINF: Declarações de óbitos infantis
+-  DOMAT: Declarações de óbitos maternos
+-  DOREXT: Mortalidade de residentes no exterior
+
 ## Acesso aos dados
 
 ### TabNet

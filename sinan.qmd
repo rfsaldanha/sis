@@ -58,50 +58,126 @@ Onde $c_c$ são casos confirmados, $c_d$ são casos descartados e $c_i$ são cas
 Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis, apresentados a seguir.
 
 
+### Acidende de trabalho com material biológico
+
+-  Préfixo dos arquivos: ACBI
+
+### Acidente de trabalho
+
+-  Préfixo dos arquivos: ACGR
+
+### AIDS em adultos
+
+-  Préfixo dos arquivos: AIDA
+
+### AIDS em crianças
+
+-  Préfixo dos arquivos: AIDC
+
 ### Acidentes por Animais Peçonhentos
 
+-  Préfixo dos arquivos: ANIM
 -  [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
 -  [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/ANIMPN_DIC_DADOS.pdf)
 
+### Atendimento antirrabico
+
+-  Préfixo dos arquivos: ANTR
+
 ### Botulismo
 
+-  Préfixo dos arquivos: BOTU
 -  [Ficha de notificação](assets/sinan/agravos/BOTUN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/BOTUN_DIC_DADOS.pdf)
 
-### Doença de Chagas
+### Câncer relacionado ao trabalho
 
+-  Préfixo dos arquivos: CANC
+
+### Doença de Chagas Aguda
+
+-  Préfixo dos arquivos: CHAG
 -  [Ficha de notificação](assets/sinan/agravos/CHAGAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
 
+### Febre de Chikungunya
+
+-  Préfixo dos arquivos: CHIK
+
 ### Cólera
 
+-  Préfixo dos arquivos: COLE
 -  [Ficha de notificação](assets/sinan/agravos/COLEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
 
 ### Coqueluche
 
+-  Préfixo dos arquivos: COQU
 -  [Ficha de notificação](assets/sinan/agravos/COQUEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/COQUEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/COQUEN_DIC_DADOS.pdf)
 
 ### Dengue
 
+-  Préfixo dos arquivos: DENG
 -  [Ficha de notificação](assets/sinan/agravos/DENGON_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/DENGON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/DENGON_DIC_DADOS.pdf)
 -  [Nota informativa](assets/sinan/agravos/DENGON_NOTA_INFORMATIVA.pdf)
 
+### Dermatoses ocupacionais
+
+-  Préfixo dos arquivos: DERM
+
+
+
+
+
+### Esporotricose (Epizootia)
+
+-  Préfixo dos arquivos: ESPO
+
+### Esquitossomose
+
+-  Préfixo dos arquivos: ESQU
+
+### HIV em adultos
+
+-  Préfixo dos arquivos: HIVA
+
+### HIV em crianças
+
+-  Préfixo dos arquivos: HIVC
+
+### HIV em crianças expostas
+
+-  Préfixo dos arquivos: HIVE
+
+### HIV em gestante
+
+-  Préfixo dos arquivos: HIVG
+
+### Influenza pandêmica
+
+-  Préfixo dos arquivos: INFL
+
 ### Rotavírus
 
+-  Préfixo dos arquivos: ROTA
 -  [Dicionário de dados](assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf)
+
+### Surto de doenças transmitidas por alimentos
+
+-  Préfixo dos arquivos: SDTA
 
 ### Difteria
 
+-  Préfixo dos arquivos: DIFT
 -  [Ficha de notificação](assets/sinan/agravos/DIFTEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
@@ -114,6 +190,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Doenças Exantemáticas
 
+-  Préfixo dos arquivos: EXAN
 -  [Ficha de notificação](assets/sinan/agravos/EXANT_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/EXANT_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/EXANT_DIC_DADOS.pdf)
@@ -126,6 +203,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Febre Maculosa
 
+-  Préfixo dos arquivos: FMAC
 -  [Ficha de notificação](assets/sinan/agravos/FMACUN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
@@ -136,12 +214,14 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Febre Tifóide
 
+-  Préfixo dos arquivos: FTIF
 -  [Ficha de notificação](assets/sinan/agravos/FTIFON_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/FTIFON_DIC_DADOS.pdf)
 
 ### Hanseníase
 
+-  Préfixo dos arquivos: HANS
 -  [Ficha de notificação](assets/sinan/agravos/HANSN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf)
 -  [Caderno de análise](assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf)
@@ -149,24 +229,28 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Hantavirose
 
+-  Préfixo dos arquivos: HANT
 -  [Ficha de notificação](assets/sinan/agravos/HANTAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
 
 ### Hepatites Virais
 
+-  Préfixo dos arquivos: HEPA
 -  [Ficha de notificação](assets/sinan/agravos/HEPANET_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
 
 ### Intoxicação Hexógena
 
+-  Préfixo dos arquivos: IEXO
 -  [Ficha de notificação](assets/sinan/agravos/IEXOGN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/IEXOGN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf)
 
 ### Leishmaniose Visceral
 
+-  Préfixo dos arquivos: LEIV
 -  [Ficha de notificação](assets/sinan/agravos/LEISHN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf)
 -  [Caderno de análise](assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf)
@@ -174,6 +258,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Leishimaniosse Tegumentar Americana
 
+-  Préfixo dos arquivos: LTAN
 -  [Ficha de notificação](assets/sinan/agravos/LTAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf)
 -  [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
@@ -181,23 +266,46 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 
 ### Leptospirose
 
+-  Préfixo dos arquivos: LEPT
 -  [Ficha de notificação](assets/sinan/agravos/LEPTON_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
 
+### LER/DOT
+
+-  Préfixo dos arquivos: LERD
+
 ### Malária
 
+-  Préfixo dos arquivos: MALA
 -  [Ficha de notificação](assets/sinan/agravos/MALAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
 
 ### Meningite
 
+-  Préfixo dos arquivos: MENI
 -  [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
 -  [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
 -  [Tutorial de análises epidemiológicas](assets/sinan/agravos/MENIN_TUTORIAL_ANALISES_EPIDEMIO.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/MENIN_DIC_DADOS.pdf)
+
+### Transtornos mentais relacionais ao trabalho 
+
+-  Préfixo dos arquivos: MENT
+
+### Notificação de tracoma
+
+-  Préfixo dos arquivos: NTRA
+
+### Inquérito de tracoma
+
+-  Préfixo dos arquivos: TRAC
+
+### Perda auditiva por ruído relacionado ao trabalho
+
+-  Préfixo dos arquivos: PAIR
 
 ### Monkeypox
 
@@ -219,24 +327,36 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 ### Peste
 
+-  Préfixo dos arquivos: PEST
 -  [Ficha de notificação](assets/sinan/agravos/PESTEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/PESTEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/PESTEN_DIC_DADOS.pdf)
 
 ### Paralisia Flácida Aguda
 
+-  Préfixo dos arquivos: PFAN
 -  [Ficha de notificação](assets/sinan/agravos/PFAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/PFAN_FICHA.pdf)
 
+### Pneumoconioses relacionadas ao trabalho
+
+-  Préfixo dos arquivos: PNEU
+
 ### Raiva Humana
 
+-  Préfixo dos arquivos: RAIV
 -  [Ficha de notificação](assets/sinan/agravos/RAIVAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
 
+### Sífilis adquirida
+
+-  Préfixo dos arquivos: SIFA
+
 ### Sífilis Congênita
 
+-  Préfixo dos arquivos: SIFC
 -  [Ficha de notificação](assets/sinan/agravos/SIFICN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf)
 -  [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
@@ -244,6 +364,7 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 ### Sífilis em Gestante
 
+-  Préfixo dos arquivos: SIFG
 -  [Ficha de notificação](assets/sinan/agravos/SIFIGEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf)
 -  [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf
@@ -251,34 +372,58 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 ### Síndrome da Rubéola Congênita
 
+-  Préfixo dos arquivos: SRC
 -  [Ficha de notificação](assets/sinan/agravos/SRCN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/SRCN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/SRCN_DIC_DADOS.pdf)
 
 ### Tétano Acidental
 
+-  Préfixo dos arquivos: TETA
 -  [Ficha de notificação](assets/sinan/agravos/TETACN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
 
 ### Tétano Neonatal
 
+-  Préfixo dos arquivos: TETN
 -  [Ficha de notificação](assets/sinan/agravos/TETANN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TETANN_DIC_DADOS.pdf)
 
+### Toxoplasmose congênita
+
+-  Préfixo dos arquivos: TOXC
+
+### Toxoplasmose gestacional
+
+-  Préfixo dos arquivos: TOXG
+
 ### Tuberculose
 
+-  Préfixo dos arquivos: TUBE
 -  [Ficha de notificação](assets/sinan/agravos/TUBEN_FICHA.pdf)
 -  [Ficha de acompanhamento](assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf)
 -  [Instrucional](assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
+
+### Varicela
+
+-  Préfixo dos arquivos: VARC
+
+### Violência doméstica, sexual e/ou outras violências
+
+-  Préfixo dos arquivos: VIOL
 
 ### Violência Interpessoal/Autoprovocada
 
 -  [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
 -  [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
+
+### Zika vírus
+
+-  Préfixo dos arquivos: ZIKA
 
 ## Acesso aos dados
 
