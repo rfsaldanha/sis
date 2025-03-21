@@ -21,10 +21,13 @@ Este é um dos sistemas de informação de saúde que  recebe novos registros co
 
 Confira o documento de [estrutura do SIH](assets/sih/IT_SIHSUS_1603.pdf), onde estão descritas as variáveis disponíveis.
 
-Os dados do SIH são distribuídos em dois conjuntos:
+### Prefixo dos arquivos
 
--  Dados consolidados (RD)
--  Dados detalhados (SP)
+-  ER: AIH rejeitadas com código de erro
+-  RD: AIH Reduzida
+-  RJ: AIH rejeitadas
+-  SP: serviços profissionais
+
 
 ## Acesso aos dados
 

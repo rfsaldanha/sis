@@ -47,7 +47,7 @@ Nascido vivo é a expulsão ou extração completa do corpo da mãe, independent
 
 Confira o documento de [estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf), onde estão descritas as variáveis disponíveis.
 
-### Préfixo dos arquivos
+### Prefixo dos arquivos
 
 -  DN: Declarações de nascidos vivos
 -  DNEX: Declarações de nascidos vivos residentes no exterior
