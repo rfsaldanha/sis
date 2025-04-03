@@ -37,10 +37,12 @@ book:
     - codmun.qmd
     - sivep.qmd
     - sisvan.qmd
-    #- vigi-tel.qmd
+    #- vigitel.qmd
     #- pop.qmd
     #- pns.qmd
     #- rnds.qmd
+    #- esus-not.qmd
+
 
 bibliography: references.bib
 csl: abnt.csl
