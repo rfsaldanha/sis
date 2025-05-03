@@ -279,6 +279,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Febre Tifóide
 
 -  Prefixo dos arquivos: FTIF
+-  CID-10: A01.0
 -  [Ficha de notificação](assets/sinan/agravos/FTIFON_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/FTIFON_DIC_DADOS.pdf)
