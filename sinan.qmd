@@ -179,6 +179,10 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Dermatoses ocupacionais
 
 -  Prefixo dos arquivos: DERM
+-  CID-10: L98.9
+
+![Fluxograma de vigilância em saúde do trabalhador para dermatoses](assets/sinan/img/fluxo_dermatose_ocup.png){#fluxo_dermatose_ocup}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Esporotricose (Epizootia)
 
