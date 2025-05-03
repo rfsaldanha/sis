@@ -433,6 +433,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Pneumoconioses relacionadas ao trabalho
 
 -  Prefixo dos arquivos: PNEU
+-  CID-10: J64
 
 ### Raiva Humana
 
