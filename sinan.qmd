@@ -98,6 +98,12 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Acidentes por Animais Peçonhentos
 
 -  Prefixo dos arquivos: ANIM
+-  Códigos CID-10
+   -  Acidente ofídico: X20 e T63.0
+   -  Escorpionismo: X22 e T63.2
+   -  Araneísmo: X21 e T63.3
+   -  Lonomia e outras lagartas: X25 e T63.4
+   -  Himenópteros (abelhas, vespas e formigas): X23 e T63.4
 -  [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
 -  [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
