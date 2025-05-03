@@ -452,10 +452,12 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Sífilis adquirida
 
 -  Prefixo dos arquivos: SIFA
+-  CID-10: A53.9
 
 ### Sífilis Congênita
 
 -  Prefixo dos arquivos: SIFC
+-  CID-10: A50
 -  [Ficha de notificação](assets/sinan/agravos/SIFICN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf)
 -  [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
@@ -464,6 +466,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Sífilis em Gestante
 
 -  Prefixo dos arquivos: SIFG
+-  CID-10: O98.1
 -  [Ficha de notificação](assets/sinan/agravos/SIFIGEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf)
 -  [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf
