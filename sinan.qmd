@@ -84,10 +84,16 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### AIDS em adultos
 
 -  Prefixo dos arquivos: AIDA
+-  Códigos CID-10
+  -  Infecção pelo HIV: Z21
+  -  Aids: B20-B24
+  -  Gestante HIV: Z21
+  -  Criança exposta ao HIV: Z20.6
 
 ### AIDS em crianças
 
 -  Prefixo dos arquivos: AIDC
+-  Código CID-10 (Criança exposta ao HIV): Z20.6
 
 ### Acidentes por Animais Peçonhentos
 
