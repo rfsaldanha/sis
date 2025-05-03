@@ -532,9 +532,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Violência Interpessoal/Autoprovocada
 
+-  CID-10: Y09
 -  [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
 -  [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
+
+![Fluxo de notificação de violências no Sistema de Informação de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)](assets/sinan/img/fluxo_violencia.png){#fluxo_violencia}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Zika vírus
 
