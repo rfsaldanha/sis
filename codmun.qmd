@@ -5,7 +5,7 @@ Diversos SIS apresentam códigos representanto os municípios de residência do 
 Os códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.
 
 ::::: {.callout}
-Os SIS costumam apresentar os códigos dos municípios com apenas seis dígitos, omitindo o dígito verificador.
+Os SIS costumam apresentar os códigos dos municípios com apenas os primeiros seis dígitos, omitindo o último dígito verificador.
 :::
 
 ## Tabela de códigos
