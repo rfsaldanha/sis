@@ -187,6 +187,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Esporotricose (Epizootia)
 
 -  Prefixo dos arquivos: ESPO
+-  CID-10: B42
 
 ### HIV em adultos
 
@@ -211,6 +212,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Rotavírus
 
 -  Prefixo dos arquivos: ROTA
+-  CID-10: A08.0
 -  [Dicionário de dados](assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf)
 
 ### Surto de doenças transmitidas por alimentos
