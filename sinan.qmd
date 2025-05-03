@@ -79,6 +79,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 -  Prefixo dos arquivos: ACGR
 
 ![Fluxograma de vigilância em saúde do trabalhador](assets/sinan/img/fluxo_ACGR.png){#fluxo_ACGR}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### AIDS em adultos
 
