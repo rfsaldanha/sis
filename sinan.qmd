@@ -355,6 +355,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Malária
 
 -  Prefixo dos arquivos: MALA
+-  CID-10: B50 a B54 / P37.3 e P37.4
 -  [Ficha de notificação](assets/sinan/agravos/MALAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
