@@ -287,6 +287,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Hanseníase
 
 -  Prefixo dos arquivos: HANS
+-  CID-10: A30
 -  [Ficha de notificação](assets/sinan/agravos/HANSN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf)
 -  [Caderno de análise](assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf)
@@ -295,13 +296,18 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Hantavirose
 
 -  Prefixo dos arquivos: HANT
+-  CID-10: B33.4
 -  [Ficha de notificação](assets/sinan/agravos/HANTAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
 
+![Transmissão das hantaviroses](assets/sinan/img/fluxo_hantavirose.png){#fluxo_hantavirose}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
+
 ### Hepatites Virais
 
 -  Prefixo dos arquivos: HEPA
+-  CID-10: B15 – B19.9
 -  [Ficha de notificação](assets/sinan/agravos/HEPANET_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
