@@ -18,7 +18,7 @@ A implantação do SINAN, foi iniciada em 1993 de forma gradual, e enfrentou pro
 A unidade fundamental de operação do SINAN são as *fichas de notificação*, que são diferenciadas para cada doença e agravo de notificação compulsória. Todo caso suspeito é notificado no SINAN, sendo lançado progressivamente dados referentes ao paciente e suas condições de saúde, além de informações sobre a investigação do caso, atividades de diagnóstico, resultados de exames e o desfecho final do caso. As informações do SINAN subsidiam análises epidemiológicas, acompanhamento de endemias e epidemias e apoiam ações de planejamento, gestão e monitoramento da saúde.
 
 ```{mermaid}
-%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito "
+%%| fig-cap: "Fluxo de notificação do SINAN"
 %%| label: fig-do
 
 flowchart TD
