@@ -322,6 +322,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Leishimaniosse Tegumentar Americana
 
 -  Prefixo dos arquivos: LTAN
+-  CID-10: B55.1
 -  [Ficha de notificação](assets/sinan/agravos/LTAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf)
 -  [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
@@ -330,6 +331,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Leishmaniose Visceral
 
 -  Prefixo dos arquivos: LEIV
+-  CID-10: B55.0
 -  [Ficha de notificação](assets/sinan/agravos/LEISHN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf)
 -  [Caderno de análise](assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf)
@@ -338,9 +340,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Leptospirose
 
 -  Prefixo dos arquivos: LEPT
+-  CID-10: A27
 -  [Ficha de notificação](assets/sinan/agravos/LEPTON_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
+
+![Roteiro de investigação da leptospirose](assets/sinan/img/fluxo_leptospirose.png){#fluxo_leptospirose}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### LER/DOT
 
