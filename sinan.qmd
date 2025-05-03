@@ -446,6 +446,9 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ![Ciclos epidemiológicos de transmissão da raiva](assets/sinan/img/fluxo_raiva.png){#fluxo_raiva}
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
+![Roteiro para investigação de casos de raiva humana](assets/sinan/img/fluxo_raiva_roteiro.png){#fluxo_raiva_roteiro}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
+
 ### Sífilis adquirida
 
 -  Prefixo dos arquivos: SIFA
