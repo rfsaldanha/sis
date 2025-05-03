@@ -116,6 +116,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Botulismo
 
 -  Prefixo dos arquivos: BOTU
+-  CID-10: A05.1
 -  [Ficha de notificação](assets/sinan/agravos/BOTUN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/BOTUN_DIC_DADOS.pdf)
