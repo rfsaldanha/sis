@@ -152,9 +152,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 ### Cólera
 
 -  Prefixo dos arquivos: COLE
+-  Código CID-10: A00
 -  [Ficha de notificação](assets/sinan/agravos/COLEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
+
+![Fluxograma de investigação de casos suspeitos de cólera](assets/sinan/img/fluxo_colera.png){#fluxo_colera}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Coqueluche
 
