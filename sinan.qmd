@@ -363,6 +363,9 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Meningite
 
 -  Prefixo dos arquivos: MENI
+-  CID-10
+   - Meningite meningocócica: A39.0
+   - Meningococcemia aguda: A39.2
 -  [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
 -  [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
@@ -376,6 +379,9 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Notificação de tracoma
 
 -  Prefixo dos arquivos: NTRA
+-  CID-10
+   -  Tracoma: A71
+   -  Sequelas de tracoma: B94.0
 
 ### Inquérito de tracoma
 
@@ -401,7 +407,6 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 -  [Ficha individual de notificação](assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf)
 -  [Modelo de informação da ficha de notificação](assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf)
-
 
 ### Peste
 
