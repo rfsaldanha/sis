@@ -230,12 +230,16 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ![Roteiro de investigação epidemiológica da difteria](assets/sinan/img/fluxo_difteria.png){#fluxo_difteria}
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
-### Esquistossomose
+### Esquistossomose mansoni
 
 -  Prefixo dos arquivos: ESQU
+-  CID-10: B65.1
 -  [Ficha de notificação](assets/sinan/agravos/ESQUIN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/ESQUIN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf)
+
+![Algoritmo do Sistema de Informação para Esquistossomose](assets/sinan/img/fluxo_esquistossomose.png){#fluxo_esquistossomose}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Doenças Exantemáticas
 
