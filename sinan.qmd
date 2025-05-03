@@ -136,7 +136,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ![Ciclo de transmissão vetorial da doença de Chagas](assets/sinan/img/ciclo_chagas.png){#ciclo_chagas}
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
-![Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas aguda (DCA), segundo critério laboratorial](assets/sinan/img/fluxo_chagas_not.png){#ciclo_chagas_not}
+![Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas aguda (DCA), segundo critério laboratorial](assets/sinan/img/fluxo_chagas_aguda.png){#fluxo_chagas_aguda}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
+
+![Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas crônica (DCC), segundo critério laboratorial](assets/sinan/img/fluxo_chagas_cronica.png){#fluxo_chagas_cronica}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
+
+![Fluxograma para investigação epidemiológica da doença de Chagas](assets/sinan/img/invest_chagas.png){#invest_chagas}
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre de Chikungunya
