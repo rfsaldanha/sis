@@ -250,9 +250,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre Amarela
 
+-  CID-10: A95
 -  [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
+
+![Dinâmica de transmissão do vírus da febre amarela, principalmente nos anos recentes no bioma Mata Atlântica](assets/sinan/img/fluxo_febre_amarela.png){#fluxo_febre_amarela}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre Maculosa
 
