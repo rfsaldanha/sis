@@ -125,12 +125,16 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 -  Prefixo dos arquivos: CANC
 
-### Doença de Chagas Aguda
+### Doença de Chagas
 
 -  Prefixo dos arquivos: CHAG
+-  CID-10: B57
 -  [Ficha de notificação](assets/sinan/agravos/CHAGAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
+
+![Ciclo de transmissão vetorial da doença de Chagas](assets/sinan/img/ciclo_chagas.png){#ciclo_chagas}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre de Chikungunya
 
