@@ -486,6 +486,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Tétano Acidental
 
 -  Prefixo dos arquivos: TETA
+-  CID-10: A35
 -  [Ficha de notificação](assets/sinan/agravos/TETACN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
@@ -493,6 +494,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Tétano Neonatal
 
 -  Prefixo dos arquivos: TETN
+-  CID-10: A33
 -  [Ficha de notificação](assets/sinan/agravos/TETANN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TETANN_DIC_DADOS.pdf)
@@ -500,22 +502,29 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Toxoplasmose congênita
 
 -  Prefixo dos arquivos: TOXC
+-  CID-10: P37.1
 
 ### Toxoplasmose gestacional
 
 -  Prefixo dos arquivos: TOXG
+-  CID-10: O98.6
 
 ### Tuberculose
 
 -  Prefixo dos arquivos: TUBE
+-  CID-10: A15 a A19; J65; K93.0; M49.0; M90.0; N74.0; N74.1; O98.0; P37.0
 -  [Ficha de notificação](assets/sinan/agravos/TUBEN_FICHA.pdf)
 -  [Ficha de acompanhamento](assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf)
 -  [Instrucional](assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
 
-### Varicela
+![Instrumentos de registro utilizados na investigação epidemiológica da tuberculose](assets/sinan/img/fluxo_tuberculose.png){#fluxo_tuberculose}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
+
+### Varicela / Herpes-Zóster
 
 -  Prefixo dos arquivos: VARC
+-  CID-10: B01/B02
 
 ### Violência doméstica, sexual e/ou outras violências
 
