@@ -222,9 +222,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Difteria
 
 -  Prefixo dos arquivos: DIFT
+-  CID-10: A36
 -  [Ficha de notificação](assets/sinan/agravos/DIFTEN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
+
+![Roteiro de investigação epidemiológica da difteria](assets/sinan/img/fluxo_difteria.png){#fluxo_difteria}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Esquistossomose
 
