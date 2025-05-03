@@ -438,9 +438,13 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 ### Raiva Humana
 
 -  Prefixo dos arquivos: RAIV
+-  CID-10: A82
 -  [Ficha de notificação](assets/sinan/agravos/RAIVAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
+
+![Ciclos epidemiológicos de transmissão da raiva](assets/sinan/img/fluxo_raiva.png){#fluxo_raiva}
+Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Sífilis adquirida
 
