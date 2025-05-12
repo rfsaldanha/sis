@@ -21,6 +21,7 @@ book:
     - index.qmd
     - introducao.qmd
     - historico.qmd
+    - organizacao.qmd
     - sim.qmd
     - sinasc.qmd
     - sih.qmd
