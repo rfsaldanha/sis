@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.43">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -21,8 +21,9 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 /* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +34,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -86,17 +87,20 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <link href="./cnes.html" rel="next">
 <link href="./sia.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2db5a64a0f9238d29502e24e892d8c52.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c1966a8c70583a3816b1e3a216c1caf1.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-18c5b0e850f6e65b3e9be25fe9abf802.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-7a339148c3b2635d23d0fec43941109e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-18c5b0e850f6e65b3e9be25fe9abf802.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -169,7 +173,169 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -335,62 +501,61 @@ window.Quarto = {
   <li><a href="#atendimento-antirrabico" id="toc-atendimento-antirrabico" class="nav-link" data-scroll-target="#atendimento-antirrabico"><span class="header-section-number">7.3.6</span> Atendimento antirrabico</a></li>
   <li><a href="#botulismo" id="toc-botulismo" class="nav-link" data-scroll-target="#botulismo"><span class="header-section-number">7.3.7</span> Botulismo</a></li>
   <li><a href="#câncer-relacionado-ao-trabalho" id="toc-câncer-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#câncer-relacionado-ao-trabalho"><span class="header-section-number">7.3.8</span> Câncer relacionado ao trabalho</a></li>
-  <li><a href="#doença-de-chagas-aguda" id="toc-doença-de-chagas-aguda" class="nav-link" data-scroll-target="#doença-de-chagas-aguda"><span class="header-section-number">7.3.9</span> Doença de Chagas Aguda</a></li>
+  <li><a href="#doença-de-chagas" id="toc-doença-de-chagas" class="nav-link" data-scroll-target="#doença-de-chagas"><span class="header-section-number">7.3.9</span> Doença de Chagas</a></li>
   <li><a href="#febre-de-chikungunya" id="toc-febre-de-chikungunya" class="nav-link" data-scroll-target="#febre-de-chikungunya"><span class="header-section-number">7.3.10</span> Febre de Chikungunya</a></li>
   <li><a href="#cólera" id="toc-cólera" class="nav-link" data-scroll-target="#cólera"><span class="header-section-number">7.3.11</span> Cólera</a></li>
   <li><a href="#coqueluche" id="toc-coqueluche" class="nav-link" data-scroll-target="#coqueluche"><span class="header-section-number">7.3.12</span> Coqueluche</a></li>
   <li><a href="#dengue" id="toc-dengue" class="nav-link" data-scroll-target="#dengue"><span class="header-section-number">7.3.13</span> Dengue</a></li>
   <li><a href="#dermatoses-ocupacionais" id="toc-dermatoses-ocupacionais" class="nav-link" data-scroll-target="#dermatoses-ocupacionais"><span class="header-section-number">7.3.14</span> Dermatoses ocupacionais</a></li>
   <li><a href="#esporotricose-epizootia" id="toc-esporotricose-epizootia" class="nav-link" data-scroll-target="#esporotricose-epizootia"><span class="header-section-number">7.3.15</span> Esporotricose (Epizootia)</a></li>
-  <li><a href="#esquitossomose" id="toc-esquitossomose" class="nav-link" data-scroll-target="#esquitossomose"><span class="header-section-number">7.3.16</span> Esquitossomose</a></li>
-  <li><a href="#hiv-em-adultos" id="toc-hiv-em-adultos" class="nav-link" data-scroll-target="#hiv-em-adultos"><span class="header-section-number">7.3.17</span> HIV em adultos</a></li>
-  <li><a href="#hiv-em-crianças" id="toc-hiv-em-crianças" class="nav-link" data-scroll-target="#hiv-em-crianças"><span class="header-section-number">7.3.18</span> HIV em crianças</a></li>
-  <li><a href="#hiv-em-crianças-expostas" id="toc-hiv-em-crianças-expostas" class="nav-link" data-scroll-target="#hiv-em-crianças-expostas"><span class="header-section-number">7.3.19</span> HIV em crianças expostas</a></li>
-  <li><a href="#hiv-em-gestante" id="toc-hiv-em-gestante" class="nav-link" data-scroll-target="#hiv-em-gestante"><span class="header-section-number">7.3.20</span> HIV em gestante</a></li>
-  <li><a href="#influenza-pandêmica" id="toc-influenza-pandêmica" class="nav-link" data-scroll-target="#influenza-pandêmica"><span class="header-section-number">7.3.21</span> Influenza pandêmica</a></li>
-  <li><a href="#rotavírus" id="toc-rotavírus" class="nav-link" data-scroll-target="#rotavírus"><span class="header-section-number">7.3.22</span> Rotavírus</a></li>
-  <li><a href="#surto-de-doenças-transmitidas-por-alimentos" id="toc-surto-de-doenças-transmitidas-por-alimentos" class="nav-link" data-scroll-target="#surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">7.3.23</span> Surto de doenças transmitidas por alimentos</a></li>
-  <li><a href="#difteria" id="toc-difteria" class="nav-link" data-scroll-target="#difteria"><span class="header-section-number">7.3.24</span> Difteria</a></li>
-  <li><a href="#esquistossomose" id="toc-esquistossomose" class="nav-link" data-scroll-target="#esquistossomose"><span class="header-section-number">7.3.25</span> Esquistossomose</a></li>
-  <li><a href="#doenças-exantemáticas" id="toc-doenças-exantemáticas" class="nav-link" data-scroll-target="#doenças-exantemáticas"><span class="header-section-number">7.3.26</span> Doenças Exantemáticas</a></li>
-  <li><a href="#febre-amarela" id="toc-febre-amarela" class="nav-link" data-scroll-target="#febre-amarela"><span class="header-section-number">7.3.27</span> Febre Amarela</a></li>
-  <li><a href="#febre-maculosa" id="toc-febre-maculosa" class="nav-link" data-scroll-target="#febre-maculosa"><span class="header-section-number">7.3.28</span> Febre Maculosa</a></li>
-  <li><a href="#febre-oropouche" id="toc-febre-oropouche" class="nav-link" data-scroll-target="#febre-oropouche"><span class="header-section-number">7.3.29</span> Febre Oropouche</a></li>
-  <li><a href="#febre-tifóide" id="toc-febre-tifóide" class="nav-link" data-scroll-target="#febre-tifóide"><span class="header-section-number">7.3.30</span> Febre Tifóide</a></li>
-  <li><a href="#hanseníase" id="toc-hanseníase" class="nav-link" data-scroll-target="#hanseníase"><span class="header-section-number">7.3.31</span> Hanseníase</a></li>
-  <li><a href="#hantavirose" id="toc-hantavirose" class="nav-link" data-scroll-target="#hantavirose"><span class="header-section-number">7.3.32</span> Hantavirose</a></li>
-  <li><a href="#hepatites-virais" id="toc-hepatites-virais" class="nav-link" data-scroll-target="#hepatites-virais"><span class="header-section-number">7.3.33</span> Hepatites Virais</a></li>
-  <li><a href="#intoxicação-hexógena" id="toc-intoxicação-hexógena" class="nav-link" data-scroll-target="#intoxicação-hexógena"><span class="header-section-number">7.3.34</span> Intoxicação Hexógena</a></li>
+  <li><a href="#hiv-em-adultos" id="toc-hiv-em-adultos" class="nav-link" data-scroll-target="#hiv-em-adultos"><span class="header-section-number">7.3.16</span> HIV em adultos</a></li>
+  <li><a href="#hiv-em-crianças" id="toc-hiv-em-crianças" class="nav-link" data-scroll-target="#hiv-em-crianças"><span class="header-section-number">7.3.17</span> HIV em crianças</a></li>
+  <li><a href="#hiv-em-crianças-expostas" id="toc-hiv-em-crianças-expostas" class="nav-link" data-scroll-target="#hiv-em-crianças-expostas"><span class="header-section-number">7.3.18</span> HIV em crianças expostas</a></li>
+  <li><a href="#hiv-em-gestante" id="toc-hiv-em-gestante" class="nav-link" data-scroll-target="#hiv-em-gestante"><span class="header-section-number">7.3.19</span> HIV em gestante</a></li>
+  <li><a href="#influenza-pandêmica" id="toc-influenza-pandêmica" class="nav-link" data-scroll-target="#influenza-pandêmica"><span class="header-section-number">7.3.20</span> Influenza pandêmica</a></li>
+  <li><a href="#rotavírus" id="toc-rotavírus" class="nav-link" data-scroll-target="#rotavírus"><span class="header-section-number">7.3.21</span> Rotavírus</a></li>
+  <li><a href="#surto-de-doenças-transmitidas-por-alimentos" id="toc-surto-de-doenças-transmitidas-por-alimentos" class="nav-link" data-scroll-target="#surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">7.3.22</span> Surto de doenças transmitidas por alimentos</a></li>
+  <li><a href="#difteria" id="toc-difteria" class="nav-link" data-scroll-target="#difteria"><span class="header-section-number">7.3.23</span> Difteria</a></li>
+  <li><a href="#esquistossomose-mansoni" id="toc-esquistossomose-mansoni" class="nav-link" data-scroll-target="#esquistossomose-mansoni"><span class="header-section-number">7.3.24</span> Esquistossomose mansoni</a></li>
+  <li><a href="#doenças-exantemáticas" id="toc-doenças-exantemáticas" class="nav-link" data-scroll-target="#doenças-exantemáticas"><span class="header-section-number">7.3.25</span> Doenças Exantemáticas</a></li>
+  <li><a href="#febre-amarela" id="toc-febre-amarela" class="nav-link" data-scroll-target="#febre-amarela"><span class="header-section-number">7.3.26</span> Febre Amarela</a></li>
+  <li><a href="#febre-maculosa" id="toc-febre-maculosa" class="nav-link" data-scroll-target="#febre-maculosa"><span class="header-section-number">7.3.27</span> Febre Maculosa</a></li>
+  <li><a href="#febre-oropouche" id="toc-febre-oropouche" class="nav-link" data-scroll-target="#febre-oropouche"><span class="header-section-number">7.3.28</span> Febre Oropouche</a></li>
+  <li><a href="#febre-tifóide" id="toc-febre-tifóide" class="nav-link" data-scroll-target="#febre-tifóide"><span class="header-section-number">7.3.29</span> Febre Tifóide</a></li>
+  <li><a href="#hanseníase" id="toc-hanseníase" class="nav-link" data-scroll-target="#hanseníase"><span class="header-section-number">7.3.30</span> Hanseníase</a></li>
+  <li><a href="#hantavirose" id="toc-hantavirose" class="nav-link" data-scroll-target="#hantavirose"><span class="header-section-number">7.3.31</span> Hantavirose</a></li>
+  <li><a href="#hepatites-virais" id="toc-hepatites-virais" class="nav-link" data-scroll-target="#hepatites-virais"><span class="header-section-number">7.3.32</span> Hepatites Virais</a></li>
+  <li><a href="#intoxicação-hexógena" id="toc-intoxicação-hexógena" class="nav-link" data-scroll-target="#intoxicação-hexógena"><span class="header-section-number">7.3.33</span> Intoxicação Hexógena</a></li>
+  <li><a href="#leishimaniosse-tegumentar-americana" id="toc-leishimaniosse-tegumentar-americana" class="nav-link" data-scroll-target="#leishimaniosse-tegumentar-americana"><span class="header-section-number">7.3.34</span> Leishimaniosse Tegumentar Americana</a></li>
   <li><a href="#leishmaniose-visceral" id="toc-leishmaniose-visceral" class="nav-link" data-scroll-target="#leishmaniose-visceral"><span class="header-section-number">7.3.35</span> Leishmaniose Visceral</a></li>
-  <li><a href="#leishimaniosse-tegumentar-americana" id="toc-leishimaniosse-tegumentar-americana" class="nav-link" data-scroll-target="#leishimaniosse-tegumentar-americana"><span class="header-section-number">7.3.36</span> Leishimaniosse Tegumentar Americana</a></li>
-  <li><a href="#leptospirose" id="toc-leptospirose" class="nav-link" data-scroll-target="#leptospirose"><span class="header-section-number">7.3.37</span> Leptospirose</a></li>
-  <li><a href="#lerdot" id="toc-lerdot" class="nav-link" data-scroll-target="#lerdot"><span class="header-section-number">7.3.38</span> LER/DOT</a></li>
-  <li><a href="#malária" id="toc-malária" class="nav-link" data-scroll-target="#malária"><span class="header-section-number">7.3.39</span> Malária</a></li>
-  <li><a href="#meningite" id="toc-meningite" class="nav-link" data-scroll-target="#meningite"><span class="header-section-number">7.3.40</span> Meningite</a></li>
-  <li><a href="#transtornos-mentais-relacionais-ao-trabalho" id="toc-transtornos-mentais-relacionais-ao-trabalho" class="nav-link" data-scroll-target="#transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">7.3.41</span> Transtornos mentais relacionais ao trabalho</a></li>
-  <li><a href="#notificação-de-tracoma" id="toc-notificação-de-tracoma" class="nav-link" data-scroll-target="#notificação-de-tracoma"><span class="header-section-number">7.3.42</span> Notificação de tracoma</a></li>
-  <li><a href="#inquérito-de-tracoma" id="toc-inquérito-de-tracoma" class="nav-link" data-scroll-target="#inquérito-de-tracoma"><span class="header-section-number">7.3.43</span> Inquérito de tracoma</a></li>
-  <li><a href="#perda-auditiva-por-ruído-relacionado-ao-trabalho" id="toc-perda-auditiva-por-ruído-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">7.3.44</span> Perda auditiva por ruído relacionado ao trabalho</a></li>
-  <li><a href="#monkeypox" id="toc-monkeypox" class="nav-link" data-scroll-target="#monkeypox"><span class="header-section-number">7.3.45</span> Monkeypox</a></li>
-  <li><a href="#notificação-individual" id="toc-notificação-individual" class="nav-link" data-scroll-target="#notificação-individual"><span class="header-section-number">7.3.46</span> Notificação Individual</a></li>
-  <li><a href="#notificação-individual-e-sus-sinan" id="toc-notificação-individual-e-sus-sinan" class="nav-link" data-scroll-target="#notificação-individual-e-sus-sinan"><span class="header-section-number">7.3.47</span> Notificação Individual e-SUS SINAN</a></li>
-  <li><a href="#peste" id="toc-peste" class="nav-link" data-scroll-target="#peste"><span class="header-section-number">7.3.48</span> Peste</a></li>
-  <li><a href="#paralisia-flácida-aguda" id="toc-paralisia-flácida-aguda" class="nav-link" data-scroll-target="#paralisia-flácida-aguda"><span class="header-section-number">7.3.49</span> Paralisia Flácida Aguda</a></li>
-  <li><a href="#pneumoconioses-relacionadas-ao-trabalho" id="toc-pneumoconioses-relacionadas-ao-trabalho" class="nav-link" data-scroll-target="#pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">7.3.50</span> Pneumoconioses relacionadas ao trabalho</a></li>
-  <li><a href="#raiva-humana" id="toc-raiva-humana" class="nav-link" data-scroll-target="#raiva-humana"><span class="header-section-number">7.3.51</span> Raiva Humana</a></li>
-  <li><a href="#sífilis-adquirida" id="toc-sífilis-adquirida" class="nav-link" data-scroll-target="#sífilis-adquirida"><span class="header-section-number">7.3.52</span> Sífilis adquirida</a></li>
-  <li><a href="#sífilis-congênita" id="toc-sífilis-congênita" class="nav-link" data-scroll-target="#sífilis-congênita"><span class="header-section-number">7.3.53</span> Sífilis Congênita</a></li>
-  <li><a href="#sífilis-em-gestante" id="toc-sífilis-em-gestante" class="nav-link" data-scroll-target="#sífilis-em-gestante"><span class="header-section-number">7.3.54</span> Sífilis em Gestante</a></li>
-  <li><a href="#síndrome-da-rubéola-congênita" id="toc-síndrome-da-rubéola-congênita" class="nav-link" data-scroll-target="#síndrome-da-rubéola-congênita"><span class="header-section-number">7.3.55</span> Síndrome da Rubéola Congênita</a></li>
-  <li><a href="#tétano-acidental" id="toc-tétano-acidental" class="nav-link" data-scroll-target="#tétano-acidental"><span class="header-section-number">7.3.56</span> Tétano Acidental</a></li>
-  <li><a href="#tétano-neonatal" id="toc-tétano-neonatal" class="nav-link" data-scroll-target="#tétano-neonatal"><span class="header-section-number">7.3.57</span> Tétano Neonatal</a></li>
-  <li><a href="#toxoplasmose-congênita" id="toc-toxoplasmose-congênita" class="nav-link" data-scroll-target="#toxoplasmose-congênita"><span class="header-section-number">7.3.58</span> Toxoplasmose congênita</a></li>
-  <li><a href="#toxoplasmose-gestacional" id="toc-toxoplasmose-gestacional" class="nav-link" data-scroll-target="#toxoplasmose-gestacional"><span class="header-section-number">7.3.59</span> Toxoplasmose gestacional</a></li>
-  <li><a href="#tuberculose" id="toc-tuberculose" class="nav-link" data-scroll-target="#tuberculose"><span class="header-section-number">7.3.60</span> Tuberculose</a></li>
-  <li><a href="#varicela" id="toc-varicela" class="nav-link" data-scroll-target="#varicela"><span class="header-section-number">7.3.61</span> Varicela</a></li>
-  <li><a href="#violência-doméstica-sexual-eou-outras-violências" id="toc-violência-doméstica-sexual-eou-outras-violências" class="nav-link" data-scroll-target="#violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">7.3.62</span> Violência doméstica, sexual e/ou outras violências</a></li>
-  <li><a href="#violência-interpessoalautoprovocada" id="toc-violência-interpessoalautoprovocada" class="nav-link" data-scroll-target="#violência-interpessoalautoprovocada"><span class="header-section-number">7.3.63</span> Violência Interpessoal/Autoprovocada</a></li>
-  <li><a href="#zika-vírus" id="toc-zika-vírus" class="nav-link" data-scroll-target="#zika-vírus"><span class="header-section-number">7.3.64</span> Zika vírus</a></li>
+  <li><a href="#leptospirose" id="toc-leptospirose" class="nav-link" data-scroll-target="#leptospirose"><span class="header-section-number">7.3.36</span> Leptospirose</a></li>
+  <li><a href="#lerdot" id="toc-lerdot" class="nav-link" data-scroll-target="#lerdot"><span class="header-section-number">7.3.37</span> LER/DOT</a></li>
+  <li><a href="#malária" id="toc-malária" class="nav-link" data-scroll-target="#malária"><span class="header-section-number">7.3.38</span> Malária</a></li>
+  <li><a href="#meningite" id="toc-meningite" class="nav-link" data-scroll-target="#meningite"><span class="header-section-number">7.3.39</span> Meningite</a></li>
+  <li><a href="#transtornos-mentais-relacionais-ao-trabalho" id="toc-transtornos-mentais-relacionais-ao-trabalho" class="nav-link" data-scroll-target="#transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">7.3.40</span> Transtornos mentais relacionais ao trabalho</a></li>
+  <li><a href="#notificação-de-tracoma" id="toc-notificação-de-tracoma" class="nav-link" data-scroll-target="#notificação-de-tracoma"><span class="header-section-number">7.3.41</span> Notificação de tracoma</a></li>
+  <li><a href="#inquérito-de-tracoma" id="toc-inquérito-de-tracoma" class="nav-link" data-scroll-target="#inquérito-de-tracoma"><span class="header-section-number">7.3.42</span> Inquérito de tracoma</a></li>
+  <li><a href="#perda-auditiva-por-ruído-relacionado-ao-trabalho" id="toc-perda-auditiva-por-ruído-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">7.3.43</span> Perda auditiva por ruído relacionado ao trabalho</a></li>
+  <li><a href="#monkeypox" id="toc-monkeypox" class="nav-link" data-scroll-target="#monkeypox"><span class="header-section-number">7.3.44</span> Monkeypox</a></li>
+  <li><a href="#notificação-individual" id="toc-notificação-individual" class="nav-link" data-scroll-target="#notificação-individual"><span class="header-section-number">7.3.45</span> Notificação Individual</a></li>
+  <li><a href="#notificação-individual-e-sus-sinan" id="toc-notificação-individual-e-sus-sinan" class="nav-link" data-scroll-target="#notificação-individual-e-sus-sinan"><span class="header-section-number">7.3.46</span> Notificação Individual e-SUS SINAN</a></li>
+  <li><a href="#peste" id="toc-peste" class="nav-link" data-scroll-target="#peste"><span class="header-section-number">7.3.47</span> Peste</a></li>
+  <li><a href="#poliomelite-paralisia-flácida-aguda" id="toc-poliomelite-paralisia-flácida-aguda" class="nav-link" data-scroll-target="#poliomelite-paralisia-flácida-aguda"><span class="header-section-number">7.3.48</span> Poliomelite / Paralisia Flácida Aguda</a></li>
+  <li><a href="#pneumoconioses-relacionadas-ao-trabalho" id="toc-pneumoconioses-relacionadas-ao-trabalho" class="nav-link" data-scroll-target="#pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">7.3.49</span> Pneumoconioses relacionadas ao trabalho</a></li>
+  <li><a href="#raiva-humana" id="toc-raiva-humana" class="nav-link" data-scroll-target="#raiva-humana"><span class="header-section-number">7.3.50</span> Raiva Humana</a></li>
+  <li><a href="#sífilis-adquirida" id="toc-sífilis-adquirida" class="nav-link" data-scroll-target="#sífilis-adquirida"><span class="header-section-number">7.3.51</span> Sífilis adquirida</a></li>
+  <li><a href="#sífilis-congênita" id="toc-sífilis-congênita" class="nav-link" data-scroll-target="#sífilis-congênita"><span class="header-section-number">7.3.52</span> Sífilis Congênita</a></li>
+  <li><a href="#sífilis-em-gestante" id="toc-sífilis-em-gestante" class="nav-link" data-scroll-target="#sífilis-em-gestante"><span class="header-section-number">7.3.53</span> Sífilis em Gestante</a></li>
+  <li><a href="#síndrome-da-rubéola-congênita" id="toc-síndrome-da-rubéola-congênita" class="nav-link" data-scroll-target="#síndrome-da-rubéola-congênita"><span class="header-section-number">7.3.54</span> Síndrome da Rubéola Congênita</a></li>
+  <li><a href="#tétano-acidental" id="toc-tétano-acidental" class="nav-link" data-scroll-target="#tétano-acidental"><span class="header-section-number">7.3.55</span> Tétano Acidental</a></li>
+  <li><a href="#tétano-neonatal" id="toc-tétano-neonatal" class="nav-link" data-scroll-target="#tétano-neonatal"><span class="header-section-number">7.3.56</span> Tétano Neonatal</a></li>
+  <li><a href="#toxoplasmose-congênita" id="toc-toxoplasmose-congênita" class="nav-link" data-scroll-target="#toxoplasmose-congênita"><span class="header-section-number">7.3.57</span> Toxoplasmose congênita</a></li>
+  <li><a href="#toxoplasmose-gestacional" id="toc-toxoplasmose-gestacional" class="nav-link" data-scroll-target="#toxoplasmose-gestacional"><span class="header-section-number">7.3.58</span> Toxoplasmose gestacional</a></li>
+  <li><a href="#tuberculose" id="toc-tuberculose" class="nav-link" data-scroll-target="#tuberculose"><span class="header-section-number">7.3.59</span> Tuberculose</a></li>
+  <li><a href="#varicela-herpes-zóster" id="toc-varicela-herpes-zóster" class="nav-link" data-scroll-target="#varicela-herpes-zóster"><span class="header-section-number">7.3.60</span> Varicela / Herpes-Zóster</a></li>
+  <li><a href="#violência-doméstica-sexual-eou-outras-violências" id="toc-violência-doméstica-sexual-eou-outras-violências" class="nav-link" data-scroll-target="#violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">7.3.61</span> Violência doméstica, sexual e/ou outras violências</a></li>
+  <li><a href="#violência-interpessoalautoprovocada" id="toc-violência-interpessoalautoprovocada" class="nav-link" data-scroll-target="#violência-interpessoalautoprovocada"><span class="header-section-number">7.3.62</span> Violência Interpessoal/Autoprovocada</a></li>
+  <li><a href="#zika-vírus" id="toc-zika-vírus" class="nav-link" data-scroll-target="#zika-vírus"><span class="header-section-number">7.3.63</span> Zika vírus</a></li>
   </ul></li>
   <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">7.4</span> Acesso aos dados</a>
   <ul class="collapse">
@@ -410,6 +575,7 @@ window.Quarto = {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -471,7 +637,7 @@ atua --&gt; sms
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.1: Fluxo de emissão e destinação das vias da Declaração de Óbito
+Figura&nbsp;7.1: Fluxo de notificação do SINAN
 </figcaption>
 </figure>
 </div>
@@ -496,6 +662,25 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 </div>
 </div>
 </div>
+<p>A confirmação de casos, em geral, pode ser feita por exames laboratoriais de sangue e/ou outros amostras, testes rápidos (como Igm e IgC), ou confirmado pelo médico por critérios clínicos e epidemiológicos. Este último critério costuma ser mais adotado em situações de surtos e epidemias, onde há uma escassez de exames disponíveis. Em casos suspeitos de dengue, por exemplo, um caso pode ser confirmado à partir dos sintomas relatados na anamnese clínica desde que o paciente relate também um vínculo epidemiológico com um caso confirmado laboratorialmente.</p>
+<blockquote class="blockquote">
+<p>Na impossibilidade de realização de confirmação laboratorial específica ou em casos com resultados laboratoriais inconclusivos, deve-se considerar a confirmação por vínculo epidemiológico com um caso confirmado laboratorialmente, após avaliação da distribuição espacial e espaço-temporal dos casos confirmados.<span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">(<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">BRASIL, 2024a</a>)</span></p>
+</blockquote>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dados de casos suspeitos reportados no SINAN podem apresentar diversas variáveis de datas e locais relativas a diferentes momentos do acompanhamento do caso. As datas mais comuns são: data de provavel infecção, data de notificação, data de digitação, data do(s) exames laboratoriai(s), data do diagnóstico final. Já as variáveis de localização mais comuns são: município/UF de provavel infecção, município/UF de residência e município/UF de notificação.</p>
+<p>Para o acompanhamento epidemiológico, é mais usual a adoção da data de provavel infecção e município/UF de provavel infecção.</p>
+<p>Casos onde o município/UF de provavel infeção é o mesmo que o de residência podem ser classificados como “autoctones”, ou seja, a doença foi contraída no mesmo município/UF de residência do paciente. Já casos onde a município/UF de provavel infeção é diferente do município/UF de residência podem ser classificados como “alotoctones”.</p>
+</div>
+</div>
 <p>Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis, apresentados a seguir.</p>
 <section id="acidende-de-trabalho-com-material-biológico" class="level3" data-number="7.3.1">
 <h3 data-number="7.3.1" class="anchored" data-anchor-id="acidende-de-trabalho-com-material-biológico"><span class="header-section-number">7.3.1</span> Acidende de trabalho com material biológico</h3>
@@ -508,23 +693,38 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <ul>
 <li>Prefixo dos arquivos: ACGR</li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_ACGR.png" id="fluxo_ACGR" class="img-fluid" alt="Fluxograma de vigilância em saúde do trabalhador"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
 <section id="aids-em-adultos" class="level3" data-number="7.3.3">
 <h3 data-number="7.3.3" class="anchored" data-anchor-id="aids-em-adultos"><span class="header-section-number">7.3.3</span> AIDS em adultos</h3>
 <ul>
 <li>Prefixo dos arquivos: AIDA</li>
+<li>Códigos CID-10</li>
+<li>Infecção pelo HIV: Z21</li>
+<li>Aids: B20-B24</li>
+<li>Gestante HIV: Z21</li>
+<li>Criança exposta ao HIV: Z20.6</li>
 </ul>
 </section>
 <section id="aids-em-crianças" class="level3" data-number="7.3.4">
 <h3 data-number="7.3.4" class="anchored" data-anchor-id="aids-em-crianças"><span class="header-section-number">7.3.4</span> AIDS em crianças</h3>
 <ul>
 <li>Prefixo dos arquivos: AIDC</li>
+<li>Código CID-10 (Criança exposta ao HIV): Z20.6</li>
 </ul>
 </section>
 <section id="acidentes-por-animais-peçonhentos" class="level3" data-number="7.3.5">
 <h3 data-number="7.3.5" class="anchored" data-anchor-id="acidentes-por-animais-peçonhentos"><span class="header-section-number">7.3.5</span> Acidentes por Animais Peçonhentos</h3>
 <ul>
 <li>Prefixo dos arquivos: ANIM</li>
+<li>Códigos CID-10
+<ul>
+<li>Acidente ofídico: X20 e T63.0</li>
+<li>Escorpionismo: X22 e T63.2</li>
+<li>Araneísmo: X21 e T63.3</li>
+<li>Lonomia e outras lagartas: X25 e T63.4</li>
+<li>Himenópteros (abelhas, vespas e formigas): X23 e T63.4</li>
+</ul></li>
 <li><a href="assets/sinan/agravos/ANIMPN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf">Roteiro de uso</a></li>
@@ -541,6 +741,7 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <h3 data-number="7.3.7" class="anchored" data-anchor-id="botulismo"><span class="header-section-number">7.3.7</span> Botulismo</h3>
 <ul>
 <li>Prefixo dos arquivos: BOTU</li>
+<li>CID-10: A05.1</li>
 <li><a href="assets/sinan/agravos/BOTUN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/BOTUN_DIC_DADOS.pdf">Dicionário de dados</a></li>
@@ -552,14 +753,19 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <li>Prefixo dos arquivos: CANC</li>
 </ul>
 </section>
-<section id="doença-de-chagas-aguda" class="level3" data-number="7.3.9">
-<h3 data-number="7.3.9" class="anchored" data-anchor-id="doença-de-chagas-aguda"><span class="header-section-number">7.3.9</span> Doença de Chagas Aguda</h3>
+<section id="doença-de-chagas" class="level3" data-number="7.3.9">
+<h3 data-number="7.3.9" class="anchored" data-anchor-id="doença-de-chagas"><span class="header-section-number">7.3.9</span> Doença de Chagas</h3>
 <ul>
 <li>Prefixo dos arquivos: CHAG</li>
+<li>CID-10: B57</li>
 <li><a href="assets/sinan/agravos/CHAGAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/ciclo_chagas.png" id="ciclo_chagas" class="img-fluid" alt="Ciclo de transmissão vetorial da doença de Chagas"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
+<p><img src="assets/sinan/img/fluxo_chagas_aguda.png" id="fluxo_chagas_aguda" class="img-fluid" alt="Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas aguda (DCA), segundo critério laboratorial"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
+<p><img src="assets/sinan/img/fluxo_chagas_cronica.png" id="fluxo_chagas_cronica" class="img-fluid" alt="Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas crônica (DCC), segundo critério laboratorial"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
+<p><img src="assets/sinan/img/invest_chagas.png" id="invest_chagas" class="img-fluid" alt="Fluxograma para investigação epidemiológica da doença de Chagas"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
 <section id="febre-de-chikungunya" class="level3" data-number="7.3.10">
 <h3 data-number="7.3.10" class="anchored" data-anchor-id="febre-de-chikungunya"><span class="header-section-number">7.3.10</span> Febre de Chikungunya</h3>
@@ -571,15 +777,18 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <h3 data-number="7.3.11" class="anchored" data-anchor-id="cólera"><span class="header-section-number">7.3.11</span> Cólera</h3>
 <ul>
 <li>Prefixo dos arquivos: COLE</li>
+<li>Código CID-10: A00</li>
 <li><a href="assets/sinan/agravos/COLEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/COLEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_colera.png" id="fluxo_colera" class="img-fluid" alt="Fluxograma de investigação de casos suspeitos de cólera"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
 <section id="coqueluche" class="level3" data-number="7.3.12">
 <h3 data-number="7.3.12" class="anchored" data-anchor-id="coqueluche"><span class="header-section-number">7.3.12</span> Coqueluche</h3>
 <ul>
 <li>Prefixo dos arquivos: COQU</li>
+<li>CID-10: A37</li>
 <li><a href="assets/sinan/agravos/COQUEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/COQUEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/COQUEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
@@ -599,82 +808,85 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <h3 data-number="7.3.14" class="anchored" data-anchor-id="dermatoses-ocupacionais"><span class="header-section-number">7.3.14</span> Dermatoses ocupacionais</h3>
 <ul>
 <li>Prefixo dos arquivos: DERM</li>
+<li>CID-10: L98.9</li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_dermatose_ocup.png" id="fluxo_dermatose_ocup" class="img-fluid" alt="Fluxograma de vigilância em saúde do trabalhador para dermatoses"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
 <section id="esporotricose-epizootia" class="level3" data-number="7.3.15">
 <h3 data-number="7.3.15" class="anchored" data-anchor-id="esporotricose-epizootia"><span class="header-section-number">7.3.15</span> Esporotricose (Epizootia)</h3>
 <ul>
 <li>Prefixo dos arquivos: ESPO</li>
+<li>CID-10: B42</li>
 </ul>
 </section>
-<section id="esquitossomose" class="level3" data-number="7.3.16">
-<h3 data-number="7.3.16" class="anchored" data-anchor-id="esquitossomose"><span class="header-section-number">7.3.16</span> Esquitossomose</h3>
-<ul>
-<li>Prefixo dos arquivos: ESQU</li>
-</ul>
-</section>
-<section id="hiv-em-adultos" class="level3" data-number="7.3.17">
-<h3 data-number="7.3.17" class="anchored" data-anchor-id="hiv-em-adultos"><span class="header-section-number">7.3.17</span> HIV em adultos</h3>
+<section id="hiv-em-adultos" class="level3" data-number="7.3.16">
+<h3 data-number="7.3.16" class="anchored" data-anchor-id="hiv-em-adultos"><span class="header-section-number">7.3.16</span> HIV em adultos</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVA</li>
 </ul>
 </section>
-<section id="hiv-em-crianças" class="level3" data-number="7.3.18">
-<h3 data-number="7.3.18" class="anchored" data-anchor-id="hiv-em-crianças"><span class="header-section-number">7.3.18</span> HIV em crianças</h3>
+<section id="hiv-em-crianças" class="level3" data-number="7.3.17">
+<h3 data-number="7.3.17" class="anchored" data-anchor-id="hiv-em-crianças"><span class="header-section-number">7.3.17</span> HIV em crianças</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVC</li>
 </ul>
 </section>
-<section id="hiv-em-crianças-expostas" class="level3" data-number="7.3.19">
-<h3 data-number="7.3.19" class="anchored" data-anchor-id="hiv-em-crianças-expostas"><span class="header-section-number">7.3.19</span> HIV em crianças expostas</h3>
+<section id="hiv-em-crianças-expostas" class="level3" data-number="7.3.18">
+<h3 data-number="7.3.18" class="anchored" data-anchor-id="hiv-em-crianças-expostas"><span class="header-section-number">7.3.18</span> HIV em crianças expostas</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVE</li>
 </ul>
 </section>
-<section id="hiv-em-gestante" class="level3" data-number="7.3.20">
-<h3 data-number="7.3.20" class="anchored" data-anchor-id="hiv-em-gestante"><span class="header-section-number">7.3.20</span> HIV em gestante</h3>
+<section id="hiv-em-gestante" class="level3" data-number="7.3.19">
+<h3 data-number="7.3.19" class="anchored" data-anchor-id="hiv-em-gestante"><span class="header-section-number">7.3.19</span> HIV em gestante</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVG</li>
 </ul>
 </section>
-<section id="influenza-pandêmica" class="level3" data-number="7.3.21">
-<h3 data-number="7.3.21" class="anchored" data-anchor-id="influenza-pandêmica"><span class="header-section-number">7.3.21</span> Influenza pandêmica</h3>
+<section id="influenza-pandêmica" class="level3" data-number="7.3.20">
+<h3 data-number="7.3.20" class="anchored" data-anchor-id="influenza-pandêmica"><span class="header-section-number">7.3.20</span> Influenza pandêmica</h3>
 <ul>
 <li>Prefixo dos arquivos: INFL</li>
 </ul>
 </section>
-<section id="rotavírus" class="level3" data-number="7.3.22">
-<h3 data-number="7.3.22" class="anchored" data-anchor-id="rotavírus"><span class="header-section-number">7.3.22</span> Rotavírus</h3>
+<section id="rotavírus" class="level3" data-number="7.3.21">
+<h3 data-number="7.3.21" class="anchored" data-anchor-id="rotavírus"><span class="header-section-number">7.3.21</span> Rotavírus</h3>
 <ul>
 <li>Prefixo dos arquivos: ROTA</li>
+<li>CID-10: A08.0</li>
 <li><a href="assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="surto-de-doenças-transmitidas-por-alimentos" class="level3" data-number="7.3.23">
-<h3 data-number="7.3.23" class="anchored" data-anchor-id="surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">7.3.23</span> Surto de doenças transmitidas por alimentos</h3>
+<section id="surto-de-doenças-transmitidas-por-alimentos" class="level3" data-number="7.3.22">
+<h3 data-number="7.3.22" class="anchored" data-anchor-id="surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">7.3.22</span> Surto de doenças transmitidas por alimentos</h3>
 <ul>
 <li>Prefixo dos arquivos: SDTA</li>
 </ul>
 </section>
-<section id="difteria" class="level3" data-number="7.3.24">
-<h3 data-number="7.3.24" class="anchored" data-anchor-id="difteria"><span class="header-section-number">7.3.24</span> Difteria</h3>
+<section id="difteria" class="level3" data-number="7.3.23">
+<h3 data-number="7.3.23" class="anchored" data-anchor-id="difteria"><span class="header-section-number">7.3.23</span> Difteria</h3>
 <ul>
 <li>Prefixo dos arquivos: DIFT</li>
+<li>CID-10: A36</li>
 <li><a href="assets/sinan/agravos/DIFTEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_difteria.png" id="fluxo_difteria" class="img-fluid" alt="Roteiro de investigação epidemiológica da difteria"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="esquistossomose" class="level3" data-number="7.3.25">
-<h3 data-number="7.3.25" class="anchored" data-anchor-id="esquistossomose"><span class="header-section-number">7.3.25</span> Esquistossomose</h3>
+<section id="esquistossomose-mansoni" class="level3" data-number="7.3.24">
+<h3 data-number="7.3.24" class="anchored" data-anchor-id="esquistossomose-mansoni"><span class="header-section-number">7.3.24</span> Esquistossomose mansoni</h3>
 <ul>
+<li>Prefixo dos arquivos: ESQU</li>
+<li>CID-10: B65.1</li>
 <li><a href="assets/sinan/agravos/ESQUIN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/ESQUIN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_esquistossomose.png" id="fluxo_esquistossomose" class="img-fluid" alt="Algoritmo do Sistema de Informação para Esquistossomose"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="doenças-exantemáticas" class="level3" data-number="7.3.26">
-<h3 data-number="7.3.26" class="anchored" data-anchor-id="doenças-exantemáticas"><span class="header-section-number">7.3.26</span> Doenças Exantemáticas</h3>
+<section id="doenças-exantemáticas" class="level3" data-number="7.3.25">
+<h3 data-number="7.3.25" class="anchored" data-anchor-id="doenças-exantemáticas"><span class="header-section-number">7.3.25</span> Doenças Exantemáticas</h3>
 <ul>
 <li>Prefixo dos arquivos: EXAN</li>
 <li><a href="assets/sinan/agravos/EXANT_FICHA.pdf">Ficha de notificação</a></li>
@@ -682,68 +894,82 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <li><a href="assets/sinan/agravos/EXANT_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="febre-amarela" class="level3" data-number="7.3.27">
-<h3 data-number="7.3.27" class="anchored" data-anchor-id="febre-amarela"><span class="header-section-number">7.3.27</span> Febre Amarela</h3>
+<section id="febre-amarela" class="level3" data-number="7.3.26">
+<h3 data-number="7.3.26" class="anchored" data-anchor-id="febre-amarela"><span class="header-section-number">7.3.26</span> Febre Amarela</h3>
 <ul>
+<li>CID-10: A95</li>
 <li><a href="assets/sinan/agravos/FAMARN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/FAMARN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_febre_amarela.png" id="fluxo_febre_amarela" class="img-fluid" alt="Dinâmica de transmissão do vírus da febre amarela, principalmente nos anos recentes no bioma Mata Atlântica"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="febre-maculosa" class="level3" data-number="7.3.28">
-<h3 data-number="7.3.28" class="anchored" data-anchor-id="febre-maculosa"><span class="header-section-number">7.3.28</span> Febre Maculosa</h3>
+<section id="febre-maculosa" class="level3" data-number="7.3.27">
+<h3 data-number="7.3.27" class="anchored" data-anchor-id="febre-maculosa"><span class="header-section-number">7.3.27</span> Febre Maculosa</h3>
 <ul>
 <li>Prefixo dos arquivos: FMAC</li>
+<li>CID-10
+<ul>
+<li>Rickettsioses transmitidas por carrapatos: A77</li>
+<li>Febre maculosa brasileira: A77.0</li>
+<li>Febre maculosa não especificada: A77.9</li>
+</ul></li>
 <li><a href="assets/sinan/agravos/FMACUN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/FMACUN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_febre_maculosa.png" id="fluxo_febre_maculosa" class="img-fluid" alt="Fluxograma de investigação epidemiológica da febre maculosa brasileira"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="febre-oropouche" class="level3" data-number="7.3.29">
-<h3 data-number="7.3.29" class="anchored" data-anchor-id="febre-oropouche"><span class="header-section-number">7.3.29</span> Febre Oropouche</h3>
+<section id="febre-oropouche" class="level3" data-number="7.3.28">
+<h3 data-number="7.3.28" class="anchored" data-anchor-id="febre-oropouche"><span class="header-section-number">7.3.28</span> Febre Oropouche</h3>
 <ul>
 <li><a href="assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf">POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche</a></li>
 </ul>
 </section>
-<section id="febre-tifóide" class="level3" data-number="7.3.30">
-<h3 data-number="7.3.30" class="anchored" data-anchor-id="febre-tifóide"><span class="header-section-number">7.3.30</span> Febre Tifóide</h3>
+<section id="febre-tifóide" class="level3" data-number="7.3.29">
+<h3 data-number="7.3.29" class="anchored" data-anchor-id="febre-tifóide"><span class="header-section-number">7.3.29</span> Febre Tifóide</h3>
 <ul>
 <li>Prefixo dos arquivos: FTIF</li>
+<li>CID-10: A01.0</li>
 <li><a href="assets/sinan/agravos/FTIFON_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/FTIFON_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="hanseníase" class="level3" data-number="7.3.31">
-<h3 data-number="7.3.31" class="anchored" data-anchor-id="hanseníase"><span class="header-section-number">7.3.31</span> Hanseníase</h3>
+<section id="hanseníase" class="level3" data-number="7.3.30">
+<h3 data-number="7.3.30" class="anchored" data-anchor-id="hanseníase"><span class="header-section-number">7.3.30</span> Hanseníase</h3>
 <ul>
 <li>Prefixo dos arquivos: HANS</li>
+<li>CID-10: A30</li>
 <li><a href="assets/sinan/agravos/HANSN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf">Caderno de análise</a></li>
 <li><a href="assets/sinan/agravos/HANSN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="hantavirose" class="level3" data-number="7.3.32">
-<h3 data-number="7.3.32" class="anchored" data-anchor-id="hantavirose"><span class="header-section-number">7.3.32</span> Hantavirose</h3>
+<section id="hantavirose" class="level3" data-number="7.3.31">
+<h3 data-number="7.3.31" class="anchored" data-anchor-id="hantavirose"><span class="header-section-number">7.3.31</span> Hantavirose</h3>
 <ul>
 <li>Prefixo dos arquivos: HANT</li>
+<li>CID-10: B33.4</li>
 <li><a href="assets/sinan/agravos/HANTAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/HANTAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_hantavirose.png" id="fluxo_hantavirose" class="img-fluid" alt="Transmissão das hantaviroses"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="hepatites-virais" class="level3" data-number="7.3.33">
-<h3 data-number="7.3.33" class="anchored" data-anchor-id="hepatites-virais"><span class="header-section-number">7.3.33</span> Hepatites Virais</h3>
+<section id="hepatites-virais" class="level3" data-number="7.3.32">
+<h3 data-number="7.3.32" class="anchored" data-anchor-id="hepatites-virais"><span class="header-section-number">7.3.32</span> Hepatites Virais</h3>
 <ul>
 <li>Prefixo dos arquivos: HEPA</li>
+<li>CID-10: B15 – B19.9</li>
 <li><a href="assets/sinan/agravos/HEPANET_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/HEPANET_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="intoxicação-hexógena" class="level3" data-number="7.3.34">
-<h3 data-number="7.3.34" class="anchored" data-anchor-id="intoxicação-hexógena"><span class="header-section-number">7.3.34</span> Intoxicação Hexógena</h3>
+<section id="intoxicação-hexógena" class="level3" data-number="7.3.33">
+<h3 data-number="7.3.33" class="anchored" data-anchor-id="intoxicação-hexógena"><span class="header-section-number">7.3.33</span> Intoxicação Hexógena</h3>
 <ul>
 <li>Prefixo dos arquivos: IEXO</li>
 <li><a href="assets/sinan/agravos/IEXOGN_FICHA.pdf">Ficha de notificação</a></li>
@@ -751,54 +977,64 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <li><a href="assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="leishmaniose-visceral" class="level3" data-number="7.3.35">
-<h3 data-number="7.3.35" class="anchored" data-anchor-id="leishmaniose-visceral"><span class="header-section-number">7.3.35</span> Leishmaniose Visceral</h3>
-<ul>
-<li>Prefixo dos arquivos: LEIV</li>
-<li><a href="assets/sinan/agravos/LEISHN_FICHA.pdf">Ficha de notificação</a></li>
-<li><a href="assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf">Instrucional</a></li>
-<li><a href="assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf">Caderno de análise</a></li>
-<li><a href="assets/sinan/agravos/LEISHN_DIC_DADOS.pdf">Dicionário de dados</a></li>
-</ul>
-</section>
-<section id="leishimaniosse-tegumentar-americana" class="level3" data-number="7.3.36">
-<h3 data-number="7.3.36" class="anchored" data-anchor-id="leishimaniosse-tegumentar-americana"><span class="header-section-number">7.3.36</span> Leishimaniosse Tegumentar Americana</h3>
+<section id="leishimaniosse-tegumentar-americana" class="level3" data-number="7.3.34">
+<h3 data-number="7.3.34" class="anchored" data-anchor-id="leishimaniosse-tegumentar-americana"><span class="header-section-number">7.3.34</span> Leishimaniosse Tegumentar Americana</h3>
 <ul>
 <li>Prefixo dos arquivos: LTAN</li>
+<li>CID-10: B55.1</li>
 <li><a href="assets/sinan/agravos/LTAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf">Caderno de análises</a></li>
 <li><a href="assets/sinan/agravos/LTAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="leptospirose" class="level3" data-number="7.3.37">
-<h3 data-number="7.3.37" class="anchored" data-anchor-id="leptospirose"><span class="header-section-number">7.3.37</span> Leptospirose</h3>
+<section id="leishmaniose-visceral" class="level3" data-number="7.3.35">
+<h3 data-number="7.3.35" class="anchored" data-anchor-id="leishmaniose-visceral"><span class="header-section-number">7.3.35</span> Leishmaniose Visceral</h3>
+<ul>
+<li>Prefixo dos arquivos: LEIV</li>
+<li>CID-10: B55.0</li>
+<li><a href="assets/sinan/agravos/LEISHN_FICHA.pdf">Ficha de notificação</a></li>
+<li><a href="assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf">Instrucional</a></li>
+<li><a href="assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf">Caderno de análise</a></li>
+<li><a href="assets/sinan/agravos/LEISHN_DIC_DADOS.pdf">Dicionário de dados</a></li>
+</ul>
+</section>
+<section id="leptospirose" class="level3" data-number="7.3.36">
+<h3 data-number="7.3.36" class="anchored" data-anchor-id="leptospirose"><span class="header-section-number">7.3.36</span> Leptospirose</h3>
 <ul>
 <li>Prefixo dos arquivos: LEPT</li>
+<li>CID-10: A27</li>
 <li><a href="assets/sinan/agravos/LEPTON_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/LEPTON_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_leptospirose.png" id="fluxo_leptospirose" class="img-fluid" alt="Roteiro de investigação da leptospirose"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="lerdot" class="level3" data-number="7.3.38">
-<h3 data-number="7.3.38" class="anchored" data-anchor-id="lerdot"><span class="header-section-number">7.3.38</span> LER/DOT</h3>
+<section id="lerdot" class="level3" data-number="7.3.37">
+<h3 data-number="7.3.37" class="anchored" data-anchor-id="lerdot"><span class="header-section-number">7.3.37</span> LER/DOT</h3>
 <ul>
 <li>Prefixo dos arquivos: LERD</li>
 </ul>
 </section>
-<section id="malária" class="level3" data-number="7.3.39">
-<h3 data-number="7.3.39" class="anchored" data-anchor-id="malária"><span class="header-section-number">7.3.39</span> Malária</h3>
+<section id="malária" class="level3" data-number="7.3.38">
+<h3 data-number="7.3.38" class="anchored" data-anchor-id="malária"><span class="header-section-number">7.3.38</span> Malária</h3>
 <ul>
 <li>Prefixo dos arquivos: MALA</li>
+<li>CID-10: B50 a B54 / P37.3 e P37.4</li>
 <li><a href="assets/sinan/agravos/MALAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/MALAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="meningite" class="level3" data-number="7.3.40">
-<h3 data-number="7.3.40" class="anchored" data-anchor-id="meningite"><span class="header-section-number">7.3.40</span> Meningite</h3>
+<section id="meningite" class="level3" data-number="7.3.39">
+<h3 data-number="7.3.39" class="anchored" data-anchor-id="meningite"><span class="header-section-number">7.3.39</span> Meningite</h3>
 <ul>
 <li>Prefixo dos arquivos: MENI</li>
+<li>CID-10
+<ul>
+<li>Meningite meningocócica: A39.0</li>
+<li>Meningococcemia aguda: A39.2</li>
+</ul></li>
 <li><a href="assets/sinan/agravos/MENIN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf">Caderno de análises</a></li>
@@ -806,182 +1042,209 @@ pos = \frac{c_c}{c_c + c_d + c_i}
 <li><a href="assets/sinan/agravos/MENIN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="transtornos-mentais-relacionais-ao-trabalho" class="level3" data-number="7.3.41">
-<h3 data-number="7.3.41" class="anchored" data-anchor-id="transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">7.3.41</span> Transtornos mentais relacionais ao trabalho</h3>
+<section id="transtornos-mentais-relacionais-ao-trabalho" class="level3" data-number="7.3.40">
+<h3 data-number="7.3.40" class="anchored" data-anchor-id="transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">7.3.40</span> Transtornos mentais relacionais ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: MENT</li>
 </ul>
 </section>
-<section id="notificação-de-tracoma" class="level3" data-number="7.3.42">
-<h3 data-number="7.3.42" class="anchored" data-anchor-id="notificação-de-tracoma"><span class="header-section-number">7.3.42</span> Notificação de tracoma</h3>
+<section id="notificação-de-tracoma" class="level3" data-number="7.3.41">
+<h3 data-number="7.3.41" class="anchored" data-anchor-id="notificação-de-tracoma"><span class="header-section-number">7.3.41</span> Notificação de tracoma</h3>
 <ul>
 <li>Prefixo dos arquivos: NTRA</li>
+<li>CID-10
+<ul>
+<li>Tracoma: A71</li>
+<li>Sequelas de tracoma: B94.0</li>
+</ul></li>
 </ul>
 </section>
-<section id="inquérito-de-tracoma" class="level3" data-number="7.3.43">
-<h3 data-number="7.3.43" class="anchored" data-anchor-id="inquérito-de-tracoma"><span class="header-section-number">7.3.43</span> Inquérito de tracoma</h3>
+<section id="inquérito-de-tracoma" class="level3" data-number="7.3.42">
+<h3 data-number="7.3.42" class="anchored" data-anchor-id="inquérito-de-tracoma"><span class="header-section-number">7.3.42</span> Inquérito de tracoma</h3>
 <ul>
 <li>Prefixo dos arquivos: TRAC</li>
 </ul>
 </section>
-<section id="perda-auditiva-por-ruído-relacionado-ao-trabalho" class="level3" data-number="7.3.44">
-<h3 data-number="7.3.44" class="anchored" data-anchor-id="perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">7.3.44</span> Perda auditiva por ruído relacionado ao trabalho</h3>
+<section id="perda-auditiva-por-ruído-relacionado-ao-trabalho" class="level3" data-number="7.3.43">
+<h3 data-number="7.3.43" class="anchored" data-anchor-id="perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">7.3.43</span> Perda auditiva por ruído relacionado ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: PAIR</li>
 </ul>
 </section>
-<section id="monkeypox" class="level3" data-number="7.3.45">
-<h3 data-number="7.3.45" class="anchored" data-anchor-id="monkeypox"><span class="header-section-number">7.3.45</span> Monkeypox</h3>
+<section id="monkeypox" class="level3" data-number="7.3.44">
+<h3 data-number="7.3.44" class="anchored" data-anchor-id="monkeypox"><span class="header-section-number">7.3.44</span> Monkeypox</h3>
 <p>A notificação de Monkeypox (Mpox) está sendo realizada com o <a href="http://plataforma.saude.gov.br/esussinan/">e-SUS SINAN</a>, uma nova versão do SINAN.</p>
 <ul>
 <li><a href="assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/esus/dicionario-investigacao-monkeypox-esussinan.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="notificação-individual" class="level3" data-number="7.3.46">
-<h3 data-number="7.3.46" class="anchored" data-anchor-id="notificação-individual"><span class="header-section-number">7.3.46</span> Notificação Individual</h3>
+<section id="notificação-individual" class="level3" data-number="7.3.45">
+<h3 data-number="7.3.45" class="anchored" data-anchor-id="notificação-individual"><span class="header-section-number">7.3.45</span> Notificação Individual</h3>
 <ul>
 <li><a href="assets/sinan/agravos/NINDIN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/NINDIN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="notificação-individual-e-sus-sinan" class="level3" data-number="7.3.47">
-<h3 data-number="7.3.47" class="anchored" data-anchor-id="notificação-individual-e-sus-sinan"><span class="header-section-number">7.3.47</span> Notificação Individual e-SUS SINAN</h3>
+<section id="notificação-individual-e-sus-sinan" class="level3" data-number="7.3.46">
+<h3 data-number="7.3.46" class="anchored" data-anchor-id="notificação-individual-e-sus-sinan"><span class="header-section-number">7.3.46</span> Notificação Individual e-SUS SINAN</h3>
 <ul>
 <li><a href="assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf">Ficha individual de notificação</a></li>
 <li><a href="assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf">Modelo de informação da ficha de notificação</a></li>
 </ul>
 </section>
-<section id="peste" class="level3" data-number="7.3.48">
-<h3 data-number="7.3.48" class="anchored" data-anchor-id="peste"><span class="header-section-number">7.3.48</span> Peste</h3>
+<section id="peste" class="level3" data-number="7.3.47">
+<h3 data-number="7.3.47" class="anchored" data-anchor-id="peste"><span class="header-section-number">7.3.47</span> Peste</h3>
 <ul>
 <li>Prefixo dos arquivos: PEST</li>
+<li>CID-10: A20</li>
 <li><a href="assets/sinan/agravos/PESTEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/PESTEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/PESTEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_peste.png" id="fluxo_peste" class="img-fluid" alt="Roteiro da investigação epidemiológica da peste"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="paralisia-flácida-aguda" class="level3" data-number="7.3.49">
-<h3 data-number="7.3.49" class="anchored" data-anchor-id="paralisia-flácida-aguda"><span class="header-section-number">7.3.49</span> Paralisia Flácida Aguda</h3>
+<section id="poliomelite-paralisia-flácida-aguda" class="level3" data-number="7.3.48">
+<h3 data-number="7.3.48" class="anchored" data-anchor-id="poliomelite-paralisia-flácida-aguda"><span class="header-section-number">7.3.48</span> Poliomelite / Paralisia Flácida Aguda</h3>
 <ul>
 <li>Prefixo dos arquivos: PFAN</li>
+<li>CID-10: A80</li>
 <li><a href="assets/sinan/agravos/PFAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/PFAN_FICHA.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_poliomelite.png" id="fluxo_poliomelite" class="img-fluid" alt="Fluxograma de investigação epidemiológica de paralisia flácida aguda: conduta frente a casos suspeitos"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="pneumoconioses-relacionadas-ao-trabalho" class="level3" data-number="7.3.50">
-<h3 data-number="7.3.50" class="anchored" data-anchor-id="pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">7.3.50</span> Pneumoconioses relacionadas ao trabalho</h3>
+<section id="pneumoconioses-relacionadas-ao-trabalho" class="level3" data-number="7.3.49">
+<h3 data-number="7.3.49" class="anchored" data-anchor-id="pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">7.3.49</span> Pneumoconioses relacionadas ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: PNEU</li>
+<li>CID-10: J64</li>
 </ul>
 </section>
-<section id="raiva-humana" class="level3" data-number="7.3.51">
-<h3 data-number="7.3.51" class="anchored" data-anchor-id="raiva-humana"><span class="header-section-number">7.3.51</span> Raiva Humana</h3>
+<section id="raiva-humana" class="level3" data-number="7.3.50">
+<h3 data-number="7.3.50" class="anchored" data-anchor-id="raiva-humana"><span class="header-section-number">7.3.50</span> Raiva Humana</h3>
 <ul>
 <li>Prefixo dos arquivos: RAIV</li>
+<li>CID-10: A82</li>
 <li><a href="assets/sinan/agravos/RAIVAN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_raiva.png" id="fluxo_raiva" class="img-fluid" alt="Ciclos epidemiológicos de transmissão da raiva"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
+<p><img src="assets/sinan/img/fluxo_raiva_roteiro.png" id="fluxo_raiva_roteiro" class="img-fluid" alt="Roteiro para investigação de casos de raiva humana"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="sífilis-adquirida" class="level3" data-number="7.3.52">
-<h3 data-number="7.3.52" class="anchored" data-anchor-id="sífilis-adquirida"><span class="header-section-number">7.3.52</span> Sífilis adquirida</h3>
+<section id="sífilis-adquirida" class="level3" data-number="7.3.51">
+<h3 data-number="7.3.51" class="anchored" data-anchor-id="sífilis-adquirida"><span class="header-section-number">7.3.51</span> Sífilis adquirida</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFA</li>
+<li>CID-10: A53.9</li>
 </ul>
 </section>
-<section id="sífilis-congênita" class="level3" data-number="7.3.53">
-<h3 data-number="7.3.53" class="anchored" data-anchor-id="sífilis-congênita"><span class="header-section-number">7.3.53</span> Sífilis Congênita</h3>
+<section id="sífilis-congênita" class="level3" data-number="7.3.52">
+<h3 data-number="7.3.52" class="anchored" data-anchor-id="sífilis-congênita"><span class="header-section-number">7.3.52</span> Sífilis Congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFC</li>
+<li>CID-10: A50</li>
 <li><a href="assets/sinan/agravos/SIFICN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf">Nota informativa</a></li>
 <li><a href="assets/sinan/agravos/SIFICN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="sífilis-em-gestante" class="level3" data-number="7.3.54">
-<h3 data-number="7.3.54" class="anchored" data-anchor-id="sífilis-em-gestante"><span class="header-section-number">7.3.54</span> Sífilis em Gestante</h3>
+<section id="sífilis-em-gestante" class="level3" data-number="7.3.53">
+<h3 data-number="7.3.53" class="anchored" data-anchor-id="sífilis-em-gestante"><span class="header-section-number">7.3.53</span> Sífilis em Gestante</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFG</li>
+<li>CID-10: O98.1</li>
 <li><a href="assets/sinan/agravos/SIFIGEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li>[Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf</li>
 <li><a href="assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="síndrome-da-rubéola-congênita" class="level3" data-number="7.3.55">
-<h3 data-number="7.3.55" class="anchored" data-anchor-id="síndrome-da-rubéola-congênita"><span class="header-section-number">7.3.55</span> Síndrome da Rubéola Congênita</h3>
+<section id="síndrome-da-rubéola-congênita" class="level3" data-number="7.3.54">
+<h3 data-number="7.3.54" class="anchored" data-anchor-id="síndrome-da-rubéola-congênita"><span class="header-section-number">7.3.54</span> Síndrome da Rubéola Congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: SRC</li>
+<li>CID-10: P35.0</li>
 <li><a href="assets/sinan/agravos/SRCN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/SRCN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/SRCN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_rubeola.png" id="fluxo_rubeola" class="img-fluid" alt="Fluxograma do sistema de vigilância da síndrome da rubéola congênita"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="tétano-acidental" class="level3" data-number="7.3.56">
-<h3 data-number="7.3.56" class="anchored" data-anchor-id="tétano-acidental"><span class="header-section-number">7.3.56</span> Tétano Acidental</h3>
+<section id="tétano-acidental" class="level3" data-number="7.3.55">
+<h3 data-number="7.3.55" class="anchored" data-anchor-id="tétano-acidental"><span class="header-section-number">7.3.55</span> Tétano Acidental</h3>
 <ul>
 <li>Prefixo dos arquivos: TETA</li>
+<li>CID-10: A35</li>
 <li><a href="assets/sinan/agravos/TETACN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/TETACN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="tétano-neonatal" class="level3" data-number="7.3.57">
-<h3 data-number="7.3.57" class="anchored" data-anchor-id="tétano-neonatal"><span class="header-section-number">7.3.57</span> Tétano Neonatal</h3>
+<section id="tétano-neonatal" class="level3" data-number="7.3.56">
+<h3 data-number="7.3.56" class="anchored" data-anchor-id="tétano-neonatal"><span class="header-section-number">7.3.56</span> Tétano Neonatal</h3>
 <ul>
 <li>Prefixo dos arquivos: TETN</li>
+<li>CID-10: A33</li>
 <li><a href="assets/sinan/agravos/TETANN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/TETANN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="toxoplasmose-congênita" class="level3" data-number="7.3.58">
-<h3 data-number="7.3.58" class="anchored" data-anchor-id="toxoplasmose-congênita"><span class="header-section-number">7.3.58</span> Toxoplasmose congênita</h3>
+<section id="toxoplasmose-congênita" class="level3" data-number="7.3.57">
+<h3 data-number="7.3.57" class="anchored" data-anchor-id="toxoplasmose-congênita"><span class="header-section-number">7.3.57</span> Toxoplasmose congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: TOXC</li>
+<li>CID-10: P37.1</li>
 </ul>
 </section>
-<section id="toxoplasmose-gestacional" class="level3" data-number="7.3.59">
-<h3 data-number="7.3.59" class="anchored" data-anchor-id="toxoplasmose-gestacional"><span class="header-section-number">7.3.59</span> Toxoplasmose gestacional</h3>
+<section id="toxoplasmose-gestacional" class="level3" data-number="7.3.58">
+<h3 data-number="7.3.58" class="anchored" data-anchor-id="toxoplasmose-gestacional"><span class="header-section-number">7.3.58</span> Toxoplasmose gestacional</h3>
 <ul>
 <li>Prefixo dos arquivos: TOXG</li>
+<li>CID-10: O98.6</li>
 </ul>
 </section>
-<section id="tuberculose" class="level3" data-number="7.3.60">
-<h3 data-number="7.3.60" class="anchored" data-anchor-id="tuberculose"><span class="header-section-number">7.3.60</span> Tuberculose</h3>
+<section id="tuberculose" class="level3" data-number="7.3.59">
+<h3 data-number="7.3.59" class="anchored" data-anchor-id="tuberculose"><span class="header-section-number">7.3.59</span> Tuberculose</h3>
 <ul>
 <li>Prefixo dos arquivos: TUBE</li>
+<li>CID-10: A15 a A19; J65; K93.0; M49.0; M90.0; N74.0; N74.1; O98.0; P37.0</li>
 <li><a href="assets/sinan/agravos/TUBEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf">Ficha de acompanhamento</a></li>
 <li><a href="assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf">Instrucional</a></li>
 <li><a href="assets/sinan/agravos/TUBEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_tuberculose.png" id="fluxo_tuberculose" class="img-fluid" alt="Instrumentos de registro utilizados na investigação epidemiológica da tuberculose"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="varicela" class="level3" data-number="7.3.61">
-<h3 data-number="7.3.61" class="anchored" data-anchor-id="varicela"><span class="header-section-number">7.3.61</span> Varicela</h3>
+<section id="varicela-herpes-zóster" class="level3" data-number="7.3.60">
+<h3 data-number="7.3.60" class="anchored" data-anchor-id="varicela-herpes-zóster"><span class="header-section-number">7.3.60</span> Varicela / Herpes-Zóster</h3>
 <ul>
 <li>Prefixo dos arquivos: VARC</li>
+<li>CID-10: B01/B02</li>
 </ul>
 </section>
-<section id="violência-doméstica-sexual-eou-outras-violências" class="level3" data-number="7.3.62">
-<h3 data-number="7.3.62" class="anchored" data-anchor-id="violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">7.3.62</span> Violência doméstica, sexual e/ou outras violências</h3>
+<section id="violência-doméstica-sexual-eou-outras-violências" class="level3" data-number="7.3.61">
+<h3 data-number="7.3.61" class="anchored" data-anchor-id="violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">7.3.61</span> Violência doméstica, sexual e/ou outras violências</h3>
 <ul>
 <li>Prefixo dos arquivos: VIOL</li>
 </ul>
 </section>
-<section id="violência-interpessoalautoprovocada" class="level3" data-number="7.3.63">
-<h3 data-number="7.3.63" class="anchored" data-anchor-id="violência-interpessoalautoprovocada"><span class="header-section-number">7.3.63</span> Violência Interpessoal/Autoprovocada</h3>
+<section id="violência-interpessoalautoprovocada" class="level3" data-number="7.3.62">
+<h3 data-number="7.3.62" class="anchored" data-anchor-id="violência-interpessoalautoprovocada"><span class="header-section-number">7.3.62</span> Violência Interpessoal/Autoprovocada</h3>
 <ul>
+<li>CID-10: Y09</li>
 <li><a href="assets/sinan/agravos/VIOLEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf">Caderno de Análise</a></li>
 <li><a href="assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
+<p><img src="assets/sinan/img/fluxo_violencia.png" id="fluxo_violencia" class="img-fluid" alt="Fluxo de notificação de violências no Sistema de Informação de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)"> Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="zika-vírus" class="level3" data-number="7.3.64">
-<h3 data-number="7.3.64" class="anchored" data-anchor-id="zika-vírus"><span class="header-section-number">7.3.64</span> Zika vírus</h3>
+<section id="zika-vírus" class="level3" data-number="7.3.63">
+<h3 data-number="7.3.63" class="anchored" data-anchor-id="zika-vírus"><span class="header-section-number">7.3.63</span> Zika vírus</h3>
 <ul>
 <li>Prefixo dos arquivos: ZIKA</li>
 </ul>
@@ -1079,6 +1342,15 @@ BRASIL, M. DA S. Portaria <span>GM/MS</span> nº 420, de 2 de março de 2022. <s
 <div id="ref-msPortaria33282022" class="csl-entry" role="listitem">
 BRASIL, M. DA S. Portaria <span>GM/MS</span> nº 3.328, de 22 de agosto de 2022. <strong>Diário Oficial da União</strong>, a2022.
 </div>
+<div id="ref-ministeriodasaudeGuiaVigilanciaEm2024" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Guia de <span>Vigil<span>â</span>ncia</span> Em <span>Sa<span>ú</span>de</span>, Volume 2</strong>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2024a. v. 2
+</div>
+<div id="ref-ministeriodasaudeGuiaVigilanciaEm2024a" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Guia de <span>Vigil<span>â</span>ncia</span> Em <span>Sa<span>ú</span>de</span>, Volume 1</strong>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2024b. v. 1
+</div>
+<div id="ref-ministeriodasaudeGuiaVigilanciaEm2024b" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Guia de <span>Vigil<span>â</span>ncia</span> Em <span>Sa<span>ú</span>de</span>, Volume 3</strong>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2024c. v. 3
+</div>
 <div id="ref-caetanoSistemaInformacaoAgravos2009" class="csl-entry" role="listitem">
 CAETANO, R. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> de <span>Agravos</span> de <span>Notifica<span>ç</span><span>ã</span>o</span> (<span>Sinan</span>). Em: MINISTÉRIO DA SAÚDE (Ed.). <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
 </div>
@@ -1088,380 +1360,255 @@ CAETANO, R. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> de <s
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiada");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiada");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
         }
-        return container.innerHTML
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -1469,185 +1616,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./sia.html" class="pagination-link" aria-label="SIA -- Sistema de Informações Ambulatoriais do SUS">
