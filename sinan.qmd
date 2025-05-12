@@ -79,6 +79,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de difere
 -  Prefixo dos arquivos: ACGR
 
 ![Fluxograma de vigilância em saúde do trabalhador](assets/sinan/img/fluxo_ACGR.png){#fluxo_ACGR}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### AIDS em adultos
@@ -134,15 +135,23 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
 
 ![Ciclo de transmissão vetorial da doença de Chagas](assets/sinan/img/ciclo_chagas.png){#ciclo_chagas}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ![Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas aguda (DCA), segundo critério laboratorial](assets/sinan/img/fluxo_chagas_aguda.png){#fluxo_chagas_aguda}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
+
+
 
 ![Fluxograma para confirmar ou descartar casos suspeitos de doença de Chagas crônica (DCC), segundo critério laboratorial](assets/sinan/img/fluxo_chagas_cronica.png){#fluxo_chagas_cronica}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
+
+
 ![Fluxograma para investigação epidemiológica da doença de Chagas](assets/sinan/img/invest_chagas.png){#invest_chagas}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre de Chikungunya
@@ -158,6 +167,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 -  [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação de casos suspeitos de cólera](assets/sinan/img/fluxo_colera.png){#fluxo_colera}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Coqueluche
@@ -182,6 +192,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  CID-10: L98.9
 
 ![Fluxograma de vigilância em saúde do trabalhador para dermatoses](assets/sinan/img/fluxo_dermatose_ocup.png){#fluxo_dermatose_ocup}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Esporotricose (Epizootia)
@@ -228,6 +239,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
 
 ![Roteiro de investigação epidemiológica da difteria](assets/sinan/img/fluxo_difteria.png){#fluxo_difteria}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Esquistossomose mansoni
@@ -239,6 +251,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Dicionário de dados](assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf)
 
 ![Algoritmo do Sistema de Informação para Esquistossomose](assets/sinan/img/fluxo_esquistossomose.png){#fluxo_esquistossomose}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Doenças Exantemáticas
@@ -256,6 +269,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 -  [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
 
 ![Dinâmica de transmissão do vírus da febre amarela, principalmente nos anos recentes no bioma Mata Atlântica](assets/sinan/img/fluxo_febre_amarela.png){#fluxo_febre_amarela}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre Maculosa
@@ -270,6 +284,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 -  [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação epidemiológica da febre maculosa brasileira](assets/sinan/img/fluxo_febre_maculosa.png){#fluxo_febre_maculosa}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Febre Oropouche
@@ -302,6 +317,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
 
 ![Transmissão das hantaviroses](assets/sinan/img/fluxo_hantavirose.png){#fluxo_hantavirose}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Hepatites Virais
@@ -346,6 +362,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
 
 ![Roteiro de investigação da leptospirose](assets/sinan/img/fluxo_leptospirose.png){#fluxo_leptospirose}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### LER/DOT
@@ -417,6 +434,7 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 -  [Dicionário de dados](assets/sinan/agravos/PESTEN_DIC_DADOS.pdf)
 
 ![Roteiro da investigação epidemiológica da peste](assets/sinan/img/fluxo_peste.png){#fluxo_peste}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Poliomelite / Paralisia Flácida Aguda
@@ -428,6 +446,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Dicionário de dados](assets/sinan/agravos/PFAN_FICHA.pdf)
 
 ![Fluxograma de investigação epidemiológica de paralisia flácida aguda: conduta frente a casos suspeitos](assets/sinan/img/fluxo_poliomelite.png){#fluxo_poliomelite}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Pneumoconioses relacionadas ao trabalho
@@ -444,9 +463,11 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
 
 ![Ciclos epidemiológicos de transmissão da raiva](assets/sinan/img/fluxo_raiva.png){#fluxo_raiva}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ![Roteiro para investigação de casos de raiva humana](assets/sinan/img/fluxo_raiva_roteiro.png){#fluxo_raiva_roteiro}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Sífilis adquirida
@@ -481,6 +502,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Dicionário de dados](assets/sinan/agravos/SRCN_DIC_DADOS.pdf)
 
 ![Fluxograma do sistema de vigilância da síndrome da rubéola congênita](assets/sinan/img/fluxo_rubeola.png){#fluxo_rubeola}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Tétano Acidental
@@ -519,6 +541,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
 
 ![Instrumentos de registro utilizados na investigação epidemiológica da tuberculose](assets/sinan/img/fluxo_tuberculose.png){#fluxo_tuberculose}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Varicela / Herpes-Zóster
@@ -538,6 +561,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 -  [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
 
 ![Fluxo de notificação de violências no Sistema de Informação de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)](assets/sinan/img/fluxo_violencia.png){#fluxo_violencia}
+
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Zika vírus
