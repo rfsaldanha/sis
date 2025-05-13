@@ -154,9 +154,10 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
-### Febre de Chikungunya
+### Chikungunya
 
 -  Prefixo dos arquivos: CHIK
+-  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya)
 
 ### Cólera
 
@@ -185,6 +186,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Instrucional](assets/sinan/agravos/DENGON_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/DENGON_DIC_DADOS.pdf)
 -  [Nota informativa](assets/sinan/agravos/DENGON_NOTA_INFORMATIVA.pdf)
+-  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-dengue)
 
 ### Dermatoses ocupacionais
 
@@ -267,6 +269,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 -  [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
+-  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos)
 
 ![Dinâmica de transmissão do vírus da febre amarela, principalmente nos anos recentes no bioma Mata Atlântica](assets/sinan/img/fluxo_febre_amarela.png){#fluxo_febre_amarela}
 
@@ -414,6 +417,7 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 -  [Ficha de notificação](assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf)
 -  [Dicionário de dados](assets/sinan/esus/dicionario-investigacao-monkeypox-esussinan.pdf)
+-  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/mpox)
 
 ### Notificação Individual
 
@@ -567,6 +571,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 ### Zika vírus
 
 -  Prefixo dos arquivos: ZIKA
+-  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus)
 
 ## Acesso aos dados
 
@@ -606,6 +611,16 @@ sinan_p
 Você pode usar a biblioteca PySUS.
 
 -  [PySUS SINAN](https://pysus.readthedocs.io/en/latest/databases/SINAN.html)
+
+### OpenDataSUS
+
+O Ministério da Saúde disponibiliza arquivos atualizados no OpenDataSUS para as seguintes notificações:
+
+-  [Dengue](https://opendatasus.saude.gov.br/dataset/arboviroses-dengue)
+-  [Zika](https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus)
+-  [Chikungunya](https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya)
+-  [Mpox](https://opendatasus.saude.gov.br/dataset/mpox)
+-  [Febre Amarela](https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos)
 
 ### InfoDengue
 
