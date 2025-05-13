@@ -1,3 +1,9 @@
+---
+author: 
+  - Raphael de Freitas Saldanha
+  - Mônica de A. F. M. Magalhães
+---
+
 # Introdução
 
 A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus *sistemas de informaçãos*, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
@@ -13,5 +19,11 @@ No Brasil, os SIS pretender cobrir uma série de eventos de saúde que ocorrem d
 A @fig-ciclo-vida-sistemas apresenta as siglas de alguns dos principais SIS existentes no Brasil.
 
 ![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#fig-ciclo-vida-sistemas}
+
+Antes de conhecer os Sistemas de Informação em Saúde brasileiros, é importante entender que um sistema de informação é um modelo, seja automatizado ou manual, de processos responsáveis por coletar e transmitir dados que sejam úteis ao desenvolvimento de produtos ou serviços de instituições. Assim, ressalta-se que um sistema de informação não é apenas um banco de dados e sim um conjunto de componentes que atuam de forma integrada, por meio de mecanismos de coleta, processamento, análise e transmissão da informação necessária e oportuna. Neste sistema, todos os componentes integrantes são inter-relacionados, atuando em conjunto para atingir o objeto central do projeto.
+
+Portanto, podemos dizer que os Sistemas de Informação em Saúde são mecanismo de coleta, processamento, análise e transmissão da informação necessária para se planejar, organizar, operar e avaliar os serviços de saúde [@who2000].
+
+É fundamental entender a diferença conceitual entre dado e informação. O dado é o elemento mais simples de um sistema de informação -- uma descrição limitada do real e desvinculada de um referencial explicativo. A informação é uma composição de dados com significados para quem os vê; requer um mínimo de análise para sua obtenção, através da avaliação humana. Acrescenta-se a isso o conceito de conhecimento, que pode ser definido como um conjunto de informações importantes da experiência humana. Ou seja, é a informação dotada de contexto, reflexão e síntese [@rouquayrol2018; @siqueira2005].
 
 O objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.
