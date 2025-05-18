@@ -3,7 +3,7 @@
 ## Resumo
 
 -  Ano de criação: 1990
--  Cobertura: Dimensões pública do SUS
+-  Cobertura: Dimensão pública do SUS
 -  Unidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial
 -  Divulgação de dados: mensal, com até dois meses  de defasagem
 
