@@ -30,7 +30,7 @@ book:
     - cnes.qmd
     - siops.qmd
     - sisagua.qmd
-    #- siab.qmd
+    - sisab.qmd
     #- sipni.qmd
     - referencias.qmd
   appendices:
