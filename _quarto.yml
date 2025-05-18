@@ -36,10 +36,10 @@ book:
   appendices:
     - cid.qmd
     - codmun.qmd
+    - pop.qmd
     - sivep.qmd
     - sisvan.qmd
     #- vigitel.qmd
-    #- pop.qmd
     #- pns.qmd
     #- rnds.qmd
     #- esus-not.qmd

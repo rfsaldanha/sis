@@ -1,2 +1,68 @@
 # Estimativas populacionais
 
+## Introdução
+
+Estimativas populacionais são utilizadas comumente em conjunto com os dados dos Sistemas de Informação em Saúde como denominadores no cálculo de taxas e indicadores de base populacional.
+
+Dados populacionais consistem no quantitativo do contigente populacional de uma unidade geográfica (como município ou UF) em um determinado período (geralmente, um ano específico). Em geral, o quantitativo populacional é apresentado como total e também por grupos como sexo e/ou faixas etárias.
+
+Dados populacionais são obtidos de duas formas: observação direta por censos demográficos e contagens populacionais, e de forma indireta, por métodos de estimativas populacionais.
+
+Os censos demográficos são planejados pelo [Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br) e executados com intervalos em torno de 10 anos. Em um censo, além do levantamento do contigente populacional, um grande número de variáveis demográficas, de renda e sócio-ambientais são também obtidas. Entre anos de censo, são executadas contagens populacionais para a obtenção relativamente rápida do contigente populacional. 
+
+Desta forma, dados exatos sobre o contigente populacional são levantados a cada 5 ou 10 anos. Para anos onde não foram executados censo ou contagem populacional, são utilizadas estimativas populacionais.
+
+Estimativas populacionais são resultados de modelos estatísticos que pretendem estimar o contigente populacional de uma determinada região em um certo período; utilizando, para este fim, dados anteriores de censos e contagens populacionais e dados de nascimentos, óbitos e de migração. Estas estimativas são em geral conduzidas por demógrafos e estatísticos especialistas na área.
+
+## Estimativas
+
+Abaixo são apresentadas fontes de estimativas populacionais, links de acesso e exemplo de utilização do pacote [{brpop}](https://rfsaldanha.github.io/brpop/).
+
+### IBGE -- TCU
+
+O IBGE disponibiliza anualmente estimativas populacionais dos municípios brasileiros que são enviadas ao Tribunal de Contas da União para fins de ajustes de repasses de verbas federais.
+
+-  [Estimativas IBGE -- TCU](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
+
+::::: {.callout-warning}
+As estimativas do IBGE para o TCU são constatemente alvo de processos judiciais que determinam a alteração do contigente originalmente estimado pelo IBGE, gerando fortes instabilidades nas séries temporais dos municípios.
+:::
+
+
+
+```{r}
+library(brpop)
+
+mun_pop_totals(source = "ibge")
+```
+
+### DataSUS / DEMAS
+
+O DataSUS fornece estimativas populacionais para os municípios brasileiros. Duas estimativas estão disponíveis:
+
+-  [Estimativas de 2000 a 2021](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvsbr.def). O uso desta estimativa não é mais recomendada pelo DataSUS.
+-  [Estimativas de 2000 a 2024](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
+
+```{r}
+mun_pop_totals(source = "datasus")
+```
+
+```{r}
+mun_pop_totals(source = "datasus2024")
+```
+
+### Departamento de Demografia da UFRN
+
+O laboratório LEPP do Departamento de Demografia de UFRN oferece estimativas populacionais para os municípios brasileiros.
+
+-  [Estimativas UFRN-LEPP 2010 a 2030](https://demografiaufrn.net/projecao-populacional/)
+
+```{r}
+mun_pop_totals(source = "ufrn")
+```
+
+## Comparações entre estimativas
+
+As estimativas populacionais acima citadas utilizam métodos distintos para sua obtenção. Desta forma, discrepâncias entre seus valores são esperadas.
+
+[Este aplicativo on-line](https://shiny.icict.fiocruz.br/brpopview/) permite a comparação gráfica entre estas estimativas nos municípios brasileiros.
