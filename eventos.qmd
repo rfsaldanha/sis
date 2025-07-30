@@ -1,0 +1,93 @@
+# Eventos de saúde
+
+Os dados de saúde dizem respeito, em geral, sobre a ocorrência de eventos de interesse a saúde e apresentam informações diretas sobre o evento, tão como características das circunstâncias da ocorrência desses eventos.
+
+Desta forma, ao se interessar sobre uma determinada doença ou agravo de saúde, uma reflexão inicial deve ser feita sobre quais eventos de saúde esta doença ou agravo pode gerar na população. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.
+
+Por exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS.
+
+A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.
+
+## Casos de doenças e agravos
+
+Um dos dados mais tradicionais em saúde trata sobre a ocorrência de doenças e agravos na população. Este dado visa alertar as autoridades sobre a ocorrência de doenças e agravos, apresentando características importantes para o seu combate e prevenção.
+
+::: {.callout-note}
+O que são agravos de saúde...
+:::
+
+Os casos de doenças e agravos são apresentados inicialmente pela notificação de um caso suspeito, que pode ou não ser confirmado posteriormente. Notificar as autoridades sobre um caso ainda sem confirmação é importante para sua ação imediata, possibilitando uma resposta rápida a um cenário dinâmico.
+
+A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito, de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN.
+
+A notificação de um caso ou agravo de saúde apresenta algumas informações básicas e outras informações que podem variar a depender da doença ou agravo notificado. Informações básicas que costumam estar presentes na notificação são:
+
+-  Caracterização do paciente
+-  Município e UF de residência do paciente
+-  Município e UF de provável infecção
+-  Município e UF de notificação
+-  Data de provável infecção
+-  Data dos primeiros sintomas
+-  Data de notificação
+-  Diagnóstico e confirmação do caso
+-  Desfecho do caso
+
+Em geral, o paciente de um caso suspeito é caracterizado em termos de seu sexo, raça, idade e gestação.
+
+Os dados sobre o município e UF de residência são importantes para se conhecer o contexto socioeconômico e de saúde típico do paciente. Já os dados sobre local de provável infecção são importantes para caracterizar a transmissão das doenças e ocorrência de agravos. Por fim, os dados sobre o local de notificação contribuem para o conhecimento do funcionamento do sistema de saúde e sua capacidade de notificação de casos.
+
+Um exemplo hipotético: um cidadão que reside no Rio de Janeiro, RJ (local de residência) pode ter passado férias no Oiapoque, AP e contraído malária (local de provável infecção) e o caso ter sido notificado em Belém, PA (local de notificação) pois foi apenas durante sua estadia nesta cidade que o cidadão apresentou sintomas e procurou o serviço de saúde.
+
+::: {.callout-tip}
+Uma importante classificação é realizada ao se conhecer os locais de provável infecção e de residência: caso autóctone ou alóctone. 
+
+Um caso alóctone ocorre quando o local de infecção é diferente do local de residência, ou seja, a doença foi contraída em lugar diferente da residência do paciente.
+
+Já um caso autóctone ocorre quando o local de infecção é o mesmo que o local de residência. 
+
+Esta classificação é importante para orientar as autoridades de saúde pois a ocorrência de casos autóctones apontam que a transmissão da ocorrência está ocorrendo no próprio município.
+:::
+
+As datas de provável infecção, dos primeiros sintomas e de notificação também são importantes. A data de provável infecção diz respeito ao momento em que o paciente esteve possivelmente exposto ao risco de se contrair uma doença. As doenças apresentam tempos diferentes entre a infeção e ocorrência dos sintomas, tão como algumas doenças sequer apresentam sintomas (doenças assintomáticas). Já a data de notificação diz respeito ao funcionamento do sistema de saúde. 
+
+::: {.callout-note}
+A quantidade de casos notificados em uma determinada data não representa a quantidade de casos de uma doença nesta data pois existe um fenômeno denominado "atraso de notificação". Este atraso é o intervalo de tempo entre a data em que a unidade de saúde toma conhecimento de um caso suspeito e a data que este caso é notificado às autoridades de saúde, como as secretarias municipais e estaduais de saúde.
+
+Idealmente, este intervalo deveria ser pequeno e desprezível. Contudo, em situações de epidemias e desastres, os serviços de saúde podem apresentar dificuldades em conduzir as tarefas administrativas de notificação de casos (preenchimento de fichas, digitação, conferência e envio) em conjunto com as atividades prioritárias (atendimento à população).
+
+Grupos de pesquisa como o InfoDengue e InfoGripe trabalham neste tema, procurando prever a quantidade de casos atuais de algumas doenças considerando o atraso de notificação, empregando técnicas de *nowcasting* ("previsão do agora") com modelos estatísticos.
+:::
+
+Os dados de diagnóstico do caso são de importância para a caracterização do caso, que é inicialmente dado como suspeito. Assim, um caso suspeito pode ser classificado com: em acompanhamento, confirmado, descartado ou inconclusivo. Um caso suspeito que aguarda o resultado de um exame laboratorial é classificado como "em acompanhamento", com o resultado laboratorial e critérios clínicos específicos, o caso suspeito de uma doença pode ser "confirmado" ou "descartado" por exames laboratoriais específicos e por critérios clínicos. Contudo, resultados inconclusivos de exames podem classificar o caso como "inconclusivo", ou seja, a sensibilidade e especificidade do teste não permite fechar, com precisão, o diagnóstico do caso.
+
+Por fim, o caso pode apresentar desfechos como alta e óbito. Outros dados de interesse específicos  podem ser apresentados para algumas doenças e agravos, como resultados específicos de testes e diagnósticos.
+
+## Procedimentos ambulatoriais
+
+Ao procurar atendimento em uma unidade de saúde, um paciente segue uma rotina padronizada de atendimento, como a triagem da gravidade do atendimento, realização de exame clínico e exames diagnósticos (coleta e análise de sangue, exames de imagem), aplicação de remédios e encaminhamentos, dentre muitos outros exemplos. Todas estas atividades são denominadas "procedimentos ambulatoriais" e são registradas no SIA.
+
+Outros procedimentos ambulatoriais também existem, como de natureza administrativa, preventiva e outros.
+
+SIGTAP?
+
+### Procedimentos de alta complexidade
+
+
+## Internações
+
+Casos graves, prevenção
+
+## Óbitos
+
+## Nascimentos
+
+## Imunizações
+
+## Funcionamento do sistema de saúde
+
+Dados do CNES, SIOPS
+
+## Outros dados de saúde
+
+SISAGUA
+
