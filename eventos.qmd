@@ -1,10 +1,10 @@
 # Eventos de saúde
 
-Os dados de saúde dizem respeito, em geral, sobre a ocorrência de eventos de interesse a saúde e apresentam informações diretas sobre o evento, tão como características das circunstâncias da ocorrência desses eventos.
+Os dados de saúde dizem respeito, em geral, sobre a ocorrência de **eventos de interesse a saúde** e apresentam informações das circunstâncias da ocorrência desses eventos e seus detalhes.
 
-Desta forma, ao se interessar sobre uma determinada doença ou agravo de saúde, uma reflexão inicial deve ser feita sobre quais eventos de saúde esta doença ou agravo pode gerar na população. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.
+Desta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.
 
-Por exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS.
+Um exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, respectivamente: SIA, SINAN, SIH e SIM.
 
 A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.
 
@@ -13,44 +13,43 @@ A seguir, são apresentadas características dos principais eventos de saúde e 
 Um dos dados mais tradicionais em saúde trata sobre a ocorrência de doenças e agravos na população. Este dado visa alertar as autoridades sobre a ocorrência de doenças e agravos, apresentando características importantes para o seu combate e prevenção.
 
 ::: {.callout-note}
-O que são agravos de saúde...
+Agravos de saúde é um conceito de saúde ampliada, que inclui não apenas as doenças mas outros eventos que afetam a saúde da população, como violência, acidentes de trânsito, desnutrição, intoxicações, exposição a poluentes e outros.
 :::
 
 Os casos de doenças e agravos são apresentados inicialmente pela notificação de um caso suspeito, que pode ou não ser confirmado posteriormente. Notificar as autoridades sobre um caso ainda sem confirmação é importante para sua ação imediata, possibilitando uma resposta rápida a um cenário dinâmico.
 
-A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito, de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN.
+A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN.
 
-A notificação de um caso ou agravo de saúde apresenta algumas informações básicas e outras informações que podem variar a depender da doença ou agravo notificado. Informações básicas que costumam estar presentes na notificação são:
+A notificação de um caso ou agravo de saúde apresenta um conjunto de informações básicas e outras informações que podem variar a depender da natureza da doença ou agravo notificado. Informações básicas que costumam estar presentes em uma notificação são:
 
--  Caracterização do paciente
+-  Caracterização do paciente (sexo, estado civil, idade, gestação, etc.)
 -  Município e UF de residência do paciente
--  Município e UF de provável infecção
+-  Município e UF do local de provável infecção
 -  Município e UF de notificação
 -  Data de provável infecção
 -  Data dos primeiros sintomas
 -  Data de notificação
+-  Data de digitação dos dados
 -  Diagnóstico e confirmação do caso
 -  Desfecho do caso
-
-Em geral, o paciente de um caso suspeito é caracterizado em termos de seu sexo, raça, idade e gestação.
 
 Os dados sobre o município e UF de residência são importantes para se conhecer o contexto socioeconômico e de saúde típico do paciente. Já os dados sobre local de provável infecção são importantes para caracterizar a transmissão das doenças e ocorrência de agravos. Por fim, os dados sobre o local de notificação contribuem para o conhecimento do funcionamento do sistema de saúde e sua capacidade de notificação de casos.
 
 Um exemplo hipotético: um cidadão que reside no Rio de Janeiro, RJ (local de residência) pode ter passado férias no Oiapoque, AP e contraído malária (local de provável infecção) e o caso ter sido notificado em Belém, PA (local de notificação) pois foi apenas durante sua estadia nesta cidade que o cidadão apresentou sintomas e procurou o serviço de saúde.
 
-::: {.callout-tip}
+::: {.callout-note}
 Uma importante classificação é realizada ao se conhecer os locais de provável infecção e de residência: caso autóctone ou alóctone. 
 
-Um caso alóctone ocorre quando o local de infecção é diferente do local de residência, ou seja, a doença foi contraída em lugar diferente da residência do paciente.
+Um **caso alóctone** ocorre quando o local de infecção é diferente do local de residência, ou seja, a doença foi contraída em lugar diferente da residência do paciente.
 
-Já um caso autóctone ocorre quando o local de infecção é o mesmo que o local de residência. 
+Já um **caso autóctone** ocorre quando o local de infecção é o mesmo que o local de residência. 
 
 Esta classificação é importante para orientar as autoridades de saúde pois a ocorrência de casos autóctones apontam que a transmissão da ocorrência está ocorrendo no próprio município.
 :::
 
-As datas de provável infecção, dos primeiros sintomas e de notificação também são importantes. A data de provável infecção diz respeito ao momento em que o paciente esteve possivelmente exposto ao risco de se contrair uma doença. As doenças apresentam tempos diferentes entre a infeção e ocorrência dos sintomas, tão como algumas doenças sequer apresentam sintomas (doenças assintomáticas). Já a data de notificação diz respeito ao funcionamento do sistema de saúde. 
+As datas de provável infecção, dos primeiros sintomas, notificação e de digitação também são importantes. A data de provável infecção diz respeito ao momento em que o paciente esteve possivelmente exposto ao risco de se contrair uma doença. As doenças apresentam tempos diferentes entre a infeção e ocorrência dos sintomas, tão como algumas doenças sequer apresentam sintomas (doenças assintomáticas). Já a data de notificação e de digitação dizem respeito ao funcionamento do sistema de saúde e são essenciais para a sua organização.
 
-::: {.callout-note}
+::: {.callout-warning}
 A quantidade de casos notificados em uma determinada data não representa a quantidade de casos de uma doença nesta data pois existe um fenômeno denominado "atraso de notificação". Este atraso é o intervalo de tempo entre a data em que a unidade de saúde toma conhecimento de um caso suspeito e a data que este caso é notificado às autoridades de saúde, como as secretarias municipais e estaduais de saúde.
 
 Idealmente, este intervalo deveria ser pequeno e desprezível. Contudo, em situações de epidemias e desastres, os serviços de saúde podem apresentar dificuldades em conduzir as tarefas administrativas de notificação de casos (preenchimento de fichas, digitação, conferência e envio) em conjunto com as atividades prioritárias (atendimento à população).
@@ -64,30 +63,26 @@ Por fim, o caso pode apresentar desfechos como alta e óbito. Outros dados de in
 
 ## Procedimentos ambulatoriais
 
-Ao procurar atendimento em uma unidade de saúde, um paciente segue uma rotina padronizada de atendimento, como a triagem da gravidade do atendimento, realização de exame clínico e exames diagnósticos (coleta e análise de sangue, exames de imagem), aplicação de remédios e encaminhamentos, dentre muitos outros exemplos. Todas estas atividades são denominadas "procedimentos ambulatoriais" e são registradas no SIA.
-
-Outros procedimentos ambulatoriais também existem, como de natureza administrativa, preventiva e outros.
-
-SIGTAP?
-
-### Procedimentos de alta complexidade
-
+Ao procurar atendimento em uma unidade de saúde, um paciente segue uma rotina padronizada de atendimento, como a triagem da gravidade do atendimento, realização de exame clínico e exames diagnósticos (coleta e análise de sangue, exames de imagem), tratamento com remédios e encaminhamentos para outros exames, entre várias outras possibilidades. Todas estas atividades são denominadas "procedimentos ambulatoriais" e são registradas no Sistema de Informações Ambulatoriais (SIA).
 
 ## Internações
 
-Casos graves, prevenção
+Pacientes com quadros de doenças e agravos de saúde que se agravam costumam serem encaminhados para internação hospitalar, possibilitando um cuidado e acompanhamento da saúde mais atento e imediato até que se obtenha um melhor prognóstico do caso. 
+
+Desta forma, o evento de uma internação hospitalar pode sinalizar a ocorrência de casos graves de uma doença. As internações hospitalares são registradas no Sistema de Informações Hospitalares (SIH).
+
+::: {.callout-tip}
+Algumas internações hospitalares podem ser evitadas com o bom funcionamento da Atenção Primária a Saúde e suas atividades de prevenção. Em 17 de abril de 2008 foi publicada a [portaria n. 221](https://bvsms.saude.gov.br/bvs/saudelegis/sas/2008/prt0221_17_04_2008.html) pelo Ministério da Saúde, contendo a lista brasileira de Internações por Condições Sensíveis a Atenção Primária, criada à partir de consultas públicas e experiências internacionais. A lista apresenta os códigos da Classificação Internacional de Doenças e Agravos (CID) e permite o monitoramento e avaliação do sistema de saúde.
+
+O [pacote {csapAIH}](http://dx.doi.org/10.5123/s1679-49742019000200021) do R facilita a classificação de registros de internações.
+:::
 
 ## Óbitos
 
+Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade (SIM).
+
 ## Nascimentos
 
-## Imunizações
+O nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos (SINASC).
 
-## Funcionamento do sistema de saúde
-
-Dados do CNES, SIOPS
-
-## Outros dados de saúde
-
-SISAGUA
-
+Os capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.

@@ -84,7 +84,7 @@
     "href": "organizacao.html#doenças-agravos-e-sis",
     "title": "3  Organização dos SIS",
     "section": "3.5 Doenças, agravos e SIS",
-    "text": "3.5 Doenças, agravos e SIS\nÉ importante salientar que os diferentes SIS são organizados por eventos de saúde e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros.\nDesta forma, ao se procurar por dados de uma determinada doença ou agravo, deve-se refletir como esta doença ou agravo irá se refletir nos diferentes sistemas de informação em saúde. Por exemplo, a doença “Dengue” pode se manifestar em diversos SIS: o caso suspeito é lançado no SINAN, se evoluir para internação hospitalar será lançado também no SIH, os procedimentos terapêuticos serão lançados no SIA e, caso venha a óbito, também constará no SIM.\nOs capítulos seguintes irão apresentar estes e outros SIS brasileiros, com seu histórico e organização, estrutura dos seus dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.",
+    "text": "3.5 Doenças, agravos e SIS\nÉ importante destacar que os diferentes SIS são organizados por eventos de saúde e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros.\nO capítulo a seguir detalha o que são eventos de saúde e sua correspondência com os principais SIS.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Organização dos SIS</span>"
     ]
@@ -92,81 +92,81 @@
   {
     "objectID": "sim.html",
     "href": "sim.html",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
     "section": "",
-    "text": "4.1 Resumo",
+    "text": "5.1 Resumo",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#resumo",
     "href": "sim.html#resumo",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
     "section": "",
     "text": "Ano de criação: 1975\nCobertura: Dimensões pública e privada do SUS\nUnidade: Declaração de Óbito (DO)\nDivulgação de dados: anual, com um ano de defasagem",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#histórico-e-organização",
     "href": "sim.html#histórico-e-organização",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.2 Histórico e organização",
-    "text": "4.2 Histórico e organização\nO SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada.\n\n\n\n\n\n\nEntre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito (SENNA, 2009).\n\n\n\nEste instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.\nO documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na Figura 8.1. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.\n\n\n\n\n\n\nflowchart TD\ndo[Declaração de Óbito] --&gt; via1[1a Via]\ndo --&gt; via2[2a Via]\ndo --&gt; via3[3a Via]\n\nvia1 --&gt; sms[Secretaria Municipal de Saúde]\n\nvia2 --&gt; fam[Família]\nfam --&gt; rg[Registro Civil]\nrg --&gt; ao[Atestado de Óbito]\n\nvia3 --&gt; es[Estabelecimento de Saúde]\n\n\n\n\nFigura 4.1: Fluxo de emissão e destinação das vias da Declaração de Óbito\n\n\n\n\n\nA DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a causa básica do óbito e demais causas secundárias, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.\nA partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas (SENNA, 2009).\nMais informações sobre o preenchimento dos dados do SIM estão disponíveis no manual de preenchimento, disponibilizado pelo Ministério da Saúde.\nUm histórico mais aprofundado sobre a construção e evolução do SIM está disponível neste documento.",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.2 Histórico e organização",
+    "text": "5.2 Histórico e organização\nO SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada.\n\n\n\n\n\n\nEntre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito (SENNA, 2009).\n\n\n\nEste instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.\nO documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na Figura 8.1. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.\n\n\n\n\n\n\nflowchart TD\ndo[Declaração de Óbito] --&gt; via1[1a Via]\ndo --&gt; via2[2a Via]\ndo --&gt; via3[3a Via]\n\nvia1 --&gt; sms[Secretaria Municipal de Saúde]\n\nvia2 --&gt; fam[Família]\nfam --&gt; rg[Registro Civil]\nrg --&gt; ao[Atestado de Óbito]\n\nvia3 --&gt; es[Estabelecimento de Saúde]\n\n\n\n\nFigura 5.1: Fluxo de emissão e destinação das vias da Declaração de Óbito\n\n\n\n\n\nA DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a causa básica do óbito e demais causas secundárias, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.\nA partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas (SENNA, 2009).\nMais informações sobre o preenchimento dos dados do SIM estão disponíveis no manual de preenchimento, disponibilizado pelo Ministério da Saúde.\nUm histórico mais aprofundado sobre a construção e evolução do SIM está disponível neste documento.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#modelo-da-declaração-de-óbito",
     "href": "sim.html#modelo-da-declaração-de-óbito",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.3 Modelo da Declaração de Óbito",
-    "text": "4.3 Modelo da Declaração de Óbito\n\n\n\nModelo de Declaração de Óbito",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.3 Modelo da Declaração de Óbito",
+    "text": "5.3 Modelo da Declaração de Óbito\n\n\n\nModelo de Declaração de Óbito",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#estrutura-dos-dados",
     "href": "sim.html#estrutura-dos-dados",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.4 Estrutura dos dados",
-    "text": "4.4 Estrutura dos dados\nConfira o documento de estrutura do SIM, onde estão descritas as variáveis disponíveis.\n\n4.4.1 Prefixo dos arquivos\n\nDO: Declarações de óbito\nDOEXT: Declarações de óbitos por causas externas\nDOFET: Declarações de óbitos fetais\nDOINF: Declarações de óbitos infantis\nDOMAT: Declarações de óbitos maternos\nDOREXT: Mortalidade de residentes no exterior",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.4 Estrutura dos dados",
+    "text": "5.4 Estrutura dos dados\nConfira o documento de estrutura do SIM, onde estão descritas as variáveis disponíveis.\n\n5.4.1 Prefixo dos arquivos\n\nDO: Declarações de óbito\nDOEXT: Declarações de óbitos por causas externas\nDOFET: Declarações de óbitos fetais\nDOINF: Declarações de óbitos infantis\nDOMAT: Declarações de óbitos maternos\nDOREXT: Mortalidade de residentes no exterior",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#acesso-aos-dados",
     "href": "sim.html#acesso-aos-dados",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.5 Acesso aos dados",
-    "text": "4.5 Acesso aos dados\n\n4.5.1 TabNet\nOs dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SIM\n\n\n\n4.5.2 TabWin\nPara uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.\n\nTabWin - Transferência de arquivos\n\n\n\n4.5.3 R\nVocê pode usar o pacote {microdatasus}.\n\nlibrary(microdatasus)\n\nsim_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SIM-DO\"\n)\n\nsim_p &lt;- process_sim(sim_raw)\n\nsim_p\n\n# A tibble: 5,496 × 111\n   ORIGEM TIPOBITO  DTOBITO    HORAOBITO CODMUNNATU DTNASC   IDADE SEXO  RACACOR\n   &lt;chr&gt;  &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  \n 1 1      Não Fetal 2021-03-23 1500      110020     1962-06… 458   Masc… Parda  \n 2 1      Não Fetal 2021-03-23 0243      120050     1971-02… 450   Masc… Parda  \n 3 1      Não Fetal 2021-03-23 1310      120040     1956-10… 464   Femi… Parda  \n 4 1      Não Fetal 2021-04-17 2149      120050     1999-01… 422   Masc… Parda  \n 5 1      Não Fetal 2021-01-06 0420      120020     2020-08… 304   Masc… Parda  \n 6 1      Não Fetal 2021-02-06 1145      120034     1943-12… 477   Masc… Parda  \n 7 1      Não Fetal 2021-02-15 &lt;NA&gt;      120050     1970-06… 450   Masc… Parda  \n 8 1      Não Fetal 2021-02-16 0720      120060     1935-01… 486   Masc… Preta  \n 9 1      Não Fetal 2021-02-15 1320      120050     1951-04… 469   Femi… Amarela\n10 1      Não Fetal 2021-02-13 0700      120050     1957-02… 464   Masc… Parda  \n# ℹ 5,486 more rows\n# ℹ 102 more variables: ESTCIV &lt;chr&gt;, ESC &lt;chr&gt;, ESC2010 &lt;chr&gt;,\n#   SERIESCFAL &lt;chr&gt;, CODMUNRES &lt;chr&gt;, LOCOCOR &lt;chr&gt;, CODESTAB &lt;chr&gt;,\n#   ESTABDESCR &lt;chr&gt;, CODMUNOCOR &lt;chr&gt;, IDADEMAE &lt;chr&gt;, ESCMAE &lt;chr&gt;,\n#   ESCMAE2010 &lt;chr&gt;, SERIESCMAE &lt;chr&gt;, QTDFILVIVO &lt;chr&gt;, QTDFILMORT &lt;chr&gt;,\n#   GRAVIDEZ &lt;chr&gt;, SEMAGESTAC &lt;chr&gt;, GESTACAO &lt;chr&gt;, PARTO &lt;chr&gt;,\n#   OBITOPARTO &lt;chr&gt;, PESO &lt;chr&gt;, TPMORTEOCO &lt;chr&gt;, OBITOGRAV &lt;chr&gt;, …\n\n\n\n\n4.5.4 Python\nVocê pode usar a biblioteca PySUS.\n\nPySUS SIM\n\n\n\n4.5.5 PCDaS\nOs dados do SIM estão disponíveis na PCDaS para acesso via notebooks.\n\nDados SIM\nDados SIM-DOFET\n\n\n\n4.5.6 Outras formas\nDados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.\n\nOpenDataSUS - SIM",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.5 Acesso aos dados",
+    "text": "5.5 Acesso aos dados\n\n5.5.1 TabNet\nOs dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SIM\n\n\n\n5.5.2 TabWin\nPara uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.\n\nTabWin - Transferência de arquivos\n\n\n\n5.5.3 R\nVocê pode usar o pacote {microdatasus}.\n\nlibrary(microdatasus)\n\nsim_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SIM-DO\"\n)\n\nsim_p &lt;- process_sim(sim_raw)\n\nsim_p\n\n# A tibble: 5,496 × 111\n   ORIGEM TIPOBITO  DTOBITO    HORAOBITO CODMUNNATU DTNASC   IDADE SEXO  RACACOR\n   &lt;chr&gt;  &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  \n 1 1      Não Fetal 2021-03-23 1500      110020     1962-06… 458   Masc… Parda  \n 2 1      Não Fetal 2021-03-23 0243      120050     1971-02… 450   Masc… Parda  \n 3 1      Não Fetal 2021-03-23 1310      120040     1956-10… 464   Femi… Parda  \n 4 1      Não Fetal 2021-04-17 2149      120050     1999-01… 422   Masc… Parda  \n 5 1      Não Fetal 2021-01-06 0420      120020     2020-08… 304   Masc… Parda  \n 6 1      Não Fetal 2021-02-06 1145      120034     1943-12… 477   Masc… Parda  \n 7 1      Não Fetal 2021-02-15 &lt;NA&gt;      120050     1970-06… 450   Masc… Parda  \n 8 1      Não Fetal 2021-02-16 0720      120060     1935-01… 486   Masc… Preta  \n 9 1      Não Fetal 2021-02-15 1320      120050     1951-04… 469   Femi… Amarela\n10 1      Não Fetal 2021-02-13 0700      120050     1957-02… 464   Masc… Parda  \n# ℹ 5,486 more rows\n# ℹ 102 more variables: ESTCIV &lt;chr&gt;, ESC &lt;chr&gt;, ESC2010 &lt;chr&gt;,\n#   SERIESCFAL &lt;chr&gt;, CODMUNRES &lt;chr&gt;, LOCOCOR &lt;chr&gt;, CODESTAB &lt;chr&gt;,\n#   ESTABDESCR &lt;chr&gt;, CODMUNOCOR &lt;chr&gt;, IDADEMAE &lt;chr&gt;, ESCMAE &lt;chr&gt;,\n#   ESCMAE2010 &lt;chr&gt;, SERIESCMAE &lt;chr&gt;, QTDFILVIVO &lt;chr&gt;, QTDFILMORT &lt;chr&gt;,\n#   GRAVIDEZ &lt;chr&gt;, SEMAGESTAC &lt;chr&gt;, GESTACAO &lt;chr&gt;, PARTO &lt;chr&gt;,\n#   OBITOPARTO &lt;chr&gt;, PESO &lt;chr&gt;, TPMORTEOCO &lt;chr&gt;, OBITOGRAV &lt;chr&gt;, …\n\n\n\n\n5.5.4 Python\nVocê pode usar a biblioteca PySUS.\n\nPySUS SIM\n\n\n\n5.5.5 PCDaS\nOs dados do SIM estão disponíveis na PCDaS para acesso via notebooks.\n\nDados SIM\nDados SIM-DOFET\n\n\n\n5.5.6 Outras formas\nDados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.\n\nOpenDataSUS - SIM",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#principais-usos-e-indicadores",
     "href": "sim.html#principais-usos-e-indicadores",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.6 Principais usos e indicadores",
-    "text": "4.6 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:\n\nTaxa de mortalidade infantil\nTaxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal\nTaxa de mortalidade em menores de cinco anos\nRazão de mortalidade materna\nMortalidade proporcional por grupos de causas\n\nConsulte o livro da RIPSA para maiores detalhes sobre esses e outros indicadores.",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.6 Principais usos e indicadores",
+    "text": "5.6 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:\n\nTaxa de mortalidade infantil\nTaxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal\nTaxa de mortalidade em menores de cinco anos\nRazão de mortalidade materna\nMortalidade proporcional por grupos de causas\n\nConsulte o livro da RIPSA para maiores detalhes sobre esses e outros indicadores.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
     "objectID": "sim.html#bibliografia-recomendada",
     "href": "sim.html#bibliografia-recomendada",
-    "title": "4  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "4.7 Bibliografia recomendada",
-    "text": "4.7 Bibliografia recomendada\n\n4.7.1 Documentos auxiliares\n\nHistórico do SIM\nEstrutura do SIM\nManual de preenchimento da Declaração de Óbito\nA Declaração de Óbito: documento necessário e importante\n\n\n\n4.7.2 Vídeos\n\n\n\n\n4.7.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil (CAVALCANTE; SANTANA, 2023). Disponível aqui.\nArtigo Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. (JORGE; LAURENTI; GOTLIEB, 2007). Disponível aqui.\nArtigo Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. (REBOUÇAS et al., 2025). Disponível aqui.\n\n\n\n\n\nCAVALCANTE, F.; SANTANA, V. S. Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil. Cadernos Saúde Coletiva, v. 31, n. 4, p. e31040547, 2023.\n\n\nJORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. Ciência & Saúde Coletiva, v. 12, n. 3, p. 643–654, jun. 2007.\n\n\nREBOUÇAS, P. et al. Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. Ciência & Saúde Coletiva, v. 30, n. 1, p. e08462023, jan. 2025.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSENNA, M. DE C. M. Sistema de Informações Sobre Mortalidade (SIM). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.7 Bibliografia recomendada",
+    "text": "5.7 Bibliografia recomendada\n\n5.7.1 Documentos auxiliares\n\nHistórico do SIM\nEstrutura do SIM\nManual de preenchimento da Declaração de Óbito\nA Declaração de Óbito: documento necessário e importante\n\n\n\n5.7.2 Vídeos\n\n\n\n\n5.7.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil (CAVALCANTE; SANTANA, 2023). Disponível aqui.\nArtigo Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. (JORGE; LAURENTI; GOTLIEB, 2007). Disponível aqui.\nArtigo Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. (REBOUÇAS et al., 2025). Disponível aqui.\n\n\n\n\n\nCAVALCANTE, F.; SANTANA, V. S. Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil. Cadernos Saúde Coletiva, v. 31, n. 4, p. e31040547, 2023.\n\n\nJORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. Ciência & Saúde Coletiva, v. 12, n. 3, p. 643–654, jun. 2007.\n\n\nREBOUÇAS, P. et al. Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. Ciência & Saúde Coletiva, v. 30, n. 1, p. e08462023, jan. 2025.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSENNA, M. DE C. M. Sistema de Informações Sobre Mortalidade (SIM). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
   },
   {
@@ -935,6 +935,66 @@
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>SISVAN -- Sistema de Vigilância Alimentar e Nutricional</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html",
+    "href": "eventos.html",
+    "title": "4  Eventos de saúde",
+    "section": "",
+    "text": "4.1 Casos de doenças e agravos\nOs dados de saúde dizem respeito, em geral, sobre a ocorrência de eventos de interesse a saúde e apresentam informações das circunstâncias da ocorrência desses eventos e seus detalhes.\nDesta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.\nUm exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, respectivamente: SIA, SINAN, SIH e SIM.\nA seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.\nUm dos dados mais tradicionais em saúde trata sobre a ocorrência de doenças e agravos na população. Este dado visa alertar as autoridades sobre a ocorrência de doenças e agravos, apresentando características importantes para o seu combate e prevenção.\nOs casos de doenças e agravos são apresentados inicialmente pela notificação de um caso suspeito, que pode ou não ser confirmado posteriormente. Notificar as autoridades sobre um caso ainda sem confirmação é importante para sua ação imediata, possibilitando uma resposta rápida a um cenário dinâmico.\nA notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN.\nA notificação de um caso ou agravo de saúde apresenta um conjunto de informações básicas e outras informações que podem variar a depender da natureza da doença ou agravo notificado. Informações básicas que costumam estar presentes em uma notificação são:\nOs dados sobre o município e UF de residência são importantes para se conhecer o contexto socioeconômico e de saúde típico do paciente. Já os dados sobre local de provável infecção são importantes para caracterizar a transmissão das doenças e ocorrência de agravos. Por fim, os dados sobre o local de notificação contribuem para o conhecimento do funcionamento do sistema de saúde e sua capacidade de notificação de casos.\nUm exemplo hipotético: um cidadão que reside no Rio de Janeiro, RJ (local de residência) pode ter passado férias no Oiapoque, AP e contraído malária (local de provável infecção) e o caso ter sido notificado em Belém, PA (local de notificação) pois foi apenas durante sua estadia nesta cidade que o cidadão apresentou sintomas e procurou o serviço de saúde.\nAs datas de provável infecção, dos primeiros sintomas, notificação e de digitação também são importantes. A data de provável infecção diz respeito ao momento em que o paciente esteve possivelmente exposto ao risco de se contrair uma doença. As doenças apresentam tempos diferentes entre a infeção e ocorrência dos sintomas, tão como algumas doenças sequer apresentam sintomas (doenças assintomáticas). Já a data de notificação e de digitação dizem respeito ao funcionamento do sistema de saúde e são essenciais para a sua organização.\nOs dados de diagnóstico do caso são de importância para a caracterização do caso, que é inicialmente dado como suspeito. Assim, um caso suspeito pode ser classificado com: em acompanhamento, confirmado, descartado ou inconclusivo. Um caso suspeito que aguarda o resultado de um exame laboratorial é classificado como “em acompanhamento”, com o resultado laboratorial e critérios clínicos específicos, o caso suspeito de uma doença pode ser “confirmado” ou “descartado” por exames laboratoriais específicos e por critérios clínicos. Contudo, resultados inconclusivos de exames podem classificar o caso como “inconclusivo”, ou seja, a sensibilidade e especificidade do teste não permite fechar, com precisão, o diagnóstico do caso.\nPor fim, o caso pode apresentar desfechos como alta e óbito. Outros dados de interesse específicos podem ser apresentados para algumas doenças e agravos, como resultados específicos de testes e diagnósticos.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html#casos-de-doenças-e-agravos",
+    "href": "eventos.html#casos-de-doenças-e-agravos",
+    "title": "4  Eventos de saúde",
+    "section": "",
+    "text": "Nota\n\n\n\nAgravos de saúde é um conceito de saúde ampliada, que inclui não apenas as doenças mas outros eventos que afetam a saúde da população, como violência, acidentes de trânsito, desnutrição, intoxicações, exposição a poluentes e outros.\n\n\n\n\n\n\nCaracterização do paciente (sexo, estado civil, idade, gestação, etc.)\nMunicípio e UF de residência do paciente\nMunicípio e UF do local de provável infecção\nMunicípio e UF de notificação\nData de provável infecção\nData dos primeiros sintomas\nData de notificação\nData de digitação dos dados\nDiagnóstico e confirmação do caso\nDesfecho do caso\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nUma importante classificação é realizada ao se conhecer os locais de provável infecção e de residência: caso autóctone ou alóctone.\nUm caso alóctone ocorre quando o local de infecção é diferente do local de residência, ou seja, a doença foi contraída em lugar diferente da residência do paciente.\nJá um caso autóctone ocorre quando o local de infecção é o mesmo que o local de residência.\nEsta classificação é importante para orientar as autoridades de saúde pois a ocorrência de casos autóctones apontam que a transmissão da ocorrência está ocorrendo no próprio município.\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nA quantidade de casos notificados em uma determinada data não representa a quantidade de casos de uma doença nesta data pois existe um fenômeno denominado “atraso de notificação”. Este atraso é o intervalo de tempo entre a data em que a unidade de saúde toma conhecimento de um caso suspeito e a data que este caso é notificado às autoridades de saúde, como as secretarias municipais e estaduais de saúde.\nIdealmente, este intervalo deveria ser pequeno e desprezível. Contudo, em situações de epidemias e desastres, os serviços de saúde podem apresentar dificuldades em conduzir as tarefas administrativas de notificação de casos (preenchimento de fichas, digitação, conferência e envio) em conjunto com as atividades prioritárias (atendimento à população).\nGrupos de pesquisa como o InfoDengue e InfoGripe trabalham neste tema, procurando prever a quantidade de casos atuais de algumas doenças considerando o atraso de notificação, empregando técnicas de nowcasting (“previsão do agora”) com modelos estatísticos.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html#procedimentos-ambulatoriais",
+    "href": "eventos.html#procedimentos-ambulatoriais",
+    "title": "4  Eventos de saúde",
+    "section": "4.2 Procedimentos ambulatoriais",
+    "text": "4.2 Procedimentos ambulatoriais\nAo procurar atendimento em uma unidade de saúde, um paciente segue uma rotina padronizada de atendimento, como a triagem da gravidade do atendimento, realização de exame clínico e exames diagnósticos (coleta e análise de sangue, exames de imagem), tratamento com remédios e encaminhamentos para outros exames, entre várias outras possibilidades. Todas estas atividades são denominadas “procedimentos ambulatoriais” e são registradas no Sistema de Informações Ambulatoriais (SIA).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html#internações",
+    "href": "eventos.html#internações",
+    "title": "4  Eventos de saúde",
+    "section": "4.3 Internações",
+    "text": "4.3 Internações\nPacientes com quadros de doenças e agravos de saúde que se agravam costumam serem encaminhados para internação hospitalar, possibilitando um cuidado e acompanhamento da saúde mais atento e imediato até que se obtenha um melhor prognóstico do caso.\nDesta forma, o evento de uma internação hospitalar pode sinalizar a ocorrência de casos graves de uma doença. As internações hospitalares são registradas no Sistema de Informações Hospitalares (SIH).\n\n\n\n\n\n\nDica\n\n\n\nAlgumas internações hospitalares podem ser evitadas com o bom funcionamento da Atenção Primária a Saúde e suas atividades de prevenção. Em 17 de abril de 2008 foi publicada a portaria n. 221 pelo Ministério da Saúde, contendo a lista brasileira de Internações por Condições Sensíveis a Atenção Primária, criada à partir de consultas públicas e experiências internacionais. A lista apresenta os códigos da Classificação Internacional de Doenças e Agravos (CID) e permite o monitoramento e avaliação do sistema de saúde.\nO pacote {csapAIH} do R facilita a classificação de registros de internações.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html#óbitos",
+    "href": "eventos.html#óbitos",
+    "title": "4  Eventos de saúde",
+    "section": "4.4 Óbitos",
+    "text": "4.4 Óbitos\nDoenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade (SIM).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
+    ]
+  },
+  {
+    "objectID": "eventos.html#nascimentos",
+    "href": "eventos.html#nascimentos",
+    "title": "4  Eventos de saúde",
+    "section": "4.5 Nascimentos",
+    "text": "4.5 Nascimentos\nO nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos (SINASC).\nOs capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Eventos de saúde</span>"
     ]
   }
 ]

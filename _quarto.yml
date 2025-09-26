@@ -22,6 +22,7 @@ book:
     - introducao.qmd
     - historico.qmd
     - organizacao.qmd
+    - eventos.qmd
     - sim.qmd
     - sinasc.qmd
     - sih.qmd

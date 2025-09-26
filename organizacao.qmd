@@ -28,8 +28,6 @@ Por outro lado, alguns SIS são restritos à dimensão pública do SUS. Neste ca
 
 ## Doenças, agravos e SIS
 
-É importante salientar que os diferentes SIS são organizados por **eventos de saúde** e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros. 
+É importante destacar que os diferentes SIS são organizados por **eventos de saúde** e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros. 
 
-Desta forma, ao se procurar por dados de uma determinada doença ou agravo, deve-se refletir como esta doença ou agravo irá se refletir nos diferentes sistemas de informação em saúde. Por exemplo, a doença "Dengue" pode se manifestar em diversos SIS: o caso suspeito é lançado no SINAN, se evoluir para internação hospitalar será lançado também no SIH, os procedimentos terapêuticos serão lançados no SIA e, caso venha a óbito, também constará no SIM.
-
-Os capítulos seguintes irão apresentar estes e outros SIS brasileiros, com seu histórico e organização, estrutura dos seus dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.
+O capítulo a seguir detalha o que são eventos de saúde e sua correspondência com os principais SIS.
