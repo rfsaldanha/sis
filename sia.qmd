@@ -1,4 +1,4 @@
-# SIA -- Sistema de Informações Ambulatoriais do SUS
+# SIA -- Sistema de Informações Ambulatoriais do SUS {#sec-sia}
 
 ## Resumo
 

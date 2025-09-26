@@ -1,4 +1,4 @@
-# CNES -- Cadastro Nacional de Estabelecimentos de Saúde
+# CNES -- Cadastro Nacional de Estabelecimentos de Saúde {#sec-cnes}
 
 ## Resumo
 
@@ -13,7 +13,7 @@ Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde 
 
 O SNCPCH foi estinto em 1980, mas suas fichas continuaram ativas compondo o o Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e o SIH, na década de 1990. Após a implantação do SIA em 1994 e verificação de inconsistências nos dados sobre os estabelecimentos de saúde, foi implantada a ficha Ficha de Cadastro de Estabelecimentos de Saúde -- FCES (Portaria n° 1890/GM/MS/1997), sendo continuamente aperfeiçoada.
 
-Após a consolidação da FCES, a portaria 403/SAS/MS/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), com um escopo ainda limitado, visando subsidiar principalmente o processo de faturamento no SIA e SIH, e parcialmente pesquisas estatísticas.
+Após a consolidação da FCES, a portaria 403/SAS/MS/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), com um escopo ainda limitado, visando subsidiar principalmente o processo de faturamento no SIA e SIH, e parcialmente pesquisas estatísticas. Veja o @sec-sia e @sec-sih para mais detalhes sobre o SIA e SIH. Consulte o @sec-sia e @sec-sih para saber mais sobre o SIA e SIH.
 
 Com avanços sobre o modelo de pactuação de cadastramento na Comissão Intergestores Tripartite (CIT) e realização de consultas públicas, a primeira versão do CNES é disponibilizada em 2001. Ainda neste ano também é iniciado um processo de recadastramento informatizado, que se estendeu até 2003.
 

@@ -1,4 +1,4 @@
-# SINAN -- Sistema de Informação de Agravos de Notificação
+# SINAN -- Sistema de Informação de Agravos de Notificação {#sec-sinan}
 
 ## Resumo
 

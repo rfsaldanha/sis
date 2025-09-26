@@ -1,4 +1,4 @@
-# SINASC -- Sistema de Informação sobre Nascidos Vivos
+# SINASC -- Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
 
 ## Resumo
 

@@ -355,7 +355,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIM – Sistema de Informação sobre Mortalidade</span></h1>
+<h1 class="title"><span id="sec-sim" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIM – Sistema de Informação sobre Mortalidade</span></span></h1>
 </div>
 
 
@@ -395,7 +395,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </div>
 </div>
 <p>Este instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.</p>
-<p>O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na <a href="sinan.html#fig-do" class="quarto-xref">Figura&nbsp;<span>8.1</span></a>. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.</p>
+<p>O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na <a href="sinan.html#fig-do" class="quarto-xref">Figura&nbsp;<span>9.1</span></a>. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-do" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -486,7 +486,7 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>sim_p</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5,496 × 111
+<pre><code># A tibble: 5,496 × 100
    ORIGEM TIPOBITO  DTOBITO    HORAOBITO CODMUNNATU DTNASC   IDADE SEXO  RACACOR
    &lt;chr&gt;  &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  
  1 1      Não Fetal 2021-03-23 1500      110020     1962-06… 458   Masc… Parda  
@@ -500,7 +500,7 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
  9 1      Não Fetal 2021-02-15 1320      120050     1951-04… 469   Femi… Amarela
 10 1      Não Fetal 2021-02-13 0700      120050     1957-02… 464   Masc… Parda  
 # ℹ 5,486 more rows
-# ℹ 102 more variables: ESTCIV &lt;chr&gt;, ESC &lt;chr&gt;, ESC2010 &lt;chr&gt;,
+# ℹ 91 more variables: ESTCIV &lt;chr&gt;, ESC &lt;chr&gt;, ESC2010 &lt;chr&gt;,
 #   SERIESCFAL &lt;chr&gt;, CODMUNRES &lt;chr&gt;, LOCOCOR &lt;chr&gt;, CODESTAB &lt;chr&gt;,
 #   ESTABDESCR &lt;chr&gt;, CODMUNOCOR &lt;chr&gt;, IDADEMAE &lt;chr&gt;, ESCMAE &lt;chr&gt;,
 #   ESCMAE2010 &lt;chr&gt;, SERIESCMAE &lt;chr&gt;, QTDFILVIVO &lt;chr&gt;, QTDFILMORT &lt;chr&gt;,

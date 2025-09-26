@@ -1,4 +1,4 @@
-# SIM -- Sistema de Informação sobre Mortalidade
+# SIM -- Sistema de Informação sobre Mortalidade {#sec-sim}
 
 ## Resumo
 

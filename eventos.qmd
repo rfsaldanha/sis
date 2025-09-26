@@ -4,7 +4,7 @@ Os dados de saúde dizem respeito, em geral, sobre a ocorrência de **eventos de
 
 Desta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.
 
-Um exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, respectivamente: SIA, SINAN, SIH e SIM.
+Um exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir.
 
 A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.
 
@@ -18,7 +18,7 @@ Agravos de saúde é um conceito de saúde ampliada, que inclui não apenas as d
 
 Os casos de doenças e agravos são apresentados inicialmente pela notificação de um caso suspeito, que pode ou não ser confirmado posteriormente. Notificar as autoridades sobre um caso ainda sem confirmação é importante para sua ação imediata, possibilitando uma resposta rápida a um cenário dinâmico.
 
-A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN.
+A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN (@sec-sinan).
 
 A notificação de um caso ou agravo de saúde apresenta um conjunto de informações básicas e outras informações que podem variar a depender da natureza da doença ou agravo notificado. Informações básicas que costumam estar presentes em uma notificação são:
 
@@ -79,10 +79,10 @@ O [pacote {csapAIH}](http://dx.doi.org/10.5123/s1679-49742019000200021) do R fac
 
 ## Óbitos
 
-Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade (SIM).
+Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade -- SIM (@sec-sim).
 
 ## Nascimentos
 
-O nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos (SINASC).
+O nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos -- SINASC (@sec-sinasc).
 
 Os capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.
