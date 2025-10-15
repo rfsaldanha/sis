@@ -1,5 +1,11 @@
 # SINAN -- Sistema de Informação de Agravos de Notificação {#sec-sinan}
 
+---
+author: 
+  - Raphael de Freitas Saldanha
+  - Vincent Dupont
+---
+
 ## Resumo
 
 -  Ano de criação: 1993
