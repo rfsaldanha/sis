@@ -1,0 +1,10 @@
+# Agência Nacional de Saúde Suplementar - ANS {#sec-ans}
+
+O Sistema Único de Saúde (SUS) compreende serviços privados de saúde como um elemento suplementar ao sistema de saúde brasileiro, sendo regulada especificamente pela Agência Nacional de Saúde Suplementar (ANS).
+
+A ANS divulga dados sobre o funcionamento da saúde suplementar no Brasil de duas formas: por um sistema similar ao TabNet e também no portal de dados abertos do governo federal.
+
+-   [TabNet da ANS](https://www.ans.gov.br/anstabnet/index.htm)
+-   [Portal de Dados Abertos da ANS](https://dados.gov.br/dados/organizacoes/visualizar/agencia-nacional-de-saude-suplementar)
+
+Além de dados sobre o funcionamento da saúde suplementar, como a listagem de operadoras de planos de saúde, cobertura e beneficiários, também apresenta dados de interesse a saúde pública como ressarcimentos ao SUS e procedimentos hospitalares e ambulatoriais.

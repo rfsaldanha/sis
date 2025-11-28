@@ -996,5 +996,16 @@
       "Apêndices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>SISVAN -- Sistema de Vigilância Alimentar e Nutricional</span>"
     ]
+  },
+  {
+    "objectID": "ans.html",
+    "href": "ans.html",
+    "title": "Apêndice F — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "",
+    "text": "O Sistema Único de Saúde (SUS) compreende serviços privados de saúde como um elemento suplementar ao sistema de saúde brasileiro, sendo regulada especificamente pela Agência Nacional de Saúde Suplementar (ANS).\nA ANS divulga dados sobre o funcionamento da saúde suplementar no Brasil de duas formas: por um sistema similar ao TabNet e também no portal de dados abertos do governo federal.\n\nTabNet da ANS\nPortal de Dados Abertos da ANS\n\nAlém de dados sobre o funcionamento da saúde suplementar, como a listagem de operadoras de planos de saúde, cobertura e beneficiários, também apresenta dados de interesse a saúde pública como ressarcimentos ao SUS e procedimentos hospitalares e ambulatoriais.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
   }
 ]
