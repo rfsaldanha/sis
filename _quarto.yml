@@ -13,7 +13,7 @@ book:
   isbn: "978-65-01-37841-1"
   date: today
   search: true
-  # downloads: [pdf, epub]
+  downloads: [pdf, epub]
   google-analytics: 
     tracking-id: G-2M7VLSRDCB
     anonymize-ip: false
@@ -55,7 +55,7 @@ format:
     theme:
       light: journal
       dark: darkly
-  #pdf:
-  #  documentclass: scrreprt
-  #epub: 
-  #  toc: true
+  pdf:
+   documentclass: scrreprt
+  epub: 
+   toc: true
