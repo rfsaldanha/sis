@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # Códigos dos municípios
 
 Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.
@@ -11,6 +15,8 @@ Os SIS costumam apresentar os códigos dos municípios com apenas os primeiros s
 ## Tabela de códigos
 
 A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa 'Procurar'.
+
+::: {.content-visible when-format="html"}
 
 ```{r}
 #| message: false
@@ -41,6 +47,8 @@ datatable(
   )
 )
 ```
+
+:::
 
 O projeto [IBGE Cidades](https://cidades.ibge.gov.br) também é uma ótima forma de consultar os códigos dos municípios.
 

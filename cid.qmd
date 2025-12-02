@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # CID -- Classificação Internacional de Doenças
 
 Os códigos da Classificação Internacional de Doenças estão presentes em diversos SIS, sendo um importante componente para a descrição de eventos de saúde como óbitos e internações. Este apêndice visa apresentar as principais características dessa classificação.
@@ -31,6 +35,9 @@ Exemplo: "Cólera devida a Vibrio cholerae 01, biótipo El Tor" na CID-10:
 
 Você pode acessar e explorar o catálogo da CID-10 na tabela abaixo:
 
+
+::: {.content-visible when-format="html"}
+
 ```{r}
 #| message: false
 #| warning: false
@@ -58,6 +65,7 @@ datatable(
   )
 )
 ```
+:::
 
 Nos links a seguir, você pode consultar a hierarquia da CID-10 e CID-11 no Ministério da Saúde e na OMS:
 
