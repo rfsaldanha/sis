@@ -1,7 +1,7 @@
 # Quadro resumo {#sec-quadro-resumo}
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
-|-----------|-----------|-----------|-----------|-----------|-----------|
+|-------|---------------|-------|--------------|------------|------------|
 | SIM | Sistema de Informação sobre Mortalidade | 1975 | Declaração de Óbito (DO) | Todo o território nacional | Anual, com um ano de defasagem |
 | SINASC | Sistema de Informação sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual, com um ano de defasagem |
 | SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Apenas internações realizadas pela dimensão pública do SUS | Mensal, com até dois meses de defasagem |
@@ -11,4 +11,4 @@
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
 | SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Mensal, com até dois meses de defasagem |
 | SISAB | Sistema de Informação em Saúde para a Atenção Básica | 2013 | Equipe, município, região de saúde, UF | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
-| SI-PNI |  |  |  |  |  |
+| SI-PNI | Sistema de Informações do Programa Nacional de Vacinação | 1975 (PNI) | Dados agregados e notificações de imunização | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |

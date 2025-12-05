@@ -35,6 +35,7 @@ book:
     - sipni.qmd
     - referencias.qmd
   appendices:
+    - quadro_resumo.qmd
     - cid.qmd
     - codmun.qmd
     - pop.qmd
