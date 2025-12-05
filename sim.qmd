@@ -41,6 +41,13 @@ A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo p
 
 A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
 
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SIM"
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sim.csv"))
+```
+
 Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
 
 Um histórico mais aprofundado sobre a construção e evolução do SIM está disponível [neste documento](assets/sim/INTRO.pdf).
