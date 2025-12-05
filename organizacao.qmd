@@ -16,6 +16,14 @@ Além dos sistemas de informação em saúde, cabe também destacar a importânc
 
 O Quadro Resumo (@sec-quadro-resumo) apresenta dados dos principais SIS de forma resumida.
 
+## Linha do tempo de criação dos principais SIS
+
+```{r}
+#| echo: false
+#| message: false
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
+```
+
 ## Dimensões pública e privada do SUS
 
 Cabe aqui ressaltar que alguns SIS apresentam uma cobertura ampla, incluindo as dimensões pública e privada do SUS. Nestes SIS, todo evento de saúde é contabilizado, independente dele aconter em um estabelecimento de saúde público ou privado. Pode-se citar o SIM (@sec-sim), SINASC (@sec-sinasc) e o SINAN (@sec-sinan) como exemplos. Assim, qualquer óbito, nascimento ou possível caso de doença ou agravo de interesse ocorrido em território nacional é comunicado ao Ministério da Saúde e é registrado em seu respectivo SIS,
