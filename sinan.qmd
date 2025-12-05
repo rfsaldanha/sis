@@ -47,6 +47,13 @@ atua --> sms
 
 A estrutura do SINAN está sendo revisada com a implantação do projeto "e-SUS SINAN", visando o registro em tempo real das notificações do SINAN, em substituição aos sistemas SINAN NET e SINAN Online atualmente utilizados.
 
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SINAN"
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sinan.csv"))
+```
+
 ## Estrutura dos dados
 
 O SINAN apresenta dados para *todos os casos suspeitos notificados*, independente do diagnóstico final. Desta forma, para se obter o total de casos *confirmados* para determinada doença ou agravo, deve-se filtrar os dados segundo o diagnóstico final.
