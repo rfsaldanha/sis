@@ -133,8 +133,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -375,7 +383,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -405,12 +413,24 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="7.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">7.2</span> Histórico e organização</h2>
 <p>A concepção do SIH tem origem administrativa, visando operar pagamentos de internações e instrumentar ações de controle e auditorias. Em 1977, havia um sistema nacional de controle de pagamento de contas hospitalares para o ressarcimento de despesas aos hospitais. Este sistema já era informatizado, mas apresentava muitos passos não-automatizados de preenchimento e problemas de imprevisibilidade de faturamento dos hospitais. Enfrentando denúncias frequentes de fraudes, foi estabelecida uma comissão técnica que propôs a criação de um sistema menos complexo e mais preciso, baseado em um instrumento único, a <em>Autorização de Internação Hospitalar (AIH)</em>.</p>
 <p>A adoção da AIH e implantação do SIH foi iniciada em 1981, com um projeto piloto em Curitiba, e posteriormente foi implantada em todo o território nacional, em 1983. A evolução do SIH acompanhou a evolução da informática no Brasil, desde a utilização de disquetes para coleta de dados introduzida em 1992. Atualmente, o sistema apresenta críticas automáticas durante o preenchimento da AIH, avisando o profissional sobre possíveis erros durante o preenchimento da AIH. Estas críticas verificam possíveis incompatibilidades entre idade, sexo, e capacidade declarada dos estabelecimentos de saúde frente aos procedimentos lançados na autorização, contribuindo para uma melhor qualidade dos dados do sistema <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
 <p>A cobertura do SIH se limita à esfera pública do SUS e sua rede conveniada. A AIH habilita a internação do paciente na unidade de saúde, agregando informações de custo, pagamentos e ressarcimentos. Apesar de sua origem administrativa, A AIH apresenta informações de interesse para pesquisas como informações demográficas sobre o paciente, procedimentos realizados, causa e duração da internação, além de dados sobre o estabelecimento de saúde. Seus dados são utilizados para avaliações de políticas públicas e pesquisas sobre acesso a serviços de saúde e análises de situação de saúde. Em termos de dimensão, entre 2008 e maio de 2024, o SIH apresenta 186.302.654 AIHs cadastradas, segundo dados compilados pela PCDaS/ICICT <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref">PEDROSO et al., 2023</a>)</span>.</p>
 <p>Este é um dos sistemas de informação de saúde que recebe novos registros com maior frequência, junto com o Sistema de Informações Ambulatoriais – SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>). A análise destes dados requerem estratégias específicas para lidar com grandes bases de dados, utilizando, em geral, soluções de banco de dados relacionais que permitam um processamento analítico on-line (OLAP) eficiente.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-479d2d9a22689f9fe504" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-479d2d9a22689f9fe504">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) em Curitiba<\/small>","start":"1981-01-01"},{"id":"3","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) no Paraná<\/small>","start":"1983-01-01"},{"id":"4","content":"<small>Sistema de Informações<\/br>Hospitalares do Sistema Único de Saúde (SIH-SUS)<\/small>","start":"1991-01-01"},{"id":"5","content":"<small>Inclusão de variáveis<\/br>socioeconômicas<\/small>","start":"1998-11-25"},{"id":"6","content":"<small>Sistema Nacional de Controle e Pagamento de<\/br>Contas Hospitalares e Guia de Internação Hospitalar<\/small>","start":"1977-01-01"},{"id":"7","content":"<small>AIH em disquete e captação descentralizada<\/small>","start":"1992-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SIH</p>
+</div>
+</div>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">7.3</span> Estrutura dos dados</h2>

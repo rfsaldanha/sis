@@ -99,8 +99,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -325,7 +333,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -354,11 +362,23 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="12.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="12.2">
 <h2 data-number="12.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">12.2</span> Histórico e organização</h2>
 <p>O SISAGUA é um instrumento do <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/situacao-de-saude/vigiagua">Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA)</a>, que tem como finalidade auxiliar o gerenciamento de riscos à saúde associados à qualidade da água para consumo humano. Seu obketivo é “promover a melhoria da qualidade da água destinada à população a partir da geração de informações em tempo hábil para planejamento, tomada de decisão e execução de ações de saúde relacionadas à água para consumo humano”.</p>
 <p>O sistema conta com dados gerados rotineiramento pelos serviços de abastacimento de água e por profissionais de vigilância em saúde.</p>
 <p>A primeira versão do SISAGUA foi concebida em 1999 pela Fundação Nacional de Saúde (Funasa), sendo disponibilizada em 2000. Em 2003, o sistema foi modificado e passou a se vinculado à Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde. Desde então, o SISAGUA tem sido atualizado continuamente, se adequando a legislação vigente e incorporando melhorias no sistema.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-107d38d2fba6a10900cf" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-107d38d2fba6a10900cf">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Portaria GM/MS 36 sobre<\/br>normas de potabilidade da água<\/small>","start":"1990-01-01"},{"id":"3","content":"<small>Concepção e implantação do SISAGUA 1<\/small>","start":"1999-01-01"},{"id":"4","content":"<small>Portaria MS 1469 com nova norma de potabilidade<\/small>","start":"2000-01-01"},{"id":"5","content":"<small>SISAGUA 1<\/small>","start":"2000-01-01"},{"id":"6","content":"<small>Portaria MS 518 com novas<\/br>normas de potabilidade<\/small>","start":"2004-01-01"},{"id":"7","content":"<small>SISAGUA 2<\/small>","start":"2004-01-01"},{"id":"8","content":"<small>Institucionalização do VIGIAGUA<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Reformulação do SISAGUA<\/small>","start":"2006-01-01"},{"id":"10","content":"<small>SISAGUA 3<\/small>","start":"2007-01-01"},{"id":"11","content":"<small>Portaria MS 2914 de procedimentos de<\/br>controle e vigilância da água<\/small>","start":"2011-01-01"},{"id":"12","content":"<small>SISAGUA 4<\/small>","start":"2014-01-01"},{"id":"13","content":"<small>Diretriz do plano nacional de<\/br>amostragem de qualidade da água<\/small>","start":"2016-01-01"},{"id":"14","content":"<small>Reformulação do SISAGUA<\/small>","start":"2021-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SISAGUA</p>
+</div>
+</div>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="12.3">
 <h2 data-number="12.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">12.3</span> Estrutura dos dados</h2>

@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde {#sec-siops}
 
 ## Resumo
@@ -13,6 +17,16 @@ No Conselho Nacional de Saúde de 1993 foi lançada a ideia de criar um sistema 
 O SIOPS é alimentado pelos estados, Distrito Federal e municípios pelo preencimento de um formulário em *software* desenvolvido pelo DataSUS, passando a ter o registro obrigatório à partir de 2023 (Lei Complementar nº 141, de 13 de janeiro de 2012). Os dados contidos no SIOPS são de natureza declaratória e buscam manter compatibilidade com as informações contábeis dos estados e municípios. 
 
 Um dos indicadores gerados pelo SIOPS é o do percentual de recursos próprios aplicados em ações e serviços públicos de saúde, que demonstra a situação relativa ao cumprimento da Constituição Federal. 
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SIOPS"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_siops.csv"))
+```
+:::
 
 Um histórico mais detalhado sobre o SIOPS pode ser consultado [aqui](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops).
 

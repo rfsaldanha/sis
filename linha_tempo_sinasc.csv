@@ -1,6 +1,11 @@
 id;content;start;end
-1;<b>Criação do SUS</b>;1988-10-05;
-2;Criação do SINASC;1990-01-01;
-3;<small>Novo software para</br>controle de fichas</small>;2006-01-01;
-4;Alteração de campos da DN;1999-01-01;
-5;<small>Extinção de taxa para</br>registro de nascimentos</small>;1997-12-10;
+1;<small><b>Criação do SUS</b></small>;1988-10-05;
+2;<small>Concepção do SINASC e base normativa</small>;1989-01-01;
+3;<small><b>Implantação gradual do SINASC nas Ufs</b></small>;1990-01-01;1994-01-01
+4;<small>Formalização de manuais e rotinas</small>;1999-01-01;2001-01-01
+5;<small>Portaria SVS n. 20, regulamenta fluxo de dados</small>;2003-10-03;
+6;<small>Portaria SVS n. 116, regulamenta fluxo de dados</small>;2009-02-11;
+7;<small>Novo manual da DNV</small>;2011-01-01;
+8;<small>Integração com políticas de vigilância em saúde e malformações congênitas</small>;2013-01-01;2018-01-01
+9;<small>Portaria SVS n. 47, regularidade na</br>alimentação do SINASC e SIM</small>;2016-05-03;
+10;<small>Atualização do layout da</br>DNV e novo manual</small>;2021-01-01;2022-01-01

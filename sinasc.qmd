@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SINASC -- Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
 
 ## Resumo
@@ -22,7 +26,7 @@ dn[Declaração de Nascido Vivo] --> via1[1a Via]
 dn --> via2[2a Via]
 dn --> via3[3a Via]
 
-via1 --> sms[Secretaria Municipal de Saúde]
+via1 --> sms[SMS]
 
 via2 --> fam[Família]
 fam --> rg[Registro Civil]
@@ -33,16 +37,17 @@ via3 --> es[Estabelecimento de Saúde]
 
 O SINASC apresenta informações sobre as condições de saúde do nascido vivo, circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.
 
-::::: {.callout}
-Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade [@viacavaSistemaInformacaoSobre2009]. 
-:::
+> Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade [@viacavaSistemaInformacaoSobre2009]. 
 
+::: {.content-visible when-format="html"}
 ```{r}
 #| echo: false
 #| message: false
 #| fig-cap: "Linha do tempo do SINASC"
+#| column: page
 timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
 ```
+:::
 
 ## Modelo da Declaração de Nascido Vivo
 

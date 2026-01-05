@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # CNES -- Cadastro Nacional de Estabelecimentos de Saúde {#sec-cnes}
 
 ## Resumo
@@ -26,6 +30,16 @@ Estabelecimento de saúde é definido como o espaço físico delimitado e perman
 Em termos de dimensão, para o mês de abril de 2020, o CNES apresenta 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023]. 
 
 Como se trata de um cadastro, suas informações são atualizadas permanentemente e os dados históricos de todos os meses anteriores estão disponíveis para acesso, sendo possível acompanhar mensalmente a evolução da rede de unidades de saúde no Brasil, tão como a dinâmica dos profissionais no sistema de saúde. 
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do CNES"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_cnes.csv"))
+```
+:::
 
 Mais informações sobre o CNES podem ser encontradas [aqui](https://wiki.saude.gov.br/cnes/index.php/Página_principal).
 

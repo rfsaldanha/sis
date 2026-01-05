@@ -4,9 +4,11 @@ Os dados de saúde dizem respeito, em geral, sobre a ocorrência de **eventos de
 
 Desta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.
 
-Um exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir.
+::: {.callout}
+Um exemplo: uma pessoa doente pode acessar o sistema de saúde em uma Unidade de Pronto Atendimento (UPA), receber cuidados iniciais e ser diagnosticado como um caso de dengue. Em seguida, esse paciente pode apresentar uma piora em seu quadro clínico e ser internado no hospital, evoluindo para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. 
+:::
 
-A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.
+Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir. A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.
 
 ## Casos de doenças e agravos
 
@@ -81,8 +83,18 @@ O [pacote {csapAIH}](http://dx.doi.org/10.5123/s1679-49742019000200021) do R fac
 
 Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade -- SIM (@sec-sim).
 
+Uma importante definição neste evento é a **causa básica do óbito**, que é o agravo e circunstância que inicia a cadeia de eventos que leva a morte do paciente. As várias circunstâncias e comorbidades que contribuem para o desfecho de óbito são registrados, com especial destaque para a sua causa básica.
+
 ## Nascimentos
 
-O nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos -- SINASC (@sec-sinasc).
+O nascimento de uma criança é visto como um evento de saúde que abrange tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos -- SINASC (@sec-sinasc), que segue uma definição específica sobre "nascidos vivos":
+
+> Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade [@viacavaSistemaInformacaoSobre2009]. 
+
+Os eventos de óbitos fetais são registrados no SIM (@sec-sim).
+
+## Imunizações
+
+A imunização por vacinação é uma importante medida de profilaxia, constituindo um relevante evento de saúde para prevenção de doenças. Dados de vacinação são registrados no Sistema de Informações do Programa Nacional de Imunizações -- SI-PNI (@sec-sipni).
 
 Os capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.

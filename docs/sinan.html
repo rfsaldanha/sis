@@ -138,6 +138,13 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -169,6 +176,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -470,7 +478,7 @@ window.Quarto = {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -507,7 +515,7 @@ window.Quarto = {
 <li>Divulgação de dados: mensal, com defasagem variada</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="9.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">9.2</span> Histórico e organização</h2>
 <p>O SINAN é um instrumento fundamental para a vigilância epidemiológica nacional, sendo responsável por coletar, transmitir e disseminar dados sobre uma lista de doenças e agravos de saúde, cuja notificação é compulsória em todo território nacional. A <a href="https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/lista-nacional-de-notificacao-compulsoria-de-doencas-agravos-e-eventos-de-saude-publica">lista de doenças e agravos</a> é atualizada permanentemente, conforme mudanças no cenário epidemiológico nacional, contando atualmente com 57 doenças e agravos <span class="citation" data-cites="msPortaria33282022 msPortaria4202022">(<a href="referencias.html#ref-msPortaria33282022" role="doc-biblioref">BRASIL, 2022a</a>, <a href="referencias.html#ref-msPortaria4202022" role="doc-biblioref">2022b</a>)</span>.</p>
 <p>Interessante observar que esta lista inclui, além de doenças infecto-contagiosas, a notificação compulsória de acidentes de trabalho, acidentes por animais peçonhentos, eventos adversos de vacinação, casos de óbito infantil e materno e casos de violência doméstica, sexual e tentativas de suicídio, permitindo ao sistema de saúde monitorar rapidamente diversos tipos de eventos de saúde de interesse.</p>
@@ -546,6 +554,18 @@ Figura&nbsp;9.1: Fluxo de notificação do SINAN
 </div>
 </div>
 <p>A estrutura do SINAN está sendo revisada com a implantação do projeto “e-SUS SINAN”, visando o registro em tempo real das notificações do SINAN, em substituição aos sistemas SINAN NET e SINAN Online atualmente utilizados.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-f3af702b3c9e0b6c2ede" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-f3af702b3c9e0b6c2ede">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do Sistema Nacional<br>de Vigilância Epidemiológica<\/small>","start":"1975-10-30"},{"id":"3","content":"Regulamentação do SINAN","start":"1998-03-09"},{"id":"4","content":"Criação da SVS","start":"2003-01-01"},{"id":"5","content":"SINAN Net","start":"2007-01-01"},{"id":"6","content":"SINAN Online","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SINAN</p>
+</div>
+</div>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="9.3">
 <h2 data-number="9.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">9.3</span> Estrutura dos dados</h2>

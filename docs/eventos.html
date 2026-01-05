@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -81,6 +101,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -301,6 +322,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
   <li><a href="#internações" id="toc-internações" class="nav-link" data-scroll-target="#internações"><span class="header-section-number">4.3</span> Internações</a></li>
   <li><a href="#óbitos" id="toc-óbitos" class="nav-link" data-scroll-target="#óbitos"><span class="header-section-number">4.4</span> Óbitos</a></li>
   <li><a href="#nascimentos" id="toc-nascimentos" class="nav-link" data-scroll-target="#nascimentos"><span class="header-section-number">4.5</span> Nascimentos</a></li>
+  <li><a href="#imunizações" id="toc-imunizações" class="nav-link" data-scroll-target="#imunizações"><span class="header-section-number">4.6</span> Imunizações</a></li>
   </ul>
 </nav>
     </div>
@@ -328,8 +350,17 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 <p>Os dados de saúde dizem respeito, em geral, sobre a ocorrência de <strong>eventos de interesse a saúde</strong> e apresentam informações das circunstâncias da ocorrência desses eventos e seus detalhes.</p>
 <p>Desta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.</p>
-<p>Um exemplo: uma pessoa doente pode procurar o sistema de saúde, receber cuidados iniciais e ser diagnosticado como um caso de dengue, ter uma piora em seu quadro e ser internado no hospital e evoluir para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito. Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir.</p>
-<p>A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Um exemplo: uma pessoa doente pode acessar o sistema de saúde em uma Unidade de Pronto Atendimento (UPA), receber cuidados iniciais e ser diagnosticado como um caso de dengue. Em seguida, esse paciente pode apresentar uma piora em seu quadro clínico e ser internado no hospital, evoluindo para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito.</p>
+</div>
+</div>
+</div>
+<p>Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir. A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.</p>
 <section id="casos-de-doenças-e-agravos" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="casos-de-doenças-e-agravos"><span class="header-section-number">4.1</span> Casos de doenças e agravos</h2>
 <p>Um dos dados mais tradicionais em saúde trata sobre a ocorrência de doenças e agravos na população. Este dado visa alertar as autoridades sobre a ocorrência de doenças e agravos, apresentando características importantes para o seu combate e prevenção.</p>
@@ -424,13 +455,27 @@ Dica
 <section id="óbitos" class="level2" data-number="4.4">
 <h2 data-number="4.4" class="anchored" data-anchor-id="óbitos"><span class="header-section-number">4.4</span> Óbitos</h2>
 <p>Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade – SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
+<p>Uma importante definição neste evento é a <strong>causa básica do óbito</strong>, que é o agravo e circunstância que inicia a cadeia de eventos que leva a morte do paciente. As várias circunstâncias e comorbidades que contribuem para o desfecho de óbito são registrados, com especial destaque para a sua causa básica.</p>
 </section>
 <section id="nascimentos" class="level2" data-number="4.5">
 <h2 data-number="4.5" class="anchored" data-anchor-id="nascimentos"><span class="header-section-number">4.5</span> Nascimentos</h2>
-<p>O nascimento de uma criança é visto como um evento de saúde, abrangendo tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos – SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>).</p>
+<p>O nascimento de uma criança é visto como um evento de saúde que abrange tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos – SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>), que segue uma definição específica sobre “nascidos vivos”:</p>
+<blockquote class="blockquote">
+<p>Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade <span class="citation" data-cites="viacavaSistemaInformacaoSobre2009">(<a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
+</blockquote>
+<p>Os eventos de óbitos fetais são registrados no SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
+</section>
+<section id="imunizações" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="imunizações"><span class="header-section-number">4.6</span> Imunizações</h2>
+<p>A imunização por vacinação é uma importante medida de profilaxia, constituindo um relevante evento de saúde para prevenção de doenças. Dados de vacinação são registrados no Sistema de Informações do Programa Nacional de Imunizações – SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>).</p>
 <p>Os capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.</p>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-viacavaSistemaInformacaoSobre2009" class="csl-entry" role="listitem">
+VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre <span>Nascidos Vivos</span> (<span>Sinasc</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

@@ -1,0 +1,10 @@
+.timevis {
+    height: auto !important;
+    min-height: 0;
+    max-height: none;
+}
+
+.vis-item {
+    border-color: #8f3f3d;
+    background-color: #f6bab8;
+}

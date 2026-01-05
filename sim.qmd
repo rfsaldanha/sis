@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SIM -- Sistema de Informação sobre Mortalidade {#sec-sim}
 
 ## Resumo
@@ -11,7 +15,7 @@
 
 O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. 
 
-::::: {.callout}
+::: {.callout-tip}
 Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito [@sennaSistemaInformacoesSobre2009]. 
 :::
 
@@ -41,16 +45,25 @@ A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo p
 
 A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
 
+::: {.content-visible when-format="html"}
 ```{r}
 #| echo: false
 #| message: false
 #| fig-cap: "Linha do tempo do SIM"
+#| column: page
 timevis::timevis(readr::read_csv2(file = "linha_tempo_sim.csv"))
 ```
+:::
 
 Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
 
 Um histórico mais aprofundado sobre a construção e evolução do SIM está disponível [neste documento](assets/sim/INTRO.pdf).
+
+## Causa básica do óbito
+
+A causa básica do óbito é o agravo que **inicia** a cadeia de eventos mórbidos que leva diretamente à morte -- ou, no caso de causas externas, as circunstâncias do acidente/violência que produziram a lesão fatal. Essa definição é a referência internacional utilizada para padronizar estatísticas de mortalidade por causa, permitindo comparabilidade e interpretação epidemiológica (@who_cause_of_death_page).
+
+Na Declaração de Óbito (DO), o médico responsável deve descrever, na Parte I do documento, a sequência causal (da causa terminal às antecedentes), anotando a causa básica na última linha preenchida. Já a Parte II da DO é destinada a outras condições relevantes que contribuíram para o óbito, mas que não entram na cadeia causal principal. O manual do Ministério da Saúde reforça que a qualidade dessa informação depende de relatar toda a cadeia (e não apenas a causa terminal) (@brasil_ms_2022_do_manual).
 
 ## Modelo da Declaração de Óbito
 

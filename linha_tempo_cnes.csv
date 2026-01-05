@@ -1,0 +1,13 @@
+id;content;start;end
+1;<b>Criação do SUS</b>;1988-10-05;
+2;<small>Ficha Cadastral de</br>Estabelecimentos de Saúde (FCES)</small>;1997-01-01;
+3;<small>Banco de dados Nacional de Estabelecimentos de Saúde</small>;2000-10-03;
+4;<small>Estabelecimento do CNES</small>;2000-10-20;
+5;<small>Recadastramento informatizado</small>;2001-01-01;
+6;<small>CNES passa a ser utilizado no SIH e SIA</small>;2002-10-01;
+7;<small>Implementação em todo o país</small>;2003-08-01;
+8;<small>CNES Net</small>;2005-01-01;
+9;<small>Inclusão da saúde suplementar</br>(estabelecimentos de saúde privados)</small>;2001-01-01;
+10;<small>Desativação automática de CNES</br>por falta de atualização</small>;2014-02-18;
+11;<small>Regras de vínculos profissionais</small>;2015-02-11;
+12;<small>Geolocalização e horário</br>de funcionamento</small>;2019-03-15;

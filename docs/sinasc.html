@@ -136,8 +136,16 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -380,7 +388,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -410,7 +418,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: anual, com um ano de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="6.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">6.2</span> Histórico e organização</h2>
 <p>O SINASC foi concebido estruturalmente de maneira semelhante ao SIM. A partir de 1990, ele passa a ser implantado nacionalmente, de forma gradual e planejada, pelo Ministério da Saúde, apresentando dados consolidados a partir de 1994. Em seu funcionamento inicial, o SINASC enfrentou problemas de cobertura, principalmente nas regiões Norte e Nordeste, e também apresentava poucas rotinas internas de controle de qualidade que foram posteriormente criadas, tão como questões sobre dupla entrada de dados foram solucionadas. <span class="citation" data-cites="szwarcwaldAvaliacaoInformacoesSistema2019">SZWARCWALD et al. (<a href="referencias.html#ref-szwarcwaldAvaliacaoInformacoesSistema2019" role="doc-biblioref">2019</a>)</span> estima que a abrangência do SINASC seja superior a 90% dos nascidos vivos na maioria das Unidades da Federação, ainda que coberturas inferiores a 60% sejam encontrados em alguns municípios localizados nas áreas mais remotas e empobrecidas do país, o que demonstra a necessidade de esforços do poder público para o aumento da cobertura do SINASC.</p>
 <p>O documento básico do SINASC é a <em>Declaração de Nascido Vivo (DNV)</em>, padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV também é emitida em três vias e distribuída gratuitamente, seguindo o seguinte fluxo: a primeira via da DNV é retida pela unidade de saúde e encaminhada para a secretaria municipal de saúde, a segunda via é entregue à família para ser apresentada no Registro Civil, e que validará a obtenção do Certidão de Nascimento, já a terceira via é arquivada junto ao prontuário médico do recém-nascido na unidade de saúde.</p>
@@ -425,7 +433,7 @@ dn[Declaração de Nascido Vivo] --&gt; via1[1a Via]
 dn --&gt; via2[2a Via]
 dn --&gt; via3[3a Via]
 
-via1 --&gt; sms[Secretaria Municipal de Saúde]
+via1 --&gt; sms[SMS]
 
 via2 --&gt; fam[Família]
 fam --&gt; rg[Registro Civil]
@@ -442,16 +450,20 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </div>
 </div>
 </div>
-<p>O SINASC apresenta informações sobre as condições de saúde do nascido vivo</p>
-<p>circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+<p>O SINASC apresenta informações sobre as condições de saúde do nascido vivo, circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.</p>
+<blockquote class="blockquote">
 <p>Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade <span class="citation" data-cites="viacavaSistemaInformacaoSobre2009">(<a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
+</blockquote>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-42522677d15ea491004e" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
+</div>
+<script type="application/json" data-for="htmlwidget-42522677d15ea491004e">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SINASC e base normativa<\/small>","start":"1989-01-01"},{"id":"3","content":"<small><b>Implantação gradual do SINASC nas Ufs<\/b><\/small>","start":"1990-01-01","end":"1994-01-01"},{"id":"4","content":"<small>Formalização de manuais e rotinas<\/small>","start":"1999-01-01","end":"2001-01-01"},{"id":"5","content":"<small>Portaria SVS n. 20, regulamenta fluxo de dados<\/small>","start":"2003-10-03"},{"id":"6","content":"<small>Portaria SVS n. 116, regulamenta fluxo de dados<\/small>","start":"2009-02-11"},{"id":"7","content":"<small>Novo manual da DNV<\/small>","start":"2011-01-01"},{"id":"8","content":"<small>Integração com políticas de vigilância em saúde e malformações congênitas<\/small>","start":"2013-01-01","end":"2018-01-01"},{"id":"9","content":"<small>Portaria SVS n. 47, regularidade na<\/br>alimentação do SINASC e SIM<\/small>","start":"2016-05-03"},{"id":"10","content":"<small>Atualização do layout da<\/br>DNV e novo manual<\/small>","start":"2021-01-01","end":"2022-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SINASC</p>
 </div>
 </div>
 </section>

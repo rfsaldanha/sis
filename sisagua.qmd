@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano {#sec-sisagua}
 
 ## Resumo
@@ -13,6 +17,16 @@ O SISAGUA é um instrumento do [Programa Nacional de Vigilância da Qualidade da
 O sistema conta com dados gerados rotineiramento pelos serviços de abastacimento de água e por profissionais de vigilância em saúde.
 
 A primeira versão do SISAGUA foi concebida em 1999 pela Fundação Nacional de Saúde (Funasa), sendo disponibilizada em 2000. Em 2003, o sistema foi modificado e passou a se vinculado à Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde. Desde então, o SISAGUA tem sido atualizado continuamente, se adequando a legislação vigente e incorporando melhorias no sistema.
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SISAGUA"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sisagua.csv"))
+```
+:::
 
 ## Estrutura dos dados
 

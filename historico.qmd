@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # Breve histórico da experiência brasileira
 
 As iniciativas em sistematizar a obtenção e registro de dados de saúde no Brasil se iniciam com a necessidade de manutenção de estatísticas de nascimentos e mortalidade, ainda no período colonial. Contudo, apenas em 1973 foi regulamentado o [Registro Civil](https://www.ibge.gov.br/estatisticas/sociais/populacao/9110-estatisticas-do-registro-civil.html?=&t=o-que-e) no país [@brasilLei60151973], sendo atribuída ao Instituto Brasileiro de Geografia e Estatística (IBGE) a responsabilidade da construção de estatísticas do Registro Civil para o conhecimento das dinâmicas de evolução populacional no território brasileiro. 
@@ -17,3 +21,13 @@ Com o estabelecimento do SUS e a promulgação da Constituição Federal, foi cr
 Dentre as competências do DataSUS [@brasilDecreto41942002], pode-se destacar a responsabilidade pela manutenção e desenvolvimento de sistemas de informação em saúde; o desenvolvimento, pesquisa e incorporação de tecnologias de informática necessárias às ações de saúde; definição de normas e padrões para a transmissão e transferência de informações em saúde; a integração nacional das bases de dados e sistemas do SUS e a manutenção do acervo das bases de dados. 
 
 Desta forma, o DataSUS é o principal órgão responsável pelo manutenção dos SIS brasileiros. Estes SIS podem ser compreendindos em alguns conjuntos, apresentados a seguir.
+
+## Linha do tempo de criação dos principais SIS
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
+```
+:::

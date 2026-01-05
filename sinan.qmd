@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SINAN -- Sistema de Informação de Agravos de Notificação {#sec-sinan}
 
 ---
@@ -47,12 +51,15 @@ atua --> sms
 
 A estrutura do SINAN está sendo revisada com a implantação do projeto "e-SUS SINAN", visando o registro em tempo real das notificações do SINAN, em substituição aos sistemas SINAN NET e SINAN Online atualmente utilizados.
 
+::: {.content-visible when-format="html"}
 ```{r}
 #| echo: false
 #| message: false
 #| fig-cap: "Linha do tempo do SINAN"
+#| column: page
 timevis::timevis(readr::read_csv2(file = "linha_tempo_sinan.csv"))
 ```
+:::
 
 ## Estrutura dos dados
 

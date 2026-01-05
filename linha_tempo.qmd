@@ -1,0 +1,13 @@
+# Linha do tempo {#sec-linha-tempo}
+
+## SIM
+
+```{r}
+library(readr)
+library(timevis)
+
+sim_data <- read_csv2(file = "linha_tempo_sim.csv")
+
+timevis(sim_data)
+```
+

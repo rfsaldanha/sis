@@ -136,8 +136,16 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -355,32 +363,33 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">5.1</span> Resumo</a></li>
   <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">5.2</span> Histórico e organização</a></li>
-  <li><a href="#modelo-da-declaração-de-óbito" id="toc-modelo-da-declaração-de-óbito" class="nav-link" data-scroll-target="#modelo-da-declaração-de-óbito"><span class="header-section-number">5.3</span> Modelo da Declaração de Óbito</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">5.4</span> Estrutura dos dados</a>
+  <li><a href="#causa-básica-do-óbito" id="toc-causa-básica-do-óbito" class="nav-link" data-scroll-target="#causa-básica-do-óbito"><span class="header-section-number">5.3</span> Causa básica do óbito</a></li>
+  <li><a href="#modelo-da-declaração-de-óbito" id="toc-modelo-da-declaração-de-óbito" class="nav-link" data-scroll-target="#modelo-da-declaração-de-óbito"><span class="header-section-number">5.4</span> Modelo da Declaração de Óbito</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">5.5</span> Estrutura dos dados</a>
   <ul class="collapse">
-  <li><a href="#prefixo-dos-arquivos" id="toc-prefixo-dos-arquivos" class="nav-link" data-scroll-target="#prefixo-dos-arquivos"><span class="header-section-number">5.4.1</span> Prefixo dos arquivos</a></li>
+  <li><a href="#prefixo-dos-arquivos" id="toc-prefixo-dos-arquivos" class="nav-link" data-scroll-target="#prefixo-dos-arquivos"><span class="header-section-number">5.5.1</span> Prefixo dos arquivos</a></li>
   </ul></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">5.5</span> Acesso aos dados</a>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">5.6</span> Acesso aos dados</a>
   <ul class="collapse">
-  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">5.5.1</span> TabNet</a></li>
-  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">5.5.2</span> TabWin</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">5.5.3</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">5.5.4</span> Python</a></li>
-  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">5.5.5</span> PCDaS</a></li>
-  <li><a href="#outras-formas" id="toc-outras-formas" class="nav-link" data-scroll-target="#outras-formas"><span class="header-section-number">5.5.6</span> Outras formas</a></li>
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">5.6.1</span> TabNet</a></li>
+  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">5.6.2</span> TabWin</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">5.6.3</span> R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">5.6.4</span> Python</a></li>
+  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">5.6.5</span> PCDaS</a></li>
+  <li><a href="#outras-formas" id="toc-outras-formas" class="nav-link" data-scroll-target="#outras-formas"><span class="header-section-number">5.6.6</span> Outras formas</a></li>
   </ul></li>
-  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">5.6</span> Principais usos e indicadores</a></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">5.7</span> Bibliografia recomendada</a>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">5.7</span> Principais usos e indicadores</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">5.8</span> Bibliografia recomendada</a>
   <ul class="collapse">
-  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">5.7.1</span> Documentos auxiliares</a></li>
-  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">5.7.2</span> Vídeos</a></li>
-  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">5.7.3</span> Avaliação da qualidade dos dados</a></li>
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">5.8.1</span> Documentos auxiliares</a></li>
+  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">5.8.2</span> Vídeos</a></li>
+  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">5.8.3</span> Avaliação da qualidade dos dados</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -410,17 +419,20 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: anual, com um ano de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="5.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">5.2</span> Histórico e organização</h2>
 <p>O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada.</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito <span class="citation" data-cites="sennaSistemaInformacoesSobre2009">(<a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>)</span>.</p>
-</div>
 </div>
 </div>
 <p>Este instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.</p>
@@ -455,11 +467,28 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </div>
 <p>A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a <em>causa básica do óbito</em> e demais <em>causas secundárias</em>, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.</p>
 <p>A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas <span class="citation" data-cites="sennaSistemaInformacoesSobre2009">(<a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>)</span>.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-9475502c20fe57fbbcc9" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-9475502c20fe57fbbcc9">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small><b>Criação do SIM<\/b><\/small>","start":"1975-01-01"},{"id":"3","content":"<small>Preenchimento da DO em três vias<\/small>","start":"1994-01-01"},{"id":"4","content":"<small>SVS passa a gerir o SIM<\/small>","start":"2003-01-01"},{"id":"5","content":"<small>Informatização do SIM<\/small>","start":"1979-01-01"},{"id":"6","content":"<small>Regulamentação da<\/br>coleta de dados<\/small>","start":"2000-08-31"},{"id":"7","content":"<small>Lei de Registros Públicos<\/small>","start":"1973-01-01"},{"id":"8","content":"<small>Centro Brasileiro de Classificação de Doenças<\/small>","start":"1976-01-01"},{"id":"9","content":"<small>Descentralização da coleta de dados<\/small>","start":"1991-01-01"},{"id":"10","content":"<small>Nova versão da DO<\/small>","start":"1998-01-01"},{"id":"11","content":"<small>Adoção da CID-10<\/small>","start":"1996-01-01"},{"id":"12","content":"<small>Regulamentação detalhada do fluxo de dados<\/small>","start":"2003-10-03"},{"id":"13","content":"<small>Vigilância de óbitos maternos<\/small>","start":"2008-01-01"},{"id":"14","content":"<small>Vigilância do óbito infantil e fetal<\/small>","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SIM</p>
+</div>
+</div>
 <p>Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no <a href="assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf">manual de preenchimento</a>, disponibilizado pelo Ministério da Saúde.</p>
 <p>Um histórico mais aprofundado sobre a construção e evolução do SIM está disponível <a href="assets/sim/INTRO.pdf">neste documento</a>.</p>
 </section>
-<section id="modelo-da-declaração-de-óbito" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="modelo-da-declaração-de-óbito"><span class="header-section-number">5.3</span> Modelo da Declaração de Óbito</h2>
+<section id="causa-básica-do-óbito" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="causa-básica-do-óbito"><span class="header-section-number">5.3</span> Causa básica do óbito</h2>
+<p>A causa básica do óbito é o agravo que <strong>inicia</strong> a cadeia de eventos mórbidos que leva diretamente à morte – ou, no caso de causas externas, as circunstâncias do acidente/violência que produziram a lesão fatal. Essa definição é a referência internacional utilizada para padronizar estatísticas de mortalidade por causa, permitindo comparabilidade e interpretação epidemiológica (<span class="citation" data-cites="who_cause_of_death_page">WHO (<a href="referencias.html#ref-who_cause_of_death_page" role="doc-biblioref">2026</a>)</span>).</p>
+<p>Na Declaração de Óbito (DO), o médico responsável deve descrever, na Parte I do documento, a sequência causal (da causa terminal às antecedentes), anotando a causa básica na última linha preenchida. Já a Parte II da DO é destinada a outras condições relevantes que contribuíram para o óbito, mas que não entram na cadeia causal principal. O manual do Ministério da Saúde reforça que a qualidade dessa informação depende de relatar toda a cadeia (e não apenas a causa terminal) (<span class="citation" data-cites="brasil_ms_2022_do_manual">BRASIL (<a href="referencias.html#ref-brasil_ms_2022_do_manual" role="doc-biblioref">2022</a>)</span>).</p>
+</section>
+<section id="modelo-da-declaração-de-óbito" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="modelo-da-declaração-de-óbito"><span class="header-section-number">5.4</span> Modelo da Declaração de Óbito</h2>
 <div id="modelo-do" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="assets/sim/wiki_modelo_do.jpg" class="img-fluid figure-img"></p>
@@ -467,11 +496,11 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </figure>
 </div>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">5.4</span> Estrutura dos dados</h2>
+<section id="estrutura-dos-dados" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">5.5</span> Estrutura dos dados</h2>
 <p>Confira o documento de <a href="assets/sim/Estrutura_SIM_para_CD.pdf">estrutura do SIM</a>, onde estão descritas as variáveis disponíveis.</p>
-<section id="prefixo-dos-arquivos" class="level3" data-number="5.4.1">
-<h3 data-number="5.4.1" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">5.4.1</span> Prefixo dos arquivos</h3>
+<section id="prefixo-dos-arquivos" class="level3" data-number="5.5.1">
+<h3 data-number="5.5.1" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">5.5.1</span> Prefixo dos arquivos</h3>
 <ul>
 <li>DO: Declarações de óbito</li>
 <li>DOEXT: Declarações de óbitos por causas externas</li>
@@ -482,24 +511,24 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </ul>
 </section>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">5.5</span> Acesso aos dados</h2>
-<section id="tabnet" class="level3" data-number="5.5.1">
-<h3 data-number="5.5.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">5.5.1</span> TabNet</h3>
+<section id="acesso-aos-dados" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">5.6</span> Acesso aos dados</h2>
+<section id="tabnet" class="level3" data-number="5.6.1">
+<h3 data-number="5.6.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">5.6.1</span> TabNet</h3>
 <p>Os dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10">TabNet SIM</a></li>
 </ul>
 </section>
-<section id="tabwin" class="level3" data-number="5.5.2">
-<h3 data-number="5.5.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">5.5.2</span> TabWin</h3>
+<section id="tabwin" class="level3" data-number="5.6.2">
+<h3 data-number="5.6.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">5.6.2</span> TabWin</h3>
 <p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
 </section>
-<section id="r" class="level3" data-number="5.5.3">
-<h3 data-number="5.5.3" class="anchored" data-anchor-id="r"><span class="header-section-number">5.5.3</span> R</h3>
+<section id="r" class="level3" data-number="5.6.3">
+<h3 data-number="5.6.3" class="anchored" data-anchor-id="r"><span class="header-section-number">5.6.3</span> R</h3>
 <p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
@@ -538,31 +567,31 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </div>
 </div>
 </section>
-<section id="python" class="level3" data-number="5.5.4">
-<h3 data-number="5.5.4" class="anchored" data-anchor-id="python"><span class="header-section-number">5.5.4</span> Python</h3>
+<section id="python" class="level3" data-number="5.6.4">
+<h3 data-number="5.6.4" class="anchored" data-anchor-id="python"><span class="header-section-number">5.6.4</span> Python</h3>
 <p>Você pode usar a biblioteca PySUS.</p>
 <ul>
 <li><a href="https://pysus.readthedocs.io/en/latest/databases/SIM.html">PySUS SIM</a></li>
 </ul>
 </section>
-<section id="pcdas" class="level3" data-number="5.5.5">
-<h3 data-number="5.5.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">5.5.5</span> PCDaS</h3>
+<section id="pcdas" class="level3" data-number="5.6.5">
+<h3 data-number="5.6.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">5.6.5</span> PCDaS</h3>
 <p>Os dados do SIM estão disponíveis na PCDaS para acesso via <em>notebooks</em>.</p>
 <ul>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/">Dados SIM</a></li>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/">Dados SIM-DOFET</a></li>
 </ul>
 </section>
-<section id="outras-formas" class="level3" data-number="5.5.6">
-<h3 data-number="5.5.6" class="anchored" data-anchor-id="outras-formas"><span class="header-section-number">5.5.6</span> Outras formas</h3>
+<section id="outras-formas" class="level3" data-number="5.6.6">
+<h3 data-number="5.6.6" class="anchored" data-anchor-id="outras-formas"><span class="header-section-number">5.6.6</span> Outras formas</h3>
 <p>Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.</p>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/sim">OpenDataSUS - SIM</a></li>
 </ul>
 </section>
 </section>
-<section id="principais-usos-e-indicadores" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">5.6</span> Principais usos e indicadores</h2>
+<section id="principais-usos-e-indicadores" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">5.7</span> Principais usos e indicadores</h2>
 <p>Segundo <span class="citation" data-cites="OPAS2008">RIPSA (<a href="referencias.html#ref-OPAS2008" role="doc-biblioref">2008</a>)</span>, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:</p>
 <ul>
 <li>Taxa de mortalidade infantil</li>
@@ -573,10 +602,10 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </ul>
 <p>Consulte o <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf">livro da RIPSA</a> para maiores detalhes sobre esses e outros indicadores.</p>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">5.7</span> Bibliografia recomendada</h2>
-<section id="documentos-auxiliares" class="level3" data-number="5.7.1">
-<h3 data-number="5.7.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">5.7.1</span> Documentos auxiliares</h3>
+<section id="bibliografia-recomendada" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">5.8</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="5.8.1">
+<h3 data-number="5.8.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">5.8.1</span> Documentos auxiliares</h3>
 <ul>
 <li><a href="assets/sim/INTRO.pdf">Histórico do SIM</a></li>
 <li><a href="assets/sim/Estrutura_SIM_para_CD.pdf">Estrutura do SIM</a></li>
@@ -584,13 +613,13 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 <li><a href="assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf">A Declaração de Óbito: documento necessário e importante</a></li>
 </ul>
 </section>
-<section id="vídeos" class="level3" data-number="5.7.2">
-<h3 data-number="5.7.2" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">5.7.2</span> Vídeos</h3>
+<section id="vídeos" class="level3" data-number="5.8.2">
+<h3 data-number="5.8.2" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">5.8.2</span> Vídeos</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I_wFPYkDbF8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/DuyB5bsz7yM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="5.7.3">
-<h3 data-number="5.7.3" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">5.7.3</span> Avaliação da qualidade dos dados</h3>
+<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="5.8.3">
+<h3 data-number="5.8.3" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">5.8.3</span> Avaliação da qualidade dos dados</h3>
 <ul>
 <li>Artigo <em>Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil</em> <span class="citation" data-cites="cavalcanteQualidadeDosRegistros2023">(<a href="referencias.html#ref-cavalcanteQualidadeDosRegistros2023" role="doc-biblioref">CAVALCANTE; SANTANA, 2023</a>)</span>. Disponível <a href="https://doi.org/10.1590/1414-462X202331040547">aqui</a>.</li>
 <li>Artigo <em>Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC</em>. <span class="citation" data-cites="jorgeAnaliseQualidadeEstatisticas2007">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>)</span>. Disponível <a href="https://doi.org/10.1590/S1413-81232007000300014">aqui</a>.</li>
@@ -599,6 +628,9 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-brasil_ms_2022_do_manual" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/declaracao-de-obito-manual-de-instrucoes-para-preenchimento.pdf"><span>Declara<span>ç</span><span>ã</span>o de <span>Ó</span>bito</span>: manual de instru<span>ç</span><span>õ</span>es para preenchimento</a></strong>. 1. ed. Bras<span>ı́</span>lia, DF: Minist<span>é</span>rio da Sa<span>ú</span>de, 2022.
+</div>
 <div id="ref-cavalcanteQualidadeDosRegistros2023" class="csl-entry" role="listitem">
 CAVALCANTE, F.; SANTANA, V. S. <a href="https://doi.org/10.1590/1414-462x202331040547"><span>Qualidade dos registros de ocupa<span>ç</span><span>ã</span>o das doen<span>ç</span>as associadas ao asbesto no sistema de informa<span>ç</span><span>ã</span>o sobre mortalidade, Brasil</span></a>. <strong>Cadernos Sa<span>ú</span>de Coletiva</strong>, v. 31, n. 4, p. e31040547, 2023.
 </div>
@@ -613,6 +645,9 @@ RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <
 </div>
 <div id="ref-sennaSistemaInformacoesSobre2009" class="csl-entry" role="listitem">
 SENNA, M. DE C. M. Sistema de <span>Informa<span>ç</span><span>õ</span>es</span> Sobre <span>Mortalidade</span> (<span>SIM</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-who_cause_of_death_page" class="csl-entry" role="listitem">
+WHO. <strong>Cause of death</strong>. Disponível em: &lt;<a href="https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death">https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death</a>&gt;. Acesso em: 5 jan. 2026.
 </div>
 </div>
 </section>

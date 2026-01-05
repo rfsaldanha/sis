@@ -133,8 +133,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -369,7 +377,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -399,7 +407,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="10.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="10.2">
 <h2 data-number="10.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">10.2</span> Histórico e organização</h2>
 <p>Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS) realizada pelo IBGE. No mesmo ano, foi implantado o o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH) no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH seja administrativo, para pagamento de serviços prestados, sua implantação demandou a construção de fichas cadastrais de estabelecimentos e de profissionais de saúde.</p>
 <p>O SNCPCH foi estinto em 1980, mas suas fichas continuaram ativas compondo o o Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e o SIH, na década de 1990. Após a implantação do SIA em 1994 e verificação de inconsistências nos dados sobre os estabelecimentos de saúde, foi implantada a ficha Ficha de Cadastro de Estabelecimentos de Saúde – FCES (Portaria n° 1890/GM/MS/1997), sendo continuamente aperfeiçoada.</p>
@@ -418,6 +426,18 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </div>
 <p>Em termos de dimensão, para o mês de abril de 2020, o CNES apresenta 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref">PEDROSO et al., 2023</a>)</span>.</p>
 <p>Como se trata de um cadastro, suas informações são atualizadas permanentemente e os dados históricos de todos os meses anteriores estão disponíveis para acesso, sendo possível acompanhar mensalmente a evolução da rede de unidades de saúde no Brasil, tão como a dinâmica dos profissionais no sistema de saúde.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-d705479e5d9c2128f9fd" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-d705479e5d9c2128f9fd">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Ficha Cadastral de<\/br>Estabelecimentos de Saúde (FCES)<\/small>","start":"1997-01-01"},{"id":"3","content":"<small>Banco de dados Nacional de Estabelecimentos de Saúde<\/small>","start":"2000-10-03"},{"id":"4","content":"<small>Estabelecimento do CNES<\/small>","start":"2000-10-20"},{"id":"5","content":"<small>Recadastramento informatizado<\/small>","start":"2001-01-01"},{"id":"6","content":"<small>CNES passa a ser utilizado no SIH e SIA<\/small>","start":"2002-10-01"},{"id":"7","content":"<small>Implementação em todo o país<\/small>","start":"2003-08-01"},{"id":"8","content":"<small>CNES Net<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Inclusão da saúde suplementar<\/br>(estabelecimentos de saúde privados)<\/small>","start":"2001-01-01"},{"id":"10","content":"<small>Desativação automática de CNES<\/br>por falta de atualização<\/small>","start":"2014-02-18"},{"id":"11","content":"<small>Regras de vínculos profissionais<\/small>","start":"2015-02-11"},{"id":"12","content":"<small>Geolocalização e horário<\/br>de funcionamento<\/small>","start":"2019-03-15"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do CNES</p>
+</div>
+</div>
 <p>Mais informações sobre o CNES podem ser encontradas <a href="https://wiki.saude.gov.br/cnes/index.php/Página_principal">aqui</a>.</p>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="10.3">

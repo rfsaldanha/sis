@@ -79,8 +79,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -311,7 +319,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -340,11 +348,23 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="11.2">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="11.2">
 <h2 data-number="11.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">11.2</span> Histórico e organização</h2>
 <p>No Conselho Nacional de Saúde de 1993 foi lançada a ideia de criar um sistema de informações sobre despesas em saúde de todos os entes federados. A portaria MS/PGR nº 529 de 30 de abril de 1999 designou uma equipe para desenvolver o projeto de implantação do Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS), sendo institucionalizado pela Portaria Conjunta MS/PGR nº 1163, de 11 de outubro de 2000.</p>
 <p>O SIOPS é alimentado pelos estados, Distrito Federal e municípios pelo preencimento de um formulário em <em>software</em> desenvolvido pelo DataSUS, passando a ter o registro obrigatório à partir de 2023 (Lei Complementar nº 141, de 13 de janeiro de 2012). Os dados contidos no SIOPS são de natureza declaratória e buscam manter compatibilidade com as informações contábeis dos estados e municípios.</p>
 <p>Um dos indicadores gerados pelo SIOPS é o do percentual de recursos próprios aplicados em ações e serviços públicos de saúde, que demonstra a situação relativa ao cumprimento da Constituição Federal.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-4f5180e89e07b1c5abae" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-4f5180e89e07b1c5abae">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SIOPS no<\/br>Conselho Nacional de Saúde<\/small>","start":"1993-01-01"},{"id":"3","content":"<small>Projeto de implantação do SIOPS<\/small>","start":"1999-04-30"},{"id":"4","content":"<small>Instituicionalização do SIOPS<\/small>","start":"2000-10-11"},{"id":"5","content":"<small>Relatório Resumido de Execução Orçamentária<\/br>(RREO) com base no SIOPS<\/small>","start":"2002-01-01"},{"id":"6","content":"<small>EC 29/2000 de aplicação<br>mínima de recursos<\/small>","start":"2000-09-13"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SIOPS</p>
+</div>
+</div>
 <p>Um histórico mais detalhado sobre o SIOPS pode ser consultado <a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops">aqui</a>.</p>
 </section>
 <section id="acesso-aos-dados" class="level2" data-number="11.3">

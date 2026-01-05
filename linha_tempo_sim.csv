@@ -1,7 +1,15 @@
 id;content;start;end
-1;<b>Criação do SUS</b>;1988-10-05;
-2;Criação do SIM;1975-01-01;
-3;Preenchimento da DO em três vias;1994-01-01;
-4;SVS passa a gerir o SIM;2003-01-01;
-5;Informatização do SIM;1979-01-01;
+1;<small><b>Criação do SUS</b></small>;1988-10-05;
+2;<small><b>Criação do SIM</b></small>;1975-01-01;
+3;<small>Preenchimento da DO em três vias</small>;1994-01-01;
+4;<small>SVS passa a gerir o SIM</small>;2003-01-01;
+5;<small>Informatização do SIM</small>;1979-01-01;
 6;<small>Regulamentação da</br>coleta de dados</small>;2000-08-31;
+7;<small>Lei de Registros Públicos</small>;1973-01-01;
+8;<small>Centro Brasileiro de Classificação de Doenças</small>;1976-01-01;
+9;<small>Descentralização da coleta de dados</small>;1991-01-01;
+10;<small>Nova versão da DO</small>;1998-01-01;
+11;<small>Adoção da CID-10</small>;1996-01-01;
+12;<small>Regulamentação detalhada do fluxo de dados</small>;2003-10-03;
+13;<small>Vigilância de óbitos maternos</small>;2008-01-01;
+14;<small>Vigilância do óbito infantil e fetal</small>;2010-01-01;

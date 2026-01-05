@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SIH -- Sistema de Informações Hospitalares do SUS {#sec-sih}
 
 ## Resumo
@@ -16,6 +20,16 @@ A adoção da AIH e implantação do SIH foi iniciada em 1981, com um projeto pi
 A cobertura do SIH se limita à esfera pública do SUS e sua rede conveniada. A AIH habilita a internação do paciente na unidade de saúde, agregando informações de custo, pagamentos e ressarcimentos. Apesar de sua origem administrativa, A AIH  apresenta informações de interesse para pesquisas como informações demográficas sobre o paciente, procedimentos realizados, causa e duração da internação, além de dados sobre o estabelecimento de saúde. Seus dados são utilizados para avaliações de políticas públicas e pesquisas sobre acesso a serviços de saúde e análises de situação de saúde. Em termos de dimensão, entre 2008 e maio de 2024, o SIH apresenta 186.302.654 AIHs cadastradas, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023].
 
 Este é um dos sistemas de informação de saúde que  recebe novos registros com maior frequência, junto com o Sistema de Informações Ambulatoriais -- SIA (@sec-sia). A análise destes dados requerem estratégias específicas para lidar com grandes bases de dados, utilizando, em geral, soluções de banco de dados relacionais que permitam um processamento analítico on-line (OLAP) eficiente.
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SIH"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sih.csv"))
+```
+:::
 
 ## Estrutura dos dados
 

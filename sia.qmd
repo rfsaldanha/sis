@@ -1,3 +1,7 @@
+---
+always_allow_html: true
+---
+
 # SIA -- Sistema de Informações Ambulatoriais do SUS {#sec-sia}
 
 ## Resumo
@@ -17,7 +21,17 @@ A implantação do SIA em território nacional se deu em 1995, com o uso do Bole
 
 A Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.
 
-Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identidicação do profissional e do paciente.
+Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identificação do profissional e do paciente.
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SIA"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sia.csv"))
+```
+:::
 
 Mais detalhes sobre o histórico do SIA podem ser encontrados [aqui](https://wiki.saude.gov.br/sia/index.php/Página_principal).
 
