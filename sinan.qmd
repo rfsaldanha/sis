@@ -402,6 +402,10 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
 
+::: {.callout-caution}
+A notificação de casos de malária no SINAN cobre a região extra-amazônica. Casos de malária na região amazônica são notificados no SIVEP Malária (@sec-sivep).
+:::
+
 ### Meningite
 
 -  Prefixo dos arquivos: MENI
