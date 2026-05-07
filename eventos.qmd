@@ -70,7 +70,6 @@ Essa distinção é central para análise. No SIA (@sec-sia), uma pessoa pode ap
 
 A dengue é um bom exemplo porque pode produzir múltiplos eventos de saúde. A @fig-eventos-dengue resume uma trajetória possível.
 
-::: {.column-page}
 ```{mermaid}
 %%| fig-cap: "Eventos de saúde e possíveis sistemas de registro no exemplo da dengue"
 %%| label: fig-eventos-dengue
@@ -88,7 +87,6 @@ flowchart LR
   intern -.-> SIH[SIH]
   obito -.-> SIM[SIM]
 ```
-:::
 
 | Evento | Sistema | O que permite analisar |
 |---|---|---|
