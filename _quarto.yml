@@ -1,6 +1,20 @@
 project:
   type: book
   output-dir: docs
+  resources:
+    - podcast/introducao.mp3
+    - podcast/introducao.md
+    - podcast/introducao_transcript.json
+    - podcast/historico.mp3
+    - podcast/historico.md
+    - podcast/historico_transcript.json
+    - podcast/organizacao.mp3
+    - podcast/organizacao.md
+    - podcast/organizacao_transcript.json
+    - podcast/eventos.mp3
+    - podcast/eventos.md
+    - podcast/eventos_transcript.json
+    - podcast/sync-transcript.js
 
 execute:
   freeze: auto
@@ -11,6 +25,10 @@ book:
   title: "Sistemas de Informação em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   isbn: "978-65-01-37841-1"
+  description: "E-book sobre os principais Sistemas de Informação em Saúde no Brasil."
+  site-url: "https://rfsaldanha.github.io/sis/"
+  repo-url: "https://github.com/rfsaldanha/sis"
+  repo-actions: [source, issue]
   date: today
   search: true
   downloads: [pdf, epub]

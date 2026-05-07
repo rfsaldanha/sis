@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
 <title>4&nbsp; Eventos de saúde – Sistemas de Informação em Saúde no Brasil</title>
 <style>
@@ -105,6 +106,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -297,7 +301,8 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sistemas de Informação em Saúde no Brasil</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -485,17 +490,30 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#casos-de-doenças-e-agravos" id="toc-casos-de-doenças-e-agravos" class="nav-link active" data-scroll-target="#casos-de-doenças-e-agravos"><span class="header-section-number">4.1</span> Casos de doenças e agravos</a></li>
-  <li><a href="#procedimentos-ambulatoriais" id="toc-procedimentos-ambulatoriais" class="nav-link" data-scroll-target="#procedimentos-ambulatoriais"><span class="header-section-number">4.2</span> Procedimentos ambulatoriais</a></li>
-  <li><a href="#internações" id="toc-internações" class="nav-link" data-scroll-target="#internações"><span class="header-section-number">4.3</span> Internações</a></li>
-  <li><a href="#óbitos" id="toc-óbitos" class="nav-link" data-scroll-target="#óbitos"><span class="header-section-number">4.4</span> Óbitos</a></li>
-  <li><a href="#nascimentos" id="toc-nascimentos" class="nav-link" data-scroll-target="#nascimentos"><span class="header-section-number">4.5</span> Nascimentos</a></li>
-  <li><a href="#imunizações" id="toc-imunizações" class="nav-link" data-scroll-target="#imunizações"><span class="header-section-number">4.6</span> Imunizações</a></li>
+  <li><a href="#do-problema-de-saúde-ao-evento-registrado" id="toc-do-problema-de-saúde-ao-evento-registrado" class="nav-link active" data-scroll-target="#do-problema-de-saúde-ao-evento-registrado"><span class="header-section-number">4.1</span> Do problema de saúde ao evento registrado</a></li>
+  <li><a href="#ciclo-de-um-evento" id="toc-ciclo-de-um-evento" class="nav-link" data-scroll-target="#ciclo-de-um-evento"><span class="header-section-number">4.2</span> Ciclo de um evento</a></li>
+  <li><a href="#evento-pessoa-episódio-e-registro" id="toc-evento-pessoa-episódio-e-registro" class="nav-link" data-scroll-target="#evento-pessoa-episódio-e-registro"><span class="header-section-number">4.3</span> Evento, pessoa, episódio e registro</a></li>
+  <li><a href="#exemplo-integrado-dengue" id="toc-exemplo-integrado-dengue" class="nav-link" data-scroll-target="#exemplo-integrado-dengue"><span class="header-section-number">4.4</span> Exemplo integrado: dengue</a></li>
+  <li><a href="#exemplo-integrado-acidente-de-trânsito" id="toc-exemplo-integrado-acidente-de-trânsito" class="nav-link" data-scroll-target="#exemplo-integrado-acidente-de-trânsito"><span class="header-section-number">4.5</span> Exemplo integrado: acidente de trânsito</a></li>
+  <li><a href="#casos-de-doenças-e-agravos" id="toc-casos-de-doenças-e-agravos" class="nav-link" data-scroll-target="#casos-de-doenças-e-agravos"><span class="header-section-number">4.6</span> Casos de doenças e agravos</a>
+  <ul class="collapse">
+  <li><a href="#lugar-de-residência-infecção-e-notificação" id="toc-lugar-de-residência-infecção-e-notificação" class="nav-link" data-scroll-target="#lugar-de-residência-infecção-e-notificação"><span class="header-section-number">4.6.1</span> Lugar de residência, infecção e notificação</a></li>
+  <li><a href="#datas-e-atraso-de-notificação" id="toc-datas-e-atraso-de-notificação" class="nav-link" data-scroll-target="#datas-e-atraso-de-notificação"><span class="header-section-number">4.6.2</span> Datas e atraso de notificação</a></li>
+  </ul></li>
+  <li><a href="#procedimentos-ambulatoriais" id="toc-procedimentos-ambulatoriais" class="nav-link" data-scroll-target="#procedimentos-ambulatoriais"><span class="header-section-number">4.7</span> Procedimentos ambulatoriais</a></li>
+  <li><a href="#internações" id="toc-internações" class="nav-link" data-scroll-target="#internações"><span class="header-section-number">4.8</span> Internações</a></li>
+  <li><a href="#óbitos" id="toc-óbitos" class="nav-link" data-scroll-target="#óbitos"><span class="header-section-number">4.9</span> Óbitos</a></li>
+  <li><a href="#nascimentos" id="toc-nascimentos" class="nav-link" data-scroll-target="#nascimentos"><span class="header-section-number">4.10</span> Nascimentos</a></li>
+  <li><a href="#imunizações" id="toc-imunizações" class="nav-link" data-scroll-target="#imunizações"><span class="header-section-number">4.11</span> Imunizações</a></li>
+  <li><a href="#denominadores-e-indicadores" id="toc-denominadores-e-indicadores" class="nav-link" data-scroll-target="#denominadores-e-indicadores"><span class="header-section-number">4.12</span> Denominadores e indicadores</a></li>
+  <li><a href="#relacionamento-entre-sistemas" id="toc-relacionamento-entre-sistemas" class="nav-link" data-scroll-target="#relacionamento-entre-sistemas"><span class="header-section-number">4.13</span> Relacionamento entre sistemas</a></li>
+  <li><a href="#relação-entre-eventos-e-perguntas-de-análise" id="toc-relação-entre-eventos-e-perguntas-de-análise" class="nav-link" data-scroll-target="#relação-entre-eventos-e-perguntas-de-análise"><span class="header-section-number">4.14</span> Relação entre eventos e perguntas de análise</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">4.15</span> Cuidados de interpretação</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/eventos.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -517,22 +535,269 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<p>Os dados de saúde dizem respeito, em geral, sobre a ocorrência de <strong>eventos de interesse a saúde</strong> e apresentam informações das circunstâncias da ocorrência desses eventos e seus detalhes.</p>
-<p>Desta forma, ao se buscar dados sobre uma determinada doença ou agravo de saúde, deve-se refletir sobre quais eventos de saúde esta doença ou agravo pode gerar. Após conhecer estes possíveis eventos, os respectivos SIS podem ser acessados para obtenção dos dados de interesse.</p>
+<section class="podcast-player" data-transcript="podcast/eventos_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/eventos.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/eventos.md">podcast/eventos.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+<p>Os dados dos Sistemas de Informação em Saúde (SIS) descrevem, em geral, <strong>eventos de interesse à saúde</strong>. Um evento é uma ocorrência delimitada no tempo, no espaço e em uma unidade de análise: um nascimento, um óbito, uma internação, uma notificação, um atendimento ambulatorial, uma dose de vacina aplicada ou um procedimento realizado.</p>
+<p>Essa forma de pensar é essencial para escolher corretamente a base de dados. Ao estudar uma doença, agravo ou problema de saúde, a pergunta inicial não deve ser apenas “qual sistema tem dados sobre esse tema?”, mas sim: <strong>quais eventos esse tema pode produzir?</strong></p>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Um exemplo: uma pessoa doente pode acessar o sistema de saúde em uma Unidade de Pronto Atendimento (UPA), receber cuidados iniciais e ser diagnosticado como um caso de dengue. Em seguida, esse paciente pode apresentar uma piora em seu quadro clínico e ser internado no hospital, evoluindo para óbito. Neste exemplo, temos quatro eventos de saúde: (1) o atendimento ambulatorial para tratamento sintomático e diagnóstico, (2) a notificação da ocorrência de um caso grave de dengue, (3) a internação hospitalar e (4) o óbito.</p>
+<p>Uma pessoa com dengue pode procurar atendimento em uma unidade de saúde, ser notificada como caso suspeito, realizar exames, ser internada em caso de agravamento e, em uma situação extrema, evoluir para óbito. Esses eventos podem aparecer em sistemas diferentes: SIA, SINAN, SIH e SIM.</p>
 </div>
 </div>
 </div>
-<p>Observe que cada um desses eventos é registrado em diferentes SIS, como será visto a seguir. A seguir, são apresentadas características dos principais eventos de saúde e seus respectivos SIS.</p>
-<section id="casos-de-doenças-e-agravos" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="casos-de-doenças-e-agravos"><span class="header-section-number">4.1</span> Casos de doenças e agravos</h2>
-<p>Um dos dados mais tradicionais em saúde trata sobre a ocorrência de doenças e agravos na população. Este dado visa alertar as autoridades sobre a ocorrência de doenças e agravos, apresentando características importantes para o seu combate e prevenção.</p>
+<section id="do-problema-de-saúde-ao-evento-registrado" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="do-problema-de-saúde-ao-evento-registrado"><span class="header-section-number">4.1</span> Do problema de saúde ao evento registrado</h2>
+<p>Uma doença ou agravo pode gerar vários eventos ao longo do cuidado. Cada evento tem uma lógica própria de registro, uma unidade de análise e uma utilidade analítica.</p>
+<table class="caption-top table">
+<caption>Relação entre perguntas, eventos e sistemas de informação</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Evento de saúde</th>
+<th>Sistema mais provável</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Houve suspeita ou confirmação de uma doença de notificação?</td>
+<td>Notificação e investigação</td>
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+</tr>
+<tr class="even">
+<td>Houve atendimento, exame ou procedimento no SUS?</td>
+<td>Procedimento ambulatorial</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+</tr>
+<tr class="odd">
+<td>Houve agravamento com hospitalização no SUS?</td>
+<td>Internação hospitalar</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+</tr>
+<tr class="even">
+<td>Houve óbito?</td>
+<td>Óbito</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+</tr>
+<tr class="odd">
+<td>Houve nascimento?</td>
+<td>Nascimento vivo</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+</tr>
+<tr class="even">
+<td>Houve vacinação?</td>
+<td>Dose aplicada ou registro de imunização</td>
+<td>SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>)</td>
+</tr>
+</tbody>
+</table>
+<p>Essa separação evita interpretações equivocadas. Um aumento de notificações no SINAN pode refletir maior transmissão, maior sensibilidade da vigilância, mudança na definição de caso ou melhora na notificação. Da mesma forma, internações no SIH informam casos atendidos na rede SUS, mas não representam todos os casos graves ocorridos no país.</p>
+</section>
+<section id="ciclo-de-um-evento" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="ciclo-de-um-evento"><span class="header-section-number">4.2</span> Ciclo de um evento</h2>
+<p>Entre a ocorrência de um evento e sua transformação em dado analisável, há várias etapas. Cada etapa pode gerar datas, campos e atrasos próprios.</p>
+<table class="caption-top table">
+<caption>Etapas entre a ocorrência de um evento e sua disseminação como dado</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th>O que representa</th>
+<th>Campo ou registro típico</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ocorrência</td>
+<td>Evento aconteceu</td>
+<td>nascimento, sintomas, óbito, atendimento</td>
+<td>Nem sempre é observado diretamente</td>
+</tr>
+<tr class="even">
+<td>Registro inicial</td>
+<td>Serviço toma conhecimento</td>
+<td>ficha, declaração, autorização</td>
+<td>Pode ocorrer com atraso</td>
+</tr>
+<tr class="odd">
+<td>Investigação ou crítica</td>
+<td>Informação é validada</td>
+<td>classificação, causa, consistência</td>
+<td>Pode mudar a interpretação</td>
+</tr>
+<tr class="even">
+<td>Digitação ou envio</td>
+<td>Dado entra no fluxo do sistema</td>
+<td>data de digitação ou transmissão</td>
+<td>Mede fluxo administrativo</td>
+</tr>
+<tr class="odd">
+<td>Consolidação</td>
+<td>Base é revisada</td>
+<td>dados consolidados</td>
+<td>Pode alterar valores preliminares</td>
+</tr>
+<tr class="even">
+<td>Disseminação</td>
+<td>Dado fica disponível</td>
+<td>TabNet, microdados, OpenDataSUS</td>
+<td>Depende de periodicidade e versão</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="evento-pessoa-episódio-e-registro" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="evento-pessoa-episódio-e-registro"><span class="header-section-number">4.3</span> Evento, pessoa, episódio e registro</h2>
+<p>Um evento de saúde não é sempre equivalente a uma pessoa. Uma pessoa pode gerar vários eventos ao longo do tempo, como consultas, exames, notificações, internações e óbitos. Um episódio de cuidado também pode gerar mais de um registro, especialmente em sistemas assistenciais.</p>
+<p>Essa distinção é central para análise. No SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>), uma pessoa pode aparecer em múltiplos procedimentos. No SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), uma pessoa pode ter mais de uma AIH em períodos diferentes ou em um mesmo processo de cuidado. No SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>), um registro pode se referir a um caso suspeito que será posteriormente descartado. No SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>), cada registro corresponde a um óbito.</p>
+</section>
+<section id="exemplo-integrado-dengue" class="level2 page-columns page-full" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="exemplo-integrado-dengue"><span class="header-section-number">4.4</span> Exemplo integrado: dengue</h2>
+<p>A dengue é um bom exemplo porque pode produzir múltiplos eventos de saúde. A <a href="#fig-eventos-dengue" class="quarto-xref">Figura&nbsp;<span>4.1</span></a> resume uma trajetória possível.</p>
+<div class="column-page">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-eventos-dengue" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-eventos-dengue-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-eventos-dengue">flowchart LR
+  sint[Sintomas] --&gt; atend[Atendimento ambulatorial]
+  atend --&gt; notif[Notificacao de caso suspeito]
+  notif --&gt; invest[Investigacao e classificacao]
+  atend --&gt; intern[Internacao hospitalar]
+  intern --&gt; alta[Alta]
+  intern --&gt; obito[Obito]
+
+  atend -.-&gt; SIA[SIA]
+  notif -.-&gt; SINAN[SINAN]
+  invest -.-&gt; SINAN
+  intern -.-&gt; SIH[SIH]
+  obito -.-&gt; SIM[SIM]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-eventos-dengue-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4.1: Eventos de saúde e possíveis sistemas de registro no exemplo da dengue
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<table class="caption-top table">
+<caption>Eventos relacionados à dengue e seus sistemas de registro</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Evento</th>
+<th>Sistema</th>
+<th>O que permite analisar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Atendimento ou exame</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Produção ambulatorial, exames e procedimentos no SUS</td>
+</tr>
+<tr class="even">
+<td>Notificação de caso suspeito</td>
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Suspeitas, investigação, confirmação e descarte</td>
+</tr>
+<tr class="odd">
+<td>Internação</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Casos graves atendidos na rede hospitalar do SUS</td>
+</tr>
+<tr class="even">
+<td>Óbito</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Mortalidade por causa básica e condições associadas</td>
+</tr>
+</tbody>
+</table>
+<p>O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVID-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas.</p>
+</section>
+<section id="exemplo-integrado-acidente-de-trânsito" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="exemplo-integrado-acidente-de-trânsito"><span class="header-section-number">4.5</span> Exemplo integrado: acidente de trânsito</h2>
+<p>Um acidente de trânsito mostra que a lógica de eventos não se limita às doenças de notificação. Dependendo da gravidade e do percurso assistencial, o mesmo problema pode aparecer em sistemas distintos.</p>
+<table class="caption-top table">
+<caption>Eventos relacionados a acidentes de trânsito e seus sistemas de registro</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Evento relacionado ao acidente</th>
+<th>Sistema</th>
+<th>O que permite analisar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Atendimento ambulatorial ou procedimento</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Produção de cuidado, exames e procedimentos no SUS</td>
+</tr>
+<tr class="even">
+<td>Internação por lesão</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Gravidade, tempo de internação e uso da rede hospitalar SUS</td>
+</tr>
+<tr class="odd">
+<td>Óbito por causa externa</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Mortalidade por acidentes de transporte e circunstâncias do óbito</td>
+</tr>
+<tr class="even">
+<td>Estabelecimento de atendimento</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Estrutura e localização dos serviços envolvidos</td>
+</tr>
+</tbody>
+</table>
+<p>Nesse tipo de tema, a causa externa, o local de ocorrência, o tipo de vítima, o tipo de lesão e o serviço de atendimento podem estar distribuídos entre diferentes bases. A análise depende de reconhecer qual dimensão do problema cada sistema registra.</p>
+</section>
+<section id="casos-de-doenças-e-agravos" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="casos-de-doenças-e-agravos"><span class="header-section-number">4.6</span> Casos de doenças e agravos</h2>
+<p>Um dos usos mais tradicionais dos SIS é o acompanhamento de doenças e agravos na população. No Brasil, a notificação de doenças, agravos e eventos de saúde pública segue listas e normas específicas, e os casos suspeitos são registrados para permitir resposta oportuna da vigilância em saúde.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -543,26 +808,24 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Agravos de saúde é um conceito de saúde ampliada, que inclui não apenas as doenças mas outros eventos que afetam a saúde da população, como violência, acidentes de trânsito, desnutrição, intoxicações, exposição a poluentes e outros.</p>
+<p>Agravos de saúde incluem não apenas doenças, mas também eventos que afetam a saúde da população, como violências, acidentes, intoxicações, desnutrição, exposição a poluentes e eventos adversos.</p>
 </div>
 </div>
-<p>Os casos de doenças e agravos são apresentados inicialmente pela notificação de um caso suspeito, que pode ou não ser confirmado posteriormente. Notificar as autoridades sobre um caso ainda sem confirmação é importante para sua ação imediata, possibilitando uma resposta rápida a um cenário dinâmico.</p>
-<p>A notificação de doenças e agravos no Brasil é atualmente realizada considerando uma lista compulsória. Desta forma, ao se deparar com um caso, ainda que suspeito de alguma doença ou agravo que esteja incluso nesta lista, a unidade de saúde e seus profissionais devem prontamente notificar o sistema de saúde sobre sua ocorrência e posterior evolução. Os casos suspeitos e seu acompanhamento são realizados no SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>).</p>
-<p>A notificação de um caso ou agravo de saúde apresenta um conjunto de informações básicas e outras informações que podem variar a depender da natureza da doença ou agravo notificado. Informações básicas que costumam estar presentes em uma notificação são:</p>
+<p>Os casos são geralmente registrados primeiro como suspeitos. Após investigação, podem ser classificados como confirmados, descartados, inconclusivos ou permanecer em acompanhamento, dependendo do agravo, da disponibilidade de exames, dos critérios clínicos e das regras de vigilância.</p>
+<p>No SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>), uma ficha de notificação pode conter informações como:</p>
 <ul>
-<li>Caracterização do paciente (sexo, estado civil, idade, gestação, etc.)</li>
-<li>Município e UF de residência do paciente</li>
-<li>Município e UF do local de provável infecção</li>
-<li>Município e UF de notificação</li>
-<li>Data de provável infecção</li>
-<li>Data dos primeiros sintomas</li>
-<li>Data de notificação</li>
-<li>Data de digitação dos dados</li>
-<li>Diagnóstico e confirmação do caso</li>
-<li>Desfecho do caso</li>
+<li>caracterização da pessoa;</li>
+<li>município e UF de residência;</li>
+<li>município e UF de notificação;</li>
+<li>local provável de infecção, quando aplicável;</li>
+<li>datas de início dos sintomas, notificação, investigação e digitação;</li>
+<li>critérios de confirmação ou descarte;</li>
+<li>evolução e desfecho.</li>
 </ul>
-<p>Os dados sobre o município e UF de residência são importantes para se conhecer o contexto socioeconômico e de saúde típico do paciente. Já os dados sobre local de provável infecção são importantes para caracterizar a transmissão das doenças e ocorrência de agravos. Por fim, os dados sobre o local de notificação contribuem para o conhecimento do funcionamento do sistema de saúde e sua capacidade de notificação de casos.</p>
-<p>Um exemplo hipotético: um cidadão que reside no Rio de Janeiro, RJ (local de residência) pode ter passado férias no Oiapoque, AP e contraído malária (local de provável infecção) e o caso ter sido notificado em Belém, PA (local de notificação) pois foi apenas durante sua estadia nesta cidade que o cidadão apresentou sintomas e procurou o serviço de saúde.</p>
+<section id="lugar-de-residência-infecção-e-notificação" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="lugar-de-residência-infecção-e-notificação"><span class="header-section-number">4.6.1</span> Lugar de residência, infecção e notificação</h3>
+<p>As informações territoriais têm sentidos diferentes. O município de residência descreve onde a pessoa vive. O local provável de infecção ajuda a entender a transmissão. O município de notificação indica onde o sistema de saúde tomou conhecimento do caso.</p>
+<p>Um exemplo: uma pessoa residente no Rio de Janeiro, RJ, viaja ao Oiapoque, AP, onde provavelmente se infecta por malária, e procura atendimento em Belém, PA. A residência, o local provável de infecção e o local de notificação são distintos. Essa diferença é fundamental para análises espaciais e para orientar ações de vigilância.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -573,13 +836,13 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Uma importante classificação é realizada ao se conhecer os locais de provável infecção e de residência: caso autóctone ou alóctone.</p>
-<p>Um <strong>caso alóctone</strong> ocorre quando o local de infecção é diferente do local de residência, ou seja, a doença foi contraída em lugar diferente da residência do paciente.</p>
-<p>Já um <strong>caso autóctone</strong> ocorre quando o local de infecção é o mesmo que o local de residência.</p>
-<p>Esta classificação é importante para orientar as autoridades de saúde pois a ocorrência de casos autóctones apontam que a transmissão da ocorrência está ocorrendo no próprio município.</p>
+<p>Um <strong>caso autóctone</strong> ocorre quando o local provável de infecção coincide com o território analisado, como o município de residência ou o município em investigação. Um <strong>caso alóctone</strong> ocorre quando a infecção provavelmente aconteceu em outro território.</p>
 </div>
 </div>
-<p>As datas de provável infecção, dos primeiros sintomas, notificação e de digitação também são importantes. A data de provável infecção diz respeito ao momento em que o paciente esteve possivelmente exposto ao risco de se contrair uma doença. As doenças apresentam tempos diferentes entre a infeção e ocorrência dos sintomas, tão como algumas doenças sequer apresentam sintomas (doenças assintomáticas). Já a data de notificação e de digitação dizem respeito ao funcionamento do sistema de saúde e são essenciais para a sua organização.</p>
+</section>
+<section id="datas-e-atraso-de-notificação" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="datas-e-atraso-de-notificação"><span class="header-section-number">4.6.2</span> Datas e atraso de notificação</h3>
+<p>As datas registradas no sistema também respondem a perguntas diferentes. A data dos primeiros sintomas se aproxima do início clínico do caso. A data de notificação indica quando o serviço ou a vigilância registrou o caso. A data de digitação ou envio informa parte do funcionamento administrativo do sistema.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -590,22 +853,16 @@ Aviso
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A quantidade de casos notificados em uma determinada data não representa a quantidade de casos de uma doença nesta data pois existe um fenômeno denominado “atraso de notificação”. Este atraso é o intervalo de tempo entre a data em que a unidade de saúde toma conhecimento de um caso suspeito e a data que este caso é notificado às autoridades de saúde, como as secretarias municipais e estaduais de saúde.</p>
-<p>Idealmente, este intervalo deveria ser pequeno e desprezível. Contudo, em situações de epidemias e desastres, os serviços de saúde podem apresentar dificuldades em conduzir as tarefas administrativas de notificação de casos (preenchimento de fichas, digitação, conferência e envio) em conjunto com as atividades prioritárias (atendimento à população).</p>
-<p>Grupos de pesquisa como o InfoDengue e InfoGripe trabalham neste tema, procurando prever a quantidade de casos atuais de algumas doenças considerando o atraso de notificação, empregando técnicas de <em>nowcasting</em> (“previsão do agora”) com modelos estatísticos.</p>
+<p>A quantidade de casos notificados em determinada data não equivale necessariamente à quantidade de casos ocorridos naquela data. O atraso de notificação é o intervalo entre a ocorrência ou conhecimento do evento e sua entrada no sistema.</p>
+<p>Em epidemias e desastres, esse atraso pode aumentar porque os serviços precisam conciliar atendimento à população, investigação, preenchimento de fichas, digitação e envio de dados. Estratégias de <em>nowcasting</em> procuram estimar a situação atual corrigindo parcialmente esse atraso <span class="citation" data-cites="codecoInfoDengueNowcastingSystem2018">(<a href="referencias.html#ref-codecoInfoDengueNowcastingSystem2018" role="doc-biblioref">CODECO et al., 2018</a>)</span>.</p>
 </div>
 </div>
-<p>Os dados de diagnóstico do caso são de importância para a caracterização do caso, que é inicialmente dado como suspeito. Assim, um caso suspeito pode ser classificado com: em acompanhamento, confirmado, descartado ou inconclusivo. Um caso suspeito que aguarda o resultado de um exame laboratorial é classificado como “em acompanhamento”, com o resultado laboratorial e critérios clínicos específicos, o caso suspeito de uma doença pode ser “confirmado” ou “descartado” por exames laboratoriais específicos e por critérios clínicos. Contudo, resultados inconclusivos de exames podem classificar o caso como “inconclusivo”, ou seja, a sensibilidade e especificidade do teste não permite fechar, com precisão, o diagnóstico do caso.</p>
-<p>Por fim, o caso pode apresentar desfechos como alta e óbito. Outros dados de interesse específicos podem ser apresentados para algumas doenças e agravos, como resultados específicos de testes e diagnósticos.</p>
 </section>
-<section id="procedimentos-ambulatoriais" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="procedimentos-ambulatoriais"><span class="header-section-number">4.2</span> Procedimentos ambulatoriais</h2>
-<p>Ao procurar atendimento em uma unidade de saúde, um paciente segue uma rotina padronizada de atendimento, como a triagem da gravidade do atendimento, realização de exame clínico e exames diagnósticos (coleta e análise de sangue, exames de imagem), tratamento com remédios e encaminhamentos para outros exames, entre várias outras possibilidades. Todas estas atividades são denominadas “procedimentos ambulatoriais” e são registradas no Sistema de Informações Ambulatoriais (SIA).</p>
 </section>
-<section id="internações" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="internações"><span class="header-section-number">4.3</span> Internações</h2>
-<p>Pacientes com quadros de doenças e agravos de saúde que se agravam costumam serem encaminhados para internação hospitalar, possibilitando um cuidado e acompanhamento da saúde mais atento e imediato até que se obtenha um melhor prognóstico do caso.</p>
-<p>Desta forma, o evento de uma internação hospitalar pode sinalizar a ocorrência de casos graves de uma doença. As internações hospitalares são registradas no Sistema de Informações Hospitalares (SIH).</p>
+<section id="procedimentos-ambulatoriais" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="procedimentos-ambulatoriais"><span class="header-section-number">4.7</span> Procedimentos ambulatoriais</h2>
+<p>Procedimentos ambulatoriais incluem consultas, exames, terapias, atendimentos especializados, ações de diagnóstico e outros procedimentos realizados sem internação. Esses eventos são registrados no Sistema de Informações Ambulatoriais do SUS (SIA) (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>).</p>
+<p>No SIA, a unidade de análise costuma ser o procedimento ou instrumento de produção, não a pessoa. Uma mesma pessoa pode gerar múltiplos registros em um mesmo episódio de cuidado. Por isso, o SIA é especialmente útil para estudar produção, oferta, volume de procedimentos, acesso a exames e uso de serviços ambulatoriais no SUS.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -616,33 +873,238 @@ Dica
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Algumas internações hospitalares podem ser evitadas com o bom funcionamento da Atenção Primária a Saúde e suas atividades de prevenção. Em 17 de abril de 2008 foi publicada a <a href="https://bvsms.saude.gov.br/bvs/saudelegis/sas/2008/prt0221_17_04_2008.html">portaria n.&nbsp;221</a> pelo Ministério da Saúde, contendo a lista brasileira de Internações por Condições Sensíveis a Atenção Primária, criada à partir de consultas públicas e experiências internacionais. A lista apresenta os códigos da Classificação Internacional de Doenças e Agravos (CID) e permite o monitoramento e avaliação do sistema de saúde.</p>
-<p>O <a href="http://dx.doi.org/10.5123/s1679-49742019000200021">pacote {csapAIH}</a> do R facilita a classificação de registros de internações.</p>
+<p>Ao analisar SIA, evite interpretar diretamente o número de procedimentos como número de pessoas atendidas. A equivalência depende do procedimento, da forma de registro e da pergunta de análise.</p>
 </div>
 </div>
 </section>
-<section id="óbitos" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="óbitos"><span class="header-section-number">4.4</span> Óbitos</h2>
-<p>Doenças e agravos podem levar ao óbito, que é um importante evento de saúde. A ocorrência de óbitos evitáveis podem sinalizam falhas no sistema de saúde que devem ser corrigidas. Os eventos de óbito são registrados no Sistema de Informações de Mortalidade – SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
-<p>Uma importante definição neste evento é a <strong>causa básica do óbito</strong>, que é o agravo e circunstância que inicia a cadeia de eventos que leva a morte do paciente. As várias circunstâncias e comorbidades que contribuem para o desfecho de óbito são registrados, com especial destaque para a sua causa básica.</p>
+<section id="internações" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="internações"><span class="header-section-number">4.8</span> Internações</h2>
+<p>Internações são eventos de cuidado hospitalar, geralmente associados a quadros que exigem acompanhamento contínuo, procedimentos hospitalares, tratamento intensivo ou maior complexidade assistencial. No SUS, são registradas no Sistema de Informações Hospitalares (SIH) (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), tendo a Autorização de Internação Hospitalar (AIH) como instrumento central <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
+<p>O evento de internação pode sinalizar maior gravidade, dificuldade de acesso a cuidados oportunos, falhas de prevenção ou necessidade de serviços especializados. Entretanto, o SIH registra internações financiadas pelo SUS, não todas as internações ocorridas no país.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Algumas internações podem ser evitadas por uma Atenção Primária à Saúde efetiva. Em 17 de abril de 2008, a Portaria n.&nbsp;221 do Ministério da Saúde publicou a lista brasileira de Internações por Condições Sensíveis à Atenção Primária, com códigos da Classificação Internacional de Doenças e Agravos (CID) úteis para monitoramento e avaliação <span class="citation" data-cites="brasilPortaria2212008">(<a href="referencias.html#ref-brasilPortaria2212008" role="doc-biblioref">BRASIL, 2008</a>)</span>.</p>
+<p>O pacote <code>{csapAIH}</code> do R facilita a classificação de registros de internações segundo essa lista <span class="citation" data-cites="nedelPacoteCsapaihLista2019">(<a href="referencias.html#ref-nedelPacoteCsapaihLista2019" role="doc-biblioref">NEDEL, 2019</a>)</span>.</p>
+</div>
+</div>
 </section>
-<section id="nascimentos" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="nascimentos"><span class="header-section-number">4.5</span> Nascimentos</h2>
-<p>O nascimento de uma criança é visto como um evento de saúde que abrange tanto a mãe como o próprio recém-nascido. Os nascimentos são registrados no Sistema de Informações de Nascidos Vivos – SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>), que segue uma definição específica sobre “nascidos vivos”:</p>
+<section id="óbitos" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="óbitos"><span class="header-section-number">4.9</span> Óbitos</h2>
+<p>O óbito é um evento vital e epidemiológico central. Os óbitos são registrados no Sistema de Informação sobre Mortalidade (SIM) (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>), a partir da Declaração de Óbito. Esse sistema permite estudar mortalidade por idade, sexo, raça/cor, município de residência, município de ocorrência e causa de morte.</p>
+<p>Uma definição importante é a <strong>causa básica do óbito</strong>: a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. Essa definição permite padronizar estatísticas de mortalidade por causa e comparar territórios e períodos <span class="citation" data-cites="who_cause_of_death_page brasil_ms_2022_do_manual">(<a href="referencias.html#ref-brasil_ms_2022_do_manual" role="doc-biblioref">BRASIL, 2022</a>; <a href="referencias.html#ref-who_cause_of_death_page" role="doc-biblioref">WHO, 2026</a>)</span>.</p>
+<p>Óbitos evitáveis podem indicar falhas de prevenção, acesso, diagnóstico, tratamento ou organização da rede de atenção. Ainda assim, sua interpretação depende da qualidade do preenchimento da Declaração de Óbito e da codificação das causas.</p>
+</section>
+<section id="nascimentos" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="nascimentos"><span class="header-section-number">4.10</span> Nascimentos</h2>
+<p>O nascimento de uma criança é um evento de saúde que envolve o recém-nascido, a pessoa gestante, a assistência ao pré-natal, o parto e as condições do nascimento. Os nascidos vivos são registrados no Sistema de Informação sobre Nascidos Vivos (SINASC) (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>), a partir da Declaração de Nascido Vivo.</p>
 <blockquote class="blockquote">
 <p>Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade <span class="citation" data-cites="viacavaSistemaInformacaoSobre2009">(<a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
 </blockquote>
-<p>Os eventos de óbitos fetais são registrados no SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
+<p>O SINASC permite analisar peso ao nascer, idade gestacional, tipo de parto, características da mãe, local de ocorrência e outros elementos importantes para a saúde materno-infantil. Óbitos fetais, por outro lado, são registrados no SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
 </section>
-<section id="imunizações" class="level2" data-number="4.6">
-<h2 data-number="4.6" class="anchored" data-anchor-id="imunizações"><span class="header-section-number">4.6</span> Imunizações</h2>
-<p>A imunização por vacinação é uma importante medida de profilaxia, constituindo um relevante evento de saúde para prevenção de doenças. Dados de vacinação são registrados no Sistema de Informações do Programa Nacional de Imunizações – SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>).</p>
-<p>Os capítulos seguintes apresentam os principais SIS brasileiros, com detalhes sobre a sua criação e organização, estrutura de dados, formas de acesso, seus principais usos e indicadores, bibliografia recomendada e outras informações relevantes.</p>
+<section id="imunizações" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="imunizações"><span class="header-section-number">4.11</span> Imunizações</h2>
+<p>A vacinação é um evento de prevenção. Os registros de doses aplicadas e informações relacionadas às campanhas e esquemas vacinais são organizados no Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>).</p>
+<p>Ao analisar imunizações, é importante distinguir doses aplicadas, pessoas vacinadas, esquemas completos e coberturas vacinais. A cobertura depende tanto do numerador, obtido a partir dos registros de vacinação, quanto do denominador populacional utilizado.</p>
+</section>
+<section id="denominadores-e-indicadores" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="denominadores-e-indicadores"><span class="header-section-number">4.12</span> Denominadores e indicadores</h2>
+<p>Muitos indicadores combinam eventos registrados em um SIS com denominadores vindos de outra fonte. O numerador costuma ser uma contagem de eventos; o denominador define a população, o conjunto de nascidos vivos, o número de internações, a população-alvo ou outra base de comparação.</p>
+<table class="caption-top table">
+<caption>Exemplos de numeradores e denominadores em indicadores de saúde</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador</th>
+<th>Denominador</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mortalidade infantil</td>
+<td>Óbitos em menores de um ano no SIM</td>
+<td>Nascidos vivos no SINASC</td>
+</tr>
+<tr class="even">
+<td>Cobertura vacinal</td>
+<td>Doses aplicadas no SI-PNI</td>
+<td>População-alvo ou estimativa populacional</td>
+</tr>
+<tr class="odd">
+<td>Taxa de internação</td>
+<td>Internações no SIH</td>
+<td>População residente</td>
+</tr>
+<tr class="even">
+<td>Letalidade entre notificados</td>
+<td>Óbitos entre casos</td>
+<td>Casos notificados ou confirmados</td>
+</tr>
+<tr class="odd">
+<td>Proporção de procedimentos</td>
+<td>Procedimentos selecionados no SIA</td>
+<td>Total de procedimentos comparáveis</td>
+</tr>
+</tbody>
+</table>
+<p>Escolher o denominador incorreto pode distorcer a interpretação. Taxas populacionais dependem de estimativas populacionais (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>); indicadores materno-infantis frequentemente dependem do SINASC; e proporções internas de um sistema dependem da definição clara do conjunto de registros comparáveis.</p>
+</section>
+<section id="relacionamento-entre-sistemas" class="level2" data-number="4.13">
+<h2 data-number="4.13" class="anchored" data-anchor-id="relacionamento-entre-sistemas"><span class="header-section-number">4.13</span> Relacionamento entre sistemas</h2>
+<p>Algumas perguntas exigem combinar bases. O relacionamento entre sistemas pode ser determinístico, quando há identificadores comuns suficientes, ou probabilístico, quando é necessário combinar campos como nome, data de nascimento, sexo, município e datas de eventos.</p>
+<table class="caption-top table">
+<caption>Exemplos de perguntas que podem exigir relacionamento entre SIS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Sistemas possivelmente envolvidos</th>
+<th>Exemplo de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Óbitos infantis entre nascidos vivos</td>
+<td>SINASC e SIM</td>
+<td>Estudar mortalidade infantil e neonatal</td>
+</tr>
+<tr class="even">
+<td>Desfechos fatais de casos notificados</td>
+<td>SINAN e SIM</td>
+<td>Investigar mortes entre casos de agravos</td>
+</tr>
+<tr class="odd">
+<td>Internações após notificação</td>
+<td>SINAN e SIH</td>
+<td>Avaliar gravidade e uso hospitalar</td>
+</tr>
+<tr class="even">
+<td>Produção de serviços por estabelecimento</td>
+<td>SIA/SIH e CNES</td>
+<td>Relacionar produção e estrutura da rede</td>
+</tr>
+</tbody>
+</table>
+<p>O relacionamento entre bases amplia as possibilidades analíticas, mas exige atenção à privacidade, qualidade dos campos identificadores, perdas de pareamento, duplicidades e diferenças temporais entre sistemas.</p>
+</section>
+<section id="relação-entre-eventos-e-perguntas-de-análise" class="level2" data-number="4.14">
+<h2 data-number="4.14" class="anchored" data-anchor-id="relação-entre-eventos-e-perguntas-de-análise"><span class="header-section-number">4.14</span> Relação entre eventos e perguntas de análise</h2>
+<table class="caption-top table">
+<caption>Exemplos de temas, eventos e sistemas correspondentes</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tema de interesse</th>
+<th>Evento observado</th>
+<th>Sistema</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mortalidade infantil</td>
+<td>Nascimento e óbito infantil</td>
+<td>SINASC e SIM</td>
+<td>Relacionar numerador e denominador adequados</td>
+</tr>
+<tr class="even">
+<td>Dengue grave</td>
+<td>Notificação, internação e óbito</td>
+<td>SINAN, SIH e SIM</td>
+<td>Não misturar suspeitos, internados e óbitos</td>
+</tr>
+<tr class="odd">
+<td>Acesso hospitalar</td>
+<td>Internação</td>
+<td>SIH</td>
+<td>Considerar apenas internações SUS</td>
+</tr>
+<tr class="even">
+<td>Produção de exames</td>
+<td>Procedimento ambulatorial</td>
+<td>SIA</td>
+<td>Procedimentos não equivalem a pessoas</td>
+</tr>
+<tr class="odd">
+<td>Cobertura vacinal</td>
+<td>Dose aplicada e população-alvo</td>
+<td>SI-PNI e POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>Avaliar registros e denominadores</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="4.15">
+<h2 data-number="4.15" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">4.15</span> Cuidados de interpretação</h2>
+<p>Ao trabalhar com eventos de saúde, alguns cuidados são recorrentes:</p>
+<ul>
+<li>identificar se a base registra evento, pessoa, procedimento, autorização ou documento;</li>
+<li>separar casos suspeitos, confirmados, descartados e inconclusivos;</li>
+<li>distinguir município de residência, ocorrência, atendimento e notificação;</li>
+<li>verificar se a cobertura é nacional, SUS, rede conveniada ou saúde suplementar;</li>
+<li>observar se os dados são preliminares ou consolidados;</li>
+<li>considerar atrasos de notificação, digitação e disseminação;</li>
+<li>checar mudanças históricas de fichas, variáveis, códigos e definições.</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Erros frequentes incluem usar data de notificação como se fosse data de início dos sintomas, contar procedimentos como pessoas, somar casos suspeitos e confirmados sem distinguir classificação final, misturar município de residência com município de ocorrência ou atendimento, interpretar internações do SIH como todas as internações do país e comparar dados preliminares com dados consolidados sem observar a versão da base.</p>
+</div>
+</div>
+<p>Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes sobre sua criação, organização, estrutura de dados, formas de acesso, usos, indicadores e cuidados específicos.</p>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-brasilPortaria2212008" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <a href="https://bvsms.saude.gov.br/bvs/saudelegis/sas/2008/prt0221_17_04_2008.html">Portaria <span>SAS/MS</span> nº 221, de 17 de abril de 2008</a>. <strong>Diário Oficial da União</strong>, 2008.
+</div>
+<div id="ref-brasil_ms_2022_do_manual" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigilancia/declaracao-de-obito-manual-de-instrucoes-para-preenchimento.pdf"><span>Declara<span>ç</span><span>ã</span>o de <span>Ó</span>bito</span>: manual de instru<span>ç</span><span>õ</span>es para preenchimento</a></strong>. 1. ed. Bras<span>ı́</span>lia, DF: Minist<span>é</span>rio da Sa<span>ú</span>de, 2022.
+</div>
+<div id="ref-codecoInfoDengueNowcastingSystem2018" class="csl-entry" role="listitem">
+CODECO, C. et al. <a href="https://doi.org/10.1016/j.respe.2018.05.408">Infodengue: <span>A</span> Nowcasting System for the Surveillance of Arboviruses in <span>Brazil</span></a>. <strong>Revue d’<span>É</span>pid<span class="nocase">é</span>miologie et de Sant<span class="nocase">é</span> Publique</strong>, v. 66, p. S386, jul. 2018.
+</div>
+<div id="ref-nedelPacoteCsapaihLista2019" class="csl-entry" role="listitem">
+NEDEL, F. B. <a href="https://doi.org/10.5123/S1679-49742019000200021">Pacote <span>csapAIH</span>: a <span>Lista Brasileira</span> de <span>Internações</span> por <span>Condições Sensíveis</span> à <span>Atenção Primária</span> no programa <span>R</span></a>. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 28, n. 2, p. e2019084, 2019.
+</div>
+<div id="ref-pepeSistemaInformacoesHospitalares2009" class="csl-entry" role="listitem">
+PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalares</span> Do <span>Sistema <span>Ú</span>nico</span> de <span>Sa<span>ú</span>de</span> (<span>SIH-SUS</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
 <div id="ref-viacavaSistemaInformacaoSobre2009" class="csl-entry" role="listitem">
 VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre <span>Nascidos Vivos</span> (<span>Sinasc</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-who_cause_of_death_page" class="csl-entry" role="listitem">
+WHO. <strong>Cause of death</strong>. Disponível em: &lt;<a href="https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death">https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death</a>&gt;. Acesso em: 5 jan. 2026.
 </div>
 </div>
 </section>
@@ -734,7 +1196,7 @@ VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1078,4 +1540,4 @@ VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/eventos.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

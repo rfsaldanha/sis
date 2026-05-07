@@ -1,35 +1,236 @@
 # Organização dos SIS
 
-## Sistemas de Informação Vitais
-
-O Brasil conta atualmente com dois sistemas de informação vitais, o Sistema de Informações sobre Mortalidade -- SIM (@sec-sim) e o Sistema de Informações sobre Nascidos Vivos -- SINASC (@sec-sinasc). A implantação destes sistemas se origina na reorganização do Registro Civil brasileiro, que visava padronizar os instrumentos de coleta de dados sobre óbitos e nascimentos e produzir dados de maneira uniforme em todo o território nacional.
-
-## Sistemas de Informação de Morbidade
-
-Existem atualmente dois sistemas de informação em saúde consolidados, que apresentam dados sobre a morbidade da população brasileira: o Sistema de Informações de Agravos de Notificação  -- SINAN (@sec-sinan) e o Sistema de Informações Hospitalares -- SIH (@sec-sih).
-
-## Outros Sistemas de Informação
-
-Além dos sistemas de informação em saúde descritos anteriormente, podem-se destacar alguns outros. O Sistema de Informações Ambulatoriais --SIA (@sec-sia) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada. O Sistema de Informação do Programa Nacional de Imunização -- SI-PNI (@sec-sipni) contempla dados sobre vacinação da população brasileira. O Sistema de Informações Sobre Orçamentos Públicos em Saúde -- SIOPS (@sec-siops), apresenta dados sobre orçamentos públicos e gastos em saúde. O Sistema de Vigilância Epidemiológica -- SIVEP (@sec-sivep) apresenta subsistemas específicos para malária e gripe (Síndrome Respiratória Aguda Grave -- SRAG).
-
-Além dos sistemas de informação em saúde, cabe também destacar a importância do Cadastro Nacional de Estabelecimentos de Saúde -- CNES (@sec-cnes), que apresenta dados cadastrais sobre todos os estabelecimentos de saúde no território nacional, e de profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares.
-
-O Quadro Resumo (@sec-quadro-resumo) apresenta dados dos principais SIS de forma resumida.
-
-## Dimensões pública e privada do SUS
-
-Cabe aqui ressaltar que alguns SIS apresentam uma cobertura ampla, incluindo as dimensões pública e privada do SUS. Nestes SIS, todo evento de saúde é contabilizado, independente dele aconter em um estabelecimento de saúde público ou privado. Pode-se citar o SIM (@sec-sim), SINASC (@sec-sinasc) e o SINAN (@sec-sinan) como exemplos. Assim, qualquer óbito, nascimento ou possível caso de doença ou agravo de interesse ocorrido em território nacional é comunicado ao Ministério da Saúde e é registrado em seu respectivo SIS,
-
-::::: {.callout}
-O Sistema Único de Saúde (SUS) engloba todos os profissionais, estabelecimentos e serviços de saúde oferecidos no Brasil, independente de serem privados, públicos ou filantrópicos.
-
-Na estrutura do SUS, os serviços *privados* de saúde, como atendimentos particulares, clínicas privadas e planos de saúde privados, são visto como uma estrutura de [Saúde Suplementar](https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/saude-suplementar/conceito-e-legislacao) aos serviços públicos de saúde e são regulamentados pela [Agência Nacional de Saúde Suplementar (ANS)](https://www.gov.br/ans/pt-br).
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/organizacao_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/organizacao.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/organizacao.md">podcast/organizacao.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
 :::
 
-Por outro lado, alguns SIS são restritos à dimensão pública do SUS. Neste caso, apenas eventos de saúde ocorridos em estabelecimentos de saúde públicos são registrados. SIH e SIA são exemplos de SIS com este tipo de cobertura. A ANS apresenta regularmente dados sobre eventos de saúde ocorridos na dimensão privada do SUS. 
+Os Sistemas de Informação em Saúde (SIS) brasileiros podem ser organizados de diferentes formas. Uma mesma base pode ser classificada segundo o evento registrado, a finalidade institucional, a cobertura populacional, a unidade de análise, a periodicidade de disseminação ou o nível de detalhamento disponível [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
-## Doenças, agravos e SIS
+Essa organização é importante porque evita uma leitura equivocada dos dados. Antes de buscar uma base, é preciso perguntar: qual evento de saúde está sendo observado? Esse evento ocorre em toda a população ou apenas na rede pública do SUS? A base registra indivíduos, procedimentos, estabelecimentos, equipes ou valores financeiros? O dado é preliminar ou consolidado?
 
-É importante destacar que os diferentes SIS são organizados por **eventos de saúde** e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros. 
+## Critérios de organização
 
-O capítulo a seguir detalha o que são eventos de saúde e sua correspondência com os principais SIS.
+Neste livro, os SIS são apresentados a partir de quatro critérios principais:
+
+| Critério | Pergunta orientadora | Exemplos |
+|---|---|---|
+| Evento de saúde | O que aconteceu? | Nascimento, óbito, internação, notificação, vacinação |
+| Finalidade institucional | Para que o sistema foi criado? | Vigilância, assistência, cadastro, financiamento, gestão |
+| Cobertura | Quem ou o que entra na base? | Todo o território nacional, rede pública do SUS, saúde suplementar |
+| Unidade de análise | O que cada linha ou registro representa? | Pessoa, declaração, procedimento, estabelecimento, equipe, lançamento contábil |
+: Critérios úteis para compreender a organização dos SIS brasileiros
+
+Esses critérios se complementam. O Sistema de Informações Hospitalares (SIH) (@sec-sih), por exemplo, registra internações, tem origem administrativa e financeira, cobre internações realizadas no SUS e utiliza a Autorização de Internação Hospitalar (AIH) como unidade central de análise. Já o Sistema de Informação sobre Mortalidade (SIM) (@sec-sim) registra óbitos, cobre todo o território nacional e tem como documento básico a Declaração de Óbito.
+
+Para uma comparação tabular dos principais sistemas, com ano de criação, unidade de análise, cobertura e periodicidade de disseminação, consulte o Quadro Resumo (@sec-quadro-resumo).
+
+## Esquema geral
+
+O esquema a seguir resume uma forma prática de agrupar os SIS abordados neste livro.
+
+::: {.column-page}
+```{mermaid}
+flowchart TD
+  SIS[Sistemas de Informacao em Saude]
+  SIS --> Vitais[Sistemas vitais]
+  SIS --> Vig[Vigilancia e morbidade]
+  SIS --> Assist[Assistencia]
+  SIS --> Gestao[Cadastro, gestao e financiamento]
+  SIS --> Imun[Imunizacao]
+  SIS --> Supl[Saude suplementar]
+
+  Vitais --> SIM[SIM]
+  Vitais --> SINASC[SINASC]
+  Vig --> SINAN[SINAN]
+  Vig --> SIVEP[SIVEP]
+  Vig --> SISAGUA[SISAGUA]
+  Assist --> SIH[SIH]
+  Assist --> SIA[SIA]
+  Gestao --> CNES[CNES]
+  Gestao --> SIOPS[SIOPS]
+  Gestao --> SISAB[SISAB]
+  Imun --> SIPNI[SI-PNI]
+  Supl --> ANS[ANS]
+```
+:::
+
+## Sistemas vitais
+
+Os sistemas vitais registram eventos diretamente relacionados ao início e ao fim da vida. No Brasil, os principais são o Sistema de Informação sobre Mortalidade (SIM) (@sec-sim) e o Sistema de Informação sobre Nascidos Vivos (SINASC) (@sec-sinasc).
+
+A implantação desses sistemas está associada à reorganização das estatísticas vitais brasileiras e à padronização de documentos nacionais: a Declaração de Óbito (DO) e a Declaração de Nascido Vivo (DNV). Esses documentos conectam serviços de saúde, famílias, cartórios, secretarias municipais e Ministério da Saúde [@sennaSistemaInformacoesSobre2009; @viacavaSistemaInformacaoSobre2009].
+
+| Sistema | Evento registrado | Documento básico | Cobertura |
+|---|---|---|---|
+| SIM (@sec-sim) | Óbitos, incluindo óbitos fetais | Declaração de Óbito | Todo o território nacional |
+| SINASC (@sec-sinasc) | Nascidos vivos | Declaração de Nascido Vivo | Todo o território nacional |
+
+Os sistemas vitais são fundamentais para indicadores demográficos e epidemiológicos, como mortalidade infantil, mortalidade materna, esperança de vida, fecundidade, condições do nascimento e causas de morte.
+
+## Sistemas de morbidade e vigilância
+
+Os sistemas de morbidade e vigilância registram doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento do sistema de saúde. O principal sistema desse grupo é o Sistema de Informação de Agravos de Notificação (SINAN) (@sec-sinan), responsável por registrar casos suspeitos e confirmados de doenças e agravos de notificação compulsória [@caetanoSistemaInformacaoAgravos2009].
+
+Também entram nesse conjunto sistemas e subsistemas de vigilância específicos, como o Sistema de Vigilância Epidemiológica (SIVEP) (@sec-sivep), que possui componentes voltados a agravos ou síndromes específicos, e o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (SISAGUA) (@sec-sisagua).
+
+| Sistema | Foco principal | Observação |
+|---|---|---|
+| SINAN (@sec-sinan) | Doenças e agravos de notificação compulsória | Registra casos suspeitos, investigação, classificação final e desfecho |
+| SIVEP (@sec-sivep) | Vigilância de agravos ou síndromes específicas | Inclui subsistemas com regras próprias de notificação |
+| SISAGUA (@sec-sisagua) | Qualidade da água para consumo humano | Relaciona vigilância ambiental e saúde pública |
+
+Esses sistemas são especialmente importantes para monitoramento de epidemias, investigação de surtos, vigilância de agravos e planejamento de ações de prevenção e controle.
+
+## Sistemas assistenciais
+
+Os sistemas assistenciais registram ações realizadas nos serviços de saúde. Dois sistemas são centrais nesse grupo: o Sistema de Informações Hospitalares do SUS (SIH) (@sec-sih) e o Sistema de Informações Ambulatoriais do SUS (SIA) (@sec-sia).
+
+O SIH registra internações financiadas pelo SUS, enquanto o SIA registra produção ambulatorial, incluindo consultas, procedimentos, exames, terapias e ações de apoio diagnóstico e terapêutico. Ambos têm origem administrativa, mas são amplamente utilizados em análises epidemiológicas, avaliação de serviços e estudos sobre acesso à atenção à saúde [@pepeSistemaInformacoesHospitalares2009].
+
+| Sistema | Evento ou produção registrada | Unidade central | Cobertura |
+|---|---|---|---|
+| SIH (@sec-sih) | Internações hospitalares | Autorização de Internação Hospitalar (AIH) | Rede pública e conveniada ao SUS |
+| SIA (@sec-sia) | Procedimentos ambulatoriais | APAC, BPA e outros instrumentos de produção | Rede pública e conveniada ao SUS |
+
+Uma diferença importante em relação a SIM, SINASC e SINAN é que SIH e SIA não cobrem toda a assistência realizada no país. Eles registram a produção vinculada ao SUS, deixando de fora atendimentos realizados exclusivamente na saúde suplementar ou no setor privado não financiado pelo SUS.
+
+## Sistemas cadastrais, financeiros e de gestão
+
+Além dos sistemas que registram eventos diretamente ligados à saúde das pessoas, há bases voltadas à estrutura, ao financiamento e à gestão do sistema de saúde.
+
+O Cadastro Nacional de Estabelecimentos de Saúde (CNES) (@sec-cnes) descreve estabelecimentos, profissionais, equipamentos e serviços existentes no território nacional. Ele é uma base estruturante, pois ajuda a interpretar a oferta de serviços e a capacidade instalada do sistema de saúde.
+
+O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) (@sec-siops) registra informações orçamentárias e financeiras, permitindo acompanhar receitas, despesas e cumprimento de regras de aplicação de recursos em saúde.
+
+O Sistema de Informação em Saúde para a Atenção Básica (SISAB) (@sec-sisab) organiza informações da Atenção Básica, incluindo equipes, produção e indicadores relacionados à estratégia e-SUS Atenção Básica.
+
+| Sistema | Tipo de informação | Uso frequente |
+|---|---|---|
+| CNES (@sec-cnes) | Estabelecimentos, profissionais, equipamentos e serviços | Análise da oferta e da estrutura da rede de saúde |
+| SIOPS (@sec-siops) | Orçamentos, receitas e despesas em saúde | Monitoramento do financiamento público da saúde |
+| SISAB (@sec-sisab) | Produção e indicadores da Atenção Básica | Gestão, monitoramento e avaliação da Atenção Básica |
+
+## Sistemas de imunização
+
+As ações de vacinação são registradas no Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) (@sec-sipni). Sua função é apoiar o monitoramento de doses aplicadas, coberturas vacinais, campanhas e registros de imunização.
+
+Historicamente, a vacinação foi acompanhada por dados agregados e instrumentos de consolidação periódica. Com a evolução dos sistemas digitais, ganhou importância o registro individualizado das doses aplicadas, o que permite análises mais detalhadas, mas também exige maior cuidado com duplicidades, perdas de registro e consistência entre bases [@moraesConfiabilidadeInformacoesRegistradas2024].
+
+## Cobertura: todo o território, SUS e saúde suplementar
+
+Um ponto central na organização dos SIS é a cobertura. Alguns sistemas buscam registrar eventos ocorridos em todo o território nacional, independentemente de terem acontecido em serviços públicos, privados, filantrópicos ou suplementares. É o caso de SIM (@sec-sim), SINASC (@sec-sinasc), SINAN (@sec-sinan), CNES (@sec-cnes) e SISAGUA (@sec-sisagua), ainda que cada um tenha suas próprias regras e limitações de cobertura.
+
+Outros sistemas registram principalmente eventos ou produção vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB (@sec-sisab) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
+
+::::: {.callout}
+O Sistema Único de Saúde (SUS) organiza ações e serviços de saúde no Brasil e envolve responsabilidades públicas de gestão, financiamento, regulação e prestação de serviços. Na prática, a rede utilizada pelo SUS pode incluir estabelecimentos públicos, filantrópicos e privados conveniados.
+
+Os serviços privados não vinculados ao SUS, como atendimentos particulares, clínicas privadas e planos de saúde, compõem a saúde suplementar e são regulados pela [Agência Nacional de Saúde Suplementar (ANS)](https://www.gov.br/ans/pt-br).
+:::::
+
+Dados sobre a saúde suplementar são produzidos e disseminados pela ANS (@sec-ans). Por isso, perguntas sobre utilização de serviços privados, cobertura de planos, beneficiários e produção assistencial da saúde suplementar exigem bases específicas, não apenas os sistemas do DataSUS.
+
+## Níveis geográficos
+
+A maior parte dos SIS permite análises territoriais, mas o significado do território varia conforme o campo utilizado. Em alguns sistemas, é possível distinguir município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento. Esses campos respondem a perguntas diferentes.
+
+| Campo territorial | Pergunta respondida | Exemplo de uso |
+|---|---|---|
+| Residência | Onde vive a pessoa? | Risco populacional e perfil dos residentes |
+| Ocorrência | Onde o evento aconteceu? | Local do óbito, nascimento ou agravo |
+| Atendimento | Onde o cuidado foi prestado? | Fluxos assistenciais e acesso a serviços |
+| Notificação | Onde o caso foi registrado? | Capacidade local de vigilância |
+| Estabelecimento | Qual serviço produziu o registro? | Oferta, produção e estrutura da rede |
+: Campos territoriais comuns nos SIS
+
+Confundir esses campos pode mudar completamente a interpretação. Uma internação registrada em uma capital pode se referir a uma pessoa residente em outro município; uma notificação pode ocorrer em local diferente do provável local de infecção; e um óbito pode ocorrer fora do município de residência.
+
+## Periodicidade e versões dos dados
+
+Os SIS também diferem quanto à periodicidade de disseminação. Alguns sistemas são disseminados anualmente, após processos mais longos de crítica e consolidação. Outros têm atualização mensal ou disponibilizam registros preliminares em prazos menores.
+
+| Tipo de dado | Característica | Cuidado |
+|---|---|---|
+| Preliminar | Mais oportuno | Pode ter incompletude e revisão posterior |
+| Consolidado | Mais revisado | Costuma chegar com maior defasagem |
+| Mensal | Útil para monitoramento contínuo | Pode variar por atraso de envio |
+| Anual | Útil para séries consolidadas | Menos adequado para resposta imediata |
+: Diferenças práticas entre periodicidades e versões dos dados
+
+Na análise, a escolha entre dado preliminar e consolidado depende da pergunta. Monitoramento de uma situação em curso pode exigir dados mais oportunos, mesmo com incerteza maior. Estudos retrospectivos, indicadores oficiais e séries históricas geralmente se beneficiam de bases consolidadas.
+
+## Unidade de análise
+
+Outro cuidado fundamental é identificar a unidade de análise. Uma linha em uma base pode representar uma pessoa, um evento, uma autorização, um procedimento, um estabelecimento, uma equipe ou um lançamento financeiro. Confundir essas unidades leva a interpretações incorretas.
+
+| Sistema | Unidade de análise típica | Cuidado de interpretação |
+|---|---|---|
+| SIM (@sec-sim) | Declaração de Óbito (DO) | Um registro representa um óbito |
+| SINASC (@sec-sinasc) | Declaração de Nascido Vivo (DN) | Um registro representa um nascido vivo |
+| SINAN (@sec-sinan) | Ficha de notificação | Nem toda notificação é caso confirmado |
+| SIH (@sec-sih) | Autorização de Internação Hospitalar (AIH) | Uma pessoa pode ter mais de uma AIH |
+| SIA (@sec-sia) | Procedimento ou instrumento de produção | Uma pessoa pode gerar múltiplos procedimentos |
+| CNES (@sec-cnes) | Estabelecimento ou recurso | A unidade varia conforme o arquivo |
+| SIOPS (@sec-siops) | Informação orçamentária | Depende do ente federado e período |
+
+## Doenças, agravos e eventos de saúde
+
+É importante destacar que os diferentes SIS são organizados principalmente por **eventos de saúde**, e não por doenças e agravos. Eventos de saúde incluem nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de casos suspeitos, imunizações, cadastros de estabelecimentos e registros financeiros.
+
+Assim, ao estudar uma doença ou agravo, o primeiro passo é identificar quais eventos ela pode produzir e quais sistemas registram cada evento. Uma mesma doença pode aparecer no SINAN como notificação, no SIH como internação, no SIA como procedimento ambulatorial e no SIM como óbito.
+
+## Como escolher o sistema
+
+A tabela a seguir resume escolhas frequentes de acordo com o tipo de pergunta. Ela não substitui a leitura dos capítulos específicos, mas ajuda a direcionar a busca inicial.
+
+| Pergunta | Sistema mais provável | Observação |
+|---|---|---|
+| Quantos óbitos ocorreram? | SIM (@sec-sim) | Ver causa básica, residência e ocorrência |
+| Quantos nascimentos ocorreram? | SINASC (@sec-sinasc) | Útil para indicadores materno-infantis |
+| Quantos casos foram notificados? | SINAN (@sec-sinan) | Separar suspeitos, confirmados e descartados |
+| Quantas internações ocorreram no SUS? | SIH (@sec-sih) | Não representa toda a rede privada |
+| Quantos procedimentos ambulatoriais foram feitos no SUS? | SIA (@sec-sia) | Pessoa e procedimento não são equivalentes |
+| Onde estão os estabelecimentos e serviços? | CNES (@sec-cnes) | Observar competência e tipo de arquivo |
+| Como acompanhar gastos públicos em saúde? | SIOPS (@sec-siops) | Comparar ente federado e período |
+| Como analisar vacinação? | SI-PNI (@sec-sipni) | Ver registro individual, doses e cobertura |
+| Como analisar saúde suplementar? | ANS (@sec-ans) | Usar bases específicas da ANS |
+: Escolha inicial do SIS conforme a pergunta de análise
+
+## Exemplo: dengue
+
+A dengue ilustra por que uma doença não corresponde a um único sistema. Dependendo da pergunta, a análise pode exigir bases diferentes:
+
+| Evento relacionado à dengue | Sistema | Pergunta possível |
+|---|---|---|
+| Caso suspeito ou confirmado | SINAN (@sec-sinan) | Como evoluem as notificações e confirmações? |
+| Atendimento ou exame ambulatorial | SIA (@sec-sia) | Que procedimentos foram realizados no SUS? |
+| Internação por dengue | SIH (@sec-sih) | Quantos casos graves demandaram hospitalização? |
+| Óbito por dengue | SIM (@sec-sim) | Quantas mortes tiveram dengue como causa básica? |
+| Estabelecimentos envolvidos | CNES (@sec-cnes) | Onde estão os serviços que notificam ou atendem? |
+: Exemplos de eventos e sistemas para análise de dengue
+
+Esse raciocínio vale para outros temas. Acidentes de trânsito, COVID-19, agravos relacionados ao trabalho, saúde materno-infantil e doenças crônicas podem aparecer em múltiplos SIS, cada um registrando um aspecto diferente do fenômeno.
+
+::: {.callout-warning}
+Erros comuns ao utilizar SIS incluem tratar AIH como pessoa única, contar notificações do SINAN como casos confirmados sem filtrar a classificação final, usar SIH e SIA como se representassem toda a assistência pública e privada do país, ignorar município de residência versus município de atendimento, comparar bases preliminares com bases consolidadas sem cautela e desconsiderar mudanças de layout ou definição ao longo do tempo.
+:::
+
+O capítulo a seguir detalha o que são eventos de saúde e como eles se relacionam com os principais SIS.

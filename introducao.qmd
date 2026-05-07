@@ -6,24 +6,58 @@ author:
 
 # Introdução
 
-A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus *sistemas de informaçãos*, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
-
-::::: {.callout}
-Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001]. 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/introducao_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/introducao.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/introducao.md">podcast/introducao.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
 :::
 
-O emprego do termo "sistema" implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. O conhecimento deste contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS [@worldhealthorganisationFrameworkStandardsCountry2008]. Ciente de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.
+A disponibilidade oportuna de dados confiáveis é essencial para a tomada de decisão em saúde. Sistemas de vigilância, planejamento, financiamento, regulação, assistência e avaliação dependem de registros capazes de descrever o que acontece com a população e com os serviços. Nesse contexto, os Sistemas de Informação em Saúde (SIS) são componentes centrais dos sistemas de saúde e também integram redes mais amplas de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
 
-No Brasil, os SIS pretender cobrir uma série de eventos de saúde que ocorrem durante o ciclo de vida do cidadão, tão como sobre o próprio sistema de saúde. Alguns exemplos de eventos de saúde são nascimentos, internações, imunizações e óbitos, entre outros. 
+::::: {.callout}
+Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001].
+:::
+
+O emprego do termo "sistema" indica um processo organizado, composto por instrumentos, pessoas, normas, tecnologias, fluxos e usos. Um SIS, portanto, não se resume a um banco de dados. Ele envolve a definição do evento a ser registrado, os formulários ou interfaces de entrada, as regras de validação, os caminhos de transmissão, as rotinas de consolidação, as formas de acesso e as práticas de análise que transformam registros em informação útil.
+
+## Sistemas, contextos e usos
+
+A organização dos SIS varia entre países e também ao longo do tempo. Sua implantação costuma responder a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas específicas. Por isso, compreender o contexto de criação e evolução de cada sistema é indispensável para interpretar suas possibilidades e limitações [@worldhealthorganisationFrameworkStandardsCountry2008].
+
+No Brasil, os SIS buscam cobrir diferentes eventos de saúde que ocorrem durante o ciclo de vida da população, bem como eventos relacionados à organização e ao funcionamento do próprio sistema de saúde. Entre esses eventos estão nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias.
 
 A @fig-ciclo-vida-sistemas apresenta as siglas de alguns dos principais SIS existentes no Brasil.
 
 ![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#fig-ciclo-vida-sistemas}
 
-Antes de conhecer os Sistemas de Informação em Saúde brasileiros, é importante entender que um sistema de informação é um modelo, seja automatizado ou manual, de processos responsáveis por coletar e transmitir dados que sejam úteis ao desenvolvimento de produtos ou serviços de instituições. Assim, ressalta-se que um sistema de informação não é apenas um banco de dados e sim um conjunto de componentes que atuam de forma integrada, por meio de mecanismos de coleta, processamento, análise e transmissão da informação necessária e oportuna. Neste sistema, todos os componentes integrantes são inter-relacionados, atuando em conjunto para atingir o objeto central do projeto.
+## Dados, informação e conhecimento
 
-Portanto, podemos dizer que os Sistemas de Informação em Saúde são mecanismo de coleta, processamento, análise e transmissão da informação necessária para se planejar, organizar, operar e avaliar os serviços de saúde [@who2000].
+Para utilizar adequadamente os SIS, é fundamental distinguir dado, informação e conhecimento. O dado é o elemento mais simples do sistema: um registro delimitado de uma ocorrência, como uma data, um código de município, uma causa de óbito, um procedimento realizado ou uma dose de vacina aplicada. Isolado, o dado descreve apenas uma parte do real.
 
-É fundamental entender a diferença conceitual entre dado e informação. O dado é o elemento mais simples de um sistema de informação -- uma descrição limitada do real e desvinculada de um referencial explicativo. A informação é uma composição de dados com significados para quem os vê; requer um mínimo de análise para sua obtenção, através da avaliação humana. Acrescenta-se a isso o conceito de conhecimento, que pode ser definido como um conjunto de informações importantes da experiência humana. Ou seja, é a informação dotada de contexto, reflexão e síntese [@rouquayrol2018; @siqueira2005].
+A informação surge quando os dados são organizados, analisados e interpretados em relação a uma pergunta ou necessidade concreta. Uma contagem de óbitos por município, uma taxa de internação por faixa etária ou a proporção de casos confirmados entre notificações suspeitas já expressam algum nível de processamento e interpretação.
+
+O conhecimento, por sua vez, depende da articulação entre informações, contexto, experiência e reflexão. É a partir dele que se formulam explicações, hipóteses, prioridades de ação, avaliações de desempenho e decisões de gestão [@rouquayrol2018; @siqueira2005].
+
+Assim, os Sistemas de Informação em Saúde podem ser entendidos como mecanismos de coleta, processamento, análise e transmissão da informação necessária para planejar, organizar, operar e avaliar os serviços de saúde [@who2000]. Sua utilidade depende tanto da qualidade dos registros quanto da capacidade de interpretar esses registros de acordo com a pergunta em análise.
+
+## Escopo do livro
 
 O objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.
+
+Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação. A intenção é apoiar uma leitura crítica dos dados em saúde, evitando tanto a subutilização das bases disponíveis quanto interpretações que desconsiderem seus processos de produção.

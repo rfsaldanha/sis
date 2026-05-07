@@ -8,6 +8,7 @@
 
 <meta name="author" content="Raphael de Freitas Saldanha">
 <meta name="author" content="Mônica de A. F. M. Magalhães">
+<meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
 <title>1&nbsp; Introdução – Sistemas de Informação em Saúde no Brasil</title>
 <style>
@@ -299,7 +300,8 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sistemas de Informação em Saúde no Brasil</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -482,8 +484,16 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#sistemas-contextos-e-usos" id="toc-sistemas-contextos-e-usos" class="nav-link active" data-scroll-target="#sistemas-contextos-e-usos"><span class="header-section-number">1.1</span> Sistemas, contextos e usos</a></li>
+  <li><a href="#dados-informação-e-conhecimento" id="toc-dados-informação-e-conhecimento" class="nav-link" data-scroll-target="#dados-informação-e-conhecimento"><span class="header-section-number">1.2</span> Dados, informação e conhecimento</a></li>
+  <li><a href="#escopo-do-livro" id="toc-escopo-do-livro" class="nav-link" data-scroll-target="#escopo-do-livro"><span class="header-section-number">1.3</span> Escopo do livro</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/introducao.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -515,7 +525,24 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<p>A rápida disponibilidade de dados confiáveis é essencial para a tomada de decisão em saúde. Um componente-chave de um sistema de saúde são os seus <em>sistemas de informaçãos</em>, utilizados não somente pelo próprio sistema de saúde, mas também por outras instituições, integrando um sistema maior de estatísticas nacionais e internacionais <span class="citation" data-cites="abouzahrHealthInformationSystems2005 worldhealthorganisationFrameworkStandardsCountry2008">(<a href="referencias.html#ref-abouzahrHealthInformationSystems2005" role="doc-biblioref">ABOUZAHR; BOERMA, 2005</a>; <a href="referencias.html#ref-worldhealthorganisationFrameworkStandardsCountry2008" role="doc-biblioref">WHO, 2008</a>)</span>.</p>
+<section class="podcast-player" data-transcript="podcast/introducao_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/introducao.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/introducao.md">podcast/introducao.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+<p>A disponibilidade oportuna de dados confiáveis é essencial para a tomada de decisão em saúde. Sistemas de vigilância, planejamento, financiamento, regulação, assistência e avaliação dependem de registros capazes de descrever o que acontece com a população e com os serviços. Nesse contexto, os Sistemas de Informação em Saúde (SIS) são componentes centrais dos sistemas de saúde e também integram redes mais amplas de estatísticas nacionais e internacionais <span class="citation" data-cites="abouzahrHealthInformationSystems2005 worldhealthorganisationFrameworkStandardsCountry2008">(<a href="referencias.html#ref-abouzahrHealthInformationSystems2005" role="doc-biblioref">ABOUZAHR; BOERMA, 2005</a>; <a href="referencias.html#ref-worldhealthorganisationFrameworkStandardsCountry2008" role="doc-biblioref">WHO, 2008</a>)</span>.</p>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -526,8 +553,11 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </div>
 </div>
 </div>
-<p>O emprego do termo “sistema” implica em um processo completo e organizado. Contudo, a formatação de diferentes SIS, tanto no Brasil como em diferentes países, tende a evoluir de forma fragmentada, diretamente ligadas aos contextos políticos, econômicos, técnicos e epidemiológicos existentes durante sua criação. O conhecimento deste contexto é imprescindível para a compreensão das nuances e características próprias de cada SIS <span class="citation" data-cites="worldhealthorganisationFrameworkStandardsCountry2008">(<a href="referencias.html#ref-worldhealthorganisationFrameworkStandardsCountry2008" role="doc-biblioref">WHO, 2008</a>)</span>. Ciente de sua história, limitações e potências, os SIS são elementos fundamentais para a tomada de decisão em um sistema de saúde.</p>
-<p>No Brasil, os SIS pretender cobrir uma série de eventos de saúde que ocorrem durante o ciclo de vida do cidadão, tão como sobre o próprio sistema de saúde. Alguns exemplos de eventos de saúde são nascimentos, internações, imunizações e óbitos, entre outros.</p>
+<p>O emprego do termo “sistema” indica um processo organizado, composto por instrumentos, pessoas, normas, tecnologias, fluxos e usos. Um SIS, portanto, não se resume a um banco de dados. Ele envolve a definição do evento a ser registrado, os formulários ou interfaces de entrada, as regras de validação, os caminhos de transmissão, as rotinas de consolidação, as formas de acesso e as práticas de análise que transformam registros em informação útil.</p>
+<section id="sistemas-contextos-e-usos" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="sistemas-contextos-e-usos"><span class="header-section-number">1.1</span> Sistemas, contextos e usos</h2>
+<p>A organização dos SIS varia entre países e também ao longo do tempo. Sua implantação costuma responder a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas específicas. Por isso, compreender o contexto de criação e evolução de cada sistema é indispensável para interpretar suas possibilidades e limitações <span class="citation" data-cites="worldhealthorganisationFrameworkStandardsCountry2008">(<a href="referencias.html#ref-worldhealthorganisationFrameworkStandardsCountry2008" role="doc-biblioref">WHO, 2008</a>)</span>.</p>
+<p>No Brasil, os SIS buscam cobrir diferentes eventos de saúde que ocorrem durante o ciclo de vida da população, bem como eventos relacionados à organização e ao funcionamento do próprio sistema de saúde. Entre esses eventos estão nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias.</p>
 <p>A <a href="#fig-ciclo-vida-sistemas" class="quarto-xref">Figura&nbsp;<span>1.1</span></a> apresenta as siglas de alguns dos principais SIS existentes no Brasil.</p>
 <div id="fig-ciclo-vida-sistemas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -539,10 +569,18 @@ Figura&nbsp;1.1: Sistemas de informação e o ciclo de vida do cidadão
 </figcaption>
 </figure>
 </div>
-<p>Antes de conhecer os Sistemas de Informação em Saúde brasileiros, é importante entender que um sistema de informação é um modelo, seja automatizado ou manual, de processos responsáveis por coletar e transmitir dados que sejam úteis ao desenvolvimento de produtos ou serviços de instituições. Assim, ressalta-se que um sistema de informação não é apenas um banco de dados e sim um conjunto de componentes que atuam de forma integrada, por meio de mecanismos de coleta, processamento, análise e transmissão da informação necessária e oportuna. Neste sistema, todos os componentes integrantes são inter-relacionados, atuando em conjunto para atingir o objeto central do projeto.</p>
-<p>Portanto, podemos dizer que os Sistemas de Informação em Saúde são mecanismo de coleta, processamento, análise e transmissão da informação necessária para se planejar, organizar, operar e avaliar os serviços de saúde <span class="citation" data-cites="who2000">(<a href="referencias.html#ref-who2000" role="doc-biblioref">WHO, 2000</a>)</span>.</p>
-<p>É fundamental entender a diferença conceitual entre dado e informação. O dado é o elemento mais simples de um sistema de informação – uma descrição limitada do real e desvinculada de um referencial explicativo. A informação é uma composição de dados com significados para quem os vê; requer um mínimo de análise para sua obtenção, através da avaliação humana. Acrescenta-se a isso o conceito de conhecimento, que pode ser definido como um conjunto de informações importantes da experiência humana. Ou seja, é a informação dotada de contexto, reflexão e síntese <span class="citation" data-cites="rouquayrol2018 siqueira2005">(<a href="referencias.html#ref-rouquayrol2018" role="doc-biblioref">ROUQUAYROL; SILVA, 2018</a>; <a href="referencias.html#ref-siqueira2005" role="doc-biblioref">SIQUEIRA, 2005</a>)</span>.</p>
+</section>
+<section id="dados-informação-e-conhecimento" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="dados-informação-e-conhecimento"><span class="header-section-number">1.2</span> Dados, informação e conhecimento</h2>
+<p>Para utilizar adequadamente os SIS, é fundamental distinguir dado, informação e conhecimento. O dado é o elemento mais simples do sistema: um registro delimitado de uma ocorrência, como uma data, um código de município, uma causa de óbito, um procedimento realizado ou uma dose de vacina aplicada. Isolado, o dado descreve apenas uma parte do real.</p>
+<p>A informação surge quando os dados são organizados, analisados e interpretados em relação a uma pergunta ou necessidade concreta. Uma contagem de óbitos por município, uma taxa de internação por faixa etária ou a proporção de casos confirmados entre notificações suspeitas já expressam algum nível de processamento e interpretação.</p>
+<p>O conhecimento, por sua vez, depende da articulação entre informações, contexto, experiência e reflexão. É a partir dele que se formulam explicações, hipóteses, prioridades de ação, avaliações de desempenho e decisões de gestão <span class="citation" data-cites="rouquayrol2018 siqueira2005">(<a href="referencias.html#ref-rouquayrol2018" role="doc-biblioref">ROUQUAYROL; SILVA, 2018</a>; <a href="referencias.html#ref-siqueira2005" role="doc-biblioref">SIQUEIRA, 2005</a>)</span>.</p>
+<p>Assim, os Sistemas de Informação em Saúde podem ser entendidos como mecanismos de coleta, processamento, análise e transmissão da informação necessária para planejar, organizar, operar e avaliar os serviços de saúde <span class="citation" data-cites="who2000">(<a href="referencias.html#ref-who2000" role="doc-biblioref">WHO, 2000</a>)</span>. Sua utilidade depende tanto da qualidade dos registros quanto da capacidade de interpretar esses registros de acordo com a pergunta em análise.</p>
+</section>
+<section id="escopo-do-livro" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="escopo-do-livro"><span class="header-section-number">1.3</span> Escopo do livro</h2>
 <p>O objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.</p>
+<p>Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação. A intenção é apoiar uma leitura crítica dos dados em saúde, evitando tanto a subutilização das bases disponíveis quanto interpretações que desconsiderem seus processos de produção.</p>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
@@ -565,6 +603,7 @@ WHO. <strong>The world health report 2000: health systems, improving performance
 WHO. <strong>Framework and Standards for Country Health Information Systems</strong>. 2. ed. Genebra: [s.n.].
 </div>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -653,7 +692,7 @@ WHO. <strong>Framework and Standards for Country Health Information Systems</str
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -997,4 +1036,4 @@ WHO. <strong>Framework and Standards for Country Health Information Systems</str
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/introducao.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

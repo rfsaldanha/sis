@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
 <title>3&nbsp; Organização dos SIS – Sistemas de Informação em Saúde no Brasil</title>
 <style>
@@ -23,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,6 +106,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -277,7 +301,8 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sistemas de Informação em Saúde no Brasil</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -465,16 +490,25 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#sistemas-de-informação-vitais" id="toc-sistemas-de-informação-vitais" class="nav-link active" data-scroll-target="#sistemas-de-informação-vitais"><span class="header-section-number">3.1</span> Sistemas de Informação Vitais</a></li>
-  <li><a href="#sistemas-de-informação-de-morbidade" id="toc-sistemas-de-informação-de-morbidade" class="nav-link" data-scroll-target="#sistemas-de-informação-de-morbidade"><span class="header-section-number">3.2</span> Sistemas de Informação de Morbidade</a></li>
-  <li><a href="#outros-sistemas-de-informação" id="toc-outros-sistemas-de-informação" class="nav-link" data-scroll-target="#outros-sistemas-de-informação"><span class="header-section-number">3.3</span> Outros Sistemas de Informação</a></li>
-  <li><a href="#dimensões-pública-e-privada-do-sus" id="toc-dimensões-pública-e-privada-do-sus" class="nav-link" data-scroll-target="#dimensões-pública-e-privada-do-sus"><span class="header-section-number">3.4</span> Dimensões pública e privada do SUS</a></li>
-  <li><a href="#doenças-agravos-e-sis" id="toc-doenças-agravos-e-sis" class="nav-link" data-scroll-target="#doenças-agravos-e-sis"><span class="header-section-number">3.5</span> Doenças, agravos e SIS</a></li>
+  <li><a href="#critérios-de-organização" id="toc-critérios-de-organização" class="nav-link active" data-scroll-target="#critérios-de-organização"><span class="header-section-number">3.1</span> Critérios de organização</a></li>
+  <li><a href="#esquema-geral" id="toc-esquema-geral" class="nav-link" data-scroll-target="#esquema-geral"><span class="header-section-number">3.2</span> Esquema geral</a></li>
+  <li><a href="#sistemas-vitais" id="toc-sistemas-vitais" class="nav-link" data-scroll-target="#sistemas-vitais"><span class="header-section-number">3.3</span> Sistemas vitais</a></li>
+  <li><a href="#sistemas-de-morbidade-e-vigilância" id="toc-sistemas-de-morbidade-e-vigilância" class="nav-link" data-scroll-target="#sistemas-de-morbidade-e-vigilância"><span class="header-section-number">3.4</span> Sistemas de morbidade e vigilância</a></li>
+  <li><a href="#sistemas-assistenciais" id="toc-sistemas-assistenciais" class="nav-link" data-scroll-target="#sistemas-assistenciais"><span class="header-section-number">3.5</span> Sistemas assistenciais</a></li>
+  <li><a href="#sistemas-cadastrais-financeiros-e-de-gestão" id="toc-sistemas-cadastrais-financeiros-e-de-gestão" class="nav-link" data-scroll-target="#sistemas-cadastrais-financeiros-e-de-gestão"><span class="header-section-number">3.6</span> Sistemas cadastrais, financeiros e de gestão</a></li>
+  <li><a href="#sistemas-de-imunização" id="toc-sistemas-de-imunização" class="nav-link" data-scroll-target="#sistemas-de-imunização"><span class="header-section-number">3.7</span> Sistemas de imunização</a></li>
+  <li><a href="#cobertura-todo-o-território-sus-e-saúde-suplementar" id="toc-cobertura-todo-o-território-sus-e-saúde-suplementar" class="nav-link" data-scroll-target="#cobertura-todo-o-território-sus-e-saúde-suplementar"><span class="header-section-number">3.8</span> Cobertura: todo o território, SUS e saúde suplementar</a></li>
+  <li><a href="#níveis-geográficos" id="toc-níveis-geográficos" class="nav-link" data-scroll-target="#níveis-geográficos"><span class="header-section-number">3.9</span> Níveis geográficos</a></li>
+  <li><a href="#periodicidade-e-versões-dos-dados" id="toc-periodicidade-e-versões-dos-dados" class="nav-link" data-scroll-target="#periodicidade-e-versões-dos-dados"><span class="header-section-number">3.10</span> Periodicidade e versões dos dados</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">3.11</span> Unidade de análise</a></li>
+  <li><a href="#doenças-agravos-e-eventos-de-saúde" id="toc-doenças-agravos-e-eventos-de-saúde" class="nav-link" data-scroll-target="#doenças-agravos-e-eventos-de-saúde"><span class="header-section-number">3.12</span> Doenças, agravos e eventos de saúde</a></li>
+  <li><a href="#como-escolher-o-sistema" id="toc-como-escolher-o-sistema" class="nav-link" data-scroll-target="#como-escolher-o-sistema"><span class="header-section-number">3.13</span> Como escolher o sistema</a></li>
+  <li><a href="#exemplo-dengue" id="toc-exemplo-dengue" class="nav-link" data-scroll-target="#exemplo-dengue"><span class="header-section-number">3.14</span> Exemplo: dengue</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/organizacao.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -496,42 +530,572 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<section id="sistemas-de-informação-vitais" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="sistemas-de-informação-vitais"><span class="header-section-number">3.1</span> Sistemas de Informação Vitais</h2>
-<p>O Brasil conta atualmente com dois sistemas de informação vitais, o Sistema de Informações sobre Mortalidade – SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>) e o Sistema de Informações sobre Nascidos Vivos – SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>). A implantação destes sistemas se origina na reorganização do Registro Civil brasileiro, que visava padronizar os instrumentos de coleta de dados sobre óbitos e nascimentos e produzir dados de maneira uniforme em todo o território nacional.</p>
+<section class="podcast-player" data-transcript="podcast/organizacao_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/organizacao.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/organizacao.md">podcast/organizacao.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
 </section>
-<section id="sistemas-de-informação-de-morbidade" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="sistemas-de-informação-de-morbidade"><span class="header-section-number">3.2</span> Sistemas de Informação de Morbidade</h2>
-<p>Existem atualmente dois sistemas de informação em saúde consolidados, que apresentam dados sobre a morbidade da população brasileira: o Sistema de Informações de Agravos de Notificação – SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>) e o Sistema de Informações Hospitalares – SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>).</p>
+<p>Os Sistemas de Informação em Saúde (SIS) brasileiros podem ser organizados de diferentes formas. Uma mesma base pode ser classificada segundo o evento registrado, a finalidade institucional, a cobertura populacional, a unidade de análise, a periodicidade de disseminação ou o nível de detalhamento disponível <span class="citation" data-cites="ministeriodasaudeExperienciaBrasileiraEm2009">(<a href="referencias.html#ref-ministeriodasaudeExperienciaBrasileiraEm2009" role="doc-biblioref">MINISTÉRIO DA SAÚDE, 2009</a>)</span>.</p>
+<p>Essa organização é importante porque evita uma leitura equivocada dos dados. Antes de buscar uma base, é preciso perguntar: qual evento de saúde está sendo observado? Esse evento ocorre em toda a população ou apenas na rede pública do SUS? A base registra indivíduos, procedimentos, estabelecimentos, equipes ou valores financeiros? O dado é preliminar ou consolidado?</p>
+<section id="critérios-de-organização" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="critérios-de-organização"><span class="header-section-number">3.1</span> Critérios de organização</h2>
+<p>Neste livro, os SIS são apresentados a partir de quatro critérios principais:</p>
+<table class="caption-top table">
+<caption>Critérios úteis para compreender a organização dos SIS brasileiros</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Critério</th>
+<th>Pergunta orientadora</th>
+<th>Exemplos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Evento de saúde</td>
+<td>O que aconteceu?</td>
+<td>Nascimento, óbito, internação, notificação, vacinação</td>
+</tr>
+<tr class="even">
+<td>Finalidade institucional</td>
+<td>Para que o sistema foi criado?</td>
+<td>Vigilância, assistência, cadastro, financiamento, gestão</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Quem ou o que entra na base?</td>
+<td>Todo o território nacional, rede pública do SUS, saúde suplementar</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>O que cada linha ou registro representa?</td>
+<td>Pessoa, declaração, procedimento, estabelecimento, equipe, lançamento contábil</td>
+</tr>
+</tbody>
+</table>
+<p>Esses critérios se complementam. O Sistema de Informações Hospitalares (SIH) (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), por exemplo, registra internações, tem origem administrativa e financeira, cobre internações realizadas no SUS e utiliza a Autorização de Internação Hospitalar (AIH) como unidade central de análise. Já o Sistema de Informação sobre Mortalidade (SIM) (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>) registra óbitos, cobre todo o território nacional e tem como documento básico a Declaração de Óbito.</p>
+<p>Para uma comparação tabular dos principais sistemas, com ano de criação, unidade de análise, cobertura e periodicidade de disseminação, consulte o Quadro Resumo (<a href="quadro_resumo.html" class="quarto-xref"><span>Apêndice A</span></a>).</p>
 </section>
-<section id="outros-sistemas-de-informação" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="outros-sistemas-de-informação"><span class="header-section-number">3.3</span> Outros Sistemas de Informação</h2>
-<p>Além dos sistemas de informação em saúde descritos anteriormente, podem-se destacar alguns outros. O Sistema de Informações Ambulatoriais –SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada. O Sistema de Informação do Programa Nacional de Imunização – SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>) contempla dados sobre vacinação da população brasileira. O Sistema de Informações Sobre Orçamentos Públicos em Saúde – SIOPS (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>), apresenta dados sobre orçamentos públicos e gastos em saúde. O Sistema de Vigilância Epidemiológica – SIVEP (<a href="sivep.html" class="quarto-xref"><span>Apêndice E</span></a>) apresenta subsistemas específicos para malária e gripe (Síndrome Respiratória Aguda Grave – SRAG).</p>
-<p>Além dos sistemas de informação em saúde, cabe também destacar a importância do Cadastro Nacional de Estabelecimentos de Saúde – CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>), que apresenta dados cadastrais sobre todos os estabelecimentos de saúde no território nacional, e de profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares.</p>
-<p>O Quadro Resumo (<a href="quadro_resumo.html" class="quarto-xref"><span>Apêndice A</span></a>) apresenta dados dos principais SIS de forma resumida.</p>
+<section id="esquema-geral" class="level2 page-columns page-full" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="esquema-geral"><span class="header-section-number">3.2</span> Esquema geral</h2>
+<p>O esquema a seguir resume uma forma prática de agrupar os SIS abordados neste livro.</p>
+<div class="column-page">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  SIS[Sistemas de Informacao em Saude]
+  SIS --&gt; Vitais[Sistemas vitais]
+  SIS --&gt; Vig[Vigilancia e morbidade]
+  SIS --&gt; Assist[Assistencia]
+  SIS --&gt; Gestao[Cadastro, gestao e financiamento]
+  SIS --&gt; Imun[Imunizacao]
+  SIS --&gt; Supl[Saude suplementar]
+
+  Vitais --&gt; SIM[SIM]
+  Vitais --&gt; SINASC[SINASC]
+  Vig --&gt; SINAN[SINAN]
+  Vig --&gt; SIVEP[SIVEP]
+  Vig --&gt; SISAGUA[SISAGUA]
+  Assist --&gt; SIH[SIH]
+  Assist --&gt; SIA[SIA]
+  Gestao --&gt; CNES[CNES]
+  Gestao --&gt; SIOPS[SIOPS]
+  Gestao --&gt; SISAB[SISAB]
+  Imun --&gt; SIPNI[SI-PNI]
+  Supl --&gt; ANS[ANS]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="dimensões-pública-e-privada-do-sus" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="dimensões-pública-e-privada-do-sus"><span class="header-section-number">3.4</span> Dimensões pública e privada do SUS</h2>
-<p>Cabe aqui ressaltar que alguns SIS apresentam uma cobertura ampla, incluindo as dimensões pública e privada do SUS. Nestes SIS, todo evento de saúde é contabilizado, independente dele aconter em um estabelecimento de saúde público ou privado. Pode-se citar o SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>), SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>) e o SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>) como exemplos. Assim, qualquer óbito, nascimento ou possível caso de doença ou agravo de interesse ocorrido em território nacional é comunicado ao Ministério da Saúde e é registrado em seu respectivo SIS,</p>
+<section id="sistemas-vitais" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="sistemas-vitais"><span class="header-section-number">3.3</span> Sistemas vitais</h2>
+<p>Os sistemas vitais registram eventos diretamente relacionados ao início e ao fim da vida. No Brasil, os principais são o Sistema de Informação sobre Mortalidade (SIM) (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>) e o Sistema de Informação sobre Nascidos Vivos (SINASC) (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>).</p>
+<p>A implantação desses sistemas está associada à reorganização das estatísticas vitais brasileiras e à padronização de documentos nacionais: a Declaração de Óbito (DO) e a Declaração de Nascido Vivo (DNV). Esses documentos conectam serviços de saúde, famílias, cartórios, secretarias municipais e Ministério da Saúde <span class="citation" data-cites="sennaSistemaInformacoesSobre2009 viacavaSistemaInformacaoSobre2009">(<a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>; <a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema</th>
+<th>Evento registrado</th>
+<th>Documento básico</th>
+<th>Cobertura</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Óbitos, incluindo óbitos fetais</td>
+<td>Declaração de Óbito</td>
+<td>Todo o território nacional</td>
+</tr>
+<tr class="even">
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Nascidos vivos</td>
+<td>Declaração de Nascido Vivo</td>
+<td>Todo o território nacional</td>
+</tr>
+</tbody>
+</table>
+<p>Os sistemas vitais são fundamentais para indicadores demográficos e epidemiológicos, como mortalidade infantil, mortalidade materna, esperança de vida, fecundidade, condições do nascimento e causas de morte.</p>
+</section>
+<section id="sistemas-de-morbidade-e-vigilância" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="sistemas-de-morbidade-e-vigilância"><span class="header-section-number">3.4</span> Sistemas de morbidade e vigilância</h2>
+<p>Os sistemas de morbidade e vigilância registram doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento do sistema de saúde. O principal sistema desse grupo é o Sistema de Informação de Agravos de Notificação (SINAN) (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>), responsável por registrar casos suspeitos e confirmados de doenças e agravos de notificação compulsória <span class="citation" data-cites="caetanoSistemaInformacaoAgravos2009">(<a href="referencias.html#ref-caetanoSistemaInformacaoAgravos2009" role="doc-biblioref">CAETANO, 2009</a>)</span>.</p>
+<p>Também entram nesse conjunto sistemas e subsistemas de vigilância específicos, como o Sistema de Vigilância Epidemiológica (SIVEP) (<a href="sivep.html" class="quarto-xref"><span>Apêndice E</span></a>), que possui componentes voltados a agravos ou síndromes específicos, e o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (SISAGUA) (<a href="sisagua.html" class="quarto-xref"><span>Capítulo 12</span></a>).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema</th>
+<th>Foco principal</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Doenças e agravos de notificação compulsória</td>
+<td>Registra casos suspeitos, investigação, classificação final e desfecho</td>
+</tr>
+<tr class="even">
+<td>SIVEP (<a href="sivep.html" class="quarto-xref"><span>Apêndice E</span></a>)</td>
+<td>Vigilância de agravos ou síndromes específicas</td>
+<td>Inclui subsistemas com regras próprias de notificação</td>
+</tr>
+<tr class="odd">
+<td>SISAGUA (<a href="sisagua.html" class="quarto-xref"><span>Capítulo 12</span></a>)</td>
+<td>Qualidade da água para consumo humano</td>
+<td>Relaciona vigilância ambiental e saúde pública</td>
+</tr>
+</tbody>
+</table>
+<p>Esses sistemas são especialmente importantes para monitoramento de epidemias, investigação de surtos, vigilância de agravos e planejamento de ações de prevenção e controle.</p>
+</section>
+<section id="sistemas-assistenciais" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="sistemas-assistenciais"><span class="header-section-number">3.5</span> Sistemas assistenciais</h2>
+<p>Os sistemas assistenciais registram ações realizadas nos serviços de saúde. Dois sistemas são centrais nesse grupo: o Sistema de Informações Hospitalares do SUS (SIH) (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>) e o Sistema de Informações Ambulatoriais do SUS (SIA) (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>).</p>
+<p>O SIH registra internações financiadas pelo SUS, enquanto o SIA registra produção ambulatorial, incluindo consultas, procedimentos, exames, terapias e ações de apoio diagnóstico e terapêutico. Ambos têm origem administrativa, mas são amplamente utilizados em análises epidemiológicas, avaliação de serviços e estudos sobre acesso à atenção à saúde <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema</th>
+<th>Evento ou produção registrada</th>
+<th>Unidade central</th>
+<th>Cobertura</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Internações hospitalares</td>
+<td>Autorização de Internação Hospitalar (AIH)</td>
+<td>Rede pública e conveniada ao SUS</td>
+</tr>
+<tr class="even">
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Procedimentos ambulatoriais</td>
+<td>APAC, BPA e outros instrumentos de produção</td>
+<td>Rede pública e conveniada ao SUS</td>
+</tr>
+</tbody>
+</table>
+<p>Uma diferença importante em relação a SIM, SINASC e SINAN é que SIH e SIA não cobrem toda a assistência realizada no país. Eles registram a produção vinculada ao SUS, deixando de fora atendimentos realizados exclusivamente na saúde suplementar ou no setor privado não financiado pelo SUS.</p>
+</section>
+<section id="sistemas-cadastrais-financeiros-e-de-gestão" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="sistemas-cadastrais-financeiros-e-de-gestão"><span class="header-section-number">3.6</span> Sistemas cadastrais, financeiros e de gestão</h2>
+<p>Além dos sistemas que registram eventos diretamente ligados à saúde das pessoas, há bases voltadas à estrutura, ao financiamento e à gestão do sistema de saúde.</p>
+<p>O Cadastro Nacional de Estabelecimentos de Saúde (CNES) (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) descreve estabelecimentos, profissionais, equipamentos e serviços existentes no território nacional. Ele é uma base estruturante, pois ajuda a interpretar a oferta de serviços e a capacidade instalada do sistema de saúde.</p>
+<p>O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>) registra informações orçamentárias e financeiras, permitindo acompanhar receitas, despesas e cumprimento de regras de aplicação de recursos em saúde.</p>
+<p>O Sistema de Informação em Saúde para a Atenção Básica (SISAB) (<a href="sisab.html" class="quarto-xref"><span>Capítulo 13</span></a>) organiza informações da Atenção Básica, incluindo equipes, produção e indicadores relacionados à estratégia e-SUS Atenção Básica.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema</th>
+<th>Tipo de informação</th>
+<th>Uso frequente</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Estabelecimentos, profissionais, equipamentos e serviços</td>
+<td>Análise da oferta e da estrutura da rede de saúde</td>
+</tr>
+<tr class="even">
+<td>SIOPS (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>)</td>
+<td>Orçamentos, receitas e despesas em saúde</td>
+<td>Monitoramento do financiamento público da saúde</td>
+</tr>
+<tr class="odd">
+<td>SISAB (<a href="sisab.html" class="quarto-xref"><span>Capítulo 13</span></a>)</td>
+<td>Produção e indicadores da Atenção Básica</td>
+<td>Gestão, monitoramento e avaliação da Atenção Básica</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sistemas-de-imunização" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="sistemas-de-imunização"><span class="header-section-number">3.7</span> Sistemas de imunização</h2>
+<p>As ações de vacinação são registradas no Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>). Sua função é apoiar o monitoramento de doses aplicadas, coberturas vacinais, campanhas e registros de imunização.</p>
+<p>Historicamente, a vacinação foi acompanhada por dados agregados e instrumentos de consolidação periódica. Com a evolução dos sistemas digitais, ganhou importância o registro individualizado das doses aplicadas, o que permite análises mais detalhadas, mas também exige maior cuidado com duplicidades, perdas de registro e consistência entre bases <span class="citation" data-cites="moraesConfiabilidadeInformacoesRegistradas2024">(<a href="referencias.html#ref-moraesConfiabilidadeInformacoesRegistradas2024" role="doc-biblioref">MORAES et al., 2024</a>)</span>.</p>
+</section>
+<section id="cobertura-todo-o-território-sus-e-saúde-suplementar" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="cobertura-todo-o-território-sus-e-saúde-suplementar"><span class="header-section-number">3.8</span> Cobertura: todo o território, SUS e saúde suplementar</h2>
+<p>Um ponto central na organização dos SIS é a cobertura. Alguns sistemas buscam registrar eventos ocorridos em todo o território nacional, independentemente de terem acontecido em serviços públicos, privados, filantrópicos ou suplementares. É o caso de SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>), SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>), SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>), CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) e SISAGUA (<a href="sisagua.html" class="quarto-xref"><span>Capítulo 12</span></a>), ainda que cada um tenha suas próprias regras e limitações de cobertura.</p>
+<p>Outros sistemas registram principalmente eventos ou produção vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>), SIOPS (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>), SISAB (<a href="sisab.html" class="quarto-xref"><span>Capítulo 13</span></a>) e SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>) devem ser interpretados com essa delimitação em mente.</p>
 <div class="callout callout-style-simple callout-none no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>O Sistema Único de Saúde (SUS) engloba todos os profissionais, estabelecimentos e serviços de saúde oferecidos no Brasil, independente de serem privados, públicos ou filantrópicos.</p>
-<p>Na estrutura do SUS, os serviços <em>privados</em> de saúde, como atendimentos particulares, clínicas privadas e planos de saúde privados, são visto como uma estrutura de <a href="https://www.gov.br/servidor/pt-br/acesso-a-informacao/faq/sou-gov.br/saude-suplementar/conceito-e-legislacao">Saúde Suplementar</a> aos serviços públicos de saúde e são regulamentados pela <a href="https://www.gov.br/ans/pt-br">Agência Nacional de Saúde Suplementar (ANS)</a>.</p>
+<p>O Sistema Único de Saúde (SUS) organiza ações e serviços de saúde no Brasil e envolve responsabilidades públicas de gestão, financiamento, regulação e prestação de serviços. Na prática, a rede utilizada pelo SUS pode incluir estabelecimentos públicos, filantrópicos e privados conveniados.</p>
+<p>Os serviços privados não vinculados ao SUS, como atendimentos particulares, clínicas privadas e planos de saúde, compõem a saúde suplementar e são regulados pela <a href="https://www.gov.br/ans/pt-br">Agência Nacional de Saúde Suplementar (ANS)</a>.</p>
 </div>
 </div>
 </div>
-<p>Por outro lado, alguns SIS são restritos à dimensão pública do SUS. Neste caso, apenas eventos de saúde ocorridos em estabelecimentos de saúde públicos são registrados. SIH e SIA são exemplos de SIS com este tipo de cobertura. A ANS apresenta regularmente dados sobre eventos de saúde ocorridos na dimensão privada do SUS.</p>
+<p>Dados sobre a saúde suplementar são produzidos e disseminados pela ANS (<a href="ans.html" class="quarto-xref"><span>Apêndice G</span></a>). Por isso, perguntas sobre utilização de serviços privados, cobertura de planos, beneficiários e produção assistencial da saúde suplementar exigem bases específicas, não apenas os sistemas do DataSUS.</p>
 </section>
-<section id="doenças-agravos-e-sis" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="doenças-agravos-e-sis"><span class="header-section-number">3.5</span> Doenças, agravos e SIS</h2>
-<p>É importante destacar que os diferentes SIS são organizados por <strong>eventos de saúde</strong> e não por doenças e agravos. Eventos de saúde são nascimentos, internações, atendimentos ambulatoriais, notificação de suspeita de doença, imunizações e óbitos, entre outros.</p>
-<p>O capítulo a seguir detalha o que são eventos de saúde e sua correspondência com os principais SIS.</p>
+<section id="níveis-geográficos" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="níveis-geográficos"><span class="header-section-number">3.9</span> Níveis geográficos</h2>
+<p>A maior parte dos SIS permite análises territoriais, mas o significado do território varia conforme o campo utilizado. Em alguns sistemas, é possível distinguir município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento. Esses campos respondem a perguntas diferentes.</p>
+<table class="caption-top table">
+<caption>Campos territoriais comuns nos SIS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campo territorial</th>
+<th>Pergunta respondida</th>
+<th>Exemplo de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Residência</td>
+<td>Onde vive a pessoa?</td>
+<td>Risco populacional e perfil dos residentes</td>
+</tr>
+<tr class="even">
+<td>Ocorrência</td>
+<td>Onde o evento aconteceu?</td>
+<td>Local do óbito, nascimento ou agravo</td>
+</tr>
+<tr class="odd">
+<td>Atendimento</td>
+<td>Onde o cuidado foi prestado?</td>
+<td>Fluxos assistenciais e acesso a serviços</td>
+</tr>
+<tr class="even">
+<td>Notificação</td>
+<td>Onde o caso foi registrado?</td>
+<td>Capacidade local de vigilância</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Qual serviço produziu o registro?</td>
+<td>Oferta, produção e estrutura da rede</td>
+</tr>
+</tbody>
+</table>
+<p>Confundir esses campos pode mudar completamente a interpretação. Uma internação registrada em uma capital pode se referir a uma pessoa residente em outro município; uma notificação pode ocorrer em local diferente do provável local de infecção; e um óbito pode ocorrer fora do município de residência.</p>
+</section>
+<section id="periodicidade-e-versões-dos-dados" class="level2" data-number="3.10">
+<h2 data-number="3.10" class="anchored" data-anchor-id="periodicidade-e-versões-dos-dados"><span class="header-section-number">3.10</span> Periodicidade e versões dos dados</h2>
+<p>Os SIS também diferem quanto à periodicidade de disseminação. Alguns sistemas são disseminados anualmente, após processos mais longos de crítica e consolidação. Outros têm atualização mensal ou disponibilizam registros preliminares em prazos menores.</p>
+<table class="caption-top table">
+<caption>Diferenças práticas entre periodicidades e versões dos dados</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de dado</th>
+<th>Característica</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Preliminar</td>
+<td>Mais oportuno</td>
+<td>Pode ter incompletude e revisão posterior</td>
+</tr>
+<tr class="even">
+<td>Consolidado</td>
+<td>Mais revisado</td>
+<td>Costuma chegar com maior defasagem</td>
+</tr>
+<tr class="odd">
+<td>Mensal</td>
+<td>Útil para monitoramento contínuo</td>
+<td>Pode variar por atraso de envio</td>
+</tr>
+<tr class="even">
+<td>Anual</td>
+<td>Útil para séries consolidadas</td>
+<td>Menos adequado para resposta imediata</td>
+</tr>
+</tbody>
+</table>
+<p>Na análise, a escolha entre dado preliminar e consolidado depende da pergunta. Monitoramento de uma situação em curso pode exigir dados mais oportunos, mesmo com incerteza maior. Estudos retrospectivos, indicadores oficiais e séries históricas geralmente se beneficiam de bases consolidadas.</p>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="3.11">
+<h2 data-number="3.11" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">3.11</span> Unidade de análise</h2>
+<p>Outro cuidado fundamental é identificar a unidade de análise. Uma linha em uma base pode representar uma pessoa, um evento, uma autorização, um procedimento, um estabelecimento, uma equipe ou um lançamento financeiro. Confundir essas unidades leva a interpretações incorretas.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema</th>
+<th>Unidade de análise típica</th>
+<th>Cuidado de interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Declaração de Óbito (DO)</td>
+<td>Um registro representa um óbito</td>
+</tr>
+<tr class="even">
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Declaração de Nascido Vivo (DN)</td>
+<td>Um registro representa um nascido vivo</td>
+</tr>
+<tr class="odd">
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Ficha de notificação</td>
+<td>Nem toda notificação é caso confirmado</td>
+</tr>
+<tr class="even">
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Autorização de Internação Hospitalar (AIH)</td>
+<td>Uma pessoa pode ter mais de uma AIH</td>
+</tr>
+<tr class="odd">
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Procedimento ou instrumento de produção</td>
+<td>Uma pessoa pode gerar múltiplos procedimentos</td>
+</tr>
+<tr class="even">
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Estabelecimento ou recurso</td>
+<td>A unidade varia conforme o arquivo</td>
+</tr>
+<tr class="odd">
+<td>SIOPS (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>)</td>
+<td>Informação orçamentária</td>
+<td>Depende do ente federado e período</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="doenças-agravos-e-eventos-de-saúde" class="level2" data-number="3.12">
+<h2 data-number="3.12" class="anchored" data-anchor-id="doenças-agravos-e-eventos-de-saúde"><span class="header-section-number">3.12</span> Doenças, agravos e eventos de saúde</h2>
+<p>É importante destacar que os diferentes SIS são organizados principalmente por <strong>eventos de saúde</strong>, e não por doenças e agravos. Eventos de saúde incluem nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de casos suspeitos, imunizações, cadastros de estabelecimentos e registros financeiros.</p>
+<p>Assim, ao estudar uma doença ou agravo, o primeiro passo é identificar quais eventos ela pode produzir e quais sistemas registram cada evento. Uma mesma doença pode aparecer no SINAN como notificação, no SIH como internação, no SIA como procedimento ambulatorial e no SIM como óbito.</p>
+</section>
+<section id="como-escolher-o-sistema" class="level2" data-number="3.13">
+<h2 data-number="3.13" class="anchored" data-anchor-id="como-escolher-o-sistema"><span class="header-section-number">3.13</span> Como escolher o sistema</h2>
+<p>A tabela a seguir resume escolhas frequentes de acordo com o tipo de pergunta. Ela não substitui a leitura dos capítulos específicos, mas ajuda a direcionar a busca inicial.</p>
+<table class="caption-top table">
+<caption>Escolha inicial do SIS conforme a pergunta de análise</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Sistema mais provável</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantos óbitos ocorreram?</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Ver causa básica, residência e ocorrência</td>
+</tr>
+<tr class="even">
+<td>Quantos nascimentos ocorreram?</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Útil para indicadores materno-infantis</td>
+</tr>
+<tr class="odd">
+<td>Quantos casos foram notificados?</td>
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Separar suspeitos, confirmados e descartados</td>
+</tr>
+<tr class="even">
+<td>Quantas internações ocorreram no SUS?</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Não representa toda a rede privada</td>
+</tr>
+<tr class="odd">
+<td>Quantos procedimentos ambulatoriais foram feitos no SUS?</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Pessoa e procedimento não são equivalentes</td>
+</tr>
+<tr class="even">
+<td>Onde estão os estabelecimentos e serviços?</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Observar competência e tipo de arquivo</td>
+</tr>
+<tr class="odd">
+<td>Como acompanhar gastos públicos em saúde?</td>
+<td>SIOPS (<a href="siops.html" class="quarto-xref"><span>Capítulo 11</span></a>)</td>
+<td>Comparar ente federado e período</td>
+</tr>
+<tr class="even">
+<td>Como analisar vacinação?</td>
+<td>SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 14</span></a>)</td>
+<td>Ver registro individual, doses e cobertura</td>
+</tr>
+<tr class="odd">
+<td>Como analisar saúde suplementar?</td>
+<td>ANS (<a href="ans.html" class="quarto-xref"><span>Apêndice G</span></a>)</td>
+<td>Usar bases específicas da ANS</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exemplo-dengue" class="level2" data-number="3.14">
+<h2 data-number="3.14" class="anchored" data-anchor-id="exemplo-dengue"><span class="header-section-number">3.14</span> Exemplo: dengue</h2>
+<p>A dengue ilustra por que uma doença não corresponde a um único sistema. Dependendo da pergunta, a análise pode exigir bases diferentes:</p>
+<table class="caption-top table">
+<caption>Exemplos de eventos e sistemas para análise de dengue</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Evento relacionado à dengue</th>
+<th>Sistema</th>
+<th>Pergunta possível</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Caso suspeito ou confirmado</td>
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Como evoluem as notificações e confirmações?</td>
+</tr>
+<tr class="even">
+<td>Atendimento ou exame ambulatorial</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Que procedimentos foram realizados no SUS?</td>
+</tr>
+<tr class="odd">
+<td>Internação por dengue</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Quantos casos graves demandaram hospitalização?</td>
+</tr>
+<tr class="even">
+<td>Óbito por dengue</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Quantas mortes tiveram dengue como causa básica?</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimentos envolvidos</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Onde estão os serviços que notificam ou atendem?</td>
+</tr>
+</tbody>
+</table>
+<p>Esse raciocínio vale para outros temas. Acidentes de trânsito, COVID-19, agravos relacionados ao trabalho, saúde materno-infantil e doenças crônicas podem aparecer em múltiplos SIS, cada um registrando um aspecto diferente do fenômeno.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Erros comuns ao utilizar SIS incluem tratar AIH como pessoa única, contar notificações do SINAN como casos confirmados sem filtrar a classificação final, usar SIH e SIA como se representassem toda a assistência pública e privada do país, ignorar município de residência versus município de atendimento, comparar bases preliminares com bases consolidadas sem cautela e desconsiderar mudanças de layout ou definição ao longo do tempo.</p>
+</div>
+</div>
+<p>O capítulo a seguir detalha o que são eventos de saúde e como eles se relacionam com os principais SIS.</p>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-caetanoSistemaInformacaoAgravos2009" class="csl-entry" role="listitem">
+CAETANO, R. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> de <span>Agravos</span> de <span>Notifica<span>ç</span><span>ã</span>o</span> (<span>Sinan</span>). Em: MINISTÉRIO DA SAÚDE (Ed.). <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-ministeriodasaudeExperienciaBrasileiraEm2009" class="csl-entry" role="listitem">
+MINISTÉRIO DA SAÚDE, F. O. C., Organização Pan-Americana da Saúde. <strong><span>A experi<span>ê</span>ncia brasileira em sistemas de informa<span>ç</span><span>ã</span>o em sa<span>ú</span>de</span></strong>. Bras<span>í</span>lia: Ministério da Saúde, 2009. v. 2
+</div>
+<div id="ref-moraesConfiabilidadeInformacoesRegistradas2024" class="csl-entry" role="listitem">
+MORAES, J. C. D. et al. <a href="https://doi.org/10.1590/s2237-96222024v33e20231309.especial2.pt">Confiabilidade das informações registradas no Sistema de Informação do Programa Nacional de Imunizações</a>. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 33, p. e20231309, 2024.
+</div>
+<div id="ref-pepeSistemaInformacoesHospitalares2009" class="csl-entry" role="listitem">
+PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalares</span> Do <span>Sistema <span>Ú</span>nico</span> de <span>Sa<span>ú</span>de</span> (<span>SIH-SUS</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-sennaSistemaInformacoesSobre2009" class="csl-entry" role="listitem">
+SENNA, M. DE C. M. Sistema de <span>Informa<span>ç</span><span>õ</span>es</span> Sobre <span>Mortalidade</span> (<span>SIM</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-viacavaSistemaInformacaoSobre2009" class="csl-entry" role="listitem">
+VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre <span>Nascidos Vivos</span> (<span>Sinasc</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -621,7 +1185,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -965,4 +1529,4 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/organizacao.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

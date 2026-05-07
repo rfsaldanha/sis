@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Raphael de Freitas Saldanha">
+<meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
 <title>Sistemas de Informação em Saúde no Brasil</title>
 <style>
@@ -23,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -277,7 +313,8 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sistemas de Informação em Saúde no Brasil</a> 
-        <div class="sidebar-tools-main">
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -470,6 +507,11 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <h1 class="title">Sistemas de Informação em Saúde no Brasil</h1>
 </div>
 
+<div>
+  <div class="description">
+    E-book sobre os principais Sistemas de Informação em Saúde no Brasil.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -498,13 +540,35 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 <section id="bem-vindo" class="level1 unnumbered">
 <h1 class="unnumbered">Bem-vindo</h1>
-<p>Este <em>e-book</em> busca apresentar os principais Sistemas de Informação em Saúde (SIS) no Brasil, com detalhes sobre sua história, dados disponíveis, principais usos e indicadores.</p>
+<p>Este <em>e-book</em> apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.</p>
+<p>O material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.</p>
+<section id="o-que-você-encontra-neste-livro" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-você-encontra-neste-livro">O que você encontra neste livro</h2>
+<p>Os capítulos iniciais apresentam conceitos gerais, a trajetória brasileira de implantação dos SIS e a forma como os sistemas se organizam em torno de eventos de saúde, como nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações, imunizações e registros de estabelecimentos.</p>
+<p>Em seguida, cada sistema é descrito com foco em quatro perguntas práticas:</p>
+<ul>
+<li>Qual evento de saúde o sistema registra?</li>
+<li>Qual é sua cobertura e unidade de análise?</li>
+<li>Como os dados são coletados, processados e disseminados?</li>
+<li>Que usos, cuidados e limitações devem ser considerados na análise?</li>
+</ul>
+</section>
 </section>
 <section id="como-citar-este-material" class="level1">
 <h1>Como citar este material?</h1>
 <blockquote class="blockquote">
 <p>SALDANHA, Raphael de Freitas. <strong>Sistemas de Informação em Saúde no Brasil</strong>. E-book. Disponível em <a href="https://rfsaldanha.github.io/sis/" class="uri">https://rfsaldanha.github.io/sis/</a>. ISBN: 978-65-01-37841-1.</p>
 </blockquote>
+<section id="bibtex" class="level2">
+<h2 class="anchored" data-anchor-id="bibtex">BibTeX</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@book</span>{<span class="ot">saldanha_sis_brasil</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Saldanha, Raphael de Freitas},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {Sistemas de Informação em Saúde no Brasil},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = {https://rfsaldanha.github.io/sis/},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">isbn</span> = {978-65-01-37841-1},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">note</span> = {E-book}</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
 </section>
 <section id="sobre-o-autor" class="level1">
 <h1>Sobre o autor</h1>
@@ -604,7 +668,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -945,4 +1009,4 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

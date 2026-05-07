@@ -1,0 +1,401 @@
+[
+{
+  "start": 0,
+  "end": 13.978,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre uma ideia que parece simples, mas que muda bastante a forma como usamos os Sistemas de Informação em Saúde: a ideia de evento de saúde."
+}
+,
+{
+  "start": 14.328,
+  "end": 18.043,
+  "speaker": "ESTUDANTE",
+  "text": "Quando você fala em evento de saúde, está falando de uma doença?"
+}
+,
+{
+  "start": 18.393,
+  "end": 38.084,
+  "speaker": "APRESENTADORA",
+  "text": "Não exatamente. A doença pode ser o problema de interesse, mas o evento é aquilo que foi registrado em algum momento. Pode ser um nascimento, um óbito, uma internação, uma notificação, um atendimento ambulatorial, uma dose de vacina aplicada ou um procedimento realizado."
+}
+,
+{
+  "start": 38.434,
+  "end": 45.307,
+  "speaker": "ESTUDANTE",
+  "text": "Então, antes de escolher uma base de dados, eu não deveria perguntar apenas qual sistema tem dados sobre uma doença?"
+}
+,
+{
+  "start": 45.657,
+  "end": 69.759,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Essa pergunta ajuda, mas é incompleta. Uma pergunta melhor é: quais eventos esse problema de saúde pode produzir? Ao estudar dengue, por exemplo, a pessoa pode procurar atendimento, ser notificada como caso suspeito, realizar exames, ser internada e, em uma situação extrema, evoluir para óbito."
+}
+,
+{
+  "start": 70.109,
+  "end": 73.406,
+  "speaker": "ESTUDANTE",
+  "text": "E esses eventos podem estar em sistemas diferentes."
+}
+,
+{
+  "start": 73.756,
+  "end": 97.858,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O atendimento ou exame pode aparecer no SIA. A notificação e a investigação podem aparecer no SINAN. A internação pode aparecer no SIH. O óbito pode aparecer no SIM. Não são quatro versões da mesma informação. São eventos diferentes, registrados por instrumentos diferentes e com finalidades diferentes."
+}
+,
+{
+  "start": 98.208,
+  "end": 104.152,
+  "speaker": "ESTUDANTE",
+  "text": "Isso explica por que às vezes dois sistemas parecem contar histórias diferentes sobre o mesmo problema."
+}
+,
+{
+  "start": 104.502,
+  "end": 131.437,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Um aumento de notificações no SINAN pode indicar aumento da transmissão, mas também pode refletir maior sensibilidade da vigilância, mudança na definição de caso ou melhoria na notificação. Da mesma forma, internações no SIH informam internações financiadas pelo SUS. Elas não representam automaticamente todas as internações ocorridas no país."
+}
+,
+{
+  "start": 131.787,
+  "end": 135.316,
+  "speaker": "ESTUDANTE",
+  "text": "Então a primeira tarefa é entender o que o sistema registra."
+}
+,
+{
+  "start": 135.666,
+  "end": 150.620,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Precisamos saber se a base registra pessoas, eventos, procedimentos, autorizações, documentos ou episódios de cuidado. Isso muda completamente a interpretação das contagens."
+}
+,
+{
+  "start": 150.970,
+  "end": 152.131,
+  "speaker": "ESTUDANTE",
+  "text": "Pode dar um exemplo?"
+}
+,
+{
+  "start": 152.481,
+  "end": 181.506,
+  "speaker": "APRESENTADORA",
+  "text": "Claro. No SIA, a unidade de análise frequentemente é o procedimento, não a pessoa. Uma mesma pessoa pode realizar vários exames ou procedimentos. No SIH, uma pessoa pode ter mais de uma autorização de internação hospitalar. No SINAN, um registro pode se referir a um caso suspeito que depois será confirmado ou descartado. No SIM, cada registro corresponde a um óbito."
+}
+,
+{
+  "start": 181.856,
+  "end": 185.200,
+  "speaker": "ESTUDANTE",
+  "text": "Então contar registros não é sempre contar pessoas."
+}
+,
+{
+  "start": 185.550,
+  "end": 203.290,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Esse é um dos erros mais comuns. Em alguns contextos, uma contagem de registros aproxima uma contagem de pessoas. Em outros, não. A equivalência depende do sistema, do instrumento de registro e da pergunta de análise."
+}
+,
+{
+  "start": 203.640,
+  "end": 210.374,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala do caminho entre o evento acontecer e virar dado analisável. Por que isso é importante?"
+}
+,
+{
+  "start": 210.724,
+  "end": 232.597,
+  "speaker": "APRESENTADORA",
+  "text": "Porque o dado não aparece instantaneamente. O evento acontece. Depois pode haver registro inicial, investigação, crítica ou validação, digitação, envio ao sistema, consolidação da base e disseminação dos dados. Cada etapa pode ter datas e atrasos próprios."
+}
+,
+{
+  "start": 232.947,
+  "end": 239.449,
+  "speaker": "ESTUDANTE",
+  "text": "Então data de sintomas, data de notificação e data de digitação não significam a mesma coisa."
+}
+,
+{
+  "start": 239.799,
+  "end": 265.248,
+  "speaker": "APRESENTADORA",
+  "text": "Isso mesmo. A data de início dos sintomas se aproxima do início clínico do caso. A data de notificação indica quando o serviço ou a vigilância registrou o caso. A data de digitação ou envio informa parte do funcionamento administrativo do sistema. Em epidemias, usar uma data no lugar da outra pode distorcer a leitura da situação."
+}
+,
+{
+  "start": 265.598,
+  "end": 268.245,
+  "speaker": "ESTUDANTE",
+  "text": "Isso tem relação com atraso de notificação?"
+}
+,
+{
+  "start": 268.595,
+  "end": 291.211,
+  "speaker": "APRESENTADORA",
+  "text": "Tem. O atraso de notificação é o intervalo entre a ocorrência, ou o conhecimento do evento, e sua entrada no sistema. Em epidemias e desastres, esse atraso pode aumentar porque os serviços estão atendendo a população, investigando casos, preenchendo fichas, digitando e enviando dados ao mesmo tempo."
+}
+,
+{
+  "start": 291.561,
+  "end": 296.112,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos voltar ao exemplo da dengue. Como a lógica de eventos ajuda nesse caso?"
+}
+,
+{
+  "start": 296.462,
+  "end": 323.351,
+  "speaker": "APRESENTADORA",
+  "text": "Ela ajuda a separar a trajetória em partes. A pessoa tem sintomas, busca atendimento ambulatorial, pode ser notificada como caso suspeito, investigada, classificada, internada se houver agravamento e, em casos extremos, evoluir para óbito. Cada uma dessas etapas pode aparecer em um sistema diferente e responder a uma pergunta diferente."
+}
+,
+{
+  "start": 323.701,
+  "end": 337.261,
+  "speaker": "ESTUDANTE",
+  "text": "O SIA ajudaria a ver atendimentos e exames. O SINAN ajudaria a ver suspeitas, investigação e classificação. O SIH ajudaria a ver internações. E o SIM ajudaria a ver óbitos."
+}
+,
+{
+  "start": 337.611,
+  "end": 355.676,
+  "speaker": "APRESENTADORA",
+  "text": "Ótimo resumo. Mas é importante lembrar que essas bases não devem ser misturadas sem cuidado. Notificados, internados e óbitos não são a mesma população. Também não estão necessariamente no mesmo momento da trajetória."
+}
+,
+{
+  "start": 356.026,
+  "end": 358.720,
+  "speaker": "ESTUDANTE",
+  "text": "E isso também vale para acidentes de trânsito?"
+}
+,
+{
+  "start": 359.070,
+  "end": 390.788,
+  "speaker": "APRESENTADORA",
+  "text": "Vale. Um acidente pode gerar atendimento ambulatorial, internação por lesão, óbito por causa externa e uso de serviços específicos. O SIA pode ajudar a estudar produção ambulatorial. O SIH pode informar internações, gravidade e permanência hospitalar. O SIM permite estudar mortalidade por acidentes de transporte. O CNES pode ajudar a caracterizar os estabelecimentos envolvidos no cuidado."
+}
+,
+{
+  "start": 391.138,
+  "end": 398.661,
+  "speaker": "ESTUDANTE",
+  "text": "Nesse caso, a causa externa, o local do acidente, o tipo de vítima e o serviço de atendimento podem estar distribuídos."
+}
+,
+{
+  "start": 399.011,
+  "end": 407.231,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Por isso, a análise depende de reconhecer qual dimensão do problema cada sistema registra."
+}
+,
+{
+  "start": 407.581,
+  "end": 410.553,
+  "speaker": "ESTUDANTE",
+  "text": "Sobre doenças e agravos, o SINAN parece central."
+}
+,
+{
+  "start": 410.903,
+  "end": 436.259,
+  "speaker": "APRESENTADORA",
+  "text": "Ele é muito importante para a vigilância em saúde. Mas mesmo no SINAN precisamos ter cuidado. Em geral, os casos entram primeiro como suspeitos. Depois da investigação, podem ser confirmados, descartados, inconclusivos ou permanecer em acompanhamento, dependendo do agravo, dos exames disponíveis, dos critérios clínicos e das regras de vigilância."
+}
+,
+{
+  "start": 436.609,
+  "end": 438.234,
+  "speaker": "ESTUDANTE",
+  "text": "Então não basta somar tudo."
+}
+,
+{
+  "start": 438.584,
+  "end": 451.959,
+  "speaker": "APRESENTADORA",
+  "text": "Não. Misturar suspeitos, confirmados e descartados pode gerar uma interpretação ruim. A classificação final e o momento da extração dos dados importam bastante."
+}
+,
+{
+  "start": 452.309,
+  "end": 461.272,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala de território. Município de residência, município de notificação e local provável de infecção são diferentes."
+}
+,
+{
+  "start": 461.622,
+  "end": 484.285,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Imagine uma pessoa que mora no Rio de Janeiro, se infecta por malária no Oiapoque e procura atendimento em Belém. A residência, o local provável de infecção e o local de notificação são distintos. Para análise espacial e para orientar ações de vigilância, essa diferença é fundamental."
+}
+,
+{
+  "start": 484.635,
+  "end": 487.654,
+  "speaker": "ESTUDANTE",
+  "text": "E onde entram os casos autóctones e alóctones?"
+}
+,
+{
+  "start": 488.004,
+  "end": 507.973,
+  "speaker": "APRESENTADORA",
+  "text": "Um caso autóctone é aquele em que a infecção provavelmente ocorreu no território analisado. Um caso alóctone é aquele em que a infecção provavelmente aconteceu em outro território. Essa distinção pode mudar completamente a interpretação de um mapa ou de uma série histórica."
+}
+,
+{
+  "start": 508.323,
+  "end": 511.945,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar de outros eventos. As internações, por exemplo."
+}
+,
+{
+  "start": 512.295,
+  "end": 542.388,
+  "speaker": "APRESENTADORA",
+  "text": "Internações são eventos de cuidado hospitalar. No SUS, elas são registradas no SIH, tendo a Autorização de Internação Hospitalar como instrumento central. Internações podem indicar maior gravidade, dificuldade de acesso a cuidados oportunos, falhas de prevenção ou necessidade de serviços especializados. Mas, novamente, o SIH registra internações financiadas pelo SUS."
+}
+,
+{
+  "start": 542.738,
+  "end": 543.806,
+  "speaker": "ESTUDANTE",
+  "text": "E os óbitos?"
+}
+,
+{
+  "start": 544.156,
+  "end": 574.342,
+  "speaker": "APRESENTADORA",
+  "text": "Os óbitos são eventos vitais e epidemiológicos centrais. No SIM, os registros vêm da Declaração de Óbito e permitem estudar mortalidade por idade, sexo, raça ou cor, município de residência, município de ocorrência e causa de morte. Um conceito importante é o de causa básica do óbito: a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte."
+}
+,
+{
+  "start": 574.692,
+  "end": 577.014,
+  "speaker": "ESTUDANTE",
+  "text": "Nascimentos entram no SINASC, certo?"
+}
+,
+{
+  "start": 577.364,
+  "end": 602.999,
+  "speaker": "APRESENTADORA",
+  "text": "Certo. Os nascidos vivos são registrados no SINASC, a partir da Declaração de Nascido Vivo. O sistema permite analisar peso ao nascer, idade gestacional, tipo de parto, características da mãe, local de ocorrência e outros elementos importantes para a saúde materno-infantil. Já os óbitos fetais são registrados no SIM."
+}
+,
+{
+  "start": 603.349,
+  "end": 605.625,
+  "speaker": "ESTUDANTE",
+  "text": "E vacinação é outro tipo de evento."
+}
+,
+{
+  "start": 605.975,
+  "end": 626.409,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. No SI-PNI, encontramos registros de doses aplicadas e informações relacionadas a campanhas e esquemas vacinais. Ao analisar vacinação, é importante distinguir doses aplicadas, pessoas vacinadas, esquemas completos e coberturas vacinais."
+}
+,
+{
+  "start": 626.759,
+  "end": 629.545,
+  "speaker": "ESTUDANTE",
+  "text": "Porque cobertura depende também do denominador."
+}
+,
+{
+  "start": 629.895,
+  "end": 661.613,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Muitos indicadores combinam eventos registrados em um sistema com denominadores de outra fonte. A mortalidade infantil usa óbitos em menores de um ano no SIM e nascidos vivos no SINASC. A cobertura vacinal usa doses aplicadas no SI-PNI e uma população-alvo. A taxa de internação usa internações no SIH e população residente. Escolher o denominador errado pode distorcer a interpretação."
+}
+,
+{
+  "start": 661.963,
+  "end": 665.307,
+  "speaker": "ESTUDANTE",
+  "text": "Em algumas perguntas, é preciso relacionar sistemas."
+}
+,
+{
+  "start": 665.657,
+  "end": 695.053,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Para estudar óbitos infantis entre nascidos vivos, podemos combinar SINASC e SIM. Para investigar mortes entre casos notificados, podemos combinar SINAN e SIM. Para analisar internações após uma notificação, podemos relacionar SINAN e SIH. Para estudar produção de serviços por estabelecimento, podemos combinar SIA, SIH e CNES."
+}
+,
+{
+  "start": 695.403,
+  "end": 698.886,
+  "speaker": "ESTUDANTE",
+  "text": "Mas relacionar bases também traz riscos metodológicos."
+}
+,
+{
+  "start": 699.236,
+  "end": 711.775,
+  "speaker": "APRESENTADORA",
+  "text": "Traz. É preciso considerar privacidade, qualidade dos campos identificadores, perdas de pareamento, duplicidades e diferenças temporais entre os sistemas."
+}
+,
+{
+  "start": 712.125,
+  "end": 715.887,
+  "speaker": "ESTUDANTE",
+  "text": "Se você tivesse que fechar com uma lista de cuidados, quais seriam?"
+}
+,
+{
+  "start": 716.237,
+  "end": 758.126,
+  "speaker": "APRESENTADORA",
+  "text": "Primeiro, identificar a unidade de análise da base. Segundo, separar casos suspeitos, confirmados, descartados e inconclusivos. Terceiro, distinguir residência, ocorrência, atendimento, infecção e notificação. Quarto, verificar se a cobertura é nacional, SUS, conveniada ou saúde suplementar. Quinto, observar se os dados são preliminares ou consolidados. Sexto, considerar atrasos de notificação, digitação e disseminação. E, por fim, checar mudanças históricas em fichas, variáveis, códigos e definições."
+}
+,
+{
+  "start": 758.476,
+  "end": 764.002,
+  "speaker": "ESTUDANTE",
+  "text": "Então a mensagem principal é que os sistemas não são apenas depósitos genéricos de dados."
+}
+,
+{
+  "start": 764.352,
+  "end": 787.990,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Eles registram eventos específicos, em contextos institucionais específicos, com finalidades específicas. Para escolher bem uma base, construir bons indicadores e interpretar resultados com rigor, precisamos começar pela pergunta certa: qual evento de saúde estou tentando observar?"
+}
+,
+{
+  "start": 788.340,
+  "end": 791.777,
+  "speaker": "ESTUDANTE",
+  "text": "Essa pergunta parece simples, mas muda bastante a análise."
+}
+,
+{
+  "start": 792.127,
+  "end": 801.322,
+  "speaker": "APRESENTADORA",
+  "text": "Muda mesmo. E é por isso que ela é um bom ponto de partida para estudar os Sistemas de Informação em Saúde. Até o próximo episódio."
+}
+
+]

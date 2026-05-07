@@ -1,0 +1,233 @@
+[
+{
+  "start": 0,
+  "end": 12.910,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre a introdução do livro e sobre uma ideia central: os Sistemas de Informação em Saúde são muito mais do que bancos de dados."
+}
+,
+{
+  "start": 13.260,
+  "end": 23.245,
+  "speaker": "ESTUDANTE",
+  "text": "Essa é uma boa provocação. Porque, quando a gente pensa em sistema de informação, a primeira imagem costuma ser uma tabela, uma base ou uma tela de consulta."
+}
+,
+{
+  "start": 23.595,
+  "end": 47.279,
+  "speaker": "APRESENTADORA",
+  "text": "Exato. Mas um Sistema de Informação em Saúde envolve instrumentos, pessoas, normas, tecnologias, fluxos e usos. Ele inclui a definição do evento que será registrado, o formulário ou interface de entrada, as regras de validação, a transmissão, a consolidação, a disseminação e a análise."
+}
+,
+{
+  "start": 47.629,
+  "end": 50.508,
+  "speaker": "ESTUDANTE",
+  "text": "Então o banco de dados é só uma parte do processo."
+}
+,
+{
+  "start": 50.858,
+  "end": 65.208,
+  "speaker": "APRESENTADORA",
+  "text": "Isso mesmo. O banco é um produto importante, mas ele carrega marcas de todo o processo que veio antes. Para interpretar bem uma base, precisamos entender como o registro foi produzido."
+}
+,
+{
+  "start": 65.558,
+  "end": 68.344,
+  "speaker": "ESTUDANTE",
+  "text": "Por que isso é tão importante para a saúde pública?"
+}
+,
+{
+  "start": 68.694,
+  "end": 87.967,
+  "speaker": "APRESENTADORA",
+  "text": "Porque decisões em saúde dependem de dados oportunos e confiáveis. Vigilância, planejamento, financiamento, regulação, assistência e avaliação precisam de registros capazes de descrever o que acontece com a população e com os serviços."
+}
+,
+{
+  "start": 88.317,
+  "end": 94.819,
+  "speaker": "ESTUDANTE",
+  "text": "Então os SIS ajudam a transformar acontecimentos do sistema de saúde em informação para decisão."
+}
+,
+{
+  "start": 95.169,
+  "end": 109.380,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Eles coletam, processam, reportam e apoiam o uso de informações e conhecimento em saúde. A ideia é influenciar decisões, ações programáticas e pesquisa."
+}
+,
+{
+  "start": 109.730,
+  "end": 114.885,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala que a organização dos SIS varia entre países e ao longo do tempo."
+}
+,
+{
+  "start": 115.235,
+  "end": 135.529,
+  "speaker": "APRESENTADORA",
+  "text": "Varia bastante. Cada sistema responde a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas específicas. Por isso, o contexto de criação de um sistema importa para entender suas possibilidades e limitações."
+}
+,
+{
+  "start": 135.879,
+  "end": 139.734,
+  "speaker": "ESTUDANTE",
+  "text": "No Brasil, quais tipos de eventos os SIS costumam cobrir?"
+}
+,
+{
+  "start": 140.084,
+  "end": 165.719,
+  "speaker": "APRESENTADORA",
+  "text": "Eles cobrem eventos do ciclo de vida da população e também eventos relacionados ao funcionamento do sistema de saúde. Entram aí nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias."
+}
+,
+{
+  "start": 166.069,
+  "end": 167.880,
+  "speaker": "ESTUDANTE",
+  "text": "Parece um conjunto bem amplo."
+}
+,
+{
+  "start": 168.230,
+  "end": 185.924,
+  "speaker": "APRESENTADORA",
+  "text": "É amplo, e justamente por isso exige organização conceitual. Nem todo sistema responde à mesma pergunta. Alguns registram eventos vitais, outros produção assistencial, outros vigilância, cadastro, financiamento ou gestão."
+}
+,
+{
+  "start": 186.274,
+  "end": 192.218,
+  "speaker": "ESTUDANTE",
+  "text": "A introdução também distingue dado, informação e conhecimento. Pode explicar essa diferença?"
+}
+,
+{
+  "start": 192.568,
+  "end": 209.008,
+  "speaker": "APRESENTADORA",
+  "text": "Claro. O dado é o elemento mais simples: uma data, um código de município, uma causa de óbito, um procedimento realizado, uma dose de vacina aplicada. Isolado, ele descreve uma parte do real."
+}
+,
+{
+  "start": 209.358,
+  "end": 210.426,
+  "speaker": "ESTUDANTE",
+  "text": "E a informação?"
+}
+,
+{
+  "start": 210.776,
+  "end": 232.417,
+  "speaker": "APRESENTADORA",
+  "text": "A informação surge quando os dados são organizados, analisados e interpretados em relação a uma pergunta concreta. Uma contagem de óbitos por município, uma taxa de internação por faixa etária ou a proporção de casos confirmados entre notificações suspeitas já expressam algum processamento."
+}
+,
+{
+  "start": 232.767,
+  "end": 235.043,
+  "speaker": "ESTUDANTE",
+  "text": "Então conhecimento seria um passo além?"
+}
+,
+{
+  "start": 235.393,
+  "end": 252.762,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Conhecimento depende da articulação entre informação, contexto, experiência e reflexão. É com conhecimento que formulamos hipóteses, prioridades de ação, avaliações de desempenho e decisões de gestão."
+}
+,
+{
+  "start": 253.112,
+  "end": 256.781,
+  "speaker": "ESTUDANTE",
+  "text": "Isso ajuda a evitar a ideia de que os números falam sozinhos."
+}
+,
+{
+  "start": 257.131,
+  "end": 271.713,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Os números precisam ser interpretados. A utilidade dos SIS depende tanto da qualidade dos registros quanto da capacidade de ler esses registros de acordo com a pergunta em análise."
+}
+,
+{
+  "start": 272.063,
+  "end": 273.828,
+  "speaker": "ESTUDANTE",
+  "text": "E qual é o objetivo do livro?"
+}
+,
+{
+  "start": 274.178,
+  "end": 293.497,
+  "speaker": "APRESENTADORA",
+  "text": "O objetivo é apresentar os principais Sistemas de Informação em Saúde no Brasil, com informações sobre história, características dos dados e formas de utilização. A proposta é apoiar um melhor aproveitamento desses sistemas para a saúde pública brasileira."
+}
+,
+{
+  "start": 293.847,
+  "end": 296.958,
+  "speaker": "ESTUDANTE",
+  "text": "O livro vai tratar cada sistema de forma separada?"
+}
+,
+{
+  "start": 297.308,
+  "end": 315.280,
+  "speaker": "APRESENTADORA",
+  "text": "Sim, mas sem perder a visão de conjunto. Cada sistema é apresentado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação."
+}
+,
+{
+  "start": 315.630,
+  "end": 318.091,
+  "speaker": "ESTUDANTE",
+  "text": "Então não é apenas um catálogo de siglas."
+}
+,
+{
+  "start": 318.441,
+  "end": 334.323,
+  "speaker": "APRESENTADORA",
+  "text": "Não. A intenção é construir uma leitura crítica dos dados em saúde. Isso significa evitar tanto a subutilização das bases disponíveis quanto interpretações que ignoram os processos de produção dos dados."
+}
+,
+{
+  "start": 334.673,
+  "end": 338.574,
+  "speaker": "ESTUDANTE",
+  "text": "Se eu tivesse que guardar uma mensagem deste episódio, qual seria?"
+}
+,
+{
+  "start": 338.924,
+  "end": 355.921,
+  "speaker": "APRESENTADORA",
+  "text": "Guarde esta: um Sistema de Informação em Saúde não é apenas uma base pronta para análise. Ele é um processo social, técnico e institucional que transforma eventos e registros em informação útil para a saúde pública."
+}
+,
+{
+  "start": 356.271,
+  "end": 359.615,
+  "speaker": "ESTUDANTE",
+  "text": "E para usar bem esses dados, preciso entender esse processo."
+}
+,
+{
+  "start": 359.965,
+  "end": 364.609,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Esse é o ponto de partida para os próximos capítulos."
+}
+
+]

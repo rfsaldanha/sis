@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Se este livro foi útil para seu trabalho, por favor cite-o usando estes metadados."
+title: "Sistemas de Informação em Saúde no Brasil"
+authors:
+  - family-names: "Saldanha"
+    given-names: "Raphael de Freitas"
+url: "https://rfsaldanha.github.io/sis/"
+repository-code: "https://github.com/rfsaldanha/sis"
+date-released: "2026-05-07"
+identifiers:
+  - type: isbn
+    value: "978-65-01-37841-1"
+keywords:
+  - "Sistemas de Informação em Saúde"
+  - "SUS"
+  - "DATASUS"
+  - "Informação em Saúde"
+  - "Saúde Coletiva"
+abstract: "E-book sobre os principais Sistemas de Informação em Saúde no Brasil, incluindo história, organização, cobertura, dados disponíveis, usos analíticos, indicadores derivados e limitações."
+license: "MIT"
+preferred-citation:
+  type: book
+  title: "Sistemas de Informação em Saúde no Brasil"
+  authors:
+    - family-names: "Saldanha"
+      given-names: "Raphael de Freitas"
+  url: "https://rfsaldanha.github.io/sis/"
+  date-released: "2026-05-07"
+  identifiers:
+    - type: isbn
+      value: "978-65-01-37841-1"
