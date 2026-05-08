@@ -23,6 +23,9 @@ project:
     - podcast/sih.mp3
     - podcast/sih.md
     - podcast/sih_transcript.json
+    - podcast/sia.mp3
+    - podcast/sia.md
+    - podcast/sia_transcript.json
     - podcast/sync-transcript.js
 
 execute:

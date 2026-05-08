@@ -59,7 +59,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -121,6 +141,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
@@ -510,23 +533,49 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
    
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">8.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">8.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">8.3</span> Estrutura dos dados</a>
+  <li><a href="#quando-usar-o-sia" id="toc-quando-usar-o-sia" class="nav-link" data-scroll-target="#quando-usar-o-sia"><span class="header-section-number">8.2</span> Quando usar o SIA</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">8.3</span> Histórico e organização</a></li>
+  <li><a href="#sia-e-sih" id="toc-sia-e-sih" class="nav-link" data-scroll-target="#sia-e-sih"><span class="header-section-number">8.4</span> SIA e SIH</a></li>
+  <li><a href="#fluxo-da-produção-ambulatorial" id="toc-fluxo-da-produção-ambulatorial" class="nav-link" data-scroll-target="#fluxo-da-produção-ambulatorial"><span class="header-section-number">8.5</span> Fluxo da produção ambulatorial</a></li>
+  <li><a href="#instrumentos-de-registro" id="toc-instrumentos-de-registro" class="nav-link" data-scroll-target="#instrumentos-de-registro"><span class="header-section-number">8.6</span> Instrumentos de registro</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">8.7</span> Unidade de análise</a></li>
+  <li><a href="#roteiro-para-análise" id="toc-roteiro-para-análise" class="nav-link" data-scroll-target="#roteiro-para-análise"><span class="header-section-number">8.8</span> Roteiro para análise</a></li>
+  <li><a href="#procedimentos-e-sigtap" id="toc-procedimentos-e-sigtap" class="nav-link" data-scroll-target="#procedimentos-e-sigtap"><span class="header-section-number">8.9</span> Procedimentos e SIGTAP</a></li>
+  <li><a href="#análise-territorial-e-temporal" id="toc-análise-territorial-e-temporal" class="nav-link" data-scroll-target="#análise-territorial-e-temporal"><span class="header-section-number">8.10</span> Análise territorial e temporal</a></li>
+  <li><a href="#exemplo-produção-de-mamografias" id="toc-exemplo-produção-de-mamografias" class="nav-link" data-scroll-target="#exemplo-produção-de-mamografias"><span class="header-section-number">8.11</span> Exemplo: produção de mamografias</a>
   <ul class="collapse">
-  <li><a href="#arquivos-de-procedimentos-ambulatoriais" id="toc-arquivos-de-procedimentos-ambulatoriais" class="nav-link" data-scroll-target="#arquivos-de-procedimentos-ambulatoriais"><span class="header-section-number">8.3.1</span> Arquivos de Procedimentos Ambulatoriais</a></li>
-  <li><a href="#registro-das-ações-ambulatoriais-de-saúde" id="toc-registro-das-ações-ambulatoriais-de-saúde" class="nav-link" data-scroll-target="#registro-das-ações-ambulatoriais-de-saúde"><span class="header-section-number">8.3.2</span> Registro das Ações ambulatoriais de saúde</a></li>
-  <li><a href="#boletim-de-produção-ambulatorial-individualizado" id="toc-boletim-de-produção-ambulatorial-individualizado" class="nav-link" data-scroll-target="#boletim-de-produção-ambulatorial-individualizado"><span class="header-section-number">8.3.3</span> Boletim de Produção Ambulatorial Individualizado</a></li>
+  <li><a href="#indicador-mamografias-em-mulheres-de-50-a-69-anos" id="toc-indicador-mamografias-em-mulheres-de-50-a-69-anos" class="nav-link" data-scroll-target="#indicador-mamografias-em-mulheres-de-50-a-69-anos"><span class="header-section-number">8.11.1</span> Indicador: mamografias em mulheres de 50 a 69 anos</a></li>
   </ul></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">8.4</span> Acesso aos dados</a>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">8.12</span> Estrutura dos dados</a>
   <ul class="collapse">
-  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">8.4.1</span> TabNet</a></li>
-  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">8.4.2</span> TabWin</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">8.4.3</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">8.4.4</span> Python</a></li>
+  <li><a href="#campos-mínimos-para-inspecionar" id="toc-campos-mínimos-para-inspecionar" class="nav-link" data-scroll-target="#campos-mínimos-para-inspecionar"><span class="header-section-number">8.12.1</span> Campos mínimos para inspecionar</a></li>
+  <li><a href="#transformações-frequentes" id="toc-transformações-frequentes" class="nav-link" data-scroll-target="#transformações-frequentes"><span class="header-section-number">8.12.2</span> Transformações frequentes</a></li>
+  <li><a href="#prefixo-dos-arquivos" id="toc-prefixo-dos-arquivos" class="nav-link" data-scroll-target="#prefixo-dos-arquivos"><span class="header-section-number">8.12.3</span> Prefixo dos arquivos</a></li>
+  <li><a href="#guia-mínimo-de-dicionário" id="toc-guia-mínimo-de-dicionário" class="nav-link" data-scroll-target="#guia-mínimo-de-dicionário"><span class="header-section-number">8.12.4</span> Guia mínimo de dicionário</a></li>
   </ul></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">8.5</span> Bibliografia recomendada</a>
+  <li><a href="#apac-e-alta-complexidade" id="toc-apac-e-alta-complexidade" class="nav-link" data-scroll-target="#apac-e-alta-complexidade"><span class="header-section-number">8.13</span> APAC e alta complexidade</a></li>
+  <li><a href="#produção-rejeitada-e-crítica" id="toc-produção-rejeitada-e-crítica" class="nav-link" data-scroll-target="#produção-rejeitada-e-crítica"><span class="header-section-number">8.14</span> Produção rejeitada e crítica</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">8.15</span> Acesso aos dados</a></li>
+  <li><a href="#processamento-de-grandes-volumes" id="toc-processamento-de-grandes-volumes" class="nav-link" data-scroll-target="#processamento-de-grandes-volumes"><span class="header-section-number">8.16</span> Processamento de grandes volumes</a>
   <ul class="collapse">
-  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">8.5.1</span> Documentos auxiliares</a></li>
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">8.16.1</span> TabNet</a></li>
+  <li><a href="#tabwin-e-transferência-de-arquivos" id="toc-tabwin-e-transferência-de-arquivos" class="nav-link" data-scroll-target="#tabwin-e-transferência-de-arquivos"><span class="header-section-number">8.16.2</span> TabWin e transferência de arquivos</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">8.16.3</span> R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">8.16.4</span> Python</a></li>
+  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">8.16.5</span> PCDaS</a></li>
+  </ul></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">8.17</span> Relacionamento com outros sistemas</a></li>
+  <li><a href="#validação-reprodutível" id="toc-validação-reprodutível" class="nav-link" data-scroll-target="#validação-reprodutível"><span class="header-section-number">8.18</span> Validação reprodutível</a></li>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">8.19</span> Principais usos e indicadores</a></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">8.20</span> Limitações</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">8.21</span> Cuidados de interpretação</a>
+  <ul class="collapse">
+  <li><a href="#erros-comuns" id="toc-erros-comuns" class="nav-link" data-scroll-target="#erros-comuns"><span class="header-section-number">8.21.1</span> Erros comuns</a></li>
+  </ul></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">8.22</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">8.23</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">8.23.1</span> Documentos auxiliares</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sia.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -554,196 +603,1503 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
+<section class="podcast-player" data-transcript="podcast/sia_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sia.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sia.md">podcast/sia.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
 <section id="resumo" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">8.1</span> Resumo</h2>
+<table class="caption-top table">
+<caption>Características gerais do SIA/SUS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ano de criação</td>
+<td>1990</td>
+</tr>
+<tr class="even">
+<td>Evento registrado</td>
+<td>Produção ambulatorial financiada pelo SUS</td>
+</tr>
+<tr class="odd">
+<td>Documentos básicos</td>
+<td>BPA, APAC e RAAS, conforme o tipo de registro</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>Procedimento, autorização ou registro ambulatorial</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Produção ambulatorial da rede pública e conveniada ao SUS</td>
+</tr>
+<tr class="even">
+<td>Abrangência assistencial</td>
+<td>Não cobre integralmente produção privada não financiada pelo SUS</td>
+</tr>
+<tr class="odd">
+<td>Disseminação</td>
+<td>Mensal, com defasagem curta em relação à competência</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informações Ambulatoriais do SUS (SIA/SUS) é a principal fonte nacional para analisar produção ambulatorial financiada pelo SUS. Ele abrange consultas, exames, terapias, procedimentos especializados, ações de atenção domiciliar, atenção psicossocial, medicamentos e procedimentos de alta complexidade, conforme o instrumento de registro utilizado.</p>
+<p>Assim como o SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), o SIA tem forte origem administrativa e financeira. Por isso, seus dados devem ser interpretados como produção registrada e aprovada segundo regras do SUS, não como contagem direta de pessoas atendidas, necessidades de saúde ou custo econômico total.</p>
+</section>
+<section id="quando-usar-o-sia" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="quando-usar-o-sia"><span class="header-section-number">8.2</span> Quando usar o SIA</h2>
+<p>O SIA deve ser usado quando a pergunta envolve produção ambulatorial financiada pelo SUS, procedimentos, estabelecimentos, valores aprovados, APAC, BPA ou RAAS. Quando a pergunta envolve internação hospitalar, o sistema principal é o SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>).</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SIA para</th>
+<th>Fonte complementar comum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantos procedimentos ambulatoriais foram registrados?</td>
+<td>Contar produção aprovada</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para caracterizar serviços</td>
+</tr>
+<tr class="even">
+<td>Quais procedimentos foram realizados?</td>
+<td>Analisar código do procedimento</td>
+<td>SIGTAP para descrição e regras</td>
+</tr>
+<tr class="odd">
+<td>Onde a produção ocorreu?</td>
+<td>Analisar estabelecimento e município</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para vínculo e tipo de unidade</td>
+</tr>
+<tr class="even">
+<td>Qual foi a produção de alta complexidade?</td>
+<td>Usar APAC</td>
+<td>Regras específicas por modalidade</td>
+</tr>
+<tr class="odd">
+<td>Qual foi a produção por residência?</td>
+<td>Comparar residência e ocorrência</td>
+<td>POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>) para taxas</td>
+</tr>
+<tr class="even">
+<td>Qual foi o valor aprovado?</td>
+<td>Analisar valores registrados</td>
+<td>Tabelas de remuneração do SUS</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">8.3</span> Histórico e organização</h2>
+<p>O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, ações de prevenção e promoção da saúde e procedimentos especializados realizados por unidades públicas e conveniadas ao SUS.</p>
+<p>O SIA foi instituído pela Portaria GM/MS n.º 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social.</p>
+<p>A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatorial Consolidado (BPA-C), instrumento em que a produção era registrada de forma agregada por procedimento e quantidade. Em 1996, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo (APAC) foi incorporada ao SIA para registrar procedimentos ambulatoriais de maior complexidade e custo. Em 2008, o Boletim de Produção Ambulatorial Individualizado (BPA-I) passou a permitir registro individualizado de produção, com maior detalhamento de profissional e usuário.</p>
+<p>Ao longo do tempo, o SIA passou a reunir instrumentos com granularidade e finalidades diferentes. Essa diversidade é uma força do sistema, mas também exige cuidado: BPA-C, BPA-I, APAC e RAAS não devem ser tratados como se tivessem a mesma unidade de análise.</p>
+</section>
+<section id="sia-e-sih" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="sia-e-sih"><span class="header-section-number">8.4</span> SIA e SIH</h2>
+<p>SIA e SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>) são sistemas de produção assistencial e remuneração, mas registram tipos diferentes de cuidado.</p>
+<table class="caption-top table">
+<caption>Diferenças práticas entre SIA e SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>SIA</th>
+<th>SIH</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tipo de cuidado</td>
+<td>Ambulatorial</td>
+<td>Hospitalar</td>
+</tr>
+<tr class="even">
+<td>Unidade típica</td>
+<td>Procedimento, BPA, APAC ou RAAS</td>
+<td>AIH</td>
+</tr>
+<tr class="odd">
+<td>Evento assistencial</td>
+<td>Atendimento, exame, terapia ou procedimento</td>
+<td>Internação</td>
+</tr>
+<tr class="even">
+<td>Periodicidade</td>
+<td>Mensal</td>
+<td>Mensal</td>
+</tr>
+<tr class="odd">
+<td>Uso comum</td>
+<td>Produção ambulatorial</td>
+<td>Morbidade hospitalar e produção</td>
+</tr>
+<tr class="even">
+<td>Cuidado central</td>
+<td>Produção não é pessoa</td>
+<td>AIH não é pessoa</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fluxo-da-produção-ambulatorial" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="fluxo-da-produção-ambulatorial"><span class="header-section-number">8.5</span> Fluxo da produção ambulatorial</h2>
+<p>A produção ambulatorial segue um ciclo administrativo: realização do atendimento ou procedimento, registro no instrumento apropriado, envio ao gestor, críticas, aprovação ou rejeição e disseminação dos dados.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-sia-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sia-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sia-fluxo">flowchart TD
+  prod[Atendimento ou procedimento ambulatorial] --&gt; inst[Instrumento de registro]
+  inst --&gt; bpa[BPA]
+  inst --&gt; apac[APAC]
+  inst --&gt; raas[RAAS]
+  bpa --&gt; envio[Envio ao gestor]
+  apac --&gt; envio
+  raas --&gt; envio
+  envio --&gt; crit[Críticas e consistência]
+  crit --&gt; apr[Produção aprovada]
+  crit --&gt; rej[Produção rejeitada]
+  apr --&gt; sia[Disseminação do SIA]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sia-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;8.1: Fluxo simplificado da produção ambulatorial no SIA
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Esse fluxo reforça que o SIA é uma base de produção aprovada. Regras de crítica, compatibilidades, instrumentos e competência influenciam diretamente o que aparece nos microdados.</p>
+</section>
+<section id="instrumentos-de-registro" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="instrumentos-de-registro"><span class="header-section-number">8.6</span> Instrumentos de registro</h2>
+<p>O SIA reúne instrumentos com diferentes níveis de detalhamento. A escolha do arquivo deve seguir a pergunta da análise.</p>
+<table class="caption-top table">
+<caption>Instrumentos de registro do SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Instrumento</th>
+<th>O que registra</th>
+<th>Uso típico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BPA-C</td>
+<td>Produção agregada</td>
+<td>Procedimentos simples e volume consolidado</td>
+</tr>
+<tr class="even">
+<td>BPA-I</td>
+<td>Produção individualizada</td>
+<td>Procedimentos com identificação individual</td>
+</tr>
+<tr class="odd">
+<td>APAC</td>
+<td>Procedimentos de alta complexidade/custo</td>
+<td>Terapias, medicamentos e tratamentos especializados</td>
+</tr>
+<tr class="even">
+<td>RAAS</td>
+<td>Ações ambulatoriais específicas</td>
+<td>Atenção psicossocial e atenção domiciliar</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não interprete automaticamente produção ambulatorial como número de pessoas atendidas. Uma pessoa pode gerar vários procedimentos, várias APACs ou registros em diferentes instrumentos no mesmo período.</p>
+</div>
+</div>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">8.7</span> Unidade de análise</h2>
+<p>A primeira decisão metodológica em uma análise do SIA é definir o que será contado. O mesmo arquivo pode apoiar perguntas sobre produção, autorizações, tratamentos, estabelecimentos ou trajetórias assistenciais, mas cada unidade exige regras diferentes.</p>
+<table class="caption-top table">
+<caption>Unidades de análise possíveis no SIA</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>O que representa</th>
+<th>Quando usar</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Procedimento</td>
+<td>Ação registrada e aprovada</td>
+<td>Produção, oferta e valores</td>
+<td>Não equivale a pessoa</td>
+</tr>
+<tr class="even">
+<td>Quantidade aprovada</td>
+<td>Número aprovado para faturamento</td>
+<td>Volume total de produção</td>
+<td>Pode ser maior que o número de linhas</td>
+</tr>
+<tr class="odd">
+<td>Registro individualizado</td>
+<td>Linha de BPA-I, APAC ou RAAS</td>
+<td>Perfil demográfico e territorial</td>
+<td>Campos variam por instrumento</td>
+</tr>
+<tr class="even">
+<td>Autorização</td>
+<td>APAC ou autorização equivalente</td>
+<td>Alta complexidade e continuidade</td>
+<td>Pode haver registros em várias competências</td>
+</tr>
+<tr class="odd">
+<td>Tratamento</td>
+<td>Conjunto de registros relacionados</td>
+<td>Oncologia, nefrologia, medicamentos</td>
+<td>Exige regra longitudinal explícita</td>
+</tr>
+<tr class="even">
+<td>Estabelecimento</td>
+<td>Unidade executora informada no registro</td>
+<td>Rede, concentração e oferta</td>
+<td>Deve ser combinado com CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ao escrever resultados, use a unidade que foi efetivamente analisada. Se o numerador foi <code>PA_QTDAPR</code>, o resultado descreve quantidade aprovada de procedimentos, não usuários atendidos.</p>
+</div>
+</div>
+</section>
+<section id="roteiro-para-análise" class="level2" data-number="8.8">
+<h2 data-number="8.8" class="anchored" data-anchor-id="roteiro-para-análise"><span class="header-section-number">8.8</span> Roteiro para análise</h2>
+<p>Um fluxo reprodutível com SIA costuma seguir uma sequência simples. A ordem ajuda a evitar problemas comuns antes de baixar ou processar grandes volumes de dados.</p>
+<ol type="1">
+<li>Definir a pergunta de análise e a unidade final: procedimento, autorização, tratamento, pessoa ou estabelecimento.</li>
+<li>Escolher o instrumento adequado: PA, BPA-I, APAC, RAAS ou combinação documentada.</li>
+<li>Fixar período, competência e território, distinguindo residência, ocorrência e estabelecimento.</li>
+<li>Selecionar códigos SIGTAP e registrar a competência da tabela usada.</li>
+<li>Baixar os arquivos por UF, mês e instrumento, mantendo os dados brutos imutáveis.</li>
+<li>Padronizar tipos, nomes de variáveis e códigos territoriais.</li>
+<li>Aplicar filtros de produção aprovada, instrumento, procedimento, idade, sexo e residência quando necessários.</li>
+<li>Rodar checagens de qualidade e comparar totais agregados com TabNet.</li>
+<li>Construir indicadores, deixando claro numerador, denominador e exclusões.</li>
+<li>Interpretar resultados como produção registrada no SUS, não como necessidade total de saúde.</li>
+</ol>
+</section>
+<section id="procedimentos-e-sigtap" class="level2" data-number="8.9">
+<h2 data-number="8.9" class="anchored" data-anchor-id="procedimentos-e-sigtap"><span class="header-section-number">8.9</span> Procedimentos e SIGTAP</h2>
+<p>O código do procedimento é um dos campos centrais do SIA. Ele é gerenciado pela tabela SIGTAP, que define descrição, grupo, subgrupo, forma de organização, complexidade, financiamento, valores e regras de compatibilidade.</p>
+<table class="caption-top table">
+<caption>Elementos do SIGTAP relevantes para análise do SIA</caption>
+<thead>
+<tr class="header">
+<th>Elemento do SIGTAP</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Código e descrição</td>
+<td>Define o procedimento analisado</td>
+</tr>
+<tr class="even">
+<td>Grupo e subgrupo</td>
+<td>Permite agregação da produção</td>
+</tr>
+<tr class="odd">
+<td>Forma de organização</td>
+<td>Ajuda a entender a finalidade do procedimento</td>
+</tr>
+<tr class="even">
+<td>Compatibilidade por idade e sexo</td>
+<td>Afeta aprovação e consistência</td>
+</tr>
+<tr class="odd">
+<td>CID ou CBO compatível</td>
+<td>Pode condicionar registros</td>
+</tr>
+<tr class="even">
+<td>Valor de referência</td>
+<td>Influencia valor aprovado</td>
+</tr>
+<tr class="odd">
+<td>Vigência temporal</td>
+<td>Evita comparar códigos descontinuados</td>
+</tr>
+</tbody>
+</table>
+<p>Você pode consultar o <a href="http://sigtap.datasus.gov.br">SIGTAP</a> para verificar descrição, regras e vigência de procedimentos.</p>
+<p>A documentação oficial do SIGTAP descreve atributos como código, descrição, vigência, modalidade de atendimento, complexidade, instrumentos de registro, idade, sexo, CBO, CID, serviço/classificação, habilitação, financiamento e regras condicionadas. Esses atributos são usados nas críticas do SIA e ajudam a explicar quebras ou mudanças em séries históricas.</p>
 <ul>
-<li>Ano de criação: 1990</li>
-<li>Cobertura: Dimensão pública do SUS</li>
-<li>Unidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial</li>
-<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
+<li><a href="https://wiki.datasus.gov.br/sigtap/index.php/Gerais">Wiki SIGTAP - atributos gerais</a></li>
+<li><a href="https://wiki.datasus.gov.br/sigtap/index.php/Procedimento">Wiki SIGTAP - procedimento</a></li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">8.2</span> Histórico e organização</h2>
-<p>O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada (particular).</p>
-<p>O SIA foi instituído pela Portaria GM/MS n.º 896 de 29 de junho de 1990 tendo origem no projeto SICAPS (Sistema de Informação e Controle Ambulatorial da Previdência Social).</p>
-<p>A implantação do SIA em território nacional se deu em 1995, com o uso do Boletim de Produção Ambulatorial Consolidado (BPA-C), onde era registrado apenas o procedimento realizado e a quantidade conforme profissional.</p>
-<p>A Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.</p>
-<p>Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identificação do profissional e do paciente.</p>
+<section id="análise-territorial-e-temporal" class="level2" data-number="8.10">
+<h2 data-number="8.10" class="anchored" data-anchor-id="análise-territorial-e-temporal"><span class="header-section-number">8.10</span> Análise territorial e temporal</h2>
+<p>O SIA permite analisar produção por estabelecimento, município de ocorrência, município de residência, competência e, em alguns instrumentos, informações individualizadas do usuário. Cada recorte responde a uma pergunta diferente.</p>
+<table class="caption-top table">
+<caption>Recortes territoriais e temporais frequentes no SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Recorte</th>
+<th>Pergunta respondida</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ocorrência</td>
+<td>Onde a produção foi realizada?</td>
+<td>Produção por município ou serviço</td>
+</tr>
+<tr class="even">
+<td>Residência</td>
+<td>De onde vem a demanda?</td>
+<td>Taxa de procedimentos de residentes</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Que unidade produziu?</td>
+<td>Produção por CNES</td>
+</tr>
+<tr class="even">
+<td>Competência</td>
+<td>Quando a produção foi registrada?</td>
+<td>Série mensal de procedimentos</td>
+</tr>
+<tr class="odd">
+<td>Instrumento</td>
+<td>Como a produção foi registrada?</td>
+<td>Separar BPA, APAC e RAAS</td>
+</tr>
+</tbody>
+</table>
+<p>Para estimar uso da população residente, use residência e denominadores populacionais compatíveis. Para avaliar oferta, capacidade produtiva ou concentração de serviços, use ocorrência e estabelecimento.</p>
+</section>
+<section id="exemplo-produção-de-mamografias" class="level2 page-columns page-full" data-number="8.11">
+<h2 data-number="8.11" class="anchored" data-anchor-id="exemplo-produção-de-mamografias"><span class="header-section-number">8.11</span> Exemplo: produção de mamografias</h2>
+<p>Mamografias são um exemplo de uso do SIA para análise de produção ambulatorial. A pergunta pode envolver volume de exames, distribuição territorial, uso por faixa etária, concentração em estabelecimentos e relação entre residência e ocorrência.</p>
+<table class="caption-top table">
+<caption>Códigos SIGTAP comuns em análises de mamografia</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Código SIGTAP</th>
+<th>Procedimento</th>
+<th>Uso analítico típico</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>0204030030</code></td>
+<td>Mamografia</td>
+<td>Mamografias diagnósticas, acompanhamento e outras indicações</td>
+<td>Pode incluir finalidades distintas</td>
+</tr>
+<tr class="even">
+<td><code>0204030188</code></td>
+<td>Mamografia bilateral para rastreamento</td>
+<td>Rastreamento, especialmente em mulheres de 50 a 69 anos</td>
+<td>Confirmar vigência e regra de financiamento</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Campos úteis em uma análise de mamografias no SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Procedimento</td>
+<td>Código SIGTAP de mamografia</td>
+<td>Fixar códigos e vigência</td>
+</tr>
+<tr class="even">
+<td>Numerador</td>
+<td>Quantidade aprovada</td>
+<td>Não é número de mulheres únicas</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Residência ou ocorrência</td>
+<td>Escolher conforme pergunta</td>
+</tr>
+<tr class="even">
+<td>Idade</td>
+<td>Faixa etária</td>
+<td>Verificar compatibilidade do procedimento</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>CNES</td>
+<td>Relacionar com CNES quando necessário</td>
+</tr>
+<tr class="even">
+<td>Tempo</td>
+<td>Competência</td>
+<td>Evitar misturar com data de atendimento</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>codigos_mamografia <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"0204030030"</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">"0204030188"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>mamografias_mun <span class="ot">&lt;-</span> sia_raw <span class="sc">|&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(PA_PROC_ID <span class="sc">%in%</span> codigos_mamografia) <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(PA_MUNPCN) <span class="sc">|&gt;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">procedimentos =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_QTDAPR), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">valor_aprovado =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_VALAPR), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>mamografias_mun</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Os códigos acima são um ponto de partida didático. Em uma análise real, consulte o SIGTAP na competência analisada, registre a versão da tabela, verifique se houve inclusão, exclusão ou alteração de códigos e explicite se a análise inclui apenas rastreamento ou também mamografias diagnósticas.</p>
+</div>
+</div>
+<section id="indicador-mamografias-em-mulheres-de-50-a-69-anos" class="level3 page-columns page-full" data-number="8.11.1">
+<h3 data-number="8.11.1" class="anchored" data-anchor-id="indicador-mamografias-em-mulheres-de-50-a-69-anos"><span class="header-section-number">8.11.1</span> Indicador: mamografias em mulheres de 50 a 69 anos</h3>
+<p>Um indicador aplicado pode estimar a taxa de mamografias de rastreamento em mulheres de 50 a 69 anos residentes em determinado município. O numerador viria do SIA por residência; o denominador, de estimativas populacionais femininas na mesma faixa etária.</p>
+<table class="caption-top table">
+<caption>Exemplo de especificação de indicador com SIA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Definição operacional</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numerador</td>
+<td>Quantidade aprovada de <code>0204030188</code> em mulheres de 50 a 69 anos</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População feminina residente de 50 a 69 anos</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município de residência</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Competência ou conjunto de competências</td>
+</tr>
+<tr class="odd">
+<td>Medida</td>
+<td>Mamografias por 1.000 mulheres de 50 a 69 anos</td>
+</tr>
+<tr class="even">
+<td>Interpretação</td>
+<td>Produção registrada, não cobertura individual do rastreamento</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>mamografia_rastreamento <span class="ot">&lt;-</span> sia_raw <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    PA_PROC_ID <span class="sc">==</span> <span class="st">"0204030188"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    PA_SEXO <span class="sc">==</span> <span class="st">"F"</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">between</span>(<span class="fu">as.numeric</span>(PA_IDADE), <span class="dv">50</span>, <span class="dv">69</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(PA_MUNPCN) <span class="sc">|&gt;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">mamografias =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_QTDAPR), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(pop_mulheres_50_69, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"PA_MUNPCN"</span> <span class="ot">=</span> <span class="st">"codmun"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">taxa_1000 =</span> mamografias <span class="sc">/</span> populacao <span class="sc">*</span> <span class="dv">1000</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>mamografia_rastreamento</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Esse indicador não mede mulheres rastreadas uma única vez. Uma mesma mulher pode realizar mais de uma mamografia no período, e bases públicas podem não permitir deduplicação nominal.</p>
+</div>
+</div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-07a31b6dc1569d939edb" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-10918efc24e32e37956d" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-07a31b6dc1569d939edb">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do SIA<\/small>","start":"1990-06-29"},{"id":"3","content":"<small>Implantação do SIA<br>nas Ufs<\/small>","start":"1994-07-01"},{"id":"4","content":"<small>Boletim de Produção<\/br>Ambulatorial Consolidado (BPA-C)<\/small>","start":"1995-01-01"},{"id":"5","content":"<small>Autorização de Procedimentos<\/br>Ambulatoriais de Alto Custo (APAC)<\/small>","start":"1996-01-01"},{"id":"6","content":"<small>Expansão do SIA para<\/br>municípios com a NOB1/96<\/small>","start":"1996-01-01"},{"id":"7","content":"<small>Banco de Dados Nacional do SIA<\/small>","start":"1995-06-21"},{"id":"8","content":"<small>Ampliação e recodificação<\/br>da tabela de procedimentos<\/small>","start":"1999-10-01"},{"id":"9","content":"<small>Reestruturação da tabela de procedimentos<\/small>","start":"2003-08-13"},{"id":"10","content":"<small>Sistema de Gerenciamento da Tabela de<\/br>Procedimentos, Medicamentos e OPM do SUS (SIGTAP)<\/small>","start":"2007-02-08"},{"id":"11","content":"<small>BPA Individualizado (BPA-I)<\/small>","start":"2008-01-01"},{"id":"12","content":"<small>Integração com CNES e CADSUS Web<\/small>","start":"2013-02-20"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-10918efc24e32e37956d">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do SIA<\/small>","start":"1990-06-29"},{"id":"3","content":"<small>Implantação do SIA<br>nas Ufs<\/small>","start":"1994-07-01"},{"id":"4","content":"<small>Boletim de Produção<\/br>Ambulatorial Consolidado (BPA-C)<\/small>","start":"1995-01-01"},{"id":"5","content":"<small>Autorização de Procedimentos<\/br>Ambulatoriais de Alto Custo (APAC)<\/small>","start":"1996-01-01"},{"id":"6","content":"<small>Expansão do SIA para<\/br>municípios com a NOB1/96<\/small>","start":"1996-01-01"},{"id":"7","content":"<small>Banco de Dados Nacional do SIA<\/small>","start":"1995-06-21"},{"id":"8","content":"<small>Ampliação e recodificação<\/br>da tabela de procedimentos<\/small>","start":"1999-10-01"},{"id":"9","content":"<small>Reestruturação da tabela de procedimentos<\/small>","start":"2003-08-13"},{"id":"10","content":"<small>Sistema de Gerenciamento da Tabela de<\/br>Procedimentos, Medicamentos e OPM do SUS (SIGTAP)<\/small>","start":"2007-02-08"},{"id":"11","content":"<small>BPA Individualizado (BPA-I)<\/small>","start":"2008-01-01"},{"id":"12","content":"<small>Integração com CNES e CADSUS Web<\/small>","start":"2013-02-20"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIA</p>
 </div>
 </div>
 <p>Mais detalhes sobre o histórico do SIA podem ser encontrados <a href="https://wiki.saude.gov.br/sia/index.php/Página_principal">aqui</a>.</p>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">8.3</span> Estrutura dos dados</h2>
-<p>Confira o documento de <a href="assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf">estrutura do SIA</a>, onde estão descritas as variáveis disponíveis.</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="8.12">
+<h2 data-number="8.12" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">8.12</span> Estrutura dos dados</h2>
+<p>O documento de <a href="assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf">estrutura do SIA</a> descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos mais usados estão competência, estabelecimento, município de ocorrência, município de residência, procedimento, quantidade aprovada, valor aprovado, idade, sexo, CBO e dados específicos do instrumento.</p>
+<section id="campos-mínimos-para-inspecionar" class="level3" data-number="8.12.1">
+<h3 data-number="8.12.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">8.12.1</span> Campos mínimos para inspecionar</h3>
+<p>Os nomes e a disponibilidade das variáveis variam conforme PA, APAC, BPA-I e RAAS. Em uma primeira inspeção, costuma ser útil verificar:</p>
+<table class="caption-top table">
+<caption>Campos úteis para uma primeira inspeção dos dados do SIA</caption>
+<thead>
+<tr class="header">
+<th>Campo</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>PA_CMP</code> ou equivalente</td>
+<td>Competência da produção</td>
+</tr>
+<tr class="even">
+<td><code>PA_CODUNI</code></td>
+<td>Estabelecimento executor</td>
+</tr>
+<tr class="odd">
+<td><code>PA_UFMUN</code></td>
+<td>Município de ocorrência</td>
+</tr>
+<tr class="even">
+<td><code>PA_MUNPCN</code></td>
+<td>Município de residência do usuário</td>
+</tr>
+<tr class="odd">
+<td><code>PA_PROC_ID</code></td>
+<td>Procedimento realizado</td>
+</tr>
+<tr class="even">
+<td><code>PA_QTDAPR</code></td>
+<td>Quantidade aprovada</td>
+</tr>
+<tr class="odd">
+<td><code>PA_VALAPR</code></td>
+<td>Valor aprovado</td>
+</tr>
+<tr class="even">
+<td><code>PA_IDADE</code></td>
+<td>Idade</td>
+</tr>
+<tr class="odd">
+<td><code>PA_SEXO</code></td>
+<td>Sexo</td>
+</tr>
+<tr class="even">
+<td><code>PA_CBOCOD</code></td>
+<td>Ocupação do profissional</td>
+</tr>
+<tr class="odd">
+<td>Campos APAC/RAAS</td>
+<td>Detalhes específicos do instrumento</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="transformações-frequentes" class="level3" data-number="8.12.2">
+<h3 data-number="8.12.2" class="anchored" data-anchor-id="transformações-frequentes"><span class="header-section-number">8.12.2</span> Transformações frequentes</h3>
+<p>Muitas análises do SIA dependem de transformar campos originais em categorias ou medidas. Essas regras devem ser documentadas no método.</p>
+<table class="caption-top table">
+<caption>Transformações comuns em análises com SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito</th>
+<th>Regra operacional comum</th>
+<th>Campo associado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Produção aprovada</td>
+<td>Soma de quantidade aprovada</td>
+<td><code>PA_QTDAPR</code></td>
+</tr>
+<tr class="even">
+<td>Valor aprovado</td>
+<td>Soma de valor aprovado</td>
+<td><code>PA_VALAPR</code></td>
+</tr>
+<tr class="odd">
+<td>Grupo de procedimento</td>
+<td>Agrupamento por SIGTAP</td>
+<td><code>PA_PROC_ID</code></td>
+</tr>
+<tr class="even">
+<td>Produção de residentes</td>
+<td>Residência no território</td>
+<td><code>PA_MUNPCN</code></td>
+</tr>
+<tr class="odd">
+<td>Produção fora do município</td>
+<td>Residência diferente da ocorrência</td>
+<td><code>PA_MUNPCN</code>, <code>PA_UFMUN</code></td>
+</tr>
+<tr class="even">
+<td>Faixa etária</td>
+<td>Agrupamento de idade</td>
+<td><code>PA_IDADE</code></td>
+</tr>
+<tr class="odd">
+<td>Profissional</td>
+<td>Agrupamento por CBO</td>
+<td><code>PA_CBOCOD</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prefixo-dos-arquivos" class="level3" data-number="8.12.3">
+<h3 data-number="8.12.3" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">8.12.3</span> Prefixo dos arquivos</h3>
+<p>Os dados do SIA são distribuídos em várias famílias de arquivos. A lista abaixo resume prefixos comuns.</p>
+<table class="caption-top table">
+<caption>Prefixos comuns dos arquivos do SIA</caption>
+<thead>
+<tr class="header">
+<th>Prefixo</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PA</td>
+<td>Procedimentos ambulatoriais</td>
+</tr>
+<tr class="even">
+<td>AD</td>
+<td>APAC de laudos diversos</td>
+</tr>
+<tr class="odd">
+<td>AM</td>
+<td>APAC de medicamentos</td>
+</tr>
+<tr class="even">
+<td>AN</td>
+<td>APAC de nefrologia</td>
+</tr>
+<tr class="odd">
+<td>AQ</td>
+<td>APAC de quimioterapia</td>
+</tr>
+<tr class="even">
+<td>AR</td>
+<td>APAC de radioterapia</td>
+</tr>
+<tr class="odd">
+<td>AB</td>
+<td>APAC de cirurgia bariátrica</td>
+</tr>
+<tr class="even">
+<td>ACF</td>
+<td>APAC de confecção de fístula arteriovenosa</td>
+</tr>
+<tr class="odd">
+<td>ATD</td>
+<td>APAC de tratamento dialítico</td>
+</tr>
+<tr class="even">
+<td>SAD</td>
+<td>RAAS de atenção domiciliar</td>
+</tr>
+<tr class="odd">
+<td>PS</td>
+<td>RAAS psicossocial</td>
+</tr>
+<tr class="even">
+<td>BI/BPA-I</td>
+<td>Boletim de produção individualizado</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="guia-mínimo-de-dicionário" class="level3" data-number="8.12.4">
+<h3 data-number="8.12.4" class="anchored" data-anchor-id="guia-mínimo-de-dicionário"><span class="header-section-number">8.12.4</span> Guia mínimo de dicionário</h3>
+<p>Ao trabalhar com microdados do SIA, não assuma que todos os arquivos possuem os mesmos campos. Uma estratégia prática é organizar o dicionário por blocos.</p>
+<table class="caption-top table">
+<caption>Blocos úteis para organizar um dicionário de dados do SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bloco</th>
+<th>Exemplos de campos</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competência</td>
+<td><code>PA_CMP</code>, ano, mês</td>
+<td>A produção pertence ao período esperado?</td>
+</tr>
+<tr class="even">
+<td>Estabelecimento</td>
+<td><code>PA_CODUNI</code>, CNES equivalente</td>
+<td>O serviço executor está identificado?</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td><code>PA_UFMUN</code>, <code>PA_MUNPCN</code></td>
+<td>O campo representa ocorrência ou residência?</td>
+</tr>
+<tr class="even">
+<td>Procedimento</td>
+<td><code>PA_PROC_ID</code>, grupo SIGTAP</td>
+<td>O código estava vigente no período?</td>
+</tr>
+<tr class="odd">
+<td>Quantidade e valor</td>
+<td><code>PA_QTDAPR</code>, <code>PA_VALAPR</code></td>
+<td>O indicador usa linha, quantidade ou valor?</td>
+</tr>
+<tr class="even">
+<td>Usuário</td>
+<td>idade, sexo e campos individualizados</td>
+<td>O instrumento permite perfil individual?</td>
+</tr>
+<tr class="odd">
+<td>Profissional</td>
+<td><code>PA_CBOCOD</code> ou equivalente</td>
+<td>A ocupação é necessária para a pergunta?</td>
+</tr>
+<tr class="even">
+<td>Instrumento</td>
+<td>campos específicos de APAC, BPA-I ou RAAS</td>
+<td>A unidade de análise mudou?</td>
+</tr>
+</tbody>
+</table>
+<p>Quando houver diferenças entre anos ou instrumentos, preserve uma tabela de compatibilização com nome original, nome padronizado, tipo, regra de transformação e observação metodológica.</p>
+</section>
+</section>
+<section id="apac-e-alta-complexidade" class="level2" data-number="8.13">
+<h2 data-number="8.13" class="anchored" data-anchor-id="apac-e-alta-complexidade"><span class="header-section-number">8.13</span> APAC e alta complexidade</h2>
+<p>A APAC registra procedimentos ambulatoriais de alta complexidade ou alto custo, como medicamentos especializados, terapias renais, quimioterapia, radioterapia e outros tratamentos específicos. Em geral, a APAC exige autorização, laudo e regras próprias de continuidade.</p>
+<table class="caption-top table">
+<caption>Cuidados em análises com APAC</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Autorização</td>
+<td>Nem todo procedimento ambulatorial exige APAC</td>
+</tr>
+<tr class="even">
+<td>Continuidade</td>
+<td>Tratamentos podem aparecer por vários meses</td>
+</tr>
+<tr class="odd">
+<td>Pessoa</td>
+<td>Registros não devem ser interpretados automaticamente como pessoa única</td>
+</tr>
+<tr class="even">
+<td>Procedimento</td>
+<td>Regras variam por modalidade</td>
+</tr>
+<tr class="odd">
+<td>Valor</td>
+<td>Representa remuneração aprovada</td>
+</tr>
+</tbody>
+</table>
+<p>Exemplos frequentes de análise com APAC incluem tratamentos oncológicos, terapia renal substitutiva, radioterapia, quimioterapia, medicamentos especializados e procedimentos com autorização continuada. Nesses casos, a competência mensal pode representar continuidade de cuidado, não um novo caso incidente.</p>
+<table class="caption-top table">
+<caption>Exemplos de uso analítico da APAC</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Área</th>
+<th>Pergunta possível</th>
+<th>Unidade mais adequada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Oncologia</td>
+<td>Volume de quimioterapia ou radioterapia</td>
+<td>Procedimento ou tratamento</td>
+</tr>
+<tr class="even">
+<td>Nefrologia</td>
+<td>Produção de terapia renal substitutiva</td>
+<td>Procedimento mensal ou paciente vinculado</td>
+</tr>
+<tr class="odd">
+<td>Medicamentos</td>
+<td>Uso de medicamentos especializados</td>
+<td>APAC, procedimento ou usuário</td>
+</tr>
+<tr class="even">
+<td>Atenção especializada</td>
+<td>Distribuição regional de procedimentos</td>
+<td>Procedimento por residência ou ocorrência</td>
+</tr>
+<tr class="odd">
+<td>Auditoria</td>
+<td>Rejeições e inconsistências</td>
+<td>Registro rejeitado ou código de crítica</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Um campo de grande interesse no SIA é o código do procedimento executado no atendimento ambulatorial. Este código é gerenciado por um outro sistema denominado Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS – SIGTAP.</p>
-<p>Você pode consultar o <a href="http://sigtap.datasus.gov.br">SIGTAP aqui</a>.</p>
-</div>
+<div class="callout-title-container flex-fill">
+Nota
 </div>
 </div>
-<p>Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.</p>
-<section id="arquivos-de-procedimentos-ambulatoriais" class="level3" data-number="8.3.1">
-<h3 data-number="8.3.1" class="anchored" data-anchor-id="arquivos-de-procedimentos-ambulatoriais"><span class="header-section-number">8.3.1</span> Arquivos de Procedimentos Ambulatoriais</h3>
-<p>Os procedimentos ambulatoriais se dividem em “comuns”, denominado “PA”, de “alta complexidade”, denominado “APAC”.</p>
-<p>Os arquivos de APAC se dividem nas seguintes subcategorias:</p>
-<ul>
-<li>Laudos diversos (AD)</li>
-<li>Medicamentos (AM)</li>
-<li>Nefrologia (AN)</li>
-<li>Quimioterapia (AQ)</li>
-<li>Radioterapia (AR)</li>
-<li>Cirurgia Bariátrica (AB)</li>
-<li>Confecção de Fístula Arteriovenosa (ACF)</li>
-<li>Tratamento Dialítico (ATD)</li>
-</ul>
+<div class="callout-body-container callout-body">
+<p>Em estudos longitudinais, defina janelas de continuidade, intervalos aceitáveis entre competências e regras para troca de procedimento ou estabelecimento antes de interpretar APACs como tratamentos.</p>
+</div>
+</div>
 </section>
-<section id="registro-das-ações-ambulatoriais-de-saúde" class="level3" data-number="8.3.2">
-<h3 data-number="8.3.2" class="anchored" data-anchor-id="registro-das-ações-ambulatoriais-de-saúde"><span class="header-section-number">8.3.2</span> Registro das Ações ambulatoriais de saúde</h3>
-<ul>
-<li>Atenção Domiciliar (SAD)</li>
-<li>Psicossocial (PS)</li>
-</ul>
+<section id="produção-rejeitada-e-crítica" class="level2" data-number="8.14">
+<h2 data-number="8.14" class="anchored" data-anchor-id="produção-rejeitada-e-crítica"><span class="header-section-number">8.14</span> Produção rejeitada e crítica</h2>
+<p>Assim como nos demais sistemas de produção, registros podem ser rejeitados por inconsistências, incompatibilidades ou problemas administrativos. Quando o objetivo é medir produção realizada e aprovada, use arquivos de produção aprovada. Quando o objetivo é auditoria ou qualidade do faturamento, analise rejeições separadamente.</p>
+<table class="caption-top table">
+<caption>Uso analítico de aprovação e rejeição no SIA</caption>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Uso recomendado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Produção aprovada</td>
+<td>Indicadores de produção e oferta</td>
+</tr>
+<tr class="even">
+<td>Rejeições</td>
+<td>Auditoria e qualidade do processamento</td>
+</tr>
+<tr class="odd">
+<td>Inconsistências</td>
+<td>Revisão de regras e preenchimento</td>
+</tr>
+<tr class="even">
+<td>Mudanças de regra</td>
+<td>Avaliação de quebras em série histórica</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="boletim-de-produção-ambulatorial-individualizado" class="level3" data-number="8.3.3">
-<h3 data-number="8.3.3" class="anchored" data-anchor-id="boletim-de-produção-ambulatorial-individualizado"><span class="header-section-number">8.3.3</span> Boletim de Produção Ambulatorial Individualizado</h3>
-<ul>
-<li>BPA-I</li>
-</ul>
+<section id="acesso-aos-dados" class="level2" data-number="8.15">
+<h2 data-number="8.15" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">8.15</span> Acesso aos dados</h2>
+<p>Os dados do SIA podem ser acessados por diferentes caminhos, a depender do objetivo da análise.</p>
+<table class="caption-top table">
+<caption>Formas de acesso aos dados do SIA</caption>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TabNet</td>
+<td>Tabulações rápidas e consultas agregadas</td>
+</tr>
+<tr class="even">
+<td>TabWin/DBC</td>
+<td>Download e tabulação local de arquivos do DataSUS</td>
+</tr>
+<tr class="odd">
+<td>R</td>
+<td>Fluxos reprodutíveis com <code>{microdatasus}</code></td>
+</tr>
+<tr class="even">
+<td>Python</td>
+<td>Fluxos reprodutíveis com PySUS</td>
+</tr>
+<tr class="odd">
+<td>PCDaS</td>
+<td>Uso em ambiente de notebooks e infraestrutura de dados</td>
+</tr>
+</tbody>
+</table>
 </section>
-</section>
-<section id="acesso-aos-dados" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">8.4</span> Acesso aos dados</h2>
-<section id="tabnet" class="level3" data-number="8.4.1">
-<h3 data-number="8.4.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">8.4.1</span> TabNet</h3>
-<p>Os dados do SIA podem ser acessados no sistema TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
+<section id="processamento-de-grandes-volumes" class="level2" data-number="8.16">
+<h2 data-number="8.16" class="anchored" data-anchor-id="processamento-de-grandes-volumes"><span class="header-section-number">8.16</span> Processamento de grandes volumes</h2>
+<p>O SIA é disseminado em arquivos mensais por unidade federativa e por instrumento. Séries longas e análises nacionais podem envolver grande volume e diferentes estruturas de arquivos.</p>
+<table class="caption-top table">
+<caption>Estratégias para processamento do SIA em escala</caption>
+<thead>
+<tr class="header">
+<th>Estratégia</th>
+<th>Quando usar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Baixar por UF, mês e instrumento</td>
+<td>Controle incremental</td>
+</tr>
+<tr class="even">
+<td>Separar PA, APAC e RAAS</td>
+<td>Evitar misturar unidades</td>
+</tr>
+<tr class="odd">
+<td>Padronizar nomes e tipos</td>
+<td>Comparar anos e instrumentos</td>
+</tr>
+<tr class="even">
+<td>Salvar em Parquet</td>
+<td>Leitura rápida e compactação</td>
+</tr>
+<tr class="odd">
+<td>Usar DuckDB</td>
+<td>Consultas locais em bases grandes</td>
+</tr>
+<tr class="even">
+<td>Registrar códigos SIGTAP</td>
+<td>Reprodutibilidade</td>
+</tr>
+</tbody>
+</table>
+<p>Uma organização comum é manter arquivos brutos imutáveis, gerar camadas tratadas por instrumento e construir bases analíticas menores para cada pergunta.</p>
+<section id="tabnet" class="level3" data-number="8.16.1">
+<h3 data-number="8.16.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">8.16.1</span> TabNet</h3>
+<p>Os dados do SIA podem ser acessados no TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/">TabNet SIA</a></li>
 </ul>
 </section>
-<section id="tabwin" class="level3" data-number="8.4.2">
-<h3 data-number="8.4.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">8.4.2</span> TabWin</h3>
-<p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
+<section id="tabwin-e-transferência-de-arquivos" class="level3" data-number="8.16.2">
+<h3 data-number="8.16.2" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">8.16.2</span> TabWin e transferência de arquivos</h3>
+<p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
+<p>No serviço de transferência, o usuário normalmente seleciona a área de assistência à saúde, o sistema SIA, o tipo de arquivo, a unidade federativa e a competência. Para análises reprodutíveis, salve também a lista de arquivos baixados, data de acesso, hash dos arquivos e versão do código de processamento.</p>
 </section>
-<section id="r" class="level3" data-number="8.4.3">
-<h3 data-number="8.4.3" class="anchored" data-anchor-id="r"><span class="header-section-number">8.4.3</span> R</h3>
-<p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
+<section id="r" class="level3" data-number="8.16.3">
+<h3 data-number="8.16.3" class="anchored" data-anchor-id="r"><span class="header-section-number">8.16.3</span> R</h3>
+<p>O pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a> permite baixar microdados do DataSUS em R <span class="citation" data-cites="Saldanha2019a">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>)</span>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sia_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">1</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">2</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SIA-PA"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(sia_raw)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>      PA_CODUNI PA_GESTAO PA_CONDIC PA_UFMUN PA_REGCT PA_INCOUT PA_INCURG
-1...1   9966501    120000        EP   120020     0000      0000      0000
-2...2   6861849    120000        EP   120040     0000      0000      0000
-3...3   6861849    120000        EP   120040     0000      0000      0000
-4...4   6861849    120000        EP   120040     0000      0000      0000
-5...5   5336171    120000        EP   120020     0000      0000      0000
-6...6   6861849    120000        EP   120040     0000      0000      0000
-      PA_TPUPS PA_TIPPRE PA_MN_IND     PA_CNPJCPF     PA_CNPJMNT     PA_CNPJ_CC
-1...1       73        00         M 04034526003401 04034526000143 00000000000000
-2...2       39        00         I 13325100000130 00000000000000 00000000000000
-3...3       39        00         I 13325100000130 00000000000000 00000000000000
-4...4       39        00         I 13325100000130 00000000000000 00000000000000
-5...5       05        00         M 04034526002359 04034526000143 00000000000000
-6...6       39        00         I 13325100000130 00000000000000 00000000000000
-      PA_MVM PA_CMP PA_PROC_ID PA_TPFIN PA_SUBFIN PA_NIVCPL PA_DOCORIG
-1...1 202101 202101 0301060118       06      0000         2          I
-2...2 202101 202101 0204020093       06      0000         2          I
-3...3 202101 202101 0205020046       06      0000         2          I
-4...4 202101 202101 0206020031       06      0000         3          I
-5...5 202101 202101 0206020031       06      0000         3          I
-6...6 202101 202101 0206020031       06      0000         3          I
-         PA_AUTORIZ       PA_CNSMED PA_CBOCOD PA_MOTSAI PA_OBITO PA_ENCERR
-1...1 0000000000000 702100748633294    223505        00        0         0
-2...2 0000000000000 980016288806388    225320        00        0         0
-3...3 0000000000000 980016288806388    225320        00        0         0
-4...4 0000000000000 980016288806388    225320        00        0         0
-5...5 0000000000000 980016288211643    225320        00        0         0
-6...6 0000000000000 980016288806388    225320        00        0         0
-      PA_PERMAN PA_ALTA PA_TRANSF PA_CIDPRI PA_CIDSEC PA_CIDCAS PA_CATEND
-1...1         0       0         0      0000      0000      0000        02
-2...2         0       0         0      0000      0000      0000        02
-3...3         0       0         0      0000      0000      0000        02
-4...4         0       0         0      0000      0000      0000        02
-5...5         0       0         0      0000      0000      0000        02
-6...6         0       0         0      0000      0000      0000        02
-      PA_IDADE IDADEMIN IDADEMAX PA_FLIDADE PA_SEXO PA_RACACOR PA_MUNPCN
-1...1      042        0      130          1       M         99    120020
-2...2      042        0      130          1       F         03    120040
-3...3      042        0      130          1       M         03    120040
-4...4      071        0      130          1       F         03    120040
-5...5      065        0      130          1       F         01    120033
-6...6      036        0      130          1       M         04    120040
-      PA_QTDPRO PA_QTDAPR PA_VALPRO PA_VALAPR PA_UFDIF PA_MNDIF PA_DIF_VAL
-1...1         1         1      0.00      0.00        0        0          0
-2...2         1         1      9.16      9.16        0        0          0
-3...3         1         1     37.95     37.95        0        0          0
-4...4         1         1    136.41    136.41        0        0          0
-5...5         1         1    136.41    136.41        0        1          0
-6...6         1         1    136.41    136.41        0        0          0
-      NU_VPA_TOT NU_PA_TOT PA_INDICA PA_CODOCO PA_FLQT PA_FLER PA_ETNIA
-1...1          0      0.00         5         1       K       0     &lt;NA&gt;
-2...2          0      9.16         5         1       K       0     &lt;NA&gt;
-3...3          0     37.95         5         1       K       0     &lt;NA&gt;
-4...4          0    136.41         5         1       K       0     &lt;NA&gt;
-5...5          0    136.41         5         1       K       0     &lt;NA&gt;
-6...6          0    136.41         5         1       K       0     &lt;NA&gt;
-      PA_VL_CF PA_VL_CL PA_VL_INC PA_SRV_C PA_INE PA_NAT_JUR
-1...1        0        0         0     &lt;NA&gt;   &lt;NA&gt;       1023
-2...2        0        0         0   121001   &lt;NA&gt;       2062
-3...3        0        0         0   121002   &lt;NA&gt;       2062
-4...4        0        0         0   121003   &lt;NA&gt;       2062
-5...5        0        0         0   121003   &lt;NA&gt;       1023
-6...6        0        0         0   121003   &lt;NA&gt;       2062</code></pre>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sia_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">1</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">2</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SIA-PA"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(sia_raw)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="python" class="level3" data-number="8.4.4">
-<h3 data-number="8.4.4" class="anchored" data-anchor-id="python"><span class="header-section-number">8.4.4</span> Python</h3>
-<p>Você pode usar a biblioteca PySUS.</p>
+<section id="python" class="level3" data-number="8.16.4">
+<h3 data-number="8.16.4" class="anchored" data-anchor-id="python"><span class="header-section-number">8.16.4</span> Python</h3>
+<p>A biblioteca PySUS também permite acessar dados do SIA em fluxos de análise em Python.</p>
 <ul>
 <li><a href="https://pysus.readthedocs.io/en/latest/databases/SIA.html">PySUS SIA</a></li>
 </ul>
 </section>
+<section id="pcdas" class="level3" data-number="8.16.5">
+<h3 data-number="8.16.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">8.16.5</span> PCDaS</h3>
+<p>Os dados do SIA também podem ser acessados em ambientes de análise da Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), que organiza bases de saúde para uso em notebooks e infraestrutura de processamento <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
+<ul>
+<li><a href="https://pcdas.icict.fiocruz.br/">PCDaS</a></li>
+</ul>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="8.5">
-<h2 data-number="8.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">8.5</span> Bibliografia recomendada</h2>
-<section id="documentos-auxiliares" class="level3" data-number="8.5.1">
-<h3 data-number="8.5.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">8.5.1</span> Documentos auxiliares</h3>
+</section>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="8.17">
+<h2 data-number="8.17" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">8.17</span> Relacionamento com outros sistemas</h2>
+<p>O SIA é frequentemente combinado com outros sistemas para caracterizar estabelecimentos, rede, denominadores e desfechos.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre o SIA e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Qual serviço produziu?</td>
+<td>SIA + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>CNES muda ao longo do tempo</td>
+</tr>
+<tr class="even">
+<td>Qual carga assistencial total?</td>
+<td>SIA + SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Separar ambulatorial e hospitalar</td>
+</tr>
+<tr class="odd">
+<td>Houve óbito após procedimento?</td>
+<td>SIA + SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Requer relacionamento e janela temporal</td>
+</tr>
+<tr class="even">
+<td>O procedimento foi ligado a agravo notificado?</td>
+<td>SIA + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Harmonizar definição de caso</td>
+</tr>
+<tr class="odd">
+<td>Qual taxa de procedimentos?</td>
+<td>SIA + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>Usar residência e população compatível</td>
+</tr>
+</tbody>
+</table>
+<p>Em relacionamentos de registros, defina antes se a unidade final será procedimento, pessoa, autorização, tratamento ou trajetória assistencial. Cada escolha exige regras diferentes de deduplicação e janelas temporais.</p>
+</section>
+<section id="validação-reprodutível" class="level2" data-number="8.18">
+<h2 data-number="8.18" class="anchored" data-anchor-id="validação-reprodutível"><span class="header-section-number">8.18</span> Validação reprodutível</h2>
+<p>Antes de publicar indicadores com SIA, rode checagens automáticas simples e guarde os resultados. Elas não substituem auditoria, mas ajudam a identificar erros de filtro, campos vazios, tipos incorretos e mudanças inesperadas de estrutura.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>validacao_sia <span class="ot">&lt;-</span> sia_raw <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">registros =</span> <span class="fu">n</span>(),</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">procedimentos_sem_codigo =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(PA_PROC_ID) <span class="sc">|</span> PA_PROC_ID <span class="sc">==</span> <span class="st">""</span>),</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">municipio_residencia_sem_codigo =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(PA_MUNPCN) <span class="sc">|</span> PA_MUNPCN <span class="sc">==</span> <span class="st">""</span>),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">municipio_ocorrencia_sem_codigo =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(PA_UFMUN) <span class="sc">|</span> PA_UFMUN <span class="sc">==</span> <span class="st">""</span>),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">idade_invalida =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_IDADE) <span class="sc">&lt;</span> <span class="dv">0</span> <span class="sc">|</span> <span class="fu">as.numeric</span>(PA_IDADE) <span class="sc">&gt;</span> <span class="dv">130</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">sexo_ignorado =</span> <span class="fu">sum</span>(<span class="sc">!</span>PA_SEXO <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"M"</span>, <span class="st">"F"</span>), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">quantidade_zero_ou_negativa =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_QTDAPR) <span class="sc">&lt;=</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">valor_negativo =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(PA_VALAPR) <span class="sc">&lt;</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>validacao_sia</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<table class="caption-top table">
+<caption>Checagens automáticas úteis antes da análise</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Procedimento ausente</td>
+<td>Pode indicar problema de leitura ou arquivo inadequado</td>
+</tr>
+<tr class="even">
+<td>Município ausente</td>
+<td>Afeta taxas e mapas</td>
+</tr>
+<tr class="odd">
+<td>Idade fora do intervalo</td>
+<td>Sugere erro de tipo ou preenchimento</td>
+</tr>
+<tr class="even">
+<td>Sexo ignorado</td>
+<td>Pode limitar indicadores por sexo</td>
+</tr>
+<tr class="odd">
+<td>Quantidade zero ou negativa</td>
+<td>Deve ser entendida antes de somar produção</td>
+</tr>
+<tr class="even">
+<td>Valor negativo</td>
+<td>Pode indicar erro de leitura ou regra específica</td>
+</tr>
+</tbody>
+</table>
+<p>Também é útil comparar totais agregados com o TabNet no mesmo período, UF, instrumento e procedimento. Diferenças pequenas podem resultar de filtros, competência ou processamento; diferenças grandes geralmente indicam seleção incorreta de arquivos ou variáveis.</p>
+</section>
+<section id="principais-usos-e-indicadores" class="level2" data-number="8.19">
+<h2 data-number="8.19" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">8.19</span> Principais usos e indicadores</h2>
+<p>Os dados do SIA são usados em indicadores de produção ambulatorial, acesso a procedimentos, oferta regional, uso de serviços especializados e valores aprovados.</p>
+<table class="caption-top table">
+<caption>Exemplos de indicadores construídos com dados do SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador principal</th>
+<th>Denominador ou cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Produção ambulatorial por procedimento</td>
+<td>Quantidade aprovada</td>
+<td>Definir instrumento e código SIGTAP</td>
+</tr>
+<tr class="even">
+<td>Taxa de procedimento por residentes</td>
+<td>Quantidade de residentes</td>
+<td>População residente</td>
+</tr>
+<tr class="odd">
+<td>Valor médio por procedimento</td>
+<td>Valor aprovado</td>
+<td>Não representa custo total</td>
+</tr>
+<tr class="even">
+<td>Proporção por grupo de procedimentos</td>
+<td>Produção por grupo SIGTAP</td>
+<td>Total no mesmo recorte</td>
+</tr>
+<tr class="odd">
+<td>Produção fora do município de residência</td>
+<td>Procedimentos com ocorrência diferente</td>
+<td>Requer residência e ocorrência</td>
+</tr>
+<tr class="even">
+<td>Produção de alta complexidade</td>
+<td>APAC aprovada</td>
+<td>Separar modalidade e continuidade</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limitações" class="level2" data-number="8.20">
+<h2 data-number="8.20" class="anchored" data-anchor-id="limitações"><span class="header-section-number">8.20</span> Limitações</h2>
+<p>O SIA é uma fonte ampla e valiosa, mas suas limitações precisam aparecer explicitamente no método e na discussão.</p>
+<table class="caption-top table">
+<caption>Limitações recorrentes do SIA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cobertura restrita ao SUS</td>
+<td>Não mede toda a produção ambulatorial do país</td>
+</tr>
+<tr class="even">
+<td>Finalidade administrativa e financeira</td>
+<td>Regras de faturamento afetam o registro</td>
+</tr>
+<tr class="odd">
+<td>Mudanças no SIGTAP</td>
+<td>Séries por procedimento podem ter quebras</td>
+</tr>
+<tr class="even">
+<td>Instrumentos heterogêneos</td>
+<td>BPA-C, BPA-I, APAC e RAAS não têm a mesma unidade</td>
+</tr>
+<tr class="odd">
+<td>Valores aprovados</td>
+<td>Não representam custo econômico total</td>
+</tr>
+<tr class="even">
+<td>Ausência de pessoa única em bases públicas</td>
+<td>Dificulta medir cobertura individual</td>
+</tr>
+<tr class="odd">
+<td>Produção rejeitada separada</td>
+<td>A produção aprovada pode excluir registros realizados mas rejeitados</td>
+</tr>
+<tr class="even">
+<td>Dependência do CNES</td>
+<td>Mudanças de estabelecimento afetam análise de rede</td>
+</tr>
+</tbody>
+</table>
+<p>Essas limitações não impedem o uso do SIA. Elas indicam que o sistema é mais forte para medir produção ambulatorial registrada, oferta utilizada, fluxos assistenciais e remuneração aprovada do que para medir necessidade de saúde, cobertura individual ou custo real do cuidado.</p>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="8.21">
+<h2 data-number="8.21" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">8.21</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o SIA, alguns cuidados são recorrentes:</p>
+<ul>
+<li>distinguir produção, procedimento, autorização, tratamento e pessoa;</li>
+<li>separar BPA-C, BPA-I, APAC e RAAS quando a unidade de análise for diferente;</li>
+<li>lembrar que a cobertura é SUS e rede conveniada, não todo o setor ambulatorial;</li>
+<li>diferenciar residência, ocorrência e estabelecimento;</li>
+<li>registrar códigos SIGTAP, versões e vigência;</li>
+<li>interpretar valores como remuneração aprovada, não custo real;</li>
+<li>verificar mudanças em regras de autorização, compatibilidade e instrumentos;</li>
+<li>avaliar completitude e consistência de idade, sexo, município, estabelecimento, procedimento e quantidade.</li>
+</ul>
+<table class="caption-top table">
+<caption>Checklist de qualidade para análises com SIA</caption>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Instrumento usado</td>
+<td>BPA, APAC e RAAS têm unidades distintas</td>
+</tr>
+<tr class="even">
+<td>Procedimento SIGTAP</td>
+<td>Define escopo e comparabilidade</td>
+</tr>
+<tr class="odd">
+<td>Quantidade aprovada</td>
+<td>Mede produção, não pessoas</td>
+</tr>
+<tr class="even">
+<td>Residência e ocorrência</td>
+<td>Define risco e oferta</td>
+</tr>
+<tr class="odd">
+<td>Competência</td>
+<td>Evita distorções em séries temporais</td>
+</tr>
+<tr class="even">
+<td>CNES</td>
+<td>Estabelecimentos mudam de perfil e vínculo</td>
+</tr>
+<tr class="odd">
+<td>Valores extremos</td>
+<td>Podem indicar procedimento específico ou erro</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Erros comuns incluem contar procedimentos como pessoas, somar instrumentos diferentes sem harmonizar unidade de análise, comparar valores aprovados como se fossem custos totais e interpretar produção registrada como necessidade de saúde atendida.</p>
+</div>
+</div>
+<section id="erros-comuns" class="level3" data-number="8.21.1">
+<h3 data-number="8.21.1" class="anchored" data-anchor-id="erros-comuns"><span class="header-section-number">8.21.1</span> Erros comuns</h3>
+<table class="caption-top table">
+<caption>Erros frequentes em análises do SIA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Contar linhas como procedimentos</td>
+<td>Usar quantidade aprovada quando essa for a medida desejada</td>
+</tr>
+<tr class="even">
+<td>Contar procedimentos como pessoas</td>
+<td>Declarar que o numerador é produção, não usuário único</td>
+</tr>
+<tr class="odd">
+<td>Misturar BPA-C, BPA-I, APAC e RAAS</td>
+<td>Separar instrumentos ou justificar harmonização</td>
+</tr>
+<tr class="even">
+<td>Ignorar vigência do SIGTAP</td>
+<td>Guardar competência e lista de códigos usada</td>
+</tr>
+<tr class="odd">
+<td>Usar ocorrência para risco populacional</td>
+<td>Usar residência quando o denominador for população residente</td>
+</tr>
+<tr class="even">
+<td>Comparar valores como custos</td>
+<td>Chamar de valor aprovado ou remuneração registrada</td>
+</tr>
+<tr class="odd">
+<td>Não comparar com TabNet</td>
+<td>Validar totais agregados antes de interpretar</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="checklist-final" class="level2" data-number="8.22">
+<h2 data-number="8.22" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">8.22</span> Checklist final</h2>
+<p>Antes de concluir uma análise com SIA, verifique se:</p>
+<ul>
+<li>a unidade de análise foi explicitada;</li>
+<li>o instrumento usado foi identificado;</li>
+<li>os códigos SIGTAP e a competência da tabela foram documentados;</li>
+<li>o recorte territorial distingue residência, ocorrência e estabelecimento;</li>
+<li>o período usa uma regra única de competência;</li>
+<li>numerador, denominador e exclusões foram descritos;</li>
+<li>os dados foram validados contra totais agregados quando possível;</li>
+<li>valores foram tratados como remuneração aprovada;</li>
+<li>limitações de cobertura e finalidade administrativa foram discutidas;</li>
+<li>o código de processamento permite reproduzir os resultados.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="8.23">
+<h2 data-number="8.23" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">8.23</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="8.23.1">
+<h3 data-number="8.23.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">8.23.1</span> Documentos auxiliares</h3>
 <ul>
 <li><a href="assets/sia/Manual_Operacional_SIA2010.pdf">Manual operacional</a></li>
+<li><a href="assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf">Informe técnico do SIA</a></li>
+<li><a href="https://wiki.datasus.gov.br/sigtap/index.php/Wiki_SIGTAP">Documentação oficial do SIGTAP</a></li>
 </ul>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-pedrosoDataSciencePlatform2023" class="csl-entry" role="listitem">
+<span class="nocase">PEDROSO, M. et al.</span> <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
+</div>
+<div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
+</div>
+</div>
 </section>
 </section>
 

@@ -4,24 +4,279 @@ always_allow_html: true
 
 # SIA -- Sistema de Informações Ambulatoriais do SUS {#sec-sia}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/sia_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/sia.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sia.md">podcast/sia.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 1990
--  Cobertura: Dimensão pública do SUS
--  Unidades: Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial
--  Divulgação de dados: mensal, com até dois meses  de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de criação | 1990 |
+| Evento registrado | Produção ambulatorial financiada pelo SUS |
+| Documentos básicos | BPA, APAC e RAAS, conforme o tipo de registro |
+| Unidade de análise | Procedimento, autorização ou registro ambulatorial |
+| Cobertura | Produção ambulatorial da rede pública e conveniada ao SUS |
+| Abrangência assistencial | Não cobre integralmente produção privada não financiada pelo SUS |
+| Disseminação | Mensal, com defasagem curta em relação à competência |
+: Características gerais do SIA/SUS
+
+O Sistema de Informações Ambulatoriais do SUS (SIA/SUS) é a principal fonte nacional para analisar produção ambulatorial financiada pelo SUS. Ele abrange consultas, exames, terapias, procedimentos especializados, ações de atenção domiciliar, atenção psicossocial, medicamentos e procedimentos de alta complexidade, conforme o instrumento de registro utilizado.
+
+Assim como o SIH (@sec-sih), o SIA tem forte origem administrativa e financeira. Por isso, seus dados devem ser interpretados como produção registrada e aprovada segundo regras do SUS, não como contagem direta de pessoas atendidas, necessidades de saúde ou custo econômico total.
+
+## Quando usar o SIA
+
+O SIA deve ser usado quando a pergunta envolve produção ambulatorial financiada pelo SUS, procedimentos, estabelecimentos, valores aprovados, APAC, BPA ou RAAS. Quando a pergunta envolve internação hospitalar, o sistema principal é o SIH (@sec-sih).
+
+| Pergunta de análise | Usar SIA para | Fonte complementar comum |
+|---|---|---|
+| Quantos procedimentos ambulatoriais foram registrados? | Contar produção aprovada | CNES (@sec-cnes) para caracterizar serviços |
+| Quais procedimentos foram realizados? | Analisar código do procedimento | SIGTAP para descrição e regras |
+| Onde a produção ocorreu? | Analisar estabelecimento e município | CNES (@sec-cnes) para vínculo e tipo de unidade |
+| Qual foi a produção de alta complexidade? | Usar APAC | Regras específicas por modalidade |
+| Qual foi a produção por residência? | Comparar residência e ocorrência | POP (@sec-pop) para taxas |
+| Qual foi o valor aprovado? | Analisar valores registrados | Tabelas de remuneração do SUS |
+: Perguntas comuns que podem ser respondidas com o SIA
 
 ## Histórico e organização
 
-O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, e ações de prevenção e promoção de saúde, cobrindo unidades de saúde da dimensão pública do SUS e rede conveniada (particular).
+O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, ações de prevenção e promoção da saúde e procedimentos especializados realizados por unidades públicas e conveniadas ao SUS.
 
-O SIA foi instituído pela Portaria GM/MS n.º 896 de 29 de junho de 1990 tendo origem no projeto SICAPS (Sistema de Informação e Controle Ambulatorial da Previdência Social). 
+O SIA foi instituído pela Portaria GM/MS n.º 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social.
 
-A implantação do SIA em território nacional se deu em 1995, com o uso do Boletim de Produção Ambulatorial Consolidado (BPA-C), onde era registrado apenas o procedimento realizado e a quantidade conforme profissional.
+A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatorial Consolidado (BPA-C), instrumento em que a produção era registrada de forma agregada por procedimento e quantidade. Em 1996, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo (APAC) foi incorporada ao SIA para registrar procedimentos ambulatoriais de maior complexidade e custo. Em 2008, o Boletim de Produção Ambulatorial Individualizado (BPA-I) passou a permitir registro individualizado de produção, com maior detalhamento de profissional e usuário.
 
-A Autorização de Procedimentos Ambulatoriais e Alta Complexidade/Custo (APAC) foi instituída em 1996 como um novo instrumento do SIA, contemplando procedimentos ambulatoriais de alta complexidade e custo.
+Ao longo do tempo, o SIA passou a reunir instrumentos com granularidade e finalidades diferentes. Essa diversidade é uma força do sistema, mas também exige cuidado: BPA-C, BPA-I, APAC e RAAS não devem ser tratados como se tivessem a mesma unidade de análise.
 
-Em 2008, foi implantado o Boletim de Produção Ambulatorial Individualizado (BPA-I), ligando o procedimento realizado a uma identificação do profissional e do paciente.
+## SIA e SIH
+
+SIA e SIH (@sec-sih) são sistemas de produção assistencial e remuneração, mas registram tipos diferentes de cuidado.
+
+| Dimensão | SIA | SIH |
+|---|---|---|
+| Tipo de cuidado | Ambulatorial | Hospitalar |
+| Unidade típica | Procedimento, BPA, APAC ou RAAS | AIH |
+| Evento assistencial | Atendimento, exame, terapia ou procedimento | Internação |
+| Periodicidade | Mensal | Mensal |
+| Uso comum | Produção ambulatorial | Morbidade hospitalar e produção |
+| Cuidado central | Produção não é pessoa | AIH não é pessoa |
+: Diferenças práticas entre SIA e SIH
+
+## Fluxo da produção ambulatorial
+
+A produção ambulatorial segue um ciclo administrativo: realização do atendimento ou procedimento, registro no instrumento apropriado, envio ao gestor, críticas, aprovação ou rejeição e disseminação dos dados.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado da produção ambulatorial no SIA"
+%%| label: fig-sia-fluxo
+flowchart TD
+  prod[Atendimento ou procedimento ambulatorial] --> inst[Instrumento de registro]
+  inst --> bpa[BPA]
+  inst --> apac[APAC]
+  inst --> raas[RAAS]
+  bpa --> envio[Envio ao gestor]
+  apac --> envio
+  raas --> envio
+  envio --> crit[Críticas e consistência]
+  crit --> apr[Produção aprovada]
+  crit --> rej[Produção rejeitada]
+  apr --> sia[Disseminação do SIA]
+```
+:::
+
+Esse fluxo reforça que o SIA é uma base de produção aprovada. Regras de crítica, compatibilidades, instrumentos e competência influenciam diretamente o que aparece nos microdados.
+
+## Instrumentos de registro
+
+O SIA reúne instrumentos com diferentes níveis de detalhamento. A escolha do arquivo deve seguir a pergunta da análise.
+
+| Instrumento | O que registra | Uso típico |
+|---|---|---|
+| BPA-C | Produção agregada | Procedimentos simples e volume consolidado |
+| BPA-I | Produção individualizada | Procedimentos com identificação individual |
+| APAC | Procedimentos de alta complexidade/custo | Terapias, medicamentos e tratamentos especializados |
+| RAAS | Ações ambulatoriais específicas | Atenção psicossocial e atenção domiciliar |
+: Instrumentos de registro do SIA
+
+::: {.callout-warning}
+Não interprete automaticamente produção ambulatorial como número de pessoas atendidas. Uma pessoa pode gerar vários procedimentos, várias APACs ou registros em diferentes instrumentos no mesmo período.
+:::
+
+## Unidade de análise
+
+A primeira decisão metodológica em uma análise do SIA é definir o que será contado. O mesmo arquivo pode apoiar perguntas sobre produção, autorizações, tratamentos, estabelecimentos ou trajetórias assistenciais, mas cada unidade exige regras diferentes.
+
+| Unidade | O que representa | Quando usar | Cuidado principal |
+|---|---|---|---|
+| Procedimento | Ação registrada e aprovada | Produção, oferta e valores | Não equivale a pessoa |
+| Quantidade aprovada | Número aprovado para faturamento | Volume total de produção | Pode ser maior que o número de linhas |
+| Registro individualizado | Linha de BPA-I, APAC ou RAAS | Perfil demográfico e territorial | Campos variam por instrumento |
+| Autorização | APAC ou autorização equivalente | Alta complexidade e continuidade | Pode haver registros em várias competências |
+| Tratamento | Conjunto de registros relacionados | Oncologia, nefrologia, medicamentos | Exige regra longitudinal explícita |
+| Estabelecimento | Unidade executora informada no registro | Rede, concentração e oferta | Deve ser combinado com CNES (@sec-cnes) |
+: Unidades de análise possíveis no SIA
+
+::: {.callout-note}
+Ao escrever resultados, use a unidade que foi efetivamente analisada. Se o numerador foi `PA_QTDAPR`, o resultado descreve quantidade aprovada de procedimentos, não usuários atendidos.
+:::
+
+## Roteiro para análise
+
+Um fluxo reprodutível com SIA costuma seguir uma sequência simples. A ordem ajuda a evitar problemas comuns antes de baixar ou processar grandes volumes de dados.
+
+1. Definir a pergunta de análise e a unidade final: procedimento, autorização, tratamento, pessoa ou estabelecimento.
+2. Escolher o instrumento adequado: PA, BPA-I, APAC, RAAS ou combinação documentada.
+3. Fixar período, competência e território, distinguindo residência, ocorrência e estabelecimento.
+4. Selecionar códigos SIGTAP e registrar a competência da tabela usada.
+5. Baixar os arquivos por UF, mês e instrumento, mantendo os dados brutos imutáveis.
+6. Padronizar tipos, nomes de variáveis e códigos territoriais.
+7. Aplicar filtros de produção aprovada, instrumento, procedimento, idade, sexo e residência quando necessários.
+8. Rodar checagens de qualidade e comparar totais agregados com TabNet.
+9. Construir indicadores, deixando claro numerador, denominador e exclusões.
+10. Interpretar resultados como produção registrada no SUS, não como necessidade total de saúde.
+
+## Procedimentos e SIGTAP
+
+O código do procedimento é um dos campos centrais do SIA. Ele é gerenciado pela tabela SIGTAP, que define descrição, grupo, subgrupo, forma de organização, complexidade, financiamento, valores e regras de compatibilidade.
+
+| Elemento do SIGTAP | Por que importa |
+|---|---|
+| Código e descrição | Define o procedimento analisado |
+| Grupo e subgrupo | Permite agregação da produção |
+| Forma de organização | Ajuda a entender a finalidade do procedimento |
+| Compatibilidade por idade e sexo | Afeta aprovação e consistência |
+| CID ou CBO compatível | Pode condicionar registros |
+| Valor de referência | Influencia valor aprovado |
+| Vigência temporal | Evita comparar códigos descontinuados |
+: Elementos do SIGTAP relevantes para análise do SIA
+
+Você pode consultar o [SIGTAP](http://sigtap.datasus.gov.br) para verificar descrição, regras e vigência de procedimentos.
+
+A documentação oficial do SIGTAP descreve atributos como código, descrição, vigência, modalidade de atendimento, complexidade, instrumentos de registro, idade, sexo, CBO, CID, serviço/classificação, habilitação, financiamento e regras condicionadas. Esses atributos são usados nas críticas do SIA e ajudam a explicar quebras ou mudanças em séries históricas.
+
+- [Wiki SIGTAP - atributos gerais](https://wiki.datasus.gov.br/sigtap/index.php/Gerais)
+- [Wiki SIGTAP - procedimento](https://wiki.datasus.gov.br/sigtap/index.php/Procedimento)
+
+## Análise territorial e temporal
+
+O SIA permite analisar produção por estabelecimento, município de ocorrência, município de residência, competência e, em alguns instrumentos, informações individualizadas do usuário. Cada recorte responde a uma pergunta diferente.
+
+| Recorte | Pergunta respondida | Exemplo |
+|---|---|---|
+| Ocorrência | Onde a produção foi realizada? | Produção por município ou serviço |
+| Residência | De onde vem a demanda? | Taxa de procedimentos de residentes |
+| Estabelecimento | Que unidade produziu? | Produção por CNES |
+| Competência | Quando a produção foi registrada? | Série mensal de procedimentos |
+| Instrumento | Como a produção foi registrada? | Separar BPA, APAC e RAAS |
+: Recortes territoriais e temporais frequentes no SIA
+
+Para estimar uso da população residente, use residência e denominadores populacionais compatíveis. Para avaliar oferta, capacidade produtiva ou concentração de serviços, use ocorrência e estabelecimento.
+
+## Exemplo: produção de mamografias
+
+Mamografias são um exemplo de uso do SIA para análise de produção ambulatorial. A pergunta pode envolver volume de exames, distribuição territorial, uso por faixa etária, concentração em estabelecimentos e relação entre residência e ocorrência.
+
+| Código SIGTAP | Procedimento | Uso analítico típico | Cuidado |
+|---|---|---|---|
+| `0204030030` | Mamografia | Mamografias diagnósticas, acompanhamento e outras indicações | Pode incluir finalidades distintas |
+| `0204030188` | Mamografia bilateral para rastreamento | Rastreamento, especialmente em mulheres de 50 a 69 anos | Confirmar vigência e regra de financiamento |
+: Códigos SIGTAP comuns em análises de mamografia
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Procedimento | Código SIGTAP de mamografia | Fixar códigos e vigência |
+| Numerador | Quantidade aprovada | Não é número de mulheres únicas |
+| Território | Residência ou ocorrência | Escolher conforme pergunta |
+| Idade | Faixa etária | Verificar compatibilidade do procedimento |
+| Estabelecimento | CNES | Relacionar com CNES quando necessário |
+| Tempo | Competência | Evitar misturar com data de atendimento |
+: Campos úteis em uma análise de mamografias no SIA
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+codigos_mamografia <- c(
+  "0204030030",
+  "0204030188"
+)
+
+mamografias_mun <- sia_raw |>
+  filter(PA_PROC_ID %in% codigos_mamografia) |>
+  group_by(PA_MUNPCN) |>
+  summarise(
+    procedimentos = sum(as.numeric(PA_QTDAPR), na.rm = TRUE),
+    valor_aprovado = sum(as.numeric(PA_VALAPR), na.rm = TRUE),
+    .groups = "drop"
+  )
+
+mamografias_mun
+```
+
+::: {.callout-note}
+Os códigos acima são um ponto de partida didático. Em uma análise real, consulte o SIGTAP na competência analisada, registre a versão da tabela, verifique se houve inclusão, exclusão ou alteração de códigos e explicite se a análise inclui apenas rastreamento ou também mamografias diagnósticas.
+:::
+
+### Indicador: mamografias em mulheres de 50 a 69 anos
+
+Um indicador aplicado pode estimar a taxa de mamografias de rastreamento em mulheres de 50 a 69 anos residentes em determinado município. O numerador viria do SIA por residência; o denominador, de estimativas populacionais femininas na mesma faixa etária.
+
+| Componente | Definição operacional |
+|---|---|
+| Numerador | Quantidade aprovada de `0204030188` em mulheres de 50 a 69 anos |
+| Denominador | População feminina residente de 50 a 69 anos |
+| Território | Município de residência |
+| Período | Competência ou conjunto de competências |
+| Medida | Mamografias por 1.000 mulheres de 50 a 69 anos |
+| Interpretação | Produção registrada, não cobertura individual do rastreamento |
+: Exemplo de especificação de indicador com SIA
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+mamografia_rastreamento <- sia_raw |>
+  filter(
+    PA_PROC_ID == "0204030188",
+    PA_SEXO == "F",
+    between(as.numeric(PA_IDADE), 50, 69)
+  ) |>
+  group_by(PA_MUNPCN) |>
+  summarise(
+    mamografias = sum(as.numeric(PA_QTDAPR), na.rm = TRUE),
+    .groups = "drop"
+  ) |>
+  left_join(pop_mulheres_50_69, by = c("PA_MUNPCN" = "codmun")) |>
+  mutate(taxa_1000 = mamografias / populacao * 1000)
+
+mamografia_rastreamento
+```
+
+::: {.callout-warning}
+Esse indicador não mede mulheres rastreadas uma única vez. Uma mesma mulher pode realizar mais de uma mamografia no período, e bases públicas podem não permitir deduplicação nominal.
+:::
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -37,59 +292,169 @@ Mais detalhes sobre o histórico do SIA podem ser encontrados [aqui](https://wik
 
 ## Estrutura dos dados
 
-Confira o documento de [estrutura do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf), onde estão descritas as variáveis disponíveis.
+O documento de [estrutura do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf) descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos mais usados estão competência, estabelecimento, município de ocorrência, município de residência, procedimento, quantidade aprovada, valor aprovado, idade, sexo, CBO e dados específicos do instrumento.
 
-::::: {.callout}
-Um campo de grande interesse no SIA é o código do procedimento executado no atendimento ambulatorial. Este código é gerenciado por um outro sistema denominado Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos e OPM do SUS -- SIGTAP.
+### Campos mínimos para inspecionar
 
-Você pode consultar o [SIGTAP aqui](http://sigtap.datasus.gov.br).
+Os nomes e a disponibilidade das variáveis variam conforme PA, APAC, BPA-I e RAAS. Em uma primeira inspeção, costuma ser útil verificar:
+
+| Campo | Uso |
+|---|---|
+| `PA_CMP` ou equivalente | Competência da produção |
+| `PA_CODUNI` | Estabelecimento executor |
+| `PA_UFMUN` | Município de ocorrência |
+| `PA_MUNPCN` | Município de residência do usuário |
+| `PA_PROC_ID` | Procedimento realizado |
+| `PA_QTDAPR` | Quantidade aprovada |
+| `PA_VALAPR` | Valor aprovado |
+| `PA_IDADE` | Idade |
+| `PA_SEXO` | Sexo |
+| `PA_CBOCOD` | Ocupação do profissional |
+| Campos APAC/RAAS | Detalhes específicos do instrumento |
+: Campos úteis para uma primeira inspeção dos dados do SIA
+
+### Transformações frequentes
+
+Muitas análises do SIA dependem de transformar campos originais em categorias ou medidas. Essas regras devem ser documentadas no método.
+
+| Conceito | Regra operacional comum | Campo associado |
+|---|---|---|
+| Produção aprovada | Soma de quantidade aprovada | `PA_QTDAPR` |
+| Valor aprovado | Soma de valor aprovado | `PA_VALAPR` |
+| Grupo de procedimento | Agrupamento por SIGTAP | `PA_PROC_ID` |
+| Produção de residentes | Residência no território | `PA_MUNPCN` |
+| Produção fora do município | Residência diferente da ocorrência | `PA_MUNPCN`, `PA_UFMUN` |
+| Faixa etária | Agrupamento de idade | `PA_IDADE` |
+| Profissional | Agrupamento por CBO | `PA_CBOCOD` |
+: Transformações comuns em análises com SIA
+
+### Prefixo dos arquivos
+
+Os dados do SIA são distribuídos em várias famílias de arquivos. A lista abaixo resume prefixos comuns.
+
+| Prefixo | Conteúdo |
+|---|---|
+| PA | Procedimentos ambulatoriais |
+| AD | APAC de laudos diversos |
+| AM | APAC de medicamentos |
+| AN | APAC de nefrologia |
+| AQ | APAC de quimioterapia |
+| AR | APAC de radioterapia |
+| AB | APAC de cirurgia bariátrica |
+| ACF | APAC de confecção de fístula arteriovenosa |
+| ATD | APAC de tratamento dialítico |
+| SAD | RAAS de atenção domiciliar |
+| PS | RAAS psicossocial |
+| BI/BPA-I | Boletim de produção individualizado |
+: Prefixos comuns dos arquivos do SIA
+
+### Guia mínimo de dicionário
+
+Ao trabalhar com microdados do SIA, não assuma que todos os arquivos possuem os mesmos campos. Uma estratégia prática é organizar o dicionário por blocos.
+
+| Bloco | Exemplos de campos | Pergunta de controle |
+|---|---|---|
+| Competência | `PA_CMP`, ano, mês | A produção pertence ao período esperado? |
+| Estabelecimento | `PA_CODUNI`, CNES equivalente | O serviço executor está identificado? |
+| Território | `PA_UFMUN`, `PA_MUNPCN` | O campo representa ocorrência ou residência? |
+| Procedimento | `PA_PROC_ID`, grupo SIGTAP | O código estava vigente no período? |
+| Quantidade e valor | `PA_QTDAPR`, `PA_VALAPR` | O indicador usa linha, quantidade ou valor? |
+| Usuário | idade, sexo e campos individualizados | O instrumento permite perfil individual? |
+| Profissional | `PA_CBOCOD` ou equivalente | A ocupação é necessária para a pergunta? |
+| Instrumento | campos específicos de APAC, BPA-I ou RAAS | A unidade de análise mudou? |
+: Blocos úteis para organizar um dicionário de dados do SIA
+
+Quando houver diferenças entre anos ou instrumentos, preserve uma tabela de compatibilização com nome original, nome padronizado, tipo, regra de transformação e observação metodológica.
+
+## APAC e alta complexidade
+
+A APAC registra procedimentos ambulatoriais de alta complexidade ou alto custo, como medicamentos especializados, terapias renais, quimioterapia, radioterapia e outros tratamentos específicos. Em geral, a APAC exige autorização, laudo e regras próprias de continuidade.
+
+| Dimensão | Cuidado |
+|---|---|
+| Autorização | Nem todo procedimento ambulatorial exige APAC |
+| Continuidade | Tratamentos podem aparecer por vários meses |
+| Pessoa | Registros não devem ser interpretados automaticamente como pessoa única |
+| Procedimento | Regras variam por modalidade |
+| Valor | Representa remuneração aprovada |
+: Cuidados em análises com APAC
+
+Exemplos frequentes de análise com APAC incluem tratamentos oncológicos, terapia renal substitutiva, radioterapia, quimioterapia, medicamentos especializados e procedimentos com autorização continuada. Nesses casos, a competência mensal pode representar continuidade de cuidado, não um novo caso incidente.
+
+| Área | Pergunta possível | Unidade mais adequada |
+|---|---|---|
+| Oncologia | Volume de quimioterapia ou radioterapia | Procedimento ou tratamento |
+| Nefrologia | Produção de terapia renal substitutiva | Procedimento mensal ou paciente vinculado |
+| Medicamentos | Uso de medicamentos especializados | APAC, procedimento ou usuário |
+| Atenção especializada | Distribuição regional de procedimentos | Procedimento por residência ou ocorrência |
+| Auditoria | Rejeições e inconsistências | Registro rejeitado ou código de crítica |
+: Exemplos de uso analítico da APAC
+
+::: {.callout-note}
+Em estudos longitudinais, defina janelas de continuidade, intervalos aceitáveis entre competências e regras para troca de procedimento ou estabelecimento antes de interpretar APACs como tratamentos.
 :::
 
-Os dados do SIA são distribuídos em três categorias gerais, detalhadas a seguir.
+## Produção rejeitada e crítica
 
-### Arquivos de Procedimentos Ambulatoriais
+Assim como nos demais sistemas de produção, registros podem ser rejeitados por inconsistências, incompatibilidades ou problemas administrativos. Quando o objetivo é medir produção realizada e aprovada, use arquivos de produção aprovada. Quando o objetivo é auditoria ou qualidade do faturamento, analise rejeições separadamente.
 
-Os procedimentos ambulatoriais se dividem em "comuns", denominado "PA", de "alta complexidade", denominado "APAC".
-
-Os arquivos de APAC se dividem nas seguintes subcategorias:
-
--  Laudos diversos (AD)
--  Medicamentos (AM)
--  Nefrologia (AN)
--  Quimioterapia (AQ)
--  Radioterapia (AR)
--  Cirurgia Bariátrica (AB)
--  Confecção de Fístula Arteriovenosa (ACF)
--  Tratamento Dialítico (ATD)
-
-### Registro das Ações ambulatoriais de saúde
-
--  Atenção Domiciliar (SAD)
--  Psicossocial (PS)
-
-### Boletim de Produção Ambulatorial Individualizado 
-
--  BPA-I
+| Situação | Uso recomendado |
+|---|---|
+| Produção aprovada | Indicadores de produção e oferta |
+| Rejeições | Auditoria e qualidade do processamento |
+| Inconsistências | Revisão de regras e preenchimento |
+| Mudanças de regra | Avaliação de quebras em série histórica |
+: Uso analítico de aprovação e rejeição no SIA
 
 ## Acesso aos dados
 
+Os dados do SIA podem ser acessados por diferentes caminhos, a depender do objetivo da análise.
+
+| Forma de acesso | Indicação de uso |
+|---|---|
+| TabNet | Tabulações rápidas e consultas agregadas |
+| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| R | Fluxos reprodutíveis com `{microdatasus}` |
+| Python | Fluxos reprodutíveis com PySUS |
+| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+: Formas de acesso aos dados do SIA
+
+## Processamento de grandes volumes
+
+O SIA é disseminado em arquivos mensais por unidade federativa e por instrumento. Séries longas e análises nacionais podem envolver grande volume e diferentes estruturas de arquivos.
+
+| Estratégia | Quando usar |
+|---|---|
+| Baixar por UF, mês e instrumento | Controle incremental |
+| Separar PA, APAC e RAAS | Evitar misturar unidades |
+| Padronizar nomes e tipos | Comparar anos e instrumentos |
+| Salvar em Parquet | Leitura rápida e compactação |
+| Usar DuckDB | Consultas locais em bases grandes |
+| Registrar códigos SIGTAP | Reprodutibilidade |
+: Estratégias para processamento do SIA em escala
+
+Uma organização comum é manter arquivos brutos imutáveis, gerar camadas tratadas por instrumento e construir bases analíticas menores para cada pergunta.
+
 ### TabNet
 
-Os dados do SIA podem ser acessados no sistema TabNet do DataSUS, na seção "Assistência à Saúde".
+Os dados do SIA podem ser acessados no TabNet do DataSUS, na seção "Assistência à Saúde".
 
--  [TabNet SIA](https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/)
+- [TabNet SIA](https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/)
 
-### TabWin
+### TabWin e transferência de arquivos
 
-Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
 
--  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+
+No serviço de transferência, o usuário normalmente seleciona a área de assistência à saúde, o sistema SIA, o tipo de arquivo, a unidade federativa e a competência. Para análises reprodutíveis, salve também a lista de arquivos baixados, data de acesso, hash dos arquivos e versão do código de processamento.
 
 ### R
 
-Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar microdados do DataSUS em R [@Saldanha2019a].
 
 ```{r}
+#| eval: false
 #| message: false
 library(microdatasus)
 
@@ -107,13 +472,159 @@ head(sia_raw)
 
 ### Python
 
-Você pode usar a biblioteca PySUS.
+A biblioteca PySUS também permite acessar dados do SIA em fluxos de análise em Python.
 
--  [PySUS SIA](https://pysus.readthedocs.io/en/latest/databases/SIA.html)
+- [PySUS SIA](https://pysus.readthedocs.io/en/latest/databases/SIA.html)
+
+### PCDaS
+
+Os dados do SIA também podem ser acessados em ambientes de análise da Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), que organiza bases de saúde para uso em notebooks e infraestrutura de processamento [@pedrosoDataSciencePlatform2023].
+
+- [PCDaS](https://pcdas.icict.fiocruz.br/)
+
+## Relacionamento com outros sistemas
+
+O SIA é frequentemente combinado com outros sistemas para caracterizar estabelecimentos, rede, denominadores e desfechos.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Qual serviço produziu? | SIA + CNES (@sec-cnes) | CNES muda ao longo do tempo |
+| Qual carga assistencial total? | SIA + SIH (@sec-sih) | Separar ambulatorial e hospitalar |
+| Houve óbito após procedimento? | SIA + SIM (@sec-sim) | Requer relacionamento e janela temporal |
+| O procedimento foi ligado a agravo notificado? | SIA + SINAN (@sec-sinan) | Harmonizar definição de caso |
+| Qual taxa de procedimentos? | SIA + POP (@sec-pop) | Usar residência e população compatível |
+: Integrações frequentes entre o SIA e outros sistemas
+
+Em relacionamentos de registros, defina antes se a unidade final será procedimento, pessoa, autorização, tratamento ou trajetória assistencial. Cada escolha exige regras diferentes de deduplicação e janelas temporais.
+
+## Validação reprodutível
+
+Antes de publicar indicadores com SIA, rode checagens automáticas simples e guarde os resultados. Elas não substituem auditoria, mas ajudam a identificar erros de filtro, campos vazios, tipos incorretos e mudanças inesperadas de estrutura.
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+validacao_sia <- sia_raw |>
+  summarise(
+    registros = n(),
+    procedimentos_sem_codigo = sum(is.na(PA_PROC_ID) | PA_PROC_ID == ""),
+    municipio_residencia_sem_codigo = sum(is.na(PA_MUNPCN) | PA_MUNPCN == ""),
+    municipio_ocorrencia_sem_codigo = sum(is.na(PA_UFMUN) | PA_UFMUN == ""),
+    idade_invalida = sum(as.numeric(PA_IDADE) < 0 | as.numeric(PA_IDADE) > 130, na.rm = TRUE),
+    sexo_ignorado = sum(!PA_SEXO %in% c("M", "F"), na.rm = TRUE),
+    quantidade_zero_ou_negativa = sum(as.numeric(PA_QTDAPR) <= 0, na.rm = TRUE),
+    valor_negativo = sum(as.numeric(PA_VALAPR) < 0, na.rm = TRUE)
+  )
+
+validacao_sia
+```
+
+| Checagem | Interpretação |
+|---|---|
+| Procedimento ausente | Pode indicar problema de leitura ou arquivo inadequado |
+| Município ausente | Afeta taxas e mapas |
+| Idade fora do intervalo | Sugere erro de tipo ou preenchimento |
+| Sexo ignorado | Pode limitar indicadores por sexo |
+| Quantidade zero ou negativa | Deve ser entendida antes de somar produção |
+| Valor negativo | Pode indicar erro de leitura ou regra específica |
+: Checagens automáticas úteis antes da análise
+
+Também é útil comparar totais agregados com o TabNet no mesmo período, UF, instrumento e procedimento. Diferenças pequenas podem resultar de filtros, competência ou processamento; diferenças grandes geralmente indicam seleção incorreta de arquivos ou variáveis.
+
+## Principais usos e indicadores
+
+Os dados do SIA são usados em indicadores de produção ambulatorial, acesso a procedimentos, oferta regional, uso de serviços especializados e valores aprovados.
+
+| Indicador | Numerador principal | Denominador ou cuidado |
+|---|---|---|
+| Produção ambulatorial por procedimento | Quantidade aprovada | Definir instrumento e código SIGTAP |
+| Taxa de procedimento por residentes | Quantidade de residentes | População residente |
+| Valor médio por procedimento | Valor aprovado | Não representa custo total |
+| Proporção por grupo de procedimentos | Produção por grupo SIGTAP | Total no mesmo recorte |
+| Produção fora do município de residência | Procedimentos com ocorrência diferente | Requer residência e ocorrência |
+| Produção de alta complexidade | APAC aprovada | Separar modalidade e continuidade |
+: Exemplos de indicadores construídos com dados do SIA
+
+## Limitações
+
+O SIA é uma fonte ampla e valiosa, mas suas limitações precisam aparecer explicitamente no método e na discussão.
+
+| Limitação | Consequência analítica |
+|---|---|
+| Cobertura restrita ao SUS | Não mede toda a produção ambulatorial do país |
+| Finalidade administrativa e financeira | Regras de faturamento afetam o registro |
+| Mudanças no SIGTAP | Séries por procedimento podem ter quebras |
+| Instrumentos heterogêneos | BPA-C, BPA-I, APAC e RAAS não têm a mesma unidade |
+| Valores aprovados | Não representam custo econômico total |
+| Ausência de pessoa única em bases públicas | Dificulta medir cobertura individual |
+| Produção rejeitada separada | A produção aprovada pode excluir registros realizados mas rejeitados |
+| Dependência do CNES | Mudanças de estabelecimento afetam análise de rede |
+: Limitações recorrentes do SIA
+
+Essas limitações não impedem o uso do SIA. Elas indicam que o sistema é mais forte para medir produção ambulatorial registrada, oferta utilizada, fluxos assistenciais e remuneração aprovada do que para medir necessidade de saúde, cobertura individual ou custo real do cuidado.
+
+## Cuidados de interpretação
+
+Ao utilizar o SIA, alguns cuidados são recorrentes:
+
+- distinguir produção, procedimento, autorização, tratamento e pessoa;
+- separar BPA-C, BPA-I, APAC e RAAS quando a unidade de análise for diferente;
+- lembrar que a cobertura é SUS e rede conveniada, não todo o setor ambulatorial;
+- diferenciar residência, ocorrência e estabelecimento;
+- registrar códigos SIGTAP, versões e vigência;
+- interpretar valores como remuneração aprovada, não custo real;
+- verificar mudanças em regras de autorização, compatibilidade e instrumentos;
+- avaliar completitude e consistência de idade, sexo, município, estabelecimento, procedimento e quantidade.
+
+| Checagem | Por que importa |
+|---|---|
+| Instrumento usado | BPA, APAC e RAAS têm unidades distintas |
+| Procedimento SIGTAP | Define escopo e comparabilidade |
+| Quantidade aprovada | Mede produção, não pessoas |
+| Residência e ocorrência | Define risco e oferta |
+| Competência | Evita distorções em séries temporais |
+| CNES | Estabelecimentos mudam de perfil e vínculo |
+| Valores extremos | Podem indicar procedimento específico ou erro |
+: Checklist de qualidade para análises com SIA
+
+::: {.callout-warning}
+Erros comuns incluem contar procedimentos como pessoas, somar instrumentos diferentes sem harmonizar unidade de análise, comparar valores aprovados como se fossem custos totais e interpretar produção registrada como necessidade de saúde atendida.
+:::
+
+### Erros comuns
+
+| Erro | Como evitar |
+|---|---|
+| Contar linhas como procedimentos | Usar quantidade aprovada quando essa for a medida desejada |
+| Contar procedimentos como pessoas | Declarar que o numerador é produção, não usuário único |
+| Misturar BPA-C, BPA-I, APAC e RAAS | Separar instrumentos ou justificar harmonização |
+| Ignorar vigência do SIGTAP | Guardar competência e lista de códigos usada |
+| Usar ocorrência para risco populacional | Usar residência quando o denominador for população residente |
+| Comparar valores como custos | Chamar de valor aprovado ou remuneração registrada |
+| Não comparar com TabNet | Validar totais agregados antes de interpretar |
+: Erros frequentes em análises do SIA
+
+## Checklist final
+
+Antes de concluir uma análise com SIA, verifique se:
+
+- a unidade de análise foi explicitada;
+- o instrumento usado foi identificado;
+- os códigos SIGTAP e a competência da tabela foram documentados;
+- o recorte territorial distingue residência, ocorrência e estabelecimento;
+- o período usa uma regra única de competência;
+- numerador, denominador e exclusões foram descritos;
+- os dados foram validados contra totais agregados quando possível;
+- valores foram tratados como remuneração aprovada;
+- limitações de cobertura e finalidade administrativa foram discutidas;
+- o código de processamento permite reproduzir os resultados.
 
 ## Bibliografia recomendada
 
 ### Documentos auxiliares
 
--  [Manual operacional](assets/sia/Manual_Operacional_SIA2010.pdf)
-
+- [Manual operacional](assets/sia/Manual_Operacional_SIA2010.pdf)
+- [Informe técnico do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf)
+- [Documentação oficial do SIGTAP](https://wiki.datasus.gov.br/sigtap/index.php/Wiki_SIGTAP)
