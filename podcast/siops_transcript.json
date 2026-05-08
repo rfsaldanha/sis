@@ -1,0 +1,597 @@
+[
+{
+  "start": 0,
+  "end": 7.941,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre o SIOPS, o Sistema de Informações sobre Orçamentos Públicos em Saúde."
+}
+,
+{
+  "start": 8.291,
+  "end": 12.563,
+  "speaker": "ESTUDANTE",
+  "text": "O SIOPS é diferente dos sistemas que registram eventos de saúde, certo?"
+}
+,
+{
+  "start": 12.913,
+  "end": 30.978,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. O SIOPS não registra consultas, internações, notificações, nascimentos ou óbitos. Ele organiza informações sobre receitas, despesas e indicadores financeiros declarados pelos entes federados."
+}
+,
+{
+  "start": 31.328,
+  "end": 35.183,
+  "speaker": "ESTUDANTE",
+  "text": "Então ele descreve a dimensão orçamentária e financeira do SUS."
+}
+,
+{
+  "start": 35.533,
+  "end": 48.583,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. O uso central do SIOPS é acompanhar quanto União, estados, Distrito Federal e municípios declaram aplicar em Ações e Serviços Públicos de Saúde, as ASPS."
+}
+,
+{
+  "start": 48.933,
+  "end": 50.419,
+  "speaker": "ESTUDANTE",
+  "text": "Quando devo usar o SIOPS?"
+}
+,
+{
+  "start": 50.769,
+  "end": 65.769,
+  "speaker": "APRESENTADORA",
+  "text": "Use o SIOPS quando a pergunta envolve financiamento público, receitas vinculadas, despesas em saúde, cumprimento de aplicação mínima, composição do gasto ou comparação entre entes federados."
+}
+,
+{
+  "start": 66.119,
+  "end": 68.998,
+  "speaker": "ESTUDANTE",
+  "text": "E quando a pergunta envolve produção assistencial?"
+}
+,
+{
+  "start": 69.348,
+  "end": 86.856,
+  "speaker": "APRESENTADORA",
+  "text": "Aí o SIOPS não é a fonte principal. Para internações, use SIH. Para produção ambulatorial, SIA. Para óbitos, SIM. Para nascimentos, SINASC. Para agravos de notificação, SINAN."
+}
+,
+{
+  "start": 87.206,
+  "end": 92.918,
+  "speaker": "ESTUDANTE",
+  "text": "Então gasto público em saúde não é o mesmo que acesso, qualidade ou necessidade de saúde."
+}
+,
+{
+  "start": 93.268,
+  "end": 106.921,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. O SIOPS informa financiamento declarado. Ele pode ser combinado com outros sistemas, mas não mede diretamente acesso, resultado ou qualidade do cuidado."
+}
+,
+{
+  "start": 107.271,
+  "end": 108.664,
+  "speaker": "ESTUDANTE",
+  "text": "Como o SIOPS surgiu?"
+}
+,
+{
+  "start": 109.014,
+  "end": 130.237,
+  "speaker": "APRESENTADORA",
+  "text": "A demanda por informações sistematizadas sobre gastos públicos em saúde ganhou força nos anos 1990. Em 2000, o SIOPS foi institucionalizado. No mesmo ano, a Emenda Constitucional número 29 estabeleceu bases para aplicação mínima de recursos em saúde."
+}
+,
+{
+  "start": 130.587,
+  "end": 134.395,
+  "speaker": "ESTUDANTE",
+  "text": "Depois veio a Lei Complementar 141 de 2012."
+}
+,
+{
+  "start": 134.745,
+  "end": 148.584,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Ela regulamentou os valores mínimos a serem aplicados em ASPS, as regras de fiscalização, avaliação e controle, e a obrigatoriedade de declaração no SIOPS."
+}
+,
+{
+  "start": 148.934,
+  "end": 151.395,
+  "speaker": "ESTUDANTE",
+  "text": "A homologação passou a ser obrigatória."
+}
+,
+{
+  "start": 151.745,
+  "end": 165.909,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A partir de 2013, os dados passaram a exigir homologação com certificação digital, com penalidades em caso de ausência de declaração ou não cumprimento dos mínimos legais."
+}
+,
+{
+  "start": 166.259,
+  "end": 168.674,
+  "speaker": "ESTUDANTE",
+  "text": "Como funciona o fluxo de declaração?"
+}
+,
+{
+  "start": 169.024,
+  "end": 185.835,
+  "speaker": "APRESENTADORA",
+  "text": "O ente organiza seus dados contábeis, preenche receitas e despesas no sistema, passa por críticas de consistência, transmite os dados e depois precisa homologar. A transmissão sozinha não encerra o processo."
+}
+,
+{
+  "start": 186.185,
+  "end": 190.922,
+  "speaker": "ESTUDANTE",
+  "text": "Então, para análise oficial, é importante verificar se o dado está homologado."
+}
+,
+{
+  "start": 191.272,
+  "end": 200.978,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Dados transmitidos sem homologação podem ser úteis para exploração, mas precisam ser tratados com cuidado."
+}
+,
+{
+  "start": 201.328,
+  "end": 203.604,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a unidade de análise do SIOPS?"
+}
+,
+{
+  "start": 203.954,
+  "end": 215.843,
+  "speaker": "APRESENTADORA",
+  "text": "Depende da pergunta. Pode ser ente federado, exercício, bimestre, receita, despesa, fase orçamentária, ASPS ou indicador."
+}
+,
+{
+  "start": 216.193,
+  "end": 221.580,
+  "speaker": "ESTUDANTE",
+  "text": "Isso parece bem diferente da lógica de pessoa, procedimento ou estabelecimento."
+}
+,
+{
+  "start": 221.930,
+  "end": 234.655,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O SIOPS trabalha em nível agregado e fiscal. Por isso, a análise precisa deixar claro qual ente, ano, bimestre, fase da despesa e indicador foram usados."
+}
+,
+{
+  "start": 235.005,
+  "end": 237.373,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo destaca o sexto bimestre."
+}
+,
+{
+  "start": 237.723,
+  "end": 254.023,
+  "speaker": "APRESENTADORA",
+  "text": "O SIOPS é bimestral, mas o sexto bimestre consolida o exercício. Para muitas análises anuais, especialmente sobre aplicação mínima, o sexto bimestre é a referência principal."
+}
+,
+{
+  "start": 254.373,
+  "end": 256.463,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar das fases da despesa."
+}
+,
+{
+  "start": 256.813,
+  "end": 274.042,
+  "speaker": "APRESENTADORA",
+  "text": "Esse é um ponto essencial. A despesa pode ser empenhada, liquidada ou paga. Empenhada é a reserva orçamentária. Liquidada reconhece que o bem ou serviço foi entregue. Paga é o desembolso financeiro realizado."
+}
+,
+{
+  "start": 274.392,
+  "end": 278.200,
+  "speaker": "ESTUDANTE",
+  "text": "Então a mesma política pode ter valores diferentes em cada fase."
+}
+,
+{
+  "start": 278.550,
+  "end": 290.439,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Por isso, uma série baseada em despesa empenhada não deve ser comparada diretamente com outra baseada em despesa liquidada ou paga."
+}
+,
+{
+  "start": 290.789,
+  "end": 292.136,
+  "speaker": "ESTUDANTE",
+  "text": "Qual fase devo usar?"
+}
+,
+{
+  "start": 292.486,
+  "end": 309.669,
+  "speaker": "APRESENTADORA",
+  "text": "Depende da pergunta. Para esforço orçamentário, a despesa empenhada pode ser adequada. Para execução reconhecida, a liquidada costuma ser mais informativa. Para fluxo de caixa, a paga é a mais direta."
+}
+,
+{
+  "start": 310.019,
+  "end": 312.387,
+  "speaker": "ESTUDANTE",
+  "text": "E restos a pagar entram nessa discussão."
+}
+,
+{
+  "start": 312.737,
+  "end": 324.301,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Restos a pagar são despesas empenhadas que não foram pagas até o fim do exercício. Cancelamentos e compensações podem afetar o cumprimento do mínimo legal."
+}
+,
+{
+  "start": 324.651,
+  "end": 326.276,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar de ASPS."
+}
+,
+{
+  "start": 326.626,
+  "end": 339.536,
+  "speaker": "APRESENTADORA",
+  "text": "ASPS significa Ações e Serviços Públicos de Saúde. Esse conceito define quais despesas podem compor a aplicação mínima em saúde e quais devem ser excluídas."
+}
+,
+{
+  "start": 339.886,
+  "end": 343.369,
+  "speaker": "ESTUDANTE",
+  "text": "Nem todo gasto relacionado à saúde é ASPS."
+}
+,
+{
+  "start": 343.719,
+  "end": 362.434,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A classificação é normativa. Aposentadorias, pensões, despesas sem relação direta com ações e serviços públicos de saúde, assistência a clientelas fechadas e algumas despesas de outras políticas podem não entrar como ASPS."
+}
+,
+{
+  "start": 362.784,
+  "end": 368.682,
+  "speaker": "ESTUDANTE",
+  "text": "Então o percentual aplicado em ASPS depende tanto do numerador quanto da base de cálculo."
+}
+,
+{
+  "start": 369.032,
+  "end": 383.335,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. O numerador é a despesa elegível em ASPS com recursos próprios. O denominador é a base de cálculo legal, que varia conforme a esfera federativa e a regra aplicável."
+}
+,
+{
+  "start": 383.685,
+  "end": 387.818,
+  "speaker": "ESTUDANTE",
+  "text": "Esse percentual mostra se o mínimo foi cumprido, mas não diz tudo."
+}
+,
+{
+  "start": 388.168,
+  "end": 401.125,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Ele ajuda no monitoramento legal, mas não informa sozinho se o gasto foi suficiente, eficiente, bem distribuído ou associado a melhores resultados em saúde."
+}
+,
+{
+  "start": 401.475,
+  "end": 403.611,
+  "speaker": "ESTUDANTE",
+  "text": "Como analisar a estrutura dos dados?"
+}
+,
+{
+  "start": 403.961,
+  "end": 421.887,
+  "speaker": "APRESENTADORA",
+  "text": "Registre a origem da extração, o período, o ente federado, o indicador, a fase orçamentária, a situação de homologação e a unidade monetária. Também é importante separar receitas, despesas, ASPS e indicadores."
+}
+,
+{
+  "start": 422.237,
+  "end": 424.838,
+  "speaker": "ESTUDANTE",
+  "text": "Receita e despesa não são intercambiáveis."
+}
+,
+{
+  "start": 425.188,
+  "end": 441.210,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Receita total, receita própria, transferências SUS, despesa empenhada, despesa liquidada, despesa paga e percentual ASPS respondem a perguntas diferentes."
+}
+,
+{
+  "start": 441.560,
+  "end": 444.811,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo enfatiza deflação de valores monetários."
+}
+,
+{
+  "start": 445.161,
+  "end": 461.879,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Valores de anos diferentes não devem ser comparados diretamente em reais correntes. Para séries temporais, é preciso deflacionar com um índice declarado, como o IPCA, e escolher um ano-base."
+}
+,
+{
+  "start": 462.229,
+  "end": 466.873,
+  "speaker": "ESTUDANTE",
+  "text": "Se eu não deflacionar, posso confundir inflação com aumento real do gasto."
+}
+,
+{
+  "start": 467.223,
+  "end": 472.703,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Crescimento nominal não significa necessariamente crescimento real."
+}
+,
+{
+  "start": 473.053,
+  "end": 474.911,
+  "speaker": "ESTUDANTE",
+  "text": "E comparação entre municípios?"
+}
+,
+{
+  "start": 475.261,
+  "end": 494.905,
+  "speaker": "APRESENTADORA",
+  "text": "Exige cuidado. Municípios pequenos podem ter indicadores per capita instáveis. Capitais e polos assistenciais concentram serviços. A capacidade fiscal varia muito. Por isso, compare por porte, região, capacidade arrecadatória e papel regional."
+}
+,
+{
+  "start": 495.255,
+  "end": 499.574,
+  "speaker": "ESTUDANTE",
+  "text": "Um município pode gastar mais porque atende pessoas de outros lugares."
+}
+,
+{
+  "start": 499.924,
+  "end": 515.296,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. E a despesa municipal não representa todo gasto público em saúde realizado no território, porque há recursos estaduais, federais, serviços regionais e produção fora do município de residência."
+}
+,
+{
+  "start": 515.646,
+  "end": 518.386,
+  "speaker": "ESTUDANTE",
+  "text": "O SIOPS pode ser combinado com população."
+}
+,
+{
+  "start": 518.736,
+  "end": 537.776,
+  "speaker": "APRESENTADORA",
+  "text": "Pode. Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e população residente. Mas é preciso usar o mesmo ano, o mesmo território e, em séries históricas, deflacionar antes de dividir pela população."
+}
+,
+{
+  "start": 538.126,
+  "end": 540.169,
+  "speaker": "ESTUDANTE",
+  "text": "E pode ser combinado com CNES."
+}
+,
+{
+  "start": 540.519,
+  "end": 561.417,
+  "speaker": "APRESENTADORA",
+  "text": "Sim, por exemplo para relacionar despesa em ASPS com número de estabelecimentos, UBS, leitos SUS ou equipes. Mas essa relação é ecológica: o SIOPS está no nível do ente financiador, enquanto o CNES descreve estabelecimentos localizados no território."
+}
+,
+{
+  "start": 561.767,
+  "end": 566.504,
+  "speaker": "ESTUDANTE",
+  "text": "Então não posso concluir que a despesa financiou diretamente cada estabelecimento."
+}
+,
+{
+  "start": 566.854,
+  "end": 576.885,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. A junção por município é útil para exploração e comparação territorial, mas não prova uma relação direta de financiamento."
+}
+,
+{
+  "start": 577.235,
+  "end": 579.418,
+  "speaker": "ESTUDANTE",
+  "text": "Como avaliar qualidade dos dados?"
+}
+,
+{
+  "start": 579.768,
+  "end": 594.675,
+  "speaker": "APRESENTADORA",
+  "text": "Verifique homologação, prazo, completitude, consistência entre receitas, despesas e percentuais, fase da despesa, restos a pagar, mudanças metodológicas e valores extremos."
+}
+,
+{
+  "start": 595.025,
+  "end": 597.951,
+  "speaker": "ESTUDANTE",
+  "text": "Ausência de dado também precisa ser interpretada."
+}
+,
+{
+  "start": 598.301,
+  "end": 613.069,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Um dado pode estar homologado, transmitido sem homologação, ausente, atrasado ou retificado. Ausência não deve ser tratada automaticamente como zero."
+}
+,
+{
+  "start": 613.419,
+  "end": 614.905,
+  "speaker": "ESTUDANTE",
+  "text": "Como acessar os dados?"
+}
+,
+{
+  "start": 615.255,
+  "end": 630.255,
+  "speaker": "APRESENTADORA",
+  "text": "Por painéis e relatórios no portal do Ministério da Saúde, por dados agregados de indicadores, por arquivos no OpenDataSUS e por formas de extração desagregada, dependendo da necessidade da análise."
+}
+,
+{
+  "start": 630.605,
+  "end": 633.252,
+  "speaker": "ESTUDANTE",
+  "text": "E os documentos de orientação são importantes."
+}
+,
+{
+  "start": 633.602,
+  "end": 646.652,
+  "speaker": "APRESENTADORA",
+  "text": "Muito. Cartilhas e materiais do SIOPS ajudam a interpretar regras de preenchimento, prazos, ASPS, restos a pagar, homologação e penalidades."
+}
+,
+{
+  "start": 647.002,
+  "end": 650.113,
+  "speaker": "ESTUDANTE",
+  "text": "Com quais sistemas o SIOPS costuma ser combinado?"
+}
+,
+{
+  "start": 650.463,
+  "end": 662.862,
+  "speaker": "APRESENTADORA",
+  "text": "Com CNES para oferta, com SIA e SIH para produção, com SIM, SINASC e SINAN para eventos, e com população para indicadores per capita."
+}
+,
+{
+  "start": 663.212,
+  "end": 666.416,
+  "speaker": "ESTUDANTE",
+  "text": "Mas a integração exige escolher o território correto."
+}
+,
+{
+  "start": 666.766,
+  "end": 681.580,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Antes de relacionar bases, defina se o território é de residência, ocorrência, gestão, localização do serviço ou ente financiador. Essa escolha muda a interpretação."
+}
+,
+{
+  "start": 681.930,
+  "end": 684.856,
+  "speaker": "ESTUDANTE",
+  "text": "Quais indicadores podem ser construídos com o SIOPS?"
+}
+,
+{
+  "start": 685.206,
+  "end": 704.386,
+  "speaker": "APRESENTADORA",
+  "text": "Percentual aplicado em ASPS, despesa em saúde per capita, participação de recursos próprios, participação de transferências, composição da despesa, regularidade de declaração, despesa por estabelecimento e despesa real per capita."
+}
+,
+{
+  "start": 704.736,
+  "end": 706.779,
+  "speaker": "ESTUDANTE",
+  "text": "Quais são as limitações principais?"
+}
+,
+{
+  "start": 707.129,
+  "end": 730.210,
+  "speaker": "APRESENTADORA",
+  "text": "Os dados são declaratórios, agregados e dependem de homologação. O sistema não identifica estabelecimento, profissional ou usuário. Comparações entre entes são afetadas por capacidade fiscal, responsabilidades, inflação, mudanças legais e diferenças contábeis."
+}
+,
+{
+  "start": 730.560,
+  "end": 734.600,
+  "speaker": "ESTUDANTE",
+  "text": "Então maior gasto não significa automaticamente melhor desempenho."
+}
+,
+{
+  "start": 734.950,
+  "end": 752.458,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Gasto maior não significa, por si só, melhor acesso, eficiência ou qualidade. E gasto menor pode refletir subfinanciamento, classificação contábil diferente ou menor responsabilidade regional."
+}
+,
+{
+  "start": 752.808,
+  "end": 756.337,
+  "speaker": "ESTUDANTE",
+  "text": "E cumprir o mínimo não significa suficiência de financiamento."
+}
+,
+{
+  "start": 756.687,
+  "end": 768.111,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. O mínimo constitucional é um parâmetro legal, não uma medida completa de suficiência, equidade ou qualidade do sistema de saúde."
+}
+,
+{
+  "start": 768.461,
+  "end": 770.737,
+  "speaker": "ESTUDANTE",
+  "text": "Quais erros comuns devem ser evitados?"
+}
+,
+{
+  "start": 771.087,
+  "end": 792.496,
+  "speaker": "APRESENTADORA",
+  "text": "Tratar SIOPS como produção assistencial, comparar valores correntes em anos diferentes, misturar empenhado, liquidado e pago, ignorar homologação, interpretar ausência como zero, comparar entes muito diferentes sem padronização e inferir qualidade apenas a partir do gasto."
+}
+,
+{
+  "start": 792.846,
+  "end": 795.307,
+  "speaker": "ESTUDANTE",
+  "text": "Para fechar, qual é a mensagem central?"
+}
+,
+{
+  "start": 795.657,
+  "end": 826.354,
+  "speaker": "APRESENTADORA",
+  "text": "O SIOPS é a principal base para estudar financiamento público da saúde no Brasil. Para usá-lo bem, declare ente, período, bimestre, fase da despesa, situação de homologação, conceito de ASPS, unidade monetária e denominador. E lembre: financiamento é uma dimensão essencial do SUS, mas não substitui indicadores de oferta, produção, acesso, qualidade e resultados em saúde."
+}
+
+]

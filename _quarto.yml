@@ -29,6 +29,12 @@ project:
     - podcast/sinan.mp3
     - podcast/sinan.md
     - podcast/sinan_transcript.json
+    - podcast/cnes.mp3
+    - podcast/cnes.md
+    - podcast/cnes_transcript.json
+    - podcast/siops.mp3
+    - podcast/siops.md
+    - podcast/siops_transcript.json
     - podcast/sync-transcript.js
 
 execute:

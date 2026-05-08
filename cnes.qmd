@@ -4,32 +4,94 @@ always_allow_html: true
 
 # CNES -- Cadastro Nacional de Estabelecimentos de Saúde {#sec-cnes}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/cnes_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/cnes.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/cnes.md">podcast/cnes.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 2000
--  Cobertura: Dimensões pública e privada do SUS
--  Unidade: Ficha de cadastro
--  Divulgação de dados: mensal, com até dois meses de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de criação | 2000 |
+| Evento registrado | Cadastro de estabelecimentos, serviços, profissionais, equipes, leitos e equipamentos de saúde |
+| Documento básico | Ficha de Cadastro de Estabelecimentos de Saúde (FCES) e módulos complementares |
+| Unidade de análise | Estabelecimento, profissional, equipe, leito, equipamento, serviço ou habilitação, conforme o arquivo |
+| Cobertura | Estabelecimentos de saúde públicos, privados, filantrópicos e conveniados |
+| Periodicidade | Mensal, por competência |
+| Uso central | Caracterização da rede assistencial e vinculação com outros sistemas |
+: Características gerais do CNES
+
+O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é a base estruturante para identificar e caracterizar estabelecimentos de saúde no Brasil. Ele informa localização, natureza jurídica, gestão, tipo de estabelecimento, serviços, equipamentos, leitos, equipes, habilitações, profissionais e vínculos relacionados à oferta de atenção à saúde.
+
+O CNES não registra eventos assistenciais, como consultas, internações, óbitos ou notificações. Ele descreve a estrutura da rede em determinada competência. Por isso, é frequentemente combinado com sistemas de produção e eventos, como SIA (@sec-sia), SIH (@sec-sih), SINAN (@sec-sinan), SINASC (@sec-sinasc) e SIM (@sec-sim).
+
+## Quando usar o CNES
+
+Use o CNES quando a pergunta envolve oferta, capacidade instalada, localização de serviços, composição da rede, vínculos profissionais, leitos, equipamentos, equipes, habilitações ou caracterização de estabelecimentos.
+
+| Pergunta de análise | Usar CNES para | Fonte complementar comum |
+|---|---|---|
+| Quantos estabelecimentos existem? | Contar unidades cadastradas | Definir competência e tipo de estabelecimento |
+| Onde estão os serviços? | Localizar estabelecimentos, serviços e equipamentos | Malhas territoriais e geocodificação |
+| Qual é a capacidade hospitalar? | Analisar leitos e habilitações | SIH (@sec-sih) para produção hospitalar |
+| Que serviços produziram procedimentos? | Caracterizar estabelecimentos executores | SIA (@sec-sia) para produção ambulatorial |
+| Que rede notificou agravos? | Caracterizar unidades notificadoras | SINAN (@sec-sinan) para casos notificados |
+| Que profissionais estão vinculados? | Analisar vínculos profissionais e CBO | Atenção ao tipo de vínculo e carga horária |
+: Perguntas comuns que podem ser respondidas com o CNES
 
 ## Histórico e organização
 
-Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS) realizada pelo IBGE. No mesmo ano, foi implantado o o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH) no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH seja administrativo, para pagamento de serviços prestados, sua implantação demandou a construção de fichas cadastrais de estabelecimentos e de profissionais de saúde.
+Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS), realizada pelo IBGE. No mesmo ano, foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH), no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH fosse administrativo, voltado ao pagamento de serviços prestados, sua implantação demandou fichas cadastrais de estabelecimentos e profissionais de saúde.
 
-O SNCPCH foi estinto em 1980, mas suas fichas continuaram ativas compondo o o Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e o SIH, na década de 1990. Após a implantação do SIA em 1994 e verificação de inconsistências nos dados sobre os estabelecimentos de saúde, foi implantada a ficha Ficha de Cadastro de Estabelecimentos de Saúde -- FCES (Portaria n° 1890/GM/MS/1997), sendo continuamente aperfeiçoada.
+O SNCPCH foi extinto em 1980, mas suas fichas permaneceram ativas no Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e no SIH, na década de 1990. Após a implantação do SIA em 1994 e a identificação de inconsistências nos dados de estabelecimentos, foi criada a Ficha de Cadastro de Estabelecimentos de Saúde (FCES), pela Portaria GM/MS nº 1.890/1997.
 
-Após a consolidação da FCES, a portaria 403/SAS/MS/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), com um escopo ainda limitado, visando subsidiar principalmente o processo de faturamento no SIA e SIH, e parcialmente pesquisas estatísticas. Veja o @sec-sia e @sec-sih para mais detalhes sobre o SIA e SIH. Consulte o @sec-sia e @sec-sih para saber mais sobre o SIA e SIH.
+Após a consolidação da FCES, a Portaria SAS/MS nº 403/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), inicialmente com forte vínculo ao faturamento no SIA e no SIH, mas com potencial para pesquisas, planejamento e gestão da rede. A primeira versão foi disponibilizada em 2001, seguida por um processo de recadastramento informatizado entre 2001 e 2003.
 
-Com avanços sobre o modelo de pactuação de cadastramento na Comissão Intergestores Tripartite (CIT) e realização de consultas públicas, a primeira versão do CNES é disponibilizada em 2001. Ainda neste ano também é iniciado um processo de recadastramento informatizado, que se estendeu até 2003.
+Atualmente, o CNES é usado como identificador de estabelecimentos em diversos sistemas. O código CNES permite relacionar produção ambulatorial, internações, notificações, nascimentos, óbitos, equipes, leitos e serviços à estrutura da rede onde o evento foi registrado.
 
-O CNES apresenta atualmente dados cadastrais sobre todos os estabelecimentos de saúde, profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares no território nacional. O código único do CNES é utilizado em sistemas como o SIH e SIA para referenciar a unidade de saúde onde a hospitalização e os procedimentos ambulatoriais ocorreram. 
-
-::::: {.callout}
+::: {.callout-note}
 Estabelecimento de saúde é definido como o espaço físico delimitado e permanente onde são realizados ações e serviços de saúde humana sob responsabilidade técnica (art. 360, da PRC/MS nº 01/2017).
 :::
 
-Em termos de dimensão, para o mês de abril de 2020, o CNES apresenta 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023]. 
+Em termos de dimensão, para o mês de abril de 2020, o CNES apresentava 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023].
 
-Como se trata de um cadastro, suas informações são atualizadas permanentemente e os dados históricos de todos os meses anteriores estão disponíveis para acesso, sendo possível acompanhar mensalmente a evolução da rede de unidades de saúde no Brasil, tão como a dinâmica dos profissionais no sistema de saúde. 
+Como se trata de um cadastro, as informações são atualizadas continuamente e disseminadas por competência. Isso permite acompanhar mensalmente mudanças na rede de serviços, mas também exige cuidado para não interpretar uma fotografia cadastral como produção assistencial ou disponibilidade real em tempo integral.
+
+## Fluxo cadastral
+
+O CNES segue um ciclo de cadastro, atualização, validação e disseminação. A qualidade da base depende do preenchimento correto, da atualização regular pelos gestores e da coerência entre informações de estabelecimento, serviços, leitos, equipamentos e profissionais.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado de atualização do CNES"
+%%| label: fig-cnes-fluxo
+flowchart TD
+  est[Estabelecimento de saúde] --> fces[Preenchimento ou atualização da FCES]
+  fces --> gest[Gestor municipal ou estadual]
+  gest --> crit[Críticas e validações cadastrais]
+  crit --> base[Base CNES por competência]
+  base --> tab[TabNet, arquivos DBC e OpenDataSUS]
+  base --> sis[SIA, SIH e outros sistemas]
+```
+:::
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -43,33 +105,355 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_cnes.csv"))
 
 Mais informações sobre o CNES podem ser encontradas [aqui](https://wiki.saude.gov.br/cnes/index.php/Página_principal).
 
+## Unidade de análise
+
+A unidade de análise do CNES varia conforme o arquivo escolhido. Essa é a principal diferença em relação a sistemas baseados em eventos, como SIM, SINASC, SIH, SIA e SINAN.
+
+| Unidade | Arquivo ou dimensão | Uso comum | Cuidado |
+|---|---|---|---|
+| Estabelecimento | ST | Contar e caracterizar unidades | Uma unidade pode mudar de tipo, gestão ou vínculo |
+| Profissional | PF | Vínculos e ocupações | Um profissional pode ter múltiplos vínculos |
+| Equipe | EP | Atenção primária e equipes específicas | Equipe pode mudar de composição |
+| Equipamento | EQ | Capacidade instalada | Cadastro não garante disponibilidade operacional |
+| Leito | LT | Capacidade hospitalar | Separar leitos SUS, não SUS e tipos de leito |
+| Serviço especializado | SR | Oferta de serviços | Serviço cadastrado não equivale a produção |
+| Habilitação | HB | Serviços habilitados | Regras e vigências podem mudar |
+: Unidades de análise frequentes no CNES
+
+::: {.callout-warning}
+Não conte linhas de arquivos diferentes como se representassem a mesma unidade. Uma linha em `ST` representa estabelecimento; em `PF`, vínculo profissional; em `LT`, leito; em `EQ`, equipamento.
+:::
+
+## Qual arquivo usar?
+
+A escolha do arquivo deve partir da pergunta de análise. Em geral, use `ST` para caracterizar estabelecimentos e combine outros arquivos apenas quando a pergunta exigir recursos específicos.
+
+| Pergunta | Arquivo principal | Interpretação |
+|---|---|---|
+| Quais estabelecimentos existem em uma competência? | ST | Cadastro e atributos gerais do estabelecimento |
+| Quais profissionais estão vinculados? | PF | Vínculos profissionais, ocupações e carga horária |
+| Quantos leitos estão cadastrados? | LT | Leitos por tipo, estabelecimento e vínculo SUS |
+| Quais equipamentos existem? | EQ | Equipamentos cadastrados por estabelecimento |
+| Quais equipes atuam na rede? | EP | Equipes cadastradas e seus atributos |
+| Quais serviços especializados existem? | SR | Serviços e classificações cadastradas |
+| Quais estabelecimentos estão habilitados? | HB | Habilitações por competência |
+| O estabelecimento é de ensino ou filantrópico? | EE ou EF | Condição específica do estabelecimento |
+| Há regra contratual, incentivo ou gestão específica? | RC, IN ou GM | Informação administrativa complementar |
+| Há dados complementares do cadastro? | DC | Campos adicionais que não estão no `ST` |
+: Escolha inicial de arquivos do CNES
+
 ## Estrutura dos dados
 
-Os dados do CNES são apresentados nos seguintes recortes:
+Os dados do CNES são distribuídos em famílias de arquivos por competência, UF e módulo cadastral. O documento de [estrutura do CNES](assets/cnes/IT_CNES_1706.pdf) descreve variáveis e layouts disponíveis.
 
--  Estabelecimentos (ST): a partir de agosto de 2005
--  Estabelecimento de Ensino (EE): a partir de março de 2007
--  Estabelecimento filantrópico (EF): a partir de março de 2007
--  Profissional (PF): a partir de agosto de 2005
--  Equipes (EP): a partir de abril de 2007
--  Equipamentos (EQ): a partir de agosto de 2005
--  Gestão e metas (GM): a partir de junho de 2007
--  Habilitação (HB): a partir de março de 2007
--  Incentivos (IN): a partir de novembro de 2007
--  Leitos (LT): a partir de outubro de 2005
--  Regra Contratutal (RC): a partir de março de 2007
--  Serviço Especializado (SR): a partir de agosto de 2005
--  Dados complementares (DC): a partir de agosto de 2005
+| Prefixo | Conteúdo | Início da série |
+|---|---|---|
+| ST | Estabelecimentos | Agosto de 2005 |
+| EE | Estabelecimento de ensino | Março de 2007 |
+| EF | Estabelecimento filantrópico | Março de 2007 |
+| PF | Profissionais | Agosto de 2005 |
+| EP | Equipes | Abril de 2007 |
+| EQ | Equipamentos | Agosto de 2005 |
+| GM | Gestão e metas | Junho de 2007 |
+| HB | Habilitações | Março de 2007 |
+| IN | Incentivos | Novembro de 2007 |
+| LT | Leitos | Outubro de 2005 |
+| RC | Regra contratual | Março de 2007 |
+| SR | Serviço especializado | Agosto de 2005 |
+| DC | Dados complementares | Agosto de 2005 |
+: Prefixos comuns dos arquivos do CNES
 
-Confira o documento de [estrutura do CNES](assets/cnes/IT_CNES_1706.pdf), onde estão descritas as variáveis disponíveis.
+### Campos mínimos para inspecionar
+
+Os nomes variam por arquivo, mas algumas dimensões devem ser verificadas em quase toda análise.
+
+| Dimensão | Exemplos de campos ou conceitos | Pergunta de controle |
+|---|---|---|
+| Competência | Ano e mês | A base representa a competência desejada? |
+| Identificação | Código CNES | O estabelecimento está identificado de forma única? |
+| Território | Município, UF, endereço, coordenadas quando disponíveis | O local está válido e compatível? |
+| Tipo de unidade | Tipo de estabelecimento | A classificação mudou no período? |
+| Natureza jurídica e gestão | Administração, vínculo, esfera e gestão | A regra de classificação mudou historicamente? |
+| Atenção SUS | Atendimento SUS, convênio ou vínculo | A pergunta exige rede SUS ou toda a rede? |
+| Recursos | Leitos, equipamentos, serviços, equipes e profissionais | O arquivo escolhido representa o recurso correto? |
+: Campos e dimensões úteis para inspeção do CNES
+
+### Dicionário mínimo por arquivo
+
+Cada arquivo tem um conjunto próprio de campos. Antes de produzir indicadores, monte uma tabela simples com os campos usados, o significado adotado e os filtros aplicados.
+
+| Arquivo | Campos ou dimensões de alto valor | Uso analítico |
+|---|---|---|
+| ST | `CNES`, município, tipo de unidade, natureza jurídica, gestão, atendimento SUS | Base de estabelecimentos e estratificações gerais |
+| PF | `CNES`, profissional, CBO, vínculo, carga horária | Força de trabalho e composição de vínculos |
+| LT | `CNES`, tipo de leito, leitos existentes, leitos SUS | Capacidade hospitalar cadastrada |
+| EQ | `CNES`, tipo de equipamento, quantidade, disponibilidade SUS | Capacidade instalada de equipamentos |
+| EP | `CNES`, tipo de equipe, área, situação | Atenção primária e equipes específicas |
+| SR | `CNES`, serviço, classificação, atendimento SUS | Oferta de serviços especializados |
+| HB | `CNES`, habilitação, vigência | Serviços habilitados e mudanças normativas |
+| EE ou EF | `CNES`, condição de ensino ou filantropia | Recortes institucionais específicos |
+: Variáveis e dimensões prioritárias para inspeção inicial
+
+### Série histórica
+
+Em análises temporais, use a competência como eixo principal. Estabelecimentos podem abrir, fechar, mudar de município, tipo, gestão, natureza jurídica, serviços, habilitações e leitos. Para comparar séries, documente mudanças de layout e classificações. @coelhoAnaliseClarezaMetodologica2024 destacam, por exemplo, mudanças documentais e de clareza metodológica relevantes para interpretar formas de contratação e classificações do CNES.
+
+## Estabelecimentos em série histórica
+
+O código CNES permite acompanhar estabelecimentos ao longo do tempo, mas a interpretação não deve assumir que o estabelecimento permaneceu igual em toda a série. Uma unidade pode abrir, encerrar atividades, mudar de perfil, trocar de gestão, alterar natureza jurídica ou passar a ofertar novos serviços.
+
+| Mudança | Como identificar | Cuidado |
+|---|---|---|
+| Entrada na série | Primeira competência em que o `CNES` aparece | Pode refletir cadastro tardio, não abertura real |
+| Saída da série | Última competência observada | Pode refletir ausência no arquivo, não fechamento definitivo |
+| Mudança de tipo | Alteração em tipo de unidade ou subtipo | Quebra séries por perfil assistencial |
+| Mudança territorial | Alteração de município, endereço ou coordenada | Verificar se houve erro cadastral ou mudança real |
+| Mudança de vínculo SUS | Alteração em atendimento SUS, convênio ou gestão | Afeta recortes de rede pública e privada |
+| Mudança de capacidade | Alteração em leitos, equipes, equipamentos ou serviços | Separar cadastro de disponibilidade operacional |
+: Mudanças cadastrais relevantes em séries históricas do CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+painel_cnes <- cnes_st_historico |>
+  group_by(CNES) |>
+  summarise(
+    primeira_competencia = min(competencia, na.rm = TRUE),
+    ultima_competencia = max(competencia, na.rm = TRUE),
+    n_municipios = n_distinct(CODMUN, na.rm = TRUE),
+    n_tipos = n_distinct(TP_UNID, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+painel_cnes
+```
+
+::: {.callout-tip}
+Para estudos longitudinais, trate o CNES como um painel de estabelecimentos por competência. Isso evita usar atributos atuais para classificar eventos ocorridos em anos anteriores.
+:::
+
+## Exemplo: leitos hospitalares
+
+Leitos são um uso frequente do CNES para analisar capacidade instalada. A pergunta deve separar leitos existentes, leitos SUS, tipo de leito, competência, município e estabelecimento.
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Numerador | Quantidade de leitos | Separar tipo e vínculo SUS |
+| Território | Município do estabelecimento | Mede oferta local, não residência dos usuários |
+| Tempo | Competência CNES | Cadastro mensal, não ocupação diária |
+| Estabelecimento | Código CNES | Relacionar com tipo de unidade e gestão |
+| Produção | Internações no SIH | Capacidade cadastrada não equivale a uso |
+: Elementos de uma análise de leitos com CNES
+
+| Dimensão dos leitos | Interpretação | Cuidado |
+|---|---|---|
+| Leitos existentes | Total cadastrado no estabelecimento | Não representa leitos disponíveis em cada dia |
+| Leitos SUS | Subconjunto disponível ao SUS | Não deve ser somado com leitos não SUS sem explicitar o recorte |
+| Tipo de leito | Clínica, cirúrgica, obstétrica, pediátrica, UTI etc. | Agrupar tipos apenas com regra documentada |
+| Competência | Mês e ano do cadastro | Mudanças podem ocorrer entre competências |
+| Estabelecimento | Código CNES vinculado ao leito | Conferir tipo de unidade e natureza do estabelecimento |
+: Dimensões mínimas para interpretar leitos no CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+leitos_mun <- cnes_lt |>
+  group_by(CODMUN, TIPO_LEITO) |>
+  summarise(
+    leitos = sum(as.numeric(QT_EXIST), na.rm = TRUE),
+    leitos_sus = sum(as.numeric(QT_SUS), na.rm = TRUE),
+    .groups = "drop"
+  )
+
+leitos_mun
+```
+
+::: {.callout-note}
+Os nomes dos campos de leitos podem variar conforme a forma de acesso e processamento. Confirme o dicionário do arquivo `LT` antes de automatizar a análise.
+:::
+
+::: {.callout-warning}
+Leitos cadastrados são uma medida de capacidade instalada. Para analisar uso, demanda reprimida, ocupação ou pressão assistencial, combine o CNES com SIH, censos hospitalares, regulação ou outra fonte operacional compatível.
+:::
+
+## Exemplo: profissionais e vínculos
+
+No arquivo `PF`, a unidade prática de análise é o vínculo profissional no estabelecimento. Um mesmo profissional pode aparecer em mais de um estabelecimento, em mais de uma ocupação ou em mais de um vínculo. Portanto, a contagem simples de linhas normalmente responde sobre vínculos, não sobre pessoas únicas.
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Estabelecimento | Código CNES | O vínculo pertence a uma unidade específica |
+| Ocupação | CBO | Agrupar CBOs exige regra explícita |
+| Carga horária | Campos de carga horária | Conferir se a soma representa horas semanais e quais componentes foram incluídos |
+| Pessoa | Identificador profissional, quando disponível | Deduplicação pode ser limitada por anonimização ou formato da base |
+| Território | Município do estabelecimento | Não representa residência do profissional |
+: Elementos de uma análise de profissionais no CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+profissionais_mun_cbo <- cnes_pf |>
+  mutate(
+    carga_horaria = as.numeric(CHSAMB) +
+      as.numeric(CHSOUTR) +
+      as.numeric(CHSHOSP)
+  ) |>
+  group_by(CODMUN, CBO) |>
+  summarise(
+    vinculos = n(),
+    carga_horaria_total = sum(carga_horaria, na.rm = TRUE),
+    estabelecimentos = n_distinct(CNES),
+    .groups = "drop"
+  )
+
+profissionais_mun_cbo
+```
+
+::: {.callout-note}
+Declare o numerador com precisão: "vínculos de médicos", "carga horária cadastrada de enfermeiros" e "profissionais únicos" são medidas diferentes.
+:::
+
+## Exemplo: CNES + SIH
+
+Uma integração comum é usar o CNES para caracterizar estabelecimentos que registraram internações no SIH. A junção deve respeitar a competência: o ideal é relacionar a AIH com o CNES da mesma competência ou com uma regra temporal definida previamente.
+
+| Etapa | Ação | Cuidado |
+|---|---|---|
+| Preparar SIH | Selecionar AIHs, competência e CNES do estabelecimento | AIH mede produção hospitalar, não capacidade |
+| Preparar CNES | Selecionar `ST` da mesma competência | Evitar classificar produção antiga com cadastro atual |
+| Adicionar leitos | Relacionar `LT` por `CNES` e competência | Agregar leitos antes da junção para evitar multiplicação de linhas |
+| Calcular indicador | Internações por leito ou por tipo de estabelecimento | Interpretar como razão administrativa, não ocupação real |
+| Auditar perdas | Contar AIHs sem correspondência no CNES | Pode haver códigos ausentes, inativos ou problema de período |
+: Fluxo mínimo para relacionar CNES e SIH
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+leitos_cnes <- cnes_lt |>
+  group_by(CNES, competencia) |>
+  summarise(
+    leitos_sus = sum(as.numeric(QT_SUS), na.rm = TRUE),
+    .groups = "drop"
+  )
+
+sih_com_cnes <- sih_rd |>
+  left_join(cnes_st, by = c("CNES", "competencia")) |>
+  left_join(leitos_cnes, by = c("CNES", "competencia")) |>
+  group_by(CNES, TP_UNID, NAT_JUR) |>
+  summarise(
+    internacoes = n(),
+    leitos_sus = max(leitos_sus, na.rm = TRUE),
+    internacoes_por_leito_sus = internacoes / leitos_sus,
+    .groups = "drop"
+  )
+
+sih_com_cnes
+```
+
+O mesmo raciocínio vale para SIA: agregue a produção ambulatorial por estabelecimento e competência antes de relacionar com `ST`, `SR`, `EQ` ou `HB`. Assim, o serviço cadastrado é usado para caracterizar a oferta e a produção do SIA permanece como medida de uso.
+
+## Geocodificação e análise espacial
+
+O CNES é muito usado para mapas de serviços e análise de acesso geográfico. A qualidade espacial depende da padronização de endereço, coordenadas disponíveis, geocodificação e validação local.
+
+| Uso espacial | Recurso necessário | Cuidado |
+|---|---|---|
+| Mapa de estabelecimentos | Endereço ou coordenada | Coordenadas podem estar ausentes ou imprecisas |
+| Distância até serviço | Malha territorial e rede viária | Distância em linha reta pode ser inadequada |
+| Densidade de oferta | Estabelecimentos por área ou população | Escolher denominador compatível |
+| Rede de referência | Tipo de serviço, habilitação e produção | Serviço cadastrado não garante uso efetivo |
+: Usos espaciais comuns do CNES
+
+Ferramentas como GeoCNES exploram o cadastro para mapear estabelecimentos e apoiar análise de acesso e planejamento urbano, mas também apontam desafios de inconsistência cadastral e geocodificação [@assisGeoCNESHealthcareMapping2024].
+
+| Validação geográfica | Sinal de problema | Ação recomendada |
+|---|---|---|
+| Coordenada ausente | Latitude ou longitude vazia | Geocodificar endereço ou excluir de mapas pontuais |
+| Coordenada inválida | Valores zero, invertidos ou fora do Brasil | Corrigir antes de calcular distância |
+| Ponto fora do município | Coordenada não cai no polígono do município cadastrado | Conferir endereço, código municipal e geocodificação |
+| Coordenada repetida | Muitos estabelecimentos no mesmo ponto | Verificar uso de centróide, sede administrativa ou endereço genérico |
+| Endereço incompleto | Logradouro, número ou bairro ausente | Baixa precisão espacial |
+| Mudança temporal | Endereço ou município muda na série | Separar mudança real de erro cadastral |
+: Checagens mínimas antes de mapear estabelecimentos do CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+validacao_geo <- cnes_st |>
+  summarise(
+    estabelecimentos = n_distinct(CNES),
+    sem_latitude = sum(is.na(LATITUDE) | LATITUDE == "", na.rm = TRUE),
+    sem_longitude = sum(is.na(LONGITUDE) | LONGITUDE == "", na.rm = TRUE),
+    coordenada_zero = sum(LATITUDE == 0 | LONGITUDE == 0, na.rm = TRUE),
+    enderecos_sem_logradouro = sum(is.na(LOGRADOURO) | LOGRADOURO == "", na.rm = TRUE)
+  )
+
+validacao_geo
+```
+
+## Qualidade dos dados
+
+Como cadastro administrativo, o CNES depende de atualização regular. Problemas de completitude, atraso, inconsistência e mudança conceitual podem afetar indicadores.
+
+| Dimensão | Checagem |
+|---|---|
+| Atualização | Estabelecimentos sem atualização recente |
+| Completitude | Campos essenciais vazios |
+| Consistência territorial | Município, UF e endereço compatíveis |
+| Coerência de recursos | Leitos, equipamentos e serviços compatíveis com tipo de unidade |
+| Duplicidade | Estabelecimentos ou vínculos repetidos |
+| Mudança histórica | Alterações de classificação, natureza jurídica ou tipo de estabelecimento |
+| Produção compatível | Serviços cadastrados com produção no SIA/SIH quando esperado |
+: Dimensões de qualidade relevantes no CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+validacao_cnes_st <- cnes_st |>
+  summarise(
+    estabelecimentos = n_distinct(CNES),
+    sem_municipio = sum(is.na(CODMUN) | CODMUN == "", na.rm = TRUE),
+    sem_tipo_unidade = sum(is.na(TP_UNID) | TP_UNID == "", na.rm = TRUE),
+    sem_natureza = sum(is.na(NAT_JUR) | NAT_JUR == "", na.rm = TRUE),
+    cnes_duplicado = n() - n_distinct(CNES)
+  )
+
+validacao_cnes_st
+```
 
 ## Acesso aos dados
+
+Os dados do CNES podem ser acessados por consulta direta, TabNet, TabWin/DBC, OpenDataSUS, ElasticCNES, R, Python e PCDaS.
+
+| Forma de acesso | Indicação de uso |
+|---|---|
+| Site CNES | Consulta pontual de estabelecimentos e profissionais |
+| TabNet | Tabulações agregadas rápidas |
+| TabWin/DBC | Download de microdados históricos |
+| OpenDataSUS | Arquivos em formatos abertos e bases temáticas |
+| ElasticCNES | Painéis exploratórios |
+| R | Fluxos reprodutíveis com `{microdatasus}` |
+| Python | Fluxos reprodutíveis com PySUS |
+| PCDaS | Análise em notebooks e infraestrutura de dados |
+: Formas de acesso aos dados do CNES
 
 ### Consulta direta
 
 É possível realizar a consulta direta de fichas sobre estabelecimentos e profissionais de saúde diretamente no [site do CNES](https://cnes.datasus.gov.br).
 
-### Outras formas
+### OpenDataSUS
 
 Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares.
 
@@ -82,11 +466,11 @@ Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido 
 
 Os dados do CNES podem ser acessados no sistema TabNet do DataSUS, na seção "Rede Assistencial".
 
--  [TabNet SINAN](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
+-  [TabNet CNES](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
-### TabWin
+### TabWin e transferência de arquivos
 
-Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DataSUS.
 
 -  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
@@ -96,9 +480,10 @@ O DataSUS apresenta alguns [painéis do CNES](https://elasticnes.saude.gov.br) c
 
 ### R
 
-Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e processar microdados do CNES em R [@Saldanha2019a].
 
 ```{r}
+#| eval: false
 #| message: false
 library(microdatasus)
 
@@ -118,19 +503,159 @@ cnes_st_p
 
 ### Python
 
-Você pode usar a biblioteca PySUS.
+A biblioteca PySUS também permite acessar dados do CNES em fluxos de análise em Python.
 
 -  [PySUS CNES](https://pysus.readthedocs.io/en/latest/databases/CNES.html)
 
 ### PCDaS
 
-Os dados do CNES estão disponíveis na PCDaS para acesso via *notebooks*.
+Os dados do CNES estão disponíveis na PCDaS para acesso em ambiente de notebooks [@pedrosoDataSciencePlatform2023].
 
 -  [Dados CNES](https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/)
+
+## Relacionamento com outros sistemas
+
+O CNES é uma base de referência para caracterizar a rede onde eventos e produções são registrados.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Que estabelecimento realizou internações? | CNES + SIH (@sec-sih) | Competência do CNES deve ser compatível com a AIH |
+| Que serviço produziu procedimentos? | CNES + SIA (@sec-sia) | Serviço cadastrado e produção são dimensões diferentes |
+| Que unidade notificou agravos? | CNES + SINAN (@sec-sinan) | Unidade notificadora pode diferir do local de infecção |
+| Onde ocorreram nascimentos? | CNES + SINASC (@sec-sinasc) | Estabelecimento de ocorrência e residência da mãe são recortes distintos |
+| Onde ocorreram óbitos hospitalares? | CNES + SIM (@sec-sim) | Local de ocorrência não representa residência |
+| Qual oferta por população? | CNES + POP (@sec-pop) | Usar população residente compatível com território e período |
+: Integrações frequentes entre CNES e outros sistemas
+
+Em relacionamentos temporais, escolha se o CNES será usado na competência do evento, em uma competência de referência ou como histórico longitudinal. A escolha muda a interpretação.
+
+### Checklist para relacionamento
+
+Antes de relacionar o CNES com sistemas de eventos ou produção, valide a chave e a granularidade da junção.
+
+| Checagem | Por que importa |
+|---|---|
+| `CNES` está com o mesmo formato nas duas bases | Zeros à esquerda e tipos numéricos podem quebrar a junção |
+| A competência foi harmonizada | O cadastro muda mensalmente |
+| O arquivo CNES foi agregado antes da junção | `LT`, `PF`, `EQ` e `SR` podem multiplicar linhas de eventos |
+| As perdas da junção foram contadas | Eventos sem correspondência precisam ser descritos |
+| A unidade de análise foi preservada | Evento, estabelecimento, vínculo e recurso não são a mesma unidade |
+| O recorte SUS ou não SUS foi aplicado antes do indicador | A interpretação muda conforme a rede incluída |
+| A classificação usada é temporalmente compatível | Tipo de unidade, natureza jurídica e gestão podem mudar |
+: Verificações antes de integrar CNES com outros sistemas
+
+## Rede SUS, privada, filantrópica e suplementar
+
+O CNES cobre estabelecimentos públicos, privados, filantrópicos e conveniados. Por isso, o recorte institucional precisa ser declarado antes de comparar oferta, capacidade instalada ou produção.
+
+| Recorte | Como definir | Cuidado |
+|---|---|---|
+| Rede SUS | Atendimento SUS, leitos SUS, convênio, gestão ou produção SUS | O critério muda conforme a pergunta |
+| Rede pública | Natureza jurídica, esfera administrativa ou gestão pública | Nem todo estabelecimento público tem o mesmo papel assistencial |
+| Rede privada | Natureza jurídica privada ou ausência de vínculo SUS | Pode incluir produção suplementar ou particular |
+| Filantrópicos | Arquivo `EF`, natureza jurídica ou habilitação específica | Separar condição institucional de produção SUS |
+| Saúde suplementar | Estabelecimentos privados e produção fora do SUS, quando disponível | O CNES sozinho não mede uso por planos de saúde |
+: Recortes institucionais frequentes no CNES
+
+::: {.callout-note}
+Não use "SUS" como sinônimo automático de "público". Um hospital privado ou filantrópico pode produzir para o SUS, e um estabelecimento público pode ter características assistenciais muito distintas de outro.
+:::
+
+## CNES como denominador
+
+O CNES é frequentemente usado como denominador ou medida de oferta para indicadores de produção e eventos. Esse uso é útil, mas exige compatibilidade entre numerador, denominador, território, competência e unidade de análise.
+
+| Indicador | Numerador | Denominador CNES | Cuidado |
+|---|---|---|---|
+| Internações por leito SUS | AIHs do SIH | Leitos SUS do `LT` | Não equivale a taxa de ocupação |
+| Procedimentos por serviço cadastrado | Produção do SIA | Serviços do `SR` | Serviço cadastrado pode não estar ativo operacionalmente |
+| Notificações por unidade notificadora | Casos do SINAN | Estabelecimentos do `ST` | Unidade notificadora não é local de infecção |
+| Profissionais por população | Vínculos do `PF` | População residente | Mede oferta cadastrada no território, não acesso efetivo |
+| Equipamentos por estabelecimento | Equipamentos do `EQ` | Estabelecimentos do `ST` | Equipamento cadastrado pode estar indisponível |
+: Usos do CNES como denominador ou medida de oferta
+
+::: {.callout-warning}
+Quando o CNES entra como denominador, documente se o denominador representa estabelecimentos, vínculos, leitos, serviços, equipes ou equipamentos. A troca de unidade pode alterar completamente o resultado.
+:::
+
+## Principais usos e indicadores
+
+O CNES é usado para indicadores de oferta, estrutura da rede, capacidade instalada, distribuição territorial, vínculos profissionais e caracterização de estabelecimentos.
+
+| Indicador | Numerador principal | Denominador ou cuidado |
+|---|---|---|
+| Estabelecimentos por tipo | Estabelecimentos cadastrados | Definir competência |
+| Leitos por 1.000 habitantes | Leitos cadastrados | Separar SUS, não SUS e tipo de leito |
+| Equipamentos por território | Equipamentos cadastrados | Verificar disponibilidade e uso |
+| Profissionais por ocupação | Vínculos profissionais | Profissional pode ter múltiplos vínculos |
+| Equipes por município | Equipes cadastradas | Verificar tipo e situação da equipe |
+| Serviços habilitados | Habilitações ou serviços | Habilitação não equivale a produção |
+| Produção por capacidade instalada | SIA ou SIH combinado com CNES | Agregar o CNES antes da junção |
+: Exemplos de indicadores construídos com CNES
+
+## Limitações
+
+| Limitação | Consequência analítica |
+|---|---|
+| Cadastro não é produção | Serviço cadastrado pode não ter realizado atendimentos no período |
+| Cadastro não é disponibilidade em tempo real | Leito ou equipamento cadastrado pode estar indisponível operacionalmente |
+| Atualização depende da gestão local | Dados podem estar defasados |
+| Profissional pode ter múltiplos vínculos | Contagem de vínculos não equivale a pessoas únicas |
+| Mudanças de classificação | Séries históricas podem ter quebras |
+| Endereços e coordenadas podem ter erro | Mapas exigem validação espacial |
+| Competência importa | Usar CNES de mês diferente pode gerar classificação incorreta |
+| Recorte institucional pode ser ambíguo | SUS, público, privado, filantrópico e suplementar exigem critérios distintos |
+| Denominador pode ter unidade diferente do numerador | Relações com SIA, SIH e SINAN precisam preservar granularidade |
+: Limitações recorrentes do CNES
+
+## Cuidados de interpretação
+
+Ao utilizar o CNES, alguns cuidados são recorrentes:
+
+- definir a unidade de análise antes de baixar os arquivos;
+- usar a competência compatível com a pergunta;
+- distinguir estabelecimento, serviço, leito, equipamento, equipe e vínculo profissional;
+- não interpretar cadastro como produção assistencial;
+- separar rede SUS, privada, filantrópica e suplementar quando necessário;
+- explicitar quando o CNES for usado como denominador;
+- verificar mudanças históricas de classificação;
+- validar campos territoriais e geográficos antes de mapear;
+- agregar arquivos de recursos antes de relacionar com eventos;
+- documentar prefixos, filtros e versões dos dados.
+
+| Erro | Como evitar |
+|---|---|
+| Contar vínculos profissionais como pessoas | Declarar que o numerador são vínculos ou deduplicar quando possível |
+| Somar arquivos diferentes sem harmonização | Separar ST, PF, LT, EQ, EP, SR e HB |
+| Usar CNES atual para eventos antigos | Relacionar por competência compatível |
+| Tratar leito cadastrado como leito disponível | Complementar com dados operacionais quando necessário |
+| Mapear sem validar coordenadas | Checar endereços e pontos fora do município |
+| Misturar rede SUS, pública e privada sem critério | Definir o recorte institucional antes da análise |
+| Relacionar eventos com `LT`, `PF` ou `SR` linha a linha | Agregar recursos por CNES e competência antes da junção |
+: Erros frequentes em análises com CNES
+
+## Checklist final
+
+Antes de concluir uma análise com CNES, verifique se:
+
+- a competência foi definida;
+- o arquivo ou prefixo corresponde à unidade de análise;
+- o código CNES foi tratado como identificador do estabelecimento;
+- vínculos profissionais não foram interpretados como pessoas únicas sem regra explícita;
+- leitos, equipamentos e serviços foram analisados separadamente;
+- a rede SUS ou não SUS foi delimitada quando necessário;
+- o recorte público, privado, filantrópico ou suplementar foi documentado;
+- denominadores do CNES foram compatíveis com numeradores de produção ou eventos;
+- mudanças de classificação histórica foram consideradas;
+- estabelecimentos que entram, saem ou mudam de perfil na série foram tratados;
+- coordenadas e endereços foram validados antes de análises espaciais;
+- a integração com SIH, SIA, SINAN, SIM ou SINASC usou período compatível;
+- arquivos de recursos foram agregados antes de junções com eventos;
+- perdas de relacionamento por código CNES foram quantificadas;
+- limitações de cadastro, atualização e geocodificação foram discutidas.
 
 ## Bibliografia recomendada
 
 -  Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
 -  Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
 -  Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).
-

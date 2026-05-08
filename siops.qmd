@@ -4,19 +4,70 @@ always_allow_html: true
 
 # SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde {#sec-siops}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/siops_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/siops.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/siops.md">podcast/siops.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 2000
--  Cobertura: Dimensões pública do SUS
--  Divulgação de dados: mensal, com até dois meses  de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de institucionalização | 2000 |
+| Evento registrado | Receitas, despesas e indicadores de aplicação de recursos públicos em saúde |
+| Unidade de análise | Ente federado, exercício, bimestre, fase orçamentária e classificação contábil |
+| Cobertura | União, estados, Distrito Federal e municípios |
+| Periodicidade | Bimestral, com destaque para o sexto bimestre, que consolida o exercício |
+| Natureza dos dados | Declaratória, com homologação pelo gestor |
+| Uso central | Monitoramento do financiamento público da saúde e da aplicação mínima em ASPS |
+: Características gerais do SIOPS
+
+O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) organiza informações sobre receitas e despesas públicas em saúde. Diferentemente de sistemas baseados em eventos assistenciais, como SIH (@sec-sih), SIA (@sec-sia), SINAN (@sec-sinan), SINASC (@sec-sinasc) e SIM (@sec-sim), o SIOPS descreve a dimensão orçamentária e financeira do sistema de saúde.
+
+Seu uso principal é acompanhar quanto cada ente federado declara aplicar em Ações e Serviços Públicos de Saúde (ASPS), além de apoiar transparência, controle social, fiscalização e estudos sobre financiamento do SUS.
+
+## Quando usar o SIOPS
+
+Use o SIOPS quando a pergunta envolve financiamento público, receitas vinculadas, despesas em saúde, cumprimento de aplicação mínima, composição de gasto ou comparação entre entes federados.
+
+| Pergunta de análise | Usar SIOPS para | Cuidado principal |
+|---|---|---|
+| O município aplicou o mínimo constitucional em saúde? | Consultar percentual de recursos próprios aplicados em ASPS | Verificar exercício, bimestre e homologação |
+| Como evoluiu a despesa em saúde? | Analisar série de despesas declaradas | Deflacionar valores para comparação temporal |
+| Qual é a composição do gasto? | Separar despesas por classificação orçamentária | Compatibilizar fases e categorias da despesa |
+| Quanto foi aplicado por habitante? | Relacionar despesa declarada à população | Usar população compatível com ano e território |
+| Como comparar municípios? | Padronizar por porte populacional, região e capacidade fiscal | Diferenças contábeis e de capacidade arrecadatória importam |
+| Há dependência de transferências? | Comparar recursos próprios e transferências | Distinguir origem do recurso e aplicação final |
+: Perguntas comuns que podem ser respondidas com o SIOPS
+
+::: {.callout-note}
+O SIOPS não mede produção assistencial, acesso, qualidade do cuidado ou necessidade de saúde. Ele informa receitas, despesas e indicadores financeiros declarados pelos entes federados.
+:::
 
 ## Histórico e organização
 
-No Conselho Nacional de Saúde de 1993 foi lançada a ideia de criar um sistema de informações sobre despesas em saúde de todos os entes federados. A portaria MS/PGR nº 529 de 30 de abril de 1999 designou uma equipe para desenvolver o projeto de implantação do Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS), sendo institucionalizado pela Portaria Conjunta MS/PGR nº 1163, de 11 de outubro de 2000.
+A demanda por informações sistematizadas sobre gastos públicos em saúde ganhou força na década de 1990, em um contexto de consolidação do SUS e de necessidade de acompanhar a aplicação de recursos pela União, estados, Distrito Federal e municípios.
 
-O SIOPS é alimentado pelos estados, Distrito Federal e municípios pelo preencimento de um formulário em *software* desenvolvido pelo DataSUS, passando a ter o registro obrigatório à partir de 2023 (Lei Complementar nº 141, de 13 de janeiro de 2012). Os dados contidos no SIOPS são de natureza declaratória e buscam manter compatibilidade com as informações contábeis dos estados e municípios. 
+Em 1993, no Conselho Nacional de Saúde, foi discutida a criação de um sistema nacional para reunir informações sobre despesas em saúde dos entes federados. Em 1999, a Portaria Interministerial MS/PGR nº 529 designou equipe para desenvolver o projeto de implantação do SIOPS. Em 2000, a Portaria Conjunta MS/PGR nº 1.163 institucionalizou o sistema.
 
-Um dos indicadores gerados pelo SIOPS é o do percentual de recursos próprios aplicados em ações e serviços públicos de saúde, que demonstra a situação relativa ao cumprimento da Constituição Federal. 
+A Emenda Constitucional nº 29/2000 estabeleceu bases para a aplicação mínima de recursos em saúde. Posteriormente, a Lei Complementar nº 141/2012 regulamentou os valores mínimos a serem aplicados em ASPS, as regras de fiscalização, avaliação e controle, e a obrigatoriedade de declaração no SIOPS. A partir de 2013, a homologação dos dados no sistema passou a ser obrigatória, com uso de certificação digital e penalidades em caso de ausência de declaração ou não cumprimento dos mínimos legais.
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -28,21 +79,526 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_siops.csv"))
 ```
 :::
 
-Um histórico mais detalhado sobre o SIOPS pode ser consultado [aqui](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops).
+Um histórico mais detalhado sobre o SIOPS pode ser consultado no portal do Ministério da Saúde.
+
+-  [Histórico de institucionalização do SIOPS](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops)
+
+## Fluxo de declaração
+
+O SIOPS combina preenchimento, transmissão e homologação. A simples transmissão dos dados não encerra o processo: os dados precisam ser homologados pelo gestor responsável para que tenham efeito no acompanhamento oficial.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado de declaração no SIOPS"
+%%| label: fig-siops-fluxo
+flowchart TD
+  cont[Contabilidade e orçamento do ente] --> prep[Preparação das receitas e despesas]
+  prep --> preen[Preenchimento no sistema SIOPS]
+  preen --> crit[Críticas e consistências]
+  crit --> envio[Transmissão dos dados]
+  envio --> hom[Homologação pelo gestor]
+  hom --> pub[Publicação de indicadores e relatórios]
+  pub --> ctrl[Controle social, fiscalização e pesquisa]
+```
+:::
+
+| Etapa | O que ocorre | Cuidado |
+|---|---|---|
+| Preparação | Organização dos dados contábeis do ente | Conferir exercício, bimestre e fontes de recursos |
+| Preenchimento | Registro das receitas e despesas no sistema | Respeitar classificações orçamentárias |
+| Críticas | Verificações automáticas de consistência | Corrigir inconsistências antes da transmissão |
+| Transmissão | Envio dos dados ao banco nacional | Transmissão não substitui homologação |
+| Homologação | Validação pelo gestor com perfil autorizado | Etapa necessária para publicidade e efeitos legais |
+| Divulgação | Disponibilização de indicadores e relatórios | Verificar se os dados estão homologados |
+: Etapas gerais da declaração no SIOPS
+
+## Unidade de análise
+
+A unidade de análise do SIOPS depende da pergunta. O mesmo dado pode ser interpretado por ente federado, exercício, bimestre, fase da despesa, fonte de recurso, categoria econômica ou indicador.
+
+| Unidade | Exemplo | Uso comum | Cuidado |
+|---|---|---|---|
+| Ente federado | Município, estado, DF ou União | Comparação territorial | Comparar entes com responsabilidades e porte semelhantes |
+| Exercício | Ano fiscal | Séries anuais | Usar valores consolidados do exercício |
+| Bimestre | 1º ao 6º bimestre | Monitoramento de prazos e execução | O sexto bimestre consolida o ano |
+| Receita | Recursos próprios e transferências | Base de cálculo e financiamento | Separar origem do recurso |
+| Despesa | Empenhada, liquidada ou paga | Execução orçamentária | Escolher a fase adequada para a pergunta |
+| ASPS | Ações e serviços públicos de saúde | Aplicação mínima | Respeitar inclusões e exclusões legais |
+| Indicador | Percentual aplicado, gasto per capita | Monitoramento sintético | Verificar metodologia e denominador |
+: Unidades de análise frequentes no SIOPS
+
+::: {.callout-warning}
+Não misture bimestres, fases da despesa ou critérios de ASPS sem documentar a regra. Uma série com despesa empenhada não deve ser comparada diretamente com outra baseada em despesa liquidada ou paga.
+:::
+
+## Fases da despesa
+
+Em análises do SIOPS, a fase da despesa muda a interpretação do indicador. O mesmo programa pode ter valor empenhado, liquidado e pago diferentes no mesmo exercício.
+
+| Fase | Interpretação | Quando usar | Cuidado |
+|---|---|---|---|
+| Empenhada | Reserva orçamentária para uma despesa autorizada | Planejamento e compromisso orçamentário | Pode não se converter em serviço entregue ou pagamento |
+| Liquidada | Reconhecimento de que o bem ou serviço foi entregue | Execução de despesa com maior proximidade do fato gerador | Ainda pode não ter sido paga |
+| Paga | Desembolso financeiro realizado | Fluxo de caixa e pagamento efetivo | Pode incluir despesas de exercícios anteriores |
+| Restos a pagar | Despesas empenhadas não pagas até o fim do exercício | Continuidade e compensações | Cancelamentos podem alterar o cumprimento do mínimo |
+: Interpretação das fases da despesa no SIOPS
+
+::: {.callout-tip}
+Para séries comparativas, mantenha a mesma fase da despesa em todos os anos e entes. Se a pergunta for sobre esforço orçamentário, a despesa empenhada pode ser adequada; se for sobre execução reconhecida, a despesa liquidada costuma ser mais informativa; se for sobre desembolso, use a despesa paga.
+:::
+
+## ASPS e aplicação mínima
+
+Ações e Serviços Públicos de Saúde (ASPS) são o eixo central do SIOPS. A classificação define quais despesas podem compor a aplicação mínima em saúde e quais devem ser excluídas do cálculo.
+
+| Elemento | Interpretação | Cuidado |
+|---|---|---|
+| Base de cálculo | Receita usada para apurar o mínimo legal | Varia conforme ente federado e regra aplicável |
+| Despesa em ASPS | Despesa que atende aos critérios legais | Nem todo gasto relacionado à saúde é ASPS |
+| Despesa não ASPS | Gasto excluído do cálculo do mínimo | Deve ser separado para evitar superestimação |
+| Percentual aplicado | Relação entre despesa em ASPS e base de cálculo | Interpretação depende da metodologia vigente |
+| Restos a pagar | Despesas inscritas, canceladas ou compensadas | Podem afetar cumprimento e compensações |
+: Elementos do cálculo de ASPS no SIOPS
+
+O indicador de percentual de recursos próprios aplicados em ASPS é uma das principais saídas do sistema. Ele permite verificar a situação declarada do ente em relação aos mínimos definidos pela Constituição Federal e pela Lei Complementar nº 141/2012.
+
+### O que não contar como ASPS
+
+Nem toda despesa registrada em uma unidade orçamentária da saúde deve compor ASPS. A análise precisa respeitar os critérios legais e separar gastos que podem inflar artificialmente a aplicação mínima.
+
+| Situação | Por que exige cuidado | Risco analítico |
+|---|---|---|
+| Despesa sem relação direta com ações e serviços públicos de saúde | Pode estar na estrutura administrativa, mas não atender ao critério de ASPS | Superestimar aplicação em saúde |
+| Aposentadorias e pensões | Benefícios previdenciários não equivalem a serviço de saúde | Misturar gasto previdenciário com gasto assistencial |
+| Assistência à saúde de clientelas fechadas | Pode não estar disponível universalmente ao SUS | Comparar gasto restrito com política pública universal |
+| Merenda, saneamento ou assistência social fora dos critérios de ASPS | Podem melhorar saúde, mas pertencem a outras políticas | Ampliar indevidamente o conceito de saúde |
+| Restos a pagar cancelados | Despesa contabilizada pode não se realizar | Manter aplicação que precisa ser compensada |
+: Exemplos de exclusões ou situações que exigem conferência no cálculo de ASPS
+
+::: {.callout-warning}
+A classificação de ASPS é normativa. Em caso de dúvida, consulte a cartilha e a legislação vigente antes de construir indicadores de cumprimento mínimo.
+:::
+
+## Exemplo: percentual aplicado em ASPS
+
+O percentual aplicado em ASPS resume a relação entre a despesa elegível em ASPS e a base de cálculo do ente. Ele é útil para monitoramento legal, mas não informa sozinho se o gasto foi suficiente, eficiente ou bem distribuído.
+
+| Elemento | Medida | Cuidado |
+|---|---|---|
+| Numerador | Despesa em ASPS com recursos próprios | Conferir deduções e restos a pagar |
+| Denominador | Base de cálculo legal | Varia conforme esfera federativa |
+| Tempo | Exercício ou bimestre acumulado | O sexto bimestre consolida o exercício |
+| Situação | Dados homologados | Pendências podem alterar o resultado |
+| Interpretação | Cumprimento do mínimo | Não mede qualidade, acesso ou resultado em saúde |
+: Componentes do percentual aplicado em ASPS
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+percentual_asps <- siops |>
+  filter(
+    indicador %in% c("despesa_asps", "base_calculo_asps"),
+    bimestre == 6,
+    situacao == "Homologado"
+  ) |>
+  select(cod_ente, ano, indicador, valor) |>
+  tidyr::pivot_wider(names_from = indicador, values_from = valor) |>
+  mutate(percentual_asps = 100 * despesa_asps / base_calculo_asps)
+
+percentual_asps
+```
+
+::: {.callout-note}
+O código é um modelo conceitual. Ajuste nomes de indicadores, variáveis e filtros ao formato da extração utilizada.
+:::
+
+## Estrutura dos dados
+
+As consultas do SIOPS podem ser organizadas por indicadores agregados ou por dados mais detalhados de receitas e despesas. Em análises reprodutíveis, é importante registrar a origem da extração, o período, o ente federado, o indicador e a fase orçamentária.
+
+| Dimensão | Exemplos de campos ou conceitos | Pergunta de controle |
+|---|---|---|
+| Território | Código do município, UF, região, ente federado | O ente analisado é o mesmo em toda a série? |
+| Tempo | Exercício e bimestre | O dado é bimestral ou consolidado anual? |
+| Receita | Impostos, transferências, receitas vinculadas | Qual recurso compõe a base de cálculo? |
+| Despesa | Função, subfunção, natureza, fonte, fase | Qual classificação orçamentária foi usada? |
+| ASPS | Despesa incluída ou excluída do cálculo | A regra de elegibilidade foi aplicada corretamente? |
+| Indicador | Percentual aplicado, despesa per capita, composição | O denominador está explícito? |
+| Situação | Transmitido, homologado, pendente | O dado tem validade para análise oficial? |
+: Dimensões úteis para inspeção do SIOPS
+
+### Dicionário mínimo
+
+Antes de analisar o SIOPS, construa um dicionário operacional com as variáveis usadas. Isso reduz ambiguidade entre gasto, aplicação, execução e disponibilidade financeira.
+
+| Conceito | Pergunta que resolve | Cuidado |
+|---|---|---|
+| Receita total | Qual é o volume declarado de recursos? | Nem toda receita compõe a base de ASPS |
+| Receita própria | Quanto o ente arrecada ou recebe para a base mínima? | Distinguir de transferências específicas |
+| Transferências SUS | Qual é a participação de recursos transferidos? | Não confundir origem do recurso com execução local |
+| Despesa empenhada | O gasto foi autorizado no orçamento? | Pode não ter sido liquidado ou pago |
+| Despesa liquidada | O serviço ou bem foi reconhecido como devido? | Difere de desembolso financeiro |
+| Despesa paga | Houve pagamento financeiro? | Pode ocorrer em exercício diferente |
+| Percentual ASPS | O mínimo legal foi declarado como cumprido? | Depende da base e das deduções corretas |
+: Conceitos mínimos para análise do SIOPS
+
+## Análise temporal e territorial
+
+Séries do SIOPS devem ser interpretadas com atenção a inflação, mudanças contábeis, mudanças legais, porte populacional e responsabilidades federativas. Comparações diretas entre municípios pequenos e capitais, ou entre municípios e estados, podem ser pouco informativas sem padronização.
+
+| Comparação | Recomendação | Cuidado |
+|---|---|---|
+| Ao longo do tempo | Deflacionar valores monetários | Valores correntes superestimam crescimento real |
+| Entre municípios | Usar gasto per capita, porte populacional e região | Municípios têm capacidade fiscal muito diferente |
+| Entre estados | Considerar responsabilidades regionais e rede própria | Estados podem financiar serviços de referência |
+| Entre bimestres | Comparar o mesmo bimestre ou acumulado equivalente | Execução orçamentária é sazonal |
+| Antes e depois de normas | Documentar mudança legal ou contábil | Quebras metodológicas podem parecer mudança real |
+: Cuidados em comparações temporais e territoriais
+
+### Deflação de valores monetários
+
+Valores monetários em anos diferentes devem ser comparados em termos reais. Se a análise usa valores nominais, o texto precisa declarar isso explicitamente e evitar interpretar crescimento nominal como aumento real de gasto.
+
+| Decisão | Recomendação | Cuidado |
+|---|---|---|
+| Índice de preços | Usar um deflator declarado, como IPCA | Documentar fonte, base e mês de referência |
+| Ano-base | Converter todos os valores para o mesmo ano | Não misturar valores correntes e reais |
+| Indicador per capita | Deflacionar o numerador antes de dividir pela população | Evitar comparar reais de anos diferentes |
+| Transferências e receitas | Aplicar o mesmo deflator usado nas despesas | Manter consistência entre numerador e denominador monetário |
+: Decisões mínimas para deflacionar valores do SIOPS
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+siops_real <- siops_municipal |>
+  left_join(deflator_ipca, by = "ano") |>
+  mutate(valor_real = valor_nominal * fator_deflacao)
+
+siops_real
+```
+
+### Comparação entre municípios
+
+Comparar municípios exige mais do que ordenar gastos. Municípios pequenos podem apresentar valores per capita instáveis, capitais concentram serviços de referência, e a capacidade fiscal condiciona a possibilidade de gasto próprio.
+
+| Dimensão | Como controlar | Cuidado |
+|---|---|---|
+| Porte populacional | Agrupar por faixas de população | Pequenos municípios têm indicadores instáveis |
+| Capacidade fiscal | Usar receita própria ou base fiscal como contexto | Gasto baixo pode refletir restrição arrecadatória |
+| Papel regional | Identificar capitais e polos assistenciais | Produção pode atender residentes de outros municípios |
+| Consórcios | Verificar despesas compartilhadas | Gasto pode aparecer fora do município de uso |
+| Outliers | Inspecionar valores extremos | Podem indicar erro, evento excepcional ou mudança contábil |
+| Série histórica | Comparar tendências, não apenas um ano isolado | Um único exercício pode ser atípico |
+: Critérios para comparação municipal com SIOPS
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+siops_municipal <- siops |>
+  filter(esfera == "Municipal", indicador == "Despesa em ASPS per capita") |>
+  group_by(codmun, ano) |>
+  summarise(
+    valor = max(valor, na.rm = TRUE),
+    situacao = first(situacao),
+    .groups = "drop"
+  )
+
+siops_municipal
+```
+
+::: {.callout-note}
+O exemplo assume uma base já importada e padronizada. Os nomes das variáveis dependem da forma de acesso e do arquivo baixado.
+:::
+
+## Exemplo: SIOPS + POP
+
+Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e população residente. Esse indicador padroniza por tamanho populacional, mas ainda não corrige diferenças de perfil demográfico, rede regional, capacidade fiscal ou necessidade de saúde.
+
+| Elemento | Fonte | Cuidado |
+|---|---|---|
+| Despesa em ASPS | SIOPS | Usar exercício consolidado e situação homologada |
+| População residente | POP (@sec-pop) | Usar mesmo ano e código territorial |
+| Valor monetário | SIOPS + deflator | Deflacionar antes do cálculo em séries temporais |
+| Território | Código municipal ou UF | Harmonizar códigos e mudanças territoriais |
+: Componentes de uma análise de despesa per capita
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+asps_per_capita <- siops |>
+  filter(indicador == "despesa_asps", bimestre == 6, situacao == "Homologado") |>
+  left_join(pop, by = c("codmun", "ano")) |>
+  left_join(deflator_ipca, by = "ano") |>
+  mutate(
+    despesa_asps_real = valor * fator_deflacao,
+    despesa_asps_per_capita = despesa_asps_real / populacao
+  )
+
+asps_per_capita
+```
+
+## Exemplo: SIOPS + CNES
+
+Também é possível relacionar gasto municipal declarado no SIOPS com medidas de oferta do CNES, como estabelecimentos, UBS, leitos SUS ou equipes. Essa relação deve ser interpretada como uma aproximação ecológica entre financiamento e oferta localizada no território.
+
+| Indicador | Numerador | Denominador | Cuidado |
+|---|---|---|---|
+| Despesa em ASPS por estabelecimento | Despesa em ASPS municipal | Estabelecimentos do CNES | Estabelecimento localizado no município pode atender usuários de fora |
+| Despesa em ASPS por UBS | Despesa em ASPS municipal | UBS cadastradas no CNES | Nem toda despesa municipal financia apenas UBS |
+| Despesa em ASPS por leito SUS | Despesa em ASPS municipal | Leitos SUS do CNES | Leitos podem estar sob gestão ou financiamento regional |
+| Despesa por equipe | Despesa em ASPS municipal | Equipes cadastradas no CNES | Equipe cadastrada não resume custo da atenção primária |
+: Exemplos de indicadores combinando SIOPS e CNES
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+oferta_cnes <- cnes_st |>
+  filter(competencia == "2023-12") |>
+  count(CODMUN, name = "estabelecimentos")
+
+siops_cnes <- siops |>
+  filter(indicador == "despesa_asps", ano == 2023, bimestre == 6) |>
+  left_join(oferta_cnes, by = c("codmun" = "CODMUN")) |>
+  mutate(despesa_por_estabelecimento = valor / estabelecimentos)
+
+siops_cnes
+```
+
+::: {.callout-warning}
+SIOPS está no nível do ente financiador; CNES está no nível do estabelecimento localizado. A junção por município é útil para exploração, mas não prova que a despesa financiou diretamente aquele estabelecimento.
+:::
+
+## Qualidade dos dados
+
+O SIOPS é uma base declaratória. A qualidade depende da organização contábil do ente, do preenchimento correto, da transmissão no prazo, da homologação e da consistência das classificações usadas.
+
+| Dimensão | Checagem |
+|---|---|
+| Homologação | Dados transmitidos foram homologados pelo gestor? |
+| Prazo | O bimestre foi declarado dentro do prazo legal? |
+| Completitude | Há receitas, despesas ou indicadores ausentes? |
+| Consistência | Receitas, despesas e percentuais fecham entre si? |
+| Fase da despesa | Empenhado, liquidado e pago foram usados de forma coerente? |
+| Restos a pagar | Cancelamentos e compensações foram considerados? |
+| Comparabilidade | Houve mudança de classificação ou regra na série? |
+| Valores extremos | Há saltos incompatíveis com porte populacional ou orçamento? |
+: Dimensões de qualidade relevantes no SIOPS
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+validacao_siops <- siops |>
+  group_by(cod_ente, ano) |>
+  summarise(
+    bimestres = n_distinct(bimestre),
+    indicadores_ausentes = sum(is.na(valor)),
+    dados_homologados = all(situacao == "Homologado"),
+    .groups = "drop"
+  )
+
+validacao_siops
+```
+
+### Homologação e dados ausentes
+
+A ausência de dados pode ter significados diferentes: o ente pode não ter transmitido, pode ter transmitido sem homologar, pode estar fora do prazo ou pode ter inconsistências que impedem o fechamento. Em séries temporais, essas situações devem ser tratadas separadamente.
+
+| Situação | Interpretação possível | Como tratar |
+|---|---|---|
+| Homologado | Dado validado no fluxo do sistema | Pode entrar na análise principal |
+| Transmitido sem homologação | Dado enviado, mas sem validação final | Usar apenas em análise exploratória ou excluir |
+| Ausente no bimestre | Não há registro disponível para o período | Distinguir ausência de zero |
+| Atrasado | Informação pode aparecer após a data de extração | Registrar data de extração |
+| Retificado | Dado alterado após envio anterior | Preservar versão ou reextrair série completa |
+: Situações de homologação e ausência no SIOPS
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+padrao_homologacao <- siops |>
+  count(cod_ente, ano, bimestre, situacao) |>
+  tidyr::pivot_wider(
+    names_from = situacao,
+    values_from = n,
+    values_fill = 0
+  )
+
+padrao_homologacao
+```
 
 ## Acesso aos dados
 
+O SIOPS pode ser consultado por painéis e relatórios agregados no portal do Ministério da Saúde, por arquivos disponibilizados no OpenDataSUS e por API para extrações desagregadas.
+
 ### Dados agregados
 
-O SIOS permite a consulta por ano, fase da despesa e da série histórica de indicadores para municípios, estados e Distrito Federal.
+As consultas agregadas permitem acompanhar indicadores por ano, bimestre, ente federado e fase da despesa. São úteis para exploração inicial e validação de resultados.
 
 -  [SIOPS - Indicadores](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores)
 
 ### Dados desagregados
 
-O SIOPS permite a consulta de dados desagregados por meio de uma API.
+Os dados desagregados permitem análises reprodutíveis e integração com outras bases territoriais, populacionais e fiscais.
 
--  [API SIOPS](https://opendatasus.saude.gov.br/dataset/siops)
+-  [OpenDataSUS - SIOPS](https://opendatasus.saude.gov.br/dataset/siops)
+
+### Documentos de orientação
+
+Os documentos de orientação ajudam a interpretar regras de preenchimento, prazos, ASPS, restos a pagar, homologação e penalidades.
+
+-  [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
+-  [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)
+
+## Relacionamento com outros sistemas
+
+O SIOPS ganha poder analítico quando combinado com indicadores de oferta, produção, eventos e população. A integração deve respeitar que o SIOPS está no nível do ente federado e do período, não no nível de estabelecimento ou pessoa.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Maior gasto se associa a maior oferta? | SIOPS + CNES (@sec-cnes) | Comparar gasto municipal com oferta localizada no município |
+| Gasto acompanha produção ambulatorial? | SIOPS + SIA (@sec-sia) | Produção pode ocorrer em prestadores de referência |
+| Gasto acompanha internações? | SIOPS + SIH (@sec-sih) | Internação pode ocorrer fora do município de residência |
+| Gasto per capita varia com população? | SIOPS + POP (@sec-pop) | Usar população do mesmo ano e território |
+| Financiamento se relaciona a eventos de saúde? | SIOPS + SIM/SINASC/SINAN | Evitar inferência causal simples com dados agregados |
+: Integrações frequentes entre SIOPS e outros sistemas
+
+::: {.callout-warning}
+O SIOPS descreve gasto declarado pelo ente. Sistemas assistenciais registram eventos, produção ou oferta em unidades de saúde. Antes de relacionar bases, defina se o território é de residência, ocorrência, gestão ou localização do serviço.
+:::
+
+### Checklist para integração
+
+Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação.
+
+| Checagem | Por que importa |
+|---|---|
+| Código territorial harmonizado | Municípios e UFs precisam ter códigos compatíveis |
+| Ano ou competência compatível | SIOPS é bimestral/anual; outras bases podem ser mensais ou por evento |
+| Território de residência, ocorrência ou localização | Sistemas assistenciais podem usar recortes diferentes |
+| Indicador financeiro definido | Receita, despesa, ASPS e percentual não são intercambiáveis |
+| Valor deflacionado quando houver série | Evita interpretar inflação como aumento real |
+| Denominador documentado | População, estabelecimentos e eventos medem coisas diferentes |
+: Verificações antes de integrar SIOPS com outros sistemas
+
+## Principais usos e indicadores
+
+O SIOPS é usado para monitoramento legal, controle social, análise de financiamento, planejamento e estudos comparativos.
+
+| Indicador | Numerador | Denominador ou cuidado |
+|---|---|---|
+| Percentual aplicado em ASPS | Despesa em ASPS | Base de cálculo definida em regra legal |
+| Despesa em saúde per capita | Despesa declarada | População residente do mesmo ano |
+| Participação de recursos próprios | Recursos próprios aplicados | Receita total ou despesa total, conforme a pergunta |
+| Participação de transferências | Transferências recebidas ou executadas | Separar transferências SUS de outras receitas |
+| Composição da despesa | Despesa por categoria ou natureza | Definir fase da despesa |
+| Regularidade de declaração | Bimestres homologados | Verificar prazo e situação |
+| Despesa por estabelecimento | Despesa em ASPS | Usar CNES com cuidado territorial |
+| Despesa real per capita | Despesa deflacionada | Usar população e deflator compatíveis |
+: Exemplos de indicadores construídos com SIOPS
+
+## Limitações
+
+| Limitação | Consequência analítica |
+|---|---|
+| Dados declaratórios | Podem existir erros de preenchimento ou classificação |
+| Unidade agregada | Não permite identificar estabelecimento, profissional ou usuário |
+| Comparabilidade fiscal | Entes têm capacidade arrecadatória e responsabilidades diferentes |
+| Mudanças legais e contábeis | Séries podem ter quebras metodológicas |
+| Valores monetários correntes | Comparações temporais exigem deflação |
+| Produção não é medida | Maior gasto não implica maior volume de atendimentos |
+| Homologação importa | Dados pendentes podem não representar situação oficial |
+| Indicador per capita pode ser instável | Municípios pequenos podem ter valores extremos |
+| Relação com oferta é ecológica | Gasto municipal não financia necessariamente cada serviço localizado no território |
+: Limitações recorrentes do SIOPS
+
+## Cuidados de interpretação
+
+Ao utilizar o SIOPS, alguns cuidados são recorrentes:
+
+- definir se a análise usa bimestre ou exercício consolidado;
+- verificar se os dados foram homologados;
+- distinguir receita, despesa, aplicação em ASPS e indicador;
+- escolher a fase da despesa antes de comparar valores;
+- deflacionar valores monetários em séries temporais;
+- padronizar por população quando o objetivo for comparar entes;
+- documentar filtros de esfera, UF, município e período;
+- registrar fonte, data de extração e versão da base;
+- evitar inferir acesso ou qualidade assistencial apenas a partir do gasto.
+
+| Erro | Como evitar |
+|---|---|
+| Tratar SIOPS como produção assistencial | Usar SIH, SIA, SINAN, SIM ou SINASC para eventos e produção |
+| Comparar valores correntes em anos diferentes | Deflacionar ou declarar que os valores são nominais |
+| Misturar empenhado, liquidado e pago | Escolher uma fase da despesa e mantê-la na série |
+| Ignorar homologação | Checar situação do dado antes da análise |
+| Comparar entes muito diferentes sem padronização | Usar população, porte, região e capacidade fiscal |
+| Interpretar percentual ASPS sem olhar a base | Conferir receitas, deduções e despesas elegíveis |
+| Tratar gasto per capita alto como melhor desempenho | Avaliar necessidade, rede regional, composição e resultados |
+| Interpretar ausência como zero | Separar dado ausente, pendente, não homologado e valor zero |
+: Erros frequentes em análises com SIOPS
+
+### Armadilhas de interpretação
+
+Algumas leituras parecem intuitivas, mas são frágeis:
+
+- gasto maior não significa automaticamente melhor acesso, eficiência ou qualidade;
+- gasto menor pode refletir subfinanciamento, classificação contábil diferente ou menor responsabilidade regional;
+- crescimento nominal pode ser apenas inflação;
+- gasto per capita em município pequeno pode oscilar muito com poucos eventos orçamentários;
+- percentual mínimo cumprido não significa suficiência de financiamento;
+- despesa municipal não representa todo o gasto público em saúde realizado no território.
+
+## Checklist de reprodutibilidade
+
+Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado.
+
+| Item | Registrar |
+|---|---|
+| Fonte | Portal, API, OpenDataSUS ou relatório utilizado |
+| Data de extração | Dia em que os dados foram baixados ou consultados |
+| Esfera | União, estado, DF ou município |
+| Território | UF, município ou lista de entes |
+| Período | Exercício, bimestre e se é acumulado |
+| Indicador | Nome, código ou descrição do indicador |
+| Fase da despesa | Empenhada, liquidada, paga ou outra |
+| Situação | Homologado, transmitido, pendente ou outro status |
+| Unidade monetária | Reais correntes ou reais de ano-base |
+| Deflator | Índice, fonte, ano-base e fator usado |
+| Denominador | População, receita, estabelecimentos, eventos ou outro |
+| Transformações | Filtros, agregações, exclusões e tratamentos de ausentes |
+: Itens mínimos para reprodutibilidade em análises do SIOPS
+
+## Checklist final
+
+Antes de concluir uma análise com SIOPS, verifique se:
+
+- a esfera federativa foi definida;
+- o exercício e o bimestre foram documentados;
+- a situação de homologação foi conferida;
+- a fase da despesa foi explicitada;
+- receitas, despesas e ASPS foram tratados como conceitos distintos;
+- valores monetários foram deflacionados quando comparados no tempo;
+- indicadores per capita usaram população compatível;
+- comparações entre entes consideraram porte e responsabilidades;
+- exclusões e inclusões de ASPS foram revisadas;
+- dados ausentes, pendentes e não homologados foram separados;
+- integrações com outros sistemas respeitaram território e período;
+- a extração foi documentada de forma reprodutível;
+- limitações de dado declaratório e agregado foram discutidas.
 
 ## Bibliografia recomendada
 

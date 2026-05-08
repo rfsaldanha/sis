@@ -141,6 +141,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
@@ -530,20 +533,45 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
    
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">10.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">10.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">10.3</span> Estrutura dos dados</a></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">10.4</span> Acesso aos dados</a>
+  <li><a href="#quando-usar-o-cnes" id="toc-quando-usar-o-cnes" class="nav-link" data-scroll-target="#quando-usar-o-cnes"><span class="header-section-number">10.2</span> Quando usar o CNES</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">10.3</span> Histórico e organização</a></li>
+  <li><a href="#fluxo-cadastral" id="toc-fluxo-cadastral" class="nav-link" data-scroll-target="#fluxo-cadastral"><span class="header-section-number">10.4</span> Fluxo cadastral</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">10.5</span> Unidade de análise</a></li>
+  <li><a href="#qual-arquivo-usar" id="toc-qual-arquivo-usar" class="nav-link" data-scroll-target="#qual-arquivo-usar"><span class="header-section-number">10.6</span> Qual arquivo usar?</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">10.7</span> Estrutura dos dados</a>
   <ul class="collapse">
-  <li><a href="#consulta-direta" id="toc-consulta-direta" class="nav-link" data-scroll-target="#consulta-direta"><span class="header-section-number">10.4.1</span> Consulta direta</a></li>
-  <li><a href="#outras-formas" id="toc-outras-formas" class="nav-link" data-scroll-target="#outras-formas"><span class="header-section-number">10.4.2</span> Outras formas</a></li>
-  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">10.4.3</span> TabNet</a></li>
-  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">10.4.4</span> TabWin</a></li>
-  <li><a href="#elasticcnes" id="toc-elasticcnes" class="nav-link" data-scroll-target="#elasticcnes"><span class="header-section-number">10.4.5</span> ElasticCNES</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">10.4.6</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">10.4.7</span> Python</a></li>
-  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">10.4.8</span> PCDaS</a></li>
+  <li><a href="#campos-mínimos-para-inspecionar" id="toc-campos-mínimos-para-inspecionar" class="nav-link" data-scroll-target="#campos-mínimos-para-inspecionar"><span class="header-section-number">10.7.1</span> Campos mínimos para inspecionar</a></li>
+  <li><a href="#dicionário-mínimo-por-arquivo" id="toc-dicionário-mínimo-por-arquivo" class="nav-link" data-scroll-target="#dicionário-mínimo-por-arquivo"><span class="header-section-number">10.7.2</span> Dicionário mínimo por arquivo</a></li>
+  <li><a href="#série-histórica" id="toc-série-histórica" class="nav-link" data-scroll-target="#série-histórica"><span class="header-section-number">10.7.3</span> Série histórica</a></li>
   </ul></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">10.5</span> Bibliografia recomendada</a></li>
+  <li><a href="#estabelecimentos-em-série-histórica" id="toc-estabelecimentos-em-série-histórica" class="nav-link" data-scroll-target="#estabelecimentos-em-série-histórica"><span class="header-section-number">10.8</span> Estabelecimentos em série histórica</a></li>
+  <li><a href="#exemplo-leitos-hospitalares" id="toc-exemplo-leitos-hospitalares" class="nav-link" data-scroll-target="#exemplo-leitos-hospitalares"><span class="header-section-number">10.9</span> Exemplo: leitos hospitalares</a></li>
+  <li><a href="#exemplo-profissionais-e-vínculos" id="toc-exemplo-profissionais-e-vínculos" class="nav-link" data-scroll-target="#exemplo-profissionais-e-vínculos"><span class="header-section-number">10.10</span> Exemplo: profissionais e vínculos</a></li>
+  <li><a href="#exemplo-cnes-sih" id="toc-exemplo-cnes-sih" class="nav-link" data-scroll-target="#exemplo-cnes-sih"><span class="header-section-number">10.11</span> Exemplo: CNES + SIH</a></li>
+  <li><a href="#geocodificação-e-análise-espacial" id="toc-geocodificação-e-análise-espacial" class="nav-link" data-scroll-target="#geocodificação-e-análise-espacial"><span class="header-section-number">10.12</span> Geocodificação e análise espacial</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">10.13</span> Qualidade dos dados</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">10.14</span> Acesso aos dados</a>
+  <ul class="collapse">
+  <li><a href="#consulta-direta" id="toc-consulta-direta" class="nav-link" data-scroll-target="#consulta-direta"><span class="header-section-number">10.14.1</span> Consulta direta</a></li>
+  <li><a href="#opendatasus" id="toc-opendatasus" class="nav-link" data-scroll-target="#opendatasus"><span class="header-section-number">10.14.2</span> OpenDataSUS</a></li>
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">10.14.3</span> TabNet</a></li>
+  <li><a href="#tabwin-e-transferência-de-arquivos" id="toc-tabwin-e-transferência-de-arquivos" class="nav-link" data-scroll-target="#tabwin-e-transferência-de-arquivos"><span class="header-section-number">10.14.4</span> TabWin e transferência de arquivos</a></li>
+  <li><a href="#elasticcnes" id="toc-elasticcnes" class="nav-link" data-scroll-target="#elasticcnes"><span class="header-section-number">10.14.5</span> ElasticCNES</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">10.14.6</span> R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">10.14.7</span> Python</a></li>
+  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">10.14.8</span> PCDaS</a></li>
+  </ul></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">10.15</span> Relacionamento com outros sistemas</a>
+  <ul class="collapse">
+  <li><a href="#checklist-para-relacionamento" id="toc-checklist-para-relacionamento" class="nav-link" data-scroll-target="#checklist-para-relacionamento"><span class="header-section-number">10.15.1</span> Checklist para relacionamento</a></li>
+  </ul></li>
+  <li><a href="#rede-sus-privada-filantrópica-e-suplementar" id="toc-rede-sus-privada-filantrópica-e-suplementar" class="nav-link" data-scroll-target="#rede-sus-privada-filantrópica-e-suplementar"><span class="header-section-number">10.16</span> Rede SUS, privada, filantrópica e suplementar</a></li>
+  <li><a href="#cnes-como-denominador" id="toc-cnes-como-denominador" class="nav-link" data-scroll-target="#cnes-como-denominador"><span class="header-section-number">10.17</span> CNES como denominador</a></li>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">10.18</span> Principais usos e indicadores</a></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">10.19</span> Limitações</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">10.20</span> Cuidados de interpretação</a></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">10.21</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">10.22</span> Bibliografia recomendada</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/cnes.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -570,76 +598,1105 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
+<section class="podcast-player" data-transcript="podcast/cnes_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/cnes.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/cnes.md">podcast/cnes.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
 <section id="resumo" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">10.1</span> Resumo</h2>
-<ul>
-<li>Ano de criação: 2000</li>
-<li>Cobertura: Dimensões pública e privada do SUS</li>
-<li>Unidade: Ficha de cadastro</li>
-<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
-</ul>
+<table class="caption-top table">
+<caption>Características gerais do CNES</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ano de criação</td>
+<td>2000</td>
+</tr>
+<tr class="even">
+<td>Evento registrado</td>
+<td>Cadastro de estabelecimentos, serviços, profissionais, equipes, leitos e equipamentos de saúde</td>
+</tr>
+<tr class="odd">
+<td>Documento básico</td>
+<td>Ficha de Cadastro de Estabelecimentos de Saúde (FCES) e módulos complementares</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>Estabelecimento, profissional, equipe, leito, equipamento, serviço ou habilitação, conforme o arquivo</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Estabelecimentos de saúde públicos, privados, filantrópicos e conveniados</td>
+</tr>
+<tr class="even">
+<td>Periodicidade</td>
+<td>Mensal, por competência</td>
+</tr>
+<tr class="odd">
+<td>Uso central</td>
+<td>Caracterização da rede assistencial e vinculação com outros sistemas</td>
+</tr>
+</tbody>
+</table>
+<p>O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é a base estruturante para identificar e caracterizar estabelecimentos de saúde no Brasil. Ele informa localização, natureza jurídica, gestão, tipo de estabelecimento, serviços, equipamentos, leitos, equipes, habilitações, profissionais e vínculos relacionados à oferta de atenção à saúde.</p>
+<p>O CNES não registra eventos assistenciais, como consultas, internações, óbitos ou notificações. Ele descreve a estrutura da rede em determinada competência. Por isso, é frequentemente combinado com sistemas de produção e eventos, como SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>), SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>), SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>) e SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>).</p>
 </section>
-<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">10.2</span> Histórico e organização</h2>
-<p>Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS) realizada pelo IBGE. No mesmo ano, foi implantado o o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH) no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH seja administrativo, para pagamento de serviços prestados, sua implantação demandou a construção de fichas cadastrais de estabelecimentos e de profissionais de saúde.</p>
-<p>O SNCPCH foi estinto em 1980, mas suas fichas continuaram ativas compondo o o Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e o SIH, na década de 1990. Após a implantação do SIA em 1994 e verificação de inconsistências nos dados sobre os estabelecimentos de saúde, foi implantada a ficha Ficha de Cadastro de Estabelecimentos de Saúde – FCES (Portaria n° 1890/GM/MS/1997), sendo continuamente aperfeiçoada.</p>
-<p>Após a consolidação da FCES, a portaria 403/SAS/MS/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), com um escopo ainda limitado, visando subsidiar principalmente o processo de faturamento no SIA e SIH, e parcialmente pesquisas estatísticas. Veja o <a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a> e <a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a> para mais detalhes sobre o SIA e SIH. Consulte o <a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a> e <a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a> para saber mais sobre o SIA e SIH.</p>
-<p>Com avanços sobre o modelo de pactuação de cadastramento na Comissão Intergestores Tripartite (CIT) e realização de consultas públicas, a primeira versão do CNES é disponibilizada em 2001. Ainda neste ano também é iniciado um processo de recadastramento informatizado, que se estendeu até 2003.</p>
-<p>O CNES apresenta atualmente dados cadastrais sobre todos os estabelecimentos de saúde, profissionais de saúde, equipamentos, serviços de apoio diagnóstico e terapêutico e serviços ambulatoriais e hospitalares no território nacional. O código único do CNES é utilizado em sistemas como o SIH e SIA para referenciar a unidade de saúde onde a hospitalização e os procedimentos ambulatoriais ocorreram.</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<section id="quando-usar-o-cnes" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="quando-usar-o-cnes"><span class="header-section-number">10.2</span> Quando usar o CNES</h2>
+<p>Use o CNES quando a pergunta envolve oferta, capacidade instalada, localização de serviços, composição da rede, vínculos profissionais, leitos, equipamentos, equipes, habilitações ou caracterização de estabelecimentos.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar CNES para</th>
+<th>Fonte complementar comum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantos estabelecimentos existem?</td>
+<td>Contar unidades cadastradas</td>
+<td>Definir competência e tipo de estabelecimento</td>
+</tr>
+<tr class="even">
+<td>Onde estão os serviços?</td>
+<td>Localizar estabelecimentos, serviços e equipamentos</td>
+<td>Malhas territoriais e geocodificação</td>
+</tr>
+<tr class="odd">
+<td>Qual é a capacidade hospitalar?</td>
+<td>Analisar leitos e habilitações</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>) para produção hospitalar</td>
+</tr>
+<tr class="even">
+<td>Que serviços produziram procedimentos?</td>
+<td>Caracterizar estabelecimentos executores</td>
+<td>SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>) para produção ambulatorial</td>
+</tr>
+<tr class="odd">
+<td>Que rede notificou agravos?</td>
+<td>Caracterizar unidades notificadoras</td>
+<td>SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>) para casos notificados</td>
+</tr>
+<tr class="even">
+<td>Que profissionais estão vinculados?</td>
+<td>Analisar vínculos profissionais e CBO</td>
+<td>Atenção ao tipo de vínculo e carga horária</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">10.3</span> Histórico e organização</h2>
+<p>Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS), realizada pelo IBGE. No mesmo ano, foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH), no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH fosse administrativo, voltado ao pagamento de serviços prestados, sua implantação demandou fichas cadastrais de estabelecimentos e profissionais de saúde.</p>
+<p>O SNCPCH foi extinto em 1980, mas suas fichas permaneceram ativas no Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e no SIH, na década de 1990. Após a implantação do SIA em 1994 e a identificação de inconsistências nos dados de estabelecimentos, foi criada a Ficha de Cadastro de Estabelecimentos de Saúde (FCES), pela Portaria GM/MS nº 1.890/1997.</p>
+<p>Após a consolidação da FCES, a Portaria SAS/MS nº 403/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), inicialmente com forte vínculo ao faturamento no SIA e no SIH, mas com potencial para pesquisas, planejamento e gestão da rede. A primeira versão foi disponibilizada em 2001, seguida por um processo de recadastramento informatizado entre 2001 e 2003.</p>
+<p>Atualmente, o CNES é usado como identificador de estabelecimentos em diversos sistemas. O código CNES permite relacionar produção ambulatorial, internações, notificações, nascimentos, óbitos, equipes, leitos e serviços à estrutura da rede onde o evento foi registrado.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Estabelecimento de saúde é definido como o espaço físico delimitado e permanente onde são realizados ações e serviços de saúde humana sob responsabilidade técnica (art. 360, da PRC/MS nº 01/2017).</p>
 </div>
 </div>
+<p>Em termos de dimensão, para o mês de abril de 2020, o CNES apresentava 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
+<p>Como se trata de um cadastro, as informações são atualizadas continuamente e disseminadas por competência. Isso permite acompanhar mensalmente mudanças na rede de serviços, mas também exige cuidado para não interpretar uma fotografia cadastral como produção assistencial ou disponibilidade real em tempo integral.</p>
+</section>
+<section id="fluxo-cadastral" class="level2 page-columns page-full" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="fluxo-cadastral"><span class="header-section-number">10.4</span> Fluxo cadastral</h2>
+<p>O CNES segue um ciclo de cadastro, atualização, validação e disseminação. A qualidade da base depende do preenchimento correto, da atualização regular pelos gestores e da coerência entre informações de estabelecimento, serviços, leitos, equipamentos e profissionais.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-cnes-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cnes-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-cnes-fluxo">flowchart TD
+  est[Estabelecimento de saúde] --&gt; fces[Preenchimento ou atualização da FCES]
+  fces --&gt; gest[Gestor municipal ou estadual]
+  gest --&gt; crit[Críticas e validações cadastrais]
+  crit --&gt; base[Base CNES por competência]
+  base --&gt; tab[TabNet, arquivos DBC e OpenDataSUS]
+  base --&gt; sis[SIA, SIH e outros sistemas]
+</pre>
 </div>
-<p>Em termos de dimensão, para o mês de abril de 2020, o CNES apresenta 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
-<p>Como se trata de um cadastro, suas informações são atualizadas permanentemente e os dados históricos de todos os meses anteriores estão disponíveis para acesso, sendo possível acompanhar mensalmente a evolução da rede de unidades de saúde no Brasil, tão como a dinâmica dos profissionais no sistema de saúde.</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cnes-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;10.1: Fluxo simplificado de atualização do CNES
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-d705479e5d9c2128f9fd" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-fb55028fa5c699f20756" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-d705479e5d9c2128f9fd">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Ficha Cadastral de<\/br>Estabelecimentos de Saúde (FCES)<\/small>","start":"1997-01-01"},{"id":"3","content":"<small>Banco de dados Nacional de Estabelecimentos de Saúde<\/small>","start":"2000-10-03"},{"id":"4","content":"<small>Estabelecimento do CNES<\/small>","start":"2000-10-20"},{"id":"5","content":"<small>Recadastramento informatizado<\/small>","start":"2001-01-01"},{"id":"6","content":"<small>CNES passa a ser utilizado no SIH e SIA<\/small>","start":"2002-10-01"},{"id":"7","content":"<small>Implementação em todo o país<\/small>","start":"2003-08-01"},{"id":"8","content":"<small>CNES Net<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Inclusão da saúde suplementar<\/br>(estabelecimentos de saúde privados)<\/small>","start":"2001-01-01"},{"id":"10","content":"<small>Desativação automática de CNES<\/br>por falta de atualização<\/small>","start":"2014-02-18"},{"id":"11","content":"<small>Regras de vínculos profissionais<\/small>","start":"2015-02-11"},{"id":"12","content":"<small>Geolocalização e horário<\/br>de funcionamento<\/small>","start":"2019-03-15"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-fb55028fa5c699f20756">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Ficha Cadastral de<\/br>Estabelecimentos de Saúde (FCES)<\/small>","start":"1997-01-01"},{"id":"3","content":"<small>Banco de dados Nacional de Estabelecimentos de Saúde<\/small>","start":"2000-10-03"},{"id":"4","content":"<small>Estabelecimento do CNES<\/small>","start":"2000-10-20"},{"id":"5","content":"<small>Recadastramento informatizado<\/small>","start":"2001-01-01"},{"id":"6","content":"<small>CNES passa a ser utilizado no SIH e SIA<\/small>","start":"2002-10-01"},{"id":"7","content":"<small>Implementação em todo o país<\/small>","start":"2003-08-01"},{"id":"8","content":"<small>CNES Net<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Inclusão da saúde suplementar<\/br>(estabelecimentos de saúde privados)<\/small>","start":"2001-01-01"},{"id":"10","content":"<small>Desativação automática de CNES<\/br>por falta de atualização<\/small>","start":"2014-02-18"},{"id":"11","content":"<small>Regras de vínculos profissionais<\/small>","start":"2015-02-11"},{"id":"12","content":"<small>Geolocalização e horário<\/br>de funcionamento<\/small>","start":"2019-03-15"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do CNES</p>
 </div>
 </div>
 <p>Mais informações sobre o CNES podem ser encontradas <a href="https://wiki.saude.gov.br/cnes/index.php/Página_principal">aqui</a>.</p>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">10.3</span> Estrutura dos dados</h2>
-<p>Os dados do CNES são apresentados nos seguintes recortes:</p>
-<ul>
-<li>Estabelecimentos (ST): a partir de agosto de 2005</li>
-<li>Estabelecimento de Ensino (EE): a partir de março de 2007</li>
-<li>Estabelecimento filantrópico (EF): a partir de março de 2007</li>
-<li>Profissional (PF): a partir de agosto de 2005</li>
-<li>Equipes (EP): a partir de abril de 2007</li>
-<li>Equipamentos (EQ): a partir de agosto de 2005</li>
-<li>Gestão e metas (GM): a partir de junho de 2007</li>
-<li>Habilitação (HB): a partir de março de 2007</li>
-<li>Incentivos (IN): a partir de novembro de 2007</li>
-<li>Leitos (LT): a partir de outubro de 2005</li>
-<li>Regra Contratutal (RC): a partir de março de 2007</li>
-<li>Serviço Especializado (SR): a partir de agosto de 2005</li>
-<li>Dados complementares (DC): a partir de agosto de 2005</li>
-</ul>
-<p>Confira o documento de <a href="assets/cnes/IT_CNES_1706.pdf">estrutura do CNES</a>, onde estão descritas as variáveis disponíveis.</p>
+<section id="unidade-de-análise" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">10.5</span> Unidade de análise</h2>
+<p>A unidade de análise do CNES varia conforme o arquivo escolhido. Essa é a principal diferença em relação a sistemas baseados em eventos, como SIM, SINASC, SIH, SIA e SINAN.</p>
+<table class="caption-top table">
+<caption>Unidades de análise frequentes no CNES</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>Arquivo ou dimensão</th>
+<th>Uso comum</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>ST</td>
+<td>Contar e caracterizar unidades</td>
+<td>Uma unidade pode mudar de tipo, gestão ou vínculo</td>
+</tr>
+<tr class="even">
+<td>Profissional</td>
+<td>PF</td>
+<td>Vínculos e ocupações</td>
+<td>Um profissional pode ter múltiplos vínculos</td>
+</tr>
+<tr class="odd">
+<td>Equipe</td>
+<td>EP</td>
+<td>Atenção primária e equipes específicas</td>
+<td>Equipe pode mudar de composição</td>
+</tr>
+<tr class="even">
+<td>Equipamento</td>
+<td>EQ</td>
+<td>Capacidade instalada</td>
+<td>Cadastro não garante disponibilidade operacional</td>
+</tr>
+<tr class="odd">
+<td>Leito</td>
+<td>LT</td>
+<td>Capacidade hospitalar</td>
+<td>Separar leitos SUS, não SUS e tipos de leito</td>
+</tr>
+<tr class="even">
+<td>Serviço especializado</td>
+<td>SR</td>
+<td>Oferta de serviços</td>
+<td>Serviço cadastrado não equivale a produção</td>
+</tr>
+<tr class="odd">
+<td>Habilitação</td>
+<td>HB</td>
+<td>Serviços habilitados</td>
+<td>Regras e vigências podem mudar</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não conte linhas de arquivos diferentes como se representassem a mesma unidade. Uma linha em <code>ST</code> representa estabelecimento; em <code>PF</code>, vínculo profissional; em <code>LT</code>, leito; em <code>EQ</code>, equipamento.</p>
+</div>
+</div>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="10.4">
-<h2 data-number="10.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">10.4</span> Acesso aos dados</h2>
-<section id="consulta-direta" class="level3" data-number="10.4.1">
-<h3 data-number="10.4.1" class="anchored" data-anchor-id="consulta-direta"><span class="header-section-number">10.4.1</span> Consulta direta</h3>
+<section id="qual-arquivo-usar" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="qual-arquivo-usar"><span class="header-section-number">10.6</span> Qual arquivo usar?</h2>
+<p>A escolha do arquivo deve partir da pergunta de análise. Em geral, use <code>ST</code> para caracterizar estabelecimentos e combine outros arquivos apenas quando a pergunta exigir recursos específicos.</p>
+<table class="caption-top table">
+<caption>Escolha inicial de arquivos do CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Arquivo principal</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quais estabelecimentos existem em uma competência?</td>
+<td>ST</td>
+<td>Cadastro e atributos gerais do estabelecimento</td>
+</tr>
+<tr class="even">
+<td>Quais profissionais estão vinculados?</td>
+<td>PF</td>
+<td>Vínculos profissionais, ocupações e carga horária</td>
+</tr>
+<tr class="odd">
+<td>Quantos leitos estão cadastrados?</td>
+<td>LT</td>
+<td>Leitos por tipo, estabelecimento e vínculo SUS</td>
+</tr>
+<tr class="even">
+<td>Quais equipamentos existem?</td>
+<td>EQ</td>
+<td>Equipamentos cadastrados por estabelecimento</td>
+</tr>
+<tr class="odd">
+<td>Quais equipes atuam na rede?</td>
+<td>EP</td>
+<td>Equipes cadastradas e seus atributos</td>
+</tr>
+<tr class="even">
+<td>Quais serviços especializados existem?</td>
+<td>SR</td>
+<td>Serviços e classificações cadastradas</td>
+</tr>
+<tr class="odd">
+<td>Quais estabelecimentos estão habilitados?</td>
+<td>HB</td>
+<td>Habilitações por competência</td>
+</tr>
+<tr class="even">
+<td>O estabelecimento é de ensino ou filantrópico?</td>
+<td>EE ou EF</td>
+<td>Condição específica do estabelecimento</td>
+</tr>
+<tr class="odd">
+<td>Há regra contratual, incentivo ou gestão específica?</td>
+<td>RC, IN ou GM</td>
+<td>Informação administrativa complementar</td>
+</tr>
+<tr class="even">
+<td>Há dados complementares do cadastro?</td>
+<td>DC</td>
+<td>Campos adicionais que não estão no <code>ST</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="10.7">
+<h2 data-number="10.7" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">10.7</span> Estrutura dos dados</h2>
+<p>Os dados do CNES são distribuídos em famílias de arquivos por competência, UF e módulo cadastral. O documento de <a href="assets/cnes/IT_CNES_1706.pdf">estrutura do CNES</a> descreve variáveis e layouts disponíveis.</p>
+<table class="caption-top table">
+<caption>Prefixos comuns dos arquivos do CNES</caption>
+<thead>
+<tr class="header">
+<th>Prefixo</th>
+<th>Conteúdo</th>
+<th>Início da série</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ST</td>
+<td>Estabelecimentos</td>
+<td>Agosto de 2005</td>
+</tr>
+<tr class="even">
+<td>EE</td>
+<td>Estabelecimento de ensino</td>
+<td>Março de 2007</td>
+</tr>
+<tr class="odd">
+<td>EF</td>
+<td>Estabelecimento filantrópico</td>
+<td>Março de 2007</td>
+</tr>
+<tr class="even">
+<td>PF</td>
+<td>Profissionais</td>
+<td>Agosto de 2005</td>
+</tr>
+<tr class="odd">
+<td>EP</td>
+<td>Equipes</td>
+<td>Abril de 2007</td>
+</tr>
+<tr class="even">
+<td>EQ</td>
+<td>Equipamentos</td>
+<td>Agosto de 2005</td>
+</tr>
+<tr class="odd">
+<td>GM</td>
+<td>Gestão e metas</td>
+<td>Junho de 2007</td>
+</tr>
+<tr class="even">
+<td>HB</td>
+<td>Habilitações</td>
+<td>Março de 2007</td>
+</tr>
+<tr class="odd">
+<td>IN</td>
+<td>Incentivos</td>
+<td>Novembro de 2007</td>
+</tr>
+<tr class="even">
+<td>LT</td>
+<td>Leitos</td>
+<td>Outubro de 2005</td>
+</tr>
+<tr class="odd">
+<td>RC</td>
+<td>Regra contratual</td>
+<td>Março de 2007</td>
+</tr>
+<tr class="even">
+<td>SR</td>
+<td>Serviço especializado</td>
+<td>Agosto de 2005</td>
+</tr>
+<tr class="odd">
+<td>DC</td>
+<td>Dados complementares</td>
+<td>Agosto de 2005</td>
+</tr>
+</tbody>
+</table>
+<section id="campos-mínimos-para-inspecionar" class="level3" data-number="10.7.1">
+<h3 data-number="10.7.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">10.7.1</span> Campos mínimos para inspecionar</h3>
+<p>Os nomes variam por arquivo, mas algumas dimensões devem ser verificadas em quase toda análise.</p>
+<table class="caption-top table">
+<caption>Campos e dimensões úteis para inspeção do CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Exemplos de campos ou conceitos</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competência</td>
+<td>Ano e mês</td>
+<td>A base representa a competência desejada?</td>
+</tr>
+<tr class="even">
+<td>Identificação</td>
+<td>Código CNES</td>
+<td>O estabelecimento está identificado de forma única?</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município, UF, endereço, coordenadas quando disponíveis</td>
+<td>O local está válido e compatível?</td>
+</tr>
+<tr class="even">
+<td>Tipo de unidade</td>
+<td>Tipo de estabelecimento</td>
+<td>A classificação mudou no período?</td>
+</tr>
+<tr class="odd">
+<td>Natureza jurídica e gestão</td>
+<td>Administração, vínculo, esfera e gestão</td>
+<td>A regra de classificação mudou historicamente?</td>
+</tr>
+<tr class="even">
+<td>Atenção SUS</td>
+<td>Atendimento SUS, convênio ou vínculo</td>
+<td>A pergunta exige rede SUS ou toda a rede?</td>
+</tr>
+<tr class="odd">
+<td>Recursos</td>
+<td>Leitos, equipamentos, serviços, equipes e profissionais</td>
+<td>O arquivo escolhido representa o recurso correto?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dicionário-mínimo-por-arquivo" class="level3" data-number="10.7.2">
+<h3 data-number="10.7.2" class="anchored" data-anchor-id="dicionário-mínimo-por-arquivo"><span class="header-section-number">10.7.2</span> Dicionário mínimo por arquivo</h3>
+<p>Cada arquivo tem um conjunto próprio de campos. Antes de produzir indicadores, monte uma tabela simples com os campos usados, o significado adotado e os filtros aplicados.</p>
+<table class="caption-top table">
+<caption>Variáveis e dimensões prioritárias para inspeção inicial</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Arquivo</th>
+<th>Campos ou dimensões de alto valor</th>
+<th>Uso analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ST</td>
+<td><code>CNES</code>, município, tipo de unidade, natureza jurídica, gestão, atendimento SUS</td>
+<td>Base de estabelecimentos e estratificações gerais</td>
+</tr>
+<tr class="even">
+<td>PF</td>
+<td><code>CNES</code>, profissional, CBO, vínculo, carga horária</td>
+<td>Força de trabalho e composição de vínculos</td>
+</tr>
+<tr class="odd">
+<td>LT</td>
+<td><code>CNES</code>, tipo de leito, leitos existentes, leitos SUS</td>
+<td>Capacidade hospitalar cadastrada</td>
+</tr>
+<tr class="even">
+<td>EQ</td>
+<td><code>CNES</code>, tipo de equipamento, quantidade, disponibilidade SUS</td>
+<td>Capacidade instalada de equipamentos</td>
+</tr>
+<tr class="odd">
+<td>EP</td>
+<td><code>CNES</code>, tipo de equipe, área, situação</td>
+<td>Atenção primária e equipes específicas</td>
+</tr>
+<tr class="even">
+<td>SR</td>
+<td><code>CNES</code>, serviço, classificação, atendimento SUS</td>
+<td>Oferta de serviços especializados</td>
+</tr>
+<tr class="odd">
+<td>HB</td>
+<td><code>CNES</code>, habilitação, vigência</td>
+<td>Serviços habilitados e mudanças normativas</td>
+</tr>
+<tr class="even">
+<td>EE ou EF</td>
+<td><code>CNES</code>, condição de ensino ou filantropia</td>
+<td>Recortes institucionais específicos</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="série-histórica" class="level3" data-number="10.7.3">
+<h3 data-number="10.7.3" class="anchored" data-anchor-id="série-histórica"><span class="header-section-number">10.7.3</span> Série histórica</h3>
+<p>Em análises temporais, use a competência como eixo principal. Estabelecimentos podem abrir, fechar, mudar de município, tipo, gestão, natureza jurídica, serviços, habilitações e leitos. Para comparar séries, documente mudanças de layout e classificações. <span class="citation" data-cites="coelhoAnaliseClarezaMetodologica2024">COELHO et al. (<a href="referencias.html#ref-coelhoAnaliseClarezaMetodologica2024" role="doc-biblioref">2024</a>)</span> destacam, por exemplo, mudanças documentais e de clareza metodológica relevantes para interpretar formas de contratação e classificações do CNES.</p>
+</section>
+</section>
+<section id="estabelecimentos-em-série-histórica" class="level2" data-number="10.8">
+<h2 data-number="10.8" class="anchored" data-anchor-id="estabelecimentos-em-série-histórica"><span class="header-section-number">10.8</span> Estabelecimentos em série histórica</h2>
+<p>O código CNES permite acompanhar estabelecimentos ao longo do tempo, mas a interpretação não deve assumir que o estabelecimento permaneceu igual em toda a série. Uma unidade pode abrir, encerrar atividades, mudar de perfil, trocar de gestão, alterar natureza jurídica ou passar a ofertar novos serviços.</p>
+<table class="caption-top table">
+<caption>Mudanças cadastrais relevantes em séries históricas do CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mudança</th>
+<th>Como identificar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Entrada na série</td>
+<td>Primeira competência em que o <code>CNES</code> aparece</td>
+<td>Pode refletir cadastro tardio, não abertura real</td>
+</tr>
+<tr class="even">
+<td>Saída da série</td>
+<td>Última competência observada</td>
+<td>Pode refletir ausência no arquivo, não fechamento definitivo</td>
+</tr>
+<tr class="odd">
+<td>Mudança de tipo</td>
+<td>Alteração em tipo de unidade ou subtipo</td>
+<td>Quebra séries por perfil assistencial</td>
+</tr>
+<tr class="even">
+<td>Mudança territorial</td>
+<td>Alteração de município, endereço ou coordenada</td>
+<td>Verificar se houve erro cadastral ou mudança real</td>
+</tr>
+<tr class="odd">
+<td>Mudança de vínculo SUS</td>
+<td>Alteração em atendimento SUS, convênio ou gestão</td>
+<td>Afeta recortes de rede pública e privada</td>
+</tr>
+<tr class="even">
+<td>Mudança de capacidade</td>
+<td>Alteração em leitos, equipes, equipamentos ou serviços</td>
+<td>Separar cadastro de disponibilidade operacional</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>painel_cnes <span class="ot">&lt;-</span> cnes_st_historico <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CNES) <span class="sc">|&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">primeira_competencia =</span> <span class="fu">min</span>(competencia, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">ultima_competencia =</span> <span class="fu">max</span>(competencia, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_municipios =</span> <span class="fu">n_distinct</span>(CODMUN, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_tipos =</span> <span class="fu">n_distinct</span>(TP_UNID, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>painel_cnes</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para estudos longitudinais, trate o CNES como um painel de estabelecimentos por competência. Isso evita usar atributos atuais para classificar eventos ocorridos em anos anteriores.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-leitos-hospitalares" class="level2" data-number="10.9">
+<h2 data-number="10.9" class="anchored" data-anchor-id="exemplo-leitos-hospitalares"><span class="header-section-number">10.9</span> Exemplo: leitos hospitalares</h2>
+<p>Leitos são um uso frequente do CNES para analisar capacidade instalada. A pergunta deve separar leitos existentes, leitos SUS, tipo de leito, competência, município e estabelecimento.</p>
+<table class="caption-top table">
+<caption>Elementos de uma análise de leitos com CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numerador</td>
+<td>Quantidade de leitos</td>
+<td>Separar tipo e vínculo SUS</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Município do estabelecimento</td>
+<td>Mede oferta local, não residência dos usuários</td>
+</tr>
+<tr class="odd">
+<td>Tempo</td>
+<td>Competência CNES</td>
+<td>Cadastro mensal, não ocupação diária</td>
+</tr>
+<tr class="even">
+<td>Estabelecimento</td>
+<td>Código CNES</td>
+<td>Relacionar com tipo de unidade e gestão</td>
+</tr>
+<tr class="odd">
+<td>Produção</td>
+<td>Internações no SIH</td>
+<td>Capacidade cadastrada não equivale a uso</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Dimensões mínimas para interpretar leitos no CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão dos leitos</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Leitos existentes</td>
+<td>Total cadastrado no estabelecimento</td>
+<td>Não representa leitos disponíveis em cada dia</td>
+</tr>
+<tr class="even">
+<td>Leitos SUS</td>
+<td>Subconjunto disponível ao SUS</td>
+<td>Não deve ser somado com leitos não SUS sem explicitar o recorte</td>
+</tr>
+<tr class="odd">
+<td>Tipo de leito</td>
+<td>Clínica, cirúrgica, obstétrica, pediátrica, UTI etc.</td>
+<td>Agrupar tipos apenas com regra documentada</td>
+</tr>
+<tr class="even">
+<td>Competência</td>
+<td>Mês e ano do cadastro</td>
+<td>Mudanças podem ocorrer entre competências</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Código CNES vinculado ao leito</td>
+<td>Conferir tipo de unidade e natureza do estabelecimento</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>leitos_mun <span class="ot">&lt;-</span> cnes_lt <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CODMUN, TIPO_LEITO) <span class="sc">|&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">leitos =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(QT_EXIST), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">leitos_sus =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(QT_SUS), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>leitos_mun</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Os nomes dos campos de leitos podem variar conforme a forma de acesso e processamento. Confirme o dicionário do arquivo <code>LT</code> antes de automatizar a análise.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Leitos cadastrados são uma medida de capacidade instalada. Para analisar uso, demanda reprimida, ocupação ou pressão assistencial, combine o CNES com SIH, censos hospitalares, regulação ou outra fonte operacional compatível.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-profissionais-e-vínculos" class="level2" data-number="10.10">
+<h2 data-number="10.10" class="anchored" data-anchor-id="exemplo-profissionais-e-vínculos"><span class="header-section-number">10.10</span> Exemplo: profissionais e vínculos</h2>
+<p>No arquivo <code>PF</code>, a unidade prática de análise é o vínculo profissional no estabelecimento. Um mesmo profissional pode aparecer em mais de um estabelecimento, em mais de uma ocupação ou em mais de um vínculo. Portanto, a contagem simples de linhas normalmente responde sobre vínculos, não sobre pessoas únicas.</p>
+<table class="caption-top table">
+<caption>Elementos de uma análise de profissionais no CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Código CNES</td>
+<td>O vínculo pertence a uma unidade específica</td>
+</tr>
+<tr class="even">
+<td>Ocupação</td>
+<td>CBO</td>
+<td>Agrupar CBOs exige regra explícita</td>
+</tr>
+<tr class="odd">
+<td>Carga horária</td>
+<td>Campos de carga horária</td>
+<td>Conferir se a soma representa horas semanais e quais componentes foram incluídos</td>
+</tr>
+<tr class="even">
+<td>Pessoa</td>
+<td>Identificador profissional, quando disponível</td>
+<td>Deduplicação pode ser limitada por anonimização ou formato da base</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município do estabelecimento</td>
+<td>Não representa residência do profissional</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>profissionais_mun_cbo <span class="ot">&lt;-</span> cnes_pf <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">carga_horaria =</span> <span class="fu">as.numeric</span>(CHSAMB) <span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.numeric</span>(CHSOUTR) <span class="sc">+</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">as.numeric</span>(CHSHOSP)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CODMUN, CBO) <span class="sc">|&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">vinculos =</span> <span class="fu">n</span>(),</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">carga_horaria_total =</span> <span class="fu">sum</span>(carga_horaria, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">estabelecimentos =</span> <span class="fu">n_distinct</span>(CNES),</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>profissionais_mun_cbo</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Declare o numerador com precisão: “vínculos de médicos”, “carga horária cadastrada de enfermeiros” e “profissionais únicos” são medidas diferentes.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-cnes-sih" class="level2" data-number="10.11">
+<h2 data-number="10.11" class="anchored" data-anchor-id="exemplo-cnes-sih"><span class="header-section-number">10.11</span> Exemplo: CNES + SIH</h2>
+<p>Uma integração comum é usar o CNES para caracterizar estabelecimentos que registraram internações no SIH. A junção deve respeitar a competência: o ideal é relacionar a AIH com o CNES da mesma competência ou com uma regra temporal definida previamente.</p>
+<table class="caption-top table">
+<caption>Fluxo mínimo para relacionar CNES e SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th>Ação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Preparar SIH</td>
+<td>Selecionar AIHs, competência e CNES do estabelecimento</td>
+<td>AIH mede produção hospitalar, não capacidade</td>
+</tr>
+<tr class="even">
+<td>Preparar CNES</td>
+<td>Selecionar <code>ST</code> da mesma competência</td>
+<td>Evitar classificar produção antiga com cadastro atual</td>
+</tr>
+<tr class="odd">
+<td>Adicionar leitos</td>
+<td>Relacionar <code>LT</code> por <code>CNES</code> e competência</td>
+<td>Agregar leitos antes da junção para evitar multiplicação de linhas</td>
+</tr>
+<tr class="even">
+<td>Calcular indicador</td>
+<td>Internações por leito ou por tipo de estabelecimento</td>
+<td>Interpretar como razão administrativa, não ocupação real</td>
+</tr>
+<tr class="odd">
+<td>Auditar perdas</td>
+<td>Contar AIHs sem correspondência no CNES</td>
+<td>Pode haver códigos ausentes, inativos ou problema de período</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>leitos_cnes <span class="ot">&lt;-</span> cnes_lt <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CNES, competencia) <span class="sc">|&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">leitos_sus =</span> <span class="fu">sum</span>(<span class="fu">as.numeric</span>(QT_SUS), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>sih_com_cnes <span class="ot">&lt;-</span> sih_rd <span class="sc">|&gt;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(cnes_st, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"CNES"</span>, <span class="st">"competencia"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(leitos_cnes, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"CNES"</span>, <span class="st">"competencia"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CNES, TP_UNID, NAT_JUR) <span class="sc">|&gt;</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">internacoes =</span> <span class="fu">n</span>(),</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">leitos_sus =</span> <span class="fu">max</span>(leitos_sus, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">internacoes_por_leito_sus =</span> internacoes <span class="sc">/</span> leitos_sus,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>sih_com_cnes</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>O mesmo raciocínio vale para SIA: agregue a produção ambulatorial por estabelecimento e competência antes de relacionar com <code>ST</code>, <code>SR</code>, <code>EQ</code> ou <code>HB</code>. Assim, o serviço cadastrado é usado para caracterizar a oferta e a produção do SIA permanece como medida de uso.</p>
+</section>
+<section id="geocodificação-e-análise-espacial" class="level2" data-number="10.12">
+<h2 data-number="10.12" class="anchored" data-anchor-id="geocodificação-e-análise-espacial"><span class="header-section-number">10.12</span> Geocodificação e análise espacial</h2>
+<p>O CNES é muito usado para mapas de serviços e análise de acesso geográfico. A qualidade espacial depende da padronização de endereço, coordenadas disponíveis, geocodificação e validação local.</p>
+<table class="caption-top table">
+<caption>Usos espaciais comuns do CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Uso espacial</th>
+<th>Recurso necessário</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mapa de estabelecimentos</td>
+<td>Endereço ou coordenada</td>
+<td>Coordenadas podem estar ausentes ou imprecisas</td>
+</tr>
+<tr class="even">
+<td>Distância até serviço</td>
+<td>Malha territorial e rede viária</td>
+<td>Distância em linha reta pode ser inadequada</td>
+</tr>
+<tr class="odd">
+<td>Densidade de oferta</td>
+<td>Estabelecimentos por área ou população</td>
+<td>Escolher denominador compatível</td>
+</tr>
+<tr class="even">
+<td>Rede de referência</td>
+<td>Tipo de serviço, habilitação e produção</td>
+<td>Serviço cadastrado não garante uso efetivo</td>
+</tr>
+</tbody>
+</table>
+<p>Ferramentas como GeoCNES exploram o cadastro para mapear estabelecimentos e apoiar análise de acesso e planejamento urbano, mas também apontam desafios de inconsistência cadastral e geocodificação <span class="citation" data-cites="assisGeoCNESHealthcareMapping2024">(<a href="referencias.html#ref-assisGeoCNESHealthcareMapping2024" role="doc-biblioref">ASSIS et al., 2024</a>)</span>.</p>
+<table class="caption-top table">
+<caption>Checagens mínimas antes de mapear estabelecimentos do CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Validação geográfica</th>
+<th>Sinal de problema</th>
+<th>Ação recomendada</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Coordenada ausente</td>
+<td>Latitude ou longitude vazia</td>
+<td>Geocodificar endereço ou excluir de mapas pontuais</td>
+</tr>
+<tr class="even">
+<td>Coordenada inválida</td>
+<td>Valores zero, invertidos ou fora do Brasil</td>
+<td>Corrigir antes de calcular distância</td>
+</tr>
+<tr class="odd">
+<td>Ponto fora do município</td>
+<td>Coordenada não cai no polígono do município cadastrado</td>
+<td>Conferir endereço, código municipal e geocodificação</td>
+</tr>
+<tr class="even">
+<td>Coordenada repetida</td>
+<td>Muitos estabelecimentos no mesmo ponto</td>
+<td>Verificar uso de centróide, sede administrativa ou endereço genérico</td>
+</tr>
+<tr class="odd">
+<td>Endereço incompleto</td>
+<td>Logradouro, número ou bairro ausente</td>
+<td>Baixa precisão espacial</td>
+</tr>
+<tr class="even">
+<td>Mudança temporal</td>
+<td>Endereço ou município muda na série</td>
+<td>Separar mudança real de erro cadastral</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>validacao_geo <span class="ot">&lt;-</span> cnes_st <span class="sc">|&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">estabelecimentos =</span> <span class="fu">n_distinct</span>(CNES),</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_latitude =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(LATITUDE) <span class="sc">|</span> LATITUDE <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_longitude =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(LONGITUDE) <span class="sc">|</span> LONGITUDE <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">coordenada_zero =</span> <span class="fu">sum</span>(LATITUDE <span class="sc">==</span> <span class="dv">0</span> <span class="sc">|</span> LONGITUDE <span class="sc">==</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">enderecos_sem_logradouro =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(LOGRADOURO) <span class="sc">|</span> LOGRADOURO <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>validacao_geo</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="qualidade-dos-dados" class="level2" data-number="10.13">
+<h2 data-number="10.13" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">10.13</span> Qualidade dos dados</h2>
+<p>Como cadastro administrativo, o CNES depende de atualização regular. Problemas de completitude, atraso, inconsistência e mudança conceitual podem afetar indicadores.</p>
+<table class="caption-top table">
+<caption>Dimensões de qualidade relevantes no CNES</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Checagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Atualização</td>
+<td>Estabelecimentos sem atualização recente</td>
+</tr>
+<tr class="even">
+<td>Completitude</td>
+<td>Campos essenciais vazios</td>
+</tr>
+<tr class="odd">
+<td>Consistência territorial</td>
+<td>Município, UF e endereço compatíveis</td>
+</tr>
+<tr class="even">
+<td>Coerência de recursos</td>
+<td>Leitos, equipamentos e serviços compatíveis com tipo de unidade</td>
+</tr>
+<tr class="odd">
+<td>Duplicidade</td>
+<td>Estabelecimentos ou vínculos repetidos</td>
+</tr>
+<tr class="even">
+<td>Mudança histórica</td>
+<td>Alterações de classificação, natureza jurídica ou tipo de estabelecimento</td>
+</tr>
+<tr class="odd">
+<td>Produção compatível</td>
+<td>Serviços cadastrados com produção no SIA/SIH quando esperado</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>validacao_cnes_st <span class="ot">&lt;-</span> cnes_st <span class="sc">|&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">estabelecimentos =</span> <span class="fu">n_distinct</span>(CNES),</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_municipio =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(CODMUN) <span class="sc">|</span> CODMUN <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_tipo_unidade =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(TP_UNID) <span class="sc">|</span> TP_UNID <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_natureza =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(NAT_JUR) <span class="sc">|</span> NAT_JUR <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">cnes_duplicado =</span> <span class="fu">n</span>() <span class="sc">-</span> <span class="fu">n_distinct</span>(CNES)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>validacao_cnes_st</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="acesso-aos-dados" class="level2" data-number="10.14">
+<h2 data-number="10.14" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">10.14</span> Acesso aos dados</h2>
+<p>Os dados do CNES podem ser acessados por consulta direta, TabNet, TabWin/DBC, OpenDataSUS, ElasticCNES, R, Python e PCDaS.</p>
+<table class="caption-top table">
+<caption>Formas de acesso aos dados do CNES</caption>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Site CNES</td>
+<td>Consulta pontual de estabelecimentos e profissionais</td>
+</tr>
+<tr class="even">
+<td>TabNet</td>
+<td>Tabulações agregadas rápidas</td>
+</tr>
+<tr class="odd">
+<td>TabWin/DBC</td>
+<td>Download de microdados históricos</td>
+</tr>
+<tr class="even">
+<td>OpenDataSUS</td>
+<td>Arquivos em formatos abertos e bases temáticas</td>
+</tr>
+<tr class="odd">
+<td>ElasticCNES</td>
+<td>Painéis exploratórios</td>
+</tr>
+<tr class="even">
+<td>R</td>
+<td>Fluxos reprodutíveis com <code>{microdatasus}</code></td>
+</tr>
+<tr class="odd">
+<td>Python</td>
+<td>Fluxos reprodutíveis com PySUS</td>
+</tr>
+<tr class="even">
+<td>PCDaS</td>
+<td>Análise em notebooks e infraestrutura de dados</td>
+</tr>
+</tbody>
+</table>
+<section id="consulta-direta" class="level3" data-number="10.14.1">
+<h3 data-number="10.14.1" class="anchored" data-anchor-id="consulta-direta"><span class="header-section-number">10.14.1</span> Consulta direta</h3>
 <p>É possível realizar a consulta direta de fichas sobre estabelecimentos e profissionais de saúde diretamente no <a href="https://cnes.datasus.gov.br">site do CNES</a>.</p>
 </section>
-<section id="outras-formas" class="level3" data-number="10.4.2">
-<h3 data-number="10.4.2" class="anchored" data-anchor-id="outras-formas"><span class="header-section-number">10.4.2</span> Outras formas</h3>
+<section id="opendatasus" class="level3" data-number="10.14.2">
+<h3 data-number="10.14.2" class="anchored" data-anchor-id="opendatasus"><span class="header-section-number">10.14.2</span> OpenDataSUS</h3>
 <p>Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares.</p>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude">OpenDataSUS - CNES</a></li>
@@ -648,83 +1705,475 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <li><a href="https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs">OpenDataSUS - Unidades Básicas de Saúde</a></li>
 </ul>
 </section>
-<section id="tabnet" class="level3" data-number="10.4.3">
-<h3 data-number="10.4.3" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">10.4.3</span> TabNet</h3>
+<section id="tabnet" class="level3" data-number="10.14.3">
+<h3 data-number="10.14.3" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">10.14.3</span> TabNet</h3>
 <p>Os dados do CNES podem ser acessados no sistema TabNet do DataSUS, na seção “Rede Assistencial”.</p>
 <ul>
-<li><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TabNet SINAN</a></li>
+<li><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TabNet CNES</a></li>
 </ul>
 </section>
-<section id="tabwin" class="level3" data-number="10.4.4">
-<h3 data-number="10.4.4" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">10.4.4</span> TabWin</h3>
-<p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
+<section id="tabwin-e-transferência-de-arquivos" class="level3" data-number="10.14.4">
+<h3 data-number="10.14.4" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">10.14.4</span> TabWin e transferência de arquivos</h3>
+<p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DataSUS.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
 </section>
-<section id="elasticcnes" class="level3" data-number="10.4.5">
-<h3 data-number="10.4.5" class="anchored" data-anchor-id="elasticcnes"><span class="header-section-number">10.4.5</span> ElasticCNES</h3>
+<section id="elasticcnes" class="level3" data-number="10.14.5">
+<h3 data-number="10.14.5" class="anchored" data-anchor-id="elasticcnes"><span class="header-section-number">10.14.5</span> ElasticCNES</h3>
 <p>O DataSUS apresenta alguns <a href="https://elasticnes.saude.gov.br">painéis do CNES</a> construídos a partir da tecnologia ElasticSearch.</p>
 </section>
-<section id="r" class="level3" data-number="10.4.6">
-<h3 data-number="10.4.6" class="anchored" data-anchor-id="r"><span class="header-section-number">10.4.6</span> R</h3>
-<p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
+<section id="r" class="level3" data-number="10.14.6">
+<h3 data-number="10.14.6" class="anchored" data-anchor-id="r"><span class="header-section-number">10.14.6</span> R</h3>
+<p>O pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a> permite baixar e processar microdados do CNES em R <span class="citation" data-cites="Saldanha2019a">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>)</span>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cnes_st_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">10</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">10</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"CNES-ST"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>cnes_st_p <span class="ot">&lt;-</span> <span class="fu">process_cnes</span>(cnes_st_raw, <span class="at">information_system =</span> <span class="st">"CNES-ST"</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>cnes_st_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,123 × 216
-   CNES    CODUFMUN COD_CEP  CPF_CNPJ     PF_PJ NIV_DEP CNPJ_MAN COD_IR REGSAUDE
-   &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;  &lt;chr&gt;   
- 1 0153281 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 2 0257184 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 3 0258555 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 4 0271438 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 5 0282235 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 6 3006166 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 7 3382745 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 8 3393984 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
- 9 3638685 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
-10 5403669 120001   69945000 00000000000… Pess… Mantida 8430673… &lt;NA&gt;   &lt;NA&gt;    
-# ℹ 1,113 more rows
-# ℹ 207 more variables: MICR_REG &lt;chr&gt;, DISTRSAN &lt;chr&gt;, DISTRADM &lt;chr&gt;,
-#   VINC_SUS &lt;chr&gt;, TPGESTAO &lt;chr&gt;, ESFERA_A &lt;chr&gt;, RETENCAO &lt;chr&gt;,
-#   ATIVIDAD &lt;chr&gt;, NATUREZA &lt;chr&gt;, CLIENTEL &lt;chr&gt;, TP_UNID &lt;chr&gt;,
-#   TURNO_AT &lt;chr&gt;, NIV_HIER &lt;chr&gt;, TP_PREST &lt;chr&gt;, CO_BANCO &lt;chr&gt;,
-#   CO_AGENC &lt;chr&gt;, C_CORREN &lt;chr&gt;, CONTRATM &lt;chr&gt;, DT_PUBLM &lt;chr&gt;,
-#   CONTRATE &lt;chr&gt;, DT_PUBLE &lt;chr&gt;, ALVARA &lt;chr&gt;, DT_EXPED &lt;chr&gt;, …</code></pre>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>cnes_st_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">10</span>,</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">10</span>,</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"CNES-ST"</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>cnes_st_p <span class="ot">&lt;-</span> <span class="fu">process_cnes</span>(cnes_st_raw, <span class="at">information_system =</span> <span class="st">"CNES-ST"</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>cnes_st_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="python" class="level3" data-number="10.4.7">
-<h3 data-number="10.4.7" class="anchored" data-anchor-id="python"><span class="header-section-number">10.4.7</span> Python</h3>
-<p>Você pode usar a biblioteca PySUS.</p>
+<section id="python" class="level3" data-number="10.14.7">
+<h3 data-number="10.14.7" class="anchored" data-anchor-id="python"><span class="header-section-number">10.14.7</span> Python</h3>
+<p>A biblioteca PySUS também permite acessar dados do CNES em fluxos de análise em Python.</p>
 <ul>
 <li><a href="https://pysus.readthedocs.io/en/latest/databases/CNES.html">PySUS CNES</a></li>
 </ul>
 </section>
-<section id="pcdas" class="level3" data-number="10.4.8">
-<h3 data-number="10.4.8" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">10.4.8</span> PCDaS</h3>
-<p>Os dados do CNES estão disponíveis na PCDaS para acesso via <em>notebooks</em>.</p>
+<section id="pcdas" class="level3" data-number="10.14.8">
+<h3 data-number="10.14.8" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">10.14.8</span> PCDaS</h3>
+<p>Os dados do CNES estão disponíveis na PCDaS para acesso em ambiente de notebooks <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
 <ul>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/">Dados CNES</a></li>
 </ul>
 </section>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="10.5">
-<h2 data-number="10.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">10.5</span> Bibliografia recomendada</h2>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="10.15">
+<h2 data-number="10.15" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">10.15</span> Relacionamento com outros sistemas</h2>
+<p>O CNES é uma base de referência para caracterizar a rede onde eventos e produções são registrados.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre CNES e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Que estabelecimento realizou internações?</td>
+<td>CNES + SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Competência do CNES deve ser compatível com a AIH</td>
+</tr>
+<tr class="even">
+<td>Que serviço produziu procedimentos?</td>
+<td>CNES + SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Serviço cadastrado e produção são dimensões diferentes</td>
+</tr>
+<tr class="odd">
+<td>Que unidade notificou agravos?</td>
+<td>CNES + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Unidade notificadora pode diferir do local de infecção</td>
+</tr>
+<tr class="even">
+<td>Onde ocorreram nascimentos?</td>
+<td>CNES + SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Estabelecimento de ocorrência e residência da mãe são recortes distintos</td>
+</tr>
+<tr class="odd">
+<td>Onde ocorreram óbitos hospitalares?</td>
+<td>CNES + SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Local de ocorrência não representa residência</td>
+</tr>
+<tr class="even">
+<td>Qual oferta por população?</td>
+<td>CNES + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>Usar população residente compatível com território e período</td>
+</tr>
+</tbody>
+</table>
+<p>Em relacionamentos temporais, escolha se o CNES será usado na competência do evento, em uma competência de referência ou como histórico longitudinal. A escolha muda a interpretação.</p>
+<section id="checklist-para-relacionamento" class="level3" data-number="10.15.1">
+<h3 data-number="10.15.1" class="anchored" data-anchor-id="checklist-para-relacionamento"><span class="header-section-number">10.15.1</span> Checklist para relacionamento</h3>
+<p>Antes de relacionar o CNES com sistemas de eventos ou produção, valide a chave e a granularidade da junção.</p>
+<table class="caption-top table">
+<caption>Verificações antes de integrar CNES com outros sistemas</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>CNES</code> está com o mesmo formato nas duas bases</td>
+<td>Zeros à esquerda e tipos numéricos podem quebrar a junção</td>
+</tr>
+<tr class="even">
+<td>A competência foi harmonizada</td>
+<td>O cadastro muda mensalmente</td>
+</tr>
+<tr class="odd">
+<td>O arquivo CNES foi agregado antes da junção</td>
+<td><code>LT</code>, <code>PF</code>, <code>EQ</code> e <code>SR</code> podem multiplicar linhas de eventos</td>
+</tr>
+<tr class="even">
+<td>As perdas da junção foram contadas</td>
+<td>Eventos sem correspondência precisam ser descritos</td>
+</tr>
+<tr class="odd">
+<td>A unidade de análise foi preservada</td>
+<td>Evento, estabelecimento, vínculo e recurso não são a mesma unidade</td>
+</tr>
+<tr class="even">
+<td>O recorte SUS ou não SUS foi aplicado antes do indicador</td>
+<td>A interpretação muda conforme a rede incluída</td>
+</tr>
+<tr class="odd">
+<td>A classificação usada é temporalmente compatível</td>
+<td>Tipo de unidade, natureza jurídica e gestão podem mudar</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="rede-sus-privada-filantrópica-e-suplementar" class="level2" data-number="10.16">
+<h2 data-number="10.16" class="anchored" data-anchor-id="rede-sus-privada-filantrópica-e-suplementar"><span class="header-section-number">10.16</span> Rede SUS, privada, filantrópica e suplementar</h2>
+<p>O CNES cobre estabelecimentos públicos, privados, filantrópicos e conveniados. Por isso, o recorte institucional precisa ser declarado antes de comparar oferta, capacidade instalada ou produção.</p>
+<table class="caption-top table">
+<caption>Recortes institucionais frequentes no CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Recorte</th>
+<th>Como definir</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rede SUS</td>
+<td>Atendimento SUS, leitos SUS, convênio, gestão ou produção SUS</td>
+<td>O critério muda conforme a pergunta</td>
+</tr>
+<tr class="even">
+<td>Rede pública</td>
+<td>Natureza jurídica, esfera administrativa ou gestão pública</td>
+<td>Nem todo estabelecimento público tem o mesmo papel assistencial</td>
+</tr>
+<tr class="odd">
+<td>Rede privada</td>
+<td>Natureza jurídica privada ou ausência de vínculo SUS</td>
+<td>Pode incluir produção suplementar ou particular</td>
+</tr>
+<tr class="even">
+<td>Filantrópicos</td>
+<td>Arquivo <code>EF</code>, natureza jurídica ou habilitação específica</td>
+<td>Separar condição institucional de produção SUS</td>
+</tr>
+<tr class="odd">
+<td>Saúde suplementar</td>
+<td>Estabelecimentos privados e produção fora do SUS, quando disponível</td>
+<td>O CNES sozinho não mede uso por planos de saúde</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não use “SUS” como sinônimo automático de “público”. Um hospital privado ou filantrópico pode produzir para o SUS, e um estabelecimento público pode ter características assistenciais muito distintas de outro.</p>
+</div>
+</div>
+</section>
+<section id="cnes-como-denominador" class="level2" data-number="10.17">
+<h2 data-number="10.17" class="anchored" data-anchor-id="cnes-como-denominador"><span class="header-section-number">10.17</span> CNES como denominador</h2>
+<p>O CNES é frequentemente usado como denominador ou medida de oferta para indicadores de produção e eventos. Esse uso é útil, mas exige compatibilidade entre numerador, denominador, território, competência e unidade de análise.</p>
+<table class="caption-top table">
+<caption>Usos do CNES como denominador ou medida de oferta</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador</th>
+<th>Denominador CNES</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Internações por leito SUS</td>
+<td>AIHs do SIH</td>
+<td>Leitos SUS do <code>LT</code></td>
+<td>Não equivale a taxa de ocupação</td>
+</tr>
+<tr class="even">
+<td>Procedimentos por serviço cadastrado</td>
+<td>Produção do SIA</td>
+<td>Serviços do <code>SR</code></td>
+<td>Serviço cadastrado pode não estar ativo operacionalmente</td>
+</tr>
+<tr class="odd">
+<td>Notificações por unidade notificadora</td>
+<td>Casos do SINAN</td>
+<td>Estabelecimentos do <code>ST</code></td>
+<td>Unidade notificadora não é local de infecção</td>
+</tr>
+<tr class="even">
+<td>Profissionais por população</td>
+<td>Vínculos do <code>PF</code></td>
+<td>População residente</td>
+<td>Mede oferta cadastrada no território, não acesso efetivo</td>
+</tr>
+<tr class="odd">
+<td>Equipamentos por estabelecimento</td>
+<td>Equipamentos do <code>EQ</code></td>
+<td>Estabelecimentos do <code>ST</code></td>
+<td>Equipamento cadastrado pode estar indisponível</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quando o CNES entra como denominador, documente se o denominador representa estabelecimentos, vínculos, leitos, serviços, equipes ou equipamentos. A troca de unidade pode alterar completamente o resultado.</p>
+</div>
+</div>
+</section>
+<section id="principais-usos-e-indicadores" class="level2" data-number="10.18">
+<h2 data-number="10.18" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">10.18</span> Principais usos e indicadores</h2>
+<p>O CNES é usado para indicadores de oferta, estrutura da rede, capacidade instalada, distribuição territorial, vínculos profissionais e caracterização de estabelecimentos.</p>
+<table class="caption-top table">
+<caption>Exemplos de indicadores construídos com CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador principal</th>
+<th>Denominador ou cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Estabelecimentos por tipo</td>
+<td>Estabelecimentos cadastrados</td>
+<td>Definir competência</td>
+</tr>
+<tr class="even">
+<td>Leitos por 1.000 habitantes</td>
+<td>Leitos cadastrados</td>
+<td>Separar SUS, não SUS e tipo de leito</td>
+</tr>
+<tr class="odd">
+<td>Equipamentos por território</td>
+<td>Equipamentos cadastrados</td>
+<td>Verificar disponibilidade e uso</td>
+</tr>
+<tr class="even">
+<td>Profissionais por ocupação</td>
+<td>Vínculos profissionais</td>
+<td>Profissional pode ter múltiplos vínculos</td>
+</tr>
+<tr class="odd">
+<td>Equipes por município</td>
+<td>Equipes cadastradas</td>
+<td>Verificar tipo e situação da equipe</td>
+</tr>
+<tr class="even">
+<td>Serviços habilitados</td>
+<td>Habilitações ou serviços</td>
+<td>Habilitação não equivale a produção</td>
+</tr>
+<tr class="odd">
+<td>Produção por capacidade instalada</td>
+<td>SIA ou SIH combinado com CNES</td>
+<td>Agregar o CNES antes da junção</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limitações" class="level2" data-number="10.19">
+<h2 data-number="10.19" class="anchored" data-anchor-id="limitações"><span class="header-section-number">10.19</span> Limitações</h2>
+<table class="caption-top table">
+<caption>Limitações recorrentes do CNES</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cadastro não é produção</td>
+<td>Serviço cadastrado pode não ter realizado atendimentos no período</td>
+</tr>
+<tr class="even">
+<td>Cadastro não é disponibilidade em tempo real</td>
+<td>Leito ou equipamento cadastrado pode estar indisponível operacionalmente</td>
+</tr>
+<tr class="odd">
+<td>Atualização depende da gestão local</td>
+<td>Dados podem estar defasados</td>
+</tr>
+<tr class="even">
+<td>Profissional pode ter múltiplos vínculos</td>
+<td>Contagem de vínculos não equivale a pessoas únicas</td>
+</tr>
+<tr class="odd">
+<td>Mudanças de classificação</td>
+<td>Séries históricas podem ter quebras</td>
+</tr>
+<tr class="even">
+<td>Endereços e coordenadas podem ter erro</td>
+<td>Mapas exigem validação espacial</td>
+</tr>
+<tr class="odd">
+<td>Competência importa</td>
+<td>Usar CNES de mês diferente pode gerar classificação incorreta</td>
+</tr>
+<tr class="even">
+<td>Recorte institucional pode ser ambíguo</td>
+<td>SUS, público, privado, filantrópico e suplementar exigem critérios distintos</td>
+</tr>
+<tr class="odd">
+<td>Denominador pode ter unidade diferente do numerador</td>
+<td>Relações com SIA, SIH e SINAN precisam preservar granularidade</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="10.20">
+<h2 data-number="10.20" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">10.20</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o CNES, alguns cuidados são recorrentes:</p>
+<ul>
+<li>definir a unidade de análise antes de baixar os arquivos;</li>
+<li>usar a competência compatível com a pergunta;</li>
+<li>distinguir estabelecimento, serviço, leito, equipamento, equipe e vínculo profissional;</li>
+<li>não interpretar cadastro como produção assistencial;</li>
+<li>separar rede SUS, privada, filantrópica e suplementar quando necessário;</li>
+<li>explicitar quando o CNES for usado como denominador;</li>
+<li>verificar mudanças históricas de classificação;</li>
+<li>validar campos territoriais e geográficos antes de mapear;</li>
+<li>agregar arquivos de recursos antes de relacionar com eventos;</li>
+<li>documentar prefixos, filtros e versões dos dados.</li>
+</ul>
+<table class="caption-top table">
+<caption>Erros frequentes em análises com CNES</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Contar vínculos profissionais como pessoas</td>
+<td>Declarar que o numerador são vínculos ou deduplicar quando possível</td>
+</tr>
+<tr class="even">
+<td>Somar arquivos diferentes sem harmonização</td>
+<td>Separar ST, PF, LT, EQ, EP, SR e HB</td>
+</tr>
+<tr class="odd">
+<td>Usar CNES atual para eventos antigos</td>
+<td>Relacionar por competência compatível</td>
+</tr>
+<tr class="even">
+<td>Tratar leito cadastrado como leito disponível</td>
+<td>Complementar com dados operacionais quando necessário</td>
+</tr>
+<tr class="odd">
+<td>Mapear sem validar coordenadas</td>
+<td>Checar endereços e pontos fora do município</td>
+</tr>
+<tr class="even">
+<td>Misturar rede SUS, pública e privada sem critério</td>
+<td>Definir o recorte institucional antes da análise</td>
+</tr>
+<tr class="odd">
+<td>Relacionar eventos com <code>LT</code>, <code>PF</code> ou <code>SR</code> linha a linha</td>
+<td>Agregar recursos por CNES e competência antes da junção</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="checklist-final" class="level2" data-number="10.21">
+<h2 data-number="10.21" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">10.21</span> Checklist final</h2>
+<p>Antes de concluir uma análise com CNES, verifique se:</p>
+<ul>
+<li>a competência foi definida;</li>
+<li>o arquivo ou prefixo corresponde à unidade de análise;</li>
+<li>o código CNES foi tratado como identificador do estabelecimento;</li>
+<li>vínculos profissionais não foram interpretados como pessoas únicas sem regra explícita;</li>
+<li>leitos, equipamentos e serviços foram analisados separadamente;</li>
+<li>a rede SUS ou não SUS foi delimitada quando necessário;</li>
+<li>o recorte público, privado, filantrópico ou suplementar foi documentado;</li>
+<li>denominadores do CNES foram compatíveis com numeradores de produção ou eventos;</li>
+<li>mudanças de classificação histórica foram consideradas;</li>
+<li>estabelecimentos que entram, saem ou mudam de perfil na série foram tratados;</li>
+<li>coordenadas e endereços foram validados antes de análises espaciais;</li>
+<li>a integração com SIH, SIA, SINAN, SIM ou SINASC usou período compatível;</li>
+<li>arquivos de recursos foram agregados antes de junções com eventos;</li>
+<li>perdas de relacionamento por código CNES foram quantificadas;</li>
+<li>limitações de cadastro, atualização e geocodificação foram discutidas.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="10.22">
+<h2 data-number="10.22" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">10.22</span> Bibliografia recomendada</h2>
 <ul>
 <li>Artigo <em>Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde</em> <span class="citation" data-cites="coelhoAnaliseClarezaMetodologica2024">(<a href="referencias.html#ref-coelhoAnaliseClarezaMetodologica2024" role="doc-biblioref">COELHO et al., 2024</a>)</span>. Disponível <a href="https://doi.org/10.1590/2358-289820241408383P">aqui</a>.</li>
 <li>Artigo <em>Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica</em> <span class="citation" data-cites="pelissariCadastroNacionalEstabelecimentos2018">(<a href="referencias.html#ref-pelissariCadastroNacionalEstabelecimentos2018" role="doc-biblioref">PELISSARI et al., 2018</a>)</span>. Disponível <a href="https://doi.org/10.1590/0102-311X00173917">aqui</a>.</li>
@@ -744,6 +2193,9 @@ COELHO, J. G. A. D. M. et al. <a href="https://doi.org/10.1590/2358-289820241408
 </div>
 <div id="ref-pelissariCadastroNacionalEstabelecimentos2018" class="csl-entry" role="listitem">
 PELISSARI, D. M. et al. <a href="https://doi.org/10.1590/0102-311x00173917"><span>Cadastro Nacional de Estabelecimentos de Sa<span>ú</span>de como ferramenta de an<span>á</span>lise da descentraliza<span>ç</span><span>ã</span>o do atendimento da tuberculose para a aten<span>ç</span><span>ã</span>o b<span>á</span>sica</span></a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 34, n. 12, p. e00173917, 2018.
+</div>
+<div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 </div>
 </section>
