@@ -4,22 +4,335 @@ always_allow_html: true
 
 # SIH -- Sistema de Informações Hospitalares do SUS {#sec-sih}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/sih_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/sih.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sih.md">podcast/sih.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 1981
--  Cobertura: Dimensão pública do SUS
--  Unidade: Autorização de Internação Hospitalar (AIH)
--  Divulgação de dados: mensal, com até dois meses  de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de criação | 1981 |
+| Evento registrado | Internação financiada pelo SUS |
+| Documento básico | Autorização de Internação Hospitalar (AIH) |
+| Unidade de análise | AIH, não pessoa |
+| Cobertura | Internações na rede pública e conveniada ao SUS |
+| Abrangência assistencial | Não cobre integralmente internações privadas não financiadas pelo SUS |
+| Disseminação | Mensal, com defasagem curta em relação à competência |
+: Características gerais do SIH/SUS
+
+O Sistema de Informações Hospitalares do SUS (SIH/SUS) é a principal fonte nacional para analisar internações financiadas pelo SUS. Seus dados permitem estudar volume de internações, diagnósticos, procedimentos, permanência hospitalar, valores pagos, óbitos hospitalares, fluxos de pacientes e uso da rede hospitalar.
+
+O SIH tem origem administrativa e financeira. Isso significa que sua unidade básica é a AIH, criada para autorizar, registrar e remunerar internações. Mesmo assim, seus dados são amplamente usados em estudos epidemiológicos, avaliação de políticas, planejamento regional e análise da oferta hospitalar.
+
+## Quando usar o SIH
+
+O SIH deve ser usado quando a pergunta envolve internações hospitalares financiadas pelo SUS, procedimentos hospitalares, permanência, valores ou desfecho da internação. Quando a pergunta envolve eventos não hospitalares, atendimentos ambulatoriais ou internações exclusivamente privadas, outras fontes são necessárias.
+
+| Pergunta de análise | Usar SIH para | Fonte complementar comum |
+|---|---|---|
+| Quantas internações SUS ocorreram? | Contar AIH aprovadas | POP (@sec-pop) para taxas |
+| Quais causas geraram internação? | Analisar diagnóstico principal | CID (@sec-cid) para agrupamentos |
+| Quais procedimentos foram realizados? | Analisar procedimento realizado | SIGTAP para regras e descrição |
+| Onde ocorreram as internações? | Analisar estabelecimento e município de internação | CNES (@sec-cnes) para perfil do serviço |
+| Houve óbito hospitalar? | Identificar desfecho da internação | SIM (@sec-sim) para mortalidade total |
+| Qual foi o valor registrado? | Analisar valores da AIH | Tabelas de remuneração do SUS |
+| Qual foi o fluxo entre residência e internação? | Comparar município de residência e ocorrência | Regiões de saúde e rede assistencial |
+: Perguntas comuns que podem ser respondidas com o SIH
+
+## SIH e SIA
+
+SIH e SIA (@sec-sia) são sistemas de produção assistencial e têm forte componente administrativo-financeiro. A diferença principal está na unidade registrada: o SIH organiza internações por AIH, enquanto o SIA registra produção ambulatorial por diferentes instrumentos.
+
+| Dimensão | SIH | SIA |
+|---|---|---|
+| Tipo de cuidado | Hospitalar | Ambulatorial |
+| Unidade típica | AIH | Procedimento ou autorização ambulatorial |
+| Evento assistencial | Internação | Atendimento, exame, procedimento ou terapia |
+| Periodicidade | Mensal | Mensal |
+| Uso comum | Morbidade hospitalar e produção | Produção ambulatorial e procedimentos |
+| Cuidado central | AIH não é pessoa | Produção não é pessoa |
+: Diferenças práticas entre SIH e SIA
 
 ## Histórico e organização
 
-A concepção do SIH tem origem administrativa, visando operar pagamentos de internações e instrumentar ações de controle e auditorias. Em 1977, havia um sistema nacional de controle de pagamento de contas hospitalares para o ressarcimento de despesas aos hospitais. Este sistema já era informatizado, mas apresentava muitos passos não-automatizados de preenchimento e problemas de imprevisibilidade de faturamento dos hospitais. Enfrentando denúncias frequentes de fraudes, foi estabelecida uma comissão técnica que propôs a criação de um sistema menos complexo e mais preciso, baseado em um instrumento único, a *Autorização de Internação Hospitalar (AIH)*.
+A concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH).
 
-A adoção da AIH e implantação do SIH foi iniciada em 1981, com um projeto piloto em Curitiba, e posteriormente foi implantada em todo o território nacional, em 1983. A evolução do SIH acompanhou a evolução da informática no Brasil, desde a utilização de disquetes para coleta de dados introduzida em 1992. Atualmente, o sistema apresenta críticas automáticas durante o preenchimento da AIH, avisando o profissional sobre possíveis erros durante o preenchimento da AIH. Estas críticas verificam possíveis incompatibilidades entre idade, sexo, e capacidade declarada dos estabelecimentos de saúde frente aos procedimentos lançados na autorização, contribuindo para uma melhor qualidade dos dados do sistema [@pepeSistemaInformacoesHospitalares2009].
+A adoção da AIH e a implantação do SIH começaram em 1981, com projeto piloto em Curitiba, e avançaram para implantação nacional em 1983. Ao longo do tempo, o sistema incorporou mudanças tecnológicas, regras de crítica e mecanismos de validação. Atualmente, há críticas automáticas para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento, contribuindo para a consistência do registro [@pepeSistemaInformacoesHospitalares2009].
 
-A cobertura do SIH se limita à esfera pública do SUS e sua rede conveniada. A AIH habilita a internação do paciente na unidade de saúde, agregando informações de custo, pagamentos e ressarcimentos. Apesar de sua origem administrativa, A AIH  apresenta informações de interesse para pesquisas como informações demográficas sobre o paciente, procedimentos realizados, causa e duração da internação, além de dados sobre o estabelecimento de saúde. Seus dados são utilizados para avaliações de políticas públicas e pesquisas sobre acesso a serviços de saúde e análises de situação de saúde. Em termos de dimensão, entre 2008 e maio de 2024, o SIH apresenta 186.302.654 AIHs cadastradas, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023].
+A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema [@pedrosoDataSciencePlatform2023].
 
-Este é um dos sistemas de informação de saúde que  recebe novos registros com maior frequência, junto com o Sistema de Informações Ambulatoriais -- SIA (@sec-sia). A análise destes dados requerem estratégias específicas para lidar com grandes bases de dados, utilizando, em geral, soluções de banco de dados relacionais que permitam um processamento analítico on-line (OLAP) eficiente.
+Este é um dos sistemas de informação em saúde com atualização mais frequente, junto com o Sistema de Informações Ambulatoriais -- SIA (@sec-sia). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.
+
+## Fluxo da AIH
+
+A AIH estrutura o ciclo administrativo da internação: solicitação, autorização, registro da internação, faturamento, crítica, aprovação ou rejeição e posterior disseminação dos dados.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado da Autorização de Internação Hospitalar"
+%%| label: fig-sih-aih
+flowchart TD
+  sol[Solicitacao de internacao] --> aut[Autorizacao da AIH]
+  aut --> int[Internacao hospitalar]
+  int --> alta[Alta, transferencia ou obito]
+  alta --> fat[Faturamento da AIH]
+  fat --> crit[Criticas e consistencia]
+  crit --> apr[AIH aprovada]
+  crit --> rej[AIH rejeitada]
+  apr --> rd[Arquivo RD]
+  rej --> rjer[Arquivos RJ/ER]
+  rd --> sis[Disseminacao do SIH]
+```
+:::
+
+Esse fluxo reforça que a base disseminada é produto de regras administrativas. AIHs rejeitadas, valores aprovados, procedimentos realizados e motivo de saída devem ser interpretados a partir dessas regras.
+
+## AIH, internação e pessoa
+
+A AIH não deve ser interpretada automaticamente como pessoa única. Uma pessoa pode ter mais de uma AIH ao longo do tempo, e uma internação complexa pode envolver regras específicas de continuidade, renovação ou cobrança. Para muitas análises, "número de AIH" é uma aproximação operacional de internações aprovadas, não uma contagem de indivíduos.
+
+| Unidade | O que representa | Cuidado |
+|---|---|---|
+| AIH | Autorização e registro administrativo da internação | Não identifica pessoa única em séries longas |
+| Internação | Episódio de cuidado hospitalar | Pode exigir regras para continuidade |
+| Pessoa | Indivíduo internado | Nem sempre é identificável em bases públicas |
+| Procedimento | Ação hospitalar registrada | Pode ser solicitado, realizado ou secundário |
+| Estabelecimento | Serviço onde ocorreu a internação | Deve ser analisado com CNES |
+: Diferenças entre AIH, internação, pessoa e procedimento
+
+::: {.callout-warning}
+Evite escrever "pacientes" quando a análise contou AIHs. Use "AIHs", "internações registradas" ou "internações aprovadas", a menos que o método tenha identificado pessoas ou episódios de cuidado.
+:::
+
+## Tipos de AIH e complexidade
+
+Nem toda AIH representa um episódio simples e isolado de cuidado. Algumas internações exigem continuidade, longa permanência, procedimentos especiais, complementação de registros ou regras específicas de autorização. Isso afeta contagens, séries temporais e análises por procedimento.
+
+| Situação | Impacto na análise |
+|---|---|
+| Internação curta e única | Contagem por AIH aproxima episódio |
+| Longa permanência | Pode exigir regra para continuidade |
+| Procedimento de alta complexidade | Pode ter regras específicas de autorização |
+| AIH complementar | Pode alterar valores ou informações |
+| Reinternação | Pode representar novo episódio ou continuidade clínica |
+| Transferência | Pode dividir cuidado entre estabelecimentos |
+: Situações que afetam a interpretação da AIH
+
+Quando a pergunta é sobre episódios assistenciais, é necessário definir regras para reinternação, transferência e continuidade. Quando a pergunta é sobre produção aprovada, a AIH pode ser analisada diretamente, desde que o método deixe claro o arquivo e os filtros usados.
+
+## Cobertura e unidade de análise
+
+O SIH cobre internações financiadas pelo SUS. Essa delimitação é central para interpretar resultados, especialmente em municípios, especialidades ou procedimentos com grande participação do setor privado não SUS.
+
+| Dimensão | Cuidado de interpretação |
+|---|---|
+| Residência | Usada para estimar risco ou demanda da população residente |
+| Ocorrência | Indica onde a internação ocorreu |
+| Estabelecimento | Permite analisar produção hospitalar e rede |
+| Diagnóstico principal | Usado para morbidade hospitalar por causa |
+| Procedimento realizado | Usado para produção e pagamento |
+| Valores | Representam remuneração registrada, não custo econômico total |
+| Desfecho | Refere-se ao encerramento da internação hospitalar |
+: Dimensões importantes para análise do SIH
+
+## Diagnóstico, procedimento e valores
+
+O SIH combina campos clínicos e administrativos. O diagnóstico principal, codificado pela CID (@sec-cid), descreve a condição associada à internação. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Esses dois campos respondem a perguntas diferentes.
+
+| Campo analítico | Pergunta respondida | Exemplo de uso |
+|---|---|---|
+| Diagnóstico principal | Por que a pessoa foi internada? | Internações por pneumonia |
+| Diagnóstico secundário | Que condição associada foi registrada? | Comorbidades ou complicações |
+| Procedimento solicitado | O que foi solicitado/autorizado? | Solicitação de cirurgia |
+| Procedimento realizado | O que foi produzido/remunerado? | Cirurgia efetivamente registrada |
+| Valor total | Quanto foi pago na AIH? | Valor médio por internação |
+: Diferenças entre diagnóstico, procedimento e valor
+
+Valores do SIH devem ser interpretados como valores pagos ou aprovados segundo regras do SUS. Eles não equivalem necessariamente ao custo real de produção do cuidado, ao preço de mercado ou ao gasto total do hospital.
+
+## Procedimentos e SIGTAP
+
+Os procedimentos hospitalares registrados no SIH são condicionados por regras da tabela de procedimentos do SUS, conhecida como SIGTAP. Essas regras incluem descrição do procedimento, grupo, subgrupo, forma de organização, complexidade, financiamento, compatibilidades e restrições.
+
+| Regra do procedimento | Por que importa |
+|---|---|
+| Código e descrição | Define o procedimento analisado |
+| Grupo e subgrupo | Permite agregação da produção |
+| Compatibilidade CID | Afeta aprovação e consistência |
+| Compatibilidade por idade e sexo | Evita combinações inválidas |
+| Complexidade | Ajuda a estratificar produção |
+| Valor de referência | Influencia remuneração registrada |
+| Vigência temporal | Evita comparar códigos descontinuados |
+: Elementos do SIGTAP relevantes para análise do SIH
+
+Em séries históricas, procedimentos podem mudar de código, descrição, valor ou regra de compatibilidade. Por isso, análises por procedimento devem guardar a versão da tabela usada e verificar se a mudança observada reflete produção assistencial ou mudança administrativa.
+
+## Análise territorial e temporal
+
+O SIH permite analisar internações por residência do paciente, local de ocorrência, estabelecimento e competência. Esses recortes respondem a perguntas distintas.
+
+| Recorte | Pergunta respondida | Exemplo |
+|---|---|---|
+| Residência | De onde vem a demanda por internação? | Taxa de internação de residentes |
+| Ocorrência | Onde a internação aconteceu? | Produção hospitalar por município |
+| Estabelecimento | Qual serviço realizou a internação? | Perfil de maternidades ou hospitais |
+| Competência | Em que mês a produção foi registrada? | Série mensal de AIHs aprovadas |
+| Data de internação ou saída | Quando ocorreu o episódio assistencial? | Permanência e sazonalidade |
+: Recortes territoriais e temporais frequentes no SIH
+
+Para estimar risco populacional, em geral usa-se residência e população residente. Para estudar rede, oferta, produção ou centralidade hospitalar, ocorrência e estabelecimento são mais adequados. Em séries temporais, diferencie data de internação, data de saída e mês de competência da AIH.
+
+## Exemplo: fluxos de internação
+
+Fluxos de internação são uma aplicação importante do SIH para regionalização e planejamento da rede. A ideia é comparar o município de residência do usuário com o município ou estabelecimento onde ocorreu a internação.
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Origem | Município de residência | Representa demanda da população residente |
+| Destino | Município ou CNES de internação | Representa oferta utilizada |
+| Volume | Número de AIHs | Não é número de pessoas |
+| Escopo | Procedimento, causa ou especialidade | Definir antes da análise |
+| Tempo | Competência ou data de internação | Manter recorte único |
+| Rede | Região de saúde ou macrorregião | Usar regionalização vigente |
+: Campos úteis em uma análise de fluxos de internação
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+fluxos_sih <- sih_p |>
+  count(MUNIC_RES, MUNIC_MOV, name = "aih") |>
+  mutate(
+    mesmo_municipio = MUNIC_RES == MUNIC_MOV
+  )
+
+fluxos_sih
+```
+
+::: {.callout-note}
+Os nomes das variáveis de ocorrência podem variar conforme processamento e arquivo. Em algumas bases, o município de internação aparece como `MUNIC_MOV`, `MUNIC_HOSP` ou campo equivalente. Confirme a estrutura do ano analisado antes de automatizar o fluxo.
+:::
+
+## Estrutura dos dados
+
+O documento de [estrutura do SIH](assets/sih/IT_SIHSUS_1603.pdf) descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão competência, município de residência, estabelecimento, idade, sexo, diagnóstico principal, procedimento realizado, datas de internação e saída, dias de permanência, valores e motivo de saída.
+
+### Campos mínimos para inspecionar
+
+Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. Em análises iniciais, costuma ser útil verificar:
+
+| Campo | Uso |
+|---|---|
+| `ANO_CMPT` e `MES_CMPT` | Competência da AIH |
+| `N_AIH` | Identificador administrativo da AIH |
+| `CNES` ou identificador do hospital | Estabelecimento de ocorrência |
+| `MUNIC_RES` | Município de residência |
+| `DT_INTER` | Data de internação |
+| `DT_SAIDA` | Data de saída |
+| `DIAG_PRINC` | Diagnóstico principal |
+| `DIAG_SECUN` ou equivalente | Diagnóstico secundário |
+| `PROC_REA` | Procedimento realizado |
+| `IDADE` e `SEXO` | Perfil demográfico |
+| `MORTE` ou motivo de saída | Óbito hospitalar ou desfecho |
+| `VAL_TOT` | Valor total registrado |
+: Campos úteis para uma primeira inspeção dos dados do SIH
+
+### Transformações frequentes
+
+Muitas análises do SIH dependem de transformar campos originais em medidas epidemiológicas ou operacionais. Essas regras devem ser declaradas no método.
+
+| Conceito | Regra operacional comum | Campo associado |
+|---|---|---|
+| Permanência | Data de saída menos data de internação | `DT_INTER`, `DT_SAIDA` |
+| Faixa etária | Agrupamento de idade | `IDADE` |
+| Óbito hospitalar | Motivo de saída ou indicador de morte | `MORTE` ou equivalente |
+| Grupo de causa | Agrupamento do diagnóstico principal | `DIAG_PRINC` |
+| Grupo de procedimento | Agrupamento do procedimento realizado | `PROC_REA` |
+| Internação de residente | Município de residência no território | `MUNIC_RES` |
+| Internação fora do município | Residência diferente da ocorrência | `MUNIC_RES`, ocorrência |
+: Transformações comuns em análises com SIH
+
+### Prefixo dos arquivos
+
+| Prefixo | Conteúdo |
+|---|---|
+| RD | AIH reduzida, principal arquivo para análise de internações aprovadas |
+| SP | Serviços profissionais associados à AIH |
+| RJ | AIH rejeitadas |
+| ER | AIH rejeitadas com código de erro |
+: Prefixos comuns dos arquivos do SIH
+
+O arquivo RD costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Arquivos SP são úteis quando a pergunta exige detalhar serviços profissionais vinculados à internação. Arquivos de rejeição ajudam em auditoria e qualidade do processamento, mas não representam produção aprovada.
+
+## AIHs rejeitadas
+
+Arquivos RJ e ER registram AIHs rejeitadas ou com erro no processamento. Eles são úteis para auditoria, avaliação da qualidade do faturamento, identificação de inconsistências e estudo de perdas administrativas. No entanto, não devem ser somados aos arquivos RD como se representassem internações aprovadas.
+
+| Arquivo | Uso recomendado | Cuidado |
+|---|---|---|
+| RD | Produção aprovada | Base principal para morbidade hospitalar |
+| RJ | Rejeições | Não representa produção aprovada |
+| ER | Códigos de erro | Útil para auditoria e qualidade |
+| SP | Serviços profissionais | Complementa detalhes de produção |
+: Uso analítico dos arquivos de aprovação e rejeição
+
+Se a pergunta é "quantas internações ocorreram no SUS?", use AIHs aprovadas. Se a pergunta é "por que AIHs foram rejeitadas?", use RJ/ER separadamente e descreva os códigos de erro analisados.
+
+## Exemplo: internações por condições sensíveis à atenção primária
+
+Internações por condições sensíveis à atenção primária (ICSAP) são um exemplo clássico de uso do SIH para avaliação indireta do acesso e da efetividade da atenção primária. No Brasil, a lista de condições foi publicada pela Portaria SAS/MS nº 221/2008 [@brasilPortaria2212008], e há ferramentas em R para aplicar a lista aos registros de AIH [@nedelPacoteCsapaihLista2019].
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Numerador | AIHs com diagnóstico principal na lista ICSAP | Documentar a lista e a versão usada |
+| Denominador | População residente ou total de AIHs | Escolher conforme indicador |
+| Território | Município de residência | Usar para avaliar risco da população residente |
+| Período | Competência ou data de internação | Não misturar recortes temporais |
+| Idade | Faixa etária | Padronizar quando comparar territórios |
+| Cobertura | Internações SUS | Não representa internações privadas não SUS |
+: Campos úteis em uma análise de ICSAP
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+icsap_mun <- sih_p |>
+  mutate(icsap = DIAG_PRINC %in% lista_icsap_cid10) |>
+  group_by(MUNIC_RES) |>
+  summarise(
+    aih = n(),
+    aih_icsap = sum(icsap, na.rm = TRUE),
+    prop_icsap = aih_icsap / aih,
+    .groups = "drop"
+  )
+
+icsap_mun
+```
+
+::: {.callout-note}
+O objeto `lista_icsap_cid10` representa uma lista previamente preparada de códigos CID-10 sensíveis à atenção primária. Em uma análise real, essa lista deve ser construída a partir da portaria ou de pacote específico e versionada junto ao código.
+:::
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -31,37 +344,53 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sih.csv"))
 ```
 :::
 
-## Estrutura dos dados
-
-Confira o documento de [estrutura do SIH](assets/sih/IT_SIHSUS_1603.pdf), onde estão descritas as variáveis disponíveis.
-
-### Prefixo dos arquivos
-
--  ER: AIH rejeitadas com código de erro
--  RD: AIH Reduzida
--  RJ: AIH rejeitadas
--  SP: serviços profissionais
-
-
 ## Acesso aos dados
+
+Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objetivo da análise.
+
+| Forma de acesso | Indicação de uso |
+|---|---|
+| TabNet | Tabulações rápidas e consultas agregadas |
+| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| R | Fluxos reprodutíveis com `{microdatasus}` |
+| Python | Fluxos reprodutíveis com PySUS |
+| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+: Formas de acesso aos dados do SIH
+
+## Processamento de grandes volumes
+
+O SIH é disseminado em arquivos mensais por unidade federativa e pode crescer rapidamente em análises nacionais ou séries longas. Para trabalhos reprodutíveis, prefira ingestão incremental, armazenamento em formatos colunares e consultas que evitem carregar toda a base em memória.
+
+| Estratégia | Quando usar |
+|---|---|
+| Baixar por UF e mês | Controle incremental e reprocessamento parcial |
+| Padronizar nomes e tipos | Evitar quebras entre anos |
+| Salvar em Parquet | Leitura rápida e compactação |
+| Usar DuckDB | Consultas locais em bases grandes |
+| Registrar filtros | Reprodutibilidade do indicador |
+| Separar bruto e tratado | Auditoria do processamento |
+: Estratégias para processamento do SIH em escala
+
+Uma organização comum é manter os arquivos brutos imutáveis, gerar uma camada tratada com tipos padronizados e criar tabelas analíticas menores para cada pergunta. Isso reduz o risco de misturar competências, arquivos ou filtros.
 
 ### TabNet
 
-Os dados do SIH podem ser acessados no sistema TabNet do DataSUS, na seção "Assistência à Saúde".
+Os dados do SIH podem ser acessados no TabNet do DataSUS, na seção "Assistência à Saúde".
 
--  [TabNet SIH](https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/)
+- [TabNet SIH](https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/)
 
-### TabWin
+### TabWin e transferência de arquivos
 
-Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
 
--  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
-Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DataSUS em R [@Saldanha2019a].
 
 ```{r}
+#| eval: false
 #| message: false
 library(microdatasus)
 
@@ -74,39 +403,89 @@ sih_raw <- fetch_datasus(
   information_system = "SIH-RD"
 )
 
-sih_p <- process_sinasc(sih_raw)
+sih_p <- process_sih(sih_raw)
 
 sih_p
 ```
 
 ### Python
 
-Você pode usar a biblioteca PySUS.
+A biblioteca PySUS também permite acessar dados do SIH em fluxos de análise em Python.
 
--  [PySUS SIH](https://pysus.readthedocs.io/en/latest/databases/SIH.html)
+- [PySUS SIH](https://pysus.readthedocs.io/en/latest/databases/SIH.html)
 
 ### PCDaS
 
-Os dados do SIH estão disponíveis na PCDaS para acesso via *notebooks*.
+Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
 
--  [Dados SIH](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/)
+- [Dados SIH](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/)
+
+## Relacionamento com outros sistemas
+
+O SIH é frequentemente combinado com outros sistemas para caracterizar rede, desfechos e denominadores. A integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando houver base legal, governança e identificadores adequados.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Qual rede produziu internações? | SIH + CNES (@sec-cnes) | CNES muda ao longo do tempo |
+| Houve óbito após internação? | SIH + SIM (@sec-sim) | Óbito hospitalar não equivale a mortalidade total |
+| A internação era por agravo notificado? | SIH + SINAN (@sec-sinan) | Harmonizar datas e definição de caso |
+| Qual taxa de internação? | SIH + POP (@sec-pop) | Usar residência e população compatível |
+| Qual carga assistencial além da internação? | SIH + SIA (@sec-sia) | Separar atendimento ambulatorial e hospitalar |
+: Integrações frequentes entre o SIH e outros sistemas
+
+Em relacionamentos de registros, a unidade final de análise deve ser definida antes do pareamento. O objetivo pode ser identificar internações, pessoas, episódios, desfechos pós-alta ou trajetórias assistenciais. Cada objetivo exige regras diferentes para duplicidade, janelas temporais e discordâncias.
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SIH são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:
+Segundo @OPAS2008, os dados do SIH são utilizados na construção de indicadores de morbidade hospitalar, produção e gasto. A ficha de cada indicador deve explicitar se conta AIHs, internações, procedimentos, valores ou pessoas.
 
--  Proporção de internações hospitalares (SUS) por grupos de causas
--  Proporção de internações hospitalares (SUS) por causas externas
--  Proporção de internações hospitalares (SUS) por afecções originadas no período perinatal
--  Valor médio pago por internação hospitalar no SUS (AIH)
+| Indicador | Numerador principal | Denominador ou cuidado |
+|---|---|---|
+| Proporção de internações por grupo de causas | AIHs por diagnóstico principal | Total de AIHs no mesmo recorte |
+| Taxa de internação SUS | AIHs de residentes | População residente |
+| Internações por causas externas | AIHs com CID de causa externa | Definir agrupamento CID |
+| Internações por condições sensíveis à APS | AIHs com CID na lista ICSAP | Usar lista oficial ou método versionado |
+| Permanência média | Dias de permanência | Interpretar por procedimento e perfil hospitalar |
+| Letalidade hospitalar | AIHs com óbito hospitalar | Não equivale à mortalidade populacional |
+| Valor médio da AIH | Valor total aprovado | Não representa custo real total |
+: Exemplos de indicadores construídos com dados do SIH
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para maiores detalhes sobre esses e outros indicadores.
+Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+
+## Cuidados de interpretação
+
+Ao utilizar o SIH, alguns cuidados são recorrentes:
+
+- distinguir AIH, internação, procedimento e pessoa;
+- lembrar que a cobertura é SUS e rede conveniada, não todo o setor hospitalar;
+- separar residência do paciente e ocorrência da internação;
+- diferenciar competência, data de internação e data de saída;
+- verificar se o arquivo usado é RD, SP, RJ ou ER;
+- interpretar valores como remuneração registrada, não custo econômico total;
+- avaliar mudanças em regras de autorização, tabelas, procedimentos e críticas;
+- verificar completitude e consistência de diagnóstico, procedimento, idade, sexo, município e estabelecimento.
+
+| Checagem | Por que importa |
+|---|---|
+| Arquivo utilizado | RD, SP e rejeições respondem a perguntas diferentes |
+| Duplicidade de AIH | Pode superestimar internações ou episódios |
+| Diagnóstico e procedimento | Podem expressar lógicas clínicas e administrativas distintas |
+| Residência e ocorrência | Define corretamente risco e produção |
+| Competência e datas assistenciais | Evita distorções em séries temporais |
+| CNES e município | Estabelecimentos mudam de perfil, gestão e vínculo |
+| Valores extremos | Podem indicar procedimentos específicos ou erro |
+: Checklist de qualidade para análises com SIH
+
+::: {.callout-warning}
+Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações por ocorrência e população residente, comparar valores pagos como se fossem custos totais, misturar arquivos aprovados e rejeitados, e interpretar óbito hospitalar como mortalidade populacional.
+:::
 
 ## Bibliografia recomendada
 
 ### Documentos auxiliares
 
--  [Manual técnico do Sistema de Informação Hospitalar](assets/sih/07_0066_M.pdf)
+- [Manual técnico do Sistema de Informação Hospitalar](assets/sih/07_0066_M.pdf)
+- [Estrutura do SIH](assets/sih/IT_SIHSUS_1603.pdf)
 
 ### Vídeos
 
@@ -114,5 +493,4 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 
 ### Avaliação da qualidade dos dados
 
--  Artigo *Qualidade das bases de dados hospitalares no Brasil: alguns elementos* [@machadoQualidadeBasesDados2016]. Disponível [aqui](https://doi.org/10.1590/1980-5497201600030008).
-
+- Artigo *Qualidade das bases de dados hospitalares no Brasil: alguns elementos* [@machadoQualidadeBasesDados2016]. Disponível [aqui](https://doi.org/10.1590/1980-5497201600030008).

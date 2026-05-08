@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# CID -- Classificação Internacional de Doenças
+# CID -- Classificação Internacional de Doenças {#sec-cid}
 
 Os códigos da Classificação Internacional de Doenças estão presentes em diversos SIS, sendo um importante componente para a descrição de eventos de saúde como óbitos e internações. Este apêndice visa apresentar as principais características dessa classificação.
 

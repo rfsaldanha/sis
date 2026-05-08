@@ -1,0 +1,415 @@
+[
+{
+  "start": 0,
+  "end": 7.663,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre o SINASC, o Sistema de Informação sobre Nascidos Vivos."
+}
+,
+{
+  "start": 8.013,
+  "end": 12.007,
+  "speaker": "ESTUDANTE",
+  "text": "O SINASC é o sistema usado para estudar nascimentos no Brasil?"
+}
+,
+{
+  "start": 12.357,
+  "end": 24.199,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Ele é a principal fonte nacional para estudar nascidos vivos, condições da gestação, parto, recém-nascido e características maternas."
+}
+,
+{
+  "start": 24.549,
+  "end": 27.568,
+  "speaker": "ESTUDANTE",
+  "text": "Então ele não serve apenas para contar nascimentos."
+}
+,
+{
+  "start": 27.918,
+  "end": 46.540,
+  "speaker": "APRESENTADORA",
+  "text": "Não. Ele permite descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar aspectos da atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil."
+}
+,
+{
+  "start": 46.890,
+  "end": 48.330,
+  "speaker": "ESTUDANTE",
+  "text": "Quando devo usar o SINASC?"
+}
+,
+{
+  "start": 48.680,
+  "end": 61.451,
+  "speaker": "APRESENTADORA",
+  "text": "Use o SINASC quando a pergunta envolve nascidos vivos, nascimento, parto, condições ao nascer ou indicadores que dependem do número de nascidos vivos."
+}
+,
+{
+  "start": 61.801,
+  "end": 66.073,
+  "speaker": "ESTUDANTE",
+  "text": "Em algumas análises ele é numerador, e em outras é denominador."
+}
+,
+{
+  "start": 66.423,
+  "end": 86.949,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Para contar nascidos vivos ou calcular proporção de baixo peso, o SINASC fornece numerador e denominador. Para mortalidade infantil, o numerador vem do SIM, com óbitos menores de um ano, e o denominador vem do SINASC, com nascidos vivos."
+}
+,
+{
+  "start": 87.299,
+  "end": 88.692,
+  "speaker": "ESTUDANTE",
+  "text": "Como surgiu o SINASC?"
+}
+,
+{
+  "start": 89.042,
+  "end": 109.847,
+  "speaker": "APRESENTADORA",
+  "text": "O SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990, e os dados consolidados passaram a estar disponíveis a partir de 1994."
+}
+,
+{
+  "start": 110.197,
+  "end": 113.401,
+  "speaker": "ESTUDANTE",
+  "text": "O documento básico é a Declaração de Nascido Vivo."
+}
+,
+{
+  "start": 113.751,
+  "end": 125.779,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. A DNV é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a Declaração de Óbito, ela é emitida em três vias."
+}
+,
+{
+  "start": 126.129,
+  "end": 127.801,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é o fluxo dessas vias?"
+}
+,
+{
+  "start": 128.151,
+  "end": 149.978,
+  "speaker": "APRESENTADORA",
+  "text": "A primeira via vai para a secretaria municipal de saúde, depois segue o fluxo de consolidação até a base nacional do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário."
+}
+,
+{
+  "start": 150.328,
+  "end": 156.551,
+  "speaker": "ESTUDANTE",
+  "text": "Então a DNV também conecta serviços de saúde, família, cartório e sistema de informação."
+}
+,
+{
+  "start": 156.901,
+  "end": 170.322,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Ela tem uma função civil, ligada ao registro de nascimento, e uma função sanitária e epidemiológica, porque produz informação sobre nascimentos e condições ao nascer."
+}
+,
+{
+  "start": 170.672,
+  "end": 173.040,
+  "speaker": "ESTUDANTE",
+  "text": "O que exatamente é um nascido vivo?"
+}
+,
+{
+  "start": 173.390,
+  "end": 188.808,
+  "speaker": "APRESENTADORA",
+  "text": "Um nascimento é classificado como nascido vivo quando, após a separação do corpo materno, há respiração ou qualquer outro sinal de vida, independentemente da duração da gestação ou da viabilidade clínica."
+}
+,
+{
+  "start": 189.158,
+  "end": 193.523,
+  "speaker": "ESTUDANTE",
+  "text": "Então a definição não depende de o recém-nascido sobreviver por muito tempo."
+}
+,
+{
+  "start": 193.873,
+  "end": 206.644,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Se houve qualquer sinal de vida após o parto, deve haver registro como nascido vivo no SINASC. Se a criança morre posteriormente, também haverá registro no SIM."
+}
+,
+{
+  "start": 206.994,
+  "end": 208.387,
+  "speaker": "ESTUDANTE",
+  "text": "E os óbitos fetais?"
+}
+,
+{
+  "start": 208.737,
+  "end": 220.254,
+  "speaker": "APRESENTADORA",
+  "text": "Óbitos fetais são registrados no SIM, não no SINASC. Essa distinção é muito importante para indicadores perinatais, neonatais e infantis."
+}
+,
+{
+  "start": 220.604,
+  "end": 223.019,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a unidade de análise do SINASC?"
+}
+,
+{
+  "start": 223.369,
+  "end": 234.840,
+  "speaker": "APRESENTADORA",
+  "text": "A unidade de análise é a Declaração de Nascido Vivo. Cada registro corresponde a um nascido vivo, não a uma gestante acompanhada ao longo da gravidez."
+}
+,
+{
+  "start": 235.190,
+  "end": 238.534,
+  "speaker": "ESTUDANTE",
+  "text": "Isso fica especialmente importante em gestações múltiplas."
+}
+,
+{
+  "start": 238.884,
+  "end": 256.392,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Uma gestação gemelar com dois nascidos vivos deve gerar duas DNVs. Isso é correto quando o evento analisado é o nascido vivo. Mas exige cuidado quando a pergunta é sobre gestação, mãe ou parto."
+}
+,
+{
+  "start": 256.742,
+  "end": 261.247,
+  "speaker": "ESTUDANTE",
+  "text": "Então, se eu quero contar mães, não posso simplesmente contar registros."
+}
+,
+{
+  "start": 261.597,
+  "end": 273.207,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. A mesma mãe pode aparecer mais de uma vez em uma gestação múltipla. Por isso, a unidade de análise precisa estar alinhada à pergunta."
+}
+,
+{
+  "start": 273.557,
+  "end": 276.018,
+  "speaker": "ESTUDANTE",
+  "text": "Quais dimensões o SINASC permite estudar?"
+}
+,
+{
+  "start": 276.368,
+  "end": 305.811,
+  "speaker": "APRESENTADORA",
+  "text": "Ele permite estudar características do recém-nascido, como peso ao nascer, sexo, Apgar, anomalias e idade gestacional. Também informa aspectos da gestação e do parto, como tipo de gravidez, tipo de parto, consultas de pré-natal e local de ocorrência. Além disso, traz características maternas, como idade, escolaridade, raça ou cor e município de residência."
+}
+,
+{
+  "start": 306.161,
+  "end": 313.777,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo organiza essas variáveis em blocos: recém-nascido, gestação, parto, mãe e registro."
+}
+,
+{
+  "start": 314.127,
+  "end": 333.957,
+  "speaker": "APRESENTADORA",
+  "text": "Isso ajuda a separar perguntas analíticas. Uma pergunta sobre condições ao nascer usa principalmente peso, idade gestacional e Apgar. Uma pergunta sobre desigualdades pode usar idade materna, raça ou cor, escolaridade e território."
+}
+,
+{
+  "start": 334.307,
+  "end": 337.047,
+  "speaker": "ESTUDANTE",
+  "text": "Algumas variáveis exigem mais cuidado, certo?"
+}
+,
+{
+  "start": 337.397,
+  "end": 358.341,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Campos como idade gestacional, Apgar e anomalias congênitas podem variar em completitude e validade. Antes de usá-los como desfecho ou critério de estratificação, é importante avaliar ignorados, mudanças no formulário e consistência com outras variáveis."
+}
+,
+{
+  "start": 358.691,
+  "end": 362.546,
+  "speaker": "ESTUDANTE",
+  "text": "Baixo peso ao nascer é um exemplo clássico de uso do SINASC."
+}
+,
+{
+  "start": 362.896,
+  "end": 381.565,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. A definição mais comum considera baixo peso quando o recém-nascido pesa menos de 2.500 gramas. Mas a análise deve documentar exclusões, como peso ignorado ou inconsistente, e idealmente considerar idade gestacional."
+}
+,
+{
+  "start": 381.915,
+  "end": 389.253,
+  "speaker": "ESTUDANTE",
+  "text": "Porque baixo peso pode ocorrer por prematuridade, restrição de crescimento intrauterino ou combinação de fatores."
+}
+,
+{
+  "start": 389.603,
+  "end": 397.312,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Interpretar baixo peso sem olhar idade gestacional pode esconder mecanismos diferentes."
+}
+,
+{
+  "start": 397.662,
+  "end": 399.287,
+  "speaker": "ESTUDANTE",
+  "text": "E anomalias congênitas?"
+}
+,
+{
+  "start": 399.637,
+  "end": 415.937,
+  "speaker": "APRESENTADORA",
+  "text": "O SINASC permite registrar anomalias congênitas identificadas no nascimento, mas esse campo é sensível à qualidade do exame, ao treinamento da equipe, à disponibilidade de diagnóstico e ao preenchimento da DNV."
+}
+,
+{
+  "start": 416.287,
+  "end": 421.628,
+  "speaker": "ESTUDANTE",
+  "text": "Então baixa frequência registrada não significa necessariamente baixa ocorrência real."
+}
+,
+{
+  "start": 421.978,
+  "end": 439.764,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Pode haver subnotificação. Para esse tema, é importante verificar ignorados, mudanças temporais, consistência por estabelecimento e, quando possível, complementar com investigação ou bases especializadas."
+}
+,
+{
+  "start": 440.114,
+  "end": 443.969,
+  "speaker": "ESTUDANTE",
+  "text": "Assim como no SIM, o SINASC também tem residência e ocorrência."
+}
+,
+{
+  "start": 444.319,
+  "end": 467.075,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Residência da mãe responde onde vive a população que teve filhos. Ocorrência do parto responde onde o nascimento aconteceu. Para indicadores populacionais, em geral usamos residência da mãe. Para estudar rede assistencial, fluxo de partos e concentração de serviços, usamos ocorrência ou estabelecimento."
+}
+,
+{
+  "start": 467.425,
+  "end": 468.818,
+  "speaker": "ESTUDANTE",
+  "text": "E na análise temporal?"
+}
+,
+{
+  "start": 469.168,
+  "end": 485.422,
+  "speaker": "APRESENTADORA",
+  "text": "É preciso distinguir data de nascimento, ano do arquivo e situação de consolidação da base. Bases preliminares são úteis para monitoramento oportuno, mas podem mudar com atualizações posteriores."
+}
+,
+{
+  "start": 485.772,
+  "end": 488.419,
+  "speaker": "ESTUDANTE",
+  "text": "O SINASC é muito usado como denominador."
+}
+,
+{
+  "start": 488.769,
+  "end": 509.667,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Ele registra a população de nascidos vivos exposta a eventos no primeiro ano de vida ou em períodos próximos ao nascimento. Mortalidade infantil, neonatal e pós-neonatal usam óbitos do SIM no numerador e nascidos vivos do SINASC no denominador."
+}
+,
+{
+  "start": 510.017,
+  "end": 514.847,
+  "speaker": "ESTUDANTE",
+  "text": "A razão de mortalidade materna também usa nascidos vivos como denominador."
+}
+,
+{
+  "start": 515.197,
+  "end": 525.739,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Por isso, o SINASC é uma base central para indicadores materno-infantis, mesmo quando o evento principal está em outro sistema."
+}
+,
+{
+  "start": 526.089,
+  "end": 528.968,
+  "speaker": "ESTUDANTE",
+  "text": "Quais são os principais cuidados de interpretação?"
+}
+,
+{
+  "start": 529.318,
+  "end": 548.544,
+  "speaker": "APRESENTADORA",
+  "text": "Primeiro, verificar se a unidade de análise é nascido vivo, parto, gestação ou mãe. Segundo, distinguir residência da mãe e ocorrência do parto. Terceiro, avaliar cobertura, especialmente em municípios pequenos ou áreas remotas."
+}
+,
+{
+  "start": 548.894,
+  "end": 552.795,
+  "speaker": "ESTUDANTE",
+  "text": "E também avaliar completitude e consistência das variáveis."
+}
+,
+{
+  "start": 553.145,
+  "end": 573.393,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Peso, idade gestacional, Apgar, raça ou cor, escolaridade e anomalias congênitas merecem atenção. Também é importante separar nascidos vivos de óbitos fetais, considerar mudanças no formulário e verificar duplicidades."
+}
+,
+{
+  "start": 573.743,
+  "end": 575.879,
+  "speaker": "ESTUDANTE",
+  "text": "Como os dados podem ser acessados?"
+}
+,
+{
+  "start": 576.229,
+  "end": 592.715,
+  "speaker": "APRESENTADORA",
+  "text": "Por TabNet, para consultas rápidas; por TabWin e arquivos DBC; em R, pelo pacote microdatasus; em Python, pela biblioteca PySUS; e também por PCDaS e OpenDataSUS."
+}
+,
+{
+  "start": 593.065,
+  "end": 596.409,
+  "speaker": "ESTUDANTE",
+  "text": "Para fechar, qual é a mensagem central do capítulo?"
+}
+,
+{
+  "start": 596.759,
+  "end": 622.533,
+  "speaker": "APRESENTADORA",
+  "text": "O SINASC é a principal base nacional para estudar nascimentos e condições ao nascer. Mas sua interpretação depende de entender que cada registro é uma DNV, que nascido vivo não é o mesmo que gestação ou mãe, e que indicadores materno-infantis exigem alinhamento entre unidade de análise, território, tempo e qualidade dos campos."
+}
+
+]

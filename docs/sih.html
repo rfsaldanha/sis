@@ -141,6 +141,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
@@ -530,25 +533,42 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
    
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">7.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">7.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">7.3</span> Estrutura dos dados</a>
+  <li><a href="#quando-usar-o-sih" id="toc-quando-usar-o-sih" class="nav-link" data-scroll-target="#quando-usar-o-sih"><span class="header-section-number">7.2</span> Quando usar o SIH</a></li>
+  <li><a href="#sih-e-sia" id="toc-sih-e-sia" class="nav-link" data-scroll-target="#sih-e-sia"><span class="header-section-number">7.3</span> SIH e SIA</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">7.4</span> Histórico e organização</a></li>
+  <li><a href="#fluxo-da-aih" id="toc-fluxo-da-aih" class="nav-link" data-scroll-target="#fluxo-da-aih"><span class="header-section-number">7.5</span> Fluxo da AIH</a></li>
+  <li><a href="#aih-internação-e-pessoa" id="toc-aih-internação-e-pessoa" class="nav-link" data-scroll-target="#aih-internação-e-pessoa"><span class="header-section-number">7.6</span> AIH, internação e pessoa</a></li>
+  <li><a href="#tipos-de-aih-e-complexidade" id="toc-tipos-de-aih-e-complexidade" class="nav-link" data-scroll-target="#tipos-de-aih-e-complexidade"><span class="header-section-number">7.7</span> Tipos de AIH e complexidade</a></li>
+  <li><a href="#cobertura-e-unidade-de-análise" id="toc-cobertura-e-unidade-de-análise" class="nav-link" data-scroll-target="#cobertura-e-unidade-de-análise"><span class="header-section-number">7.8</span> Cobertura e unidade de análise</a></li>
+  <li><a href="#diagnóstico-procedimento-e-valores" id="toc-diagnóstico-procedimento-e-valores" class="nav-link" data-scroll-target="#diagnóstico-procedimento-e-valores"><span class="header-section-number">7.9</span> Diagnóstico, procedimento e valores</a></li>
+  <li><a href="#procedimentos-e-sigtap" id="toc-procedimentos-e-sigtap" class="nav-link" data-scroll-target="#procedimentos-e-sigtap"><span class="header-section-number">7.10</span> Procedimentos e SIGTAP</a></li>
+  <li><a href="#análise-territorial-e-temporal" id="toc-análise-territorial-e-temporal" class="nav-link" data-scroll-target="#análise-territorial-e-temporal"><span class="header-section-number">7.11</span> Análise territorial e temporal</a></li>
+  <li><a href="#exemplo-fluxos-de-internação" id="toc-exemplo-fluxos-de-internação" class="nav-link" data-scroll-target="#exemplo-fluxos-de-internação"><span class="header-section-number">7.12</span> Exemplo: fluxos de internação</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">7.13</span> Estrutura dos dados</a>
   <ul class="collapse">
-  <li><a href="#prefixo-dos-arquivos" id="toc-prefixo-dos-arquivos" class="nav-link" data-scroll-target="#prefixo-dos-arquivos"><span class="header-section-number">7.3.1</span> Prefixo dos arquivos</a></li>
+  <li><a href="#campos-mínimos-para-inspecionar" id="toc-campos-mínimos-para-inspecionar" class="nav-link" data-scroll-target="#campos-mínimos-para-inspecionar"><span class="header-section-number">7.13.1</span> Campos mínimos para inspecionar</a></li>
+  <li><a href="#transformações-frequentes" id="toc-transformações-frequentes" class="nav-link" data-scroll-target="#transformações-frequentes"><span class="header-section-number">7.13.2</span> Transformações frequentes</a></li>
+  <li><a href="#prefixo-dos-arquivos" id="toc-prefixo-dos-arquivos" class="nav-link" data-scroll-target="#prefixo-dos-arquivos"><span class="header-section-number">7.13.3</span> Prefixo dos arquivos</a></li>
   </ul></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">7.4</span> Acesso aos dados</a>
+  <li><a href="#aihs-rejeitadas" id="toc-aihs-rejeitadas" class="nav-link" data-scroll-target="#aihs-rejeitadas"><span class="header-section-number">7.14</span> AIHs rejeitadas</a></li>
+  <li><a href="#exemplo-internações-por-condições-sensíveis-à-atenção-primária" id="toc-exemplo-internações-por-condições-sensíveis-à-atenção-primária" class="nav-link" data-scroll-target="#exemplo-internações-por-condições-sensíveis-à-atenção-primária"><span class="header-section-number">7.15</span> Exemplo: internações por condições sensíveis à atenção primária</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">7.16</span> Acesso aos dados</a></li>
+  <li><a href="#processamento-de-grandes-volumes" id="toc-processamento-de-grandes-volumes" class="nav-link" data-scroll-target="#processamento-de-grandes-volumes"><span class="header-section-number">7.17</span> Processamento de grandes volumes</a>
   <ul class="collapse">
-  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">7.4.1</span> TabNet</a></li>
-  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">7.4.2</span> TabWin</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">7.4.3</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">7.4.4</span> Python</a></li>
-  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">7.4.5</span> PCDaS</a></li>
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">7.17.1</span> TabNet</a></li>
+  <li><a href="#tabwin-e-transferência-de-arquivos" id="toc-tabwin-e-transferência-de-arquivos" class="nav-link" data-scroll-target="#tabwin-e-transferência-de-arquivos"><span class="header-section-number">7.17.2</span> TabWin e transferência de arquivos</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">7.17.3</span> R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">7.17.4</span> Python</a></li>
+  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">7.17.5</span> PCDaS</a></li>
   </ul></li>
-  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">7.5</span> Principais usos e indicadores</a></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">7.6</span> Bibliografia recomendada</a>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">7.18</span> Relacionamento com outros sistemas</a></li>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">7.19</span> Principais usos e indicadores</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">7.20</span> Cuidados de interpretação</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">7.21</span> Bibliografia recomendada</a>
   <ul class="collapse">
-  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">7.6.1</span> Documentos auxiliares</a></li>
-  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">7.6.2</span> Vídeos</a></li>
-  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">7.6.3</span> Avaliação da qualidade dos dados</a></li>
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">7.21.1</span> Documentos auxiliares</a></li>
+  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">7.21.2</span> Vídeos</a></li>
+  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">7.21.3</span> Avaliação da qualidade dos dados</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sih.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -576,153 +596,1192 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
+<section class="podcast-player" data-transcript="podcast/sih_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sih.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sih.md">podcast/sih.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
 <section id="resumo" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">7.1</span> Resumo</h2>
-<ul>
-<li>Ano de criação: 1981</li>
-<li>Cobertura: Dimensão pública do SUS</li>
-<li>Unidade: Autorização de Internação Hospitalar (AIH)</li>
-<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
-</ul>
+<table class="caption-top table">
+<caption>Características gerais do SIH/SUS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ano de criação</td>
+<td>1981</td>
+</tr>
+<tr class="even">
+<td>Evento registrado</td>
+<td>Internação financiada pelo SUS</td>
+</tr>
+<tr class="odd">
+<td>Documento básico</td>
+<td>Autorização de Internação Hospitalar (AIH)</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>AIH, não pessoa</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Internações na rede pública e conveniada ao SUS</td>
+</tr>
+<tr class="even">
+<td>Abrangência assistencial</td>
+<td>Não cobre integralmente internações privadas não financiadas pelo SUS</td>
+</tr>
+<tr class="odd">
+<td>Disseminação</td>
+<td>Mensal, com defasagem curta em relação à competência</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informações Hospitalares do SUS (SIH/SUS) é a principal fonte nacional para analisar internações financiadas pelo SUS. Seus dados permitem estudar volume de internações, diagnósticos, procedimentos, permanência hospitalar, valores pagos, óbitos hospitalares, fluxos de pacientes e uso da rede hospitalar.</p>
+<p>O SIH tem origem administrativa e financeira. Isso significa que sua unidade básica é a AIH, criada para autorizar, registrar e remunerar internações. Mesmo assim, seus dados são amplamente usados em estudos epidemiológicos, avaliação de políticas, planejamento regional e análise da oferta hospitalar.</p>
 </section>
-<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">7.2</span> Histórico e organização</h2>
-<p>A concepção do SIH tem origem administrativa, visando operar pagamentos de internações e instrumentar ações de controle e auditorias. Em 1977, havia um sistema nacional de controle de pagamento de contas hospitalares para o ressarcimento de despesas aos hospitais. Este sistema já era informatizado, mas apresentava muitos passos não-automatizados de preenchimento e problemas de imprevisibilidade de faturamento dos hospitais. Enfrentando denúncias frequentes de fraudes, foi estabelecida uma comissão técnica que propôs a criação de um sistema menos complexo e mais preciso, baseado em um instrumento único, a <em>Autorização de Internação Hospitalar (AIH)</em>.</p>
-<p>A adoção da AIH e implantação do SIH foi iniciada em 1981, com um projeto piloto em Curitiba, e posteriormente foi implantada em todo o território nacional, em 1983. A evolução do SIH acompanhou a evolução da informática no Brasil, desde a utilização de disquetes para coleta de dados introduzida em 1992. Atualmente, o sistema apresenta críticas automáticas durante o preenchimento da AIH, avisando o profissional sobre possíveis erros durante o preenchimento da AIH. Estas críticas verificam possíveis incompatibilidades entre idade, sexo, e capacidade declarada dos estabelecimentos de saúde frente aos procedimentos lançados na autorização, contribuindo para uma melhor qualidade dos dados do sistema <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
-<p>A cobertura do SIH se limita à esfera pública do SUS e sua rede conveniada. A AIH habilita a internação do paciente na unidade de saúde, agregando informações de custo, pagamentos e ressarcimentos. Apesar de sua origem administrativa, A AIH apresenta informações de interesse para pesquisas como informações demográficas sobre o paciente, procedimentos realizados, causa e duração da internação, além de dados sobre o estabelecimento de saúde. Seus dados são utilizados para avaliações de políticas públicas e pesquisas sobre acesso a serviços de saúde e análises de situação de saúde. Em termos de dimensão, entre 2008 e maio de 2024, o SIH apresenta 186.302.654 AIHs cadastradas, segundo dados compilados pela PCDaS/ICICT <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
-<p>Este é um dos sistemas de informação de saúde que recebe novos registros com maior frequência, junto com o Sistema de Informações Ambulatoriais – SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>). A análise destes dados requerem estratégias específicas para lidar com grandes bases de dados, utilizando, em geral, soluções de banco de dados relacionais que permitam um processamento analítico on-line (OLAP) eficiente.</p>
+<section id="quando-usar-o-sih" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="quando-usar-o-sih"><span class="header-section-number">7.2</span> Quando usar o SIH</h2>
+<p>O SIH deve ser usado quando a pergunta envolve internações hospitalares financiadas pelo SUS, procedimentos hospitalares, permanência, valores ou desfecho da internação. Quando a pergunta envolve eventos não hospitalares, atendimentos ambulatoriais ou internações exclusivamente privadas, outras fontes são necessárias.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SIH para</th>
+<th>Fonte complementar comum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantas internações SUS ocorreram?</td>
+<td>Contar AIH aprovadas</td>
+<td>POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>) para taxas</td>
+</tr>
+<tr class="even">
+<td>Quais causas geraram internação?</td>
+<td>Analisar diagnóstico principal</td>
+<td>CID (<a href="cid.html" class="quarto-xref"><span>Apêndice B</span></a>) para agrupamentos</td>
+</tr>
+<tr class="odd">
+<td>Quais procedimentos foram realizados?</td>
+<td>Analisar procedimento realizado</td>
+<td>SIGTAP para regras e descrição</td>
+</tr>
+<tr class="even">
+<td>Onde ocorreram as internações?</td>
+<td>Analisar estabelecimento e município de internação</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para perfil do serviço</td>
+</tr>
+<tr class="odd">
+<td>Houve óbito hospitalar?</td>
+<td>Identificar desfecho da internação</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>) para mortalidade total</td>
+</tr>
+<tr class="even">
+<td>Qual foi o valor registrado?</td>
+<td>Analisar valores da AIH</td>
+<td>Tabelas de remuneração do SUS</td>
+</tr>
+<tr class="odd">
+<td>Qual foi o fluxo entre residência e internação?</td>
+<td>Comparar município de residência e ocorrência</td>
+<td>Regiões de saúde e rede assistencial</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sih-e-sia" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="sih-e-sia"><span class="header-section-number">7.3</span> SIH e SIA</h2>
+<p>SIH e SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>) são sistemas de produção assistencial e têm forte componente administrativo-financeiro. A diferença principal está na unidade registrada: o SIH organiza internações por AIH, enquanto o SIA registra produção ambulatorial por diferentes instrumentos.</p>
+<table class="caption-top table">
+<caption>Diferenças práticas entre SIH e SIA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>SIH</th>
+<th>SIA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tipo de cuidado</td>
+<td>Hospitalar</td>
+<td>Ambulatorial</td>
+</tr>
+<tr class="even">
+<td>Unidade típica</td>
+<td>AIH</td>
+<td>Procedimento ou autorização ambulatorial</td>
+</tr>
+<tr class="odd">
+<td>Evento assistencial</td>
+<td>Internação</td>
+<td>Atendimento, exame, procedimento ou terapia</td>
+</tr>
+<tr class="even">
+<td>Periodicidade</td>
+<td>Mensal</td>
+<td>Mensal</td>
+</tr>
+<tr class="odd">
+<td>Uso comum</td>
+<td>Morbidade hospitalar e produção</td>
+<td>Produção ambulatorial e procedimentos</td>
+</tr>
+<tr class="even">
+<td>Cuidado central</td>
+<td>AIH não é pessoa</td>
+<td>Produção não é pessoa</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">7.4</span> Histórico e organização</h2>
+<p>A concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH).</p>
+<p>A adoção da AIH e a implantação do SIH começaram em 1981, com projeto piloto em Curitiba, e avançaram para implantação nacional em 1983. Ao longo do tempo, o sistema incorporou mudanças tecnológicas, regras de crítica e mecanismos de validação. Atualmente, há críticas automáticas para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento, contribuindo para a consistência do registro <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
+<p>A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
+<p>Este é um dos sistemas de informação em saúde com atualização mais frequente, junto com o Sistema de Informações Ambulatoriais – SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.</p>
+</section>
+<section id="fluxo-da-aih" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="fluxo-da-aih"><span class="header-section-number">7.5</span> Fluxo da AIH</h2>
+<p>A AIH estrutura o ciclo administrativo da internação: solicitação, autorização, registro da internação, faturamento, crítica, aprovação ou rejeição e posterior disseminação dos dados.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-sih-aih" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sih-aih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sih-aih">flowchart TD
+  sol[Solicitacao de internacao] --&gt; aut[Autorizacao da AIH]
+  aut --&gt; int[Internacao hospitalar]
+  int --&gt; alta[Alta, transferencia ou obito]
+  alta --&gt; fat[Faturamento da AIH]
+  fat --&gt; crit[Criticas e consistencia]
+  crit --&gt; apr[AIH aprovada]
+  crit --&gt; rej[AIH rejeitada]
+  apr --&gt; rd[Arquivo RD]
+  rej --&gt; rjer[Arquivos RJ/ER]
+  rd --&gt; sis[Disseminacao do SIH]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sih-aih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.1: Fluxo simplificado da Autorização de Internação Hospitalar
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Esse fluxo reforça que a base disseminada é produto de regras administrativas. AIHs rejeitadas, valores aprovados, procedimentos realizados e motivo de saída devem ser interpretados a partir dessas regras.</p>
+</section>
+<section id="aih-internação-e-pessoa" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="aih-internação-e-pessoa"><span class="header-section-number">7.6</span> AIH, internação e pessoa</h2>
+<p>A AIH não deve ser interpretada automaticamente como pessoa única. Uma pessoa pode ter mais de uma AIH ao longo do tempo, e uma internação complexa pode envolver regras específicas de continuidade, renovação ou cobrança. Para muitas análises, “número de AIH” é uma aproximação operacional de internações aprovadas, não uma contagem de indivíduos.</p>
+<table class="caption-top table">
+<caption>Diferenças entre AIH, internação, pessoa e procedimento</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>O que representa</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AIH</td>
+<td>Autorização e registro administrativo da internação</td>
+<td>Não identifica pessoa única em séries longas</td>
+</tr>
+<tr class="even">
+<td>Internação</td>
+<td>Episódio de cuidado hospitalar</td>
+<td>Pode exigir regras para continuidade</td>
+</tr>
+<tr class="odd">
+<td>Pessoa</td>
+<td>Indivíduo internado</td>
+<td>Nem sempre é identificável em bases públicas</td>
+</tr>
+<tr class="even">
+<td>Procedimento</td>
+<td>Ação hospitalar registrada</td>
+<td>Pode ser solicitado, realizado ou secundário</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Serviço onde ocorreu a internação</td>
+<td>Deve ser analisado com CNES</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Evite escrever “pacientes” quando a análise contou AIHs. Use “AIHs”, “internações registradas” ou “internações aprovadas”, a menos que o método tenha identificado pessoas ou episódios de cuidado.</p>
+</div>
+</div>
+</section>
+<section id="tipos-de-aih-e-complexidade" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="tipos-de-aih-e-complexidade"><span class="header-section-number">7.7</span> Tipos de AIH e complexidade</h2>
+<p>Nem toda AIH representa um episódio simples e isolado de cuidado. Algumas internações exigem continuidade, longa permanência, procedimentos especiais, complementação de registros ou regras específicas de autorização. Isso afeta contagens, séries temporais e análises por procedimento.</p>
+<table class="caption-top table">
+<caption>Situações que afetam a interpretação da AIH</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Impacto na análise</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Internação curta e única</td>
+<td>Contagem por AIH aproxima episódio</td>
+</tr>
+<tr class="even">
+<td>Longa permanência</td>
+<td>Pode exigir regra para continuidade</td>
+</tr>
+<tr class="odd">
+<td>Procedimento de alta complexidade</td>
+<td>Pode ter regras específicas de autorização</td>
+</tr>
+<tr class="even">
+<td>AIH complementar</td>
+<td>Pode alterar valores ou informações</td>
+</tr>
+<tr class="odd">
+<td>Reinternação</td>
+<td>Pode representar novo episódio ou continuidade clínica</td>
+</tr>
+<tr class="even">
+<td>Transferência</td>
+<td>Pode dividir cuidado entre estabelecimentos</td>
+</tr>
+</tbody>
+</table>
+<p>Quando a pergunta é sobre episódios assistenciais, é necessário definir regras para reinternação, transferência e continuidade. Quando a pergunta é sobre produção aprovada, a AIH pode ser analisada diretamente, desde que o método deixe claro o arquivo e os filtros usados.</p>
+</section>
+<section id="cobertura-e-unidade-de-análise" class="level2" data-number="7.8">
+<h2 data-number="7.8" class="anchored" data-anchor-id="cobertura-e-unidade-de-análise"><span class="header-section-number">7.8</span> Cobertura e unidade de análise</h2>
+<p>O SIH cobre internações financiadas pelo SUS. Essa delimitação é central para interpretar resultados, especialmente em municípios, especialidades ou procedimentos com grande participação do setor privado não SUS.</p>
+<table class="caption-top table">
+<caption>Dimensões importantes para análise do SIH</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Cuidado de interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Residência</td>
+<td>Usada para estimar risco ou demanda da população residente</td>
+</tr>
+<tr class="even">
+<td>Ocorrência</td>
+<td>Indica onde a internação ocorreu</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Permite analisar produção hospitalar e rede</td>
+</tr>
+<tr class="even">
+<td>Diagnóstico principal</td>
+<td>Usado para morbidade hospitalar por causa</td>
+</tr>
+<tr class="odd">
+<td>Procedimento realizado</td>
+<td>Usado para produção e pagamento</td>
+</tr>
+<tr class="even">
+<td>Valores</td>
+<td>Representam remuneração registrada, não custo econômico total</td>
+</tr>
+<tr class="odd">
+<td>Desfecho</td>
+<td>Refere-se ao encerramento da internação hospitalar</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="diagnóstico-procedimento-e-valores" class="level2" data-number="7.9">
+<h2 data-number="7.9" class="anchored" data-anchor-id="diagnóstico-procedimento-e-valores"><span class="header-section-number">7.9</span> Diagnóstico, procedimento e valores</h2>
+<p>O SIH combina campos clínicos e administrativos. O diagnóstico principal, codificado pela CID (<a href="cid.html" class="quarto-xref"><span>Apêndice B</span></a>), descreve a condição associada à internação. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Esses dois campos respondem a perguntas diferentes.</p>
+<table class="caption-top table">
+<caption>Diferenças entre diagnóstico, procedimento e valor</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campo analítico</th>
+<th>Pergunta respondida</th>
+<th>Exemplo de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diagnóstico principal</td>
+<td>Por que a pessoa foi internada?</td>
+<td>Internações por pneumonia</td>
+</tr>
+<tr class="even">
+<td>Diagnóstico secundário</td>
+<td>Que condição associada foi registrada?</td>
+<td>Comorbidades ou complicações</td>
+</tr>
+<tr class="odd">
+<td>Procedimento solicitado</td>
+<td>O que foi solicitado/autorizado?</td>
+<td>Solicitação de cirurgia</td>
+</tr>
+<tr class="even">
+<td>Procedimento realizado</td>
+<td>O que foi produzido/remunerado?</td>
+<td>Cirurgia efetivamente registrada</td>
+</tr>
+<tr class="odd">
+<td>Valor total</td>
+<td>Quanto foi pago na AIH?</td>
+<td>Valor médio por internação</td>
+</tr>
+</tbody>
+</table>
+<p>Valores do SIH devem ser interpretados como valores pagos ou aprovados segundo regras do SUS. Eles não equivalem necessariamente ao custo real de produção do cuidado, ao preço de mercado ou ao gasto total do hospital.</p>
+</section>
+<section id="procedimentos-e-sigtap" class="level2" data-number="7.10">
+<h2 data-number="7.10" class="anchored" data-anchor-id="procedimentos-e-sigtap"><span class="header-section-number">7.10</span> Procedimentos e SIGTAP</h2>
+<p>Os procedimentos hospitalares registrados no SIH são condicionados por regras da tabela de procedimentos do SUS, conhecida como SIGTAP. Essas regras incluem descrição do procedimento, grupo, subgrupo, forma de organização, complexidade, financiamento, compatibilidades e restrições.</p>
+<table class="caption-top table">
+<caption>Elementos do SIGTAP relevantes para análise do SIH</caption>
+<thead>
+<tr class="header">
+<th>Regra do procedimento</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Código e descrição</td>
+<td>Define o procedimento analisado</td>
+</tr>
+<tr class="even">
+<td>Grupo e subgrupo</td>
+<td>Permite agregação da produção</td>
+</tr>
+<tr class="odd">
+<td>Compatibilidade CID</td>
+<td>Afeta aprovação e consistência</td>
+</tr>
+<tr class="even">
+<td>Compatibilidade por idade e sexo</td>
+<td>Evita combinações inválidas</td>
+</tr>
+<tr class="odd">
+<td>Complexidade</td>
+<td>Ajuda a estratificar produção</td>
+</tr>
+<tr class="even">
+<td>Valor de referência</td>
+<td>Influencia remuneração registrada</td>
+</tr>
+<tr class="odd">
+<td>Vigência temporal</td>
+<td>Evita comparar códigos descontinuados</td>
+</tr>
+</tbody>
+</table>
+<p>Em séries históricas, procedimentos podem mudar de código, descrição, valor ou regra de compatibilidade. Por isso, análises por procedimento devem guardar a versão da tabela usada e verificar se a mudança observada reflete produção assistencial ou mudança administrativa.</p>
+</section>
+<section id="análise-territorial-e-temporal" class="level2" data-number="7.11">
+<h2 data-number="7.11" class="anchored" data-anchor-id="análise-territorial-e-temporal"><span class="header-section-number">7.11</span> Análise territorial e temporal</h2>
+<p>O SIH permite analisar internações por residência do paciente, local de ocorrência, estabelecimento e competência. Esses recortes respondem a perguntas distintas.</p>
+<table class="caption-top table">
+<caption>Recortes territoriais e temporais frequentes no SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Recorte</th>
+<th>Pergunta respondida</th>
+<th>Exemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Residência</td>
+<td>De onde vem a demanda por internação?</td>
+<td>Taxa de internação de residentes</td>
+</tr>
+<tr class="even">
+<td>Ocorrência</td>
+<td>Onde a internação aconteceu?</td>
+<td>Produção hospitalar por município</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Qual serviço realizou a internação?</td>
+<td>Perfil de maternidades ou hospitais</td>
+</tr>
+<tr class="even">
+<td>Competência</td>
+<td>Em que mês a produção foi registrada?</td>
+<td>Série mensal de AIHs aprovadas</td>
+</tr>
+<tr class="odd">
+<td>Data de internação ou saída</td>
+<td>Quando ocorreu o episódio assistencial?</td>
+<td>Permanência e sazonalidade</td>
+</tr>
+</tbody>
+</table>
+<p>Para estimar risco populacional, em geral usa-se residência e população residente. Para estudar rede, oferta, produção ou centralidade hospitalar, ocorrência e estabelecimento são mais adequados. Em séries temporais, diferencie data de internação, data de saída e mês de competência da AIH.</p>
+</section>
+<section id="exemplo-fluxos-de-internação" class="level2" data-number="7.12">
+<h2 data-number="7.12" class="anchored" data-anchor-id="exemplo-fluxos-de-internação"><span class="header-section-number">7.12</span> Exemplo: fluxos de internação</h2>
+<p>Fluxos de internação são uma aplicação importante do SIH para regionalização e planejamento da rede. A ideia é comparar o município de residência do usuário com o município ou estabelecimento onde ocorreu a internação.</p>
+<table class="caption-top table">
+<caption>Campos úteis em uma análise de fluxos de internação</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Origem</td>
+<td>Município de residência</td>
+<td>Representa demanda da população residente</td>
+</tr>
+<tr class="even">
+<td>Destino</td>
+<td>Município ou CNES de internação</td>
+<td>Representa oferta utilizada</td>
+</tr>
+<tr class="odd">
+<td>Volume</td>
+<td>Número de AIHs</td>
+<td>Não é número de pessoas</td>
+</tr>
+<tr class="even">
+<td>Escopo</td>
+<td>Procedimento, causa ou especialidade</td>
+<td>Definir antes da análise</td>
+</tr>
+<tr class="odd">
+<td>Tempo</td>
+<td>Competência ou data de internação</td>
+<td>Manter recorte único</td>
+</tr>
+<tr class="even">
+<td>Rede</td>
+<td>Região de saúde ou macrorregião</td>
+<td>Usar regionalização vigente</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>fluxos_sih <span class="ot">&lt;-</span> sih_p <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(MUNIC_RES, MUNIC_MOV, <span class="at">name =</span> <span class="st">"aih"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">mesmo_municipio =</span> MUNIC_RES <span class="sc">==</span> MUNIC_MOV</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>fluxos_sih</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Os nomes das variáveis de ocorrência podem variar conforme processamento e arquivo. Em algumas bases, o município de internação aparece como <code>MUNIC_MOV</code>, <code>MUNIC_HOSP</code> ou campo equivalente. Confirme a estrutura do ano analisado antes de automatizar o fluxo.</p>
+</div>
+</div>
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="7.13">
+<h2 data-number="7.13" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">7.13</span> Estrutura dos dados</h2>
+<p>O documento de <a href="assets/sih/IT_SIHSUS_1603.pdf">estrutura do SIH</a> descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão competência, município de residência, estabelecimento, idade, sexo, diagnóstico principal, procedimento realizado, datas de internação e saída, dias de permanência, valores e motivo de saída.</p>
+<section id="campos-mínimos-para-inspecionar" class="level3" data-number="7.13.1">
+<h3 data-number="7.13.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">7.13.1</span> Campos mínimos para inspecionar</h3>
+<p>Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. Em análises iniciais, costuma ser útil verificar:</p>
+<table class="caption-top table">
+<caption>Campos úteis para uma primeira inspeção dos dados do SIH</caption>
+<thead>
+<tr class="header">
+<th>Campo</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ANO_CMPT</code> e <code>MES_CMPT</code></td>
+<td>Competência da AIH</td>
+</tr>
+<tr class="even">
+<td><code>N_AIH</code></td>
+<td>Identificador administrativo da AIH</td>
+</tr>
+<tr class="odd">
+<td><code>CNES</code> ou identificador do hospital</td>
+<td>Estabelecimento de ocorrência</td>
+</tr>
+<tr class="even">
+<td><code>MUNIC_RES</code></td>
+<td>Município de residência</td>
+</tr>
+<tr class="odd">
+<td><code>DT_INTER</code></td>
+<td>Data de internação</td>
+</tr>
+<tr class="even">
+<td><code>DT_SAIDA</code></td>
+<td>Data de saída</td>
+</tr>
+<tr class="odd">
+<td><code>DIAG_PRINC</code></td>
+<td>Diagnóstico principal</td>
+</tr>
+<tr class="even">
+<td><code>DIAG_SECUN</code> ou equivalente</td>
+<td>Diagnóstico secundário</td>
+</tr>
+<tr class="odd">
+<td><code>PROC_REA</code></td>
+<td>Procedimento realizado</td>
+</tr>
+<tr class="even">
+<td><code>IDADE</code> e <code>SEXO</code></td>
+<td>Perfil demográfico</td>
+</tr>
+<tr class="odd">
+<td><code>MORTE</code> ou motivo de saída</td>
+<td>Óbito hospitalar ou desfecho</td>
+</tr>
+<tr class="even">
+<td><code>VAL_TOT</code></td>
+<td>Valor total registrado</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="transformações-frequentes" class="level3" data-number="7.13.2">
+<h3 data-number="7.13.2" class="anchored" data-anchor-id="transformações-frequentes"><span class="header-section-number">7.13.2</span> Transformações frequentes</h3>
+<p>Muitas análises do SIH dependem de transformar campos originais em medidas epidemiológicas ou operacionais. Essas regras devem ser declaradas no método.</p>
+<table class="caption-top table">
+<caption>Transformações comuns em análises com SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito</th>
+<th>Regra operacional comum</th>
+<th>Campo associado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Permanência</td>
+<td>Data de saída menos data de internação</td>
+<td><code>DT_INTER</code>, <code>DT_SAIDA</code></td>
+</tr>
+<tr class="even">
+<td>Faixa etária</td>
+<td>Agrupamento de idade</td>
+<td><code>IDADE</code></td>
+</tr>
+<tr class="odd">
+<td>Óbito hospitalar</td>
+<td>Motivo de saída ou indicador de morte</td>
+<td><code>MORTE</code> ou equivalente</td>
+</tr>
+<tr class="even">
+<td>Grupo de causa</td>
+<td>Agrupamento do diagnóstico principal</td>
+<td><code>DIAG_PRINC</code></td>
+</tr>
+<tr class="odd">
+<td>Grupo de procedimento</td>
+<td>Agrupamento do procedimento realizado</td>
+<td><code>PROC_REA</code></td>
+</tr>
+<tr class="even">
+<td>Internação de residente</td>
+<td>Município de residência no território</td>
+<td><code>MUNIC_RES</code></td>
+</tr>
+<tr class="odd">
+<td>Internação fora do município</td>
+<td>Residência diferente da ocorrência</td>
+<td><code>MUNIC_RES</code>, ocorrência</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prefixo-dos-arquivos" class="level3" data-number="7.13.3">
+<h3 data-number="7.13.3" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">7.13.3</span> Prefixo dos arquivos</h3>
+<table class="caption-top table">
+<caption>Prefixos comuns dos arquivos do SIH</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Prefixo</th>
+<th>Conteúdo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RD</td>
+<td>AIH reduzida, principal arquivo para análise de internações aprovadas</td>
+</tr>
+<tr class="even">
+<td>SP</td>
+<td>Serviços profissionais associados à AIH</td>
+</tr>
+<tr class="odd">
+<td>RJ</td>
+<td>AIH rejeitadas</td>
+</tr>
+<tr class="even">
+<td>ER</td>
+<td>AIH rejeitadas com código de erro</td>
+</tr>
+</tbody>
+</table>
+<p>O arquivo RD costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Arquivos SP são úteis quando a pergunta exige detalhar serviços profissionais vinculados à internação. Arquivos de rejeição ajudam em auditoria e qualidade do processamento, mas não representam produção aprovada.</p>
+</section>
+</section>
+<section id="aihs-rejeitadas" class="level2" data-number="7.14">
+<h2 data-number="7.14" class="anchored" data-anchor-id="aihs-rejeitadas"><span class="header-section-number">7.14</span> AIHs rejeitadas</h2>
+<p>Arquivos RJ e ER registram AIHs rejeitadas ou com erro no processamento. Eles são úteis para auditoria, avaliação da qualidade do faturamento, identificação de inconsistências e estudo de perdas administrativas. No entanto, não devem ser somados aos arquivos RD como se representassem internações aprovadas.</p>
+<table class="caption-top table">
+<caption>Uso analítico dos arquivos de aprovação e rejeição</caption>
+<thead>
+<tr class="header">
+<th>Arquivo</th>
+<th>Uso recomendado</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RD</td>
+<td>Produção aprovada</td>
+<td>Base principal para morbidade hospitalar</td>
+</tr>
+<tr class="even">
+<td>RJ</td>
+<td>Rejeições</td>
+<td>Não representa produção aprovada</td>
+</tr>
+<tr class="odd">
+<td>ER</td>
+<td>Códigos de erro</td>
+<td>Útil para auditoria e qualidade</td>
+</tr>
+<tr class="even">
+<td>SP</td>
+<td>Serviços profissionais</td>
+<td>Complementa detalhes de produção</td>
+</tr>
+</tbody>
+</table>
+<p>Se a pergunta é “quantas internações ocorreram no SUS?”, use AIHs aprovadas. Se a pergunta é “por que AIHs foram rejeitadas?”, use RJ/ER separadamente e descreva os códigos de erro analisados.</p>
+</section>
+<section id="exemplo-internações-por-condições-sensíveis-à-atenção-primária" class="level2 page-columns page-full" data-number="7.15">
+<h2 data-number="7.15" class="anchored" data-anchor-id="exemplo-internações-por-condições-sensíveis-à-atenção-primária"><span class="header-section-number">7.15</span> Exemplo: internações por condições sensíveis à atenção primária</h2>
+<p>Internações por condições sensíveis à atenção primária (ICSAP) são um exemplo clássico de uso do SIH para avaliação indireta do acesso e da efetividade da atenção primária. No Brasil, a lista de condições foi publicada pela Portaria SAS/MS nº 221/2008 <span class="citation" data-cites="brasilPortaria2212008">(<a href="referencias.html#ref-brasilPortaria2212008" role="doc-biblioref">BRASIL, 2008</a>)</span>, e há ferramentas em R para aplicar a lista aos registros de AIH <span class="citation" data-cites="nedelPacoteCsapaihLista2019">(<a href="referencias.html#ref-nedelPacoteCsapaihLista2019" role="doc-biblioref">NEDEL, 2019</a>)</span>.</p>
+<table class="caption-top table">
+<caption>Campos úteis em uma análise de ICSAP</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numerador</td>
+<td>AIHs com diagnóstico principal na lista ICSAP</td>
+<td>Documentar a lista e a versão usada</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População residente ou total de AIHs</td>
+<td>Escolher conforme indicador</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município de residência</td>
+<td>Usar para avaliar risco da população residente</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Competência ou data de internação</td>
+<td>Não misturar recortes temporais</td>
+</tr>
+<tr class="odd">
+<td>Idade</td>
+<td>Faixa etária</td>
+<td>Padronizar quando comparar territórios</td>
+</tr>
+<tr class="even">
+<td>Cobertura</td>
+<td>Internações SUS</td>
+<td>Não representa internações privadas não SUS</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>icsap_mun <span class="ot">&lt;-</span> sih_p <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">icsap =</span> DIAG_PRINC <span class="sc">%in%</span> lista_icsap_cid10) <span class="sc">|&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(MUNIC_RES) <span class="sc">|&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">aih =</span> <span class="fu">n</span>(),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">aih_icsap =</span> <span class="fu">sum</span>(icsap, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">prop_icsap =</span> aih_icsap <span class="sc">/</span> aih,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>icsap_mun</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O objeto <code>lista_icsap_cid10</code> representa uma lista previamente preparada de códigos CID-10 sensíveis à atenção primária. Em uma análise real, essa lista deve ser construída a partir da portaria ou de pacote específico e versionada junto ao código.</p>
+</div>
+</div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-479d2d9a22689f9fe504" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-bd7620a0a52101971da8" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-479d2d9a22689f9fe504">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) em Curitiba<\/small>","start":"1981-01-01"},{"id":"3","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) no Paraná<\/small>","start":"1983-01-01"},{"id":"4","content":"<small>Sistema de Informações<\/br>Hospitalares do Sistema Único de Saúde (SIH-SUS)<\/small>","start":"1991-01-01"},{"id":"5","content":"<small>Inclusão de variáveis<\/br>socioeconômicas<\/small>","start":"1998-11-25"},{"id":"6","content":"<small>Sistema Nacional de Controle e Pagamento de<\/br>Contas Hospitalares e Guia de Internação Hospitalar<\/small>","start":"1977-01-01"},{"id":"7","content":"<small>AIH em disquete e captação descentralizada<\/small>","start":"1992-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-bd7620a0a52101971da8">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) em Curitiba<\/small>","start":"1981-01-01"},{"id":"3","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) no Paraná<\/small>","start":"1983-01-01"},{"id":"4","content":"<small>Sistema de Informações<\/br>Hospitalares do Sistema Único de Saúde (SIH-SUS)<\/small>","start":"1991-01-01"},{"id":"5","content":"<small>Inclusão de variáveis<\/br>socioeconômicas<\/small>","start":"1998-11-25"},{"id":"6","content":"<small>Sistema Nacional de Controle e Pagamento de<\/br>Contas Hospitalares e Guia de Internação Hospitalar<\/small>","start":"1977-01-01"},{"id":"7","content":"<small>AIH em disquete e captação descentralizada<\/small>","start":"1992-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIH</p>
 </div>
 </div>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">7.3</span> Estrutura dos dados</h2>
-<p>Confira o documento de <a href="assets/sih/IT_SIHSUS_1603.pdf">estrutura do SIH</a>, onde estão descritas as variáveis disponíveis.</p>
-<section id="prefixo-dos-arquivos" class="level3" data-number="7.3.1">
-<h3 data-number="7.3.1" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">7.3.1</span> Prefixo dos arquivos</h3>
-<ul>
-<li>ER: AIH rejeitadas com código de erro</li>
-<li>RD: AIH Reduzida</li>
-<li>RJ: AIH rejeitadas</li>
-<li>SP: serviços profissionais</li>
-</ul>
+<section id="acesso-aos-dados" class="level2" data-number="7.16">
+<h2 data-number="7.16" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">7.16</span> Acesso aos dados</h2>
+<p>Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objetivo da análise.</p>
+<table class="caption-top table">
+<caption>Formas de acesso aos dados do SIH</caption>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TabNet</td>
+<td>Tabulações rápidas e consultas agregadas</td>
+</tr>
+<tr class="even">
+<td>TabWin/DBC</td>
+<td>Download e tabulação local de arquivos do DataSUS</td>
+</tr>
+<tr class="odd">
+<td>R</td>
+<td>Fluxos reprodutíveis com <code>{microdatasus}</code></td>
+</tr>
+<tr class="even">
+<td>Python</td>
+<td>Fluxos reprodutíveis com PySUS</td>
+</tr>
+<tr class="odd">
+<td>PCDaS</td>
+<td>Uso em ambiente de notebooks e infraestrutura de dados</td>
+</tr>
+</tbody>
+</table>
 </section>
-</section>
-<section id="acesso-aos-dados" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">7.4</span> Acesso aos dados</h2>
-<section id="tabnet" class="level3" data-number="7.4.1">
-<h3 data-number="7.4.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">7.4.1</span> TabNet</h3>
-<p>Os dados do SIH podem ser acessados no sistema TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
+<section id="processamento-de-grandes-volumes" class="level2" data-number="7.17">
+<h2 data-number="7.17" class="anchored" data-anchor-id="processamento-de-grandes-volumes"><span class="header-section-number">7.17</span> Processamento de grandes volumes</h2>
+<p>O SIH é disseminado em arquivos mensais por unidade federativa e pode crescer rapidamente em análises nacionais ou séries longas. Para trabalhos reprodutíveis, prefira ingestão incremental, armazenamento em formatos colunares e consultas que evitem carregar toda a base em memória.</p>
+<table class="caption-top table">
+<caption>Estratégias para processamento do SIH em escala</caption>
+<thead>
+<tr class="header">
+<th>Estratégia</th>
+<th>Quando usar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Baixar por UF e mês</td>
+<td>Controle incremental e reprocessamento parcial</td>
+</tr>
+<tr class="even">
+<td>Padronizar nomes e tipos</td>
+<td>Evitar quebras entre anos</td>
+</tr>
+<tr class="odd">
+<td>Salvar em Parquet</td>
+<td>Leitura rápida e compactação</td>
+</tr>
+<tr class="even">
+<td>Usar DuckDB</td>
+<td>Consultas locais em bases grandes</td>
+</tr>
+<tr class="odd">
+<td>Registrar filtros</td>
+<td>Reprodutibilidade do indicador</td>
+</tr>
+<tr class="even">
+<td>Separar bruto e tratado</td>
+<td>Auditoria do processamento</td>
+</tr>
+</tbody>
+</table>
+<p>Uma organização comum é manter os arquivos brutos imutáveis, gerar uma camada tratada com tipos padronizados e criar tabelas analíticas menores para cada pergunta. Isso reduz o risco de misturar competências, arquivos ou filtros.</p>
+<section id="tabnet" class="level3" data-number="7.17.1">
+<h3 data-number="7.17.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">7.17.1</span> TabNet</h3>
+<p>Os dados do SIH podem ser acessados no TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/">TabNet SIH</a></li>
 </ul>
 </section>
-<section id="tabwin" class="level3" data-number="7.4.2">
-<h3 data-number="7.4.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">7.4.2</span> TabWin</h3>
-<p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
+<section id="tabwin-e-transferência-de-arquivos" class="level3" data-number="7.17.2">
+<h3 data-number="7.17.2" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">7.17.2</span> TabWin e transferência de arquivos</h3>
+<p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
 </section>
-<section id="r" class="level3" data-number="7.4.3">
-<h3 data-number="7.4.3" class="anchored" data-anchor-id="r"><span class="header-section-number">7.4.3</span> R</h3>
-<p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
+<section id="r" class="level3" data-number="7.17.3">
+<h3 data-number="7.17.3" class="anchored" data-anchor-id="r"><span class="header-section-number">7.17.3</span> R</h3>
+<p>O pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a> permite baixar e pré-processar microdados do DataSUS em R <span class="citation" data-cites="Saldanha2019a">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>)</span>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sih_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">1</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">2</span>,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SIH-RD"</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>sih_p <span class="ot">&lt;-</span> <span class="fu">process_sinasc</span>(sih_raw)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>sih_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 7,427 × 113
-   UF_ZI  ANO_CMPT MES_CMPT ESPEC CGC_HOSP     N_AIH IDENT CEP   MUNIC_RES NASC 
-   &lt;chr&gt;  &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;
- 1 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1959…
- 2 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1950…
- 3 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1960…
- 4 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1959…
- 5 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1995…
- 6 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1957…
- 7 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1956…
- 8 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1954…
- 9 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    2001…
-10 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1951…
-# ℹ 7,417 more rows
-# ℹ 103 more variables: SEXO &lt;chr&gt;, UTI_MES_IN &lt;chr&gt;, UTI_MES_AN &lt;chr&gt;,
-#   UTI_MES_AL &lt;chr&gt;, UTI_MES_TO &lt;chr&gt;, MARCA_UTI &lt;chr&gt;, UTI_INT_IN &lt;chr&gt;,
-#   UTI_INT_AN &lt;chr&gt;, UTI_INT_AL &lt;chr&gt;, UTI_INT_TO &lt;chr&gt;, DIAR_ACOM &lt;chr&gt;,
-#   QT_DIARIAS &lt;chr&gt;, PROC_SOLIC &lt;chr&gt;, PROC_REA &lt;chr&gt;, VAL_SH &lt;chr&gt;,
-#   VAL_SP &lt;chr&gt;, VAL_SADT &lt;chr&gt;, VAL_RN &lt;chr&gt;, VAL_ACOMP &lt;chr&gt;,
-#   VAL_ORTP &lt;chr&gt;, VAL_SANGUE &lt;chr&gt;, VAL_SADTSR &lt;chr&gt;, VAL_TRANSP &lt;chr&gt;, …</code></pre>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>sih_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2021</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_start =</span> <span class="dv">1</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2021</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">month_end =</span> <span class="dv">2</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">uf =</span> <span class="st">"AC"</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SIH-RD"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>sih_p <span class="ot">&lt;-</span> <span class="fu">process_sih</span>(sih_raw)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>sih_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="python" class="level3" data-number="7.4.4">
-<h3 data-number="7.4.4" class="anchored" data-anchor-id="python"><span class="header-section-number">7.4.4</span> Python</h3>
-<p>Você pode usar a biblioteca PySUS.</p>
+<section id="python" class="level3" data-number="7.17.4">
+<h3 data-number="7.17.4" class="anchored" data-anchor-id="python"><span class="header-section-number">7.17.4</span> Python</h3>
+<p>A biblioteca PySUS também permite acessar dados do SIH em fluxos de análise em Python.</p>
 <ul>
 <li><a href="https://pysus.readthedocs.io/en/latest/databases/SIH.html">PySUS SIH</a></li>
 </ul>
 </section>
-<section id="pcdas" class="level3" data-number="7.4.5">
-<h3 data-number="7.4.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">7.4.5</span> PCDaS</h3>
-<p>Os dados do SIH estão disponíveis na PCDaS para acesso via <em>notebooks</em>.</p>
+<section id="pcdas" class="level3" data-number="7.17.5">
+<h3 data-number="7.17.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">7.17.5</span> PCDaS</h3>
+<p>Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.</p>
 <ul>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/">Dados SIH</a></li>
 </ul>
 </section>
 </section>
-<section id="principais-usos-e-indicadores" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">7.5</span> Principais usos e indicadores</h2>
-<p>Segundo <span class="citation" data-cites="OPAS2008">RIPSA (<a href="referencias.html#ref-OPAS2008" role="doc-biblioref">2008</a>)</span>, os dados do SIH são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:</p>
-<ul>
-<li>Proporção de internações hospitalares (SUS) por grupos de causas</li>
-<li>Proporção de internações hospitalares (SUS) por causas externas</li>
-<li>Proporção de internações hospitalares (SUS) por afecções originadas no período perinatal</li>
-<li>Valor médio pago por internação hospitalar no SUS (AIH)</li>
-</ul>
-<p>Consulte o <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf">livro da RIPSA</a> para maiores detalhes sobre esses e outros indicadores.</p>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="7.18">
+<h2 data-number="7.18" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">7.18</span> Relacionamento com outros sistemas</h2>
+<p>O SIH é frequentemente combinado com outros sistemas para caracterizar rede, desfechos e denominadores. A integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando houver base legal, governança e identificadores adequados.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre o SIH e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Qual rede produziu internações?</td>
+<td>SIH + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>CNES muda ao longo do tempo</td>
+</tr>
+<tr class="even">
+<td>Houve óbito após internação?</td>
+<td>SIH + SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Óbito hospitalar não equivale a mortalidade total</td>
+</tr>
+<tr class="odd">
+<td>A internação era por agravo notificado?</td>
+<td>SIH + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Harmonizar datas e definição de caso</td>
+</tr>
+<tr class="even">
+<td>Qual taxa de internação?</td>
+<td>SIH + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>Usar residência e população compatível</td>
+</tr>
+<tr class="odd">
+<td>Qual carga assistencial além da internação?</td>
+<td>SIH + SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Separar atendimento ambulatorial e hospitalar</td>
+</tr>
+</tbody>
+</table>
+<p>Em relacionamentos de registros, a unidade final de análise deve ser definida antes do pareamento. O objetivo pode ser identificar internações, pessoas, episódios, desfechos pós-alta ou trajetórias assistenciais. Cada objetivo exige regras diferentes para duplicidade, janelas temporais e discordâncias.</p>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">7.6</span> Bibliografia recomendada</h2>
-<section id="documentos-auxiliares" class="level3" data-number="7.6.1">
-<h3 data-number="7.6.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">7.6.1</span> Documentos auxiliares</h3>
+<section id="principais-usos-e-indicadores" class="level2" data-number="7.19">
+<h2 data-number="7.19" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">7.19</span> Principais usos e indicadores</h2>
+<p>Segundo <span class="citation" data-cites="OPAS2008">RIPSA (<a href="referencias.html#ref-OPAS2008" role="doc-biblioref">2008</a>)</span>, os dados do SIH são utilizados na construção de indicadores de morbidade hospitalar, produção e gasto. A ficha de cada indicador deve explicitar se conta AIHs, internações, procedimentos, valores ou pessoas.</p>
+<table class="caption-top table">
+<caption>Exemplos de indicadores construídos com dados do SIH</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador principal</th>
+<th>Denominador ou cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Proporção de internações por grupo de causas</td>
+<td>AIHs por diagnóstico principal</td>
+<td>Total de AIHs no mesmo recorte</td>
+</tr>
+<tr class="even">
+<td>Taxa de internação SUS</td>
+<td>AIHs de residentes</td>
+<td>População residente</td>
+</tr>
+<tr class="odd">
+<td>Internações por causas externas</td>
+<td>AIHs com CID de causa externa</td>
+<td>Definir agrupamento CID</td>
+</tr>
+<tr class="even">
+<td>Internações por condições sensíveis à APS</td>
+<td>AIHs com CID na lista ICSAP</td>
+<td>Usar lista oficial ou método versionado</td>
+</tr>
+<tr class="odd">
+<td>Permanência média</td>
+<td>Dias de permanência</td>
+<td>Interpretar por procedimento e perfil hospitalar</td>
+</tr>
+<tr class="even">
+<td>Letalidade hospitalar</td>
+<td>AIHs com óbito hospitalar</td>
+<td>Não equivale à mortalidade populacional</td>
+</tr>
+<tr class="odd">
+<td>Valor médio da AIH</td>
+<td>Valor total aprovado</td>
+<td>Não representa custo real total</td>
+</tr>
+</tbody>
+</table>
+<p>Consulte o <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf">livro da RIPSA</a> para mais detalhes sobre esses e outros indicadores.</p>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="7.20">
+<h2 data-number="7.20" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">7.20</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o SIH, alguns cuidados são recorrentes:</p>
+<ul>
+<li>distinguir AIH, internação, procedimento e pessoa;</li>
+<li>lembrar que a cobertura é SUS e rede conveniada, não todo o setor hospitalar;</li>
+<li>separar residência do paciente e ocorrência da internação;</li>
+<li>diferenciar competência, data de internação e data de saída;</li>
+<li>verificar se o arquivo usado é RD, SP, RJ ou ER;</li>
+<li>interpretar valores como remuneração registrada, não custo econômico total;</li>
+<li>avaliar mudanças em regras de autorização, tabelas, procedimentos e críticas;</li>
+<li>verificar completitude e consistência de diagnóstico, procedimento, idade, sexo, município e estabelecimento.</li>
+</ul>
+<table class="caption-top table">
+<caption>Checklist de qualidade para análises com SIH</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arquivo utilizado</td>
+<td>RD, SP e rejeições respondem a perguntas diferentes</td>
+</tr>
+<tr class="even">
+<td>Duplicidade de AIH</td>
+<td>Pode superestimar internações ou episódios</td>
+</tr>
+<tr class="odd">
+<td>Diagnóstico e procedimento</td>
+<td>Podem expressar lógicas clínicas e administrativas distintas</td>
+</tr>
+<tr class="even">
+<td>Residência e ocorrência</td>
+<td>Define corretamente risco e produção</td>
+</tr>
+<tr class="odd">
+<td>Competência e datas assistenciais</td>
+<td>Evita distorções em séries temporais</td>
+</tr>
+<tr class="even">
+<td>CNES e município</td>
+<td>Estabelecimentos mudam de perfil, gestão e vínculo</td>
+</tr>
+<tr class="odd">
+<td>Valores extremos</td>
+<td>Podem indicar procedimentos específicos ou erro</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações por ocorrência e população residente, comparar valores pagos como se fossem custos totais, misturar arquivos aprovados e rejeitados, e interpretar óbito hospitalar como mortalidade populacional.</p>
+</div>
+</div>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="7.21">
+<h2 data-number="7.21" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">7.21</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="7.21.1">
+<h3 data-number="7.21.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">7.21.1</span> Documentos auxiliares</h3>
 <ul>
 <li><a href="assets/sih/07_0066_M.pdf">Manual técnico do Sistema de Informação Hospitalar</a></li>
+<li><a href="assets/sih/IT_SIHSUS_1603.pdf">Estrutura do SIH</a></li>
 </ul>
 </section>
-<section id="vídeos" class="level3" data-number="7.6.2">
-<h3 data-number="7.6.2" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">7.6.2</span> Vídeos</h3>
+<section id="vídeos" class="level3" data-number="7.21.2">
+<h3 data-number="7.21.2" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">7.21.2</span> Vídeos</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/uvp3swCFAro" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="7.6.3">
-<h3 data-number="7.6.3" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">7.6.3</span> Avaliação da qualidade dos dados</h3>
+<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="7.21.3">
+<h3 data-number="7.21.3" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">7.21.3</span> Avaliação da qualidade dos dados</h3>
 <ul>
 <li>Artigo <em>Qualidade das bases de dados hospitalares no Brasil: alguns elementos</em> <span class="citation" data-cites="machadoQualidadeBasesDados2016">(<a href="referencias.html#ref-machadoQualidadeBasesDados2016" role="doc-biblioref">MACHADO; MARTINS; LEITE, 2016</a>)</span>. Disponível <a href="https://doi.org/10.1590/1980-5497201600030008">aqui</a>.</li>
 </ul>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-brasilPortaria2212008" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <a href="https://bvsms.saude.gov.br/bvs/saudelegis/sas/2008/prt0221_17_04_2008.html">Portaria <span>SAS/MS</span> nº 221, de 17 de abril de 2008</a>. <strong>Diário Oficial da União</strong>, 2008.
+</div>
 <div id="ref-machadoQualidadeBasesDados2016" class="csl-entry" role="listitem">
 MACHADO, J. P.; MARTINS, M.; LEITE, I. D. C. <a href="https://doi.org/10.1590/1980-5497201600030008"><span>Qualidade das bases de dados hospitalares no Brasil: alguns elementos</span></a>. <strong>Revista Brasileira de Epidemiologia</strong>, v. 19, n. 3, p. 567–581, set. 2016.
+</div>
+<div id="ref-nedelPacoteCsapaihLista2019" class="csl-entry" role="listitem">
+NEDEL, F. B. <a href="https://doi.org/10.5123/S1679-49742019000200021">Pacote <span>csapAIH</span>: a <span>Lista Brasileira</span> de <span>Internações</span> por <span>Condições Sensíveis</span> à <span>Atenção Primária</span> no programa <span>R</span></a>. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 28, n. 2, p. e2019084, 2019.
 </div>
 <div id="ref-pedrosoDataSciencePlatform2023" class="csl-entry" role="listitem">
 <span class="nocase">PEDROSO, M. et al.</span> <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
@@ -732,6 +1791,9 @@ PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalare
 </div>
 <div id="ref-OPAS2008" class="csl-entry" role="listitem">
 RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
+</div>
+<div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 </div>
 </section>

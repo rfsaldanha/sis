@@ -1,0 +1,415 @@
+[
+{
+  "start": 0,
+  "end": 7.152,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre o SIM, o Sistema de Informação sobre Mortalidade."
+}
+,
+{
+  "start": 7.502,
+  "end": 11.264,
+  "speaker": "ESTUDANTE",
+  "text": "O SIM é o sistema usado para estudar óbitos no Brasil, certo?"
+}
+,
+{
+  "start": 11.614,
+  "end": 24.849,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. O SIM é a principal fonte nacional para análise dos óbitos ocorridos no país. Ele permite estudar níveis, tendências, desigualdades e causas de mortalidade."
+}
+,
+{
+  "start": 25.199,
+  "end": 32.444,
+  "speaker": "ESTUDANTE",
+  "text": "Então, sempre que a pergunta envolve morte, causa de morte ou indicador de mortalidade, o SIM tende a ser a fonte principal."
+}
+,
+{
+  "start": 32.794,
+  "end": 47.051,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O SIM deve ser usado quando a pergunta envolve óbitos, causas de morte ou indicadores derivados da mortalidade. Mas, muitas vezes, ele precisa ser combinado com outras fontes."
+}
+,
+{
+  "start": 47.401,
+  "end": 53.438,
+  "speaker": "ESTUDANTE",
+  "text": "Como SINASC para mortalidade infantil ou estimativas populacionais para calcular taxas."
+}
+,
+{
+  "start": 53.788,
+  "end": 76.358,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Para mortalidade infantil, o numerador vem do SIM, mas o denominador costuma vir do SINASC, com os nascidos vivos. Para taxas populacionais, o denominador vem de estimativas populacionais. Para mortes entre casos notificados, pode ser necessário combinar SIM e SINAN."
+}
+,
+{
+  "start": 76.708,
+  "end": 81.213,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo diz que o SIM foi o primeiro sistema nacional de informação em saúde."
+}
+,
+{
+  "start": 81.563,
+  "end": 101.718,
+  "speaker": "APRESENTADORA",
+  "text": "Foi. Sua criação está associada à necessidade de padronizar o registro de óbitos e qualificar as estatísticas vitais brasileiras. Em 1975, o Ministério da Saúde organizou um grupo de trabalho para adotar um modelo único de Declaração de Óbito."
+}
+,
+{
+  "start": 102.068,
+  "end": 105.365,
+  "speaker": "ESTUDANTE",
+  "text": "Antes disso havia vários modelos de atestado de óbito."
+}
+,
+{
+  "start": 105.715,
+  "end": 119.275,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O capítulo menciona que chegaram a coexistir 43 modelos diferentes no país. Isso dificultava a comparabilidade e a produção de estatísticas nacionais."
+}
+,
+{
+  "start": 119.625,
+  "end": 122.922,
+  "speaker": "ESTUDANTE",
+  "text": "A Declaração de Óbito é o documento central do SIM."
+}
+,
+{
+  "start": 123.272,
+  "end": 135.904,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A DO é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Ela é emitida em três vias, com destinos diferentes."
+}
+,
+{
+  "start": 136.254,
+  "end": 137.787,
+  "speaker": "ESTUDANTE",
+  "text": "Como funciona esse fluxo?"
+}
+,
+{
+  "start": 138.137,
+  "end": 154.809,
+  "speaker": "APRESENTADORA",
+  "text": "A primeira via vai para a secretaria municipal de saúde, que alimenta o SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via fica arquivada no estabelecimento de saúde ou na unidade notificadora."
+}
+,
+{
+  "start": 155.159,
+  "end": 162.032,
+  "speaker": "ESTUDANTE",
+  "text": "Então a DO conecta o setor saúde, a família, o cartório e a base nacional de mortalidade."
+}
+,
+{
+  "start": 162.382,
+  "end": 173.202,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Ela tem uma função civil, ligada à certidão de óbito, e uma função epidemiológica, porque permite analisar padrões de mortalidade."
+}
+,
+{
+  "start": 173.552,
+  "end": 175.085,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a cobertura do SIM?"
+}
+,
+{
+  "start": 175.435,
+  "end": 193.918,
+  "speaker": "APRESENTADORA",
+  "text": "O SIM busca registrar todos os óbitos ocorridos no território nacional, independentemente de terem ocorrido em serviços públicos, privados, filantrópicos, domicílios, vias públicas ou outros locais. Também registra óbitos fetais."
+}
+,
+{
+  "start": 194.268,
+  "end": 197.472,
+  "speaker": "ESTUDANTE",
+  "text": "E a unidade de análise é a Declaração de Óbito."
+}
+,
+{
+  "start": 197.822,
+  "end": 216.723,
+  "speaker": "APRESENTADORA",
+  "text": "Isso significa que cada registro corresponde a um óbito. Não é uma base de acompanhamento longitudinal da pessoa. Para análises populacionais, os óbitos costumam ser agregados por período, município, idade, sexo, raça ou cor e causa."
+}
+,
+{
+  "start": 217.073,
+  "end": 221.206,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo destaca residência e ocorrência. Qual é a diferença?"
+}
+,
+{
+  "start": 221.556,
+  "end": 243.476,
+  "speaker": "APRESENTADORA",
+  "text": "Município de residência responde onde vivia a pessoa que morreu. Município de ocorrência responde onde o óbito aconteceu. Para estimar risco populacional, normalmente usamos residência, porque o denominador é a população residente. Para estudar pressão sobre serviços ou locais de ocorrência, usamos ocorrência."
+}
+,
+{
+  "start": 243.826,
+  "end": 249.399,
+  "speaker": "ESTUDANTE",
+  "text": "Então calcular uma taxa usando óbitos por ocorrência e população residente pode gerar erro."
+}
+,
+{
+  "start": 249.749,
+  "end": 258.851,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Esse é um erro comum. O campo territorial precisa combinar com a pergunta e com o denominador."
+}
+,
+{
+  "start": 259.201,
+  "end": 264.031,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar da causa básica do óbito. Esse parece ser um conceito central."
+}
+,
+{
+  "start": 264.381,
+  "end": 281.471,
+  "speaker": "APRESENTADORA",
+  "text": "É central. A causa básica é a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. No caso de causas externas, é a circunstância do acidente ou violência que produziu a lesão fatal."
+}
+,
+{
+  "start": 281.821,
+  "end": 286.837,
+  "speaker": "ESTUDANTE",
+  "text": "Então a causa básica não é necessariamente a última coisa que aconteceu antes da morte."
+}
+,
+{
+  "start": 287.187,
+  "end": 300.283,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Termos como parada cardiorrespiratória ou falência múltipla de órgãos podem descrever mecanismos finais, mas raramente explicam o processo que iniciou a cadeia causal."
+}
+,
+{
+  "start": 300.633,
+  "end": 303.698,
+  "speaker": "ESTUDANTE",
+  "text": "Como a Declaração de Óbito organiza essa informação?"
+}
+,
+{
+  "start": 304.048,
+  "end": 325.457,
+  "speaker": "APRESENTADORA",
+  "text": "A Parte I registra a sequência causal, da causa terminal às causas antecedentes. A causa básica deve aparecer na última linha preenchida dessa sequência. A Parte II registra outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia principal."
+}
+,
+{
+  "start": 325.807,
+  "end": 329.244,
+  "speaker": "ESTUDANTE",
+  "text": "E isso depende de preenchimento adequado e codificação."
+}
+,
+{
+  "start": 329.594,
+  "end": 344.641,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. A qualidade da causa básica depende do preenchimento da DO, da investigação quando necessária e da codificação segundo a Classificação Internacional de Doenças, a CID."
+}
+,
+{
+  "start": 344.991,
+  "end": 347.963,
+  "speaker": "ESTUDANTE",
+  "text": "O SIM também permite analisar causas múltiplas?"
+}
+,
+{
+  "start": 348.313,
+  "end": 368.468,
+  "speaker": "APRESENTADORA",
+  "text": "Permite. A análise tradicional prioriza a causa básica, porque ela atribui cada óbito a uma causa principal e facilita estatísticas comparáveis. Mas as causas múltiplas permitem estudar condições que contribuíram para o óbito, mesmo quando não aparecem como causa básica."
+}
+,
+{
+  "start": 368.818,
+  "end": 370.954,
+  "speaker": "ESTUDANTE",
+  "text": "Isso é útil para multimorbidade?"
+}
+,
+{
+  "start": 371.304,
+  "end": 389.694,
+  "speaker": "APRESENTADORA",
+  "text": "Muito útil. Algumas condições podem contribuir para muitos óbitos sem serem selecionadas como causa básica. A análise por causas múltiplas ajuda a enxergar esse papel, mas exige cuidado, porque um mesmo óbito pode mencionar várias causas."
+}
+,
+{
+  "start": 390.044,
+  "end": 392.552,
+  "speaker": "ESTUDANTE",
+  "text": "E as causas são codificadas pela CID."
+}
+,
+{
+  "start": 392.902,
+  "end": 408.970,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. As análises podem usar capítulos da CID, códigos de três caracteres, códigos de quatro caracteres ou agrupamentos específicos, como causas externas, neoplasias ou listas de evitabilidade."
+}
+,
+{
+  "start": 409.320,
+  "end": 414.475,
+  "speaker": "ESTUDANTE",
+  "text": "Quanto mais detalhado o código, maior o risco de instabilidade em populações pequenas."
+}
+,
+{
+  "start": 414.825,
+  "end": 424.577,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. O nível de detalhe precisa ser compatível com a pergunta, o tamanho da população e a qualidade do preenchimento."
+}
+,
+{
+  "start": 424.927,
+  "end": 427.667,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala da dimensão temporal."
+}
+,
+{
+  "start": 428.017,
+  "end": 442.506,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. É preciso distinguir a data do óbito, o ano do arquivo e a data de atualização da base. Óbitos de anos recentes podem estar em bases preliminares, sujeitas a revisão posterior."
+}
+,
+{
+  "start": 442.856,
+  "end": 449.079,
+  "speaker": "ESTUDANTE",
+  "text": "Então, para séries históricas, não é bom misturar bases preliminares e consolidadas sem cuidado."
+}
+,
+{
+  "start": 449.429,
+  "end": 457.463,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Comparar anos com graus diferentes de consolidação pode afetar totais, causas e campos complementares."
+}
+,
+{
+  "start": 457.813,
+  "end": 461.621,
+  "speaker": "ESTUDANTE",
+  "text": "O exemplo do capítulo é mortalidade por acidentes de trânsito."
+}
+,
+{
+  "start": 461.971,
+  "end": 476.925,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Nesse caso, o SIM permite estudar quantas pessoas morreram, onde viviam, onde o óbito ocorreu, qual tipo de acidente foi registrado e quais grupos populacionais foram mais afetados."
+}
+,
+{
+  "start": 477.275,
+  "end": 485.820,
+  "speaker": "ESTUDANTE",
+  "text": "E uma análise completa pode combinar SIM com SIH, para observar internações por lesões, e com população para calcular taxas."
+}
+,
+{
+  "start": 486.170,
+  "end": 502.981,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. O SIM descreve o evento fatal. Sistemas assistenciais ajudam a estudar eventos não fatais ou o uso da rede. As estimativas populacionais ajudam a transformar contagens em taxas."
+}
+,
+{
+  "start": 503.331,
+  "end": 506.396,
+  "speaker": "ESTUDANTE",
+  "text": "Quais são os principais problemas de qualidade no SIM?"
+}
+,
+{
+  "start": 506.746,
+  "end": 525.879,
+  "speaker": "APRESENTADORA",
+  "text": "Alguns problemas recorrentes são subregistro de óbitos, causas mal definidas, incompletude de variáveis como raça ou cor, escolaridade e ocupação, erros de residência ou ocorrência e mudanças de codificação ou investigação ao longo do tempo."
+}
+,
+{
+  "start": 526.229,
+  "end": 529.573,
+  "speaker": "ESTUDANTE",
+  "text": "Esses problemas não afetam todos os lugares da mesma forma."
+}
+,
+{
+  "start": 529.923,
+  "end": 547.245,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A qualidade pode variar por região, município, período, grupo populacional e variável. Por isso, análises detalhadas precisam verificar cobertura, completitude, consistência e mudanças históricas."
+}
+,
+{
+  "start": 547.595,
+  "end": 550.149,
+  "speaker": "ESTUDANTE",
+  "text": "Como os dados do SIM podem ser acessados?"
+}
+,
+{
+  "start": 550.499,
+  "end": 573.347,
+  "speaker": "APRESENTADORA",
+  "text": "Há vários caminhos. TabNet para consultas rápidas e agregadas. TabWin e arquivos DBC para processamento local. Em R, o pacote microdatasus. Em Python, a biblioteca PySUS. Também há dados em PCDaS e OpenDataSUS, incluindo bases preliminares."
+}
+,
+{
+  "start": 573.697,
+  "end": 578.434,
+  "speaker": "ESTUDANTE",
+  "text": "E quando integramos SIM com outras bases, não é simplesmente somar tabelas."
+}
+,
+{
+  "start": 578.784,
+  "end": 592.484,
+  "speaker": "APRESENTADORA",
+  "text": "Exato. Relacionar bases exige definir campos, regras de pareamento, tratamento de registros incompletos, duplicidades, discordâncias e a unidade final de análise."
+}
+,
+{
+  "start": 592.834,
+  "end": 595.992,
+  "speaker": "ESTUDANTE",
+  "text": "Para fechar, qual é a mensagem principal do capítulo?"
+}
+,
+{
+  "start": 596.342,
+  "end": 620.351,
+  "speaker": "APRESENTADORA",
+  "text": "O SIM é uma fonte central para estudar mortalidade no Brasil, mas seu uso exige atenção à unidade de análise, à causa básica, aos campos territoriais, ao grau de consolidação da base e à qualidade do preenchimento. Bons indicadores de mortalidade dependem tanto de bons registros quanto de boas escolhas analíticas."
+}
+
+]

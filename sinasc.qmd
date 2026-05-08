@@ -4,40 +4,217 @@ always_allow_html: true
 
 # SINASC -- Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/sinasc_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/sinasc.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sinasc.md">podcast/sinasc.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 1990
--  Cobertura: Dimensões pública e privada do SUS
--  Unidade: Declaração de Nascido Vivo (DNV)
--  Divulgação de dados: anual, com um ano de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de criação | 1990 |
+| Evento registrado | Nascido vivo |
+| Documento básico | Declaração de Nascido Vivo (DNV) |
+| Unidade de análise | Declaração de Nascido Vivo |
+| Cobertura | Todo o território nacional |
+| Abrangência assistencial | Nascimentos ocorridos em serviços públicos, privados, suplementares, domicílios e outros locais |
+| Disseminação | Em geral anual, com bases preliminares e consolidadas |
+: Características gerais do SINASC
+
+O Sistema de Informação sobre Nascidos Vivos (SINASC) é a principal fonte nacional para estudar nascimentos, condições da gestação, parto, recém-nascido e características maternas. Seus dados são usados para descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar a atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil.
+
+## Quando usar o SINASC
+
+O SINASC deve ser usado quando a pergunta envolve nascidos vivos, nascimento, parto, condições ao nascer ou indicadores que dependem do número de nascidos vivos. Em muitas análises, ele funciona como fonte principal do numerador; em outras, como denominador para eventos registrados em sistemas como SIM (@sec-sim) ou SINAN (@sec-sinan).
+
+| Pergunta de análise | Usar SINASC para | Fonte complementar comum |
+|---|---|---|
+| Quantos nascidos vivos ocorreram? | Contar registros de DNV | Registro Civil para comparação de cobertura |
+| Como está o perfil dos nascimentos? | Descrever peso, idade gestacional, tipo de parto e Apgar | CNES para caracterizar estabelecimentos |
+| Como está a atenção pré-natal? | Analisar consultas, início do pré-natal e escolaridade materna | SISAB em análises de atenção primária |
+| Qual o denominador da mortalidade infantil? | Contar nascidos vivos por residência | SIM para óbitos infantis |
+| Há desigualdades ao nascer? | Estratificar por raça/cor, escolaridade, idade e território | POP e bases territoriais |
+| Qual a frequência de anomalias congênitas? | Identificar registros na DNV | Vigilância especializada e investigação |
+: Perguntas comuns que podem ser respondidas com o SINASC
 
 ## Histórico e organização
 
-O SINASC foi concebido estruturalmente de maneira semelhante ao SIM. A partir de 1990, ele passa a ser implantado nacionalmente, de forma gradual e planejada, pelo Ministério da Saúde, apresentando dados consolidados a partir de 1994. Em seu funcionamento inicial, o SINASC enfrentou problemas de cobertura, principalmente nas regiões Norte e Nordeste, e também apresentava poucas rotinas internas de controle de qualidade que foram posteriormente criadas, tão como questões sobre dupla entrada de dados foram solucionadas. @szwarcwaldAvaliacaoInformacoesSistema2019 estima que a abrangência do SINASC seja superior a 90% dos nascidos vivos na maioria das Unidades da Federação, ainda que coberturas inferiores a 60% sejam encontrados em alguns municípios localizados nas áreas mais remotas e empobrecidas do país, o que demonstra a necessidade de esforços do poder público para o aumento da cobertura do SINASC.
+O SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990 e os dados consolidados passaram a estar disponíveis a partir de 1994. Nos primeiros anos, o sistema enfrentou problemas de cobertura, especialmente em áreas mais remotas e em municípios das regiões Norte e Nordeste, além de desafios de rotina de crítica, duplicidade e controle de qualidade.
 
-O documento básico do SINASC é a *Declaração de Nascido Vivo (DNV)*, padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV também é emitida em três vias e distribuída gratuitamente, seguindo o seguinte fluxo: a primeira via da DNV é retida pela unidade de saúde e encaminhada para a secretaria municipal de saúde, a segunda via é entregue à família para ser apresentada no Registro Civil, e que validará a obtenção do Certidão de Nascimento, já a terceira via é arquivada junto ao prontuário médico do recém-nascido na unidade de saúde. 
+Estudos de avaliação indicam melhora importante da cobertura e da qualidade do SINASC, mas também mostram heterogeneidade entre municípios e variáveis. @szwarcwaldAvaliacaoInformacoesSistema2019 estimam cobertura superior a 90% na maioria das Unidades da Federação, embora municípios remotos e mais vulneráveis ainda possam apresentar cobertura insuficiente. A qualidade também varia conforme o campo analisado; idade gestacional, paridade, escolaridade materna e anomalias congênitas exigem atenção especial [@pedrazaQualidadeSistemaInformacoes2012; @luquettiQualidadeNotificacaoAnomalias2010].
+
+## Fluxo da Declaração de Nascido Vivo
+
+O documento básico do SINASC é a Declaração de Nascido Vivo (DNV), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV é emitida em três vias e distribuída gratuitamente.
 
 ```{mermaid}
-%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo "
-%%| label: fig-do
-
+%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo"
+%%| label: fig-sinasc-dnv
 flowchart TD
-dn[Declaração de Nascido Vivo] --> via1[1a Via]
-dn --> via2[2a Via]
-dn --> via3[3a Via]
+  parto[Parto com nascido vivo] --> dnv[Declaracao de Nascido Vivo]
+  dnv --> via1[1a via]
+  dnv --> via2[2a via]
+  dnv --> via3[3a via]
 
-via1 --> sms[SMS]
+  via1 --> sms[Secretaria Municipal de Saude]
+  sms --> ses[Secretaria Estadual de Saude]
+  ses --> ms[Ministerio da Saude]
+  ms --> sinasc[Base nacional do SINASC]
 
-via2 --> fam[Família]
-fam --> rg[Registro Civil]
-rg --> ao[Certidão de Nascimento]
+  via2 --> fam[Familia]
+  fam --> rg[Registro Civil]
+  rg --> cert[Certidao de Nascimento]
 
-via3 --> es[Estabelecimento de Saúde]
+  via3 --> es[Estabelecimento ou prontuario]
 ```
 
-O SINASC apresenta informações sobre as condições de saúde do nascido vivo, circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.
+A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário.
 
-> Nascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade [@viacavaSistemaInformacaoSobre2009]. 
+## O que é nascido vivo
+
+Um nascimento é classificado como nascido vivo quando, após a separação do corpo materno, há respiração ou qualquer outro sinal de vida, independentemente da duração da gestação ou da viabilidade clínica [@viacavaSistemaInformacaoSobre2009].
+
+Essa definição é central para separar nascidos vivos de óbitos fetais. Se houve qualquer sinal de vida após a separação, o evento deve ser registrado como nascido vivo no SINASC; se ocorrer morte posteriormente, também haverá registro no SIM. Óbitos fetais são registrados no SIM, não no SINASC.
+
+| Situação | Sistema principal | Observação |
+|---|---|---|
+| Nascido vivo sem óbito posterior | SINASC | Registro por DNV |
+| Nascido vivo que morre após o parto | SINASC e SIM | Há DNV e Declaração de Óbito |
+| Óbito neonatal | SIM | Denominador geralmente vem do SINASC |
+| Óbito fetal | SIM | Não entra como nascido vivo no SINASC |
+| Indicador de mortalidade infantil | SIM + SINASC | Óbitos no numerador e nascidos vivos no denominador |
+: Diferenças práticas entre SINASC e SIM em eventos perinatais
+
+## Cobertura e unidade de análise
+
+A unidade de análise do SINASC é a DNV. Cada registro corresponde a um nascimento vivo, não a uma gestante acompanhada ao longo da gravidez. Em gestações múltiplas, cada nascido vivo deve ter sua própria DNV.
+
+| Dimensão | Cuidado de interpretação |
+|---|---|
+| Residência da mãe | Usada em taxas e indicadores populacionais |
+| Ocorrência do parto | Útil para analisar rede assistencial e fluxo de partos |
+| Recém-nascido | Peso ao nascer, Apgar, sexo, anomalias e idade gestacional |
+| Gestação e parto | Tipo de gravidez, tipo de parto, consultas e duração da gestação |
+| Mãe | Idade, escolaridade, raça/cor, situação conjugal e história reprodutiva |
+: Dimensões importantes para análise do SINASC
+
+Para estimar riscos na população residente, em geral utiliza-se o município de residência da mãe. Para avaliar concentração de partos, serviços de referência e deslocamentos para nascer, o município de ocorrência do parto é mais informativo.
+
+## Gestações múltiplas
+
+Em gestações múltiplas, o SINASC registra cada nascido vivo separadamente. Assim, uma gestação gemelar com dois nascidos vivos deve gerar duas DNV. Isso é adequado para indicadores cujo evento é o nascido vivo, mas exige cuidado quando a pergunta se refere à gestação, à mãe ou ao parto.
+
+| Pergunta | Unidade adequada | Cuidado |
+|---|---|---|
+| Quantos nascidos vivos ocorreram? | Nascido vivo | Cada DNV conta uma vez |
+| Quantas gestações terminaram em nascimento vivo? | Gestação | Gestações múltiplas não devem ser duplicadas |
+| Qual o perfil das mães? | Mãe | A mesma mãe pode aparecer mais de uma vez |
+| Qual o perfil dos partos? | Parto | Partos múltiplos podem gerar múltiplos registros |
+: Unidade de análise em gestações múltiplas
+
+## Variáveis-chave
+
+As variáveis mais usadas no SINASC podem ser organizadas em blocos analíticos. Essa organização ajuda a separar perguntas sobre perfil do recém-nascido, atenção à gestação, assistência ao parto e desigualdades sociais.
+
+| Bloco | Exemplos de variáveis | Uso típico |
+|---|---|---|
+| Recém-nascido | Peso ao nascer, sexo, Apgar, anomalia congênita | Condições ao nascer e risco neonatal |
+| Gestação | Idade gestacional, tipo de gravidez, consultas pré-natais | Qualidade e oportunidade do pré-natal |
+| Parto | Tipo de parto, local de ocorrência, estabelecimento | Organização da assistência ao parto |
+| Mãe | Idade, raça/cor, escolaridade, município de residência | Desigualdades e perfil reprodutivo |
+| Registro | Data de nascimento, data de cadastro, número da DNV | Controle de duplicidade e oportunidade |
+: Blocos de informação disponíveis no SINASC
+
+::: {.callout-warning}
+Campos derivados de avaliação clínica, como idade gestacional, Apgar e anomalias congênitas, podem variar em completitude e validade. Antes de usá-los como desfecho ou critério de estratificação, avalie proporção de ignorados, mudanças no formulário e consistência com outras variáveis.
+:::
+
+### Transformações frequentes
+
+Muitas análises do SINASC dependem de transformar campos originais em categorias epidemiológicas. Essas regras devem ser documentadas no método, especialmente quando há mudanças de formulário ou códigos ignorados.
+
+| Conceito | Regra operacional comum | Campo associado |
+|---|---|---|
+| Baixo peso ao nascer | Peso menor que 2.500 g | `PESO` |
+| Muito baixo peso | Peso menor que 1.500 g | `PESO` |
+| Prematuridade | Menos de 37 semanas | `GESTACAO` |
+| Mãe adolescente | Idade materna menor que 20 anos | `IDADEMAE` |
+| Parto cesáreo | Tipo de parto cesáreo | `PARTO` |
+| Pré-natal insuficiente | Baixo número de consultas | `CONSULTAS` |
+| Anomalia congênita registrada | Presença informada na DNV | `IDANOMAL` ou equivalente |
+: Transformações comuns em análises com SINASC
+
+## Anomalias congênitas
+
+O SINASC permite registrar anomalias congênitas identificadas no nascimento, mas esse campo é particularmente sensível à qualidade do exame, ao treinamento da equipe, à disponibilidade de diagnóstico e ao preenchimento da DNV. Estudos mostram subnotificação relevante, o que impede interpretar baixa frequência registrada como baixa ocorrência real sem avaliação de qualidade [@luquettiQualidadeNotificacaoAnomalias2010].
+
+Para análises de anomalias congênitas, verifique a proporção de ignorados, a mudança temporal do preenchimento, a consistência por estabelecimento e a compatibilidade entre frequência observada e padrões esperados. Quando possível, complemente a análise com vigilância específica, prontuários, investigação local ou bases especializadas.
+
+## Análise territorial e temporal
+
+Assim como no SIM, o SINASC permite análises por residência e por ocorrência. A escolha deve seguir a pergunta de pesquisa.
+
+| Recorte | Pergunta respondida | Exemplo |
+|---|---|---|
+| Residência da mãe | Onde vive a população que teve filhos? | Taxa bruta de natalidade por município |
+| Ocorrência do parto | Onde os partos aconteceram? | Distribuição de partos por rede assistencial |
+| Estabelecimento | Em que serviço ocorreu o parto? | Perfil de partos por maternidade |
+: Recortes territoriais frequentes no SINASC
+
+Na análise temporal, diferencie a data de nascimento, o ano do arquivo e a situação de consolidação da base. Bases preliminares são úteis para monitoramento oportuno, mas podem mudar com atualizações posteriores.
+
+## Exemplo: baixo peso ao nascer
+
+Baixo peso ao nascer é um exemplo de uso do SINASC para avaliar condições ao nascer e desigualdades materno-infantis. A definição operacional mais comum considera baixo peso quando o recém-nascido pesa menos de 2.500 g.
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Desfecho | `PESO` menor que 2.500 g | Excluir peso ignorado ou inconsistente |
+| Denominador | Nascidos vivos com peso informado | Documentar exclusões |
+| Território | Residência da mãe | Usar para desigualdade territorial |
+| Assistência | Ocorrência ou estabelecimento | Usar para rede de parto |
+| Estratificação | Idade materna, raça/cor, escolaridade | Avaliar completitude |
+| Contexto clínico | Idade gestacional e tipo de gravidez | Separar prematuridade e gestação múltipla |
+: Campos úteis em uma análise de baixo peso ao nascer
+
+Uma análise mais consistente deve avaliar baixo peso junto com idade gestacional. Um recém-nascido pode ter baixo peso por prematuridade, restrição de crescimento intrauterino ou combinação de fatores. Em municípios pequenos, use períodos agregados ou medidas de suavização quando a proporção for instável.
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+baixo_peso_mun <- sinasc_p |>
+  filter(!is.na(PESO), PESO > 0) |>
+  mutate(baixo_peso = PESO < 2500) |>
+  group_by(CODMUNRES) |>
+  summarise(
+    nascidos_vivos = n(),
+    baixo_peso = sum(baixo_peso),
+    prop_baixo_peso = baixo_peso / nascidos_vivos,
+    .groups = "drop"
+  )
+
+baixo_peso_mun
+```
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -51,36 +228,72 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
 
 ## Modelo da Declaração de Nascido Vivo
 
-![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv}
+![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv fig-alt="Modelo de Declaração de Nascido Vivo" width="90%"}
 
 ## Estrutura dos dados
 
-Confira o documento de [estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf), onde estão descritas as variáveis disponíveis.
+O documento de [estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf) descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão data de nascimento, município de residência da mãe, município de ocorrência, idade materna, escolaridade, raça/cor, número de consultas de pré-natal, tipo de parto, idade gestacional, peso ao nascer, Apgar e presença de anomalia congênita.
+
+### Campos mínimos para inspecionar
+
+Os nomes e a disponibilidade das variáveis podem variar conforme o ano e a forma de acesso. Em uma primeira inspeção, costuma ser útil verificar:
+
+| Campo | Uso |
+|---|---|
+| `DTNASC` | Data de nascimento |
+| `CODMUNRES` | Município de residência da mãe |
+| `CODMUNNASC` ou equivalente | Município de ocorrência do nascimento |
+| `IDADEMAE` | Idade materna |
+| `RACACOR` ou equivalente | Raça/cor |
+| `ESCMAE` ou equivalente | Escolaridade materna |
+| `CONSULTAS` | Número de consultas pré-natais |
+| `GESTACAO` | Idade gestacional |
+| `PARTO` | Tipo de parto |
+| `PESO` | Peso ao nascer |
+| `APGAR1` e `APGAR5` | Vitalidade no 1o e 5o minutos |
+| `IDANOMAL` ou equivalente | Presença de anomalia congênita |
+: Campos úteis para uma primeira inspeção dos dados do SINASC
 
 ### Prefixo dos arquivos
 
--  DN: Declarações de nascidos vivos
--  DNEX: Declarações de nascidos vivos residentes no exterior
+| Prefixo | Conteúdo |
+|---|---|
+| DN | Declarações de nascidos vivos |
+| DNEX | Declarações de nascidos vivos residentes no exterior |
+: Prefixos comuns dos arquivos do SINASC
 
 ## Acesso aos dados
 
+Os dados do SINASC podem ser acessados por diferentes caminhos, a depender do objetivo da análise.
+
+| Forma de acesso | Indicação de uso |
+|---|---|
+| TabNet | Tabulações rápidas e consultas agregadas |
+| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| R | Fluxos reprodutíveis com `{microdatasus}` |
+| Python | Fluxos reprodutíveis com PySUS |
+| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| OpenDataSUS | Arquivos em formatos abertos, incluindo bases preliminares |
+: Formas de acesso aos dados do SINASC
+
 ### TabNet
 
-Os dados do SINASC podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.
+Os dados do SINASC podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.
 
--  [TabNet SINASC](https://datasus.saude.gov.br/nascidos-vivos-desde-1994)
+- [TabNet SINASC](https://datasus.saude.gov.br/nascidos-vivos-desde-1994)
 
-### TabWin
+### TabWin e transferência de arquivos
 
-Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
 
--  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
-Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DataSUS em R [@Saldanha2019a].
 
 ```{r}
+#| eval: false
 #| message: false
 library(microdatasus)
 
@@ -98,38 +311,103 @@ sinasc_p
 
 ### Python
 
-Você pode usar a biblioteca PySUS.
+A biblioteca PySUS também permite acessar dados do SINASC em fluxos de análise em Python.
 
--  [PySUS SINASC](https://pysus.readthedocs.io/en/latest/databases/SINASC.html)
+- [PySUS SINASC](https://pysus.readthedocs.io/en/latest/databases/SINASC.html)
 
 ### PCDaS
 
-Os dados do SINASC estão disponíveis na PCDaS para acesso via *notebooks*.
+Os dados do SINASC estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
 
--  [Dados SINASC](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-nascidos-vivos/)
+- [Dados SINASC](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-nascidos-vivos/)
 
-### Outras formas
+### OpenDataSUS
 
-Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados pr eliminares do ano corrente.
+Dados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.
 
--  [OpenDataSUS - SINASC](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc)
+- [OpenDataSUS - SINASC](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc)
+
+## Relacionamento com outros sistemas
+
+O SINASC é frequentemente combinado com outros sistemas para construir indicadores de saúde materno-infantil. A integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando a finalidade e a governança dos dados justificarem esse procedimento.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Mortalidade infantil | SINASC + SIM (@sec-sim) | Usar nascidos vivos como denominador e óbitos por idade |
+| Mortalidade neonatal | SINASC + SIM | Separar óbitos neonatais precoces e tardios |
+| Eventos gestacionais notificados | SINASC + SINAN (@sec-sinan) | Harmonizar identificação, datas e território |
+| Partos e rede assistencial | SINASC + CNES (@sec-cnes) | Relacionar estabelecimento e tipo de serviço |
+| Indicadores populacionais | SINASC + POP (@sec-pop) | Usar população residente compatível com o período |
+: Integrações frequentes entre o SINASC e outros sistemas
+
+Em relacionamentos determinísticos ou probabilísticos, defina previamente a unidade final de análise. Ao relacionar SINASC e SIM, por exemplo, a unidade pode ser o nascimento, o óbito infantil ou o par nascimento-óbito, dependendo da pergunta.
+
+## Uso como denominador
+
+O SINASC é frequentemente usado como denominador porque registra a população de nascidos vivos exposta a eventos no primeiro ano de vida ou em períodos próximos ao nascimento. O ponto principal é garantir que numerador e denominador usem o mesmo recorte territorial, temporal e populacional.
+
+| Indicador | Numerador | Denominador no SINASC |
+|---|---|---|
+| Mortalidade infantil | Óbitos menores de 1 ano no SIM | Nascidos vivos |
+| Mortalidade neonatal | Óbitos de 0 a 27 dias no SIM | Nascidos vivos |
+| Mortalidade neonatal precoce | Óbitos de 0 a 6 dias no SIM | Nascidos vivos |
+| Mortalidade pós-neonatal | Óbitos de 28 a 364 dias no SIM | Nascidos vivos |
+| Razão de mortalidade materna | Óbitos maternos no SIM | Nascidos vivos |
+: Uso do SINASC como denominador em indicadores
+
+Quando o indicador é uma proporção entre nascidos vivos, como baixo peso ao nascer ou parto cesáreo, o SINASC fornece numerador e denominador. Quando o indicador envolve óbitos, o numerador vem do SIM e o denominador costuma vir do SINASC.
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SINASC são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:
+Segundo @OPAS2008, os dados do SINASC são utilizados na construção de indicadores demográficos, reprodutivos e materno-infantis. A ficha de cada indicador deve explicitar numerador, denominador, período, território, faixa etária materna e critérios de inclusão.
 
--  Taxa de fecundidade total
--  Taxa específica de fecundidade
--  Taxa bruta de natalidade
+| Indicador | Numerador principal | Denominador ou cuidado |
+|---|---|---|
+| Taxa bruta de natalidade | Nascidos vivos | População residente |
+| Taxa específica de fecundidade | Nascidos vivos por idade materna | Mulheres da mesma faixa etária |
+| Proporção de baixo peso ao nascer | Nascidos vivos com peso menor que 2.500 g | Nascidos vivos com peso informado |
+| Proporção de prematuridade | Nascidos vivos pré-termo | Verificar qualidade da idade gestacional |
+| Proporção de parto cesáreo | Nascidos vivos por cesariana | Interpretar segundo tipo de serviço e risco |
+| Cobertura de pré-natal | Nascidos vivos por número de consultas | Observar mudanças de formulário e ignorados |
+| Mortalidade infantil | Óbitos menores de 1 ano no SIM | Nascidos vivos do SINASC |
+: Exemplos de indicadores construídos com dados do SINASC
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para maiores detalhes sobre esses e outros indicadores.
+Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+
+## Cuidados de interpretação
+
+Ao utilizar o SINASC, alguns cuidados são recorrentes:
+
+- verificar se a unidade de análise é nascido vivo, parto, gestação ou mãe;
+- distinguir município de residência da mãe e município de ocorrência do parto;
+- verificar cobertura antes de comparar municípios pequenos ou áreas remotas;
+- avaliar completitude e consistência de idade gestacional, peso, Apgar, raça/cor, escolaridade e anomalias congênitas;
+- separar nascidos vivos de óbitos fetais;
+- considerar mudanças no formulário, nas regras de preenchimento e na consolidação das bases;
+- evitar interpretar número de consultas pré-natais sem considerar idade gestacional e acesso aos serviços;
+- avaliar duplicidades, especialmente quando a análise usa microdados.
+
+| Checagem | Por que importa |
+|---|---|
+| Cobertura por território | Evita comparar municípios com captação desigual |
+| Duplicidades | Impede superestimação de nascidos vivos |
+| Peso e idade gestacional | Identifica valores incompatíveis |
+| Ignorados por variável | Mede perda de informação |
+| Residência e ocorrência | Define corretamente risco e oferta |
+| Parto único ou múltiplo | Afeta peso, prematuridade e unidade de análise |
+| Base preliminar ou consolidada | Evita que atualizações pareçam tendência |
+: Checklist de qualidade para análises com SINASC
+
+::: {.callout-warning}
+Erros comuns incluem calcular taxas por ocorrência com população residente, usar nascidos vivos como proxy de gestantes, comparar prematuridade sem avaliar mudanças na mensuração da idade gestacional e interpretar baixa frequência de anomalias congênitas como ausência do problema sem verificar subnotificação.
+:::
 
 ## Bibliografia recomendada
 
 ### Documentos auxiliares
 
--  [Estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf)
--  [Manual de preenchimento da Declaração de Nascido Vivo](assets/sinasc/declaracao-nascido-vivo-manual-instrucoes-preenchimento.pdf)
+- [Estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf)
+- [Manual de preenchimento da Declaração de Nascido Vivo](assets/sinasc/declaracao-nascido-vivo-manual-instrucoes-preenchimento.pdf)
 
 ### Vídeos
 
@@ -137,5 +415,6 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 
 ### Avaliação da qualidade dos dados
 
--  Artigo *Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura* [@pedrazaQualidadeSistemaInformacoes2012]. Disponível [aqui](https://doi.org/10.1590/S1413-81232012001000021).
--  Artigo *Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007* [@luquettiQualidadeNotificacaoAnomalias2010]. Disponível [aqui](https://doi.org/10.1590/S0102-311X2010000900009).
+- Artigo *Avaliação das informações do Sistema de Informações sobre Nascidos Vivos (SINASC), Brasil* [@szwarcwaldAvaliacaoInformacoesSistema2019]. Disponível [aqui](https://doi.org/10.1590/0102-311X00214918).
+- Artigo *Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura* [@pedrazaQualidadeSistemaInformacoes2012]. Disponível [aqui](https://doi.org/10.1590/S1413-81232012001000021).
+- Artigo *Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007* [@luquettiQualidadeNotificacaoAnomalias2010]. Disponível [aqui](https://doi.org/10.1590/S0102-311X2010000900009).

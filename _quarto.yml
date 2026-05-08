@@ -14,6 +14,15 @@ project:
     - podcast/eventos.mp3
     - podcast/eventos.md
     - podcast/eventos_transcript.json
+    - podcast/sim.mp3
+    - podcast/sim.md
+    - podcast/sim_transcript.json
+    - podcast/sinasc.mp3
+    - podcast/sinasc.md
+    - podcast/sinasc_transcript.json
+    - podcast/sih.mp3
+    - podcast/sih.md
+    - podcast/sih_transcript.json
     - podcast/sync-transcript.js
 
 execute:

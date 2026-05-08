@@ -504,7 +504,7 @@
     "href": "sim.html",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
     "section": "",
-    "text": "5.1 Resumo",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -513,8 +513,18 @@
     "objectID": "sim.html#resumo",
     "href": "sim.html#resumo",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "",
-    "text": "Ano de criação: 1975\nCobertura: Dimensões pública e privada do SUS\nUnidade: Declaração de Óbito (DO)\nDivulgação de dados: anual, com um ano de defasagem",
+    "section": "5.1 Resumo",
+    "text": "5.1 Resumo\n\nCaracterísticas gerais do SIM\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nAno de criação\n1975\n\n\nEvento registrado\nÓbito, incluindo óbito fetal\n\n\nDocumento básico\nDeclaração de Óbito (DO)\n\n\nUnidade de análise\nDeclaração de Óbito\n\n\nCobertura\nTodo o território nacional\n\n\nAbrangência assistencial\nÓbitos ocorridos nas dimensões pública, privada e suplementar\n\n\nDisseminação\nEm geral anual, com bases preliminares e consolidadas\n\n\n\nO Sistema de Informação sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em Capítulo 4.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#quando-usar-o-sim",
+    "href": "sim.html#quando-usar-o-sim",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.2 Quando usar o SIM",
+    "text": "5.2 Quando usar o SIM\nO SIM deve ser utilizado quando a pergunta envolve óbitos, causas de morte ou indicadores derivados de mortalidade. Em muitos casos, a análise precisa combinar o SIM com outras fontes, como SINASC (Capítulo 6), estimativas populacionais (Apêndice D), SINAN (Capítulo 9) ou SIH (Capítulo 7).\n\nPerguntas comuns que podem ser respondidas com o SIM\n\n\n\n\n\n\n\nPergunta de análise\nUsar SIM para\nFonte complementar comum\n\n\n\n\nMortalidade por causa\nContar óbitos por causa básica\nCID (Apêndice B) para agrupamentos\n\n\nMortalidade infantil\nIdentificar óbitos menores de 1 ano\nSINASC para nascidos vivos\n\n\nMortalidade materna\nIdentificar óbitos maternos\nInvestigação e classificações específicas\n\n\nCausas externas\nAnalisar acidentes e violências fatais\nSIH ou SIA para eventos não fatais\n\n\nÓbitos evitáveis\nIdentificar causas e grupos de idade\nListas de evitabilidade\n\n\nRisco populacional\nContar óbitos por residência\nPOP para denominadores\n\n\nPressão sobre serviços\nContar óbitos por ocorrência\nCNES/SIH para rede assistencial",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -523,8 +533,28 @@
     "objectID": "sim.html#histórico-e-organização",
     "href": "sim.html#histórico-e-organização",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.2 Histórico e organização",
-    "text": "5.2 Histórico e organização\nO SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada.\n\n\n\n\n\n\nDica\n\n\n\nEntre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito (SENNA, 2009).\n\n\nEste instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil.\nO documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na Figura 9.1. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.\n\n\n\n\n\n\nflowchart TD\ndo[Declaração de Óbito] --&gt; via1[1a Via]\ndo --&gt; via2[2a Via]\ndo --&gt; via3[3a Via]\n\nvia1 --&gt; sms[Secretaria Municipal de Saúde]\n\nvia2 --&gt; fam[Família]\nfam --&gt; rg[Registro Civil]\nrg --&gt; ao[Atestado de Óbito]\n\nvia3 --&gt; es[Estabelecimento de Saúde]\n\n\n\n\nFigura 5.1: Fluxo de emissão e destinação das vias da Declaração de Óbito\n\n\n\n\n\nA DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a causa básica do óbito e demais causas secundárias, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.\nA partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas (SENNA, 2009).\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SIM\n\n\nMais informações sobre o preenchimento dos dados do SIM estão disponíveis no manual de preenchimento, disponibilizado pelo Ministério da Saúde.\nUm histórico mais aprofundado sobre a construção e evolução do SIM está disponível neste documento.",
+    "section": "5.3 Histórico e organização",
+    "text": "5.3 Histórico e organização\nO SIM foi o primeiro sistema de informação em saúde de abrangência nacional. Sua criação está associada à necessidade de padronizar o registro de óbitos e qualificar as estatísticas vitais brasileiras. Em 1975, foi formado um Grupo de Trabalho no Ministério da Saúde com o objetivo de adotar um modelo único de Declaração de Óbito (DO), com impressão centralizada, controle numérico e validade legal (SENNA, 2009).\n\n\n\n\n\n\nDica\n\n\n\nEntre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito no país (SENNA, 2009).\n\n\nA padronização da DO reorganizou o fluxo de informações sobre mortalidade. O documento passou a nascer no serviço de saúde ou no local responsável pelo registro do óbito, circular entre família, cartório e secretaria de saúde, e alimentar uma base nacional.\nEsse fluxo aproximou o Registro Civil do setor saúde. A certidão de óbito permanece vinculada ao processo cartorial, mas a DO passou a produzir também informação epidemiológica, permitindo que os óbitos fossem analisados por idade, sexo, raça/cor, município, local de ocorrência e causa de morte.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#fluxo-da-declaração-de-óbito",
+    "href": "sim.html#fluxo-da-declaração-de-óbito",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.4 Fluxo da Declaração de Óbito",
+    "text": "5.4 Fluxo da Declaração de Óbito\nO documento básico do SIM é a Declaração de Óbito (DO), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. A DO é emitida em três vias, com destinações distintas.\n\n\n\n\n\n\nflowchart TD\n  do[Declaracao de Obito] --&gt; via1[1a via]\n  do --&gt; via2[2a via]\n  do --&gt; via3[3a via]\n\n  via1 --&gt; sms[Secretaria Municipal de Saude]\n  sms --&gt; sim[SIM]\n\n  via2 --&gt; fam[Familia]\n  fam --&gt; rg[Registro Civil]\n  rg --&gt; cert[Certidao de Obito]\n\n  via3 --&gt; es[Estabelecimento ou unidade notificadora]\n\n\n\n\nFigura 5.1: Fluxo de emissão e destinação das vias da Declaração de Óbito\n\n\n\n\n\nA primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via permanece arquivada no estabelecimento de saúde ou na unidade notificadora.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#cobertura-e-unidade-de-análise",
+    "href": "sim.html#cobertura-e-unidade-de-análise",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.5 Cobertura e unidade de análise",
+    "text": "5.5 Cobertura e unidade de análise\nO SIM busca registrar todos os óbitos ocorridos no território nacional, independentemente de terem ocorrido em estabelecimentos públicos, privados, filantrópicos, domicílios, vias públicas ou outros locais. Também registra óbitos fetais.\nA unidade de análise é a Declaração de Óbito. Isso significa que cada registro corresponde a um óbito, não a uma pessoa acompanhada longitudinalmente. Para análises populacionais, os óbitos geralmente são agregados por período, município, faixa etária, sexo, raça/cor e causa.\n\nDimensões importantes para análise do SIM\n\n\n\n\n\n\nDimensão\nCuidado de interpretação\n\n\n\n\nResidência\nUsada para estimar riscos da população residente\n\n\nOcorrência\nIndica onde o óbito aconteceu\n\n\nCausa básica\nUsada para estatísticas padronizadas de mortalidade por causa\n\n\nCausas associadas\nAjudam a compreender condições que contribuíram para a morte\n\n\nÓbito fetal\nDeve ser analisado separadamente de óbitos não fetais",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -533,8 +563,48 @@
     "objectID": "sim.html#causa-básica-do-óbito",
     "href": "sim.html#causa-básica-do-óbito",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.3 Causa básica do óbito",
-    "text": "5.3 Causa básica do óbito\nA causa básica do óbito é o agravo que inicia a cadeia de eventos mórbidos que leva diretamente à morte – ou, no caso de causas externas, as circunstâncias do acidente/violência que produziram a lesão fatal. Essa definição é a referência internacional utilizada para padronizar estatísticas de mortalidade por causa, permitindo comparabilidade e interpretação epidemiológica (WHO (2026)).\nNa Declaração de Óbito (DO), o médico responsável deve descrever, na Parte I do documento, a sequência causal (da causa terminal às antecedentes), anotando a causa básica na última linha preenchida. Já a Parte II da DO é destinada a outras condições relevantes que contribuíram para o óbito, mas que não entram na cadeia causal principal. O manual do Ministério da Saúde reforça que a qualidade dessa informação depende de relatar toda a cadeia (e não apenas a causa terminal) (BRASIL (2022)).",
+    "section": "5.6 Causa básica do óbito",
+    "text": "5.6 Causa básica do óbito\nA causa básica do óbito é a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. No caso de causas externas, corresponde às circunstâncias do acidente ou violência que produziram a lesão fatal. Essa definição é referência internacional para padronizar estatísticas de mortalidade por causa (WHO, 2026).\nNa Declaração de Óbito, a Parte I registra a sequência causal, da causa terminal às causas antecedentes. A causa básica deve aparecer na última linha preenchida dessa sequência. A Parte II é destinada a outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia causal principal (BRASIL, 2022).\n\n\n\n\n\n\nAviso\n\n\n\nNão se deve interpretar automaticamente a causa terminal como causa básica. Termos como “parada cardiorrespiratória” ou “falência múltipla de órgãos” descrevem mecanismos finais de morte, mas raramente explicam o processo que iniciou a cadeia causal.\n\n\nA correta definição da causa básica é um dos pontos mais importantes para a qualidade do SIM. Ela depende do preenchimento adequado da DO, da investigação quando necessária e da codificação segundo a Classificação Internacional de Doenças (CID).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#causa-básica-e-causas-múltiplas",
+    "href": "sim.html#causa-básica-e-causas-múltiplas",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.7 Causa básica e causas múltiplas",
+    "text": "5.7 Causa básica e causas múltiplas\nA análise de mortalidade costuma priorizar a causa básica, porque ela permite atribuir cada óbito a uma causa principal e construir estatísticas comparáveis. No entanto, a Declaração de Óbito também registra outras condições que fizeram parte da cadeia causal ou contribuíram para o óbito. Essas informações permitem análises por causas múltiplas.\n\nDiferenças entre causa básica e causas múltiplas\n\n\n\n\n\n\n\nTipo de causa\nO que representa\nUso típico\n\n\n\n\nCausa básica\nEvento que iniciou a cadeia que levou à morte\nEstatísticas oficiais por causa\n\n\nCausas consequenciais\nCondições intermediárias ou terminais da cadeia causal\nCompreender a sequência do óbito\n\n\nCausas contribuintes\nCondições relevantes fora da cadeia principal\nAnalisar multimorbidade e fatores associados\n\n\n\nAnálises por causas múltiplas são úteis quando uma condição contribui para muitos óbitos, mas raramente aparece como causa básica. Ainda assim, exigem mais cuidado metodológico, pois um único óbito pode mencionar várias causas.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#codificação-pela-cid",
+    "href": "sim.html#codificação-pela-cid",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.8 Codificação pela CID",
+    "text": "5.8 Codificação pela CID\nAs causas de morte são codificadas segundo a Classificação Internacional de Doenças (CID), apresentada no apêndice sobre a CID (Apêndice B). Em séries históricas, é importante observar mudanças de revisão da classificação, regras de codificação e agrupamentos utilizados.\nNa prática, as análises podem usar diferentes níveis de detalhe:\n\nNíveis comuns de análise da causa de morte\n\n\n\n\n\n\n\nNível de análise\nExemplo\nUso\n\n\n\n\nCapítulo da CID\nDoenças do aparelho circulatório\nGrandes grupos de causas\n\n\nCódigo de três caracteres\nI21\nCausa específica com menor detalhamento\n\n\nCódigo de quatro caracteres\nI21.0\nSubcategoria mais detalhada\n\n\nLista ou agrupamento\nCausas evitáveis, causas externas, neoplasias\nIndicadores e políticas específicas\n\n\n\nO nível escolhido deve ser compatível com a pergunta, o tamanho da população analisada e a qualidade do preenchimento. Quanto maior o detalhamento, maior a chance de instabilidade em municípios pequenos ou períodos curtos.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#análise-territorial",
+    "href": "sim.html#análise-territorial",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.9 Análise territorial",
+    "text": "5.9 Análise territorial\nO SIM permite analisar óbitos por município de residência e por município de ocorrência. Esses campos respondem a perguntas diferentes.\n\nUso de residência e ocorrência na análise de mortalidade\n\n\n\n\n\n\n\nCampo territorial\nPergunta respondida\nExemplo\n\n\n\n\nResidência\nOnde vivia a pessoa que morreu?\nTaxas de mortalidade da população residente\n\n\nOcorrência\nOnde o óbito aconteceu?\nDemanda sobre serviços e locais de ocorrência\n\n\n\nPara estimar risco populacional, em geral utiliza-se o município de residência, pois o denominador costuma ser a população residente. Para estudar rede assistencial, fluxo de pacientes ou óbitos ocorridos em serviços de referência, o município de ocorrência pode ser mais adequado.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#análise-temporal",
+    "href": "sim.html#análise-temporal",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.10 Análise temporal",
+    "text": "5.10 Análise temporal\nA análise temporal deve distinguir a data do óbito, o ano de referência do arquivo e o momento de disseminação dos dados. Óbitos de anos recentes podem estar em bases preliminares, sujeitas a revisão posterior.\n\nElementos temporais importantes no SIM\n\n\n\n\n\n\nElemento temporal\nInterpretação\n\n\n\n\nData do óbito\nMomento em que o evento ocorreu\n\n\nAno do arquivo\nRecorte usado na disseminação dos microdados\n\n\nData de atualização\nMomento em que a base foi disponibilizada ou revisada\n\n\nBase preliminar\nMais oportuna, porém sujeita a alterações\n\n\nBase consolidada\nMais estável, porém geralmente mais defasada\n\n\n\nAo comparar anos, especialmente anos recentes, verifique se as bases têm o mesmo grau de consolidação. Diferenças entre bases preliminares e consolidadas podem afetar totais, causas e campos complementares.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -543,8 +613,38 @@
     "objectID": "sim.html#modelo-da-declaração-de-óbito",
     "href": "sim.html#modelo-da-declaração-de-óbito",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.4 Modelo da Declaração de Óbito",
-    "text": "5.4 Modelo da Declaração de Óbito\n\n\n\nModelo de Declaração de Óbito",
+    "section": "5.11 Modelo da Declaração de Óbito",
+    "text": "5.11 Modelo da Declaração de Óbito\n\n\n\nModelo de Declaração de Óbito\n\n\nMais informações sobre o preenchimento estão disponíveis no manual de preenchimento da Declaração de Óbito, disponibilizado pelo Ministério da Saúde.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#exemplo-acidentes-de-trânsito",
+    "href": "sim.html#exemplo-acidentes-de-trânsito",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.12 Exemplo: acidentes de trânsito",
+    "text": "5.12 Exemplo: acidentes de trânsito\nAcidentes de trânsito são um exemplo de uso do SIM para análise de causas externas. Nesse caso, a pergunta pode envolver quantas pessoas morreram, onde viviam, onde o óbito ocorreu, qual foi o tipo de acidente e qual grupo populacional foi mais afetado.\n\nCampos úteis em uma análise de mortalidade por acidentes de trânsito\n\n\n\n\n\n\n\nElemento da análise\nCampo ou dimensão\nCuidado\n\n\n\n\nCausa básica\nCódigo CID de acidente de transporte\nDefinir agrupamento antes da análise\n\n\nResidência\nMunicípio de residência\nUsar para taxas populacionais\n\n\nOcorrência\nMunicípio/local de ocorrência\nUsar para análise do local do óbito\n\n\nIdade e sexo\nPerfil demográfico\nEstratificar para identificar grupos de risco\n\n\nRaça/cor e escolaridade\nDesigualdades sociais\nVerificar completitude\n\n\nTipo de óbito\nFetal/não fetal\nExcluir óbitos fetais quando não pertinentes\n\n\n\nUma análise completa pode combinar o SIM com o SIH (Capítulo 7), para observar internações por lesões de trânsito, e com estimativas populacionais (Apêndice D), para calcular taxas. Se o objetivo for mortalidade por local de residência, use óbitos de residentes. Se o objetivo for identificar locais com maior ocorrência de óbitos, use município de ocorrência.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#qualidade-dos-dados",
+    "href": "sim.html#qualidade-dos-dados",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.13 Qualidade dos dados",
+    "text": "5.13 Qualidade dos dados\nA partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a subregistro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade (JORGE; LAURENTI; GOTLIEB, 2007; REBOUÇAS et al., 2025; SENNA, 2009).\n\nProblemas frequentes que podem afetar análises com o SIM\n\n\n\n\n\n\nProblema\nEfeito na análise\n\n\n\n\nSubregistro de óbitos\nSubestima taxas e números absolutos\n\n\nCausas mal definidas\nReduz a capacidade de interpretar padrões de mortalidade\n\n\nIncompletude de raça/cor, escolaridade ou ocupação\nLimita análises de desigualdades\n\n\nErros de residência ou ocorrência\nAfetam análises territoriais\n\n\nMudanças de codificação ou investigação\nPodem gerar quebras em séries históricas\n\n\n\nO campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho (CAVALCANTE; SANTANA, 2023). Por isso, análises mais detalhadas devem sempre verificar completitude, consistência e mudanças históricas das variáveis utilizadas.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#linha-do-tempo-do-sim",
+    "href": "sim.html#linha-do-tempo-do-sim",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.14 Linha do tempo do SIM",
+    "text": "5.14 Linha do tempo do SIM\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SIM\n\n\nUm histórico mais aprofundado sobre a construção e evolução do SIM está disponível neste documento.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -553,8 +653,8 @@
     "objectID": "sim.html#estrutura-dos-dados",
     "href": "sim.html#estrutura-dos-dados",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.5 Estrutura dos dados",
-    "text": "5.5 Estrutura dos dados\nConfira o documento de estrutura do SIM, onde estão descritas as variáveis disponíveis.\n\n5.5.1 Prefixo dos arquivos\n\nDO: Declarações de óbito\nDOEXT: Declarações de óbitos por causas externas\nDOFET: Declarações de óbitos fetais\nDOINF: Declarações de óbitos infantis\nDOMAT: Declarações de óbitos maternos\nDOREXT: Mortalidade de residentes no exterior",
+    "section": "5.15 Estrutura dos dados",
+    "text": "5.15 Estrutura dos dados\nO documento de estrutura do SIM descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão ano e data do óbito, município de residência, município de ocorrência, sexo, idade, raça/cor, escolaridade, causa básica e causas múltiplas.\n\n5.15.1 Campos mínimos para inspecionar\nOs nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. Em análises iniciais, costuma ser útil verificar:\n\nCampos úteis para uma primeira inspeção dos dados do SIM\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\nDTOBITO\nData do óbito\n\n\nCODMUNRES\nMunicípio de residência\n\n\nCODMUNOCOR\nMunicípio de ocorrência\n\n\nIDADE\nIdade no óbito\n\n\nSEXO\nSexo\n\n\nRACACOR\nRaça/cor\n\n\nESC ou variável equivalente\nEscolaridade\n\n\nCAUSABAS\nCausa básica do óbito\n\n\nLinhas/causas da DO\nAnálise de causas múltiplas\n\n\nTIPOBITO ou arquivo DOFET\nIdentificação de óbito fetal, quando aplicável\n\n\n\n\n\n5.15.2 Prefixo dos arquivos\n\nPrefixos comuns dos arquivos do SIM\n\n\nPrefixo\nConteúdo\n\n\n\n\nDO\nDeclarações de óbito\n\n\nDOEXT\nDeclarações de óbitos por causas externas\n\n\nDOFET\nDeclarações de óbitos fetais\n\n\nDOINF\nDeclarações de óbitos infantis\n\n\nDOMAT\nDeclarações de óbitos maternos\n\n\nDOREXT\nMortalidade de residentes no exterior",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -563,8 +663,18 @@
     "objectID": "sim.html#acesso-aos-dados",
     "href": "sim.html#acesso-aos-dados",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.6 Acesso aos dados",
-    "text": "5.6 Acesso aos dados\n\n5.6.1 TabNet\nOs dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SIM\n\n\n\n5.6.2 TabWin\nPara uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.\n\nTabWin - Transferência de arquivos\n\n\n\n5.6.3 R\nVocê pode usar o pacote {microdatasus}.\n\nlibrary(microdatasus)\n\nsim_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SIM-DO\"\n)\n\nsim_p &lt;- process_sim(sim_raw)\n\nsim_p\n\n# A tibble: 5,496 × 100\n   ORIGEM TIPOBITO  DTOBITO    HORAOBITO CODMUNNATU DTNASC   IDADE SEXO  RACACOR\n   &lt;chr&gt;  &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  \n 1 1      Não Fetal 2021-03-23 1500      110020     1962-06… 458   Masc… Parda  \n 2 1      Não Fetal 2021-03-23 0243      120050     1971-02… 450   Masc… Parda  \n 3 1      Não Fetal 2021-03-23 1310      120040     1956-10… 464   Femi… Parda  \n 4 1      Não Fetal 2021-04-17 2149      120050     1999-01… 422   Masc… Parda  \n 5 1      Não Fetal 2021-01-06 0420      120020     2020-08… 304   Masc… Parda  \n 6 1      Não Fetal 2021-02-06 1145      120034     1943-12… 477   Masc… Parda  \n 7 1      Não Fetal 2021-02-15 &lt;NA&gt;      120050     1970-06… 450   Masc… Parda  \n 8 1      Não Fetal 2021-02-16 0720      120060     1935-01… 486   Masc… Preta  \n 9 1      Não Fetal 2021-02-15 1320      120050     1951-04… 469   Femi… Amarela\n10 1      Não Fetal 2021-02-13 0700      120050     1957-02… 464   Masc… Parda  \n# ℹ 5,486 more rows\n# ℹ 91 more variables: ESTCIV &lt;chr&gt;, ESC &lt;chr&gt;, ESC2010 &lt;chr&gt;,\n#   SERIESCFAL &lt;chr&gt;, CODMUNRES &lt;chr&gt;, LOCOCOR &lt;chr&gt;, CODESTAB &lt;chr&gt;,\n#   ESTABDESCR &lt;chr&gt;, CODMUNOCOR &lt;chr&gt;, IDADEMAE &lt;chr&gt;, ESCMAE &lt;chr&gt;,\n#   ESCMAE2010 &lt;chr&gt;, SERIESCMAE &lt;chr&gt;, QTDFILVIVO &lt;chr&gt;, QTDFILMORT &lt;chr&gt;,\n#   GRAVIDEZ &lt;chr&gt;, SEMAGESTAC &lt;chr&gt;, GESTACAO &lt;chr&gt;, PARTO &lt;chr&gt;,\n#   OBITOPARTO &lt;chr&gt;, PESO &lt;chr&gt;, TPMORTEOCO &lt;chr&gt;, OBITOGRAV &lt;chr&gt;, …\n\n\n\n\n5.6.4 Python\nVocê pode usar a biblioteca PySUS.\n\nPySUS SIM\n\n\n\n5.6.5 PCDaS\nOs dados do SIM estão disponíveis na PCDaS para acesso via notebooks.\n\nDados SIM\nDados SIM-DOFET\n\n\n\n5.6.6 Outras formas\nDados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.\n\nOpenDataSUS - SIM",
+    "section": "5.16 Acesso aos dados",
+    "text": "5.16 Acesso aos dados\nOs dados do SIM podem ser acessados por diferentes caminhos, a depender do objetivo da análise.\n\nFormas de acesso aos dados do SIM\n\n\n\n\n\n\nForma de acesso\nIndicação de uso\n\n\n\n\nTabNet\nTabulações rápidas e consultas agregadas\n\n\nTabWin/DBC\nDownload e tabulação local de arquivos do DataSUS\n\n\nR\nFluxos reprodutíveis com {microdatasus}\n\n\nPython\nFluxos reprodutíveis com PySUS\n\n\nPCDaS\nUso em ambiente de notebooks e infraestrutura de dados\n\n\nOpenDataSUS\nArquivos em formatos abertos, incluindo bases preliminares\n\n\n\n\n5.16.1 TabNet\nOs dados do SIM podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SIM\n\n\n\n5.16.2 TabWin e transferência de arquivos\nPara uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.\n\nTabWin - Transferência de arquivos\n\n\n\n5.16.3 R\nO pacote {microdatasus} permite baixar e pré-processar microdados do DataSUS em R (SALDANHA; BASTOS; BARCELLOS, 2019).\n\nlibrary(microdatasus)\n\nsim_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SIM-DO\"\n)\n\nsim_p &lt;- process_sim(sim_raw)\n\nsim_p\n\n\n\n5.16.4 Python\nA biblioteca PySUS também permite acessar dados do SIM em fluxos de análise em Python.\n\nPySUS SIM\n\n\n\n5.16.5 PCDaS\nOs dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.\n\nDados SIM\nDados SIM-DOFET\n\n\n\n5.16.6 OpenDataSUS\nDados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.\n\nOpenDataSUS - SIM",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#relacionamento-com-outros-sistemas",
+    "href": "sim.html#relacionamento-com-outros-sistemas",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.17 Relacionamento com outros sistemas",
+    "text": "5.17 Relacionamento com outros sistemas\nO SIM pode ser analisado isoladamente, mas muitas perguntas exigem integração com outras bases. Essa integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando houver justificativa metodológica, autorização e proteção adequada dos dados.\n\nIntegrações frequentes entre o SIM e outros sistemas\n\n\n\n\n\n\n\nPergunta\nFontes combinadas\nCuidado principal\n\n\n\n\nMortalidade infantil\nSIM + SINASC (Capítulo 6)\nUsar nascidos vivos como denominador\n\n\nÓbitos entre casos notificados\nSIM + SINAN (Capítulo 9)\nHarmonizar datas, território e identificação\n\n\nÓbitos após internação\nSIM + SIH (Capítulo 7)\nDefinir janela temporal e evitar duplicidade de AIH\n\n\nTaxas populacionais\nSIM + POP (Apêndice D)\nUsar população residente do mesmo período\n\n\nEventos fatais e não fatais\nSIM + sistemas assistenciais\nSeparar risco de morte de carga de atendimento\n\n\n\nEm relacionamentos determinísticos ou probabilísticos, é necessário definir previamente quais campos serão usados, como serão tratados registros incompletos, duplicidades e discordâncias, e qual será a unidade final de análise. O resultado do relacionamento não deve ser interpretado como simples soma de bases: ele depende das regras de pareamento, da qualidade dos identificadores e da finalidade da análise.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -573,8 +683,18 @@
     "objectID": "sim.html#principais-usos-e-indicadores",
     "href": "sim.html#principais-usos-e-indicadores",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.7 Principais usos e indicadores",
-    "text": "5.7 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:\n\nTaxa de mortalidade infantil\nTaxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal\nTaxa de mortalidade em menores de cinco anos\nRazão de mortalidade materna\nMortalidade proporcional por grupos de causas\n\nConsulte o livro da RIPSA para maiores detalhes sobre esses e outros indicadores.",
+    "section": "5.18 Principais usos e indicadores",
+    "text": "5.18 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. A ficha de cada indicador deve explicitar numerador, denominador, recorte territorial, período, idade, causa e critérios de exclusão.\n\nExemplos de indicadores construídos com dados do SIM\n\n\n\n\n\n\n\nIndicador\nNumerador principal\nDenominador ou cuidado\n\n\n\n\nTaxa de mortalidade infantil\nÓbitos menores de 1 ano\nNascidos vivos do SINASC\n\n\nMortalidade neonatal e pós-neonatal\nÓbitos infantis por idade\nClassificar corretamente a idade no óbito\n\n\nMortalidade em menores de cinco anos\nÓbitos menores de 5 anos\nPopulação ou nascidos vivos, conforme definição\n\n\nRazão de mortalidade materna\nÓbitos maternos\nNascidos vivos e investigação do óbito\n\n\nMortalidade proporcional por causa\nÓbitos por grupo de causas\nTotal de óbitos no mesmo recorte\n\n\nTaxa por causas externas\nÓbitos por causa externa\nPopulação residente e agrupamento CID\n\n\n\nConsulte o livro da RIPSA para mais detalhes sobre esses e outros indicadores.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
+    ]
+  },
+  {
+    "objectID": "sim.html#cuidados-de-interpretação",
+    "href": "sim.html#cuidados-de-interpretação",
+    "title": "5  SIM – Sistema de Informação sobre Mortalidade",
+    "section": "5.19 Cuidados de interpretação",
+    "text": "5.19 Cuidados de interpretação\nAo utilizar o SIM, alguns cuidados são recorrentes:\n\ndistinguir óbitos por residência e por ocorrência;\nseparar óbitos fetais, infantis, maternos e por causas externas quando necessário;\nverificar se a base é preliminar ou consolidada;\navaliar causas mal definidas e campos incompletos;\nnão interpretar mecanismo terminal de morte como causa básica;\nobservar mudanças na CID, nos formulários, na investigação e nas regras de codificação;\nconsiderar a qualidade diferencial por região, município, período e variável.\n\n\n\n\n\n\n\nAviso\n\n\n\nErros comuns incluem calcular taxas com óbitos por ocorrência e população residente, misturar bases preliminares e consolidadas na mesma série, incluir óbitos fetais em indicadores de mortalidade geral, tratar causas mal definidas como grupo substantivo de causa e usar códigos CID muito detalhados em populações pequenas sem avaliar instabilidade.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -583,8 +703,8 @@
     "objectID": "sim.html#bibliografia-recomendada",
     "href": "sim.html#bibliografia-recomendada",
     "title": "5  SIM – Sistema de Informação sobre Mortalidade",
-    "section": "5.8 Bibliografia recomendada",
-    "text": "5.8 Bibliografia recomendada\n\n5.8.1 Documentos auxiliares\n\nHistórico do SIM\nEstrutura do SIM\nManual de preenchimento da Declaração de Óbito\nA Declaração de Óbito: documento necessário e importante\n\n\n\n5.8.2 Vídeos\n\n\n\n\n5.8.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil (CAVALCANTE; SANTANA, 2023). Disponível aqui.\nArtigo Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. (JORGE; LAURENTI; GOTLIEB, 2007). Disponível aqui.\nArtigo Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. (REBOUÇAS et al., 2025). Disponível aqui.\n\n\n\n\n\nBRASIL, M. DA S. Declaração de Óbito: manual de instruções para preenchimento. 1. ed. Brası́lia, DF: Ministério da Saúde, 2022.\n\n\nCAVALCANTE, F.; SANTANA, V. S. Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil. Cadernos Saúde Coletiva, v. 31, n. 4, p. e31040547, 2023.\n\n\nJORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. Ciência & Saúde Coletiva, v. 12, n. 3, p. 643–654, jun. 2007.\n\n\nREBOUÇAS, P. et al. Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. Ciência & Saúde Coletiva, v. 30, n. 1, p. e08462023, jan. 2025.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSENNA, M. DE C. M. Sistema de Informações Sobre Mortalidade (SIM). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.\n\n\nWHO. Cause of death. Disponível em: &lt;https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death&gt;. Acesso em: 5 jan. 2026.",
+    "section": "5.20 Bibliografia recomendada",
+    "text": "5.20 Bibliografia recomendada\n\n5.20.1 Documentos auxiliares\n\nHistórico do SIM\nEstrutura do SIM\nManual de preenchimento da Declaração de Óbito\nA Declaração de Óbito: documento necessário e importante\n\n\n\n5.20.2 Vídeos\n\n\n\n\n5.20.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil (CAVALCANTE; SANTANA, 2023). Disponível aqui.\nArtigo Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC (JORGE; LAURENTI; GOTLIEB, 2007). Disponível aqui.\nArtigo Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review (REBOUÇAS et al., 2025). Disponível aqui.\n\n\n\n\n\nBRASIL, M. DA S. Declaração de Óbito: manual de instruções para preenchimento. 1. ed. Brası́lia, DF: Ministério da Saúde, 2022.\n\n\nCAVALCANTE, F.; SANTANA, V. S. Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil. Cadernos Saúde Coletiva, v. 31, n. 4, p. e31040547, 2023.\n\n\nJORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC. Ciência & Saúde Coletiva, v. 12, n. 3, p. 643–654, jun. 2007.\n\n\nREBOUÇAS, P. et al. Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review. Ciência & Saúde Coletiva, v. 30, n. 1, p. e08462023, jan. 2025.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. Microdatasus: Pacote Para Download e Pré-Processamento de Microdados Do Departamento de Informática Do SUS (DATASUS). Cadernos de Saúde Pública, v. 35, n. 9, p. 1–9, 2019.\n\n\nSENNA, M. DE C. M. Sistema de Informações Sobre Mortalidade (SIM). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.\n\n\nWHO. Cause of death. Disponível em: &lt;https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death&gt;. Acesso em: 5 jan. 2026.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SIM -- Sistema de Informação sobre Mortalidade</span>"
     ]
@@ -594,7 +714,7 @@
     "href": "sinasc.html",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
     "section": "",
-    "text": "6.1 Resumo",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -603,8 +723,18 @@
     "objectID": "sinasc.html#resumo",
     "href": "sinasc.html#resumo",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "",
-    "text": "Ano de criação: 1990\nCobertura: Dimensões pública e privada do SUS\nUnidade: Declaração de Nascido Vivo (DNV)\nDivulgação de dados: anual, com um ano de defasagem",
+    "section": "6.1 Resumo",
+    "text": "6.1 Resumo\n\nCaracterísticas gerais do SINASC\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nAno de criação\n1990\n\n\nEvento registrado\nNascido vivo\n\n\nDocumento básico\nDeclaração de Nascido Vivo (DNV)\n\n\nUnidade de análise\nDeclaração de Nascido Vivo\n\n\nCobertura\nTodo o território nacional\n\n\nAbrangência assistencial\nNascimentos ocorridos em serviços públicos, privados, suplementares, domicílios e outros locais\n\n\nDisseminação\nEm geral anual, com bases preliminares e consolidadas\n\n\n\nO Sistema de Informação sobre Nascidos Vivos (SINASC) é a principal fonte nacional para estudar nascimentos, condições da gestação, parto, recém-nascido e características maternas. Seus dados são usados para descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar a atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#quando-usar-o-sinasc",
+    "href": "sinasc.html#quando-usar-o-sinasc",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.2 Quando usar o SINASC",
+    "text": "6.2 Quando usar o SINASC\nO SINASC deve ser usado quando a pergunta envolve nascidos vivos, nascimento, parto, condições ao nascer ou indicadores que dependem do número de nascidos vivos. Em muitas análises, ele funciona como fonte principal do numerador; em outras, como denominador para eventos registrados em sistemas como SIM (Capítulo 5) ou SINAN (Capítulo 9).\n\nPerguntas comuns que podem ser respondidas com o SINASC\n\n\n\n\n\n\n\nPergunta de análise\nUsar SINASC para\nFonte complementar comum\n\n\n\n\nQuantos nascidos vivos ocorreram?\nContar registros de DNV\nRegistro Civil para comparação de cobertura\n\n\nComo está o perfil dos nascimentos?\nDescrever peso, idade gestacional, tipo de parto e Apgar\nCNES para caracterizar estabelecimentos\n\n\nComo está a atenção pré-natal?\nAnalisar consultas, início do pré-natal e escolaridade materna\nSISAB em análises de atenção primária\n\n\nQual o denominador da mortalidade infantil?\nContar nascidos vivos por residência\nSIM para óbitos infantis\n\n\nHá desigualdades ao nascer?\nEstratificar por raça/cor, escolaridade, idade e território\nPOP e bases territoriais\n\n\nQual a frequência de anomalias congênitas?\nIdentificar registros na DNV\nVigilância especializada e investigação",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -613,8 +743,88 @@
     "objectID": "sinasc.html#histórico-e-organização",
     "href": "sinasc.html#histórico-e-organização",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.2 Histórico e organização",
-    "text": "6.2 Histórico e organização\nO SINASC foi concebido estruturalmente de maneira semelhante ao SIM. A partir de 1990, ele passa a ser implantado nacionalmente, de forma gradual e planejada, pelo Ministério da Saúde, apresentando dados consolidados a partir de 1994. Em seu funcionamento inicial, o SINASC enfrentou problemas de cobertura, principalmente nas regiões Norte e Nordeste, e também apresentava poucas rotinas internas de controle de qualidade que foram posteriormente criadas, tão como questões sobre dupla entrada de dados foram solucionadas. SZWARCWALD et al. (2019) estima que a abrangência do SINASC seja superior a 90% dos nascidos vivos na maioria das Unidades da Federação, ainda que coberturas inferiores a 60% sejam encontrados em alguns municípios localizados nas áreas mais remotas e empobrecidas do país, o que demonstra a necessidade de esforços do poder público para o aumento da cobertura do SINASC.\nO documento básico do SINASC é a Declaração de Nascido Vivo (DNV), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV também é emitida em três vias e distribuída gratuitamente, seguindo o seguinte fluxo: a primeira via da DNV é retida pela unidade de saúde e encaminhada para a secretaria municipal de saúde, a segunda via é entregue à família para ser apresentada no Registro Civil, e que validará a obtenção do Certidão de Nascimento, já a terceira via é arquivada junto ao prontuário médico do recém-nascido na unidade de saúde.\n\n\n\n\n\n\nflowchart TD\ndn[Declaração de Nascido Vivo] --&gt; via1[1a Via]\ndn --&gt; via2[2a Via]\ndn --&gt; via3[3a Via]\n\nvia1 --&gt; sms[SMS]\n\nvia2 --&gt; fam[Família]\nfam --&gt; rg[Registro Civil]\nrg --&gt; ao[Certidão de Nascimento]\n\nvia3 --&gt; es[Estabelecimento de Saúde]\n\n\n\n\nFigura 6.1: Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo\n\n\n\n\n\nO SINASC apresenta informações sobre as condições de saúde do nascido vivo, circunstâncias do parto, sobre as fases da gravidez e sobre a saúde da mãe. Assim, as informações do SINASC possibilitam traçar um perfil epidemiológico dos recém-nascidos no país, avaliar diferenças e mudanças no perfil reprodutivo das mulheres, contribuem na definição de prioridades para a gestão e avaliação da qualidade da atenção ao parto, ao recém-nascido e à mãe, e são utilizados na construção de indicadores de saúde e demográficos no Brasil.\n\nNascido vivo é a expulsão ou extração completa do corpo da mãe, independente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independente de sua viabilidade (VIACAVA, 2009).\n\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SINASC",
+    "section": "6.3 Histórico e organização",
+    "text": "6.3 Histórico e organização\nO SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990 e os dados consolidados passaram a estar disponíveis a partir de 1994. Nos primeiros anos, o sistema enfrentou problemas de cobertura, especialmente em áreas mais remotas e em municípios das regiões Norte e Nordeste, além de desafios de rotina de crítica, duplicidade e controle de qualidade.\nEstudos de avaliação indicam melhora importante da cobertura e da qualidade do SINASC, mas também mostram heterogeneidade entre municípios e variáveis. SZWARCWALD et al. (2019) estimam cobertura superior a 90% na maioria das Unidades da Federação, embora municípios remotos e mais vulneráveis ainda possam apresentar cobertura insuficiente. A qualidade também varia conforme o campo analisado; idade gestacional, paridade, escolaridade materna e anomalias congênitas exigem atenção especial (LUQUETTI; KOIFMAN, 2010; PEDRAZA, 2012).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#fluxo-da-declaração-de-nascido-vivo",
+    "href": "sinasc.html#fluxo-da-declaração-de-nascido-vivo",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.4 Fluxo da Declaração de Nascido Vivo",
+    "text": "6.4 Fluxo da Declaração de Nascido Vivo\nO documento básico do SINASC é a Declaração de Nascido Vivo (DNV), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV é emitida em três vias e distribuída gratuitamente.\n\n\n\n\n\n\nflowchart TD\n  parto[Parto com nascido vivo] --&gt; dnv[Declaracao de Nascido Vivo]\n  dnv --&gt; via1[1a via]\n  dnv --&gt; via2[2a via]\n  dnv --&gt; via3[3a via]\n\n  via1 --&gt; sms[Secretaria Municipal de Saude]\n  sms --&gt; ses[Secretaria Estadual de Saude]\n  ses --&gt; ms[Ministerio da Saude]\n  ms --&gt; sinasc[Base nacional do SINASC]\n\n  via2 --&gt; fam[Familia]\n  fam --&gt; rg[Registro Civil]\n  rg --&gt; cert[Certidao de Nascimento]\n\n  via3 --&gt; es[Estabelecimento ou prontuario]\n\n\n\n\nFigura 6.1: Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo\n\n\n\n\n\nA primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#o-que-é-nascido-vivo",
+    "href": "sinasc.html#o-que-é-nascido-vivo",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.5 O que é nascido vivo",
+    "text": "6.5 O que é nascido vivo\nUm nascimento é classificado como nascido vivo quando, após a separação do corpo materno, há respiração ou qualquer outro sinal de vida, independentemente da duração da gestação ou da viabilidade clínica (VIACAVA, 2009).\nEssa definição é central para separar nascidos vivos de óbitos fetais. Se houve qualquer sinal de vida após a separação, o evento deve ser registrado como nascido vivo no SINASC; se ocorrer morte posteriormente, também haverá registro no SIM. Óbitos fetais são registrados no SIM, não no SINASC.\n\nDiferenças práticas entre SINASC e SIM em eventos perinatais\n\n\n\n\n\n\n\nSituação\nSistema principal\nObservação\n\n\n\n\nNascido vivo sem óbito posterior\nSINASC\nRegistro por DNV\n\n\nNascido vivo que morre após o parto\nSINASC e SIM\nHá DNV e Declaração de Óbito\n\n\nÓbito neonatal\nSIM\nDenominador geralmente vem do SINASC\n\n\nÓbito fetal\nSIM\nNão entra como nascido vivo no SINASC\n\n\nIndicador de mortalidade infantil\nSIM + SINASC\nÓbitos no numerador e nascidos vivos no denominador",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#cobertura-e-unidade-de-análise",
+    "href": "sinasc.html#cobertura-e-unidade-de-análise",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.6 Cobertura e unidade de análise",
+    "text": "6.6 Cobertura e unidade de análise\nA unidade de análise do SINASC é a DNV. Cada registro corresponde a um nascimento vivo, não a uma gestante acompanhada ao longo da gravidez. Em gestações múltiplas, cada nascido vivo deve ter sua própria DNV.\n\nDimensões importantes para análise do SINASC\n\n\n\n\n\n\nDimensão\nCuidado de interpretação\n\n\n\n\nResidência da mãe\nUsada em taxas e indicadores populacionais\n\n\nOcorrência do parto\nÚtil para analisar rede assistencial e fluxo de partos\n\n\nRecém-nascido\nPeso ao nascer, Apgar, sexo, anomalias e idade gestacional\n\n\nGestação e parto\nTipo de gravidez, tipo de parto, consultas e duração da gestação\n\n\nMãe\nIdade, escolaridade, raça/cor, situação conjugal e história reprodutiva\n\n\n\nPara estimar riscos na população residente, em geral utiliza-se o município de residência da mãe. Para avaliar concentração de partos, serviços de referência e deslocamentos para nascer, o município de ocorrência do parto é mais informativo.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#gestações-múltiplas",
+    "href": "sinasc.html#gestações-múltiplas",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.7 Gestações múltiplas",
+    "text": "6.7 Gestações múltiplas\nEm gestações múltiplas, o SINASC registra cada nascido vivo separadamente. Assim, uma gestação gemelar com dois nascidos vivos deve gerar duas DNV. Isso é adequado para indicadores cujo evento é o nascido vivo, mas exige cuidado quando a pergunta se refere à gestação, à mãe ou ao parto.\n\nUnidade de análise em gestações múltiplas\n\n\n\n\n\n\n\nPergunta\nUnidade adequada\nCuidado\n\n\n\n\nQuantos nascidos vivos ocorreram?\nNascido vivo\nCada DNV conta uma vez\n\n\nQuantas gestações terminaram em nascimento vivo?\nGestação\nGestações múltiplas não devem ser duplicadas\n\n\nQual o perfil das mães?\nMãe\nA mesma mãe pode aparecer mais de uma vez\n\n\nQual o perfil dos partos?\nParto\nPartos múltiplos podem gerar múltiplos registros",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#variáveis-chave",
+    "href": "sinasc.html#variáveis-chave",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.8 Variáveis-chave",
+    "text": "6.8 Variáveis-chave\nAs variáveis mais usadas no SINASC podem ser organizadas em blocos analíticos. Essa organização ajuda a separar perguntas sobre perfil do recém-nascido, atenção à gestação, assistência ao parto e desigualdades sociais.\n\nBlocos de informação disponíveis no SINASC\n\n\n\n\n\n\n\nBloco\nExemplos de variáveis\nUso típico\n\n\n\n\nRecém-nascido\nPeso ao nascer, sexo, Apgar, anomalia congênita\nCondições ao nascer e risco neonatal\n\n\nGestação\nIdade gestacional, tipo de gravidez, consultas pré-natais\nQualidade e oportunidade do pré-natal\n\n\nParto\nTipo de parto, local de ocorrência, estabelecimento\nOrganização da assistência ao parto\n\n\nMãe\nIdade, raça/cor, escolaridade, município de residência\nDesigualdades e perfil reprodutivo\n\n\nRegistro\nData de nascimento, data de cadastro, número da DNV\nControle de duplicidade e oportunidade\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nCampos derivados de avaliação clínica, como idade gestacional, Apgar e anomalias congênitas, podem variar em completitude e validade. Antes de usá-los como desfecho ou critério de estratificação, avalie proporção de ignorados, mudanças no formulário e consistência com outras variáveis.\n\n\n\n6.8.1 Transformações frequentes\nMuitas análises do SINASC dependem de transformar campos originais em categorias epidemiológicas. Essas regras devem ser documentadas no método, especialmente quando há mudanças de formulário ou códigos ignorados.\n\nTransformações comuns em análises com SINASC\n\n\n\n\n\n\n\nConceito\nRegra operacional comum\nCampo associado\n\n\n\n\nBaixo peso ao nascer\nPeso menor que 2.500 g\nPESO\n\n\nMuito baixo peso\nPeso menor que 1.500 g\nPESO\n\n\nPrematuridade\nMenos de 37 semanas\nGESTACAO\n\n\nMãe adolescente\nIdade materna menor que 20 anos\nIDADEMAE\n\n\nParto cesáreo\nTipo de parto cesáreo\nPARTO\n\n\nPré-natal insuficiente\nBaixo número de consultas\nCONSULTAS\n\n\nAnomalia congênita registrada\nPresença informada na DNV\nIDANOMAL ou equivalente",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#anomalias-congênitas",
+    "href": "sinasc.html#anomalias-congênitas",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.9 Anomalias congênitas",
+    "text": "6.9 Anomalias congênitas\nO SINASC permite registrar anomalias congênitas identificadas no nascimento, mas esse campo é particularmente sensível à qualidade do exame, ao treinamento da equipe, à disponibilidade de diagnóstico e ao preenchimento da DNV. Estudos mostram subnotificação relevante, o que impede interpretar baixa frequência registrada como baixa ocorrência real sem avaliação de qualidade (LUQUETTI; KOIFMAN, 2010).\nPara análises de anomalias congênitas, verifique a proporção de ignorados, a mudança temporal do preenchimento, a consistência por estabelecimento e a compatibilidade entre frequência observada e padrões esperados. Quando possível, complemente a análise com vigilância específica, prontuários, investigação local ou bases especializadas.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#análise-territorial-e-temporal",
+    "href": "sinasc.html#análise-territorial-e-temporal",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.10 Análise territorial e temporal",
+    "text": "6.10 Análise territorial e temporal\nAssim como no SIM, o SINASC permite análises por residência e por ocorrência. A escolha deve seguir a pergunta de pesquisa.\n\nRecortes territoriais frequentes no SINASC\n\n\n\n\n\n\n\nRecorte\nPergunta respondida\nExemplo\n\n\n\n\nResidência da mãe\nOnde vive a população que teve filhos?\nTaxa bruta de natalidade por município\n\n\nOcorrência do parto\nOnde os partos aconteceram?\nDistribuição de partos por rede assistencial\n\n\nEstabelecimento\nEm que serviço ocorreu o parto?\nPerfil de partos por maternidade\n\n\n\nNa análise temporal, diferencie a data de nascimento, o ano do arquivo e a situação de consolidação da base. Bases preliminares são úteis para monitoramento oportuno, mas podem mudar com atualizações posteriores.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#exemplo-baixo-peso-ao-nascer",
+    "href": "sinasc.html#exemplo-baixo-peso-ao-nascer",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.11 Exemplo: baixo peso ao nascer",
+    "text": "6.11 Exemplo: baixo peso ao nascer\nBaixo peso ao nascer é um exemplo de uso do SINASC para avaliar condições ao nascer e desigualdades materno-infantis. A definição operacional mais comum considera baixo peso quando o recém-nascido pesa menos de 2.500 g.\n\nCampos úteis em uma análise de baixo peso ao nascer\n\n\n\n\n\n\n\nElemento da análise\nCampo ou dimensão\nCuidado\n\n\n\n\nDesfecho\nPESO menor que 2.500 g\nExcluir peso ignorado ou inconsistente\n\n\nDenominador\nNascidos vivos com peso informado\nDocumentar exclusões\n\n\nTerritório\nResidência da mãe\nUsar para desigualdade territorial\n\n\nAssistência\nOcorrência ou estabelecimento\nUsar para rede de parto\n\n\nEstratificação\nIdade materna, raça/cor, escolaridade\nAvaliar completitude\n\n\nContexto clínico\nIdade gestacional e tipo de gravidez\nSeparar prematuridade e gestação múltipla\n\n\n\nUma análise mais consistente deve avaliar baixo peso junto com idade gestacional. Um recém-nascido pode ter baixo peso por prematuridade, restrição de crescimento intrauterino ou combinação de fatores. Em municípios pequenos, use períodos agregados ou medidas de suavização quando a proporção for instável.\n\nlibrary(dplyr)\n\nbaixo_peso_mun &lt;- sinasc_p |&gt;\n  filter(!is.na(PESO), PESO &gt; 0) |&gt;\n  mutate(baixo_peso = PESO &lt; 2500) |&gt;\n  group_by(CODMUNRES) |&gt;\n  summarise(\n    nascidos_vivos = n(),\n    baixo_peso = sum(baixo_peso),\n    prop_baixo_peso = baixo_peso / nascidos_vivos,\n    .groups = \"drop\"\n  )\n\nbaixo_peso_mun\n\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SINASC",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -623,8 +833,8 @@
     "objectID": "sinasc.html#modelo-da-declaração-de-nascido-vivo",
     "href": "sinasc.html#modelo-da-declaração-de-nascido-vivo",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.3 Modelo da Declaração de Nascido Vivo",
-    "text": "6.3 Modelo da Declaração de Nascido Vivo\n\n\n\nModelo de Declaração de Nascido Vivo",
+    "section": "6.12 Modelo da Declaração de Nascido Vivo",
+    "text": "6.12 Modelo da Declaração de Nascido Vivo\n\n\n\nModelo de Declaração de Nascido Vivo",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -633,8 +843,8 @@
     "objectID": "sinasc.html#estrutura-dos-dados",
     "href": "sinasc.html#estrutura-dos-dados",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.4 Estrutura dos dados",
-    "text": "6.4 Estrutura dos dados\nConfira o documento de estrutura do SINASC, onde estão descritas as variáveis disponíveis.\n\n6.4.1 Prefixo dos arquivos\n\nDN: Declarações de nascidos vivos\nDNEX: Declarações de nascidos vivos residentes no exterior",
+    "section": "6.13 Estrutura dos dados",
+    "text": "6.13 Estrutura dos dados\nO documento de estrutura do SINASC descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão data de nascimento, município de residência da mãe, município de ocorrência, idade materna, escolaridade, raça/cor, número de consultas de pré-natal, tipo de parto, idade gestacional, peso ao nascer, Apgar e presença de anomalia congênita.\n\n6.13.1 Campos mínimos para inspecionar\nOs nomes e a disponibilidade das variáveis podem variar conforme o ano e a forma de acesso. Em uma primeira inspeção, costuma ser útil verificar:\n\nCampos úteis para uma primeira inspeção dos dados do SINASC\n\n\nCampo\nUso\n\n\n\n\nDTNASC\nData de nascimento\n\n\nCODMUNRES\nMunicípio de residência da mãe\n\n\nCODMUNNASC ou equivalente\nMunicípio de ocorrência do nascimento\n\n\nIDADEMAE\nIdade materna\n\n\nRACACOR ou equivalente\nRaça/cor\n\n\nESCMAE ou equivalente\nEscolaridade materna\n\n\nCONSULTAS\nNúmero de consultas pré-natais\n\n\nGESTACAO\nIdade gestacional\n\n\nPARTO\nTipo de parto\n\n\nPESO\nPeso ao nascer\n\n\nAPGAR1 e APGAR5\nVitalidade no 1o e 5o minutos\n\n\nIDANOMAL ou equivalente\nPresença de anomalia congênita\n\n\n\n\n\n6.13.2 Prefixo dos arquivos\n\nPrefixos comuns dos arquivos do SINASC\n\n\nPrefixo\nConteúdo\n\n\n\n\nDN\nDeclarações de nascidos vivos\n\n\nDNEX\nDeclarações de nascidos vivos residentes no exterior",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -643,8 +853,28 @@
     "objectID": "sinasc.html#acesso-aos-dados",
     "href": "sinasc.html#acesso-aos-dados",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.5 Acesso aos dados",
-    "text": "6.5 Acesso aos dados\n\n6.5.1 TabNet\nOs dados do SINASC podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SINASC\n\n\n\n6.5.2 TabWin\nPara uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.\n\nTabWin - Transferência de arquivos\n\n\n\n6.5.3 R\nVocê pode usar o pacote {microdatasus}.\n\nlibrary(microdatasus)\n\nsinasc_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SINASC\"\n)\n\nsinasc_p &lt;- process_sinasc(sinasc_raw)\n\nsinasc_p\n\n# A tibble: 15,699 × 69\n   ORIGEM CODESTAB CODMUNNASC LOCNASC       IDADEMAE ESTCIVMAE ESCMAE QTDFILVIVO\n   &lt;chr&gt;  &lt;chr&gt;    &lt;chr&gt;      &lt;chr&gt;         &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;  &lt;chr&gt;     \n 1 1      2515768  110010     Hospital      18       Solteira  8 a 1… 0         \n 2 1      2516276  110015     Hospital      28       Casada    12 an… 0         \n 3 1      2496879  110015     Hospital      32       União co… 8 a 1… 1         \n 4 1      5618347  110020     Hospital      25       &lt;NA&gt;      4 a 7… 4         \n 5 1      5618347  110020     Hospital      32       Casada    12 an… 1         \n 6 1      5701929  120001     Hospital      25       Casada    8 a 1… 3         \n 7 1      5701929  120001     Outro estabe… 24       Solteira  8 a 1… 1         \n 8 1      5701929  120001     Hospital      27       União co… 4 a 7… 4         \n 9 1      5701929  120001     Hospital      26       União co… 8 a 1… 2         \n10 1      5701929  120001     Hospital      35       União co… 4 a 7… 5         \n# ℹ 15,689 more rows\n# ℹ 61 more variables: QTDFILMORT &lt;chr&gt;, CODMUNRES &lt;chr&gt;, GESTACAO &lt;chr&gt;,\n#   GRAVIDEZ &lt;chr&gt;, PARTO &lt;chr&gt;, CONSULTAS &lt;chr&gt;, DTNASC &lt;chr&gt;, HORANASC &lt;chr&gt;,\n#   SEXO &lt;chr&gt;, APGAR1 &lt;chr&gt;, APGAR5 &lt;chr&gt;, RACACOR &lt;chr&gt;, PESO &lt;chr&gt;,\n#   IDANOMAL &lt;chr&gt;, DTCADASTRO &lt;chr&gt;, CODANOMAL &lt;chr&gt;, NUMEROLOTE &lt;chr&gt;,\n#   VERSAOSIST &lt;chr&gt;, DTRECEBIM &lt;chr&gt;, DIFDATA &lt;chr&gt;, DTRECORIGA &lt;chr&gt;,\n#   NATURALMAE &lt;chr&gt;, CODMUNNATU &lt;chr&gt;, CODUFNATU &lt;chr&gt;, ESCMAE2010 &lt;chr&gt;, …\n\n\n\n\n6.5.4 Python\nVocê pode usar a biblioteca PySUS.\n\nPySUS SINASC\n\n\n\n6.5.5 PCDaS\nOs dados do SINASC estão disponíveis na PCDaS para acesso via notebooks.\n\nDados SINASC\n\n\n\n6.5.6 Outras formas\nDados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados pr eliminares do ano corrente.\n\nOpenDataSUS - SINASC",
+    "section": "6.14 Acesso aos dados",
+    "text": "6.14 Acesso aos dados\nOs dados do SINASC podem ser acessados por diferentes caminhos, a depender do objetivo da análise.\n\nFormas de acesso aos dados do SINASC\n\n\n\n\n\n\nForma de acesso\nIndicação de uso\n\n\n\n\nTabNet\nTabulações rápidas e consultas agregadas\n\n\nTabWin/DBC\nDownload e tabulação local de arquivos do DataSUS\n\n\nR\nFluxos reprodutíveis com {microdatasus}\n\n\nPython\nFluxos reprodutíveis com PySUS\n\n\nPCDaS\nUso em ambiente de notebooks e infraestrutura de dados\n\n\nOpenDataSUS\nArquivos em formatos abertos, incluindo bases preliminares\n\n\n\n\n6.14.1 TabNet\nOs dados do SINASC podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.\n\nTabNet SINASC\n\n\n\n6.14.2 TabWin e transferência de arquivos\nPara uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.\n\nTabWin - Transferência de arquivos\n\n\n\n6.14.3 R\nO pacote {microdatasus} permite baixar e pré-processar microdados do DataSUS em R (SALDANHA; BASTOS; BARCELLOS, 2019).\n\nlibrary(microdatasus)\n\nsinasc_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  year_end = 2021,\n  uf = \"AC\",\n  information_system = \"SINASC\"\n)\n\nsinasc_p &lt;- process_sinasc(sinasc_raw)\n\nsinasc_p\n\n\n\n6.14.4 Python\nA biblioteca PySUS também permite acessar dados do SINASC em fluxos de análise em Python.\n\nPySUS SINASC\n\n\n\n6.14.5 PCDaS\nOs dados do SINASC estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.\n\nDados SINASC\n\n\n\n6.14.6 OpenDataSUS\nDados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.\n\nOpenDataSUS - SINASC",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#relacionamento-com-outros-sistemas",
+    "href": "sinasc.html#relacionamento-com-outros-sistemas",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.15 Relacionamento com outros sistemas",
+    "text": "6.15 Relacionamento com outros sistemas\nO SINASC é frequentemente combinado com outros sistemas para construir indicadores de saúde materno-infantil. A integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando a finalidade e a governança dos dados justificarem esse procedimento.\n\nIntegrações frequentes entre o SINASC e outros sistemas\n\n\n\n\n\n\n\nPergunta\nFontes combinadas\nCuidado principal\n\n\n\n\nMortalidade infantil\nSINASC + SIM (Capítulo 5)\nUsar nascidos vivos como denominador e óbitos por idade\n\n\nMortalidade neonatal\nSINASC + SIM\nSeparar óbitos neonatais precoces e tardios\n\n\nEventos gestacionais notificados\nSINASC + SINAN (Capítulo 9)\nHarmonizar identificação, datas e território\n\n\nPartos e rede assistencial\nSINASC + CNES (Capítulo 10)\nRelacionar estabelecimento e tipo de serviço\n\n\nIndicadores populacionais\nSINASC + POP (Apêndice D)\nUsar população residente compatível com o período\n\n\n\nEm relacionamentos determinísticos ou probabilísticos, defina previamente a unidade final de análise. Ao relacionar SINASC e SIM, por exemplo, a unidade pode ser o nascimento, o óbito infantil ou o par nascimento-óbito, dependendo da pergunta.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#uso-como-denominador",
+    "href": "sinasc.html#uso-como-denominador",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.16 Uso como denominador",
+    "text": "6.16 Uso como denominador\nO SINASC é frequentemente usado como denominador porque registra a população de nascidos vivos exposta a eventos no primeiro ano de vida ou em períodos próximos ao nascimento. O ponto principal é garantir que numerador e denominador usem o mesmo recorte territorial, temporal e populacional.\n\nUso do SINASC como denominador em indicadores\n\n\n\n\n\n\n\nIndicador\nNumerador\nDenominador no SINASC\n\n\n\n\nMortalidade infantil\nÓbitos menores de 1 ano no SIM\nNascidos vivos\n\n\nMortalidade neonatal\nÓbitos de 0 a 27 dias no SIM\nNascidos vivos\n\n\nMortalidade neonatal precoce\nÓbitos de 0 a 6 dias no SIM\nNascidos vivos\n\n\nMortalidade pós-neonatal\nÓbitos de 28 a 364 dias no SIM\nNascidos vivos\n\n\nRazão de mortalidade materna\nÓbitos maternos no SIM\nNascidos vivos\n\n\n\nQuando o indicador é uma proporção entre nascidos vivos, como baixo peso ao nascer ou parto cesáreo, o SINASC fornece numerador e denominador. Quando o indicador envolve óbitos, o numerador vem do SIM e o denominador costuma vir do SINASC.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -653,8 +883,18 @@
     "objectID": "sinasc.html#principais-usos-e-indicadores",
     "href": "sinasc.html#principais-usos-e-indicadores",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.6 Principais usos e indicadores",
-    "text": "6.6 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SINASC são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:\n\nTaxa de fecundidade total\nTaxa específica de fecundidade\nTaxa bruta de natalidade\n\nConsulte o livro da RIPSA para maiores detalhes sobre esses e outros indicadores.",
+    "section": "6.17 Principais usos e indicadores",
+    "text": "6.17 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SINASC são utilizados na construção de indicadores demográficos, reprodutivos e materno-infantis. A ficha de cada indicador deve explicitar numerador, denominador, período, território, faixa etária materna e critérios de inclusão.\n\nExemplos de indicadores construídos com dados do SINASC\n\n\n\n\n\n\n\nIndicador\nNumerador principal\nDenominador ou cuidado\n\n\n\n\nTaxa bruta de natalidade\nNascidos vivos\nPopulação residente\n\n\nTaxa específica de fecundidade\nNascidos vivos por idade materna\nMulheres da mesma faixa etária\n\n\nProporção de baixo peso ao nascer\nNascidos vivos com peso menor que 2.500 g\nNascidos vivos com peso informado\n\n\nProporção de prematuridade\nNascidos vivos pré-termo\nVerificar qualidade da idade gestacional\n\n\nProporção de parto cesáreo\nNascidos vivos por cesariana\nInterpretar segundo tipo de serviço e risco\n\n\nCobertura de pré-natal\nNascidos vivos por número de consultas\nObservar mudanças de formulário e ignorados\n\n\nMortalidade infantil\nÓbitos menores de 1 ano no SIM\nNascidos vivos do SINASC\n\n\n\nConsulte o livro da RIPSA para mais detalhes sobre esses e outros indicadores.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
+    ]
+  },
+  {
+    "objectID": "sinasc.html#cuidados-de-interpretação",
+    "href": "sinasc.html#cuidados-de-interpretação",
+    "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
+    "section": "6.18 Cuidados de interpretação",
+    "text": "6.18 Cuidados de interpretação\nAo utilizar o SINASC, alguns cuidados são recorrentes:\n\nverificar se a unidade de análise é nascido vivo, parto, gestação ou mãe;\ndistinguir município de residência da mãe e município de ocorrência do parto;\nverificar cobertura antes de comparar municípios pequenos ou áreas remotas;\navaliar completitude e consistência de idade gestacional, peso, Apgar, raça/cor, escolaridade e anomalias congênitas;\nseparar nascidos vivos de óbitos fetais;\nconsiderar mudanças no formulário, nas regras de preenchimento e na consolidação das bases;\nevitar interpretar número de consultas pré-natais sem considerar idade gestacional e acesso aos serviços;\navaliar duplicidades, especialmente quando a análise usa microdados.\n\n\nChecklist de qualidade para análises com SINASC\n\n\n\n\n\n\nChecagem\nPor que importa\n\n\n\n\nCobertura por território\nEvita comparar municípios com captação desigual\n\n\nDuplicidades\nImpede superestimação de nascidos vivos\n\n\nPeso e idade gestacional\nIdentifica valores incompatíveis\n\n\nIgnorados por variável\nMede perda de informação\n\n\nResidência e ocorrência\nDefine corretamente risco e oferta\n\n\nParto único ou múltiplo\nAfeta peso, prematuridade e unidade de análise\n\n\nBase preliminar ou consolidada\nEvita que atualizações pareçam tendência\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nErros comuns incluem calcular taxas por ocorrência com população residente, usar nascidos vivos como proxy de gestantes, comparar prematuridade sem avaliar mudanças na mensuração da idade gestacional e interpretar baixa frequência de anomalias congênitas como ausência do problema sem verificar subnotificação.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -663,8 +903,8 @@
     "objectID": "sinasc.html#bibliografia-recomendada",
     "href": "sinasc.html#bibliografia-recomendada",
     "title": "6  SINASC – Sistema de Informação sobre Nascidos Vivos",
-    "section": "6.7 Bibliografia recomendada",
-    "text": "6.7 Bibliografia recomendada\n\n6.7.1 Documentos auxiliares\n\nEstrutura do SINASC\nManual de preenchimento da Declaração de Nascido Vivo\n\n\n\n6.7.2 Vídeos\n\n\n\n6.7.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura (PEDRAZA, 2012). Disponível aqui.\nArtigo Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007 (LUQUETTI; KOIFMAN, 2010). Disponível aqui.\n\n\n\n\n\nLUQUETTI, D. V.; KOIFMAN, R. J. Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007. Cadernos de Saúde Pública, v. 26, n. 9, p. 1756–1765, set. 2010.\n\n\nPEDRAZA, D. F. Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura. Ciência & Saúde Coletiva, v. 17, n. 10, p. 2729–2737, out. 2012.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSZWARCWALD, C. L. et al. Avaliação das informações do Sistema de Informações sobre Nascidos Vivos (SINASC), Brasil. Cadernos de Saúde Pública, v. 35, n. 10, p. e00214918, 2019.\n\n\nVIACAVA, F. Sistema de Informação Sobre Nascidos Vivos (Sinasc). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
+    "section": "6.19 Bibliografia recomendada",
+    "text": "6.19 Bibliografia recomendada\n\n6.19.1 Documentos auxiliares\n\nEstrutura do SINASC\nManual de preenchimento da Declaração de Nascido Vivo\n\n\n\n6.19.2 Vídeos\n\n\n\n6.19.3 Avaliação da qualidade dos dados\n\nArtigo Avaliação das informações do Sistema de Informações sobre Nascidos Vivos (SINASC), Brasil (SZWARCWALD et al., 2019). Disponível aqui.\nArtigo Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura (PEDRAZA, 2012). Disponível aqui.\nArtigo Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007 (LUQUETTI; KOIFMAN, 2010). Disponível aqui.\n\n\n\n\n\nLUQUETTI, D. V.; KOIFMAN, R. J. Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007. Cadernos de Saúde Pública, v. 26, n. 9, p. 1756–1765, set. 2010.\n\n\nPEDRAZA, D. F. Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura. Ciência & Saúde Coletiva, v. 17, n. 10, p. 2729–2737, out. 2012.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. Microdatasus: Pacote Para Download e Pré-Processamento de Microdados Do Departamento de Informática Do SUS (DATASUS). Cadernos de Saúde Pública, v. 35, n. 9, p. 1–9, 2019.\n\n\nSZWARCWALD, C. L. et al. Avaliação das informações do Sistema de Informações sobre Nascidos Vivos (SINASC), Brasil. Cadernos de Saúde Pública, v. 35, n. 10, p. e00214918, 2019.\n\n\nVIACAVA, F. Sistema de Informação Sobre Nascidos Vivos (Sinasc). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
@@ -674,7 +914,7 @@
     "href": "sih.html",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
     "section": "",
-    "text": "7.1 Resumo",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -683,8 +923,28 @@
     "objectID": "sih.html#resumo",
     "href": "sih.html#resumo",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "",
-    "text": "Ano de criação: 1981\nCobertura: Dimensão pública do SUS\nUnidade: Autorização de Internação Hospitalar (AIH)\nDivulgação de dados: mensal, com até dois meses de defasagem",
+    "section": "7.1 Resumo",
+    "text": "7.1 Resumo\n\nCaracterísticas gerais do SIH/SUS\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nAno de criação\n1981\n\n\nEvento registrado\nInternação financiada pelo SUS\n\n\nDocumento básico\nAutorização de Internação Hospitalar (AIH)\n\n\nUnidade de análise\nAIH, não pessoa\n\n\nCobertura\nInternações na rede pública e conveniada ao SUS\n\n\nAbrangência assistencial\nNão cobre integralmente internações privadas não financiadas pelo SUS\n\n\nDisseminação\nMensal, com defasagem curta em relação à competência\n\n\n\nO Sistema de Informações Hospitalares do SUS (SIH/SUS) é a principal fonte nacional para analisar internações financiadas pelo SUS. Seus dados permitem estudar volume de internações, diagnósticos, procedimentos, permanência hospitalar, valores pagos, óbitos hospitalares, fluxos de pacientes e uso da rede hospitalar.\nO SIH tem origem administrativa e financeira. Isso significa que sua unidade básica é a AIH, criada para autorizar, registrar e remunerar internações. Mesmo assim, seus dados são amplamente usados em estudos epidemiológicos, avaliação de políticas, planejamento regional e análise da oferta hospitalar.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#quando-usar-o-sih",
+    "href": "sih.html#quando-usar-o-sih",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.2 Quando usar o SIH",
+    "text": "7.2 Quando usar o SIH\nO SIH deve ser usado quando a pergunta envolve internações hospitalares financiadas pelo SUS, procedimentos hospitalares, permanência, valores ou desfecho da internação. Quando a pergunta envolve eventos não hospitalares, atendimentos ambulatoriais ou internações exclusivamente privadas, outras fontes são necessárias.\n\nPerguntas comuns que podem ser respondidas com o SIH\n\n\n\n\n\n\n\nPergunta de análise\nUsar SIH para\nFonte complementar comum\n\n\n\n\nQuantas internações SUS ocorreram?\nContar AIH aprovadas\nPOP (Apêndice D) para taxas\n\n\nQuais causas geraram internação?\nAnalisar diagnóstico principal\nCID (Apêndice B) para agrupamentos\n\n\nQuais procedimentos foram realizados?\nAnalisar procedimento realizado\nSIGTAP para regras e descrição\n\n\nOnde ocorreram as internações?\nAnalisar estabelecimento e município de internação\nCNES (Capítulo 10) para perfil do serviço\n\n\nHouve óbito hospitalar?\nIdentificar desfecho da internação\nSIM (Capítulo 5) para mortalidade total\n\n\nQual foi o valor registrado?\nAnalisar valores da AIH\nTabelas de remuneração do SUS\n\n\nQual foi o fluxo entre residência e internação?\nComparar município de residência e ocorrência\nRegiões de saúde e rede assistencial",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#sih-e-sia",
+    "href": "sih.html#sih-e-sia",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.3 SIH e SIA",
+    "text": "7.3 SIH e SIA\nSIH e SIA (Capítulo 8) são sistemas de produção assistencial e têm forte componente administrativo-financeiro. A diferença principal está na unidade registrada: o SIH organiza internações por AIH, enquanto o SIA registra produção ambulatorial por diferentes instrumentos.\n\nDiferenças práticas entre SIH e SIA\n\n\n\n\n\n\n\nDimensão\nSIH\nSIA\n\n\n\n\nTipo de cuidado\nHospitalar\nAmbulatorial\n\n\nUnidade típica\nAIH\nProcedimento ou autorização ambulatorial\n\n\nEvento assistencial\nInternação\nAtendimento, exame, procedimento ou terapia\n\n\nPeriodicidade\nMensal\nMensal\n\n\nUso comum\nMorbidade hospitalar e produção\nProdução ambulatorial e procedimentos\n\n\nCuidado central\nAIH não é pessoa\nProdução não é pessoa",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -693,8 +953,88 @@
     "objectID": "sih.html#histórico-e-organização",
     "href": "sih.html#histórico-e-organização",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "7.2 Histórico e organização",
-    "text": "7.2 Histórico e organização\nA concepção do SIH tem origem administrativa, visando operar pagamentos de internações e instrumentar ações de controle e auditorias. Em 1977, havia um sistema nacional de controle de pagamento de contas hospitalares para o ressarcimento de despesas aos hospitais. Este sistema já era informatizado, mas apresentava muitos passos não-automatizados de preenchimento e problemas de imprevisibilidade de faturamento dos hospitais. Enfrentando denúncias frequentes de fraudes, foi estabelecida uma comissão técnica que propôs a criação de um sistema menos complexo e mais preciso, baseado em um instrumento único, a Autorização de Internação Hospitalar (AIH).\nA adoção da AIH e implantação do SIH foi iniciada em 1981, com um projeto piloto em Curitiba, e posteriormente foi implantada em todo o território nacional, em 1983. A evolução do SIH acompanhou a evolução da informática no Brasil, desde a utilização de disquetes para coleta de dados introduzida em 1992. Atualmente, o sistema apresenta críticas automáticas durante o preenchimento da AIH, avisando o profissional sobre possíveis erros durante o preenchimento da AIH. Estas críticas verificam possíveis incompatibilidades entre idade, sexo, e capacidade declarada dos estabelecimentos de saúde frente aos procedimentos lançados na autorização, contribuindo para uma melhor qualidade dos dados do sistema (PEPE, 2009).\nA cobertura do SIH se limita à esfera pública do SUS e sua rede conveniada. A AIH habilita a internação do paciente na unidade de saúde, agregando informações de custo, pagamentos e ressarcimentos. Apesar de sua origem administrativa, A AIH apresenta informações de interesse para pesquisas como informações demográficas sobre o paciente, procedimentos realizados, causa e duração da internação, além de dados sobre o estabelecimento de saúde. Seus dados são utilizados para avaliações de políticas públicas e pesquisas sobre acesso a serviços de saúde e análises de situação de saúde. Em termos de dimensão, entre 2008 e maio de 2024, o SIH apresenta 186.302.654 AIHs cadastradas, segundo dados compilados pela PCDaS/ICICT (PEDROSO et al., 2023).\nEste é um dos sistemas de informação de saúde que recebe novos registros com maior frequência, junto com o Sistema de Informações Ambulatoriais – SIA (Capítulo 8). A análise destes dados requerem estratégias específicas para lidar com grandes bases de dados, utilizando, em geral, soluções de banco de dados relacionais que permitam um processamento analítico on-line (OLAP) eficiente.\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SIH",
+    "section": "7.4 Histórico e organização",
+    "text": "7.4 Histórico e organização\nA concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH).\nA adoção da AIH e a implantação do SIH começaram em 1981, com projeto piloto em Curitiba, e avançaram para implantação nacional em 1983. Ao longo do tempo, o sistema incorporou mudanças tecnológicas, regras de crítica e mecanismos de validação. Atualmente, há críticas automáticas para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento, contribuindo para a consistência do registro (PEPE, 2009).\nA cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema (PEDROSO et al., 2023).\nEste é um dos sistemas de informação em saúde com atualização mais frequente, junto com o Sistema de Informações Ambulatoriais – SIA (Capítulo 8). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#fluxo-da-aih",
+    "href": "sih.html#fluxo-da-aih",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.5 Fluxo da AIH",
+    "text": "7.5 Fluxo da AIH\nA AIH estrutura o ciclo administrativo da internação: solicitação, autorização, registro da internação, faturamento, crítica, aprovação ou rejeição e posterior disseminação dos dados.\n\n\n\n\n\n\nflowchart TD\n  sol[Solicitacao de internacao] --&gt; aut[Autorizacao da AIH]\n  aut --&gt; int[Internacao hospitalar]\n  int --&gt; alta[Alta, transferencia ou obito]\n  alta --&gt; fat[Faturamento da AIH]\n  fat --&gt; crit[Criticas e consistencia]\n  crit --&gt; apr[AIH aprovada]\n  crit --&gt; rej[AIH rejeitada]\n  apr --&gt; rd[Arquivo RD]\n  rej --&gt; rjer[Arquivos RJ/ER]\n  rd --&gt; sis[Disseminacao do SIH]\n\n\n\n\nFigura 7.1: Fluxo simplificado da Autorização de Internação Hospitalar\n\n\n\n\n\nEsse fluxo reforça que a base disseminada é produto de regras administrativas. AIHs rejeitadas, valores aprovados, procedimentos realizados e motivo de saída devem ser interpretados a partir dessas regras.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#aih-internação-e-pessoa",
+    "href": "sih.html#aih-internação-e-pessoa",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.6 AIH, internação e pessoa",
+    "text": "7.6 AIH, internação e pessoa\nA AIH não deve ser interpretada automaticamente como pessoa única. Uma pessoa pode ter mais de uma AIH ao longo do tempo, e uma internação complexa pode envolver regras específicas de continuidade, renovação ou cobrança. Para muitas análises, “número de AIH” é uma aproximação operacional de internações aprovadas, não uma contagem de indivíduos.\n\nDiferenças entre AIH, internação, pessoa e procedimento\n\n\n\n\n\n\n\nUnidade\nO que representa\nCuidado\n\n\n\n\nAIH\nAutorização e registro administrativo da internação\nNão identifica pessoa única em séries longas\n\n\nInternação\nEpisódio de cuidado hospitalar\nPode exigir regras para continuidade\n\n\nPessoa\nIndivíduo internado\nNem sempre é identificável em bases públicas\n\n\nProcedimento\nAção hospitalar registrada\nPode ser solicitado, realizado ou secundário\n\n\nEstabelecimento\nServiço onde ocorreu a internação\nDeve ser analisado com CNES\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nEvite escrever “pacientes” quando a análise contou AIHs. Use “AIHs”, “internações registradas” ou “internações aprovadas”, a menos que o método tenha identificado pessoas ou episódios de cuidado.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#tipos-de-aih-e-complexidade",
+    "href": "sih.html#tipos-de-aih-e-complexidade",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.7 Tipos de AIH e complexidade",
+    "text": "7.7 Tipos de AIH e complexidade\nNem toda AIH representa um episódio simples e isolado de cuidado. Algumas internações exigem continuidade, longa permanência, procedimentos especiais, complementação de registros ou regras específicas de autorização. Isso afeta contagens, séries temporais e análises por procedimento.\n\nSituações que afetam a interpretação da AIH\n\n\n\n\n\n\nSituação\nImpacto na análise\n\n\n\n\nInternação curta e única\nContagem por AIH aproxima episódio\n\n\nLonga permanência\nPode exigir regra para continuidade\n\n\nProcedimento de alta complexidade\nPode ter regras específicas de autorização\n\n\nAIH complementar\nPode alterar valores ou informações\n\n\nReinternação\nPode representar novo episódio ou continuidade clínica\n\n\nTransferência\nPode dividir cuidado entre estabelecimentos\n\n\n\nQuando a pergunta é sobre episódios assistenciais, é necessário definir regras para reinternação, transferência e continuidade. Quando a pergunta é sobre produção aprovada, a AIH pode ser analisada diretamente, desde que o método deixe claro o arquivo e os filtros usados.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#cobertura-e-unidade-de-análise",
+    "href": "sih.html#cobertura-e-unidade-de-análise",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.8 Cobertura e unidade de análise",
+    "text": "7.8 Cobertura e unidade de análise\nO SIH cobre internações financiadas pelo SUS. Essa delimitação é central para interpretar resultados, especialmente em municípios, especialidades ou procedimentos com grande participação do setor privado não SUS.\n\nDimensões importantes para análise do SIH\n\n\n\n\n\n\nDimensão\nCuidado de interpretação\n\n\n\n\nResidência\nUsada para estimar risco ou demanda da população residente\n\n\nOcorrência\nIndica onde a internação ocorreu\n\n\nEstabelecimento\nPermite analisar produção hospitalar e rede\n\n\nDiagnóstico principal\nUsado para morbidade hospitalar por causa\n\n\nProcedimento realizado\nUsado para produção e pagamento\n\n\nValores\nRepresentam remuneração registrada, não custo econômico total\n\n\nDesfecho\nRefere-se ao encerramento da internação hospitalar",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#diagnóstico-procedimento-e-valores",
+    "href": "sih.html#diagnóstico-procedimento-e-valores",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.9 Diagnóstico, procedimento e valores",
+    "text": "7.9 Diagnóstico, procedimento e valores\nO SIH combina campos clínicos e administrativos. O diagnóstico principal, codificado pela CID (Apêndice B), descreve a condição associada à internação. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Esses dois campos respondem a perguntas diferentes.\n\nDiferenças entre diagnóstico, procedimento e valor\n\n\n\n\n\n\n\nCampo analítico\nPergunta respondida\nExemplo de uso\n\n\n\n\nDiagnóstico principal\nPor que a pessoa foi internada?\nInternações por pneumonia\n\n\nDiagnóstico secundário\nQue condição associada foi registrada?\nComorbidades ou complicações\n\n\nProcedimento solicitado\nO que foi solicitado/autorizado?\nSolicitação de cirurgia\n\n\nProcedimento realizado\nO que foi produzido/remunerado?\nCirurgia efetivamente registrada\n\n\nValor total\nQuanto foi pago na AIH?\nValor médio por internação\n\n\n\nValores do SIH devem ser interpretados como valores pagos ou aprovados segundo regras do SUS. Eles não equivalem necessariamente ao custo real de produção do cuidado, ao preço de mercado ou ao gasto total do hospital.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#procedimentos-e-sigtap",
+    "href": "sih.html#procedimentos-e-sigtap",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.10 Procedimentos e SIGTAP",
+    "text": "7.10 Procedimentos e SIGTAP\nOs procedimentos hospitalares registrados no SIH são condicionados por regras da tabela de procedimentos do SUS, conhecida como SIGTAP. Essas regras incluem descrição do procedimento, grupo, subgrupo, forma de organização, complexidade, financiamento, compatibilidades e restrições.\n\nElementos do SIGTAP relevantes para análise do SIH\n\n\nRegra do procedimento\nPor que importa\n\n\n\n\nCódigo e descrição\nDefine o procedimento analisado\n\n\nGrupo e subgrupo\nPermite agregação da produção\n\n\nCompatibilidade CID\nAfeta aprovação e consistência\n\n\nCompatibilidade por idade e sexo\nEvita combinações inválidas\n\n\nComplexidade\nAjuda a estratificar produção\n\n\nValor de referência\nInfluencia remuneração registrada\n\n\nVigência temporal\nEvita comparar códigos descontinuados\n\n\n\nEm séries históricas, procedimentos podem mudar de código, descrição, valor ou regra de compatibilidade. Por isso, análises por procedimento devem guardar a versão da tabela usada e verificar se a mudança observada reflete produção assistencial ou mudança administrativa.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#análise-territorial-e-temporal",
+    "href": "sih.html#análise-territorial-e-temporal",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.11 Análise territorial e temporal",
+    "text": "7.11 Análise territorial e temporal\nO SIH permite analisar internações por residência do paciente, local de ocorrência, estabelecimento e competência. Esses recortes respondem a perguntas distintas.\n\nRecortes territoriais e temporais frequentes no SIH\n\n\n\n\n\n\n\nRecorte\nPergunta respondida\nExemplo\n\n\n\n\nResidência\nDe onde vem a demanda por internação?\nTaxa de internação de residentes\n\n\nOcorrência\nOnde a internação aconteceu?\nProdução hospitalar por município\n\n\nEstabelecimento\nQual serviço realizou a internação?\nPerfil de maternidades ou hospitais\n\n\nCompetência\nEm que mês a produção foi registrada?\nSérie mensal de AIHs aprovadas\n\n\nData de internação ou saída\nQuando ocorreu o episódio assistencial?\nPermanência e sazonalidade\n\n\n\nPara estimar risco populacional, em geral usa-se residência e população residente. Para estudar rede, oferta, produção ou centralidade hospitalar, ocorrência e estabelecimento são mais adequados. Em séries temporais, diferencie data de internação, data de saída e mês de competência da AIH.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#exemplo-fluxos-de-internação",
+    "href": "sih.html#exemplo-fluxos-de-internação",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.12 Exemplo: fluxos de internação",
+    "text": "7.12 Exemplo: fluxos de internação\nFluxos de internação são uma aplicação importante do SIH para regionalização e planejamento da rede. A ideia é comparar o município de residência do usuário com o município ou estabelecimento onde ocorreu a internação.\n\nCampos úteis em uma análise de fluxos de internação\n\n\n\n\n\n\n\nElemento da análise\nCampo ou dimensão\nCuidado\n\n\n\n\nOrigem\nMunicípio de residência\nRepresenta demanda da população residente\n\n\nDestino\nMunicípio ou CNES de internação\nRepresenta oferta utilizada\n\n\nVolume\nNúmero de AIHs\nNão é número de pessoas\n\n\nEscopo\nProcedimento, causa ou especialidade\nDefinir antes da análise\n\n\nTempo\nCompetência ou data de internação\nManter recorte único\n\n\nRede\nRegião de saúde ou macrorregião\nUsar regionalização vigente\n\n\n\n\nlibrary(dplyr)\n\nfluxos_sih &lt;- sih_p |&gt;\n  count(MUNIC_RES, MUNIC_MOV, name = \"aih\") |&gt;\n  mutate(\n    mesmo_municipio = MUNIC_RES == MUNIC_MOV\n  )\n\nfluxos_sih\n\n\n\n\n\n\n\nNota\n\n\n\nOs nomes das variáveis de ocorrência podem variar conforme processamento e arquivo. Em algumas bases, o município de internação aparece como MUNIC_MOV, MUNIC_HOSP ou campo equivalente. Confirme a estrutura do ano analisado antes de automatizar o fluxo.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -703,8 +1043,28 @@
     "objectID": "sih.html#estrutura-dos-dados",
     "href": "sih.html#estrutura-dos-dados",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "7.3 Estrutura dos dados",
-    "text": "7.3 Estrutura dos dados\nConfira o documento de estrutura do SIH, onde estão descritas as variáveis disponíveis.\n\n7.3.1 Prefixo dos arquivos\n\nER: AIH rejeitadas com código de erro\nRD: AIH Reduzida\nRJ: AIH rejeitadas\nSP: serviços profissionais",
+    "section": "7.13 Estrutura dos dados",
+    "text": "7.13 Estrutura dos dados\nO documento de estrutura do SIH descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão competência, município de residência, estabelecimento, idade, sexo, diagnóstico principal, procedimento realizado, datas de internação e saída, dias de permanência, valores e motivo de saída.\n\n7.13.1 Campos mínimos para inspecionar\nOs nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. Em análises iniciais, costuma ser útil verificar:\n\nCampos úteis para uma primeira inspeção dos dados do SIH\n\n\nCampo\nUso\n\n\n\n\nANO_CMPT e MES_CMPT\nCompetência da AIH\n\n\nN_AIH\nIdentificador administrativo da AIH\n\n\nCNES ou identificador do hospital\nEstabelecimento de ocorrência\n\n\nMUNIC_RES\nMunicípio de residência\n\n\nDT_INTER\nData de internação\n\n\nDT_SAIDA\nData de saída\n\n\nDIAG_PRINC\nDiagnóstico principal\n\n\nDIAG_SECUN ou equivalente\nDiagnóstico secundário\n\n\nPROC_REA\nProcedimento realizado\n\n\nIDADE e SEXO\nPerfil demográfico\n\n\nMORTE ou motivo de saída\nÓbito hospitalar ou desfecho\n\n\nVAL_TOT\nValor total registrado\n\n\n\n\n\n7.13.2 Transformações frequentes\nMuitas análises do SIH dependem de transformar campos originais em medidas epidemiológicas ou operacionais. Essas regras devem ser declaradas no método.\n\nTransformações comuns em análises com SIH\n\n\n\n\n\n\n\nConceito\nRegra operacional comum\nCampo associado\n\n\n\n\nPermanência\nData de saída menos data de internação\nDT_INTER, DT_SAIDA\n\n\nFaixa etária\nAgrupamento de idade\nIDADE\n\n\nÓbito hospitalar\nMotivo de saída ou indicador de morte\nMORTE ou equivalente\n\n\nGrupo de causa\nAgrupamento do diagnóstico principal\nDIAG_PRINC\n\n\nGrupo de procedimento\nAgrupamento do procedimento realizado\nPROC_REA\n\n\nInternação de residente\nMunicípio de residência no território\nMUNIC_RES\n\n\nInternação fora do município\nResidência diferente da ocorrência\nMUNIC_RES, ocorrência\n\n\n\n\n\n7.13.3 Prefixo dos arquivos\n\nPrefixos comuns dos arquivos do SIH\n\n\n\n\n\n\nPrefixo\nConteúdo\n\n\n\n\nRD\nAIH reduzida, principal arquivo para análise de internações aprovadas\n\n\nSP\nServiços profissionais associados à AIH\n\n\nRJ\nAIH rejeitadas\n\n\nER\nAIH rejeitadas com código de erro\n\n\n\nO arquivo RD costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Arquivos SP são úteis quando a pergunta exige detalhar serviços profissionais vinculados à internação. Arquivos de rejeição ajudam em auditoria e qualidade do processamento, mas não representam produção aprovada.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#aihs-rejeitadas",
+    "href": "sih.html#aihs-rejeitadas",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.14 AIHs rejeitadas",
+    "text": "7.14 AIHs rejeitadas\nArquivos RJ e ER registram AIHs rejeitadas ou com erro no processamento. Eles são úteis para auditoria, avaliação da qualidade do faturamento, identificação de inconsistências e estudo de perdas administrativas. No entanto, não devem ser somados aos arquivos RD como se representassem internações aprovadas.\n\nUso analítico dos arquivos de aprovação e rejeição\n\n\nArquivo\nUso recomendado\nCuidado\n\n\n\n\nRD\nProdução aprovada\nBase principal para morbidade hospitalar\n\n\nRJ\nRejeições\nNão representa produção aprovada\n\n\nER\nCódigos de erro\nÚtil para auditoria e qualidade\n\n\nSP\nServiços profissionais\nComplementa detalhes de produção\n\n\n\nSe a pergunta é “quantas internações ocorreram no SUS?”, use AIHs aprovadas. Se a pergunta é “por que AIHs foram rejeitadas?”, use RJ/ER separadamente e descreva os códigos de erro analisados.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#exemplo-internações-por-condições-sensíveis-à-atenção-primária",
+    "href": "sih.html#exemplo-internações-por-condições-sensíveis-à-atenção-primária",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.15 Exemplo: internações por condições sensíveis à atenção primária",
+    "text": "7.15 Exemplo: internações por condições sensíveis à atenção primária\nInternações por condições sensíveis à atenção primária (ICSAP) são um exemplo clássico de uso do SIH para avaliação indireta do acesso e da efetividade da atenção primária. No Brasil, a lista de condições foi publicada pela Portaria SAS/MS nº 221/2008 (BRASIL, 2008), e há ferramentas em R para aplicar a lista aos registros de AIH (NEDEL, 2019).\n\nCampos úteis em uma análise de ICSAP\n\n\n\n\n\n\n\nElemento da análise\nCampo ou dimensão\nCuidado\n\n\n\n\nNumerador\nAIHs com diagnóstico principal na lista ICSAP\nDocumentar a lista e a versão usada\n\n\nDenominador\nPopulação residente ou total de AIHs\nEscolher conforme indicador\n\n\nTerritório\nMunicípio de residência\nUsar para avaliar risco da população residente\n\n\nPeríodo\nCompetência ou data de internação\nNão misturar recortes temporais\n\n\nIdade\nFaixa etária\nPadronizar quando comparar territórios\n\n\nCobertura\nInternações SUS\nNão representa internações privadas não SUS\n\n\n\n\nlibrary(dplyr)\n\nicsap_mun &lt;- sih_p |&gt;\n  mutate(icsap = DIAG_PRINC %in% lista_icsap_cid10) |&gt;\n  group_by(MUNIC_RES) |&gt;\n  summarise(\n    aih = n(),\n    aih_icsap = sum(icsap, na.rm = TRUE),\n    prop_icsap = aih_icsap / aih,\n    .groups = \"drop\"\n  )\n\nicsap_mun\n\n\n\n\n\n\n\nNota\n\n\n\nO objeto lista_icsap_cid10 representa uma lista previamente preparada de códigos CID-10 sensíveis à atenção primária. Em uma análise real, essa lista deve ser construída a partir da portaria ou de pacote específico e versionada junto ao código.\n\n\n\n\n\n\n+\n-\n\n\n\nLinha do tempo do SIH",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -713,8 +1073,28 @@
     "objectID": "sih.html#acesso-aos-dados",
     "href": "sih.html#acesso-aos-dados",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "7.4 Acesso aos dados",
-    "text": "7.4 Acesso aos dados\n\n7.4.1 TabNet\nOs dados do SIH podem ser acessados no sistema TabNet do DataSUS, na seção “Assistência à Saúde”.\n\nTabNet SIH\n\n\n\n7.4.2 TabWin\nPara uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.\n\nTabWin - Transferência de arquivos\n\n\n\n7.4.3 R\nVocê pode usar o pacote {microdatasus}.\n\nlibrary(microdatasus)\n\nsih_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  month_start = 1,\n  year_end = 2021,\n  month_end = 2,\n  uf = \"AC\",\n  information_system = \"SIH-RD\"\n)\n\nsih_p &lt;- process_sinasc(sih_raw)\n\nsih_p\n\n# A tibble: 7,427 × 113\n   UF_ZI  ANO_CMPT MES_CMPT ESPEC CGC_HOSP     N_AIH IDENT CEP   MUNIC_RES NASC \n   &lt;chr&gt;  &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt; &lt;chr&gt;        &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;     &lt;chr&gt;\n 1 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1959…\n 2 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1950…\n 3 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1960…\n 4 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1959…\n 5 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1995…\n 6 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1957…\n 7 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1956…\n 8 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1954…\n 9 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    2001…\n10 120000 2021     01       03    04034526002… 1221… 1     6998… 120020    1951…\n# ℹ 7,417 more rows\n# ℹ 103 more variables: SEXO &lt;chr&gt;, UTI_MES_IN &lt;chr&gt;, UTI_MES_AN &lt;chr&gt;,\n#   UTI_MES_AL &lt;chr&gt;, UTI_MES_TO &lt;chr&gt;, MARCA_UTI &lt;chr&gt;, UTI_INT_IN &lt;chr&gt;,\n#   UTI_INT_AN &lt;chr&gt;, UTI_INT_AL &lt;chr&gt;, UTI_INT_TO &lt;chr&gt;, DIAR_ACOM &lt;chr&gt;,\n#   QT_DIARIAS &lt;chr&gt;, PROC_SOLIC &lt;chr&gt;, PROC_REA &lt;chr&gt;, VAL_SH &lt;chr&gt;,\n#   VAL_SP &lt;chr&gt;, VAL_SADT &lt;chr&gt;, VAL_RN &lt;chr&gt;, VAL_ACOMP &lt;chr&gt;,\n#   VAL_ORTP &lt;chr&gt;, VAL_SANGUE &lt;chr&gt;, VAL_SADTSR &lt;chr&gt;, VAL_TRANSP &lt;chr&gt;, …\n\n\n\n\n7.4.4 Python\nVocê pode usar a biblioteca PySUS.\n\nPySUS SIH\n\n\n\n7.4.5 PCDaS\nOs dados do SIH estão disponíveis na PCDaS para acesso via notebooks.\n\nDados SIH",
+    "section": "7.16 Acesso aos dados",
+    "text": "7.16 Acesso aos dados\nOs dados do SIH podem ser acessados por diferentes caminhos, a depender do objetivo da análise.\n\nFormas de acesso aos dados do SIH\n\n\nForma de acesso\nIndicação de uso\n\n\n\n\nTabNet\nTabulações rápidas e consultas agregadas\n\n\nTabWin/DBC\nDownload e tabulação local de arquivos do DataSUS\n\n\nR\nFluxos reprodutíveis com {microdatasus}\n\n\nPython\nFluxos reprodutíveis com PySUS\n\n\nPCDaS\nUso em ambiente de notebooks e infraestrutura de dados",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#processamento-de-grandes-volumes",
+    "href": "sih.html#processamento-de-grandes-volumes",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.17 Processamento de grandes volumes",
+    "text": "7.17 Processamento de grandes volumes\nO SIH é disseminado em arquivos mensais por unidade federativa e pode crescer rapidamente em análises nacionais ou séries longas. Para trabalhos reprodutíveis, prefira ingestão incremental, armazenamento em formatos colunares e consultas que evitem carregar toda a base em memória.\n\nEstratégias para processamento do SIH em escala\n\n\nEstratégia\nQuando usar\n\n\n\n\nBaixar por UF e mês\nControle incremental e reprocessamento parcial\n\n\nPadronizar nomes e tipos\nEvitar quebras entre anos\n\n\nSalvar em Parquet\nLeitura rápida e compactação\n\n\nUsar DuckDB\nConsultas locais em bases grandes\n\n\nRegistrar filtros\nReprodutibilidade do indicador\n\n\nSeparar bruto e tratado\nAuditoria do processamento\n\n\n\nUma organização comum é manter os arquivos brutos imutáveis, gerar uma camada tratada com tipos padronizados e criar tabelas analíticas menores para cada pergunta. Isso reduz o risco de misturar competências, arquivos ou filtros.\n\n7.17.1 TabNet\nOs dados do SIH podem ser acessados no TabNet do DataSUS, na seção “Assistência à Saúde”.\n\nTabNet SIH\n\n\n\n7.17.2 TabWin e transferência de arquivos\nPara uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.\n\nTabWin - Transferência de arquivos\n\n\n\n7.17.3 R\nO pacote {microdatasus} permite baixar e pré-processar microdados do DataSUS em R (SALDANHA; BASTOS; BARCELLOS, 2019).\n\nlibrary(microdatasus)\n\nsih_raw &lt;- fetch_datasus(\n  year_start = 2021,\n  month_start = 1,\n  year_end = 2021,\n  month_end = 2,\n  uf = \"AC\",\n  information_system = \"SIH-RD\"\n)\n\nsih_p &lt;- process_sih(sih_raw)\n\nsih_p\n\n\n\n7.17.4 Python\nA biblioteca PySUS também permite acessar dados do SIH em fluxos de análise em Python.\n\nPySUS SIH\n\n\n\n7.17.5 PCDaS\nOs dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.\n\nDados SIH",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#relacionamento-com-outros-sistemas",
+    "href": "sih.html#relacionamento-com-outros-sistemas",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.18 Relacionamento com outros sistemas",
+    "text": "7.18 Relacionamento com outros sistemas\nO SIH é frequentemente combinado com outros sistemas para caracterizar rede, desfechos e denominadores. A integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando houver base legal, governança e identificadores adequados.\n\nIntegrações frequentes entre o SIH e outros sistemas\n\n\n\n\n\n\n\nPergunta\nFontes combinadas\nCuidado principal\n\n\n\n\nQual rede produziu internações?\nSIH + CNES (Capítulo 10)\nCNES muda ao longo do tempo\n\n\nHouve óbito após internação?\nSIH + SIM (Capítulo 5)\nÓbito hospitalar não equivale a mortalidade total\n\n\nA internação era por agravo notificado?\nSIH + SINAN (Capítulo 9)\nHarmonizar datas e definição de caso\n\n\nQual taxa de internação?\nSIH + POP (Apêndice D)\nUsar residência e população compatível\n\n\nQual carga assistencial além da internação?\nSIH + SIA (Capítulo 8)\nSeparar atendimento ambulatorial e hospitalar\n\n\n\nEm relacionamentos de registros, a unidade final de análise deve ser definida antes do pareamento. O objetivo pode ser identificar internações, pessoas, episódios, desfechos pós-alta ou trajetórias assistenciais. Cada objetivo exige regras diferentes para duplicidade, janelas temporais e discordâncias.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -723,8 +1103,18 @@
     "objectID": "sih.html#principais-usos-e-indicadores",
     "href": "sih.html#principais-usos-e-indicadores",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "7.5 Principais usos e indicadores",
-    "text": "7.5 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIH são utilizados na construção de diversos indicadores de saúde. Pode-se destacar os seguintes indicadores:\n\nProporção de internações hospitalares (SUS) por grupos de causas\nProporção de internações hospitalares (SUS) por causas externas\nProporção de internações hospitalares (SUS) por afecções originadas no período perinatal\nValor médio pago por internação hospitalar no SUS (AIH)\n\nConsulte o livro da RIPSA para maiores detalhes sobre esses e outros indicadores.",
+    "section": "7.19 Principais usos e indicadores",
+    "text": "7.19 Principais usos e indicadores\nSegundo RIPSA (2008), os dados do SIH são utilizados na construção de indicadores de morbidade hospitalar, produção e gasto. A ficha de cada indicador deve explicitar se conta AIHs, internações, procedimentos, valores ou pessoas.\n\nExemplos de indicadores construídos com dados do SIH\n\n\n\n\n\n\n\nIndicador\nNumerador principal\nDenominador ou cuidado\n\n\n\n\nProporção de internações por grupo de causas\nAIHs por diagnóstico principal\nTotal de AIHs no mesmo recorte\n\n\nTaxa de internação SUS\nAIHs de residentes\nPopulação residente\n\n\nInternações por causas externas\nAIHs com CID de causa externa\nDefinir agrupamento CID\n\n\nInternações por condições sensíveis à APS\nAIHs com CID na lista ICSAP\nUsar lista oficial ou método versionado\n\n\nPermanência média\nDias de permanência\nInterpretar por procedimento e perfil hospitalar\n\n\nLetalidade hospitalar\nAIHs com óbito hospitalar\nNão equivale à mortalidade populacional\n\n\nValor médio da AIH\nValor total aprovado\nNão representa custo real total\n\n\n\nConsulte o livro da RIPSA para mais detalhes sobre esses e outros indicadores.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
+    ]
+  },
+  {
+    "objectID": "sih.html#cuidados-de-interpretação",
+    "href": "sih.html#cuidados-de-interpretação",
+    "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
+    "section": "7.20 Cuidados de interpretação",
+    "text": "7.20 Cuidados de interpretação\nAo utilizar o SIH, alguns cuidados são recorrentes:\n\ndistinguir AIH, internação, procedimento e pessoa;\nlembrar que a cobertura é SUS e rede conveniada, não todo o setor hospitalar;\nseparar residência do paciente e ocorrência da internação;\ndiferenciar competência, data de internação e data de saída;\nverificar se o arquivo usado é RD, SP, RJ ou ER;\ninterpretar valores como remuneração registrada, não custo econômico total;\navaliar mudanças em regras de autorização, tabelas, procedimentos e críticas;\nverificar completitude e consistência de diagnóstico, procedimento, idade, sexo, município e estabelecimento.\n\n\nChecklist de qualidade para análises com SIH\n\n\n\n\n\n\nChecagem\nPor que importa\n\n\n\n\nArquivo utilizado\nRD, SP e rejeições respondem a perguntas diferentes\n\n\nDuplicidade de AIH\nPode superestimar internações ou episódios\n\n\nDiagnóstico e procedimento\nPodem expressar lógicas clínicas e administrativas distintas\n\n\nResidência e ocorrência\nDefine corretamente risco e produção\n\n\nCompetência e datas assistenciais\nEvita distorções em séries temporais\n\n\nCNES e município\nEstabelecimentos mudam de perfil, gestão e vínculo\n\n\nValores extremos\nPodem indicar procedimentos específicos ou erro\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nErros comuns incluem contar AIHs como pessoas, calcular taxas com internações por ocorrência e população residente, comparar valores pagos como se fossem custos totais, misturar arquivos aprovados e rejeitados, e interpretar óbito hospitalar como mortalidade populacional.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]
@@ -733,8 +1123,8 @@
     "objectID": "sih.html#bibliografia-recomendada",
     "href": "sih.html#bibliografia-recomendada",
     "title": "7  SIH – Sistema de Informações Hospitalares do SUS",
-    "section": "7.6 Bibliografia recomendada",
-    "text": "7.6 Bibliografia recomendada\n\n7.6.1 Documentos auxiliares\n\nManual técnico do Sistema de Informação Hospitalar\n\n\n\n7.6.2 Vídeos\n\n\n\n7.6.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade das bases de dados hospitalares no Brasil: alguns elementos (MACHADO; MARTINS; LEITE, 2016). Disponível aqui.\n\n\n\n\n\nMACHADO, J. P.; MARTINS, M.; LEITE, I. D. C. Qualidade das bases de dados hospitalares no Brasil: alguns elementos. Revista Brasileira de Epidemiologia, v. 19, n. 3, p. 567–581, set. 2016.\n\n\nPEDROSO, M. et al. Data Science Platform Applied to Health in Contribution to the Brazilian Unified Health System. Joint Workshops at 49th International Conference on Very Large Data Bases (VLDBW’23). Workshop on Data Ecosystems (DEco’23). Anais...Vancouver, Canada: 2023.\n\n\nPEPE, V. E. Sistema de Informações Hospitalares Do Sistema Único de Saúde (SIH-SUS). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.",
+    "section": "7.21 Bibliografia recomendada",
+    "text": "7.21 Bibliografia recomendada\n\n7.21.1 Documentos auxiliares\n\nManual técnico do Sistema de Informação Hospitalar\nEstrutura do SIH\n\n\n\n7.21.2 Vídeos\n\n\n\n7.21.3 Avaliação da qualidade dos dados\n\nArtigo Qualidade das bases de dados hospitalares no Brasil: alguns elementos (MACHADO; MARTINS; LEITE, 2016). Disponível aqui.\n\n\n\n\n\nBRASIL, M. DA S. Portaria SAS/MS nº 221, de 17 de abril de 2008. Diário Oficial da União, 2008.\n\n\nMACHADO, J. P.; MARTINS, M.; LEITE, I. D. C. Qualidade das bases de dados hospitalares no Brasil: alguns elementos. Revista Brasileira de Epidemiologia, v. 19, n. 3, p. 567–581, set. 2016.\n\n\nNEDEL, F. B. Pacote csapAIH: a Lista Brasileira de Internações por Condições Sensíveis à Atenção Primária no programa R. Epidemiologia e Serviços de Saúde, v. 28, n. 2, p. e2019084, 2019.\n\n\nPEDROSO, M. et al. Data Science Platform Applied to Health in Contribution to the Brazilian Unified Health System. Joint Workshops at 49th International Conference on Very Large Data Bases (VLDBW’23). Workshop on Data Ecosystems (DEco’23). Anais...Vancouver, Canada: 2023.\n\n\nPEPE, V. E. Sistema de Informações Hospitalares Do Sistema Único de Saúde (SIH-SUS). Em: A Experiência Brasileira Em Sistemas de Informação Em Saúde. B. Textos Básicos de Saúde. Brasília: Ministério da Saúde, 2009. v. 2.\n\n\nRIPSA. Indicadores Básicos Para a Saúde No Brasil: Conceitos e Aplicações. Brasília: Organização Pan-Americana da Saúde, 2008.\n\n\nSALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. Microdatasus: Pacote Para Download e Pré-Processamento de Microdados Do Departamento de Informática Do SUS (DATASUS). Cadernos de Saúde Pública, v. 35, n. 9, p. 1–9, 2019.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>SIH -- Sistema de Informações Hospitalares do SUS</span>"
     ]

@@ -4,46 +4,215 @@ always_allow_html: true
 
 # SIM -- Sistema de Informação sobre Mortalidade {#sec-sim}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/sim_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/sim.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sim.md">podcast/sim.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
--  Ano de criação: 1975
--  Cobertura: Dimensões pública e privada do SUS
--  Unidade: Declaração de Óbito (DO)
--  Divulgação de dados: anual, com um ano de defasagem
+| Característica | Descrição |
+|---|---|
+| Ano de criação | 1975 |
+| Evento registrado | Óbito, incluindo óbito fetal |
+| Documento básico | Declaração de Óbito (DO) |
+| Unidade de análise | Declaração de Óbito |
+| Cobertura | Todo o território nacional |
+| Abrangência assistencial | Óbitos ocorridos nas dimensões pública, privada e suplementar |
+| Disseminação | Em geral anual, com bases preliminares e consolidadas |
+: Características gerais do SIM
+
+O Sistema de Informação sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em @sec-eventos.
+
+## Quando usar o SIM
+
+O SIM deve ser utilizado quando a pergunta envolve óbitos, causas de morte ou indicadores derivados de mortalidade. Em muitos casos, a análise precisa combinar o SIM com outras fontes, como SINASC (@sec-sinasc), estimativas populacionais (@sec-pop), SINAN (@sec-sinan) ou SIH (@sec-sih).
+
+| Pergunta de análise | Usar SIM para | Fonte complementar comum |
+|---|---|---|
+| Mortalidade por causa | Contar óbitos por causa básica | CID (@sec-cid) para agrupamentos |
+| Mortalidade infantil | Identificar óbitos menores de 1 ano | SINASC para nascidos vivos |
+| Mortalidade materna | Identificar óbitos maternos | Investigação e classificações específicas |
+| Causas externas | Analisar acidentes e violências fatais | SIH ou SIA para eventos não fatais |
+| Óbitos evitáveis | Identificar causas e grupos de idade | Listas de evitabilidade |
+| Risco populacional | Contar óbitos por residência | POP para denominadores |
+| Pressão sobre serviços | Contar óbitos por ocorrência | CNES/SIH para rede assistencial |
+: Perguntas comuns que podem ser respondidas com o SIM
 
 ## Histórico e organização
 
-O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. As condições para a sua criação se iniciam em 1975, com a formação de um Grupo de Trabalho (GT) no Ministério da Saúde com o objetivo da adoção de um modelo único de Declaração de Óbito (DO), como um documento legal de impressão centralizada, controlada e numerada. 
+O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. Sua criação está associada à necessidade de padronizar o registro de óbitos e qualificar as estatísticas vitais brasileiras. Em 1975, foi formado um Grupo de Trabalho no Ministério da Saúde com o objetivo de adotar um modelo único de Declaração de Óbito (DO), com impressão centralizada, controle numérico e validade legal [@sennaSistemaInformacoesSobre2009].
 
 ::: {.callout-tip}
-Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito [@sennaSistemaInformacoesSobre2009]. 
+Entre as décadas de 1960 e 1970 chegaram a coexistir 43 modelos diferentes de atestado de óbito no país [@sennaSistemaInformacoesSobre2009].
 :::
 
-Este instrumento possibilitaria um fluxo padronizado de informações e de processamento. A criação e adoção da DO possibilitou uma mudança profunda na organização do Registro Civil, pois este instrumento tem origem na própria unidade de saúde e, a partir dele, se obtêm a Certidão de Óbito nos cartórios de Registro Civil. 
+A padronização da DO reorganizou o fluxo de informações sobre mortalidade. O documento passou a nascer no serviço de saúde ou no local responsável pelo registro do óbito, circular entre família, cartório e secretaria de saúde, e alimentar uma base nacional.
 
-O documento básico do SIM é a Declaração de Óbito (DO), que é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde, emitida em três vias com destinações distintas, conforme fluxo apresentado na @fig-do. A primeira via é retida pelo estabelecimento de saúde e enviada para a secretaria municipal de saúde, a segunda via é destinada à família e que deverá ser levada ao Registro Civil para a obtenção do Atestado de Óbito, já a terceira via permanece na unidade notificadora do óbito, servindo como arquivo.
+Esse fluxo aproximou o Registro Civil do setor saúde. A certidão de óbito permanece vinculada ao processo cartorial, mas a DO passou a produzir também informação epidemiológica, permitindo que os óbitos fossem analisados por idade, sexo, raça/cor, município, local de ocorrência e causa de morte.
+
+## Fluxo da Declaração de Óbito
+
+O documento básico do SIM é a Declaração de Óbito (DO), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. A DO é emitida em três vias, com destinações distintas.
 
 ```{mermaid}
-%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito "
-%%| label: fig-do
-
+%%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito"
+%%| label: fig-sim-do
 flowchart TD
-do[Declaração de Óbito] --> via1[1a Via]
-do --> via2[2a Via]
-do --> via3[3a Via]
+  do[Declaracao de Obito] --> via1[1a via]
+  do --> via2[2a via]
+  do --> via3[3a via]
 
-via1 --> sms[Secretaria Municipal de Saúde]
+  via1 --> sms[Secretaria Municipal de Saude]
+  sms --> sim[SIM]
 
-via2 --> fam[Família]
-fam --> rg[Registro Civil]
-rg --> ao[Atestado de Óbito]
+  via2 --> fam[Familia]
+  fam --> rg[Registro Civil]
+  rg --> cert[Certidao de Obito]
 
-via3 --> es[Estabelecimento de Saúde]
+  via3 --> es[Estabelecimento ou unidade notificadora]
 ```
 
-A DO é emitida para todos os tipos de óbito, incluindo óbitos fetais, sendo preenchida por um médico ou, quando da ausência de um médico, o preenchimento é realizando em cartório, diante de testemunhas. Neste documento consta a *causa básica do óbito* e demais *causas secundárias*, que são codificadas conforme a Classificação Internacional de Doenças (CID). Este dado é de grande importância para estudos em saúde, possibilitando acompanhar as principais causas de óbitos em diferentes grupos de doenças e recortes sociais.
+A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via permanece arquivada no estabelecimento de saúde ou na unidade notificadora.
 
-A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de seu preenchimento vem sendo aprimorada, principalmente sobre os dados referentes a idade, raça/cor e existência de gravidez. O maior desafio do SIM é a correta definição da causa básica da morte, ainda sendo encontradas declarações de óbito com causas mal definidas [@sennaSistemaInformacoesSobre2009].
+## Cobertura e unidade de análise
+
+O SIM busca registrar todos os óbitos ocorridos no território nacional, independentemente de terem ocorrido em estabelecimentos públicos, privados, filantrópicos, domicílios, vias públicas ou outros locais. Também registra óbitos fetais.
+
+A unidade de análise é a Declaração de Óbito. Isso significa que cada registro corresponde a um óbito, não a uma pessoa acompanhada longitudinalmente. Para análises populacionais, os óbitos geralmente são agregados por período, município, faixa etária, sexo, raça/cor e causa.
+
+| Dimensão | Cuidado de interpretação |
+|---|---|
+| Residência | Usada para estimar riscos da população residente |
+| Ocorrência | Indica onde o óbito aconteceu |
+| Causa básica | Usada para estatísticas padronizadas de mortalidade por causa |
+| Causas associadas | Ajudam a compreender condições que contribuíram para a morte |
+| Óbito fetal | Deve ser analisado separadamente de óbitos não fetais |
+: Dimensões importantes para análise do SIM
+
+## Causa básica do óbito
+
+A causa básica do óbito é a doença, agravo ou circunstância que **iniciou** a cadeia de eventos que levou diretamente à morte. No caso de causas externas, corresponde às circunstâncias do acidente ou violência que produziram a lesão fatal. Essa definição é referência internacional para padronizar estatísticas de mortalidade por causa [@who_cause_of_death_page].
+
+Na Declaração de Óbito, a Parte I registra a sequência causal, da causa terminal às causas antecedentes. A causa básica deve aparecer na última linha preenchida dessa sequência. A Parte II é destinada a outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia causal principal [@brasil_ms_2022_do_manual].
+
+::: {.callout-warning}
+Não se deve interpretar automaticamente a causa terminal como causa básica. Termos como "parada cardiorrespiratória" ou "falência múltipla de órgãos" descrevem mecanismos finais de morte, mas raramente explicam o processo que iniciou a cadeia causal.
+:::
+
+A correta definição da causa básica é um dos pontos mais importantes para a qualidade do SIM. Ela depende do preenchimento adequado da DO, da investigação quando necessária e da codificação segundo a Classificação Internacional de Doenças (CID).
+
+## Causa básica e causas múltiplas
+
+A análise de mortalidade costuma priorizar a causa básica, porque ela permite atribuir cada óbito a uma causa principal e construir estatísticas comparáveis. No entanto, a Declaração de Óbito também registra outras condições que fizeram parte da cadeia causal ou contribuíram para o óbito. Essas informações permitem análises por causas múltiplas.
+
+| Tipo de causa | O que representa | Uso típico |
+|---|---|---|
+| Causa básica | Evento que iniciou a cadeia que levou à morte | Estatísticas oficiais por causa |
+| Causas consequenciais | Condições intermediárias ou terminais da cadeia causal | Compreender a sequência do óbito |
+| Causas contribuintes | Condições relevantes fora da cadeia principal | Analisar multimorbidade e fatores associados |
+: Diferenças entre causa básica e causas múltiplas
+
+Análises por causas múltiplas são úteis quando uma condição contribui para muitos óbitos, mas raramente aparece como causa básica. Ainda assim, exigem mais cuidado metodológico, pois um único óbito pode mencionar várias causas.
+
+## Codificação pela CID
+
+As causas de morte são codificadas segundo a Classificação Internacional de Doenças (CID), apresentada no apêndice sobre a CID (@sec-cid). Em séries históricas, é importante observar mudanças de revisão da classificação, regras de codificação e agrupamentos utilizados.
+
+Na prática, as análises podem usar diferentes níveis de detalhe:
+
+| Nível de análise | Exemplo | Uso |
+|---|---|---|
+| Capítulo da CID | Doenças do aparelho circulatório | Grandes grupos de causas |
+| Código de três caracteres | I21 | Causa específica com menor detalhamento |
+| Código de quatro caracteres | I21.0 | Subcategoria mais detalhada |
+| Lista ou agrupamento | Causas evitáveis, causas externas, neoplasias | Indicadores e políticas específicas |
+: Níveis comuns de análise da causa de morte
+
+O nível escolhido deve ser compatível com a pergunta, o tamanho da população analisada e a qualidade do preenchimento. Quanto maior o detalhamento, maior a chance de instabilidade em municípios pequenos ou períodos curtos.
+
+## Análise territorial
+
+O SIM permite analisar óbitos por município de residência e por município de ocorrência. Esses campos respondem a perguntas diferentes.
+
+| Campo territorial | Pergunta respondida | Exemplo |
+|---|---|---|
+| Residência | Onde vivia a pessoa que morreu? | Taxas de mortalidade da população residente |
+| Ocorrência | Onde o óbito aconteceu? | Demanda sobre serviços e locais de ocorrência |
+: Uso de residência e ocorrência na análise de mortalidade
+
+Para estimar risco populacional, em geral utiliza-se o município de residência, pois o denominador costuma ser a população residente. Para estudar rede assistencial, fluxo de pacientes ou óbitos ocorridos em serviços de referência, o município de ocorrência pode ser mais adequado.
+
+## Análise temporal
+
+A análise temporal deve distinguir a data do óbito, o ano de referência do arquivo e o momento de disseminação dos dados. Óbitos de anos recentes podem estar em bases preliminares, sujeitas a revisão posterior.
+
+| Elemento temporal | Interpretação |
+|---|---|
+| Data do óbito | Momento em que o evento ocorreu |
+| Ano do arquivo | Recorte usado na disseminação dos microdados |
+| Data de atualização | Momento em que a base foi disponibilizada ou revisada |
+| Base preliminar | Mais oportuna, porém sujeita a alterações |
+| Base consolidada | Mais estável, porém geralmente mais defasada |
+: Elementos temporais importantes no SIM
+
+Ao comparar anos, especialmente anos recentes, verifique se as bases têm o mesmo grau de consolidação. Diferenças entre bases preliminares e consolidadas podem afetar totais, causas e campos complementares.
+
+## Modelo da Declaração de Óbito
+
+![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do fig-alt="Modelo de Declaração de Óbito" width="90%"}
+
+Mais informações sobre o preenchimento estão disponíveis no [manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
+
+## Exemplo: acidentes de trânsito
+
+Acidentes de trânsito são um exemplo de uso do SIM para análise de causas externas. Nesse caso, a pergunta pode envolver quantas pessoas morreram, onde viviam, onde o óbito ocorreu, qual foi o tipo de acidente e qual grupo populacional foi mais afetado.
+
+| Elemento da análise | Campo ou dimensão | Cuidado |
+|---|---|---|
+| Causa básica | Código CID de acidente de transporte | Definir agrupamento antes da análise |
+| Residência | Município de residência | Usar para taxas populacionais |
+| Ocorrência | Município/local de ocorrência | Usar para análise do local do óbito |
+| Idade e sexo | Perfil demográfico | Estratificar para identificar grupos de risco |
+| Raça/cor e escolaridade | Desigualdades sociais | Verificar completitude |
+| Tipo de óbito | Fetal/não fetal | Excluir óbitos fetais quando não pertinentes |
+: Campos úteis em uma análise de mortalidade por acidentes de trânsito
+
+Uma análise completa pode combinar o SIM com o SIH (@sec-sih), para observar internações por lesões de trânsito, e com estimativas populacionais (@sec-pop), para calcular taxas. Se o objetivo for mortalidade por local de residência, use óbitos de residentes. Se o objetivo for identificar locais com maior ocorrência de óbitos, use município de ocorrência.
+
+## Qualidade dos dados
+
+A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a subregistro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade [@sennaSistemaInformacoesSobre2009; @jorgeAnaliseQualidadeEstatisticas2007; @reboucasAvaliacaoQualidadeSistema2025].
+
+| Problema | Efeito na análise |
+|---|---|
+| Subregistro de óbitos | Subestima taxas e números absolutos |
+| Causas mal definidas | Reduz a capacidade de interpretar padrões de mortalidade |
+| Incompletude de raça/cor, escolaridade ou ocupação | Limita análises de desigualdades |
+| Erros de residência ou ocorrência | Afetam análises territoriais |
+| Mudanças de codificação ou investigação | Podem gerar quebras em séries históricas |
+: Problemas frequentes que podem afetar análises com o SIM
+
+O campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho [@cavalcanteQualidadeDosRegistros2023]. Por isso, análises mais detalhadas devem sempre verificar completitude, consistência e mudanças históricas das variáveis utilizadas.
+
+## Linha do tempo do SIM
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -55,51 +224,74 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sim.csv"))
 ```
 :::
 
-Mais informações sobre o preenchimento dos dados do SIM estão disponíveis no [manual de preenchimento](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
-
 Um histórico mais aprofundado sobre a construção e evolução do SIM está disponível [neste documento](assets/sim/INTRO.pdf).
-
-## Causa básica do óbito
-
-A causa básica do óbito é o agravo que **inicia** a cadeia de eventos mórbidos que leva diretamente à morte -- ou, no caso de causas externas, as circunstâncias do acidente/violência que produziram a lesão fatal. Essa definição é a referência internacional utilizada para padronizar estatísticas de mortalidade por causa, permitindo comparabilidade e interpretação epidemiológica (@who_cause_of_death_page).
-
-Na Declaração de Óbito (DO), o médico responsável deve descrever, na Parte I do documento, a sequência causal (da causa terminal às antecedentes), anotando a causa básica na última linha preenchida. Já a Parte II da DO é destinada a outras condições relevantes que contribuíram para o óbito, mas que não entram na cadeia causal principal. O manual do Ministério da Saúde reforça que a qualidade dessa informação depende de relatar toda a cadeia (e não apenas a causa terminal) (@brasil_ms_2022_do_manual).
-
-## Modelo da Declaração de Óbito
-
-![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do}
 
 ## Estrutura dos dados
 
-Confira o documento de [estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf), onde estão descritas as variáveis disponíveis.
+O documento de [estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf) descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão ano e data do óbito, município de residência, município de ocorrência, sexo, idade, raça/cor, escolaridade, causa básica e causas múltiplas.
+
+### Campos mínimos para inspecionar
+
+Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. Em análises iniciais, costuma ser útil verificar:
+
+| Campo | Uso |
+|---|---|
+| `DTOBITO` | Data do óbito |
+| `CODMUNRES` | Município de residência |
+| `CODMUNOCOR` | Município de ocorrência |
+| `IDADE` | Idade no óbito |
+| `SEXO` | Sexo |
+| `RACACOR` | Raça/cor |
+| `ESC` ou variável equivalente | Escolaridade |
+| `CAUSABAS` | Causa básica do óbito |
+| Linhas/causas da DO | Análise de causas múltiplas |
+| `TIPOBITO` ou arquivo DOFET | Identificação de óbito fetal, quando aplicável |
+: Campos úteis para uma primeira inspeção dos dados do SIM
 
 ### Prefixo dos arquivos
--  DO: Declarações de óbito
--  DOEXT: Declarações de óbitos por causas externas
--  DOFET: Declarações de óbitos fetais
--  DOINF: Declarações de óbitos infantis
--  DOMAT: Declarações de óbitos maternos
--  DOREXT: Mortalidade de residentes no exterior
+
+| Prefixo | Conteúdo |
+|---|---|
+| DO | Declarações de óbito |
+| DOEXT | Declarações de óbitos por causas externas |
+| DOFET | Declarações de óbitos fetais |
+| DOINF | Declarações de óbitos infantis |
+| DOMAT | Declarações de óbitos maternos |
+| DOREXT | Mortalidade de residentes no exterior |
+: Prefixos comuns dos arquivos do SIM
 
 ## Acesso aos dados
 
+Os dados do SIM podem ser acessados por diferentes caminhos, a depender do objetivo da análise.
+
+| Forma de acesso | Indicação de uso |
+|---|---|
+| TabNet | Tabulações rápidas e consultas agregadas |
+| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| R | Fluxos reprodutíveis com `{microdatasus}` |
+| Python | Fluxos reprodutíveis com PySUS |
+| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| OpenDataSUS | Arquivos em formatos abertos, incluindo bases preliminares |
+: Formas de acesso aos dados do SIM
+
 ### TabNet
 
-Os dados do SIM podem ser acessados no sistema TabNet do DataSUS, na seção de Estatísticas Vitais.
+Os dados do SIM podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.
 
--  [TabNet SIM](https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10)
+- [TabNet SIM](https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10)
 
-### TabWin
+### TabWin e transferência de arquivos
 
-Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
 
--  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
-Você pode usar o pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html).
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DataSUS em R [@Saldanha2019a].
 
 ```{r}
+#| eval: false
 #| message: false
 library(microdatasus)
 
@@ -117,43 +309,78 @@ sim_p
 
 ### Python
 
-Você pode usar a biblioteca PySUS.
+A biblioteca PySUS também permite acessar dados do SIM em fluxos de análise em Python.
 
--  [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)
+- [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)
 
 ### PCDaS
 
-Os dados do SIM estão disponíveis na PCDaS para acesso via *notebooks*.
+Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
 
--  [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
--  [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
+- [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
+- [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
 
-### Outras formas
+### OpenDataSUS
 
-Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares do ano corrente.
+Dados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.
 
--  [OpenDataSUS - SIM](https://opendatasus.saude.gov.br/dataset/sim)
+- [OpenDataSUS - SIM](https://opendatasus.saude.gov.br/dataset/sim)
+
+## Relacionamento com outros sistemas
+
+O SIM pode ser analisado isoladamente, mas muitas perguntas exigem integração com outras bases. Essa integração pode ser feita por agregação territorial e temporal ou por relacionamento de registros, quando houver justificativa metodológica, autorização e proteção adequada dos dados.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Mortalidade infantil | SIM + SINASC (@sec-sinasc) | Usar nascidos vivos como denominador |
+| Óbitos entre casos notificados | SIM + SINAN (@sec-sinan) | Harmonizar datas, território e identificação |
+| Óbitos após internação | SIM + SIH (@sec-sih) | Definir janela temporal e evitar duplicidade de AIH |
+| Taxas populacionais | SIM + POP (@sec-pop) | Usar população residente do mesmo período |
+| Eventos fatais e não fatais | SIM + sistemas assistenciais | Separar risco de morte de carga de atendimento |
+: Integrações frequentes entre o SIM e outros sistemas
+
+Em relacionamentos determinísticos ou probabilísticos, é necessário definir previamente quais campos serão usados, como serão tratados registros incompletos, duplicidades e discordâncias, e qual será a unidade final de análise. O resultado do relacionamento não deve ser interpretado como simples soma de bases: ele depende das regras de pareamento, da qualidade dos identificadores e da finalidade da análise.
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. Pode-se destacar os seguintes indicadores:
+Segundo @OPAS2008, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. A ficha de cada indicador deve explicitar numerador, denominador, recorte territorial, período, idade, causa e critérios de exclusão.
 
--  Taxa de mortalidade infantil
--  Taxas de mortalidade neonatal precoce e tardia, pós-neonatal e perinatal
--  Taxa de mortalidade em menores de cinco anos
--  Razão de mortalidade materna
--  Mortalidade proporcional por grupos de causas
+| Indicador | Numerador principal | Denominador ou cuidado |
+|---|---|---|
+| Taxa de mortalidade infantil | Óbitos menores de 1 ano | Nascidos vivos do SINASC |
+| Mortalidade neonatal e pós-neonatal | Óbitos infantis por idade | Classificar corretamente a idade no óbito |
+| Mortalidade em menores de cinco anos | Óbitos menores de 5 anos | População ou nascidos vivos, conforme definição |
+| Razão de mortalidade materna | Óbitos maternos | Nascidos vivos e investigação do óbito |
+| Mortalidade proporcional por causa | Óbitos por grupo de causas | Total de óbitos no mesmo recorte |
+| Taxa por causas externas | Óbitos por causa externa | População residente e agrupamento CID |
+: Exemplos de indicadores construídos com dados do SIM
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para maiores detalhes sobre esses e outros indicadores.
+Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+
+## Cuidados de interpretação
+
+Ao utilizar o SIM, alguns cuidados são recorrentes:
+
+- distinguir óbitos por residência e por ocorrência;
+- separar óbitos fetais, infantis, maternos e por causas externas quando necessário;
+- verificar se a base é preliminar ou consolidada;
+- avaliar causas mal definidas e campos incompletos;
+- não interpretar mecanismo terminal de morte como causa básica;
+- observar mudanças na CID, nos formulários, na investigação e nas regras de codificação;
+- considerar a qualidade diferencial por região, município, período e variável.
+
+::: {.callout-warning}
+Erros comuns incluem calcular taxas com óbitos por ocorrência e população residente, misturar bases preliminares e consolidadas na mesma série, incluir óbitos fetais em indicadores de mortalidade geral, tratar causas mal definidas como grupo substantivo de causa e usar códigos CID muito detalhados em populações pequenas sem avaliar instabilidade.
+:::
 
 ## Bibliografia recomendada
 
 ### Documentos auxiliares
 
--  [Histórico do SIM](assets/sim/INTRO.pdf)
--  [Estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf)
--  [Manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
--  [A Declaração de Óbito: documento necessário e importante](assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
+- [Histórico do SIM](assets/sim/INTRO.pdf)
+- [Estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf)
+- [Manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
+- [A Declaração de Óbito: documento necessário e importante](assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
 
 ### Vídeos
 
@@ -163,7 +390,6 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 
 ### Avaliação da qualidade dos dados
 
--  Artigo *Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil* [@cavalcanteQualidadeDosRegistros2023]. Disponível [aqui](https://doi.org/10.1590/1414-462X202331040547).
--  Artigo *Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC*. [@jorgeAnaliseQualidadeEstatisticas2007]. Disponível [aqui](https://doi.org/10.1590/S1413-81232007000300014).
--  Artigo *Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review*. [@reboucasAvaliacaoQualidadeSistema2025]. Disponível [aqui](https://doi.org/10.1590/1413-81232025301.08462023).
-
+- Artigo *Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil* [@cavalcanteQualidadeDosRegistros2023]. Disponível [aqui](https://doi.org/10.1590/1414-462X202331040547).
+- Artigo *Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC* [@jorgeAnaliseQualidadeEstatisticas2007]. Disponível [aqui](https://doi.org/10.1590/S1413-81232007000300014).
+- Artigo *Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review* [@reboucasAvaliacaoQualidadeSistema2025]. Disponível [aqui](https://doi.org/10.1590/1413-81232025301.08462023).
