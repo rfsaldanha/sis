@@ -85,10 +85,10 @@ flowchart TD
   ses --> ms[Ministério da Saúde]
   not --> inv[Investigação]
   inv --> exam[Exames e critérios clínico-epidemiológicos]
-  exam --> class[Classificação final]
-  class --> conf[Caso confirmado]
-  class --> desc[Caso descartado]
-  class --> incon[Caso inconclusivo]
+  exam --> final[Classificação final]
+  final --> conf[Caso confirmado]
+  final --> desc[Caso descartado]
+  final --> incon[Caso inconclusivo]
   conf --> enc[Encerramento ou acompanhamento]
   desc --> enc
   incon --> enc
@@ -253,8 +253,14 @@ library(dplyr)
 validacao_sinan <- sinan_p |>
   summarise(
     notificacoes = n(),
-    sem_classificacao_final = sum(is.na(CLASSI_FIN) | CLASSI_FIN == "", na.rm = TRUE),
-    sem_municipio_residencia = sum(is.na(ID_MN_RESI) | ID_MN_RESI == "", na.rm = TRUE),
+    sem_classificacao_final = sum(
+      is.na(CLASSI_FIN) | CLASSI_FIN == "",
+      na.rm = TRUE
+    ),
+    sem_municipio_residencia = sum(
+      is.na(ID_MN_RESI) | ID_MN_RESI == "",
+      na.rm = TRUE
+    ),
     sem_data_notificacao = sum(is.na(DT_NOTIFIC)),
     sem_data_sintomas = sum(is.na(DT_SIN_PRI)),
     encerramento_pendente = sum(is.na(DT_ENCERRA), na.rm = TRUE)
@@ -291,9 +297,19 @@ oportunidade_sinan <- sinan_p |>
     dias_notificacao_encerramento = as.numeric(DT_ENCERRA - DT_NOTIFIC)
   ) |>
   summarise(
-    mediana_sintomas_notificacao = median(dias_sintomas_notificacao, na.rm = TRUE),
-    p90_sintomas_notificacao = quantile(dias_sintomas_notificacao, 0.90, na.rm = TRUE),
-    mediana_notificacao_encerramento = median(dias_notificacao_encerramento, na.rm = TRUE),
+    mediana_sintomas_notificacao = median(
+      dias_sintomas_notificacao,
+      na.rm = TRUE
+    ),
+    p90_sintomas_notificacao = quantile(
+      dias_sintomas_notificacao,
+      0.90,
+      na.rm = TRUE
+    ),
+    mediana_notificacao_encerramento = median(
+      dias_notificacao_encerramento,
+      na.rm = TRUE
+    ),
     .groups = "drop"
   )
 

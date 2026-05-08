@@ -841,10 +841,10 @@ Para acompanhar a transcrição, acesse o roteiro em
   ses --&gt; ms[Ministério da Saúde]
   not --&gt; inv[Investigação]
   inv --&gt; exam[Exames e critérios clínico-epidemiológicos]
-  exam --&gt; class[Classificação final]
-  class --&gt; conf[Caso confirmado]
-  class --&gt; desc[Caso descartado]
-  class --&gt; incon[Caso inconclusivo]
+  exam --&gt; final[Classificação final]
+  final --&gt; conf[Caso confirmado]
+  final --&gt; desc[Caso descartado]
+  final --&gt; incon[Caso inconclusivo]
   conf --&gt; enc[Encerramento ou acompanhamento]
   desc --&gt; enc
   incon --&gt; enc
@@ -904,13 +904,13 @@ Figura&nbsp;9.1: Fluxo de notificação do SINAN
 <p>O Ministério da Saúde mantém uma página sobre o <a href="https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan">SINAN</a> e uma plataforma específica do <a href="https://plataforma.saude.gov.br/esussinan/">e-SUS SINAN</a>.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-f9b406722227f2f24773" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-ccb194fa7fc946578c5e" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-f9b406722227f2f24773">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do Sistema Nacional<br>de Vigilância Epidemiológica<\/small>","start":"1975-10-30"},{"id":"3","content":"Regulamentação do SINAN","start":"1998-03-09"},{"id":"4","content":"Criação da SVS","start":"2003-01-01"},{"id":"5","content":"SINAN Net","start":"2007-01-01"},{"id":"6","content":"SINAN Online","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-ccb194fa7fc946578c5e">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do Sistema Nacional<br>de Vigilância Epidemiológica<\/small>","start":"1975-10-30"},{"id":"3","content":"Regulamentação do SINAN","start":"1998-03-09"},{"id":"4","content":"Criação da SVS","start":"2003-01-01"},{"id":"5","content":"SINAN Net","start":"2007-01-01"},{"id":"6","content":"SINAN Online","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SINAN</p>
 </div>
 </div>
@@ -1332,14 +1332,20 @@ Aviso
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>validacao_sinan <span class="ot">&lt;-</span> sinan_p <span class="sc">|&gt;</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">notificacoes =</span> <span class="fu">n</span>(),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_classificacao_final =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(CLASSI_FIN) <span class="sc">|</span> CLASSI_FIN <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_municipio_residencia =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(ID_MN_RESI) <span class="sc">|</span> ID_MN_RESI <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_notificacao =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_NOTIFIC)),</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_sintomas =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_SIN_PRI)),</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">encerramento_pendente =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_ENCERRA), <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>validacao_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_classificacao_final =</span> <span class="fu">sum</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(CLASSI_FIN) <span class="sc">|</span> CLASSI_FIN <span class="sc">==</span> <span class="st">""</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      <span class="at">na.rm =</span> <span class="cn">TRUE</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_municipio_residencia =</span> <span class="fu">sum</span>(</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(ID_MN_RESI) <span class="sc">|</span> ID_MN_RESI <span class="sc">==</span> <span class="st">""</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>      <span class="at">na.rm =</span> <span class="cn">TRUE</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_notificacao =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_NOTIFIC)),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_sintomas =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_SIN_PRI)),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">encerramento_pendente =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_ENCERRA), <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>validacao_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -1409,13 +1415,23 @@ Nota
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">dias_notificacao_encerramento =</span> <span class="fu">as.numeric</span>(DT_ENCERRA <span class="sc">-</span> DT_NOTIFIC)</span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_sintomas_notificacao =</span> <span class="fu">median</span>(dias_sintomas_notificacao, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">p90_sintomas_notificacao =</span> <span class="fu">quantile</span>(dias_sintomas_notificacao, <span class="fl">0.90</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_notificacao_encerramento =</span> <span class="fu">median</span>(dias_notificacao_encerramento, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>oportunidade_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_sintomas_notificacao =</span> <span class="fu">median</span>(</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>      dias_sintomas_notificacao,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">na.rm =</span> <span class="cn">TRUE</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">p90_sintomas_notificacao =</span> <span class="fu">quantile</span>(</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>      dias_sintomas_notificacao,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>      <span class="fl">0.90</span>,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>      <span class="at">na.rm =</span> <span class="cn">TRUE</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_notificacao_encerramento =</span> <span class="fu">median</span>(</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>      dias_notificacao_encerramento,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>      <span class="at">na.rm =</span> <span class="cn">TRUE</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>oportunidade_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
