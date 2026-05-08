@@ -6,8 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Raphael de Freitas Saldanha">
-<meta name="author" content="Vincent Dupont">
 <meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
 <title>9&nbsp; SINAN – Sistema de Informação de Agravos de Notificação – Sistemas de Informação em Saúde no Brasil</title>
@@ -564,86 +562,113 @@ window.Quarto = {
    
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">9.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">9.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">9.3</span> Estrutura dos dados</a>
+  <li><a href="#quando-usar-o-sinan" id="toc-quando-usar-o-sinan" class="nav-link" data-scroll-target="#quando-usar-o-sinan"><span class="header-section-number">9.2</span> Quando usar o SINAN</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">9.3</span> Histórico e organização</a></li>
+  <li><a href="#fluxo-da-notificação" id="toc-fluxo-da-notificação" class="nav-link" data-scroll-target="#fluxo-da-notificação"><span class="header-section-number">9.4</span> Fluxo da notificação</a></li>
+  <li><a href="#sinan-net-sinan-online-e-e-sus-sinan" id="toc-sinan-net-sinan-online-e-e-sus-sinan" class="nav-link" data-scroll-target="#sinan-net-sinan-online-e-e-sus-sinan"><span class="header-section-number">9.5</span> SINAN NET, SINAN Online e e-SUS SINAN</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">9.6</span> Estrutura dos dados</a></li>
+  <li><a href="#definições-de-caso" id="toc-definições-de-caso" class="nav-link" data-scroll-target="#definições-de-caso"><span class="header-section-number">9.7</span> Definições de caso</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">9.8</span> Unidade de análise</a></li>
+  <li><a href="#datas-e-territórios" id="toc-datas-e-territórios" class="nav-link" data-scroll-target="#datas-e-territórios"><span class="header-section-number">9.9</span> Datas e territórios</a>
   <ul class="collapse">
-  <li><a href="#acidende-de-trabalho-com-material-biológico" id="toc-acidende-de-trabalho-com-material-biológico" class="nav-link" data-scroll-target="#acidende-de-trabalho-com-material-biológico"><span class="header-section-number">9.3.1</span> Acidende de trabalho com material biológico</a></li>
-  <li><a href="#acidente-de-trabalho" id="toc-acidente-de-trabalho" class="nav-link" data-scroll-target="#acidente-de-trabalho"><span class="header-section-number">9.3.2</span> Acidente de trabalho</a></li>
-  <li><a href="#aids-em-adultos" id="toc-aids-em-adultos" class="nav-link" data-scroll-target="#aids-em-adultos"><span class="header-section-number">9.3.3</span> AIDS em adultos</a></li>
-  <li><a href="#aids-em-crianças" id="toc-aids-em-crianças" class="nav-link" data-scroll-target="#aids-em-crianças"><span class="header-section-number">9.3.4</span> AIDS em crianças</a></li>
-  <li><a href="#acidentes-por-animais-peçonhentos" id="toc-acidentes-por-animais-peçonhentos" class="nav-link" data-scroll-target="#acidentes-por-animais-peçonhentos"><span class="header-section-number">9.3.5</span> Acidentes por Animais Peçonhentos</a></li>
-  <li><a href="#atendimento-antirrabico" id="toc-atendimento-antirrabico" class="nav-link" data-scroll-target="#atendimento-antirrabico"><span class="header-section-number">9.3.6</span> Atendimento antirrabico</a></li>
-  <li><a href="#botulismo" id="toc-botulismo" class="nav-link" data-scroll-target="#botulismo"><span class="header-section-number">9.3.7</span> Botulismo</a></li>
-  <li><a href="#câncer-relacionado-ao-trabalho" id="toc-câncer-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#câncer-relacionado-ao-trabalho"><span class="header-section-number">9.3.8</span> Câncer relacionado ao trabalho</a></li>
-  <li><a href="#doença-de-chagas" id="toc-doença-de-chagas" class="nav-link" data-scroll-target="#doença-de-chagas"><span class="header-section-number">9.3.9</span> Doença de Chagas</a></li>
-  <li><a href="#chikungunya" id="toc-chikungunya" class="nav-link" data-scroll-target="#chikungunya"><span class="header-section-number">9.3.10</span> Chikungunya</a></li>
-  <li><a href="#cólera" id="toc-cólera" class="nav-link" data-scroll-target="#cólera"><span class="header-section-number">9.3.11</span> Cólera</a></li>
-  <li><a href="#coqueluche" id="toc-coqueluche" class="nav-link" data-scroll-target="#coqueluche"><span class="header-section-number">9.3.12</span> Coqueluche</a></li>
-  <li><a href="#dengue" id="toc-dengue" class="nav-link" data-scroll-target="#dengue"><span class="header-section-number">9.3.13</span> Dengue</a></li>
-  <li><a href="#dermatoses-ocupacionais" id="toc-dermatoses-ocupacionais" class="nav-link" data-scroll-target="#dermatoses-ocupacionais"><span class="header-section-number">9.3.14</span> Dermatoses ocupacionais</a></li>
-  <li><a href="#esporotricose-epizootia" id="toc-esporotricose-epizootia" class="nav-link" data-scroll-target="#esporotricose-epizootia"><span class="header-section-number">9.3.15</span> Esporotricose (Epizootia)</a></li>
-  <li><a href="#hiv-em-adultos" id="toc-hiv-em-adultos" class="nav-link" data-scroll-target="#hiv-em-adultos"><span class="header-section-number">9.3.16</span> HIV em adultos</a></li>
-  <li><a href="#hiv-em-crianças" id="toc-hiv-em-crianças" class="nav-link" data-scroll-target="#hiv-em-crianças"><span class="header-section-number">9.3.17</span> HIV em crianças</a></li>
-  <li><a href="#hiv-em-crianças-expostas" id="toc-hiv-em-crianças-expostas" class="nav-link" data-scroll-target="#hiv-em-crianças-expostas"><span class="header-section-number">9.3.18</span> HIV em crianças expostas</a></li>
-  <li><a href="#hiv-em-gestante" id="toc-hiv-em-gestante" class="nav-link" data-scroll-target="#hiv-em-gestante"><span class="header-section-number">9.3.19</span> HIV em gestante</a></li>
-  <li><a href="#influenza-pandêmica" id="toc-influenza-pandêmica" class="nav-link" data-scroll-target="#influenza-pandêmica"><span class="header-section-number">9.3.20</span> Influenza pandêmica</a></li>
-  <li><a href="#rotavírus" id="toc-rotavírus" class="nav-link" data-scroll-target="#rotavírus"><span class="header-section-number">9.3.21</span> Rotavírus</a></li>
-  <li><a href="#surto-de-doenças-transmitidas-por-alimentos" id="toc-surto-de-doenças-transmitidas-por-alimentos" class="nav-link" data-scroll-target="#surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">9.3.22</span> Surto de doenças transmitidas por alimentos</a></li>
-  <li><a href="#difteria" id="toc-difteria" class="nav-link" data-scroll-target="#difteria"><span class="header-section-number">9.3.23</span> Difteria</a></li>
-  <li><a href="#esquistossomose-mansoni" id="toc-esquistossomose-mansoni" class="nav-link" data-scroll-target="#esquistossomose-mansoni"><span class="header-section-number">9.3.24</span> Esquistossomose mansoni</a></li>
-  <li><a href="#doenças-exantemáticas" id="toc-doenças-exantemáticas" class="nav-link" data-scroll-target="#doenças-exantemáticas"><span class="header-section-number">9.3.25</span> Doenças Exantemáticas</a></li>
-  <li><a href="#febre-amarela" id="toc-febre-amarela" class="nav-link" data-scroll-target="#febre-amarela"><span class="header-section-number">9.3.26</span> Febre Amarela</a></li>
-  <li><a href="#febre-maculosa" id="toc-febre-maculosa" class="nav-link" data-scroll-target="#febre-maculosa"><span class="header-section-number">9.3.27</span> Febre Maculosa</a></li>
-  <li><a href="#febre-oropouche" id="toc-febre-oropouche" class="nav-link" data-scroll-target="#febre-oropouche"><span class="header-section-number">9.3.28</span> Febre Oropouche</a></li>
-  <li><a href="#febre-tifóide" id="toc-febre-tifóide" class="nav-link" data-scroll-target="#febre-tifóide"><span class="header-section-number">9.3.29</span> Febre Tifóide</a></li>
-  <li><a href="#hanseníase" id="toc-hanseníase" class="nav-link" data-scroll-target="#hanseníase"><span class="header-section-number">9.3.30</span> Hanseníase</a></li>
-  <li><a href="#hantavirose" id="toc-hantavirose" class="nav-link" data-scroll-target="#hantavirose"><span class="header-section-number">9.3.31</span> Hantavirose</a></li>
-  <li><a href="#hepatites-virais" id="toc-hepatites-virais" class="nav-link" data-scroll-target="#hepatites-virais"><span class="header-section-number">9.3.32</span> Hepatites Virais</a></li>
-  <li><a href="#intoxicação-hexógena" id="toc-intoxicação-hexógena" class="nav-link" data-scroll-target="#intoxicação-hexógena"><span class="header-section-number">9.3.33</span> Intoxicação Hexógena</a></li>
-  <li><a href="#leishimaniosse-tegumentar-americana" id="toc-leishimaniosse-tegumentar-americana" class="nav-link" data-scroll-target="#leishimaniosse-tegumentar-americana"><span class="header-section-number">9.3.34</span> Leishimaniosse Tegumentar Americana</a></li>
-  <li><a href="#leishmaniose-visceral" id="toc-leishmaniose-visceral" class="nav-link" data-scroll-target="#leishmaniose-visceral"><span class="header-section-number">9.3.35</span> Leishmaniose Visceral</a></li>
-  <li><a href="#leptospirose" id="toc-leptospirose" class="nav-link" data-scroll-target="#leptospirose"><span class="header-section-number">9.3.36</span> Leptospirose</a></li>
-  <li><a href="#lerdot" id="toc-lerdot" class="nav-link" data-scroll-target="#lerdot"><span class="header-section-number">9.3.37</span> LER/DOT</a></li>
-  <li><a href="#malária" id="toc-malária" class="nav-link" data-scroll-target="#malária"><span class="header-section-number">9.3.38</span> Malária</a></li>
-  <li><a href="#meningite" id="toc-meningite" class="nav-link" data-scroll-target="#meningite"><span class="header-section-number">9.3.39</span> Meningite</a></li>
-  <li><a href="#transtornos-mentais-relacionais-ao-trabalho" id="toc-transtornos-mentais-relacionais-ao-trabalho" class="nav-link" data-scroll-target="#transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">9.3.40</span> Transtornos mentais relacionais ao trabalho</a></li>
-  <li><a href="#notificação-de-tracoma" id="toc-notificação-de-tracoma" class="nav-link" data-scroll-target="#notificação-de-tracoma"><span class="header-section-number">9.3.41</span> Notificação de tracoma</a></li>
-  <li><a href="#inquérito-de-tracoma" id="toc-inquérito-de-tracoma" class="nav-link" data-scroll-target="#inquérito-de-tracoma"><span class="header-section-number">9.3.42</span> Inquérito de tracoma</a></li>
-  <li><a href="#perda-auditiva-por-ruído-relacionado-ao-trabalho" id="toc-perda-auditiva-por-ruído-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">9.3.43</span> Perda auditiva por ruído relacionado ao trabalho</a></li>
-  <li><a href="#monkeypox" id="toc-monkeypox" class="nav-link" data-scroll-target="#monkeypox"><span class="header-section-number">9.3.44</span> Monkeypox</a></li>
-  <li><a href="#notificação-individual" id="toc-notificação-individual" class="nav-link" data-scroll-target="#notificação-individual"><span class="header-section-number">9.3.45</span> Notificação Individual</a></li>
-  <li><a href="#notificação-individual-e-sus-sinan" id="toc-notificação-individual-e-sus-sinan" class="nav-link" data-scroll-target="#notificação-individual-e-sus-sinan"><span class="header-section-number">9.3.46</span> Notificação Individual e-SUS SINAN</a></li>
-  <li><a href="#peste" id="toc-peste" class="nav-link" data-scroll-target="#peste"><span class="header-section-number">9.3.47</span> Peste</a></li>
-  <li><a href="#poliomelite-paralisia-flácida-aguda" id="toc-poliomelite-paralisia-flácida-aguda" class="nav-link" data-scroll-target="#poliomelite-paralisia-flácida-aguda"><span class="header-section-number">9.3.48</span> Poliomelite / Paralisia Flácida Aguda</a></li>
-  <li><a href="#pneumoconioses-relacionadas-ao-trabalho" id="toc-pneumoconioses-relacionadas-ao-trabalho" class="nav-link" data-scroll-target="#pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">9.3.49</span> Pneumoconioses relacionadas ao trabalho</a></li>
-  <li><a href="#raiva-humana" id="toc-raiva-humana" class="nav-link" data-scroll-target="#raiva-humana"><span class="header-section-number">9.3.50</span> Raiva Humana</a></li>
-  <li><a href="#sífilis-adquirida" id="toc-sífilis-adquirida" class="nav-link" data-scroll-target="#sífilis-adquirida"><span class="header-section-number">9.3.51</span> Sífilis adquirida</a></li>
-  <li><a href="#sífilis-congênita" id="toc-sífilis-congênita" class="nav-link" data-scroll-target="#sífilis-congênita"><span class="header-section-number">9.3.52</span> Sífilis Congênita</a></li>
-  <li><a href="#sífilis-em-gestante" id="toc-sífilis-em-gestante" class="nav-link" data-scroll-target="#sífilis-em-gestante"><span class="header-section-number">9.3.53</span> Sífilis em Gestante</a></li>
-  <li><a href="#síndrome-da-rubéola-congênita" id="toc-síndrome-da-rubéola-congênita" class="nav-link" data-scroll-target="#síndrome-da-rubéola-congênita"><span class="header-section-number">9.3.54</span> Síndrome da Rubéola Congênita</a></li>
-  <li><a href="#tétano-acidental" id="toc-tétano-acidental" class="nav-link" data-scroll-target="#tétano-acidental"><span class="header-section-number">9.3.55</span> Tétano Acidental</a></li>
-  <li><a href="#tétano-neonatal" id="toc-tétano-neonatal" class="nav-link" data-scroll-target="#tétano-neonatal"><span class="header-section-number">9.3.56</span> Tétano Neonatal</a></li>
-  <li><a href="#toxoplasmose-congênita" id="toc-toxoplasmose-congênita" class="nav-link" data-scroll-target="#toxoplasmose-congênita"><span class="header-section-number">9.3.57</span> Toxoplasmose congênita</a></li>
-  <li><a href="#toxoplasmose-gestacional" id="toc-toxoplasmose-gestacional" class="nav-link" data-scroll-target="#toxoplasmose-gestacional"><span class="header-section-number">9.3.58</span> Toxoplasmose gestacional</a></li>
-  <li><a href="#tuberculose" id="toc-tuberculose" class="nav-link" data-scroll-target="#tuberculose"><span class="header-section-number">9.3.59</span> Tuberculose</a></li>
-  <li><a href="#varicela-herpes-zóster" id="toc-varicela-herpes-zóster" class="nav-link" data-scroll-target="#varicela-herpes-zóster"><span class="header-section-number">9.3.60</span> Varicela / Herpes-Zóster</a></li>
-  <li><a href="#violência-doméstica-sexual-eou-outras-violências" id="toc-violência-doméstica-sexual-eou-outras-violências" class="nav-link" data-scroll-target="#violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">9.3.61</span> Violência doméstica, sexual e/ou outras violências</a></li>
-  <li><a href="#violência-interpessoalautoprovocada" id="toc-violência-interpessoalautoprovocada" class="nav-link" data-scroll-target="#violência-interpessoalautoprovocada"><span class="header-section-number">9.3.62</span> Violência Interpessoal/Autoprovocada</a></li>
-  <li><a href="#zika-vírus" id="toc-zika-vírus" class="nav-link" data-scroll-target="#zika-vírus"><span class="header-section-number">9.3.63</span> Zika vírus</a></li>
+  <li><a href="#que-data-usar" id="toc-que-data-usar" class="nav-link" data-scroll-target="#que-data-usar"><span class="header-section-number">9.9.1</span> Que data usar?</a></li>
   </ul></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">9.4</span> Acesso aos dados</a>
+  <li><a href="#dicionário-mínimo" id="toc-dicionário-mínimo" class="nav-link" data-scroll-target="#dicionário-mínimo"><span class="header-section-number">9.10</span> Dicionário mínimo</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">9.11</span> Qualidade dos dados</a></li>
+  <li><a href="#oportunidade-da-vigilância" id="toc-oportunidade-da-vigilância" class="nav-link" data-scroll-target="#oportunidade-da-vigilância"><span class="header-section-number">9.12</span> Oportunidade da vigilância</a></li>
+  <li><a href="#duplicidades-e-recorrências" id="toc-duplicidades-e-recorrências" class="nav-link" data-scroll-target="#duplicidades-e-recorrências"><span class="header-section-number">9.13</span> Duplicidades e recorrências</a></li>
+  <li><a href="#exemplo-dengue" id="toc-exemplo-dengue" class="nav-link" data-scroll-target="#exemplo-dengue"><span class="header-section-number">9.14</span> Exemplo: dengue</a></li>
+  <li><a href="#arboviroses" id="toc-arboviroses" class="nav-link" data-scroll-target="#arboviroses"><span class="header-section-number">9.15</span> Arboviroses</a></li>
+  <li><a href="#agravos-por-área-de-vigilância" id="toc-agravos-por-área-de-vigilância" class="nav-link" data-scroll-target="#agravos-por-área-de-vigilância"><span class="header-section-number">9.16</span> Agravos por área de vigilância</a></li>
+  <li><a href="#catálogo-de-documentos-por-agravo" id="toc-catálogo-de-documentos-por-agravo" class="nav-link" data-scroll-target="#catálogo-de-documentos-por-agravo"><span class="header-section-number">9.17</span> Catálogo de documentos por agravo</a>
   <ul class="collapse">
-  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">9.4.1</span> TabNet</a></li>
-  <li><a href="#tabwin" id="toc-tabwin" class="nav-link" data-scroll-target="#tabwin"><span class="header-section-number">9.4.2</span> TabWin</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">9.4.3</span> R</a></li>
-  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">9.4.4</span> Python</a></li>
-  <li><a href="#opendatasus" id="toc-opendatasus" class="nav-link" data-scroll-target="#opendatasus"><span class="header-section-number">9.4.5</span> OpenDataSUS</a></li>
-  <li><a href="#infodengue" id="toc-infodengue" class="nav-link" data-scroll-target="#infodengue"><span class="header-section-number">9.4.6</span> InfoDengue</a></li>
+  <li><a href="#acidente-de-trabalho-com-material-biológico" id="toc-acidente-de-trabalho-com-material-biológico" class="nav-link" data-scroll-target="#acidente-de-trabalho-com-material-biológico"><span class="header-section-number">9.17.1</span> Acidente de trabalho com material biológico</a></li>
+  <li><a href="#acidente-de-trabalho" id="toc-acidente-de-trabalho" class="nav-link" data-scroll-target="#acidente-de-trabalho"><span class="header-section-number">9.17.2</span> Acidente de trabalho</a></li>
+  <li><a href="#aids-em-adultos" id="toc-aids-em-adultos" class="nav-link" data-scroll-target="#aids-em-adultos"><span class="header-section-number">9.17.3</span> AIDS em adultos</a></li>
+  <li><a href="#aids-em-crianças" id="toc-aids-em-crianças" class="nav-link" data-scroll-target="#aids-em-crianças"><span class="header-section-number">9.17.4</span> AIDS em crianças</a></li>
+  <li><a href="#acidentes-por-animais-peçonhentos" id="toc-acidentes-por-animais-peçonhentos" class="nav-link" data-scroll-target="#acidentes-por-animais-peçonhentos"><span class="header-section-number">9.17.5</span> Acidentes por Animais Peçonhentos</a></li>
+  <li><a href="#atendimento-antirrábico" id="toc-atendimento-antirrábico" class="nav-link" data-scroll-target="#atendimento-antirrábico"><span class="header-section-number">9.17.6</span> Atendimento antirrábico</a></li>
+  <li><a href="#botulismo" id="toc-botulismo" class="nav-link" data-scroll-target="#botulismo"><span class="header-section-number">9.17.7</span> Botulismo</a></li>
+  <li><a href="#câncer-relacionado-ao-trabalho" id="toc-câncer-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#câncer-relacionado-ao-trabalho"><span class="header-section-number">9.17.8</span> Câncer relacionado ao trabalho</a></li>
+  <li><a href="#doença-de-chagas" id="toc-doença-de-chagas" class="nav-link" data-scroll-target="#doença-de-chagas"><span class="header-section-number">9.17.9</span> Doença de Chagas</a></li>
+  <li><a href="#chikungunya" id="toc-chikungunya" class="nav-link" data-scroll-target="#chikungunya"><span class="header-section-number">9.17.10</span> Chikungunya</a></li>
+  <li><a href="#cólera" id="toc-cólera" class="nav-link" data-scroll-target="#cólera"><span class="header-section-number">9.17.11</span> Cólera</a></li>
+  <li><a href="#coqueluche" id="toc-coqueluche" class="nav-link" data-scroll-target="#coqueluche"><span class="header-section-number">9.17.12</span> Coqueluche</a></li>
+  <li><a href="#dengue" id="toc-dengue" class="nav-link" data-scroll-target="#dengue"><span class="header-section-number">9.17.13</span> Dengue</a></li>
+  <li><a href="#dermatoses-ocupacionais" id="toc-dermatoses-ocupacionais" class="nav-link" data-scroll-target="#dermatoses-ocupacionais"><span class="header-section-number">9.17.14</span> Dermatoses ocupacionais</a></li>
+  <li><a href="#esporotricose-epizootia" id="toc-esporotricose-epizootia" class="nav-link" data-scroll-target="#esporotricose-epizootia"><span class="header-section-number">9.17.15</span> Esporotricose (Epizootia)</a></li>
+  <li><a href="#hiv-em-adultos" id="toc-hiv-em-adultos" class="nav-link" data-scroll-target="#hiv-em-adultos"><span class="header-section-number">9.17.16</span> HIV em adultos</a></li>
+  <li><a href="#hiv-em-crianças" id="toc-hiv-em-crianças" class="nav-link" data-scroll-target="#hiv-em-crianças"><span class="header-section-number">9.17.17</span> HIV em crianças</a></li>
+  <li><a href="#hiv-em-crianças-expostas" id="toc-hiv-em-crianças-expostas" class="nav-link" data-scroll-target="#hiv-em-crianças-expostas"><span class="header-section-number">9.17.18</span> HIV em crianças expostas</a></li>
+  <li><a href="#hiv-em-gestante" id="toc-hiv-em-gestante" class="nav-link" data-scroll-target="#hiv-em-gestante"><span class="header-section-number">9.17.19</span> HIV em gestante</a></li>
+  <li><a href="#influenza-pandêmica" id="toc-influenza-pandêmica" class="nav-link" data-scroll-target="#influenza-pandêmica"><span class="header-section-number">9.17.20</span> Influenza pandêmica</a></li>
+  <li><a href="#rotavírus" id="toc-rotavírus" class="nav-link" data-scroll-target="#rotavírus"><span class="header-section-number">9.17.21</span> Rotavírus</a></li>
+  <li><a href="#surto-de-doenças-transmitidas-por-alimentos" id="toc-surto-de-doenças-transmitidas-por-alimentos" class="nav-link" data-scroll-target="#surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">9.17.22</span> Surto de doenças transmitidas por alimentos</a></li>
+  <li><a href="#difteria" id="toc-difteria" class="nav-link" data-scroll-target="#difteria"><span class="header-section-number">9.17.23</span> Difteria</a></li>
+  <li><a href="#esquistossomose-mansoni" id="toc-esquistossomose-mansoni" class="nav-link" data-scroll-target="#esquistossomose-mansoni"><span class="header-section-number">9.17.24</span> Esquistossomose mansoni</a></li>
+  <li><a href="#doenças-exantemáticas" id="toc-doenças-exantemáticas" class="nav-link" data-scroll-target="#doenças-exantemáticas"><span class="header-section-number">9.17.25</span> Doenças Exantemáticas</a></li>
+  <li><a href="#febre-amarela" id="toc-febre-amarela" class="nav-link" data-scroll-target="#febre-amarela"><span class="header-section-number">9.17.26</span> Febre Amarela</a></li>
+  <li><a href="#febre-maculosa" id="toc-febre-maculosa" class="nav-link" data-scroll-target="#febre-maculosa"><span class="header-section-number">9.17.27</span> Febre Maculosa</a></li>
+  <li><a href="#febre-oropouche" id="toc-febre-oropouche" class="nav-link" data-scroll-target="#febre-oropouche"><span class="header-section-number">9.17.28</span> Febre Oropouche</a></li>
+  <li><a href="#febre-tifóide" id="toc-febre-tifóide" class="nav-link" data-scroll-target="#febre-tifóide"><span class="header-section-number">9.17.29</span> Febre Tifóide</a></li>
+  <li><a href="#hanseníase" id="toc-hanseníase" class="nav-link" data-scroll-target="#hanseníase"><span class="header-section-number">9.17.30</span> Hanseníase</a></li>
+  <li><a href="#hantavirose" id="toc-hantavirose" class="nav-link" data-scroll-target="#hantavirose"><span class="header-section-number">9.17.31</span> Hantavirose</a></li>
+  <li><a href="#hepatites-virais" id="toc-hepatites-virais" class="nav-link" data-scroll-target="#hepatites-virais"><span class="header-section-number">9.17.32</span> Hepatites Virais</a></li>
+  <li><a href="#intoxicação-exógena" id="toc-intoxicação-exógena" class="nav-link" data-scroll-target="#intoxicação-exógena"><span class="header-section-number">9.17.33</span> Intoxicação Exógena</a></li>
+  <li><a href="#leishmaniose-tegumentar-americana" id="toc-leishmaniose-tegumentar-americana" class="nav-link" data-scroll-target="#leishmaniose-tegumentar-americana"><span class="header-section-number">9.17.34</span> Leishmaniose Tegumentar Americana</a></li>
+  <li><a href="#leishmaniose-visceral" id="toc-leishmaniose-visceral" class="nav-link" data-scroll-target="#leishmaniose-visceral"><span class="header-section-number">9.17.35</span> Leishmaniose Visceral</a></li>
+  <li><a href="#leptospirose" id="toc-leptospirose" class="nav-link" data-scroll-target="#leptospirose"><span class="header-section-number">9.17.36</span> Leptospirose</a></li>
+  <li><a href="#lerdot" id="toc-lerdot" class="nav-link" data-scroll-target="#lerdot"><span class="header-section-number">9.17.37</span> LER/DOT</a></li>
+  <li><a href="#malária" id="toc-malária" class="nav-link" data-scroll-target="#malária"><span class="header-section-number">9.17.38</span> Malária</a></li>
+  <li><a href="#meningite" id="toc-meningite" class="nav-link" data-scroll-target="#meningite"><span class="header-section-number">9.17.39</span> Meningite</a></li>
+  <li><a href="#transtornos-mentais-relacionais-ao-trabalho" id="toc-transtornos-mentais-relacionais-ao-trabalho" class="nav-link" data-scroll-target="#transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">9.17.40</span> Transtornos mentais relacionais ao trabalho</a></li>
+  <li><a href="#notificação-de-tracoma" id="toc-notificação-de-tracoma" class="nav-link" data-scroll-target="#notificação-de-tracoma"><span class="header-section-number">9.17.41</span> Notificação de tracoma</a></li>
+  <li><a href="#inquérito-de-tracoma" id="toc-inquérito-de-tracoma" class="nav-link" data-scroll-target="#inquérito-de-tracoma"><span class="header-section-number">9.17.42</span> Inquérito de tracoma</a></li>
+  <li><a href="#perda-auditiva-por-ruído-relacionado-ao-trabalho" id="toc-perda-auditiva-por-ruído-relacionado-ao-trabalho" class="nav-link" data-scroll-target="#perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">9.17.43</span> Perda auditiva por ruído relacionado ao trabalho</a></li>
+  <li><a href="#monkeypox" id="toc-monkeypox" class="nav-link" data-scroll-target="#monkeypox"><span class="header-section-number">9.17.44</span> Monkeypox</a></li>
+  <li><a href="#notificação-individual" id="toc-notificação-individual" class="nav-link" data-scroll-target="#notificação-individual"><span class="header-section-number">9.17.45</span> Notificação Individual</a></li>
+  <li><a href="#notificação-individual-e-sus-sinan" id="toc-notificação-individual-e-sus-sinan" class="nav-link" data-scroll-target="#notificação-individual-e-sus-sinan"><span class="header-section-number">9.17.46</span> Notificação Individual e-SUS SINAN</a></li>
+  <li><a href="#peste" id="toc-peste" class="nav-link" data-scroll-target="#peste"><span class="header-section-number">9.17.47</span> Peste</a></li>
+  <li><a href="#poliomielite-paralisia-flácida-aguda" id="toc-poliomielite-paralisia-flácida-aguda" class="nav-link" data-scroll-target="#poliomielite-paralisia-flácida-aguda"><span class="header-section-number">9.17.48</span> Poliomielite / Paralisia Flácida Aguda</a></li>
+  <li><a href="#pneumoconioses-relacionadas-ao-trabalho" id="toc-pneumoconioses-relacionadas-ao-trabalho" class="nav-link" data-scroll-target="#pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">9.17.49</span> Pneumoconioses relacionadas ao trabalho</a></li>
+  <li><a href="#raiva-humana" id="toc-raiva-humana" class="nav-link" data-scroll-target="#raiva-humana"><span class="header-section-number">9.17.50</span> Raiva Humana</a></li>
+  <li><a href="#sífilis-adquirida" id="toc-sífilis-adquirida" class="nav-link" data-scroll-target="#sífilis-adquirida"><span class="header-section-number">9.17.51</span> Sífilis adquirida</a></li>
+  <li><a href="#sífilis-congênita" id="toc-sífilis-congênita" class="nav-link" data-scroll-target="#sífilis-congênita"><span class="header-section-number">9.17.52</span> Sífilis Congênita</a></li>
+  <li><a href="#sífilis-em-gestante" id="toc-sífilis-em-gestante" class="nav-link" data-scroll-target="#sífilis-em-gestante"><span class="header-section-number">9.17.53</span> Sífilis em Gestante</a></li>
+  <li><a href="#síndrome-da-rubéola-congênita" id="toc-síndrome-da-rubéola-congênita" class="nav-link" data-scroll-target="#síndrome-da-rubéola-congênita"><span class="header-section-number">9.17.54</span> Síndrome da Rubéola Congênita</a></li>
+  <li><a href="#tétano-acidental" id="toc-tétano-acidental" class="nav-link" data-scroll-target="#tétano-acidental"><span class="header-section-number">9.17.55</span> Tétano Acidental</a></li>
+  <li><a href="#tétano-neonatal" id="toc-tétano-neonatal" class="nav-link" data-scroll-target="#tétano-neonatal"><span class="header-section-number">9.17.56</span> Tétano Neonatal</a></li>
+  <li><a href="#toxoplasmose-congênita" id="toc-toxoplasmose-congênita" class="nav-link" data-scroll-target="#toxoplasmose-congênita"><span class="header-section-number">9.17.57</span> Toxoplasmose congênita</a></li>
+  <li><a href="#toxoplasmose-gestacional" id="toc-toxoplasmose-gestacional" class="nav-link" data-scroll-target="#toxoplasmose-gestacional"><span class="header-section-number">9.17.58</span> Toxoplasmose gestacional</a></li>
+  <li><a href="#tuberculose" id="toc-tuberculose" class="nav-link" data-scroll-target="#tuberculose"><span class="header-section-number">9.17.59</span> Tuberculose</a></li>
+  <li><a href="#varicela-herpes-zóster" id="toc-varicela-herpes-zóster" class="nav-link" data-scroll-target="#varicela-herpes-zóster"><span class="header-section-number">9.17.60</span> Varicela / Herpes-Zóster</a></li>
+  <li><a href="#violência-doméstica-sexual-eou-outras-violências" id="toc-violência-doméstica-sexual-eou-outras-violências" class="nav-link" data-scroll-target="#violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">9.17.61</span> Violência doméstica, sexual e/ou outras violências</a></li>
+  <li><a href="#violência-interpessoalautoprovocada" id="toc-violência-interpessoalautoprovocada" class="nav-link" data-scroll-target="#violência-interpessoalautoprovocada"><span class="header-section-number">9.17.62</span> Violência Interpessoal/Autoprovocada</a></li>
+  <li><a href="#zika-vírus" id="toc-zika-vírus" class="nav-link" data-scroll-target="#zika-vírus"><span class="header-section-number">9.17.63</span> Zika vírus</a></li>
   </ul></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">9.5</span> Bibliografia recomendada</a>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">9.18</span> Acesso aos dados</a>
   <ul class="collapse">
-  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">9.5.1</span> Documentos auxiliares</a></li>
-  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos"><span class="header-section-number">9.5.2</span> Videos</a></li>
+  <li><a href="#tabnet" id="toc-tabnet" class="nav-link" data-scroll-target="#tabnet"><span class="header-section-number">9.18.1</span> TabNet</a></li>
+  <li><a href="#tabwin-e-transferência-de-arquivos" id="toc-tabwin-e-transferência-de-arquivos" class="nav-link" data-scroll-target="#tabwin-e-transferência-de-arquivos"><span class="header-section-number">9.18.2</span> TabWin e transferência de arquivos</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">9.18.3</span> R</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">9.18.4</span> Python</a></li>
+  <li><a href="#opendatasus" id="toc-opendatasus" class="nav-link" data-scroll-target="#opendatasus"><span class="header-section-number">9.18.5</span> OpenDataSUS</a></li>
+  <li><a href="#pcdas" id="toc-pcdas" class="nav-link" data-scroll-target="#pcdas"><span class="header-section-number">9.18.6</span> PCDaS</a></li>
+  <li><a href="#infodengue" id="toc-infodengue" class="nav-link" data-scroll-target="#infodengue"><span class="header-section-number">9.18.7</span> InfoDengue</a></li>
+  </ul></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">9.19</span> Relacionamento com outros sistemas</a></li>
+  <li><a href="#sinan-e-sivep" id="toc-sinan-e-sivep" class="nav-link" data-scroll-target="#sinan-e-sivep"><span class="header-section-number">9.20</span> SINAN e SIVEP</a></li>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">9.21</span> Principais usos e indicadores</a></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">9.22</span> Limitações</a>
+  <ul class="collapse">
+  <li><a href="#limitações-por-uso" id="toc-limitações-por-uso" class="nav-link" data-scroll-target="#limitações-por-uso"><span class="header-section-number">9.22.1</span> Limitações por uso</a></li>
+  </ul></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">9.23</span> Cuidados de interpretação</a></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">9.24</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">9.25</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">9.25.1</span> Documentos auxiliares</a></li>
+  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos"><span class="header-section-number">9.25.2</span> Videos</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sinan.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -661,13 +686,6 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autores</div>
-    <div class="quarto-title-meta-contents">
-             <p>Raphael de Freitas Saldanha </p>
-             <p>Vincent Dupont </p>
-          </div>
-  </div>
     
   
     
@@ -678,89 +696,229 @@ window.Quarto = {
 </header>
 
 
+<section class="podcast-player" data-transcript="podcast/sinan_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sinan.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sinan.md">podcast/sinan.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
 <section id="resumo" class="level2" data-number="9.1">
 <h2 data-number="9.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">9.1</span> Resumo</h2>
-<ul>
-<li>Ano de criação: 1993</li>
-<li>Cobertura: Dimensões pública e privada do SUS</li>
-<li>Unidade: Ficha de notificação</li>
-<li>Divulgação de dados: mensal, com defasagem variada</li>
-</ul>
+<table class="caption-top table">
+<caption>Características gerais do SINAN</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ano de criação</td>
+<td>1993</td>
+</tr>
+<tr class="even">
+<td>Evento registrado</td>
+<td>Suspeita, confirmação, investigação ou acompanhamento de doença, agravo ou evento de saúde pública</td>
+</tr>
+<tr class="odd">
+<td>Documento básico</td>
+<td>Ficha de notificação e, quando aplicável, ficha de investigação ou acompanhamento</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>Notificação, caso, investigação ou episódio, conforme o agravo</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Serviços públicos e privados, conforme a lista de notificação compulsória</td>
+</tr>
+<tr class="even">
+<td>Abrangência</td>
+<td>Lista nacional, com possibilidade de inclusão de agravos de interesse estadual ou municipal</td>
+</tr>
+<tr class="odd">
+<td>Disseminação</td>
+<td>Mensal ou por bases específicas, com defasagem variável conforme agravo e forma de acesso</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informação de Agravos de Notificação (SINAN) é uma das principais fontes da vigilância epidemiológica no Brasil. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde.</p>
+<p>O ponto central para interpretar o SINAN é que o sistema não registra apenas casos confirmados. Em muitos agravos, a entrada ocorre a partir de uma suspeita, e a classificação final pode ser confirmada, descartada, inconclusiva ou ainda estar em investigação. Por isso, qualquer análise deve declarar se está contando notificações, casos confirmados, casos prováveis, casos descartados ou registros em acompanhamento.</p>
 </section>
-<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">9.2</span> Histórico e organização</h2>
-<p>O SINAN é um instrumento fundamental para a vigilância epidemiológica nacional, sendo responsável por coletar, transmitir e disseminar dados sobre uma lista de doenças e agravos de saúde, cuja notificação é compulsória em todo território nacional. A <a href="https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria/lista-nacional-de-notificacao-compulsoria-de-doencas-agravos-e-eventos-de-saude-publica">lista de doenças e agravos</a> é atualizada permanentemente, conforme mudanças no cenário epidemiológico nacional, contando atualmente com 57 doenças e agravos <span class="citation" data-cites="msPortaria33282022 msPortaria4202022">(<a href="referencias.html#ref-msPortaria33282022" role="doc-biblioref">BRASIL, 2022a</a>, <a href="referencias.html#ref-msPortaria4202022" role="doc-biblioref">2022b</a>)</span>.</p>
-<p>Interessante observar que esta lista inclui, além de doenças infecto-contagiosas, a notificação compulsória de acidentes de trabalho, acidentes por animais peçonhentos, eventos adversos de vacinação, casos de óbito infantil e materno e casos de violência doméstica, sexual e tentativas de suicídio, permitindo ao sistema de saúde monitorar rapidamente diversos tipos de eventos de saúde de interesse.</p>
-<p>A implantação do SINAN, foi iniciada em 1993 de forma gradual, e enfrentou problemas iniciais relacionados a indefinições do fluxo de informações, gestão múltipla do sistema e limitações do programa informatizado. A regulamentação do funcionamento do SINAN foi alcançada em 1998, possibilitando ganhos de melhoria em seus dados <span class="citation" data-cites="caetanoSistemaInformacaoAgravos2009">(<a href="referencias.html#ref-caetanoSistemaInformacaoAgravos2009" role="doc-biblioref">CAETANO, 2009</a>)</span>.</p>
-<p>A unidade fundamental de operação do SINAN são as <em>fichas de notificação</em>, que são diferenciadas para cada doença e agravo de notificação compulsória. Todo caso suspeito é notificado no SINAN, sendo lançado progressivamente dados referentes ao paciente e suas condições de saúde, além de informações sobre a investigação do caso, atividades de diagnóstico, resultados de exames e o desfecho final do caso. As informações do SINAN subsidiam análises epidemiológicas, acompanhamento de endemias e epidemias e apoiam ações de planejamento, gestão e monitoramento da saúde.</p>
+<section id="quando-usar-o-sinan" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="quando-usar-o-sinan"><span class="header-section-number">9.2</span> Quando usar o SINAN</h2>
+<p>O SINAN deve ser usado quando a pergunta envolve doenças e agravos de notificação compulsória, vigilância epidemiológica, surtos, investigação de casos, confirmação/descarte, encerramento, oportunidade da notificação ou perfil de casos notificados.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SINAN para</th>
+<th>Fonte complementar comum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantos casos foram notificados?</td>
+<td>Contar notificações</td>
+<td>População (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>) para taxas</td>
+</tr>
+<tr class="even">
+<td>Quantos casos foram confirmados?</td>
+<td>Filtrar classificação final</td>
+<td>Definição de caso vigente</td>
+</tr>
+<tr class="odd">
+<td>Onde ocorreu a provável infecção?</td>
+<td>Analisar local provável de infecção</td>
+<td>Dados ambientais, vetoriais ou territoriais</td>
+</tr>
+<tr class="even">
+<td>Onde mora a pessoa notificada?</td>
+<td>Analisar município de residência</td>
+<td>População residente</td>
+</tr>
+<tr class="odd">
+<td>O caso evoluiu para óbito?</td>
+<td>Analisar evolução/desfecho</td>
+<td>SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>) para mortalidade</td>
+</tr>
+<tr class="even">
+<td>O caso foi internado?</td>
+<td>Analisar gravidade ou vínculo com internação</td>
+<td>SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+</tr>
+<tr class="odd">
+<td>Houve atraso de notificação?</td>
+<td>Comparar datas de sintomas, notificação e digitação</td>
+<td>Rotinas locais de vigilância</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">9.3</span> Histórico e organização</h2>
+<p>O SINAN é responsável por coletar, transmitir e disseminar dados sobre doenças, agravos e eventos de saúde pública cuja notificação é compulsória em território nacional. A <a href="https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria">lista nacional de notificação compulsória</a> é atualizada conforme mudanças no cenário epidemiológico, risco de surto ou epidemia, magnitude, gravidade, transcendência e vulnerabilidade. Em 2026, a lista foi atualizada pela <a href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt10175_26_01_2026.html">Portaria GM/MS nº 10.175, de 23 de janeiro de 2026</a>, incluindo anomalias congênitas.</p>
+<p>A lista inclui doenças transmissíveis, doenças imunopreveníveis, agravos relacionados ao trabalho, acidentes por animais peçonhentos, violências, eventos adversos, óbitos de interesse da vigilância, emergências de saúde pública e outros eventos que exigem resposta oportuna.</p>
+<p>A implantação do SINAN foi iniciada em 1993 de forma gradual. Nos primeiros anos, o sistema enfrentou problemas de fluxo, gestão e limitações do programa informatizado. A regulamentação de seu funcionamento ocorreu em 1998, tornando obrigatória a alimentação regular da base nacional por municípios, estados e Distrito Federal e contribuindo para melhoria dos dados <span class="citation" data-cites="caetanoSistemaInformacaoAgravos2009">(<a href="referencias.html#ref-caetanoSistemaInformacaoAgravos2009" role="doc-biblioref">CAETANO, 2009</a>)</span>.</p>
+<p>A unidade operacional do SINAN são as fichas de notificação, investigação, conclusão ou acompanhamento, que variam conforme o agravo. Um caso suspeito pode ser notificado inicialmente com informações mínimas e receber atualizações posteriores sobre investigação, exames, classificação final, evolução e encerramento. As informações subsidiam vigilância, detecção de surtos, acompanhamento de epidemias, avaliação de ações de controle e planejamento em saúde.</p>
+</section>
+<section id="fluxo-da-notificação" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="fluxo-da-notificação"><span class="header-section-number">9.4</span> Fluxo da notificação</h2>
+<p>O fluxo geral do SINAN começa na suspeita ou confirmação de um evento de notificação, passa pela unidade notificadora e pelas esferas municipal, estadual e federal, e pode incluir investigação, exames, classificação final e encerramento.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
-<div id="fig-do" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="fig-sinan-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="fig-sinan-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<pre class="mermaid mermaid-js" data-label="fig-do">flowchart TD
-cs[Caso suspeito] --&gt; us[Unidade de Saúde]
-us --&gt; not[Notificação do caso suspeito]
-not --&gt; sms[Secretaria Municipal de Saúde]
-sms --&gt; ses[Secretaria Estadual de Saúde]
-ses --&gt; ms[Ministério da Saúde]
-us --&gt; aco[Acompanhamento do caso suspeito]
-aco --&gt; exam[Exames clínicos e laboratoriais]
-exam --&gt; diag[Diagnóstico do caso]
-diag --&gt; conf(Caso confirmado)
-diag --&gt; desc(Caso descartado)
-diag --&gt; incon(Caso inconclusivo)
-conf --&gt; atua[Atualização do caso suspeito]
-desc --&gt; atua
-incon --&gt; atua
-atua --&gt; sms
+<pre class="mermaid mermaid-js" data-label="fig-sinan-fluxo">flowchart TD
+  cs[Caso suspeito ou confirmado] --&gt; us[Unidade notificadora]
+  us --&gt; not[Notificação]
+  not --&gt; sms[Secretaria Municipal de Saúde]
+  sms --&gt; ses[Secretaria Estadual de Saúde]
+  ses --&gt; ms[Ministério da Saúde]
+  not --&gt; inv[Investigação]
+  inv --&gt; exam[Exames e critérios clínico-epidemiológicos]
+  exam --&gt; class[Classificação final]
+  class --&gt; conf[Caso confirmado]
+  class --&gt; desc[Caso descartado]
+  class --&gt; incon[Caso inconclusivo]
+  conf --&gt; enc[Encerramento ou acompanhamento]
+  desc --&gt; enc
+  incon --&gt; enc
+  enc --&gt; sms
 </pre>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sinan-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;9.1: Fluxo de notificação do SINAN
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>A estrutura do SINAN está sendo revisada com a implantação do projeto “e-SUS SINAN”, visando o registro em tempo real das notificações do SINAN, em substituição aos sistemas SINAN NET e SINAN Online atualmente utilizados.</p>
+<p>Esse fluxo reforça que o SINAN é uma base dinâmica. Dependendo do agravo e do momento da extração, uma base pode conter notificações recentes ainda sem encerramento, registros antigos corrigidos ou casos descartados após investigação.</p>
+</section>
+<section id="sinan-net-sinan-online-e-e-sus-sinan" class="level2 page-columns page-full" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="sinan-net-sinan-online-e-e-sus-sinan"><span class="header-section-number">9.5</span> SINAN NET, SINAN Online e e-SUS SINAN</h2>
+<p>O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a versão usada para grande parte dos agravos; o SINAN Online permanece associado a alguns fluxos, como dengue e chikungunya; e o e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.</p>
+<table class="caption-top table">
+<caption>Versões e formas de disseminação relacionadas ao SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sistema ou módulo</th>
+<th>Uso principal</th>
+<th>Cuidado analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SINAN NET</td>
+<td>Notificação e investigação de agravos com fichas padronizadas</td>
+<td>Layouts e rotinas podem variar por agravo</td>
+</tr>
+<tr class="even">
+<td>SINAN Online</td>
+<td>Registros on-line de agravos específicos</td>
+<td>Nem todo agravo está no mesmo módulo</td>
+</tr>
+<tr class="odd">
+<td>e-SUS SINAN</td>
+<td>Modernização do registro e notificação on-line</td>
+<td>Transição pode gerar mudanças de fluxo e estrutura</td>
+</tr>
+<tr class="even">
+<td>OpenDataSUS</td>
+<td>Bases abertas de alguns agravos</td>
+<td>Campos, periodicidade e atualização variam por base</td>
+</tr>
+</tbody>
+</table>
+<p>O Ministério da Saúde mantém uma página sobre o <a href="https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan">SINAN</a> e uma plataforma específica do <a href="https://plataforma.saude.gov.br/esussinan/">e-SUS SINAN</a>.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-31a7b87f361102c60121" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-f9b406722227f2f24773" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-31a7b87f361102c60121">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do Sistema Nacional<br>de Vigilância Epidemiológica<\/small>","start":"1975-10-30"},{"id":"3","content":"Regulamentação do SINAN","start":"1998-03-09"},{"id":"4","content":"Criação da SVS","start":"2003-01-01"},{"id":"5","content":"SINAN Net","start":"2007-01-01"},{"id":"6","content":"SINAN Online","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-f9b406722227f2f24773">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do Sistema Nacional<br>de Vigilância Epidemiológica<\/small>","start":"1975-10-30"},{"id":"3","content":"Regulamentação do SINAN","start":"1998-03-09"},{"id":"4","content":"Criação da SVS","start":"2003-01-01"},{"id":"5","content":"SINAN Net","start":"2007-01-01"},{"id":"6","content":"SINAN Online","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SINAN</p>
 </div>
 </div>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">9.3</span> Estrutura dos dados</h2>
+<section id="estrutura-dos-dados" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">9.6</span> Estrutura dos dados</h2>
 <p>O SINAN apresenta dados para <em>todos os casos suspeitos notificados</em>, independente do diagnóstico final. Desta forma, para se obter o total de casos <em>confirmados</em> para determinada doença ou agravo, deve-se filtrar os dados segundo o diagnóstico final.</p>
-<p>Durante epidemias, observa-se no SINAN um aumento de casos notificados, que podem ou não serem confirmados posteriormente com o acompanhamento do caso.</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Uma possível utilidade para se manter o registro dos casos descartados é o cálculo do <em>Indicador de Positividade</em>, que avalia a proporção de casos confirmados dentre os casos notificados.</p>
-<p><span class="math display">\[
-pos = \frac{c_c}{c_c + c_d + c_i}
-\]</span></p>
-<p>Onde <span class="math inline">\(c_c\)</span> são casos confirmados, <span class="math inline">\(c_d\)</span> são casos descartados e <span class="math inline">\(c_i\)</span> são casos com diagnóstico inconclusivo.</p>
-</div>
-</div>
-</div>
-<p>A confirmação de casos, em geral, pode ser feita por exames laboratoriais de sangue e/ou outros amostras, testes rápidos (como Igm e IgC), ou confirmado pelo médico por critérios clínicos e epidemiológicos. Este último critério costuma ser mais adotado em situações de surtos e epidemias, onde há uma escassez de exames disponíveis. Em casos suspeitos de dengue, por exemplo, um caso pode ser confirmado à partir dos sintomas relatados na anamnese clínica desde que o paciente relate também um vínculo epidemiológico com um caso confirmado laboratorialmente.</p>
-<blockquote class="blockquote">
-<p>Na impossibilidade de realização de confirmação laboratorial específica ou em casos com resultados laboratoriais inconclusivos, deve-se considerar a confirmação por vínculo epidemiológico com um caso confirmado laboratorialmente, após avaliação da distribuição espacial e espaço-temporal dos casos confirmados.<span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">(<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">BRASIL, 2024a</a>)</span></p>
-</blockquote>
+<p>Durante epidemias, observa-se no SINAN um aumento de casos notificados, que podem ou não ser confirmados posteriormente com o acompanhamento do caso.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -771,20 +929,759 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dados de casos suspeitos reportados no SINAN podem apresentar diversas variáveis de datas e locais relativas a diferentes momentos do acompanhamento do caso. As datas mais comuns são: data de provavel infecção, data de notificação, data de digitação, data do(s) exames laboratoriai(s), data do diagnóstico final. Já as variáveis de localização mais comuns são: município/UF de provavel infecção, município/UF de residência e município/UF de notificação.</p>
-<p>Para o acompanhamento epidemiológico, é mais usual a adoção da data de provavel infecção e município/UF de provavel infecção.</p>
-<p>Casos onde o município/UF de provavel infeção é o mesmo que o de residência podem ser classificados como “autoctones”, ou seja, a doença foi contraída no mesmo município/UF de residência do paciente. Já casos onde a município/UF de provavel infeção é diferente do município/UF de residência podem ser classificados como “alotoctones”.</p>
+<p>Uma possível utilidade para se manter o registro dos casos descartados é o cálculo do <em>Indicador de Positividade</em>, que avalia a proporção de casos confirmados dentre os casos notificados.</p>
+<p><span class="math display">\[
+pos = \frac{c_c}{c_c + c_d + c_i}
+\]</span></p>
+<p>Onde <span class="math inline">\(c_c\)</span> são casos confirmados, <span class="math inline">\(c_d\)</span> são casos descartados e <span class="math inline">\(c_i\)</span> são casos com diagnóstico inconclusivo.</p>
 </div>
 </div>
-<p>Dada a diversidade de doenças e agravos cobertos pelo SINAN, arquivos de diferentes estruturas de dados são disponíveis, apresentados a seguir.</p>
-<section id="acidende-de-trabalho-com-material-biológico" class="level3" data-number="9.3.1">
-<h3 data-number="9.3.1" class="anchored" data-anchor-id="acidende-de-trabalho-com-material-biológico"><span class="header-section-number">9.3.1</span> Acidende de trabalho com material biológico</h3>
+<p>A confirmação de casos, em geral, pode ser feita por exames laboratoriais, testes rápidos, critérios clínicos, critérios epidemiológicos ou combinação desses elementos, conforme a definição de caso vigente. A confirmação clínico-epidemiológica costuma ser mais adotada em situações de surtos e epidemias, quando há limitação de exames disponíveis. Em casos suspeitos de dengue, por exemplo, um caso pode ser confirmado a partir de sintomas e vínculo epidemiológico com caso confirmado laboratorialmente.</p>
+<blockquote class="blockquote">
+<p>Na impossibilidade de realização de confirmação laboratorial específica ou em casos com resultados laboratoriais inconclusivos, deve-se considerar a confirmação por vínculo epidemiológico com um caso confirmado laboratorialmente, após avaliação da distribuição espacial e espaço-temporal dos casos confirmados.<span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">(<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">BRASIL, 2024a</a>)</span></p>
+</blockquote>
+</section>
+<section id="definições-de-caso" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="definições-de-caso"><span class="header-section-number">9.7</span> Definições de caso</h2>
+<p>As definições de caso são específicas por agravo e podem mudar ao longo do tempo. Antes de calcular incidência, letalidade, positividade ou oportunidade, verifique a definição vigente no período analisado.</p>
+<table class="caption-top table">
+<caption>Termos usados na classificação de casos no SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Termo</th>
+<th>Sentido operacional</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Caso suspeito</td>
+<td>Registro que atende a critérios iniciais de suspeição</td>
+<td>Pode ser descartado após investigação</td>
+</tr>
+<tr class="even">
+<td>Caso provável</td>
+<td>Registro com evidência suficiente para monitoramento, mas sem confirmação plena</td>
+<td>Definição varia por agravo</td>
+</tr>
+<tr class="odd">
+<td>Caso confirmado</td>
+<td>Registro que atende à definição de confirmação</td>
+<td>Pode ser confirmado por critério laboratorial, clínico-epidemiológico ou outro</td>
+</tr>
+<tr class="even">
+<td>Caso descartado</td>
+<td>Notificação investigada que não atende à definição de caso</td>
+<td>Útil para positividade e qualidade da vigilância</td>
+</tr>
+<tr class="odd">
+<td>Caso inconclusivo</td>
+<td>Registro sem elementos suficientes para confirmar ou descartar</td>
+<td>Pode indicar problema de investigação ou perda de seguimento</td>
+</tr>
+<tr class="even">
+<td>Critério laboratorial</td>
+<td>Confirmação baseada em exame ou teste</td>
+<td>Depende de oportunidade e disponibilidade de testagem</td>
+</tr>
+<tr class="odd">
+<td>Critério clínico-epidemiológico</td>
+<td>Confirmação por quadro clínico e vínculo epidemiológico</td>
+<td>Frequente em surtos e períodos epidêmicos</td>
+</tr>
+<tr class="even">
+<td>Vínculo epidemiológico</td>
+<td>Associação com caso, exposição, local ou período conhecido</td>
+<td>Exige investigação territorial e temporal</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não reutilize automaticamente códigos de classificação final de um agravo em outro. O significado de campos como <code>CLASSI_FIN</code>, <code>CRITERIO</code> e <code>EVOLUCAO</code> depende do dicionário específico.</p>
+</div>
+</div>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">9.8</span> Unidade de análise</h2>
+<p>A unidade de análise no SINAN depende da pergunta e do agravo. Em geral, uma linha representa uma notificação ou investigação, mas o analista pode querer contar casos confirmados, episódios, pessoas, surtos ou acompanhamentos.</p>
+<table class="caption-top table">
+<caption>Unidades de análise frequentes no SINAN</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>O que representa</th>
+<th>Quando usar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Notificação</td>
+<td>Registro inicial de suspeita ou evento</td>
+<td>Monitoramento oportuno e sensibilidade da vigilância</td>
+<td>Inclui descartados e registros em investigação</td>
+</tr>
+<tr class="even">
+<td>Caso confirmado</td>
+<td>Registro que atende à definição de caso</td>
+<td>Incidência e indicadores epidemiológicos</td>
+<td>Exige filtro de classificação final</td>
+</tr>
+<tr class="odd">
+<td>Caso descartado</td>
+<td>Notificação investigada e descartada</td>
+<td>Qualidade da vigilância e positividade</td>
+<td>Não deve ser somado a confirmados</td>
+</tr>
+<tr class="even">
+<td>Pessoa</td>
+<td>Indivíduo notificado</td>
+<td>Estudos individuais e relacionamento de bases</td>
+<td>Pode haver duplicidade ou reinfecção</td>
+</tr>
+<tr class="odd">
+<td>Episódio</td>
+<td>Evento clínico ou epidemiológico</td>
+<td>Agravos com reinfecção ou recorrência</td>
+<td>Requer regra temporal</td>
+</tr>
+<tr class="even">
+<td>Acompanhamento</td>
+<td>Seguimento de tratamento ou evolução</td>
+<td>Tuberculose, hanseníase e agravos crônicos</td>
+<td>Pode depender de fichas específicas</td>
+</tr>
+<tr class="odd">
+<td>Surto</td>
+<td>Evento coletivo</td>
+<td>Investigação de surtos</td>
+<td>Unidade não é o caso individual</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Evite escrever “casos” quando o numerador conta notificações sem filtro de classificação final. A distinção entre caso suspeito, confirmado, descartado e em investigação é central no SINAN.</p>
+</div>
+</div>
+</section>
+<section id="datas-e-territórios" class="level2" data-number="9.9">
+<h2 data-number="9.9" class="anchored" data-anchor-id="datas-e-territórios"><span class="header-section-number">9.9</span> Datas e territórios</h2>
+<p>Dados de casos suspeitos reportados no SINAN podem apresentar diversas variáveis de datas e locais relativas a diferentes momentos do acompanhamento do caso. As datas mais comuns são: data de primeiros sintomas, data de provável infecção, data de notificação, data de digitação, data de exames laboratoriais, data de diagnóstico final, data de encerramento e data de evolução. Já as variáveis de localização mais comuns são: município/UF de provável infecção, município/UF de residência e município/UF de notificação.</p>
+<table class="caption-top table">
+<caption>Datas e territórios usados em análises do SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Recorte</th>
+<th>Pergunta respondida</th>
+<th>Exemplo de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Início de sintomas</td>
+<td>Quando a doença começou?</td>
+<td>Curva epidêmica</td>
+</tr>
+<tr class="even">
+<td>Notificação</td>
+<td>Quando o sistema foi acionado?</td>
+<td>Oportunidade da vigilância</td>
+</tr>
+<tr class="odd">
+<td>Digitação</td>
+<td>Quando entrou na base?</td>
+<td>Atraso operacional</td>
+</tr>
+<tr class="even">
+<td>Encerramento</td>
+<td>Quando a investigação foi concluída?</td>
+<td>Qualidade do acompanhamento</td>
+</tr>
+<tr class="odd">
+<td>Residência</td>
+<td>Onde vive a pessoa notificada?</td>
+<td>Taxa por população residente</td>
+</tr>
+<tr class="even">
+<td>Provável infecção</td>
+<td>Onde ocorreu a exposição?</td>
+<td>Autoctonia e investigação ambiental</td>
+</tr>
+<tr class="odd">
+<td>Notificação</td>
+<td>Onde o caso foi notificado?</td>
+<td>Fluxo de serviços e vigilância</td>
+</tr>
+</tbody>
+</table>
+<section id="que-data-usar" class="level3" data-number="9.9.1">
+<h3 data-number="9.9.1" class="anchored" data-anchor-id="que-data-usar"><span class="header-section-number">9.9.1</span> Que data usar?</h3>
+<table class="caption-top table">
+<caption>Escolha de datas para análises com SINAN</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Objetivo</th>
+<th>Data preferida</th>
+<th>Alternativa</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Curva epidêmica</td>
+<td>Início dos sintomas</td>
+<td>Data provável de infecção</td>
+<td>Pode haver ignorados ou datas inconsistentes</td>
+</tr>
+<tr class="even">
+<td>Monitoramento operacional</td>
+<td>Notificação</td>
+<td>Digitação</td>
+<td>Mede entrada no sistema, não início do evento</td>
+</tr>
+<tr class="odd">
+<td>Oportunidade da vigilância</td>
+<td>Sintomas e notificação</td>
+<td>Notificação e digitação</td>
+<td>Definir o intervalo antes da análise</td>
+</tr>
+<tr class="even">
+<td>Encerramento</td>
+<td>Encerramento</td>
+<td>Classificação final</td>
+<td>Prazos variam por agravo</td>
+</tr>
+<tr class="odd">
+<td>Resultado laboratorial</td>
+<td>Coleta ou resultado do exame</td>
+<td>Notificação</td>
+<td>Nem todo caso tem exame</td>
+</tr>
+<tr class="even">
+<td>Incidência territorial</td>
+<td>Data de sintomas e residência</td>
+<td>Provável infecção</td>
+<td>Depende da pergunta epidemiológica</td>
+</tr>
+</tbody>
+</table>
+<p>Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, a depender do agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.</p>
+<p>Casos em que o município ou UF de provável infecção é o mesmo da residência podem ser classificados como autóctones, isto é, a infecção provavelmente ocorreu no território de residência. Quando o local provável de infecção é diferente da residência, podem ser classificados como alóctones.</p>
+</section>
+</section>
+<section id="dicionário-mínimo" class="level2" data-number="9.10">
+<h2 data-number="9.10" class="anchored" data-anchor-id="dicionário-mínimo"><span class="header-section-number">9.10</span> Dicionário mínimo</h2>
+<p>Os campos variam conforme agravo, versão da ficha e forma de acesso, mas alguns nomes aparecem com frequência em bases do SINAN e ajudam na primeira inspeção.</p>
+<table class="caption-top table">
+<caption>Campos frequentes em bases do SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Campo comum</th>
+<th>Uso típico</th>
+<th>Atenção</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>DT_NOTIFIC</code></td>
+<td>Data de notificação</td>
+<td>Não é necessariamente início dos sintomas</td>
+</tr>
+<tr class="even">
+<td><code>DT_SIN_PRI</code></td>
+<td>Data dos primeiros sintomas</td>
+<td>Pode estar ausente em agravos sem sintomas definidos</td>
+</tr>
+<tr class="odd">
+<td><code>SEM_NOT</code> ou equivalente</td>
+<td>Semana epidemiológica da notificação</td>
+<td>Confirmar se deriva de notificação ou sintomas</td>
+</tr>
+<tr class="even">
+<td><code>ID_MUNICIP</code></td>
+<td>Município de notificação</td>
+<td>Pode representar serviço, não residência</td>
+</tr>
+<tr class="odd">
+<td><code>ID_MN_RESI</code></td>
+<td>Município de residência</td>
+<td>Usar em taxas populacionais</td>
+</tr>
+<tr class="even">
+<td><code>CLASSI_FIN</code></td>
+<td>Classificação final</td>
+<td>Códigos variam por agravo</td>
+</tr>
+<tr class="odd">
+<td><code>CRITERIO</code></td>
+<td>Critério de confirmação/descarte</td>
+<td>Laboratorial, clínico-epidemiológico ou outros</td>
+</tr>
+<tr class="even">
+<td><code>EVOLUCAO</code></td>
+<td>Evolução do caso</td>
+<td>Pode exigir relacionamento com SIM para óbitos</td>
+</tr>
+<tr class="odd">
+<td><code>DT_ENCERRA</code></td>
+<td>Data de encerramento</td>
+<td>Usada para oportunidade de investigação</td>
+</tr>
+<tr class="even">
+<td>Campos laboratoriais</td>
+<td>Coleta, resultado e método</td>
+<td>Disponibilidade varia por agravo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="qualidade-dos-dados" class="level2" data-number="9.11">
+<h2 data-number="9.11" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">9.11</span> Qualidade dos dados</h2>
+<p>A qualidade do SINAN deve ser avaliada por agravo, período, território e variável. Mudanças de ficha, definição de caso, fluxo de notificação, disponibilidade de testes e versões do sistema podem alterar séries temporais.</p>
+<table class="caption-top table">
+<caption>Dimensões de qualidade importantes no SINAN</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Completitude</td>
+<td>Campos essenciais estão preenchidos?</td>
+</tr>
+<tr class="even">
+<td>Consistência</td>
+<td>Datas, idade, sexo, evolução e classificação final são compatíveis?</td>
+</tr>
+<tr class="odd">
+<td>Duplicidade</td>
+<td>Há registros repetidos da mesma pessoa ou episódio?</td>
+</tr>
+<tr class="even">
+<td>Oportunidade</td>
+<td>Quanto tempo passou entre sintomas, notificação, digitação e encerramento?</td>
+</tr>
+<tr class="odd">
+<td>Encerramento</td>
+<td>Casos antigos permanecem sem classificação final?</td>
+</tr>
+<tr class="even">
+<td>Definição de caso</td>
+<td>A regra vigente mudou no período?</td>
+</tr>
+<tr class="odd">
+<td>Sensibilidade da vigilância</td>
+<td>Aumento de notificações reflete transmissão, busca ativa ou mudança operacional?</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>validacao_sinan <span class="ot">&lt;-</span> sinan_p <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">notificacoes =</span> <span class="fu">n</span>(),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_classificacao_final =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(CLASSI_FIN) <span class="sc">|</span> CLASSI_FIN <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_municipio_residencia =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(ID_MN_RESI) <span class="sc">|</span> ID_MN_RESI <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_notificacao =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_NOTIFIC)),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_data_sintomas =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_SIN_PRI)),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">encerramento_pendente =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(DT_ENCERRA), <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>validacao_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Os nomes dos campos variam entre agravos e formas de acesso. Antes de automatizar validações, confira o dicionário de dados específico do agravo.</p>
+</div>
+</div>
+</section>
+<section id="oportunidade-da-vigilância" class="level2" data-number="9.12">
+<h2 data-number="9.12" class="anchored" data-anchor-id="oportunidade-da-vigilância"><span class="header-section-number">9.12</span> Oportunidade da vigilância</h2>
+<p>Oportunidade mede o tempo entre etapas da vigilância. Ela ajuda a avaliar se o sistema detecta, registra, investiga e encerra casos em tempo adequado para orientar resposta.</p>
+<table class="caption-top table">
+<caption>Intervalos comuns para medir oportunidade no SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Intervalo</th>
+<th>Cálculo operacional</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sintomas até notificação</td>
+<td><code>DT_NOTIFIC - DT_SIN_PRI</code></td>
+<td>Tempo até o sistema ser acionado</td>
+</tr>
+<tr class="even">
+<td>Notificação até digitação</td>
+<td>Data de digitação menos <code>DT_NOTIFIC</code></td>
+<td>Atraso operacional de entrada no banco</td>
+</tr>
+<tr class="odd">
+<td>Notificação até encerramento</td>
+<td><code>DT_ENCERRA - DT_NOTIFIC</code></td>
+<td>Tempo de investigação e conclusão</td>
+</tr>
+<tr class="even">
+<td>Sintomas até coleta</td>
+<td>Data de coleta menos <code>DT_SIN_PRI</code></td>
+<td>Oportunidade de diagnóstico laboratorial</td>
+</tr>
+<tr class="odd">
+<td>Coleta até resultado</td>
+<td>Data do resultado menos data de coleta</td>
+<td>Tempo laboratorial</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>oportunidade_sinan <span class="ot">&lt;-</span> sinan_p <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">dias_sintomas_notificacao =</span> <span class="fu">as.numeric</span>(DT_NOTIFIC <span class="sc">-</span> DT_SIN_PRI),</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">dias_notificacao_encerramento =</span> <span class="fu">as.numeric</span>(DT_ENCERRA <span class="sc">-</span> DT_NOTIFIC)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_sintomas_notificacao =</span> <span class="fu">median</span>(dias_sintomas_notificacao, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">p90_sintomas_notificacao =</span> <span class="fu">quantile</span>(dias_sintomas_notificacao, <span class="fl">0.90</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">mediana_notificacao_encerramento =</span> <span class="fu">median</span>(dias_notificacao_encerramento, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>oportunidade_sinan</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antes de calcular intervalos, remova datas impossíveis, como notificação anterior ao início dos sintomas quando isso não fizer sentido para o agravo, ou encerramento anterior à notificação.</p>
+</div>
+</div>
+</section>
+<section id="duplicidades-e-recorrências" class="level2" data-number="9.13">
+<h2 data-number="9.13" class="anchored" data-anchor-id="duplicidades-e-recorrências"><span class="header-section-number">9.13</span> Duplicidades e recorrências</h2>
+<p>Duplicidades podem surgir por erro de digitação, notificação em mais de um serviço, transferência de investigação, reinfecção ou recorrência. A regra de deduplicação deve ser definida por agravo.</p>
+<table class="caption-top table">
+<caption>Situações que afetam deduplicação no SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Possível regra</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Duplicidade administrativa</td>
+<td>Mesmo identificador, pessoa, data e agravo</td>
+<td>Pode ser removida após verificação</td>
+</tr>
+<tr class="even">
+<td>Notificações em serviços diferentes</td>
+<td>Mesma pessoa e datas próximas</td>
+<td>Escolher registro mais completo ou consolidar</td>
+</tr>
+<tr class="odd">
+<td>Reinfecção</td>
+<td>Mesmo indivíduo em período posterior</td>
+<td>Pode representar novo episódio</td>
+</tr>
+<tr class="even">
+<td>Recidiva ou acompanhamento</td>
+<td>Novo registro ligado ao mesmo processo clínico</td>
+<td>Depende do agravo</td>
+</tr>
+<tr class="odd">
+<td>Transferência</td>
+<td>Registro atualizado por outro município ou serviço</td>
+<td>Evitar contar duas vezes</td>
+</tr>
+</tbody>
+</table>
+<p>Em bases públicas sem identificadores nominais, a deduplicação individual pode ser limitada. Em análises agregadas, documente a impossibilidade de deduplicar pessoas quando o indicador contar registros ou notificações.</p>
+</section>
+<section id="exemplo-dengue" class="level2" data-number="9.14">
+<h2 data-number="9.14" class="anchored" data-anchor-id="exemplo-dengue"><span class="header-section-number">9.14</span> Exemplo: dengue</h2>
+<p>Dengue é um exemplo clássico de uso do SINAN porque combina notificação de suspeitos, investigação, confirmação ou descarte, classificação clínica, evolução, local provável de infecção e defasagem entre ocorrência e registro.</p>
+<table class="caption-top table">
+<caption>Campos úteis em uma análise de dengue no SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento da análise</th>
+<th>Campo ou dimensão</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numerador</td>
+<td>Casos confirmados ou prováveis</td>
+<td>Filtrar classificação final conforme definição vigente</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População residente</td>
+<td>Usar território e período compatíveis</td>
+</tr>
+<tr class="odd">
+<td>Tempo</td>
+<td>Semana de início de sintomas</td>
+<td>Evitar misturar com data de notificação</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Residência ou provável infecção</td>
+<td>Escolher conforme pergunta</td>
+</tr>
+<tr class="odd">
+<td>Gravidade</td>
+<td>Sinais de alarme, dengue grave, hospitalização ou evolução</td>
+<td>Campos variam por ficha e período</td>
+</tr>
+<tr class="even">
+<td>Oportunidade</td>
+<td>Diferença entre sintomas e notificação</td>
+<td>Pode variar por acesso ao serviço</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>dengue_confirmada_mun <span class="ot">&lt;-</span> sinan_p <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(CLASSI_FIN <span class="sc">%in%</span> codigos_confirmados_dengue) <span class="sc">|&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ID_MN_RESI) <span class="sc">|&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">casos_confirmados =</span> <span class="fu">n</span>(),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">obitos =</span> <span class="fu">sum</span>(EVOLUCAO <span class="sc">%in%</span> codigos_obito, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(pop_municipal, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"ID_MN_RESI"</span> <span class="ot">=</span> <span class="st">"codmun"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">incidencia_100mil =</span> casos_confirmados <span class="sc">/</span> populacao <span class="sc">*</span> <span class="dv">100000</span>)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>dengue_confirmada_mun</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Em análises de dengue, bases recentes podem estar incompletas por atraso de notificação, investigação e encerramento. Para monitoramento oportuno, métodos de correção de atraso, como <em>nowcasting</em>, podem ser necessários.</p>
+</div>
+</div>
+</section>
+<section id="arboviroses" class="level2" data-number="9.15">
+<h2 data-number="9.15" class="anchored" data-anchor-id="arboviroses"><span class="header-section-number">9.15</span> Arboviroses</h2>
+<p>Arboviroses são um dos usos mais frequentes do SINAN e do OpenDataSUS. Dengue, chikungunya, zika, febre amarela e febre Oropouche compartilham desafios analíticos, como sazonalidade, atraso de notificação, mudança na disponibilidade de testes, confirmação clínico-epidemiológica e sobreposição territorial.</p>
+<table class="caption-top table">
+<caption>Arboviroses com uso frequente do SINAN</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Agravo</th>
+<th>Fonte comum</th>
+<th>Uso típico</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dengue</td>
+<td>SINAN, OpenDataSUS, InfoDengue</td>
+<td>Incidência, surtos, gravidade e oportunidade</td>
+<td>Bases recentes sofrem atraso de encerramento</td>
+</tr>
+<tr class="even">
+<td>Chikungunya</td>
+<td>SINAN e OpenDataSUS</td>
+<td>Incidência e distribuição territorial</td>
+<td>Sintomas e confirmação podem se sobrepor a outras arboviroses</td>
+</tr>
+<tr class="odd">
+<td>Zika</td>
+<td>SINAN e OpenDataSUS</td>
+<td>Monitoramento territorial e eventos associados</td>
+<td>Sensibilidade depende de suspeição e testagem</td>
+</tr>
+<tr class="even">
+<td>Febre amarela</td>
+<td>SINAN, investigação e OpenDataSUS</td>
+<td>Vigilância de casos humanos e eventos epizoóticos</td>
+<td>Exige interpretação ambiental e vacinal</td>
+</tr>
+<tr class="odd">
+<td>Febre Oropouche</td>
+<td>e-SUS SINAN e notas técnicas</td>
+<td>Emergência e monitoramento recente</td>
+<td>Campos e fluxo podem mudar rapidamente</td>
+</tr>
+</tbody>
+</table>
+<p>Em análises comparativas entre arboviroses, evite somar agravos sem harmonizar definição de caso, período, critério de confirmação, município de residência e local provável de infecção.</p>
+</section>
+<section id="agravos-por-área-de-vigilância" class="level2" data-number="9.16">
+<h2 data-number="9.16" class="anchored" data-anchor-id="agravos-por-área-de-vigilância"><span class="header-section-number">9.16</span> Agravos por área de vigilância</h2>
+<p>Dada a diversidade de doenças e agravos cobertos pelo SINAN, a consulta fica mais fácil quando os arquivos são agrupados por área de vigilância. A tabela abaixo é um guia rápido; os documentos detalhados aparecem na sequência.</p>
+<table class="caption-top table">
+<caption>Guia rápido de agravos e prefixos do SINAN</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Área</th>
+<th>Agravos ou eventos</th>
+<th>Prefixos comuns</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arboviroses e zoonoses</td>
+<td>Dengue, chikungunya, zika, febre amarela, Oropouche, raiva, hantavirose, febre maculosa, leptospirose, Chagas, leishmanioses, acidentes por animais peçonhentos</td>
+<td><code>DENG</code>, <code>CHIK</code>, <code>ZIKA</code>, <code>RAIV</code>, <code>HANT</code>, <code>FMAC</code>, <code>LEPT</code>, <code>CHAG</code>, <code>LTAN</code>, <code>LEIV</code>, <code>ANIM</code></td>
+<td>Local provável de infecção é central</td>
+</tr>
+<tr class="even">
+<td>Imunopreveníveis e exantemáticas</td>
+<td>Difteria, coqueluche, tétano, poliomielite/PFA, doenças exantemáticas, síndrome da rubéola congênita</td>
+<td><code>DIFT</code>, <code>COQU</code>, <code>TETA</code>, <code>TETN</code>, <code>PFAN</code>, <code>EXAN</code>, <code>SRC</code></td>
+<td>Oportunidade de notificação e investigação é crítica</td>
+</tr>
+<tr class="odd">
+<td>Infecções e doenças transmissíveis</td>
+<td>Tuberculose, hanseníase, hepatites virais, HIV/Aids, meningite, cólera, botulismo, febre tifóide, rotavírus</td>
+<td><code>TUBE</code>, <code>HANS</code>, <code>HEPA</code>, <code>HIVA</code>, <code>AIDA</code>, <code>MENI</code>, <code>COLE</code>, <code>BOTU</code>, <code>FTIF</code>, <code>ROTA</code></td>
+<td>Algumas exigem acompanhamento longitudinal</td>
+</tr>
+<tr class="even">
+<td>Saúde do trabalhador</td>
+<td>Acidente de trabalho, material biológico, LER/DORT, dermatoses, pneumoconioses, perda auditiva, câncer e transtornos mentais relacionados ao trabalho</td>
+<td><code>ACGR</code>, <code>ACBI</code>, <code>LERD</code>, <code>DERM</code>, <code>PNEU</code>, <code>PAIR</code>, <code>CANC</code>, <code>MENT</code></td>
+<td>Vínculo com trabalho e preenchimento ocupacional são essenciais</td>
+</tr>
+<tr class="odd">
+<td>Violências e acidentes</td>
+<td>Violência interpessoal/autoprovocada, violência doméstica/sexual, intoxicação exógena, atendimento antirrábico</td>
+<td><code>VIOL</code>, <code>IEXO</code>, <code>ANTR</code></td>
+<td>Envolve sigilo, fluxos intersetoriais e subnotificação</td>
+</tr>
+<tr class="even">
+<td>Eventos específicos e inquéritos</td>
+<td>Surtos de DTA, tracoma, inquérito de tracoma, notificação individual, mpox</td>
+<td><code>SDTA</code>, <code>NTRA</code>, <code>TRAC</code>, <code>NIND</code>, e-SUS SINAN</td>
+<td>Estrutura pode diferir bastante entre bases</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="catálogo-de-documentos-por-agravo" class="level2" data-number="9.17">
+<h2 data-number="9.17" class="anchored" data-anchor-id="catálogo-de-documentos-por-agravo"><span class="header-section-number">9.17</span> Catálogo de documentos por agravo</h2>
+<p>A seguir estão prefixos, CIDs e documentos locais disponíveis para alguns agravos. Use essa lista como porta de entrada para localizar ficha, instrucional, caderno de análise e dicionário de dados.</p>
+<section id="acidente-de-trabalho-com-material-biológico" class="level3" data-number="9.17.1">
+<h3 data-number="9.17.1" class="anchored" data-anchor-id="acidente-de-trabalho-com-material-biológico"><span class="header-section-number">9.17.1</span> Acidente de trabalho com material biológico</h3>
 <ul>
 <li>Prefixo dos arquivos: ACBI</li>
 </ul>
 </section>
-<section id="acidente-de-trabalho" class="level3" data-number="9.3.2">
-<h3 data-number="9.3.2" class="anchored" data-anchor-id="acidente-de-trabalho"><span class="header-section-number">9.3.2</span> Acidente de trabalho</h3>
+<section id="acidente-de-trabalho" class="level3" data-number="9.17.2">
+<h3 data-number="9.17.2" class="anchored" data-anchor-id="acidente-de-trabalho"><span class="header-section-number">9.17.2</span> Acidente de trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: ACGR</li>
 </ul>
@@ -796,8 +1693,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="aids-em-adultos" class="level3" data-number="9.3.3">
-<h3 data-number="9.3.3" class="anchored" data-anchor-id="aids-em-adultos"><span class="header-section-number">9.3.3</span> AIDS em adultos</h3>
+<section id="aids-em-adultos" class="level3" data-number="9.17.3">
+<h3 data-number="9.17.3" class="anchored" data-anchor-id="aids-em-adultos"><span class="header-section-number">9.17.3</span> AIDS em adultos</h3>
 <ul>
 <li>Prefixo dos arquivos: AIDA</li>
 <li>Códigos CID-10</li>
@@ -807,15 +1704,15 @@ Nota
 <li>Criança exposta ao HIV: Z20.6</li>
 </ul>
 </section>
-<section id="aids-em-crianças" class="level3" data-number="9.3.4">
-<h3 data-number="9.3.4" class="anchored" data-anchor-id="aids-em-crianças"><span class="header-section-number">9.3.4</span> AIDS em crianças</h3>
+<section id="aids-em-crianças" class="level3" data-number="9.17.4">
+<h3 data-number="9.17.4" class="anchored" data-anchor-id="aids-em-crianças"><span class="header-section-number">9.17.4</span> AIDS em crianças</h3>
 <ul>
 <li>Prefixo dos arquivos: AIDC</li>
 <li>Código CID-10 (Criança exposta ao HIV): Z20.6</li>
 </ul>
 </section>
-<section id="acidentes-por-animais-peçonhentos" class="level3" data-number="9.3.5">
-<h3 data-number="9.3.5" class="anchored" data-anchor-id="acidentes-por-animais-peçonhentos"><span class="header-section-number">9.3.5</span> Acidentes por Animais Peçonhentos</h3>
+<section id="acidentes-por-animais-peçonhentos" class="level3" data-number="9.17.5">
+<h3 data-number="9.17.5" class="anchored" data-anchor-id="acidentes-por-animais-peçonhentos"><span class="header-section-number">9.17.5</span> Acidentes por Animais Peçonhentos</h3>
 <ul>
 <li>Prefixo dos arquivos: ANIM</li>
 <li>Códigos CID-10
@@ -832,14 +1729,14 @@ Nota
 <li><a href="assets/sinan/agravos/ANIMPN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="atendimento-antirrabico" class="level3" data-number="9.3.6">
-<h3 data-number="9.3.6" class="anchored" data-anchor-id="atendimento-antirrabico"><span class="header-section-number">9.3.6</span> Atendimento antirrabico</h3>
+<section id="atendimento-antirrábico" class="level3" data-number="9.17.6">
+<h3 data-number="9.17.6" class="anchored" data-anchor-id="atendimento-antirrábico"><span class="header-section-number">9.17.6</span> Atendimento antirrábico</h3>
 <ul>
 <li>Prefixo dos arquivos: ANTR</li>
 </ul>
 </section>
-<section id="botulismo" class="level3" data-number="9.3.7">
-<h3 data-number="9.3.7" class="anchored" data-anchor-id="botulismo"><span class="header-section-number">9.3.7</span> Botulismo</h3>
+<section id="botulismo" class="level3" data-number="9.17.7">
+<h3 data-number="9.17.7" class="anchored" data-anchor-id="botulismo"><span class="header-section-number">9.17.7</span> Botulismo</h3>
 <ul>
 <li>Prefixo dos arquivos: BOTU</li>
 <li>CID-10: A05.1</li>
@@ -848,14 +1745,14 @@ Nota
 <li><a href="assets/sinan/agravos/BOTUN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="câncer-relacionado-ao-trabalho" class="level3" data-number="9.3.8">
-<h3 data-number="9.3.8" class="anchored" data-anchor-id="câncer-relacionado-ao-trabalho"><span class="header-section-number">9.3.8</span> Câncer relacionado ao trabalho</h3>
+<section id="câncer-relacionado-ao-trabalho" class="level3" data-number="9.17.8">
+<h3 data-number="9.17.8" class="anchored" data-anchor-id="câncer-relacionado-ao-trabalho"><span class="header-section-number">9.17.8</span> Câncer relacionado ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: CANC</li>
 </ul>
 </section>
-<section id="doença-de-chagas" class="level3" data-number="9.3.9">
-<h3 data-number="9.3.9" class="anchored" data-anchor-id="doença-de-chagas"><span class="header-section-number">9.3.9</span> Doença de Chagas</h3>
+<section id="doença-de-chagas" class="level3" data-number="9.17.9">
+<h3 data-number="9.17.9" class="anchored" data-anchor-id="doença-de-chagas"><span class="header-section-number">9.17.9</span> Doença de Chagas</h3>
 <ul>
 <li>Prefixo dos arquivos: CHAG</li>
 <li>CID-10: B57</li>
@@ -892,15 +1789,15 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="chikungunya" class="level3" data-number="9.3.10">
-<h3 data-number="9.3.10" class="anchored" data-anchor-id="chikungunya"><span class="header-section-number">9.3.10</span> Chikungunya</h3>
+<section id="chikungunya" class="level3" data-number="9.17.10">
+<h3 data-number="9.17.10" class="anchored" data-anchor-id="chikungunya"><span class="header-section-number">9.17.10</span> Chikungunya</h3>
 <ul>
 <li>Prefixo dos arquivos: CHIK</li>
 <li><a href="https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya">OpenDataSUS</a></li>
 </ul>
 </section>
-<section id="cólera" class="level3" data-number="9.3.11">
-<h3 data-number="9.3.11" class="anchored" data-anchor-id="cólera"><span class="header-section-number">9.3.11</span> Cólera</h3>
+<section id="cólera" class="level3" data-number="9.17.11">
+<h3 data-number="9.17.11" class="anchored" data-anchor-id="cólera"><span class="header-section-number">9.17.11</span> Cólera</h3>
 <ul>
 <li>Prefixo dos arquivos: COLE</li>
 <li>Código CID-10: A00</li>
@@ -916,8 +1813,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="coqueluche" class="level3" data-number="9.3.12">
-<h3 data-number="9.3.12" class="anchored" data-anchor-id="coqueluche"><span class="header-section-number">9.3.12</span> Coqueluche</h3>
+<section id="coqueluche" class="level3" data-number="9.17.12">
+<h3 data-number="9.17.12" class="anchored" data-anchor-id="coqueluche"><span class="header-section-number">9.17.12</span> Coqueluche</h3>
 <ul>
 <li>Prefixo dos arquivos: COQU</li>
 <li>CID-10: A37</li>
@@ -926,8 +1823,8 @@ Nota
 <li><a href="assets/sinan/agravos/COQUEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="dengue" class="level3" data-number="9.3.13">
-<h3 data-number="9.3.13" class="anchored" data-anchor-id="dengue"><span class="header-section-number">9.3.13</span> Dengue</h3>
+<section id="dengue" class="level3" data-number="9.17.13">
+<h3 data-number="9.17.13" class="anchored" data-anchor-id="dengue"><span class="header-section-number">9.17.13</span> Dengue</h3>
 <ul>
 <li>Prefixo dos arquivos: DENG</li>
 <li><a href="assets/sinan/agravos/DENGON_FICHA.pdf">Ficha de notificação</a></li>
@@ -937,8 +1834,8 @@ Nota
 <li><a href="https://opendatasus.saude.gov.br/dataset/arboviroses-dengue">OpenDataSUS</a></li>
 </ul>
 </section>
-<section id="dermatoses-ocupacionais" class="level3" data-number="9.3.14">
-<h3 data-number="9.3.14" class="anchored" data-anchor-id="dermatoses-ocupacionais"><span class="header-section-number">9.3.14</span> Dermatoses ocupacionais</h3>
+<section id="dermatoses-ocupacionais" class="level3" data-number="9.17.14">
+<h3 data-number="9.17.14" class="anchored" data-anchor-id="dermatoses-ocupacionais"><span class="header-section-number">9.17.14</span> Dermatoses ocupacionais</h3>
 <ul>
 <li>Prefixo dos arquivos: DERM</li>
 <li>CID-10: L98.9</li>
@@ -951,59 +1848,59 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="esporotricose-epizootia" class="level3" data-number="9.3.15">
-<h3 data-number="9.3.15" class="anchored" data-anchor-id="esporotricose-epizootia"><span class="header-section-number">9.3.15</span> Esporotricose (Epizootia)</h3>
+<section id="esporotricose-epizootia" class="level3" data-number="9.17.15">
+<h3 data-number="9.17.15" class="anchored" data-anchor-id="esporotricose-epizootia"><span class="header-section-number">9.17.15</span> Esporotricose (Epizootia)</h3>
 <ul>
 <li>Prefixo dos arquivos: ESPO</li>
 <li>CID-10: B42</li>
 </ul>
 </section>
-<section id="hiv-em-adultos" class="level3" data-number="9.3.16">
-<h3 data-number="9.3.16" class="anchored" data-anchor-id="hiv-em-adultos"><span class="header-section-number">9.3.16</span> HIV em adultos</h3>
+<section id="hiv-em-adultos" class="level3" data-number="9.17.16">
+<h3 data-number="9.17.16" class="anchored" data-anchor-id="hiv-em-adultos"><span class="header-section-number">9.17.16</span> HIV em adultos</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVA</li>
 </ul>
 </section>
-<section id="hiv-em-crianças" class="level3" data-number="9.3.17">
-<h3 data-number="9.3.17" class="anchored" data-anchor-id="hiv-em-crianças"><span class="header-section-number">9.3.17</span> HIV em crianças</h3>
+<section id="hiv-em-crianças" class="level3" data-number="9.17.17">
+<h3 data-number="9.17.17" class="anchored" data-anchor-id="hiv-em-crianças"><span class="header-section-number">9.17.17</span> HIV em crianças</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVC</li>
 </ul>
 </section>
-<section id="hiv-em-crianças-expostas" class="level3" data-number="9.3.18">
-<h3 data-number="9.3.18" class="anchored" data-anchor-id="hiv-em-crianças-expostas"><span class="header-section-number">9.3.18</span> HIV em crianças expostas</h3>
+<section id="hiv-em-crianças-expostas" class="level3" data-number="9.17.18">
+<h3 data-number="9.17.18" class="anchored" data-anchor-id="hiv-em-crianças-expostas"><span class="header-section-number">9.17.18</span> HIV em crianças expostas</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVE</li>
 </ul>
 </section>
-<section id="hiv-em-gestante" class="level3" data-number="9.3.19">
-<h3 data-number="9.3.19" class="anchored" data-anchor-id="hiv-em-gestante"><span class="header-section-number">9.3.19</span> HIV em gestante</h3>
+<section id="hiv-em-gestante" class="level3" data-number="9.17.19">
+<h3 data-number="9.17.19" class="anchored" data-anchor-id="hiv-em-gestante"><span class="header-section-number">9.17.19</span> HIV em gestante</h3>
 <ul>
 <li>Prefixo dos arquivos: HIVG</li>
 </ul>
 </section>
-<section id="influenza-pandêmica" class="level3" data-number="9.3.20">
-<h3 data-number="9.3.20" class="anchored" data-anchor-id="influenza-pandêmica"><span class="header-section-number">9.3.20</span> Influenza pandêmica</h3>
+<section id="influenza-pandêmica" class="level3" data-number="9.17.20">
+<h3 data-number="9.17.20" class="anchored" data-anchor-id="influenza-pandêmica"><span class="header-section-number">9.17.20</span> Influenza pandêmica</h3>
 <ul>
 <li>Prefixo dos arquivos: INFL</li>
 </ul>
 </section>
-<section id="rotavírus" class="level3" data-number="9.3.21">
-<h3 data-number="9.3.21" class="anchored" data-anchor-id="rotavírus"><span class="header-section-number">9.3.21</span> Rotavírus</h3>
+<section id="rotavírus" class="level3" data-number="9.17.21">
+<h3 data-number="9.17.21" class="anchored" data-anchor-id="rotavírus"><span class="header-section-number">9.17.21</span> Rotavírus</h3>
 <ul>
 <li>Prefixo dos arquivos: ROTA</li>
 <li>CID-10: A08.0</li>
 <li><a href="assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="surto-de-doenças-transmitidas-por-alimentos" class="level3" data-number="9.3.22">
-<h3 data-number="9.3.22" class="anchored" data-anchor-id="surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">9.3.22</span> Surto de doenças transmitidas por alimentos</h3>
+<section id="surto-de-doenças-transmitidas-por-alimentos" class="level3" data-number="9.17.22">
+<h3 data-number="9.17.22" class="anchored" data-anchor-id="surto-de-doenças-transmitidas-por-alimentos"><span class="header-section-number">9.17.22</span> Surto de doenças transmitidas por alimentos</h3>
 <ul>
 <li>Prefixo dos arquivos: SDTA</li>
 </ul>
 </section>
-<section id="difteria" class="level3" data-number="9.3.23">
-<h3 data-number="9.3.23" class="anchored" data-anchor-id="difteria"><span class="header-section-number">9.3.23</span> Difteria</h3>
+<section id="difteria" class="level3" data-number="9.17.23">
+<h3 data-number="9.17.23" class="anchored" data-anchor-id="difteria"><span class="header-section-number">9.17.23</span> Difteria</h3>
 <ul>
 <li>Prefixo dos arquivos: DIFT</li>
 <li>CID-10: A36</li>
@@ -1019,8 +1916,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="esquistossomose-mansoni" class="level3" data-number="9.3.24">
-<h3 data-number="9.3.24" class="anchored" data-anchor-id="esquistossomose-mansoni"><span class="header-section-number">9.3.24</span> Esquistossomose mansoni</h3>
+<section id="esquistossomose-mansoni" class="level3" data-number="9.17.24">
+<h3 data-number="9.17.24" class="anchored" data-anchor-id="esquistossomose-mansoni"><span class="header-section-number">9.17.24</span> Esquistossomose mansoni</h3>
 <ul>
 <li>Prefixo dos arquivos: ESQU</li>
 <li>CID-10: B65.1</li>
@@ -1036,8 +1933,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="doenças-exantemáticas" class="level3" data-number="9.3.25">
-<h3 data-number="9.3.25" class="anchored" data-anchor-id="doenças-exantemáticas"><span class="header-section-number">9.3.25</span> Doenças Exantemáticas</h3>
+<section id="doenças-exantemáticas" class="level3" data-number="9.17.25">
+<h3 data-number="9.17.25" class="anchored" data-anchor-id="doenças-exantemáticas"><span class="header-section-number">9.17.25</span> Doenças Exantemáticas</h3>
 <ul>
 <li>Prefixo dos arquivos: EXAN</li>
 <li><a href="assets/sinan/agravos/EXANT_FICHA.pdf">Ficha de notificação</a></li>
@@ -1045,8 +1942,8 @@ Nota
 <li><a href="assets/sinan/agravos/EXANT_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="febre-amarela" class="level3" data-number="9.3.26">
-<h3 data-number="9.3.26" class="anchored" data-anchor-id="febre-amarela"><span class="header-section-number">9.3.26</span> Febre Amarela</h3>
+<section id="febre-amarela" class="level3" data-number="9.17.26">
+<h3 data-number="9.17.26" class="anchored" data-anchor-id="febre-amarela"><span class="header-section-number">9.17.26</span> Febre Amarela</h3>
 <ul>
 <li>CID-10: A95</li>
 <li><a href="assets/sinan/agravos/FAMARN_FICHA.pdf">Ficha de notificação</a></li>
@@ -1062,8 +1959,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="febre-maculosa" class="level3" data-number="9.3.27">
-<h3 data-number="9.3.27" class="anchored" data-anchor-id="febre-maculosa"><span class="header-section-number">9.3.27</span> Febre Maculosa</h3>
+<section id="febre-maculosa" class="level3" data-number="9.17.27">
+<h3 data-number="9.17.27" class="anchored" data-anchor-id="febre-maculosa"><span class="header-section-number">9.17.27</span> Febre Maculosa</h3>
 <ul>
 <li>Prefixo dos arquivos: FMAC</li>
 <li>CID-10
@@ -1084,14 +1981,14 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="febre-oropouche" class="level3" data-number="9.3.28">
-<h3 data-number="9.3.28" class="anchored" data-anchor-id="febre-oropouche"><span class="header-section-number">9.3.28</span> Febre Oropouche</h3>
+<section id="febre-oropouche" class="level3" data-number="9.17.28">
+<h3 data-number="9.17.28" class="anchored" data-anchor-id="febre-oropouche"><span class="header-section-number">9.17.28</span> Febre Oropouche</h3>
 <ul>
 <li><a href="assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf">POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche</a></li>
 </ul>
 </section>
-<section id="febre-tifóide" class="level3" data-number="9.3.29">
-<h3 data-number="9.3.29" class="anchored" data-anchor-id="febre-tifóide"><span class="header-section-number">9.3.29</span> Febre Tifóide</h3>
+<section id="febre-tifóide" class="level3" data-number="9.17.29">
+<h3 data-number="9.17.29" class="anchored" data-anchor-id="febre-tifóide"><span class="header-section-number">9.17.29</span> Febre Tifóide</h3>
 <ul>
 <li>Prefixo dos arquivos: FTIF</li>
 <li>CID-10: A01.0</li>
@@ -1100,8 +1997,8 @@ Nota
 <li><a href="assets/sinan/agravos/FTIFON_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="hanseníase" class="level3" data-number="9.3.30">
-<h3 data-number="9.3.30" class="anchored" data-anchor-id="hanseníase"><span class="header-section-number">9.3.30</span> Hanseníase</h3>
+<section id="hanseníase" class="level3" data-number="9.17.30">
+<h3 data-number="9.17.30" class="anchored" data-anchor-id="hanseníase"><span class="header-section-number">9.17.30</span> Hanseníase</h3>
 <ul>
 <li>Prefixo dos arquivos: HANS</li>
 <li>CID-10: A30</li>
@@ -1111,8 +2008,8 @@ Nota
 <li><a href="assets/sinan/agravos/HANSN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="hantavirose" class="level3" data-number="9.3.31">
-<h3 data-number="9.3.31" class="anchored" data-anchor-id="hantavirose"><span class="header-section-number">9.3.31</span> Hantavirose</h3>
+<section id="hantavirose" class="level3" data-number="9.17.31">
+<h3 data-number="9.17.31" class="anchored" data-anchor-id="hantavirose"><span class="header-section-number">9.17.31</span> Hantavirose</h3>
 <ul>
 <li>Prefixo dos arquivos: HANT</li>
 <li>CID-10: B33.4</li>
@@ -1128,8 +2025,8 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="hepatites-virais" class="level3" data-number="9.3.32">
-<h3 data-number="9.3.32" class="anchored" data-anchor-id="hepatites-virais"><span class="header-section-number">9.3.32</span> Hepatites Virais</h3>
+<section id="hepatites-virais" class="level3" data-number="9.17.32">
+<h3 data-number="9.17.32" class="anchored" data-anchor-id="hepatites-virais"><span class="header-section-number">9.17.32</span> Hepatites Virais</h3>
 <ul>
 <li>Prefixo dos arquivos: HEPA</li>
 <li>CID-10: B15 – B19.9</li>
@@ -1138,8 +2035,8 @@ Nota
 <li><a href="assets/sinan/agravos/HEPANET_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="intoxicação-hexógena" class="level3" data-number="9.3.33">
-<h3 data-number="9.3.33" class="anchored" data-anchor-id="intoxicação-hexógena"><span class="header-section-number">9.3.33</span> Intoxicação Hexógena</h3>
+<section id="intoxicação-exógena" class="level3" data-number="9.17.33">
+<h3 data-number="9.17.33" class="anchored" data-anchor-id="intoxicação-exógena"><span class="header-section-number">9.17.33</span> Intoxicação Exógena</h3>
 <ul>
 <li>Prefixo dos arquivos: IEXO</li>
 <li><a href="assets/sinan/agravos/IEXOGN_FICHA.pdf">Ficha de notificação</a></li>
@@ -1147,8 +2044,8 @@ Nota
 <li><a href="assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="leishimaniosse-tegumentar-americana" class="level3" data-number="9.3.34">
-<h3 data-number="9.3.34" class="anchored" data-anchor-id="leishimaniosse-tegumentar-americana"><span class="header-section-number">9.3.34</span> Leishimaniosse Tegumentar Americana</h3>
+<section id="leishmaniose-tegumentar-americana" class="level3" data-number="9.17.34">
+<h3 data-number="9.17.34" class="anchored" data-anchor-id="leishmaniose-tegumentar-americana"><span class="header-section-number">9.17.34</span> Leishmaniose Tegumentar Americana</h3>
 <ul>
 <li>Prefixo dos arquivos: LTAN</li>
 <li>CID-10: B55.1</li>
@@ -1158,8 +2055,8 @@ Nota
 <li><a href="assets/sinan/agravos/LTAN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="leishmaniose-visceral" class="level3" data-number="9.3.35">
-<h3 data-number="9.3.35" class="anchored" data-anchor-id="leishmaniose-visceral"><span class="header-section-number">9.3.35</span> Leishmaniose Visceral</h3>
+<section id="leishmaniose-visceral" class="level3" data-number="9.17.35">
+<h3 data-number="9.17.35" class="anchored" data-anchor-id="leishmaniose-visceral"><span class="header-section-number">9.17.35</span> Leishmaniose Visceral</h3>
 <ul>
 <li>Prefixo dos arquivos: LEIV</li>
 <li>CID-10: B55.0</li>
@@ -1169,8 +2066,8 @@ Nota
 <li><a href="assets/sinan/agravos/LEISHN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="leptospirose" class="level3" data-number="9.3.36">
-<h3 data-number="9.3.36" class="anchored" data-anchor-id="leptospirose"><span class="header-section-number">9.3.36</span> Leptospirose</h3>
+<section id="leptospirose" class="level3" data-number="9.17.36">
+<h3 data-number="9.17.36" class="anchored" data-anchor-id="leptospirose"><span class="header-section-number">9.17.36</span> Leptospirose</h3>
 <ul>
 <li>Prefixo dos arquivos: LEPT</li>
 <li>CID-10: A27</li>
@@ -1186,14 +2083,14 @@ Nota
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="lerdot" class="level3" data-number="9.3.37">
-<h3 data-number="9.3.37" class="anchored" data-anchor-id="lerdot"><span class="header-section-number">9.3.37</span> LER/DOT</h3>
+<section id="lerdot" class="level3" data-number="9.17.37">
+<h3 data-number="9.17.37" class="anchored" data-anchor-id="lerdot"><span class="header-section-number">9.17.37</span> LER/DOT</h3>
 <ul>
 <li>Prefixo dos arquivos: LERD</li>
 </ul>
 </section>
-<section id="malária" class="level3" data-number="9.3.38">
-<h3 data-number="9.3.38" class="anchored" data-anchor-id="malária"><span class="header-section-number">9.3.38</span> Malária</h3>
+<section id="malária" class="level3" data-number="9.17.38">
+<h3 data-number="9.17.38" class="anchored" data-anchor-id="malária"><span class="header-section-number">9.17.38</span> Malária</h3>
 <ul>
 <li>Prefixo dos arquivos: MALA</li>
 <li>CID-10: B50 a B54 / P37.3 e P37.4</li>
@@ -1215,8 +2112,8 @@ Cuidado
 </div>
 </div>
 </section>
-<section id="meningite" class="level3" data-number="9.3.39">
-<h3 data-number="9.3.39" class="anchored" data-anchor-id="meningite"><span class="header-section-number">9.3.39</span> Meningite</h3>
+<section id="meningite" class="level3" data-number="9.17.39">
+<h3 data-number="9.17.39" class="anchored" data-anchor-id="meningite"><span class="header-section-number">9.17.39</span> Meningite</h3>
 <ul>
 <li>Prefixo dos arquivos: MENI</li>
 <li>CID-10
@@ -1231,14 +2128,14 @@ Cuidado
 <li><a href="assets/sinan/agravos/MENIN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="transtornos-mentais-relacionais-ao-trabalho" class="level3" data-number="9.3.40">
-<h3 data-number="9.3.40" class="anchored" data-anchor-id="transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">9.3.40</span> Transtornos mentais relacionais ao trabalho</h3>
+<section id="transtornos-mentais-relacionais-ao-trabalho" class="level3" data-number="9.17.40">
+<h3 data-number="9.17.40" class="anchored" data-anchor-id="transtornos-mentais-relacionais-ao-trabalho"><span class="header-section-number">9.17.40</span> Transtornos mentais relacionais ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: MENT</li>
 </ul>
 </section>
-<section id="notificação-de-tracoma" class="level3" data-number="9.3.41">
-<h3 data-number="9.3.41" class="anchored" data-anchor-id="notificação-de-tracoma"><span class="header-section-number">9.3.41</span> Notificação de tracoma</h3>
+<section id="notificação-de-tracoma" class="level3" data-number="9.17.41">
+<h3 data-number="9.17.41" class="anchored" data-anchor-id="notificação-de-tracoma"><span class="header-section-number">9.17.41</span> Notificação de tracoma</h3>
 <ul>
 <li>Prefixo dos arquivos: NTRA</li>
 <li>CID-10
@@ -1248,20 +2145,20 @@ Cuidado
 </ul></li>
 </ul>
 </section>
-<section id="inquérito-de-tracoma" class="level3" data-number="9.3.42">
-<h3 data-number="9.3.42" class="anchored" data-anchor-id="inquérito-de-tracoma"><span class="header-section-number">9.3.42</span> Inquérito de tracoma</h3>
+<section id="inquérito-de-tracoma" class="level3" data-number="9.17.42">
+<h3 data-number="9.17.42" class="anchored" data-anchor-id="inquérito-de-tracoma"><span class="header-section-number">9.17.42</span> Inquérito de tracoma</h3>
 <ul>
 <li>Prefixo dos arquivos: TRAC</li>
 </ul>
 </section>
-<section id="perda-auditiva-por-ruído-relacionado-ao-trabalho" class="level3" data-number="9.3.43">
-<h3 data-number="9.3.43" class="anchored" data-anchor-id="perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">9.3.43</span> Perda auditiva por ruído relacionado ao trabalho</h3>
+<section id="perda-auditiva-por-ruído-relacionado-ao-trabalho" class="level3" data-number="9.17.43">
+<h3 data-number="9.17.43" class="anchored" data-anchor-id="perda-auditiva-por-ruído-relacionado-ao-trabalho"><span class="header-section-number">9.17.43</span> Perda auditiva por ruído relacionado ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: PAIR</li>
 </ul>
 </section>
-<section id="monkeypox" class="level3" data-number="9.3.44">
-<h3 data-number="9.3.44" class="anchored" data-anchor-id="monkeypox"><span class="header-section-number">9.3.44</span> Monkeypox</h3>
+<section id="monkeypox" class="level3" data-number="9.17.44">
+<h3 data-number="9.17.44" class="anchored" data-anchor-id="monkeypox"><span class="header-section-number">9.17.44</span> Monkeypox</h3>
 <p>A notificação de Monkeypox (Mpox) está sendo realizada com o <a href="http://plataforma.saude.gov.br/esussinan/">e-SUS SINAN</a>, uma nova versão do SINAN.</p>
 <ul>
 <li><a href="assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf">Ficha de notificação</a></li>
@@ -1269,22 +2166,22 @@ Cuidado
 <li><a href="https://opendatasus.saude.gov.br/dataset/mpox">OpenDataSUS</a></li>
 </ul>
 </section>
-<section id="notificação-individual" class="level3" data-number="9.3.45">
-<h3 data-number="9.3.45" class="anchored" data-anchor-id="notificação-individual"><span class="header-section-number">9.3.45</span> Notificação Individual</h3>
+<section id="notificação-individual" class="level3" data-number="9.17.45">
+<h3 data-number="9.17.45" class="anchored" data-anchor-id="notificação-individual"><span class="header-section-number">9.17.45</span> Notificação Individual</h3>
 <ul>
 <li><a href="assets/sinan/agravos/NINDIN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/NINDIN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="notificação-individual-e-sus-sinan" class="level3" data-number="9.3.46">
-<h3 data-number="9.3.46" class="anchored" data-anchor-id="notificação-individual-e-sus-sinan"><span class="header-section-number">9.3.46</span> Notificação Individual e-SUS SINAN</h3>
+<section id="notificação-individual-e-sus-sinan" class="level3" data-number="9.17.46">
+<h3 data-number="9.17.46" class="anchored" data-anchor-id="notificação-individual-e-sus-sinan"><span class="header-section-number">9.17.46</span> Notificação Individual e-SUS SINAN</h3>
 <ul>
 <li><a href="assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf">Ficha individual de notificação</a></li>
 <li><a href="assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf">Modelo de informação da ficha de notificação</a></li>
 </ul>
 </section>
-<section id="peste" class="level3" data-number="9.3.47">
-<h3 data-number="9.3.47" class="anchored" data-anchor-id="peste"><span class="header-section-number">9.3.47</span> Peste</h3>
+<section id="peste" class="level3" data-number="9.17.47">
+<h3 data-number="9.17.47" class="anchored" data-anchor-id="peste"><span class="header-section-number">9.17.47</span> Peste</h3>
 <ul>
 <li>Prefixo dos arquivos: PEST</li>
 <li>CID-10: A20</li>
@@ -1300,8 +2197,8 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="poliomelite-paralisia-flácida-aguda" class="level3" data-number="9.3.48">
-<h3 data-number="9.3.48" class="anchored" data-anchor-id="poliomelite-paralisia-flácida-aguda"><span class="header-section-number">9.3.48</span> Poliomelite / Paralisia Flácida Aguda</h3>
+<section id="poliomielite-paralisia-flácida-aguda" class="level3" data-number="9.17.48">
+<h3 data-number="9.17.48" class="anchored" data-anchor-id="poliomielite-paralisia-flácida-aguda"><span class="header-section-number">9.17.48</span> Poliomielite / Paralisia Flácida Aguda</h3>
 <ul>
 <li>Prefixo dos arquivos: PFAN</li>
 <li>CID-10: A80</li>
@@ -1317,15 +2214,15 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="pneumoconioses-relacionadas-ao-trabalho" class="level3" data-number="9.3.49">
-<h3 data-number="9.3.49" class="anchored" data-anchor-id="pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">9.3.49</span> Pneumoconioses relacionadas ao trabalho</h3>
+<section id="pneumoconioses-relacionadas-ao-trabalho" class="level3" data-number="9.17.49">
+<h3 data-number="9.17.49" class="anchored" data-anchor-id="pneumoconioses-relacionadas-ao-trabalho"><span class="header-section-number">9.17.49</span> Pneumoconioses relacionadas ao trabalho</h3>
 <ul>
 <li>Prefixo dos arquivos: PNEU</li>
 <li>CID-10: J64</li>
 </ul>
 </section>
-<section id="raiva-humana" class="level3" data-number="9.3.50">
-<h3 data-number="9.3.50" class="anchored" data-anchor-id="raiva-humana"><span class="header-section-number">9.3.50</span> Raiva Humana</h3>
+<section id="raiva-humana" class="level3" data-number="9.17.50">
+<h3 data-number="9.17.50" class="anchored" data-anchor-id="raiva-humana"><span class="header-section-number">9.17.50</span> Raiva Humana</h3>
 <ul>
 <li>Prefixo dos arquivos: RAIV</li>
 <li>CID-10: A82</li>
@@ -1348,15 +2245,15 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="sífilis-adquirida" class="level3" data-number="9.3.51">
-<h3 data-number="9.3.51" class="anchored" data-anchor-id="sífilis-adquirida"><span class="header-section-number">9.3.51</span> Sífilis adquirida</h3>
+<section id="sífilis-adquirida" class="level3" data-number="9.17.51">
+<h3 data-number="9.17.51" class="anchored" data-anchor-id="sífilis-adquirida"><span class="header-section-number">9.17.51</span> Sífilis adquirida</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFA</li>
 <li>CID-10: A53.9</li>
 </ul>
 </section>
-<section id="sífilis-congênita" class="level3" data-number="9.3.52">
-<h3 data-number="9.3.52" class="anchored" data-anchor-id="sífilis-congênita"><span class="header-section-number">9.3.52</span> Sífilis Congênita</h3>
+<section id="sífilis-congênita" class="level3" data-number="9.17.52">
+<h3 data-number="9.17.52" class="anchored" data-anchor-id="sífilis-congênita"><span class="header-section-number">9.17.52</span> Sífilis Congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFC</li>
 <li>CID-10: A50</li>
@@ -1366,19 +2263,19 @@ Cuidado
 <li><a href="assets/sinan/agravos/SIFICN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="sífilis-em-gestante" class="level3" data-number="9.3.53">
-<h3 data-number="9.3.53" class="anchored" data-anchor-id="sífilis-em-gestante"><span class="header-section-number">9.3.53</span> Sífilis em Gestante</h3>
+<section id="sífilis-em-gestante" class="level3" data-number="9.17.53">
+<h3 data-number="9.17.53" class="anchored" data-anchor-id="sífilis-em-gestante"><span class="header-section-number">9.17.53</span> Sífilis em Gestante</h3>
 <ul>
 <li>Prefixo dos arquivos: SIFG</li>
 <li>CID-10: O98.1</li>
 <li><a href="assets/sinan/agravos/SIFIGEN_FICHA.pdf">Ficha de notificação</a></li>
 <li><a href="assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf">Instrucional</a></li>
-<li>[Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf</li>
+<li><a href="assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf">Nota informativa</a></li>
 <li><a href="assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="síndrome-da-rubéola-congênita" class="level3" data-number="9.3.54">
-<h3 data-number="9.3.54" class="anchored" data-anchor-id="síndrome-da-rubéola-congênita"><span class="header-section-number">9.3.54</span> Síndrome da Rubéola Congênita</h3>
+<section id="síndrome-da-rubéola-congênita" class="level3" data-number="9.17.54">
+<h3 data-number="9.17.54" class="anchored" data-anchor-id="síndrome-da-rubéola-congênita"><span class="header-section-number">9.17.54</span> Síndrome da Rubéola Congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: SRC</li>
 <li>CID-10: P35.0</li>
@@ -1394,8 +2291,8 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024a">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024a" role="doc-biblioref">2024b</a>)</span></p>
 </section>
-<section id="tétano-acidental" class="level3" data-number="9.3.55">
-<h3 data-number="9.3.55" class="anchored" data-anchor-id="tétano-acidental"><span class="header-section-number">9.3.55</span> Tétano Acidental</h3>
+<section id="tétano-acidental" class="level3" data-number="9.17.55">
+<h3 data-number="9.17.55" class="anchored" data-anchor-id="tétano-acidental"><span class="header-section-number">9.17.55</span> Tétano Acidental</h3>
 <ul>
 <li>Prefixo dos arquivos: TETA</li>
 <li>CID-10: A35</li>
@@ -1404,8 +2301,8 @@ Cuidado
 <li><a href="assets/sinan/agravos/TETACN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="tétano-neonatal" class="level3" data-number="9.3.56">
-<h3 data-number="9.3.56" class="anchored" data-anchor-id="tétano-neonatal"><span class="header-section-number">9.3.56</span> Tétano Neonatal</h3>
+<section id="tétano-neonatal" class="level3" data-number="9.17.56">
+<h3 data-number="9.17.56" class="anchored" data-anchor-id="tétano-neonatal"><span class="header-section-number">9.17.56</span> Tétano Neonatal</h3>
 <ul>
 <li>Prefixo dos arquivos: TETN</li>
 <li>CID-10: A33</li>
@@ -1414,22 +2311,22 @@ Cuidado
 <li><a href="assets/sinan/agravos/TETANN_DIC_DADOS.pdf">Dicionário de dados</a></li>
 </ul>
 </section>
-<section id="toxoplasmose-congênita" class="level3" data-number="9.3.57">
-<h3 data-number="9.3.57" class="anchored" data-anchor-id="toxoplasmose-congênita"><span class="header-section-number">9.3.57</span> Toxoplasmose congênita</h3>
+<section id="toxoplasmose-congênita" class="level3" data-number="9.17.57">
+<h3 data-number="9.17.57" class="anchored" data-anchor-id="toxoplasmose-congênita"><span class="header-section-number">9.17.57</span> Toxoplasmose congênita</h3>
 <ul>
 <li>Prefixo dos arquivos: TOXC</li>
 <li>CID-10: P37.1</li>
 </ul>
 </section>
-<section id="toxoplasmose-gestacional" class="level3" data-number="9.3.58">
-<h3 data-number="9.3.58" class="anchored" data-anchor-id="toxoplasmose-gestacional"><span class="header-section-number">9.3.58</span> Toxoplasmose gestacional</h3>
+<section id="toxoplasmose-gestacional" class="level3" data-number="9.17.58">
+<h3 data-number="9.17.58" class="anchored" data-anchor-id="toxoplasmose-gestacional"><span class="header-section-number">9.17.58</span> Toxoplasmose gestacional</h3>
 <ul>
 <li>Prefixo dos arquivos: TOXG</li>
 <li>CID-10: O98.6</li>
 </ul>
 </section>
-<section id="tuberculose" class="level3" data-number="9.3.59">
-<h3 data-number="9.3.59" class="anchored" data-anchor-id="tuberculose"><span class="header-section-number">9.3.59</span> Tuberculose</h3>
+<section id="tuberculose" class="level3" data-number="9.17.59">
+<h3 data-number="9.17.59" class="anchored" data-anchor-id="tuberculose"><span class="header-section-number">9.17.59</span> Tuberculose</h3>
 <ul>
 <li>Prefixo dos arquivos: TUBE</li>
 <li>CID-10: A15 a A19; J65; K93.0; M49.0; M90.0; N74.0; N74.1; O98.0; P37.0</li>
@@ -1446,21 +2343,21 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024" role="doc-biblioref">2024a</a>)</span></p>
 </section>
-<section id="varicela-herpes-zóster" class="level3" data-number="9.3.60">
-<h3 data-number="9.3.60" class="anchored" data-anchor-id="varicela-herpes-zóster"><span class="header-section-number">9.3.60</span> Varicela / Herpes-Zóster</h3>
+<section id="varicela-herpes-zóster" class="level3" data-number="9.17.60">
+<h3 data-number="9.17.60" class="anchored" data-anchor-id="varicela-herpes-zóster"><span class="header-section-number">9.17.60</span> Varicela / Herpes-Zóster</h3>
 <ul>
 <li>Prefixo dos arquivos: VARC</li>
 <li>CID-10: B01/B02</li>
 </ul>
 </section>
-<section id="violência-doméstica-sexual-eou-outras-violências" class="level3" data-number="9.3.61">
-<h3 data-number="9.3.61" class="anchored" data-anchor-id="violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">9.3.61</span> Violência doméstica, sexual e/ou outras violências</h3>
+<section id="violência-doméstica-sexual-eou-outras-violências" class="level3" data-number="9.17.61">
+<h3 data-number="9.17.61" class="anchored" data-anchor-id="violência-doméstica-sexual-eou-outras-violências"><span class="header-section-number">9.17.61</span> Violência doméstica, sexual e/ou outras violências</h3>
 <ul>
 <li>Prefixo dos arquivos: VIOL</li>
 </ul>
 </section>
-<section id="violência-interpessoalautoprovocada" class="level3" data-number="9.3.62">
-<h3 data-number="9.3.62" class="anchored" data-anchor-id="violência-interpessoalautoprovocada"><span class="header-section-number">9.3.62</span> Violência Interpessoal/Autoprovocada</h3>
+<section id="violência-interpessoalautoprovocada" class="level3" data-number="9.17.62">
+<h3 data-number="9.17.62" class="anchored" data-anchor-id="violência-interpessoalautoprovocada"><span class="header-section-number">9.17.62</span> Violência Interpessoal/Autoprovocada</h3>
 <ul>
 <li>CID-10: Y09</li>
 <li><a href="assets/sinan/agravos/VIOLEN_FICHA.pdf">Ficha de notificação</a></li>
@@ -1475,78 +2372,101 @@ Cuidado
 </div>
 <p>Fonte: <span class="citation" data-cites="ministeriodasaudeGuiaVigilanciaEm2024b">BRASIL (<a href="referencias.html#ref-ministeriodasaudeGuiaVigilanciaEm2024b" role="doc-biblioref">2024c</a>)</span></p>
 </section>
-<section id="zika-vírus" class="level3" data-number="9.3.63">
-<h3 data-number="9.3.63" class="anchored" data-anchor-id="zika-vírus"><span class="header-section-number">9.3.63</span> Zika vírus</h3>
+<section id="zika-vírus" class="level3" data-number="9.17.63">
+<h3 data-number="9.17.63" class="anchored" data-anchor-id="zika-vírus"><span class="header-section-number">9.17.63</span> Zika vírus</h3>
 <ul>
 <li>Prefixo dos arquivos: ZIKA</li>
 <li><a href="https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus">OpenDataSUS</a></li>
 </ul>
 </section>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">9.4</span> Acesso aos dados</h2>
-<section id="tabnet" class="level3" data-number="9.4.1">
-<h3 data-number="9.4.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">9.4.1</span> TabNet</h3>
+<section id="acesso-aos-dados" class="level2" data-number="9.18">
+<h2 data-number="9.18" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">9.18</span> Acesso aos dados</h2>
+<p>Os dados do SINAN podem ser acessados por diferentes caminhos. A melhor opção depende do agravo, da necessidade de microdados, da atualização desejada e do grau de reprodutibilidade do fluxo.</p>
+<table class="caption-top table">
+<caption>Formas de acesso aos dados do SINAN</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TabNet</td>
+<td>Tabulações rápidas e consultas agregadas</td>
+</tr>
+<tr class="even">
+<td>TabWin/DBC</td>
+<td>Download e tabulação local de arquivos do DataSUS</td>
+</tr>
+<tr class="odd">
+<td>R</td>
+<td>Fluxos reprodutíveis com <code>{microdatasus}</code> quando o agravo estiver disponível</td>
+</tr>
+<tr class="even">
+<td>Python</td>
+<td>Fluxos reprodutíveis com PySUS</td>
+</tr>
+<tr class="odd">
+<td>OpenDataSUS</td>
+<td>Bases abertas de alguns agravos, especialmente arboviroses e emergências</td>
+</tr>
+<tr class="even">
+<td>PCDaS</td>
+<td>Uso em ambiente de notebooks e infraestrutura de dados</td>
+</tr>
+<tr class="odd">
+<td>InfoDengue</td>
+<td>Monitoramento oportuno de arboviroses com correção de atraso</td>
+</tr>
+</tbody>
+</table>
+<section id="tabnet" class="level3" data-number="9.18.1">
+<h3 data-number="9.18.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">9.18.1</span> TabNet</h3>
 <p>Os dados do SINAN podem ser acessados no sistema TabNet do DataSUS, na seção “Epidemiológicas e Morbidade”.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/">TabNet SINAN</a></li>
 </ul>
 </section>
-<section id="tabwin" class="level3" data-number="9.4.2">
-<h3 data-number="9.4.2" class="anchored" data-anchor-id="tabwin"><span class="header-section-number">9.4.2</span> TabWin</h3>
-<p>Para uso no TabWin, você irá precisar baixar no servidor de FTP do DataSUS, os arquivos de dados no formato DBC e os arquivos auxiliares para tabulação.</p>
+<section id="tabwin-e-transferência-de-arquivos" class="level3" data-number="9.18.2">
+<h3 data-number="9.18.2" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">9.18.2</span> TabWin e transferência de arquivos</h3>
+<p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares para tabulação no serviço de transferência de arquivos do DataSUS.</p>
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
+<p>Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, data de acesso e versão do script de leitura. Como os layouts variam por agravo, guarde também o dicionário de dados usado.</p>
 </section>
-<section id="r" class="level3" data-number="9.4.3">
-<h3 data-number="9.4.3" class="anchored" data-anchor-id="r"><span class="header-section-number">9.4.3</span> R</h3>
-<p>Você pode usar o pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a>.</p>
+<section id="r" class="level3" data-number="9.18.3">
+<h3 data-number="9.18.3" class="anchored" data-anchor-id="r"><span class="header-section-number">9.18.3</span> R</h3>
+<p>O pacote <a href="https://rfsaldanha.github.io/microdatasus/index.html"><code>{microdatasus}</code></a> permite baixar e processar alguns microdados do DataSUS em R <span class="citation" data-cites="Saldanha2019a">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>)</span>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>sinan_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2017</span>,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2017</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SINAN-DENGUE"</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>sinan_p <span class="ot">&lt;-</span> <span class="fu">process_sinan_dengue</span>(sinan_raw)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>sinan_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 518,483 × 132
-   TP_NOT    ID_AGRAVO DT_NOTIFIC SEM_NOT NU_ANO SG_UF_NOT ID_MUNICIP ID_REGIONA
-   &lt;chr&gt;     &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;     
- 1 Individu… A90       2017-12-14 201750  2017   Acre      120020     1941      
- 2 Individu… A90       2017-12-11 201750  2017   Acre      120020     1941      
- 3 Individu… A90       2017-10-20 201742  2017   Acre      120020     1941      
- 4 Individu… A90       2017-03-08 201710  2017   Acre      120020     1941      
- 5 Individu… A90       2017-12-29 201752  2017   Acre      120020     1941      
- 6 Individu… A90       2017-12-14 201750  2017   Acre      120020     1941      
- 7 Individu… A90       2017-12-15 201750  2017   Acre      120020     1941      
- 8 Individu… A90       2017-12-05 201749  2017   Acre      120020     1941      
- 9 Individu… A90       2017-12-01 201748  2017   Acre      120020     1941      
-10 Individu… A90       2017-11-29 201748  2017   Acre      120020     1941      
-# ℹ 518,473 more rows
-# ℹ 124 more variables: ID_UNIDADE &lt;chr&gt;, DT_SIN_PRI &lt;chr&gt;, SEM_PRI &lt;chr&gt;,
-#   DT_NASC &lt;chr&gt;, NU_IDADE_N &lt;chr&gt;, CS_SEXO &lt;chr&gt;, CS_GESTANT &lt;chr&gt;,
-#   CS_RACA &lt;chr&gt;, CS_ESCOL_N &lt;chr&gt;, SG_UF &lt;chr&gt;, ID_MN_RESI &lt;chr&gt;,
-#   ID_RG_RESI &lt;chr&gt;, ID_PAIS &lt;chr&gt;, DT_INVEST &lt;chr&gt;, ID_OCUPA_N &lt;chr&gt;,
-#   FEBRE &lt;chr&gt;, MIALGIA &lt;chr&gt;, CEFALEIA &lt;chr&gt;, EXANTEMA &lt;chr&gt;, VOMITO &lt;chr&gt;,
-#   NAUSEA &lt;chr&gt;, DOR_COSTAS &lt;chr&gt;, CONJUNTVIT &lt;chr&gt;, ARTRITE &lt;chr&gt;, …</code></pre>
-</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(microdatasus)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>sinan_raw <span class="ot">&lt;-</span> <span class="fu">fetch_datasus</span>(</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_start =</span> <span class="dv">2017</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">year_end =</span> <span class="dv">2017</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">information_system =</span> <span class="st">"SINAN-DENGUE"</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>sinan_p <span class="ot">&lt;-</span> <span class="fu">process_sinan_dengue</span>(sinan_raw)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>sinan_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="python" class="level3" data-number="9.4.4">
-<h3 data-number="9.4.4" class="anchored" data-anchor-id="python"><span class="header-section-number">9.4.4</span> Python</h3>
-<p>Você pode usar a biblioteca PySUS.</p>
+<section id="python" class="level3" data-number="9.18.4">
+<h3 data-number="9.18.4" class="anchored" data-anchor-id="python"><span class="header-section-number">9.18.4</span> Python</h3>
+<p>A biblioteca PySUS também permite acessar dados do SINAN em fluxos de análise em Python.</p>
 <ul>
 <li><a href="https://pysus.readthedocs.io/en/latest/databases/SINAN.html">PySUS SINAN</a></li>
 </ul>
 </section>
-<section id="opendatasus" class="level3" data-number="9.4.5">
-<h3 data-number="9.4.5" class="anchored" data-anchor-id="opendatasus"><span class="header-section-number">9.4.5</span> OpenDataSUS</h3>
+<section id="opendatasus" class="level3" data-number="9.18.5">
+<h3 data-number="9.18.5" class="anchored" data-anchor-id="opendatasus"><span class="header-section-number">9.18.5</span> OpenDataSUS</h3>
 <p>O Ministério da Saúde disponibiliza arquivos atualizados no OpenDataSUS para as seguintes notificações:</p>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/arboviroses-dengue">Dengue</a></li>
@@ -1556,8 +2476,15 @@ Cuidado
 <li><a href="https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos">Febre Amarela</a></li>
 </ul>
 </section>
-<section id="infodengue" class="level3" data-number="9.4.6">
-<h3 data-number="9.4.6" class="anchored" data-anchor-id="infodengue"><span class="header-section-number">9.4.6</span> InfoDengue</h3>
+<section id="pcdas" class="level3" data-number="9.18.6">
+<h3 data-number="9.18.6" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">9.18.6</span> PCDaS</h3>
+<p>Algumas bases do SINAN podem ser analisadas em ambientes de notebooks e infraestrutura de dados da Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
+<ul>
+<li><a href="https://pcdas.icict.fiocruz.br/">PCDaS</a></li>
+</ul>
+</section>
+<section id="infodengue" class="level3" data-number="9.18.7">
+<h3 data-number="9.18.7" class="anchored" data-anchor-id="infodengue"><span class="header-section-number">9.18.7</span> InfoDengue</h3>
 <p>O projeto InfoDengue, mantido pela FGV EMAp e Fiocruz, apresenta estimativas da incidência da Dengue a partir de dados do SINAN, usando técnicas de <em>nowcasting</em> para reduzir os efeitos do atraso de notificação. O acesso aos dados é possível por uma API.</p>
 <ul>
 <li><a href="https://info.dengue.mat.br">InfoDengue</a></li>
@@ -1565,27 +2492,357 @@ Cuidado
 </ul>
 </section>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="9.5">
-<h2 data-number="9.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">9.5</span> Bibliografia recomendada</h2>
-<section id="documentos-auxiliares" class="level3" data-number="9.5.1">
-<h3 data-number="9.5.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">9.5.1</span> Documentos auxiliares</h3>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="9.19">
+<h2 data-number="9.19" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">9.19</span> Relacionamento com outros sistemas</h2>
+<p>O SINAN é frequentemente combinado com outros sistemas para qualificar desfechos, gravidade, denominadores e rede assistencial.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre SINAN e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>O caso notificado evoluiu para óbito?</td>
+<td>SINAN + SIM (<a href="sim.html" class="quarto-xref"><span>Capítulo 5</span></a>)</td>
+<td>Harmonizar identificação, datas e causa</td>
+</tr>
+<tr class="even">
+<td>O caso foi internado?</td>
+<td>SINAN + SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Definir janela entre notificação e internação</td>
+</tr>
+<tr class="odd">
+<td>Houve procedimento ambulatorial relacionado?</td>
+<td>SINAN + SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Separar produção de caso notificado</td>
+</tr>
+<tr class="even">
+<td>Qual taxa de incidência?</td>
+<td>SINAN + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>Usar residência e população compatível</td>
+</tr>
+<tr class="odd">
+<td>Qual serviço notificou ou acompanhou?</td>
+<td>SINAN + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>CNES muda ao longo do tempo</td>
+</tr>
+<tr class="even">
+<td>O evento envolve nascimento ou gestação?</td>
+<td>SINAN + SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Definir unidade: mãe, gestação, nascimento ou caso</td>
+</tr>
+</tbody>
+</table>
+<p>Em relacionamentos de registros, defina previamente se a unidade final será pessoa, caso, episódio, notificação, internação ou óbito. Essa definição muda regras de pareamento, deduplicação e janelas temporais.</p>
+</section>
+<section id="sinan-e-sivep" class="level2" data-number="9.20">
+<h2 data-number="9.20" class="anchored" data-anchor-id="sinan-e-sivep"><span class="header-section-number">9.20</span> SINAN e SIVEP</h2>
+<p>SINAN e SIVEP (<a href="sivep.html" class="quarto-xref"><span>Apêndice E</span></a>) são sistemas de vigilância, mas não devem ser tratados como equivalentes. O SINAN organiza a notificação e investigação de uma ampla lista de doenças e agravos; o SIVEP reúne componentes específicos, como SIVEP-Gripe para SRAG e vigilância de vírus respiratórios, e SIVEP-Malária para malária em áreas e fluxos específicos.</p>
+<table class="caption-top table">
+<caption>Diferenças práticas entre SINAN e SIVEP</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Sistema mais provável</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Casos suspeitos ou confirmados de agravos da lista nacional</td>
+<td>SINAN</td>
+<td>Verificar ficha e classificação final</td>
+</tr>
+<tr class="even">
+<td>Síndrome Respiratória Aguda Grave</td>
+<td>SIVEP-Gripe</td>
+<td>Não substituir por notificações gerais do SINAN</td>
+</tr>
+<tr class="odd">
+<td>Malária na região amazônica</td>
+<td>SIVEP-Malária</td>
+<td>SINAN cobre principalmente região extra-amazônica</td>
+</tr>
+<tr class="even">
+<td>Malária extra-amazônica</td>
+<td>SINAN</td>
+<td>Confirmar fluxo local e definição vigente</td>
+</tr>
+<tr class="odd">
+<td>Monitoramento de vírus respiratórios</td>
+<td>SIVEP-Gripe</td>
+<td>Unidade e campos diferem do SINAN</td>
+</tr>
+<tr class="even">
+<td>Agravos com ficha específica de investigação</td>
+<td>SINAN</td>
+<td>Pode exigir acompanhamento ou encerramento</td>
+</tr>
+</tbody>
+</table>
+<p>Quando um agravo aparece em mais de um fluxo de vigilância, escolha o sistema a partir da definição operacional do evento, do território e do período. Misturar bases sem harmonização pode duplicar casos ou comparar eventos diferentes.</p>
+</section>
+<section id="principais-usos-e-indicadores" class="level2" data-number="9.21">
+<h2 data-number="9.21" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">9.21</span> Principais usos e indicadores</h2>
+<p>Os dados do SINAN são usados em indicadores de vigilância, incidência, oportunidade, encerramento, letalidade, positividade, perfil dos casos e monitoramento de surtos.</p>
+<table class="caption-top table">
+<caption>Exemplos de indicadores construídos com dados do SINAN</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador principal</th>
+<th>Denominador ou cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Incidência de agravo confirmado</td>
+<td>Casos confirmados</td>
+<td>População residente</td>
+</tr>
+<tr class="even">
+<td>Taxa de notificação</td>
+<td>Notificações</td>
+<td>População residente ou público-alvo</td>
+</tr>
+<tr class="odd">
+<td>Positividade</td>
+<td>Confirmados entre notificados encerrados</td>
+<td>Separar descartados e inconclusivos</td>
+</tr>
+<tr class="even">
+<td>Proporção de encerramento oportuno</td>
+<td>Casos encerrados no prazo</td>
+<td>Definir prazo por agravo</td>
+</tr>
+<tr class="odd">
+<td>Letalidade</td>
+<td>Óbitos entre casos confirmados</td>
+<td>Confirmar desfecho e vínculo com SIM quando possível</td>
+</tr>
+<tr class="even">
+<td>Proporção de confirmação laboratorial</td>
+<td>Confirmados por critério laboratorial</td>
+<td>Depende da disponibilidade de testes</td>
+</tr>
+<tr class="odd">
+<td>Tempo sintomas-notificação</td>
+<td>Diferença entre datas</td>
+<td>Avaliar datas inconsistentes</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limitações" class="level2" data-number="9.22">
+<h2 data-number="9.22" class="anchored" data-anchor-id="limitações"><span class="header-section-number">9.22</span> Limitações</h2>
+<p>O SINAN é essencial para vigilância, mas seus dados refletem o funcionamento da rede de notificação e investigação. Isso deve ser explicitado na interpretação.</p>
+<table class="caption-top table">
+<caption>Limitações recorrentes do SINAN</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Subnotificação</td>
+<td>Incidência observada pode ser menor que a real</td>
+</tr>
+<tr class="even">
+<td>Atraso de notificação</td>
+<td>Bases recentes podem estar incompletas</td>
+</tr>
+<tr class="odd">
+<td>Atraso de encerramento</td>
+<td>Classificação final pode mudar após extração</td>
+</tr>
+<tr class="even">
+<td>Mudança de definição de caso</td>
+<td>Séries históricas podem ter quebras</td>
+</tr>
+<tr class="odd">
+<td>Diferenças entre agravos</td>
+<td>Campos e fluxos não são diretamente comparáveis</td>
+</tr>
+<tr class="even">
+<td>Duplicidades</td>
+<td>Uma pessoa ou episódio pode aparecer mais de uma vez</td>
+</tr>
+<tr class="odd">
+<td>Mudança de sistema</td>
+<td>Transição para e-SUS SINAN pode alterar estrutura e oportunidade</td>
+</tr>
+<tr class="even">
+<td>Qualidade variável de campos</td>
+<td>Raça/cor, escolaridade, local provável de infecção e evolução podem ter incompletude</td>
+</tr>
+</tbody>
+</table>
+<p>Essas limitações não reduzem a importância do SINAN. Elas indicam que o sistema deve ser analisado como parte de um processo de vigilância, em que suspeita, investigação, confirmação, oportunidade e resposta são tão importantes quanto o número final de casos.</p>
+<section id="limitações-por-uso" class="level3" data-number="9.22.1">
+<h3 data-number="9.22.1" class="anchored" data-anchor-id="limitações-por-uso"><span class="header-section-number">9.22.1</span> Limitações por uso</h3>
+<table class="caption-top table">
+<caption>Limitações do SINAN por tipo de uso analítico</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Uso</th>
+<th>Principal risco</th>
+<th>Mitigação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monitoramento oportuno</td>
+<td>Atraso de notificação e digitação</td>
+<td>Usar curvas por data de sintomas e considerar nowcasting</td>
+</tr>
+<tr class="even">
+<td>Estimativa de incidência</td>
+<td>Subnotificação e mudança de sensibilidade</td>
+<td>Discutir cobertura da vigilância e comparar períodos com cautela</td>
+</tr>
+<tr class="odd">
+<td>Detecção de surtos</td>
+<td>Aumento pode refletir busca ativa ou mudança de definição</td>
+<td>Integrar investigação local e dados laboratoriais</td>
+</tr>
+<tr class="even">
+<td>Avaliação de letalidade</td>
+<td>Óbitos podem estar incompletos no SINAN</td>
+<td>Relacionar com SIM quando possível</td>
+</tr>
+<tr class="odd">
+<td>Análise territorial</td>
+<td>Residência e provável infecção respondem perguntas diferentes</td>
+<td>Declarar o território usado</td>
+</tr>
+<tr class="even">
+<td>Relacionamento individual</td>
+<td>Identificadores públicos podem ser insuficientes</td>
+<td>Explicitar limitações de pareamento</td>
+</tr>
+<tr class="odd">
+<td>Divulgação pública recente</td>
+<td>Dados podem mudar após encerramento</td>
+<td>Informar data de extração e status da base</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="9.23">
+<h2 data-number="9.23" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">9.23</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o SINAN, alguns cuidados são recorrentes:</p>
+<ul>
+<li>distinguir notificação, caso suspeito, caso confirmado, caso descartado e caso encerrado;</li>
+<li>usar a definição de caso vigente no período analisado;</li>
+<li>documentar agravo, ficha, versão do layout e forma de acesso;</li>
+<li>separar data de sintomas, data de notificação, data de digitação e data de encerramento;</li>
+<li>escolher residência, provável infecção ou notificação conforme a pergunta;</li>
+<li>avaliar duplicidades e reinfecções quando a análise for individual;</li>
+<li>considerar atraso de notificação e encerramento em bases recentes;</li>
+<li>verificar completitude e consistência de campos essenciais.</li>
+</ul>
+<table class="caption-top table">
+<caption>Erros frequentes em análises do SINAN</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Contar notificações como casos confirmados</td>
+<td>Filtrar classificação final</td>
+</tr>
+<tr class="even">
+<td>Comparar agravos sem considerar fichas diferentes</td>
+<td>Usar dicionários específicos</td>
+</tr>
+<tr class="odd">
+<td>Misturar datas</td>
+<td>Declarar a data usada no indicador</td>
+</tr>
+<tr class="even">
+<td>Usar residência para transmissão local sem avaliar provável infecção</td>
+<td>Analisar autoctonia quando o agravo exigir</td>
+</tr>
+<tr class="odd">
+<td>Ignorar registros descartados</td>
+<td>Usá-los para positividade e qualidade da vigilância</td>
+</tr>
+<tr class="even">
+<td>Comparar bases recentes e consolidadas diretamente</td>
+<td>Considerar atraso e atualização</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="checklist-final" class="level2" data-number="9.24">
+<h2 data-number="9.24" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">9.24</span> Checklist final</h2>
+<p>Antes de concluir uma análise com SINAN, verifique se:</p>
+<ul>
+<li>o agravo, a ficha e a forma de acesso foram documentados;</li>
+<li>a unidade de análise foi explicitada;</li>
+<li>a classificação final usada no numerador foi definida;</li>
+<li>suspeitos, confirmados, descartados e inconclusivos foram separados;</li>
+<li>datas e territórios foram escolhidos conforme a pergunta;</li>
+<li>duplicidades e reinfecções foram avaliadas quando necessário;</li>
+<li>a completitude dos campos principais foi descrita;</li>
+<li>atrasos de notificação, digitação e encerramento foram considerados;</li>
+<li>mudanças de definição de caso ou sistema foram verificadas;</li>
+<li>os resultados foram interpretados como dados de vigilância, não como ocorrência total sem subnotificação.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="9.25">
+<h2 data-number="9.25" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">9.25</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="9.25.1">
+<h3 data-number="9.25.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">9.25.1</span> Documentos auxiliares</h3>
 <ul>
 <li><a href="assets/sinan/manual_sinan.pdf">Manual do Sistema</a></li>
 <li><a href="assets/sinan/manual_normas_rotinas_2ed.pdf">Manual de Normas e Rotinas</a></li>
 </ul>
 </section>
-<section id="videos" class="level3" data-number="9.5.2">
-<h3 data-number="9.5.2" class="anchored" data-anchor-id="videos"><span class="header-section-number">9.5.2</span> Videos</h3>
+<section id="videos" class="level3" data-number="9.25.2">
+<h3 data-number="9.25.2" class="anchored" data-anchor-id="videos"><span class="header-section-number">9.25.2</span> Videos</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/czwBtHR8g7c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
-<div id="ref-msPortaria4202022" class="csl-entry" role="listitem">
-BRASIL, M. DA S. Portaria <span>GM/MS</span> nº 420, de 2 de março de 2022. <strong>Diário Oficial da União</strong>, b2022.
-</div>
-<div id="ref-msPortaria33282022" class="csl-entry" role="listitem">
-BRASIL, M. DA S. Portaria <span>GM/MS</span> nº 3.328, de 22 de agosto de 2022. <strong>Diário Oficial da União</strong>, a2022.
-</div>
 <div id="ref-ministeriodasaudeGuiaVigilanciaEm2024" class="csl-entry" role="listitem">
 BRASIL, M. DA S. <strong>Guia de <span>Vigil<span>â</span>ncia</span> Em <span>Sa<span>ú</span>de</span>, Volume 2</strong>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2024a. v. 2
 </div>
@@ -1597,6 +2854,12 @@ BRASIL, M. DA S. <strong>Guia de <span>Vigil<span>â</span>ncia</span> Em <span>
 </div>
 <div id="ref-caetanoSistemaInformacaoAgravos2009" class="csl-entry" role="listitem">
 CAETANO, R. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> de <span>Agravos</span> de <span>Notifica<span>ç</span><span>ã</span>o</span> (<span>Sinan</span>). Em: MINISTÉRIO DA SAÚDE (Ed.). <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+</div>
+<div id="ref-pedrosoDataSciencePlatform2023" class="csl-entry" role="listitem">
+<span class="nocase">PEDROSO, M. et al.</span> <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
+</div>
+<div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 </div>
 </section>

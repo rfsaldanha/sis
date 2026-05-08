@@ -26,6 +26,9 @@ project:
     - podcast/sia.mp3
     - podcast/sia.md
     - podcast/sia_transcript.json
+    - podcast/sinan.mp3
+    - podcast/sinan.md
+    - podcast/sinan_transcript.json
     - podcast/sync-transcript.js
 
 execute:

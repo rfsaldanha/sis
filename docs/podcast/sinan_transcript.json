@@ -1,0 +1,583 @@
+[
+{
+  "start": 0,
+  "end": 7.755,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre o SINAN, o Sistema de Informação de Agravos de Notificação."
+}
+,
+{
+  "start": 8.105,
+  "end": 13.585,
+  "speaker": "ESTUDANTE",
+  "text": "O SINAN é um dos sistemas mais importantes para vigilância epidemiológica, certo?"
+}
+,
+{
+  "start": 13.935,
+  "end": 27.263,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde."
+}
+,
+{
+  "start": 27.613,
+  "end": 32.768,
+  "speaker": "ESTUDANTE",
+  "text": "Mas o capítulo começa com um alerta: o SINAN não registra apenas casos confirmados."
+}
+,
+{
+  "start": 33.118,
+  "end": 55.131,
+  "speaker": "APRESENTADORA",
+  "text": "Esse é o ponto central. Em muitos agravos, a entrada no sistema ocorre a partir de uma suspeita. Depois, com investigação, exames e critérios clínico-epidemiológicos, o caso pode ser confirmado, descartado, ficar inconclusivo ou ainda permanecer em investigação."
+}
+,
+{
+  "start": 55.481,
+  "end": 60.729,
+  "speaker": "ESTUDANTE",
+  "text": "Então contar registros no SINAN não é necessariamente contar casos confirmados."
+}
+,
+{
+  "start": 61.079,
+  "end": 73.200,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Toda análise precisa declarar se está contando notificações, casos confirmados, casos prováveis, casos descartados ou registros em acompanhamento."
+}
+,
+{
+  "start": 73.550,
+  "end": 74.943,
+  "speaker": "ESTUDANTE",
+  "text": "Quando devo usar o SINAN?"
+}
+,
+{
+  "start": 75.293,
+  "end": 95.169,
+  "speaker": "APRESENTADORA",
+  "text": "Use o SINAN quando a pergunta envolve doenças e agravos de notificação compulsória, vigilância epidemiológica, surtos, investigação de casos, confirmação ou descarte, encerramento, oportunidade da notificação ou perfil de casos notificados."
+}
+,
+{
+  "start": 95.519,
+  "end": 98.073,
+  "speaker": "ESTUDANTE",
+  "text": "E ele pode ser combinado com outras fontes."
+}
+,
+{
+  "start": 98.423,
+  "end": 117.510,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Para taxas, costuma ser combinado com população residente. Para mortalidade, pode ser combinado com o SIM. Para internações, com o SIH. Para dados ambientais, vetoriais ou territoriais, depende do agravo e da pergunta."
+}
+,
+{
+  "start": 117.860,
+  "end": 120.089,
+  "speaker": "ESTUDANTE",
+  "text": "Como o SINAN se organiza historicamente?"
+}
+,
+{
+  "start": 120.439,
+  "end": 137.900,
+  "speaker": "APRESENTADORA",
+  "text": "A implantação começou em 1993, de forma gradual. A regulamentação do funcionamento ocorreu em 1998, tornando obrigatória a alimentação regular da base nacional por municípios, estados e Distrito Federal."
+}
+,
+{
+  "start": 138.250,
+  "end": 141.733,
+  "speaker": "ESTUDANTE",
+  "text": "A lista de notificação compulsória muda ao longo do tempo."
+}
+,
+{
+  "start": 142.083,
+  "end": 161.123,
+  "speaker": "APRESENTADORA",
+  "text": "Muda. A lista nacional é atualizada conforme o cenário epidemiológico, risco de surto ou epidemia, magnitude, gravidade, transcendência e vulnerabilidade. Estados e municípios também podem incluir agravos de interesse local."
+}
+,
+{
+  "start": 161.473,
+  "end": 166.071,
+  "speaker": "ESTUDANTE",
+  "text": "Então uma série histórica pode mudar porque a lista ou a definição mudou."
+}
+,
+{
+  "start": 166.421,
+  "end": 178.774,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Mudanças na lista, na ficha, na definição de caso, na disponibilidade de testes ou no fluxo do sistema podem alterar a série temporal."
+}
+,
+{
+  "start": 179.124,
+  "end": 181.121,
+  "speaker": "ESTUDANTE",
+  "text": "Como é o fluxo da notificação?"
+}
+,
+{
+  "start": 181.471,
+  "end": 202.694,
+  "speaker": "APRESENTADORA",
+  "text": "Em geral, começa com um caso suspeito ou confirmado em uma unidade notificadora. A notificação segue para a vigilância municipal, depois estadual e federal. Dependendo do agravo, há investigação, exames, classificação final, evolução e encerramento."
+}
+,
+{
+  "start": 203.044,
+  "end": 204.577,
+  "speaker": "ESTUDANTE",
+  "text": "Então a base é dinâmica."
+}
+,
+{
+  "start": 204.927,
+  "end": 216.258,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Uma extração pode conter notificações recentes sem encerramento, registros antigos corrigidos ou casos descartados depois da investigação."
+}
+,
+{
+  "start": 216.608,
+  "end": 221.391,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo menciona SINAN NET, SINAN Online e e-SUS SINAN."
+}
+,
+{
+  "start": 221.741,
+  "end": 242.918,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. O SINAN NET é usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos."
+}
+,
+{
+  "start": 243.268,
+  "end": 245.776,
+  "speaker": "ESTUDANTE",
+  "text": "Essa transição pode afetar os dados."
+}
+,
+{
+  "start": 246.126,
+  "end": 263.866,
+  "speaker": "APRESENTADORA",
+  "text": "Pode. Mudanças de módulo, formulário, periodicidade e forma de disseminação podem mudar campos, layouts e fluxos operacionais. A análise precisa identificar de onde veio a base e qual dicionário foi usado."
+}
+,
+{
+  "start": 264.216,
+  "end": 266.352,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar das definições de caso."
+}
+,
+{
+  "start": 266.702,
+  "end": 295.263,
+  "speaker": "APRESENTADORA",
+  "text": "Cada agravo tem sua própria definição. Um caso suspeito atende a critérios iniciais de suspeição. Um caso confirmado atende à definição de confirmação, que pode ser laboratorial, clínico-epidemiológica ou outro critério. Um caso descartado foi investigado e não atendeu à definição. Um inconclusivo não teve elementos suficientes para confirmar ou descartar."
+}
+,
+{
+  "start": 295.613,
+  "end": 299.421,
+  "speaker": "ESTUDANTE",
+  "text": "E o critério clínico-epidemiológico aparece bastante em surtos."
+}
+,
+{
+  "start": 299.771,
+  "end": 314.725,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Em situações de surto ou epidemia, quando há limitação de exames, um caso pode ser confirmado por quadro clínico e vínculo epidemiológico com outros casos ou com um território de transmissão."
+}
+,
+{
+  "start": 315.075,
+  "end": 320.091,
+  "speaker": "ESTUDANTE",
+  "text": "Então eu não posso reutilizar automaticamente códigos de um agravo em outro."
+}
+,
+{
+  "start": 320.441,
+  "end": 335.859,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Campos como classificação final, critério de confirmação e evolução dependem do dicionário específico do agravo. O mesmo nome de campo pode ter códigos ou sentidos diferentes."
+}
+,
+{
+  "start": 336.209,
+  "end": 338.345,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a unidade de análise do SINAN?"
+}
+,
+{
+  "start": 338.695,
+  "end": 353.231,
+  "speaker": "APRESENTADORA",
+  "text": "Depende da pergunta e do agravo. Uma linha pode representar uma notificação ou investigação, mas o analista pode querer contar casos confirmados, pessoas, episódios, surtos ou acompanhamentos."
+}
+,
+{
+  "start": 353.581,
+  "end": 355.949,
+  "speaker": "ESTUDANTE",
+  "text": "Então a unidade pode mudar bastante."
+}
+,
+{
+  "start": 356.299,
+  "end": 378.637,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Para monitoramento oportuno, a notificação pode ser a unidade. Para incidência, geralmente interessam casos confirmados. Para tuberculose, hanseníase ou agravos crônicos, acompanhamento e encerramento podem ser centrais. Para surtos, a unidade pode ser o evento coletivo."
+}
+,
+{
+  "start": 378.987,
+  "end": 381.448,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala muito de datas."
+}
+,
+{
+  "start": 381.798,
+  "end": 399.910,
+  "speaker": "APRESENTADORA",
+  "text": "Com razão. O SINAN pode ter data de primeiros sintomas, data provável de infecção, data de notificação, data de digitação, datas de exames, data de classificação final, data de encerramento e data de evolução."
+}
+,
+{
+  "start": 400.260,
+  "end": 401.328,
+  "speaker": "ESTUDANTE",
+  "text": "Qual data usar?"
+}
+,
+{
+  "start": 401.678,
+  "end": 422.901,
+  "speaker": "APRESENTADORA",
+  "text": "Depende do objetivo. Para curva epidêmica, muitas vezes usamos data de início de sintomas. Para oportunidade da vigilância, comparamos sintomas, notificação, digitação e encerramento. Para monitoramento operacional, a data de notificação pode ser mais importante."
+}
+,
+{
+  "start": 423.251,
+  "end": 426.270,
+  "speaker": "ESTUDANTE",
+  "text": "Misturar datas pode distorcer a interpretação."
+}
+,
+{
+  "start": 426.620,
+  "end": 434.422,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Uma curva por data de notificação não descreve a mesma coisa que uma curva por início de sintomas."
+}
+,
+{
+  "start": 434.772,
+  "end": 437.512,
+  "speaker": "ESTUDANTE",
+  "text": "E os territórios também têm sentidos diferentes."
+}
+,
+{
+  "start": 437.862,
+  "end": 453.419,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Município de residência indica onde vive a pessoa notificada. Município de provável infecção tenta indicar onde ocorreu a exposição. Município de notificação mostra onde o sistema foi acionado."
+}
+,
+{
+  "start": 453.769,
+  "end": 457.298,
+  "speaker": "ESTUDANTE",
+  "text": "Para taxa populacional, em geral usamos residência."
+}
+,
+{
+  "start": 457.648,
+  "end": 472.323,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Para investigação de transmissão, pode ser mais adequado usar local provável de infecção. Para gestão de serviços e fluxo de notificação, o município ou unidade notificadora pode ser o foco."
+}
+,
+{
+  "start": 472.673,
+  "end": 476.156,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo menciona casos autóctones e alóctones."
+}
+,
+{
+  "start": 476.506,
+  "end": 493.410,
+  "speaker": "APRESENTADORA",
+  "text": "Quando o provável local de infecção coincide com a residência, o caso pode ser classificado como autóctone. Quando a infecção provavelmente ocorreu fora do território de residência, pode ser alóctone. Isso é importante para vigilância territorial."
+}
+,
+{
+  "start": 493.760,
+  "end": 496.175,
+  "speaker": "ESTUDANTE",
+  "text": "Quais campos são comuns em bases do SINAN?"
+}
+,
+{
+  "start": 496.525,
+  "end": 519.838,
+  "speaker": "APRESENTADORA",
+  "text": "Datas de notificação e sintomas, semana epidemiológica, município de notificação, município de residência, classificação final, critério, evolução, data de encerramento e campos laboratoriais. Mas os nomes e códigos variam conforme agravo, ficha e forma de acesso."
+}
+,
+{
+  "start": 520.188,
+  "end": 523.532,
+  "speaker": "ESTUDANTE",
+  "text": "Então sempre preciso consultar o dicionário específico."
+}
+,
+{
+  "start": 523.882,
+  "end": 530.523,
+  "speaker": "APRESENTADORA",
+  "text": "Sempre. Automatizar sem conferir o dicionário é uma fonte clássica de erro no SINAN."
+}
+,
+{
+  "start": 530.873,
+  "end": 532.963,
+  "speaker": "ESTUDANTE",
+  "text": "Como avaliar qualidade dos dados?"
+}
+,
+{
+  "start": 533.313,
+  "end": 550.682,
+  "speaker": "APRESENTADORA",
+  "text": "Por completitude, consistência, duplicidade, oportunidade, encerramento, definição de caso e sensibilidade da vigilância. A avaliação deve ser feita por agravo, período, território e variável."
+}
+,
+{
+  "start": 551.032,
+  "end": 553.586,
+  "speaker": "ESTUDANTE",
+  "text": "Sensibilidade da vigilância quer dizer o quê?"
+}
+,
+{
+  "start": 553.936,
+  "end": 569.493,
+  "speaker": "APRESENTADORA",
+  "text": "Quer dizer que aumento de notificações pode refletir aumento real de transmissão, mas também busca ativa, mudança de fluxo, maior disponibilidade de testes ou alteração na suspeição clínica."
+}
+,
+{
+  "start": 569.843,
+  "end": 572.490,
+  "speaker": "ESTUDANTE",
+  "text": "Oportunidade parece um conceito importante."
+}
+,
+{
+  "start": 572.840,
+  "end": 594.156,
+  "speaker": "APRESENTADORA",
+  "text": "É. Oportunidade mede o tempo entre etapas da vigilância: sintomas até notificação, notificação até digitação, notificação até encerramento, sintomas até coleta e coleta até resultado. Esses intervalos ajudam a avaliar se a resposta é rápida o suficiente."
+}
+,
+{
+  "start": 594.506,
+  "end": 598.918,
+  "speaker": "ESTUDANTE",
+  "text": "Mas antes de calcular intervalos, é preciso limpar datas impossíveis."
+}
+,
+{
+  "start": 599.268,
+  "end": 611.249,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Datas de notificação anteriores aos sintomas, encerramento anterior à notificação ou idades incompatíveis precisam ser avaliadas antes da análise."
+}
+,
+{
+  "start": 611.599,
+  "end": 612.899,
+  "speaker": "ESTUDANTE",
+  "text": "E as duplicidades?"
+}
+,
+{
+  "start": 613.249,
+  "end": 627.227,
+  "speaker": "APRESENTADORA",
+  "text": "Podem surgir por erro de digitação, notificação em mais de um serviço, transferência de investigação, reinfecção ou recorrência. A regra de deduplicação deve ser definida por agravo."
+}
+,
+{
+  "start": 627.577,
+  "end": 630.967,
+  "speaker": "ESTUDANTE",
+  "text": "Em bases públicas, nem sempre dá para deduplicar pessoas."
+}
+,
+{
+  "start": 631.317,
+  "end": 649.382,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Sem identificadores nominais, a deduplicação individual pode ser limitada. Nesses casos, o método precisa documentar que o indicador conta registros, notificações ou casos filtrados, não necessariamente pessoas únicas."
+}
+,
+{
+  "start": 649.732,
+  "end": 651.961,
+  "speaker": "ESTUDANTE",
+  "text": "O exemplo do capítulo é dengue."
+}
+,
+{
+  "start": 652.311,
+  "end": 670.237,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Dengue é um exemplo clássico porque combina notificação de suspeitos, investigação, confirmação ou descarte, classificação clínica, evolução, local provável de infecção e atraso entre ocorrência e registro."
+}
+,
+{
+  "start": 670.587,
+  "end": 676.671,
+  "speaker": "ESTUDANTE",
+  "text": "Para dengue, o numerador deve ser casos confirmados ou prováveis, conforme definição vigente."
+}
+,
+{
+  "start": 677.021,
+  "end": 697.315,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Também é preciso escolher semana de início de sintomas ou outra data compatível, usar território adequado, considerar gravidade e lembrar que bases recentes podem estar incompletas por atraso de notificação, investigação e encerramento."
+}
+,
+{
+  "start": 697.665,
+  "end": 700.359,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala de arboviroses."
+}
+,
+{
+  "start": 700.709,
+  "end": 719.703,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Dengue, chikungunya, zika, febre amarela e Oropouche compartilham desafios como sazonalidade, atraso, mudanças na testagem, confirmação clínico-epidemiológica e sobreposição territorial."
+}
+,
+{
+  "start": 720.053,
+  "end": 723.954,
+  "speaker": "ESTUDANTE",
+  "text": "Então não é bom somar arboviroses sem harmonizar as definições."
+}
+,
+{
+  "start": 724.304,
+  "end": 738.236,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Antes de comparar ou somar agravos, harmonize definição de caso, período, critério de confirmação, residência e local provável de infecção."
+}
+,
+{
+  "start": 738.586,
+  "end": 741.001,
+  "speaker": "ESTUDANTE",
+  "text": "O SINAN cobre muitos tipos de agravos."
+}
+,
+{
+  "start": 741.351,
+  "end": 764.107,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Arboviroses e zoonoses, imunopreveníveis, doenças transmissíveis, saúde do trabalhador, violências, intoxicações, eventos adversos, surtos e outros eventos específicos. Por isso o capítulo organiza agravos por área de vigilância e prefixos."
+}
+,
+{
+  "start": 764.457,
+  "end": 768.358,
+  "speaker": "ESTUDANTE",
+  "text": "Isso ajuda a localizar fichas, instrucionais e dicionários."
+}
+,
+{
+  "start": 768.708,
+  "end": 780.504,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. No SINAN, a documentação por agravo é parte do método. Ela orienta campos, códigos, classificação final, critérios e regras de encerramento."
+}
+,
+{
+  "start": 780.854,
+  "end": 783.130,
+  "speaker": "ESTUDANTE",
+  "text": "Como os dados podem ser acessados?"
+}
+,
+{
+  "start": 783.480,
+  "end": 801.452,
+  "speaker": "APRESENTADORA",
+  "text": "Depende do agravo. Há bases em SINAN NET, SINAN Online, e-SUS SINAN, OpenDataSUS e outros fluxos de disseminação. A disponibilidade, a periodicidade e os campos podem variar bastante."
+}
+,
+{
+  "start": 801.802,
+  "end": 804.867,
+  "speaker": "ESTUDANTE",
+  "text": "Então a forma de acesso também precisa ser descrita."
+}
+,
+{
+  "start": 805.217,
+  "end": 819.103,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. A análise deve registrar origem da base, data de extração, período, agravo, dicionário, filtros, definição de caso e tratamento de duplicidades."
+}
+,
+{
+  "start": 819.453,
+  "end": 821.264,
+  "speaker": "ESTUDANTE",
+  "text": "Quais são os erros mais comuns?"
+}
+,
+{
+  "start": 821.614,
+  "end": 842.558,
+  "speaker": "APRESENTADORA",
+  "text": "Contar notificações como se fossem casos confirmados, usar classificação final sem consultar o dicionário do agravo, misturar datas de sintomas e notificação, usar residência quando a pergunta é transmissão local, ignorar atrasos de encerramento e não tratar duplicidades."
+}
+,
+{
+  "start": 842.908,
+  "end": 845.880,
+  "speaker": "ESTUDANTE",
+  "text": "Para fechar, qual é a mensagem central do capítulo?"
+}
+,
+{
+  "start": 846.230,
+  "end": 877.113,
+  "speaker": "APRESENTADORA",
+  "text": "O SINAN é uma fonte fundamental para vigilância epidemiológica no Brasil, mas precisa ser analisado como uma base dinâmica de notificação, investigação e acompanhamento. Bons indicadores dependem de declarar a unidade de análise, aplicar a definição de caso correta, escolher datas e territórios compatíveis e avaliar qualidade, oportunidade, encerramento e duplicidades."
+}
+
+]
