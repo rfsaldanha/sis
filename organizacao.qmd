@@ -66,7 +66,7 @@ flowchart TD
   Assist --> SIA[SIA]
   Gestao --> CNES[CNES]
   Gestao --> SIOPS[SIOPS]
-  Gestao --> SISAB[SISAB]
+  Gestao --> SISAPS[SISAB/SISAPS]
   Imun --> SIPNI[SI-PNI]
   Supl --> ANS[ANS]
 ```
@@ -120,13 +120,13 @@ O Cadastro Nacional de Estabelecimentos de Saúde (CNES) (@sec-cnes) descreve es
 
 O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) (@sec-siops) registra informações orçamentárias e financeiras, permitindo acompanhar receitas, despesas e cumprimento de regras de aplicação de recursos em saúde.
 
-O Sistema de Informação em Saúde para a Atenção Básica (SISAB) (@sec-sisab) organiza informações da Atenção Básica, incluindo equipes, produção e indicadores relacionados à estratégia e-SUS Atenção Básica.
+O Sistema de Informação da Atenção Primária à Saúde (SISAPS/Siaps) (@sec-sisab), em transição a partir do SISAB, organiza informações da APS, incluindo equipes, vínculo territorial, produção e indicadores relacionados à estratégia e-SUS APS.
 
 | Sistema | Tipo de informação | Uso frequente |
 |---|---|---|
 | CNES (@sec-cnes) | Estabelecimentos, profissionais, equipamentos e serviços | Análise da oferta e da estrutura da rede de saúde |
 | SIOPS (@sec-siops) | Orçamentos, receitas e despesas em saúde | Monitoramento do financiamento público da saúde |
-| SISAB (@sec-sisab) | Produção e indicadores da Atenção Básica | Gestão, monitoramento e avaliação da Atenção Básica |
+| SISAB/SISAPS (@sec-sisab) | Produção, vínculo territorial e indicadores da APS | Gestão, monitoramento, cofinanciamento e avaliação da APS |
 
 ## Sistemas de imunização
 
@@ -138,7 +138,7 @@ Historicamente, a vacinação foi acompanhada por dados agregados e instrumentos
 
 Um ponto central na organização dos SIS é a cobertura. Alguns sistemas buscam registrar eventos ocorridos em todo o território nacional, independentemente de terem acontecido em serviços públicos, privados, filantrópicos ou suplementares. É o caso de SIM (@sec-sim), SINASC (@sec-sinasc), SINAN (@sec-sinan), CNES (@sec-cnes) e SISAGUA (@sec-sisagua), ainda que cada um tenha suas próprias regras e limitações de cobertura.
 
-Outros sistemas registram principalmente eventos ou produção vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB (@sec-sisab) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
+Outros sistemas registram principalmente eventos, produção ou gestão vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB/SISAPS (@sec-sisab) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
 
 ::::: {.callout}
 O Sistema Único de Saúde (SUS) organiza ações e serviços de saúde no Brasil e envolve responsabilidades públicas de gestão, financiamento, regulação e prestação de serviços. Na prática, a rede utilizada pelo SUS pode incluir estabelecimentos públicos, filantrópicos e privados conveniados.

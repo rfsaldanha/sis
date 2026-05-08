@@ -1,0 +1,2495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
+
+<title>13&nbsp; SISAPS - Sistema de Informação da Atenção Primária à Saúde – Sistemas de Informação em Saúde no Brasil</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./sipni.html" rel="next">
+<link href="./siops.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2M7VLSRDCB"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
+</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sisaps.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAPS - Sistema de Informação da Atenção Primária à Saúde</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Sistemas de Informação em Saúde no Brasil</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informação-em-Saúde-no-Brasil.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Sistemas-de-Informação-em-Saúde-no-Brasil.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bem-vindo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introducao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./historico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Breve histórico da experiência brasileira</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./organizacao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Organização dos SIS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eventos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Eventos de saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sim.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIM – Sistema de Informação sobre Mortalidade</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sinasc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SINASC – Sistema de Informação sobre Nascidos Vivos</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sih.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">SIH – Sistema de Informações Hospitalares do SUS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais do SUS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sinan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SINAN – Sistema de Informação de Agravos de Notificação</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cnes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sisagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./siops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sisaps.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAPS - Sistema de Informação da Atenção Primária à Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sipni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referências</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apêndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quadro_resumo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Quadro resumo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">CID – Classificação Internacional de Doenças</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./codmun.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Códigos dos municípios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Estimativas populacionais</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sivep.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sisvan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">SISVAN – Sistema de Vigilância Alimentar e Nutricional</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ans.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Agência Nacional de Saúde Suplementar - ANS</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+   
+  <ul>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">13.1</span> Resumo</a></li>
+  <li><a href="#quando-usar-o-sisaps" id="toc-quando-usar-o-sisaps" class="nav-link" data-scroll-target="#quando-usar-o-sisaps"><span class="header-section-number">13.2</span> Quando usar o SISAPS</a></li>
+  <li><a href="#histórico-e-transição" id="toc-histórico-e-transição" class="nav-link" data-scroll-target="#histórico-e-transição"><span class="header-section-number">13.3</span> Histórico e transição</a></li>
+  <li><a href="#arquitetura-da-informação" id="toc-arquitetura-da-informação" class="nav-link" data-scroll-target="#arquitetura-da-informação"><span class="header-section-number">13.4</span> Arquitetura da informação</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">13.5</span> Unidade de análise</a></li>
+  <li><a href="#identificadores-de-equipe" id="toc-identificadores-de-equipe" class="nav-link" data-scroll-target="#identificadores-de-equipe"><span class="header-section-number">13.6</span> Identificadores de equipe</a></li>
+  <li><a href="#estrutura-dos-dados-e-relatórios" id="toc-estrutura-dos-dados-e-relatórios" class="nav-link" data-scroll-target="#estrutura-dos-dados-e-relatórios"><span class="header-section-number">13.7</span> Estrutura dos dados e relatórios</a>
+  <ul class="collapse">
+  <li><a href="#campos-e-dimensões-mínimas" id="toc-campos-e-dimensões-mínimas" class="nav-link" data-scroll-target="#campos-e-dimensões-mínimas"><span class="header-section-number">13.7.1</span> Campos e dimensões mínimas</a></li>
+  <li><a href="#qual-denominador-usar" id="toc-qual-denominador-usar" class="nav-link" data-scroll-target="#qual-denominador-usar"><span class="header-section-number">13.7.2</span> Qual denominador usar?</a></li>
+  </ul></li>
+  <li><a href="#indicadores-e-cofinanciamento" id="toc-indicadores-e-cofinanciamento" class="nav-link" data-scroll-target="#indicadores-e-cofinanciamento"><span class="header-section-number">13.8</span> Indicadores e cofinanciamento</a></li>
+  <li><a href="#vínculo-territorial" id="toc-vínculo-territorial" class="nav-link" data-scroll-target="#vínculo-territorial"><span class="header-section-number">13.9</span> Vínculo territorial</a></li>
+  <li><a href="#calendário-de-envio" id="toc-calendário-de-envio" class="nav-link" data-scroll-target="#calendário-de-envio"><span class="header-section-number">13.10</span> Calendário de envio</a></li>
+  <li><a href="#exemplo-pré-natal-na-aps" id="toc-exemplo-pré-natal-na-aps" class="nav-link" data-scroll-target="#exemplo-pré-natal-na-aps"><span class="header-section-number">13.11</span> Exemplo: pré-natal na APS</a></li>
+  <li><a href="#exemplo-sisaps-sinasc" id="toc-exemplo-sisaps-sinasc" class="nav-link" data-scroll-target="#exemplo-sisaps-sinasc"><span class="header-section-number">13.12</span> Exemplo: SISAPS + SINASC</a></li>
+  <li><a href="#exemplo-produção-da-aps" id="toc-exemplo-produção-da-aps" class="nav-link" data-scroll-target="#exemplo-produção-da-aps"><span class="header-section-number">13.13</span> Exemplo: produção da APS</a></li>
+  <li><a href="#exemplo-sisaps-cnes" id="toc-exemplo-sisaps-cnes" class="nav-link" data-scroll-target="#exemplo-sisaps-cnes"><span class="header-section-number">13.14</span> Exemplo: SISAPS + CNES</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">13.15</span> Qualidade dos dados</a></li>
+  <li><a href="#privacidade-e-agregação" id="toc-privacidade-e-agregação" class="nav-link" data-scroll-target="#privacidade-e-agregação"><span class="header-section-number">13.16</span> Privacidade e agregação</a></li>
+  <li><a href="#análise-temporal-e-territorial" id="toc-análise-temporal-e-territorial" class="nav-link" data-scroll-target="#análise-temporal-e-territorial"><span class="header-section-number">13.17</span> Análise temporal e territorial</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">13.18</span> Acesso aos dados</a></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">13.19</span> Relacionamento com outros sistemas</a>
+  <ul class="collapse">
+  <li><a href="#checklist-para-integração" id="toc-checklist-para-integração" class="nav-link" data-scroll-target="#checklist-para-integração"><span class="header-section-number">13.19.1</span> Checklist para integração</a></li>
+  </ul></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">13.20</span> Limitações</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">13.21</span> Cuidados de interpretação</a></li>
+  <li><a href="#checklist-de-reprodutibilidade" id="toc-checklist-de-reprodutibilidade" class="nav-link" data-scroll-target="#checklist-de-reprodutibilidade"><span class="header-section-number">13.22</span> Checklist de reprodutibilidade</a></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">13.23</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">13.24</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-oficiais" id="toc-documentos-oficiais" class="nav-link" data-scroll-target="#documentos-oficiais"><span class="header-section-number">13.24.1</span> Documentos oficiais</a></li>
+  <li><a href="#artigos" id="toc-artigos" class="nav-link" data-scroll-target="#artigos"><span class="header-section-number">13.24.2</span> Artigos</a></li>
+  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos"><span class="header-section-number">13.24.3</span> Vídeos</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sisaps.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-sisab" class="quarto-section-identifier"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAPS - Sistema de Informação da Atenção Primária à Saúde</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section class="podcast-player" data-transcript="podcast/sisaps_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sisaps.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sisaps.md">podcast/sisaps.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+<section id="resumo" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">13.1</span> Resumo</h2>
+<table class="caption-top table">
+<caption>Características gerais do SISAPS/Siaps e do SISAB</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sistema atual</td>
+<td>SISAPS/Siaps, em implantação progressiva</td>
+</tr>
+<tr class="even">
+<td>Sistema anterior</td>
+<td>SISAB, instituído em 2013</td>
+</tr>
+<tr class="odd">
+<td>Área temática</td>
+<td>Atenção Primária à Saúde (APS)</td>
+</tr>
+<tr class="even">
+<td>Fontes de registro</td>
+<td>Estratégia e-SUS APS, incluindo PEC, CDS e aplicativos</td>
+</tr>
+<tr class="odd">
+<td>Unidade de análise</td>
+<td>Equipe, estabelecimento, município, região de saúde, UF, competência e indicador</td>
+</tr>
+<tr class="even">
+<td>Periodicidade</td>
+<td>Mensal, com prazos de envio definidos em calendário da APS</td>
+</tr>
+<tr class="odd">
+<td>Uso central</td>
+<td>Gestão, monitoramento, cofinanciamento e avaliação da APS</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informação da Atenção Primária à Saúde (SISAPS), apresentado oficialmente como Siaps, renova o Sistema de Informação em Saúde para a Atenção Básica (SISAB) e organiza informações estratégicas da Atenção Primária à Saúde (APS). O capítulo mantém o identificador <code>@sec-sisab</code> para preservar referências internas do livro, mas o foco passa a ser a transição SISAB-SISAPS.</p>
+<p>O SISAPS/Siaps não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, incluindo cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Terminologia.</strong> O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, “Sistema de Informação para a Atenção Primária à Saúde”. Neste livro, o título usa SISAPS para explicitar a sigla solicitada e o escopo temático, mas as referências oficiais podem aparecer como Siaps.</p>
+</div>
+</div>
+</section>
+<section id="quando-usar-o-sisaps" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="quando-usar-o-sisaps"><span class="header-section-number">13.2</span> Quando usar o SISAPS</h2>
+<p>Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com SISAPS/SISAB</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SISAPS/SISAB para</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Como está a produção da APS?</td>
+<td>Consultar atendimentos, procedimentos, visitas e atividades coletivas</td>
+<td>Produção registrada não equivale à necessidade da população</td>
+</tr>
+<tr class="even">
+<td>Como acompanhar indicadores de APS?</td>
+<td>Monitorar indicadores de cofinanciamento e desempenho</td>
+<td>Verificar regras de cálculo e competência</td>
+</tr>
+<tr class="odd">
+<td>Qual é a cobertura cadastral?</td>
+<td>Analisar cadastros e vínculos territoriais</td>
+<td>Cadastro pode estar desatualizado ou duplicado</td>
+</tr>
+<tr class="even">
+<td>Como avaliar equipes?</td>
+<td>Comparar indicadores por equipe, município ou UF</td>
+<td>Equipes têm composição, território e contexto diferentes</td>
+</tr>
+<tr class="odd">
+<td>Como acompanhar pré-natal, vacinas ou condições crônicas na APS?</td>
+<td>Usar relatórios e indicadores específicos</td>
+<td>Eventos podem aparecer também em outros sistemas</td>
+</tr>
+<tr class="even">
+<td>Como relacionar oferta e produção?</td>
+<td>Combinar com CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) e SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Alinhar equipe, estabelecimento, competência e território</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O sistema apoia gestão da APS, mas não substitui prontuário clínico, auditoria de qualidade do cuidado ou inquéritos populacionais. A interpretação deve considerar registro, envio, validação e regras de processamento.</p>
+</div>
+</div>
+</section>
+<section id="histórico-e-transição" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="histórico-e-transição"><span class="header-section-number">13.3</span> Histórico e transição</h2>
+<p>O SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, como sistema oficial da Atenção Básica para fins de financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo Sistema de Informação da Atenção Básica (SIAB) e passou a ser alimentado pela estratégia e-SUS Atenção Primária à Saúde (e-SUS APS).</p>
+<p>A partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde.</p>
+<p>Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o SISAPS/Siaps.</p>
+</section>
+<section id="arquitetura-da-informação" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="arquitetura-da-informação"><span class="header-section-number">13.4</span> Arquitetura da informação</h2>
+<p>O SISAPS/Siaps integra informações oriundas da estratégia e-SUS APS. Os registros são produzidos no processo de trabalho das equipes e depois enviados para consolidação nacional.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-sisaps-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sisaps-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sisaps-fluxo">flowchart TD
+  equipe[Equipe de APS] --&gt; registro[Registro no PEC, CDS ou aplicativo]
+  registro --&gt; esus[e-SUS APS local]
+  esus --&gt; envio[Envio mensal ao repositório nacional]
+  envio --&gt; sisaps[SISAPS/Siaps]
+  sisaps --&gt; rel[Relatórios e indicadores]
+  rel --&gt; gest[Gestão, cofinanciamento e avaliação]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sisaps-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;13.1: Fluxo simplificado de informação da APS
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<table class="caption-top table">
+<caption>Componentes do fluxo informacional da APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Papel</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PEC</td>
+<td>Registro clínico e administrativo no prontuário eletrônico</td>
+<td>Depende de implantação local e uso adequado</td>
+</tr>
+<tr class="even">
+<td>CDS</td>
+<td>Coleta simplificada de dados</td>
+<td>Pode ser usado em cenários com menor informatização</td>
+</tr>
+<tr class="odd">
+<td>Aplicativos</td>
+<td>Registro territorial e atividades específicas</td>
+<td>Conferir integração e competência de envio</td>
+</tr>
+<tr class="even">
+<td>e-SUS APS</td>
+<td>Estratégia de registro e envio da APS</td>
+<td>Atrasos e inconsistências afetam indicadores</td>
+</tr>
+<tr class="odd">
+<td>SISAPS/Siaps</td>
+<td>Consolidação, relatórios e indicadores</td>
+<td>Resultado depende das regras de processamento</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">13.5</span> Unidade de análise</h2>
+<p>A unidade de análise varia conforme o relatório ou indicador. Antes de comparar resultados, defina se a pergunta é sobre pessoas cadastradas, atendimentos, procedimentos, equipes, estabelecimentos, municípios ou indicadores.</p>
+<table class="caption-top table">
+<caption>Unidades de análise frequentes no SISAPS/SISAB</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>O que representa</th>
+<th>Quando usar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pessoa cadastrada</td>
+<td>Usuário vinculado ao território/equipe</td>
+<td>Cobertura cadastral e acompanhamento</td>
+<td>Cadastro não equivale a uso efetivo</td>
+</tr>
+<tr class="even">
+<td>Atendimento</td>
+<td>Contato individual registrado</td>
+<td>Produção assistencial da APS</td>
+<td>Um usuário pode ter vários atendimentos</td>
+</tr>
+<tr class="odd">
+<td>Procedimento</td>
+<td>Ação ou procedimento registrado</td>
+<td>Volume de ações realizadas</td>
+<td>Pode depender de regra local de registro</td>
+</tr>
+<tr class="even">
+<td>Visita domiciliar</td>
+<td>Atividade no domicílio ou território</td>
+<td>Acompanhamento territorial</td>
+<td>Não mede qualidade da visita</td>
+</tr>
+<tr class="odd">
+<td>Atividade coletiva</td>
+<td>Ação coletiva registrada</td>
+<td>Promoção, prevenção e educação em saúde</td>
+<td>Público-alvo e tema devem ser considerados</td>
+</tr>
+<tr class="even">
+<td>Equipe</td>
+<td>eSF, eAP, eSB ou outras equipes</td>
+<td>Monitoramento e cofinanciamento</td>
+<td>Equipes podem mudar composição e credenciamento</td>
+</tr>
+<tr class="odd">
+<td>Município/UF</td>
+<td>Agregação territorial</td>
+<td>Comparações e gestão</td>
+<td>Diferenças de porte e rede afetam interpretação</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não some cadastros, atendimentos, procedimentos e indicadores como se fossem a mesma unidade. Cada relatório responde a uma pergunta diferente.</p>
+</div>
+</div>
+</section>
+<section id="identificadores-de-equipe" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="identificadores-de-equipe"><span class="header-section-number">13.6</span> Identificadores de equipe</h2>
+<p>Análises da APS dependem de identificadores que mudam no tempo. O código CNES identifica o estabelecimento, enquanto o INE identifica a equipe. Uma mesma unidade pode ter várias equipes, e uma equipe pode passar por mudanças de composição, credenciamento, suspensão ou desativação.</p>
+<table class="caption-top table">
+<caption>Identificadores essenciais para análises da APS</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Identificador</th>
+<th>O que representa</th>
+<th>Uso</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CNES</td>
+<td>Estabelecimento de saúde</td>
+<td>Relacionar APS com estrutura da rede</td>
+<td>Unidade pode mudar de tipo, gestão ou vínculo</td>
+</tr>
+<tr class="even">
+<td>INE</td>
+<td>Identificador Nacional de Equipe</td>
+<td>Acompanhar produção, cadastro e indicadores por equipe</td>
+<td>Equipe pode mudar situação, composição ou estabelecimento</td>
+</tr>
+<tr class="odd">
+<td>Tipo de equipe</td>
+<td>eSF, eAP, eSB e outras modalidades</td>
+<td>Estratificar comparações</td>
+<td>Tipos de equipe têm atribuições e parâmetros diferentes</td>
+</tr>
+<tr class="even">
+<td>Competência</td>
+<td>Mês de referência</td>
+<td>Construir séries temporais</td>
+<td>CNES, INE e regras podem mudar entre competências</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Área adscrita, município, região ou UF</td>
+<td>Analisar vínculo e cobertura</td>
+<td>Território de acompanhamento não é sempre território de residência</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>historico_equipes <span class="ot">&lt;-</span> sisaps_equipes <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ine) <span class="sc">|&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">primeira_competencia =</span> <span class="fu">min</span>(competencia, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">ultima_competencia =</span> <span class="fu">max</span>(competencia, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_cnes =</span> <span class="fu">n_distinct</span>(cnes, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">n_tipos =</span> <span class="fu">n_distinct</span>(tipo_equipe, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>historico_equipes</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para comparar equipes, monte primeiro um painel por <code>INE</code>, <code>CNES</code>, tipo de equipe e competência. Isso evita atribuir produção ou indicadores a equipes que mudaram de situação ao longo da série.</p>
+</div>
+</div>
+</section>
+<section id="estrutura-dos-dados-e-relatórios" class="level2" data-number="13.7">
+<h2 data-number="13.7" class="anchored" data-anchor-id="estrutura-dos-dados-e-relatórios"><span class="header-section-number">13.7</span> Estrutura dos dados e relatórios</h2>
+<p>O SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o SISAPS/Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação.</p>
+<table class="caption-top table">
+<caption>Dimensões analíticas comuns na APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Exemplos</th>
+<th>Uso analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cadastro</td>
+<td>Pessoas, domicílios, famílias, vínculo territorial</td>
+<td>Cobertura cadastral e população acompanhada</td>
+</tr>
+<tr class="even">
+<td>Produção</td>
+<td>Atendimentos individuais, odontológicos, procedimentos, visitas</td>
+<td>Volume e perfil de ações da APS</td>
+</tr>
+<tr class="odd">
+<td>Atividades coletivas</td>
+<td>Reuniões, ações educativas, PSE, grupos</td>
+<td>Promoção e prevenção em saúde</td>
+</tr>
+<tr class="even">
+<td>Pré-natal</td>
+<td>Consultas, acompanhamento, exames e indicadores</td>
+<td>Monitoramento do cuidado materno-infantil</td>
+</tr>
+<tr class="odd">
+<td>Vacinas</td>
+<td>Registros enviados pela APS quando aplicável</td>
+<td>Acompanhar registros integrados ao e-SUS APS</td>
+</tr>
+<tr class="even">
+<td>Indicadores</td>
+<td>Cofinanciamento, vínculo e acompanhamento territorial</td>
+<td>Monitoramento e repasses federais</td>
+</tr>
+<tr class="odd">
+<td>Validação</td>
+<td>Inconsistências, processamento e envio</td>
+<td>Qualidade dos dados enviados</td>
+</tr>
+</tbody>
+</table>
+<section id="campos-e-dimensões-mínimas" class="level3" data-number="13.7.1">
+<h3 data-number="13.7.1" class="anchored" data-anchor-id="campos-e-dimensões-mínimas"><span class="header-section-number">13.7.1</span> Campos e dimensões mínimas</h3>
+<table class="caption-top table">
+<caption>Dimensões mínimas para análise de dados da APS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competência</td>
+<td>O mês de registro e envio corresponde ao período analisado?</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>O município, UF, região ou equipe está correto?</td>
+</tr>
+<tr class="odd">
+<td>Tipo de equipe</td>
+<td>A equipe é eSF, eAP, eSB ou outro tipo?</td>
+</tr>
+<tr class="even">
+<td>Identificador de estabelecimento</td>
+<td>O CNES está válido e compatível com a equipe?</td>
+</tr>
+<tr class="odd">
+<td>Indicador</td>
+<td>A regra de cálculo foi documentada?</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População cadastrada, vinculada, estimada ou acompanhada?</td>
+</tr>
+<tr class="odd">
+<td>Status de envio</td>
+<td>O dado foi enviado, processado e validado?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="qual-denominador-usar" class="level3" data-number="13.7.2">
+<h3 data-number="13.7.2" class="anchored" data-anchor-id="qual-denominador-usar"><span class="header-section-number">13.7.2</span> Qual denominador usar?</h3>
+<p>Indicadores da APS podem usar denominadores diferentes. A escolha do denominador muda a interpretação do resultado.</p>
+<table class="caption-top table">
+<caption>Denominadores frequentes em análises da APS</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Denominador</th>
+<th>O que mede</th>
+<th>Quando usar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>População cadastrada</td>
+<td>Pessoas registradas no território/equipe</td>
+<td>Cobertura cadastral e organização territorial</td>
+<td>Pode haver cadastro duplicado ou desatualizado</td>
+</tr>
+<tr class="even">
+<td>População vinculada</td>
+<td>Pessoas atribuídas a uma equipe ou território</td>
+<td>Vínculo territorial e cofinanciamento</td>
+<td>Depende das regras vigentes de vinculação</td>
+</tr>
+<tr class="odd">
+<td>População residente</td>
+<td>Pessoas residentes no município ou área</td>
+<td>Comparação populacional ampla</td>
+<td>Usar POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>) e ano compatível</td>
+</tr>
+<tr class="even">
+<td>População esperada</td>
+<td>Estimativa para grupo-alvo do indicador</td>
+<td>Indicadores de desempenho</td>
+<td>Método de estimativa deve ser documentado</td>
+</tr>
+<tr class="odd">
+<td>Usuários atendidos</td>
+<td>Pessoas com atendimento registrado</td>
+<td>Uso registrado da APS</td>
+<td>Não representa toda a população que precisa de cuidado</td>
+</tr>
+<tr class="even">
+<td>Eventos ou registros</td>
+<td>Atendimentos, visitas, procedimentos</td>
+<td>Produção e processo de trabalho</td>
+<td>Um usuário pode gerar múltiplos registros</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="indicadores-e-cofinanciamento" class="level2" data-number="13.8">
+<h2 data-number="13.8" class="anchored" data-anchor-id="indicadores-e-cofinanciamento"><span class="header-section-number">13.8</span> Indicadores e cofinanciamento</h2>
+<p>O uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos.</p>
+<table class="caption-top table">
+<caption>Elementos de indicadores de cofinanciamento da APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Indicador de desempenho</td>
+<td>Medida sintética de processo ou acompanhamento</td>
+<td>Regras podem mudar entre ciclos</td>
+</tr>
+<tr class="even">
+<td>Vínculo territorial</td>
+<td>Relação entre pessoa, equipe e território</td>
+<td>Cadastro duplicado ou desatualizado afeta denominador</td>
+</tr>
+<tr class="odd">
+<td>Acompanhamento</td>
+<td>Registro de cuidado ou seguimento</td>
+<td>Ausência de registro não é ausência de cuidado</td>
+</tr>
+<tr class="even">
+<td>Cofinanciamento</td>
+<td>Uso de indicadores para repasses</td>
+<td>Não interpretar apenas como avaliação assistencial</td>
+</tr>
+<tr class="odd">
+<td>Prazo de envio</td>
+<td>Data-limite para transmissão da competência</td>
+<td>Atrasos podem afetar cálculo e repasses</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Indicadores de cofinanciamento são indicadores administrativos e de monitoramento. Eles podem apoiar avaliação da APS, mas precisam ser interpretados junto com contexto local, capacidade de registro, composição da equipe e perfil da população.</p>
+</div>
+</div>
+</section>
+<section id="vínculo-territorial" class="level2" data-number="13.9">
+<h2 data-number="13.9" class="anchored" data-anchor-id="vínculo-territorial"><span class="header-section-number">13.9</span> Vínculo territorial</h2>
+<p>O vínculo territorial organiza a relação entre pessoas, equipes e território adscrito. Ele é central para interpretar cobertura, acompanhamento e cofinanciamento, mas depende de cadastro atualizado e regras de vinculação.</p>
+<table class="caption-top table">
+<caption>Elementos do vínculo territorial na APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pessoa cadastrada</td>
+<td>Indivíduo registrado na base da APS</td>
+<td>Pode estar desatualizado ou duplicado</td>
+</tr>
+<tr class="even">
+<td>Equipe vinculada</td>
+<td>Equipe responsável pelo acompanhamento</td>
+<td>Mudanças de equipe alteram séries</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Área de responsabilidade sanitária</td>
+<td>Pode não coincidir com limites administrativos</td>
+</tr>
+<tr class="even">
+<td>Acompanhamento</td>
+<td>Registro de cuidado realizado pela equipe</td>
+<td>Ausência de registro não prova ausência de cuidado</td>
+</tr>
+<tr class="odd">
+<td>Indicador</td>
+<td>Medida calculada a partir de numerador e denominador</td>
+<td>Denominador precisa ser explicitado</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>vinculo_territorial <span class="ot">&lt;-</span> sisaps_cadastro <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, ine, competencia) <span class="sc">|&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">pessoas_cadastradas =</span> <span class="fu">n_distinct</span>(id_pessoa),</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">pessoas_vinculadas =</span> <span class="fu">sum</span>(vinculo_valido <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">proporcao_vinculada =</span> pessoas_vinculadas <span class="sc">/</span> pessoas_cadastradas,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>vinculo_territorial</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="calendário-de-envio" class="level2" data-number="13.10">
+<h2 data-number="13.10" class="anchored" data-anchor-id="calendário-de-envio"><span class="header-section-number">13.10</span> Calendário de envio</h2>
+<p>Os dados da APS são organizados por competência mensal. Para fins de monitoramento e cofinanciamento, o envio precisa respeitar o calendário oficial. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e alterar resultados quando a base é reprocessada.</p>
+<table class="caption-top table">
+<caption>Etapas temporais do envio de dados da APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Registro</td>
+<td>Informação lançada no PEC, CDS ou aplicativo</td>
+<td>Depende do processo local de trabalho</td>
+</tr>
+<tr class="even">
+<td>Fechamento da competência</td>
+<td>Encerramento do mês de referência</td>
+<td>Registros tardios podem ficar para outra competência</td>
+</tr>
+<tr class="odd">
+<td>Envio</td>
+<td>Transmissão para a base nacional</td>
+<td>Verificar prazo oficial do mês</td>
+</tr>
+<tr class="even">
+<td>Processamento</td>
+<td>Críticas, validações e consolidação</td>
+<td>Registros podem ser rejeitados ou reprocessados</td>
+</tr>
+<tr class="odd">
+<td>Relatório</td>
+<td>Disponibilização de dados agregados</td>
+<td>Registrar data de extração</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quando um indicador cai em uma competência recente, investigue primeiro atraso de envio, processamento e validação. A queda pode ser informacional, não assistencial.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-pré-natal-na-aps" class="level2" data-number="13.11">
+<h2 data-number="13.11" class="anchored" data-anchor-id="exemplo-pré-natal-na-aps"><span class="header-section-number">13.11</span> Exemplo: pré-natal na APS</h2>
+<p>O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil.</p>
+<table class="caption-top table">
+<caption>Componentes de uma análise de pré-natal na APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Fonte principal</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gestantes acompanhadas</td>
+<td>SISAPS/SISAB</td>
+<td>Depende de cadastro e registro correto</td>
+</tr>
+<tr class="even">
+<td>Consultas de pré-natal</td>
+<td>SISAPS/SISAB</td>
+<td>Mede registro de atendimento na APS</td>
+</tr>
+<tr class="odd">
+<td>Nascidos vivos</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Mede ocorrência de nascimento, não acompanhamento na APS</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Município, equipe ou residência</td>
+<td>Evitar misturar local de atendimento e residência</td>
+</tr>
+<tr class="odd">
+<td>Tempo</td>
+<td>Competência de atendimento e data de nascimento</td>
+<td>Definir janela de acompanhamento</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>prenatal_aps <span class="ot">&lt;-</span> sisaps_indicadores <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(indicador <span class="sc">==</span> <span class="st">"pre_natal"</span>, competencia <span class="sc">&gt;=</span> <span class="st">"2025-01"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, competencia) <span class="sc">|&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">gestantes_acompanhadas =</span> <span class="fu">sum</span>(numerador, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">gestantes_esperadas =</span> <span class="fu">sum</span>(denominador, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">proporcao =</span> gestantes_acompanhadas <span class="sc">/</span> gestantes_esperadas,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>prenatal_aps</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="exemplo-sisaps-sinasc" class="level2" data-number="13.12">
+<h2 data-number="13.12" class="anchored" data-anchor-id="exemplo-sisaps-sinasc"><span class="header-section-number">13.12</span> Exemplo: SISAPS + SINASC</h2>
+<p>O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC pode ser feito de forma agregada, por município e ano, para análises ecológicas. Essa abordagem não acompanha gestantes individualmente; ela compara indicadores territoriais.</p>
+<table class="caption-top table">
+<caption>Exemplo de integração ecológica entre APS e SINASC</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Fonte</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Indicador de pré-natal APS</td>
+<td>SISAPS/SISAB</td>
+<td>Mede acompanhamento registrado na APS</td>
+</tr>
+<tr class="even">
+<td>Nascidos vivos</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Mede nascimentos ocorridos ou residentes, conforme campo usado</td>
+</tr>
+<tr class="odd">
+<td>Baixo peso ao nascer</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Desfecho multifatorial, não atribuível apenas à APS</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Município de residência</td>
+<td>Manter o mesmo recorte nas duas bases</td>
+</tr>
+<tr class="odd">
+<td>Tempo</td>
+<td>Ano ou janela de competência</td>
+<td>Alinhar gestação, atendimento e nascimento</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>prenatal_mun_ano <span class="ot">&lt;-</span> prenatal_aps <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ano =</span> <span class="fu">substr</span>(competencia, <span class="dv">1</span>, <span class="dv">4</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, ano) <span class="sc">|&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">cobertura_prenatal_aps =</span> <span class="fu">weighted.mean</span>(proporcao, gestantes_esperadas, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>baixo_peso <span class="ot">&lt;-</span> sinasc <span class="sc">|&gt;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(CODMUNRES, <span class="at">ano =</span> <span class="fu">as.character</span>(ano_nascimento)) <span class="sc">|&gt;</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">nascidos_vivos =</span> <span class="fu">n</span>(),</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">baixo_peso =</span> <span class="fu">sum</span>(peso <span class="sc">&lt;</span> <span class="dv">2500</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">proporcao_baixo_peso =</span> baixo_peso <span class="sc">/</span> nascidos_vivos,</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>aps_sinasc <span class="ot">&lt;-</span> prenatal_mun_ano <span class="sc">|&gt;</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(baixo_peso, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"codmun"</span> <span class="ot">=</span> <span class="st">"CODMUNRES"</span>, <span class="st">"ano"</span>))</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>aps_sinasc</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Esse exemplo é ecológico. Relações observadas no município não devem ser interpretadas como efeito individual do acompanhamento pré-natal sem desenho analítico apropriado.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-produção-da-aps" class="level2" data-number="13.13">
+<h2 data-number="13.13" class="anchored" data-anchor-id="exemplo-produção-da-aps"><span class="header-section-number">13.13</span> Exemplo: produção da APS</h2>
+<p>Produção da APS deve ser lida como registro de atividades realizadas por equipes e profissionais. Ela é útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como medida de necessidade, acesso ou qualidade.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>producao_municipal <span class="ot">&lt;-</span> sisaps_producao <span class="sc">|&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, competencia, tipo_producao) <span class="sc">|&gt;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">registros =</span> <span class="fu">sum</span>(quantidade, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">equipes =</span> <span class="fu">n_distinct</span>(ine),</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">registros_por_equipe =</span> registros <span class="sc">/</span> equipes,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>producao_municipal</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Produção por equipe pode variar por perfil populacional, tamanho da equipe, informatização, disponibilidade de profissionais, agenda local e qualidade do envio. Compare equipes semelhantes e sempre verifique denominadores.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-sisaps-cnes" class="level2" data-number="13.14">
+<h2 data-number="13.14" class="anchored" data-anchor-id="exemplo-sisaps-cnes"><span class="header-section-number">13.14</span> Exemplo: SISAPS + CNES</h2>
+<p>A integração com o CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada, além de caracterizar a estrutura da rede da APS.</p>
+<table class="caption-top table">
+<caption>Validações entre SISAPS/SISAB e CNES</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Fonte</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CNES da equipe existe?</td>
+<td>SISAPS + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Relacionar pela mesma competência ou competência de referência</td>
+</tr>
+<tr class="even">
+<td>Tipo de estabelecimento é compatível?</td>
+<td>CNES <code>ST</code></td>
+<td>UBS, posto, centro de saúde e outros tipos devem ser interpretados</td>
+</tr>
+<tr class="odd">
+<td>Equipe está ativa?</td>
+<td>SISAPS e CNES <code>EP</code> quando disponível</td>
+<td>Situação pode mudar no mês</td>
+</tr>
+<tr class="even">
+<td>Produção tem equipe identificada?</td>
+<td>SISAPS/SISAB</td>
+<td>Registros sem INE prejudicam avaliação por equipe</td>
+</tr>
+<tr class="odd">
+<td>Município do CNES é compatível?</td>
+<td>CNES</td>
+<td>Conferir mudança territorial ou erro cadastral</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>equipes_cnes <span class="ot">&lt;-</span> sisaps_equipes <span class="sc">|&gt;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(competencia <span class="sc">==</span> <span class="st">"2026-01"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    cnes_st <span class="sc">|&gt;</span> <span class="fu">filter</span>(competencia <span class="sc">==</span> <span class="st">"2026-01"</span>),</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"cnes"</span> <span class="ot">=</span> <span class="st">"CNES"</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">cnes_encontrado =</span> <span class="sc">!</span><span class="fu">is.na</span>(TP_UNID))</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>equipes_cnes</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="qualidade-dos-dados" class="level2" data-number="13.15">
+<h2 data-number="13.15" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">13.15</span> Qualidade dos dados</h2>
+<p>A qualidade dos dados da APS depende do registro no ponto de cuidado, da consistência do cadastro, da integração do e-SUS APS, do envio dentro do prazo e das regras de validação do sistema nacional.</p>
+<table class="caption-top table">
+<caption>Dimensões de qualidade relevantes no SISAPS/SISAB</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Checagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Oportunidade</td>
+<td>Dados enviados dentro do prazo da competência</td>
+</tr>
+<tr class="even">
+<td>Completitude</td>
+<td>Campos essenciais preenchidos</td>
+</tr>
+<tr class="odd">
+<td>Consistência cadastral</td>
+<td>Pessoa, domicílio, equipe, território e CNES compatíveis</td>
+</tr>
+<tr class="even">
+<td>Duplicidade</td>
+<td>Cadastros ou registros repetidos</td>
+</tr>
+<tr class="odd">
+<td>Denominador</td>
+<td>População cadastrada, vinculada ou estimada corretamente definida</td>
+</tr>
+<tr class="even">
+<td>Vínculo de equipe</td>
+<td>INE e CNES válidos no período</td>
+</tr>
+<tr class="odd">
+<td>Mudança normativa</td>
+<td>Regras de indicadores comparáveis entre competências</td>
+</tr>
+<tr class="even">
+<td>Processamento</td>
+<td>Registros enviados foram processados e aceitos</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>validacao_aps <span class="ot">&lt;-</span> sisaps_indicadores <span class="sc">|&gt;</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, competencia) <span class="sc">|&gt;</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">indicadores =</span> <span class="fu">n_distinct</span>(indicador),</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">denominadores_zerados =</span> <span class="fu">sum</span>(denominador <span class="sc">==</span> <span class="dv">0</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">registros_sem_equipe =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(ine) <span class="sc">|</span> ine <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>validacao_aps</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="privacidade-e-agregação" class="level2" data-number="13.16">
+<h2 data-number="13.16" class="anchored" data-anchor-id="privacidade-e-agregação"><span class="header-section-number">13.16</span> Privacidade e agregação</h2>
+<p>Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. A indisponibilidade de microdados identificáveis publicamente protege a privacidade, mas limita análises individuais, auditorias externas detalhadas e pareamentos diretos com outros sistemas.</p>
+<table class="caption-top table">
+<caption>Implicações de privacidade e agregação na APS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspecto</th>
+<th>Implicação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dados pessoais e clínicos</td>
+<td>Exigem proteção, controle de acesso e finalidade definida</td>
+</tr>
+<tr class="even">
+<td>Relatórios agregados</td>
+<td>Favorecem transparência sem expor pessoas</td>
+</tr>
+<tr class="odd">
+<td>Linkage individual</td>
+<td>Depende de autorização, governança e base legal</td>
+</tr>
+<tr class="even">
+<td>Reprodutibilidade</td>
+<td>Deve registrar relatório, filtros, data de extração e versão</td>
+</tr>
+<tr class="odd">
+<td>Pequenos números</td>
+<td>Podem exigir supressão ou agregação adicional</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="análise-temporal-e-territorial" class="level2" data-number="13.17">
+<h2 data-number="13.17" class="anchored" data-anchor-id="análise-temporal-e-territorial"><span class="header-section-number">13.17</span> Análise temporal e territorial</h2>
+<p>Séries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes.</p>
+<table class="caption-top table">
+<caption>Cuidados em análises temporais e territoriais da APS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Comparação</th>
+<th>Recomendação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Antes e depois da transição</td>
+<td>Separar períodos SIAB, SISAB e SISAPS</td>
+<td>Quebras tecnológicas podem parecer mudança assistencial</td>
+</tr>
+<tr class="even">
+<td>Entre municípios</td>
+<td>Padronizar por população, equipe ou cadastro</td>
+<td>Municípios têm porte e rede muito diferentes</td>
+</tr>
+<tr class="odd">
+<td>Entre equipes</td>
+<td>Comparar equipes do mesmo tipo</td>
+<td>eSF, eAP e eSB têm atribuições diferentes</td>
+</tr>
+<tr class="even">
+<td>Entre competências</td>
+<td>Verificar calendário de envio</td>
+<td>Atrasos podem reduzir indicadores temporariamente</td>
+</tr>
+<tr class="odd">
+<td>Entre indicadores</td>
+<td>Conferir regra de cálculo</td>
+<td>Numeradores e denominadores podem mudar</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="acesso-aos-dados" class="level2" data-number="13.18">
+<h2 data-number="13.18" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">13.18</span> Acesso aos dados</h2>
+<p>O acesso é realizado principalmente por relatórios e painéis públicos ou restritos, conforme perfil de usuário e finalidade. O acesso a microdados identificáveis não é disponibilizado publicamente, pois os registros da APS envolvem dados pessoais e clínicos protegidos pela LGPD.</p>
+<table class="caption-top table">
+<caption>Formas de acesso a informações da APS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Relatórios públicos</td>
+<td>Consulta de indicadores e produção agregada</td>
+</tr>
+<tr class="even">
+<td>Área de gestores</td>
+<td>Monitoramento municipal, estadual e federal</td>
+</tr>
+<tr class="odd">
+<td>SISAB</td>
+<td>Consulta histórica e relatórios da APS</td>
+</tr>
+<tr class="even">
+<td>SISAPS/Siaps</td>
+<td>Plataforma renovada para gestão da informação da APS</td>
+</tr>
+<tr class="odd">
+<td>e-Gestor APS</td>
+<td>Acesso a sistemas e relatórios de gestão</td>
+</tr>
+<tr class="even">
+<td>Documentação oficial</td>
+<td>Regras, calendários, manuais e modelos de informação</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/">SISAPS/Siaps</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/sisab/">SISAB</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/sisab/docs/manual/visao-geral/">Manual do SISAB</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/">Manual do SISAPS/Siaps</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/calendario-siaps/">Calendário Siaps</a></li>
+</ul>
+</section>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="13.19">
+<h2 data-number="13.19" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">13.19</span> Relacionamento com outros sistemas</h2>
+<p>O SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre SISAPS/SISAB e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Oferta da APS acompanha produção?</td>
+<td>SISAPS/SISAB + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>Equipes e estabelecimentos devem ser compatíveis por competência</td>
+</tr>
+<tr class="even">
+<td>APS reduz internações evitáveis?</td>
+<td>SISAPS/SISAB + SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Evitar inferência causal simples com dados agregados</td>
+</tr>
+<tr class="odd">
+<td>Pré-natal se relaciona a desfechos de nascimento?</td>
+<td>SISAPS/SISAB + SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Relacionamento direto exige regras de privacidade e linkage</td>
+</tr>
+<tr class="even">
+<td>Acompanhamento de agravos aparece na vigilância?</td>
+<td>SISAPS/SISAB + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Notificação e cuidado são processos diferentes</td>
+</tr>
+<tr class="odd">
+<td>Produção ambulatorial é coerente?</td>
+<td>SISAPS/SISAB + SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>)</td>
+<td>Produção da APS e faturamento/procedimentos têm escopos distintos</td>
+</tr>
+<tr class="even">
+<td>Cobertura por população</td>
+<td>SISAPS/SISAB + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>População cadastrada e população residente são denominadores diferentes</td>
+</tr>
+</tbody>
+</table>
+<section id="checklist-para-integração" class="level3" data-number="13.19.1">
+<h3 data-number="13.19.1" class="anchored" data-anchor-id="checklist-para-integração"><span class="header-section-number">13.19.1</span> Checklist para integração</h3>
+<p>Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador.</p>
+<table class="caption-top table">
+<caption>Verificações antes de integrar dados da APS com outros sistemas</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Competência compatível</td>
+<td>APS é mensal; outros sistemas podem ser por evento, ano ou competência de produção</td>
+</tr>
+<tr class="even">
+<td>Território definido</td>
+<td>Residência, acompanhamento, ocorrência e localização podem divergir</td>
+</tr>
+<tr class="odd">
+<td>INE e CNES válidos</td>
+<td>Equipe e estabelecimento precisam existir na competência</td>
+</tr>
+<tr class="even">
+<td>Denominador explícito</td>
+<td>Cadastro, vínculo, residência e usuários atendidos medem populações diferentes</td>
+</tr>
+<tr class="odd">
+<td>Regras de indicador versionadas</td>
+<td>Indicadores de cofinanciamento podem mudar</td>
+</tr>
+<tr class="even">
+<td>Privacidade respeitada</td>
+<td>Linkage individual exige governança própria</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="limitações" class="level2" data-number="13.20">
+<h2 data-number="13.20" class="anchored" data-anchor-id="limitações"><span class="header-section-number">13.20</span> Limitações</h2>
+<table class="caption-top table">
+<caption>Limitações recorrentes do SISAPS/SISAB</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Transição de sistema</td>
+<td>Séries podem ter quebras entre SISAB e SISAPS</td>
+</tr>
+<tr class="even">
+<td>Dados dependem do registro local</td>
+<td>Sub-registro e atraso de envio afetam indicadores</td>
+</tr>
+<tr class="odd">
+<td>Relatórios agregados</td>
+<td>Microdados identificáveis não estão disponíveis publicamente</td>
+</tr>
+<tr class="even">
+<td>Denominadores variáveis</td>
+<td>População cadastrada, vinculada e residente têm significados distintos</td>
+</tr>
+<tr class="odd">
+<td>Indicadores mudam com regras de cofinanciamento</td>
+<td>Comparações históricas exigem versionamento</td>
+</tr>
+<tr class="even">
+<td>Produção não é necessidade</td>
+<td>Baixa produção pode refletir sub-registro, acesso reduzido ou menor demanda</td>
+</tr>
+<tr class="odd">
+<td>Equipes não são homogêneas</td>
+<td>Composição, carga horária e território variam</td>
+</tr>
+<tr class="even">
+<td>Calendário de envio afeta resultados</td>
+<td>Competências recentes podem estar incompletas</td>
+</tr>
+<tr class="odd">
+<td>Linkage individual é restrito</td>
+<td>Privacidade limita pareamentos públicos entre bases</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="13.21">
+<h2 data-number="13.21" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">13.21</span> Cuidados de interpretação</h2>
+<p>Ao utilizar SISAPS/SISAB, alguns cuidados são recorrentes:</p>
+<ul>
+<li>documentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;</li>
+<li>definir a unidade de análise antes de baixar ou consultar relatórios;</li>
+<li>verificar competência, prazo de envio e processamento;</li>
+<li>distinguir população cadastrada, vinculada, acompanhada e residente;</li>
+<li>comparar equipes do mesmo tipo e com contexto semelhante;</li>
+<li>conferir regras de cálculo dos indicadores;</li>
+<li>verificar INE, CNES e situação da equipe na competência;</li>
+<li>registrar relatório, filtros e data de extração;</li>
+<li>não interpretar produção registrada como necessidade ou qualidade;</li>
+<li>combinar com CNES, POP, SIH, SIA, SINAN ou SINASC apenas com território e período compatíveis.</li>
+</ul>
+<table class="caption-top table">
+<caption>Erros frequentes em análises da APS</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Comparar SISAB e SISAPS como série homogênea</td>
+<td>Marcar a transição e verificar mudanças de regra</td>
+</tr>
+<tr class="even">
+<td>Usar população cadastrada como população residente</td>
+<td>Declarar o denominador e, quando necessário, usar POP</td>
+</tr>
+<tr class="odd">
+<td>Tratar ausência de produção como ausência de cuidado</td>
+<td>Verificar envio, processamento e sub-registro</td>
+</tr>
+<tr class="even">
+<td>Comparar equipes diferentes sem ajuste</td>
+<td>Estratificar por tipo de equipe e contexto</td>
+</tr>
+<tr class="odd">
+<td>Interpretar indicador de cofinanciamento como avaliação completa</td>
+<td>Complementar com contexto, oferta, produção e resultados</td>
+</tr>
+<tr class="even">
+<td>Usar competência recente sem checar calendário</td>
+<td>Conferir prazo de envio e processamento</td>
+</tr>
+<tr class="odd">
+<td>Fazer linkage individual sem governança</td>
+<td>Usar apenas bases autorizadas e regras de privacidade</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="checklist-de-reprodutibilidade" class="level2" data-number="13.22">
+<h2 data-number="13.22" class="anchored" data-anchor-id="checklist-de-reprodutibilidade"><span class="header-section-number">13.22</span> Checklist de reprodutibilidade</h2>
+<p>Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente qual relatório foi usado e como os resultados foram obtidos.</p>
+<table class="caption-top table">
+<caption>Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Registrar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Plataforma</td>
+<td>SISAB, SISAPS/Siaps, e-Gestor APS ou outro acesso</td>
+</tr>
+<tr class="even">
+<td>Data de extração</td>
+<td>Dia em que o relatório foi consultado ou baixado</td>
+</tr>
+<tr class="odd">
+<td>Relatório</td>
+<td>Nome do relatório, painel ou indicador</td>
+</tr>
+<tr class="even">
+<td>Competência</td>
+<td>Mês, ano e se o dado é acumulado</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município, UF, região, equipe ou estabelecimento</td>
+</tr>
+<tr class="even">
+<td>Tipo de equipe</td>
+<td>eSF, eAP, eSB ou outra modalidade</td>
+</tr>
+<tr class="odd">
+<td>Identificadores</td>
+<td>INE, CNES ou agregação utilizada</td>
+</tr>
+<tr class="even">
+<td>Indicador</td>
+<td>Nome, versão e regra de cálculo</td>
+</tr>
+<tr class="odd">
+<td>Numerador</td>
+<td>Evento, registro ou população usada</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População cadastrada, vinculada, residente, esperada ou atendida</td>
+</tr>
+<tr class="odd">
+<td>Filtros</td>
+<td>Sexo, idade, equipe, condição, programa ou categoria</td>
+</tr>
+<tr class="even">
+<td>Tratamento de ausentes</td>
+<td>Como atrasos, não processados e zeros foram tratados</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="checklist-final" class="level2" data-number="13.23">
+<h2 data-number="13.23" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">13.23</span> Checklist final</h2>
+<p>Antes de concluir uma análise com SISAPS/SISAB, verifique se:</p>
+<ul>
+<li>o sistema e o período foram definidos;</li>
+<li>a transição SISAB-SISAPS foi considerada;</li>
+<li>a competência e o prazo de envio foram conferidos;</li>
+<li>a unidade de análise foi declarada;</li>
+<li>o denominador do indicador foi documentado;</li>
+<li>tipo de equipe, INE e CNES foram verificados quando usados;</li>
+<li>regras de cálculo e versão do indicador foram registradas;</li>
+<li>o calendário de envio e a data de extração foram considerados;</li>
+<li>dados ausentes, atrasados ou não processados foram separados;</li>
+<li>comparações territoriais usaram população ou cadastro compatível;</li>
+<li>requisitos de privacidade foram observados;</li>
+<li>a extração foi documentada de forma reprodutível;</li>
+<li>limitações de registro, agregação e privacidade foram discutidas.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="13.24">
+<h2 data-number="13.24" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">13.24</span> Bibliografia recomendada</h2>
+<section id="documentos-oficiais" class="level3" data-number="13.24.1">
+<h3 data-number="13.24.1" class="anchored" data-anchor-id="documentos-oficiais"><span class="header-section-number">13.24.1</span> Documentos oficiais</h3>
+<ul>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/">SISAPS/Siaps</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/sisab/">SISAB</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/sisab/docs/manual/visao-geral/">Manual do SISAB</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/">Manual do SISAPS/Siaps</a></li>
+<li><a href="https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/calendario-siaps/">Calendário Siaps</a></li>
+</ul>
+</section>
+<section id="artigos" class="level3" data-number="13.24.2">
+<h3 data-number="13.24.2" class="anchored" data-anchor-id="artigos"><span class="header-section-number">13.24.2</span> Artigos</h3>
+<ul>
+<li>Artigo <em>Atenção Básica e Informação: análise do Sistema de Informação em Saúde para Atenção Básica (SISAB) e estratégia e-SUS AB e suas repercussões para uma gestão da saúde com transparência.[trabalho de conclusão de curso]</em> <span class="citation" data-cites="soares2016atenccao">(<a href="referencias.html#ref-soares2016atenccao" role="doc-biblioref">SOARES, 2016</a>)</span>. Disponível <a href="https://www.espp.pr.gov.br/sites/escola-saude/arquivos_restritos/files/migrados/File/SISAB.pdf">aqui</a>.</li>
+</ul>
+</section>
+<section id="vídeos" class="level3" data-number="13.24.3">
+<h3 data-number="13.24.3" class="anchored" data-anchor-id="vídeos"><span class="header-section-number">13.24.3</span> Vídeos</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Si4Q6Xy4JF4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-soares2016atenccao" class="csl-entry" role="listitem">
+SOARES, E. V. B. Aten<span>ç</span><span>ã</span>o <span>B<span>á</span>sica</span> e <span>Informa<span>ç</span><span>ã</span>o</span>: An<span>á</span>lise Do <span>Sistema</span> de <span>Informa<span>ç</span><span>ã</span>o</span> Em <span>Sa<span>ú</span>de</span> Para <span>Aten<span>ç</span><span>ã</span>o B<span>á</span>sica</span> (<span>SISAB</span>) e Estrat<span>é</span>gia e-<span>SUS AB</span> e Suas Repercuss<span>õ</span>es Para Uma Gest<span>ã</span>o Da Sa<span>ú</span>de Com Transpar<span>ê</span>ncia.[Trabalho de Conclus<span>ã</span>o de Curso]. <strong>Bras<span class="nocase">ı́</span>lia, DF: Universidade de Bras<span class="nocase">ı́</span>lia</strong>, 2016.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./siops.html" class="pagination-link" aria-label="SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./sipni.html" class="pagination-link" aria-label="SI-PNI -- Sistema de Informações do Programa Nacional de Vacinação">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Vacinação</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sisaps.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>

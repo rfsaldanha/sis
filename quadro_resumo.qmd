@@ -10,5 +10,5 @@
 | CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal, com até dois meses de defasagem |
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
 | SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Mensal, com até dois meses de defasagem |
-| SISAB | Sistema de Informação em Saúde para a Atenção Básica | 2013 | Equipe, município, região de saúde, UF | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
+| SISAB/SISAPS | Sistema de Informação da Atenção Primária à Saúde | 2013; renovação pelo SISAPS/Siaps em 2025 | Equipe, CNES, município, região de saúde, UF, competência e indicador | Dimensão pública do SUS | Mensal, conforme calendário de envio da APS |
 | SI-PNI | Sistema de Informações do Programa Nacional de Vacinação | 1975 (PNI) | Dados agregados e notificações de imunização | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |

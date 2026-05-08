@@ -1,0 +1,569 @@
+[
+{
+  "start": 0,
+  "end": 8.313,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre o SISAPS, o Sistema de Informação da Atenção Primária à Saúde."
+}
+,
+{
+  "start": 8.663,
+  "end": 14.050,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo também fala do SISAB e do Siaps. Qual é a relação entre esses nomes?"
+}
+,
+{
+  "start": 14.400,
+  "end": 33.673,
+  "speaker": "APRESENTADORA",
+  "text": "Boa pergunta. O SISAB foi o sistema oficial da Atenção Básica instituído em 2013. O Siaps, ou SISAPS, aparece como uma renovação em implantação progressiva, voltada a modernizar a informação da Atenção Primária à Saúde."
+}
+,
+{
+  "start": 34.023,
+  "end": 37.831,
+  "speaker": "ESTUDANTE",
+  "text": "Então o capítulo trata da transição SISAB-SISAPS."
+}
+,
+{
+  "start": 38.181,
+  "end": 53.228,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Para análises históricas, ainda é necessário entender o SISAB. Para análises recentes, é preciso acompanhar a transição para o SISAPS, também apresentado oficialmente como Siaps."
+}
+,
+{
+  "start": 53.578,
+  "end": 57.061,
+  "speaker": "ESTUDANTE",
+  "text": "O SISAPS é parecido com SIM, SINASC ou SINAN?"
+}
+,
+{
+  "start": 57.411,
+  "end": 77.287,
+  "speaker": "APRESENTADORA",
+  "text": "Não exatamente. Ele não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, como cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal."
+}
+,
+{
+  "start": 77.637,
+  "end": 80.052,
+  "speaker": "ESTUDANTE",
+  "text": "Quando devo usar o SISAPS ou SISAB?"
+}
+,
+{
+  "start": 80.402,
+  "end": 102.879,
+  "speaker": "APRESENTADORA",
+  "text": "Use quando a pergunta envolve organização, produção, acompanhamento e desempenho da Atenção Primária à Saúde. Por exemplo: produção das equipes, cobertura cadastral, indicadores de cofinanciamento, acompanhamento de pré-natal, vacinas, condições crônicas e vínculo territorial."
+}
+,
+{
+  "start": 103.229,
+  "end": 107.130,
+  "speaker": "ESTUDANTE",
+  "text": "Mas ele não substitui prontuário clínico nem auditoria de qualidade."
+}
+,
+{
+  "start": 107.480,
+  "end": 119.926,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. O sistema apoia gestão e monitoramento, mas a interpretação depende do registro, envio, validação e regras de processamento."
+}
+,
+{
+  "start": 120.276,
+  "end": 121.716,
+  "speaker": "ESTUDANTE",
+  "text": "Como o SISAB surgiu?"
+}
+,
+{
+  "start": 122.066,
+  "end": 144.404,
+  "speaker": "APRESENTADORA",
+  "text": "O SISAB foi instituído em 2013 como sistema oficial da Atenção Básica para fins de financiamento e adesão a programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo SIAB e passou a ser alimentado pela estratégia e-SUS APS."
+}
+,
+{
+  "start": 144.754,
+  "end": 149.630,
+  "speaker": "ESTUDANTE",
+  "text": "E a partir de 2016 o envio passou a ser exclusivamente para o SISAB."
+}
+,
+{
+  "start": 149.980,
+  "end": 163.773,
+  "speaker": "APRESENTADORA",
+  "text": "Isso, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação."
+}
+,
+{
+  "start": 164.123,
+  "end": 166.399,
+  "speaker": "ESTUDANTE",
+  "text": "E em 2025 aparece o Siaps."
+}
+,
+{
+  "start": 166.749,
+  "end": 187.833,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O Siaps foi instituído como renovação do SISAB, com implantação incremental. A proposta é modernizar a infraestrutura tecnológica, centralizar dados da APS em repositório nacional e apoiar melhor o monitoramento de indicadores de cofinanciamento e qualidade."
+}
+,
+{
+  "start": 188.183,
+  "end": 190.273,
+  "speaker": "ESTUDANTE",
+  "text": "Como os dados chegam ao SISAPS?"
+}
+,
+{
+  "start": 190.623,
+  "end": 208.642,
+  "speaker": "APRESENTADORA",
+  "text": "Os registros são produzidos no processo de trabalho das equipes, geralmente no PEC, no CDS ou em aplicativos da estratégia e-SUS APS. Depois são enviados para consolidação nacional e aparecem em relatórios e indicadores."
+}
+,
+{
+  "start": 208.992,
+  "end": 211.175,
+  "speaker": "ESTUDANTE",
+  "text": "O PEC é o prontuário eletrônico."
+}
+,
+{
+  "start": 211.525,
+  "end": 229.637,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O PEC registra informações clínicas e administrativas. O CDS é a coleta simplificada de dados, útil em cenários com menor informatização. Aplicativos podem apoiar registros territoriais e atividades específicas."
+}
+,
+{
+  "start": 229.987,
+  "end": 232.402,
+  "speaker": "ESTUDANTE",
+  "text": "Então a qualidade depende do trabalho local."
+}
+,
+{
+  "start": 232.752,
+  "end": 243.387,
+  "speaker": "APRESENTADORA",
+  "text": "Muito. Depende de registro no ponto de cuidado, integração do e-SUS APS, envio dentro do prazo, validações e regras nacionais de processamento."
+}
+,
+{
+  "start": 243.737,
+  "end": 245.362,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a unidade de análise?"
+}
+,
+{
+  "start": 245.712,
+  "end": 262.988,
+  "speaker": "APRESENTADORA",
+  "text": "Depende do relatório ou indicador. Pode ser pessoa cadastrada, atendimento, procedimento, visita domiciliar, atividade coletiva, equipe, estabelecimento, município, UF, competência ou indicador."
+}
+,
+{
+  "start": 263.338,
+  "end": 270.072,
+  "speaker": "ESTUDANTE",
+  "text": "Então eu não posso somar cadastros, atendimentos, procedimentos e indicadores como se fossem a mesma coisa."
+}
+,
+{
+  "start": 270.422,
+  "end": 289.602,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Cada unidade responde a uma pergunta diferente. Cadastro fala de população registrada. Atendimento fala de contato individual. Procedimento fala de ação registrada. Indicador combina numerador, denominador e regra de cálculo."
+}
+,
+{
+  "start": 289.952,
+  "end": 292.785,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo destaca CNES e INE."
+}
+,
+{
+  "start": 293.135,
+  "end": 312.082,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O CNES identifica o estabelecimento de saúde. O INE identifica a equipe. Uma unidade pode ter várias equipes, e uma equipe pode mudar de composição, credenciamento, suspensão, desativação ou até estabelecimento."
+}
+,
+{
+  "start": 312.432,
+  "end": 316.008,
+  "speaker": "ESTUDANTE",
+  "text": "Então séries por equipe precisam ser tratadas como painel."
+}
+,
+{
+  "start": 316.358,
+  "end": 332.287,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Para comparar equipes, monte primeiro um painel por INE, CNES, tipo de equipe e competência. Isso evita atribuir produção ou indicadores a equipes que mudaram de situação ao longo do tempo."
+}
+,
+{
+  "start": 332.637,
+  "end": 334.448,
+  "speaker": "ESTUDANTE",
+  "text": "Quais tipos de equipe aparecem?"
+}
+,
+{
+  "start": 334.798,
+  "end": 351.470,
+  "speaker": "APRESENTADORA",
+  "text": "Equipes de Saúde da Família, equipes de Atenção Primária, equipes de Saúde Bucal e outras modalidades. Comparações devem respeitar o tipo de equipe, porque atribuições, território e parâmetros podem ser diferentes."
+}
+,
+{
+  "start": 351.820,
+  "end": 354.142,
+  "speaker": "ESTUDANTE",
+  "text": "Quais dimensões analíticas são comuns?"
+}
+,
+{
+  "start": 354.492,
+  "end": 368.331,
+  "speaker": "APRESENTADORA",
+  "text": "Cadastro, produção, atividades coletivas, pré-natal, vacinas, indicadores de cofinanciamento, vínculo territorial e validação dos dados enviados."
+}
+,
+{
+  "start": 368.681,
+  "end": 370.864,
+  "speaker": "ESTUDANTE",
+  "text": "E os denominadores variam bastante."
+}
+,
+{
+  "start": 371.214,
+  "end": 389.047,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Um indicador pode usar população cadastrada, população vinculada, população residente, população esperada, usuários atendidos ou eventos registrados. A escolha muda completamente a interpretação."
+}
+,
+{
+  "start": 389.397,
+  "end": 393.298,
+  "speaker": "ESTUDANTE",
+  "text": "População cadastrada não é a mesma coisa que população residente."
+}
+,
+{
+  "start": 393.648,
+  "end": 407.441,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. População cadastrada depende do cadastro da APS, que pode estar duplicado ou desatualizado. População residente vem de estimativas populacionais e responde a outra pergunta."
+}
+,
+{
+  "start": 407.791,
+  "end": 409.324,
+  "speaker": "ESTUDANTE",
+  "text": "E população vinculada?"
+}
+,
+{
+  "start": 409.674,
+  "end": 422.538,
+  "speaker": "APRESENTADORA",
+  "text": "É a população atribuída a uma equipe ou território, conforme regras vigentes. Ela é importante para vínculo territorial e cofinanciamento, mas também depende da qualidade do cadastro."
+}
+,
+{
+  "start": 422.888,
+  "end": 425.628,
+  "speaker": "ESTUDANTE",
+  "text": "Vamos falar de indicadores e cofinanciamento."
+}
+,
+{
+  "start": 425.978,
+  "end": 442.325,
+  "speaker": "APRESENTADORA",
+  "text": "Indicadores de cofinanciamento são medidas administrativas e de monitoramento. Eles podem apoiar avaliação da APS, mas não devem ser interpretados sozinhos como avaliação completa da qualidade assistencial."
+}
+,
+{
+  "start": 442.675,
+  "end": 443.325,
+  "speaker": "ESTUDANTE",
+  "text": "Por quê?"
+}
+,
+{
+  "start": 443.675,
+  "end": 461.229,
+  "speaker": "APRESENTADORA",
+  "text": "Porque dependem de regra de cálculo, competência, prazo de envio, denominador, composição da equipe, perfil populacional e capacidade de registro. Mudanças normativas podem alterar indicadores entre ciclos."
+}
+,
+{
+  "start": 461.579,
+  "end": 463.622,
+  "speaker": "ESTUDANTE",
+  "text": "O vínculo territorial é central."
+}
+,
+{
+  "start": 463.972,
+  "end": 477.300,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Ele organiza a relação entre pessoas, equipes e território adscrito. Mas depende de cadastro atualizado, regras de vinculação e registro adequado do acompanhamento."
+}
+,
+{
+  "start": 477.650,
+  "end": 480.529,
+  "speaker": "ESTUDANTE",
+  "text": "Ausência de registro não prova ausência de cuidado."
+}
+,
+{
+  "start": 480.879,
+  "end": 491.189,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Pode haver cuidado não registrado, atraso de envio, registro rejeitado, problema de processamento ou sub-registro local."
+}
+,
+{
+  "start": 491.539,
+  "end": 493.722,
+  "speaker": "ESTUDANTE",
+  "text": "O calendário de envio também importa."
+}
+,
+{
+  "start": 494.072,
+  "end": 511.023,
+  "speaker": "APRESENTADORA",
+  "text": "Muito. Os dados da APS são organizados por competência mensal, com prazos de envio. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e mudar resultados quando a base é reprocessada."
+}
+,
+{
+  "start": 511.373,
+  "end": 515.181,
+  "speaker": "ESTUDANTE",
+  "text": "Então uma queda em competência recente pode ser informacional."
+}
+,
+{
+  "start": 515.531,
+  "end": 525.005,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Antes de interpretar como queda assistencial, investigue atraso de envio, processamento e validação."
+}
+,
+{
+  "start": 525.355,
+  "end": 527.863,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo usa pré-natal como exemplo."
+}
+,
+{
+  "start": 528.213,
+  "end": 547.671,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Pré-natal é útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com o SINASC. A pergunta precisa definir se o foco é produção registrada, cobertura de acompanhamento ou desfecho materno-infantil."
+}
+,
+{
+  "start": 548.021,
+  "end": 554.151,
+  "speaker": "ESTUDANTE",
+  "text": "Se eu relaciono SISAPS com SINASC por município, isso acompanha gestantes individualmente?"
+}
+,
+{
+  "start": 554.501,
+  "end": 568.851,
+  "speaker": "APRESENTADORA",
+  "text": "Não. Uma análise agregada por município e ano é ecológica. Ela compara indicadores territoriais, mas não demonstra efeito individual do acompanhamento pré-natal sem desenho analítico apropriado."
+}
+,
+{
+  "start": 569.201,
+  "end": 570.780,
+  "speaker": "ESTUDANTE",
+  "text": "E a produção da APS?"
+}
+,
+{
+  "start": 571.130,
+  "end": 587.245,
+  "speaker": "APRESENTADORA",
+  "text": "Produção deve ser lida como registro de atividades realizadas por equipes e profissionais. É útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como necessidade, acesso ou qualidade."
+}
+,
+{
+  "start": 587.595,
+  "end": 590.660,
+  "speaker": "ESTUDANTE",
+  "text": "Produção por equipe pode variar por muitos motivos."
+}
+,
+{
+  "start": 591.010,
+  "end": 603.874,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Perfil populacional, tamanho da equipe, informatização, disponibilidade de profissionais, agenda local, qualidade do envio e denominadores usados."
+}
+,
+{
+  "start": 604.224,
+  "end": 607.103,
+  "speaker": "ESTUDANTE",
+  "text": "O SISAPS também pode ser combinado com CNES."
+}
+,
+{
+  "start": 607.453,
+  "end": 623.150,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. O CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada e a caracterizar a estrutura da rede. A relação precisa respeitar CNES, INE e competência."
+}
+,
+{
+  "start": 623.500,
+  "end": 625.729,
+  "speaker": "ESTUDANTE",
+  "text": "Como avaliar a qualidade dos dados?"
+}
+,
+{
+  "start": 626.079,
+  "end": 641.126,
+  "speaker": "APRESENTADORA",
+  "text": "Verifique oportunidade de envio, completitude, consistência cadastral, duplicidade, denominador, vínculo de equipe, mudanças normativas e processamento dos registros."
+}
+,
+{
+  "start": 641.476,
+  "end": 643.798,
+  "speaker": "ESTUDANTE",
+  "text": "E existe uma questão de privacidade."
+}
+,
+{
+  "start": 644.148,
+  "end": 662.399,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. Linkage individual exige autorização, governança e base legal."
+}
+,
+{
+  "start": 662.749,
+  "end": 664.467,
+  "speaker": "ESTUDANTE",
+  "text": "Como acessar as informações?"
+}
+,
+{
+  "start": 664.817,
+  "end": 680.096,
+  "speaker": "APRESENTADORA",
+  "text": "Principalmente por relatórios públicos, áreas de gestores, SISAB, SISAPS ou Siaps, e-Gestor APS e documentação oficial, como manuais e calendário de envio."
+}
+,
+{
+  "start": 680.446,
+  "end": 682.536,
+  "speaker": "ESTUDANTE",
+  "text": "E como analisar séries temporais?"
+}
+,
+{
+  "start": 682.886,
+  "end": 699.651,
+  "speaker": "APRESENTADORA",
+  "text": "Com muita atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes. Quebras tecnológicas podem parecer mudanças assistenciais."
+}
+,
+{
+  "start": 700.001,
+  "end": 703.066,
+  "speaker": "ESTUDANTE",
+  "text": "Com quais sistemas o SISAPS pode ser combinado?"
+}
+,
+{
+  "start": 703.416,
+  "end": 724.593,
+  "speaker": "APRESENTADORA",
+  "text": "Com CNES para oferta e equipes, com SIH para internações evitáveis, com SINASC para pré-natal e desfechos de nascimento, com SINAN para agravos notificados, com SIA para produção ambulatorial e com população residente para indicadores populacionais."
+}
+,
+{
+  "start": 724.943,
+  "end": 727.729,
+  "speaker": "ESTUDANTE",
+  "text": "Mas sempre respeitando território e período."
+}
+,
+{
+  "start": 728.079,
+  "end": 739.317,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Território de residência, território de acompanhamento, local de ocorrência, estabelecimento e equipe podem ser coisas diferentes."
+}
+,
+{
+  "start": 739.667,
+  "end": 742.082,
+  "speaker": "ESTUDANTE",
+  "text": "Quais limitações são mais importantes?"
+}
+,
+{
+  "start": 742.432,
+  "end": 762.448,
+  "speaker": "APRESENTADORA",
+  "text": "Transição de sistema, dependência do registro local, relatórios agregados, denominadores variáveis, mudanças nas regras de cofinanciamento, produção que não mede necessidade, heterogeneidade das equipes, calendário de envio e restrições de privacidade."
+}
+,
+{
+  "start": 762.798,
+  "end": 765.027,
+  "speaker": "ESTUDANTE",
+  "text": "Quais erros comuns devem ser evitados?"
+}
+,
+{
+  "start": 765.377,
+  "end": 789.061,
+  "speaker": "APRESENTADORA",
+  "text": "Comparar SISAB e SISAPS como se fossem uma série homogênea, usar população cadastrada como população residente, tratar ausência de produção como ausência de cuidado, comparar equipes diferentes sem ajuste, interpretar indicador de cofinanciamento como avaliação completa e usar competência recente sem checar calendário."
+}
+,
+{
+  "start": 789.411,
+  "end": 791.826,
+  "speaker": "ESTUDANTE",
+  "text": "Para fechar, qual é a mensagem central?"
+}
+,
+{
+  "start": 792.176,
+  "end": 825.520,
+  "speaker": "APRESENTADORA",
+  "text": "O SISAPS, em continuidade e renovação do SISAB, é uma base essencial para gestão e monitoramento da Atenção Primária à Saúde. Para usá-lo bem, defina sistema e período, unidade de análise, competência, equipe, CNES, denominador, regra de cálculo e data de extração. E sempre interprete os resultados como dados de registro, envio e processamento da APS, não como retrato completo da necessidade ou qualidade do cuidado."
+}
+
+]

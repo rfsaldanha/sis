@@ -8,7 +8,7 @@
 
 <meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
-<title>12&nbsp; SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano – Sistemas de Informação em Saúde no Brasil</title>
+<title>11&nbsp; SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano – Sistemas de Informação em Saúde no Brasil</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -54,8 +89,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./sisab.html" rel="next">
-<link href="./siops.html" rel="prev">
+<link href="./siops.html" rel="next">
+<link href="./cnes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -106,6 +141,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
@@ -289,7 +327,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sisagua.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sisagua.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -403,20 +441,20 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./siops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./sisagua.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sisab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAB - Sistema de Informação em Saúde para a Atenção Básica</span></span></a>
+  <a href="./siops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sisaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAPS - Sistema de Informação da Atenção Primária à Saúde</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -494,11 +532,51 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">12.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">12.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">12.3</span> Estrutura dos dados</a></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">12.4</span> Acesso aos dados</a></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">12.5</span> Bibliografia recomendada</a></li>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">11.1</span> Resumo</a></li>
+  <li><a href="#quando-usar-o-sisagua" id="toc-quando-usar-o-sisagua" class="nav-link" data-scroll-target="#quando-usar-o-sisagua"><span class="header-section-number">11.2</span> Quando usar o SISAGUA</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">11.3</span> Histórico e organização</a></li>
+  <li><a href="#fluxo-de-informação" id="toc-fluxo-de-informação" class="nav-link" data-scroll-target="#fluxo-de-informação"><span class="header-section-number">11.4</span> Fluxo de informação</a></li>
+  <li><a href="#módulos-do-sistema" id="toc-módulos-do-sistema" class="nav-link" data-scroll-target="#módulos-do-sistema"><span class="header-section-number">11.5</span> Módulos do sistema</a>
+  <ul class="collapse">
+  <li><a href="#qual-base-usar" id="toc-qual-base-usar" class="nav-link" data-scroll-target="#qual-base-usar"><span class="header-section-number">11.5.1</span> Qual base usar?</a></li>
+  <li><a href="#controle-e-vigilância" id="toc-controle-e-vigilância" class="nav-link" data-scroll-target="#controle-e-vigilância"><span class="header-section-number">11.5.2</span> Controle e Vigilância</a></li>
+  <li><a href="#formas-de-abastecimento" id="toc-formas-de-abastecimento" class="nav-link" data-scroll-target="#formas-de-abastecimento"><span class="header-section-number">11.5.3</span> Formas de abastecimento</a></li>
+  </ul></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">11.6</span> Unidade de análise</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">11.7</span> Estrutura dos dados</a>
+  <ul class="collapse">
+  <li><a href="#dicionário-mínimo" id="toc-dicionário-mínimo" class="nav-link" data-scroll-target="#dicionário-mínimo"><span class="header-section-number">11.7.1</span> Dicionário mínimo</a></li>
+  </ul></li>
+  <li><a href="#parâmetros-e-potabilidade" id="toc-parâmetros-e-potabilidade" class="nav-link" data-scroll-target="#parâmetros-e-potabilidade"><span class="header-section-number">11.8</span> Parâmetros e potabilidade</a></li>
+  <li><a href="#plano-de-amostragem" id="toc-plano-de-amostragem" class="nav-link" data-scroll-target="#plano-de-amostragem"><span class="header-section-number">11.9</span> Plano de amostragem</a></li>
+  <li><a href="#exemplo-cobertura-de-abastecimento" id="toc-exemplo-cobertura-de-abastecimento" class="nav-link" data-scroll-target="#exemplo-cobertura-de-abastecimento"><span class="header-section-number">11.10</span> Exemplo: cobertura de abastecimento</a></li>
+  <li><a href="#exemplo-amostras-fora-do-padrão" id="toc-exemplo-amostras-fora-do-padrão" class="nav-link" data-scroll-target="#exemplo-amostras-fora-do-padrão"><span class="header-section-number">11.11</span> Exemplo: amostras fora do padrão</a></li>
+  <li><a href="#exemplo-cumprimento-do-plano-de-amostragem" id="toc-exemplo-cumprimento-do-plano-de-amostragem" class="nav-link" data-scroll-target="#exemplo-cumprimento-do-plano-de-amostragem"><span class="header-section-number">11.12</span> Exemplo: cumprimento do plano de amostragem</a></li>
+  <li><a href="#exemplo-indicador-microbiológico" id="toc-exemplo-indicador-microbiológico" class="nav-link" data-scroll-target="#exemplo-indicador-microbiológico"><span class="header-section-number">11.13</span> Exemplo: indicador microbiológico</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">11.14</span> Qualidade dos dados</a></li>
+  <li><a href="#análise-temporal-e-territorial" id="toc-análise-temporal-e-territorial" class="nav-link" data-scroll-target="#análise-temporal-e-territorial"><span class="header-section-number">11.15</span> Análise temporal e territorial</a></li>
+  <li><a href="#interpretação-espacial" id="toc-interpretação-espacial" class="nav-link" data-scroll-target="#interpretação-espacial"><span class="header-section-number">11.16</span> Interpretação espacial</a></li>
+  <li><a href="#monitoramento-em-emergências" id="toc-monitoramento-em-emergências" class="nav-link" data-scroll-target="#monitoramento-em-emergências"><span class="header-section-number">11.17</span> Monitoramento em emergências</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">11.18</span> Acesso aos dados</a>
+  <ul class="collapse">
+  <li><a href="#processamento-de-arquivos-grandes" id="toc-processamento-de-arquivos-grandes" class="nav-link" data-scroll-target="#processamento-de-arquivos-grandes"><span class="header-section-number">11.18.1</span> Processamento de arquivos grandes</a></li>
+  </ul></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">11.19</span> Relacionamento com outros sistemas</a>
+  <ul class="collapse">
+  <li><a href="#checklist-para-integração" id="toc-checklist-para-integração" class="nav-link" data-scroll-target="#checklist-para-integração"><span class="header-section-number">11.19.1</span> Checklist para integração</a></li>
+  </ul></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">11.20</span> Limitações</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">11.21</span> Cuidados de interpretação</a>
+  <ul class="collapse">
+  <li><a href="#armadilhas-de-interpretação" id="toc-armadilhas-de-interpretação" class="nav-link" data-scroll-target="#armadilhas-de-interpretação"><span class="header-section-number">11.21.1</span> Armadilhas de interpretação</a></li>
+  </ul></li>
+  <li><a href="#checklist-de-reprodutibilidade" id="toc-checklist-de-reprodutibilidade" class="nav-link" data-scroll-target="#checklist-de-reprodutibilidade"><span class="header-section-number">11.22</span> Checklist de reprodutibilidade</a></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">11.23</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">11.24</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-oficiais" id="toc-documentos-oficiais" class="nav-link" data-scroll-target="#documentos-oficiais"><span class="header-section-number">11.24.1</span> Documentos oficiais</a></li>
+  <li><a href="#artigos" id="toc-artigos" class="nav-link" data-scroll-target="#artigos"><span class="header-section-number">11.24.2</span> Artigos</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sisagua.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -508,7 +586,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-sisagua" class="quarto-section-identifier"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></h1>
+<h1 class="title"><span id="sec-sisagua" class="quarto-section-identifier"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></h1>
 </div>
 
 
@@ -525,88 +603,1483 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<section id="resumo" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">12.1</span> Resumo</h2>
-<ul>
-<li>Ano de criação: 1999</li>
-<li>Cobertura: Dimensões pública e privada do SUS</li>
-<li>Divulgação de dados: mensal, com até dois meses de defasagem</li>
-</ul>
+<section class="podcast-player" data-transcript="podcast/sisagua_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sisagua.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sisagua.md">podcast/sisagua.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
 </section>
-<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">12.2</span> Histórico e organização</h2>
-<p>O SISAGUA é um instrumento do <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/situacao-de-saude/vigiagua">Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA)</a>, que tem como finalidade auxiliar o gerenciamento de riscos à saúde associados à qualidade da água para consumo humano. Seu obketivo é “promover a melhoria da qualidade da água destinada à população a partir da geração de informações em tempo hábil para planejamento, tomada de decisão e execução de ações de saúde relacionadas à água para consumo humano”.</p>
-<p>O sistema conta com dados gerados rotineiramento pelos serviços de abastacimento de água e por profissionais de vigilância em saúde.</p>
-<p>A primeira versão do SISAGUA foi concebida em 1999 pela Fundação Nacional de Saúde (Funasa), sendo disponibilizada em 2000. Em 2003, o sistema foi modificado e passou a se vinculado à Secretaria de Vigilância em Saúde (SVS) do Ministério da Saúde. Desde então, o SISAGUA tem sido atualizado continuamente, se adequando a legislação vigente e incorporando melhorias no sistema.</p>
+<section id="resumo" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">11.1</span> Resumo</h2>
+<table class="caption-top table">
+<caption>Características gerais do SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ano de criação</td>
+<td>1999, com primeira versão disponibilizada em 2000</td>
+</tr>
+<tr class="even">
+<td>Programa relacionado</td>
+<td>Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano (Vigiagua)</td>
+</tr>
+<tr class="odd">
+<td>Evento registrado</td>
+<td>Cadastro de formas de abastecimento e resultados de controle e vigilância da qualidade da água</td>
+</tr>
+<tr class="even">
+<td>Unidade de análise</td>
+<td>Forma de abastecimento, ponto de coleta, amostra, parâmetro, município e competência</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Formas de abastecimento de água para consumo humano no território nacional</td>
+</tr>
+<tr class="even">
+<td>Periodicidade</td>
+<td>Cadastro anual e monitoramentos com periodicidade definida pela norma de potabilidade e pelas ações de vigilância</td>
+</tr>
+<tr class="odd">
+<td>Uso central</td>
+<td>Gerenciamento de riscos à saúde associados à qualidade da água para consumo humano</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (SISAGUA) é um dos principais instrumentos do Vigiagua. Ele reúne informações sobre formas de abastecimento, controle da qualidade da água realizado por responsáveis pelo abastecimento e vigilância realizada pelo setor saúde.</p>
+<p>O SISAGUA não registra doenças, atendimentos ou internações. Ele descreve condições de abastecimento e resultados de monitoramento da água para consumo humano. Por isso, sua interpretação exige distinguir cadastro, controle, vigilância, tipo de forma de abastecimento, ponto de coleta, parâmetro analisado e padrão de potabilidade.</p>
+</section>
+<section id="quando-usar-o-sisagua" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="quando-usar-o-sisagua"><span class="header-section-number">11.2</span> Quando usar o SISAGUA</h2>
+<p>Use o SISAGUA quando a pergunta envolve abastecimento de água, monitoramento da qualidade da água, cumprimento de planos de amostragem, exposição potencial da população e vigilância ambiental em saúde.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SISAGUA para</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Que formas de abastecimento existem no município?</td>
+<td>Consultar o módulo Cadastro</td>
+<td>Cadastro precisa estar atualizado</td>
+</tr>
+<tr class="even">
+<td>A população está coberta por formas cadastradas?</td>
+<td>Analisar população estimada abastecida</td>
+<td>Estimativa de população abastecida não equivale a população residente</td>
+</tr>
+<tr class="odd">
+<td>O controle realizou análises previstas?</td>
+<td>Consultar dados do módulo Controle</td>
+<td>Prestador e setor saúde têm responsabilidades diferentes</td>
+</tr>
+<tr class="even">
+<td>A vigilância coletou amostras?</td>
+<td>Consultar dados do módulo Vigilância</td>
+<td>Coleta pode ser rotina, denúncia, surto ou desastre</td>
+</tr>
+<tr class="odd">
+<td>A água atende ao padrão de potabilidade?</td>
+<td>Avaliar resultados por parâmetro</td>
+<td>Dados brutos não substituem interpretação normativa</td>
+</tr>
+<tr class="even">
+<td>Há áreas com maior risco?</td>
+<td>Combinar cadastro, amostras, parâmetros e território</td>
+<td>Ausência de análise não é evidência de segurança</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O SISAGUA apoia vigilância e gestão de risco. A análise deve separar “não houve resultado fora do padrão” de “não houve amostra registrada”. Essas situações têm significados sanitários diferentes.</p>
+</div>
+</div>
+</section>
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">11.3</span> Histórico e organização</h2>
+<p>O SISAGUA surgiu no contexto do Vigiagua, programa voltado a promover saúde, prevenir doenças e agravos de veiculação hídrica e apoiar a vigilância da qualidade da água para consumo humano. A primeira versão foi concebida pela Fundação Nacional de Saúde (Funasa) em 1999 e disponibilizada em 2000.</p>
+<p>Em 2003, o sistema passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde. Ao longo do tempo, foi atualizado para acompanhar mudanças na norma de qualidade da água, incorporar melhorias operacionais e ampliar sua capacidade de produzir informações para planejamento, tomada de decisão e ações de saúde.</p>
+<p>As reformulações posteriores adequaram o sistema às normas de potabilidade, aos fluxos de cadastro, controle e vigilância e à disseminação por relatórios, painéis e dados abertos. Estudos sobre o SISAGUA destacam sua evolução, aplicabilidade para a vigilância e importância da avaliação de completitude dos dados <span class="citation" data-cites="oliveiraSistemaInformacaoVigilancia2019 mataSistemaInformacaoVigilancia2022">(<a href="referencias.html#ref-mataSistemaInformacaoVigilancia2022" role="doc-biblioref">MATA; OLIVEIRA JÚNIOR; RAMALHO, 2022</a>; <a href="referencias.html#ref-oliveiraSistemaInformacaoVigilancia2019" role="doc-biblioref">OLIVEIRA et al., 2019</a>)</span>.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-107d38d2fba6a10900cf" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-c1fc38ae038773417186" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-107d38d2fba6a10900cf">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Portaria GM/MS 36 sobre<\/br>normas de potabilidade da água<\/small>","start":"1990-01-01"},{"id":"3","content":"<small>Concepção e implantação do SISAGUA 1<\/small>","start":"1999-01-01"},{"id":"4","content":"<small>Portaria MS 1469 com nova norma de potabilidade<\/small>","start":"2000-01-01"},{"id":"5","content":"<small>SISAGUA 1<\/small>","start":"2000-01-01"},{"id":"6","content":"<small>Portaria MS 518 com novas<\/br>normas de potabilidade<\/small>","start":"2004-01-01"},{"id":"7","content":"<small>SISAGUA 2<\/small>","start":"2004-01-01"},{"id":"8","content":"<small>Institucionalização do VIGIAGUA<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Reformulação do SISAGUA<\/small>","start":"2006-01-01"},{"id":"10","content":"<small>SISAGUA 3<\/small>","start":"2007-01-01"},{"id":"11","content":"<small>Portaria MS 2914 de procedimentos de<\/br>controle e vigilância da água<\/small>","start":"2011-01-01"},{"id":"12","content":"<small>SISAGUA 4<\/small>","start":"2014-01-01"},{"id":"13","content":"<small>Diretriz do plano nacional de<\/br>amostragem de qualidade da água<\/small>","start":"2016-01-01"},{"id":"14","content":"<small>Reformulação do SISAGUA<\/small>","start":"2021-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-c1fc38ae038773417186">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Portaria GM/MS 36 sobre<\/br>normas de potabilidade da água<\/small>","start":"1990-01-01"},{"id":"3","content":"<small>Concepção e implantação do SISAGUA 1<\/small>","start":"1999-01-01"},{"id":"4","content":"<small>Portaria MS 1469 com nova norma de potabilidade<\/small>","start":"2000-01-01"},{"id":"5","content":"<small>SISAGUA 1<\/small>","start":"2000-01-01"},{"id":"6","content":"<small>Portaria MS 518 com novas<\/br>normas de potabilidade<\/small>","start":"2004-01-01"},{"id":"7","content":"<small>SISAGUA 2<\/small>","start":"2004-01-01"},{"id":"8","content":"<small>Institucionalização do VIGIAGUA<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Reformulação do SISAGUA<\/small>","start":"2006-01-01"},{"id":"10","content":"<small>SISAGUA 3<\/small>","start":"2007-01-01"},{"id":"11","content":"<small>Portaria MS 2914 de procedimentos de<\/br>controle e vigilância da água<\/small>","start":"2011-01-01"},{"id":"12","content":"<small>SISAGUA 4<\/small>","start":"2014-01-01"},{"id":"13","content":"<small>Diretriz do plano nacional de<\/br>amostragem de qualidade da água<\/small>","start":"2016-01-01"},{"id":"14","content":"<small>Reformulação do SISAGUA<\/small>","start":"2021-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SISAGUA</p>
 </div>
 </div>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="12.3">
-<h2 data-number="12.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">12.3</span> Estrutura dos dados</h2>
-<p>Os dados do SISAGUA se dividem em três categorias principais:</p>
-<ul>
-<li>Cadastro: Formas de abastecimento existentes no município, com atualização anual;</li>
-<li>Controle: Monitoramento da qualidade da água realizado pelos prestadores de serviço de abastecimento de água, conforme parâmetros, número de amostras e frequência definida na norma de potabilidade, com atualização mensal, trimestral e semestral;</li>
-<li>Vigilância: Monitoramento da qualidade da água realizado pelas Secretarias de Saúde dos municípios, com atualização de rotina, ou por denúncia, surto ou ocorrência de desastre.</li>
-</ul>
-<p>O sistema apresenta variáveis específicas para cada categoria:</p>
-<ul>
-<li>Cadastro
-<ul>
-<li>Formas de abastecimento de água disponíveis no município
-<ul>
-<li>Nome</li>
-<li>Instituição responsável sobre as estações de tratamento de água</li>
-<li>Responsável técnico</li>
-</ul></li>
-<li>Sistema de distribuição de água ou ponto de consumo
-<ul>
-<li>Município abastecido</li>
-<li>População estimada abastecida</li>
-<li>Áreas e locais de abastecimento</li>
-</ul></li>
-</ul></li>
-<li>Controle
-<ul>
-<li>Forma de abastecimento de água</li>
-<li>Identificação do local de coleta</li>
-<li>Indicadores de qualidade da água</li>
-</ul></li>
-<li>Vigilância
-<ul>
-<li>Dados gerais do município</li>
-<li>Código de identificação da amostra</li>
-<li>Motivo da coleta e responsável</li>
-<li>Forma de abastecimento de água</li>
-<li>Informações de procedência</li>
-<li>Ponto de coleta</li>
-<li>Endereço,</li>
-<li>Coordenadas geográficas</li>
-<li>Data e hora da coleta</li>
-<li>Resultados das análises dos parâmetros do monitoramento da qualidade da água</li>
-</ul></li>
-</ul>
-<p>O sistema também apresenta dados sobre abastecimento de água por carro pipa.</p>
+<section id="fluxo-de-informação" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="fluxo-de-informação"><span class="header-section-number">11.4</span> Fluxo de informação</h2>
+<p>O fluxo do SISAGUA combina informações de responsáveis pelo abastecimento e de profissionais de vigilância em saúde. O objetivo é permitir diagnóstico, monitoramento e resposta a riscos relacionados à água consumida pela população.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-sisagua-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sisagua-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sisagua-fluxo">flowchart TD
+  cad[Cadastro das formas de abastecimento] --&gt; sis[SISAGUA]
+  ctrl[Controle pelo responsável pelo abastecimento] --&gt; sis
+  vig[Vigilância pelo setor saúde] --&gt; sis
+  lab[Laboratório e resultados analíticos] --&gt; sis
+  sis --&gt; rel[Relatórios, painéis e dados abertos]
+  rel --&gt; gest[Gestão de risco e ações de saúde]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sisagua-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;11.1: Fluxo simplificado de informação no SISAGUA
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<table class="caption-top table">
+<caption>Atores e responsabilidades no fluxo do SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ator</th>
+<th>Responsabilidade informacional</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Responsável pelo abastecimento</td>
+<td>Dados de controle da qualidade da água</td>
+<td>Não confundir controle com vigilância</td>
+</tr>
+<tr class="even">
+<td>Vigilância em saúde</td>
+<td>Monitoramento, inspeção e ações do setor saúde</td>
+<td>Coletas podem ser de rotina ou motivadas por evento</td>
+</tr>
+<tr class="odd">
+<td>Laboratórios</td>
+<td>Resultados analíticos de amostras</td>
+<td>Verificar método, parâmetro, unidade e data</td>
+</tr>
+<tr class="even">
+<td>Gestão municipal e estadual</td>
+<td>Cadastro, análise, resposta e acompanhamento</td>
+<td>Capacidade técnica local afeta oportunidade e completitude</td>
+</tr>
+<tr class="odd">
+<td>Ministério da Saúde</td>
+<td>Consolidação nacional, painéis e dados abertos</td>
+<td>Dados abertos podem exigir processamento robusto</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">12.4</span> Acesso aos dados</h2>
-<p>Os dados do SISAGUA podem ser acessados no portal OpenDataSUS:</p>
+<section id="módulos-do-sistema" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="módulos-do-sistema"><span class="header-section-number">11.5</span> Módulos do sistema</h2>
+<p>Os dados do SISAGUA são organizados em três módulos principais: Cadastro, Controle e Vigilância.</p>
+<table class="caption-top table">
+<caption>Módulos principais do SISAGUA</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Módulo</th>
+<th>Conteúdo</th>
+<th>Periodicidade típica</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cadastro</td>
+<td>Características físicas e operacionais das formas de abastecimento</td>
+<td>Atualização periódica, com referência anual</td>
+<td>Cadastro desatualizado compromete denominadores</td>
+</tr>
+<tr class="even">
+<td>Controle</td>
+<td>Monitoramento realizado por responsáveis pelo abastecimento</td>
+<td>Conforme norma de potabilidade e plano de amostragem</td>
+<td>Mede responsabilidade do prestador ou responsável</td>
+</tr>
+<tr class="odd">
+<td>Vigilância</td>
+<td>Monitoramento realizado pelo setor saúde</td>
+<td>Rotina, denúncia, surto, desastre ou ação específica</td>
+<td>Coleta pode ser direcionada a risco</td>
+</tr>
+</tbody>
+</table>
+<section id="qual-base-usar" class="level3" data-number="11.5.1">
+<h3 data-number="11.5.1" class="anchored" data-anchor-id="qual-base-usar"><span class="header-section-number">11.5.1</span> Qual base usar?</h3>
+<p>A escolha do conjunto de dados deve seguir a pergunta de análise. O erro mais comum é usar resultados de amostras para responder perguntas de cadastro, ou usar cadastro para inferir potabilidade.</p>
+<table class="caption-top table">
+<caption>Escolha inicial de bases do SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Base ou módulo principal</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quais formas de abastecimento existem?</td>
+<td>Cadastro</td>
+<td>Verificar atualização anual e completitude</td>
+</tr>
+<tr class="even">
+<td>Qual população é estimada como abastecida?</td>
+<td>Cadastro</td>
+<td>Comparar com população residente e evitar dupla contagem</td>
+</tr>
+<tr class="odd">
+<td>O prestador cumpriu o monitoramento previsto?</td>
+<td>Controle mensal ou semestral</td>
+<td>Separar frequência e parâmetro</td>
+</tr>
+<tr class="even">
+<td>O setor saúde cumpriu a diretriz de vigilância?</td>
+<td>Vigilância</td>
+<td>Comparar amostras realizadas com amostras esperadas</td>
+</tr>
+<tr class="odd">
+<td>Há resultados fora do padrão?</td>
+<td>Controle ou Vigilância</td>
+<td>Manter origem do dado e ponto de coleta</td>
+</tr>
+<tr class="even">
+<td>Há risco em uma denúncia, surto ou desastre?</td>
+<td>Vigilância</td>
+<td>Coletas direcionadas por risco não representam rotina</td>
+</tr>
+<tr class="odd">
+<td>Quais substâncias exigem monitoramento menos frequente?</td>
+<td>Controle semestral ou bases específicas</td>
+<td>Conferir plano de amostragem e norma vigente</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="controle-e-vigilância" class="level3" data-number="11.5.2">
+<h3 data-number="11.5.2" class="anchored" data-anchor-id="controle-e-vigilância"><span class="header-section-number">11.5.2</span> Controle e Vigilância</h3>
+<p>Controle e Vigilância são complementares, mas não intercambiáveis. O Controle é executado pelo responsável pelo abastecimento; a Vigilância é executada pelo setor saúde para verificar o atendimento à norma e avaliar risco.</p>
+<table class="caption-top table">
+<caption>Diferenças entre Controle e Vigilância no SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Controle</th>
+<th>Vigilância</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quem realiza</td>
+<td>Responsável pelo sistema ou solução coletiva de abastecimento</td>
+<td>Autoridade de saúde pública</td>
+</tr>
+<tr class="even">
+<td>Finalidade</td>
+<td>Verificar e manter a potabilidade da água fornecida</td>
+<td>Verificar o cumprimento da norma e avaliar risco à saúde</td>
+</tr>
+<tr class="odd">
+<td>Frequência</td>
+<td>Definida pelo plano de amostragem da norma</td>
+<td>Rotina, diretriz nacional, denúncia, surto, desastre ou ação específica</td>
+</tr>
+<tr class="even">
+<td>Interpretação</td>
+<td>Responsabilidade operacional do prestador ou responsável</td>
+<td>Ação independente do setor saúde</td>
+</tr>
+<tr class="odd">
+<td>Uso comum</td>
+<td>Monitorar parâmetros previstos e qualidade operacional</td>
+<td>Avaliar risco, priorizar ações e orientar intervenção</td>
+</tr>
+<tr class="even">
+<td>Erro comum</td>
+<td>Tratar como vigilância pública</td>
+<td>Misturar coletas direcionadas com rotina</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não some Controle e Vigilância para calcular uma única proporção de amostras fora do padrão sem justificar. As amostras podem ter objetivos, pontos de coleta e vieses de seleção diferentes.</p>
+</div>
+</div>
+</section>
+<section id="formas-de-abastecimento" class="level3" data-number="11.5.3">
+<h3 data-number="11.5.3" class="anchored" data-anchor-id="formas-de-abastecimento"><span class="header-section-number">11.5.3</span> Formas de abastecimento</h3>
+<p>A forma de abastecimento é uma dimensão central no SISAGUA. Ela define o contexto em que a população recebe água e condiciona responsabilidades, monitoramento e interpretação de risco.</p>
+<table class="caption-top table">
+<caption>Formas de abastecimento registradas no SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sigla</th>
+<th>Forma de abastecimento</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SAA</td>
+<td>Sistema de Abastecimento de Água</td>
+<td>Abastecimento coletivo por sistema com rede de distribuição</td>
+</tr>
+<tr class="even">
+<td>SAC</td>
+<td>Solução Alternativa Coletiva</td>
+<td>Abastecimento coletivo sem todas as características de SAA</td>
+</tr>
+<tr class="odd">
+<td>SAI</td>
+<td>Solução Alternativa Individual</td>
+<td>Abastecimento individual, como poço ou nascente de uso individual</td>
+</tr>
+<tr class="even">
+<td>Carro-pipa</td>
+<td>Abastecimento por transporte de água</td>
+<td>Pode ser emergencial, complementar ou regular em áreas específicas</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não compare SAA, SAC, SAI e carro-pipa como se tivessem o mesmo significado operacional. Cada forma tem riscos, responsabilidades e possibilidades de monitoramento diferentes.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">11.6</span> Unidade de análise</h2>
+<p>A unidade de análise muda conforme o módulo. A contagem de cadastros não equivale à contagem de amostras, e a contagem de amostras não equivale ao número de pessoas expostas.</p>
+<table class="caption-top table">
+<caption>Unidades de análise frequentes no SISAGUA</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>Módulo comum</th>
+<th>Uso</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Forma de abastecimento</td>
+<td>Cadastro</td>
+<td>Diagnóstico da cobertura e estrutura de abastecimento</td>
+<td>Pode abastecer mais de um local ou população</td>
+</tr>
+<tr class="even">
+<td>Município abastecido</td>
+<td>Cadastro</td>
+<td>Território coberto</td>
+<td>Município do abastecimento pode diferir do ponto de captação</td>
+</tr>
+<tr class="odd">
+<td>Ponto de coleta</td>
+<td>Controle ou Vigilância</td>
+<td>Localização da amostra</td>
+<td>Ponto pode mudar ou ser pouco preciso</td>
+</tr>
+<tr class="even">
+<td>Amostra</td>
+<td>Controle ou Vigilância</td>
+<td>Resultado de monitoramento</td>
+<td>Amostras são repetidas no tempo e por parâmetro</td>
+</tr>
+<tr class="odd">
+<td>Parâmetro</td>
+<td>Controle ou Vigilância</td>
+<td>Avaliação de potabilidade</td>
+<td>Unidade, método e padrão importam</td>
+</tr>
+<tr class="even">
+<td>População estimada abastecida</td>
+<td>Cadastro</td>
+<td>Denominador de cobertura ou exposição potencial</td>
+<td>Estimativa deve ser validada</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="11.7">
+<h2 data-number="11.7" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">11.7</span> Estrutura dos dados</h2>
+<p>Os dados incluem cadastro das formas de abastecimento, resultados de monitoramento de controle e resultados de vigilância. Em análises reprodutíveis, registre módulo, ano, município, forma de abastecimento, ponto de coleta, parâmetro e regra de tratamento de resultados.</p>
+<table class="caption-top table">
+<caption>Dimensões úteis para inspeção do SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Exemplos de campos ou conceitos</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tempo</td>
+<td>Ano, mês, data e hora da coleta</td>
+<td>A análise usa cadastro anual ou amostra mensal?</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>UF, município, localidade, endereço, coordenadas</td>
+<td>O local representa captação, tratamento, distribuição ou consumo?</td>
+</tr>
+<tr class="odd">
+<td>Forma de abastecimento</td>
+<td>SAA, SAC, SAI, carro-pipa</td>
+<td>O tipo de abastecimento foi estratificado?</td>
+</tr>
+<tr class="even">
+<td>Responsável</td>
+<td>Prestador, empresa, setor saúde, responsável técnico</td>
+<td>O dado é de controle ou vigilância?</td>
+</tr>
+<tr class="odd">
+<td>Ponto de coleta</td>
+<td>Rede, saída do tratamento, reservatório, domicílio</td>
+<td>O ponto é adequado à pergunta?</td>
+</tr>
+<tr class="even">
+<td>Parâmetro</td>
+<td>Cloro residual, turbidez, coliformes, E. coli, fluoreto, substâncias químicas</td>
+<td>Unidade e padrão de potabilidade foram conferidos?</td>
+</tr>
+<tr class="odd">
+<td>Resultado</td>
+<td>Valor, presença/ausência, atendimento ao padrão</td>
+<td>Como foram tratados resultados ausentes ou abaixo do limite?</td>
+</tr>
+</tbody>
+</table>
+<section id="dicionário-mínimo" class="level3" data-number="11.7.1">
+<h3 data-number="11.7.1" class="anchored" data-anchor-id="dicionário-mínimo"><span class="header-section-number">11.7.1</span> Dicionário mínimo</h3>
+<table class="caption-top table">
+<caption>Conceitos mínimos para análise do SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conceito</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cadastro ativo</td>
+<td>Forma de abastecimento registrada para o período</td>
+<td>Cadastro pode estar incompleto ou desatualizado</td>
+</tr>
+<tr class="even">
+<td>População abastecida</td>
+<td>População estimada coberta por forma de abastecimento</td>
+<td>Não é necessariamente igual à população residente</td>
+</tr>
+<tr class="odd">
+<td>Controle mensal</td>
+<td>Resultados de parâmetros com frequência mensal ou menor</td>
+<td>Responsabilidade do prestador ou responsável</td>
+</tr>
+<tr class="even">
+<td>Controle semestral</td>
+<td>Resultados de parâmetros com frequência superior a mensal</td>
+<td>Frequência depende da norma</td>
+</tr>
+<tr class="odd">
+<td>Amostra de vigilância</td>
+<td>Coleta realizada pelo setor saúde</td>
+<td>Pode ser rotina ou motivada por risco</td>
+</tr>
+<tr class="even">
+<td>Resultado fora do padrão</td>
+<td>Resultado que não atende à norma aplicável</td>
+<td>Exige parâmetro, unidade e valor de referência</td>
+</tr>
+<tr class="odd">
+<td>Ausência de amostra</td>
+<td>Falta de monitoramento registrado</td>
+<td>Não equivale a água potável</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="parâmetros-e-potabilidade" class="level2" data-number="11.8">
+<h2 data-number="11.8" class="anchored" data-anchor-id="parâmetros-e-potabilidade"><span class="header-section-number">11.8</span> Parâmetros e potabilidade</h2>
+<p>A norma de qualidade da água define parâmetros, valores de referência, planos de amostragem e responsabilidades. No SISAGUA, os parâmetros podem incluir indicadores microbiológicos, físico-químicos, desinfecção, turbidez, fluoretação, substâncias químicas e características organolépticas.</p>
+<table class="caption-top table">
+<caption>Grupos de parâmetros frequentes em análises de qualidade da água</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Grupo</th>
+<th>Exemplos</th>
+<th>Interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Microbiológico</td>
+<td>Coliformes totais, Escherichia coli</td>
+<td>Indica risco de contaminação fecal ou falha sanitária</td>
+</tr>
+<tr class="even">
+<td>Desinfecção</td>
+<td>Cloro residual livre ou outro agente desinfetante</td>
+<td>Indica manutenção de barreira sanitária</td>
+</tr>
+<tr class="odd">
+<td>Físico-químico</td>
+<td>Turbidez, cor, pH</td>
+<td>Pode indicar falha de tratamento ou alteração da água</td>
+</tr>
+<tr class="even">
+<td>Fluoretação</td>
+<td>Fluoreto</td>
+<td>Relevante para saúde bucal e risco de inadequação</td>
+</tr>
+<tr class="odd">
+<td>Substâncias químicas</td>
+<td>Agrotóxicos, metais, compostos químicos</td>
+<td>Exige atenção a frequência, limite e método analítico</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dados brutos do SISAGUA devem ser interpretados com a norma vigente no período analisado. O mesmo valor pode ter implicações diferentes conforme parâmetro, unidade, ponto de coleta e regra de potabilidade.</p>
+</div>
+</div>
+</section>
+<section id="plano-de-amostragem" class="level2" data-number="11.9">
+<h2 data-number="11.9" class="anchored" data-anchor-id="plano-de-amostragem"><span class="header-section-number">11.9</span> Plano de amostragem</h2>
+<p>O número esperado de amostras não é fixo para todos os municípios, parâmetros ou formas de abastecimento. Ele depende da norma vigente, população abastecida, forma de abastecimento, parâmetro, frequência de monitoramento e ponto de coleta.</p>
+<table class="caption-top table">
+<caption>Elementos que definem o plano de amostragem</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Como afeta o plano</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>População abastecida</td>
+<td>Pode aumentar o número mínimo de amostras</td>
+<td>Usar população abastecida da forma correta</td>
+</tr>
+<tr class="even">
+<td>Forma de abastecimento</td>
+<td>SAA, SAC, SAI e carro-pipa têm contextos diferentes</td>
+<td>Não aplicar regra única sem conferir a norma</td>
+</tr>
+<tr class="odd">
+<td>Parâmetro</td>
+<td>Frequência e exigência variam por parâmetro</td>
+<td>Microbiológicos e químicos podem ter calendários distintos</td>
+</tr>
+<tr class="even">
+<td>Ponto de coleta</td>
+<td>Captação, tratamento, distribuição ou consumo</td>
+<td>O ponto precisa ser compatível com o parâmetro</td>
+</tr>
+<tr class="odd">
+<td>Origem do dado</td>
+<td>Controle ou Vigilância</td>
+<td>Planos e responsabilidades não são iguais</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Mês, semestre ou ano</td>
+<td>Comparar amostras realizadas e esperadas no mesmo período</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antes de interpretar proporções fora do padrão, calcule também a cobertura do monitoramento. Um indicador sanitário frágil pode esconder baixa amostragem.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-cobertura-de-abastecimento" class="level2" data-number="11.10">
+<h2 data-number="11.10" class="anchored" data-anchor-id="exemplo-cobertura-de-abastecimento"><span class="header-section-number">11.10</span> Exemplo: cobertura de abastecimento</h2>
+<p>Uma análise inicial pode estimar a distribuição da população abastecida por tipo de forma de abastecimento. Esse uso depende da qualidade do cadastro e da consistência da população estimada abastecida.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cobertura_abastecimento <span class="ot">&lt;-</span> sisagua_cadastro <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(ano <span class="sc">==</span> <span class="dv">2024</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, forma_abastecimento) <span class="sc">|&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">formas =</span> <span class="fu">n_distinct</span>(id_forma_abastecimento),</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">populacao_abastecida =</span> <span class="fu">sum</span>(populacao_estimada, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>cobertura_abastecimento</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>População abastecida é uma estimativa cadastral. Para indicadores de cobertura municipal, compare com população residente e verifique sobreposição entre formas de abastecimento.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-amostras-fora-do-padrão" class="level2" data-number="11.11">
+<h2 data-number="11.11" class="anchored" data-anchor-id="exemplo-amostras-fora-do-padrão"><span class="header-section-number">11.11</span> Exemplo: amostras fora do padrão</h2>
+<p>Outra análise comum é calcular a proporção de amostras fora do padrão para um parâmetro em determinado território e período. O resultado deve ser estratificado por forma de abastecimento, origem do dado e ponto de coleta.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>turbidez_municipal <span class="ot">&lt;-</span> sisagua_vigilancia <span class="sc">|&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(parametro <span class="sc">==</span> <span class="st">"Turbidez"</span>, ano <span class="sc">==</span> <span class="dv">2024</span>) <span class="sc">|&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, forma_abastecimento) <span class="sc">|&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">amostras =</span> <span class="fu">n</span>(),</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">fora_padrao =</span> <span class="fu">sum</span>(resultado_fora_padrao <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">proporcao_fora_padrao =</span> fora_padrao <span class="sc">/</span> amostras,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>turbidez_municipal</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Uma proporção baixa de amostras fora do padrão pode refletir boa qualidade da água ou baixa intensidade de amostragem. Sempre verifique o número de amostras e o cumprimento do plano de monitoramento.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-cumprimento-do-plano-de-amostragem" class="level2" data-number="11.12">
+<h2 data-number="11.12" class="anchored" data-anchor-id="exemplo-cumprimento-do-plano-de-amostragem"><span class="header-section-number">11.12</span> Exemplo: cumprimento do plano de amostragem</h2>
+<p>Para avaliar monitoramento, compare amostras realizadas com amostras esperadas. Esse indicador deve ser calculado por município, forma de abastecimento, parâmetro, origem do dado e período.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>cumprimento_amostragem <span class="ot">&lt;-</span> sisagua_amostras <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(ano <span class="sc">==</span> <span class="dv">2024</span>, origem <span class="sc">==</span> <span class="st">"Vigilância"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, forma_abastecimento, parametro, mes) <span class="sc">|&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">amostras_realizadas =</span> <span class="fu">n</span>(), <span class="at">.groups =</span> <span class="st">"drop"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    plano_amostragem <span class="sc">|&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">filter</span>(ano <span class="sc">==</span> <span class="dv">2024</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      <span class="fu">select</span>(codmun, forma_abastecimento, parametro, mes, amostras_esperadas),</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"codmun"</span>, <span class="st">"forma_abastecimento"</span>, <span class="st">"parametro"</span>, <span class="st">"mes"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">cumprimento =</span> amostras_realizadas <span class="sc">/</span> amostras_esperadas,</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">situacao =</span> <span class="fu">case_when</span>(</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      <span class="fu">is.na</span>(amostras_esperadas) <span class="sc">~</span> <span class="st">"sem plano informado"</span>,</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>      cumprimento <span class="sc">&gt;=</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"cumprido"</span>,</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>      cumprimento <span class="sc">&lt;</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"parcial"</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>cumprimento_amostragem</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O exemplo assume que o plano de amostragem esperado já foi estruturado em uma tabela auxiliar. Na prática, essa tabela deve ser derivada da norma vigente e das características da forma de abastecimento.</p>
+</div>
+</div>
+</section>
+<section id="exemplo-indicador-microbiológico" class="level2" data-number="11.13">
+<h2 data-number="11.13" class="anchored" data-anchor-id="exemplo-indicador-microbiológico"><span class="header-section-number">11.13</span> Exemplo: indicador microbiológico</h2>
+<p>Parâmetros microbiológicos são centrais para avaliar risco sanitário. A presença de E. coli, por exemplo, indica contaminação fecal e deve ser interpretada com atenção ao ponto de coleta, forma de abastecimento e origem da amostra.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ecoli_vigilancia <span class="ot">&lt;-</span> sisagua_vigilancia <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(parametro <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"Escherichia coli"</span>, <span class="st">"E. coli"</span>), ano <span class="sc">==</span> <span class="dv">2024</span>) <span class="sc">|&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(codmun, forma_abastecimento, ponto_coleta) <span class="sc">|&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">amostras =</span> <span class="fu">n</span>(),</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">presenca_ecoli =</span> <span class="fu">sum</span>(resultado <span class="sc">==</span> <span class="st">"Presença"</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">proporcao_presenca =</span> presenca_ecoli <span class="sc">/</span> amostras,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>ecoli_vigilancia</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para indicadores microbiológicos, baixa proporção de presença não é suficiente sem verificar número de amostras, representatividade dos pontos e cumprimento do plano de amostragem.</p>
+</div>
+</div>
+</section>
+<section id="qualidade-dos-dados" class="level2" data-number="11.14">
+<h2 data-number="11.14" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">11.14</span> Qualidade dos dados</h2>
+<p>A qualidade do SISAGUA depende de cadastro atualizado, oportunidade do registro, consistência territorial, completitude de campos, integração com laboratórios e capacidade operacional da vigilância.</p>
+<table class="caption-top table">
+<caption>Dimensões de qualidade relevantes no SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Checagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Completitude cadastral</td>
+<td>Campos de forma de abastecimento, população, responsável e município preenchidos</td>
+</tr>
+<tr class="even">
+<td>Atualização</td>
+<td>Cadastros revisados no ano de referência</td>
+</tr>
+<tr class="odd">
+<td>Consistência territorial</td>
+<td>Município, localidade, endereço e coordenadas compatíveis</td>
+</tr>
+<tr class="even">
+<td>Plano de amostragem</td>
+<td>Número de amostras compatível com população e norma aplicável</td>
+</tr>
+<tr class="odd">
+<td>Parâmetros</td>
+<td>Unidade, método e resultado coerentes</td>
+</tr>
+<tr class="even">
+<td>Duplicidade</td>
+<td>Amostras ou cadastros repetidos</td>
+</tr>
+<tr class="odd">
+<td>Oportunidade</td>
+<td>Coleta, resultado e digitação em tempo adequado</td>
+</tr>
+<tr class="even">
+<td>Origem do dado</td>
+<td>Controle, vigilância, integração laboratorial ou webservice identificados</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>validacao_cadastro <span class="ot">&lt;-</span> sisagua_cadastro <span class="sc">|&gt;</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(ano, codmun) <span class="sc">|&gt;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">formas =</span> <span class="fu">n_distinct</span>(id_forma_abastecimento),</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_populacao =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(populacao_estimada), <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_forma =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(forma_abastecimento) <span class="sc">|</span> forma_abastecimento <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">sem_responsavel =</span> <span class="fu">sum</span>(<span class="fu">is.na</span>(responsavel) <span class="sc">|</span> responsavel <span class="sc">==</span> <span class="st">""</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>validacao_cadastro</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="análise-temporal-e-territorial" class="level2" data-number="11.15">
+<h2 data-number="11.15" class="anchored" data-anchor-id="análise-temporal-e-territorial"><span class="header-section-number">11.15</span> Análise temporal e territorial</h2>
+<p>Séries temporais do SISAGUA exigem cuidado com mudanças de versão do sistema, norma de potabilidade, completitude cadastral e capacidade local de monitoramento. Comparações territoriais devem considerar diferenças nas formas de abastecimento e no porte populacional.</p>
+<table class="caption-top table">
+<caption>Cuidados em análises temporais e territoriais do SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Comparação</th>
+<th>Recomendação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ao longo do tempo</td>
+<td>Separar cadastro, controle e vigilância</td>
+<td>Mudanças de sistema e norma podem gerar quebras</td>
+</tr>
+<tr class="even">
+<td>Entre municípios</td>
+<td>Estratificar por SAA, SAC, SAI e carro-pipa</td>
+<td>Municípios têm estruturas de abastecimento diferentes</td>
+</tr>
+<tr class="odd">
+<td>Entre parâmetros</td>
+<td>Conferir unidade e frequência de monitoramento</td>
+<td>Parâmetros têm planos de amostragem distintos</td>
+</tr>
+<tr class="even">
+<td>Entre controle e vigilância</td>
+<td>Manter origem do dado separada</td>
+<td>Controle e vigilância têm papéis diferentes</td>
+</tr>
+<tr class="odd">
+<td>Mapas de risco</td>
+<td>Validar coordenadas e pontos de coleta</td>
+<td>Ponto de coleta pode não representar toda a área abastecida</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="interpretação-espacial" class="level2" data-number="11.16">
+<h2 data-number="11.16" class="anchored" data-anchor-id="interpretação-espacial"><span class="header-section-number">11.16</span> Interpretação espacial</h2>
+<p>A dimensão espacial do SISAGUA exige cuidado porque diferentes locais podem aparecer no ciclo de abastecimento. Um ponto de captação, uma estação de tratamento, um reservatório, um ponto da rede e um domicílio não representam a mesma exposição.</p>
+<table class="caption-top table">
+<caption>Leitura espacial dos pontos no SISAGUA</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Local</th>
+<th>O que representa</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Captação</td>
+<td>Origem da água bruta</td>
+<td>Não representa água consumida após tratamento</td>
+</tr>
+<tr class="even">
+<td>Tratamento</td>
+<td>Saída ou etapa da estação de tratamento</td>
+<td>Não representa toda a rede de distribuição</td>
+</tr>
+<tr class="odd">
+<td>Reservatório</td>
+<td>Armazenamento intermediário</td>
+<td>Pode indicar risco localizado</td>
+</tr>
+<tr class="even">
+<td>Rede de distribuição</td>
+<td>Água distribuída em ponto da rede</td>
+<td>Pode variar por setor de abastecimento</td>
+</tr>
+<tr class="odd">
+<td>Ponto de consumo</td>
+<td>Torneira, domicílio, escola ou outro ponto final</td>
+<td>Pode refletir condições prediais ou locais</td>
+</tr>
+<tr class="even">
+<td>Coordenada</td>
+<td>Local do ponto cadastrado ou coletado</td>
+<td>Pode estar ausente, imprecisa ou representar sede administrativa</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mapas de amostras devem mostrar pontos amostrados, não “qualidade da água de todo o município”. Para inferir área abastecida, relacione forma de abastecimento, população estimada, setor ou localidade quando disponível.</p>
+</div>
+</div>
+</section>
+<section id="monitoramento-em-emergências" class="level2" data-number="11.17">
+<h2 data-number="11.17" class="anchored" data-anchor-id="monitoramento-em-emergências"><span class="header-section-number">11.17</span> Monitoramento em emergências</h2>
+<p>Coletas realizadas em denúncias, surtos, enchentes, secas, desastres, intermitência de abastecimento ou uso de carro-pipa podem ser direcionadas a situações de maior risco. Elas são importantes para resposta em saúde pública, mas não devem ser comparadas diretamente com monitoramento de rotina.</p>
+<table class="caption-top table">
+<caption>Situações em que o monitoramento pode ser direcionado por risco</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Denúncia</td>
+<td>Coleta motivada por suspeita ou reclamação</td>
+<td>Pode super-representar problemas</td>
+</tr>
+<tr class="even">
+<td>Surto</td>
+<td>Investigação de evento de saúde</td>
+<td>Relacionar com vigilância epidemiológica</td>
+</tr>
+<tr class="odd">
+<td>Enchente</td>
+<td>Risco de contaminação e interrupção de abastecimento</td>
+<td>Comparar com período de rotina é inadequado</td>
+</tr>
+<tr class="even">
+<td>Seca</td>
+<td>Uso de fontes alternativas e carro-pipa</td>
+<td>Cadastro e ponto de coleta podem mudar rapidamente</td>
+</tr>
+<tr class="odd">
+<td>Desastre</td>
+<td>Ação emergencial de vigilância</td>
+<td>Registrar contexto do evento</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="acesso-aos-dados" class="level2" data-number="11.18">
+<h2 data-number="11.18" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">11.18</span> Acesso aos dados</h2>
+<p>O SISAGUA possui diferentes formas de disseminação: dados abertos, relatórios no sistema e painéis de informação. Dados brutos em formato CSV estão disponíveis em portais públicos, geralmente acompanhados de dicionários de dados.</p>
+<table class="caption-top table">
+<caption>Formas de acesso e integração do SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Forma de acesso</th>
+<th>Indicação de uso</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dados abertos</td>
+<td>Processamento reprodutível e análises próprias</td>
+</tr>
+<tr class="even">
+<td>Relatórios do sistema</td>
+<td>Acompanhamento por usuários autorizados</td>
+</tr>
+<tr class="odd">
+<td>Painéis Vigiagua/Sisagua</td>
+<td>Exploração visual de indicadores e monitoramento</td>
+</tr>
+<tr class="even">
+<td>Webservices</td>
+<td>Envio de dados por responsáveis pelo abastecimento</td>
+</tr>
+<tr class="odd">
+<td>Integração com GAL</td>
+<td>Transmissão de solicitações e resultados laboratoriais</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li><a href="https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&amp;sort=score+desc%2C+metadata_modified+desc">OpenDataSUS SISAGUA</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua">SISAGUA - Ministério da Saúde</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua">Vigiagua - Ministério da Saúde</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&amp;sort=score+desc%2C+metadata_modified+desc">OpenDataSUS - SISAGUA</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade">Norma de Qualidade da Água para Consumo Humano</a></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Alguns arquivos do SISAGUA podem ser grandes para planilhas comuns. Prefira R, Python, DuckDB, Arrow ou bancos de dados quando trabalhar com séries extensas de amostras.</p>
+</div>
+</div>
+<section id="processamento-de-arquivos-grandes" class="level3" data-number="11.18.1">
+<h3 data-number="11.18.1" class="anchored" data-anchor-id="processamento-de-arquivos-grandes"><span class="header-section-number">11.18.1</span> Processamento de arquivos grandes</h3>
+<p>Os dados abertos do SISAGUA podem ultrapassar limites práticos de planilhas. Para fluxos reprodutíveis, prefira ferramentas que leiam dados em partes ou consultem arquivos sem carregá-los integralmente na memória.</p>
+<table class="caption-top table">
+<caption>Estratégias para processamento de dados extensos do SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Estratégia</th>
+<th>Quando usar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R com <code>{data.table}</code>, <code>{arrow}</code> ou <code>{duckdb}</code></td>
+<td>Leitura rápida e análise tabular reprodutível</td>
+</tr>
+<tr class="even">
+<td>Python com pandas, Polars, DuckDB ou PyArrow</td>
+<td>Processamento local ou em pipeline</td>
+</tr>
+<tr class="odd">
+<td>Banco de dados local</td>
+<td>Séries longas, muitos parâmetros e múltiplos anos</td>
+</tr>
+<tr class="even">
+<td>Leitura por chunks</td>
+<td>Máquinas com pouca memória</td>
+</tr>
+<tr class="odd">
+<td>Arquivos particionados</td>
+<td>Análises por ano, UF, módulo ou parâmetro</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="11.19">
+<h2 data-number="11.19" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">11.19</span> Relacionamento com outros sistemas</h2>
+<p>O SISAGUA pode ser combinado com bases de saúde, território, população e saneamento, desde que a unidade territorial e temporal esteja bem definida.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre SISAGUA e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Qual população potencialmente exposta?</td>
+<td>SISAGUA + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>População abastecida e residente são denominadores diferentes</td>
+</tr>
+<tr class="even">
+<td>Há associação com doenças de veiculação hídrica?</td>
+<td>SISAGUA + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>) ou SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>)</td>
+<td>Evitar inferência causal simples com dados agregados</td>
+</tr>
+<tr class="odd">
+<td>Onde estão os serviços e laboratórios?</td>
+<td>SISAGUA + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>CNES descreve oferta de serviços, não abastecimento</td>
+</tr>
+<tr class="even">
+<td>Há desigualdade territorial de abastecimento?</td>
+<td>SISAGUA + malhas territoriais e dados socioeconômicos</td>
+<td>Validar forma de abastecimento e cobertura cadastral</td>
+</tr>
+<tr class="odd">
+<td>Como acompanhar eventos extremos?</td>
+<td>SISAGUA + registros de desastre e vigilância</td>
+<td>Coletas podem ser direcionadas por risco</td>
+</tr>
+</tbody>
+</table>
+<section id="checklist-para-integração" class="level3" data-number="11.19.1">
+<h3 data-number="11.19.1" class="anchored" data-anchor-id="checklist-para-integração"><span class="header-section-number">11.19.1</span> Checklist para integração</h3>
+<table class="caption-top table">
+<caption>Verificações antes de integrar o SISAGUA com outras bases</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Definir território</td>
+<td>Município, localidade, ponto de coleta e área abastecida podem divergir</td>
+</tr>
+<tr class="even">
+<td>Separar módulo</td>
+<td>Cadastro, controle e vigilância têm unidades diferentes</td>
+</tr>
+<tr class="odd">
+<td>Definir período</td>
+<td>Cadastro anual e amostras mensais ou eventuais não são equivalentes</td>
+</tr>
+<tr class="even">
+<td>Escolher denominador</td>
+<td>População abastecida, residente ou amostras respondem perguntas diferentes</td>
+</tr>
+<tr class="odd">
+<td>Manter forma de abastecimento</td>
+<td>SAA, SAC, SAI e carro-pipa não devem ser agregados sem critério</td>
+</tr>
+<tr class="even">
+<td>Documentar norma</td>
+<td>Padrão de potabilidade depende da regra vigente</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="limitações" class="level2" data-number="11.20">
+<h2 data-number="11.20" class="anchored" data-anchor-id="limitações"><span class="header-section-number">11.20</span> Limitações</h2>
+<table class="caption-top table">
+<caption>Limitações recorrentes do SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dados dependem de registro local e prestadores</td>
+<td>Sub-registro e atraso podem ocorrer</td>
+</tr>
+<tr class="even">
+<td>Cadastro pode estar desatualizado</td>
+<td>Indicadores de cobertura e exposição podem ficar distorcidos</td>
+</tr>
+<tr class="odd">
+<td>Ausência de amostra não indica segurança</td>
+<td>Pode indicar falha de monitoramento</td>
+</tr>
+<tr class="even">
+<td>Controle e vigilância têm origens diferentes</td>
+<td>Misturar módulos pode gerar interpretações incorretas</td>
+</tr>
+<tr class="odd">
+<td>Parâmetros têm frequências distintas</td>
+<td>Comparações entre parâmetros exigem cuidado</td>
+</tr>
+<tr class="even">
+<td>Ponto de coleta é localizado</td>
+<td>Pode não representar toda a população abastecida</td>
+</tr>
+<tr class="odd">
+<td>Mudanças normativas afetam séries</td>
+<td>Padrões e planos de amostragem podem mudar</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="11.21">
+<h2 data-number="11.21" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">11.21</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o SISAGUA, alguns cuidados são recorrentes:</p>
+<ul>
+<li>definir módulo, forma de abastecimento e unidade de análise;</li>
+<li>separar dados de controle e vigilância;</li>
+<li>verificar cadastro e população abastecida antes de calcular cobertura;</li>
+<li>conferir parâmetro, unidade, ponto de coleta e norma aplicável;</li>
+<li>distinguir resultado dentro do padrão, resultado fora do padrão e ausência de amostra;</li>
+<li>validar território, endereço e coordenadas antes de mapear;</li>
+<li>documentar data de extração, dicionário e versão dos dados;</li>
+<li>evitar inferir doenças ou impactos clínicos apenas a partir de amostras ambientais.</li>
+</ul>
+<table class="caption-top table">
+<caption>Erros frequentes em análises com SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tratar ausência de resultado fora do padrão como água segura</td>
+<td>Verificar quantidade e plano de amostragem</td>
+</tr>
+<tr class="even">
+<td>Somar controle e vigilância sem distinção</td>
+<td>Manter origem do dado na análise</td>
+</tr>
+<tr class="odd">
+<td>Usar população abastecida como população residente</td>
+<td>Declarar denominador e comparar com POP quando necessário</td>
+</tr>
+<tr class="even">
+<td>Comparar SAA, SAC, SAI e carro-pipa sem estratificar</td>
+<td>Analisar por forma de abastecimento</td>
+</tr>
+<tr class="odd">
+<td>Interpretar ponto de coleta como toda a rede</td>
+<td>Considerar localização e representatividade da amostra</td>
+</tr>
+<tr class="even">
+<td>Ignorar mudanças da norma de potabilidade</td>
+<td>Versionar período e regra aplicada</td>
+</tr>
+</tbody>
+</table>
+<section id="armadilhas-de-interpretação" class="level3" data-number="11.21.1">
+<h3 data-number="11.21.1" class="anchored" data-anchor-id="armadilhas-de-interpretação"><span class="header-section-number">11.21.1</span> Armadilhas de interpretação</h3>
+<p>Algumas leituras parecem intuitivas, mas são frágeis:</p>
+<ul>
+<li>“nenhum resultado fora do padrão” pode significar poucas ou nenhuma amostra;</li>
+<li>amostras de denúncia ou desastre não representam necessariamente a rotina;</li>
+<li>controle e vigilância têm responsabilidades e vieses diferentes;</li>
+<li>população abastecida não é automaticamente população residente;</li>
+<li>ponto de coleta não representa toda a rede ou todo o município;</li>
+<li>SAA, SAC, SAI e carro-pipa não têm o mesmo perfil de risco;</li>
+<li>parâmetros químicos, microbiológicos e de desinfecção têm frequências e interpretações distintas.</li>
 </ul>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="12.5">
-<h2 data-number="12.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">12.5</span> Bibliografia recomendada</h2>
+</section>
+<section id="checklist-de-reprodutibilidade" class="level2" data-number="11.22">
+<h2 data-number="11.22" class="anchored" data-anchor-id="checklist-de-reprodutibilidade"><span class="header-section-number">11.22</span> Checklist de reprodutibilidade</h2>
+<p>Uma análise do SISAGUA deve registrar as decisões que afetam módulo, norma, parâmetro, território e denominador.</p>
+<table class="caption-top table">
+<caption>Itens mínimos para reprodutibilidade em análises do SISAGUA</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Registrar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fonte</td>
+<td>OpenDataSUS, painel, relatório do sistema ou outra extração</td>
+</tr>
+<tr class="even">
+<td>Data de extração</td>
+<td>Dia em que os dados foram baixados ou consultados</td>
+</tr>
+<tr class="odd">
+<td>Módulo</td>
+<td>Cadastro, Controle mensal, Controle semestral ou Vigilância</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Ano, mês, semestre ou competência</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>UF, município, localidade, ponto ou área abastecida</td>
+</tr>
+<tr class="even">
+<td>Forma de abastecimento</td>
+<td>SAA, SAC, SAI ou carro-pipa</td>
+</tr>
+<tr class="odd">
+<td>Parâmetro</td>
+<td>Nome, unidade e grupo do parâmetro</td>
+</tr>
+<tr class="even">
+<td>Ponto de coleta</td>
+<td>Captação, tratamento, rede, reservatório, domicílio ou outro</td>
+</tr>
+<tr class="odd">
+<td>Norma</td>
+<td>Versão da regra de potabilidade usada</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>Amostras, população abastecida, população residente ou formas cadastradas</td>
+</tr>
+<tr class="odd">
+<td>Ausentes</td>
+<td>Como foram tratados amostras ausentes, resultados vazios e abaixo do limite</td>
+</tr>
+<tr class="even">
+<td>Origem</td>
+<td>Controle, Vigilância, GAL, webservice ou digitação</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="checklist-final" class="level2" data-number="11.23">
+<h2 data-number="11.23" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">11.23</span> Checklist final</h2>
+<p>Antes de concluir uma análise com SISAGUA, verifique se:</p>
+<ul>
+<li>o módulo analisado foi definido;</li>
+<li>a forma de abastecimento foi identificada;</li>
+<li>cadastro, controle e vigilância foram mantidos separados quando necessário;</li>
+<li>o período e a norma aplicável foram documentados;</li>
+<li>parâmetro, unidade e ponto de coleta foram conferidos;</li>
+<li>o número de amostras foi avaliado junto com resultados fora do padrão;</li>
+<li>o cumprimento do plano de amostragem foi avaliado quando relevante;</li>
+<li>coletas de rotina e emergenciais foram separadas quando necessário;</li>
+<li>população abastecida e população residente não foram confundidas;</li>
+<li>dados ausentes, atrasados e duplicados foram tratados;</li>
+<li>território e coordenadas foram validados antes de mapas;</li>
+<li>fonte, data de extração, dicionário e norma foram registrados;</li>
+<li>limitações de registro, cobertura e representatividade foram discutidas.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="11.24">
+<h2 data-number="11.24" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">11.24</span> Bibliografia recomendada</h2>
+<section id="documentos-oficiais" class="level3" data-number="11.24.1">
+<h3 data-number="11.24.1" class="anchored" data-anchor-id="documentos-oficiais"><span class="header-section-number">11.24.1</span> Documentos oficiais</h3>
+<ul>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua">SISAGUA - Ministério da Saúde</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua">Vigiagua - Ministério da Saúde</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade">Norma de Qualidade da Água para Consumo Humano</a></li>
+</ul>
+</section>
+<section id="artigos" class="level3" data-number="11.24.2">
+<h3 data-number="11.24.2" class="anchored" data-anchor-id="artigos"><span class="header-section-number">11.24.2</span> Artigos</h3>
 <ul>
 <li>Artigo <em>Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade</em> <span class="citation" data-cites="oliveiraSistemaInformacaoVigilancia2019">(<a href="referencias.html#ref-oliveiraSistemaInformacaoVigilancia2019" role="doc-biblioref">OLIVEIRA et al., 2019</a>)</span>. Disponível <a href="https://doi.org/10.5123/S1679-49742019000100024">aqui</a>.</li>
 <li>Artigo <em>Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020</em> <span class="citation" data-cites="mataSistemaInformacaoVigilancia2022">(<a href="referencias.html#ref-mataSistemaInformacaoVigilancia2022" role="doc-biblioref">MATA; OLIVEIRA JÚNIOR; RAMALHO, 2022</a>)</span>. Disponível <a href="https://doi.org/10.1590/S2237-96222022000300003">aqui</a>.</li>
@@ -621,6 +2094,7 @@ MATA, R. N. D.; OLIVEIRA JÚNIOR, A. D.; RAMALHO, W. M. <a href="https://doi.org
 OLIVEIRA, A. D. et al. <a href="https://doi.org/10.5123/S1679-49742019000100024"><span>Sistema de Informa<span>ç</span><span>ã</span>o de Vigil<span>â</span>ncia da Qualidade da <span>Á</span>gua para Consumo Humano (Sisagua): caracter<span>í</span>sticas, evolu<span>ç</span><span>ã</span>o e aplicabilidade*</span></a>. <strong>Epidemiologia e Servi<span class="nocase">ç</span>os de Sa<span class="nocase">ú</span>de</strong>, v. 28, n. 1, abr. 2019.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1039,13 +2513,13 @@ OLIVEIRA, A. D. et al. <a href="https://doi.org/10.5123/S1679-49742019000100024"
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./siops.html" class="pagination-link" aria-label="SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span>
+      <a href="./cnes.html" class="pagination-link" aria-label="CNES -- Cadastro Nacional de Estabelecimentos de Saúde">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sisab.html" class="pagination-link" aria-label="SISAB - Sistema de Informação em Saúde para a Atenção Básica">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAB - Sistema de Informação em Saúde para a Atenção Básica</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./siops.html" class="pagination-link" aria-label="SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

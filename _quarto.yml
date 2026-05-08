@@ -35,6 +35,12 @@ project:
     - podcast/siops.mp3
     - podcast/siops.md
     - podcast/siops_transcript.json
+    - podcast/sisaps.mp3
+    - podcast/sisaps.md
+    - podcast/sisaps_transcript.json
+    - podcast/sisagua.mp3
+    - podcast/sisagua.md
+    - podcast/sisagua_transcript.json
     - podcast/sync-transcript.js
 
 execute:
@@ -68,9 +74,9 @@ book:
     - sia.qmd
     - sinan.qmd
     - cnes.qmd
-    - siops.qmd
     - sisagua.qmd
-    - sisab.qmd
+    - siops.qmd
+    - sisaps.qmd
     - sipni.qmd
     - referencias.qmd
   appendices:
