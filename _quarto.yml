@@ -58,7 +58,7 @@ book:
   repo-actions: [source, issue]
   date: today
   search: true
-  downloads: [pdf, epub]
+  downloads: [pdf]
   google-analytics: 
     tracking-id: G-2M7VLSRDCB
     anonymize-ip: false
@@ -104,5 +104,3 @@ format:
     css: styles.css
   pdf:
    documentclass: scrreprt
-  epub: 
-   toc: true
