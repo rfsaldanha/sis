@@ -1,53 +1,527 @@
-# SI-PNI -- Sistema de Informações do Programa Nacional de Vacinação {#sec-sipni}
+# SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações {#sec-sipni}
+
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/sipni_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/sipni.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sipni.md">podcast/sipni.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
 
 ## Resumo
 
--  Ano de criação: 1975 (institucionalização do PNI)
--  Cobertura: Dimensões pública e privada do SUS
--  Unidade: dados agregados e notificações de imunização
--  Divulgação de dados: 
+| Característica | Descrição |
+|---|---|
+| Programa relacionado | Programa Nacional de Imunizações (PNI), criado em 1973 e institucionalizado na década de 1970 |
+| Sistema atual | Novo SI-PNI integrado à Rede Nacional de Dados em Saúde (RNDS) |
+| Sistemas anteriores | Módulos web e desktop do SI-PNI, incluindo API, EDI, EAPV, PAISSV, AIU, PAIS e SICRIE |
+| Evento registrado | Imunobiológico administrado, dose aplicada, movimentação de imunobiológicos e eventos supostamente atribuíveis à vacinação |
+| Unidade de análise | Dose aplicada, pessoa vacinada, esquema vacinal, imunobiológico, lote, estabelecimento, município, UF e período |
+| Cobertura | Vacinação realizada no SUS e registros integrados por sistemas conectados à RNDS |
+| Uso central | Monitoramento de doses aplicadas, coberturas vacinais, campanhas, rotina, estoques e segurança da vacinação |
+: Características gerais do SI-PNI
+
+O Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) organiza registros relacionados às ações de vacinação no Brasil. Seu papel é apoiar o acompanhamento do calendário nacional de vacinação, campanhas, coberturas vacinais, distribuição e uso de imunobiológicos, além de subsidiar a vigilância de eventos supostamente atribuíveis à vacinação.
+
+O SI-PNI deve ser interpretado como um sistema de registro de ações de imunização. Ele não mede diretamente a proteção imunológica da população, a efetividade vacinal, a qualidade da sala de vacina ou a necessidade de vacinação. Para essas perguntas, o registro de doses precisa ser combinado com denominadores populacionais, regras do calendário, investigação epidemiológica e outros sistemas.
+
+::: {.callout-note}
+**Terminologia.** O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.
+:::
+
+## Como ler este capítulo
+
+Este capítulo foi escrito para quatro usos complementares:
+
+| Público | O que deve procurar no capítulo |
+|---|---|
+| Estudantes | A diferença entre programa, sistema de informação, dose, pessoa, esquema e cobertura |
+| Gestores | Fluxo de registro, oportunidade da informação, monitoramento de campanhas, qualidade e limites operacionais |
+| Pesquisadores | Unidade de análise, denominadores, vieses, integração com outras bases e limitações inferenciais |
+| Analistas de dados | Campos essenciais, filtros, validações, duplicidades, datas, território e reprodutibilidade |
+: Formas de uso do capítulo por diferentes públicos
+
+O ponto central é que o SI-PNI registra ações de vacinação. Para transformar registros em indicadores, é preciso tomar decisões sobre dose válida, pessoa, esquema, calendário, população-alvo, território e período. Essas decisões devem aparecer explicitamente em qualquer tabela, gráfico, relatório ou artigo.
+
+## Quando usar o SI-PNI
+
+Use o SI-PNI quando a pergunta envolve doses aplicadas, pessoas vacinadas, esquemas vacinais, campanhas, cobertura vacinal, registros de imunobiológicos ou eventos relacionados à vacinação.
+
+| Pergunta de análise | Usar SI-PNI para | Cuidado principal |
+|---|---|---|
+| Quantas doses foram aplicadas? | Contar registros de vacinação por imunobiológico, dose, local e período | Dose aplicada não equivale a pessoa vacinada |
+| Qual é a cobertura vacinal? | Relacionar doses válidas ao grupo-alvo | Denominador populacional precisa ser compatível |
+| Quantas pessoas completaram esquema? | Reconstituir sequência de doses por pessoa e imunobiológico | Esquemas variam por idade, produto, campanha e norma vigente |
+| Uma campanha atingiu o público-alvo? | Acompanhar doses da estratégia de campanha | Separar campanha, rotina e reforços |
+| Há atraso ou queda recente? | Comparar registros por data de vacinação e data de extração | Competências recentes podem estar incompletas |
+| Como está a qualidade do registro? | Avaliar completitude, duplicidade e consistência de campos | Sub-registro altera numeradores e coberturas |
+: Perguntas comuns que podem ser respondidas com o SI-PNI
+
+::: {.callout-warning}
+Cobertura vacinal não é apenas a contagem de doses aplicadas. Ela depende de numerador, denominador, idade-alvo, dose válida, calendário, território e período de referência.
+:::
 
 ## Histórico e organização
 
-A criação do SI-PNI se dá em 1975, com a institucionalização do Programa Nacional de Imunizações (PNI), sendo desenvolvido pelo DataSUS.
+O Programa Nacional de Imunizações (PNI) foi criado em 1973 e consolidado no contexto das políticas nacionais de vigilância epidemiológica e controle de doenças imunopreveníveis. A institucionalização da vacinação como ação nacional permanente antecede a informatização do sistema e envolve calendário vacinal, rede de frio, distribuição de imunobiológicos, normas técnicas, campanhas e salas de vacinação.
 
-Até 2023, o SI-PNI se organizava em um conjunto de sistemas:
+Com a expansão do programa, o registro informatizado passou a apoiar o acompanhamento de doses aplicadas, coberturas, estoques, distribuição e eventos adversos. O SI-PNI antigo organizava diferentes módulos e aplicações, entre eles:
 
--  Avaliação do Programa de Imunizações (API)
--  Estoque e Distribuição de Imunobiológicos (EDI)
--  Eventos Adversos Pós-Vacinação (EAPV)
--  Programa de Avaliação do Instrumento de Supervisão em Sala de Vacinação (PAISSV)
--  Apuração dos Imunobiológicos Utilizados (AIU)
--  Programa de Avaliação do Instrumento de Supervisão (PAIS)
--  Sistema de Informações dos Centros de Referência em Imunobiológicos Especiais (SICRIE)
+- Avaliação do Programa de Imunizações (API);
+- Estoque e Distribuição de Imunobiológicos (EDI);
+- Eventos Adversos Pós-Vacinação (EAPV);
+- Programa de Avaliação do Instrumento de Supervisão em Sala de Vacinação (PAISSV);
+- Apuração dos Imunobiológicos Utilizados (AIU);
+- Programa de Avaliação do Instrumento de Supervisão (PAIS);
+- Sistema de Informações dos Centros de Referência em Imunobiológicos Especiais (SICRIE).
 
-Durante a pandemia de SARS-CoV-2, o SI-PNI foi completamente reformulado visando ter capacidade de resposta para a imunização massiva da população. O novo SI-PNI já surge integrado à [Rede Nacional de Dados de Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds), alinhado a Estratégia de Saúde Digital (e-SAÚDE) do Ministério da Saúde, tão como a proposta de um Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial de Saúde (OMS). Em [31 de maio de 2023](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf) foi publicado o módulo para vacinação de rotina, encerrando por fim as versões Web e desktop do antigo SI-PNI. 
+A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração nacional e maior oportunidade da informação. O novo SI-PNI foi reformulado para operar integrado à [Rede Nacional de Dados em Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds) e à Estratégia de Saúde Digital do Ministério da Saúde, em linha com a proposta de Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial da Saúde.
+
+Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS.
+
+- [Nota Informativa Conjunta nº 4/2023 - DPNI](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view)
+- [Entenda o novo Sistema de Informação do Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes)
+
+### O que mudou com o novo SI-PNI
+
+A mudança para o novo SI-PNI não é apenas uma troca de interface. Ela altera a forma como o registro de imunização deve ser entendido na produção de indicadores.
+
+| Dimensão | SI-PNI antigo | Novo SI-PNI/RNDS | Consequência analítica |
+|---|---|---|---|
+| Modelo predominante | Módulos e bases agregadas ou parcialmente individualizadas | Registro nominal e integração nacional | Maior possibilidade de acompanhar esquemas, mas maior exigência de deduplicação e consistência |
+| Fluxo | Sistemas web/desktop e módulos específicos | SI-PNI, sistemas integrados e RNDS | Competências recentes podem refletir atraso de integração |
+| Cobertura | Fortemente apoiada em doses agregadas | Pode combinar dose, pessoa e esquema | Método de cálculo precisa ser documentado |
+| Território | Agregações por local e período | Possibilidade de residência e estabelecimento | Diferenciar cobertura populacional de produção do serviço |
+| Comparabilidade histórica | Séries agregadas de longa duração | Bases individualizadas recentes | Transições podem gerar quebras artificiais |
+| Privacidade | Dados públicos mais agregados | Microdados abertos com proteção de identificação | Linkage individual público é limitado |
+: Mudanças práticas entre o SI-PNI antigo e o novo SI-PNI
+
+::: {.callout-warning}
+Séries que atravessam a transição para o novo SI-PNI devem ser interpretadas como séries de informação, não apenas como séries de vacinação. Mudanças de sistema, fluxo, prazo e deduplicação podem produzir quebras que parecem mudanças epidemiológicas.
+:::
+
+## Fluxo de informação
+
+No modelo atual, o registro de vacinação pode ser feito diretamente no novo SI-PNI ou em sistemas locais integrados. Quando o sistema de registro está integrado à RNDS, o evento de imunização é enviado segundo modelos nacionais de informação. Quando o registro ocorre em sistemas da Atenção Primária à Saúde sem integração direta, a informação pode passar por fluxos intermediários, como o e-SUS APS/SISAB, antes de ser incorporada à RNDS.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado de registros de vacinação no SI-PNI"
+%%| label: fig-sipni-fluxo
+flowchart TD
+  sala[Sala de vacinação ou serviço vacinador] --> registro[Registro da vacinação]
+  registro --> sipni[Novo SI-PNI]
+  registro --> local[Sistema local integrado]
+  registro --> aps[e-SUS APS/SISAB quando aplicável]
+  local --> rnds[RNDS]
+  aps --> rnds
+  sipni --> rnds
+  rnds --> bases[Bases e relatórios nacionais]
+  bases --> analise[Gestão, vigilância, cobertura e pesquisa]
+```
+:::
+
+| Etapa | O que ocorre | Cuidado |
+|---|---|---|
+| Vacinação | Imunobiológico é administrado em sala de vacina, campanha ou serviço | Registrar data, produto, dose, lote, pessoa e estabelecimento |
+| Registro | Informação é lançada no novo SI-PNI ou em sistema integrado | Sistemas diferentes podem ter prazos e validações distintos |
+| Integração | Registro é transmitido à RNDS ou fluxo nacional correspondente | Atrasos podem afetar competências recentes |
+| Processamento | Dados passam por críticas, padronização e consolidação | Registros duplicados ou inconsistentes podem permanecer se não forem tratados |
+| Divulgação | Dados são publicados em relatórios, painéis ou bases abertas | Registrar data de extração e versão da base |
+: Etapas gerais do fluxo de informação do SI-PNI
+
+## O que o SI-PNI registra
+
+O SI-PNI registra eventos e informações administrativas relacionadas à vacinação. A base pode ser usada para estudar cobertura e oportunidade, mas o dado primário não é uma medida direta de imunidade.
+
+| O SI-PNI registra | O SI-PNI não mede sozinho |
+|---|---|
+| Dose aplicada ou imunobiológico administrado | Proteção imunológica efetiva da pessoa |
+| Produto, dose, lote, estratégia e estabelecimento | Efetividade vacinal em condições reais |
+| Pessoa vacinada, quando há identificação consistente | Necessidade de vacinação da população |
+| Local, data e território do registro | Barreiras de acesso sem triangulação |
+| Campanhas e estratégias de vacinação | Qualidade técnica da aplicação |
+| Eventos supostamente atribuíveis à vacinação, quando notificados | Causalidade de evento adverso sem investigação |
+: Escopo informacional do SI-PNI
+
+Essa distinção ajuda a evitar leituras excessivas. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.
 
 ## Estrutura dos dados
 
-O antigo SI-PNI disponibiliza dados agregados do quantitativo de doses aplicadas e de cobertura vacinal. Já o novo PNI disponibiliza dados desagregados de doses aplicadas, onde cada registro é uma dose aplicada.
+O SI-PNI antigo disponibilizava principalmente dados agregados de doses aplicadas e cobertura vacinal. O novo SI-PNI amplia a centralidade do registro individualizado: cada linha dos microdados abertos de doses aplicadas tende a representar um registro de imunobiológico administrado, com variáveis sobre pessoa, estabelecimento, produto, dose, lote, data e território.
 
-O registro de vacinações é direcionado para o novo SI-PNI (RNDS) se o sistema de registro estiver devidamente integrado. Caso não esteja, o registro vacinal é direcionado para o SISAB e posteriormente migra para a RNDS (em torno de 30 dias).
+| Dimensão | Exemplos de campos ou conceitos | Pergunta de controle |
+|---|---|---|
+| Pessoa | Identificador anonimizado, idade, sexo, raça/cor, residência | A análise exige pessoas distintas ou registros de dose? |
+| Imunobiológico | Vacina, soro, imunoglobulina, fabricante, lote | O produto corresponde ao calendário ou à campanha analisada? |
+| Dose | 1ª dose, 2ª dose, dose única, reforço, dose adicional | A dose é válida para o esquema em questão? |
+| Tempo | Data de vacinação, data de registro, competência, data de extração | A série usa data do evento ou data de disponibilização? |
+| Estabelecimento | CNES, município e UF do serviço vacinador | O território é local de aplicação ou residência? |
+| Campanha ou estratégia | Rotina, campanha, Covid-19, influenza e outras estratégias | Registros de rotina e campanha foram separados quando necessário? |
+| Evento relacionado | ESAVI e investigação de segurança | Notificação de evento não equivale automaticamente a causalidade |
+: Dimensões úteis para análise dos dados do SI-PNI
+
+::: {.callout-tip}
+Antes de calcular qualquer indicador, defina se a unidade é dose, pessoa, esquema, estabelecimento ou território. A mesma base pode responder a perguntas diferentes, mas os filtros e denominadores mudam.
+:::
+
+### Orientação para dicionário de dados
+
+Os arquivos do OpenDataSUS são disponibilizados por ano e mês de vacinação, com dicionário próprio. O conjunto de campos pode mudar entre anos, campanhas e versões da base. Em consulta ao conjunto de 2025, o portal informava 60 variáveis, fonte RNDS, atualização semanal e recursos em CSV, JSON, XML e API. Por isso, o dicionário usado na análise deve ser preservado junto com a data de extração.
+
+| Grupo de campos | O que procurar | Uso analítico | Cuidado |
+|---|---|---|---|
+| Pessoa | Identificador anonimizado, sexo, idade, raça/cor, residência | Contar pessoas, avaliar desigualdades e construir esquemas | Identificador público pode não permitir linkage externo |
+| Vacinação | Vacina, dose, grupo de atendimento, estratégia, data | Definir numerador e validade da dose | Nomes e categorias podem mudar |
+| Produto | Fabricante, lote, imunobiológico | Segurança, rastreio e validação | Produto e dose precisam ser compatíveis |
+| Estabelecimento | CNES, município e UF de aplicação | Produção por serviço ou sala de vacina | Não usar como residência sem justificativa |
+| Território | Município/UF de residência e de aplicação, quando disponíveis | Cobertura populacional e comparação territorial | Campos de residência ausentes ou inconsistentes exigem regra |
+| Tempo | Data de vacinação, data de registro, competência, mês do arquivo | Séries temporais e oportunidade | Data do evento e data de disponibilização não são equivalentes |
+| Fonte/integração | Sistema de origem ou indicação de integração, quando disponível | Avaliar fluxo e completitude | Mudanças de fluxo podem afetar série |
+: Grupos de campos úteis para ler o dicionário do SI-PNI
+
+::: {.callout-note}
+Não assuma que o nome da variável é estável entre todos os arquivos. Em análises reprodutíveis, salve o dicionário, a URL, o período, o formato, a data de extração e qualquer regra de renomeação usada.
+:::
+
+## Unidade de análise
+
+A unidade de análise muda a interpretação do resultado. Em imunização, essa distinção é especialmente importante porque uma pessoa pode receber várias doses do mesmo imunobiológico, diferentes vacinas no mesmo dia e reforços em momentos posteriores.
+
+| Unidade | O que representa | Quando usar | Cuidado |
+|---|---|---|---|
+| Dose aplicada | Um registro de imunobiológico administrado | Produção vacinal e volume de aplicação | Uma pessoa pode gerar vários registros |
+| Pessoa vacinada | Indivíduo com pelo menos uma dose registrada | Alcance da vacinação | Exige identificação consistente da pessoa |
+| Esquema completo | Conjunto de doses exigidas para o público-alvo | Avaliação de proteção esperada pelo calendário | Regras mudam por idade, produto e período |
+| Dose válida | Dose que cumpre idade, intervalo e regra do esquema | Cobertura e conclusão de esquema | Doses fora de intervalo podem precisar ser excluídas |
+| Estabelecimento | Sala ou serviço vacinador identificado por CNES | Gestão local e produção por serviço | Local de aplicação pode diferir da residência |
+| Município/UF | Agregação territorial | Comparações e monitoramento | Definir residência, ocorrência ou aplicação |
+: Unidades de análise frequentes no SI-PNI
+
+### Dose, pessoa e esquema
+
+Os indicadores mais comuns usam conceitos diferentes:
+
+| Indicador | Numerador típico | Denominador ou referência | Cuidado |
+|---|---|---|---|
+| Doses aplicadas | Registros de doses no período | Não exige denominador populacional | Mede produção registrada, não cobertura |
+| Pessoas com ao menos uma dose | Pessoas distintas com dose registrada | População-alvo, quando usado como proporção | Depende de identificação da pessoa |
+| Esquema completo | Pessoas com sequência válida de doses | População-alvo do esquema | Exige regra de intervalo e elegibilidade |
+| Cobertura vacinal | Doses ou esquemas válidos no grupo-alvo | População-alvo estimada ou cadastrada | Denominador incorreto distorce a cobertura |
+| Homogeneidade de cobertura | Municípios ou grupos que atingem meta | Total de municípios ou grupos avaliados | Pode ocultar bolsões locais de baixa cobertura |
+: Diferenças entre doses, pessoas, esquemas e cobertura
+
+### Modelo de apuração sem código
+
+Antes de abrir a base, escreva a regra de apuração em linguagem natural. Isso reduz erros e torna o indicador auditável.
+
+| Decisão | Exemplo de regra |
+|---|---|
+| Evento | Considerar registros de Tríplice Viral com data de vacinação em 2025 |
+| Pessoa | Contar pessoas distintas pelo identificador anonimizado disponível na base |
+| Dose | Separar D1, D2, reforço e registros sem dose informada |
+| Território | Usar município de residência para cobertura e município de aplicação para produção |
+| Período | Usar data de vacinação, não data de extração, para o eixo temporal |
+| Validação | Verificar duplicidade de pessoa, vacina, dose e data antes de contar pessoas |
+: Exemplo de regra operacional antes da análise
+
+O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto não chame uma pela outra.
+
+## Cobertura vacinal e denominadores
+
+A cobertura vacinal relaciona um numerador do SI-PNI com uma população-alvo. O numerador pode ser uma dose específica, uma dose válida, pessoas com ao menos uma dose ou pessoas com esquema completo. O denominador pode vir de estimativas populacionais, nascidos vivos, cadastro da APS, população indígena, grupos prioritários ou outras bases.
+
+| Denominador | Quando usar | Cuidado |
+|---|---|---|
+| Nascidos vivos | Vacinas do calendário infantil com coortes de nascimento | Usar SINASC (@sec-sinasc) e ano compatível |
+| População residente | Grupos etários amplos ou análises territoriais | Usar POP (@sec-pop) e projeção adequada |
+| População-alvo de campanha | Campanhas com grupo prioritário definido | Documentar fonte e regra do público-alvo |
+| Cadastro da APS | Monitoramento territorial de pessoas acompanhadas pela APS | Cadastro pode estar duplicado ou desatualizado |
+| População indígena ou grupos específicos | Estratégias específicas de vacinação | Fonte e cobertura territorial devem ser explicitadas |
+: Denominadores frequentes em análises de cobertura vacinal
+
+::: {.callout-warning}
+Cobertura acima de 100% pode ocorrer por denominador subestimado, vacinação de residentes de outros territórios, duplicidade, migração, população-alvo mal definida ou registros de campanha misturados com rotina. Não trate automaticamente como "erro"; investigue a regra do indicador.
+:::
+
+### Cobertura administrativa e cobertura de inquérito
+
+O SI-PNI produz cobertura administrativa: um numerador de registros dividido por uma população-alvo. Inquéritos de cobertura vacinal usam outro desenho: observam cadernetas, entrevistas ou registros em uma amostra da população. As duas medidas não são intercambiáveis.
+
+| Fonte | O que mede | Vantagem | Limitação |
+|---|---|---|---|
+| SI-PNI | Cobertura administrativa baseada em registros | Oportunidade, abrangência nacional e detalhamento operacional | Sensível a sub-registro, duplicidade e denominador |
+| Inquérito vacinal | Cobertura estimada em amostra populacional | Pode captar doses ausentes no sistema e avaliar posse de caderneta | Custo, periodicidade menor e erro amostral |
+| Caderneta ou prontuário local | Histórico individual documentado no serviço ou com a família | Boa fonte para auditoria e cuidado individual | Não é base nacional padronizada |
+: Diferenças entre fontes de cobertura vacinal
+
+Quando houver divergência entre SI-PNI e inquérito, a pergunta correta não é apenas "qual está certo?". É preciso investigar perdas de registro, qualidade do identificador, movimentação territorial, definição de dose válida, denominador e período de observação.
+
+### Exemplo: cobertura infantil
+
+Em vacinas do calendário infantil, uma estratégia comum é combinar doses válidas do SI-PNI com nascidos vivos do SINASC. O território deve ser definido de forma consistente, preferencialmente por residência quando a pergunta for cobertura da população residente.
+
+| Elemento | Fonte | Cuidado |
+|---|---|---|
+| Numerador | SI-PNI | Filtrar vacina, dose, idade e validade do esquema |
+| Denominador | SINASC (@sec-sinasc) | Usar coorte de nascidos vivos compatível |
+| Território | Município de residência | Evitar misturar local de aplicação e residência |
+| Tempo | Ano de nascimento, idade-alvo ou ano de vacinação | Definir janela de oportunidade |
+: Componentes de uma análise de cobertura vacinal infantil
+
+| Passo | Regra conceitual | Risco se ignorado |
+|---|---|---|
+| Definir coorte | Crianças nascidas em determinado ano e residentes no município | Misturar crianças de idades diferentes |
+| Selecionar dose | Dose do calendário correspondente à idade-alvo | Contar reforços ou doses de campanha como rotina |
+| Validar idade | Dose aplicada dentro da janela recomendada ou de tolerância definida | Superestimar cobertura oportuna |
+| Contar pessoas | Uma criança deve contribuir uma vez para a dose avaliada | Duplicidade aumenta o numerador |
+| Escolher denominador | Nascidos vivos residentes no mesmo território e coorte | Denominador incompatível distorce a cobertura |
+| Calcular indicador | Cobertura = crianças com dose válida / nascidos vivos da coorte | Resultado não é comparável sem regra documentada |
+: Exemplo conceitual de cobertura infantil
+
+### Exemplo: campanha de influenza em idosos
+
+Campanhas de influenza costumam ter público-alvo, período e meta próprios. A análise deve separar doses da campanha de doses registradas fora da janela definida.
+
+| Passo | Regra conceitual | Cuidado |
+|---|---|---|
+| Público-alvo | Pessoas com idade definida pela campanha no ano analisado | A idade de corte pode mudar |
+| Período | Datas oficiais ou janela analítica declarada | Doses tardias podem entrar ou sair conforme a regra |
+| Numerador | Pessoas do grupo-alvo com dose de influenza registrada | Uma pessoa vacinada duas vezes não deve contar duas vezes para cobertura |
+| Denominador | População estimada do grupo-alvo ou base oficial da campanha | Fonte do denominador deve ser citada |
+| Território | Preferir residência para cobertura e aplicação para produção | Municípios com fluxo assistencial podem ter diferença grande |
+: Exemplo conceitual de cobertura de campanha
+
+### Exemplo: completitude de raça/cor
+
+Para analisar desigualdades, primeiro avalie se o campo raça/cor tem completitude suficiente e se essa completitude varia por UF, município, período, tipo de serviço ou sistema de origem.
+
+| Medida | Interpretação | Cuidado |
+|---|---|---|
+| Percentual preenchido | Proporção de registros com raça/cor válida | Pode variar por campanha e sistema de origem |
+| Percentual ignorado | Proporção de registros com campo ignorado ou vazio | Alto percentual limita análise de iniquidades |
+| Diferença por território | Compara completitude entre municípios ou UF | Diferenças podem refletir processo de registro, não composição populacional |
+| Tendência temporal | Avalia melhora ou piora do preenchimento | Mudanças de sistema podem alterar a série |
+: Exemplo conceitual de avaliação da completitude de raça/cor
+
+## Rotina, campanha e Covid-19
+
+O SI-PNI reúne registros de vacinação de rotina e estratégias específicas de campanha. A vacinação contra Covid-19 teve grande volume, regras próprias, produtos diferentes, doses de reforço e grupos prioritários que mudaram ao longo do tempo. Por isso, séries de Covid-19 devem ser analisadas separadamente das vacinas de rotina quando a pergunta envolve cobertura, oportunidade ou comparação histórica.
+
+| Situação | Recomendação | Cuidado |
+|---|---|---|
+| Rotina do calendário | Usar idade, dose e esquema vigente | Calendário pode mudar ao longo da série |
+| Campanha nacional | Usar período e público-alvo da campanha | Denominador pode ser diferente da população residente total |
+| Covid-19 | Separar produto, dose, reforço, grupo e período | Regras mudaram rapidamente durante a pandemia |
+| Influenza | Considerar sazonalidade e grupos prioritários | Campanhas anuais não são diretamente comparáveis sem padronização |
+| CRIE | Identificar indicações especiais quando disponível | População-alvo pode não ser estimável em base pública |
+: Cuidados para separar rotina, campanha e estratégias especiais
+
+## Análise temporal e territorial
+
+O SI-PNI pode ser analisado por data de vacinação, data de registro, mês do arquivo, município de residência, município de aplicação, estabelecimento ou UF. Cada escolha responde a uma pergunta diferente.
+
+| Escolha | Responde melhor a | Cuidado |
+|---|---|---|
+| Data de vacinação | Quando a dose foi aplicada | Pode sofrer inclusão tardia após a data de extração |
+| Data de registro | Quando a informação entrou no sistema | Não equivale ao momento da vacinação |
+| Mês do arquivo | Organização da base aberta | Pode combinar registros extraídos ou atualizados posteriormente |
+| Município de residência | Cobertura da população residente | Campo pode estar ausente ou desatualizado |
+| Município de aplicação | Produção do serviço vacinador | Não representa necessariamente população coberta |
+| CNES do estabelecimento | Desempenho operacional da sala ou serviço | CNES precisa ser validado com o cadastro vigente |
+: Decisões temporais e territoriais no SI-PNI
+
+::: {.callout-tip}
+Para monitoramento operacional semanal, a data de registro pode ser útil. Para análise epidemiológica de cobertura, a data de vacinação e a residência da pessoa tendem a ser mais adequadas. O relatório deve declarar essa escolha.
+:::
+
+## Qualidade dos dados
+
+A qualidade dos dados do SI-PNI depende do registro oportuno no ponto de vacinação, da identificação da pessoa, da completitude dos campos, da integração entre sistemas, da consistência das doses e da disponibilidade de denominadores adequados. Estudos de confiabilidade mostram que perdas de registro e discordâncias entre fontes podem comprometer estimativas de cobertura vacinal [@moraesConfiabilidadeInformacoesRegistradas2024]. O preenchimento de campos como raça/cor também deve ser monitorado, especialmente em análises de desigualdades [@araujoTendenciaTemporalPreenchimento2024].
+
+| Dimensão | Checagem |
+|---|---|
+| Oportunidade | Há atraso entre data de vacinação, registro e disponibilização? |
+| Completitude | Campos de dose, vacina, lote, CNES, município, idade, sexo e raça/cor estão preenchidos? |
+| Consistência | Idade, dose, intervalo e imunobiológico são compatíveis com o calendário? |
+| Duplicidade | A mesma pessoa recebeu registros duplicados para a mesma dose? |
+| Identificação | A pessoa pode ser acompanhada ao longo das doses? |
+| Território | Residência e local de aplicação foram diferenciados? |
+| Denominador | População-alvo corresponde ao numerador usado? |
+| Integração | Sistemas locais e RNDS estão enviando registros de forma consistente? |
+: Dimensões de qualidade relevantes no SI-PNI
+
+### Plano mínimo de validação
+
+Uma análise mais robusta deve começar por validações simples antes de produzir indicadores finais.
+
+| Validação | Como interpretar |
+|---|---|
+| Registros sem vacina, dose ou data | Podem impedir definição do numerador |
+| Registros sem município de residência | Limitam cálculo de cobertura populacional |
+| Registros sem CNES ou estabelecimento | Limitam análise operacional por sala de vacina |
+| Pessoas com mesma vacina, dose e data repetidas | Podem indicar duplicidade |
+| Dose incompatível com idade | Pode indicar erro de registro ou dose fora de calendário |
+| Intervalo incompatível entre doses | Pode exigir classificação como dose inválida para cobertura |
+| Mudança abrupta em mês recente | Pode indicar atraso de envio ou mudança de integração |
+| Campos sociais incompletos | Limitam análise de desigualdades |
+: Validações iniciais recomendadas para o SI-PNI
+
+::: {.callout-tip}
+Em competências recentes, verifique atraso de envio antes de interpretar queda de doses como queda real da vacinação. A data de extração precisa acompanhar tabelas, gráficos e resultados.
+:::
+
+### Reprodutibilidade
+
+Como bases abertas podem ser atualizadas, uma análise reprodutível deve documentar:
+
+- conjunto de dados usado;
+- ano e meses baixados;
+- formato dos arquivos;
+- data e horário da extração;
+- versão ou data do dicionário;
+- filtros de vacina, dose, idade, território e estratégia;
+- regra de deduplicação;
+- fonte do denominador;
+- tratamento de registros sem residência, sem dose ou fora da janela.
+
+## Privacidade e dados individualizados
+
+O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para linkage individual, auditoria de pessoa específica e reidentificação.
+
+| Aspecto | Implicação |
+|---|---|
+| Registro nominal | Permite acompanhar esquemas e pessoas no sistema de origem |
+| Base pública anonimizada | Protege pessoas e permite análise agregada |
+| Linkage individual | Exige autorização, governança, finalidade e base legal |
+| Pequenos números | Podem exigir agregação adicional em resultados públicos |
+| Reprodutibilidade | Depende de registrar data de extração, filtros e versão da base |
+: Implicações de privacidade no uso dos dados do SI-PNI
 
 ## Acesso aos dados
 
-Os dados do antigo SI-PNI estão disponíveis no DataSUS, na área de Assistência a Saúde, compreendendo os anos de 1994 a 2022.
+Os dados agregados do antigo SI-PNI podem ser consultados no DATASUS, na área de informações de saúde relacionada à assistência e imunizações, com séries históricas de doses aplicadas e coberturas vacinais.
 
-Os dados do novo SI-PNI estão disponíveis no OpenDataSUS:
+Os microdados abertos do novo SI-PNI são publicados no OpenDataSUS em conjuntos anuais. Em consulta realizada em maio de 2026, os conjuntos anuais disponíveis para doses aplicadas do PNI abrangiam 2020 a 2025, além da base específica da Campanha Nacional de Vacinação contra Covid-19. A ausência de um conjunto anual mais recente deve ser verificada no momento da extração.
 
--  [Campanha Nacional de Vacinação contra Covid-19 ](https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2025](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2024](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2023](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2022](https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2021](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021)
--  [Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2020](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020)
--  [Dados sobre Eventos Supostamente Atribuíveis a Vacinação -- ESAVI](https://opendatasus.saude.gov.br/dataset/esavi)
+### Bases abertas
 
+- [Campanha Nacional de Vacinação contra Covid-19](https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2025](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2024](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2023](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2022](https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2021](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2020](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020)
+- [Dados sobre Eventos Supostamente Atribuíveis à Vacinação - ESAVI](https://opendatasus.saude.gov.br/dataset/esavi)
+
+### Documentação e orientação
+
+- [Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/composicao/svsa/pni)
+- [Vacinação - Ministério da Saúde](https://www.gov.br/saude/pt-br/vacinacao)
+- [Manuais de vacinação](https://www.gov.br/saude/pt-br/vacinacao/manuais)
+- [Guia de integração da RNDS - Registro de Imunobiológico Administrado em Rotina](https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/)
+
+## Relacionamento com outros sistemas
+
+O SI-PNI é frequentemente combinado com sistemas de população, eventos vitais, Atenção Primária, estabelecimentos e vigilância. O ponto crítico é alinhar território, tempo, unidade de análise e denominador.
+
+| Pergunta | Fontes combinadas | Cuidado principal |
+|---|---|---|
+| Qual é a cobertura infantil? | SI-PNI + SINASC (@sec-sinasc) | Coorte de nascimento, idade-alvo e residência |
+| Qual é a cobertura por faixa etária? | SI-PNI + POP (@sec-pop) | População estimada do mesmo ano e território |
+| A APS está registrando vacinação? | SI-PNI + SISAPS/SISAB (@sec-sisab) | Sistemas podem ter fluxos e prazos diferentes |
+| Onde a vacinação foi aplicada? | SI-PNI + CNES (@sec-cnes) | CNES representa o estabelecimento vacinador |
+| Há relação com surtos ou agravos? | SI-PNI + SINAN (@sec-sinan) | Vacinação e notificação têm unidades e tempos distintos |
+| Como avaliar eventos relacionados? | SI-PNI + ESAVI + investigação epidemiológica | Notificação isolada não estabelece causalidade |
+: Integrações frequentes entre SI-PNI e outros sistemas
+
+### Checklist para integração
+
+| Checagem | Por que importa |
+|---|---|
+| Definir residência ou local de aplicação | Cobertura populacional deve preferir residência; produção do serviço usa local de aplicação |
+| Harmonizar códigos territoriais | Municípios, UF e mudanças territoriais precisam ser compatíveis |
+| Alinhar período | Data de vacinação, competência e ano de nascimento podem apontar janelas diferentes |
+| Escolher denominador | População residente, nascidos vivos e público-alvo de campanha não são intercambiáveis |
+| Separar rotina e campanha | Estratégias diferentes podem ter regras e públicos distintos |
+| Registrar data de extração | Bases abertas podem ser atualizadas ou retificadas |
+: Verificações antes de integrar SI-PNI com outros sistemas
+
+## Erros comuns
+
+Alguns erros aparecem repetidamente em análises de vacinação. Eles geralmente não decorrem de dificuldade estatística, mas de definição inadequada da unidade de análise.
+
+| Erro | Por que é problemático | Como evitar |
+|---|---|---|
+| Contar doses como pessoas | Uma pessoa pode ter várias doses | Usar identificador de pessoa quando a pergunta for alcance populacional |
+| Misturar residência e aplicação | Produção do serviço não é cobertura do residente | Declarar e separar os dois territórios |
+| Misturar rotina e campanha | Estratégias têm públicos, períodos e metas diferentes | Filtrar estratégia e período antes de calcular indicador |
+| Usar denominador genérico | População total pode não ser população-alvo | Escolher denominador compatível com calendário ou campanha |
+| Ignorar idade e intervalo | Doses fora da janela podem não valer para cobertura oportuna | Definir regra de dose válida |
+| Interpretar mês recente como definitivo | Bases podem sofrer atraso e reprocessamento | Registrar data de extração e revisar competências recentes |
+| Tratar cobertura acima de 100% como simples erro | Pode revelar denominador inadequado ou fluxo territorial | Investigar numerador, denominador e território |
+| Tratar ESAVI como causalidade | Notificação é sinal para investigação, não prova causal | Consultar investigação e classificação do evento |
+: Erros comuns em análises do SI-PNI
+
+## Quando não usar o SI-PNI sozinho
+
+O SI-PNI é indispensável para monitorar vacinação, mas algumas perguntas exigem desenho analítico ou fontes complementares.
+
+| Pergunta | Por que o SI-PNI sozinho não basta | Complementos possíveis |
+|---|---|---|
+| A vacina evitou adoecimento? | Efetividade exige comparar vacinados e não vacinados com controle de confundimento | SINAN, SIVEP-Gripe, SIM, desenho de coorte, caso-controle ou teste-negativo |
+| A pessoa está imunologicamente protegida? | Registro de dose não mede resposta imune individual | Estudos imunológicos, sorologia, literatura clínica |
+| Houve evento adverso causado pela vacina? | ESAVI é notificação inicial, não causalidade automática | Investigação epidemiológica e classificação clínica |
+| A baixa cobertura reflete hesitação vacinal? | Registro não mede motivo da não vacinação | Inquéritos, estudos qualitativos, dados de acesso e comunicação |
+| O serviço aplicou vacina com qualidade técnica? | Sistema registra evento, não observa técnica de aplicação | Supervisão, auditoria, sala de vacina e rede de frio |
+| A população não vacinada é exatamente conhecida? | Denominadores e identificação podem ter incertezas | POP, SINASC, cadastros locais, APS e busca ativa |
+: Perguntas que exigem SI-PNI combinado com outras evidências
+
+## Limitações
+
+| Limitação | Consequência analítica |
+|---|---|
+| Sub-registro ou atraso de envio | Numeradores e coberturas podem ficar subestimados |
+| Duplicidade ou identificação inconsistente | Pessoas vacinadas e esquemas completos podem ser mal estimados |
+| Denominador incerto | Coberturas podem ficar acima ou abaixo do real |
+| Mudanças no calendário | Séries históricas exigem versionamento das regras |
+| Diferença entre residência e aplicação | Produção por estabelecimento não equivale à cobertura do território |
+| Transição de sistemas | Quebras entre SI-PNI antigo, novo SI-PNI e RNDS podem afetar comparabilidade |
+| Microdados anonimizados | Linkage individual público é limitado por privacidade |
+| Evento adverso notificado | Notificação não prova causalidade sem investigação |
+: Limitações recorrentes do SI-PNI
+
+## Cuidados de interpretação
+
+Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
+
+- distinguir dose aplicada, pessoa vacinada, dose válida e esquema completo;
+- separar vacinação de rotina, campanhas, Covid-19 e estratégias especiais;
+- definir se o território é residência da pessoa ou local de aplicação;
+- documentar calendário, idade-alvo, intervalo entre doses e regra vigente;
+- escolher denominador compatível com numerador e período;
+- verificar completitude, duplicidade, oportunidade e data de extração;
+- interpretar coberturas acima de 100% como sinal para investigação metodológica;
+- combinar com SINASC, POP, CNES, SISAPS/SISAB ou SINAN apenas quando a unidade de análise estiver clara.
 
 ## Bibliografia recomendada
 
 ### Avaliação da qualidade dos dados
 
--  Artigo *Confiabilidade das informações registradas no Sistema de Informação do Programa Nacional de Imunizações* [@moraesConfiabilidadeInformacoesRegistradas2024]. Disponível [aqui](https://doi.org/10.1590/S2237-96222024v33e20231309.especial2.pt).
--  Artigo *Tendência temporal do preenchimento do campo raça/cor nos registros de hospitalização, vacinação e mortalidade pela Covid-19 no Brasil* [@araujoTendenciaTemporalPreenchimento2024]. Disponível [aqui](https://doi.org/10.1590/1414-462X202432040012).
+- Artigo *Confiabilidade das informações registradas no Sistema de Informação do Programa Nacional de Imunizações* [@moraesConfiabilidadeInformacoesRegistradas2024]. Disponível [aqui](https://doi.org/10.1590/S2237-96222024v33e20231309.especial2.pt).
+- Artigo *Tendência temporal do preenchimento do campo raça/cor nos registros de hospitalização, vacinação e mortalidade pela Covid-19 no Brasil* [@araujoTendenciaTemporalPreenchimento2024]. Disponível [aqui](https://doi.org/10.1590/1414-462X202432040012).

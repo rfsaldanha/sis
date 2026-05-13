@@ -8,7 +8,7 @@
 
 <meta name="description" content="E-book sobre os principais Sistemas de Informação em Saúde no Brasil.">
 
-<title>14&nbsp; SI-PNI – Sistema de Informações do Programa Nacional de Vacinação – Sistemas de Informação em Saúde no Brasil</title>
+<title>14&nbsp; SI-PNI – Sistema de Informações do Programa Nacional de Imunizações – Sistemas de Informação em Saúde no Brasil</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -106,6 +106,9 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -282,7 +285,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sipni.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Vacinação</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sipni.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Imunizações</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -399,7 +402,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sipni.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Imunizações</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -472,12 +475,54 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
    
   <ul>
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">14.1</span> Resumo</a></li>
-  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">14.2</span> Histórico e organização</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">14.3</span> Estrutura dos dados</a></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">14.4</span> Acesso aos dados</a></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">14.5</span> Bibliografia recomendada</a>
+  <li><a href="#como-ler-este-capítulo" id="toc-como-ler-este-capítulo" class="nav-link" data-scroll-target="#como-ler-este-capítulo"><span class="header-section-number">14.2</span> Como ler este capítulo</a></li>
+  <li><a href="#quando-usar-o-si-pni" id="toc-quando-usar-o-si-pni" class="nav-link" data-scroll-target="#quando-usar-o-si-pni"><span class="header-section-number">14.3</span> Quando usar o SI-PNI</a></li>
+  <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">14.4</span> Histórico e organização</a>
   <ul class="collapse">
-  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">14.5.1</span> Avaliação da qualidade dos dados</a></li>
+  <li><a href="#o-que-mudou-com-o-novo-si-pni" id="toc-o-que-mudou-com-o-novo-si-pni" class="nav-link" data-scroll-target="#o-que-mudou-com-o-novo-si-pni"><span class="header-section-number">14.4.1</span> O que mudou com o novo SI-PNI</a></li>
+  </ul></li>
+  <li><a href="#fluxo-de-informação" id="toc-fluxo-de-informação" class="nav-link" data-scroll-target="#fluxo-de-informação"><span class="header-section-number">14.5</span> Fluxo de informação</a></li>
+  <li><a href="#o-que-o-si-pni-registra" id="toc-o-que-o-si-pni-registra" class="nav-link" data-scroll-target="#o-que-o-si-pni-registra"><span class="header-section-number">14.6</span> O que o SI-PNI registra</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">14.7</span> Estrutura dos dados</a>
+  <ul class="collapse">
+  <li><a href="#orientação-para-dicionário-de-dados" id="toc-orientação-para-dicionário-de-dados" class="nav-link" data-scroll-target="#orientação-para-dicionário-de-dados"><span class="header-section-number">14.7.1</span> Orientação para dicionário de dados</a></li>
+  </ul></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">14.8</span> Unidade de análise</a>
+  <ul class="collapse">
+  <li><a href="#dose-pessoa-e-esquema" id="toc-dose-pessoa-e-esquema" class="nav-link" data-scroll-target="#dose-pessoa-e-esquema"><span class="header-section-number">14.8.1</span> Dose, pessoa e esquema</a></li>
+  <li><a href="#modelo-de-apuração-sem-código" id="toc-modelo-de-apuração-sem-código" class="nav-link" data-scroll-target="#modelo-de-apuração-sem-código"><span class="header-section-number">14.8.2</span> Modelo de apuração sem código</a></li>
+  </ul></li>
+  <li><a href="#cobertura-vacinal-e-denominadores" id="toc-cobertura-vacinal-e-denominadores" class="nav-link" data-scroll-target="#cobertura-vacinal-e-denominadores"><span class="header-section-number">14.9</span> Cobertura vacinal e denominadores</a>
+  <ul class="collapse">
+  <li><a href="#cobertura-administrativa-e-cobertura-de-inquérito" id="toc-cobertura-administrativa-e-cobertura-de-inquérito" class="nav-link" data-scroll-target="#cobertura-administrativa-e-cobertura-de-inquérito"><span class="header-section-number">14.9.1</span> Cobertura administrativa e cobertura de inquérito</a></li>
+  <li><a href="#exemplo-cobertura-infantil" id="toc-exemplo-cobertura-infantil" class="nav-link" data-scroll-target="#exemplo-cobertura-infantil"><span class="header-section-number">14.9.2</span> Exemplo: cobertura infantil</a></li>
+  <li><a href="#exemplo-campanha-de-influenza-em-idosos" id="toc-exemplo-campanha-de-influenza-em-idosos" class="nav-link" data-scroll-target="#exemplo-campanha-de-influenza-em-idosos"><span class="header-section-number">14.9.3</span> Exemplo: campanha de influenza em idosos</a></li>
+  <li><a href="#exemplo-completitude-de-raçacor" id="toc-exemplo-completitude-de-raçacor" class="nav-link" data-scroll-target="#exemplo-completitude-de-raçacor"><span class="header-section-number">14.9.4</span> Exemplo: completitude de raça/cor</a></li>
+  </ul></li>
+  <li><a href="#rotina-campanha-e-covid-19" id="toc-rotina-campanha-e-covid-19" class="nav-link" data-scroll-target="#rotina-campanha-e-covid-19"><span class="header-section-number">14.10</span> Rotina, campanha e Covid-19</a></li>
+  <li><a href="#análise-temporal-e-territorial" id="toc-análise-temporal-e-territorial" class="nav-link" data-scroll-target="#análise-temporal-e-territorial"><span class="header-section-number">14.11</span> Análise temporal e territorial</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">14.12</span> Qualidade dos dados</a>
+  <ul class="collapse">
+  <li><a href="#plano-mínimo-de-validação" id="toc-plano-mínimo-de-validação" class="nav-link" data-scroll-target="#plano-mínimo-de-validação"><span class="header-section-number">14.12.1</span> Plano mínimo de validação</a></li>
+  <li><a href="#reprodutibilidade" id="toc-reprodutibilidade" class="nav-link" data-scroll-target="#reprodutibilidade"><span class="header-section-number">14.12.2</span> Reprodutibilidade</a></li>
+  </ul></li>
+  <li><a href="#privacidade-e-dados-individualizados" id="toc-privacidade-e-dados-individualizados" class="nav-link" data-scroll-target="#privacidade-e-dados-individualizados"><span class="header-section-number">14.13</span> Privacidade e dados individualizados</a></li>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">14.14</span> Acesso aos dados</a>
+  <ul class="collapse">
+  <li><a href="#bases-abertas" id="toc-bases-abertas" class="nav-link" data-scroll-target="#bases-abertas"><span class="header-section-number">14.14.1</span> Bases abertas</a></li>
+  <li><a href="#documentação-e-orientação" id="toc-documentação-e-orientação" class="nav-link" data-scroll-target="#documentação-e-orientação"><span class="header-section-number">14.14.2</span> Documentação e orientação</a></li>
+  </ul></li>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">14.15</span> Relacionamento com outros sistemas</a>
+  <ul class="collapse">
+  <li><a href="#checklist-para-integração" id="toc-checklist-para-integração" class="nav-link" data-scroll-target="#checklist-para-integração"><span class="header-section-number">14.15.1</span> Checklist para integração</a></li>
+  </ul></li>
+  <li><a href="#erros-comuns" id="toc-erros-comuns" class="nav-link" data-scroll-target="#erros-comuns"><span class="header-section-number">14.16</span> Erros comuns</a></li>
+  <li><a href="#quando-não-usar-o-si-pni-sozinho" id="toc-quando-não-usar-o-si-pni-sozinho" class="nav-link" data-scroll-target="#quando-não-usar-o-si-pni-sozinho"><span class="header-section-number">14.17</span> Quando não usar o SI-PNI sozinho</a></li>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">14.18</span> Limitações</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">14.19</span> Cuidados de interpretação</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">14.20</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#avaliação-da-qualidade-dos-dados" id="toc-avaliação-da-qualidade-dos-dados" class="nav-link" data-scroll-target="#avaliação-da-qualidade-dos-dados"><span class="header-section-number">14.20.1</span> Avaliação da qualidade dos dados</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sipni.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -488,7 +533,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-sipni" class="quarto-section-identifier"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Vacinação</span></span></h1>
+<h1 class="title"><span id="sec-sipni" class="quarto-section-identifier"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Imunizações</span></span></h1>
 </div>
 
 
@@ -505,54 +550,1550 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
+<section class="podcast-player" data-transcript="podcast/sipni_transcript.json">
+<h2 class="anchored">Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls="" preload="metadata">
+  <source src="podcast/sipni.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/sipni.md">podcast/sipni.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
 <section id="resumo" class="level2" data-number="14.1">
 <h2 data-number="14.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">14.1</span> Resumo</h2>
+<table class="caption-top table">
+<caption>Características gerais do SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Programa relacionado</td>
+<td>Programa Nacional de Imunizações (PNI), criado em 1973 e institucionalizado na década de 1970</td>
+</tr>
+<tr class="even">
+<td>Sistema atual</td>
+<td>Novo SI-PNI integrado à Rede Nacional de Dados em Saúde (RNDS)</td>
+</tr>
+<tr class="odd">
+<td>Sistemas anteriores</td>
+<td>Módulos web e desktop do SI-PNI, incluindo API, EDI, EAPV, PAISSV, AIU, PAIS e SICRIE</td>
+</tr>
+<tr class="even">
+<td>Evento registrado</td>
+<td>Imunobiológico administrado, dose aplicada, movimentação de imunobiológicos e eventos supostamente atribuíveis à vacinação</td>
+</tr>
+<tr class="odd">
+<td>Unidade de análise</td>
+<td>Dose aplicada, pessoa vacinada, esquema vacinal, imunobiológico, lote, estabelecimento, município, UF e período</td>
+</tr>
+<tr class="even">
+<td>Cobertura</td>
+<td>Vacinação realizada no SUS e registros integrados por sistemas conectados à RNDS</td>
+</tr>
+<tr class="odd">
+<td>Uso central</td>
+<td>Monitoramento de doses aplicadas, coberturas vacinais, campanhas, rotina, estoques e segurança da vacinação</td>
+</tr>
+</tbody>
+</table>
+<p>O Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) organiza registros relacionados às ações de vacinação no Brasil. Seu papel é apoiar o acompanhamento do calendário nacional de vacinação, campanhas, coberturas vacinais, distribuição e uso de imunobiológicos, além de subsidiar a vigilância de eventos supostamente atribuíveis à vacinação.</p>
+<p>O SI-PNI deve ser interpretado como um sistema de registro de ações de imunização. Ele não mede diretamente a proteção imunológica da população, a efetividade vacinal, a qualidade da sala de vacina ou a necessidade de vacinação. Para essas perguntas, o registro de doses precisa ser combinado com denominadores populacionais, regras do calendário, investigação epidemiológica e outros sistemas.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Terminologia.</strong> O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.</p>
+</div>
+</div>
+</section>
+<section id="como-ler-este-capítulo" class="level2" data-number="14.2">
+<h2 data-number="14.2" class="anchored" data-anchor-id="como-ler-este-capítulo"><span class="header-section-number">14.2</span> Como ler este capítulo</h2>
+<p>Este capítulo foi escrito para quatro usos complementares:</p>
+<table class="caption-top table">
+<caption>Formas de uso do capítulo por diferentes públicos</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Público</th>
+<th>O que deve procurar no capítulo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Estudantes</td>
+<td>A diferença entre programa, sistema de informação, dose, pessoa, esquema e cobertura</td>
+</tr>
+<tr class="even">
+<td>Gestores</td>
+<td>Fluxo de registro, oportunidade da informação, monitoramento de campanhas, qualidade e limites operacionais</td>
+</tr>
+<tr class="odd">
+<td>Pesquisadores</td>
+<td>Unidade de análise, denominadores, vieses, integração com outras bases e limitações inferenciais</td>
+</tr>
+<tr class="even">
+<td>Analistas de dados</td>
+<td>Campos essenciais, filtros, validações, duplicidades, datas, território e reprodutibilidade</td>
+</tr>
+</tbody>
+</table>
+<p>O ponto central é que o SI-PNI registra ações de vacinação. Para transformar registros em indicadores, é preciso tomar decisões sobre dose válida, pessoa, esquema, calendário, população-alvo, território e período. Essas decisões devem aparecer explicitamente em qualquer tabela, gráfico, relatório ou artigo.</p>
+</section>
+<section id="quando-usar-o-si-pni" class="level2" data-number="14.3">
+<h2 data-number="14.3" class="anchored" data-anchor-id="quando-usar-o-si-pni"><span class="header-section-number">14.3</span> Quando usar o SI-PNI</h2>
+<p>Use o SI-PNI quando a pergunta envolve doses aplicadas, pessoas vacinadas, esquemas vacinais, campanhas, cobertura vacinal, registros de imunobiológicos ou eventos relacionados à vacinação.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que podem ser respondidas com o SI-PNI</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Usar SI-PNI para</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Quantas doses foram aplicadas?</td>
+<td>Contar registros de vacinação por imunobiológico, dose, local e período</td>
+<td>Dose aplicada não equivale a pessoa vacinada</td>
+</tr>
+<tr class="even">
+<td>Qual é a cobertura vacinal?</td>
+<td>Relacionar doses válidas ao grupo-alvo</td>
+<td>Denominador populacional precisa ser compatível</td>
+</tr>
+<tr class="odd">
+<td>Quantas pessoas completaram esquema?</td>
+<td>Reconstituir sequência de doses por pessoa e imunobiológico</td>
+<td>Esquemas variam por idade, produto, campanha e norma vigente</td>
+</tr>
+<tr class="even">
+<td>Uma campanha atingiu o público-alvo?</td>
+<td>Acompanhar doses da estratégia de campanha</td>
+<td>Separar campanha, rotina e reforços</td>
+</tr>
+<tr class="odd">
+<td>Há atraso ou queda recente?</td>
+<td>Comparar registros por data de vacinação e data de extração</td>
+<td>Competências recentes podem estar incompletas</td>
+</tr>
+<tr class="even">
+<td>Como está a qualidade do registro?</td>
+<td>Avaliar completitude, duplicidade e consistência de campos</td>
+<td>Sub-registro altera numeradores e coberturas</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cobertura vacinal não é apenas a contagem de doses aplicadas. Ela depende de numerador, denominador, idade-alvo, dose válida, calendário, território e período de referência.</p>
+</div>
+</div>
+</section>
+<section id="histórico-e-organização" class="level2" data-number="14.4">
+<h2 data-number="14.4" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">14.4</span> Histórico e organização</h2>
+<p>O Programa Nacional de Imunizações (PNI) foi criado em 1973 e consolidado no contexto das políticas nacionais de vigilância epidemiológica e controle de doenças imunopreveníveis. A institucionalização da vacinação como ação nacional permanente antecede a informatização do sistema e envolve calendário vacinal, rede de frio, distribuição de imunobiológicos, normas técnicas, campanhas e salas de vacinação.</p>
+<p>Com a expansão do programa, o registro informatizado passou a apoiar o acompanhamento de doses aplicadas, coberturas, estoques, distribuição e eventos adversos. O SI-PNI antigo organizava diferentes módulos e aplicações, entre eles:</p>
 <ul>
-<li>Ano de criação: 1975 (institucionalização do PNI)</li>
-<li>Cobertura: Dimensões pública e privada do SUS</li>
-<li>Unidade: dados agregados e notificações de imunização</li>
-<li>Divulgação de dados:</li>
+<li>Avaliação do Programa de Imunizações (API);</li>
+<li>Estoque e Distribuição de Imunobiológicos (EDI);</li>
+<li>Eventos Adversos Pós-Vacinação (EAPV);</li>
+<li>Programa de Avaliação do Instrumento de Supervisão em Sala de Vacinação (PAISSV);</li>
+<li>Apuração dos Imunobiológicos Utilizados (AIU);</li>
+<li>Programa de Avaliação do Instrumento de Supervisão (PAIS);</li>
+<li>Sistema de Informações dos Centros de Referência em Imunobiológicos Especiais (SICRIE).</li>
+</ul>
+<p>A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração nacional e maior oportunidade da informação. O novo SI-PNI foi reformulado para operar integrado à <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de Dados em Saúde</a> e à Estratégia de Saúde Digital do Ministério da Saúde, em linha com a proposta de Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial da Saúde.</p>
+<p>Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS.</p>
+<ul>
+<li><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view">Nota Informativa Conjunta nº 4/2023 - DPNI</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes">Entenda o novo Sistema de Informação do Programa Nacional de Imunizações</a></li>
+</ul>
+<section id="o-que-mudou-com-o-novo-si-pni" class="level3" data-number="14.4.1">
+<h3 data-number="14.4.1" class="anchored" data-anchor-id="o-que-mudou-com-o-novo-si-pni"><span class="header-section-number">14.4.1</span> O que mudou com o novo SI-PNI</h3>
+<p>A mudança para o novo SI-PNI não é apenas uma troca de interface. Ela altera a forma como o registro de imunização deve ser entendido na produção de indicadores.</p>
+<table class="caption-top table">
+<caption>Mudanças práticas entre o SI-PNI antigo e o novo SI-PNI</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>SI-PNI antigo</th>
+<th>Novo SI-PNI/RNDS</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Modelo predominante</td>
+<td>Módulos e bases agregadas ou parcialmente individualizadas</td>
+<td>Registro nominal e integração nacional</td>
+<td>Maior possibilidade de acompanhar esquemas, mas maior exigência de deduplicação e consistência</td>
+</tr>
+<tr class="even">
+<td>Fluxo</td>
+<td>Sistemas web/desktop e módulos específicos</td>
+<td>SI-PNI, sistemas integrados e RNDS</td>
+<td>Competências recentes podem refletir atraso de integração</td>
+</tr>
+<tr class="odd">
+<td>Cobertura</td>
+<td>Fortemente apoiada em doses agregadas</td>
+<td>Pode combinar dose, pessoa e esquema</td>
+<td>Método de cálculo precisa ser documentado</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Agregações por local e período</td>
+<td>Possibilidade de residência e estabelecimento</td>
+<td>Diferenciar cobertura populacional de produção do serviço</td>
+</tr>
+<tr class="odd">
+<td>Comparabilidade histórica</td>
+<td>Séries agregadas de longa duração</td>
+<td>Bases individualizadas recentes</td>
+<td>Transições podem gerar quebras artificiais</td>
+</tr>
+<tr class="even">
+<td>Privacidade</td>
+<td>Dados públicos mais agregados</td>
+<td>Microdados abertos com proteção de identificação</td>
+<td>Linkage individual público é limitado</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Séries que atravessam a transição para o novo SI-PNI devem ser interpretadas como séries de informação, não apenas como séries de vacinação. Mudanças de sistema, fluxo, prazo e deduplicação podem produzir quebras que parecem mudanças epidemiológicas.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="fluxo-de-informação" class="level2" data-number="14.5">
+<h2 data-number="14.5" class="anchored" data-anchor-id="fluxo-de-informação"><span class="header-section-number">14.5</span> Fluxo de informação</h2>
+<p>No modelo atual, o registro de vacinação pode ser feito diretamente no novo SI-PNI ou em sistemas locais integrados. Quando o sistema de registro está integrado à RNDS, o evento de imunização é enviado segundo modelos nacionais de informação. Quando o registro ocorre em sistemas da Atenção Primária à Saúde sem integração direta, a informação pode passar por fluxos intermediários, como o e-SUS APS/SISAB, antes de ser incorporada à RNDS.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-sipni-fluxo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sipni-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-sipni-fluxo">flowchart TD
+  sala[Sala de vacinação ou serviço vacinador] --&gt; registro[Registro da vacinação]
+  registro --&gt; sipni[Novo SI-PNI]
+  registro --&gt; local[Sistema local integrado]
+  registro --&gt; aps[e-SUS APS/SISAB quando aplicável]
+  local --&gt; rnds[RNDS]
+  aps --&gt; rnds
+  sipni --&gt; rnds
+  rnds --&gt; bases[Bases e relatórios nacionais]
+  bases --&gt; analise[Gestão, vigilância, cobertura e pesquisa]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sipni-fluxo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;14.1: Fluxo simplificado de registros de vacinação no SI-PNI
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<table class="caption-top table">
+<caption>Etapas gerais do fluxo de informação do SI-PNI</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th>O que ocorre</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Vacinação</td>
+<td>Imunobiológico é administrado em sala de vacina, campanha ou serviço</td>
+<td>Registrar data, produto, dose, lote, pessoa e estabelecimento</td>
+</tr>
+<tr class="even">
+<td>Registro</td>
+<td>Informação é lançada no novo SI-PNI ou em sistema integrado</td>
+<td>Sistemas diferentes podem ter prazos e validações distintos</td>
+</tr>
+<tr class="odd">
+<td>Integração</td>
+<td>Registro é transmitido à RNDS ou fluxo nacional correspondente</td>
+<td>Atrasos podem afetar competências recentes</td>
+</tr>
+<tr class="even">
+<td>Processamento</td>
+<td>Dados passam por críticas, padronização e consolidação</td>
+<td>Registros duplicados ou inconsistentes podem permanecer se não forem tratados</td>
+</tr>
+<tr class="odd">
+<td>Divulgação</td>
+<td>Dados são publicados em relatórios, painéis ou bases abertas</td>
+<td>Registrar data de extração e versão da base</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="o-que-o-si-pni-registra" class="level2" data-number="14.6">
+<h2 data-number="14.6" class="anchored" data-anchor-id="o-que-o-si-pni-registra"><span class="header-section-number">14.6</span> O que o SI-PNI registra</h2>
+<p>O SI-PNI registra eventos e informações administrativas relacionadas à vacinação. A base pode ser usada para estudar cobertura e oportunidade, mas o dado primário não é uma medida direta de imunidade.</p>
+<table class="caption-top table">
+<caption>Escopo informacional do SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>O SI-PNI registra</th>
+<th>O SI-PNI não mede sozinho</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dose aplicada ou imunobiológico administrado</td>
+<td>Proteção imunológica efetiva da pessoa</td>
+</tr>
+<tr class="even">
+<td>Produto, dose, lote, estratégia e estabelecimento</td>
+<td>Efetividade vacinal em condições reais</td>
+</tr>
+<tr class="odd">
+<td>Pessoa vacinada, quando há identificação consistente</td>
+<td>Necessidade de vacinação da população</td>
+</tr>
+<tr class="even">
+<td>Local, data e território do registro</td>
+<td>Barreiras de acesso sem triangulação</td>
+</tr>
+<tr class="odd">
+<td>Campanhas e estratégias de vacinação</td>
+<td>Qualidade técnica da aplicação</td>
+</tr>
+<tr class="even">
+<td>Eventos supostamente atribuíveis à vacinação, quando notificados</td>
+<td>Causalidade de evento adverso sem investigação</td>
+</tr>
+</tbody>
+</table>
+<p>Essa distinção ajuda a evitar leituras excessivas. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.</p>
+</section>
+<section id="estrutura-dos-dados" class="level2" data-number="14.7">
+<h2 data-number="14.7" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">14.7</span> Estrutura dos dados</h2>
+<p>O SI-PNI antigo disponibilizava principalmente dados agregados de doses aplicadas e cobertura vacinal. O novo SI-PNI amplia a centralidade do registro individualizado: cada linha dos microdados abertos de doses aplicadas tende a representar um registro de imunobiológico administrado, com variáveis sobre pessoa, estabelecimento, produto, dose, lote, data e território.</p>
+<table class="caption-top table">
+<caption>Dimensões úteis para análise dos dados do SI-PNI</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Exemplos de campos ou conceitos</th>
+<th>Pergunta de controle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pessoa</td>
+<td>Identificador anonimizado, idade, sexo, raça/cor, residência</td>
+<td>A análise exige pessoas distintas ou registros de dose?</td>
+</tr>
+<tr class="even">
+<td>Imunobiológico</td>
+<td>Vacina, soro, imunoglobulina, fabricante, lote</td>
+<td>O produto corresponde ao calendário ou à campanha analisada?</td>
+</tr>
+<tr class="odd">
+<td>Dose</td>
+<td>1ª dose, 2ª dose, dose única, reforço, dose adicional</td>
+<td>A dose é válida para o esquema em questão?</td>
+</tr>
+<tr class="even">
+<td>Tempo</td>
+<td>Data de vacinação, data de registro, competência, data de extração</td>
+<td>A série usa data do evento ou data de disponibilização?</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>CNES, município e UF do serviço vacinador</td>
+<td>O território é local de aplicação ou residência?</td>
+</tr>
+<tr class="even">
+<td>Campanha ou estratégia</td>
+<td>Rotina, campanha, Covid-19, influenza e outras estratégias</td>
+<td>Registros de rotina e campanha foram separados quando necessário?</td>
+</tr>
+<tr class="odd">
+<td>Evento relacionado</td>
+<td>ESAVI e investigação de segurança</td>
+<td>Notificação de evento não equivale automaticamente a causalidade</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antes de calcular qualquer indicador, defina se a unidade é dose, pessoa, esquema, estabelecimento ou território. A mesma base pode responder a perguntas diferentes, mas os filtros e denominadores mudam.</p>
+</div>
+</div>
+<section id="orientação-para-dicionário-de-dados" class="level3" data-number="14.7.1">
+<h3 data-number="14.7.1" class="anchored" data-anchor-id="orientação-para-dicionário-de-dados"><span class="header-section-number">14.7.1</span> Orientação para dicionário de dados</h3>
+<p>Os arquivos do OpenDataSUS são disponibilizados por ano e mês de vacinação, com dicionário próprio. O conjunto de campos pode mudar entre anos, campanhas e versões da base. Em consulta ao conjunto de 2025, o portal informava 60 variáveis, fonte RNDS, atualização semanal e recursos em CSV, JSON, XML e API. Por isso, o dicionário usado na análise deve ser preservado junto com a data de extração.</p>
+<table class="caption-top table">
+<caption>Grupos de campos úteis para ler o dicionário do SI-PNI</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Grupo de campos</th>
+<th>O que procurar</th>
+<th>Uso analítico</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pessoa</td>
+<td>Identificador anonimizado, sexo, idade, raça/cor, residência</td>
+<td>Contar pessoas, avaliar desigualdades e construir esquemas</td>
+<td>Identificador público pode não permitir linkage externo</td>
+</tr>
+<tr class="even">
+<td>Vacinação</td>
+<td>Vacina, dose, grupo de atendimento, estratégia, data</td>
+<td>Definir numerador e validade da dose</td>
+<td>Nomes e categorias podem mudar</td>
+</tr>
+<tr class="odd">
+<td>Produto</td>
+<td>Fabricante, lote, imunobiológico</td>
+<td>Segurança, rastreio e validação</td>
+<td>Produto e dose precisam ser compatíveis</td>
+</tr>
+<tr class="even">
+<td>Estabelecimento</td>
+<td>CNES, município e UF de aplicação</td>
+<td>Produção por serviço ou sala de vacina</td>
+<td>Não usar como residência sem justificativa</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município/UF de residência e de aplicação, quando disponíveis</td>
+<td>Cobertura populacional e comparação territorial</td>
+<td>Campos de residência ausentes ou inconsistentes exigem regra</td>
+</tr>
+<tr class="even">
+<td>Tempo</td>
+<td>Data de vacinação, data de registro, competência, mês do arquivo</td>
+<td>Séries temporais e oportunidade</td>
+<td>Data do evento e data de disponibilização não são equivalentes</td>
+</tr>
+<tr class="odd">
+<td>Fonte/integração</td>
+<td>Sistema de origem ou indicação de integração, quando disponível</td>
+<td>Avaliar fluxo e completitude</td>
+<td>Mudanças de fluxo podem afetar série</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não assuma que o nome da variável é estável entre todos os arquivos. Em análises reprodutíveis, salve o dicionário, a URL, o período, o formato, a data de extração e qualquer regra de renomeação usada.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="unidade-de-análise" class="level2" data-number="14.8">
+<h2 data-number="14.8" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">14.8</span> Unidade de análise</h2>
+<p>A unidade de análise muda a interpretação do resultado. Em imunização, essa distinção é especialmente importante porque uma pessoa pode receber várias doses do mesmo imunobiológico, diferentes vacinas no mesmo dia e reforços em momentos posteriores.</p>
+<table class="caption-top table">
+<caption>Unidades de análise frequentes no SI-PNI</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unidade</th>
+<th>O que representa</th>
+<th>Quando usar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dose aplicada</td>
+<td>Um registro de imunobiológico administrado</td>
+<td>Produção vacinal e volume de aplicação</td>
+<td>Uma pessoa pode gerar vários registros</td>
+</tr>
+<tr class="even">
+<td>Pessoa vacinada</td>
+<td>Indivíduo com pelo menos uma dose registrada</td>
+<td>Alcance da vacinação</td>
+<td>Exige identificação consistente da pessoa</td>
+</tr>
+<tr class="odd">
+<td>Esquema completo</td>
+<td>Conjunto de doses exigidas para o público-alvo</td>
+<td>Avaliação de proteção esperada pelo calendário</td>
+<td>Regras mudam por idade, produto e período</td>
+</tr>
+<tr class="even">
+<td>Dose válida</td>
+<td>Dose que cumpre idade, intervalo e regra do esquema</td>
+<td>Cobertura e conclusão de esquema</td>
+<td>Doses fora de intervalo podem precisar ser excluídas</td>
+</tr>
+<tr class="odd">
+<td>Estabelecimento</td>
+<td>Sala ou serviço vacinador identificado por CNES</td>
+<td>Gestão local e produção por serviço</td>
+<td>Local de aplicação pode diferir da residência</td>
+</tr>
+<tr class="even">
+<td>Município/UF</td>
+<td>Agregação territorial</td>
+<td>Comparações e monitoramento</td>
+<td>Definir residência, ocorrência ou aplicação</td>
+</tr>
+</tbody>
+</table>
+<section id="dose-pessoa-e-esquema" class="level3" data-number="14.8.1">
+<h3 data-number="14.8.1" class="anchored" data-anchor-id="dose-pessoa-e-esquema"><span class="header-section-number">14.8.1</span> Dose, pessoa e esquema</h3>
+<p>Os indicadores mais comuns usam conceitos diferentes:</p>
+<table class="caption-top table">
+<caption>Diferenças entre doses, pessoas, esquemas e cobertura</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Numerador típico</th>
+<th>Denominador ou referência</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Doses aplicadas</td>
+<td>Registros de doses no período</td>
+<td>Não exige denominador populacional</td>
+<td>Mede produção registrada, não cobertura</td>
+</tr>
+<tr class="even">
+<td>Pessoas com ao menos uma dose</td>
+<td>Pessoas distintas com dose registrada</td>
+<td>População-alvo, quando usado como proporção</td>
+<td>Depende de identificação da pessoa</td>
+</tr>
+<tr class="odd">
+<td>Esquema completo</td>
+<td>Pessoas com sequência válida de doses</td>
+<td>População-alvo do esquema</td>
+<td>Exige regra de intervalo e elegibilidade</td>
+</tr>
+<tr class="even">
+<td>Cobertura vacinal</td>
+<td>Doses ou esquemas válidos no grupo-alvo</td>
+<td>População-alvo estimada ou cadastrada</td>
+<td>Denominador incorreto distorce a cobertura</td>
+</tr>
+<tr class="odd">
+<td>Homogeneidade de cobertura</td>
+<td>Municípios ou grupos que atingem meta</td>
+<td>Total de municípios ou grupos avaliados</td>
+<td>Pode ocultar bolsões locais de baixa cobertura</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="modelo-de-apuração-sem-código" class="level3" data-number="14.8.2">
+<h3 data-number="14.8.2" class="anchored" data-anchor-id="modelo-de-apuração-sem-código"><span class="header-section-number">14.8.2</span> Modelo de apuração sem código</h3>
+<p>Antes de abrir a base, escreva a regra de apuração em linguagem natural. Isso reduz erros e torna o indicador auditável.</p>
+<table class="caption-top table">
+<caption>Exemplo de regra operacional antes da análise</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Decisão</th>
+<th>Exemplo de regra</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Evento</td>
+<td>Considerar registros de Tríplice Viral com data de vacinação em 2025</td>
+</tr>
+<tr class="even">
+<td>Pessoa</td>
+<td>Contar pessoas distintas pelo identificador anonimizado disponível na base</td>
+</tr>
+<tr class="odd">
+<td>Dose</td>
+<td>Separar D1, D2, reforço e registros sem dose informada</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Usar município de residência para cobertura e município de aplicação para produção</td>
+</tr>
+<tr class="odd">
+<td>Período</td>
+<td>Usar data de vacinação, não data de extração, para o eixo temporal</td>
+</tr>
+<tr class="even">
+<td>Validação</td>
+<td>Verificar duplicidade de pessoa, vacina, dose e data antes de contar pessoas</td>
+</tr>
+</tbody>
+</table>
+<p>O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto não chame uma pela outra.</p>
+</section>
+</section>
+<section id="cobertura-vacinal-e-denominadores" class="level2" data-number="14.9">
+<h2 data-number="14.9" class="anchored" data-anchor-id="cobertura-vacinal-e-denominadores"><span class="header-section-number">14.9</span> Cobertura vacinal e denominadores</h2>
+<p>A cobertura vacinal relaciona um numerador do SI-PNI com uma população-alvo. O numerador pode ser uma dose específica, uma dose válida, pessoas com ao menos uma dose ou pessoas com esquema completo. O denominador pode vir de estimativas populacionais, nascidos vivos, cadastro da APS, população indígena, grupos prioritários ou outras bases.</p>
+<table class="caption-top table">
+<caption>Denominadores frequentes em análises de cobertura vacinal</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Denominador</th>
+<th>Quando usar</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nascidos vivos</td>
+<td>Vacinas do calendário infantil com coortes de nascimento</td>
+<td>Usar SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>) e ano compatível</td>
+</tr>
+<tr class="even">
+<td>População residente</td>
+<td>Grupos etários amplos ou análises territoriais</td>
+<td>Usar POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>) e projeção adequada</td>
+</tr>
+<tr class="odd">
+<td>População-alvo de campanha</td>
+<td>Campanhas com grupo prioritário definido</td>
+<td>Documentar fonte e regra do público-alvo</td>
+</tr>
+<tr class="even">
+<td>Cadastro da APS</td>
+<td>Monitoramento territorial de pessoas acompanhadas pela APS</td>
+<td>Cadastro pode estar duplicado ou desatualizado</td>
+</tr>
+<tr class="odd">
+<td>População indígena ou grupos específicos</td>
+<td>Estratégias específicas de vacinação</td>
+<td>Fonte e cobertura territorial devem ser explicitadas</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cobertura acima de 100% pode ocorrer por denominador subestimado, vacinação de residentes de outros territórios, duplicidade, migração, população-alvo mal definida ou registros de campanha misturados com rotina. Não trate automaticamente como “erro”; investigue a regra do indicador.</p>
+</div>
+</div>
+<section id="cobertura-administrativa-e-cobertura-de-inquérito" class="level3" data-number="14.9.1">
+<h3 data-number="14.9.1" class="anchored" data-anchor-id="cobertura-administrativa-e-cobertura-de-inquérito"><span class="header-section-number">14.9.1</span> Cobertura administrativa e cobertura de inquérito</h3>
+<p>O SI-PNI produz cobertura administrativa: um numerador de registros dividido por uma população-alvo. Inquéritos de cobertura vacinal usam outro desenho: observam cadernetas, entrevistas ou registros em uma amostra da população. As duas medidas não são intercambiáveis.</p>
+<table class="caption-top table">
+<caption>Diferenças entre fontes de cobertura vacinal</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fonte</th>
+<th>O que mede</th>
+<th>Vantagem</th>
+<th>Limitação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SI-PNI</td>
+<td>Cobertura administrativa baseada em registros</td>
+<td>Oportunidade, abrangência nacional e detalhamento operacional</td>
+<td>Sensível a sub-registro, duplicidade e denominador</td>
+</tr>
+<tr class="even">
+<td>Inquérito vacinal</td>
+<td>Cobertura estimada em amostra populacional</td>
+<td>Pode captar doses ausentes no sistema e avaliar posse de caderneta</td>
+<td>Custo, periodicidade menor e erro amostral</td>
+</tr>
+<tr class="odd">
+<td>Caderneta ou prontuário local</td>
+<td>Histórico individual documentado no serviço ou com a família</td>
+<td>Boa fonte para auditoria e cuidado individual</td>
+<td>Não é base nacional padronizada</td>
+</tr>
+</tbody>
+</table>
+<p>Quando houver divergência entre SI-PNI e inquérito, a pergunta correta não é apenas “qual está certo?”. É preciso investigar perdas de registro, qualidade do identificador, movimentação territorial, definição de dose válida, denominador e período de observação.</p>
+</section>
+<section id="exemplo-cobertura-infantil" class="level3" data-number="14.9.2">
+<h3 data-number="14.9.2" class="anchored" data-anchor-id="exemplo-cobertura-infantil"><span class="header-section-number">14.9.2</span> Exemplo: cobertura infantil</h3>
+<p>Em vacinas do calendário infantil, uma estratégia comum é combinar doses válidas do SI-PNI com nascidos vivos do SINASC. O território deve ser definido de forma consistente, preferencialmente por residência quando a pergunta for cobertura da população residente.</p>
+<table class="caption-top table">
+<caption>Componentes de uma análise de cobertura vacinal infantil</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Fonte</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numerador</td>
+<td>SI-PNI</td>
+<td>Filtrar vacina, dose, idade e validade do esquema</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Usar coorte de nascidos vivos compatível</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Município de residência</td>
+<td>Evitar misturar local de aplicação e residência</td>
+</tr>
+<tr class="even">
+<td>Tempo</td>
+<td>Ano de nascimento, idade-alvo ou ano de vacinação</td>
+<td>Definir janela de oportunidade</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Exemplo conceitual de cobertura infantil</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Passo</th>
+<th>Regra conceitual</th>
+<th>Risco se ignorado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Definir coorte</td>
+<td>Crianças nascidas em determinado ano e residentes no município</td>
+<td>Misturar crianças de idades diferentes</td>
+</tr>
+<tr class="even">
+<td>Selecionar dose</td>
+<td>Dose do calendário correspondente à idade-alvo</td>
+<td>Contar reforços ou doses de campanha como rotina</td>
+</tr>
+<tr class="odd">
+<td>Validar idade</td>
+<td>Dose aplicada dentro da janela recomendada ou de tolerância definida</td>
+<td>Superestimar cobertura oportuna</td>
+</tr>
+<tr class="even">
+<td>Contar pessoas</td>
+<td>Uma criança deve contribuir uma vez para a dose avaliada</td>
+<td>Duplicidade aumenta o numerador</td>
+</tr>
+<tr class="odd">
+<td>Escolher denominador</td>
+<td>Nascidos vivos residentes no mesmo território e coorte</td>
+<td>Denominador incompatível distorce a cobertura</td>
+</tr>
+<tr class="even">
+<td>Calcular indicador</td>
+<td>Cobertura = crianças com dose válida / nascidos vivos da coorte</td>
+<td>Resultado não é comparável sem regra documentada</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exemplo-campanha-de-influenza-em-idosos" class="level3" data-number="14.9.3">
+<h3 data-number="14.9.3" class="anchored" data-anchor-id="exemplo-campanha-de-influenza-em-idosos"><span class="header-section-number">14.9.3</span> Exemplo: campanha de influenza em idosos</h3>
+<p>Campanhas de influenza costumam ter público-alvo, período e meta próprios. A análise deve separar doses da campanha de doses registradas fora da janela definida.</p>
+<table class="caption-top table">
+<caption>Exemplo conceitual de cobertura de campanha</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Passo</th>
+<th>Regra conceitual</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Público-alvo</td>
+<td>Pessoas com idade definida pela campanha no ano analisado</td>
+<td>A idade de corte pode mudar</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Datas oficiais ou janela analítica declarada</td>
+<td>Doses tardias podem entrar ou sair conforme a regra</td>
+</tr>
+<tr class="odd">
+<td>Numerador</td>
+<td>Pessoas do grupo-alvo com dose de influenza registrada</td>
+<td>Uma pessoa vacinada duas vezes não deve contar duas vezes para cobertura</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>População estimada do grupo-alvo ou base oficial da campanha</td>
+<td>Fonte do denominador deve ser citada</td>
+</tr>
+<tr class="odd">
+<td>Território</td>
+<td>Preferir residência para cobertura e aplicação para produção</td>
+<td>Municípios com fluxo assistencial podem ter diferença grande</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="exemplo-completitude-de-raçacor" class="level3" data-number="14.9.4">
+<h3 data-number="14.9.4" class="anchored" data-anchor-id="exemplo-completitude-de-raçacor"><span class="header-section-number">14.9.4</span> Exemplo: completitude de raça/cor</h3>
+<p>Para analisar desigualdades, primeiro avalie se o campo raça/cor tem completitude suficiente e se essa completitude varia por UF, município, período, tipo de serviço ou sistema de origem.</p>
+<table class="caption-top table">
+<caption>Exemplo conceitual de avaliação da completitude de raça/cor</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Medida</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Percentual preenchido</td>
+<td>Proporção de registros com raça/cor válida</td>
+<td>Pode variar por campanha e sistema de origem</td>
+</tr>
+<tr class="even">
+<td>Percentual ignorado</td>
+<td>Proporção de registros com campo ignorado ou vazio</td>
+<td>Alto percentual limita análise de iniquidades</td>
+</tr>
+<tr class="odd">
+<td>Diferença por território</td>
+<td>Compara completitude entre municípios ou UF</td>
+<td>Diferenças podem refletir processo de registro, não composição populacional</td>
+</tr>
+<tr class="even">
+<td>Tendência temporal</td>
+<td>Avalia melhora ou piora do preenchimento</td>
+<td>Mudanças de sistema podem alterar a série</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="rotina-campanha-e-covid-19" class="level2" data-number="14.10">
+<h2 data-number="14.10" class="anchored" data-anchor-id="rotina-campanha-e-covid-19"><span class="header-section-number">14.10</span> Rotina, campanha e Covid-19</h2>
+<p>O SI-PNI reúne registros de vacinação de rotina e estratégias específicas de campanha. A vacinação contra Covid-19 teve grande volume, regras próprias, produtos diferentes, doses de reforço e grupos prioritários que mudaram ao longo do tempo. Por isso, séries de Covid-19 devem ser analisadas separadamente das vacinas de rotina quando a pergunta envolve cobertura, oportunidade ou comparação histórica.</p>
+<table class="caption-top table">
+<caption>Cuidados para separar rotina, campanha e estratégias especiais</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Recomendação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rotina do calendário</td>
+<td>Usar idade, dose e esquema vigente</td>
+<td>Calendário pode mudar ao longo da série</td>
+</tr>
+<tr class="even">
+<td>Campanha nacional</td>
+<td>Usar período e público-alvo da campanha</td>
+<td>Denominador pode ser diferente da população residente total</td>
+</tr>
+<tr class="odd">
+<td>Covid-19</td>
+<td>Separar produto, dose, reforço, grupo e período</td>
+<td>Regras mudaram rapidamente durante a pandemia</td>
+</tr>
+<tr class="even">
+<td>Influenza</td>
+<td>Considerar sazonalidade e grupos prioritários</td>
+<td>Campanhas anuais não são diretamente comparáveis sem padronização</td>
+</tr>
+<tr class="odd">
+<td>CRIE</td>
+<td>Identificar indicações especiais quando disponível</td>
+<td>População-alvo pode não ser estimável em base pública</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="análise-temporal-e-territorial" class="level2" data-number="14.11">
+<h2 data-number="14.11" class="anchored" data-anchor-id="análise-temporal-e-territorial"><span class="header-section-number">14.11</span> Análise temporal e territorial</h2>
+<p>O SI-PNI pode ser analisado por data de vacinação, data de registro, mês do arquivo, município de residência, município de aplicação, estabelecimento ou UF. Cada escolha responde a uma pergunta diferente.</p>
+<table class="caption-top table">
+<caption>Decisões temporais e territoriais no SI-PNI</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Escolha</th>
+<th>Responde melhor a</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data de vacinação</td>
+<td>Quando a dose foi aplicada</td>
+<td>Pode sofrer inclusão tardia após a data de extração</td>
+</tr>
+<tr class="even">
+<td>Data de registro</td>
+<td>Quando a informação entrou no sistema</td>
+<td>Não equivale ao momento da vacinação</td>
+</tr>
+<tr class="odd">
+<td>Mês do arquivo</td>
+<td>Organização da base aberta</td>
+<td>Pode combinar registros extraídos ou atualizados posteriormente</td>
+</tr>
+<tr class="even">
+<td>Município de residência</td>
+<td>Cobertura da população residente</td>
+<td>Campo pode estar ausente ou desatualizado</td>
+</tr>
+<tr class="odd">
+<td>Município de aplicação</td>
+<td>Produção do serviço vacinador</td>
+<td>Não representa necessariamente população coberta</td>
+</tr>
+<tr class="even">
+<td>CNES do estabelecimento</td>
+<td>Desempenho operacional da sala ou serviço</td>
+<td>CNES precisa ser validado com o cadastro vigente</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para monitoramento operacional semanal, a data de registro pode ser útil. Para análise epidemiológica de cobertura, a data de vacinação e a residência da pessoa tendem a ser mais adequadas. O relatório deve declarar essa escolha.</p>
+</div>
+</div>
+</section>
+<section id="qualidade-dos-dados" class="level2" data-number="14.12">
+<h2 data-number="14.12" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">14.12</span> Qualidade dos dados</h2>
+<p>A qualidade dos dados do SI-PNI depende do registro oportuno no ponto de vacinação, da identificação da pessoa, da completitude dos campos, da integração entre sistemas, da consistência das doses e da disponibilidade de denominadores adequados. Estudos de confiabilidade mostram que perdas de registro e discordâncias entre fontes podem comprometer estimativas de cobertura vacinal <span class="citation" data-cites="moraesConfiabilidadeInformacoesRegistradas2024">(<a href="referencias.html#ref-moraesConfiabilidadeInformacoesRegistradas2024" role="doc-biblioref">MORAES et al., 2024</a>)</span>. O preenchimento de campos como raça/cor também deve ser monitorado, especialmente em análises de desigualdades <span class="citation" data-cites="araujoTendenciaTemporalPreenchimento2024">(<a href="referencias.html#ref-araujoTendenciaTemporalPreenchimento2024" role="doc-biblioref">ARAÚJO et al., 2024</a>)</span>.</p>
+<table class="caption-top table">
+<caption>Dimensões de qualidade relevantes no SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Checagem</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Oportunidade</td>
+<td>Há atraso entre data de vacinação, registro e disponibilização?</td>
+</tr>
+<tr class="even">
+<td>Completitude</td>
+<td>Campos de dose, vacina, lote, CNES, município, idade, sexo e raça/cor estão preenchidos?</td>
+</tr>
+<tr class="odd">
+<td>Consistência</td>
+<td>Idade, dose, intervalo e imunobiológico são compatíveis com o calendário?</td>
+</tr>
+<tr class="even">
+<td>Duplicidade</td>
+<td>A mesma pessoa recebeu registros duplicados para a mesma dose?</td>
+</tr>
+<tr class="odd">
+<td>Identificação</td>
+<td>A pessoa pode ser acompanhada ao longo das doses?</td>
+</tr>
+<tr class="even">
+<td>Território</td>
+<td>Residência e local de aplicação foram diferenciados?</td>
+</tr>
+<tr class="odd">
+<td>Denominador</td>
+<td>População-alvo corresponde ao numerador usado?</td>
+</tr>
+<tr class="even">
+<td>Integração</td>
+<td>Sistemas locais e RNDS estão enviando registros de forma consistente?</td>
+</tr>
+</tbody>
+</table>
+<section id="plano-mínimo-de-validação" class="level3" data-number="14.12.1">
+<h3 data-number="14.12.1" class="anchored" data-anchor-id="plano-mínimo-de-validação"><span class="header-section-number">14.12.1</span> Plano mínimo de validação</h3>
+<p>Uma análise mais robusta deve começar por validações simples antes de produzir indicadores finais.</p>
+<table class="caption-top table">
+<caption>Validações iniciais recomendadas para o SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Validação</th>
+<th>Como interpretar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Registros sem vacina, dose ou data</td>
+<td>Podem impedir definição do numerador</td>
+</tr>
+<tr class="even">
+<td>Registros sem município de residência</td>
+<td>Limitam cálculo de cobertura populacional</td>
+</tr>
+<tr class="odd">
+<td>Registros sem CNES ou estabelecimento</td>
+<td>Limitam análise operacional por sala de vacina</td>
+</tr>
+<tr class="even">
+<td>Pessoas com mesma vacina, dose e data repetidas</td>
+<td>Podem indicar duplicidade</td>
+</tr>
+<tr class="odd">
+<td>Dose incompatível com idade</td>
+<td>Pode indicar erro de registro ou dose fora de calendário</td>
+</tr>
+<tr class="even">
+<td>Intervalo incompatível entre doses</td>
+<td>Pode exigir classificação como dose inválida para cobertura</td>
+</tr>
+<tr class="odd">
+<td>Mudança abrupta em mês recente</td>
+<td>Pode indicar atraso de envio ou mudança de integração</td>
+</tr>
+<tr class="even">
+<td>Campos sociais incompletos</td>
+<td>Limitam análise de desigualdades</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Em competências recentes, verifique atraso de envio antes de interpretar queda de doses como queda real da vacinação. A data de extração precisa acompanhar tabelas, gráficos e resultados.</p>
+</div>
+</div>
+</section>
+<section id="reprodutibilidade" class="level3" data-number="14.12.2">
+<h3 data-number="14.12.2" class="anchored" data-anchor-id="reprodutibilidade"><span class="header-section-number">14.12.2</span> Reprodutibilidade</h3>
+<p>Como bases abertas podem ser atualizadas, uma análise reprodutível deve documentar:</p>
+<ul>
+<li>conjunto de dados usado;</li>
+<li>ano e meses baixados;</li>
+<li>formato dos arquivos;</li>
+<li>data e horário da extração;</li>
+<li>versão ou data do dicionário;</li>
+<li>filtros de vacina, dose, idade, território e estratégia;</li>
+<li>regra de deduplicação;</li>
+<li>fonte do denominador;</li>
+<li>tratamento de registros sem residência, sem dose ou fora da janela.</li>
 </ul>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="14.2">
-<h2 data-number="14.2" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">14.2</span> Histórico e organização</h2>
-<p>A criação do SI-PNI se dá em 1975, com a institucionalização do Programa Nacional de Imunizações (PNI), sendo desenvolvido pelo DataSUS.</p>
-<p>Até 2023, o SI-PNI se organizava em um conjunto de sistemas:</p>
-<ul>
-<li>Avaliação do Programa de Imunizações (API)</li>
-<li>Estoque e Distribuição de Imunobiológicos (EDI)</li>
-<li>Eventos Adversos Pós-Vacinação (EAPV)</li>
-<li>Programa de Avaliação do Instrumento de Supervisão em Sala de Vacinação (PAISSV)</li>
-<li>Apuração dos Imunobiológicos Utilizados (AIU)</li>
-<li>Programa de Avaliação do Instrumento de Supervisão (PAIS)</li>
-<li>Sistema de Informações dos Centros de Referência em Imunobiológicos Especiais (SICRIE)</li>
-</ul>
-<p>Durante a pandemia de SARS-CoV-2, o SI-PNI foi completamente reformulado visando ter capacidade de resposta para a imunização massiva da população. O novo SI-PNI já surge integrado à <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de Dados de Saúde</a>, alinhado a Estratégia de Saúde Digital (e-SAÚDE) do Ministério da Saúde, tão como a proposta de um Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial de Saúde (OMS). Em <a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf">31 de maio de 2023</a> foi publicado o módulo para vacinação de rotina, encerrando por fim as versões Web e desktop do antigo SI-PNI.</p>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="14.3">
-<h2 data-number="14.3" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">14.3</span> Estrutura dos dados</h2>
-<p>O antigo SI-PNI disponibiliza dados agregados do quantitativo de doses aplicadas e de cobertura vacinal. Já o novo PNI disponibiliza dados desagregados de doses aplicadas, onde cada registro é uma dose aplicada.</p>
-<p>O registro de vacinações é direcionado para o novo SI-PNI (RNDS) se o sistema de registro estiver devidamente integrado. Caso não esteja, o registro vacinal é direcionado para o SISAB e posteriormente migra para a RNDS (em torno de 30 dias).</p>
+<section id="privacidade-e-dados-individualizados" class="level2" data-number="14.13">
+<h2 data-number="14.13" class="anchored" data-anchor-id="privacidade-e-dados-individualizados"><span class="header-section-number">14.13</span> Privacidade e dados individualizados</h2>
+<p>O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para linkage individual, auditoria de pessoa específica e reidentificação.</p>
+<table class="caption-top table">
+<caption>Implicações de privacidade no uso dos dados do SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspecto</th>
+<th>Implicação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Registro nominal</td>
+<td>Permite acompanhar esquemas e pessoas no sistema de origem</td>
+</tr>
+<tr class="even">
+<td>Base pública anonimizada</td>
+<td>Protege pessoas e permite análise agregada</td>
+</tr>
+<tr class="odd">
+<td>Linkage individual</td>
+<td>Exige autorização, governança, finalidade e base legal</td>
+</tr>
+<tr class="even">
+<td>Pequenos números</td>
+<td>Podem exigir agregação adicional em resultados públicos</td>
+</tr>
+<tr class="odd">
+<td>Reprodutibilidade</td>
+<td>Depende de registrar data de extração, filtros e versão da base</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="14.4">
-<h2 data-number="14.4" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">14.4</span> Acesso aos dados</h2>
-<p>Os dados do antigo SI-PNI estão disponíveis no DataSUS, na área de Assistência a Saúde, compreendendo os anos de 1994 a 2022.</p>
-<p>Os dados do novo SI-PNI estão disponíveis no OpenDataSUS:</p>
+<section id="acesso-aos-dados" class="level2" data-number="14.14">
+<h2 data-number="14.14" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">14.14</span> Acesso aos dados</h2>
+<p>Os dados agregados do antigo SI-PNI podem ser consultados no DATASUS, na área de informações de saúde relacionada à assistência e imunizações, com séries históricas de doses aplicadas e coberturas vacinais.</p>
+<p>Os microdados abertos do novo SI-PNI são publicados no OpenDataSUS em conjuntos anuais. Em consulta realizada em maio de 2026, os conjuntos anuais disponíveis para doses aplicadas do PNI abrangiam 2020 a 2025, além da base específica da Campanha Nacional de Vacinação contra Covid-19. A ausência de um conjunto anual mais recente deve ser verificada no momento da extração.</p>
+<section id="bases-abertas" class="level3" data-number="14.14.1">
+<h3 data-number="14.14.1" class="anchored" data-anchor-id="bases-abertas"><span class="header-section-number">14.14.1</span> Bases abertas</h3>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao">Campanha Nacional de Vacinação contra Covid-19</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2025</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2024</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2023</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2022</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2021</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020">Doses aplicadas pelo Programa de Nacional de Imunizações (PNI) - 2020</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/esavi">Dados sobre Eventos Supostamente Atribuíveis a Vacinação – ESAVI</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2025</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2024</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2023</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2022</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2021</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2020</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/esavi">Dados sobre Eventos Supostamente Atribuíveis à Vacinação - ESAVI</a></li>
 </ul>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="14.5">
-<h2 data-number="14.5" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">14.5</span> Bibliografia recomendada</h2>
-<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="14.5.1">
-<h3 data-number="14.5.1" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">14.5.1</span> Avaliação da qualidade dos dados</h3>
+<section id="documentação-e-orientação" class="level3" data-number="14.14.2">
+<h3 data-number="14.14.2" class="anchored" data-anchor-id="documentação-e-orientação"><span class="header-section-number">14.14.2</span> Documentação e orientação</h3>
+<ul>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/pni">Programa Nacional de Imunizações</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/vacinacao">Vacinação - Ministério da Saúde</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/vacinacao/manuais">Manuais de vacinação</a></li>
+<li><a href="https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/">Guia de integração da RNDS - Registro de Imunobiológico Administrado em Rotina</a></li>
+</ul>
+</section>
+</section>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="14.15">
+<h2 data-number="14.15" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">14.15</span> Relacionamento com outros sistemas</h2>
+<p>O SI-PNI é frequentemente combinado com sistemas de população, eventos vitais, Atenção Primária, estabelecimentos e vigilância. O ponto crítico é alinhar território, tempo, unidade de análise e denominador.</p>
+<table class="caption-top table">
+<caption>Integrações frequentes entre SI-PNI e outros sistemas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Fontes combinadas</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Qual é a cobertura infantil?</td>
+<td>SI-PNI + SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
+<td>Coorte de nascimento, idade-alvo e residência</td>
+</tr>
+<tr class="even">
+<td>Qual é a cobertura por faixa etária?</td>
+<td>SI-PNI + POP (<a href="pop.html" class="quarto-xref"><span>Apêndice D</span></a>)</td>
+<td>População estimada do mesmo ano e território</td>
+</tr>
+<tr class="odd">
+<td>A APS está registrando vacinação?</td>
+<td>SI-PNI + SISAPS/SISAB (<a href="sisaps.html" class="quarto-xref"><span>Capítulo 13</span></a>)</td>
+<td>Sistemas podem ter fluxos e prazos diferentes</td>
+</tr>
+<tr class="even">
+<td>Onde a vacinação foi aplicada?</td>
+<td>SI-PNI + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>CNES representa o estabelecimento vacinador</td>
+</tr>
+<tr class="odd">
+<td>Há relação com surtos ou agravos?</td>
+<td>SI-PNI + SINAN (<a href="sinan.html" class="quarto-xref"><span>Capítulo 9</span></a>)</td>
+<td>Vacinação e notificação têm unidades e tempos distintos</td>
+</tr>
+<tr class="even">
+<td>Como avaliar eventos relacionados?</td>
+<td>SI-PNI + ESAVI + investigação epidemiológica</td>
+<td>Notificação isolada não estabelece causalidade</td>
+</tr>
+</tbody>
+</table>
+<section id="checklist-para-integração" class="level3" data-number="14.15.1">
+<h3 data-number="14.15.1" class="anchored" data-anchor-id="checklist-para-integração"><span class="header-section-number">14.15.1</span> Checklist para integração</h3>
+<table class="caption-top table">
+<caption>Verificações antes de integrar SI-PNI com outros sistemas</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Checagem</th>
+<th>Por que importa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Definir residência ou local de aplicação</td>
+<td>Cobertura populacional deve preferir residência; produção do serviço usa local de aplicação</td>
+</tr>
+<tr class="even">
+<td>Harmonizar códigos territoriais</td>
+<td>Municípios, UF e mudanças territoriais precisam ser compatíveis</td>
+</tr>
+<tr class="odd">
+<td>Alinhar período</td>
+<td>Data de vacinação, competência e ano de nascimento podem apontar janelas diferentes</td>
+</tr>
+<tr class="even">
+<td>Escolher denominador</td>
+<td>População residente, nascidos vivos e público-alvo de campanha não são intercambiáveis</td>
+</tr>
+<tr class="odd">
+<td>Separar rotina e campanha</td>
+<td>Estratégias diferentes podem ter regras e públicos distintos</td>
+</tr>
+<tr class="even">
+<td>Registrar data de extração</td>
+<td>Bases abertas podem ser atualizadas ou retificadas</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="erros-comuns" class="level2" data-number="14.16">
+<h2 data-number="14.16" class="anchored" data-anchor-id="erros-comuns"><span class="header-section-number">14.16</span> Erros comuns</h2>
+<p>Alguns erros aparecem repetidamente em análises de vacinação. Eles geralmente não decorrem de dificuldade estatística, mas de definição inadequada da unidade de análise.</p>
+<table class="caption-top table">
+<caption>Erros comuns em análises do SI-PNI</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Erro</th>
+<th>Por que é problemático</th>
+<th>Como evitar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Contar doses como pessoas</td>
+<td>Uma pessoa pode ter várias doses</td>
+<td>Usar identificador de pessoa quando a pergunta for alcance populacional</td>
+</tr>
+<tr class="even">
+<td>Misturar residência e aplicação</td>
+<td>Produção do serviço não é cobertura do residente</td>
+<td>Declarar e separar os dois territórios</td>
+</tr>
+<tr class="odd">
+<td>Misturar rotina e campanha</td>
+<td>Estratégias têm públicos, períodos e metas diferentes</td>
+<td>Filtrar estratégia e período antes de calcular indicador</td>
+</tr>
+<tr class="even">
+<td>Usar denominador genérico</td>
+<td>População total pode não ser população-alvo</td>
+<td>Escolher denominador compatível com calendário ou campanha</td>
+</tr>
+<tr class="odd">
+<td>Ignorar idade e intervalo</td>
+<td>Doses fora da janela podem não valer para cobertura oportuna</td>
+<td>Definir regra de dose válida</td>
+</tr>
+<tr class="even">
+<td>Interpretar mês recente como definitivo</td>
+<td>Bases podem sofrer atraso e reprocessamento</td>
+<td>Registrar data de extração e revisar competências recentes</td>
+</tr>
+<tr class="odd">
+<td>Tratar cobertura acima de 100% como simples erro</td>
+<td>Pode revelar denominador inadequado ou fluxo territorial</td>
+<td>Investigar numerador, denominador e território</td>
+</tr>
+<tr class="even">
+<td>Tratar ESAVI como causalidade</td>
+<td>Notificação é sinal para investigação, não prova causal</td>
+<td>Consultar investigação e classificação do evento</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="quando-não-usar-o-si-pni-sozinho" class="level2" data-number="14.17">
+<h2 data-number="14.17" class="anchored" data-anchor-id="quando-não-usar-o-si-pni-sozinho"><span class="header-section-number">14.17</span> Quando não usar o SI-PNI sozinho</h2>
+<p>O SI-PNI é indispensável para monitorar vacinação, mas algumas perguntas exigem desenho analítico ou fontes complementares.</p>
+<table class="caption-top table">
+<caption>Perguntas que exigem SI-PNI combinado com outras evidências</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta</th>
+<th>Por que o SI-PNI sozinho não basta</th>
+<th>Complementos possíveis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A vacina evitou adoecimento?</td>
+<td>Efetividade exige comparar vacinados e não vacinados com controle de confundimento</td>
+<td>SINAN, SIVEP-Gripe, SIM, desenho de coorte, caso-controle ou teste-negativo</td>
+</tr>
+<tr class="even">
+<td>A pessoa está imunologicamente protegida?</td>
+<td>Registro de dose não mede resposta imune individual</td>
+<td>Estudos imunológicos, sorologia, literatura clínica</td>
+</tr>
+<tr class="odd">
+<td>Houve evento adverso causado pela vacina?</td>
+<td>ESAVI é notificação inicial, não causalidade automática</td>
+<td>Investigação epidemiológica e classificação clínica</td>
+</tr>
+<tr class="even">
+<td>A baixa cobertura reflete hesitação vacinal?</td>
+<td>Registro não mede motivo da não vacinação</td>
+<td>Inquéritos, estudos qualitativos, dados de acesso e comunicação</td>
+</tr>
+<tr class="odd">
+<td>O serviço aplicou vacina com qualidade técnica?</td>
+<td>Sistema registra evento, não observa técnica de aplicação</td>
+<td>Supervisão, auditoria, sala de vacina e rede de frio</td>
+</tr>
+<tr class="even">
+<td>A população não vacinada é exatamente conhecida?</td>
+<td>Denominadores e identificação podem ter incertezas</td>
+<td>POP, SINASC, cadastros locais, APS e busca ativa</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limitações" class="level2" data-number="14.18">
+<h2 data-number="14.18" class="anchored" data-anchor-id="limitações"><span class="header-section-number">14.18</span> Limitações</h2>
+<table class="caption-top table">
+<caption>Limitações recorrentes do SI-PNI</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitação</th>
+<th>Consequência analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sub-registro ou atraso de envio</td>
+<td>Numeradores e coberturas podem ficar subestimados</td>
+</tr>
+<tr class="even">
+<td>Duplicidade ou identificação inconsistente</td>
+<td>Pessoas vacinadas e esquemas completos podem ser mal estimados</td>
+</tr>
+<tr class="odd">
+<td>Denominador incerto</td>
+<td>Coberturas podem ficar acima ou abaixo do real</td>
+</tr>
+<tr class="even">
+<td>Mudanças no calendário</td>
+<td>Séries históricas exigem versionamento das regras</td>
+</tr>
+<tr class="odd">
+<td>Diferença entre residência e aplicação</td>
+<td>Produção por estabelecimento não equivale à cobertura do território</td>
+</tr>
+<tr class="even">
+<td>Transição de sistemas</td>
+<td>Quebras entre SI-PNI antigo, novo SI-PNI e RNDS podem afetar comparabilidade</td>
+</tr>
+<tr class="odd">
+<td>Microdados anonimizados</td>
+<td>Linkage individual público é limitado por privacidade</td>
+</tr>
+<tr class="even">
+<td>Evento adverso notificado</td>
+<td>Notificação não prova causalidade sem investigação</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="14.19">
+<h2 data-number="14.19" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">14.19</span> Cuidados de interpretação</h2>
+<p>Ao utilizar o SI-PNI, alguns cuidados são recorrentes:</p>
+<ul>
+<li>distinguir dose aplicada, pessoa vacinada, dose válida e esquema completo;</li>
+<li>separar vacinação de rotina, campanhas, Covid-19 e estratégias especiais;</li>
+<li>definir se o território é residência da pessoa ou local de aplicação;</li>
+<li>documentar calendário, idade-alvo, intervalo entre doses e regra vigente;</li>
+<li>escolher denominador compatível com numerador e período;</li>
+<li>verificar completitude, duplicidade, oportunidade e data de extração;</li>
+<li>interpretar coberturas acima de 100% como sinal para investigação metodológica;</li>
+<li>combinar com SINASC, POP, CNES, SISAPS/SISAB ou SINAN apenas quando a unidade de análise estiver clara.</li>
+</ul>
+</section>
+<section id="bibliografia-recomendada" class="level2" data-number="14.20">
+<h2 data-number="14.20" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">14.20</span> Bibliografia recomendada</h2>
+<section id="avaliação-da-qualidade-dos-dados" class="level3" data-number="14.20.1">
+<h3 data-number="14.20.1" class="anchored" data-anchor-id="avaliação-da-qualidade-dos-dados"><span class="header-section-number">14.20.1</span> Avaliação da qualidade dos dados</h3>
 <ul>
 <li>Artigo <em>Confiabilidade das informações registradas no Sistema de Informação do Programa Nacional de Imunizações</em> <span class="citation" data-cites="moraesConfiabilidadeInformacoesRegistradas2024">(<a href="referencias.html#ref-moraesConfiabilidadeInformacoesRegistradas2024" role="doc-biblioref">MORAES et al., 2024</a>)</span>. Disponível <a href="https://doi.org/10.1590/S2237-96222024v33e20231309.especial2.pt">aqui</a>.</li>
 <li>Artigo <em>Tendência temporal do preenchimento do campo raça/cor nos registros de hospitalização, vacinação e mortalidade pela Covid-19 no Brasil</em> <span class="citation" data-cites="araujoTendenciaTemporalPreenchimento2024">(<a href="referencias.html#ref-araujoTendenciaTemporalPreenchimento2024" role="doc-biblioref">ARAÚJO et al., 2024</a>)</span>. Disponível <a href="https://doi.org/10.1590/1414-462X202432040012">aqui</a>.</li>
