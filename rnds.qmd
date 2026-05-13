@@ -1,1 +1,370 @@
 # RNDS -- Rede Nacional de Dados em Saúde {#sec-rnds}
+
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/rnds_transcript.json">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/rnds.mp3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/rnds.md">podcast/rnds.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
+## Resumo
+
+| Característica | Descrição |
+|---|---|
+| Ano de instituição normativa | 2020, pela Portaria nº 1.434/2020 |
+| Natureza | Plataforma nacional de interoperabilidade em saúde |
+| Escopo | Integração e troca segura de informações clínicas, assistenciais, de vigilância e gestão |
+| Unidade de informação | Documento, recurso ou evento clínico padronizado por modelo de informação |
+| Padrão tecnológico | Modelos informacionais e computacionais, com uso de FHIR e terminologias padronizadas |
+| Abrangência | Estabelecimentos públicos e privados, sistemas nacionais, sistemas locais e órgãos gestores integrados |
+| Uso central | Continuidade do cuidado, acesso do cidadão, apoio à gestão, integração entre sistemas e transformação digital do SUS |
+: Características gerais da RNDS
+
+A Rede Nacional de Dados em Saúde (RNDS) é a plataforma oficial de interoperabilidade do Ministério da Saúde. Sua função não é substituir todos os sistemas de informação em saúde, mas permitir que dados produzidos em diferentes sistemas, serviços e pontos de atenção sejam compartilhados de forma segura e padronizada [@msRNDSPagina2026].
+
+A RNDS muda a lógica de parte da informação em saúde: em vez de cada sistema permanecer isolado, os registros passam a poder circular por uma infraestrutura nacional de troca de dados. Isso é relevante para continuidade do cuidado, acesso do cidadão aos próprios registros, apoio à decisão clínica, gestão, vigilância e monitoramento.
+
+::: {.callout-note}
+**Interoperabilidade.** Neste capítulo, interoperabilidade significa a capacidade de sistemas diferentes trocarem informações de saúde de forma tecnicamente compatível, semanticamente compreensível e juridicamente governada.
+:::
+
+## Como ler este capítulo
+
+A RNDS não deve ser lida como mais uma base de microdados pública. Ela é uma infraestrutura de troca, integração e consulta de dados de saúde. Por isso, o capítulo enfatiza arquitetura, modelos de informação, governança, privacidade e usos analíticos indiretos.
+
+| Público | O que deve procurar no capítulo |
+|---|---|
+| Estudantes | A diferença entre sistema de informação, plataforma de interoperabilidade e base aberta |
+| Gestores | Como a RNDS apoia continuidade do cuidado, integração de sistemas e planejamento |
+| Profissionais de saúde | Como registros podem acompanhar a trajetória do cidadão entre pontos de atenção |
+| Pesquisadores | Limites de acesso, qualidade, padronização e uso secundário dos dados |
+| Analistas e integradores | Modelos de informação, FHIR, terminologias, autenticação, validação e rastreabilidade |
+: Formas de uso do capítulo por diferentes públicos
+
+## Quando usar a RNDS
+
+Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos, ou avaliação da transformação digital do SUS.
+
+| Pergunta | Usar RNDS para | Cuidado principal |
+|---|---|---|
+| Como um registro clínico circula entre sistemas? | Entender modelos de informação, envio, validação e consulta | Nem todo sistema está integrado ou no mesmo grau de maturidade |
+| Como acompanhar a trajetória do cidadão? | Consultar registros integrados por diferentes pontos de atenção | Acesso depende de autorização, perfil e finalidade |
+| Como integrar um sistema local ao SUS Digital? | Seguir guia, modelos, autenticação e testes de integração | Integração é processo técnico, jurídico e organizacional |
+| Como verificar se uma vacina aparece no histórico? | Entender o fluxo do SI-PNI/RIA para a RNDS | Ausência pode ser atraso, não ausência de vacinação |
+| Como usar dados para gestão? | Utilizar informações agregadas e indicadores derivados | Microdados identificáveis não são dados abertos |
+| Como avaliar interoperabilidade? | Medir completitude, oportunidade, conformidade e uso dos modelos | Integração técnica não garante qualidade clínica |
+: Perguntas comuns relacionadas à RNDS
+
+::: {.callout-warning}
+A RNDS não é sinônimo de dado aberto. Muitos registros trafegam em nível individual e são protegidos por sigilo, LGPD, controle de acesso e finalidade de uso.
+:::
+
+## Histórico e base normativa
+
+A RNDS foi instituída no contexto do Programa Conecte SUS, formalizado pela Portaria nº 1.434, de 28 de maio de 2020 [@msPortaria14342020]. A norma definiu a RNDS como componente do Sistema Nacional de Informações em Saúde, voltado à integração e interoperabilidade de informações em saúde entre estabelecimentos públicos e privados e órgãos gestores.
+
+O Programa Conecte SUS buscou articular informatização da atenção à saúde, integração dos estabelecimentos e acesso de cidadãos, profissionais e gestores às informações em saúde. A RNDS se tornou a infraestrutura nacional para viabilizar essa troca de registros.
+
+Com a pandemia de Covid-19, a RNDS ganhou centralidade operacional, especialmente na integração de resultados laboratoriais e vacinação. Posteriormente, a agenda se ampliou para modelos de atendimento clínico, imunização de rotina, regulação assistencial, documentos clínicos e outras trocas de informação em saúde.
+
+## O que a RNDS é e o que não é
+
+| A RNDS é | A RNDS não é |
+|---|---|
+| Plataforma nacional de interoperabilidade | Um único prontuário eletrônico usado por todos os serviços |
+| Infraestrutura para troca segura de dados | Substituta automática de SIM, SINASC, SIH, SIA, SINAN, CNES ou SI-PNI |
+| Repositório e barramento de documentos e eventos padronizados | Base pública irrestrita de microdados identificáveis |
+| Componente da transformação digital do SUS | Garantia de que todo registro clínico do país já está integrado |
+| Camada de integração entre sistemas | Solução completa para problemas de qualidade do registro local |
+: Escopo conceitual da RNDS
+
+Essa distinção é importante. A RNDS conecta sistemas, mas a qualidade do que circula depende do registro original, do modelo de informação, da identificação correta da pessoa, da conformidade técnica, da governança e do uso adequado por profissionais e gestores.
+
+## Fluxo de informação
+
+O fluxo básico da RNDS começa em um sistema de origem, passa por transformação para um modelo padronizado, autenticação, envio, validação e armazenamento ou disponibilização para consulta autorizada.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado de integração com a RNDS"
+%%| label: fig-rnds-fluxo
+flowchart TD
+  serv[Serviço ou estabelecimento de saúde] --> origem[Sistema de origem]
+  origem --> modelo[Modelo de informação e recurso FHIR]
+  modelo --> auth[Autenticação e autorização]
+  auth --> envio[Envio à RNDS]
+  envio --> valid[Validações técnicas e semânticas]
+  valid --> rnds[RNDS]
+  rnds --> cid[Meu SUS Digital]
+  rnds --> prof[SUS Digital Profissional]
+  rnds --> gest[Gestão e monitoramento]
+  rnds --> sist[Sistemas integrados]
+```
+:::
+
+| Etapa | O que ocorre | Cuidado |
+|---|---|---|
+| Registro local | Dado nasce no prontuário, sistema laboratorial, vacinal, regulatório ou outro sistema | Qualidade depende do processo de trabalho |
+| Mapeamento | Informação é convertida para modelo de informação da RNDS | Campos locais precisam corresponder ao modelo nacional |
+| Codificação | Uso de terminologias e identificadores padronizados | Códigos incorretos reduzem interoperabilidade semântica |
+| Autenticação | Sistema integrador se identifica e solicita acesso | Segurança e credenciais são parte da governança |
+| Envio | Documento ou recurso é transmitido à RNDS | Falhas de integração podem gerar atraso ou rejeição |
+| Validação | RNDS avalia estrutura, obrigatoriedade e regras do modelo | Registro aceito tecnicamente ainda pode ter problema clínico |
+| Consulta | Informação é disponibilizada conforme perfil e finalidade | Acesso depende de autorização, contexto e proteção de dados |
+: Etapas gerais do fluxo de integração com a RNDS
+
+## Modelos de informação
+
+A RNDS opera por modelos de informação e modelos computacionais. O modelo de informação define quais dados devem ser enviados, sua estrutura, cardinalidade, significado e regras. O modelo computacional define como esses dados são representados tecnicamente.
+
+| Modelo | O que registra | Uso principal | Cuidado |
+|---|---|---|---|
+| REL | Resultado de Exames Laboratoriais | Compartilhar resultados laboratoriais padronizados | Exige identificação do exame, resultado, método e unidade quando aplicável |
+| RAC | Registro de Atendimento Clínico | Registrar atendimento clínico na atenção básica, especializada ou domiciliar | Não substitui o prontuário completo |
+| RIA-C | Registro de Imunobiológico Administrado em Campanha | Vacinação em campanhas, como Covid-19 | Campanha, produto, dose e público precisam estar claros |
+| RIA-R | Registro de Imunobiológico Administrado em Rotina | Vacinas do calendário e rotina de imunização | Idade, dose, imunobiológico e estabelecimento são essenciais |
+| RIRA/MIRA | Regulação assistencial | Solicitações, encaminhamentos e dados da regulação do acesso | Status e evento regulatório devem ser interpretados corretamente |
+: Exemplos de modelos de informação relacionados à RNDS
+
+O portal oficial da RNDS descreve modelos como REL, RAC, RIA e RIRA, e informa que a modelagem segue o padrão Fast Healthcare Interoperability Resources (FHIR) [@msRNDSEstrutura2026]. O guia de integração reúne orientações para gestores e integradores, incluindo modelos informacionais e computacionais [@msRNDSGuia2026].
+
+::: {.callout-note}
+O conjunto de modelos evolui. Antes de implementar ou analisar uma integração, consulte o guia oficial da RNDS e a versão do modelo específico.
+:::
+
+## FHIR, terminologias e semântica
+
+FHIR é um padrão para troca de informações em saúde. Na RNDS, ele ajuda a representar recursos como paciente, organização, profissional, atendimento, observação, imunização e documentos de forma computacionalmente interoperável.
+
+| Camada | Pergunta de controle |
+|---|---|
+| Sintática | O arquivo ou recurso tem a estrutura esperada? |
+| Semântica | O campo significa a mesma coisa para quem envia e para quem recebe? |
+| Terminológica | O código usado pertence à terminologia correta? |
+| Identificação | Pessoa, estabelecimento, profissional e sistema estão identificados corretamente? |
+| Temporal | Data do evento, data do registro e data de envio estão diferenciadas? |
+| Contextual | O registro tem contexto assistencial, estabelecimento e finalidade definidos? |
+: Camadas de interoperabilidade relevantes na RNDS
+
+Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir ambiguidade e permitir interpretação comum entre sistemas. Ainda assim, a existência de um código não garante que o registro local tenha sido produzido corretamente.
+
+## Identificadores essenciais
+
+A interoperabilidade depende de identificação confiável. Sem identificadores consistentes, a RNDS perde capacidade de conectar registros da trajetória do cidadão.
+
+| Identificador | O que representa | Cuidado |
+|---|---|---|
+| CNS ou CPF | Identificação nacional do cidadão nos modelos que exigem identificação individual | Erros impedem vínculo correto de registros |
+| CNES | Estabelecimento de saúde | Deve ser compatível com o serviço e período |
+| Profissional | Profissional ou papel assistencial, conforme modelo | Nem todo modelo público expõe a mesma granularidade |
+| Sistema de origem | Aplicação que produziu ou enviou o registro | Útil para auditoria e diagnóstico de integração |
+| Documento ou evento | Registro enviado à RNDS | Pode ter versões, retificações ou cancelamentos |
+| Data e hora | Evento, registro, envio ou atualização | Datas diferentes respondem a perguntas diferentes |
+: Identificadores importantes para interpretar registros integrados à RNDS
+
+::: {.callout-warning}
+Identificação incorreta de pessoa ou estabelecimento é um problema clínico, operacional e analítico. Pode fragmentar a trajetória do cidadão, duplicar registros ou associar informação ao contexto errado.
+:::
+
+## Acesso e perfis de uso
+
+O acesso à RNDS varia conforme perfil, finalidade e autorização. Cidadãos acessam seus próprios registros por aplicativos e serviços digitais, profissionais acessam informações em contexto assistencial, gestores acompanham dados para planejamento e monitoramento, e integradores usam ambientes e guias técnicos para conexão de sistemas.
+
+| Perfil | Forma de uso | Cuidado |
+|---|---|---|
+| Cidadão | Consulta de registros próprios no Meu SUS Digital | Disponibilidade depende de integração e processamento |
+| Profissional de saúde | Consulta em contexto assistencial autorizado | Acesso deve respeitar finalidade e sigilo |
+| Gestor | Monitoramento, painéis e informações agregadas | Agregado não substitui auditoria individual |
+| Integrador | Envio e consulta por APIs e modelos técnicos | Precisa cumprir requisitos de segurança e conformidade |
+| Pesquisador | Uso secundário mediante governança e bases apropriadas | Microdados identificáveis não são acesso aberto |
+: Perfis de uso da RNDS
+
+### RNDS e dados abertos
+
+A RNDS pode alimentar bases abertas ou painéis, mas isso não significa que a RNDS seja diretamente uma base aberta. Dados individualizados de saúde têm proteção legal e exigem controle de acesso.
+
+| Situação | Interpretação |
+|---|---|
+| Registro individual na RNDS | Informação protegida, acessível conforme perfil e finalidade |
+| Base anonimizada no OpenDataSUS | Produto de disseminação pública, com regras próprias |
+| Painel agregado | Saída para monitoramento e transparência |
+| Extração para pesquisa | Depende de autorização, base legal, ética e governança |
+: Diferenças entre RNDS, dados abertos e produtos de disseminação
+
+## Qualidade dos dados
+
+A RNDS não resolve automaticamente problemas de qualidade. Ela pode tornar problemas mais visíveis, mas depende do registro original, da integração e da validação.
+
+| Dimensão | Checagem |
+|---|---|
+| Completitude | Campos obrigatórios e relevantes foram preenchidos? |
+| Conformidade | O recurso segue o modelo e a versão esperados? |
+| Consistência | Idade, sexo, datas, códigos, estabelecimento e evento são compatíveis? |
+| Oportunidade | O envio ocorreu próximo ao evento? |
+| Identificação | Cidadão, estabelecimento e profissional foram identificados corretamente? |
+| Duplicidade | O mesmo evento foi enviado mais de uma vez? |
+| Retificação | Há regra para corrigir, substituir ou cancelar registros? |
+| Rastreabilidade | É possível identificar origem, data, versão e sistema responsável? |
+: Dimensões de qualidade na RNDS
+
+### Validação mínima
+
+Antes de usar informação derivada da RNDS, documente:
+
+- modelo de informação usado;
+- versão do modelo;
+- sistema de origem;
+- período do evento;
+- data de envio ou extração;
+- regra de identificação da pessoa;
+- regra de deduplicação;
+- tratamento de registros rejeitados, retificados ou cancelados;
+- diferença entre ausência de dado e ausência de evento.
+
+## Privacidade, segurança e governança
+
+A RNDS lida com dados pessoais e dados pessoais sensíveis. Por isso, seu uso deve respeitar a LGPD, sigilo profissional, segurança da informação, finalidade, necessidade, controle de acesso, rastreabilidade e governança institucional [@msRNDSPagina2026].
+
+| Princípio | Implicação prática |
+|---|---|
+| Finalidade | O acesso precisa ter motivo assistencial, de gestão, vigilância ou outro fundamento legítimo |
+| Necessidade | Deve-se acessar apenas o necessário para a finalidade |
+| Segurança | Autenticação, autorização, criptografia e auditoria são requisitos estruturais |
+| Transparência | Cidadão deve ter meios de conhecer e acessar seus registros conforme regras vigentes |
+| Responsabilização | Sistemas e usuários devem ser rastreáveis |
+| Governança | Uso secundário exige regras, papéis e responsabilidades definidos |
+: Princípios relevantes para uso da RNDS
+
+::: {.callout-warning}
+O fato de um dado estar tecnicamente disponível não significa que ele possa ser usado para qualquer finalidade. A finalidade de uso é parte central da governança da RNDS.
+:::
+
+## Relação com outros sistemas
+
+A RNDS se relaciona com vários sistemas, mas a relação não é sempre a mesma. Em alguns casos, sistemas enviam registros para a RNDS; em outros, usam a RNDS para consulta; em outros, bases públicas são derivadas de dados integrados.
+
+| Sistema ou área | Relação com a RNDS | Cuidado |
+|---|---|---|
+| SI-PNI (@sec-sipni) | Registros de imunização podem ser integrados por RIA | Dose, pessoa, residência e aplicação precisam ser diferenciadas |
+| SISAPS/SISAB (@sec-sisab) | Registros da APS podem compor fluxos de atendimento e vacinação | Fluxos intermediários podem gerar atraso |
+| CNES (@sec-cnes) | Estabelecimentos precisam estar identificados | CNES deve estar válido e compatível com o evento |
+| SINAN (@sec-sinan) | Vigilância pode se beneficiar de integração e documentos clínicos | Notificação e atendimento são eventos diferentes |
+| SIA/SIH (@sec-sia; @sec-sih) | Produção e internação podem dialogar com trajetória assistencial | Faturamento/produção não equivale a prontuário completo |
+| Meu SUS Digital | Interface para cidadão consultar registros | Registro aparece se foi integrado e processado |
+: Relações frequentes entre RNDS e outros sistemas
+
+## Exemplos de uso
+
+### Continuidade do cuidado
+
+Uma pessoa atendida em uma UBS, depois em um serviço especializado e posteriormente em outro município pode ter registros consultáveis por profissionais autorizados, desde que os sistemas estejam integrados e os dados tenham sido enviados corretamente.
+
+| Elemento | Pergunta |
+|---|---|
+| Identificação do cidadão | Os registros pertencem à mesma pessoa? |
+| Contexto assistencial | Qual serviço produziu cada registro? |
+| Tempo | Quando o evento ocorreu e quando foi enviado? |
+| Modelo | O registro é atendimento, exame, imunização ou regulação? |
+| Acesso | O profissional tem autorização e contexto para consultar? |
+: Checagens para uso assistencial da trajetória do cidadão
+
+### Monitoramento de integração
+
+Gestores podem acompanhar se sistemas e estabelecimentos estão enviando registros dentro do esperado.
+
+| Indicador | Interpretação | Cuidado |
+|---|---|---|
+| Estabelecimentos integrados | Serviços com capacidade de enviar registros | Integração técnica não garante uso cotidiano |
+| Registros enviados | Volume de documentos ou eventos | Pode refletir produção, atraso ou reenvio |
+| Registros rejeitados | Falhas de validação | Exige análise por regra de rejeição |
+| Tempo até envio | Oportunidade da informação | Varia por sistema de origem |
+| Completitude por campo | Qualidade do registro | Campos opcionais podem ser críticos para análise |
+: Exemplos de indicadores de monitoramento da integração
+
+### Uso secundário de dados
+
+Dados integrados podem apoiar planejamento, vigilância e pesquisa, mas uso secundário exige governança. A unidade de análise pode ser documento, evento, pessoa, estabelecimento, território ou período. Cada escolha muda o denominador e a interpretação.
+
+## Erros comuns
+
+| Erro | Por que é problemático | Como evitar |
+|---|---|---|
+| Tratar RNDS como prontuário único completo | Nem todos os sistemas e serviços estão integrados | Documentar cobertura e escopo da integração |
+| Tratar ausência de registro como ausência de cuidado | Registro pode não ter sido enviado ou processado | Verificar sistema de origem, atraso e rejeições |
+| Confundir evento clínico com produção administrativa | RNDS, SIA e SIH têm lógicas diferentes | Definir unidade de análise |
+| Ignorar versão do modelo | Campos e regras podem mudar | Registrar versão e data de consulta do guia |
+| Usar dados identificáveis sem governança | Viola privacidade e finalidade | Seguir LGPD, ética e normas institucionais |
+| Presumir que integração técnica garante qualidade | Dados podem ser incompletos ou semanticamente incorretos | Validar completitude, consistência e codificação |
+: Erros comuns na interpretação da RNDS
+
+## Quando não usar a RNDS sozinha
+
+| Pergunta | Por que a RNDS sozinha não basta | Complementos possíveis |
+|---|---|---|
+| Qual é a incidência de uma doença? | Nem todo caso clínico vira notificação ou base epidemiológica | SINAN, SIVEP-Gripe, SIM, inquéritos e definição de caso |
+| Qual foi toda a produção do SUS? | Produção e faturamento têm sistemas próprios | SIA, SIH, CNES e sistemas locais |
+| A qualidade do cuidado foi adequada? | Registro integrado não mede sozinho qualidade técnica | Auditoria, protocolos, prontuário completo e indicadores clínicos |
+| Um cidadão não recebeu cuidado? | Ausência na RNDS pode ser ausência de integração | Sistemas locais, regulação, APS e busca ativa |
+| Um algoritmo pode usar todos os dados disponíveis? | Uso depende de finalidade, consentimento quando aplicável e governança | Avaliação ética, jurídica e de segurança |
+: Perguntas que exigem RNDS combinada com outras fontes
+
+## Limitações
+
+| Limitação | Consequência analítica |
+|---|---|
+| Integração progressiva | Cobertura informacional varia por sistema, serviço, região e período |
+| Dependência do registro local | Problemas de origem persistem no dado integrado |
+| Mudanças de modelos | Séries podem ter quebras técnicas |
+| Identificação inconsistente | Trajetória do cidadão pode ficar fragmentada |
+| Acesso restrito | Microdados identificáveis não são livremente disponíveis |
+| Uso assistencial e uso analítico diferem | Informação útil no cuidado pode não estar pronta para pesquisa |
+| Reprocessamento e retificação | Registros podem mudar após o envio inicial |
+| Terminologias incompletas ou mal usadas | Interoperabilidade semântica pode ser limitada |
+: Limitações recorrentes da RNDS
+
+## Cuidados de interpretação
+
+Ao utilizar ou analisar informações relacionadas à RNDS:
+
+- declare se está tratando de plataforma, modelo, API, painel, base aberta ou produto derivado;
+- identifique o modelo de informação e sua versão;
+- diferencie data do evento, data de registro, data de envio e data de extração;
+- verifique cobertura da integração antes de comparar territórios;
+- não interprete ausência de registro como ausência de evento sem investigar fluxo;
+- avalie completitude, conformidade, oportunidade, duplicidade e retificação;
+- documente sistema de origem e regra de identificação;
+- respeite privacidade, finalidade e governança.
+
+## Acesso e documentação
+
+O acesso técnico e documental à RNDS é organizado por páginas oficiais do Ministério da Saúde e pelo guia de integração.
+
+- [Rede Nacional de Dados em Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds)
+- [Estrutura do Projeto RNDS](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds/estrutura-do-projeto)
+- [Guia de integração da RNDS](https://rnds-guia.saude.gov.br/)
+- [Adesão à RNDS](https://servicos-datasus.saude.gov.br/)
+- [Compartilhamento de dados de Regulação do Acesso com a RNDS](https://www.gov.br/saude/pt-br/composicao/saes/drac/regulacao/regulacao-do-acesso/compartilhamento-de-dados-com-a-rnds)
+
+## Bibliografia recomendada
+
+### Base normativa e institucional
+
+- Portaria nº 1.434/2020, que institui o Programa Conecte SUS e a RNDS [@msPortaria14342020].
+- Página oficial da RNDS no Ministério da Saúde [@msRNDSPagina2026].
+- Estrutura do Projeto RNDS, com modelos de informação e padrões [@msRNDSEstrutura2026].
+- Guia de integração da RNDS, com orientações para gestores e integradores [@msRNDSGuia2026].

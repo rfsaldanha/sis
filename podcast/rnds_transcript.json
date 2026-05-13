@@ -1,0 +1,527 @@
+[
+{
+  "start": 0,
+  "end": 7.059,
+  "speaker": "APRESENTADORA",
+  "text": "Olá. Neste episódio, vamos conversar sobre a RNDS, a Rede Nacional de Dados em Saúde."
+}
+,
+{
+  "start": 7.409,
+  "end": 13.864,
+  "speaker": "ESTUDANTE",
+  "text": "A RNDS é mais um sistema de informação em saúde, como SIM, SINASC ou SI-PNI?"
+}
+,
+{
+  "start": 14.214,
+  "end": 24.849,
+  "speaker": "APRESENTADORA",
+  "text": "Não exatamente. A RNDS não é apenas mais uma base de dados. Ela é a plataforma nacional de interoperabilidade do Ministério da Saúde."
+}
+,
+{
+  "start": 25.199,
+  "end": 29.193,
+  "speaker": "ESTUDANTE",
+  "text": "Interoperabilidade no sentido de sistemas conversarem entre si?"
+}
+,
+{
+  "start": 29.543,
+  "end": 39.806,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A ideia é permitir que sistemas diferentes troquem informações de saúde de forma segura, padronizada e compreensível."
+}
+,
+{
+  "start": 40.156,
+  "end": 44.150,
+  "speaker": "ESTUDANTE",
+  "text": "Então a RNDS não substitui todos os sistemas existentes."
+}
+,
+{
+  "start": 44.500,
+  "end": 65.305,
+  "speaker": "APRESENTADORA",
+  "text": "Isso. Ela não substitui SIM, SINASC, SIH, SIA, SINAN, CNES, SISAPS ou SI-PNI. Ela cria uma camada de integração para que registros produzidos em diferentes sistemas possam circular com governança."
+}
+,
+{
+  "start": 65.655,
+  "end": 68.209,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a função central da RNDS?"
+}
+,
+{
+  "start": 68.559,
+  "end": 80.773,
+  "speaker": "APRESENTADORA",
+  "text": "Apoiar continuidade do cuidado, acesso do cidadão aos próprios registros, apoio à decisão clínica, gestão, vigilância e transformação digital do SUS."
+}
+,
+{
+  "start": 81.123,
+  "end": 83.909,
+  "speaker": "ESTUDANTE",
+  "text": "O cidadão acessa isso pelo Meu SUS Digital?"
+}
+,
+{
+  "start": 84.259,
+  "end": 98.145,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Quando os registros estão integrados e disponíveis, o cidadão pode consultar informações pelo Meu SUS Digital, como vacinas, atendimentos, medicamentos e outros registros."
+}
+,
+{
+  "start": 98.495,
+  "end": 99.981,
+  "speaker": "ESTUDANTE",
+  "text": "E profissionais de saúde?"
+}
+,
+{
+  "start": 100.331,
+  "end": 116.631,
+  "speaker": "APRESENTADORA",
+  "text": "Profissionais autorizados podem consultar informações em contexto assistencial, por ferramentas como o SUS Digital Profissional. Mas o acesso depende de perfil, finalidade e regras de segurança."
+}
+,
+{
+  "start": 116.981,
+  "end": 119.210,
+  "speaker": "ESTUDANTE",
+  "text": "Então a RNDS não é dado aberto."
+}
+,
+{
+  "start": 119.560,
+  "end": 141.015,
+  "speaker": "APRESENTADORA",
+  "text": "Esse é um ponto essencial. A RNDS lida com dados pessoais sensíveis. Muitos registros são individuais e protegidos. Dados abertos podem ser produtos derivados, anonimizados ou agregados, mas a RNDS em si não é uma base pública irrestrita."
+}
+,
+{
+  "start": 141.365,
+  "end": 143.594,
+  "speaker": "ESTUDANTE",
+  "text": "Quando a RNDS foi instituída?"
+}
+,
+{
+  "start": 143.944,
+  "end": 154.997,
+  "speaker": "APRESENTADORA",
+  "text": "Em 2020, no contexto do Programa Conecte SUS, pela Portaria número 1.434, de 28 de maio de 2020."
+}
+,
+{
+  "start": 155.347,
+  "end": 157.390,
+  "speaker": "ESTUDANTE",
+  "text": "O que essa portaria estabeleceu?"
+}
+,
+{
+  "start": 157.740,
+  "end": 176.177,
+  "speaker": "APRESENTADORA",
+  "text": "Ela instituiu o Programa Conecte SUS e a Rede Nacional de Dados em Saúde como componente do Sistema Nacional de Informações em Saúde, voltado à integração e interoperabilidade entre estabelecimentos públicos, privados e órgãos gestores."
+}
+,
+{
+  "start": 176.527,
+  "end": 178.849,
+  "speaker": "ESTUDANTE",
+  "text": "A pandemia teve impacto nesse processo?"
+}
+,
+{
+  "start": 179.199,
+  "end": 191.134,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. A pandemia de Covid-19 acelerou a necessidade de integrar resultados laboratoriais, vacinação e outros registros de forma mais oportuna."
+}
+,
+{
+  "start": 191.484,
+  "end": 196.639,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo diz que a RNDS é uma infraestrutura. O que isso quer dizer?"
+}
+,
+{
+  "start": 196.989,
+  "end": 220.673,
+  "speaker": "APRESENTADORA",
+  "text": "Quer dizer que ela organiza a troca de dados. O registro nasce em um sistema de origem, como um prontuário, sistema laboratorial, sistema vacinal ou sistema de regulação. Depois é convertido para um modelo padronizado, autenticado, enviado, validado e disponibilizado conforme regras de acesso."
+}
+,
+{
+  "start": 221.023,
+  "end": 225.156,
+  "speaker": "ESTUDANTE",
+  "text": "Então existem várias etapas antes de um dado aparecer para consulta."
+}
+,
+{
+  "start": 225.506,
+  "end": 240.088,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Registro local, mapeamento, codificação, autenticação, envio, validação e consulta. Falhas em qualquer etapa podem gerar atraso ou ausência de informação."
+}
+,
+{
+  "start": 240.438,
+  "end": 243.549,
+  "speaker": "ESTUDANTE",
+  "text": "Isso muda a interpretação de ausência de registro."
+}
+,
+{
+  "start": 243.899,
+  "end": 257.970,
+  "speaker": "APRESENTADORA",
+  "text": "Muito. Ausência de registro na RNDS não prova ausência de cuidado. Pode indicar que o serviço não está integrado, que houve atraso, rejeição técnica ou problema de identificação."
+}
+,
+{
+  "start": 258.320,
+  "end": 261.757,
+  "speaker": "ESTUDANTE",
+  "text": "O capítulo fala em modelos de informação. O que são?"
+}
+,
+{
+  "start": 262.107,
+  "end": 278.175,
+  "speaker": "APRESENTADORA",
+  "text": "Modelos de informação definem quais dados devem ser enviados, sua estrutura, significado, obrigatoriedade e regras. Eles dizem, por exemplo, quais campos compõem um registro de atendimento clínico ou de imunização."
+}
+,
+{
+  "start": 278.525,
+  "end": 280.661,
+  "speaker": "ESTUDANTE",
+  "text": "Quais modelos aparecem no capítulo?"
+}
+,
+{
+  "start": 281.011,
+  "end": 301.119,
+  "speaker": "APRESENTADORA",
+  "text": "REL, para Resultado de Exames Laboratoriais; RAC, para Registro de Atendimento Clínico; RIA-C e RIA-R, para imunobiológicos administrados em campanha e rotina; e RIRA ou MIRA, ligados à regulação assistencial."
+}
+,
+{
+  "start": 301.469,
+  "end": 305.974,
+  "speaker": "ESTUDANTE",
+  "text": "Então o SI-PNI conversa com a RNDS por modelos de imunização."
+}
+,
+{
+  "start": 306.324,
+  "end": 316.169,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Registros de imunização podem circular pela RNDS por modelos como o Registro de Imunobiológico Administrado."
+}
+,
+{
+  "start": 316.519,
+  "end": 317.773,
+  "speaker": "ESTUDANTE",
+  "text": "E o padrão FHIR?"
+}
+,
+{
+  "start": 318.123,
+  "end": 340.275,
+  "speaker": "APRESENTADORA",
+  "text": "FHIR significa Fast Healthcare Interoperability Resources. É um padrão usado para representar e trocar informações de saúde. Ele ajuda sistemas diferentes a entenderem recursos como paciente, organização, profissional, atendimento, observação e imunização."
+}
+,
+{
+  "start": 340.625,
+  "end": 341.879,
+  "speaker": "ESTUDANTE",
+  "text": "FHIR resolve tudo?"
+}
+,
+{
+  "start": 342.229,
+  "end": 357.183,
+  "speaker": "APRESENTADORA",
+  "text": "Não. Ele ajuda muito na interoperabilidade técnica, mas ainda é preciso garantir interoperabilidade semântica. Ou seja, os sistemas precisam atribuir o mesmo significado aos campos e códigos."
+}
+,
+{
+  "start": 357.533,
+  "end": 359.391,
+  "speaker": "ESTUDANTE",
+  "text": "Por isso entram as terminologias."
+}
+,
+{
+  "start": 359.741,
+  "end": 373.487,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir ambiguidade. Mas código correto não substitui qualidade do registro no ponto de cuidado."
+}
+,
+{
+  "start": 373.837,
+  "end": 376.066,
+  "speaker": "ESTUDANTE",
+  "text": "Quais identificadores são essenciais?"
+}
+,
+{
+  "start": 376.416,
+  "end": 396.942,
+  "speaker": "APRESENTADORA",
+  "text": "Identificação do cidadão, geralmente por CNS ou CPF quando o modelo exige; CNES para estabelecimento; identificação do profissional ou papel assistencial quando aplicável; sistema de origem; documento ou evento; e datas."
+}
+,
+{
+  "start": 397.292,
+  "end": 398.499,
+  "speaker": "ESTUDANTE",
+  "text": "Datas no plural."
+}
+,
+{
+  "start": 398.849,
+  "end": 411.852,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Data do evento, data do registro, data de envio e data de atualização podem ser diferentes. Confundir essas datas prejudica séries temporais e monitoramento."
+}
+,
+{
+  "start": 412.202,
+  "end": 414.663,
+  "speaker": "ESTUDANTE",
+  "text": "E se a pessoa estiver identificada errado?"
+}
+,
+{
+  "start": 415.013,
+  "end": 427.691,
+  "speaker": "APRESENTADORA",
+  "text": "Isso pode fragmentar a trajetória do cidadão, duplicar registros ou associar informações ao contexto errado. É um problema clínico, operacional e analítico."
+}
+,
+{
+  "start": 428.041,
+  "end": 430.224,
+  "speaker": "ESTUDANTE",
+  "text": "Como pensar no acesso à RNDS?"
+}
+,
+{
+  "start": 430.574,
+  "end": 451.286,
+  "speaker": "APRESENTADORA",
+  "text": "Por perfis. O cidadão acessa seus próprios registros. O profissional acessa em contexto assistencial. O gestor acompanha informações para planejamento e monitoramento. O integrador usa guias e APIs. O pesquisador depende de governança específica para uso secundário."
+}
+,
+{
+  "start": 451.636,
+  "end": 454.051,
+  "speaker": "ESTUDANTE",
+  "text": "Então a finalidade de uso é central."
+}
+,
+{
+  "start": 454.401,
+  "end": 463.689,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. O fato de um dado estar tecnicamente disponível não significa que ele pode ser usado para qualquer finalidade."
+}
+,
+{
+  "start": 464.039,
+  "end": 467.197,
+  "speaker": "ESTUDANTE",
+  "text": "Como avaliar qualidade dos dados na RNDS?"
+}
+,
+{
+  "start": 467.547,
+  "end": 481.293,
+  "speaker": "APRESENTADORA",
+  "text": "Verifique completitude, conformidade com o modelo, consistência, oportunidade, identificação, duplicidade, retificação e rastreabilidade."
+}
+,
+{
+  "start": 481.643,
+  "end": 484.662,
+  "speaker": "ESTUDANTE",
+  "text": "Integração técnica não garante qualidade clínica."
+}
+,
+{
+  "start": 485.012,
+  "end": 497.040,
+  "speaker": "APRESENTADORA",
+  "text": "Perfeito. Um recurso pode estar tecnicamente válido, mas ainda ter erro de preenchimento, código inadequado, data inconsistente ou contexto incompleto."
+}
+,
+{
+  "start": 497.390,
+  "end": 499.851,
+  "speaker": "ESTUDANTE",
+  "text": "Como a privacidade aparece nessa discussão?"
+}
+,
+{
+  "start": 500.201,
+  "end": 517.291,
+  "speaker": "APRESENTADORA",
+  "text": "A RNDS trabalha com dados pessoais sensíveis. O uso deve respeitar LGPD, sigilo profissional, segurança da informação, finalidade, necessidade, controle de acesso, rastreabilidade e governança."
+}
+,
+{
+  "start": 517.641,
+  "end": 520.892,
+  "speaker": "ESTUDANTE",
+  "text": "A RNDS se relaciona com vários sistemas do livro."
+}
+,
+{
+  "start": 521.242,
+  "end": 540.468,
+  "speaker": "APRESENTADORA",
+  "text": "Sim. Com SI-PNI para imunização, SISAPS para registros da Atenção Primária, CNES para estabelecimentos, SINAN para vigilância, SIA e SIH para produção e internação, além de interfaces como Meu SUS Digital."
+}
+,
+{
+  "start": 540.818,
+  "end": 543.279,
+  "speaker": "ESTUDANTE",
+  "text": "Mas cada sistema tem uma lógica própria."
+}
+,
+{
+  "start": 543.629,
+  "end": 560.394,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. A RNDS integra informações, mas não apaga a diferença entre notificação, atendimento clínico, produção ambulatorial, internação, imunização e cadastro de estabelecimento."
+}
+,
+{
+  "start": 560.744,
+  "end": 563.391,
+  "speaker": "ESTUDANTE",
+  "text": "Pode dar um exemplo de continuidade do cuidado?"
+}
+,
+{
+  "start": 563.741,
+  "end": 581.388,
+  "speaker": "APRESENTADORA",
+  "text": "Uma pessoa pode ser atendida em uma UBS, depois em um serviço especializado e depois em outro município. Se os sistemas estiverem integrados, profissionais autorizados podem acessar parte da trajetória de cuidado de forma mais segura e oportuna."
+}
+,
+{
+  "start": 581.738,
+  "end": 584.153,
+  "speaker": "ESTUDANTE",
+  "text": "Isso pode evitar repetição de exames?"
+}
+,
+{
+  "start": 584.503,
+  "end": 597.042,
+  "speaker": "APRESENTADORA",
+  "text": "Pode contribuir para isso, especialmente quando resultados e documentos estão disponíveis. Mas depende da integração, da qualidade dos registros e do uso efetivo pelos profissionais."
+}
+,
+{
+  "start": 597.392,
+  "end": 598.599,
+  "speaker": "ESTUDANTE",
+  "text": "E para gestores?"
+}
+,
+{
+  "start": 598.949,
+  "end": 615.017,
+  "speaker": "APRESENTADORA",
+  "text": "Gestores podem monitorar estabelecimentos integrados, registros enviados, registros rejeitados, tempo até envio e completitude por campo. Esses indicadores ajudam a acompanhar a maturidade da integração."
+}
+,
+{
+  "start": 615.367,
+  "end": 617.596,
+  "speaker": "ESTUDANTE",
+  "text": "Quais erros comuns devemos evitar?"
+}
+,
+{
+  "start": 617.946,
+  "end": 636.011,
+  "speaker": "APRESENTADORA",
+  "text": "Tratar a RNDS como prontuário único completo, interpretar ausência de registro como ausência de cuidado, ignorar versões dos modelos, confundir evento clínico com produção administrativa e usar dados identificáveis sem governança."
+}
+,
+{
+  "start": 636.361,
+  "end": 638.637,
+  "speaker": "ESTUDANTE",
+  "text": "Quando não usar a RNDS sozinha?"
+}
+,
+{
+  "start": 638.987,
+  "end": 658.213,
+  "speaker": "APRESENTADORA",
+  "text": "Para estimar incidência de doença, medir toda a produção do SUS, avaliar qualidade do cuidado, provar ausência de atendimento ou treinar algoritmos sem base ética e jurídica. Nesses casos, ela precisa ser combinada com outras fontes e regras de governança."
+}
+,
+{
+  "start": 658.563,
+  "end": 660.699,
+  "speaker": "ESTUDANTE",
+  "text": "Quais são as principais limitações?"
+}
+,
+{
+  "start": 661.049,
+  "end": 679.532,
+  "speaker": "APRESENTADORA",
+  "text": "Integração progressiva, dependência do registro local, mudanças de modelos, identificação inconsistente, acesso restrito, diferenças entre uso assistencial e uso analítico, retificações e limitações semânticas."
+}
+,
+{
+  "start": 679.882,
+  "end": 681.972,
+  "speaker": "ESTUDANTE",
+  "text": "Qual é a mensagem final do capítulo?"
+}
+,
+{
+  "start": 682.322,
+  "end": 700.016,
+  "speaker": "APRESENTADORA",
+  "text": "A RNDS é uma infraestrutura estratégica para conectar a informação em saúde no Brasil. Para usá-la bem, é preciso entender modelos, fluxos, identificadores, finalidade, privacidade e qualidade do dado."
+}
+,
+{
+  "start": 700.366,
+  "end": 702.688,
+  "speaker": "ESTUDANTE",
+  "text": "Então a RNDS não é só tecnologia."
+}
+,
+{
+  "start": 703.038,
+  "end": 714.184,
+  "speaker": "APRESENTADORA",
+  "text": "Exatamente. Ela é tecnologia, mas também governança, padronização, segurança, processo de trabalho e política pública de saúde digital."
+}
+
+]

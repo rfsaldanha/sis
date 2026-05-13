@@ -44,6 +44,9 @@ project:
     - podcast/sipni.mp3
     - podcast/sipni.md
     - podcast/sipni_transcript.json
+    - podcast/rnds.mp3
+    - podcast/rnds.md
+    - podcast/rnds_transcript.json
     - podcast/sync-transcript.js
 
 execute:
@@ -81,6 +84,7 @@ book:
     - siops.qmd
     - sisaps.qmd
     - sipni.qmd
+    - rnds.qmd
     - referencias.qmd
   appendices:
     - quadro_resumo.qmd
