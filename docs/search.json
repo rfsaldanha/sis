@@ -3035,7 +3035,7 @@
     "href": "cid.html",
     "title": "Apêndice B — CID – Classificação Internacional de Doenças",
     "section": "",
-    "text": "B.1 Histórico\nOs códigos da Classificação Internacional de Doenças estão presentes em diversos SIS, sendo um importante componente para a descrição de eventos de saúde como óbitos e internações. Este apêndice visa apresentar as principais características dessa classificação.\nAs primeiras classificações de doenças se iniciaram com os trabalhos de John Graunt (1620 – 1674) e a construção de tabelas de mortalidade em Londres. A classificação pioneira visava normatizar e permitir a comparação das principais causas de óbito no tempo.\nOutras classificações de doenças foram também propostas por William Farr (1807 – 1883), visando melhor padronizar a nomenclatura das doenças e causas de óbito.\nO Instituto Internacional de Estatística criou um comitê em 1891, chefiado por Jacques Bertillon (1851-1922), para preparar uma nova classificação de causas de óbito. A classificação proposta por este grupo se inspirou na classificação usada na cidade de Paris, recebendo boa aprovação e utilização em países da Europa, EUA e Canadá.\nSucessivas revisões foram realizadas no decorrer do tempo, visando melhor normatizar a nomenclatura e estrutura hierárquica das causas de óbito.\nA Organização Mundial da Saúde (OMS), criada em 1948, passou a se responsabilizar pela manutenção e atualização da classificação de causas de óbito.\nUma descrição histórica da CID mais completa pode ser encontrada neste documento.",
+    "text": "B.1 Resumo\nA Classificação Internacional de Doenças (CID) é uma classificação padronizada usada para registrar, agrupar e comparar doenças, agravos, lesões, causas externas, sinais, sintomas e causas de morte. Nos Sistemas de Informação em Saúde (SIS), códigos CID aparecem em bases como SIM (Capítulo 5), SIH (Capítulo 7), SIA (Capítulo 8) e SINAN (Capítulo 9), embora o significado operacional do campo varie conforme o sistema.\nA CID não é apenas uma lista de diagnósticos. Ela organiza informações clínicas e epidemiológicas em códigos comparáveis, permitindo produzir estatísticas de mortalidade, morbidade, internações, causas externas e outros eventos de saúde. Por isso, antes de analisar um campo CID, é preciso saber se ele representa causa básica de óbito, diagnóstico principal, diagnóstico secundário, causa externa, agravo de notificação ou outro uso específico.",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
@@ -3270,6 +3270,83 @@
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>F</span>  <span class='chapter-title'>SISVAN -- Sistema de Vigilância Alimentar e Nutricional</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#resumo",
+    "href": "cid.html#resumo",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "",
+    "text": "Características gerais da CID\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nNome\nClassificação Internacional de Doenças\n\n\nInstituição responsável\nOrganização Mundial da Saúde (OMS)\n\n\nUso central\nPadronizar registro, tabulação e comparação de mortalidade e morbidade\n\n\nRevisão vigente internacionalmente\nCID-11, adotada em 2019 e em vigor desde 1º de janeiro de 2022\n\n\nRevisão usada nas principais séries brasileiras recentes\nCID-10, adotada nos sistemas nacionais a partir de 1996\n\n\nUnidade informacional\nCódigo, categoria, subcategoria, capítulo, bloco ou lista de tabulação\n\n\nCuidado central\nRevisões, regras de codificação e agrupamentos mudam a comparabilidade temporal",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#quando-usar-a-cid",
+    "href": "cid.html#quando-usar-a-cid",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.2 Quando usar a CID",
+    "text": "B.2 Quando usar a CID\nUse a CID quando a pergunta envolve causas, diagnósticos, agravos, causas externas ou agrupamentos clínico-epidemiológicos. O mesmo código pode aparecer em sistemas diferentes, mas o campo em que ele aparece muda a interpretação.\n\nUsos frequentes da CID nos SIS\n\n\n\n\n\n\n\n\nPergunta de análise\nSistema comum\nCampo ou uso da CID\nCuidado principal\n\n\n\n\nQuais causas de morte predominam?\nSIM\nCausa básica e causas associadas\nCausa básica não é necessariamente a última condição da sequência causal\n\n\nQuais diagnósticos motivam internações?\nSIH\nDiagnóstico principal e secundário\nDiagnóstico principal é parte do registro hospitalar e pode ser afetado por regras administrativas\n\n\nQuais causas externas aparecem em atendimentos ou óbitos?\nSIM, SIH, SIA\nCódigos dos capítulos XIX e XX da CID-10\nSeparar natureza da lesão e circunstância externa\n\n\nUm agravo é de notificação compulsória?\nSINAN\nCódigo ou faixa CID usada como referência\nA definição de caso do agravo é mais importante que o código isolado\n\n\nUm indicador usa lista específica?\nSIM, SIH, SIA\nLista de evitabilidade, ICSAP, capítulos ou grupos\nVersionar a lista e a revisão da CID\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nUm código CID isolado raramente define a análise inteira. Declare sempre o sistema, o campo, a revisão da CID, o período e o agrupamento usado.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#histórico",
+    "href": "cid.html#histórico",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.3 Histórico",
+    "text": "B.3 Histórico\nAs primeiras classificações estatísticas de causas de morte estão ligadas aos trabalhos de John Graunt (1620-1674) e às tabelas de mortalidade de Londres. O objetivo inicial era organizar causas de óbito de forma suficientemente padronizada para comparar padrões de mortalidade no tempo.\nNo século XIX, William Farr (1807-1883) contribuiu para a padronização da nomenclatura e da classificação das causas de morte. Em 1891, o Instituto Internacional de Estatística criou um comitê presidido por Jacques Bertillon (1851-1922) para preparar uma classificação internacional de causas de óbito. A chamada Classificação de Bertillon foi inspirada na classificação usada em Paris e passou a ser adotada em diferentes países.\nAo longo do século XX, sucessivas revisões ampliaram o escopo e reorganizaram a estrutura da classificação. Com a criação da Organização Mundial da Saúde, em 1948, a OMS passou a coordenar a manutenção e a atualização da classificação internacional. A CID tornou-se a base internacional para estatísticas comparáveis de mortalidade e morbidade entre países e ao longo do tempo (WHO, 2026).\nUma descrição histórica mais detalhada pode ser consultada no documento History of the development of the ICD.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#estrutura-da-cid-10",
+    "href": "cid.html#estrutura-da-cid-10",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.4 Estrutura da CID-10",
+    "text": "B.4 Estrutura da CID-10\nA CID-10 é organizada de forma hierárquica. Em análises de SIS, é comum alternar entre níveis amplos, como capítulos, e níveis detalhados, como subcategorias de quatro caracteres.\n\nNíveis hierárquicos comuns da CID-10\n\n\n\n\n\n\n\nNível\nExemplo na CID-10\nUso comum\n\n\n\n\nCapítulo\nCapítulo I: Algumas doenças infecciosas e parasitárias (A00-B99)\nGrandes grupos de causas\n\n\nBloco ou grupo\nDoenças infecciosas intestinais (A00-A09)\nAgrupamentos intermediários\n\n\nCategoria\nCólera (A00)\nCausa ou diagnóstico em três caracteres\n\n\nSubcategoria\nCólera devida a Vibrio cholerae 01, biótipo El Tor (A00.1)\nMaior detalhamento clínico\n\n\n\nEm muitos arquivos do DATASUS, o ponto da subcategoria é removido. Assim, A00.1 pode aparecer como A001. Essa diferença é de formato, não de conteúdo, mas precisa ser tratada antes de juntar bases, buscar listas de códigos ou filtrar causas.\n\nB.4.1 Exemplo prático\nPara “Cólera devida a Vibrio cholerae 01, biótipo El Tor” na CID-10:\n\nCapítulo: Capítulo I – Algumas doenças infecciosas e parasitárias (A00-B99)\nBloco: Doenças infecciosas intestinais (A00-A09)\nCategoria: Cólera (A00)\nSubcategoria: Cólera El Tor (A00.1, frequentemente A001 em bases sem ponto)\n\nVocê pode acessar e explorar o catálogo da CID-10 na tabela abaixo:\n\n\n\n\n\n\nNos links a seguir, você pode consultar a hierarquia da CID-10 e da CID-11:\n\nCID-10 no DATASUS\nCID-10 na OMS\nCID-11 na OMS",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#cid-nos-sistemas-brasileiros",
+    "href": "cid.html#cid-nos-sistemas-brasileiros",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.5 CID nos sistemas brasileiros",
+    "text": "B.5 CID nos sistemas brasileiros\nO Brasil utilizou a CID-9 em séries nacionais até 1995. A partir de 1996, as principais bases nacionais passaram a divulgar causas e diagnósticos segundo a CID-10. Essa mudança é decisiva para séries históricas longas: comparações antes e depois de 1996 precisam considerar a troca de revisão, as listas de equivalência e possíveis quebras de comparabilidade.\n\nUsos da CID em sistemas brasileiros\n\n\n\n\n\n\n\nSistema\nUso típico da CID\nCuidado\n\n\n\n\nSIM\nCausa básica e causas mencionadas na Declaração de Óbito\nRegras de seleção da causa básica mudam a interpretação\n\n\nSIH\nDiagnóstico principal, diagnósticos secundários e causas externas\nCampo diagnóstico está ligado à internação autorizada\n\n\nSIA\nDiagnóstico ou CID compatível em alguns procedimentos e instrumentos\nNem todo atendimento ambulatorial tem diagnóstico com o mesmo papel\n\n\nSINAN\nReferência para agravos e classificações específicas\nDefinição de caso e ficha do agravo prevalecem sobre o código isolado\n\n\n\n\nB.5.1 Mortalidade e morbidade\nEm mortalidade, a CID é usada para padronizar causas de morte, especialmente a causa básica do óbito. Em morbidade, pode representar diagnóstico principal de internação, diagnóstico secundário, motivo de atendimento, agravo de notificação ou condição compatível com procedimento. Essas diferenças impedem que códigos CID sejam somados de forma mecânica entre sistemas.\n\n\nB.5.2 Causas externas\nNa CID-10, causas externas e lesões aparecem em capítulos distintos. O capítulo XIX descreve a natureza da lesão, envenenamento ou consequência; o capítulo XX descreve a circunstância externa, como acidente de transporte, queda, agressão ou evento de intenção indeterminada. Para estudos de violência, acidentes e trânsito, essa distinção é central.\n\n\n\n\n\n\nAviso\n\n\n\nNão use apenas códigos de lesão para estudar causas externas sem verificar se a base também possui o código da circunstância externa. “Fratura” e “acidente de transporte” respondem a perguntas diferentes.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#cid-11-e-transição-no-brasil",
+    "href": "cid.html#cid-11-e-transição-no-brasil",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.6 CID-11 e transição no Brasil",
+    "text": "B.6 CID-11 e transição no Brasil\nA CID-11 foi adotada pela 72ª Assembleia Mundial da Saúde em maio de 2019 e entrou em vigor internacionalmente em 1º de janeiro de 2022 (WHO, 2026). Ela foi desenhada para uso digital, com ferramentas online, API, tradução controlada e maior flexibilidade de codificação (WHO, 2022).\nNo Brasil, a implementação da CID-11 é um processo gradual. Nota técnica do Ministério da Saúde de dezembro de 2024 informa que a versão em português está disponível no navegador da OMS desde fevereiro de 2024, que o país passou a atualizar a CID-10 da versão 2008 para a versão 2019, e que o início do uso da CID-11 nos sistemas de vigilância em saúde estava previsto para janeiro de 2027 (BRASIL, 2024).\n\n\n\n\n\n\nEm séries brasileiras recentes, o uso prático ainda exige atenção à CID-10. A transição para a CID-11 deve ser documentada explicitamente nas análises, porque pode alterar códigos, agrupamentos, regras de seleção e comparabilidade temporal.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
+    ]
+  },
+  {
+    "objectID": "cid.html#cuidados-de-interpretação",
+    "href": "cid.html#cuidados-de-interpretação",
+    "title": "Apêndice B — CID – Classificação Internacional de Doenças",
+    "section": "B.7 Cuidados de interpretação",
+    "text": "B.7 Cuidados de interpretação\n\nCuidados frequentes ao usar códigos CID\n\n\n\n\n\n\n\nRisco analítico\nConsequência\nBoa prática\n\n\n\n\nMisturar revisões da CID\nQuebra de série histórica\nSeparar períodos e usar tabelas de transição quando disponíveis\n\n\nConfundir capítulo, bloco, categoria e subcategoria\nAgrupamentos incorretos\nDefinir o nível hierárquico antes da tabulação\n\n\nIgnorar o campo do sistema\nInterpretação clínica ou epidemiológica errada\nLer o dicionário da base e a ficha de origem\n\n\nUsar código muito detalhado em população pequena\nInstabilidade e risco de identificação indireta\nAgregar por capítulo, bloco ou lista validada\n\n\nRemover ou inserir ponto em códigos sem controle\nPerda de correspondência entre listas e bases\nPadronizar formato dos códigos antes da análise\n\n\nComparar CID-10 e CID-11 como se fossem equivalentes\nTendências artificiais\nDocumentar mapeamentos, dupla codificação e quebras\n\n\n\nEm síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.\n\n\n\n\nBRASIL, M. DA S. Nota Técnica n. 91/2024-CGIAE/DAENT/SVSA/MS. Disponível em: &lt;https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/notas-tecnicas/2024/nota-tecnica-no-91-2024-cgiae-daent-svsa-ms.pdf&gt;. Acesso em: 14 mai. 2026.\n\n\nWHO. ICD-11. Disponível em: &lt;https://www.who.int/news-room/fact-sheets/detail/icd-11&gt;. Acesso em: 14 mai. 2026.\n\n\nWHO. International Classification of Diseases (ICD). Disponível em: &lt;https://www.who.int/classifications/classification-of-diseases&gt;. Acesso em: 14 mai. 2026.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>CID -- Classificação Internacional de Doenças</span>"
     ]
   }
 ]
