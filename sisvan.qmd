@@ -1,29 +1,85 @@
 # SISVAN -- Sistema de Vigilância Alimentar e Nutricional {#sec-sisvan}
 
+O Sistema de Vigilância Alimentar e Nutricional (SISVAN) consolida informações sobre estado nutricional e marcadores de consumo alimentar registrados na Atenção Primária à Saúde (APS). É uma fonte central para acompanhar ações de Vigilância Alimentar e Nutricional (VAN), mas seus dados representam a população acompanhada pelos serviços e programas que alimentam o sistema, não uma pesquisa amostral da população brasileira.
+
+Essa distinção é essencial. O SISVAN permite analisar acompanhamentos, perfil nutricional, cobertura de registros e desigualdades no uso do sistema. Para estimar prevalências populacionais gerais, seus resultados precisam ser interpretados com cautela e, quando possível, comparados com inquéritos de base populacional [@mrejenSistemaVigilanciaAlimentar2023].
+
 ## Resumo
 
--  Ano de criação: 1990
--  Cobertura: População de crianças e adolescentes atendida pelos serviços de Atenção Primária a Saúde (APS)
--  Divulgação de dados: mensal, com até dois meses de defasagem
+| Característica | Descrição |
+|---|---|
+| Implantação no Brasil | Experiências iniciadas em 1977; regulamentação nacional pela Portaria MS nº 80, de 16 de outubro de 1990 |
+| Versão eletrônica | Dados de antropometria e marcadores de consumo alimentar desde 2008 |
+| Evento registrado | Acompanhamento alimentar e nutricional na APS |
+| Unidade de análise | Pessoa acompanhada, acompanhamento, município, faixa etária, fase do curso da vida e competência |
+| Cobertura | Pessoas atendidas ou acompanhadas na APS e em programas que geram registros para o SISVAN |
+| Uso central | Monitoramento do estado nutricional, marcadores de consumo alimentar e ações de VAN |
+| Divulgação de dados | Relatórios públicos do SISVAN e bases anonimizadas no Portal de Dados Abertos do SUS |
+: Características gerais do SISVAN
 
 ## Histórico e organização
 
-O SISVAN é um elemento central para o auxílio na Vigilância Alimentar e Nutricional brasileira, possibilitando coletar e consolidar informações sobre estado nutricional e alimentação da população de crianças e jovens atendida pelos serviços de Atenção Primária a Saúde (APS).
+O conceito de vigilância alimentar e nutricional ganhou destaque internacional na década de 1970, no contexto das discussões sobre alimentação, nutrição e grupos populacionais em maior vulnerabilidade. No Brasil, experiências de implantação do SISVAN começaram em 1977 e foram posteriormente incorporadas à organização das ações de alimentação e nutrição no SUS.
 
-O conceito de vigilância alimentar e nutricional foi estabelecido Conferência Mundia de Alimentação, em Roma (1974), sendo recomendado pela OMS, OPAS, FAO e Unicef, com o objetivo geral de "monitorar as condições dos grupos desfavorecidos da população de risco, e proporcionar um método de avaliação rápida e permanente
-de todos os fatores que influenciam os padrões de consumo alimentar e o estado nutricional".
+A Portaria MS nº 80, de 16 de outubro de 1990, regulamentou o SISVAN em âmbito nacional e vinculou sua existência e funcionamento municipal a programas alimentares e nutricionais. Ao longo das décadas seguintes, o sistema passou por mudanças de escopo, informatização e integração com rotinas da APS, acompanhando a consolidação da Política Nacional de Alimentação e Nutrição [@camposVigilanciaAlimentarNutricional2021].
 
-No Brasil, a implantação do SISVAN teve início em 1977, sendo posteriormente reulamentado pela Portaria MS nº 080 (16 de outubro de 1990), apontando sua existência e funcionamento como condicionante para o repasse de recursos federais para ações de combate à desnutrição.
+Na prática atual, o SISVAN reúne registros produzidos por diferentes fluxos. O acompanhamento pode ocorrer em atendimentos de rotina da APS, ações de vigilância alimentar e nutricional, condicionalidades de programas de transferência de renda, ações do Programa Saúde na Escola (PSE) e registros enviados por sistemas da APS, como o e-SUS APS. Essa diversidade aumenta a capilaridade do sistema, mas também exige atenção à origem do registro.
+
+## Quando usar o SISVAN
+
+Use o SISVAN quando a pergunta envolve acompanhamento nutricional na APS, cobertura de registros, perfil antropométrico da população acompanhada ou marcadores de consumo alimentar.
+
+| Pergunta de análise | Usar SISVAN para | Cuidado principal |
+|---|---|---|
+| Qual é o perfil nutricional das pessoas acompanhadas na APS? | Analisar indicadores antropométricos por fase do curso da vida, território e período | Não tratar automaticamente como prevalência populacional geral |
+| A cobertura de acompanhamento aumentou ou diminuiu? | Comparar registros e população acompanhada ao longo do tempo | Mudanças de fluxo, sistema de origem e programas podem alterar a cobertura |
+| Como estão os marcadores de consumo alimentar? | Usar relatórios ou bases de consumo alimentar conforme faixa etária e formulário | Instrumentos e perguntas mudaram ao longo do tempo |
+| Há desigualdades territoriais no acompanhamento? | Comparar municípios, regiões e grupos acompanhados | Diferenças podem refletir capacidade de registro, não apenas situação nutricional |
+| Os dados abertos reproduzem o relatório público? | Processar microdados anonimizados e aplicar critérios de deduplicação | Relatórios públicos tendem a consolidar o último acompanhamento do indivíduo |
+: Perguntas comuns que podem ser respondidas com o SISVAN
+
+::: {.callout-note}
+O SISVAN é uma base de vigilância e acompanhamento. Bons usos analíticos precisam explicitar população de referência, fonte do registro, período, critério de seleção de acompanhamentos e tratamento de registros repetidos.
+:::
 
 ## Estrutura dos dados
 
-Os SISVAN apresenta dados sobre o estado nutricional e consumo alimentar. Sua cobertura é referente a população de crianças e adolescentes atendida pelos serviços de Atenção Primária a Saúde (APS). O ingresso de dados se dá em situações como atendimentos de rotina e verificação de requisitos para ingresso e permanência no Programa Bolsa Família (BBF) ou Programa Saúde na Escola (PSE).
+Os dados do SISVAN se concentram em dois grandes blocos: estado nutricional e consumo alimentar. O primeiro reúne informações antropométricas, como peso e altura, a partir das quais são calculados indicadores nutricionais conforme sexo, idade e fase do curso da vida. O segundo reúne respostas a formulários de marcadores de consumo alimentar, usados para acompanhar padrões alimentares na população atendida.
+
+| Bloco | Conteúdo | Uso comum | Cuidado |
+|---|---|---|---|
+| Estado nutricional | Registros antropométricos e classificações nutricionais | Avaliar baixo peso, eutrofia, excesso de peso e outros indicadores | Pode haver mais de um acompanhamento para a mesma pessoa |
+| Consumo alimentar | Marcadores de consumo conforme formulários do SISVAN | Monitorar práticas alimentares e consumo de grupos de alimentos | Comparabilidade depende do instrumento e da faixa etária |
+| Origem do acompanhamento | SISVAN, programas sociais, e-SUS APS e outros fluxos integrados | Entender captação e cobertura dos registros | A origem afeta completitude, oportunidade e duplicidade |
+: Blocos de informação do SISVAN
+
+As bases individualizadas anonimizadas de estado nutricional disponíveis no Portal de Dados Abertos do SUS referem-se a pessoas atendidas quanto à antropometria em serviços de APS desde 2008. O próprio portal informa que pode haver mais de um registro para a mesma pessoa e orienta priorizar acompanhamentos por origem quando houver registros com a mesma data. Também alerta que comparações diretas com os relatórios públicos podem divergir, porque os relatórios consolidam o último acompanhamento do indivíduo e novos dados são incorporados ao sistema [@dadosabertosSISVANEstadoNutricional2026].
 
 ## Acesso aos dados
 
-Os dados do SISVAN estão atualmente disponíveis no OpenDataSUS.
+Há dois caminhos principais de acesso público:
 
--  [OpenDataSUS SISVAN](https://opendatasus.saude.gov.br/dataset/?q=sisvan)
+-  [Relatórios públicos do SISVAN](https://sisaps.saude.gov.br/sisvan/relatoriopublico/index), úteis para tabulações rápidas por território, período, fase do curso da vida, estado nutricional e consumo alimentar [@sisvanRelatorioPublico2026].
+-  [SISVAN - Estado Nutricional no Portal de Dados Abertos do SUS](https://dadosabertos.saude.gov.br/dataset/sisvan-estado-nutricional), com bases individualizadas anonimizadas, dicionário de dados e API [@dadosabertosSISVANEstadoNutricional2026].
+
+Em maio de 2026, o conjunto de dados abertos de estado nutricional indicava frequência de atualização anual, última atualização em 2 de junho de 2025 e recursos referentes a anos desde 2008. Para análises reprodutíveis, registre a data de extração, o recurso utilizado, o formato do arquivo, o dicionário correspondente e as regras aplicadas para escolher um acompanhamento por pessoa.
+
+## Cuidados de interpretação
+
+O SISVAN tende a refletir a população efetivamente acompanhada pela APS e por programas que induzem o registro. Por isso, expansão ou queda de cobertura pode decorrer tanto de mudanças na situação alimentar e nutricional quanto de mudanças na capacidade de registro, integração de sistemas, busca ativa, condicionalidades de programas sociais ou organização local da APS.
+
+Outro ponto crítico é a repetição de acompanhamentos. Uma mesma pessoa pode ter múltiplos registros em um ano ou em anos diferentes. Dependendo da pergunta, isso pode ser desejável, como em análises longitudinais de acompanhamento, ou pode distorcer estimativas, como em tabulações que deveriam representar pessoas únicas.
+
+| Risco analítico | Consequência | Boa prática |
+|---|---|---|
+| Tratar acompanhamentos como pessoas únicas | Superestimação de frequências e cobertura | Definir regra de deduplicação quando a unidade for pessoa |
+| Ignorar origem do registro | Mistura de fluxos com finalidades distintas | Estratificar ou priorizar origens conforme a pergunta |
+| Comparar diretamente com inquéritos populacionais | Diferenças interpretadas como erro ou tendência real | Explicitar que o SISVAN cobre população acompanhada |
+| Misturar instrumentos de consumo alimentar | Perda de comparabilidade temporal | Conferir formulário, faixa etária e período |
+| Usar ausência de registro como ausência de problema nutricional | Subestimação de vulnerabilidades | Analisar cobertura e completitude antes dos indicadores |
+: Cuidados frequentes no uso de dados do SISVAN
+
+Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e Nutricional no SUS. Seu maior valor está no acompanhamento contínuo da população atendida pela APS, na identificação de padrões e desigualdades e no apoio à gestão local. Seu uso analítico deve preservar a diferença entre dado de vigilância e estimativa populacional geral.
 
 ## Bibliografia recomendada
 
