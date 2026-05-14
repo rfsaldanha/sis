@@ -1,27 +1,56 @@
 # SIVEP -- Sistema de Vigilância Epidemiológica {#sec-sivep}
 
-De forma complementar aos SIS, o Sistema de Vigilância Epidemiológica busca reunir dados de doenças específicas de modo a auxiliar a atuação da Vigilância Epidemiológica,  contando com dados atualizados de forma mais rápida e fichas específicas.
+De forma complementar a outros SIS, o Sistema de Vigilância Epidemiológica (SIVEP) reúne componentes voltados à vigilância de agravos, síndromes ou eventos específicos. Na prática, o termo SIVEP não se refere a uma base única e homogênea: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA têm objetivos, fluxos de registro, unidades de análise e formas de disseminação diferentes.
+
+O ponto comum entre esses componentes é o uso para vigilância epidemiológica mais oportuna, com fichas e rotinas próprias. Por isso, antes de usar dados do SIVEP é preciso identificar qual componente está sendo consultado, qual evento é registrado e se a base representa vigilância universal, vigilância sentinela ou outro recorte operacional.
 
 ## SIVEP-Gripe
 
-O SIVEP-Gripe foi implantado em 2000 vizando o monitoramento do vírus da gripe no país à partir de uma *rede de vigilância sentinela* da síndrome gripal. 
+A vigilância da influenza no Brasil foi implantada em 2000, inicialmente voltada ao monitoramento de vírus respiratórios por meio de uma rede de vigilância sentinela de síndrome gripal (SG). Em 2009, com a pandemia de Influenza A(H1N1)pdm09, a vigilância de Síndrome Respiratória Aguda Grave (SRAG) foi incorporada à rede de vigilância de influenza e outros vírus respiratórios [@dadosabertosSRAG20092012].
 
-Em 2009, com a epidemia do vírus Influenza A (H1N1), o SIVEP-Gripe passou a também reunir dados sobre Síndrome Respiratória Aguda Grave (SRAG), contribuindo para a vigilância da circulação de vírus respiratórios no Brasil.
+Entre 2009 e 2018, o sistema oficial para registro de casos e óbitos por SRAG era o Sinan Web Influenza. A partir de 2019, o SIVEP-Gripe passou a ser o sistema oficial para esse registro [@dadosabertosSRAG20092012].
 
-Em 20 de março de 2020, com a declaração da transmissão comunitária de COVID-19 no Brasil, o SIVEP-Gripe passou por atualizações para registrar detalhes sobre casos da pandemia.
+Com a pandemia de COVID-19, a vigilância dos vírus respiratórios foi ampliada. Casos leves e moderados de COVID-19 passaram a ser monitorados por outros fluxos, como o e-SUS Notifica, enquanto os casos de SRAG hospitalizados suspeitos de COVID-19 e os óbitos por SRAG, independentemente de hospitalização, devem ser registrados no SIVEP-Gripe [@ministeriodasaudeDiretrizesRespiratorios2025].
+
+O SIVEP-Gripe é, portanto, uma fonte central para analisar hospitalizações e óbitos por SRAG, incluindo influenza, COVID-19 e outros vírus respiratórios. Ele não deve ser tratado como uma base de todos os casos respiratórios leves nem como substituto direto dos sistemas usados para síndrome gripal.
 
 ### Acesso aos dados
 
-Os dados do SIVEP-Gripe são atualmente de acessíveis pelo público pelo OpenDataSUS.
+Os dados públicos de SRAG estão disponíveis no Portal de Dados Abertos do SUS. Em maio de 2026, o portal disponibilizava bases de 2019 a 2026 em arquivos por ano epidemiológico, com formatos como CSV, JSON, XML e Parquet, além de dicionário de variáveis e ficha de notificação. O portal informa que os bancos de 2019 a 2024 estavam congelados e que o banco do ano corrente era atualizado semanalmente [@dadosabertosSRAGSIVEPGripe2026].
 
--  [OpenDataSUS SRAG](https://opendatasus.saude.gov.br/dataset/?q=srag&sort=score+desc%2C+metadata_modified+desc)
+-  [Dados Abertos do SUS - SRAG 2019 a 2026](https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026)
+-  [Dados Abertos do SUS - SRAG 2009 a 2012](https://dadosabertos.saude.gov.br/dataset/srag-2009-2012)
+-  [Dados Abertos do SUS - SRAG 2013 a 2018](https://dadosabertos.saude.gov.br/dataset/srag-2013-2018)
+
+Ao usar esses arquivos, é importante preservar a data de extração, o ano epidemiológico e o dicionário correspondente. Bases de vigilância podem ser revisadas, e a interpretação de campos, critérios de confirmação e versões da ficha pode mudar ao longo do tempo.
 
 ## SIVEP-Malária
 
-O SIVEP-Malária apresenta dados de vigilância epidemiológica da malária. Atualmente, o acesso aos dados são restritos.
+O SIVEP-Malária registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica -- estados da Região Norte, Maranhão e Mato Grosso -- e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador [@ministeriodasaudePQAVS2023].
+
+Essa divisão é importante porque uma análise nacional de malária pode exigir a combinação de fontes. Casos da região amazônica e casos da região extra-amazônica não devem ser buscados automaticamente em uma única base sem verificar o fluxo vigente de notificação.
+
+### Acesso aos dados
+
+O acesso operacional ao SIVEP-Malária é voltado à rotina de vigilância e gestão. Diferentemente do SIVEP-Gripe, os microdados nacionais de malária do SIVEP-Malária não têm a mesma disseminação pública ampla em arquivos abertos no Portal de Dados Abertos do SUS. Para análises, pode ser necessário recorrer a tabulações, boletins, solicitações específicas ou bases disponibilizadas por secretarias e pelo Ministério da Saúde, observando regras de sigilo e finalidade de uso.
 
 ## SIVEP-DDA
 
-O SIVEP-DDA apresenta dados de vigilância epidemiológica de [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Atualmente, o acesso aos dados são restritos.
+O SIVEP-DDA é usado na vigilância epidemiológica das [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Ele integra a Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia baseada na identificação de casos atendidos em unidades sentinelas de monitoramento, preenchimento de formulários e registro semanal no sistema, conforme a semana epidemiológica de início dos sinais e sintomas [@ministeriodasaudeDDAVigilancia2026].
 
-Alguns dados agregados são apresentados em um [painel de visualização interativo](https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025).
+O objetivo principal da MDDA é detectar precocemente surtos ou alterações no padrão epidemiológico das DDA. Por esse motivo, a análise dos registros do SIVEP-DDA deve considerar que se trata de uma estratégia de vigilância em unidades sentinelas, e não de uma contagem exaustiva de todos os episódios de diarreia na população [@ministeriodasaudeDDASituacao2026].
+
+### Acesso aos dados
+
+O acesso operacional ao SIVEP-DDA é restrito às rotinas de vigilância. Alguns dados agregados são apresentados em um [painel de visualização interativo](https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025), útil para acompanhamento geral, mas insuficiente para substituir uma extração analítica com microdados quando a pergunta exigir detalhes por unidade, indivíduo, ficha ou investigação.
+
+## Cuidados de interpretação
+
+| Componente | Evento ou foco | Unidade e cobertura | Cuidado principal |
+|---|---|---|---|
+| SIVEP-Gripe | SRAG hospitalizada e óbitos por SRAG; vigilância de vírus respiratórios | Registros de casos graves e óbitos, com bases públicas anonimizadas para SRAG | Não representa todos os casos leves de síndrome gripal |
+| SIVEP-Malária | Casos de malária em fluxos específicos, especialmente região amazônica | Depende do fluxo regional; SINAN cobre a região extra-amazônica em muitos usos | Pode exigir combinação com SINAN para análise nacional |
+| SIVEP-DDA | Monitorização de doenças diarreicas agudas | Registros semanais de unidades sentinelas | Não deve ser interpretado como incidência populacional completa |
+: Diferenças práticas entre componentes do SIVEP
+
+Em síntese, o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.

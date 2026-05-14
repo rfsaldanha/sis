@@ -24,7 +24,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -461,8 +481,15 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
   <ul class="collapse">
   <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">E.1.1</span> Acesso aos dados</a></li>
   </ul></li>
-  <li><a href="#sivep-malária" id="toc-sivep-malária" class="nav-link" data-scroll-target="#sivep-malária"><span class="header-section-number">E.2</span> SIVEP-Malária</a></li>
-  <li><a href="#sivep-dda" id="toc-sivep-dda" class="nav-link" data-scroll-target="#sivep-dda"><span class="header-section-number">E.3</span> SIVEP-DDA</a></li>
+  <li><a href="#sivep-malária" id="toc-sivep-malária" class="nav-link" data-scroll-target="#sivep-malária"><span class="header-section-number">E.2</span> SIVEP-Malária</a>
+  <ul class="collapse">
+  <li><a href="#acesso-aos-dados-1" id="toc-acesso-aos-dados-1" class="nav-link" data-scroll-target="#acesso-aos-dados-1"><span class="header-section-number">E.2.1</span> Acesso aos dados</a></li>
+  </ul></li>
+  <li><a href="#sivep-dda" id="toc-sivep-dda" class="nav-link" data-scroll-target="#sivep-dda"><span class="header-section-number">E.3</span> SIVEP-DDA</a>
+  <ul class="collapse">
+  <li><a href="#acesso-aos-dados-2" id="toc-acesso-aos-dados-2" class="nav-link" data-scroll-target="#acesso-aos-dados-2"><span class="header-section-number">E.3.1</span> Acesso aos dados</a></li>
+  </ul></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">E.4</span> Cuidados de interpretação</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sivep.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -489,30 +516,105 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<p>De forma complementar aos SIS, o Sistema de Vigilância Epidemiológica busca reunir dados de doenças específicas de modo a auxiliar a atuação da Vigilância Epidemiológica, contando com dados atualizados de forma mais rápida e fichas específicas.</p>
+<p>De forma complementar a outros SIS, o Sistema de Vigilância Epidemiológica (SIVEP) reúne componentes voltados à vigilância de agravos, síndromes ou eventos específicos. Na prática, o termo SIVEP não se refere a uma base única e homogênea: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA têm objetivos, fluxos de registro, unidades de análise e formas de disseminação diferentes.</p>
+<p>O ponto comum entre esses componentes é o uso para vigilância epidemiológica mais oportuna, com fichas e rotinas próprias. Por isso, antes de usar dados do SIVEP é preciso identificar qual componente está sendo consultado, qual evento é registrado e se a base representa vigilância universal, vigilância sentinela ou outro recorte operacional.</p>
 <section id="sivep-gripe" class="level2" data-number="E.1">
 <h2 data-number="E.1" class="anchored" data-anchor-id="sivep-gripe"><span class="header-section-number">E.1</span> SIVEP-Gripe</h2>
-<p>O SIVEP-Gripe foi implantado em 2000 vizando o monitoramento do vírus da gripe no país à partir de uma <em>rede de vigilância sentinela</em> da síndrome gripal.</p>
-<p>Em 2009, com a epidemia do vírus Influenza A (H1N1), o SIVEP-Gripe passou a também reunir dados sobre Síndrome Respiratória Aguda Grave (SRAG), contribuindo para a vigilância da circulação de vírus respiratórios no Brasil.</p>
-<p>Em 20 de março de 2020, com a declaração da transmissão comunitária de COVID-19 no Brasil, o SIVEP-Gripe passou por atualizações para registrar detalhes sobre casos da pandemia.</p>
+<p>A vigilância da influenza no Brasil foi implantada em 2000, inicialmente voltada ao monitoramento de vírus respiratórios por meio de uma rede de vigilância sentinela de síndrome gripal (SG). Em 2009, com a pandemia de Influenza A(H1N1)pdm09, a vigilância de Síndrome Respiratória Aguda Grave (SRAG) foi incorporada à rede de vigilância de influenza e outros vírus respiratórios <span class="citation" data-cites="dadosabertosSRAG20092012">(<a href="referencias.html#ref-dadosabertosSRAG20092012" role="doc-biblioref">BRASIL, 2026a</a>)</span>.</p>
+<p>Entre 2009 e 2018, o sistema oficial para registro de casos e óbitos por SRAG era o Sinan Web Influenza. A partir de 2019, o SIVEP-Gripe passou a ser o sistema oficial para esse registro <span class="citation" data-cites="dadosabertosSRAG20092012">(<a href="referencias.html#ref-dadosabertosSRAG20092012" role="doc-biblioref">BRASIL, 2026a</a>)</span>.</p>
+<p>Com a pandemia de COVID-19, a vigilância dos vírus respiratórios foi ampliada. Casos leves e moderados de COVID-19 passaram a ser monitorados por outros fluxos, como o e-SUS Notifica, enquanto os casos de SRAG hospitalizados suspeitos de COVID-19 e os óbitos por SRAG, independentemente de hospitalização, devem ser registrados no SIVEP-Gripe <span class="citation" data-cites="ministeriodasaudeDiretrizesRespiratorios2025">(<a href="referencias.html#ref-ministeriodasaudeDiretrizesRespiratorios2025" role="doc-biblioref">BRASIL, 2025</a>)</span>.</p>
+<p>O SIVEP-Gripe é, portanto, uma fonte central para analisar hospitalizações e óbitos por SRAG, incluindo influenza, COVID-19 e outros vírus respiratórios. Ele não deve ser tratado como uma base de todos os casos respiratórios leves nem como substituto direto dos sistemas usados para síndrome gripal.</p>
 <section id="acesso-aos-dados" class="level3" data-number="E.1.1">
 <h3 data-number="E.1.1" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">E.1.1</span> Acesso aos dados</h3>
-<p>Os dados do SIVEP-Gripe são atualmente de acessíveis pelo público pelo OpenDataSUS.</p>
+<p>Os dados públicos de SRAG estão disponíveis no Portal de Dados Abertos do SUS. Em maio de 2026, o portal disponibilizava bases de 2019 a 2026 em arquivos por ano epidemiológico, com formatos como CSV, JSON, XML e Parquet, além de dicionário de variáveis e ficha de notificação. O portal informa que os bancos de 2019 a 2024 estavam congelados e que o banco do ano corrente era atualizado semanalmente <span class="citation" data-cites="dadosabertosSRAGSIVEPGripe2026">(<a href="referencias.html#ref-dadosabertosSRAGSIVEPGripe2026" role="doc-biblioref">BRASIL, 2026b</a>)</span>.</p>
 <ul>
-<li><a href="https://opendatasus.saude.gov.br/dataset/?q=srag&amp;sort=score+desc%2C+metadata_modified+desc">OpenDataSUS SRAG</a></li>
+<li><a href="https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026">Dados Abertos do SUS - SRAG 2019 a 2026</a></li>
+<li><a href="https://dadosabertos.saude.gov.br/dataset/srag-2009-2012">Dados Abertos do SUS - SRAG 2009 a 2012</a></li>
+<li><a href="https://dadosabertos.saude.gov.br/dataset/srag-2013-2018">Dados Abertos do SUS - SRAG 2013 a 2018</a></li>
 </ul>
+<p>Ao usar esses arquivos, é importante preservar a data de extração, o ano epidemiológico e o dicionário correspondente. Bases de vigilância podem ser revisadas, e a interpretação de campos, critérios de confirmação e versões da ficha pode mudar ao longo do tempo.</p>
 </section>
 </section>
 <section id="sivep-malária" class="level2" data-number="E.2">
 <h2 data-number="E.2" class="anchored" data-anchor-id="sivep-malária"><span class="header-section-number">E.2</span> SIVEP-Malária</h2>
-<p>O SIVEP-Malária apresenta dados de vigilância epidemiológica da malária. Atualmente, o acesso aos dados são restritos.</p>
+<p>O SIVEP-Malária registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica – estados da Região Norte, Maranhão e Mato Grosso – e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador <span class="citation" data-cites="ministeriodasaudePQAVS2023">(<a href="referencias.html#ref-ministeriodasaudePQAVS2023" role="doc-biblioref">BRASIL, 2023</a>)</span>.</p>
+<p>Essa divisão é importante porque uma análise nacional de malária pode exigir a combinação de fontes. Casos da região amazônica e casos da região extra-amazônica não devem ser buscados automaticamente em uma única base sem verificar o fluxo vigente de notificação.</p>
+<section id="acesso-aos-dados-1" class="level3" data-number="E.2.1">
+<h3 data-number="E.2.1" class="anchored" data-anchor-id="acesso-aos-dados-1"><span class="header-section-number">E.2.1</span> Acesso aos dados</h3>
+<p>O acesso operacional ao SIVEP-Malária é voltado à rotina de vigilância e gestão. Diferentemente do SIVEP-Gripe, os microdados nacionais de malária do SIVEP-Malária não têm a mesma disseminação pública ampla em arquivos abertos no Portal de Dados Abertos do SUS. Para análises, pode ser necessário recorrer a tabulações, boletins, solicitações específicas ou bases disponibilizadas por secretarias e pelo Ministério da Saúde, observando regras de sigilo e finalidade de uso.</p>
+</section>
 </section>
 <section id="sivep-dda" class="level2" data-number="E.3">
 <h2 data-number="E.3" class="anchored" data-anchor-id="sivep-dda"><span class="header-section-number">E.3</span> SIVEP-DDA</h2>
-<p>O SIVEP-DDA apresenta dados de vigilância epidemiológica de <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda">Doenças Diarreicas Agudas (DDA)</a>. Atualmente, o acesso aos dados são restritos.</p>
-<p>Alguns dados agregados são apresentados em um <a href="https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025">painel de visualização interativo</a>.</p>
+<p>O SIVEP-DDA é usado na vigilância epidemiológica das <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda">Doenças Diarreicas Agudas (DDA)</a>. Ele integra a Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia baseada na identificação de casos atendidos em unidades sentinelas de monitoramento, preenchimento de formulários e registro semanal no sistema, conforme a semana epidemiológica de início dos sinais e sintomas <span class="citation" data-cites="ministeriodasaudeDDAVigilancia2026">(<a href="referencias.html#ref-ministeriodasaudeDDAVigilancia2026" role="doc-biblioref">BRASIL, 2026c</a>)</span>.</p>
+<p>O objetivo principal da MDDA é detectar precocemente surtos ou alterações no padrão epidemiológico das DDA. Por esse motivo, a análise dos registros do SIVEP-DDA deve considerar que se trata de uma estratégia de vigilância em unidades sentinelas, e não de uma contagem exaustiva de todos os episódios de diarreia na população <span class="citation" data-cites="ministeriodasaudeDDASituacao2026">(<a href="referencias.html#ref-ministeriodasaudeDDASituacao2026" role="doc-biblioref">BRASIL, 2026d</a>)</span>.</p>
+<section id="acesso-aos-dados-2" class="level3" data-number="E.3.1">
+<h3 data-number="E.3.1" class="anchored" data-anchor-id="acesso-aos-dados-2"><span class="header-section-number">E.3.1</span> Acesso aos dados</h3>
+<p>O acesso operacional ao SIVEP-DDA é restrito às rotinas de vigilância. Alguns dados agregados são apresentados em um <a href="https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025">painel de visualização interativo</a>, útil para acompanhamento geral, mas insuficiente para substituir uma extração analítica com microdados quando a pergunta exigir detalhes por unidade, indivíduo, ficha ou investigação.</p>
+</section>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="E.4">
+<h2 data-number="E.4" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">E.4</span> Cuidados de interpretação</h2>
+<table class="caption-top table">
+<caption>Diferenças práticas entre componentes do SIVEP</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Evento ou foco</th>
+<th>Unidade e cobertura</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SIVEP-Gripe</td>
+<td>SRAG hospitalizada e óbitos por SRAG; vigilância de vírus respiratórios</td>
+<td>Registros de casos graves e óbitos, com bases públicas anonimizadas para SRAG</td>
+<td>Não representa todos os casos leves de síndrome gripal</td>
+</tr>
+<tr class="even">
+<td>SIVEP-Malária</td>
+<td>Casos de malária em fluxos específicos, especialmente região amazônica</td>
+<td>Depende do fluxo regional; SINAN cobre a região extra-amazônica em muitos usos</td>
+<td>Pode exigir combinação com SINAN para análise nacional</td>
+</tr>
+<tr class="odd">
+<td>SIVEP-DDA</td>
+<td>Monitorização de doenças diarreicas agudas</td>
+<td>Registros semanais de unidades sentinelas</td>
+<td>Não deve ser interpretado como incidência populacional completa</td>
+</tr>
+</tbody>
+</table>
+<p>Em síntese, o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.</p>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-ministeriodasaudePQAVS2023" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong><a href="https://www.gov.br/saude/pt-br/composicao/sectics/pqa-vs/publicacoes/caderno-de-indicadores-programa-de-qualificacao-das-acoes-de-vigilancia-em-saude-2023">Caderno de indicadores: Programa de Qualifica<span>ç</span><span>ã</span>o das A<span>ç</span><span>õ</span>es de Vigil<span>â</span>ncia em Sa<span>ú</span>de</a></strong>. Bras<span>ı́</span>lia, DF: Minist<span>é</span>rio da Sa<span>ú</span>de, 2023.
+</div>
+<div id="ref-ministeriodasaudeDiretrizesRespiratorios2025" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/covid-19/diretrizes-enfrentamento-da-covid-19-influenza-e-outros-virus-respiratorios">Diretrizes para o enfrentamento da covid-19, influenza e outros v<span>í</span>rus respirat<span>ó</span>rios de import<span>â</span>ncia em sa<span>ú</span>de p<span>ú</span>blica</a></strong>. Bras<span>ı́</span>lia, DF: Minist<span>é</span>rio da Sa<span>ú</span>de, 2025.
+</div>
+<div id="ref-dadosabertosSRAGSIVEPGripe2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Banco de dados da S<span>í</span>ndrome Respirat<span>ó</span>ria Aguda Grave (<span>SRAG</span>) - 2019 a 2026</strong>. Disponível em: &lt;<a href="https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026">https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026</a>&gt;. Acesso em: 14 mai. 2026b.
+</div>
+<div id="ref-dadosabertosSRAG20092012" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong><span>SRAG</span> 2009 a 2012 - Banco de Dados de S<span>í</span>ndrome Respirat<span>ó</span>ria Aguda Grave</strong>. Disponível em: &lt;<a href="https://dadosabertos.saude.gov.br/dataset/srag-2009-2012">https://dadosabertos.saude.gov.br/dataset/srag-2009-2012</a>&gt;. Acesso em: 14 mai. 2026a.
+</div>
+<div id="ref-ministeriodasaudeDDAVigilancia2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Vigil<span>â</span>ncia Epidemiol<span>ó</span>gica das Doen<span>ç</span>as Diarreicas Agudas</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/vigilancia-epidemiologica/vigilancia-epidemiologica/">https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/vigilancia-epidemiologica/vigilancia-epidemiologica/</a>&gt;. Acesso em: 14 mai. 2026c.
+</div>
+<div id="ref-ministeriodasaudeDDASituacao2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Situa<span>ç</span><span>ã</span>o epidemiol<span>ó</span>gica das Doen<span>ç</span>as Diarreicas Agudas</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/situacao-epidemiologica/situacao-epidemiologica/">https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda/situacao-epidemiologica/situacao-epidemiologica/</a>&gt;. Acesso em: 14 mai. 2026d.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
