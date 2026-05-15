@@ -51,23 +51,6 @@ Essa característica torna a RNDS diferente das bases tradicionalmente usadas em
 **Interoperabilidade.** Neste capítulo, interoperabilidade significa a capacidade de sistemas diferentes trocarem informações de saúde de forma tecnicamente compatível, semanticamente compreensível e juridicamente governada.
 :::
 
-## Como ler este capítulo
-
-A RNDS não deve ser lida como mais uma base de microdados pública. Ela é uma infraestrutura de troca, integração e consulta de dados de saúde. Por isso, o capítulo enfatiza arquitetura, modelos de informação, governança, privacidade e usos analíticos indiretos.
-
-| Público | O que deve procurar no capítulo |
-|---|---|
-| Estudantes | A diferença entre sistema de informação, plataforma de interoperabilidade e base aberta |
-| Gestores | Como a RNDS apoia continuidade do cuidado, integração de sistemas e planejamento |
-| Profissionais de saúde | Como registros podem acompanhar a trajetória do cidadão entre pontos de atenção |
-| Pesquisadores | Limites de acesso, qualidade, padronização e uso secundário dos dados |
-| Analistas e integradores | Modelos de informação, FHIR, terminologias, autenticação, validação e rastreabilidade |
-: Formas de uso do capítulo por diferentes públicos
-
-Esses públicos não usam a RNDS do mesmo modo. Para estudantes, ela é uma oportunidade de entender a passagem de sistemas isolados para uma arquitetura de interoperabilidade. Para gestores, ela representa uma infraestrutura de coordenação: permite enxergar se informações circulam entre serviços, se há atrasos e se a rede está produzindo registros com qualidade suficiente. Para profissionais, o valor está na possibilidade de consultar informações relevantes no momento do cuidado, desde que o acesso seja autorizado e o registro exista. Para pesquisadores, o interesse está menos no acesso direto à plataforma e mais nos produtos derivados, nos limites de uso secundário e nos efeitos da integração sobre a qualidade das informações.
-
-Essa diferença de uso explica por que o capítulo não se organiza como um manual de extração de microdados. A RNDS é um objeto híbrido: parte tecnologia, parte governança, parte política pública de saúde digital. Entender essa combinação é mais importante do que memorizar nomes de modelos ou endpoints.
-
 ## Quando usar a RNDS
 
 Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos, ou avaliação da transformação digital do SUS.
