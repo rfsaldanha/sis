@@ -2,45 +2,93 @@
 always_allow_html: true
 ---
 
-# Códigos dos municípios
+# Códigos dos municípios {#sec-codmun}
 
-Diversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.
+Os códigos de município são identificadores territoriais fundamentais nos Sistemas de Informação em Saúde (SIS). Eles aparecem em campos como município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento. Esses campos permitem agregar eventos, calcular indicadores e relacionar bases diferentes, mas cada um responde a uma pergunta territorial distinta.
 
-Os códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.
+No Brasil, a referência oficial é a tabela de códigos de municípios do IBGE. O código completo possui 7 dígitos: os dois primeiros identificam a Unidade da Federação (UF), os quatro dígitos seguintes identificam o município dentro da UF, e o último dígito é o dígito verificador. O IBGE informa que essa tabela é atualizada sistematicamente para incorporar criação de municípios, mudanças de nome, fusões e outras alterações territoriais [@ibgeCodigosMunicipios2026].
 
-::::: {.callout}
-Os SIS costumam apresentar os códigos dos municípios com apenas os primeiros seis dígitos, omitindo o último dígito verificador.
+::: {.callout-note}
+Muitos SIS usam o código municipal com 6 dígitos, sem o dígito verificador. Por isso, antes de juntar bases, verifique se os códigos estão em formato de 6 ou 7 dígitos e padronize explicitamente.
 :::
+
+## Resumo
+
+| Característica | Descrição |
+|---|---|
+| Instituição responsável | IBGE |
+| Código completo | 7 dígitos |
+| Código frequente em SIS | 6 dígitos, sem dígito verificador |
+| Dois primeiros dígitos | Código da UF |
+| Próximos quatro dígitos | Código do município dentro da UF |
+| Último dígito | Dígito verificador no código completo do IBGE |
+| Uso central nos SIS | Identificar território de residência, ocorrência, atendimento, notificação ou estabelecimento |
+: Características gerais dos códigos municipais
+
+## Quando usar
+
+Use códigos municipais quando a pergunta envolve território, agregação espacial, indicadores por município ou relacionamento entre bases. O ponto central é distinguir o tipo de território representado pelo campo.
+
+| Pergunta de análise | Campo territorial adequado | Cuidado principal |
+|---|---|---|
+| Qual é o risco para a população residente? | Município de residência | Usar denominador populacional do mesmo território |
+| Onde o evento ocorreu? | Município de ocorrência | Não interpretar como residência da pessoa |
+| Onde o atendimento foi realizado? | Município de atendimento ou estabelecimento | Mede produção ou oferta local, não cobertura da população residente |
+| Onde o caso foi notificado? | Município de notificação | Pode diferir do local provável de infecção |
+| Como juntar SIS com população ou malha? | Código municipal padronizado | Conferir 6/7 dígitos, ano da divisão territorial e códigos ausentes |
+: Perguntas comuns envolvendo códigos municipais
+
+## Estrutura do código
+
+O código municipal completo do IBGE pode ser entendido como uma composição de UF, município e dígito verificador. Por exemplo, o código de Belo Horizonte, MG, é `3106200`.
+
+| Parte | Exemplo | Significado |
+|---|---|---|
+| `31` | `31` | Minas Gerais |
+| `0620` | `0620` | Belo Horizonte dentro da UF |
+| `0` | `0` | Dígito verificador |
+| `310620` | `310620` | Formato de 6 dígitos frequente em SIS |
+| `3106200` | `3106200` | Código completo de 7 dígitos do IBGE |
+: Estrutura do código municipal
+
+Em arquivos de saúde, campos como `CODMUNRES`, `MUN_RES`, `MUNIC_RES`, `CODMUNOCOR`, `MUN_NOT` ou `CODMUN` podem aparecer com nomes e tamanhos diferentes. O nome do campo não basta: consulte sempre o dicionário da base para confirmar se o código é de residência, ocorrência, atendimento, notificação ou estabelecimento.
 
 ## Tabela de códigos
 
-A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa 'Procurar'.
+A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa "Procurar".
 
 ::: {.content-visible when-format="html"}
 
 ```{r}
 #| message: false
+#| warning: false
 #| echo: false
 library(geobr)
 library(sf)
 library(dplyr)
+library(stringr)
 library(DT)
 
 mun <- read_municipal_seat() |>
   st_drop_geometry() |>
-  mutate(code_muni = as.character(code_muni)) |>
-  select(-c(code_state, code_region, year)) |>
+  mutate(
+    code_muni_7 = str_pad(as.character(code_muni), width = 7, pad = "0"),
+    code_muni_6 = str_sub(code_muni_7, 1, 6)
+  ) |>
+  select(-c(code_state, code_region, year, code_muni)) |>
   select(
     `Região` = name_region,
     `UF` = abbrev_state,
     `Município` = name_muni,
-    `Código` = code_muni
+    `Código 6 dígitos` = code_muni_6,
+    `Código IBGE 7 dígitos` = code_muni_7
   )
 
 datatable(
   data = mun,
   rownames = FALSE,
   options = list(
+    pageLength = 10,
     language = list(
       url = "https://cdn.datatables.net/plug-ins/1.10.11/i18n/Portuguese.json"
     )
@@ -50,10 +98,49 @@ datatable(
 
 :::
 
-O projeto [IBGE Cidades](https://cidades.ibge.gov.br) também é uma ótima forma de consultar os códigos dos municípios.
+O projeto [IBGE Cidades](https://cidades.ibge.gov.br) também permite consultar códigos e informações municipais. Para bases oficiais, consulte a página [Códigos dos Municípios](https://www.ibge.gov.br/explica/codigos-dos-municipios.php) e a página da [Divisão Territorial Brasileira](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html).
 
-## Criação de municípios e Divisão Territorial Brasileira
+## Divisão Territorial Brasileira
 
-O IBGE é responsável pela Divisão Territorial Brasileira (DTB), mantendo um histórico sobre a criação, extinção e junção de municípios, alterasões de divisas e outras modificações da DTB.
+O IBGE é responsável pela Divisão Territorial Brasileira (DTB), que organiza unidades territoriais como municípios, distritos e subdistritos. A DTB é atualizada para refletir alterações legais e administrativas, incluindo criação, extinção, fusão, mudança de nome e alteração de limites territoriais [@ibgeDTB2026].
 
-Acesse a [página da DTB](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html) para mais detalhes.
+Essa dimensão temporal importa para séries históricas. Um código válido em um ano pode não existir em outro; um município pode ser criado por desmembramento; limites podem mudar; e alguns indicadores podem precisar ser recompostos para manter uma área comparável ao longo do tempo.
+
+| Situação | Efeito na análise | Boa prática |
+|---|---|---|
+| Criação de município | Série histórica começa após a instalação ou criação | Declarar o ano da malha ou da DTB |
+| Fusão ou extinção | Código antigo deixa de representar unidade vigente | Mapear códigos antigos para a unidade atual, quando fizer sentido |
+| Mudança de nome | Código pode permanecer, mas rótulo muda | Usar código como chave e nome como atributo |
+| Alteração de limites | População e eventos podem mudar de área | Evitar comparar sem considerar a malha do período |
+| Município ignorado ou estrangeiro | Pode aparecer como código especial ou ausente | Tratar separadamente de municípios válidos |
+: Mudanças territoriais e efeitos analíticos
+
+## Boas práticas para junções
+
+Códigos municipais devem ser tratados como texto, não como número. Isso preserva zeros à esquerda, evita perda de dígitos e facilita a padronização entre formatos.
+
+```{r}
+#| eval: false
+#| echo: true
+library(dplyr)
+library(stringr)
+
+base_saude <- base_saude |>
+  mutate(
+    codmun_6 = str_pad(as.character(codmun_6), width = 6, pad = "0"),
+    codmun_7 = str_pad(as.character(codmun_7), width = 7, pad = "0")
+  )
+```
+
+Antes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 dígitos e a tabela territorial usa 7, remova o dígito verificador da tabela territorial ou acrescente-o de forma confiável a partir de uma tabela oficial. Não tente inferir o dígito verificador manualmente sem necessidade.
+
+| Problema comum | Consequência | Como evitar |
+|---|---|---|
+| Tratar código como número | Perda de zeros à esquerda e problemas de formato | Converter para texto antes da junção |
+| Misturar 6 e 7 dígitos | Falha de pareamento | Criar chaves explícitas `codmun_6` e `codmun_7` |
+| Usar nome do município como chave | Erros por acento, grafia e mudança de nome | Usar código como chave |
+| Ignorar ano da malha | Comparações territoriais inconsistentes | Registrar ano da DTB, malha ou tabela usada |
+| Misturar residência e ocorrência | Indicador territorial incorreto | Separar campos conforme a pergunta |
+: Erros comuns em junções por município
+
+Em síntese, o código municipal é uma chave de integração entre SIS, população, malhas, estabelecimentos e indicadores. Seu uso correto depende de padronizar o formato, declarar o ano da referência territorial e distinguir claramente residência, ocorrência, atendimento, notificação e localização do estabelecimento.

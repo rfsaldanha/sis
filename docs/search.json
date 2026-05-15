@@ -3123,7 +3123,7 @@
     "href": "codmun.html",
     "title": "Apêndice C — Códigos dos municípios",
     "section": "",
-    "text": "C.1 Tabela de códigos\nDiversos SIS apresentam códigos representanto os municípios de residência do usuário e de local de atendimento do evento de saúde. Os códigos dos municípios são criados e mantidos pelo IBGE.\nOs códigos gerados pelo IBGE contêm 7 digitos: os dois primeiros remetem à Unidade da Federação (UF) e os quatro digitos seguintes identificam o município, enquanto o último (sétimo) dígito, é um código verificador.\nA tabela abaixo, gerada com ajuda do pacote {geobr} (PEREIRA; GONCALVES, 2024), apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa ‘Procurar’.\nO projeto IBGE Cidades também é uma ótima forma de consultar os códigos dos municípios.",
+    "text": "C.1 Resumo\nOs códigos de município são identificadores territoriais fundamentais nos Sistemas de Informação em Saúde (SIS). Eles aparecem em campos como município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento. Esses campos permitem agregar eventos, calcular indicadores e relacionar bases diferentes, mas cada um responde a uma pergunta territorial distinta.\nNo Brasil, a referência oficial é a tabela de códigos de municípios do IBGE. O código completo possui 7 dígitos: os dois primeiros identificam a Unidade da Federação (UF), os quatro dígitos seguintes identificam o município dentro da UF, e o último dígito é o dígito verificador. O IBGE informa que essa tabela é atualizada sistematicamente para incorporar criação de municípios, mudanças de nome, fusões e outras alterações territoriais (IBGE, 2026a).",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
@@ -3325,6 +3325,72 @@
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#resumo",
+    "href": "codmun.html#resumo",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "",
+    "text": "Características gerais dos códigos municipais\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nInstituição responsável\nIBGE\n\n\nCódigo completo\n7 dígitos\n\n\nCódigo frequente em SIS\n6 dígitos, sem dígito verificador\n\n\nDois primeiros dígitos\nCódigo da UF\n\n\nPróximos quatro dígitos\nCódigo do município dentro da UF\n\n\nÚltimo dígito\nDígito verificador no código completo do IBGE\n\n\nUso central nos SIS\nIdentificar território de residência, ocorrência, atendimento, notificação ou estabelecimento",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#quando-usar",
+    "href": "codmun.html#quando-usar",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "C.2 Quando usar",
+    "text": "C.2 Quando usar\nUse códigos municipais quando a pergunta envolve território, agregação espacial, indicadores por município ou relacionamento entre bases. O ponto central é distinguir o tipo de território representado pelo campo.\n\nPerguntas comuns envolvendo códigos municipais\n\n\n\n\n\n\n\nPergunta de análise\nCampo territorial adequado\nCuidado principal\n\n\n\n\nQual é o risco para a população residente?\nMunicípio de residência\nUsar denominador populacional do mesmo território\n\n\nOnde o evento ocorreu?\nMunicípio de ocorrência\nNão interpretar como residência da pessoa\n\n\nOnde o atendimento foi realizado?\nMunicípio de atendimento ou estabelecimento\nMede produção ou oferta local, não cobertura da população residente\n\n\nOnde o caso foi notificado?\nMunicípio de notificação\nPode diferir do local provável de infecção\n\n\nComo juntar SIS com população ou malha?\nCódigo municipal padronizado\nConferir 6/7 dígitos, ano da divisão territorial e códigos ausentes",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#estrutura-do-código",
+    "href": "codmun.html#estrutura-do-código",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "C.3 Estrutura do código",
+    "text": "C.3 Estrutura do código\nO código municipal completo do IBGE pode ser entendido como uma composição de UF, município e dígito verificador. Por exemplo, o código de Belo Horizonte, MG, é 3106200.\n\nEstrutura do código municipal\n\n\nParte\nExemplo\nSignificado\n\n\n\n\n31\n31\nMinas Gerais\n\n\n0620\n0620\nBelo Horizonte dentro da UF\n\n\n0\n0\nDígito verificador\n\n\n310620\n310620\nFormato de 6 dígitos frequente em SIS\n\n\n3106200\n3106200\nCódigo completo de 7 dígitos do IBGE\n\n\n\nEm arquivos de saúde, campos como CODMUNRES, MUN_RES, MUNIC_RES, CODMUNOCOR, MUN_NOT ou CODMUN podem aparecer com nomes e tamanhos diferentes. O nome do campo não basta: consulte sempre o dicionário da base para confirmar se o código é de residência, ocorrência, atendimento, notificação ou estabelecimento.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#tabela-de-códigos",
+    "href": "codmun.html#tabela-de-códigos",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "C.4 Tabela de códigos",
+    "text": "C.4 Tabela de códigos\nA tabela abaixo, gerada com ajuda do pacote {geobr} (PEREIRA; GONCALVES, 2024), apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa “Procurar”.\n\n\n\n\n\n\nO projeto IBGE Cidades também permite consultar códigos e informações municipais. Para bases oficiais, consulte a página Códigos dos Municípios e a página da Divisão Territorial Brasileira.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#divisão-territorial-brasileira",
+    "href": "codmun.html#divisão-territorial-brasileira",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "C.5 Divisão Territorial Brasileira",
+    "text": "C.5 Divisão Territorial Brasileira\nO IBGE é responsável pela Divisão Territorial Brasileira (DTB), que organiza unidades territoriais como municípios, distritos e subdistritos. A DTB é atualizada para refletir alterações legais e administrativas, incluindo criação, extinção, fusão, mudança de nome e alteração de limites territoriais (IBGE, 2026b).\nEssa dimensão temporal importa para séries históricas. Um código válido em um ano pode não existir em outro; um município pode ser criado por desmembramento; limites podem mudar; e alguns indicadores podem precisar ser recompostos para manter uma área comparável ao longo do tempo.\n\nMudanças territoriais e efeitos analíticos\n\n\n\n\n\n\n\nSituação\nEfeito na análise\nBoa prática\n\n\n\n\nCriação de município\nSérie histórica começa após a instalação ou criação\nDeclarar o ano da malha ou da DTB\n\n\nFusão ou extinção\nCódigo antigo deixa de representar unidade vigente\nMapear códigos antigos para a unidade atual, quando fizer sentido\n\n\nMudança de nome\nCódigo pode permanecer, mas rótulo muda\nUsar código como chave e nome como atributo\n\n\nAlteração de limites\nPopulação e eventos podem mudar de área\nEvitar comparar sem considerar a malha do período\n\n\nMunicípio ignorado ou estrangeiro\nPode aparecer como código especial ou ausente\nTratar separadamente de municípios válidos",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
+    ]
+  },
+  {
+    "objectID": "codmun.html#boas-práticas-para-junções",
+    "href": "codmun.html#boas-práticas-para-junções",
+    "title": "Apêndice C — Códigos dos municípios",
+    "section": "C.6 Boas práticas para junções",
+    "text": "C.6 Boas práticas para junções\nCódigos municipais devem ser tratados como texto, não como número. Isso preserva zeros à esquerda, evita perda de dígitos e facilita a padronização entre formatos.\n\nlibrary(dplyr)\nlibrary(stringr)\n\nbase_saude &lt;- base_saude |&gt;\n  mutate(\n    codmun_6 = str_pad(as.character(codmun_6), width = 6, pad = \"0\"),\n    codmun_7 = str_pad(as.character(codmun_7), width = 7, pad = \"0\")\n  )\n\nAntes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 dígitos e a tabela territorial usa 7, remova o dígito verificador da tabela territorial ou acrescente-o de forma confiável a partir de uma tabela oficial. Não tente inferir o dígito verificador manualmente sem necessidade.\n\nErros comuns em junções por município\n\n\n\n\n\n\n\nProblema comum\nConsequência\nComo evitar\n\n\n\n\nTratar código como número\nPerda de zeros à esquerda e problemas de formato\nConverter para texto antes da junção\n\n\nMisturar 6 e 7 dígitos\nFalha de pareamento\nCriar chaves explícitas codmun_6 e codmun_7\n\n\nUsar nome do município como chave\nErros por acento, grafia e mudança de nome\nUsar código como chave\n\n\nIgnorar ano da malha\nComparações territoriais inconsistentes\nRegistrar ano da DTB, malha ou tabela usada\n\n\nMisturar residência e ocorrência\nIndicador territorial incorreto\nSeparar campos conforme a pergunta\n\n\n\nEm síntese, o código municipal é uma chave de integração entre SIS, população, malhas, estabelecimentos e indicadores. Seu uso correto depende de padronizar o formato, declarar o ano da referência territorial e distinguir claramente residência, ocorrência, atendimento, notificação e localização do estabelecimento.\n\n\n\n\nIBGE. Códigos dos Municípios. Disponível em: &lt;https://www.ibge.gov.br/explica/codigos-dos-municipios.php&gt;. Acesso em: 15 mai. 2026a.\n\n\nIBGE. Divisão Territorial Brasileira. Disponível em: &lt;https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/23701-divisao-territorial-brasileira.html&gt;. Acesso em: 15 mai. 2026b.\n\n\nPEREIRA, R. H. M.; GONCALVES, C. N. geobr: Download Official Spatial Data Sets of Brazil. [s.l: s.n.].",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Códigos dos municípios</span>"
     ]
   }
 ]
