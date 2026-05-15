@@ -53,6 +53,8 @@ execute:
   freeze: auto
 
 lang: pt 
+language:
+  title-block-published: "Data da Última Atualização"
 
 book:
   title: "Sistemas de Informação em Saúde no Brasil"
