@@ -1,68 +1,154 @@
 # Estimativas populacionais {#sec-pop}
 
-## Introdução
+Estimativas populacionais são usadas como denominadores em taxas, razões, coberturas e indicadores de base populacional. Nos Sistemas de Informação em Saúde (SIS), elas permitem transformar contagens de eventos, como óbitos, internações, notificações ou doses aplicadas, em medidas comparáveis entre municípios, grupos etários e períodos.
 
-Estimativas populacionais são utilizadas comumente em conjunto com os dados dos Sistemas de Informação em Saúde como denominadores no cálculo de taxas e indicadores de base populacional.
+O denominador, porém, não é neutro. Diferentes fontes populacionais podem usar métodos, datas de referência, recortes etários e revisões territoriais distintas. Por isso, qualquer indicador populacional deve declarar qual população foi usada, de que fonte, em qual ano, para qual território e com qual desagregação.
 
-Dados populacionais consistem no quantitativo do contigente populacional de uma unidade geográfica (como município ou UF) em um determinado período (geralmente, um ano específico). Em geral, o quantitativo populacional é apresentado como total e também por grupos como sexo e/ou faixas etárias.
+## Resumo
 
-Dados populacionais são obtidos de duas formas: observação direta por censos demográficos e contagens populacionais, e de forma indireta, por métodos de estimativas populacionais.
+| Característica | Descrição |
+|---|---|
+| Uso central | Denominador para indicadores populacionais |
+| Unidade comum | Município, UF, sexo, idade ou faixa etária e ano |
+| Fontes comuns | IBGE, DATASUS/Ministério da Saúde, UFRN/LEPP e pacotes derivados |
+| Data de referência frequente | 1º de julho do ano de referência nas estimativas municipais do IBGE |
+| Cuidado principal | Numerador e denominador precisam ter território, período e população-alvo compatíveis |
+: Características gerais das estimativas populacionais
 
-Os censos demográficos são planejados pelo [Instituto Brasileiro de Geografia e Estatística](https://www.ibge.gov.br) e executados com intervalos em torno de 10 anos. Em um censo, além do levantamento do contigente populacional, um grande número de variáveis demográficas, de renda e sócio-ambientais são também obtidas. Entre anos de censo, são executadas contagens populacionais para a obtenção relativamente rápida do contigente populacional. 
+## Quando usar
 
-Desta forma, dados exatos sobre o contigente populacional são levantados a cada 5 ou 10 anos. Para anos onde não foram executados censo ou contagem populacional, são utilizadas estimativas populacionais.
+Use estimativas populacionais quando o objetivo for padronizar uma contagem pelo tamanho da população sob risco ou da população-alvo.
 
-Estimativas populacionais são resultados de modelos estatísticos que pretendem estimar o contigente populacional de uma determinada região em um certo período; utilizando, para este fim, dados anteriores de censos e contagens populacionais e dados de nascimentos, óbitos e de migração. Estas estimativas são em geral conduzidas por demógrafos e estatísticos especialistas na área.
+| Pergunta de análise | Numerador comum | Denominador adequado | Cuidado principal |
+|---|---|---|---|
+| Qual é a taxa de mortalidade? | Óbitos de residentes | População residente do mesmo território e ano | Usar residência, não ocorrência |
+| Qual é a incidência de um agravo? | Casos novos confirmados | População sob risco | Conferir definição de caso e população elegível |
+| Qual é a cobertura vacinal? | Doses válidas ou pessoas vacinadas | População-alvo da vacina | População total pode não ser o denominador correto |
+| Qual é a despesa per capita? | Despesa em saúde | População residente | Usar mesmo ente federado e ano |
+| Como comparar municípios? | Eventos agregados por município | População municipal compatível | Municípios pequenos produzem taxas instáveis |
+: Perguntas comuns que usam população como denominador
 
-## Estimativas
+::: {.callout-note}
+Em indicadores territoriais, alinhe o território do numerador com o território do denominador. Óbitos por município de ocorrência divididos pela população residente do município medem uma combinação incoerente para risco populacional.
+:::
 
-Abaixo são apresentadas fontes de estimativas populacionais, links de acesso e exemplo de utilização do pacote [{brpop}](https://rfsaldanha.github.io/brpop/).
+## Censo, contagem, estimativa e projeção
+
+Dados populacionais podem vir de observação direta ou de modelos. Censos demográficos buscam enumerar a população residente e levantar características demográficas, sociais, econômicas e domiciliares. Entre censos, estimativas e projeções atualizam o tamanho da população com métodos demográficos e estatísticos.
+
+| Tipo de dado | O que representa | Uso comum | Cuidado |
+|---|---|---|---|
+| Censo demográfico | Enumeração direta da população em um ano censitário | Base para diagnósticos e revisão de séries | Pode ter ajustes, cobertura diferencial e mudanças territoriais |
+| Contagem populacional | Levantamento intermediário, quando realizado | Atualização entre censos | Não ocorre regularmente em todos os períodos |
+| Estimativa | População calculada para ano corrente ou intercensitário | Indicadores anuais e repasses legais | Pode ser revisada após novo censo ou decisão judicial |
+| Projeção | População futura ou série modelada | Planejamento, cenários e denominadores futuros | Depende de hipóteses sobre fecundidade, mortalidade e migração |
+: Diferenças entre fontes populacionais
+
+O IBGE divulga estimativas anuais de população para municípios e Unidades da Federação, com referência em 1º de julho. Essas estimativas são usadas também para finalidades legais, como a distribuição de cotas do Fundo de Participação dos Municípios (FPM), e sua comparação histórica deve ser feita com cautela porque incorpora revisões e alterações territoriais [@ibgeEstimativasPopulacao2026].
+
+## Fontes de estimativas
 
 ### IBGE -- TCU
 
-O IBGE disponibiliza anualmente estimativas populacionais dos municípios brasileiros que são enviadas ao Tribunal de Contas da União para fins de ajustes de repasses de verbas federais.
+O IBGE disponibiliza anualmente estimativas populacionais dos municípios e das Unidades da Federação, publicadas no Diário Oficial da União e enviadas ao Tribunal de Contas da União. Na edição consultada em maio de 2026, a página do IBGE apresentava estimativas para 1º de julho de 2025 e arquivos atualizados em janeiro de 2026, inclusive com observações sobre decisões judiciais, atualização toponímica e alterações territoriais [@ibgeEstimativasPopulacao2026].
 
--  [Estimativas IBGE -- TCU](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
+-  [Estimativas de população do IBGE](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
 
 ::::: {.callout-warning}
-As estimativas do IBGE para o TCU são constatemente alvo de processos judiciais que determinam a alteração do contigente originalmente estimado pelo IBGE, gerando fortes instabilidades nas séries temporais dos municípios.
-:::
+As estimativas do IBGE para o TCU podem ser atualizadas por decisões judiciais, mudanças de limites territoriais e revisões metodológicas. Evite misturar arquivos publicados em datas diferentes sem registrar a versão usada.
+:::::
 
+### DATASUS / Ministério da Saúde
 
+O Ministério da Saúde disponibiliza dados populacionais para uso em indicadores de saúde. Em maio de 2026, a página de Dados Populacionais listava projeção da população por UF de 2000 a 2070, população municipal utilizada pelo TCU para 2024 a 2025, população municipal por sexo e idade de 2000 a 2025, e uma base antiga marcada como não mais em uso para indicadores [@ministeriodasaudeDadosPopulacionais2026].
+
+-  [Dados Populacionais - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais)
+-  [População municipal por sexo e idade - 2000 a 2025](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
+
+As estimativas do DATASUS/Ministério da Saúde são especialmente úteis quando a análise exige população por sexo e idade simples ou faixa etária em séries anuais. Para indicadores de saúde, isso costuma ser mais útil do que uma tabela municipal apenas com população total.
+
+### UFRN / LEPP
+
+O Laboratório de Estimativas e Projeções Populacionais (LEPP), do Departamento de Demografia da UFRN, disponibiliza projeções populacionais municipais por sexo e idade para pequenas áreas. A página do projeto informa projeções por sexo e idade para municípios e microrregiões brasileiras, incluindo resultados de 2010 a 2030 e novas projeções municipais com intervalos de previsão de 2010 a 2070 [@ufrnLEPPProjecoes2026].
+
+-  [Projeções populacionais UFRN/LEPP](https://demografiaufrn.net/projecao-populacional/)
+
+Essas projeções são úteis para análises que exigem séries longas, idades detalhadas ou cenários, mas devem ser citadas como fonte metodologicamente distinta das estimativas oficiais anuais do IBGE para o TCU.
+
+### Pacote brpop
+
+O pacote [{brpop}](https://rfsaldanha.github.io/brpop/) organiza diferentes fontes de estimativas populacionais brasileiras em R [@saldanha2022]. Ele pode ser útil para comparar fontes e padronizar fluxos de análise, desde que a fonte escolhida seja explicitada.
 
 ```{r}
+#| echo: true
+#| message: false
+#| warning: false
 library(brpop)
 
 mun_pop_totals(source = "ibge")
-```
-
-### DataSUS / DEMAS
-
-O DataSUS fornece estimativas populacionais para os municípios brasileiros. Duas estimativas estão disponíveis:
-
--  [Estimativas de 2000 a 2021](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvsbr.def). O uso desta estimativa não é mais recomendada pelo DataSUS.
--  [Estimativas de 2000 a 2024](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
-
-```{r}
 mun_pop_totals(source = "datasus")
-```
-
-```{r}
 mun_pop_totals(source = "datasus2024")
-```
-
-### Departamento de Demografia da UFRN
-
-O laboratório LEPP do Departamento de Demografia de UFRN oferece estimativas populacionais para os municípios brasileiros.
-
--  [Estimativas UFRN-LEPP 2010 a 2030](https://demografiaufrn.net/projecao-populacional/)
-
-```{r}
 mun_pop_totals(source = "ufrn")
 ```
 
+## Escolha do denominador
+
+A escolha do denominador deve vir da pergunta analítica, não da disponibilidade imediata da tabela. A população total do município serve para alguns indicadores, mas é inadequada para muitos outros.
+
+| Indicador | Denominador mais comum | Exemplo de cuidado |
+|---|---|---|
+| Taxa bruta de mortalidade | População residente total | Numerador deve usar óbitos de residentes |
+| Mortalidade infantil | Nascidos vivos | Não usar população menor de 1 ano sem justificar |
+| Incidência por faixa etária | População da faixa etária | Compatibilizar idade do caso e idade do denominador |
+| Cobertura vacinal infantil | Coorte de nascidos vivos ou população-alvo | Dose válida e idade-alvo precisam ser definidas |
+| Despesa em saúde per capita | População residente total | Deflacionar valores antes de comparar anos |
+| Indicador por sexo e idade | População por sexo e idade | Conferir categorias e idades abertas |
+: Denominadores frequentes em indicadores de saúde
+
+Alguns indicadores não usam população residente como denominador. Mortalidade infantil usa nascidos vivos; letalidade usa casos; positividade usa testes ou exames; cobertura de pré-natal pode usar gestantes estimadas, nascidos vivos ou pessoas vinculadas, dependendo da definição. Chamar tudo de "taxa populacional" pode esconder denominadores muito diferentes.
+
 ## Comparações entre estimativas
 
-As estimativas populacionais acima citadas utilizam métodos distintos para sua obtenção. Desta forma, discrepâncias entre seus valores são esperadas.
+As fontes citadas usam métodos e finalidades diferentes. Discrepâncias são esperadas, especialmente em municípios pequenos, em áreas com migração intensa, em anos próximos ao censo, em territórios que sofreram alteração de limites e em grupos etários muito específicos.
 
-[Este aplicativo on-line](https://shiny.icict.fiocruz.br/brpopview/) permite a comparação gráfica entre estas estimativas nos municípios brasileiros.
+| Diferença entre fontes | Por que ocorre | Como lidar |
+|---|---|---|
+| População total municipal diferente | Método, revisão censitária, data de referência ou decisão judicial | Declarar fonte e versão |
+| Diferença por idade | Método de interpolação ou projeção etária | Evitar misturar idade de uma fonte com total de outra |
+| Quebra após novo censo | Revisão do nível populacional | Marcar séries antes e depois do censo |
+| Divergência em município pequeno | Maior sensibilidade a migração e erro relativo | Usar médias móveis, agregações ou intervalos |
+| Mudança territorial | Criação, fusão ou alteração de limites | Usar códigos e malhas compatíveis |
+: Razões comuns para discrepâncias entre estimativas
+
+[Este aplicativo on-line](https://shiny.icict.fiocruz.br/brpopview/) permite comparar graficamente estimativas populacionais nos municípios brasileiros.
+
+## Exemplo de indicador
+
+O exemplo abaixo ilustra a lógica mínima de compatibilidade entre numerador e denominador. A taxa deve usar eventos de residentes e população residente do mesmo município e ano.
+
+```{r}
+#| eval: false
+#| echo: true
+library(dplyr)
+
+taxa_mortalidade <- obitos |>
+  count(codmun_res, ano, name = "obitos") |>
+  left_join(populacao, by = c("codmun_res" = "codmun", "ano")) |>
+  mutate(taxa_100mil = obitos / populacao * 100000)
+```
+
+Em séries históricas, preserve a fonte e a versão da população junto com o resultado final. Isso evita que uma atualização posterior do denominador torne tabelas e gráficos irreprodutíveis.
+
+## Checklist
+
+Antes de publicar um indicador com denominador populacional, verifique:
+
+-  fonte da população;
+-  versão ou data de extração;
+-  ano de referência;
+-  território do numerador e do denominador;
+-  formato do código municipal;
+-  recorte por sexo, idade ou faixa etária;
+-  tratamento de municípios criados, extintos ou com limites alterados;
+-  compatibilidade entre população-alvo e evento contado;
+-  estabilidade do indicador em municípios pequenos.
