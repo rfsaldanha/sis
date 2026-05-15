@@ -59,7 +59,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -492,14 +512,20 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
     <h2 id="toc-title">Índice</h2>
    
   <ul>
-  <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">D.1</span> Introdução</a></li>
-  <li><a href="#estimativas" id="toc-estimativas" class="nav-link" data-scroll-target="#estimativas"><span class="header-section-number">D.2</span> Estimativas</a>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">D.1</span> Resumo</a></li>
+  <li><a href="#quando-usar" id="toc-quando-usar" class="nav-link" data-scroll-target="#quando-usar"><span class="header-section-number">D.2</span> Quando usar</a></li>
+  <li><a href="#censo-contagem-estimativa-e-projeção" id="toc-censo-contagem-estimativa-e-projeção" class="nav-link" data-scroll-target="#censo-contagem-estimativa-e-projeção"><span class="header-section-number">D.3</span> Censo, contagem, estimativa e projeção</a></li>
+  <li><a href="#fontes-de-estimativas" id="toc-fontes-de-estimativas" class="nav-link" data-scroll-target="#fontes-de-estimativas"><span class="header-section-number">D.4</span> Fontes de estimativas</a>
   <ul class="collapse">
-  <li><a href="#ibge-tcu" id="toc-ibge-tcu" class="nav-link" data-scroll-target="#ibge-tcu"><span class="header-section-number">D.2.1</span> IBGE – TCU</a></li>
-  <li><a href="#datasus-demas" id="toc-datasus-demas" class="nav-link" data-scroll-target="#datasus-demas"><span class="header-section-number">D.2.2</span> DataSUS / DEMAS</a></li>
-  <li><a href="#departamento-de-demografia-da-ufrn" id="toc-departamento-de-demografia-da-ufrn" class="nav-link" data-scroll-target="#departamento-de-demografia-da-ufrn"><span class="header-section-number">D.2.3</span> Departamento de Demografia da UFRN</a></li>
+  <li><a href="#ibge-tcu" id="toc-ibge-tcu" class="nav-link" data-scroll-target="#ibge-tcu"><span class="header-section-number">D.4.1</span> IBGE – TCU</a></li>
+  <li><a href="#datasus-ministério-da-saúde" id="toc-datasus-ministério-da-saúde" class="nav-link" data-scroll-target="#datasus-ministério-da-saúde"><span class="header-section-number">D.4.2</span> DATASUS / Ministério da Saúde</a></li>
+  <li><a href="#ufrn-lepp" id="toc-ufrn-lepp" class="nav-link" data-scroll-target="#ufrn-lepp"><span class="header-section-number">D.4.3</span> UFRN / LEPP</a></li>
+  <li><a href="#pacote-brpop" id="toc-pacote-brpop" class="nav-link" data-scroll-target="#pacote-brpop"><span class="header-section-number">D.4.4</span> Pacote brpop</a></li>
   </ul></li>
-  <li><a href="#comparações-entre-estimativas" id="toc-comparações-entre-estimativas" class="nav-link" data-scroll-target="#comparações-entre-estimativas"><span class="header-section-number">D.3</span> Comparações entre estimativas</a></li>
+  <li><a href="#escolha-do-denominador" id="toc-escolha-do-denominador" class="nav-link" data-scroll-target="#escolha-do-denominador"><span class="header-section-number">D.5</span> Escolha do denominador</a></li>
+  <li><a href="#comparações-entre-estimativas" id="toc-comparações-entre-estimativas" class="nav-link" data-scroll-target="#comparações-entre-estimativas"><span class="header-section-number">D.6</span> Comparações entre estimativas</a></li>
+  <li><a href="#exemplo-de-indicador" id="toc-exemplo-de-indicador" class="nav-link" data-scroll-target="#exemplo-de-indicador"><span class="header-section-number">D.7</span> Exemplo de indicador</a></li>
+  <li><a href="#checklist" id="toc-checklist" class="nav-link" data-scroll-target="#checklist"><span class="header-section-number">D.8</span> Checklist</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/pop.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -526,23 +552,167 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<section id="introdução" class="level2" data-number="D.1">
-<h2 data-number="D.1" class="anchored" data-anchor-id="introdução"><span class="header-section-number">D.1</span> Introdução</h2>
-<p>Estimativas populacionais são utilizadas comumente em conjunto com os dados dos Sistemas de Informação em Saúde como denominadores no cálculo de taxas e indicadores de base populacional.</p>
-<p>Dados populacionais consistem no quantitativo do contigente populacional de uma unidade geográfica (como município ou UF) em um determinado período (geralmente, um ano específico). Em geral, o quantitativo populacional é apresentado como total e também por grupos como sexo e/ou faixas etárias.</p>
-<p>Dados populacionais são obtidos de duas formas: observação direta por censos demográficos e contagens populacionais, e de forma indireta, por métodos de estimativas populacionais.</p>
-<p>Os censos demográficos são planejados pelo <a href="https://www.ibge.gov.br">Instituto Brasileiro de Geografia e Estatística</a> e executados com intervalos em torno de 10 anos. Em um censo, além do levantamento do contigente populacional, um grande número de variáveis demográficas, de renda e sócio-ambientais são também obtidas. Entre anos de censo, são executadas contagens populacionais para a obtenção relativamente rápida do contigente populacional.</p>
-<p>Desta forma, dados exatos sobre o contigente populacional são levantados a cada 5 ou 10 anos. Para anos onde não foram executados censo ou contagem populacional, são utilizadas estimativas populacionais.</p>
-<p>Estimativas populacionais são resultados de modelos estatísticos que pretendem estimar o contigente populacional de uma determinada região em um certo período; utilizando, para este fim, dados anteriores de censos e contagens populacionais e dados de nascimentos, óbitos e de migração. Estas estimativas são em geral conduzidas por demógrafos e estatísticos especialistas na área.</p>
+<p>Estimativas populacionais são usadas como denominadores em taxas, razões, coberturas e indicadores de base populacional. Nos Sistemas de Informação em Saúde (SIS), elas permitem transformar contagens de eventos, como óbitos, internações, notificações ou doses aplicadas, em medidas comparáveis entre municípios, grupos etários e períodos.</p>
+<p>O denominador, porém, não é neutro. Diferentes fontes populacionais podem usar métodos, datas de referência, recortes etários e revisões territoriais distintas. Por isso, qualquer indicador populacional deve declarar qual população foi usada, de que fonte, em qual ano, para qual território e com qual desagregação.</p>
+<section id="resumo" class="level2" data-number="D.1">
+<h2 data-number="D.1" class="anchored" data-anchor-id="resumo"><span class="header-section-number">D.1</span> Resumo</h2>
+<table class="caption-top table">
+<caption>Características gerais das estimativas populacionais</caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Uso central</td>
+<td>Denominador para indicadores populacionais</td>
+</tr>
+<tr class="even">
+<td>Unidade comum</td>
+<td>Município, UF, sexo, idade ou faixa etária e ano</td>
+</tr>
+<tr class="odd">
+<td>Fontes comuns</td>
+<td>IBGE, DATASUS/Ministério da Saúde, UFRN/LEPP e pacotes derivados</td>
+</tr>
+<tr class="even">
+<td>Data de referência frequente</td>
+<td>1º de julho do ano de referência nas estimativas municipais do IBGE</td>
+</tr>
+<tr class="odd">
+<td>Cuidado principal</td>
+<td>Numerador e denominador precisam ter território, período e população-alvo compatíveis</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="estimativas" class="level2" data-number="D.2">
-<h2 data-number="D.2" class="anchored" data-anchor-id="estimativas"><span class="header-section-number">D.2</span> Estimativas</h2>
-<p>Abaixo são apresentadas fontes de estimativas populacionais, links de acesso e exemplo de utilização do pacote <a href="https://rfsaldanha.github.io/brpop/">{brpop}</a>.</p>
-<section id="ibge-tcu" class="level3" data-number="D.2.1">
-<h3 data-number="D.2.1" class="anchored" data-anchor-id="ibge-tcu"><span class="header-section-number">D.2.1</span> IBGE – TCU</h3>
-<p>O IBGE disponibiliza anualmente estimativas populacionais dos municípios brasileiros que são enviadas ao Tribunal de Contas da União para fins de ajustes de repasses de verbas federais.</p>
+<section id="quando-usar" class="level2" data-number="D.2">
+<h2 data-number="D.2" class="anchored" data-anchor-id="quando-usar"><span class="header-section-number">D.2</span> Quando usar</h2>
+<p>Use estimativas populacionais quando o objetivo for padronizar uma contagem pelo tamanho da população sob risco ou da população-alvo.</p>
+<table class="caption-top table">
+<caption>Perguntas comuns que usam população como denominador</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pergunta de análise</th>
+<th>Numerador comum</th>
+<th>Denominador adequado</th>
+<th>Cuidado principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Qual é a taxa de mortalidade?</td>
+<td>Óbitos de residentes</td>
+<td>População residente do mesmo território e ano</td>
+<td>Usar residência, não ocorrência</td>
+</tr>
+<tr class="even">
+<td>Qual é a incidência de um agravo?</td>
+<td>Casos novos confirmados</td>
+<td>População sob risco</td>
+<td>Conferir definição de caso e população elegível</td>
+</tr>
+<tr class="odd">
+<td>Qual é a cobertura vacinal?</td>
+<td>Doses válidas ou pessoas vacinadas</td>
+<td>População-alvo da vacina</td>
+<td>População total pode não ser o denominador correto</td>
+</tr>
+<tr class="even">
+<td>Qual é a despesa per capita?</td>
+<td>Despesa em saúde</td>
+<td>População residente</td>
+<td>Usar mesmo ente federado e ano</td>
+</tr>
+<tr class="odd">
+<td>Como comparar municípios?</td>
+<td>Eventos agregados por município</td>
+<td>População municipal compatível</td>
+<td>Municípios pequenos produzem taxas instáveis</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Em indicadores territoriais, alinhe o território do numerador com o território do denominador. Óbitos por município de ocorrência divididos pela população residente do município medem uma combinação incoerente para risco populacional.</p>
+</div>
+</div>
+</section>
+<section id="censo-contagem-estimativa-e-projeção" class="level2" data-number="D.3">
+<h2 data-number="D.3" class="anchored" data-anchor-id="censo-contagem-estimativa-e-projeção"><span class="header-section-number">D.3</span> Censo, contagem, estimativa e projeção</h2>
+<p>Dados populacionais podem vir de observação direta ou de modelos. Censos demográficos buscam enumerar a população residente e levantar características demográficas, sociais, econômicas e domiciliares. Entre censos, estimativas e projeções atualizam o tamanho da população com métodos demográficos e estatísticos.</p>
+<table class="caption-top table">
+<caption>Diferenças entre fontes populacionais</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de dado</th>
+<th>O que representa</th>
+<th>Uso comum</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Censo demográfico</td>
+<td>Enumeração direta da população em um ano censitário</td>
+<td>Base para diagnósticos e revisão de séries</td>
+<td>Pode ter ajustes, cobertura diferencial e mudanças territoriais</td>
+</tr>
+<tr class="even">
+<td>Contagem populacional</td>
+<td>Levantamento intermediário, quando realizado</td>
+<td>Atualização entre censos</td>
+<td>Não ocorre regularmente em todos os períodos</td>
+</tr>
+<tr class="odd">
+<td>Estimativa</td>
+<td>População calculada para ano corrente ou intercensitário</td>
+<td>Indicadores anuais e repasses legais</td>
+<td>Pode ser revisada após novo censo ou decisão judicial</td>
+</tr>
+<tr class="even">
+<td>Projeção</td>
+<td>População futura ou série modelada</td>
+<td>Planejamento, cenários e denominadores futuros</td>
+<td>Depende de hipóteses sobre fecundidade, mortalidade e migração</td>
+</tr>
+</tbody>
+</table>
+<p>O IBGE divulga estimativas anuais de população para municípios e Unidades da Federação, com referência em 1º de julho. Essas estimativas são usadas também para finalidades legais, como a distribuição de cotas do Fundo de Participação dos Municípios (FPM), e sua comparação histórica deve ser feita com cautela porque incorpora revisões e alterações territoriais <span class="citation" data-cites="ibgeEstimativasPopulacao2026">(<a href="referencias.html#ref-ibgeEstimativasPopulacao2026" role="doc-biblioref">IBGE, 2026</a>)</span>.</p>
+</section>
+<section id="fontes-de-estimativas" class="level2" data-number="D.4">
+<h2 data-number="D.4" class="anchored" data-anchor-id="fontes-de-estimativas"><span class="header-section-number">D.4</span> Fontes de estimativas</h2>
+<section id="ibge-tcu" class="level3" data-number="D.4.1">
+<h3 data-number="D.4.1" class="anchored" data-anchor-id="ibge-tcu"><span class="header-section-number">D.4.1</span> IBGE – TCU</h3>
+<p>O IBGE disponibiliza anualmente estimativas populacionais dos municípios e das Unidades da Federação, publicadas no Diário Oficial da União e enviadas ao Tribunal de Contas da União. Na edição consultada em maio de 2026, a página do IBGE apresentava estimativas para 1º de julho de 2025 e arquivos atualizados em janeiro de 2026, inclusive com observações sobre decisões judiciais, atualização toponímica e alterações territoriais <span class="citation" data-cites="ibgeEstimativasPopulacao2026">(<a href="referencias.html#ref-ibgeEstimativasPopulacao2026" role="doc-biblioref">IBGE, 2026</a>)</span>.</p>
 <ul>
-<li><a href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html">Estimativas IBGE – TCU</a></li>
+<li><a href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html">Estimativas de população do IBGE</a></li>
 </ul>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -554,16 +724,34 @@ Aviso
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>As estimativas do IBGE para o TCU são constatemente alvo de processos judiciais que determinam a alteração do contigente originalmente estimado pelo IBGE, gerando fortes instabilidades nas séries temporais dos municípios.</p>
+<p>As estimativas do IBGE para o TCU podem ser atualizadas por decisões judiciais, mudanças de limites territoriais e revisões metodológicas. Evite misturar arquivos publicados em datas diferentes sem registrar a versão usada.</p>
 </div>
 </div>
+</section>
+<section id="datasus-ministério-da-saúde" class="level3" data-number="D.4.2">
+<h3 data-number="D.4.2" class="anchored" data-anchor-id="datasus-ministério-da-saúde"><span class="header-section-number">D.4.2</span> DATASUS / Ministério da Saúde</h3>
+<p>O Ministério da Saúde disponibiliza dados populacionais para uso em indicadores de saúde. Em maio de 2026, a página de Dados Populacionais listava projeção da população por UF de 2000 a 2070, população municipal utilizada pelo TCU para 2024 a 2025, população municipal por sexo e idade de 2000 a 2025, e uma base antiga marcada como não mais em uso para indicadores <span class="citation" data-cites="ministeriodasaudeDadosPopulacionais2026">(<a href="referencias.html#ref-ministeriodasaudeDadosPopulacionais2026" role="doc-biblioref">BRASIL, 2026</a>)</span>.</p>
+<ul>
+<li><a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais">Dados Populacionais - Ministério da Saúde</a></li>
+<li><a href="http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def">População municipal por sexo e idade - 2000 a 2025</a></li>
+</ul>
+<p>As estimativas do DATASUS/Ministério da Saúde são especialmente úteis quando a análise exige população por sexo e idade simples ou faixa etária em séries anuais. Para indicadores de saúde, isso costuma ser mais útil do que uma tabela municipal apenas com população total.</p>
+</section>
+<section id="ufrn-lepp" class="level3" data-number="D.4.3">
+<h3 data-number="D.4.3" class="anchored" data-anchor-id="ufrn-lepp"><span class="header-section-number">D.4.3</span> UFRN / LEPP</h3>
+<p>O Laboratório de Estimativas e Projeções Populacionais (LEPP), do Departamento de Demografia da UFRN, disponibiliza projeções populacionais municipais por sexo e idade para pequenas áreas. A página do projeto informa projeções por sexo e idade para municípios e microrregiões brasileiras, incluindo resultados de 2010 a 2030 e novas projeções municipais com intervalos de previsão de 2010 a 2070 <span class="citation" data-cites="ufrnLEPPProjecoes2026">(<a href="referencias.html#ref-ufrnLEPPProjecoes2026" role="doc-biblioref">UFRN, DEPARTAMENTO DE DEMOGRAFIA, 2026</a>)</span>.</p>
+<ul>
+<li><a href="https://demografiaufrn.net/projecao-populacional/">Projeções populacionais UFRN/LEPP</a></li>
+</ul>
+<p>Essas projeções são úteis para análises que exigem séries longas, idades detalhadas ou cenários, mas devem ser citadas como fonte metodologicamente distinta das estimativas oficiais anuais do IBGE para o TCU.</p>
+</section>
+<section id="pacote-brpop" class="level3" data-number="D.4.4">
+<h3 data-number="D.4.4" class="anchored" data-anchor-id="pacote-brpop"><span class="header-section-number">D.4.4</span> Pacote brpop</h3>
+<p>O pacote <a href="https://rfsaldanha.github.io/brpop/">{brpop}</a> organiza diferentes fontes de estimativas populacionais brasileiras em R <span class="citation" data-cites="saldanha2022">(<a href="referencias.html#ref-saldanha2022" role="doc-biblioref">SALDANHA, 2026</a>)</span>. Ele pode ser útil para comparar fontes e padronizar fluxos de análise, desde que a fonte escolhida seja explicitada.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(brpop)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"ibge"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Setting `max_tries = 2`.</code></pre>
-</div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 139,275 × 3
    code_muni  year   pop
@@ -580,17 +768,7 @@ Aviso
 10   1100015  2008 24577
 # ℹ 139,265 more rows</code></pre>
 </div>
-</div>
-</section>
-<section id="datasus-demas" class="level3" data-number="D.2.2">
-<h3 data-number="D.2.2" class="anchored" data-anchor-id="datasus-demas"><span class="header-section-number">D.2.2</span> DataSUS / DEMAS</h3>
-<p>O DataSUS fornece estimativas populacionais para os municípios brasileiros. Duas estimativas estão disponíveis:</p>
-<ul>
-<li><a href="http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvsbr.def">Estimativas de 2000 a 2021</a>. O uso desta estimativa não é mais recomendada pelo DataSUS.</li>
-<li><a href="http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def">Estimativas de 2000 a 2024</a></li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"datasus"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"datasus"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 123,112 × 3
    code_muni  year   pop
@@ -607,9 +785,7 @@ Aviso
 10    110000  2009     0
 # ℹ 123,102 more rows</code></pre>
 </div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"datasus2024"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"datasus2024"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 139,250 × 3
    code_muni  year   pop
@@ -626,16 +802,7 @@ Aviso
 10   1100015  2009 25274
 # ℹ 139,240 more rows</code></pre>
 </div>
-</div>
-</section>
-<section id="departamento-de-demografia-da-ufrn" class="level3" data-number="D.2.3">
-<h3 data-number="D.2.3" class="anchored" data-anchor-id="departamento-de-demografia-da-ufrn"><span class="header-section-number">D.2.3</span> Departamento de Demografia da UFRN</h3>
-<p>O laboratório LEPP do Departamento de Demografia de UFRN oferece estimativas populacionais para os municípios brasileiros.</p>
-<ul>
-<li><a href="https://demografiaufrn.net/projecao-populacional/">Estimativas UFRN-LEPP 2010 a 2030</a></li>
-</ul>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"ufrn"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mun_pop_totals</span>(<span class="at">source =</span> <span class="st">"ufrn"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 116,970 × 3
    code_muni  year    pop
@@ -655,12 +822,148 @@ Aviso
 </div>
 </section>
 </section>
-<section id="comparações-entre-estimativas" class="level2" data-number="D.3">
-<h2 data-number="D.3" class="anchored" data-anchor-id="comparações-entre-estimativas"><span class="header-section-number">D.3</span> Comparações entre estimativas</h2>
-<p>As estimativas populacionais acima citadas utilizam métodos distintos para sua obtenção. Desta forma, discrepâncias entre seus valores são esperadas.</p>
-<p><a href="https://shiny.icict.fiocruz.br/brpopview/">Este aplicativo on-line</a> permite a comparação gráfica entre estas estimativas nos municípios brasileiros.</p>
+<section id="escolha-do-denominador" class="level2" data-number="D.5">
+<h2 data-number="D.5" class="anchored" data-anchor-id="escolha-do-denominador"><span class="header-section-number">D.5</span> Escolha do denominador</h2>
+<p>A escolha do denominador deve vir da pergunta analítica, não da disponibilidade imediata da tabela. A população total do município serve para alguns indicadores, mas é inadequada para muitos outros.</p>
+<table class="caption-top table">
+<caption>Denominadores frequentes em indicadores de saúde</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Denominador mais comum</th>
+<th>Exemplo de cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxa bruta de mortalidade</td>
+<td>População residente total</td>
+<td>Numerador deve usar óbitos de residentes</td>
+</tr>
+<tr class="even">
+<td>Mortalidade infantil</td>
+<td>Nascidos vivos</td>
+<td>Não usar população menor de 1 ano sem justificar</td>
+</tr>
+<tr class="odd">
+<td>Incidência por faixa etária</td>
+<td>População da faixa etária</td>
+<td>Compatibilizar idade do caso e idade do denominador</td>
+</tr>
+<tr class="even">
+<td>Cobertura vacinal infantil</td>
+<td>Coorte de nascidos vivos ou população-alvo</td>
+<td>Dose válida e idade-alvo precisam ser definidas</td>
+</tr>
+<tr class="odd">
+<td>Despesa em saúde per capita</td>
+<td>População residente total</td>
+<td>Deflacionar valores antes de comparar anos</td>
+</tr>
+<tr class="even">
+<td>Indicador por sexo e idade</td>
+<td>População por sexo e idade</td>
+<td>Conferir categorias e idades abertas</td>
+</tr>
+</tbody>
+</table>
+<p>Alguns indicadores não usam população residente como denominador. Mortalidade infantil usa nascidos vivos; letalidade usa casos; positividade usa testes ou exames; cobertura de pré-natal pode usar gestantes estimadas, nascidos vivos ou pessoas vinculadas, dependendo da definição. Chamar tudo de “taxa populacional” pode esconder denominadores muito diferentes.</p>
+</section>
+<section id="comparações-entre-estimativas" class="level2" data-number="D.6">
+<h2 data-number="D.6" class="anchored" data-anchor-id="comparações-entre-estimativas"><span class="header-section-number">D.6</span> Comparações entre estimativas</h2>
+<p>As fontes citadas usam métodos e finalidades diferentes. Discrepâncias são esperadas, especialmente em municípios pequenos, em áreas com migração intensa, em anos próximos ao censo, em territórios que sofreram alteração de limites e em grupos etários muito específicos.</p>
+<table class="caption-top table">
+<caption>Razões comuns para discrepâncias entre estimativas</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Diferença entre fontes</th>
+<th>Por que ocorre</th>
+<th>Como lidar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>População total municipal diferente</td>
+<td>Método, revisão censitária, data de referência ou decisão judicial</td>
+<td>Declarar fonte e versão</td>
+</tr>
+<tr class="even">
+<td>Diferença por idade</td>
+<td>Método de interpolação ou projeção etária</td>
+<td>Evitar misturar idade de uma fonte com total de outra</td>
+</tr>
+<tr class="odd">
+<td>Quebra após novo censo</td>
+<td>Revisão do nível populacional</td>
+<td>Marcar séries antes e depois do censo</td>
+</tr>
+<tr class="even">
+<td>Divergência em município pequeno</td>
+<td>Maior sensibilidade a migração e erro relativo</td>
+<td>Usar médias móveis, agregações ou intervalos</td>
+</tr>
+<tr class="odd">
+<td>Mudança territorial</td>
+<td>Criação, fusão ou alteração de limites</td>
+<td>Usar códigos e malhas compatíveis</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://shiny.icict.fiocruz.br/brpopview/">Este aplicativo on-line</a> permite comparar graficamente estimativas populacionais nos municípios brasileiros.</p>
+</section>
+<section id="exemplo-de-indicador" class="level2" data-number="D.7">
+<h2 data-number="D.7" class="anchored" data-anchor-id="exemplo-de-indicador"><span class="header-section-number">D.7</span> Exemplo de indicador</h2>
+<p>O exemplo abaixo ilustra a lógica mínima de compatibilidade entre numerador e denominador. A taxa deve usar eventos de residentes e população residente do mesmo município e ano.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>taxa_mortalidade <span class="ot">&lt;-</span> obitos <span class="sc">|&gt;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(codmun_res, ano, <span class="at">name =</span> <span class="st">"obitos"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(populacao, <span class="at">by =</span> <span class="fu">c</span>(<span class="st">"codmun_res"</span> <span class="ot">=</span> <span class="st">"codmun"</span>, <span class="st">"ano"</span>)) <span class="sc">|&gt;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">taxa_100mil =</span> obitos <span class="sc">/</span> populacao <span class="sc">*</span> <span class="dv">100000</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Em séries históricas, preserve a fonte e a versão da população junto com o resultado final. Isso evita que uma atualização posterior do denominador torne tabelas e gráficos irreprodutíveis.</p>
+</section>
+<section id="checklist" class="level2" data-number="D.8">
+<h2 data-number="D.8" class="anchored" data-anchor-id="checklist"><span class="header-section-number">D.8</span> Checklist</h2>
+<p>Antes de publicar um indicador com denominador populacional, verifique:</p>
+<ul>
+<li>fonte da população;</li>
+<li>versão ou data de extração;</li>
+<li>ano de referência;</li>
+<li>território do numerador e do denominador;</li>
+<li>formato do código municipal;</li>
+<li>recorte por sexo, idade ou faixa etária;</li>
+<li>tratamento de municípios criados, extintos ou com limites alterados;</li>
+<li>compatibilidade entre população-alvo e evento contado;</li>
+<li>estabilidade do indicador em municípios pequenos.</li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-ministeriodasaudeDadosPopulacionais2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Dados Populacionais</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais">https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais</a>&gt;. Acesso em: 15 mai. 2026.
+</div>
+<div id="ref-ibgeEstimativasPopulacao2026" class="csl-entry" role="listitem">
+IBGE. <strong>Estimativas da popula<span>ç</span><span>ã</span>o residente para os Munic<span>í</span>pios e para as Unidades da Federa<span>ç</span><span>ã</span>o</strong>. Disponível em: &lt;<a href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html">https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html</a>&gt;. Acesso em: 15 mai. 2026.
+</div>
+<div id="ref-saldanha2022" class="csl-entry" role="listitem">
+SALDANHA, R. F. <strong>brpop: Brazilian Population Estimatives</strong>., 2026. Disponível em: &lt;<a href="https://rfsaldanha.github.io/brpop/">https://rfsaldanha.github.io/brpop/</a>&gt;
+</div>
+<div id="ref-ufrnLEPPProjecoes2026" class="csl-entry" role="listitem">
+UFRN, DEPARTAMENTO DE DEMOGRAFIA. <strong>Proje<span>ç</span><span>õ</span>es Populacionais</strong>. Disponível em: &lt;<a href="https://demografiaufrn.net/projecao-populacional/">https://demografiaufrn.net/projecao-populacional/</a>&gt;. Acesso em: 15 mai. 2026.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
