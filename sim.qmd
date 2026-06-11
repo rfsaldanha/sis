@@ -127,6 +127,12 @@ O controle da numeração da DO é parte do controle do próprio sistema. Os for
 Empresas funerárias não são unidades notificadoras aptas a receber formulários de DO. O fluxo da DO deve preservar a responsabilidade médica, sanitária e cartorial sobre o documento.
 :::
 
+## Modelo da Declaração de Óbito
+
+![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do fig-alt="Modelo de Declaração de Óbito" width="90%"}
+
+Mais informações sobre o preenchimento estão disponíveis no [manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
+
 ## Emissão da Declaração de Óbito
 
 O preenchimento da DO é um ato médico, com responsabilidade ética e jurídica do profissional que constata e atesta o óbito. Essa responsabilidade inclui revisar as informações, evitar abreviações ou termos vagos e registrar uma sequência causal coerente. A DO não deve ser assinada em branco, nem preenchida sem que o óbito tenha sido verificado pessoalmente, exceto nas situações previstas pelas normas profissionais e sanitárias [@brasil_ms_2022_do_manual].
@@ -155,7 +161,7 @@ A investigação pode alterar a causa básica originalmente informada, acrescent
 
 ## Cobertura e unidade de análise
 
-O SIM busca registrar todos os óbitos ocorridos no território nacional, independentemente de terem ocorrido em estabelecimentos públicos, privados, filantrópicos, domicílios, vias públicas ou outros locais. Também registra óbitos fetais.
+O SIM busca registrar todos os óbitos ocorridos no território nacional, independentemente do local de ocorrência ou da natureza pública, privada ou suplementar do atendimento. Também registra óbitos fetais.
 
 A unidade de análise é a Declaração de Óbito. Isso significa que cada registro corresponde a um óbito, não a uma pessoa acompanhada longitudinalmente. Para análises populacionais, os óbitos geralmente são agregados por período, município, faixa etária, sexo, raça/cor e causa.
 
@@ -170,7 +176,7 @@ A cobertura do SIM melhorou ao longo do tempo, mas não deve ser tratada como ho
 | Óbito fetal | Deve ser analisado separadamente de óbitos não fetais |
 : Dimensões importantes para análise do SIM
 
-Também é necessário decidir se o estudo usará óbitos totais, óbitos de residentes, óbitos ocorridos no território, óbitos não fetais ou subconjuntos específicos, como infantis, maternos ou por causas externas. Essa decisão deve aparecer no numerador do indicador e na descrição metodológica. Em geral, taxas populacionais usam óbitos de residentes; análises da rede assistencial podem usar ocorrência; e análises de mortalidade fetal ou infantil precisam separar cuidadosamente eventos antes e depois do nascimento.
+Também é necessário decidir se o estudo usará óbitos totais, óbitos de residentes, óbitos ocorridos no território, óbitos não fetais ou subconjuntos específicos, como infantis, maternos ou por causas externas. Essa decisão deve aparecer no numerador do indicador e na descrição metodológica.
 
 ## Causa básica do óbito
 
@@ -229,7 +235,7 @@ O SIM permite analisar óbitos por município de residência e por município de
 | Ocorrência | Onde o óbito aconteceu? | Demanda sobre serviços e locais de ocorrência |
 : Uso de residência e ocorrência na análise de mortalidade
 
-Para estimar risco populacional, em geral utiliza-se o município de residência, pois o denominador costuma ser a população residente. Para estudar rede assistencial, fluxo de pacientes ou óbitos ocorridos em serviços de referência, o município de ocorrência pode ser mais adequado.
+Para estimar risco populacional, em geral utiliza-se o município de residência. Para estudar rede assistencial, fluxo de pacientes ou óbitos ocorridos em serviços de referência, o município de ocorrência pode ser mais adequado.
 
 Essa diferença ganha importância em municípios-polo e capitais. Um município pode ter muitos óbitos por ocorrência porque recebe pacientes de uma região inteira, sem que seus residentes tenham maior risco de morrer. A escolha entre residência e ocorrência deve seguir a pergunta, não a conveniência da tabela.
 
@@ -250,11 +256,20 @@ Ao comparar anos, especialmente anos recentes, verifique se as bases têm o mesm
 
 A data do óbito deve ser priorizada quando o objetivo é estudar a ocorrência temporal do evento. Datas de cadastro, recebimento ou atualização ajudam a avaliar oportunidade, mas não substituem a data em que a morte ocorreu.
 
-## Modelo da Declaração de Óbito
+## Checklist antes da análise
 
-![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do fig-alt="Modelo de Declaração de Óbito" width="90%"}
+Antes de tabular o SIM, defina a unidade de análise, o recorte do numerador e as dimensões de qualidade que serão avaliadas. Esse checklist evita misturar perguntas diferentes no mesmo indicador.
 
-Mais informações sobre o preenchimento estão disponíveis no [manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
+| Decisão | Pergunta prática |
+|---|---|
+| Residência ou ocorrência | O indicador mede risco da população residente ou local do evento? |
+| Óbito fetal ou não fetal | Óbitos fetais devem entrar, sair ou formar análise separada? |
+| Causa básica ou causas múltiplas | A pergunta exige uma causa principal ou todas as condições mencionadas? |
+| Base preliminar ou consolidada | A prioridade é oportunidade ou estabilidade da informação? |
+| Denominador | O indicador usa população, nascidos vivos, casos notificados ou total de óbitos? |
+| Agrupamento CID | O nível de detalhe é compatível com a pergunta e com o tamanho da população? |
+| Qualidade mínima | Quais campos precisam ter completitude e consistência aceitáveis? |
+: Decisões mínimas antes de analisar dados do SIM
 
 ## Exemplo: acidentes de trânsito
 
@@ -314,13 +329,25 @@ Qualidade no SIM não é uma dimensão única. Uma base pode ter boa cobertura d
 | Mudanças de codificação ou investigação | Podem gerar quebras em séries históricas |
 : Problemas frequentes que podem afetar análises com o SIM
 
-O campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho [@cavalcanteQualidadeDosRegistros2023]. Por isso, análises mais detalhadas devem sempre verificar completitude, consistência e mudanças históricas das variáveis utilizadas.
+Além de listar problemas possíveis, é útil transformar a avaliação de qualidade em indicadores simples. Eles não têm ponto de corte universal: a interpretação depende da pergunta, do território, do período e da variável analisada.
+
+| Indicador de qualidade | Como interpretar |
+|---|---|
+| Proporção de causas mal definidas | Mede quanto da mortalidade por causa ficou pouco esclarecida |
+| Proporção de códigos garbage | Indica causas básicas pouco úteis para prevenção ou planejamento |
+| Completitude de raça/cor, escolaridade e ocupação | Define se análises de desigualdade são sustentáveis |
+| Consistência entre idade, sexo e causa | Ajuda a detectar erros de preenchimento, codificação ou processamento |
+| Proporção de registros investigados | Mostra o grau de qualificação posterior em grupos prioritários |
+| Diferença entre base preliminar e consolidada | Indica a sensibilidade da análise ao estágio de atualização |
+: Indicadores operacionais para avaliar qualidade dos dados do SIM
+
+O campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho [@cavalcanteQualidadeDosRegistros2023]. Por isso, análises mais detalhadas devem verificar completitude, consistência e mudanças históricas das variáveis utilizadas.
 
 As causas mal definidas e os chamados códigos garbage merecem atenção especial. Eles indicam causas pouco informativas, muitas vezes relacionadas a falta de assistência médica, ausência de investigação, preenchimento inadequado ou seleção de mecanismos terminais como causa básica. Uma proporção elevada desses códigos pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas.
 
 Campos sociais também precisam ser avaliados. Raça/cor, escolaridade e ocupação são fundamentais para estudar desigualdades, mas sua qualidade pode variar segundo período, território, tipo de óbito e circunstância de preenchimento. Em causas externas, a qualidade da circunstância é tão importante quanto a lesão, pois códigos inespecíficos dificultam distinguir acidente, agressão, lesão autoprovocada e evento de intenção indeterminada.
 
-Uma rotina mínima de avaliação de qualidade deve incluir: total de óbitos por ano e território; proporção de óbitos por causas mal definidas; completitude de idade, sexo, raça/cor, escolaridade e município; distribuição de óbitos por residência e ocorrência; proporção de óbitos investigados quando pertinente; e comparação entre bases preliminares e consolidadas. Essa etapa deve vir antes da análise substantiva, não apenas como anexo metodológico.
+Essa etapa deve vir antes da análise substantiva, não apenas como anexo metodológico. Quando a qualidade varia muito entre territórios ou anos, a diferença observada no indicador pode refletir tanto uma mudança real de mortalidade quanto uma mudança na qualidade do registro.
 
 ## Linha do tempo do SIM
 
@@ -429,6 +456,28 @@ sim_raw <- fetch_datasus(
 sim_p <- process_sim(sim_raw)
 
 sim_p
+```
+
+O exemplo abaixo ilustra uma etapa simples de análise após o processamento. A tabela `populacao` é externa ao SIM e representa a população residente do mesmo município e ano; a escolha do denominador é discutida no apêndice sobre estimativas populacionais (@sec-pop).
+
+```{r}
+#| eval: false
+#| message: false
+library(dplyr)
+
+obitos_residentes <- sim_p |>
+  filter(TIPOBITO != "Fetal") |>
+  mutate(
+    ano = as.integer(format(DTOBITO, "%Y")),
+    codmun_res = CODMUNRES
+  ) |>
+  count(codmun_res, ano, name = "obitos")
+
+taxa_mortalidade <- obitos_residentes |>
+  left_join(populacao, by = c("codmun_res" = "codmun", "ano")) |>
+  mutate(taxa_100mil = obitos / populacao * 100000)
+
+taxa_mortalidade
 ```
 
 ### Python
