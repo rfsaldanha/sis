@@ -113,7 +113,7 @@ for f in "$chunks_dir"/[0-9][0-9][0-9].mp3; do
   printf "file '%s'\n" "$(pwd)/$silence" >> "$concat_file"
 done
 
-ffmpeg -y -f concat -safe 0 -i "$concat_file" -codec:a libmp3lame -q:a 2 "$output_mp3"
+ffmpeg -y -f concat -safe 0 -i "$concat_file" -codec:a libmp3lame -b:a 128k -write_xing 1 "$output_mp3"
 
 time=0
 silence_duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$silence")
