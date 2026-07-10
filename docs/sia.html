@@ -653,6 +653,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tr>
 </tbody>
 </table>
+<p>Essa tabela resume o ponto de partida do capítulo: o SIA é uma fonte de produção ambulatorial do SUS, organizada por competência e por instrumentos de registro. O termo “produção” é importante porque aproxima a base daquilo que foi registrado, criticado e aprovado no fluxo administrativo, e não de uma contagem direta de consultas clínicas, usuários únicos ou necessidades assistenciais da população.</p>
 <p>O Sistema de Informações Ambulatoriais do SUS (SIA/SUS) é a principal fonte nacional para analisar produção ambulatorial financiada pelo SUS. Ele abrange consultas, exames, terapias, procedimentos especializados, ações de atenção domiciliar, atenção psicossocial, medicamentos e procedimentos de alta complexidade, conforme o instrumento de registro utilizado.</p>
 <p>Assim como o SIH (<a href="sih.html" class="quarto-xref"><span>Capítulo 7</span></a>), o SIA tem forte origem administrativa e financeira. Por isso, seus dados devem ser interpretados como produção registrada e aprovada segundo regras do SUS, não como contagem direta de pessoas atendidas, necessidades de saúde ou custo econômico total.</p>
 </section>
@@ -677,7 +678,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 <tr class="odd">
 <td>Quantos procedimentos ambulatoriais foram registrados?</td>
 <td>Contar produção aprovada</td>
-<td>CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>) para caracterizar serviços</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para caracterizar serviços</td>
 </tr>
 <tr class="even">
 <td>Quais procedimentos foram realizados?</td>
@@ -687,7 +688,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 <tr class="odd">
 <td>Onde a produção ocorreu?</td>
 <td>Analisar estabelecimento e município</td>
-<td>CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>) para vínculo e tipo de unidade</td>
+<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para vínculo e tipo de unidade</td>
 </tr>
 <tr class="even">
 <td>Qual foi a produção de alta complexidade?</td>
@@ -706,6 +707,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tr>
 </tbody>
 </table>
+<p>A tabela delimita o uso mais seguro do SIA. Em geral, ele responde bem a perguntas sobre volume, distribuição e remuneração aprovada da produção ambulatorial. Quando a pergunta envolve capacidade instalada, população exposta, custo real, diagnóstico completo ou desfecho, o SIA raramente basta sozinho: ele precisa ser articulado a outras fontes e a uma definição explícita da unidade de análise.</p>
 </section>
 <section id="histórico-e-organização" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">8.3</span> Histórico e organização</h2>
@@ -764,6 +766,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tr>
 </tbody>
 </table>
+<p>A comparação com o SIH ajuda a evitar uma leitura excessivamente homogênea dos sistemas de produção do SUS. No SIH, a autorização hospitalar organiza o episódio de internação; no SIA, a produção ambulatorial pode estar distribuída entre procedimento consolidado, registro individualizado, APAC ou RAAS. Por isso, uma análise que combine os dois sistemas deve manter separadas as unidades originais antes de produzir qualquer indicador integrado.</p>
 </section>
 <section id="fluxo-da-produção-ambulatorial" class="level2" data-number="8.5">
 <h2 data-number="8.5" class="anchored" data-anchor-id="fluxo-da-produção-ambulatorial"><span class="header-section-number">8.5</span> Fluxo da produção ambulatorial</h2>
@@ -838,6 +841,7 @@ Figura&nbsp;8.1: Fluxo simplificado da produção ambulatorial no SIA
 </tr>
 </tbody>
 </table>
+<p>Na prática, a escolha do instrumento define o que será possível afirmar. O BPA-C é útil para volumes agregados, mas não sustenta análises individuais. O BPA-I amplia o detalhamento, mas não cobre toda a produção ambulatorial. A APAC permite estudar procedimentos de maior complexidade e continuidade, enquanto a RAAS foi desenhada para registros ambulatoriais específicos. Misturar esses instrumentos sem declarar a regra de harmonização costuma produzir indicadores difíceis de interpretar.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -906,10 +910,11 @@ Aviso
 <td>Estabelecimento</td>
 <td>Unidade executora informada no registro</td>
 <td>Rede, concentração e oferta</td>
-<td>Deve ser combinado com CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>)</td>
+<td>Deve ser combinado com CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
 </tr>
 </tbody>
 </table>
+<p>Essa tabela funciona como uma etapa metodológica obrigatória. Antes de tabular, é preciso decidir se o estudo contará quantidades aprovadas, linhas de arquivo, autorizações, procedimentos, tratamentos ou estabelecimentos. A mesma extração pode gerar resultados diferentes se a soma for feita por linha ou por <code>PA_QTDAPR</code>, ou se APACs mensais forem interpretadas como novos tratamentos em vez de continuidade de cuidado.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -982,6 +987,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>Os elementos do SIGTAP não servem apenas para nomear procedimentos. Eles delimitam o período em que o código está ativo, os instrumentos em que pode ser registrado, as compatibilidades aceitas e as regras que afetam aprovação. Uma série temporal por procedimento, por exemplo, pode mudar porque a oferta mudou, mas também porque houve alteração de código, vigência, modalidade de registro ou regra de crítica.</p>
 <p>Você pode consultar o <a href="http://sigtap.datasus.gov.br">SIGTAP</a> para verificar descrição, regras e vigência de procedimentos.</p>
 <p>A documentação oficial do SIGTAP descreve atributos como código, descrição, vigência, modalidade de atendimento, complexidade, instrumentos de registro, idade, sexo, CBO, CID, serviço/classificação, habilitação, financiamento e regras condicionadas. Esses atributos são usados nas críticas do SIA e ajudam a explicar quebras ou mudanças em séries históricas.</p>
 <ul>
@@ -1035,6 +1041,7 @@ Nota
 </tbody>
 </table>
 <p>Para estimar uso da população residente, use residência e denominadores populacionais compatíveis. Para avaliar oferta, capacidade produtiva ou concentração de serviços, use ocorrência e estabelecimento.</p>
+<p>Em estudos de fluxo assistencial, a diferença entre residência e ocorrência permite estimar deslocamentos para cuidado especializado. Essa abordagem já foi usada, por exemplo, para mapear fluxos de atendimentos ambulatoriais e internações oncológicas no SUS <span class="citation" data-cites="Oliveira2011a">(<a href="referencias.html#ref-Oliveira2011a" role="doc-biblioref">OLIVEIRA et al., 2011</a>)</span>.</p>
 </section>
 <section id="exemplo-produção-de-mamografias" class="level2 page-columns page-full" data-number="8.11">
 <h2 data-number="8.11" class="anchored" data-anchor-id="exemplo-produção-de-mamografias"><span class="header-section-number">8.11</span> Exemplo: produção de mamografias</h2>
@@ -1070,6 +1077,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A distinção entre os dois códigos é substantiva. O primeiro pode reunir mamografias com finalidades clínicas variadas; o segundo é mais alinhado a rastreamento. Se a pergunta for cobertura de rastreamento, misturar os códigos pode inflar o numerador ou mudar seu significado. Se a pergunta for capacidade de oferta de exames, incluir ambos pode ser adequado, desde que a finalidade seja declarada.</p>
 <table class="caption-top table">
 <caption>Campos úteis em uma análise de mamografias no SIA</caption>
 <colgroup>
@@ -1117,6 +1125,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A tabela mostra que a análise de mamografias não depende apenas do código do procedimento. O campo territorial define se o indicador fala das mulheres residentes ou da rede que realizou exames; a idade e o sexo delimitam a população de interesse; e a competência organiza a série temporal. Sem essas escolhas, uma mesma tabulação pode ser lida como oferta, utilização, rastreamento ou deslocamento assistencial.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1191,6 +1200,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>Essa especificação transforma uma pergunta genérica em uma regra operacional auditável. Ela informa qual procedimento entra no numerador, qual população entra no denominador e qual território organiza a taxa. O resultado pode ser comparado entre municípios ou períodos, mas deve ser descrito como taxa de exames aprovados, não como proporção de mulheres efetivamente rastreadas.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1225,13 +1235,13 @@ Aviso
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-10918efc24e32e37956d" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-4327b8feac1c3280899e" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-10918efc24e32e37956d">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do SIA<\/small>","start":"1990-06-29"},{"id":"3","content":"<small>Implantação do SIA<br>nas Ufs<\/small>","start":"1994-07-01"},{"id":"4","content":"<small>Boletim de Produção<\/br>Ambulatorial Consolidado (BPA-C)<\/small>","start":"1995-01-01"},{"id":"5","content":"<small>Autorização de Procedimentos<\/br>Ambulatoriais de Alto Custo (APAC)<\/small>","start":"1996-01-01"},{"id":"6","content":"<small>Expansão do SIA para<\/br>municípios com a NOB1/96<\/small>","start":"1996-01-01"},{"id":"7","content":"<small>Banco de Dados Nacional do SIA<\/small>","start":"1995-06-21"},{"id":"8","content":"<small>Ampliação e recodificação<\/br>da tabela de procedimentos<\/small>","start":"1999-10-01"},{"id":"9","content":"<small>Reestruturação da tabela de procedimentos<\/small>","start":"2003-08-13"},{"id":"10","content":"<small>Sistema de Gerenciamento da Tabela de<\/br>Procedimentos, Medicamentos e OPM do SUS (SIGTAP)<\/small>","start":"2007-02-08"},{"id":"11","content":"<small>BPA Individualizado (BPA-I)<\/small>","start":"2008-01-01"},{"id":"12","content":"<small>Integração com CNES e CADSUS Web<\/small>","start":"2013-02-20"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-4327b8feac1c3280899e">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Instituição do SIA<\/small>","start":"1990-06-29"},{"id":"3","content":"<small>Implantação do SIA<br>nas Ufs<\/small>","start":"1994-07-01"},{"id":"4","content":"<small>Boletim de Produção<\/br>Ambulatorial Consolidado (BPA-C)<\/small>","start":"1995-01-01"},{"id":"5","content":"<small>Autorização de Procedimentos<\/br>Ambulatoriais de Alto Custo (APAC)<\/small>","start":"1996-01-01"},{"id":"6","content":"<small>Expansão do SIA para<\/br>municípios com a NOB1/96<\/small>","start":"1996-01-01"},{"id":"7","content":"<small>Banco de Dados Nacional do SIA<\/small>","start":"1995-06-21"},{"id":"8","content":"<small>Ampliação e recodificação<\/br>da tabela de procedimentos<\/small>","start":"1999-10-01"},{"id":"9","content":"<small>Reestruturação da tabela de procedimentos<\/small>","start":"2003-08-13"},{"id":"10","content":"<small>Sistema de Gerenciamento da Tabela de<\/br>Procedimentos, Medicamentos e OPM do SUS (SIGTAP)<\/small>","start":"2007-02-08"},{"id":"11","content":"<small>BPA Individualizado (BPA-I)<\/small>","start":"2008-01-01"},{"id":"12","content":"<small>Integração com CNES e CADSUS Web<\/small>","start":"2013-02-20"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIA</p>
 </div>
 </div>
@@ -1299,6 +1309,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Esses campos formam um conjunto mínimo de conferência, não uma lista obrigatória para todas as análises. Em arquivos agregados, alguns campos individuais podem não existir; em arquivos específicos de APAC ou RAAS, variáveis próprias podem ser mais importantes do que campos gerais. A inspeção inicial deve confirmar presença, tipo e completitude antes de qualquer soma.</p>
 </section>
 <section id="transformações-frequentes" class="level3" data-number="8.12.2">
 <h3 data-number="8.12.2" class="anchored" data-anchor-id="transformações-frequentes"><span class="header-section-number">8.12.2</span> Transformações frequentes</h3>
@@ -1355,6 +1366,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Cada transformação precisa deixar rastros no código e no método. Agrupar idade, selecionar residentes, somar quantidade aprovada ou criar grupos SIGTAP são decisões que alteram o significado do indicador. Uma boa prática é salvar a base tratada com variáveis derivadas nomeadas de forma explícita e manter os campos originais disponíveis para auditoria.</p>
 </section>
 <section id="prefixo-dos-arquivos" class="level3" data-number="8.12.3">
 <h3 data-number="8.12.3" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">8.12.3</span> Prefixo dos arquivos</h3>
@@ -1418,6 +1430,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Os prefixos ajudam a reconhecer rapidamente o tipo de arquivo antes do processamento. Eles também lembram que “SIA” não é um único arquivo homogêneo: a família PA tem finalidade diferente das famílias de APAC, RAAS e BPA-I. Em séries longas, é comum precisar ajustar o fluxo de leitura para cada prefixo, porque campos, tamanhos e regras de preenchimento podem variar.</p>
 </section>
 <section id="guia-mínimo-de-dicionário" class="level3" data-number="8.12.4">
 <h3 data-number="8.12.4" class="anchored" data-anchor-id="guia-mínimo-de-dicionário"><span class="header-section-number">8.12.4</span> Guia mínimo de dicionário</h3>
@@ -1520,6 +1533,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Esses cuidados decorrem da natureza autorizativa da APAC. Em modalidades como quimioterapia, radioterapia, terapia renal substitutiva e medicamentos, o registro mensal pode acompanhar um tratamento em curso. Por isso, a pergunta “quantos procedimentos foram aprovados?” é diferente de “quantas pessoas estavam em tratamento?” e exige uma estratégia longitudinal própria.</p>
 <p>Exemplos frequentes de análise com APAC incluem tratamentos oncológicos, terapia renal substitutiva, radioterapia, quimioterapia, medicamentos especializados e procedimentos com autorização continuada. Nesses casos, a competência mensal pode representar continuidade de cuidado, não um novo caso incidente.</p>
 <table class="caption-top table">
 <caption>Exemplos de uso analítico da APAC</caption>
@@ -1563,6 +1577,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>A escolha da unidade mais adequada depende da área analisada. Para produção mensal, procedimento ou APAC podem ser suficientes. Para acesso, continuidade ou trajetórias terapêuticas, a análise precisa aproximar registros de uma mesma pessoa ou de um mesmo tratamento, respeitando as limitações de identificação disponíveis na base utilizada.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1607,6 +1622,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A produção rejeitada não deve ser somada automaticamente à produção aprovada. Para indicadores assistenciais, a produção aprovada tende a ser a referência mais usada, porque passou pelas críticas do sistema. Para gestão, auditoria ou melhoria do preenchimento, as rejeições são informativas justamente por mostrar onde o registro não atravessou o fluxo administrativo.</p>
 </section>
 <section id="acesso-aos-dados" class="level2" data-number="8.15">
 <h2 data-number="8.15" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">8.15</span> Acesso aos dados</h2>
@@ -1642,6 +1658,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A melhor forma de acesso depende do grau de reprodutibilidade necessário. O TabNet é ótimo para reconhecimento inicial e validação de totais. Arquivos DBC, R, Python e PCDaS são mais adequados quando a análise precisa documentar filtros, combinar várias competências, repetir o processamento ou integrar o SIA a outras bases.</p>
 </section>
 <section id="processamento-de-grandes-volumes" class="level2" data-number="8.16">
 <h2 data-number="8.16" class="anchored" data-anchor-id="processamento-de-grandes-volumes"><span class="header-section-number">8.16</span> Processamento de grandes volumes</h2>
@@ -1682,6 +1699,7 @@ Nota
 </tbody>
 </table>
 <p>Uma organização comum é manter arquivos brutos imutáveis, gerar camadas tratadas por instrumento e construir bases analíticas menores para cada pergunta.</p>
+<p>Essa organização também facilita refazer apenas a etapa afetada quando uma regra muda. Se uma lista de procedimentos for revisada, por exemplo, não é necessário baixar todos os dados novamente; basta atualizar a camada analítica mantendo o histórico da extração original.</p>
 <section id="tabnet" class="level3" data-number="8.16.1">
 <h3 data-number="8.16.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">8.16.1</span> TabNet</h3>
 <p>Os dados do SIA podem ser acessados no TabNet do DataSUS, na seção “Assistência à Saúde”.</p>
@@ -1750,7 +1768,7 @@ Nota
 <tbody>
 <tr class="odd">
 <td>Qual serviço produziu?</td>
-<td>SIA + CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>)</td>
+<td>SIA + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
 <td>CNES muda ao longo do tempo</td>
 </tr>
 <tr class="even">
@@ -1888,6 +1906,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>Esses indicadores devem ser nomeados de acordo com o numerador realmente usado. “Produção aprovada de procedimentos” é diferente de “cobertura”; “valor aprovado” é diferente de “custo”; e “produção fora do município” é uma aproximação de deslocamento assistencial, não uma medida completa de barreira de acesso.</p>
 </section>
 <section id="limitações" class="level2" data-number="8.20">
 <h2 data-number="8.20" class="anchored" data-anchor-id="limitações"><span class="header-section-number">8.20</span> Limitações</h2>
@@ -1939,6 +1958,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A utilidade dessa tabela é separar limite da fonte e erro de análise. A cobertura SUS, a finalidade administrativa e a heterogeneidade dos instrumentos são características estruturais do SIA. Já contar linhas como pessoas, ignorar vigência de procedimento ou misturar residência com ocorrência são problemas metodológicos evitáveis no desenho do estudo.</p>
 <p>Essas limitações não impedem o uso do SIA. Elas indicam que o sistema é mais forte para medir produção ambulatorial registrada, oferta utilizada, fluxos assistenciais e remuneração aprovada do que para medir necessidade de saúde, cobertura individual ou custo real do cuidado.</p>
 </section>
 <section id="cuidados-de-interpretação" class="level2" data-number="8.21">
@@ -1993,6 +2013,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>O checklist deve ser usado como uma revisão final da coerência entre pergunta, fonte e indicador. Ele não substitui a leitura do dicionário nem a validação contra totais agregados, mas ajuda a identificar rapidamente se a análise trocou unidade, território ou sentido do valor registrado.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -2051,6 +2072,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Esses erros são simples de formular, mas têm impacto grande nos resultados. A forma mais eficiente de preveni-los é escrever, antes do processamento, uma especificação curta com arquivo usado, filtros, unidade de análise, campos somados, território e comparação de validação esperada.</p>
 </section>
 </section>
 <section id="checklist-final" class="level2" data-number="8.22">
@@ -2081,6 +2103,9 @@ Aviso
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-Oliveira2011a" class="csl-entry" role="listitem">
+OLIVEIRA, E. X. G. D. et al. <a href="https://doi.org/10.1590/S0102-311X2011000200013">Acesso <span>à</span> Assist<span>ê</span>ncia Oncol<span>ó</span>gica: Mapeamento Dos Fluxos Origem-Destino Das Interna<span>ç</span><span>õ</span>es e Dos Atendimentos Ambulatoriais. <span>O</span> Caso Do C<span>â</span>ncer de Mama</a>. <strong>Cadernos de Sa<span>ú</span>de P<span>ú</span>blica</strong>, v. 27, n. 2, p. 317–326, 2011.
+</div>
 <div id="ref-pedrosoDataSciencePlatform2023" class="csl-entry" role="listitem">
 PEDROSO, M. et al. <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
 </div>
