@@ -1,0 +1,146 @@
+{
+  "name": "SIS Brasil - siglas",
+  "description": "Aliases de pronuncia para siglas dos Sistemas de Informacao em Saude no Brasil usadas nos podcasts.",
+  "rules": [
+    {
+      "type": "alias",
+      "string_to_replace": "SIM",
+      "alias": "sím"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SINASC",
+      "alias": "sinásqui"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SINAN",
+      "alias": "sinã"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIA",
+      "alias": "sía"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIH",
+      "alias": "ésse i agá"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SISAB",
+      "alias": "sisábi"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SISAPS",
+      "alias": "sis á pê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SISAGUA",
+      "alias": "sis água"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIOPS",
+      "alias": "siópis"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIPNI",
+      "alias": "sípni"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "RNDS",
+      "alias": "érre ene dê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CNES",
+      "alias": "cenés"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CID",
+      "alias": "cíd"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CID-10",
+      "alias": "cíd dez"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CID-11",
+      "alias": "cíd onze"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DATASUS",
+      "alias": "data sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "OpenDataSUS",
+      "alias": "open data sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "TabNet",
+      "alias": "táb nét"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "TabWin",
+      "alias": "táb uín"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DBC",
+      "alias": "dê bê cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DBF",
+      "alias": "dê bê éfe"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DO",
+      "alias": "dê ó"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DNV",
+      "alias": "dê ene vê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "IML",
+      "alias": "í eme éle"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SVO",
+      "alias": "ésse vê ó"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PCDaS",
+      "alias": "pê cê dás"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PySUS",
+      "alias": "pai sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SUS",
+      "alias": "sús"
+    }
+  ]
+}
