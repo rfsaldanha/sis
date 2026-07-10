@@ -3,363 +3,275 @@
 **Livro:** Sistemas de Informação em Saúde no Brasil  
 **Capítulo:** SIM -- Sistema de Informação sobre Mortalidade  
 **Formato:** conversa entre apresentadora e estudante  
-**Tom:** acadêmico, mas relaxado  
-**Duração estimada:** 20 a 30 minutos
+**Tom:** acadêmico, natural e conversado  
+**Duração estimada:** 25 a 30 minutos
 
 ## Roteiro
 
-**APRESENTADORA:** O que uma Declaração de Óbito revela além da causa da morte? Essa é a pergunta que guia o episódio de hoje. Vamos conversar com mais calma sobre o SIM, o Sistema de Informação sobre Mortalidade.
+### Ato 1 -- Antes de existir um número
 
-**ESTUDANTE:** O SIM é o sistema usado para estudar óbitos no Brasil, certo?
+**APRESENTADORA:** Uma morte é, antes de tudo, uma perda. Mas, quando entra no sistema de saúde, ela também vira uma pergunta pública: quem morreu, onde, em que circunstância, por qual causa, e o que essa morte revela sobre a vida no país?
 
-**APRESENTADORA:** Exatamente. O SIM é a principal fonte nacional para análise dos óbitos ocorridos no país. Ele permite estudar níveis, tendências, desigualdades e causas de mortalidade.
+**ESTUDANTE:** Essa abertura já muda o jeito de olhar para o SIM. Porque não é só uma base para contar óbitos.
 
-**ESTUDANTE:** Mas ele não é só uma planilha nacional de mortes.
+**APRESENTADORA:** Exatamente. O SIM, Sistema de Informação sobre Mortalidade, é a principal fonte nacional para estudar óbitos no Brasil. Ele permite analisar níveis, tendências, desigualdades e causas de mortalidade. Mas o ponto mais importante é este: o dado não nasce pronto. Ele começa em uma Declaração de Óbito, passa por um fluxo jurídico, sanitário e cartorial, pode ser investigado, codificado, corrigido e só então vira indicador.
 
-**APRESENTADORA:** Não. Ele é parte de uma infraestrutura nacional de estatísticas vitais. E isso muda a forma como devemos interpretar os dados.
+**ESTUDANTE:** Então o episódio de hoje não é só "onde baixo a base do SIM".
 
-**ESTUDANTE:** Estatísticas vitais no sentido de registrar eventos como nascimento e morte?
+**APRESENTADORA:** Não. Hoje a gente vai seguir o caminho de uma morte até ela virar estatística. Primeiro, por que a Declaração de Óbito é tão central. Depois, como o fluxo funciona. Em seguida, por que a causa básica do óbito é uma ideia mais sofisticada do que parece. E, no final, como usar o SIM sem cair nos erros clássicos.
 
-**APRESENTADORA:** Isso. A morte é um evento individual, familiar, jurídico e sanitário. Para a família, ela envolve luto, registro civil, sepultamento e direitos. Para o Estado e para a saúde pública, ela também produz informação sobre condições de vida, acesso a serviços, desigualdades, violência, doenças crônicas, causas evitáveis e mudanças no perfil epidemiológico da população.
+**ESTUDANTE:** Gosto desse caminho. Começa no documento e termina na análise.
 
-**ESTUDANTE:** Então a Declaração de Óbito tem essa ponte entre o evento individual e a informação coletiva.
+**APRESENTADORA:** E essa ordem importa. Se a pessoa começa direto pela tabela, ela pode esquecer que cada linha do SIM depende de uma cadeia de decisões anteriores.
 
-**APRESENTADORA:** Perfeito. Uma Declaração de Óbito preenchida corretamente documenta uma morte específica, mas também alimenta séries históricas nacionais. É a partir desse conjunto de registros que conseguimos responder perguntas como: quais causas de morte estão aumentando? Quais grupos morrem mais cedo? Onde há excesso de causas mal definidas? Que municípios concentram óbitos por ocorrência? E quais políticas precisam ser avaliadas?
+**ESTUDANTE:** Então a nossa personagem é a própria informação, mudando a cada etapa.
 
-**ESTUDANTE:** Quando devo usar o SIM?
+**APRESENTADORA:** Gosto dessa imagem. Vamos acompanhar uma Declaração de Óbito hipotética, sem inventar nome, idade ou causa. Basta imaginar o documento chegando a uma secretaria de saúde. No final, ele estará diante de alguém que precisa calcular um indicador. E uma pergunta vai nos acompanhar: em que momento esse registro deixa de ser apenas burocracia e passa a ser vigilância?
 
-**APRESENTADORA:** Use o SIM quando a pergunta envolve óbitos, causas de morte ou indicadores derivados da mortalidade. Por exemplo: mortalidade por causas externas, mortalidade infantil, mortalidade materna, mortalidade proporcional por causa, taxas por doenças crônicas, óbitos evitáveis, padrões territoriais de mortalidade e desigualdades por sexo, idade, raça ou cor e escolaridade.
+**ESTUDANTE:** Vamos então para o início. O que o SIM registra?
 
-**ESTUDANTE:** Mas o SIM nem sempre resolve tudo sozinho.
+**APRESENTADORA:** O SIM registra óbitos, incluindo óbitos fetais. A unidade de análise é a Declaração de Óbito. Isso significa que cada registro corresponde a um evento de morte, não a uma pessoa acompanhada ao longo do tempo.
 
-**APRESENTADORA:** Exatamente. Ele registra o evento fatal. Para transformar esse evento em indicador, muitas vezes precisamos combinar o SIM com outras fontes. Mortalidade infantil usa óbitos de menores de um ano no numerador, mas usa nascidos vivos do SINASC no denominador. Taxas populacionais usam população residente. Óbitos entre casos notificados podem exigir relação com SINAN. E análises sobre percurso assistencial podem precisar de SIH, SIA ou CNES.
+**ESTUDANTE:** E quando devo usar o SIM?
 
-**ESTUDANTE:** Então a primeira pergunta não é só "qual base eu uso?", mas "qual evento e qual denominador fazem sentido?".
+**APRESENTADORA:** Use quando a pergunta envolve morte como desfecho: mortalidade infantil, mortalidade materna, causas externas, doenças crônicas, óbitos evitáveis, mortalidade proporcional por causa, desigualdades por sexo, idade, raça ou cor, escolaridade, território. O SIM é o numerador de muitos indicadores.
 
-**APRESENTADORA:** Exatamente. Essa é uma boa forma de começar. O SIM informa o óbito. A pergunta analítica define se o óbito será contado por residência, por ocorrência, por causa básica, por causas múltiplas, por idade, por sexo, por raça ou cor, por escolaridade, por local de ocorrência ou por outro recorte.
+**ESTUDANTE:** Numerador, mas nem sempre denominador.
 
-**ESTUDANTE:** Então vamos por partes.
+**APRESENTADORA:** Perfeito. Para taxa populacional, o denominador vem de população residente. Para mortalidade infantil, vem de nascidos vivos do SINASC. Para letalidade entre casos notificados, pode envolver SINAN. O SIM conta o óbito; a pergunta analítica define com que outra informação esse óbito será comparado.
 
-**APRESENTADORA:** Vamos. Primeiro, um pouco de contexto histórico. Depois, entramos no documento, no fluxo, na análise e nos erros comuns.
+**ESTUDANTE:** Então a primeira decisão não é técnica, é conceitual: que morte eu quero contar e em relação a quê?
 
-**ESTUDANTE:** Vamos voltar um pouco. Como o SIM surgiu?
+**APRESENTADORA:** Isso. E também onde. No SIM, residência e ocorrência são campos diferentes. Residência é onde vivia a pessoa que morreu. Ocorrência é onde a morte aconteceu.
 
-**APRESENTADORA:** O SIM foi o primeiro sistema de informação em saúde de abrangência nacional. Ele surge na década de 1970, em um contexto em que o país precisava padronizar o registro de óbitos e qualificar as estatísticas vitais. Em 1975, o Ministério da Saúde organizou um grupo de trabalho para adotar um modelo único de Declaração de Óbito.
+**ESTUDANTE:** Parece detalhe, mas muda tudo.
 
-**ESTUDANTE:** Antes havia muitos modelos diferentes?
+**APRESENTADORA:** Muda mesmo. Imagine uma cidade com hospital regional. Ela pode concentrar muitos óbitos por ocorrência porque recebe pacientes de vários municípios vizinhos. Se alguém pega esses óbitos ocorridos ali e divide pela população residente da cidade, cria uma taxa enganosa. Para risco da população residente, em geral usamos óbitos de residentes. Para pressão sobre serviços ou fluxo assistencial, ocorrência pode fazer mais sentido.
 
-**APRESENTADORA:** Sim. O capítulo menciona que chegaram a coexistir 43 modelos diferentes de atestado de óbito. Imagine tentar produzir estatísticas nacionais comparáveis com formulários diferentes, campos diferentes, fluxos diferentes e níveis muito distintos de qualidade. A padronização da Declaração de Óbito foi uma condição para organizar uma base nacional.
+**ESTUDANTE:** Então o SIM já força a pergunta: estou estudando o risco de morrer de uma população ou o lugar onde os óbitos acontecem?
 
-**ESTUDANTE:** E a implantação não foi só criar um formulário.
+**APRESENTADORA:** Exatamente. E esse tipo de pergunta aparece desde a história do sistema.
 
-**APRESENTADORA:** Não. Foi preciso definir fluxos, responsabilidades, processamento, crítica, codificação e treinamento. O SIM também acompanhou a evolução tecnológica. No começo, havia maior centralização e rotinas mais dependentes de processamento nacional. Com a expansão da informática, secretarias estaduais e municipais passaram a ter mais participação na digitação, crítica e uso local das informações.
+**ESTUDANTE:** Como assim?
 
-**ESTUDANTE:** E a CID entra nesse processo.
+**APRESENTADORA:** O SIM surgiu na década de 1970, quando o país precisava padronizar o registro de óbitos. Em 1975, o Ministério da Saúde organizou um grupo de trabalho para adotar um modelo único de Declaração de Óbito. Antes, o capítulo lembra que chegaram a coexistir 43 modelos diferentes de atestado de óbito.
 
-**APRESENTADORA:** Sim. As causas de morte são codificadas segundo a Classificação Internacional de Doenças, a CID. Isso permite comparar causas entre regiões, períodos e países. Mas também exige padronização e treinamento. Mudanças na revisão da CID, como a adoção da CID-10 em 1996, podem afetar séries históricas. Por isso, uma análise temporal por causa precisa observar a classificação usada, as regras de codificação e os agrupamentos escolhidos.
+**ESTUDANTE:** Quarenta e três modelos? A comparação nacional devia ser um pesadelo.
 
-**ESTUDANTE:** O capítulo também menciona a Portaria 116 de 2009.
+**APRESENTADORA:** Era um problema estrutural. Formulários diferentes geram campos diferentes, fluxos diferentes e qualidade desigual. A padronização da DO foi uma condição para construir uma base nacional comparável.
 
-**APRESENTADORA:** Sim. Essa portaria regulamenta a coleta de dados, o fluxo e a periodicidade de envio das informações sobre óbitos e nascidos vivos para os sistemas sob gestão da vigilância em saúde. Ela reforça a Declaração de Óbito como documento padrão de uso obrigatório no território nacional e como documento hábil para a lavratura da Certidão de Óbito.
+**ESTUDANTE:** E a CID entra para padronizar as causas.
 
-**ESTUDANTE:** Saindo da história, vamos para o documento.
+**APRESENTADORA:** Sim. As causas de morte são codificadas pela Classificação Internacional de Doenças, a CID. Isso permite comparar causas entre regiões, períodos e países. Mas também exige treinamento, regras de codificação e cuidado com séries históricas. A adoção da CID-10, em 1996, por exemplo, pode afetar comparações com períodos anteriores.
 
-**ESTUDANTE:** Vamos falar da Declaração de Óbito. Ela é o documento central do SIM.
+**ESTUDANTE:** Então, quando a gente olha uma tendência por causa de morte, precisa perguntar se a classificação ou a regra mudou.
 
-**APRESENTADORA:** Exatamente. A Declaração de Óbito, ou DO, é o documento básico do SIM. Ela é padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Ela tem duas funções principais: uma função jurídica e uma função epidemiológica.
+**APRESENTADORA:** Exatamente. Às vezes a série muda porque o perfil de mortalidade mudou. Outras vezes, porque mudou a forma de registrar, investigar ou codificar.
 
-**ESTUDANTE:** A função jurídica está ligada ao cartório?
+### Ato 2 -- O documento entra em movimento
 
-**APRESENTADORA:** Isso. A DO permite a lavratura da Certidão de Óbito pelo Cartório de Registro Civil. Sem esse fluxo, não há registro civil adequado da morte. Já a função epidemiológica está ligada ao SIM: os dados da DO alimentam estatísticas de mortalidade, indicadores de saúde e processos de vigilância.
+**ESTUDANTE:** Vamos entrar na Declaração de Óbito. Ela tem uma função dupla, certo?
 
-**ESTUDANTE:** Então DO, atestado e certidão não são a mesma coisa.
+**APRESENTADORA:** Tem. A Declaração de Óbito, ou DO, é o documento básico do SIM. Ela tem função jurídica e função epidemiológica. Do ponto de vista jurídico, permite a lavratura da Certidão de Óbito pelo cartório. Do ponto de vista epidemiológico, alimenta o SIM e sustenta estatísticas de mortalidade.
 
-**APRESENTADORA:** Esse é um ponto importante. A Declaração de Óbito é o formulário oficial. O atestado médico de óbito é a parte da DO em que o médico registra as causas de morte. A Certidão de Óbito é o documento jurídico emitido pelo cartório após o registro civil.
+**ESTUDANTE:** E DO, atestado e certidão não são a mesma coisa.
 
-**ESTUDANTE:** Como a DO é organizada?
+**APRESENTADORA:** Esse é um ponto que vale repetir. A Declaração de Óbito é o formulário oficial. O atestado médico de óbito é a parte da DO em que o médico registra as causas. A Certidão de Óbito é o documento jurídico emitido pelo cartório.
 
-**APRESENTADORA:** Ela é organizada em blocos. Há informações de identificação, residência, ocorrência, campos específicos para óbito fetal ou menor de um ano, condições e causas do óbito, dados do médico, causas externas, cartório e localidade sem médico. Cada bloco ajuda a responder perguntas diferentes.
+**ESTUDANTE:** E a DO circula em vias, não é?
 
-**ESTUDANTE:** Por exemplo, residência e ocorrência.
+**APRESENTADORA:** Sim. A DO é emitida em três vias. A primeira vai para a secretaria municipal de saúde, para processamento e alimentação do SIM. A segunda é entregue à família, para apresentação ao Registro Civil. A terceira fica arquivada no estabelecimento ou unidade notificadora.
 
-**APRESENTADORA:** Exatamente. Residência informa onde vivia a pessoa que morreu. Ocorrência informa onde o óbito aconteceu. Isso parece simples, mas muda completamente a interpretação.
+**ESTUDANTE:** Então o documento se divide, mas as três vias mantêm partes do mesmo percurso conectadas.
 
-**ESTUDANTE:** Para taxa de mortalidade, em geral uso residência.
+**APRESENTADORA:** Médico, família, cartório e secretaria de saúde entram na história. Para a família, a DO permite seguir com o registro civil. Para a vigilância, começa a compor uma memória coletiva da mortalidade. Por isso o formulário não pode ser tratado como uma folha comum.
 
-**APRESENTADORA:** Sim. Se o denominador é a população residente, o numerador deve ser óbitos de residentes. Se você usa óbitos por ocorrência e divide pela população residente daquele município, pode criar um indicador incoerente.
+**ESTUDANTE:** E o controle continua quando o documento segue adiante?
 
-**ESTUDANTE:** Especialmente em municípios que recebem pacientes de outros lugares.
+**APRESENTADORA:** Continua. E há controle numérico dos formulários. A numeração ajuda a acompanhar distribuição, uso, extravio, duplicidade e fraude. Podem receber formulários serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal e, em localidades sem médico, cartórios. Empresas funerárias não são unidades notificadoras aptas a receber formulários de DO.
 
-**APRESENTADORA:** Perfeito. Capitais e municípios-polo podem ter muitos óbitos por ocorrência porque concentram hospitais e serviços de referência. Isso não significa, automaticamente, que seus residentes tenham maior risco de morrer. Por outro lado, municípios pequenos podem ter poucos óbitos por ocorrência porque seus moradores morrem em serviços localizados fora do município.
+**ESTUDANTE:** E quem preenche?
 
-**ESTUDANTE:** Então um mini-caso seria uma cidade com hospital regional.
+**APRESENTADORA:** O preenchimento da DO é um ato médico, com responsabilidade ética e jurídica. O médico deve constatar o óbito, revisar informações, evitar abreviações e termos vagos, e registrar uma sequência causal coerente. Não deve assinar DO em branco nem preencher sem verificar o óbito pessoalmente, salvo situações específicas previstas em norma.
 
-**APRESENTADORA:** Exato. Imagine um município-polo que recebe pacientes de dez cidades vizinhas. Ele pode aparecer com muitos óbitos por ocorrência. Se alguém dividir esses óbitos pela população residente do município-polo, pode superestimar o risco dos moradores locais. Para risco populacional, o caminho mais coerente é usar óbitos de residentes.
+**ESTUDANTE:** O fluxo muda conforme a morte é natural ou externa?
 
-**ESTUDANTE:** Como funciona o fluxo das vias da DO?
+**APRESENTADORA:** Muda. Em óbitos naturais com assistência médica, a DO deve ser emitida, sempre que possível, pelo médico que acompanhava a pessoa. Em hospital, pode ser médico assistente, substituto ou plantonista. Em acompanhamento ambulatorial ou domiciliar, pode ser o médico vinculado ao serviço, desde que haja elementos clínicos suficientes.
 
-**APRESENTADORA:** A DO é emitida em três vias. A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via permanece arquivada no estabelecimento de saúde ou na unidade notificadora.
+**ESTUDANTE:** E quando não houve assistência?
 
-**ESTUDANTE:** Então a DO conecta médico, família, cartório e secretaria de saúde.
+**APRESENTADORA:** Quando o óbito natural ocorre sem assistência médica, o fluxo depende da existência de Serviço de Verificação de Óbito, o SVO. Onde houver SVO, o corpo deve ser encaminhado para verificação. Onde não houver, a emissão pode caber ao médico do serviço público mais próximo ou, na ausência dele, a outro médico da localidade, conforme as regras aplicáveis.
 
-**APRESENTADORA:** Sim. E existe controle numérico dos formulários. A DO tem sequência numérica única, o que ajuda a controlar distribuição, uso, extravio, duplicidade e fraude. Os formulários são distribuídos pelo Ministério da Saúde às secretarias estaduais, e delas para secretarias municipais, Dsei e unidades notificadoras.
+**ESTUDANTE:** Isso ajuda a entender por que causas mal definidas aparecem mais em alguns contextos.
 
-**ESTUDANTE:** Quem pode receber formulários de DO?
+**APRESENTADORA:** Sim. Quando há pouca informação clínica, a causa tende a ficar menos esclarecida. Por isso investigação e SVO podem reduzir causas mal definidas.
 
-**APRESENTADORA:** Estabelecimentos e serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal de saúde e, em localidades sem médico, cartórios. Empresas funerárias não são unidades notificadoras aptas a receber formulários de DO.
+**ESTUDANTE:** E nas causas externas entra o IML.
 
-**ESTUDANTE:** Agora sim: quem emite e em que situação.
+**APRESENTADORA:** Isso. Acidentes, agressões, suicídios, mortes suspeitas e outros eventos violentos devem seguir para o Instituto Médico-Legal quando houver esse serviço. E aqui aparece uma ideia essencial: em causas externas, a causa básica não é apenas a lesão final. É a circunstância do acidente ou da violência que produziu a lesão fatal.
 
-**ESTUDANTE:** Vamos falar de quem emite a DO. O capítulo diz que é um ato médico.
+**ESTUDANTE:** Dá para dar um exemplo?
 
-**APRESENTADORA:** Isso. O preenchimento da DO é um ato médico, com responsabilidade ética e jurídica. O médico deve constatar o óbito, revisar as informações, evitar abreviações ou termos vagos e registrar uma sequência causal coerente.
+**APRESENTADORA:** Uma pessoa sofre uma queda, fratura o fêmur, interna, tem complicações e morre dias depois. A complicação pode ser a causa direta, mas a cadeia começou na queda. Se a estatística registrar só a complicação terminal, perdemos a informação útil para prevenção.
 
-**ESTUDANTE:** E não deve assinar DO em branco.
+**ESTUDANTE:** Isso vale para trânsito também. A pessoa pode morrer no local, no hospital ou dias depois, mas o evento externo continua importando.
 
-**APRESENTADORA:** Nunca. Também não deve preencher sem verificar o óbito pessoalmente, salvo situações específicas previstas em norma. A DO é um documento com implicações jurídicas e sanitárias.
+**APRESENTADORA:** Exato.
 
-**ESTUDANTE:** Como varia a emissão em óbitos naturais?
+**ESTUDANTE:** O capítulo também fala de óbito fetal e de recém-nascido que morre logo depois. Essa parte parece pequena, mas tem muito impacto.
 
-**APRESENTADORA:** Em óbitos por causa natural com assistência médica, a DO deve ser emitida, sempre que possível, pelo médico que acompanhava a pessoa. Em ambiente hospitalar, pode ser o médico assistente, substituto ou plantonista. Em acompanhamento ambulatorial ou domiciliar, pode ser o médico vinculado ao serviço ou programa que prestava assistência, desde que haja elementos clínicos suficientes.
+**APRESENTADORA:** Tem mesmo. No Brasil, orienta-se a emissão da DO para óbito fetal quando a gestação tiver 20 semanas ou mais, ou peso fetal de 500 gramas ou mais, ou estatura de 25 centímetros ou mais. Mas se houve qualquer sinal de vida após a expulsão ou extração do corpo da mãe, trata-se de nascido vivo. Se a criança morre minutos ou horas depois, deve haver Declaração de Nascido Vivo e Declaração de Óbito.
 
-**ESTUDANTE:** E quando o óbito natural ocorre sem assistência médica?
+**ESTUDANTE:** Então não é uma questão burocrática. Isso muda mortalidade fetal, neonatal e infantil.
 
-**APRESENTADORA:** Aí o fluxo depende da existência de Serviço de Verificação de Óbito, o SVO. Onde houver SVO, o corpo deve ser encaminhado para verificação. Onde não houver SVO, a emissão pode caber ao médico do serviço público mais próximo ou, na ausência dele, a outro médico da localidade, conforme as regras aplicáveis.
+**APRESENTADORA:** Muda numerador, denominador e interpretação da atenção ao parto e ao recém-nascido. Um nascimento vivo seguido de óbito infantil não deve virar óbito fetal.
 
-**ESTUDANTE:** Nesses casos pode aumentar a chance de causa mal definida?
+**ESTUDANTE:** Nossa DO hipotética já passou por várias bifurcações: morte natural ou externa, com ou sem assistência, fetal ou não fetal. Cada escolha preserva uma parte diferente do acontecimento.
 
-**APRESENTADORA:** Sim. Quando há pouca informação clínica, a causa pode ficar menos esclarecida. Por isso a investigação posterior e a existência de SVO podem ser importantes para reduzir causas mal definidas.
+**APRESENTADORA:** E uma classificação errada não fica presa ao formulário. Ela reaparece mais tarde no numerador, no denominador e na interpretação de uma política.
 
-**ESTUDANTE:** E os óbitos por causas externas?
+### Ato 3 -- Quando registro vira vigilância
 
-**APRESENTADORA:** Causas externas incluem acidentes, agressões, suicídios, mortes suspeitas e outros eventos violentos. Esses casos devem ser encaminhados ao Instituto Médico-Legal quando houver esse serviço. O ponto-chave é que a causa básica não é apenas a lesão terminal, mas a circunstância do acidente ou da violência que produziu a lesão fatal.
+**ESTUDANTE:** Até aqui, o SIM parece um sistema de registro. Quando ele vira vigilância?
 
-**ESTUDANTE:** Pode dar um mini-caso?
+**APRESENTADORA:** Quando a DO não é tratada como ponto final. Vários óbitos podem ser investigados para esclarecer causa, circunstância, trajetória assistencial ou campos incompletos. Isso é especialmente importante em óbitos maternos, óbitos de mulheres em idade fértil, óbitos infantis, fetais e causas mal definidas.
 
-**APRESENTADORA:** Se uma pessoa sofre uma queda, fratura o fêmur, fica internada, tem complicações e morre dias depois, a cadeia causal continua ligada à queda. A lesão ou a complicação pode aparecer como causa direta, mas a circunstância externa é fundamental para classificar e prevenir o evento.
+**ESTUDANTE:** No caso de mortalidade materna, a investigação pode revelar o que a DO não deixou claro.
 
-**ESTUDANTE:** Isso vale para acidentes de trânsito também.
+**APRESENTADORA:** Exatamente. Um óbito pode chegar como choque, hemorragia ou infecção, sem menção explícita à gestação, ao parto ou ao puerpério. A investigação de prontuários, entrevistas, comitês e outros registros pode revelar a relação com o ciclo gravídico-puerperal.
 
-**APRESENTADORA:** Sim. Uma morte depois de um acidente de transporte pode ocorrer no local, na ambulância, no hospital ou dias depois. O tempo entre o acidente e o óbito não elimina a natureza externa do evento.
+**ESTUDANTE:** Então selecionar apenas alguns códigos pode subestimar mortes maternas.
 
-**ESTUDANTE:** O capítulo também fala de óbito fetal e nascido vivo que morre logo depois.
+**APRESENTADORA:** Pode. Por isso os campos sobre gravidez e puerpério, a investigação de mulheres em idade fértil e a integração com SINASC são tão importantes.
 
-**APRESENTADORA:** Essa distinção é muito importante. No Brasil, orienta-se a emissão da DO para óbito fetal quando a gestação tiver duração igual ou superior a 20 semanas, ou peso fetal igual ou superior a 500 gramas, ou estatura igual ou superior a 25 centímetros. Mas se houve qualquer sinal de vida após a expulsão ou extração do corpo da mãe, trata-se de nascido vivo. Se essa criança morre minutos ou horas depois, deve haver Declaração de Nascido Vivo e Declaração de Óbito.
+**ESTUDANTE:** E a investigação também explica por que bases preliminares e consolidadas podem diferir.
 
-**ESTUDANTE:** Essa distinção afeta indicadores de mortalidade fetal, neonatal e infantil.
+**APRESENTADORA:** Perfeito. A investigação pode alterar causa básica, corrigir inconsistências, acrescentar informações e melhorar campos. Então, em anos recentes, uma base preliminar pode mudar depois. Não é defeito; é parte do processo de qualificação.
 
-**APRESENTADORA:** Exatamente. Se um evento que deveria ser nascimento vivo seguido de óbito infantil é registrado como óbito fetal, os indicadores mudam. O numerador da mortalidade infantil fica subestimado e a interpretação da atenção ao parto e ao recém-nascido fica prejudicada.
+**ESTUDANTE:** Agora entendo por que uma base preliminar pode apresentar um resultado e a consolidada, outro.
 
-**ESTUDANTE:** Então outro mini-caso: um recém-nascido respira por poucos minutos.
+**APRESENTADORA:** E por que o analista precisa informar a versão da base e a data de acesso. Sem isso, não sabemos se uma diferença vem do fenômeno estudado, do estágio da investigação ou de uma atualização posterior.
 
-**APRESENTADORA:** Isso. Mesmo que tenha vivido por poucos minutos, se houve sinal de vida, o evento deve ser tratado como nascimento vivo seguido de óbito. Nesse caso, deve existir DNV no SINASC e DO no SIM. Não é óbito fetal.
+**ESTUDANTE:** Vamos para o coração analítico: causa básica do óbito.
 
-**ESTUDANTE:** E o que é a DO epidemiológica?
+**APRESENTADORA:** A causa básica é a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. Ela não é necessariamente a última coisa que aconteceu antes da morte.
 
-**APRESENTADORA:** É uma estratégia para registrar, do ponto de vista epidemiológico, mortes que não foram atestadas por médico e que poderiam ficar fora das estatísticas oficiais. Mas ela não tem caráter jurídico e não serve para lavratura da Certidão de Óbito. Ela interessa à gestão do SIM e à cobertura estatística.
+**ESTUDANTE:** Então "parada cardiorrespiratória" é um sinal de alerta.
 
-**ESTUDANTE:** A partir daqui, o documento vira vigilância.
+**APRESENTADORA:** Sim. Parada cardiorrespiratória, insuficiência respiratória, falência múltipla de órgãos: esses termos podem descrever mecanismos finais, mas raramente explicam o processo que iniciou a morte. Uma boa DO organiza a sequência causal.
 
-**ESTUDANTE:** Agora, vigilância e investigação. O SIM não termina na digitação da DO.
+**ESTUDANTE:** Como essa sequência aparece no formulário?
 
-**APRESENTADORA:** Não termina. Em várias situações, os registros podem ser investigados para esclarecer causa, circunstância, trajetória assistencial ou informações incompletas. Isso é especialmente importante em óbitos maternos, óbitos de mulheres em idade fértil, óbitos infantis, fetais e causas mal definidas.
+**APRESENTADORA:** A Parte I registra a cadeia causal: causa direta, causas intermediárias e causa básica na última linha preenchida. A Parte II registra outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia principal.
 
-**ESTUDANTE:** No caso da mortalidade materna, a investigação é central.
+**ESTUDANTE:** Isso ajuda a diferenciar causa básica e causas múltiplas.
 
-**APRESENTADORA:** Muito. Um óbito materno pode estar declarado corretamente na DO, mas também pode estar mascarado. A DO pode mencionar uma causa terminal, como choque, hemorragia ou infecção, sem deixar clara a relação com gestação, parto ou puerpério. A investigação de prontuários, entrevistas, comitês e outros registros pode revelar essa relação.
+**APRESENTADORA:** Sim. A análise tradicional usa causa básica porque atribui cada óbito a uma causa principal, facilitando tabulações. Mas causas múltiplas são úteis quando queremos saber em quantos óbitos uma condição foi mencionada, mesmo sem ser a causa básica.
 
-**ESTUDANTE:** Então não basta selecionar alguns códigos de causa básica.
+**ESTUDANTE:** Tipo diabetes em idosos com várias doenças.
 
-**APRESENTADORA:** Exatamente. Para mortalidade materna, é preciso olhar campos sobre gravidez e puerpério, óbitos de mulheres em idade fértil, investigação e classificação. O denominador costuma ser nascidos vivos do SINASC. Por isso a integração entre SIM, investigação e SINASC é fundamental.
+**APRESENTADORA:** Exatamente. Se a pergunta é "qual a mortalidade por causa básica cardiovascular?", usamos causa básica. Se é "em quantos óbitos o diabetes esteve presente?", precisamos olhar causas múltiplas. A diferença é que os totais por causas múltiplas não são mutuamente exclusivos: um mesmo óbito pode mencionar várias condições.
 
-**ESTUDANTE:** E nos óbitos infantis e fetais?
+**ESTUDANTE:** E o nível de detalhe da CID também precisa ser escolhido.
 
-**APRESENTADORA:** A investigação pode qualificar idade ao morrer, peso ao nascer, idade gestacional, tipo de gravidez, tipo de parto, condições maternas e circunstâncias assistenciais. Esses dados ajudam a distinguir óbito fetal, neonatal precoce, neonatal tardio e pós-neonatal, além de apoiar análises de evitabilidade.
+**APRESENTADORA:** Sim. Podemos analisar por capítulo da CID, agrupamentos, código de três caracteres, subcategoria de quatro caracteres ou listas específicas, como causas evitáveis e causas externas. Quanto mais detalhe, maior a instabilidade em populações pequenas ou períodos curtos.
 
-**ESTUDANTE:** Quais fontes entram na investigação?
+**ESTUDANTE:** Então nossa DO finalmente virou uma linha do SIM. Ela foi preenchida, circulou, talvez tenha sido investigada e recebeu uma causa codificada.
 
-**APRESENTADORA:** Prontuários hospitalares, fichas ambulatoriais, entrevistas domiciliares, laudos do SVO, laudos do IML, comitês de mortalidade, SINASC, SINAN e outros bancos de dados. O objetivo não é apenas preencher campos vazios. É melhorar a validade da causa básica e recuperar informações relevantes.
+**APRESENTADORA:** Sim. Mas agora surge um segundo risco: mesmo um registro bem produzido pode ser mal analisado.
 
-**ESTUDANTE:** Isso também explica por que bases preliminares e consolidadas podem diferir.
+### Ato 4 -- Quando o analista entra na história
 
-**APRESENTADORA:** Exato. A investigação pode alterar causa básica, acrescentar causas, corrigir inconsistências e melhorar campos complementares. Por isso, anos recentes em bases preliminares podem mudar depois.
+**ESTUDANTE:** Então, antes de tabular, vem um checklist.
 
-**ESTUDANTE:** Vamos entrar no conceito de causa básica do óbito.
+**APRESENTADORA:** Exatamente. Antes de qualquer indicador com SIM, defina: residência ou ocorrência; óbito fetal ou não fetal; causa básica ou causas múltiplas; base preliminar ou consolidada; denominador; agrupamento CID; e qualidade mínima dos campos usados.
 
-**APRESENTADORA:** Agora vamos sair do fluxo e entrar no núcleo analítico do SIM. A causa básica é a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. No caso de causas externas, é a circunstância do acidente ou violência que produziu a lesão fatal.
+**ESTUDANTE:** Vamos testar esse checklist em acidentes de trânsito.
 
-**ESTUDANTE:** Então a causa básica não é necessariamente a última coisa que aconteceu antes da morte.
+**APRESENTADORA:** Boa. Primeiro, defina o agrupamento de CID: todos os acidentes de transporte ou apenas trânsito terrestre? Vai separar pedestres, motociclistas, ciclistas e ocupantes de automóvel? Como vai lidar com códigos inespecíficos?
 
-**APRESENTADORA:** Exatamente. Termos como parada cardiorrespiratória, insuficiência respiratória ou falência múltipla de órgãos podem descrever mecanismos finais, mas raramente explicam o processo que iniciou a cadeia causal. Uma boa DO precisa organizar a sequência de forma lógica.
+**ESTUDANTE:** Depois, território.
 
-**ESTUDANTE:** Como essa sequência aparece na DO?
+**APRESENTADORA:** Isso. Para risco populacional, use município de residência e população residente. Para estudar onde os óbitos acontecem, ocorrência pode ser adequada. E cuidado: mortalidade por trânsito não é incidência de acidentes. O SIM mede o evento fatal.
 
-**APRESENTADORA:** A Parte I registra a cadeia causal. Começa pela causa direta ou terminal e vai descendo para as causas antecedentes. A causa básica deve aparecer na última linha preenchida dessa sequência. A Parte II registra outras condições significativas que contribuíram para o óbito, mas que não entraram na cadeia causal principal.
+**ESTUDANTE:** E para mortalidade infantil?
 
-**ESTUDANTE:** Então, se uma pessoa morre de complicações de uma doença crônica, as comorbidades podem aparecer de formas diferentes.
+**APRESENTADORA:** Aí o checklist mostra a integração SIM + SINASC. O numerador é óbitos de menores de um ano no SIM. O denominador é nascidos vivos do SINASC no mesmo território e período. E a distinção entre óbito fetal e nascimento vivo seguido de óbito é decisiva.
 
-**APRESENTADORA:** Sim. Diabetes, hipertensão, obesidade, doença renal e outras condições podem ser causa básica, causa intermediária ou condição contribuinte, dependendo do caso.
+**ESTUDANTE:** Também é preciso separar neonatal precoce, neonatal tardio e pós-neonatal.
 
-**ESTUDANTE:** Então a causa básica simplifica o evento.
+**APRESENTADORA:** Sim, porque cada componente aponta para dimensões diferentes: pré-natal, parto, cuidado neonatal, condições sociais e continuidade da atenção.
 
-**APRESENTADORA:** Simplifica para fins de tabulação. Já a análise de causas múltiplas recupera parte da complexidade clínica.
+**ESTUDANTE:** O indicador ajuda a localizar perguntas, mas não entrega sozinho uma explicação causal.
 
-**ESTUDANTE:** O SIM permite analisar causas múltiplas?
+**APRESENTADORA:** Exato. Uma diferença entre períodos ou territórios pode orientar a investigação, mas ainda precisa ser lida à luz da cobertura, da assistência, da composição populacional e da qualidade do registro.
 
-**APRESENTADORA:** Permite, desde que as variáveis estejam disponíveis e sejam usadas corretamente. A análise tradicional de mortalidade prioriza a causa básica, porque ela atribui cada óbito a uma causa principal e facilita comparações. Mas causas múltiplas ajudam a estudar condições que aparecem em muitos óbitos mesmo quando não são selecionadas como causa básica.
+**ESTUDANTE:** A tabela parece objetiva, o gráfico parece limpo...
 
-**ESTUDANTE:** Isso é útil para doenças crônicas e envelhecimento.
+**APRESENTADORA:** ...mas a incerteza não desaparece só porque ganhou uma boa apresentação. Por isso a qualidade entra na análise antes da conclusão.
 
-**APRESENTADORA:** Muito. Por exemplo, se a pergunta for "qual é a mortalidade por causa básica cardiovascular?", a tabulação por causa básica é adequada. Mas se a pergunta for "em quantos óbitos o diabetes foi mencionado?", é preciso usar causas múltiplas. Nesse caso, os totais por causa não são mutuamente exclusivos, porque um mesmo óbito pode mencionar várias condições.
+**ESTUDANTE:** Vamos falar de qualidade. O que eu olho primeiro?
 
-**ESTUDANTE:** E as causas são codificadas pela CID.
-
-**APRESENTADORA:** Sim. A CID permite trabalhar em diferentes níveis: capítulo, agrupamento, código de três caracteres, subcategoria de quatro caracteres ou listas específicas, como causas evitáveis, causas externas ou grupos de neoplasias.
-
-**ESTUDANTE:** Quanto mais detalhado, maior o risco de instabilidade.
-
-**APRESENTADORA:** Exatamente. Em populações pequenas ou períodos curtos, códigos muito detalhados podem gerar números muito baixos e variações grandes. Por isso, é comum usar agrupamentos definidos previamente, especialmente para comparação territorial ou séries históricas.
-
-**ESTUDANTE:** O capítulo propõe um checklist antes da análise. Qual é a ideia?
-
-**APRESENTADORA:** Antes dos exemplos, vale guardar um checklist. A ideia é evitar que a pessoa comece tabulando sem definir a pergunta.
-
-**ESTUDANTE:** O que entra nesse checklist?
-
-**APRESENTADORA:** Residência ou ocorrência. Óbito fetal ou não fetal. Causa básica ou causas múltiplas. Base preliminar ou consolidada. Denominador. Agrupamento CID. E campos de qualidade que precisam ser verificados.
-
-**ESTUDANTE:** Esse checklist evita misturar coisas diferentes.
-
-**APRESENTADORA:** Exatamente. Muitos erros acontecem porque a análise começa no botão da tabela, não na pergunta. O checklist força a explicitar a unidade de análise e as escolhas metodológicas.
-
-**ESTUDANTE:** Vamos aplicar isso ao exemplo de acidentes de trânsito.
-
-**APRESENTADORA:** Ótimo. Se a pergunta é mortalidade por acidentes de trânsito, primeiro precisamos definir o agrupamento de CID. Vamos incluir todos os acidentes de transporte ou apenas acidentes de trânsito terrestre? Vamos separar pedestres, motociclistas, ciclistas e ocupantes de automóvel? Como lidar com códigos inespecíficos?
-
-**ESTUDANTE:** Depois vem residência ou ocorrência.
-
-**APRESENTADORA:** Sim. Se queremos estimar risco da população, usamos município de residência e população residente como denominador. Se queremos estudar onde os óbitos aconteceram ou onde há pressão sobre serviços, usamos ocorrência. São perguntas diferentes.
-
-**ESTUDANTE:** E dá para combinar com SIH?
-
-**APRESENTADORA:** Dá, mas com cuidado. O SIM mede o evento fatal. O SIH mede internações financiadas pelo SUS. Dados de trânsito podem medir frota, vias, fiscalização ou acidentes registrados. Cada fonte tem unidade de análise e cobertura diferentes. Uma taxa de mortalidade não deve ser interpretada como incidência de acidentes, porque muitos acidentes não resultam em morte.
-
-**ESTUDANTE:** E o exemplo de mortalidade infantil?
-
-**APRESENTADORA:** Mortalidade infantil é um excelente exemplo de integração SIM + SINASC. O numerador é o número de óbitos de menores de um ano registrados no SIM. O denominador é o número de nascidos vivos do SINASC no mesmo território e período.
-
-**ESTUDANTE:** E aqui a distinção entre óbito fetal e nascimento vivo é decisiva.
-
-**APRESENTADORA:** Exatamente. Se não houve sinal de vida após o parto, o evento é óbito fetal. Se houve qualquer sinal de vida e a criança morreu depois, é nascimento vivo seguido de óbito infantil. Essa distinção afeta o numerador, o denominador e a interpretação da assistência.
-
-**ESTUDANTE:** Também preciso classificar neonatal precoce, neonatal tardio e pós-neonatal.
-
-**APRESENTADORA:** Sim. Óbitos neonatais precoces, tardios e pós-neonatais têm interpretações diferentes. Eles podem apontar para dimensões diferentes da atenção ao pré-natal, parto, recém-nascido, condições socioeconômicas e continuidade do cuidado.
-
-**ESTUDANTE:** Vamos falar da qualidade dos dados.
-
-**APRESENTADORA:** Vamos fechar a parte metodológica falando de qualidade. Qualidade no SIM não é uma coisa só. Uma base pode ter boa cobertura de óbitos, mas baixa qualidade de causa. Pode ter boa causa básica, mas campos sociais incompletos. Pode ser boa nas capitais e pior em municípios menores.
+**APRESENTADORA:** Qualidade no SIM não é uma coisa só. Uma base pode ter boa cobertura de óbitos e baixa qualidade de causa. Pode ter boa causa básica e campos sociais incompletos. Pode ser boa em capitais e pior em municípios pequenos.
 
 **ESTUDANTE:** Então não basta dizer "o SIM é bom" ou "o SIM é ruim".
 
-**APRESENTADORA:** Exatamente. A avaliação precisa ser feita por dimensão, variável, território e período.
-
-**ESTUDANTE:** Quais problemas são mais comuns?
-
-**APRESENTADORA:** Subregistro de óbitos, causas mal definidas, códigos garbage, incompletude de raça ou cor, escolaridade e ocupação, inconsistências entre idade, sexo e causa, duplicidade, baixa oportunidade, erros de residência ou ocorrência e mudanças de codificação ou investigação.
+**APRESENTADORA:** Isso. Avalie por dimensão, variável, território e período. Problemas comuns incluem subregistro, causas mal definidas, códigos garbage, incompletude de raça ou cor, escolaridade e ocupação, inconsistências entre idade, sexo e causa, duplicidade, baixa oportunidade, erros de residência ou ocorrência e mudanças de codificação ou investigação.
 
 **ESTUDANTE:** O que são códigos garbage?
 
-**APRESENTADORA:** São causas pouco úteis para orientar prevenção ou planejamento quando selecionadas como causa básica. Podem incluir mecanismos terminais, causas intermediárias ou categorias muito inespecíficas. Eles não significam que o registro seja inútil, mas indicam que a causa básica não está suficientemente informativa.
+**APRESENTADORA:** São causas pouco úteis para orientar prevenção quando selecionadas como causa básica. Podem ser mecanismos terminais, causas intermediárias ou categorias muito inespecíficas. Eles não tornam o registro inútil, mas indicam que a causa básica ficou pouco informativa.
 
-**ESTUDANTE:** Então causas mal definidas e códigos garbage podem esconder padrões reais.
+**ESTUDANTE:** E campos sociais incompletos atrapalham análises de desigualdade.
 
-**APRESENTADORA:** Sim. Uma proporção elevada pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas. Por isso, muitos esforços de qualificação do SIM procuram reduzir causas mal definidas e melhorar a investigação.
+**APRESENTADORA:** Exatamente. Se raça ou cor, escolaridade ou ocupação têm muitos ignorados, uma comparação entre grupos pode ficar enviesada. A qualidade precisa ser avaliada antes da conclusão substantiva, não só no rodapé do método.
 
-**ESTUDANTE:** E os campos sociais?
+**ESTUDANTE:** E sobre estrutura dos dados? O que não pode passar batido?
 
-**APRESENTADORA:** Raça ou cor, escolaridade e ocupação são fundamentais para analisar desigualdades, mas precisam ter completitude aceitável. Se a proporção de ignorados for alta, uma comparação entre grupos pode ficar enviesada. O campo ocupação, por exemplo, pode ter limitações importantes em estudos de doenças relacionadas ao trabalho.
+**APRESENTADORA:** Os microdados do SIM são disseminados por tipo, ano e unidade federada. Historicamente, o DATASUS usa arquivos DBC, que são DBF compactados. Também há dados em ambientes como OpenDataSUS, inclusive bases preliminares de anos recentes. Em análises reprodutíveis, registre fonte, data de acesso, versão da base e dicionário.
 
-**ESTUDANTE:** O capítulo sugere indicadores operacionais de qualidade.
+**ESTUDANTE:** A variável idade exige cuidado, certo?
 
-**APRESENTADORA:** Sim. Algumas medidas simples ajudam muito: proporção de causas mal definidas, proporção de códigos garbage, completitude de raça ou cor, escolaridade e ocupação, consistência entre idade, sexo e causa, proporção de registros investigados e diferença entre base preliminar e consolidada.
+**APRESENTADORA:** Muito. No SIM, idade pode codificar unidade e quantidade: minutos, horas, dias, meses ou anos. Não dá para tratar como número simples sem processamento. Esse detalhe é decisivo para mortalidade neonatal e infantil.
 
-**ESTUDANTE:** Não existe um ponto de corte universal.
+**ESTUDANTE:** É o tipo de erro que pode sobreviver ao código e só aparecer na conclusão.
 
-**APRESENTADORA:** Exatamente. A interpretação depende da pergunta. Um nível de incompletude pode ser aceitável para uma descrição geral, mas inadequado para estudar desigualdade por raça ou cor. Um município pequeno pode ter números instáveis. Um ano recente pode estar incompleto por atraso de atualização.
+**APRESENTADORA:** Ou nem aparecer. O programa executa, a tabela sai, mas pessoas com horas, dias e anos de vida acabam interpretadas como se estivessem na mesma unidade.
 
-**ESTUDANTE:** Vamos falar da estrutura dos dados.
+**ESTUDANTE:** E o acesso pode ser via TabNet, arquivos, R ou Python.
 
-**APRESENTADORA:** Agora vamos para a parte prática: estrutura e acesso. Os microdados do SIM são disseminados por tipo, ano e unidade federada. Historicamente, o DATASUS usa arquivos DBC, que são arquivos DBF compactados. Também há dados em formatos abertos em ambientes como OpenDataSUS, incluindo bases preliminares de anos recentes.
+**APRESENTADORA:** Sim. TabNet serve para consultas agregadas rápidas. Arquivos DBC e TabWin ajudam no processamento local. Em R, o pacote microdatasus facilita baixar e processar microdados. Em Python, há PySUS. E também existem PCDaS e OpenDataSUS, dependendo do objetivo.
 
-**ESTUDANTE:** E os campos podem variar ao longo do tempo.
+**ESTUDANTE:** No exemplo em R do capítulo, o SIM entra como numerador e a população vem de fora.
 
-**APRESENTADORA:** Sim. Nomes, disponibilidade e categorias podem mudar. Alguns campos são preenchidos diretamente na DO; outros são calculados, recodificados, derivados ou resultam de investigação. Em análises reprodutíveis, registre sempre fonte, data de acesso, versão da base e dicionário usado.
+**APRESENTADORA:** Isso é uma lição central. O código filtra óbitos não fetais, agrega por município de residência e ano, junta com população externa e calcula taxa por 100 mil. A tabela de população não vem do SIM. Numerador e denominador precisam conversar: mesmo território, mesmo período e mesma população-alvo.
 
-**ESTUDANTE:** A variável idade exige cuidado.
+**ESTUDANTE:** E quando combinamos SIM com outros sistemas, não é só juntar tabelas.
 
-**APRESENTADORA:** Muito. No SIM, idade pode codificar unidade e quantidade: minutos, horas, dias, meses ou anos. Não dá para tratar o campo como número simples sem processamento. Esse detalhe é decisivo para mortalidade neonatal e infantil.
+**APRESENTADORA:** Exato. SIM + SINASC para mortalidade infantil. SIM + SINAN para óbitos entre casos notificados. SIM + SIH para óbitos após internação. SIM + população para taxas. Mas cada base tem unidade de análise diferente: óbito, nascimento, notificação, internação, pessoa, evento. O método precisa declarar janela temporal, campos de pareamento, duplicidades e discordâncias.
 
-**ESTUDANTE:** E causa básica antes e depois de investigação?
+**ESTUDANTE:** Juntar bases não apaga essas diferenças.
 
-**APRESENTADORA:** Alguns campos podem indicar causa básica original e causa após resseleção ou investigação. Isso é importante para entender alterações em bases consolidadas. Campos de investigação também podem registrar datas, fontes e mudanças.
+**APRESENTADORA:** Ao contrário: torna necessário explicá-las. Um relacionamento de registros também precisa respeitar autorização e proteção dos dados quando houver identificação.
 
-**ESTUDANTE:** Como acessar os dados?
+### Desfecho -- Voltar ao começo
 
-**APRESENTADORA:** Há vários caminhos. TabNet é bom para consultas agregadas rápidas. TabWin e arquivos DBC permitem processamento local. Em R, o pacote microdatasus facilita baixar e processar microdados. Em Python, há PySUS. Também há dados em PCDaS e OpenDataSUS.
+**ESTUDANTE:** Vamos fechar com os erros mais comuns?
 
-**ESTUDANTE:** O capítulo traz um exemplo em R.
+**APRESENTADORA:** Vamos. Primeiro: calcular taxa com óbitos por ocorrência e população residente. Segundo: misturar bases preliminares e consolidadas sem aviso. Terceiro: incluir óbitos fetais em indicadores de mortalidade geral quando não faz sentido. Quarto: tratar parada cardiorrespiratória ou falência de órgãos como se fossem causas básicas substantivas. Quinto: usar código CID muito detalhado em população pequena sem avaliar instabilidade. Sexto: ignorar incompletude de raça ou cor, escolaridade e ocupação.
 
-**APRESENTADORA:** Sim. Primeiro, baixa e processa dados do SIM com microdatasus. Depois, mostra uma etapa simples: filtrar óbitos não fetais, agrupar por município de residência e ano, juntar com uma tabela externa de população e calcular taxa por 100 mil habitantes.
+**ESTUDANTE:** Ou seja, o erro comum é esquecer a história do dado.
 
-**ESTUDANTE:** A tabela de população não vem do SIM.
+**APRESENTADORA:** Bonita síntese. Todos esses erros apagam alguma parte do percurso. O SIM começa em uma perda individual, passa por um documento, um fluxo, uma codificação, uma investigação possível e uma escolha analítica. Quando a gente respeita esse caminho, o sistema permite enxergar padrões de mortalidade, desigualdades, causas evitáveis e necessidades de vigilância.
 
-**APRESENTADORA:** Exatamente. Esse ponto é importante. O SIM dá o numerador, os óbitos. A população vem de outra fonte. Para taxa, numerador e denominador precisam ter o mesmo território, período e população-alvo. Por isso o capítulo remete ao apêndice de estimativas populacionais.
+**ESTUDANTE:** E a pergunta que ficou aberta no início? Quando o registro vira vigilância?
 
-**ESTUDANTE:** E na mortalidade infantil, o denominador não é população residente.
+**APRESENTADORA:** Quando não é apenas armazenado, mas examinado, qualificado e interpretado para orientar ação. A vigilância começa no preenchimento cuidadoso, continua na investigação e se completa quando a análise respeita o que cada campo realmente significa.
 
-**APRESENTADORA:** Em geral, não. Mortalidade infantil usa nascidos vivos. Essa é uma boa lembrança: nem todo indicador com óbito usa população como denominador. Alguns usam nascidos vivos, casos notificados ou total de óbitos.
+**ESTUDANTE:** Então a pergunta final não é só "quantas pessoas morreram?", mas "o que essas mortes nos ensinam, e que escolhas metodológicas sustentam essa resposta?".
 
-**ESTUDANTE:** Vamos falar de relacionamento com outros sistemas.
+**APRESENTADORA:** Exatamente. Nossa DO hipotética chegou ao fim do percurso, mas agora uma linha da base parece diferente. Conseguimos enxergar o documento, as pessoas e as decisões que vieram antes dela.
 
-**APRESENTADORA:** O SIM pode ser analisado sozinho, mas muitas perguntas exigem integração. SIM + SINASC para mortalidade infantil. SIM + SINAN para óbitos entre casos notificados. SIM + SIH para óbitos após internação. SIM + população para taxas. SIM + sistemas assistenciais para diferenciar eventos fatais e não fatais.
+**ESTUDANTE:** Uma perda individual não deixa de ser uma perda. Mas, quando a informação é tratada com rigor, ela pode ajudar a proteger outras vidas.
 
-**ESTUDANTE:** Mas relacionar bases não é somar tabelas.
-
-**APRESENTADORA:** Exatamente. É preciso definir campos de pareamento, regras para registros incompletos, duplicidades, discordâncias, janela temporal e unidade final de análise. Em SIH, por exemplo, a unidade é internação ou AIH. No SIM, a unidade é óbito. No SINAN, a unidade é notificação ou caso, dependendo do agravo e do processamento.
-
-**ESTUDANTE:** Isso muda a interpretação.
-
-**APRESENTADORA:** Muda muito. Se uma pessoa tem múltiplas internações antes de morrer, como será contada? Se há registros com datas discordantes, qual data vale? Se a base não tem identificadores consistentes, qual método de relacionamento será usado? Essas decisões precisam estar no método.
-
-**ESTUDANTE:** Quais indicadores o SIM ajuda a construir?
-
-**APRESENTADORA:** Muitos. Taxa de mortalidade infantil, mortalidade neonatal e pós-neonatal, mortalidade em menores de cinco anos, razão de mortalidade materna, mortalidade proporcional por causa, taxas por causas externas, mortalidade por doenças crônicas, óbitos evitáveis e vários indicadores de desigualdade.
-
-**ESTUDANTE:** Cada indicador precisa declarar numerador e denominador.
-
-**APRESENTADORA:** Sim. E também território, período, idade, causa, critérios de exclusão, grau de consolidação da base e fonte do denominador. Um indicador sem definição metodológica clara pode parecer objetivo, mas ser pouco reprodutível.
-
-**ESTUDANTE:** Quais erros comuns devo evitar?
-
-**APRESENTADORA:** Vamos fechar com erros comuns. Primeiro: calcular taxas com óbitos por ocorrência e população residente. Segundo: misturar bases preliminares e consolidadas sem aviso. Terceiro: incluir óbitos fetais em indicadores de mortalidade geral quando não faz sentido.
-
-**ESTUDANTE:** E na parte de causa?
-
-**APRESENTADORA:** Tratar causas mal definidas como grupo substantivo de causa. Usar códigos CID muito detalhados em populações pequenas. Ignorar incompletude de raça ou cor, escolaridade e ocupação. E esquecer que investigação pode alterar a base.
-
-**ESTUDANTE:** O capítulo ficou bem mais metodológico do que apenas descritivo.
-
-**APRESENTADORA:** Essa é a intenção. Conhecer o SIM não é apenas saber onde baixar a base. É entender o documento que dá origem ao registro, o fluxo da informação, a causa básica, as dimensões territoriais e temporais, a qualidade dos campos e as integrações possíveis.
-
-**ESTUDANTE:** Se você tivesse que resumir o checklist em uma frase?
-
-**APRESENTADORA:** Eu diria: antes de calcular qualquer indicador com SIM, defina o evento, o território, o período, o tipo de óbito, a causa, o denominador e a qualidade mínima necessária.
-
-**ESTUDANTE:** E a mensagem final?
-
-**APRESENTADORA:** O SIM é uma fonte central para estudar mortalidade no Brasil. Ele permite enxergar padrões de morte, desigualdades, causas evitáveis e necessidades de vigilância. Mas bons indicadores de mortalidade dependem de duas coisas ao mesmo tempo: bons registros e boas escolhas analíticas.
-
-**ESTUDANTE:** Então o SIM não é só uma base para contar mortes.
-
-**APRESENTADORA:** Exatamente. O SIM começa na Declaração de Óbito, mas termina em decisões de vigilância, planejamento e prevenção. Ele é uma das principais portas de entrada para entender como, onde, quando e por que as pessoas morrem no Brasil. E, justamente por isso, é uma ferramenta essencial para orientar ações que protegem a vida.
+**APRESENTADORA:** É por isso que o SIM não serve apenas para contar mortes. Ele ajuda a compreender como, onde, quando e por que as pessoas morrem no Brasil — e transforma essa compreensão em responsabilidade pública.

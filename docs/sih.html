@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>7&nbsp; SIH – Sistema de Informações Hospitalares do SUS – Sistemas de Informação em Saúde no Brasil</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -93,18 +90,19 @@ div.csl-indent {
 <link href="./sinasc.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c9bb1e29cb3145d4bdb180f1267cabd8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -677,7 +675,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 <tr class="even">
 <td>Quais causas geraram internação?</td>
 <td>Analisar diagnóstico principal</td>
-<td>CID (<a href="cid.html" class="quarto-xref"><span>Apêndice B</span></a>) para agrupamentos</td>
+<td>CID (<span class="quarto-unresolved-ref">?sec-cid</span>) para agrupamentos</td>
 </tr>
 <tr class="odd">
 <td>Quais procedimentos foram realizados?</td>
@@ -687,7 +685,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 <tr class="even">
 <td>Onde ocorreram as internações?</td>
 <td>Analisar estabelecimento e município de internação</td>
-<td>CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>) para perfil do serviço</td>
+<td>CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>) para perfil do serviço</td>
 </tr>
 <tr class="odd">
 <td>Houve óbito hospitalar?</td>
@@ -762,7 +760,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 <h2 data-number="7.4" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">7.4</span> Histórico e organização</h2>
 <p>A concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH).</p>
 <p>A adoção da AIH e a implantação do SIH começaram em 1981, com projeto piloto em Curitiba, e avançaram para implantação nacional em 1983. Ao longo do tempo, o sistema incorporou mudanças tecnológicas, regras de crítica e mecanismos de validação. Atualmente, há críticas automáticas para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento, contribuindo para a consistência do registro <span class="citation" data-cites="pepeSistemaInformacoesHospitalares2009">(<a href="referencias.html#ref-pepeSistemaInformacoesHospitalares2009" role="doc-biblioref">PEPE, 2009</a>)</span>.</p>
-<p>A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref"><span class="nocase">PEDROSO et al.</span>, 2023</a>)</span>.</p>
+<p>A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema <span class="citation" data-cites="pedrosoDataSciencePlatform2023">(<a href="referencias.html#ref-pedrosoDataSciencePlatform2023" role="doc-biblioref">PEDROSO et al., 2023</a>)</span>.</p>
 <p>Este é um dos sistemas de informação em saúde com atualização mais frequente, junto com o Sistema de Informações Ambulatoriais – SIA (<a href="sia.html" class="quarto-xref"><span>Capítulo 8</span></a>). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.</p>
 </section>
 <section id="fluxo-da-aih" class="level2" data-number="7.5">
@@ -949,7 +947,7 @@ Aviso
 </section>
 <section id="diagnóstico-procedimento-e-valores" class="level2" data-number="7.9">
 <h2 data-number="7.9" class="anchored" data-anchor-id="diagnóstico-procedimento-e-valores"><span class="header-section-number">7.9</span> Diagnóstico, procedimento e valores</h2>
-<p>O SIH combina campos clínicos e administrativos. O diagnóstico principal, codificado pela CID (<a href="cid.html" class="quarto-xref"><span>Apêndice B</span></a>), descreve a condição associada à internação. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Esses dois campos respondem a perguntas diferentes.</p>
+<p>O SIH combina campos clínicos e administrativos. O diagnóstico principal, codificado pela CID (<span class="quarto-unresolved-ref">?sec-cid</span>), descreve a condição associada à internação. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Esses dois campos respondem a perguntas diferentes.</p>
 <table class="caption-top table">
 <caption>Diferenças entre diagnóstico, procedimento e valor</caption>
 <colgroup>
@@ -1589,7 +1587,7 @@ Nota
 <tbody>
 <tr class="odd">
 <td>Qual rede produziu internações?</td>
-<td>SIH + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
+<td>SIH + CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>)</td>
 <td>CNES muda ao longo do tempo</td>
 </tr>
 <tr class="even">
@@ -1774,7 +1772,7 @@ MACHADO, J. P.; MARTINS, M.; LEITE, I. D. C. <a href="https://doi.org/10.1590/19
 NEDEL, F. B. <a href="https://doi.org/10.5123/S1679-49742019000200021">Pacote <span>csapAIH</span>: a <span>Lista Brasileira</span> de <span>Internações</span> por <span>Condições Sensíveis</span> à <span>Atenção Primária</span> no programa <span>R</span></a>. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 28, n. 2, p. e2019084, 2019.
 </div>
 <div id="ref-pedrosoDataSciencePlatform2023" class="csl-entry" role="listitem">
-<span class="nocase">PEDROSO, M. et al.</span> <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
+PEDROSO, M. et al. <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
 </div>
 <div id="ref-pepeSistemaInformacoesHospitalares2009" class="csl-entry" role="listitem">
 PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalares</span> Do <span>Sistema <span>Ú</span>nico</span> de <span>Sa<span>ú</span>de</span> (<span>SIH-SUS</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
@@ -1783,7 +1781,7 @@ PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalare
 RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
 </div>
 <div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
-SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span>ú</span>de P<span>ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 </div>
 </section>
