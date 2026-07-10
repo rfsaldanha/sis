@@ -4,120 +4,244 @@
 **Capítulo:** Eventos de saúde  
 **Formato:** diálogo entre apresentadora e estudante  
 **Tom:** acadêmico, mas relaxado  
-**Duração estimada:** 9 a 12 minutos
+**Duração estimada:** 25 a 30 minutos
 
 ## Roteiro
 
-**APRESENTADORA:** Olá. Neste episódio, vamos conversar sobre uma ideia que parece simples, mas que muda bastante a forma como usamos os Sistemas de Informação em Saúde: a ideia de evento de saúde.
+**APRESENTADORA:** Vamos começar com uma cena bem comum. Alguém abre duas bases sobre dengue, compara os números e diz: tem alguma coisa errada. O SINAN mostra um volume, o SIH mostra outro, o SIM outro. A primeira reação é desconfiar dos dados. Mas, neste episódio, eu queria propor outra pergunta: será que essas bases estavam tentando contar a mesma coisa?
 
-**ESTUDANTE:** Quando você fala em evento de saúde, está falando de uma doença?
+**ESTUDANTE:** Essa é uma boa entrada. Porque, olhando de fora, parece tudo dengue. Então a expectativa é que os números conversem diretamente.
 
-**APRESENTADORA:** Não exatamente. A doença pode ser o problema de interesse, mas o evento é aquilo que foi registrado em algum momento. Pode ser um nascimento, um óbito, uma internação, uma notificação, um atendimento ambulatorial, uma dose de vacina aplicada ou um procedimento realizado.
+**APRESENTADORA:** Pois é. E é aí que começa o capítulo sobre eventos de saúde. Os Sistemas de Informação em Saúde não registram uma doença como uma entidade abstrata. Eles registram ocorrências delimitadas: uma notificação, uma consulta, um procedimento, uma internação, um nascimento, um óbito, uma dose de vacina. Cada ocorrência tem tempo, lugar, documento, regra e unidade de análise.
 
-**ESTUDANTE:** Então, antes de escolher uma base de dados, eu não deveria perguntar apenas qual sistema tem dados sobre uma doença?
+**ESTUDANTE:** Então a pergunta deixa de ser “qual sistema tem dengue?” e passa a ser “qual evento relacionado à dengue eu quero observar?”.
 
-**APRESENTADORA:** Exatamente. Essa pergunta ajuda, mas é incompleta. Uma pergunta melhor é: quais eventos esse problema de saúde pode produzir? Ao estudar dengue, por exemplo, a pessoa pode procurar atendimento, ser notificada como caso suspeito, realizar exames, ser internada e, em uma situação extrema, evoluir para óbito.
+**APRESENTADORA:** Exatamente. Essa troca parece pequena, mas muda todo o desenho da análise. Uma pessoa com dengue pode sentir sintomas, procurar atendimento, ser notificada como caso suspeito, fazer exame, ser internada se o quadro agravar e, em uma situação extrema, evoluir para óbito. Esses momentos pertencem à mesma história clínica, mas podem aparecer em sistemas diferentes.
 
-**ESTUDANTE:** E esses eventos podem estar em sistemas diferentes.
+**ESTUDANTE:** E não são cópias imperfeitas da mesma informação. São pedaços diferentes da trajetória.
 
-**APRESENTADORA:** Sim. O atendimento ou exame pode aparecer no SIA. A notificação e a investigação podem aparecer no SINAN. A internação pode aparecer no SIH. O óbito pode aparecer no SIM. Não são quatro versões da mesma informação. São eventos diferentes, registrados por instrumentos diferentes e com finalidades diferentes.
+**APRESENTADORA:** Perfeito. O SIA pode registrar atendimentos, exames e procedimentos ambulatoriais. O SINAN pode registrar a suspeita, a investigação, a confirmação ou o descarte. O SIH registra internações financiadas pelo SUS. O SIM registra óbitos. Quando esses números não são iguais, isso não é necessariamente erro. Pode ser simplesmente porque cada sistema está olhando para um evento diferente.
 
-**ESTUDANTE:** Isso explica por que às vezes dois sistemas parecem contar histórias diferentes sobre o mesmo problema.
+**ESTUDANTE:** Então o primeiro ato da análise é quase narrativo: reconstruir o caminho que o problema pode produzir.
 
-**APRESENTADORA:** Perfeito. Um aumento de notificações no SINAN pode indicar aumento da transmissão, mas também pode refletir maior sensibilidade da vigilância, mudança na definição de caso ou melhoria na notificação. Da mesma forma, internações no SIH informam internações financiadas pelo SUS. Elas não representam automaticamente todas as internações ocorridas no país.
+**APRESENTADORA:** Gosto dessa palavra. É narrativo mesmo, no bom sentido. Antes de abrir a planilha, vale desenhar a história possível: o que acontece com a pessoa, com o serviço, com a vigilância e com o registro. A partir daí, perguntamos: qual parte dessa história ficou documentada? Em qual sistema? Com qual finalidade?
 
-**ESTUDANTE:** Então a primeira tarefa é entender o que o sistema registra.
+**ESTUDANTE:** Parece quase uma investigação. Antes de calcular, eu preciso descobrir que tipo de rastro aquele evento deixou.
 
-**APRESENTADORA:** Sim. Precisamos saber se a base registra pessoas, eventos, procedimentos, autorizações, documentos ou episódios de cuidado. Isso muda completamente a interpretação das contagens.
+**APRESENTADORA:** Exatamente. Pense em uma mesa de trabalho com várias fichas em cima. Uma ficha veio da vigilância epidemiológica. Outra veio do faturamento ambulatorial. Outra veio de uma autorização de internação. Outra veio de uma declaração de óbito. Todas podem se relacionar ao mesmo tema, mas cada uma foi criada por uma rotina diferente. Se eu junto tudo sem perguntar de onde veio, eu perco o sentido de cada rastro.
 
-**ESTUDANTE:** Pode dar um exemplo?
+**ESTUDANTE:** Isso também muda o jeito de ler uma tabela simples, não muda?
 
-**APRESENTADORA:** Claro. No SIA, a unidade de análise frequentemente é o procedimento, não a pessoa. Uma mesma pessoa pode realizar vários exames ou procedimentos. No SIH, uma pessoa pode ter mais de uma autorização de internação hospitalar. No SINAN, um registro pode se referir a um caso suspeito que depois será confirmado ou descartado. No SIM, cada registro corresponde a um óbito.
+**APRESENTADORA:** Muda bastante. Uma tabela que relaciona pergunta, evento e sistema não é apenas um resumo didático. Ela é um mapa de decisão. Se a pergunta é sobre suspeita ou confirmação de doença de notificação, o caminho natural passa pelo SINAN. Se é sobre exame, atendimento ou procedimento, olhamos para o SIA. Se é sobre hospitalização no SUS, o SIH. Se é sobre morte, o SIM. Se é sobre nascimento, o SINASC. Se é sobre vacinação, o SI-PNI.
 
-**ESTUDANTE:** Então contar registros não é sempre contar pessoas.
+**ESTUDANTE:** E a tabela não diz “use sempre este sistema”, mas “comece por entender este tipo de evento”.
 
-**APRESENTADORA:** Exatamente. Esse é um dos erros mais comuns. Em alguns contextos, uma contagem de registros aproxima uma contagem de pessoas. Em outros, não. A equivalência depende do sistema, do instrumento de registro e da pergunta de análise.
+**APRESENTADORA:** Isso. Ela aponta o lugar provável, mas a análise ainda precisa conferir cobertura, campos disponíveis, período, versão da base e unidade de análise. Em saúde pública, a mesma palavra pode esconder perguntas muito diferentes. “Dengue”, por exemplo, pode significar transmissão, demanda por atendimento, exames realizados, casos graves, mortes, distribuição territorial ou pressão sobre a rede. Cada uma dessas perguntas pede uma entrada diferente.
 
-**ESTUDANTE:** O capítulo também fala do caminho entre o evento acontecer e virar dado analisável. Por que isso é importante?
+**ESTUDANTE:** Isso ajuda a evitar uma armadilha: contar registros como se fossem pessoas.
 
-**APRESENTADORA:** Porque o dado não aparece instantaneamente. O evento acontece. Depois pode haver registro inicial, investigação, crítica ou validação, digitação, envio ao sistema, consolidação da base e disseminação dos dados. Cada etapa pode ter datas e atrasos próprios.
+**APRESENTADORA:** Uma das armadilhas mais frequentes. Um evento de saúde nem sempre equivale a uma pessoa. No SIA, a unidade pode ser o procedimento. Uma pessoa pode fazer vários exames. No SIH, a unidade operacional é a AIH, e uma pessoa pode ter mais de uma autorização em momentos diferentes. No SINAN, um registro pode ser uma suspeita que depois será descartada. No SIM, cada registro corresponde a um óbito.
 
-**ESTUDANTE:** Então data de sintomas, data de notificação e data de digitação não significam a mesma coisa.
+**ESTUDANTE:** Ou seja: “quantos registros existem?” não é a mesma pergunta que “quantas pessoas tiveram o problema?”.
 
-**APRESENTADORA:** Isso mesmo. A data de início dos sintomas se aproxima do início clínico do caso. A data de notificação indica quando o serviço ou a vigilância registrou o caso. A data de digitação ou envio informa parte do funcionamento administrativo do sistema. Em epidemias, usar uma data no lugar da outra pode distorcer a leitura da situação.
+**APRESENTADORA:** Exato. Às vezes as duas respostas se aproximam. Em outras situações, ficam bem distantes. A equivalência depende do sistema, do instrumento e da pergunta. Por isso, antes de contar, precisamos definir a unidade de análise: pessoa, evento, procedimento, autorização, documento ou episódio de cuidado.
 
-**ESTUDANTE:** Isso tem relação com atraso de notificação?
+**ESTUDANTE:** E tem uma segunda camada: o evento acontece em um momento, mas o dado aparece depois.
 
-**APRESENTADORA:** Tem. O atraso de notificação é o intervalo entre a ocorrência, ou o conhecimento do evento, e sua entrada no sistema. Em epidemias e desastres, esse atraso pode aumentar porque os serviços estão atendendo a população, investigando casos, preenchendo fichas, digitando e enviando dados ao mesmo tempo.
+**APRESENTADORA:** Sim. Entre a ocorrência e o dado analisável existe um caminho. O evento acontece. Depois vem o registro inicial, a ficha, a declaração ou a autorização. Pode haver investigação, crítica, validação, digitação, envio, consolidação e só então disseminação. Cada etapa pode ter uma data própria.
 
-**ESTUDANTE:** Vamos voltar ao exemplo da dengue. Como a lógica de eventos ajuda nesse caso?
+**ESTUDANTE:** Então data de início de sintomas, data de notificação e data de digitação contam histórias diferentes.
 
-**APRESENTADORA:** Ela ajuda a separar a trajetória em partes. A pessoa tem sintomas, busca atendimento ambulatorial, pode ser notificada como caso suspeito, investigada, classificada, internada se houver agravamento e, em casos extremos, evoluir para óbito. Cada uma dessas etapas pode aparecer em um sistema diferente e responder a uma pergunta diferente.
+**APRESENTADORA:** Contam. A data de sintomas se aproxima do início clínico. A data de atendimento mostra quando a pessoa chegou ao serviço. A data de notificação mostra quando o sistema tomou conhecimento. A data de digitação informa parte do fluxo administrativo. Em uma epidemia, trocar uma pela outra pode mudar a curva e a interpretação da urgência.
 
-**ESTUDANTE:** O SIA ajudaria a ver atendimentos e exames. O SINAN ajudaria a ver suspeitas, investigação e classificação. O SIH ajudaria a ver internações. E o SIM ajudaria a ver óbitos.
+**ESTUDANTE:** É por isso que bases recentes podem mudar depois?
 
-**APRESENTADORA:** Ótimo resumo. Mas é importante lembrar que essas bases não devem ser misturadas sem cuidado. Notificados, internados e óbitos não são a mesma população. Também não estão necessariamente no mesmo momento da trajetória.
+**APRESENTADORA:** Também. Dados preliminares são úteis porque chegam mais cedo, mas ainda podem receber registros atrasados, correções, investigações e consolidação. Em vigilância, esse atraso é parte do fenômeno informacional. Em períodos de surto ou desastre, ele pode aumentar porque as equipes estão atendendo, investigando, preenchendo e digitando ao mesmo tempo.
 
-**ESTUDANTE:** E isso também vale para acidentes de trânsito?
+**ESTUDANTE:** Então um painel atualizado diariamente pode ser ótimo para acompanhar uma situação, mas perigoso para concluir tendência definitiva.
 
-**APRESENTADORA:** Vale. Um acidente pode gerar atendimento ambulatorial, internação por lesão, óbito por causa externa e uso de serviços específicos. O SIA pode ajudar a estudar produção ambulatorial. O SIH pode informar internações, gravidade e permanência hospitalar. O SIM permite estudar mortalidade por acidentes de transporte. O CNES pode ajudar a caracterizar os estabelecimentos envolvidos no cuidado.
+**APRESENTADORA:** Essa é uma ótima forma de colocar. Um painel oportuno serve para ação rápida, alerta, mobilização de equipe, comunicação e gestão de risco. Já uma série consolidada serve melhor para avaliação, comparação histórica e produção de indicadores estáveis. O problema aparece quando usamos uma fonte feita para oportunidade como se fosse uma fonte definitiva, ou quando esperamos de uma base consolidada a velocidade de um painel de emergência.
 
-**ESTUDANTE:** Nesse caso, a causa externa, o local do acidente, o tipo de vítima e o serviço de atendimento podem estar distribuídos.
+**ESTUDANTE:** É como se cada etapa do ciclo tivesse uma função. Ocorrência, registro, investigação, digitação, consolidação, disseminação.
 
-**APRESENTADORA:** Exatamente. Por isso, a análise depende de reconhecer qual dimensão do problema cada sistema registra.
+**APRESENTADORA:** Sim. E cada etapa pode introduzir diferenças. Um óbito, por exemplo, depende da Declaração de Óbito, da codificação da causa e da consolidação da base. Uma doença de notificação depende da ficha, da investigação e da classificação final. Um procedimento ambulatorial depende da produção registrada e das regras do sistema. O dado final carrega a história desse percurso.
 
-**ESTUDANTE:** Sobre doenças e agravos, o SINAN parece central.
+**ESTUDANTE:** Isso me faz pensar em uma curva que cai nos últimos dias. Às vezes parece que o problema diminuiu, mas pode ser só atraso de digitação.
 
-**APRESENTADORA:** Ele é muito importante para a vigilância em saúde. Mas mesmo no SINAN precisamos ter cuidado. Em geral, os casos entram primeiro como suspeitos. Depois da investigação, podem ser confirmados, descartados, inconclusivos ou permanecer em acompanhamento, dependendo do agravo, dos exames disponíveis, dos critérios clínicos e das regras de vigilância.
+**APRESENTADORA:** Exatamente. Em séries recentes, os últimos pontos costumam ser os mais instáveis. Se eu olho para data de notificação, posso ver o ritmo de entrada no sistema. Se olho para data de início de sintomas, tento me aproximar da ocorrência clínica, mas preciso lidar com atraso de registro. Se olho para data de digitação, avalio mais o fluxo administrativo do que o início do problema. Nenhuma dessas datas é “a verdade” sozinha. Cada uma responde a uma pergunta.
 
-**ESTUDANTE:** Então não basta somar tudo.
+**ESTUDANTE:** Então a escolha da data deveria aparecer no método, não ficar escondida no código.
 
-**APRESENTADORA:** Não. Misturar suspeitos, confirmados e descartados pode gerar uma interpretação ruim. A classificação final e o momento da extração dos dados importam bastante.
+**APRESENTADORA:** Com certeza. Escolher a data é uma decisão substantiva. Ela precisa ser declarada porque altera a curva, o denominador temporal e a interpretação. Em epidemias, isso pode mudar até o momento em que uma equipe decide intensificar vigilância, abrir leitos ou comunicar risco.
 
-**ESTUDANTE:** O capítulo também fala de território. Município de residência, município de notificação e local provável de infecção são diferentes.
+**ESTUDANTE:** Agora eu entendo melhor por que o capítulo insiste tanto em território. Residência, atendimento, notificação e infecção não são a mesma coisa.
 
-**APRESENTADORA:** Sim. Imagine uma pessoa que mora no Rio de Janeiro, se infecta por malária no Oiapoque e procura atendimento em Belém. A residência, o local provável de infecção e o local de notificação são distintos. Para análise espacial e para orientar ações de vigilância, essa diferença é fundamental.
+**APRESENTADORA:** Esse ponto é crucial. Imagine uma pessoa que mora no Rio de Janeiro, se infecta por malária no Oiapoque e procura atendimento em Belém. O município de residência, o local provável de infecção e o município de notificação são três lugares diferentes. Cada um serve para uma pergunta. Risco para a população residente? Transmissão local? Organização da rede de atendimento? O campo territorial escolhido precisa acompanhar a pergunta.
 
-**ESTUDANTE:** E onde entram os casos autóctones e alóctones?
+**ESTUDANTE:** E aí entram os termos autóctone e alóctone.
 
-**APRESENTADORA:** Um caso autóctone é aquele em que a infecção provavelmente ocorreu no território analisado. Um caso alóctone é aquele em que a infecção provavelmente aconteceu em outro território. Essa distinção pode mudar completamente a interpretação de um mapa ou de uma série histórica.
+**APRESENTADORA:** Isso. Um caso autóctone provavelmente se infectou no território analisado. Um caso alóctone provavelmente se infectou em outro território. Essa distinção muda a leitura de mapas, surtos e prioridades de resposta. Sem ela, podemos atribuir transmissão a um lugar que apenas notificou ou atendeu o caso.
 
-**ESTUDANTE:** Vamos falar de outros eventos. As internações, por exemplo.
+**ESTUDANTE:** Vamos voltar para dengue, porque agora a trajetória está mais clara. Se eu uso SINAN, estou vendo suspeitas e classificações. Se uso SIH, estou olhando uma parte mais grave, que chegou à internação no SUS. Se uso SIM, estou no desfecho fatal.
 
-**APRESENTADORA:** Internações são eventos de cuidado hospitalar. No SUS, elas são registradas no SIH, tendo a Autorização de Internação Hospitalar como instrumento central. Internações podem indicar maior gravidade, dificuldade de acesso a cuidados oportunos, falhas de prevenção ou necessidade de serviços especializados. Mas, novamente, o SIH registra internações financiadas pelo SUS.
+**APRESENTADORA:** Exatamente. E a curva de cada sistema pode ter um formato diferente. Notificações respondem à transmissão, mas também à sensibilidade da vigilância e às regras de caso. Internações refletem gravidade, acesso e disponibilidade hospitalar. Óbitos dependem da ocorrência da morte, do preenchimento da Declaração de Óbito, da codificação da causa e da consolidação da base.
 
-**ESTUDANTE:** E os óbitos?
+**ESTUDANTE:** Então comparar essas curvas pode ser útil, desde que eu não finja que elas medem a mesma coisa.
 
-**APRESENTADORA:** Os óbitos são eventos vitais e epidemiológicos centrais. No SIM, os registros vêm da Declaração de Óbito e permitem estudar mortalidade por idade, sexo, raça ou cor, município de residência, município de ocorrência e causa de morte. Um conceito importante é o de causa básica do óbito: a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte.
+**APRESENTADORA:** Essa é a chave. Elas dialogam, mas não substituem umas às outras. O bom uso dos SIS começa quando preservamos a diferença entre os eventos.
 
-**ESTUDANTE:** Nascimentos entram no SINASC, certo?
+**ESTUDANTE:** Dá para imaginar uma reunião em que alguém coloca três gráficos na tela: notificações, internações e óbitos por dengue. O que seria uma leitura cuidadosa?
 
-**APRESENTADORA:** Certo. Os nascidos vivos são registrados no SINASC, a partir da Declaração de Nascido Vivo. O sistema permite analisar peso ao nascer, idade gestacional, tipo de parto, características da mãe, local de ocorrência e outros elementos importantes para a saúde materno-infantil. Já os óbitos fetais são registrados no SIM.
+**APRESENTADORA:** Eu começaria perguntando o que cada gráfico está mostrando. Se as notificações sobem primeiro, isso pode indicar aumento de suspeitas e circulação da doença, mas também pode indicar maior procura por atendimento ou vigilância mais sensível. Se as internações sobem depois, talvez estejamos vendo uma fração mais grave do processo, ou mudança de acesso hospitalar, ou maior capacidade de registro. Se os óbitos sobem, estamos em outro nível de gravidade e precisamos olhar causa básica, município de residência, município de ocorrência e consolidação da base.
 
-**ESTUDANTE:** E vacinação é outro tipo de evento.
+**ESTUDANTE:** E se as notificações sobem, mas as internações não?
 
-**APRESENTADORA:** Sim. No SI-PNI, encontramos registros de doses aplicadas e informações relacionadas a campanhas e esquemas vacinais. Ao analisar vacinação, é importante distinguir doses aplicadas, pessoas vacinadas, esquemas completos e coberturas vacinais.
+**APRESENTADORA:** Pode haver várias hipóteses. Talvez a circulação tenha aumentado, mas a maioria dos casos seja leve. Talvez a rede ambulatorial esteja captando melhor. Talvez os critérios de notificação tenham mudado. Talvez ainda haja atraso até aparecerem internações. O ponto é que o dado abre perguntas, não fecha automaticamente uma explicação.
 
-**ESTUDANTE:** Porque cobertura depende também do denominador.
+**ESTUDANTE:** E se as internações sobem sem grande aumento de notificações?
 
-**APRESENTADORA:** Exatamente. Muitos indicadores combinam eventos registrados em um sistema com denominadores de outra fonte. A mortalidade infantil usa óbitos em menores de um ano no SIM e nascidos vivos no SINASC. A cobertura vacinal usa doses aplicadas no SI-PNI e uma população-alvo. A taxa de internação usa internações no SIH e população residente. Escolher o denominador errado pode distorcer a interpretação.
+**APRESENTADORA:** Aí eu pensaria em subnotificação, atraso no SINAN, diferença territorial entre onde a pessoa mora e onde interna, mudança na rede hospitalar ou seleção de códigos diagnósticos. Também avaliaria se estamos olhando o mesmo período, o mesmo território e o mesmo conceito de caso. O arco da análise é sempre esse: evento, sistema, tempo, território e unidade de análise.
 
-**ESTUDANTE:** Em algumas perguntas, é preciso relacionar sistemas.
+**ESTUDANTE:** Isso deixa a conversa mais humilde. Em vez de dizer “o dado prova”, eu digo “o dado sugere, dentro destes limites”.
 
-**APRESENTADORA:** Sim. Para estudar óbitos infantis entre nascidos vivos, podemos combinar SINASC e SIM. Para investigar mortes entre casos notificados, podemos combinar SINAN e SIM. Para analisar internações após uma notificação, podemos relacionar SINAN e SIH. Para estudar produção de serviços por estabelecimento, podemos combinar SIA, SIH e CNES.
+**APRESENTADORA:** E essa humildade é força metodológica, não fraqueza. Ela permite usar melhor as bases. O contrário seria comparar números incompatíveis e produzir uma conclusão muito segura sobre uma pergunta mal formulada.
 
-**ESTUDANTE:** Mas relacionar bases também traz riscos metodológicos.
+**ESTUDANTE:** E o exemplo do acidente de trânsito funciona do mesmo jeito?
 
-**APRESENTADORA:** Traz. É preciso considerar privacidade, qualidade dos campos identificadores, perdas de pareamento, duplicidades e diferenças temporais entre os sistemas.
+**APRESENTADORA:** Funciona muito bem. Um acidente pode gerar atendimento ambulatorial, internação por lesão, óbito por causa externa e uso de serviços específicos. No SIA, podemos observar produção de cuidado. No SIH, internações e permanência hospitalar. No SIM, mortalidade por acidentes de transporte. No CNES, a estrutura dos serviços envolvidos.
 
-**ESTUDANTE:** Se você tivesse que fechar com uma lista de cuidados, quais seriam?
+**ESTUDANTE:** Mas, nesse caso, ainda tem a diferença entre lesão e circunstância externa.
 
-**APRESENTADORA:** Primeiro, identificar a unidade de análise da base. Segundo, separar casos suspeitos, confirmados, descartados e inconclusivos. Terceiro, distinguir residência, ocorrência, atendimento, infecção e notificação. Quarto, verificar se a cobertura é nacional, SUS, conveniada ou saúde suplementar. Quinto, observar se os dados são preliminares ou consolidados. Sexto, considerar atrasos de notificação, digitação e disseminação. E, por fim, checar mudanças históricas em fichas, variáveis, códigos e definições.
+**APRESENTADORA:** Sim. A lesão descreve o dano: fratura, traumatismo, queimadura. A causa externa descreve a circunstância: atropelamento, colisão, queda, agressão. Para estudos de violência e acidentes, essa diferença é central. Se a base só informa a lesão, talvez eu saiba que houve uma fratura, mas não necessariamente como ela aconteceu.
 
-**ESTUDANTE:** Então a mensagem principal é que os sistemas não são apenas depósitos genéricos de dados.
+**ESTUDANTE:** Isso torna a análise mais honesta. A base pode ser boa para uma pergunta e limitada para outra.
 
-**APRESENTADORA:** Exatamente. Eles registram eventos específicos, em contextos institucionais específicos, com finalidades específicas. Para escolher bem uma base, construir bons indicadores e interpretar resultados com rigor, precisamos começar pela pergunta certa: qual evento de saúde estou tentando observar?
+**APRESENTADORA:** Exatamente. O objetivo não é descartar sistemas, mas entender o que cada um permite afirmar.
 
-**ESTUDANTE:** Essa pergunta parece simples, mas muda bastante a análise.
+**ESTUDANTE:** E quando falamos de casos de doenças e agravos, o SINAN tem uma lógica própria, certo?
 
-**APRESENTADORA:** Muda mesmo. E é por isso que ela é um bom ponto de partida para estudar os Sistemas de Informação em Saúde. Até o próximo episódio.
+**APRESENTADORA:** Tem. O SINAN é central para a vigilância, mas ele não registra apenas casos confirmados. Muitas vezes o registro começa com uma suspeita. Depois da investigação, o caso pode ser confirmado, descartado, inconclusivo ou permanecer em acompanhamento. Por isso, uma análise precisa declarar se está contando notificações, casos confirmados, prováveis, descartados ou registros ainda sem encerramento.
+
+**ESTUDANTE:** E o momento da extração importa, porque a classificação pode mudar.
+
+**APRESENTADORA:** Importa muito. Uma base extraída hoje pode ter mais casos em investigação. Uma base consolidada depois pode ter classificações finais. A pergunta define se precisamos de oportunidade ou estabilidade.
+
+**ESTUDANTE:** Isso explica por que, em algumas análises, aparece uma coluna de classificação final e outra de evolução. Elas são parte do caminho do caso.
+
+**APRESENTADORA:** Sim. No SINAN, dependendo do agravo, uma ficha pode trazer dados da pessoa, residência, local de notificação, local provável de infecção, datas importantes, critério de confirmação, classificação final e evolução. Cada campo ajuda a responder uma pergunta diferente. O erro é tratar a ficha como se todos os campos tivessem o mesmo peso ou como se estivessem completos no mesmo momento.
+
+**ESTUDANTE:** Então, se eu quero incidência, preciso saber se estou contando suspeitos, confirmados ou prováveis.
+
+**APRESENTADORA:** Exatamente. E precisa justificar. Em uma situação de emergência, contar casos prováveis pode ser adequado para resposta rápida. Em uma análise retrospectiva, talvez faça sentido usar classificação final. Em outro contexto, o interesse pode ser justamente o volume de suspeitas que chega ao serviço, porque isso mede demanda e sensibilidade da vigilância.
+
+**ESTUDANTE:** E o território entra de novo. Um caso pode ser notificado em um lugar, residir em outro e ter se infectado em um terceiro.
+
+**APRESENTADORA:** Sim, e isso muda a ação. Se estou planejando assistência, talvez o município de atendimento seja relevante. Se estou avaliando risco para a população, residência pode ser central. Se estou investigando transmissão, local provável de infecção é decisivo. Quando misturamos esses campos, podemos deslocar a responsabilidade territorial.
+
+**ESTUDANTE:** Por exemplo, um município com hospital regional pode parecer ter muitos casos se eu usar atendimento, mesmo recebendo pessoas de vários lugares.
+
+**APRESENTADORA:** Exatamente. E o inverso também acontece: municípios pequenos podem ter poucos registros de atendimento local, mas muitos residentes atendidos fora. Por isso, uma análise espacial precisa escolher o campo territorial de acordo com a pergunta e explicar a escolha.
+
+**ESTUDANTE:** Essa é uma parte em que o dado administrativo encontra a geografia real do cuidado.
+
+**APRESENTADORA:** Bonita formulação. Os sistemas registram eventos em fluxos concretos: pessoas se deslocam, serviços concentram oferta, laboratórios recebem amostras, hospitais regionais atendem vários municípios, vigilâncias municipais notificam casos de pessoas que moram ou se infectaram em outros lugares. O dado carrega esses deslocamentos.
+
+**ESTUDANTE:** Vamos passar pelos outros eventos do capítulo. Procedimentos ambulatoriais, por exemplo.
+
+**APRESENTADORA:** Procedimentos ambulatoriais são muito úteis para entender produção, oferta, acesso a exames e funcionamento da rede SUS. Mas, no SIA, procedimento não é sinônimo de pessoa atendida. Maior produção pode indicar maior necessidade, maior oferta, melhor registro, expansão de acesso ou tudo isso junto.
+
+**ESTUDANTE:** Internações também têm essa dupla leitura, assistencial e administrativa.
+
+**APRESENTADORA:** Sim. No SIH, a AIH organiza a informação da internação e também tem finalidade administrativa. Ao analisar internações, precisamos olhar diagnóstico, procedimento autorizado, estabelecimento, residência, local de internação e tempo de permanência. E lembrar sempre: o SIH registra internações financiadas pelo SUS, não todas as internações do país.
+
+**ESTUDANTE:** No SIM, o evento é mais delimitado: um óbito.
+
+**APRESENTADORA:** Mais delimitado, mas ainda complexo. O óbito tem residência, ocorrência, idade, sexo, raça ou cor e causa de morte. A causa básica é a doença, agravo ou circunstância que iniciou a cadeia que levou à morte. Em causas externas, por exemplo, não basta registrar a lesão final; importa a circunstância que produziu aquela lesão.
+
+**ESTUDANTE:** E nos nascimentos, o SINASC entra como evento e como denominador.
+
+**APRESENTADORA:** Exatamente. O SINASC registra nascidos vivos e informações sobre gravidez, parto, recém-nascido e pessoa gestante. Ele também é base para indicadores materno-infantis. Mortalidade infantil, por exemplo, usa óbitos de menores de um ano no SIM e nascidos vivos no SINASC. Se o denominador estiver mal escolhido, o indicador fica distorcido.
+
+**ESTUDANTE:** Vacinação tem uma confusão parecida: dose, pessoa, esquema e cobertura.
+
+**APRESENTADORA:** Ótimo exemplo. Uma dose aplicada é um evento. Uma pessoa vacinada é outra unidade de análise. Um esquema completo combina eventos esperados. E cobertura vacinal é uma razão entre registros e população-alvo. Em calendários com múltiplas doses e reforços, misturar esses níveis pode gerar conclusões ruins.
+
+**ESTUDANTE:** Então denominador é parte da história, não só um detalhe da fórmula.
+
+**APRESENTADORA:** Sim. Indicadores precisam de numerador, denominador, período, território, população de referência e regra de inclusão. Óbitos de residentes devem ser comparados com população residente. Óbitos infantis com nascidos vivos do mesmo recorte. Procedimentos realizados em um município não devem ser divididos automaticamente pela população residente se aquele serviço atende pessoas de outros municípios.
+
+**ESTUDANTE:** Vamos detalhar a mortalidade infantil. Por que ela é um bom exemplo?
+
+**APRESENTADORA:** Porque ela combina eventos diferentes de forma muito clara. O numerador são óbitos de menores de um ano, registrados no SIM. O denominador são nascidos vivos, registrados no SINASC. O indicador só faz sentido se esses eventos estiverem compatíveis em território e período. Se uso óbitos por residência, o denominador deve ser nascidos vivos de residentes. Se misturo ocorrência com residência, posso distorcer municípios que concentram maternidades ou hospitais.
+
+**ESTUDANTE:** Então até um indicador clássico depende de uma costura entre sistemas.
+
+**APRESENTADORA:** Depende, e essa costura precisa ser visível. Além disso, a mortalidade infantil exige distinguir óbito fetal de óbito infantil. Se houve sinal de vida, há nascimento vivo e, se a criança morre depois, há óbito infantil. Se não houve sinal de vida, estamos falando de óbito fetal, com outra interpretação. Essa diferença muda numerador, denominador e análise da atenção ao pré-natal, parto e recém-nascido.
+
+**ESTUDANTE:** E cobertura vacinal?
+
+**APRESENTADORA:** A cobertura vacinal parece simples, mas também exige cuidado. O numerador pode ser doses aplicadas. O denominador é a população-alvo. Mas uma dose aplicada não é necessariamente uma pessoa com esquema completo. Se a vacina exige mais de uma dose, ou se há reforços, precisamos saber qual evento está sendo contado. Uma campanha, uma dose de rotina e uma dose de reforço podem aparecer no sistema, mas respondem a perguntas diferentes.
+
+**ESTUDANTE:** Então uma cobertura acima de cem por cento não significa automaticamente que está tudo perfeito.
+
+**APRESENTADORA:** Não. Pode indicar vacinação de pessoas fora da população estimada, erro no denominador, população flutuante, registros duplicados, atualização populacional inadequada ou busca ativa em grupos que não coincidem com a estimativa usada. De novo, o indicador é uma conversa entre numerador e denominador. Quando essa conversa não é coerente, o número fica bonito, mas a interpretação fica frágil.
+
+**ESTUDANTE:** Isso vale também para taxas de internação?
+
+**APRESENTADORA:** Vale. Se conto internações por local de atendimento e divido pela população residente daquele município, posso transformar um polo regional em um lugar aparentemente muito adoecido. Para medir risco da população residente, uso internações de residentes. Para medir carga sobre a rede local, uso local de internação. As duas medidas podem ser importantes, mas respondem a perguntas diferentes.
+
+**ESTUDANTE:** Em algum momento, parece inevitável relacionar sistemas.
+
+**APRESENTADORA:** Muitas perguntas exigem isso. SIM e SINASC para mortalidade infantil. SINAN e SIM para desfechos fatais entre notificados. SINAN e SIH para internações após notificação. SIA, SIH e CNES para relacionar produção e estrutura da rede. Mas relacionamento de bases exige cuidado com privacidade, identificadores, perdas de pareamento, duplicidades e diferenças temporais.
+
+**ESTUDANTE:** E mesmo depois de relacionar, cada registro continua tendo sua origem e sua lógica.
+
+**APRESENTADORA:** Isso é fundamental. Relacionar não é apagar diferenças. Um nascimento, uma internação e um óbito continuam sendo eventos distintos, produzidos por sistemas diferentes. O relacionamento amplia a análise, mas não transforma tudo em uma base única sem contexto.
+
+**ESTUDANTE:** E tem também a questão ética, certo? Porque relacionar bases pode aproximar eventos de uma mesma pessoa.
+
+**APRESENTADORA:** Sim. Mesmo quando os dados são usados para fins legítimos de saúde pública, relacionamento de bases exige responsabilidade. É preciso observar regras de acesso, sigilo, minimização de dados, justificativa da finalidade e proteção contra identificação indevida. Quanto mais detalhado o pareamento, maior o cuidado necessário.
+
+**ESTUDANTE:** Do ponto de vista metodológico, o que pode dar errado no pareamento?
+
+**APRESENTADORA:** Muita coisa. Campos identificadores podem estar incompletos, nomes podem ter grafias diferentes, datas podem estar erradas, municípios podem ter mudado, registros podem estar duplicados, e nem todo evento esperado aparece na outra base. Quando um registro não pareia, isso não é apenas uma falha técnica. Pode revelar subregistro, diferença de fluxo, erro de preenchimento ou limite do método.
+
+**ESTUDANTE:** Então os não pareados também contam uma história.
+
+**APRESENTADORA:** Contam. Em vez de esconder perdas de pareamento, uma boa análise descreve quantos registros foram pareados, quantos ficaram sem correspondência, quais critérios foram usados e se as perdas se concentram em algum território, período ou perfil. Isso ajuda a avaliar viés.
+
+**ESTUDANTE:** Dá para dizer que relacionar sistemas aumenta o poder da pergunta, mas também aumenta a responsabilidade da análise.
+
+**APRESENTADORA:** Exatamente. Uma base isolada já exige cuidado. Bases relacionadas exigem ainda mais clareza conceitual, porque a tentação de transformar tudo em uma grande tabela única é grande. Só que a grande tabela não elimina a história dos registros. Ela apenas coloca essas histórias lado a lado.
+
+**ESTUDANTE:** Se eu tivesse que levar uma regra mental deste episódio, qual seria?
+
+**APRESENTADORA:** Eu diria assim: antes de perguntar “qual base eu uso?”, pergunte “qual evento eu quero observar?”. Depois, pergunte “qual é a unidade de análise?”, “qual data representa minha pergunta?”, “qual território faz sentido?”, “qual cobertura essa fonte tem?” e “qual denominador é coerente?”.
+
+**ESTUDANTE:** Parece um checklist simples, mas evita muitos tropeços.
+
+**APRESENTADORA:** Evita mesmo. Erros comuns vêm de tratar procedimentos como pessoas, notificações como casos confirmados, internações SUS como todas as internações, município de atendimento como residência, ou dados preliminares como consolidados.
+
+**ESTUDANTE:** Eu percebo que quase todos esses erros têm a mesma raiz: pular a etapa de traduzir a pergunta em evento.
+
+**APRESENTADORA:** Sim. Quando pulamos essa etapa, escolhemos a base pelo tema geral e não pelo fenômeno registrado. Aí fica fácil usar data de notificação como se fosse data de sintomas, contar procedimentos como se fossem pessoas, somar suspeitos e confirmados sem distinção, comparar uma base preliminar com outra consolidada ou usar o município de atendimento como se fosse o município de risco.
+
+**ESTUDANTE:** Então talvez o checklist não seja burocrático. Ele é uma proteção contra conclusões apressadas.
+
+**APRESENTADORA:** Exatamente. Eu gosto de pensar nele como uma conversa curta antes da análise. Primeira pergunta: o que estou chamando de evento? Segunda: qual sistema registra esse evento? Terceira: qual é a unidade de análise? Quarta: qual data e qual território representam melhor minha pergunta? Quinta: a cobertura da base combina com o que quero afirmar? Sexta: o denominador está no mesmo universo do numerador?
+
+**ESTUDANTE:** E se alguma resposta ficar incerta?
+
+**APRESENTADORA:** A incerteza deve aparecer no texto. Não precisamos fingir precisão onde a fonte não permite. Podemos dizer que a base aproxima uma dimensão do problema, que cobre a rede SUS, que reflete casos notificados, que depende de dados preliminares, que pode ter atraso ou que exige cautela territorial. Isso não enfraquece a análise. Pelo contrário, torna a interpretação mais transparente.
+
+**ESTUDANTE:** Isso também ajuda quem vai ler ou reproduzir o estudo.
+
+**APRESENTADORA:** Ajuda muito. Um bom texto analítico não apresenta apenas resultados. Ele explica como os registros foram transformados em evidência. Em Sistemas de Informação em Saúde, essa passagem é essencial: do evento ao registro, do registro à base, da base ao indicador, do indicador à interpretação.
+
+**ESTUDANTE:** Então os sistemas de informação não são depósitos neutros de números. Eles são registros de eventos, produzidos por instituições e rotinas concretas.
+
+**APRESENTADORA:** Exatamente. E quando entendemos isso, os dados deixam de ser uma coleção de tabelas soltas e passam a contar uma história mais precisa: o que aconteceu, onde foi registrado, por quem, com qual finalidade e com quais limites. Esse é o ponto de partida para analisar os Sistemas de Informação em Saúde com rigor.
+
+**ESTUDANTE:** Gostei. Da próxima vez que dois números não baterem, antes de dizer que um está errado, eu vou perguntar: eles estão contando o mesmo evento?
+
+**APRESENTADORA:** Essa pergunta já muda metade da análise. Até o próximo episódio.

@@ -26,6 +26,8 @@ Os dados dos Sistemas de Informação em Saúde (SIS) descrevem, em geral, **eve
 
 Essa forma de pensar é essencial para escolher corretamente a base de dados. Ao estudar uma doença, agravo ou problema de saúde, a pergunta inicial não deve ser apenas "qual sistema tem dados sobre esse tema?", mas sim: **quais eventos esse tema pode produzir?**
 
+Essa mudança de pergunta parece pequena, mas altera toda a análise. Um sistema pode registrar a suspeita de um caso, outro pode registrar o atendimento realizado, outro pode registrar a internação e outro pode registrar o desfecho fatal. Nenhum deles, isoladamente, precisa representar "a doença" como um todo. Cada sistema oferece uma janela específica sobre o fenômeno, construída a partir de documentos, rotinas de trabalho, regras de preenchimento e finalidades administrativas ou epidemiológicas próprias.
+
 ::: {.callout}
 Uma pessoa com dengue pode procurar atendimento em uma unidade de saúde, ser notificada como caso suspeito, realizar exames, ser internada em caso de agravamento e, em uma situação extrema, evoluir para óbito. Esses eventos podem aparecer em sistemas diferentes: SIA, SINAN, SIH e SIM.
 :::
@@ -33,6 +35,8 @@ Uma pessoa com dengue pode procurar atendimento em uma unidade de saúde, ser no
 ## Do problema de saúde ao evento registrado
 
 Uma doença ou agravo pode gerar vários eventos ao longo do cuidado. Cada evento tem uma lógica própria de registro, uma unidade de análise e uma utilidade analítica.
+
+A tabela a seguir organiza essa passagem entre pergunta, evento e sistema. Ela não deve ser lida como uma regra fixa, mas como um roteiro inicial de investigação: primeiro delimita-se o tipo de ocorrência que interessa, depois identifica-se qual sistema tende a registrá-la e, por fim, verifica-se se a cobertura e os campos disponíveis são compatíveis com a pergunta.
 
 | Pergunta | Evento de saúde | Sistema mais provável |
 |---|---|---|
@@ -44,11 +48,15 @@ Uma doença ou agravo pode gerar vários eventos ao longo do cuidado. Cada event
 | Houve vacinação? | Dose aplicada ou registro de imunização | SI-PNI (@sec-sipni) |
 : Relação entre perguntas, eventos e sistemas de informação
 
-Essa separação evita interpretações equivocadas. Um aumento de notificações no SINAN pode refletir maior transmissão, maior sensibilidade da vigilância, mudança na definição de caso ou melhora na notificação. Da mesma forma, internações no SIH informam casos atendidos na rede SUS, mas não representam todos os casos graves ocorridos no país.
+Essa separação evita interpretações equivocadas. Um aumento de notificações no SINAN pode refletir maior transmissão, maior sensibilidade da vigilância, mudança na definição de caso ou melhora na notificação. Da mesma forma, internações no SIH informam casos atendidos na rede SUS, mas não representam todos os casos graves ocorridos no país. A utilidade da tabela está justamente em lembrar que a escolha da base não é apenas temática; ela depende da forma como o fenômeno se materializa como registro.
+
+Em termos práticos, a pergunta "quantas pessoas tiveram dengue?" é diferente de "quantas notificações de dengue foram registradas?", "quantas internações por dengue ocorreram no SUS?" ou "quantos óbitos tiveram dengue como causa básica?". Essas perguntas podem ser complementares, mas não são intercambiáveis. Quando o evento não é explicitado, o indicador resultante tende a misturar dimensões distintas do problema.
 
 ## Ciclo de um evento
 
 Entre a ocorrência de um evento e sua transformação em dado analisável, há várias etapas. Cada etapa pode gerar datas, campos e atrasos próprios.
+
+A tabela a seguir resume esse ciclo. Ela ajuda a localizar onde podem surgir diferenças entre o momento em que algo aconteceu e o momento em que esse algo aparece na base disponível para análise. Em muitos estudos, essa diferença é decisiva para interpretar tendências recentes, comparar fontes e distinguir variação real de variação produzida pelo fluxo de informação.
 
 | Etapa | O que representa | Campo ou registro típico | Cuidado |
 |---|---|---|---|
@@ -60,11 +68,19 @@ Entre a ocorrência de um evento e sua transformação em dado analisável, há 
 | Disseminação | Dado fica disponível | TabNet, microdados, OpenDataSUS | Depende de periodicidade e versão |
 : Etapas entre a ocorrência de um evento e sua disseminação como dado
 
+As etapas não têm o mesmo peso em todos os sistemas. Em um óbito, por exemplo, a Declaração de Óbito, a codificação da causa básica e a consolidação da base são pontos centrais. Em uma doença de notificação, a investigação e a classificação final podem modificar a leitura inicial do caso. Em procedimentos ambulatoriais, a rotina de produção, autorização e faturamento pode ser mais relevante que uma investigação epidemiológica posterior.
+
+Por isso, datas diferentes não são apenas detalhes técnicos. Data de início de sintomas, data de atendimento, data de notificação, data de internação, data de óbito, data de digitação e data de disponibilização respondem a perguntas distintas. A escolha da data usada em uma série temporal deve ser declarada, especialmente quando se analisam epidemias, eventos recentes ou bases sujeitas a atualização.
+
 ## Evento, pessoa, episódio e registro
 
 Um evento de saúde não é sempre equivalente a uma pessoa. Uma pessoa pode gerar vários eventos ao longo do tempo, como consultas, exames, notificações, internações e óbitos. Um episódio de cuidado também pode gerar mais de um registro, especialmente em sistemas assistenciais.
 
 Essa distinção é central para análise. No SIA (@sec-sia), uma pessoa pode aparecer em múltiplos procedimentos. No SIH (@sec-sih), uma pessoa pode ter mais de uma AIH em períodos diferentes ou em um mesmo processo de cuidado. No SINAN (@sec-sinan), um registro pode se referir a um caso suspeito que será posteriormente descartado. No SIM (@sec-sim), cada registro corresponde a um óbito.
+
+Antes de contar registros, portanto, é preciso definir a unidade analítica. A contagem de procedimentos pode ser adequada para avaliar produção assistencial, mas não para estimar prevalência de pessoas atendidas. A contagem de internações pode ser adequada para estudar uso hospitalar, mas não necessariamente para contar indivíduos, pois reinternações podem ocorrer. A contagem de notificações pode ser útil para acompanhar a sensibilidade da vigilância, mas precisa ser separada da contagem de casos confirmados quando a pergunta for incidência ou carga da doença.
+
+Também é importante distinguir duplicidade de recorrência. Dois registros semelhantes podem representar erro de digitação, duplicação de ficha, transferência entre serviços, novo atendimento ou novo episódio clínico. A decisão sobre deduplicar, agregar ou manter registros separados depende do sistema, do evento e do desenho da análise.
 
 ## Exemplo integrado: dengue
 
@@ -88,6 +104,8 @@ flowchart LR
   obito -.-> SIM[SIM]
 ```
 
+Na figura, a mesma trajetória clínica se desdobra em registros diferentes. O atendimento ambulatorial pode existir mesmo sem confirmação laboratorial; a notificação pode ocorrer antes da investigação completa; a internação tende a representar uma fração mais grave dos casos; e o óbito depende de regras de declaração, codificação e seleção de causa. A tabela a seguir traduz essa trajetória em sistemas e usos analíticos.
+
 | Evento | Sistema | O que permite analisar |
 |---|---|---|
 | Atendimento ou exame | SIA (@sec-sia) | Produção ambulatorial, exames e procedimentos no SUS |
@@ -96,11 +114,15 @@ flowchart LR
 | Óbito | SIM (@sec-sim) | Mortalidade por causa básica e condições associadas |
 : Eventos relacionados à dengue e seus sistemas de registro
 
-O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVID-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas.
+A leitura da tabela mostra por que séries de dengue produzidas a partir de sistemas diferentes podem ter formatos e magnitudes diferentes. Uma curva de notificações costuma ser mais sensível à busca por atendimento, à organização da vigilância e à atualização de definições de caso. Uma curva de internações se aproxima mais da pressão sobre a rede hospitalar. Uma curva de óbitos privilegia o desfecho mais grave e depende da qualidade da informação de mortalidade. Essas curvas podem dialogar entre si, mas não substituem umas às outras.
+
+O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVID-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas. Em todos esses casos, o evento registrado delimita o que pode ser afirmado com segurança.
 
 ## Exemplo integrado: acidente de trânsito
 
 Um acidente de trânsito mostra que a lógica de eventos não se limita às doenças de notificação. Dependendo da gravidade e do percurso assistencial, o mesmo problema pode aparecer em sistemas distintos.
+
+A tabela abaixo destaca algumas entradas possíveis para estudar acidentes de trânsito. O objetivo não é esgotar todas as fontes, mas mostrar que a escolha do sistema depende da dimensão analisada: cuidado prestado, gravidade, desfecho, local de atendimento ou estrutura da rede.
 
 | Evento relacionado ao acidente | Sistema | O que permite analisar |
 |---|---|---|
@@ -110,7 +132,9 @@ Um acidente de trânsito mostra que a lógica de eventos não se limita às doen
 | Estabelecimento de atendimento | CNES (@sec-cnes) | Estrutura e localização dos serviços envolvidos |
 : Eventos relacionados a acidentes de trânsito e seus sistemas de registro
 
-Nesse tipo de tema, a causa externa, o local de ocorrência, o tipo de vítima, o tipo de lesão e o serviço de atendimento podem estar distribuídos entre diferentes bases. A análise depende de reconhecer qual dimensão do problema cada sistema registra.
+Nesse tipo de tema, a causa externa, o local de ocorrência, o tipo de vítima, o tipo de lesão e o serviço de atendimento podem estar distribuídos entre diferentes bases. A análise depende de reconhecer qual dimensão do problema cada sistema registra. Um estudo sobre mortalidade no trânsito, por exemplo, não responde automaticamente sobre o volume de atendimentos de urgência; já um estudo sobre internações não deve ser interpretado como medida completa de todos os acidentes ocorridos.
+
+Além disso, eventos por causas externas exigem cuidado com a classificação. A lesão descreve o dano físico; a causa externa descreve a circunstância, como colisão, atropelamento, queda ou agressão. Em algumas bases, esses elementos aparecem em campos distintos, e a ausência de um deles limita a interpretação.
 
 ## Casos de doenças e agravos
 
@@ -158,6 +182,8 @@ Procedimentos ambulatoriais incluem consultas, exames, terapias, atendimentos es
 
 No SIA, a unidade de análise costuma ser o procedimento ou instrumento de produção, não a pessoa. Uma mesma pessoa pode gerar múltiplos registros em um mesmo episódio de cuidado. Por isso, o SIA é especialmente útil para estudar produção, oferta, volume de procedimentos, acesso a exames e uso de serviços ambulatoriais no SUS.
 
+Essa característica torna o SIA muito valioso para perguntas sobre funcionamento da rede. Ele permite observar onde procedimentos são realizados, quais estabelecimentos produzem determinado tipo de cuidado, como a produção varia no tempo e quais procedimentos estão associados a políticas, linhas de cuidado ou formas específicas de financiamento. Ao mesmo tempo, a interpretação epidemiológica exige cautela: maior produção pode indicar maior necessidade, maior oferta, mudança de registro, expansão de acesso ou combinação desses fatores.
+
 ::: {.callout-tip}
 Ao analisar SIA, evite interpretar diretamente o número de procedimentos como número de pessoas atendidas. A equivalência depende do procedimento, da forma de registro e da pergunta de análise.
 :::
@@ -167,6 +193,8 @@ Ao analisar SIA, evite interpretar diretamente o número de procedimentos como n
 Internações são eventos de cuidado hospitalar, geralmente associados a quadros que exigem acompanhamento contínuo, procedimentos hospitalares, tratamento intensivo ou maior complexidade assistencial. No SUS, são registradas no Sistema de Informações Hospitalares (SIH) (@sec-sih), tendo a Autorização de Internação Hospitalar (AIH) como instrumento central [@pepeSistemaInformacoesHospitalares2009].
 
 O evento de internação pode sinalizar maior gravidade, dificuldade de acesso a cuidados oportunos, falhas de prevenção ou necessidade de serviços especializados. Entretanto, o SIH registra internações financiadas pelo SUS, não todas as internações ocorridas no país.
+
+Como a AIH combina informação assistencial e finalidade administrativa, sua análise precisa considerar tanto o diagnóstico quanto o procedimento autorizado, o estabelecimento, o município de residência, o município de internação e o tempo de permanência. Estudos sobre qualidade de bases hospitalares no Brasil destacam dimensões como cobertura, completitude, consistência e validade, que também devem orientar o uso do SIH em análises epidemiológicas e de serviços [@machadoQualidadeBasesDados2016].
 
 ::: {.callout-tip}
 Algumas internações podem ser evitadas por uma Atenção Primária à Saúde efetiva. Em 17 de abril de 2008, a Portaria n. 221 do Ministério da Saúde publicou a lista brasileira de Internações por Condições Sensíveis à Atenção Primária, com códigos da Classificação Internacional de Doenças e Agravos (CID) úteis para monitoramento e avaliação [@brasilPortaria2212008].
@@ -182,6 +210,8 @@ Uma definição importante é a **causa básica do óbito**: a doença, agravo o
 
 Óbitos evitáveis podem indicar falhas de prevenção, acesso, diagnóstico, tratamento ou organização da rede de atenção. Ainda assim, sua interpretação depende da qualidade do preenchimento da Declaração de Óbito e da codificação das causas.
 
+O SIM também permite distinguir município de residência e município de ocorrência, o que é fundamental para análises territoriais. A residência aproxima o óbito da população sob risco; a ocorrência informa onde a morte foi registrada e pode refletir fluxos assistenciais, concentração de serviços ou eventos ocorridos fora do território de moradia. Em estudos de mortalidade, essa diferença deve ser explicitada antes da tabulação.
+
 ## Nascimentos
 
 O nascimento de uma criança é um evento de saúde que envolve o recém-nascido, a pessoa gestante, a assistência ao pré-natal, o parto e as condições do nascimento. Os nascidos vivos são registrados no Sistema de Informação sobre Nascidos Vivos (SINASC) (@sec-sinasc), a partir da Declaração de Nascido Vivo.
@@ -190,15 +220,21 @@ O nascimento de uma criança é um evento de saúde que envolve o recém-nascido
 
 O SINASC permite analisar peso ao nascer, idade gestacional, tipo de parto, características da mãe, local de ocorrência e outros elementos importantes para a saúde materno-infantil. Óbitos fetais, por outro lado, são registrados no SIM (@sec-sim).
 
+Como fonte de denominadores, o SINASC é especialmente importante. Muitos indicadores da saúde infantil e materna usam nascidos vivos como base de comparação, e não a população total. Por isso, problemas de cobertura, preenchimento ou consistência em campos como idade gestacional, peso ao nascer e município de residência podem afetar indicadores derivados, mesmo quando a contagem total de nascimentos parece adequada [@szwarcwaldAvaliacaoInformacoesSistema2019].
+
 ## Imunizações
 
 A vacinação é um evento de prevenção. Os registros de doses aplicadas e informações relacionadas às campanhas e esquemas vacinais são organizados no Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) (@sec-sipni).
 
 Ao analisar imunizações, é importante distinguir doses aplicadas, pessoas vacinadas, esquemas completos e coberturas vacinais. A cobertura depende tanto do numerador, obtido a partir dos registros de vacinação, quanto do denominador populacional utilizado.
 
+Uma dose aplicada é um evento; uma pessoa vacinada é uma unidade individual; um esquema completo é uma combinação de eventos esperados em determinado intervalo; e uma cobertura vacinal é uma razão entre registros e população-alvo. Confundir esses níveis pode produzir conclusões inadequadas, especialmente quando há múltiplas doses, reforços, campanhas, mudanças de calendário ou atualização de registros.
+
 ## Denominadores e indicadores
 
 Muitos indicadores combinam eventos registrados em um SIS com denominadores vindos de outra fonte. O numerador costuma ser uma contagem de eventos; o denominador define a população, o conjunto de nascidos vivos, o número de internações, a população-alvo ou outra base de comparação.
+
+Indicadores de saúde são construções sintéticas: transformam registros em medidas comparáveis. Para isso, precisam de numerador, denominador, período, território, população de referência e regra de inclusão. A literatura de indicadores em saúde enfatiza que uma boa medida depende não apenas da fórmula, mas da clareza conceitual sobre o que está sendo medido e com que finalidade [@OPAS2008].
 
 | Indicador | Numerador | Denominador |
 |---|---|---|
@@ -211,9 +247,13 @@ Muitos indicadores combinam eventos registrados em um SIS com denominadores vind
 
 Escolher o denominador incorreto pode distorcer a interpretação. Taxas populacionais dependem de estimativas populacionais (@sec-pop); indicadores materno-infantis frequentemente dependem do SINASC; e proporções internas de um sistema dependem da definição clara do conjunto de registros comparáveis.
 
+A tabela mostra que o numerador e o denominador frequentemente vêm de sistemas diferentes. Isso exige coerência temporal e territorial. Óbitos de residentes devem ser comparados com população residente; óbitos infantis devem ser comparados com nascidos vivos do mesmo recorte; procedimentos realizados em um município não devem ser automaticamente divididos pela população residente se o serviço atende pessoas de outros municípios. A regra de construção do indicador precisa acompanhar a pergunta de análise.
+
 ## Relacionamento entre sistemas
 
 Algumas perguntas exigem combinar bases. O relacionamento entre sistemas pode ser determinístico, quando há identificadores comuns suficientes, ou probabilístico, quando é necessário combinar campos como nome, data de nascimento, sexo, município e datas de eventos.
+
+A tabela seguinte apresenta perguntas que dependem dessa integração. Ela evidencia que o relacionamento de bases não é um fim em si mesmo: ele é necessário quando o evento de interesse começa em um sistema e seu desfecho, contexto ou denominador está em outro.
 
 | Pergunta | Sistemas possivelmente envolvidos | Exemplo de uso |
 |---|---|---|
@@ -225,7 +265,13 @@ Algumas perguntas exigem combinar bases. O relacionamento entre sistemas pode se
 
 O relacionamento entre bases amplia as possibilidades analíticas, mas exige atenção à privacidade, qualidade dos campos identificadores, perdas de pareamento, duplicidades e diferenças temporais entre sistemas.
 
+Quando o pareamento não é perfeito, os registros não relacionados também carregam informação: podem indicar erro de preenchimento, fluxos fora do esperado, sub-registro, mudança de nome, diferenças de data ou limites do método utilizado.
+
+Além disso, integrar bases não elimina as diferenças conceituais entre elas. Um nascimento registrado no SINASC, um óbito registrado no SIM e uma internação registrada no SIH continuam sendo eventos produzidos por sistemas com finalidades e regras próprias. O relacionamento deve preservar essas diferenças, não apagá-las.
+
 ## Relação entre eventos e perguntas de análise
+
+Depois de discutir exemplos específicos, a tabela a seguir sintetiza a lógica do capítulo. Para cada tema, ela indica quais eventos precisam ser observados, quais sistemas tendem a ser mobilizados e qual cuidado costuma ser mais importante na interpretação. Essa síntese pode servir como lista de verificação antes de iniciar uma análise com dados secundários.
 
 | Tema de interesse | Evento observado | Sistema | Cuidado principal |
 |---|---|---|---|
@@ -235,6 +281,8 @@ O relacionamento entre bases amplia as possibilidades analíticas, mas exige ate
 | Produção de exames | Procedimento ambulatorial | SIA | Procedimentos não equivalem a pessoas |
 | Cobertura vacinal | Dose aplicada e população-alvo | SI-PNI e POP (@sec-pop) | Avaliar registros e denominadores |
 : Exemplos de temas, eventos e sistemas correspondentes
+
+O ponto comum entre os exemplos é a necessidade de alinhar pergunta, evento, sistema e medida. Quando esse alinhamento é claro, o pesquisador consegue explicar por que uma base foi escolhida, o que ela permite afirmar e quais lacunas permanecem. Quando ele é frágil, aumentam os riscos de comparar fontes incompatíveis, transformar produção assistencial em incidência, interpretar cobertura administrativa como risco populacional ou tratar registros preliminares como série consolidada.
 
 ## Cuidados de interpretação
 
