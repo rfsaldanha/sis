@@ -1,0 +1,740 @@
+[
+  {
+    "start": 0,
+    "end": 14.399,
+    "speaker": "APRESENTADORA",
+    "text": "Olá... Neste episódio, a conversa é sobre uma coisa que parece simples, mas muda muito o jeito de usar dados de saúde: como organizar os Sistemas de Informação em Saúde, os SIS brasileiros."
+  },
+  {
+    "start": 14.399,
+    "end": 25.526,
+    "speaker": "ESTUDANTE",
+    "text": "Eu gosto desse tema porque, no começo, parece que o desafio é decorar siglas. SIM, SINASC, SIH, SIA, SINAN, CNES... vira uma sopa de letras. "
+  },
+  {
+    "start": 25.526,
+    "end": 38.887,
+    "speaker": "APRESENTADORA",
+    "text": "Vira mesmo. Mas a ideia do capítulo não é fazer ninguém decorar sigla. É aprender a perguntar melhor. Quando a pergunta fica boa, a sigla deixa de assustar e começa a orientar."
+  },
+  {
+    "start": 38.887,
+    "end": 41.448,
+    "speaker": "ESTUDANTE",
+    "text": "Então o episódio não é uma lista de sistemas?"
+  },
+  {
+    "start": 41.448,
+    "end": 53.768,
+    "speaker": "APRESENTADORA",
+    "text": "Não. É mais como um mapa. E a gente vai montar esse mapa com uma situação bem comum: a mesma doença aparece com números diferentes em bases diferentes."
+  },
+  {
+    "start": 53.768,
+    "end": 61.048,
+    "speaker": "ESTUDANTE",
+    "text": "Tipo assim: o SINAN mostra um número, o SIH mostra outro, o SIM mostra outro... e alguém conclui que tem erro."
+  },
+  {
+    "start": 61.048,
+    "end": 71.287,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Às vezes pode haver erro, claro. Mas muitas vezes os números são diferentes porque as bases não estão contando a mesma coisa."
+  },
+  {
+    "start": 71.287,
+    "end": 73.048,
+    "speaker": "ESTUDANTE",
+    "text": "Mesmo falando da mesma doença?"
+  },
+  {
+    "start": 73.048,
+    "end": 87.568,
+    "speaker": "APRESENTADORA",
+    "text": "Mesmo assim. Uma base pode estar contando notificações. Outra, internações. Outra, óbitos. A doença é o tema comum, mas o evento registrado é diferente."
+  },
+  {
+    "start": 87.568,
+    "end": 95.049,
+    "speaker": "ESTUDANTE",
+    "text": "Então a primeira pergunta não é \"qual sistema tem essa doença?\". É \"qual evento relacionado a essa doença eu quero observar?\"."
+  },
+  {
+    "start": 95.049,
+    "end": 112.569,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Essa é uma das viradas do capítulo. Antes de abrir uma base, vale perguntar: o que aconteceu? Um nascimento? Um óbito? Uma internação? Uma notificação? Uma vacina? Um procedimento?"
+  },
+  {
+    "start": 112.569,
+    "end": 116.408,
+    "speaker": "ESTUDANTE",
+    "text": "E cada uma dessas coisas deixa um rastro diferente no sistema."
+  },
+  {
+    "start": 116.408,
+    "end": 133.129,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E esse rastro tem finalidade, cobertura, unidade de análise, tempo de disseminação e nível de detalhe. Nenhum critério resolve tudo sozinho, mas juntos eles evitam muita interpretação ruim."
+  },
+  {
+    "start": 134.25,
+    "end": 138.81,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos devagar. O primeiro critério é o evento de saúde: o que aconteceu."
+  },
+  {
+    "start": 138.81,
+    "end": 159.29,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Se aconteceu um óbito, a conversa provavelmente passa pelo SIM. Se aconteceu um nascimento, pelo SINASC. Se houve uma notificação de agravo, pelo SINAN. Se houve internação no SUS, pelo SIH. Se houve produção ambulatorial, pelo SIA."
+  },
+  {
+    "start": 159.29,
+    "end": 164.97,
+    "speaker": "ESTUDANTE",
+    "text": "E a finalidade institucional? Porque uma base não nasce no vazio."
+  },
+  {
+    "start": 164.97,
+    "end": 186.49,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Alguns sistemas nasceram para vigilância. Outros para assistência, cadastro, financiamento ou gestão. Essa origem aparece nos dados. Um sistema criado para organizar produção e pagamento pode ser útil em pesquisa, mas continua carregando uma lógica administrativa."
+  },
+  {
+    "start": 186.49,
+    "end": 194.01,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se eu uso SIH ou SIA, preciso lembrar que eles não foram desenhados como inquéritos populacionais."
+  },
+  {
+    "start": 194.01,
+    "end": 214.41,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O SIH registra internações financiadas pelo SUS e tem como unidade central a AIH, a Autorização de Internação Hospitalar. O SIA registra produção ambulatorial, como procedimentos, exames, terapias e outras ações."
+  },
+  {
+    "start": 214.41,
+    "end": 218.57,
+    "speaker": "ESTUDANTE",
+    "text": "Eles são riquíssimos, mas não respondem qualquer pergunta."
+  },
+  {
+    "start": 218.57,
+    "end": 232.01,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Eles ajudam muito a estudar produção e utilização de serviços. Mas não devem ser lidos como uma contagem direta de pessoas doentes em toda a população brasileira."
+  },
+  {
+    "start": 232.01,
+    "end": 235.77,
+    "speaker": "ESTUDANTE",
+    "text": "Aí entra cobertura. Quem aparece na base?"
+  },
+  {
+    "start": 235.77,
+    "end": 256.17,
+    "speaker": "APRESENTADORA",
+    "text": "Cobertura é uma pergunta central. Alguns sistemas buscam registrar eventos em todo o território nacional, independentemente de o evento ter ocorrido em serviço público, privado, filantrópico ou suplementar. É o caso do SIM e do SINASC, por exemplo."
+  },
+  {
+    "start": 256.17,
+    "end": 260.65,
+    "speaker": "ESTUDANTE",
+    "text": "E outros sistemas registram principalmente o que está vinculado ao SUS."
+  },
+  {
+    "start": 260.9,
+    "end": 285.299,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. SIH e SIA registram produção financiada pelo SUS. O SIOPS fala de receitas e despesas públicas em saúde. SISAB e SISAPS se relacionam à atenção primária. O SI-PNI tem sua lógica de vacinação. E, para saúde suplementar, entram bases da ANS."
+  },
+  {
+    "start": 285.299,
+    "end": 288.26,
+    "speaker": "ESTUDANTE",
+    "text": "Então \"nacional\" não quer dizer \"total\"."
+  },
+  {
+    "start": 288.26,
+    "end": 304.74,
+    "speaker": "APRESENTADORA",
+    "text": "Essa frase é ótima. O SIH pode ser analisado nacionalmente, mas não representa todas as internações do país. Representa internações financiadas pelo SUS. A diferença parece pequena, mas muda a conclusão."
+  },
+  {
+    "start": 304.74,
+    "end": 309.14,
+    "speaker": "ESTUDANTE",
+    "text": "E a unidade de análise é a pergunta: cada linha representa o quê?"
+  },
+  {
+    "start": 309.14,
+    "end": 323.541,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Uma linha pode ser uma pessoa, uma declaração, uma notificação, uma autorização, um procedimento, um estabelecimento, uma equipe ou uma informação financeira."
+  },
+  {
+    "start": 323.541,
+    "end": 327.701,
+    "speaker": "ESTUDANTE",
+    "text": "É o erro clássico: contar linhas e chamar de pessoas."
+  },
+  {
+    "start": 327.701,
+    "end": 353.141,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. No SIM, cada registro é um óbito. No SINASC, um nascido vivo. No SINAN, uma ficha de notificação, que pode ser suspeita, confirmada, descartada ou ainda estar em investigação. No SIH, uma AIH. No SIA, muitas vezes um procedimento ou instrumento de produção."
+  },
+  {
+    "start": 353.141,
+    "end": 360.02,
+    "speaker": "ESTUDANTE",
+    "text": "Então o início da análise é quase uma pergunta de identidade: quem é você, linha da minha tabela?"
+  },
+  {
+    "start": 360.02,
+    "end": 368.901,
+    "speaker": "APRESENTADORA",
+    "text": "Sim... e é uma pergunta muito boa. O dado não fala sozinho. Ele fala dentro de um fluxo de registro."
+  },
+  {
+    "start": 368.901,
+    "end": 373.541,
+    "speaker": "ESTUDANTE",
+    "text": "Fluxo de registro é uma ideia importante no capítulo. Explica melhor?"
+  },
+  {
+    "start": 373.541,
+    "end": 399.862,
+    "speaker": "APRESENTADORA",
+    "text": "Um SIS não é só um arquivo para download. Alguém registra um evento. Outra pessoa confere ou complementa. Uma gestão municipal ou estadual recebe. Regras de crítica e consolidação entram no caminho. E depois os dados são disseminados em painéis, tabuladores, microdados, relatórios ou bases abertas."
+  },
+  {
+    "start": 399.862,
+    "end": 402.662,
+    "speaker": "ESTUDANTE",
+    "text": "Então o dado tem uma trajetória."
+  },
+  {
+    "start": 403.63,
+    "end": 418.19,
+    "speaker": "APRESENTADORA",
+    "text": "Tem. E isso ajuda a entender por que dados preliminares mudam, por que campos ficam incompletos, por que há atraso de digitação e por que versões diferentes da mesma base podem produzir resultados diferentes."
+  },
+  {
+    "start": 418.19,
+    "end": 421.991,
+    "speaker": "ESTUDANTE",
+    "text": "Não é necessariamente falha. Pode ser o processo acontecendo."
+  },
+  {
+    "start": 421.991,
+    "end": 431.951,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Dá para pensar em três momentos: produção do dado, crítica e consolidação, e depois disseminação para uso secundário."
+  },
+  {
+    "start": 431.951,
+    "end": 436.591,
+    "speaker": "ESTUDANTE",
+    "text": "E aí aparece a diferença entre dado rápido e dado mais revisado."
+  },
+  {
+    "start": 436.591,
+    "end": 453.711,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Dados preliminares são mais oportunos e podem apoiar resposta rápida. Dados consolidados costumam ser mais revisados e funcionam melhor para séries históricas e indicadores oficiais. A escolha depende da pergunta."
+  },
+  {
+    "start": 453.711,
+    "end": 461.711,
+    "speaker": "ESTUDANTE",
+    "text": "Um painel muito atualizado pode ser ótimo para acompanhar uma situação em curso, mas ruim para fechar uma conclusão histórica."
+  },
+  {
+    "start": 461.711,
+    "end": 471.631,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E o contrário também vale. Uma base consolidada pode ser excelente para olhar para trás, mas lenta demais para uma resposta imediata."
+  },
+  {
+    "start": 471.631,
+    "end": 476.192,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos para os grupos de sistemas. O primeiro são os sistemas vitais?"
+  },
+  {
+    "start": 476.192,
+    "end": 493.112,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Eles registram eventos ligados ao início e ao fim da vida. No Brasil, os dois principais são o SIM, Sistema de Informação sobre Mortalidade, e o SINASC, Sistema de Informação sobre Nascidos Vivos."
+  },
+  {
+    "start": 493.112,
+    "end": 498.992,
+    "speaker": "ESTUDANTE",
+    "text": "O SIM usa a Declaração de Óbito. O SINASC usa a Declaração de Nascido Vivo."
+  },
+  {
+    "start": 498.992,
+    "end": 522.032,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Esses documentos conectam serviços de saúde, famílias, cartórios, secretarias e Ministério da Saúde. A partir deles, conseguimos estudar mortalidade infantil, mortalidade materna, fecundidade, condições do nascimento, causas de morte e muitos outros indicadores."
+  },
+  {
+    "start": 522.032,
+    "end": 525.552,
+    "speaker": "ESTUDANTE",
+    "text": "Mas cobertura nacional não significa dado perfeito."
+  },
+  {
+    "start": 526.6,
+    "end": 543.16,
+    "speaker": "APRESENTADORA",
+    "text": "Nunca. A qualidade varia por território, período e variável. Causa básica de óbito, idade gestacional, escolaridade, raça/cor e local de ocorrência, por exemplo, precisam ser avaliados antes de comparações."
+  },
+  {
+    "start": 543.16,
+    "end": 546.361,
+    "speaker": "ESTUDANTE",
+    "text": "Depois vêm morbidade e vigilância."
+  },
+  {
+    "start": 546.361,
+    "end": 563.4,
+    "speaker": "APRESENTADORA",
+    "text": "Esse grupo inclui doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento. O SINAN é o grande exemplo: ele registra agravos de notificação compulsória, muitas vezes começando por uma suspeita."
+  },
+  {
+    "start": 563.4,
+    "end": 567.881,
+    "speaker": "ESTUDANTE",
+    "text": "Então notificação não é automaticamente caso confirmado."
+  },
+  {
+    "start": 567.881,
+    "end": 585.162,
+    "speaker": "APRESENTADORA",
+    "text": "Essa frase deveria aparecer em letras grandes em todo curso de SIS. Uma ficha pode passar por investigação, classificação final, evolução e encerramento. Contar toda notificação como caso confirmado é um erro comum."
+  },
+  {
+    "start": 585.162,
+    "end": 588.462,
+    "speaker": "ESTUDANTE",
+    "text": "E SIVEP e SISAGUA entram nessa família?"
+  },
+  {
+    "start": 588.462,
+    "end": 603.422,
+    "speaker": "APRESENTADORA",
+    "text": "Entram, mas com lógicas diferentes. O SIVEP reúne componentes de vigilância voltados a agravos ou síndromes específicas. O SISAGUA trata da vigilância da qualidade da água para consumo humano."
+  },
+  {
+    "start": 603.422,
+    "end": 607.071,
+    "speaker": "ESTUDANTE",
+    "text": "No SISAGUA, o foco nem é uma pessoa doente."
+  },
+  {
+    "start": 607.071,
+    "end": 622.882,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. O foco pode ser uma condição ambiental relevante para a saúde pública. Por isso \"vigilância\" é uma palavra ampla: pode envolver caso, síndrome, ambiente, laboratório, investigação, alerta."
+  },
+  {
+    "start": 622.882,
+    "end": 626.342,
+    "speaker": "ESTUDANTE",
+    "text": "E as datas também mudam, não é?"
+  },
+  {
+    "start": 626.342,
+    "end": 640.229,
+    "speaker": "APRESENTADORA",
+    "text": "Mudam muito. Data de início de sintomas, data de notificação, data de investigação, data de encerramento, data de digitação... cada uma responde a uma pergunta temporal diferente."
+  },
+  {
+    "start": 640.229,
+    "end": 649.522,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu uso data de digitação para curva epidêmica, talvez eu esteja medindo fluxo administrativo, não ocorrência da doença."
+  },
+  {
+    "start": 649.522,
+    "end": 657.622,
+    "speaker": "APRESENTADORA",
+    "text": "Pode acontecer. A melhor data não é universal. A melhor data é a que responde à pergunta declarada."
+  },
+  {
+    "start": 657.622,
+    "end": 662.442,
+    "speaker": "ESTUDANTE",
+    "text": "Agora os sistemas assistenciais: SIH e SIA."
+  },
+  {
+    "start": 664.21,
+    "end": 678.21,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O SIH registra internações hospitalares financiadas pelo SUS. O SIA registra produção ambulatorial: consultas, exames, procedimentos, terapias e outras ações."
+  },
+  {
+    "start": 678.21,
+    "end": 683.41,
+    "speaker": "ESTUDANTE",
+    "text": "Eles têm origem administrativa, mas são usados em estudos epidemiológicos."
+  },
+  {
+    "start": 683.41,
+    "end": 698.051,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, e com razão. Eles são muito úteis para estudar acesso, utilização de serviços, padrões de morbidade atendida e avaliação da rede. Só que não cobrem toda a assistência realizada no país."
+  },
+  {
+    "start": 698.051,
+    "end": 704.851,
+    "speaker": "ESTUDANTE",
+    "text": "Então, quando alguém pergunta \"quantas internações ocorreram no Brasil\", a resposta começa com outra pergunta."
+  },
+  {
+    "start": 704.851,
+    "end": 716.931,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente: no SUS? Em toda a rede? Por residência? Por local de atendimento? Por estabelecimento? Cada escolha muda o número."
+  },
+  {
+    "start": 716.931,
+    "end": 722.211,
+    "speaker": "ESTUDANTE",
+    "text": "E uma pessoa pode ter mais de uma AIH, ou vários procedimentos no SIA."
+  },
+  {
+    "start": 722.211,
+    "end": 734.891,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. SIH e SIA são ótimos para produção e utilização, mas exigem cuidado quando a pergunta é sobre pessoas únicas, prevalência ou incidência populacional."
+  },
+  {
+    "start": 734.891,
+    "end": 740.37,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo também fala de sistemas que não parecem, de primeira, \"dados de doença\"."
+  },
+  {
+    "start": 740.37,
+    "end": 765.571,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, e eles são fundamentais. O CNES descreve estabelecimentos, profissionais, equipamentos, leitos, serviços e equipes. O SIOPS organiza receitas e despesas públicas em saúde. SISAB e SISAPS ajudam a olhar a atenção primária, produção, vínculo territorial e indicadores."
+  },
+  {
+    "start": 765.571,
+    "end": 768.932,
+    "speaker": "ESTUDANTE",
+    "text": "Eles dão contexto ao sistema que produz cuidado."
+  },
+  {
+    "start": 768.932,
+    "end": 789.252,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Para entender uma internação, às vezes você precisa olhar a estrutura da rede. Para interpretar produção ambulatorial, precisa saber onde estão os serviços. Para discutir desigualdades, precisa considerar capacidade instalada, financiamento e organização da atenção."
+  },
+  {
+    "start": 789.252,
+    "end": 795.732,
+    "speaker": "ESTUDANTE",
+    "text": "Então essas bases podem funcionar como denominadores, estratificadores ou contexto."
+  },
+  {
+    "start": 795.98,
+    "end": 801.1,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Sem elas, a análise de eventos pode ficar sem chão institucional."
+  },
+  {
+    "start": 801.1,
+    "end": 803.98,
+    "speaker": "ESTUDANTE",
+    "text": "E vacinação entra com o SI-PNI."
+  },
+  {
+    "start": 803.98,
+    "end": 824.14,
+    "speaker": "APRESENTADORA",
+    "text": "O SI-PNI apoia o monitoramento de doses aplicadas, coberturas vacinais, campanhas e registros de imunização. Com registros individualizados, as análises ficam mais detalhadas, mas aparecem cuidados com duplicidades, perdas de registro e consistência entre fontes."
+  },
+  {
+    "start": 824.14,
+    "end": 829.339,
+    "speaker": "ESTUDANTE",
+    "text": "Uma dose aplicada não é a mesma coisa que uma pessoa com esquema completo."
+  },
+  {
+    "start": 829.339,
+    "end": 843.18,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Em vacinação, a pergunta pode ser sobre doses, pessoas vacinadas, cobertura, esquema completo, faixa etária, imunobiológico, estabelecimento ou campanha."
+  },
+  {
+    "start": 843.18,
+    "end": 847.339,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar de território, porque isso sempre dá confusão."
+  },
+  {
+    "start": 847.339,
+    "end": 859.899,
+    "speaker": "APRESENTADORA",
+    "text": "Dá mesmo. Muitos sistemas têm município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento."
+  },
+  {
+    "start": 859.899,
+    "end": 862.7,
+    "speaker": "ESTUDANTE",
+    "text": "E cada campo responde uma pergunta."
+  },
+  {
+    "start": 862.7,
+    "end": 881.819,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Residência fala de onde a pessoa vive. Ocorrência, onde o evento aconteceu. Atendimento, onde o cuidado foi prestado. Notificação, onde o caso entrou na vigilância. Estabelecimento, qual serviço produziu o registro."
+  },
+  {
+    "start": 881.819,
+    "end": 886.54,
+    "speaker": "ESTUDANTE",
+    "text": "Uma internação em uma capital pode ser de uma pessoa que mora em outro município."
+  },
+  {
+    "start": 886.54,
+    "end": 895.979,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E um óbito pode ocorrer fora do município de residência. Se a gente mistura esses campos, desloca o problema no mapa."
+  },
+  {
+    "start": 895.979,
+    "end": 904.3,
+    "speaker": "ESTUDANTE",
+    "text": "Para risco populacional, residência costuma fazer mais sentido. Para rede assistencial, talvez atendimento ou estabelecimento."
+  },
+  {
+    "start": 904.3,
+    "end": 911.74,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Não existe campo territorial universal. Existe campo adequado à pergunta."
+  },
+  {
+    "start": 911.74,
+    "end": 918.22,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar ao exemplo da mesma doença em vários sistemas. O capítulo usa dengue, certo?"
+  },
+  {
+    "start": 920.39,
+    "end": 943.59,
+    "speaker": "APRESENTADORA",
+    "text": "Usa. Para casos suspeitos ou confirmados, o caminho provável passa pelo SINAN. Para atendimento ou exame ambulatorial no SUS, podemos olhar SIA. Para internações financiadas pelo SUS, SIH. Para óbitos por dengue como causa básica, SIM. Para estrutura de serviços, CNES."
+  },
+  {
+    "start": 943.59,
+    "end": 947.99,
+    "speaker": "ESTUDANTE",
+    "text": "A doença é a mesma, mas cada sistema ilumina uma parte da história."
+  },
+  {
+    "start": 947.99,
+    "end": 963.99,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a ideia. O SINAN ilumina vigilância e investigação. O SIA, produção ambulatorial. O SIH, hospitalização no SUS. O SIM, mortalidade. O CNES, estrutura."
+  },
+  {
+    "start": 963.99,
+    "end": 969.11,
+    "speaker": "ESTUDANTE",
+    "text": "Comparar essas curvas pode ser útil, desde que eu não finja que todas medem a mesma coisa."
+  },
+  {
+    "start": 969.11,
+    "end": 989.071,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Se notificações sobem antes das internações, isso pode sugerir aumento de casos detectados, mas também pode refletir mudança na sensibilidade da vigilância ou na procura por atendimento. O dado abre perguntas; ele não fecha sozinho a explicação."
+  },
+  {
+    "start": 989.071,
+    "end": 992.87,
+    "speaker": "ESTUDANTE",
+    "text": "E onde entram qualidade, completude e comparabilidade?"
+  },
+  {
+    "start": 992.87,
+    "end": 1011.911,
+    "speaker": "APRESENTADORA",
+    "text": "Como uma camada transversal. Qualidade pode significar completude dos campos, consistência interna, oportunidade de envio, cobertura do evento, estabilidade das definições, validade dos códigos e comparabilidade entre períodos e territórios."
+  },
+  {
+    "start": 1011.911,
+    "end": 1015.991,
+    "speaker": "ESTUDANTE",
+    "text": "Uma base pode ser boa para uma pergunta e limitada para outra."
+  },
+  {
+    "start": 1015.991,
+    "end": 1031.751,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Um campo pode ser bem preenchido em um estado e mal preenchido em outro. Uma variável pode mudar de definição. Um formulário pode ser atualizado. Uma transição tecnológica pode quebrar a série."
+  },
+  {
+    "start": 1031.751,
+    "end": 1038.31,
+    "speaker": "ESTUDANTE",
+    "text": "Então, antes de interpretar tendência, eu preciso perguntar se mudou o fenômeno ou se mudou o registro."
+  },
+  {
+    "start": 1038.31,
+    "end": 1054.471,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E isso vale especialmente para séries históricas. Mudança de layout, código, regra de classificação ou forma de disseminação pode parecer mudança real quando é mudança no processo de produção do dado."
+  },
+  {
+    "start": 1055.36,
+    "end": 1058.399,
+    "speaker": "ESTUDANTE",
+    "text": "Indicador também carrega escolha, não é só uma conta."
+  },
+  {
+    "start": 1058.399,
+    "end": 1074.28,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Um indicador tem numerador, denominador, população de referência, período, território, fonte, critérios de inclusão e exclusão. Uma ficha conceitual bem feita vale muito."
+  },
+  {
+    "start": 1074.28,
+    "end": 1079.12,
+    "speaker": "ESTUDANTE",
+    "text": "E integração entre sistemas? Parece simples, mas não é só juntar tabelas."
+  },
+  {
+    "start": 1079.12,
+    "end": 1097.84,
+    "speaker": "APRESENTADORA",
+    "text": "Não é. Para estudar acesso, podemos combinar residência, atendimento e oferta de serviços. Para investigar letalidade, talvez notificações, internações e óbitos. Para avaliar capacidade instalada, produção junto com CNES e população."
+  },
+  {
+    "start": 1097.84,
+    "end": 1104.561,
+    "speaker": "ESTUDANTE",
+    "text": "Mas o mês de competência de um procedimento não é a data de início de sintomas, nem a data de ocorrência de um óbito."
+  },
+  {
+    "start": 1104.561,
+    "end": 1119.52,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E município de residência não é município do estabelecimento. Códigos parecidos podem ter sentidos diferentes. Juntar bases sem resolver isso cria uma aparência de precisão que não existe."
+  },
+  {
+    "start": 1119.52,
+    "end": 1125.76,
+    "speaker": "ESTUDANTE",
+    "text": "Também precisa documentar perdas, duplicidades, regras de relacionamento e limites de privacidade."
+  },
+  {
+    "start": 1125.76,
+    "end": 1140.76,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Integração responsável é documentação: o que foi relacionado, o que ficou de fora, quais chaves foram usadas, quais registros se repetiram, quais foram excluídos e quais limites permanecem."
+  },
+  {
+    "start": 1140.76,
+    "end": 1145.36,
+    "speaker": "ESTUDANTE",
+    "text": "Se alguém abrisse o livro querendo escolher uma fonte, qual seria o caminho prático?"
+  },
+  {
+    "start": 1145.36,
+    "end": 1164.32,
+    "speaker": "APRESENTADORA",
+    "text": "Eu começaria com quatro palavras: evento, população, território e período. Que evento eu quero estudar? Qual população ou cobertura me interessa? Qual recorte territorial responde à pergunta? Qual período e qual versão dos dados são adequados?"
+  },
+  {
+    "start": 1164.32,
+    "end": 1170.08,
+    "speaker": "ESTUDANTE",
+    "text": "Depois disso, unidade de análise, campos disponíveis, documentação e limitações."
+  },
+  {
+    "start": 1170.33,
+    "end": 1201.21,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. A tabela do capítulo ajuda a entrar: óbitos apontam para SIM; nascimentos, SINASC; notificações, SINAN; internações no SUS, SIH; procedimentos ambulatoriais no SUS, SIA; estabelecimentos e serviços, CNES; gasto público, SIOPS; vacinação, SI-PNI; saúde suplementar, ANS."
+  },
+  {
+    "start": 1201.21,
+    "end": 1205.93,
+    "speaker": "ESTUDANTE",
+    "text": "Mas a tabela não substitui o capítulo específico de cada sistema."
+  },
+  {
+    "start": 1205.93,
+    "end": 1220.09,
+    "speaker": "APRESENTADORA",
+    "text": "Não substitui. Ela orienta a primeira escolha. Depois é preciso entender história, fluxo, variáveis, cobertura, limitações e usos próprios de cada fonte."
+  },
+  {
+    "start": 1220.09,
+    "end": 1221.93,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos fechar com os erros comuns?"
+  },
+  {
+    "start": 1221.93,
+    "end": 1262.33,
+    "speaker": "APRESENTADORA",
+    "text": "Vamos. Primeiro: tratar AIH como pessoa única. Segundo: contar notificações do SINAN como casos confirmados sem olhar classificação final. Terceiro: usar SIH e SIA como se representassem toda a assistência pública e privada. Quarto: misturar residência, ocorrência, atendimento e notificação. Quinto: comparar dado preliminar com consolidado sem cautela. Sexto: ignorar mudanças de layout, formulário ou definição."
+  },
+  {
+    "start": 1262.33,
+    "end": 1266.09,
+    "speaker": "ESTUDANTE",
+    "text": "Todos esses erros esquecem o caminho que produziu o dado."
+  },
+  {
+    "start": 1266.09,
+    "end": 1276.97,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Organizar os SIS é lembrar que cada número tem origem, finalidade, cobertura, unidade, tempo e território."
+  },
+  {
+    "start": 1276.97,
+    "end": 1282.01,
+    "speaker": "ESTUDANTE",
+    "text": "Então a mensagem final não é \"decore as bases\". É \"pergunte melhor\"."
+  },
+  {
+    "start": 1282.01,
+    "end": 1295.289,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Não existe base certa em abstrato. Existe a base mais adequada para uma pergunta bem formulada. Quando a pergunta muda, a fonte adequada também pode mudar."
+  },
+  {
+    "start": 1295.289,
+    "end": 1300.009,
+    "speaker": "ESTUDANTE",
+    "text": "Isso transforma a organização dos SIS em uma etapa metodológica."
+  },
+  {
+    "start": 1300.009,
+    "end": 1318.73,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Antes de calcular uma taxa, fazer um mapa ou montar uma série histórica, precisamos entender o que está sendo contado. Esse é o convite do capítulo: olhar os sistemas como fluxos, documentos, eventos e decisões analíticas."
+  },
+  {
+    "start": 1318.98,
+    "end": 1325.22,
+    "speaker": "ESTUDANTE",
+    "text": "Boa. Agora, quando eu olhar uma tabela de SIS, acho que vou escutar uma pergunta por trás de cada coluna."
+  },
+  {
+    "start": 1325.22,
+    "end": 1340.581,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma ótima escuta para levar adiante. No próximo capítulo, a conversa continua justamente pelos eventos de saúde: como eles aparecem nos sistemas e por que uma doença pode gerar vários registros diferentes."
+  }
+]

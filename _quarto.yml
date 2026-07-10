@@ -5,12 +5,12 @@ project:
     - podcast/introducao.mp3
     - podcast/introducao.md
     - podcast/introducao_transcript.json
-    - podcast/historico.mp3
+    - podcast/historico_dialogo_eleven_v3.mp3
     - podcast/historico.md
-    - podcast/historico_transcript.json
-    - podcast/organizacao.mp3
+    - podcast/historico_dialogo_eleven_v3_transcript.json
+    - podcast/organizacao_dialogo_eleven_v3.mp3
     - podcast/organizacao.md
-    - podcast/organizacao_transcript.json
+    - podcast/organizacao_dialogo_eleven_v3_transcript.json
     - podcast/eventos.mp3
     - podcast/eventos.md
     - podcast/eventos_transcript.json

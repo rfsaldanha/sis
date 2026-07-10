@@ -9,6 +9,11 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "SIS",
+      "alias": "sís"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SINASC",
       "alias": "sinásqui"
     },
@@ -29,6 +34,11 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "AIH",
+      "alias": "a i agá"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SISAB",
       "alias": "sisábi"
     },
@@ -44,6 +54,11 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "SIVEP",
+      "alias": "sivépi"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SIOPS",
       "alias": "siópis"
     },
@@ -51,6 +66,16 @@
       "type": "alias",
       "string_to_replace": "SIPNI",
       "alias": "sípni"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SI-PNI",
+      "alias": "sípni"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PNI",
+      "alias": "pê ene i"
     },
     {
       "type": "alias",
@@ -81,6 +106,26 @@
       "type": "alias",
       "string_to_replace": "DATASUS",
       "alias": "data sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DataSUS",
+      "alias": "data sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DATAPREV",
+      "alias": "data prév"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "FUNASA",
+      "alias": "funasa"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "IBGE",
+      "alias": "i bê gê é"
     },
     {
       "type": "alias",
@@ -141,6 +186,11 @@
       "type": "alias",
       "string_to_replace": "SUS",
       "alias": "sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "ANS",
+      "alias": "a ene ésse"
     }
   ]
 }

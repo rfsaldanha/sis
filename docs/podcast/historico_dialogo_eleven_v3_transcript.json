@@ -1,0 +1,632 @@
+[
+  {
+    "start": 0,
+    "end": 15.6,
+    "speaker": "APRESENTADORA",
+    "text": "Olá... Neste episódio, a gente vai fazer uma viagem pela história dos Sistemas de Informação em Saúde no Brasil. Mas não como uma linha do tempo decorada. A pergunta é outra: por que os nossos sistemas são do jeito que são?"
+  },
+  {
+    "start": 15.6,
+    "end": 23.76,
+    "speaker": "ESTUDANTE",
+    "text": "Então a ideia não é só lembrar datas, tipo 1975, 1988, 1991..."
+  },
+  {
+    "start": 23.76,
+    "end": 39.68,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. As datas ajudam, mas o mais importante é entender o caminho. Os SIS brasileiros não nasceram de uma arquitetura única, toda planejada de uma vez. Eles foram surgindo aos poucos, em resposta a problemas diferentes."
+  },
+  {
+    "start": 39.68,
+    "end": 45.042,
+    "speaker": "ESTUDANTE",
+    "text": "Registro civil, vigilância, assistência, financiamento, gestão..."
+  },
+  {
+    "start": 45.042,
+    "end": 59.683,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Cada sistema carrega marcas do momento em que foi criado: as normas, os formulários, os fluxos, a tecnologia disponível e o uso administrativo ou sanitário que motivou sua implantação."
+  },
+  {
+    "start": 59.683,
+    "end": 65.042,
+    "speaker": "ESTUDANTE",
+    "text": "Então conhecer a história ajuda a não tratar todas as bases como se fossem iguais."
+  },
+  {
+    "start": 65.042,
+    "end": 69.722,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. A história vira uma ferramenta de interpretação."
+  },
+  {
+    "start": 69.722,
+    "end": 71.122,
+    "speaker": "ESTUDANTE",
+    "text": "Por onde a gente começa?"
+  },
+  {
+    "start": 71.122,
+    "end": 89.522,
+    "speaker": "APRESENTADORA",
+    "text": "Pelo começo mais concreto possível: nascimentos e óbitos. Antes de falar em bases nacionais, painéis ou microdados, o país precisava responder perguntas básicas. Quem nasceu? Quem morreu? Onde? Quando?"
+  },
+  {
+    "start": 89.522,
+    "end": 92.242,
+    "speaker": "ESTUDANTE",
+    "text": "Parece simples, mas imagino que não fosse."
+  },
+  {
+    "start": 92.242,
+    "end": 108.561,
+    "speaker": "APRESENTADORA",
+    "text": "Não era. Ainda no período colonial já existia preocupação com esses registros, mas a produção era fragmentada. Havia desigualdade de acesso, baixa padronização e muita dependência de instituições locais."
+  },
+  {
+    "start": 108.561,
+    "end": 112.961,
+    "speaker": "ESTUDANTE",
+    "text": "Então o problema não era só técnico. Era institucional e territorial."
+  },
+  {
+    "start": 112.961,
+    "end": 124.802,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Se uma parte da população não consegue registrar nascimento ou óbito, o dado já nasce desigual. E isso afeta qualquer estatística que venha depois."
+  },
+  {
+    "start": 124.802,
+    "end": 129.923,
+    "speaker": "ESTUDANTE",
+    "text": "A regulamentação do Registro Civil em 1973 entra aí?"
+  },
+  {
+    "start": 130.89,
+    "end": 147.529,
+    "speaker": "APRESENTADORA",
+    "text": "Entra como marco importante. A lei de 1973 atribuiu ao IBGE a responsabilidade pela produção de estatísticas do Registro Civil. Isso ajudou a organizar informações sobre nascimentos, casamentos e óbitos."
+  },
+  {
+    "start": 147.529,
+    "end": 150.889,
+    "speaker": "ESTUDANTE",
+    "text": "Mas a lei, sozinha, não resolvia o acesso ao registro."
+  },
+  {
+    "start": 150.889,
+    "end": 164.89,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Havia cobrança por registros, distância até cartórios e desigualdades territoriais. Tudo isso contribuía para subnotificação e para a existência de muitas pessoas sem registro civil."
+  },
+  {
+    "start": 164.89,
+    "end": 170.73,
+    "speaker": "ESTUDANTE",
+    "text": "Ou seja, havia uma população que existia na vida, mas não aparecia direito no Estado."
+  },
+  {
+    "start": 170.73,
+    "end": 181.65,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma forma forte, mas precisa, de colocar. E para melhorar as estatísticas vitais, foi necessário aproximar a coleta do local onde os eventos aconteciam."
+  },
+  {
+    "start": 181.65,
+    "end": 185.769,
+    "speaker": "ESTUDANTE",
+    "text": "Maternidades, hospitais, serviços de saúde..."
+  },
+  {
+    "start": 185.769,
+    "end": 199.41,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Esses lugares passaram a ser pontos estratégicos. O setor saúde se aproximou dos registros vitais porque estava perto dos nascimentos, dos óbitos e de outros eventos de interesse sanitário."
+  },
+  {
+    "start": 199.41,
+    "end": 203.85,
+    "speaker": "ESTUDANTE",
+    "text": "Aí entram a Declaração de Óbito e a Declaração de Nascido Vivo."
+  },
+  {
+    "start": 203.85,
+    "end": 222.451,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Esses documentos fazem uma ponte. No caso dos óbitos, a Declaração de Óbito liga o serviço de saúde ao processo de emissão da certidão no Registro Civil. No caso dos nascimentos, a Declaração de Nascido Vivo cumpre papel parecido."
+  },
+  {
+    "start": 222.451,
+    "end": 227.531,
+    "speaker": "ESTUDANTE",
+    "text": "Então o mesmo documento tem uma vida administrativa e uma vida epidemiológica."
+  },
+  {
+    "start": 227.531,
+    "end": 237.691,
+    "speaker": "APRESENTADORA",
+    "text": "Ótima síntese. Ele ajuda a família, ajuda o cartório, ajuda a secretaria de saúde e, depois, ajuda a produzir estatísticas públicas."
+  },
+  {
+    "start": 237.691,
+    "end": 241.531,
+    "speaker": "ESTUDANTE",
+    "text": "Isso explica por que padronizar formulário é tão importante."
+  },
+  {
+    "start": 241.531,
+    "end": 257.451,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Sem modelos nacionais, definições comuns e fluxos estabelecidos, cada lugar registra de um jeito. E quando cada lugar registra de um jeito, comparar municípios, estados e períodos vira um problema."
+  },
+  {
+    "start": 258.74,
+    "end": 261.539,
+    "speaker": "ESTUDANTE",
+    "text": "Padronizar não é burocracia pela burocracia."
+  },
+  {
+    "start": 261.539,
+    "end": 269.46,
+    "speaker": "APRESENTADORA",
+    "text": "Não. É uma condição para transformar milhares de eventos locais em dados comparáveis em escala nacional."
+  },
+  {
+    "start": 269.46,
+    "end": 273.621,
+    "speaker": "ESTUDANTE",
+    "text": "E os eventos são complexos. Um óbito não é só \"morreu\"."
+  },
+  {
+    "start": 273.621,
+    "end": 295.941,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Um óbito envolve causa básica, causas associadas, local de ocorrência, município de residência, idade, sexo, raça ou cor e circunstâncias. Uma internação, uma notificação e uma vacinação também têm campos, classificações e rotinas próprias."
+  },
+  {
+    "start": 295.941,
+    "end": 298.661,
+    "speaker": "ESTUDANTE",
+    "text": "Quando começam os sistemas nacionais?"
+  },
+  {
+    "start": 298.661,
+    "end": 322.42,
+    "speaker": "APRESENTADORA",
+    "text": "Entre as décadas de 1970 e 1980. Nesse período, aparecem os primeiros sistemas nacionais de informação em saúde. O SIM é criado em 1975. O Programa Nacional de Imunizações também nasce nesse contexto. E começam a se organizar bases ligadas à produção assistencial."
+  },
+  {
+    "start": 322.42,
+    "end": 326.021,
+    "speaker": "ESTUDANTE",
+    "text": "Também houve uma reunião nacional sobre sistemas de informação, certo?"
+  },
+  {
+    "start": 326.021,
+    "end": 345.181,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Em 1975 ocorreu a primeira Reunião Nacional sobre Sistemas de Informação em Saúde. Esse momento é interessante porque mostra uma mudança de mentalidade: os dados deixam de ser vistos apenas como registros administrativos soltos."
+  },
+  {
+    "start": 345.181,
+    "end": 350.261,
+    "speaker": "ESTUDANTE",
+    "text": "E passam a ser infraestrutura para planejamento, vigilância e avaliação."
+  },
+  {
+    "start": 350.261,
+    "end": 356.66,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Só que essa infraestrutura ainda estava sendo construída em pedaços."
+  },
+  {
+    "start": 356.66,
+    "end": 360.581,
+    "speaker": "ESTUDANTE",
+    "text": "Depois vem 1988, com a Constituição."
+  },
+  {
+    "start": 360.581,
+    "end": 374.741,
+    "speaker": "APRESENTADORA",
+    "text": "Esse é um marco decisivo. A Constituição Federal abre caminho para o SUS. Em 1990, com a regulamentação do SUS, muda o arranjo institucional da saúde pública brasileira."
+  },
+  {
+    "start": 374.741,
+    "end": 378.501,
+    "speaker": "ESTUDANTE",
+    "text": "E a descentralização muda também a produção dos dados?"
+  },
+  {
+    "start": 378.501,
+    "end": 393.221,
+    "speaker": "APRESENTADORA",
+    "text": "Muda muito. Municípios e estados passam a ter papel central em registrar eventos, alimentar sistemas, qualificar informações, acompanhar indicadores e usar dados no planejamento."
+  },
+  {
+    "start": 393.221,
+    "end": 395.621,
+    "speaker": "ESTUDANTE",
+    "text": "Isso aumenta a capilaridade."
+  },
+  {
+    "start": 396.51,
+    "end": 409.552,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, mas também aumenta a dependência da capacidade local. A qualidade da informação passa a depender de milhares de unidades notificadoras, secretarias municipais e secretarias estaduais."
+  },
+  {
+    "start": 409.552,
+    "end": 416.592,
+    "speaker": "ESTUDANTE",
+    "text": "Então infraestrutura, equipe, rotina de trabalho e prioridade política aparecem dentro do dado."
+  },
+  {
+    "start": 416.592,
+    "end": 425.712,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O dado não é produzido no vazio. Ele carrega as condições institucionais de quem registra, revisa e transmite."
+  },
+  {
+    "start": 425.712,
+    "end": 431.952,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo lista marcos de vários sistemas. Dá para caminhar por eles sem virar uma lista seca?"
+  },
+  {
+    "start": 431.952,
+    "end": 459.632,
+    "speaker": "APRESENTADORA",
+    "text": "Vamos tentar. Pense nos sistemas como respostas a perguntas que foram ganhando importância. Para óbitos, o SIM. Para vacinação, PNI e depois SI-PNI. Para internações no SUS, SIH. Para nascidos vivos, SINASC. Para produção ambulatorial, SIA. Para agravos de notificação, SINAN."
+  },
+  {
+    "start": 459.632,
+    "end": 466.752,
+    "speaker": "ESTUDANTE",
+    "text": "E depois aparecem SISAGUA, CNES, SIOPS, SISAB e SISAPS."
+  },
+  {
+    "start": 466.752,
+    "end": 481.032,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Qualidade da água, cadastro de estabelecimentos, financiamento público, atenção primária. O conjunto cresce porque as perguntas de gestão, vigilância e cuidado também crescem."
+  },
+  {
+    "start": 481.032,
+    "end": 483.952,
+    "speaker": "ESTUDANTE",
+    "text": "Mas o ano de criação não conta a história inteira."
+  },
+  {
+    "start": 483.952,
+    "end": 497.632,
+    "speaker": "APRESENTADORA",
+    "text": "Não conta. Muitos sistemas mudaram escopo, formulário, layout de arquivo, regra de consistência e forma de disseminação. A data é ponto de referência, não ponto final."
+  },
+  {
+    "start": 497.632,
+    "end": 503.152,
+    "speaker": "ESTUDANTE",
+    "text": "Um tema importante é a diferença entre finalidade administrativa e uso epidemiológico."
+  },
+  {
+    "start": 503.152,
+    "end": 521.313,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Alguns sistemas já nascem muito ligados à vigilância e às estatísticas vitais, como SIM, SINASC e SINAN. Outros têm origem administrativa, financeira ou operacional, como SIH, SIA e SIOPS."
+  },
+  {
+    "start": 521.313,
+    "end": 525.954,
+    "speaker": "ESTUDANTE",
+    "text": "Mas hoje SIH e SIA são muito usados em pesquisa."
+  },
+  {
+    "start": 527.24,
+    "end": 546.28,
+    "speaker": "APRESENTADORA",
+    "text": "E devem ser, quando a pergunta é adequada. O SIH pode ajudar a estudar morbidade hospitalar, acesso, deslocamentos de pacientes e uso da rede. O SIA ajuda a analisar procedimentos, exames, terapias e ações ambulatoriais."
+  },
+  {
+    "start": 546.28,
+    "end": 549.961,
+    "speaker": "ESTUDANTE",
+    "text": "Só que a origem administrativa continua importando."
+  },
+  {
+    "start": 549.961,
+    "end": 565.961,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A finalidade original influencia variáveis, cobertura, periodicidade, mecanismos de crítica e incentivos de preenchimento. A base pode ser muito útil, mas precisa ser lida pelo que ela é."
+  },
+  {
+    "start": 565.961,
+    "end": 571.402,
+    "speaker": "ESTUDANTE",
+    "text": "E a tecnologia? O capítulo fala da passagem do papel para sistemas digitais."
+  },
+  {
+    "start": 571.402,
+    "end": 589.402,
+    "speaker": "APRESENTADORA",
+    "text": "Durante muito tempo, os dados dependiam de formulários em papel, digitação local, envio de arquivos em mídia física ou transferência periódica. Entre o evento acontecer e a informação aparecer nacionalmente, havia várias etapas."
+  },
+  {
+    "start": 589.402,
+    "end": 592.441,
+    "speaker": "ESTUDANTE",
+    "text": "Então o tempo do dado era mais lento."
+  },
+  {
+    "start": 592.441,
+    "end": 605.642,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. A informatização acelera a circulação, cria críticas automáticas, melhora transmissão e facilita consolidação. Mas não elimina os problemas de qualidade."
+  },
+  {
+    "start": 605.642,
+    "end": 608.602,
+    "speaker": "ESTUDANTE",
+    "text": "Ela muda a forma como os problemas aparecem."
+  },
+  {
+    "start": 608.602,
+    "end": 623.082,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Continuam existindo erros de codificação, duplicidades, campos incompletos, inconsistências entre sistemas e mudanças de layout. Digital não significa perfeito."
+  },
+  {
+    "start": 623.082,
+    "end": 626.442,
+    "speaker": "ESTUDANTE",
+    "text": "E dados mais rápidos podem ser mais preliminares."
+  },
+  {
+    "start": 626.442,
+    "end": 643.283,
+    "speaker": "APRESENTADORA",
+    "text": "Isso é uma tensão permanente: oportunidade e revisão. Para resposta rápida, dados preliminares podem ser essenciais. Para séries históricas e indicadores oficiais, bases consolidadas costumam ser mais adequadas."
+  },
+  {
+    "start": 643.283,
+    "end": 645.803,
+    "speaker": "ESTUDANTE",
+    "text": "Onde entra o DataSUS nessa história?"
+  },
+  {
+    "start": 645.803,
+    "end": 663.403,
+    "speaker": "APRESENTADORA",
+    "text": "O DataSUS é criado em 1991, com o estabelecimento do SUS, inicialmente vinculado à FUNASA. Ele incorporou profissionais e experiências de áreas como o DATAPREV e passou a estruturar a informática em saúde no país."
+  },
+  {
+    "start": 664.93,
+    "end": 669.489,
+    "speaker": "ESTUDANTE",
+    "text": "Mas ele não nasceu exatamente dentro da administração direta do Ministério da Saúde."
+  },
+  {
+    "start": 669.489,
+    "end": 686.17,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. A localização institucional inicial trazia desafios de coordenação. Depois houve um processo de transferência, efetivado em 2002, quando o DataSUS passou a integrar diretamente a estrutura do Ministério da Saúde."
+  },
+  {
+    "start": 686.17,
+    "end": 687.81,
+    "speaker": "ESTUDANTE",
+    "text": "E qual foi o papel dele?"
+  },
+  {
+    "start": 687.81,
+    "end": 703.01,
+    "speaker": "APRESENTADORA",
+    "text": "Manter e desenvolver sistemas de informação, incorporar tecnologias de informática, definir normas e padrões de transmissão, integrar bases nacionais e manter o acervo nacional de dados em saúde."
+  },
+  {
+    "start": 703.01,
+    "end": 708.129,
+    "speaker": "ESTUDANTE",
+    "text": "Então o DataSUS vira uma espécie de infraestrutura comum dos SIS brasileiros."
+  },
+  {
+    "start": 708.129,
+    "end": 721.25,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Ele ajuda a consolidar bases nacionais, padronizar fluxos, ampliar a disseminação pública e apoiar gestores, pesquisadores, profissionais e sociedade."
+  },
+  {
+    "start": 721.25,
+    "end": 726.451,
+    "speaker": "ESTUDANTE",
+    "text": "A disseminação pública dos dados é uma característica forte da experiência brasileira, não é?"
+  },
+  {
+    "start": 726.451,
+    "end": 742.771,
+    "speaker": "APRESENTADORA",
+    "text": "Muito forte. Tabuladores, arquivos, microdados e bases agregadas permitiram que muita gente usasse informações do SUS para gestão, pesquisa, ensino, controle social e jornalismo de dados."
+  },
+  {
+    "start": 742.771,
+    "end": 747.171,
+    "speaker": "ESTUDANTE",
+    "text": "Isso democratiza o uso, mas também aumenta a responsabilidade."
+  },
+  {
+    "start": 747.171,
+    "end": 762.131,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Acesso público não dispensa documentação. É preciso olhar versão, data de extração, mudança de layout, atualização retroativa e diferença entre dado preliminar e consolidado."
+  },
+  {
+    "start": 762.131,
+    "end": 766.371,
+    "speaker": "ESTUDANTE",
+    "text": "Depois vem a discussão de integração e interoperabilidade."
+  },
+  {
+    "start": 766.371,
+    "end": 783.011,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Como os sistemas cresceram por áreas específicas, eles resolveram muitos problemas, mas também produziram fragmentação. Uma pessoa, um estabelecimento ou um evento de cuidado pode aparecer em várias bases."
+  },
+  {
+    "start": 783.011,
+    "end": 787.491,
+    "speaker": "ESTUDANTE",
+    "text": "Com identificadores, regras e periodicidades diferentes."
+  },
+  {
+    "start": 788.38,
+    "end": 802.06,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Por isso iniciativas como a RNDS e o Conecte SUS ganham importância. Elas apontam para uma tentativa de conectar informações produzidas em diferentes pontos da rede."
+  },
+  {
+    "start": 802.06,
+    "end": 805.9,
+    "speaker": "ESTUDANTE",
+    "text": "Mas interoperabilidade não é só plugar sistema em sistema."
+  },
+  {
+    "start": 805.9,
+    "end": 818.86,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Envolve padrão técnico, governança, segurança da informação, proteção de dados pessoais, transparência e capacidade real de uso pelas equipes de saúde."
+  },
+  {
+    "start": 818.86,
+    "end": 823.58,
+    "speaker": "ESTUDANTE",
+    "text": "Se a equipe não consegue usar a informação, a integração fica pela metade."
+  },
+  {
+    "start": 823.58,
+    "end": 834.82,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Integração boa não é só circulação de dados. É informação útil no cuidado, na gestão, na vigilância e na avaliação."
+  },
+  {
+    "start": 834.82,
+    "end": 839.1,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo também chama atenção para qualidade e desigualdades."
+  },
+  {
+    "start": 839.1,
+    "end": 856.74,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. A trajetória brasileira mostra avanços enormes em cobertura e disseminação, mas problemas como subregistro, atraso, incompletude, inconsistência, duplicidade e mudança de critérios continuam existindo."
+  },
+  {
+    "start": 856.74,
+    "end": 859.1,
+    "speaker": "ESTUDANTE",
+    "text": "E eles não se distribuem igualmente."
+  },
+  {
+    "start": 859.1,
+    "end": 879.54,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Municípios, regiões e serviços com menor infraestrutura tendem a enfrentar mais dificuldades para registrar e transmitir dados de forma oportuna. Campos como raça ou cor, escolaridade, ocupação e território podem ter preenchimento desigual."
+  },
+  {
+    "start": 879.54,
+    "end": 884.54,
+    "speaker": "ESTUDANTE",
+    "text": "Então desigualdade social e desigualdade informacional se encontram."
+  },
+  {
+    "start": 884.54,
+    "end": 897.1,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E isso é crucial. Se a qualidade de uma variável é pior justamente onde a vulnerabilidade é maior, a análise pode subestimar desigualdades."
+  },
+  {
+    "start": 897.1,
+    "end": 904.14,
+    "speaker": "ESTUDANTE",
+    "text": "Sistemas recentes também têm desafios próprios, como registros individualizados e integração entre fontes."
+  },
+  {
+    "start": 904.14,
+    "end": 920.62,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. No SI-PNI, por exemplo, perdas de registro e diferenças entre fontes podem afetar estimativas de cobertura vacinal. No SISAGUA, a completude dos campos é central para qualificar a vigilância da água."
+  },
+  {
+    "start": 920.87,
+    "end": 924.71,
+    "speaker": "ESTUDANTE",
+    "text": "Então a história dos SIS não é uma sequência otimista de progresso linear."
+  },
+  {
+    "start": 924.71,
+    "end": 934.15,
+    "speaker": "APRESENTADORA",
+    "text": "Não. É uma história de avanços reais, mas também de camadas, disputas, desigualdades, limitações e adaptações."
+  },
+  {
+    "start": 934.15,
+    "end": 938.39,
+    "speaker": "ESTUDANTE",
+    "text": "Isso muda a forma de olhar para uma base. Ela não é só um arquivo."
+  },
+  {
+    "start": 938.39,
+    "end": 951.19,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ela é o resultado de relações institucionais, tecnologias disponíveis, regras administrativas, prioridades sanitárias e capacidades locais."
+  },
+  {
+    "start": 951.19,
+    "end": 954.63,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu tivesse que levar uma pergunta deste episódio, qual seria?"
+  },
+  {
+    "start": 954.63,
+    "end": 970.95,
+    "speaker": "APRESENTADORA",
+    "text": "Eu levaria esta: que história tornou este dado possível? Antes de calcular um indicador, vale perguntar quem registrou, com que instrumento, para qual finalidade, em que fluxo e com quais limitações."
+  },
+  {
+    "start": 970.95,
+    "end": 975.23,
+    "speaker": "ESTUDANTE",
+    "text": "Então conhecer o histórico não é só cultura geral. É método."
+  },
+  {
+    "start": 975.23,
+    "end": 991.989,
+    "speaker": "APRESENTADORA",
+    "text": "É método. A história ajuda a escolher fontes, desconfiar de comparações fáceis, entender quebras de série e interpretar lacunas. No fim, usar bem os SIS brasileiros exige olhar para os dados como produtos de uma trajetória."
+  },
+  {
+    "start": 991.989,
+    "end": 997.91,
+    "speaker": "ESTUDANTE",
+    "text": "E essa trajetória explica por que o sistema parece, ao mesmo tempo, potente e fragmentado."
+  },
+  {
+    "start": 997.91,
+    "end": 1015.67,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Potente porque reúne uma quantidade enorme de informações públicas. Fragmentado porque nasceu de necessidades diferentes, em tempos diferentes. O trabalho analítico começa quando a gente reconhece as duas coisas."
+  },
+  {
+    "start": 1015.67,
+    "end": 1020.39,
+    "speaker": "ESTUDANTE",
+    "text": "Gostei. A história deixa de ser pano de fundo e vira parte da análise."
+  },
+  {
+    "start": 1020.39,
+    "end": 1036.47,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a mensagem. No próximo capítulo, essa leitura histórica ajuda a organizar melhor os SIS: não como uma sopa de siglas, mas como sistemas com eventos, finalidades, coberturas e unidades de análise próprias."
+  }
+]
