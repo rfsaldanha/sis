@@ -25,8 +25,8 @@ transcript_file="podcast/${output_prefix}_transcript.json"
 output_mp3="podcast/${output_prefix}.mp3"
 
 : "${ELEVENLABS_API_KEY:?Set ELEVENLABS_API_KEY before running this script.}"
-: "${ELEVENLABS_HOST_VOICE_ID:?Set ELEVENLABS_HOST_VOICE_ID to an ElevenLabs voice_id.}"
-: "${ELEVENLABS_STUDENT_VOICE_ID:?Set ELEVENLABS_STUDENT_VOICE_ID to an ElevenLabs voice_id.}"
+host_voice_id="RKj1DIXprh8zdvjllfhJ"
+student_voice_id="ec54d9BmuMSN4IinPrjv"
 
 for cmd in curl jq ffmpeg ffprobe; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
@@ -55,9 +55,9 @@ while IFS=$'\t' read -r speaker text; do
   chunk=$(printf '%s/%03d.mp3' "$chunks_dir" "$i")
 
   if [ "$speaker" = "APRESENTADORA" ]; then
-    voice_id="$ELEVENLABS_HOST_VOICE_ID"
+    voice_id="$host_voice_id"
   else
-    voice_id="$ELEVENLABS_STUDENT_VOICE_ID"
+    voice_id="$student_voice_id"
   fi
 
   if [ -s "$chunk" ] && ffprobe -v error "$chunk" >/dev/null 2>&1; then
