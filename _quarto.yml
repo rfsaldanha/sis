@@ -38,9 +38,9 @@ project:
     - podcast/sisaps.mp3
     - podcast/sisaps.md
     - podcast/sisaps_transcript.json
-    - podcast/sisagua.mp3
+    - podcast/sisagua_dialogo_eleven_v3.mp3
     - podcast/sisagua.md
-    - podcast/sisagua_transcript.json
+    - podcast/sisagua_dialogo_eleven_v3_transcript.json
     - podcast/sipni.mp3
     - podcast/sipni.md
     - podcast/sipni_transcript.json

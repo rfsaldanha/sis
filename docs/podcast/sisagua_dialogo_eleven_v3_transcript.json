@@ -1,0 +1,956 @@
+[
+  {
+    "start": 0,
+    "end": 20.6,
+    "speaker": "APRESENTADORA",
+    "text": "Olá. Hoje a conversa é sobre o SISAGUA, o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano. E a ideia central é simples, mas poderosa: o SISAGUA não registra doenças. Ele ajuda a enxergar riscos ligados à água que a população consome."
+  },
+  {
+    "start": 20.6,
+    "end": 30.96,
+    "speaker": "ESTUDANTE",
+    "text": "Então ele não é como o SINAN, que registra notificações de agravos, nem como o SIH, que registra internações. Ele olha para a água e para o abastecimento."
+  },
+  {
+    "start": 30.96,
+    "end": 45.36,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ele descreve formas de abastecimento, monitoramento da qualidade da água, resultados de controle e ações de vigilância. É uma base ambiental e sanitária, não uma base clínica."
+  },
+  {
+    "start": 45.36,
+    "end": 54.6,
+    "speaker": "ESTUDANTE",
+    "text": "Isso já muda a pergunta. Em vez de perguntar \"quem adoeceu?\", eu pergunto \"como a água está sendo abastecida, monitorada e avaliada?\""
+  },
+  {
+    "start": 54.6,
+    "end": 68.879,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E essa diferença é essencial para não forçar o dado além do que ele mede. O SISAGUA apoia a vigilância, a gestão de risco e a prevenção de doenças de veiculação hídrica."
+  },
+  {
+    "start": 68.879,
+    "end": 71.12,
+    "speaker": "ESTUDANTE",
+    "text": "O sistema está ligado ao Vigiagua, certo?"
+  },
+  {
+    "start": 71.12,
+    "end": 81.76,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O SISAGUA é um dos principais instrumentos do Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano, o Vigiagua."
+  },
+  {
+    "start": 81.76,
+    "end": 86.64,
+    "speaker": "ESTUDANTE",
+    "text": "Então o sistema é a infraestrutura de informação de um programa de vigilância."
+  },
+  {
+    "start": 86.64,
+    "end": 99.76,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O Vigiagua define uma agenda de promoção da saúde, prevenção de agravos e vigilância da água. O SISAGUA organiza os registros que ajudam a acompanhar essa agenda."
+  },
+  {
+    "start": 99.76,
+    "end": 106.239,
+    "speaker": "ESTUDANTE",
+    "text": "E por que água precisa de um sistema próprio? Não bastaria monitorar surtos depois que eles acontecem?"
+  },
+  {
+    "start": 106.239,
+    "end": 124.24,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Se a vigilância só aparece depois do surto, ela chega tarde. A água para consumo humano precisa ser monitorada antes que o problema vire doença. O objetivo é antecipar risco, identificar falhas e orientar resposta."
+  },
+  {
+    "start": 124.97,
+    "end": 129.05,
+    "speaker": "ESTUDANTE",
+    "text": "Então o SISAGUA trabalha mais perto da prevenção do que da assistência."
+  },
+  {
+    "start": 129.05,
+    "end": 148.491,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ele ajuda a perguntar: que formas de abastecimento existem? A população está coberta por formas cadastradas? O controle está fazendo análises? A vigilância coletou amostras? Há resultado fora do padrão? Há ausência de amostra?"
+  },
+  {
+    "start": 148.491,
+    "end": 155.131,
+    "speaker": "ESTUDANTE",
+    "text": "Essa última pergunta parece crucial: ausência de amostra não é a mesma coisa que água segura."
+  },
+  {
+    "start": 155.131,
+    "end": 166.971,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma das mensagens centrais do capítulo. \"Não houve resultado fora do padrão\" e \"não houve amostra registrada\" são situações sanitárias muito diferentes."
+  },
+  {
+    "start": 166.971,
+    "end": 174.651,
+    "speaker": "ESTUDANTE",
+    "text": "A primeira pode sugerir que as amostras analisadas estavam adequadas. A segunda diz que talvez nem se tenha olhado."
+  },
+  {
+    "start": 174.651,
+    "end": 184.811,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E, quando não se olha, não dá para concluir que está tudo bem. Pode haver segurança, mas também pode haver invisibilidade."
+  },
+  {
+    "start": 184.811,
+    "end": 188.491,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar no tempo. Quando o SISAGUA surge?"
+  },
+  {
+    "start": 188.491,
+    "end": 207.211,
+    "speaker": "APRESENTADORA",
+    "text": "Ele surge no contexto do Vigiagua. A primeira versão foi concebida pela Funasa em 1999 e disponibilizada em 2000. Depois, em 2003, passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde."
+  },
+  {
+    "start": 207.211,
+    "end": 210.57,
+    "speaker": "ESTUDANTE",
+    "text": "E foi se adaptando às normas de potabilidade."
+  },
+  {
+    "start": 210.57,
+    "end": 226.091,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. As reformulações acompanharam mudanças na norma de qualidade da água, nos fluxos de cadastro, controle e vigilância, e nas formas de disseminação por relatórios, painéis e dados abertos."
+  },
+  {
+    "start": 226.091,
+    "end": 231.292,
+    "speaker": "ESTUDANTE",
+    "text": "Isso significa que séries históricas podem ser afetadas por mudanças de sistema e de norma?"
+  },
+  {
+    "start": 231.292,
+    "end": 251.852,
+    "speaker": "APRESENTADORA",
+    "text": "Podem. Mudanças normativas, versões do sistema, capacidade local de monitoramento e completitude cadastral podem alterar a série. Uma variação observada pode refletir mudança real da água, mas também mudança no registro, na exigência ou na vigilância."
+  },
+  {
+    "start": 252.74,
+    "end": 258.34,
+    "speaker": "ESTUDANTE",
+    "text": "Então, de novo, não basta olhar a curva. É preciso entender como o dado foi produzido."
+  },
+  {
+    "start": 258.34,
+    "end": 271.1,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Essa frase vale para quase todos os sistemas, mas no SISAGUA ela é ainda mais importante porque o dado combina cadastro, laboratório, norma e ação de vigilância."
+  },
+  {
+    "start": 271.1,
+    "end": 273.62,
+    "speaker": "ESTUDANTE",
+    "text": "Como funciona o fluxo de informação?"
+  },
+  {
+    "start": 273.62,
+    "end": 285.7,
+    "speaker": "APRESENTADORA",
+    "text": "O fluxo combina informações de responsáveis pelo abastecimento, profissionais de vigilância em saúde, laboratórios, gestão municipal e estadual, e Ministério da Saúde."
+  },
+  {
+    "start": 285.7,
+    "end": 290.82,
+    "speaker": "ESTUDANTE",
+    "text": "Então há vários produtores de informação, não apenas uma equipe digitando tudo."
+  },
+  {
+    "start": 290.82,
+    "end": 310.82,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O responsável pelo abastecimento informa dados de controle da qualidade da água. A vigilância em saúde registra ações do setor saúde. Laboratórios geram resultados analíticos. A gestão acompanha cadastro, análise, resposta e completitude."
+  },
+  {
+    "start": 310.82,
+    "end": 316.34,
+    "speaker": "ESTUDANTE",
+    "text": "E o Ministério da Saúde consolida, dissemina e organiza painéis e dados abertos."
+  },
+  {
+    "start": 316.34,
+    "end": 329.86,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Essa cadeia cria uma riqueza grande de informação, mas também exige cuidado: atraso, lacuna ou divergência podem ter origem em pontos diferentes do fluxo."
+  },
+  {
+    "start": 329.86,
+    "end": 335.54,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar dos módulos. O capítulo destaca Cadastro, Controle e Vigilância."
+  },
+  {
+    "start": 335.54,
+    "end": 354.98,
+    "speaker": "APRESENTADORA",
+    "text": "Esses são os três módulos principais. O Cadastro descreve as formas de abastecimento e características associadas. O Controle reúne o monitoramento realizado pelo responsável pelo abastecimento. A Vigilância reúne o monitoramento realizado pelo setor saúde."
+  },
+  {
+    "start": 354.98,
+    "end": 364.019,
+    "speaker": "ESTUDANTE",
+    "text": "Então o Cadastro define o universo. O Controle mostra a responsabilidade operacional. A Vigilância mostra a ação do setor saúde."
+  },
+  {
+    "start": 364.019,
+    "end": 369.78,
+    "speaker": "APRESENTADORA",
+    "text": "Excelente resumo. E a análise precisa preservar essas diferenças."
+  },
+  {
+    "start": 369.78,
+    "end": 375.141,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu quiser saber que formas de abastecimento existem em um município, uso Cadastro."
+  },
+  {
+    "start": 375.39,
+    "end": 386.99,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Se quiser avaliar se o prestador realizou análises previstas, você olha o Controle. Se quiser avaliar coletas feitas pelo setor saúde, olha a Vigilância."
+  },
+  {
+    "start": 386.99,
+    "end": 389.71,
+    "speaker": "ESTUDANTE",
+    "text": "E se eu quiser resultados fora do padrão?"
+  },
+  {
+    "start": 389.71,
+    "end": 401.511,
+    "speaker": "APRESENTADORA",
+    "text": "Pode olhar Controle ou Vigilância, mas mantendo a origem do dado. Resultado de controle e resultado de vigilância não devem ser misturados automaticamente."
+  },
+  {
+    "start": 401.511,
+    "end": 402.591,
+    "speaker": "ESTUDANTE",
+    "text": "Por quê?"
+  },
+  {
+    "start": 402.591,
+    "end": 419.871,
+    "speaker": "APRESENTADORA",
+    "text": "Porque têm finalidades diferentes. O Controle verifica e mantém a potabilidade da água fornecida pelo responsável pelo abastecimento. A Vigilância verifica o cumprimento da norma e avalia risco à saúde de forma independente."
+  },
+  {
+    "start": 419.871,
+    "end": 423.95,
+    "speaker": "ESTUDANTE",
+    "text": "E as amostras da vigilância podem ser direcionadas a risco."
+  },
+  {
+    "start": 423.95,
+    "end": 437.951,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Podem ser de rotina, denúncia, surto, desastre, enchente, seca ou outra ação específica. Se você mistura tudo com controle, perde o sentido da coleta."
+  },
+  {
+    "start": 437.951,
+    "end": 449.551,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma proporção alta de amostras fora do padrão na vigilância pode indicar pior qualidade, mas também pode indicar que a vigilância foi atrás de locais mais problemáticos."
+  },
+  {
+    "start": 449.551,
+    "end": 456.911,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Por isso, o resultado precisa ser interpretado junto com a estratégia de coleta."
+  },
+  {
+    "start": 456.911,
+    "end": 465.391,
+    "speaker": "ESTUDANTE",
+    "text": "Agora as formas de abastecimento. SAA, SAC, SAI e carro-pipa aparecem bastante."
+  },
+  {
+    "start": 465.391,
+    "end": 490.911,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. SAA é Sistema de Abastecimento de Água, em geral coletivo, com rede de distribuição. SAC é Solução Alternativa Coletiva. SAI é Solução Alternativa Individual, como poço ou nascente de uso individual. E carro-pipa representa abastecimento por transporte de água."
+  },
+  {
+    "start": 490.911,
+    "end": 496.351,
+    "speaker": "ESTUDANTE",
+    "text": "Essas categorias parecem técnicas, mas têm implicações práticas enormes."
+  },
+  {
+    "start": 496.6,
+    "end": 514.36,
+    "speaker": "APRESENTADORA",
+    "text": "Têm. Cada forma tem responsabilidades, riscos, possibilidades de controle e formas de monitoramento diferentes. Um sistema com rede de distribuição não é comparável diretamente a uma solução individual ou a abastecimento por carro-pipa."
+  },
+  {
+    "start": 514.36,
+    "end": 520.04,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu comparar municípios sem separar essas formas, posso esconder desigualdades."
+  },
+  {
+    "start": 520.04,
+    "end": 535,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Um município pode parecer bem monitorado no conjunto, mas ter lacunas importantes em soluções alternativas, áreas rurais, comunidades isoladas ou uso emergencial de carro-pipa."
+  },
+  {
+    "start": 535,
+    "end": 537.481,
+    "speaker": "ESTUDANTE",
+    "text": "Qual é a unidade de análise do SISAGUA?"
+  },
+  {
+    "start": 537.481,
+    "end": 549.801,
+    "speaker": "APRESENTADORA",
+    "text": "Depende do módulo. Pode ser forma de abastecimento, município abastecido, ponto de coleta, amostra, parâmetro ou população estimada abastecida."
+  },
+  {
+    "start": 549.801,
+    "end": 556.52,
+    "speaker": "ESTUDANTE",
+    "text": "Então contar cadastros não é contar amostras, e contar amostras não é contar pessoas expostas."
+  },
+  {
+    "start": 556.52,
+    "end": 571.32,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Uma forma de abastecimento pode gerar várias amostras. Uma amostra pode ter vários parâmetros. E uma estimativa de população abastecida não é automaticamente a população residente."
+  },
+  {
+    "start": 571.32,
+    "end": 575.72,
+    "speaker": "ESTUDANTE",
+    "text": "Isso lembra o CNES: a linha muda de significado conforme o arquivo."
+  },
+  {
+    "start": 575.72,
+    "end": 584.121,
+    "speaker": "APRESENTADORA",
+    "text": "Boa conexão. No SISAGUA, a regra é parecida: antes de contar, pergunte o que a linha representa."
+  },
+  {
+    "start": 584.121,
+    "end": 587.321,
+    "speaker": "ESTUDANTE",
+    "text": "Que dimensões precisam estar sempre no radar?"
+  },
+  {
+    "start": 587.321,
+    "end": 598.521,
+    "speaker": "APRESENTADORA",
+    "text": "Tempo, território, forma de abastecimento, responsável, ponto de coleta, parâmetro, resultado e origem do dado."
+  },
+  {
+    "start": 598.521,
+    "end": 603.802,
+    "speaker": "ESTUDANTE",
+    "text": "Tempo parece simples, mas tem cadastro anual e amostras mensais ou eventuais."
+  },
+  {
+    "start": 603.802,
+    "end": 617.401,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Cadastro e amostra não vivem no mesmo relógio. O cadastro pode ter referência anual, enquanto resultados de monitoramento têm data e, muitas vezes, mês de coleta."
+  },
+  {
+    "start": 617.401,
+    "end": 626.922,
+    "speaker": "ESTUDANTE",
+    "text": "Território também é delicado, porque pode haver município, localidade, endereço, coordenada, ponto de captação, ponto de consumo..."
+  },
+  {
+    "start": 629.97,
+    "end": 640.65,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O lugar da amostra não é sempre o lugar da exposição, e o município abastecido pode diferir de outros pontos do ciclo de abastecimento."
+  },
+  {
+    "start": 640.65,
+    "end": 643.97,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar dos parâmetros. O que costuma aparecer?"
+  },
+  {
+    "start": 643.97,
+    "end": 666.85,
+    "speaker": "APRESENTADORA",
+    "text": "Há parâmetros microbiológicos, como coliformes totais e Escherichia coli; parâmetros de desinfecção, como cloro residual livre; físico-químicos, como turbidez, cor e pH; fluoretação, como fluoreto; e substâncias químicas, como agrotóxicos e metais."
+  },
+  {
+    "start": 666.85,
+    "end": 669.731,
+    "speaker": "ESTUDANTE",
+    "text": "Cada grupo aponta para um tipo de risco."
+  },
+  {
+    "start": 669.731,
+    "end": 691.011,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Microbiológicos podem indicar contaminação fecal e exigem atenção rápida. Desinfecção e turbidez ajudam a avaliar barreiras sanitárias e tratamento. Substâncias químicas podem demandar séries longas, método analítico adequado e frequência específica."
+  },
+  {
+    "start": 691.011,
+    "end": 695.812,
+    "speaker": "ESTUDANTE",
+    "text": "Então não faz sentido juntar tudo em uma categoria única de \"qualidade da água\"."
+  },
+  {
+    "start": 695.812,
+    "end": 711.892,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Qualidade da água não é uma variável única. É uma avaliação normativa e técnica baseada em parâmetros, unidades, métodos, ponto de coleta e padrão de potabilidade."
+  },
+  {
+    "start": 711.892,
+    "end": 717.332,
+    "speaker": "ESTUDANTE",
+    "text": "O mesmo valor pode ter interpretação diferente dependendo da norma vigente."
+  },
+  {
+    "start": 717.332,
+    "end": 724.133,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Por isso, qualquer análise séria precisa documentar a norma usada no período."
+  },
+  {
+    "start": 724.133,
+    "end": 728.693,
+    "speaker": "ESTUDANTE",
+    "text": "E o plano de amostragem? O capítulo dá bastante peso a isso."
+  },
+  {
+    "start": 728.693,
+    "end": 744.636,
+    "speaker": "APRESENTADORA",
+    "text": "Porque ele é o elo entre cadastro, norma e monitoramento. O número esperado de amostras depende da norma vigente, população abastecida, forma de abastecimento, parâmetro, frequência de monitoramento e ponto de coleta."
+  },
+  {
+    "start": 744.636,
+    "end": 750.656,
+    "speaker": "ESTUDANTE",
+    "text": "Então não existe um número fixo de amostras que vale para todos os municípios."
+  },
+  {
+    "start": 750.656,
+    "end": 759.256,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Um município, uma forma de abastecimento e um parâmetro podem ter exigências diferentes de outro município, outra forma e outro parâmetro."
+  },
+  {
+    "start": 760.38,
+    "end": 765.9,
+    "speaker": "ESTUDANTE",
+    "text": "Antes de interpretar proporção fora do padrão, eu preciso saber se a amostragem foi suficiente."
+  },
+  {
+    "start": 765.9,
+    "end": 778.62,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Um indicador pode parecer excelente simplesmente porque houve pouca amostragem. Por isso, proporção de inconformidade e cobertura de monitoramento precisam andar juntas."
+  },
+  {
+    "start": 778.62,
+    "end": 782.94,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos para os exemplos. Primeiro, cobertura de abastecimento."
+  },
+  {
+    "start": 782.94,
+    "end": 794.94,
+    "speaker": "APRESENTADORA",
+    "text": "Uma análise inicial pode estimar a distribuição da população abastecida por tipo de forma de abastecimento. Isso ajuda a entender a estrutura de abastecimento do território."
+  },
+  {
+    "start": 794.94,
+    "end": 798.7,
+    "speaker": "ESTUDANTE",
+    "text": "Mas população abastecida é uma estimativa cadastral."
+  },
+  {
+    "start": 798.7,
+    "end": 811.74,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Ela não equivale automaticamente à população residente. Pode haver sobreposição entre formas de abastecimento, cadastro desatualizado ou estimativas inconsistentes."
+  },
+  {
+    "start": 811.74,
+    "end": 818.141,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se a soma de população abastecida passa da população residente, isso precisa ser investigado."
+  },
+  {
+    "start": 818.141,
+    "end": 828.541,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Pode haver dupla contagem, sobreposição, erro cadastral ou particularidade local. Não é algo para aceitar sem auditoria."
+  },
+  {
+    "start": 828.541,
+    "end": 831.901,
+    "speaker": "ESTUDANTE",
+    "text": "Segundo exemplo: amostras fora do padrão."
+  },
+  {
+    "start": 831.901,
+    "end": 846.22,
+    "speaker": "APRESENTADORA",
+    "text": "Esse indicador deve ser calculado por parâmetro, território, período, forma de abastecimento, origem do dado e ponto de coleta. Sem essas camadas, a proporção pode ficar enganosa."
+  },
+  {
+    "start": 846.22,
+    "end": 854.061,
+    "speaker": "ESTUDANTE",
+    "text": "Por exemplo, turbidez fora do padrão na rede de distribuição não tem a mesma leitura que um problema em ponto de consumo ou captação."
+  },
+  {
+    "start": 854.061,
+    "end": 858.54,
+    "speaker": "APRESENTADORA",
+    "text": "Correto. O ponto de coleta muda a interpretação."
+  },
+  {
+    "start": 858.54,
+    "end": 860.061,
+    "speaker": "ESTUDANTE",
+    "text": "E para E. coli?"
+  },
+  {
+    "start": 860.061,
+    "end": 879.101,
+    "speaker": "APRESENTADORA",
+    "text": "A presença de E. coli indica contaminação fecal e é central para risco sanitário. Mas mesmo esse indicador precisa de contexto: quantas amostras? Em quais pontos? Em qual forma de abastecimento? Controle ou vigilância? Rotina ou denúncia?"
+  },
+  {
+    "start": 879.35,
+    "end": 888.47,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma única presença pode ser sanitariamente importante, mas não permite generalizar para todo o município sem entender representatividade."
+  },
+  {
+    "start": 888.47,
+    "end": 896.27,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O dado pode acionar investigação e resposta, mas a inferência territorial exige cuidado."
+  },
+  {
+    "start": 896.27,
+    "end": 899.51,
+    "speaker": "ESTUDANTE",
+    "text": "O terceiro exemplo é cumprimento do plano de amostragem."
+  },
+  {
+    "start": 899.51,
+    "end": 912.31,
+    "speaker": "APRESENTADORA",
+    "text": "Esse é um indicador de monitoramento. Ele compara amostras realizadas com amostras esperadas, por município, forma de abastecimento, parâmetro, origem do dado e período."
+  },
+  {
+    "start": 912.31,
+    "end": 919.03,
+    "speaker": "ESTUDANTE",
+    "text": "Ele não diz diretamente se a água está boa ou ruim. Ele diz se o território foi monitorado como deveria."
+  },
+  {
+    "start": 919.03,
+    "end": 925.989,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. E isso é decisivo. Sem monitoramento, o silêncio da base não é tranquilizador."
+  },
+  {
+    "start": 925.989,
+    "end": 928.83,
+    "speaker": "ESTUDANTE",
+    "text": "Como avaliar qualidade dos dados do SISAGUA?"
+  },
+  {
+    "start": 928.83,
+    "end": 942.951,
+    "speaker": "APRESENTADORA",
+    "text": "Verifique completitude cadastral, atualização, consistência territorial, plano de amostragem, unidade e método dos parâmetros, duplicidade, oportunidade e origem do dado."
+  },
+  {
+    "start": 942.951,
+    "end": 945.51,
+    "speaker": "ESTUDANTE",
+    "text": "Qualidade não é só campo preenchido."
+  },
+  {
+    "start": 945.51,
+    "end": 960.03,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Um cadastro pode estar preenchido, mas desatualizado. Um resultado pode estar presente, mas com unidade incoerente. Uma série pode ter muitas amostras, mas concentradas em poucos pontos."
+  },
+  {
+    "start": 960.03,
+    "end": 961.27,
+    "speaker": "ESTUDANTE",
+    "text": "E oportunidade?"
+  },
+  {
+    "start": 961.27,
+    "end": 971.91,
+    "speaker": "APRESENTADORA",
+    "text": "É o tempo entre coleta, resultado, registro e uso da informação. Em vigilância da água, atraso pode reduzir a capacidade de resposta."
+  },
+  {
+    "start": 971.91,
+    "end": 975.91,
+    "speaker": "ESTUDANTE",
+    "text": "Porque o risco pode estar acontecendo enquanto o dado ainda não chegou."
+  },
+  {
+    "start": 975.91,
+    "end": 980.99,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Para gestão de risco, o tempo do dado importa."
+  },
+  {
+    "start": 980.99,
+    "end": 987.43,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar de espaço. O capítulo alerta que mapas do SISAGUA precisam ser lidos com cuidado."
+  },
+  {
+    "start": 988,
+    "end": 1003.84,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Captação, tratamento, reservatório, rede de distribuição e ponto de consumo são etapas diferentes. Um mapa de pontos amostrados não representa automaticamente a qualidade da água de todo o município."
+  },
+  {
+    "start": 1003.84,
+    "end": 1013.84,
+    "speaker": "ESTUDANTE",
+    "text": "Um ponto de captação mostra água bruta. Um ponto de consumo mostra água depois de todo o caminho, possivelmente com influência do domicílio."
+  },
+  {
+    "start": 1013.84,
+    "end": 1028.28,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E uma coordenada pode estar ausente, imprecisa ou representar sede administrativa. Antes de calcular distância ou fazer mapa de risco, é preciso validar o que o ponto representa."
+  },
+  {
+    "start": 1028.28,
+    "end": 1038.32,
+    "speaker": "ESTUDANTE",
+    "text": "Então, para inferir área abastecida, preciso relacionar forma de abastecimento, população estimada, setor ou localidade, quando disponível."
+  },
+  {
+    "start": 1038.32,
+    "end": 1042.8,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O ponto no mapa é só uma parte da história."
+  },
+  {
+    "start": 1042.8,
+    "end": 1048.962,
+    "speaker": "ESTUDANTE",
+    "text": "E as emergências? Denúncia, surto, enchente, seca, desastre..."
+  },
+  {
+    "start": 1048.962,
+    "end": 1061.202,
+    "speaker": "APRESENTADORA",
+    "text": "Nessas situações, as coletas podem ser direcionadas a locais de maior risco. Isso é excelente para resposta em saúde pública, mas dificulta comparar com rotina."
+  },
+  {
+    "start": 1061.202,
+    "end": 1068.083,
+    "speaker": "ESTUDANTE",
+    "text": "Uma série com muitas coletas motivadas por denúncia pode parecer pior porque procurou problemas."
+  },
+  {
+    "start": 1068.083,
+    "end": 1079.123,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A vigilância fica mais sensível ao risco. Isso precisa ser registrado, não tratado como viés inconveniente a ser ignorado."
+  },
+  {
+    "start": 1079.123,
+    "end": 1081.604,
+    "speaker": "ESTUDANTE",
+    "text": "Como os dados são acessados?"
+  },
+  {
+    "start": 1081.604,
+    "end": 1093.444,
+    "speaker": "APRESENTADORA",
+    "text": "Há dados abertos, relatórios do sistema, painéis Vigiagua ou SISAGUA, webservices e integração com o GAL, o Gerenciador de Ambiente Laboratorial."
+  },
+  {
+    "start": 1093.444,
+    "end": 1098.164,
+    "speaker": "ESTUDANTE",
+    "text": "Para pesquisa reprodutível, dados abertos são importantes."
+  },
+  {
+    "start": 1098.164,
+    "end": 1111.844,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, mas podem ser grandes. Em séries extensas, planilhas comuns podem ser insuficientes. É melhor usar R, Python, DuckDB, Arrow, Polars ou banco de dados."
+  },
+  {
+    "start": 1111.844,
+    "end": 1115.044,
+    "speaker": "ESTUDANTE",
+    "text": "E a forma de acesso muda a análise?"
+  },
+  {
+    "start": 1115.29,
+    "end": 1133.29,
+    "speaker": "APRESENTADORA",
+    "text": "Pode mudar granularidade, atualização, campos disponíveis e dicionário. Por isso, sempre registre fonte, data de extração, módulo, período, território, forma de abastecimento, parâmetro, ponto de coleta, norma e origem do dado."
+  },
+  {
+    "start": 1133.29,
+    "end": 1137.45,
+    "speaker": "ESTUDANTE",
+    "text": "Isso parece burocrático, mas é o que torna a análise auditável."
+  },
+  {
+    "start": 1137.45,
+    "end": 1148.61,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. No SISAGUA, duas análises podem chegar a resultados diferentes se escolherem módulos, parâmetros ou regras de ausentes de forma diferente."
+  },
+  {
+    "start": 1148.61,
+    "end": 1151.93,
+    "speaker": "ESTUDANTE",
+    "text": "Com que outros sistemas o SISAGUA pode ser relacionado?"
+  },
+  {
+    "start": 1151.93,
+    "end": 1169.611,
+    "speaker": "APRESENTADORA",
+    "text": "Com POP para população residente, com SINAN ou SIH para doenças de veiculação hídrica, com CNES para serviços e laboratórios, com malhas territoriais, saneamento, dados socioeconômicos e registros de desastre."
+  },
+  {
+    "start": 1169.611,
+    "end": 1172.652,
+    "speaker": "ESTUDANTE",
+    "text": "Mas é preciso evitar inferência causal simples."
+  },
+  {
+    "start": 1172.652,
+    "end": 1187.932,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Associar água e doenças em dados agregados exige muito cuidado. O SISAGUA pode indicar exposição potencial e qualidade monitorada; ele não identifica consumo individual nem prova causalidade."
+  },
+  {
+    "start": 1187.932,
+    "end": 1196.412,
+    "speaker": "ESTUDANTE",
+    "text": "Por exemplo, um município com resultado fora do padrão e aumento de diarreia pode levantar hipótese, mas não fechar causalidade."
+  },
+  {
+    "start": 1196.412,
+    "end": 1202.252,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. É um sinal para investigação, não uma sentença causal automática."
+  },
+  {
+    "start": 1202.252,
+    "end": 1204.972,
+    "speaker": "ESTUDANTE",
+    "text": "Quais limitações são mais importantes?"
+  },
+  {
+    "start": 1204.972,
+    "end": 1226.172,
+    "speaker": "APRESENTADORA",
+    "text": "Dependência de registro local e prestadores; cadastro possivelmente desatualizado; ausência de amostra que não indica segurança; diferenças entre controle e vigilância; frequências distintas por parâmetro; ponto de coleta localizado; e mudanças normativas ao longo do tempo."
+  },
+  {
+    "start": 1226.172,
+    "end": 1230.652,
+    "speaker": "ESTUDANTE",
+    "text": "E todas essas limitações não tornam o sistema menos importante."
+  },
+  {
+    "start": 1231.54,
+    "end": 1244.98,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Elas definem como usá-lo corretamente. O SISAGUA é indispensável para vigilância da qualidade da água, mas precisa ser lido como sistema de monitoramento e gestão de risco."
+  },
+  {
+    "start": 1244.98,
+    "end": 1247.327,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos organizar os erros comuns."
+  },
+  {
+    "start": 1247.327,
+    "end": 1264.9,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro: tratar ausência de resultado fora do padrão como água segura. Segundo: somar Controle e Vigilância sem distinção. Terceiro: usar população abastecida como se fosse população residente."
+  },
+  {
+    "start": 1264.9,
+    "end": 1280.979,
+    "speaker": "ESTUDANTE",
+    "text": "Quarto: comparar SAA, SAC, SAI e carro-pipa sem estratificar. Quinto: interpretar ponto de coleta como toda a rede. Sexto: ignorar mudanças da norma de potabilidade."
+  },
+  {
+    "start": 1280.979,
+    "end": 1291.86,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E eu acrescentaria: calcular proporção fora do padrão sem mostrar número de amostras e cumprimento do plano de amostragem."
+  },
+  {
+    "start": 1291.86,
+    "end": 1297.219,
+    "speaker": "ESTUDANTE",
+    "text": "Esse talvez seja o erro mais sedutor, porque a porcentagem parece objetiva."
+  },
+  {
+    "start": 1297.219,
+    "end": 1303.3,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Percentual sem denominador e sem amostragem é uma falsa precisão."
+  },
+  {
+    "start": 1303.3,
+    "end": 1308.58,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu estivesse começando uma análise do SISAGUA, qual seria o checklist mínimo?"
+  },
+  {
+    "start": 1308.58,
+    "end": 1330.66,
+    "speaker": "APRESENTADORA",
+    "text": "Defina módulo, forma de abastecimento, unidade de análise, período, norma, parâmetro, ponto de coleta, origem do dado e denominador. Depois verifique amostras ausentes, resultados vazios, duplicidades, oportunidade e cobertura do monitoramento."
+  },
+  {
+    "start": 1330.66,
+    "end": 1336.74,
+    "speaker": "ESTUDANTE",
+    "text": "E, se for integrar com outras bases, definir território e tempo antes da junção."
+  },
+  {
+    "start": 1336.74,
+    "end": 1350.26,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Município, localidade, ponto de coleta e área abastecida podem não coincidir. Cadastro anual e amostras mensais ou eventuais também não são equivalentes."
+  },
+  {
+    "start": 1350.26,
+    "end": 1359.061,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos imaginar um caso prático. Um gestor quer saber se um município rural está vulnerável por depender de soluções alternativas. Por onde começa?"
+  },
+  {
+    "start": 1360.03,
+    "end": 1378.11,
+    "speaker": "APRESENTADORA",
+    "text": "Eu começaria pelo Cadastro, separando SAA, SAC, SAI e carro-pipa. Depois olharia população estimada abastecida, atualização cadastral, localidades cobertas e possível sobreposição com população residente."
+  },
+  {
+    "start": 1378.11,
+    "end": 1380.75,
+    "speaker": "ESTUDANTE",
+    "text": "Só depois eu entraria nas amostras."
+  },
+  {
+    "start": 1380.75,
+    "end": 1393.949,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Nas amostras, eu separaria Controle e Vigilância, verificaria parâmetros prioritários, número de coletas, pontos de coleta e cumprimento do plano de amostragem."
+  },
+  {
+    "start": 1393.949,
+    "end": 1399.79,
+    "speaker": "ESTUDANTE",
+    "text": "Se houver poucas amostras em SAI ou carro-pipa, o problema pode ser invisibilidade."
+  },
+  {
+    "start": 1399.79,
+    "end": 1410.43,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A ausência de inconformidade em uma forma pouco monitorada não deve ser lida como segurança. Pode ser uma lacuna de vigilância."
+  },
+  {
+    "start": 1410.43,
+    "end": 1414.031,
+    "speaker": "ESTUDANTE",
+    "text": "E se aparecer presença de Escherichia coli em algumas coletas?"
+  },
+  {
+    "start": 1414.031,
+    "end": 1432.511,
+    "speaker": "APRESENTADORA",
+    "text": "Aí o sinal é sanitariamente relevante. Mas a resposta analítica ainda precisa localizar o ponto, identificar a forma de abastecimento, separar rotina de denúncia, verificar recorrência e avaliar se há população potencialmente exposta."
+  },
+  {
+    "start": 1432.511,
+    "end": 1438.751,
+    "speaker": "ESTUDANTE",
+    "text": "Então o SISAGUA ajuda tanto a priorizar ação imediata quanto a construir diagnóstico."
+  },
+  {
+    "start": 1438.751,
+    "end": 1458.431,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Ele serve para gestão cotidiana e para análise epidemiológica ambiental. A diferença está no desenho: resposta rápida foca o evento e o risco; análise de série histórica foca comparabilidade, completitude e norma."
+  },
+  {
+    "start": 1458.431,
+    "end": 1461.071,
+    "speaker": "ESTUDANTE",
+    "text": "E como comunicar resultados sem exagerar?"
+  },
+  {
+    "start": 1461.071,
+    "end": 1484.51,
+    "speaker": "APRESENTADORA",
+    "text": "Use frases precisas. Diga \"amostras registradas\", \"formas de abastecimento cadastradas\", \"população estimada abastecida\", \"resultados fora do padrão\" e \"ausência de amostra\". Evite dizer \"a água do município é segura\" se você não avaliou cobertura de monitoramento e representatividade."
+  },
+  {
+    "start": 1484.51,
+    "end": 1487.551,
+    "speaker": "ESTUDANTE",
+    "text": "A linguagem evita conclusões indevidas."
+  },
+  {
+    "start": 1487.551,
+    "end": 1495.631,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. No SISAGUA, uma boa redação protege a interpretação tanto quanto uma boa tabela."
+  },
+  {
+    "start": 1497.32,
+    "end": 1499.4,
+    "speaker": "ESTUDANTE",
+    "text": "Qual é a mensagem central do capítulo?"
+  },
+  {
+    "start": 1499.4,
+    "end": 1520.48,
+    "speaker": "APRESENTADORA",
+    "text": "O SISAGUA é uma base fundamental para entender abastecimento, monitoramento e risco sanitário da água para consumo humano. Ele não mede doença diretamente, mas ajuda a prevenir adoecimento ao revelar onde há monitoramento, inconformidade, lacuna ou risco."
+  },
+  {
+    "start": 1520.48,
+    "end": 1532.2,
+    "speaker": "ESTUDANTE",
+    "text": "E a pergunta não é só \"deu fora do padrão?\", mas \"foi monitorado, em que ponto, por quem, com qual parâmetro, em qual forma de abastecimento e sob qual norma?\""
+  },
+  {
+    "start": 1532.2,
+    "end": 1547.96,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Quando essas perguntas acompanham a análise, o SISAGUA deixa de ser apenas uma base de resultados laboratoriais e se torna uma ferramenta de vigilância, gestão e proteção da saúde pública."
+  }
+]

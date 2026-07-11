@@ -6,11 +6,11 @@ always_allow_html: true
 
 ::: {.content-visible when-format="html"}
 ```{=html}
-<section class="podcast-player" data-transcript="podcast/sisagua_transcript.json">
+<section class="podcast-player" data-transcript="podcast/sisagua_dialogo_eleven_v3_transcript.json">
 <h2>Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
 <audio class="podcast-audio" controls preload="metadata">
-  <source src="podcast/sisagua.mp3" type="audio/mpeg">
+  <source src="podcast/sisagua_dialogo_eleven_v3.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 <details class="podcast-transcript-wrap">
@@ -56,6 +56,8 @@ Use o SISAGUA quando a pergunta envolve abastecimento de água, monitoramento da
 | A água atende ao padrão de potabilidade? | Avaliar resultados por parâmetro | Dados brutos não substituem interpretação normativa |
 | Há áreas com maior risco? | Combinar cadastro, amostras, parâmetros e território | Ausência de análise não é evidência de segurança |
 : Perguntas comuns que podem ser respondidas com o SISAGUA
+
+A tabela delimita o papel do SISAGUA como sistema de vigilância ambiental, não como sistema clínico. Ele ajuda a identificar formas de abastecimento, intensidade de monitoramento, parâmetros críticos e possíveis exposições, mas a força da conclusão depende da combinação entre cadastro atualizado e amostragem suficiente.
 
 ::: {.callout-note}
 O SISAGUA apoia vigilância e gestão de risco. A análise deve separar "não houve resultado fora do padrão" de "não houve amostra registrada". Essas situações têm significados sanitários diferentes.
@@ -106,6 +108,8 @@ flowchart TD
 | Ministério da Saúde | Consolidação nacional, painéis e dados abertos | Dados abertos podem exigir processamento robusto |
 : Atores e responsabilidades no fluxo do SISAGUA
 
+A tabela mostra que o SISAGUA não é alimentado por um único tipo de produtor de informação. Parte dos dados expressa a responsabilidade operacional de quem abastece; outra parte expressa a ação fiscalizatória e analítica do setor saúde. Essa separação é essencial para interpretar atrasos, lacunas e divergências entre controle e vigilância.
+
 ## Módulos do sistema
 
 Os dados do SISAGUA são organizados em três módulos principais: Cadastro, Controle e Vigilância.
@@ -116,6 +120,8 @@ Os dados do SISAGUA são organizados em três módulos principais: Cadastro, Con
 | Controle | Monitoramento realizado por responsáveis pelo abastecimento | Conforme norma de potabilidade e plano de amostragem | Mede responsabilidade do prestador ou responsável |
 | Vigilância | Monitoramento realizado pelo setor saúde | Rotina, denúncia, surto, desastre ou ação específica | Coleta pode ser direcionada a risco |
 : Módulos principais do SISAGUA
+
+Os três módulos respondem a perguntas complementares. O Cadastro define o universo de formas de abastecimento e a população potencialmente abastecida; o Controle mostra o monitoramento feito pelo responsável pelo abastecimento; a Vigilância registra a atuação do setor saúde. Uma análise robusta normalmente usa mais de um módulo, mas não mistura suas linhas como se tivessem o mesmo significado.
 
 ### Qual base usar?
 
@@ -132,6 +138,8 @@ A escolha do conjunto de dados deve seguir a pergunta de análise. O erro mais c
 | Quais substâncias exigem monitoramento menos frequente? | Controle semestral ou bases específicas | Conferir plano de amostragem e norma vigente |
 : Escolha inicial de bases do SISAGUA
 
+A tabela funciona como uma triagem metodológica. Perguntas sobre cobertura começam no Cadastro; perguntas sobre cumprimento de responsabilidade operacional começam no Controle; perguntas sobre ação do setor saúde começam na Vigilância. Quando o estudo combina módulos, a etapa de integração deve preservar origem do dado, período, forma de abastecimento e parâmetro.
+
 ### Controle e Vigilância
 
 Controle e Vigilância são complementares, mas não intercambiáveis. O Controle é executado pelo responsável pelo abastecimento; a Vigilância é executada pelo setor saúde para verificar o atendimento à norma e avaliar risco.
@@ -145,6 +153,8 @@ Controle e Vigilância são complementares, mas não intercambiáveis. O Control
 | Uso comum | Monitorar parâmetros previstos e qualidade operacional | Avaliar risco, priorizar ações e orientar intervenção |
 | Erro comum | Tratar como vigilância pública | Misturar coletas direcionadas com rotina |
 : Diferenças entre Controle e Vigilância no SISAGUA
+
+A distinção entre Controle e Vigilância muda o sentido do indicador. Uma taxa elevada de resultados fora do padrão no Controle pode apontar falha operacional do abastecimento; na Vigilância, pode refletir uma estratégia de coleta direcionada a áreas mais vulneráveis. Por isso, a origem da amostra deve aparecer nos resultados e não apenas nos métodos.
 
 ::: {.callout-warning}
 Não some Controle e Vigilância para calcular uma única proporção de amostras fora do padrão sem justificar. As amostras podem ter objetivos, pontos de coleta e vieses de seleção diferentes.
@@ -161,6 +171,8 @@ A forma de abastecimento é uma dimensão central no SISAGUA. Ela define o conte
 | SAI | Solução Alternativa Individual | Abastecimento individual, como poço ou nascente de uso individual |
 | Carro-pipa | Abastecimento por transporte de água | Pode ser emergencial, complementar ou regular em áreas específicas |
 : Formas de abastecimento registradas no SISAGUA
+
+As formas de abastecimento representam contextos técnicos e sanitários distintos. Sistemas com rede de distribuição permitem determinado tipo de plano de amostragem e controle operacional; soluções alternativas e carro-pipa podem depender mais de inspeção local, cadastro atualizado e resposta rápida. Comparar formas sem estratificação tende a esconder desigualdades de risco e de capacidade de monitoramento.
 
 ::: {.callout-warning}
 Não compare SAA, SAC, SAI e carro-pipa como se tivessem o mesmo significado operacional. Cada forma tem riscos, responsabilidades e possibilidades de monitoramento diferentes.
@@ -180,6 +192,8 @@ A unidade de análise muda conforme o módulo. A contagem de cadastros não equi
 | População estimada abastecida | Cadastro | Denominador de cobertura ou exposição potencial | Estimativa deve ser validada |
 : Unidades de análise frequentes no SISAGUA
 
+Essa tabela reforça que o SISAGUA alterna entre unidades estruturais e unidades laboratoriais. Uma forma de abastecimento pode gerar muitas amostras, uma amostra pode ter vários parâmetros e uma população abastecida pode ser estimada por cadastro. Portanto, a contagem de registros precisa ser traduzida para a unidade substantiva da pergunta antes de virar indicador.
+
 ## Estrutura dos dados
 
 Os dados incluem cadastro das formas de abastecimento, resultados de monitoramento de controle e resultados de vigilância. Em análises reprodutíveis, registre módulo, ano, município, forma de abastecimento, ponto de coleta, parâmetro e regra de tratamento de resultados.
@@ -195,6 +209,8 @@ Os dados incluem cadastro das formas de abastecimento, resultados de monitoramen
 | Resultado | Valor, presença/ausência, atendimento ao padrão | Como foram tratados resultados ausentes ou abaixo do limite? |
 : Dimensões úteis para inspeção do SISAGUA
 
+As dimensões listadas ajudam a separar o que é dado de contexto, o que é dado de coleta e o que é resultado analítico. Essa separação reduz erros como atribuir um resultado laboratorial a todo o município ou interpretar uma amostra de ponto de consumo como se representasse a captação, o tratamento e a rede de distribuição.
+
 ### Dicionário mínimo
 
 | Conceito | Interpretação | Cuidado |
@@ -208,6 +224,8 @@ Os dados incluem cadastro das formas de abastecimento, resultados de monitoramen
 | Ausência de amostra | Falta de monitoramento registrado | Não equivale a água potável |
 : Conceitos mínimos para análise do SISAGUA
 
+O dicionário mínimo explicita termos que costumam ser confundidos na leitura dos dados. Em especial, "fora do padrão" depende de parâmetro, unidade, ponto e norma; "ausência de amostra" é uma informação sobre monitoramento, não sobre qualidade da água. Registrar essas definições evita que o resultado seja interpretado além do que a base permite.
+
 ## Parâmetros e potabilidade
 
 A norma de qualidade da água define parâmetros, valores de referência, planos de amostragem e responsabilidades. No SISAGUA, os parâmetros podem incluir indicadores microbiológicos, físico-químicos, desinfecção, turbidez, fluoretação, substâncias químicas e características organolépticas.
@@ -220,6 +238,8 @@ A norma de qualidade da água define parâmetros, valores de referência, planos
 | Fluoretação | Fluoreto | Relevante para saúde bucal e risco de inadequação |
 | Substâncias químicas | Agrotóxicos, metais, compostos químicos | Exige atenção a frequência, limite e método analítico |
 : Grupos de parâmetros frequentes em análises de qualidade da água
+
+Os grupos de parâmetros apontam riscos de naturezas diferentes. Indicadores microbiológicos costumam exigir resposta rápida; parâmetros de desinfecção e turbidez ajudam a avaliar barreiras sanitárias; substâncias químicas podem demandar séries mais longas e métodos analíticos específicos. A análise deve evitar transformar todos os parâmetros em uma única categoria genérica de "qualidade".
 
 ::: {.callout-note}
 Dados brutos do SISAGUA devem ser interpretados com a norma vigente no período analisado. O mesmo valor pode ter implicações diferentes conforme parâmetro, unidade, ponto de coleta e regra de potabilidade.
@@ -238,6 +258,8 @@ O número esperado de amostras não é fixo para todos os municípios, parâmetr
 | Origem do dado | Controle ou Vigilância | Planos e responsabilidades não são iguais |
 | Período | Mês, semestre ou ano | Comparar amostras realizadas e esperadas no mesmo período |
 : Elementos que definem o plano de amostragem
+
+O plano de amostragem é o elo entre cadastro, norma e monitoramento observado. Sem ele, uma proporção de resultados fora do padrão fica incompleta, porque não se sabe se o território foi suficientemente observado. Por isso, indicadores de qualidade da água devem ser acompanhados por indicadores de cobertura ou cumprimento do monitoramento.
 
 ::: {.callout-tip}
 Antes de interpretar proporções fora do padrão, calcule também a cobertura do monitoramento. Um indicador sanitário frágil pode esconder baixa amostragem.
@@ -371,6 +393,8 @@ A qualidade do SISAGUA depende de cadastro atualizado, oportunidade do registro,
 | Origem do dado | Controle, vigilância, integração laboratorial ou webservice identificados |
 : Dimensões de qualidade relevantes no SISAGUA
 
+A qualidade do SISAGUA deve ser avaliada tanto no cadastro quanto nas amostras. Um município pode ter resultados laboratoriais consistentes e, ainda assim, cadastro incompleto de formas de abastecimento; ou pode ter cadastro amplo, mas baixa oportunidade de digitação de resultados. A leitura conjunta dessas dimensões ajuda a distinguir falha de registro, falha de monitoramento e sinal de risco sanitário.
+
 ```{r}
 #| eval: false
 #| message: false
@@ -402,6 +426,8 @@ Séries temporais do SISAGUA exigem cuidado com mudanças de versão do sistema,
 | Mapas de risco | Validar coordenadas e pontos de coleta | Ponto de coleta pode não representar toda a área abastecida |
 : Cuidados em análises temporais e territoriais do SISAGUA
 
+Comparações temporais e territoriais exigem uma base comum de interpretação. Mudanças na norma, na versão do sistema, na capacidade laboratorial ou na estratégia de coleta podem produzir variações que não correspondem a mudanças reais na qualidade da água. Em estudos comparativos, a estratificação por forma de abastecimento e origem do dado deve vir antes da comparação final.
+
 ## Interpretação espacial
 
 A dimensão espacial do SISAGUA exige cuidado porque diferentes locais podem aparecer no ciclo de abastecimento. Um ponto de captação, uma estação de tratamento, um reservatório, um ponto da rede e um domicílio não representam a mesma exposição.
@@ -415,6 +441,8 @@ A dimensão espacial do SISAGUA exige cuidado porque diferentes locais podem apa
 | Ponto de consumo | Torneira, domicílio, escola ou outro ponto final | Pode refletir condições prediais ou locais |
 | Coordenada | Local do ponto cadastrado ou coletado | Pode estar ausente, imprecisa ou representar sede administrativa |
 : Leitura espacial dos pontos no SISAGUA
+
+Cada local da tabela corresponde a uma etapa diferente do ciclo da água. Um problema na captação não tem a mesma interpretação de um problema na saída do tratamento ou no ponto de consumo; da mesma forma, uma coordenada administrativa não deve ser usada como se fosse ponto real de exposição. A análise espacial precisa explicitar qual etapa está sendo mapeada.
 
 ::: {.callout-note}
 Mapas de amostras devem mostrar pontos amostrados, não "qualidade da água de todo o município". Para inferir área abastecida, relacione forma de abastecimento, população estimada, setor ou localidade quando disponível.
@@ -433,6 +461,8 @@ Coletas realizadas em denúncias, surtos, enchentes, secas, desastres, intermit�
 | Desastre | Ação emergencial de vigilância | Registrar contexto do evento |
 : Situações em que o monitoramento pode ser direcionado por risco
 
+As situações emergenciais aumentam a utilidade do SISAGUA para resposta rápida, mas reduzem a comparabilidade com a rotina. Uma série com muitas coletas motivadas por denúncia, seca ou enchente pode apresentar proporção maior de inconformidades porque a vigilância foi orientada pelo risco. A análise deve identificar esses contextos para não confundir intensificação da vigilância com piora geral da água.
+
 ## Acesso aos dados
 
 O SISAGUA possui diferentes formas de disseminação: dados abertos, relatórios no sistema e painéis de informação. Dados brutos em formato CSV estão disponíveis em portais públicos, geralmente acompanhados de dicionários de dados.
@@ -445,6 +475,8 @@ O SISAGUA possui diferentes formas de disseminação: dados abertos, relatórios
 | Webservices | Envio de dados por responsáveis pelo abastecimento |
 | Integração com GAL | Transmissão de solicitações e resultados laboratoriais |
 : Formas de acesso e integração do SISAGUA
+
+A forma de acesso deve ser escolhida conforme a finalidade. Painéis e relatórios são úteis para acompanhamento e inspeção rápida; dados abertos são mais adequados para reprodutibilidade; webservices e integrações laboratoriais apoiam o fluxo operacional. Em todos os casos, registre a data de extração e o dicionário usado, porque nomes de campos e formatos podem mudar.
 
 -  [SISAGUA - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
 -  [Vigiagua - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
@@ -468,6 +500,8 @@ Os dados abertos do SISAGUA podem ultrapassar limites práticos de planilhas. Pa
 | Arquivos particionados | Análises por ano, UF, módulo ou parâmetro |
 : Estratégias para processamento de dados extensos do SISAGUA
 
+Essas estratégias reduzem o risco de erros causados por limitação de memória ou manipulação manual. Para séries extensas, particionar por ano, UF, módulo ou parâmetro também ajuda a documentar o fluxo de processamento e a repetir a análise sem depender de planilhas intermediárias.
+
 ## Relacionamento com outros sistemas
 
 O SISAGUA pode ser combinado com bases de saúde, território, população e saneamento, desde que a unidade territorial e temporal esteja bem definida.
@@ -481,6 +515,8 @@ O SISAGUA pode ser combinado com bases de saúde, território, população e san
 | Como acompanhar eventos extremos? | SISAGUA + registros de desastre e vigilância | Coletas podem ser direcionadas por risco |
 : Integrações frequentes entre SISAGUA e outros sistemas
 
+As integrações ampliam o valor analítico do SISAGUA, mas também aumentam o risco de inferência indevida. Associar água e doenças, por exemplo, exige cuidado com defasagem temporal, território de exposição, sub-registro e fatores socioambientais. O SISAGUA pode indicar exposição potencial e qualidade monitorada; ele não identifica sozinho o consumo individual nem estabelece causalidade.
+
 ### Checklist para integração
 
 | Checagem | Por que importa |
@@ -492,6 +528,8 @@ O SISAGUA pode ser combinado com bases de saúde, território, população e san
 | Manter forma de abastecimento | SAA, SAC, SAI e carro-pipa não devem ser agregados sem critério |
 | Documentar norma | Padrão de potabilidade depende da regra vigente |
 : Verificações antes de integrar o SISAGUA com outras bases
+
+O checklist resume decisões que precisam ser tomadas antes da junção, não depois. Se território, período, denominador e módulo forem definidos apenas ao final da análise, perdas de relacionamento e diferenças de granularidade podem passar despercebidas. A integração deve começar por um desenho explícito de como abastecimento, amostras e eventos serão aproximados.
 
 ## Limitações
 
@@ -505,6 +543,8 @@ O SISAGUA pode ser combinado com bases de saúde, território, população e san
 | Ponto de coleta é localizado | Pode não representar toda a população abastecida |
 | Mudanças normativas afetam séries | Padrões e planos de amostragem podem mudar |
 : Limitações recorrentes do SISAGUA
+
+Essas limitações delimitam o uso correto do sistema. O SISAGUA é indispensável para vigilância da qualidade da água, mas seus registros dependem de cadastro, monitoramento, laboratório e digitação. A ausência de evidência de inconformidade só deve ser interpretada junto com a evidência de que houve monitoramento suficiente e adequado.
 
 ## Cuidados de interpretação
 
@@ -528,6 +568,8 @@ Ao utilizar o SISAGUA, alguns cuidados são recorrentes:
 | Interpretar ponto de coleta como toda a rede | Considerar localização e representatividade da amostra |
 | Ignorar mudanças da norma de potabilidade | Versionar período e regra aplicada |
 : Erros frequentes em análises com SISAGUA
+
+Os erros da tabela têm uma origem comum: transformar dados de monitoramento em conclusões gerais sem verificar contexto. No SISAGUA, a pergunta correta raramente é apenas "quantas amostras deram fora do padrão"; é também "onde, quando, por quem, com qual parâmetro, em qual ponto, sob qual norma e com que intensidade de amostragem".
 
 ### Armadilhas de interpretação
 
@@ -560,6 +602,8 @@ Uma análise do SISAGUA deve registrar as decisões que afetam módulo, norma, p
 | Ausentes | Como foram tratados amostras ausentes, resultados vazios e abaixo do limite |
 | Origem | Controle, Vigilância, GAL, webservice ou digitação |
 : Itens mínimos para reprodutibilidade em análises do SISAGUA
+
+A reprodutibilidade no SISAGUA depende de registrar escolhas normativas e operacionais, não apenas o código usado. Dois estudos podem baixar a mesma base e chegar a resultados diferentes se escolherem módulos, pontos de coleta, formas de abastecimento ou regras para ausentes de maneira distinta. A tabela oferece um roteiro mínimo para tornar essas escolhas auditáveis.
 
 ## Checklist final
 

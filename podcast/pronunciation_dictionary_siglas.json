@@ -54,6 +54,36 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "SAA",
+      "alias": "ésse a a"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SAC",
+      "alias": "ésse a cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SAI",
+      "alias": "ésse a i"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "GAL",
+      "alias": "gál"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "POP",
+      "alias": "póp"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DuckDB",
+      "alias": "dâc dê bê"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SIVEP",
       "alias": "sivépi"
     },
