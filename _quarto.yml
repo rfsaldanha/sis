@@ -11,9 +11,9 @@ project:
     - podcast/organizacao_dialogo_eleven_v3.mp3
     - podcast/organizacao.md
     - podcast/organizacao_dialogo_eleven_v3_transcript.json
-    - podcast/eventos.mp3
+    - podcast/eventos_dialogo_eleven_v3.mp3
     - podcast/eventos.md
-    - podcast/eventos_transcript.json
+    - podcast/eventos_dialogo_eleven_v3_transcript.json
     - podcast/sim.mp3
     - podcast/sim.md
     - podcast/sim_transcript.json

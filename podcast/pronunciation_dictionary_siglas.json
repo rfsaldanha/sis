@@ -104,6 +104,11 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "COVID-19",
+      "alias": "côvid dezenove"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "DATASUS",
       "alias": "data sús"
     },
