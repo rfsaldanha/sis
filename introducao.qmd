@@ -8,11 +8,11 @@ author:
 
 ::: {.content-visible when-format="html"}
 ```{=html}
-<section class="podcast-player" data-transcript="podcast/introducao_transcript.json">
+<section class="podcast-player" data-transcript="podcast/introducao_dialogo_eleven_v3_transcript.json">
 <h2>Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
 <audio class="podcast-audio" controls preload="metadata">
-  <source src="podcast/introducao.mp3" type="audio/mpeg">
+  <source src="podcast/introducao_dialogo_eleven_v3.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 <details class="podcast-transcript-wrap">

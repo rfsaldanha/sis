@@ -2,9 +2,9 @@ project:
   type: book
   output-dir: docs
   resources:
-    - podcast/introducao.mp3
+    - podcast/introducao_dialogo_eleven_v3.mp3
     - podcast/introducao.md
-    - podcast/introducao_transcript.json
+    - podcast/introducao_dialogo_eleven_v3_transcript.json
     - podcast/historico_dialogo_eleven_v3.mp3
     - podcast/historico.md
     - podcast/historico_dialogo_eleven_v3_transcript.json
