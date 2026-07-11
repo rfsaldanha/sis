@@ -26,9 +26,9 @@ project:
     - podcast/sia.mp3
     - podcast/sia.md
     - podcast/sia_transcript.json
-    - podcast/sinan.mp3
+    - podcast/sinan_dialogo_eleven_v3.mp3
     - podcast/sinan.md
-    - podcast/sinan_transcript.json
+    - podcast/sinan_dialogo_eleven_v3_transcript.json
     - podcast/cnes.mp3
     - podcast/cnes.md
     - podcast/cnes_transcript.json

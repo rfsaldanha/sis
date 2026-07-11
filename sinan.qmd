@@ -6,11 +6,11 @@ always_allow_html: true
 
 ::: {.content-visible when-format="html"}
 ```{=html}
-<section class="podcast-player" data-transcript="podcast/sinan_transcript.json">
+<section class="podcast-player" data-transcript="podcast/sinan_dialogo_eleven_v3_transcript.json">
 <h2>Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
 <audio class="podcast-audio" controls preload="metadata">
-  <source src="podcast/sinan.mp3" type="audio/mpeg">
+  <source src="podcast/sinan_dialogo_eleven_v3.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 <details class="podcast-transcript-wrap">
@@ -41,6 +41,8 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 O Sistema de Informação de Agravos de Notificação (SINAN) é uma das principais fontes da vigilância epidemiológica no Brasil. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde.
 
+As características resumidas na tabela indicam que o SINAN deve ser lido como um sistema de vigilância, e não como um cadastro universal de doenças. Seu desenho privilegia eventos que demandam ação do poder público, investigação epidemiológica ou acompanhamento. Isso torna o sistema muito útil para detectar tendências, orientar respostas e avaliar a oportunidade da vigilância, mas exige cuidado quando os dados são usados para estimar ocorrência total na população.
+
 O ponto central para interpretar o SINAN é que o sistema não registra apenas casos confirmados. Em muitos agravos, a entrada ocorre a partir de uma suspeita, e a classificação final pode ser confirmada, descartada, inconclusiva ou ainda estar em investigação. Por isso, qualquer análise deve declarar se está contando notificações, casos confirmados, casos prováveis, casos descartados ou registros em acompanhamento.
 
 ## Quando usar o SINAN
@@ -57,6 +59,8 @@ O SINAN deve ser usado quando a pergunta envolve doenças e agravos de notifica�
 | O caso foi internado? | Analisar gravidade ou vínculo com internação | SIH (@sec-sih) |
 | Houve atraso de notificação? | Comparar datas de sintomas, notificação e digitação | Rotinas locais de vigilância |
 : Perguntas comuns que podem ser respondidas com o SINAN
+
+A tabela organiza perguntas que parecem próximas, mas que levam a numeradores, datas e territórios diferentes. Contar notificações mede a entrada de suspeitas no sistema; contar confirmados mede uma seleção posterior, depois de investigação ou aplicação de critérios de caso. Do mesmo modo, residência, notificação e provável infecção respondem a dimensões distintas do fenômeno. Uma boa análise com SINAN começa pela escolha explícita dessa pergunta.
 
 ## Histórico e organização
 
@@ -110,6 +114,8 @@ O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a v
 | OpenDataSUS | Bases abertas de alguns agravos | Campos, periodicidade e atualização variam por base |
 : Versões e formas de disseminação relacionadas ao SINAN
 
+A coexistência de versões e canais de disseminação cria uma camada adicional de interpretação. Quando uma série histórica atravessa mudanças de sistema ou de forma de acesso, diferenças no número de registros podem refletir tanto mudanças epidemiológicas quanto alterações operacionais. Por isso, comparações temporais devem registrar a origem da base, o layout usado e eventuais mudanças de fluxo no período.
+
 O Ministério da Saúde mantém uma página sobre o [SINAN](https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan) e uma plataforma específica do [e-SUS SINAN](https://plataforma.saude.gov.br/esussinan/).
 
 ::: {.content-visible when-format="html"}
@@ -158,6 +164,8 @@ As definições de caso são específicas por agravo e podem mudar ao longo do t
 | Vínculo epidemiológico | Associação com caso, exposição, local ou período conhecido | Exige investigação territorial e temporal |
 : Termos usados na classificação de casos no SINAN
 
+Essas categorias mostram que a classificação final não é apenas uma variável administrativa; ela expressa o resultado de um processo de investigação. Em períodos epidêmicos, a participação de confirmações clínico-epidemiológicas pode aumentar, enquanto em períodos de maior disponibilidade laboratorial a composição dos critérios pode mudar. Indicadores como incidência, positividade e letalidade devem considerar essas variações.
+
 ::: {.callout-warning}
 Não reutilize automaticamente códigos de classificação final de um agravo em outro. O significado de campos como `CLASSI_FIN`, `CRITERIO` e `EVOLUCAO` depende do dicionário específico.
 :::
@@ -176,6 +184,8 @@ A unidade de análise no SINAN depende da pergunta e do agravo. Em geral, uma li
 | Acompanhamento | Seguimento de tratamento ou evolução | Tuberculose, hanseníase e agravos crônicos | Pode depender de fichas específicas |
 | Surto | Evento coletivo | Investigação de surtos | Unidade não é o caso individual |
 : Unidades de análise frequentes no SINAN
+
+A escolha da unidade de análise define o que será contado e o que poderá ser interpretado. Em agravos agudos, a notificação pode se aproximar de um episódio; em agravos crônicos ou com acompanhamento, a mesma pessoa pode aparecer em diferentes momentos do cuidado. Em análises individuais, a regra de deduplicação deve ser descrita; em análises agregadas, é necessário deixar claro se o indicador representa registros, casos ou pessoas.
 
 ::: {.callout-warning}
 Evite escrever "casos" quando o numerador conta notificações sem filtro de classificação final. A distinção entre caso suspeito, confirmado, descartado e em investigação é central no SINAN.
@@ -196,6 +206,8 @@ Dados de casos suspeitos reportados no SINAN podem apresentar diversas variávei
 | Notificação | Onde o caso foi notificado? | Fluxo de serviços e vigilância |
 : Datas e territórios usados em análises do SINAN
 
+As datas e os territórios do SINAN representam momentos e lugares diferentes do mesmo processo de vigilância. A data de sintomas aproxima a análise da ocorrência clínica; a data de notificação mede quando a rede foi acionada; a data de digitação expressa a entrada operacional no banco. De forma semelhante, residência, local provável de infecção e unidade notificadora não são intercambiáveis. Cada combinação produz uma leitura distinta da situação epidemiológica.
+
 ### Que data usar?
 
 | Objetivo | Data preferida | Alternativa | Cuidado |
@@ -209,6 +221,8 @@ Dados de casos suspeitos reportados no SINAN podem apresentar diversas variávei
 : Escolha de datas para análises com SINAN
 
 Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, a depender do agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.
+
+O ponto decisivo é manter coerência entre objetivo, data e território. Uma curva por data de notificação pode ser adequada para avaliar a pressão recente sobre a vigilância, mas não substitui uma curva por início de sintomas quando a intenção é descrever a dinâmica temporal da transmissão. Da mesma forma, uma taxa por residência é apropriada para risco populacional, enquanto o local provável de infecção é mais útil para investigar exposição.
 
 Casos em que o município ou UF de provável infecção é o mesmo da residência podem ser classificados como autóctones, isto é, a infecção provavelmente ocorreu no território de residência. Quando o local provável de infecção é diferente da residência, podem ser classificados como alóctones.
 
@@ -230,6 +244,8 @@ Os campos variam conforme agravo, versão da ficha e forma de acesso, mas alguns
 | Campos laboratoriais | Coleta, resultado e método | Disponibilidade varia por agravo |
 : Campos frequentes em bases do SINAN
 
+Esse dicionário mínimo ajuda na primeira inspeção, mas não substitui o dicionário específico de cada agravo. O mesmo nome de campo pode ter códigos diferentes, e campos aparentemente equivalentes podem responder a etapas distintas da investigação. Antes de produzir indicadores, convém montar uma tabela local de metadados com nome do campo, rótulo, categorias válidas, percentual de preenchimento e regra de uso.
+
 ## Qualidade dos dados
 
 A qualidade do SINAN deve ser avaliada por agravo, período, território e variável. Mudanças de ficha, definição de caso, fluxo de notificação, disponibilidade de testes e versões do sistema podem alterar séries temporais.
@@ -244,6 +260,8 @@ A qualidade do SINAN deve ser avaliada por agravo, período, território e vari�
 | Definição de caso | A regra vigente mudou no período? |
 | Sensibilidade da vigilância | Aumento de notificações reflete transmissão, busca ativa ou mudança operacional? |
 : Dimensões de qualidade importantes no SINAN
+
+Essas dimensões devem ser avaliadas em conjunto. Um campo pode ter boa completitude e, ainda assim, baixa consistência; uma melhora repentina na oportunidade pode refletir mudança de fluxo; e um aumento de notificações pode decorrer de busca ativa, sensibilização da rede ou ampliação de testes. A avaliação de qualidade, portanto, precisa acompanhar a interpretação epidemiológica, não aparecer apenas como apêndice técnico.
 
 ```{r}
 #| eval: false
@@ -285,6 +303,8 @@ Oportunidade mede o tempo entre etapas da vigilância. Ela ajuda a avaliar se o 
 | Sintomas até coleta | Data de coleta menos `DT_SIN_PRI` | Oportunidade de diagnóstico laboratorial |
 | Coleta até resultado | Data do resultado menos data de coleta | Tempo laboratorial |
 : Intervalos comuns para medir oportunidade no SINAN
+
+Os intervalos apresentados medem etapas diferentes da resposta. Um atraso entre sintomas e notificação pode indicar dificuldade de acesso ao serviço ou baixa suspeição clínica; atraso entre notificação e digitação aponta para processo operacional; atraso no encerramento sugere demora na investigação, no resultado laboratorial ou na conclusão do caso. Separar esses tempos evita atribuir todos os problemas a uma única etapa.
 
 ```{r}
 #| eval: false
@@ -333,6 +353,8 @@ Duplicidades podem surgir por erro de digitação, notificação em mais de um s
 | Transferência | Registro atualizado por outro município ou serviço | Evitar contar duas vezes |
 : Situações que afetam deduplicação no SINAN
 
+A tabela evidencia que nem todo registro repetido é erro. Em alguns agravos, um novo registro pode representar reinfecção, recidiva, novo episódio ou continuidade de acompanhamento. A deduplicação deve ser conservadora: remover registros sem regra clara pode apagar eventos reais; manter duplicidades administrativas pode inflar indicadores.
+
 Em bases públicas sem identificadores nominais, a deduplicação individual pode ser limitada. Em análises agregadas, documente a impossibilidade de deduplicar pessoas quando o indicador contar registros ou notificações.
 
 ## Exemplo: dengue
@@ -348,6 +370,8 @@ Dengue é um exemplo clássico de uso do SINAN porque combina notificação de s
 | Gravidade | Sinais de alarme, dengue grave, hospitalização ou evolução | Campos variam por ficha e período |
 | Oportunidade | Diferença entre sintomas e notificação | Pode variar por acesso ao serviço |
 : Campos úteis em uma análise de dengue no SINAN
+
+A dengue ilustra bem a necessidade de separar vigilância sensível de confirmação final. Em períodos de alta transmissão, a rede tende a notificar muitos suspeitos, e a confirmação pode depender mais de critério clínico-epidemiológico do que laboratorial. Para comparar municípios ou anos, é importante declarar se o numerador inclui apenas confirmados, prováveis ou notificações suspeitas, além de indicar a data de extração da base.
 
 ```{r}
 #| eval: false
@@ -385,6 +409,8 @@ Arboviroses são um dos usos mais frequentes do SINAN e do OpenDataSUS. Dengue, 
 | Febre Oropouche | e-SUS SINAN e notas técnicas | Emergência e monitoramento recente | Campos e fluxo podem mudar rapidamente |
 : Arboviroses com uso frequente do SINAN
 
+O grupo das arboviroses é particularmente sensível a sazonalidade, clima, circulação vetorial e mudanças na capacidade de testagem. Por isso, a leitura de tendências deve combinar número de notificações, proporção de confirmação, oportunidade de registro e contexto territorial. A comparação entre dengue, chikungunya, zika, febre amarela e Oropouche exige harmonização mínima de definição de caso e período analisado.
+
 Em análises comparativas entre arboviroses, evite somar agravos sem harmonizar definição de caso, período, critério de confirmação, município de residência e local provável de infecção.
 
 ## Agravos por área de vigilância
@@ -400,6 +426,8 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, a consulta fica ma
 | Violências e acidentes | Violência interpessoal/autoprovocada, violência doméstica/sexual, intoxicação exógena, atendimento antirrábico | `VIOL`, `IEXO`, `ANTR` | Envolve sigilo, fluxos intersetoriais e subnotificação |
 | Eventos específicos e inquéritos | Surtos de DTA, tracoma, inquérito de tracoma, notificação individual, mpox | `SDTA`, `NTRA`, `TRAC`, `NIND`, e-SUS SINAN | Estrutura pode diferir bastante entre bases |
 : Guia rápido de agravos e prefixos do SINAN
+
+O agrupamento por área ajuda a escolher documentos e estratégias de análise. Agravos imunopreveníveis exigem atenção à oportunidade da investigação; doenças transmissíveis crônicas demandam acompanhamento longitudinal; saúde do trabalhador depende do vínculo ocupacional; violências combinam vigilância, cuidado e proteção. Assim, o prefixo do arquivo é apenas o ponto de partida: a lógica epidemiológica de cada grupo orienta filtros, indicadores e limitações.
 
 ## Catálogo de documentos por agravo
 
@@ -928,6 +956,8 @@ Os dados do SINAN podem ser acessados por diferentes caminhos. A melhor opção 
 | InfoDengue | Monitoramento oportuno de arboviroses com correção de atraso |
 : Formas de acesso aos dados do SINAN
 
+As formas de acesso diferem em atualização, granularidade, facilidade de uso e rastreabilidade. TabNet é adequado para consulta rápida, mas limita reprodutibilidade e controle fino dos filtros. Microdados em R, Python, OpenDataSUS ou DBC permitem maior transparência metodológica, desde que o analista documente data de acesso, layout, filtros, versão do script e transformação aplicada.
+
 ### TabNet
 
 Os dados do SINAN podem ser acessados no sistema TabNet do DataSUS, na seção "Epidemiológicas e Morbidade".
@@ -1005,7 +1035,7 @@ O SINAN é frequentemente combinado com outros sistemas para qualificar desfecho
 | O evento envolve nascimento ou gestação? | SINAN + SINASC (@sec-sinasc) | Definir unidade: mãe, gestação, nascimento ou caso |
 : Integrações frequentes entre SINAN e outros sistemas
 
-Em relacionamentos de registros, defina previamente se a unidade final será pessoa, caso, episódio, notificação, internação ou óbito. Essa definição muda regras de pareamento, deduplicação e janelas temporais.
+A integração com outros sistemas amplia a capacidade analítica do SINAN, mas também aumenta o risco de erro de unidade. Relacionar notificações com óbitos, internações, procedimentos ou nascimentos exige definir previamente se a unidade final será pessoa, caso, episódio, notificação, internação ou óbito. Essa definição muda regras de pareamento, deduplicação e janelas temporais.
 
 ## SINAN e SIVEP
 
@@ -1038,6 +1068,8 @@ Os dados do SINAN são usados em indicadores de vigilância, incidência, oportu
 | Tempo sintomas-notificação | Diferença entre datas | Avaliar datas inconsistentes |
 : Exemplos de indicadores construídos com dados do SINAN
 
+Os indicadores derivados do SINAN devem ser apresentados com numerador, denominador, filtros de classificação final, período, território e data de extração. A mesma tabela de notificações pode gerar uma taxa de incidência, uma medida de positividade, uma medida de oportunidade ou um indicador de encerramento, mas cada uma dessas medidas responde a perguntas diferentes. O texto analítico deve explicitar essa diferença antes de comparar resultados.
+
 ## Limitações
 
 O SINAN é essencial para vigilância, mas seus dados refletem o funcionamento da rede de notificação e investigação. Isso deve ser explicitado na interpretação.
@@ -1069,6 +1101,8 @@ Essas limitações não reduzem a importância do SINAN. Elas indicam que o sist
 | Divulgação pública recente | Dados podem mudar após encerramento | Informar data de extração e status da base |
 : Limitações do SINAN por tipo de uso analítico
 
+As limitações mudam de peso conforme o uso. Para monitoramento oportuno, o atraso recente pode ser o principal problema; para séries históricas, mudanças de definição e sensibilidade da vigilância ganham importância; para letalidade, o desfecho pode exigir vínculo com o SIM. Por isso, a seção de métodos deve vincular cada limitação ao indicador produzido, em vez de listar ressalvas genéricas.
+
 ## Cuidados de interpretação
 
 Ao utilizar o SINAN, alguns cuidados são recorrentes:
@@ -1091,6 +1125,8 @@ Ao utilizar o SINAN, alguns cuidados são recorrentes:
 | Ignorar registros descartados | Usá-los para positividade e qualidade da vigilância |
 | Comparar bases recentes e consolidadas diretamente | Considerar atraso e atualização |
 : Erros frequentes em análises do SINAN
+
+Esses erros têm em comum a perda do processo de vigilância que produziu o registro. A análise fica mais robusta quando o texto diferencia suspeição, investigação, confirmação, encerramento e atualização da base. Em produtos públicos, essa distinção deve aparecer nas legendas, notas metodológicas e interpretação dos resultados, especialmente quando há comparação temporal ou territorial.
 
 ## Checklist final
 

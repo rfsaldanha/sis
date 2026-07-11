@@ -1,174 +1,323 @@
 # Podcast: SINAN -- Sistema de Informação de Agravos de Notificação
 
-**Livro:** Sistemas de Informação em Saúde no Brasil  
-**Capítulo:** SINAN -- Sistema de Informação de Agravos de Notificação  
-**Formato:** conversa entre apresentadora e estudante  
-**Tom:** acadêmico, mas relaxado
+**Livro:** Sistemas de Informação em Saúde no Brasil
+
+**Capítulo:** SINAN -- Sistema de Informação de Agravos de Notificação
+
+**Formato:** diálogo entre apresentadora e estudante
+
+**Tom:** natural, conversado e didático
+
+**Duração:** 28 minutos e 22 segundos
 
 ## Roteiro
 
-**APRESENTADORA:** Olá. Neste episódio, vamos conversar sobre o SINAN, o Sistema de Informação de Agravos de Notificação.
+**APRESENTADORA:** [warmly] Olá. Hoje a gente vai entrar em um dos sistemas mais importantes da vigilância epidemiológica no Brasil: o SINAN, o Sistema de Informação de Agravos de Notificação.
 
-**ESTUDANTE:** O SINAN é um dos sistemas mais importantes para vigilância epidemiológica, certo?
+**ESTUDANTE:** [curious] Eu conheço o SINAN de nome, principalmente por causa de dengue, violência, tuberculose... mas confesso que sempre fico com uma dúvida básica: ele registra casos ou notificações?
 
-**APRESENTADORA:** Exatamente. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde.
+**APRESENTADORA:** [thoughtful] Essa é a melhor pergunta para começar. Porque o grande ponto do capítulo é exatamente esse: o SINAN não é apenas uma lista de casos confirmados. Ele registra o processo de notificação, investigação, confirmação, descarte, acompanhamento e encerramento.
 
-**ESTUDANTE:** Mas o capítulo começa com um alerta: o SINAN não registra apenas casos confirmados.
+**ESTUDANTE:** [engaged] Então, se eu abro uma base do SINAN e conto as linhas, eu não estou necessariamente contando pessoas doentes.
 
-**APRESENTADORA:** Esse é o ponto central. Em muitos agravos, a entrada no sistema ocorre a partir de uma suspeita. Depois, com investigação, exames e critérios clínico-epidemiológicos, o caso pode ser confirmado, descartado, ficar inconclusivo ou ainda permanecer em investigação.
+**APRESENTADORA:** [affirming] Exatamente. Você pode estar contando suspeitas notificadas, casos ainda em investigação, casos confirmados, casos descartados, registros inconclusivos ou acompanhamentos. Depende do agravo, da ficha, do momento da extração e do filtro usado.
 
-**ESTUDANTE:** Então contar registros no SINAN não é necessariamente contar casos confirmados.
+**ESTUDANTE:** [thinking] Isso muda muito a interpretação. Uma linha pode ser o começo de uma investigação, não o final dela.
 
-**APRESENTADORA:** Perfeito. Toda análise precisa declarar se está contando notificações, casos confirmados, casos prováveis, casos descartados ou registros em acompanhamento.
+**APRESENTADORA:** [warmly] Perfeito. E, por isso, o SINAN precisa ser lido como uma base dinâmica de vigilância, não como um cadastro universal e fechado de doenças.
 
-**ESTUDANTE:** Quando devo usar o SINAN?
+**ESTUDANTE:** [curious] Vamos transformar isso em uma imagem. O que acontece antes de um registro aparecer no SINAN?
 
-**APRESENTADORA:** Use o SINAN quando a pergunta envolve doenças e agravos de notificação compulsória, vigilância epidemiológica, surtos, investigação de casos, confirmação ou descarte, encerramento, oportunidade da notificação ou perfil de casos notificados.
+**APRESENTADORA:** [explaining] Imagine uma pessoa que chega a uma unidade de saúde com sintomas compatíveis com um agravo de notificação. A equipe suspeita, notifica, preenche campos iniciais, e a vigilância começa a investigar. Depois podem entrar exames, classificação final, evolução, encerramento e correções.
 
-**ESTUDANTE:** E ele pode ser combinado com outras fontes.
+**ESTUDANTE:** [engaged] Então o registro muda ao longo do tempo.
 
-**APRESENTADORA:** Sim. Para taxas, costuma ser combinado com população residente. Para mortalidade, pode ser combinado com o SIM. Para internações, com o SIH. Para dados ambientais, vetoriais ou territoriais, depende do agravo e da pergunta.
+**APRESENTADORA:** [affirming] Pode mudar. Uma notificação recente pode estar incompleta. Um caso pode ser descartado depois. Um campo laboratorial pode chegar mais tarde. Uma classificação final pode ser atualizada. Por isso, a data de extração da base importa.
 
-**ESTUDANTE:** Como o SINAN se organiza historicamente?
+**ESTUDANTE:** [curious] E por que o sistema existe? Qual é a função dele na prática?
 
-**APRESENTADORA:** A implantação começou em 1993, de forma gradual. A regulamentação do funcionamento ocorreu em 1998, tornando obrigatória a alimentação regular da base nacional por municípios, estados e Distrito Federal.
+**APRESENTADORA:** [explaining] O SINAN subsidia a vigilância epidemiológica. Ele ajuda a detectar surtos, acompanhar epidemias, investigar casos, orientar ações de controle, avaliar oportunidade da resposta e planejar ações de saúde.
 
-**ESTUDANTE:** A lista de notificação compulsória muda ao longo do tempo.
+**ESTUDANTE:** [thinking] Então ele não existe apenas para gerar tabela. Ele existe para acionar resposta.
 
-**APRESENTADORA:** Muda. A lista nacional é atualizada conforme o cenário epidemiológico, risco de surto ou epidemia, magnitude, gravidade, transcendência e vulnerabilidade. Estados e municípios também podem incluir agravos de interesse local.
+**APRESENTADORA:** [warmly] Exatamente. Essa é a lógica de vigilância. O dado é parte de uma cadeia de ação. Se uma doença exige resposta rápida, o registro precisa entrar em um fluxo que permita investigação e tomada de decisão.
 
-**ESTUDANTE:** Então uma série histórica pode mudar porque a lista ou a definição mudou.
+**ESTUDANTE:** [curious] Quando o capítulo fala em doenças e agravos de notificação compulsória, o que isso quer dizer?
 
-**APRESENTADORA:** Exatamente. Mudanças na lista, na ficha, na definição de caso, na disponibilidade de testes ou no fluxo do sistema podem alterar a série temporal.
+**APRESENTADORA:** [explaining] Quer dizer que determinados eventos devem ser notificados às autoridades de saúde porque têm relevância para a saúde pública. A lista nacional é atualizada conforme risco de surto, gravidade, magnitude, transcendência, vulnerabilidade e mudanças no cenário epidemiológico.
 
-**ESTUDANTE:** Como é o fluxo da notificação?
+**ESTUDANTE:** [engaged] Então a lista pode mudar com o tempo.
 
-**APRESENTADORA:** Em geral, começa com um caso suspeito ou confirmado em uma unidade notificadora. A notificação segue para a vigilância municipal, depois estadual e federal. Dependendo do agravo, há investigação, exames, classificação final, evolução e encerramento.
+**APRESENTADORA:** [affirming] Sim. E isso é fundamental para séries históricas. Se um agravo entra na lista, se a definição muda, se uma ficha muda ou se a capacidade de testagem aumenta, a série pode mudar por razões operacionais, não apenas epidemiológicas.
 
-**ESTUDANTE:** Então a base é dinâmica.
+**ESTUDANTE:** [thinking] Um aumento de notificações pode ser aumento de transmissão, mas também pode ser aumento de sensibilidade da vigilância.
 
-**APRESENTADORA:** Sim. Uma extração pode conter notificações recentes sem encerramento, registros antigos corrigidos ou casos descartados depois da investigação.
+**APRESENTADORA:** [thoughtful] Exatamente. O SINAN mostra o que a rede de vigilância conseguiu captar, registrar e processar. A análise precisa sempre perguntar: o que mudou no evento e o que mudou no sistema?
 
-**ESTUDANTE:** O capítulo menciona SINAN NET, SINAN Online e e-SUS SINAN.
+**ESTUDANTE:** [curious] E historicamente, quando o SINAN começa?
 
-**APRESENTADORA:** Isso. O SINAN NET é usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
+**APRESENTADORA:** [explaining] A implantação começou em 1993, de forma gradual. Depois, em 1998, a alimentação regular da base nacional foi regulamentada como obrigatória para municípios, estados e Distrito Federal.
 
-**ESTUDANTE:** Essa transição pode afetar os dados.
+**ESTUDANTE:** [engaged] Isso ajuda a entender por que ele é tão central hoje.
 
-**APRESENTADORA:** Pode. Mudanças de módulo, formulário, periodicidade e forma de disseminação podem mudar campos, layouts e fluxos operacionais. A análise precisa identificar de onde veio a base e qual dicionário foi usado.
+**APRESENTADORA:** [affirming] Sim. Ele se tornou uma infraestrutura essencial para a vigilância. Mas, como qualquer sistema longevo, passou por mudanças de fluxo, versões, módulos e formas de disseminação.
 
-**ESTUDANTE:** Vamos falar das definições de caso.
+**ESTUDANTE:** [curious] O capítulo fala de SINAN NET, SINAN Online e e-SUS SINAN. Eles são versões do mesmo sistema?
 
-**APRESENTADORA:** Cada agravo tem sua própria definição. Um caso suspeito atende a critérios iniciais de suspeição. Um caso confirmado atende à definição de confirmação, que pode ser laboratorial, clínico-epidemiológica ou outro critério. Um caso descartado foi investigado e não atendeu à definição. Um inconclusivo não teve elementos suficientes para confirmar ou descartar.
+**APRESENTADORA:** [explaining] São formas e estratégias operacionais relacionadas ao SINAN. O SINAN NET foi usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
 
-**ESTUDANTE:** E o critério clínico-epidemiológico aparece bastante em surtos.
+**ESTUDANTE:** [thinking] E a existência dessas versões afeta a análise.
 
-**APRESENTADORA:** Sim. Em situações de surto ou epidemia, quando há limitação de exames, um caso pode ser confirmado por quadro clínico e vínculo epidemiológico com outros casos ou com um território de transmissão.
+**APRESENTADORA:** [affirming] Afeta bastante. Mudanças de módulo podem alterar campos, códigos, periodicidade, oportunidade, forma de preenchimento e layout. Em uma série histórica, uma quebra pode ser tecnológica ou operacional, não necessariamente epidemiológica.
 
-**ESTUDANTE:** Então eu não posso reutilizar automaticamente códigos de um agravo em outro.
+**ESTUDANTE:** [curious] Então, antes de calcular qualquer coisa, eu preciso saber de onde veio a base.
 
-**APRESENTADORA:** Exatamente. Campos como classificação final, critério de confirmação e evolução dependem do dicionário específico do agravo. O mesmo nome de campo pode ter códigos ou sentidos diferentes.
+**APRESENTADORA:** [warmly] Sim. Origem da base, forma de acesso, data de extração, versão do layout, agravo, ficha e dicionário de dados. Isso parece burocrático, mas é o que torna a análise interpretável.
 
-**ESTUDANTE:** Qual é a unidade de análise do SINAN?
+**ESTUDANTE:** [engaged] Vamos para o fluxo. Como uma notificação percorre o sistema?
 
-**APRESENTADORA:** Depende da pergunta e do agravo. Uma linha pode representar uma notificação ou investigação, mas o analista pode querer contar casos confirmados, pessoas, episódios, surtos ou acompanhamentos.
+**APRESENTADORA:** [explaining] Em termos gerais, começa com a suspeita ou confirmação de um evento em uma unidade notificadora. A notificação segue para a vigilância municipal, depois estadual e federal. Paralelamente, pode haver investigação, exames, classificação final, evolução e encerramento.
 
-**ESTUDANTE:** Então a unidade pode mudar bastante.
+**ESTUDANTE:** [curious] Então existe um registro inicial e depois uma investigação que pode completar ou mudar o registro.
 
-**APRESENTADORA:** Sim. Para monitoramento oportuno, a notificação pode ser a unidade. Para incidência, geralmente interessam casos confirmados. Para tuberculose, hanseníase ou agravos crônicos, acompanhamento e encerramento podem ser centrais. Para surtos, a unidade pode ser o evento coletivo.
+**APRESENTADORA:** [affirming] Isso. E esse fluxo explica por que bases recentes costumam ter mais campos pendentes. O registro entrou, mas talvez ainda não tenha sido investigado, classificado ou encerrado.
 
-**ESTUDANTE:** O capítulo também fala muito de datas.
+**ESTUDANTE:** [thinking] Isso é especialmente importante em epidemias, né?
 
-**APRESENTADORA:** Com razão. O SINAN pode ter data de primeiros sintomas, data provável de infecção, data de notificação, data de digitação, datas de exames, data de classificação final, data de encerramento e data de evolução.
+**APRESENTADORA:** [thoughtful] Muito. Em uma epidemia, o sistema recebe muitas notificações rapidamente. A classificação final pode demorar. Os laboratórios podem ter fila. A vigilância pode priorizar casos graves. Então a foto da base muda semana a semana.
 
-**ESTUDANTE:** Qual data usar?
+**ESTUDANTE:** [curious] Por isso o capítulo insiste em separar notificação, caso suspeito, provável, confirmado, descartado e inconclusivo.
 
-**APRESENTADORA:** Depende do objetivo. Para curva epidêmica, muitas vezes usamos data de início de sintomas. Para oportunidade da vigilância, comparamos sintomas, notificação, digitação e encerramento. Para monitoramento operacional, a data de notificação pode ser mais importante.
+**APRESENTADORA:** [explaining] Exatamente. Um caso suspeito atende a critérios iniciais de suspeição. Um caso confirmado atende à definição de confirmação. Um descartado foi investigado e não atende à definição. Um inconclusivo ficou sem elementos suficientes. E um provável pode ter sentido específico conforme o agravo.
 
-**ESTUDANTE:** Misturar datas pode distorcer a interpretação.
+**ESTUDANTE:** [engaged] E a confirmação pode ser laboratorial ou clínico-epidemiológica.
 
-**APRESENTADORA:** Exatamente. Uma curva por data de notificação não descreve a mesma coisa que uma curva por início de sintomas.
+**APRESENTADORA:** [affirming] Sim. Laboratorial quando depende de exame ou teste. Clínico-epidemiológica quando a confirmação considera quadro clínico e vínculo com exposição, local ou caso confirmado. Em surtos, esse critério pode ganhar importância.
 
-**ESTUDANTE:** E os territórios também têm sentidos diferentes.
+**ESTUDANTE:** [thinking] Isso quer dizer que dois períodos podem ter proporções diferentes de confirmação laboratorial só porque a testagem mudou.
 
-**APRESENTADORA:** Sim. Município de residência indica onde vive a pessoa notificada. Município de provável infecção tenta indicar onde ocorreu a exposição. Município de notificação mostra onde o sistema foi acionado.
+**APRESENTADORA:** [thoughtful] Exatamente. Se a disponibilidade de testes aumenta, a composição dos critérios muda. Se há uma grande epidemia e não se testa todo mundo, a confirmação clínico-epidemiológica pode crescer. O indicador precisa levar isso em conta.
 
-**ESTUDANTE:** Para taxa populacional, em geral usamos residência.
+**ESTUDANTE:** [curious] E os códigos? Posso usar sempre o mesmo código de classificação final?
 
-**APRESENTADORA:** Isso. Para investigação de transmissão, pode ser mais adequado usar local provável de infecção. Para gestão de serviços e fluxo de notificação, o município ou unidade notificadora pode ser o foco.
+**APRESENTADORA:** [firm] Não. Esse é um erro comum. Campos como `CLASSI_FIN`, `CRITERIO` e `EVOLUCAO` dependem do dicionário específico do agravo. O mesmo nome de campo pode ter códigos diferentes em bases diferentes.
 
-**ESTUDANTE:** O capítulo menciona casos autóctones e alóctones.
+**ESTUDANTE:** [engaged] Então o dicionário de dados não é detalhe. Ele faz parte do método.
 
-**APRESENTADORA:** Quando o provável local de infecção coincide com a residência, o caso pode ser classificado como autóctone. Quando a infecção provavelmente ocorreu fora do território de residência, pode ser alóctone. Isso é importante para vigilância territorial.
+**APRESENTADORA:** [warmly] Perfeito. Sem dicionário, você pode estar filtrando errado, interpretando uma categoria de forma equivocada ou comparando agravos que não são comparáveis.
 
-**ESTUDANTE:** Quais campos são comuns em bases do SINAN?
+**ESTUDANTE:** [curious] Vamos falar de unidade de análise. No SINAN, uma linha representa o quê?
 
-**APRESENTADORA:** Datas de notificação e sintomas, semana epidemiológica, município de notificação, município de residência, classificação final, critério, evolução, data de encerramento e campos laboratoriais. Mas os nomes e códigos variam conforme agravo, ficha e forma de acesso.
+**APRESENTADORA:** [explaining] Depende. Em geral, uma linha pode representar uma notificação ou investigação. Mas, analiticamente, você pode querer contar notificações, casos confirmados, pessoas, episódios, surtos ou acompanhamentos.
 
-**ESTUDANTE:** Então sempre preciso consultar o dicionário específico.
+**ESTUDANTE:** [thinking] Dá um exemplo de diferença entre notificação e pessoa.
 
-**APRESENTADORA:** Sempre. Automatizar sem conferir o dicionário é uma fonte clássica de erro no SINAN.
+**APRESENTADORA:** [explaining] Uma mesma pessoa pode ser notificada em mais de um serviço, pode ter reinfecção, pode ter acompanhamento posterior ou pode ter registros duplicados. Se você conta linhas, está contando registros. Se quer contar pessoas, precisa de uma regra de relacionamento ou deduplicação, e nem sempre isso é possível em bases públicas.
 
-**ESTUDANTE:** Como avaliar qualidade dos dados?
+**ESTUDANTE:** [engaged] E episódio?
 
-**APRESENTADORA:** Por completitude, consistência, duplicidade, oportunidade, encerramento, definição de caso e sensibilidade da vigilância. A avaliação deve ser feita por agravo, período, território e variável.
+**APRESENTADORA:** [explaining] Episódio é útil quando o evento clínico pode ocorrer mais de uma vez. Por exemplo, uma reinfecção em período posterior pode não ser duplicidade; pode ser um novo episódio. A regra temporal precisa ser definida por agravo.
 
-**ESTUDANTE:** Sensibilidade da vigilância quer dizer o quê?
+**ESTUDANTE:** [curious] E acompanhamento?
 
-**APRESENTADORA:** Quer dizer que aumento de notificações pode refletir aumento real de transmissão, mas também busca ativa, mudança de fluxo, maior disponibilidade de testes ou alteração na suspeição clínica.
+**APRESENTADORA:** [explaining] Em agravos como tuberculose, hanseníase e outros processos que exigem seguimento, acompanhamento e encerramento são parte central da análise. O interesse não é só a notificação inicial, mas o desfecho, o tratamento, a evolução e a conclusão.
 
-**ESTUDANTE:** Oportunidade parece um conceito importante.
+**ESTUDANTE:** [thinking] Então, quando eu escrevo "casos", preciso ter certeza do que estou contando.
 
-**APRESENTADORA:** É. Oportunidade mede o tempo entre etapas da vigilância: sintomas até notificação, notificação até digitação, notificação até encerramento, sintomas até coleta e coleta até resultado. Esses intervalos ajudam a avaliar se a resposta é rápida o suficiente.
+**APRESENTADORA:** [affirming] Exatamente. Se o numerador são notificações sem filtro de classificação final, chame de notificações. Se são confirmados, diga qual filtro foi usado. Se são pessoas, explique como deduplicou.
 
-**ESTUDANTE:** Mas antes de calcular intervalos, é preciso limpar datas impossíveis.
+**ESTUDANTE:** [curious] O capítulo também dá muita atenção a datas. Quais datas aparecem com frequência?
 
-**APRESENTADORA:** Exatamente. Datas de notificação anteriores aos sintomas, encerramento anterior à notificação ou idades incompatíveis precisam ser avaliadas antes da análise.
+**APRESENTADORA:** [explaining] Data de primeiros sintomas, data provável de infecção, data de notificação, data de digitação, datas de coleta e resultado laboratorial, data de classificação final, data de encerramento e data de evolução.
 
-**ESTUDANTE:** E as duplicidades?
+**ESTUDANTE:** [engaged] Cada uma responde a uma pergunta.
 
-**APRESENTADORA:** Podem surgir por erro de digitação, notificação em mais de um serviço, transferência de investigação, reinfecção ou recorrência. A regra de deduplicação deve ser definida por agravo.
+**APRESENTADORA:** [affirming] Sim. Data de sintomas aproxima a curva da ocorrência clínica. Data de notificação mede quando a rede foi acionada. Data de digitação mede entrada operacional no banco. Encerramento mede conclusão da investigação.
 
-**ESTUDANTE:** Em bases públicas, nem sempre dá para deduplicar pessoas.
+**ESTUDANTE:** [curious] Se eu quero uma curva epidêmica, qual data uso?
 
-**APRESENTADORA:** Isso. Sem identificadores nominais, a deduplicação individual pode ser limitada. Nesses casos, o método precisa documentar que o indicador conta registros, notificações ou casos filtrados, não necessariamente pessoas únicas.
+**APRESENTADORA:** [explaining] Em geral, data de início de sintomas ou semana epidemiológica derivada dessa data. Mas depende do agravo. O essencial é não misturar sintomas com notificação sem dizer.
 
-**ESTUDANTE:** O exemplo do capítulo é dengue.
+**ESTUDANTE:** [thinking] Uma curva por notificação pode parecer atrasada ou deslocada em relação à transmissão.
 
-**APRESENTADORA:** Sim. Dengue é um exemplo clássico porque combina notificação de suspeitos, investigação, confirmação ou descarte, classificação clínica, evolução, local provável de infecção e atraso entre ocorrência e registro.
+**APRESENTADORA:** [thoughtful] Exatamente. Ela mede outro momento. Pode ser ótima para acompanhar pressão recente sobre a vigilância, mas não substitui uma curva por início de sintomas quando a pergunta é dinâmica de transmissão.
 
-**ESTUDANTE:** Para dengue, o numerador deve ser casos confirmados ou prováveis, conforme definição vigente.
+**ESTUDANTE:** [curious] E as datas também entram na oportunidade da vigilância.
 
-**APRESENTADORA:** Exatamente. Também é preciso escolher semana de início de sintomas ou outra data compatível, usar território adequado, considerar gravidade e lembrar que bases recentes podem estar incompletas por atraso de notificação, investigação e encerramento.
+**APRESENTADORA:** [explaining] Sim. Oportunidade mede o tempo entre etapas: sintomas até notificação, notificação até digitação, notificação até encerramento, sintomas até coleta, coleta até resultado.
 
-**ESTUDANTE:** O capítulo também fala de arboviroses.
+**ESTUDANTE:** [engaged] Esses intervalos apontam onde o processo pode estar demorando.
 
-**APRESENTADORA:** Sim. Dengue, chikungunya, zika, febre amarela e Oropouche compartilham desafios como sazonalidade, atraso, mudanças na testagem, confirmação clínico-epidemiológica e sobreposição territorial.
+**APRESENTADORA:** [affirming] Isso. Atraso entre sintomas e notificação pode indicar dificuldade de acesso ou baixa suspeição. Atraso entre notificação e digitação é operacional. Atraso no encerramento pode refletir investigação, laboratório ou fluxo de conclusão.
 
-**ESTUDANTE:** Então não é bom somar arboviroses sem harmonizar as definições.
+**ESTUDANTE:** [thinking] Antes de calcular, preciso limpar datas impossíveis.
 
-**APRESENTADORA:** Perfeito. Antes de comparar ou somar agravos, harmonize definição de caso, período, critério de confirmação, residência e local provável de infecção.
+**APRESENTADORA:** [firm] Sim. Encerramento antes da notificação, notificação antes dos sintomas quando isso não faz sentido, datas fora do período, idade incompatível. Tudo isso precisa ser checado antes de interpretar medianas e percentis.
 
-**ESTUDANTE:** O SINAN cobre muitos tipos de agravos.
+**ESTUDANTE:** [curious] Agora território. O SINAN pode ter município de residência, provável infecção e notificação. Qual usar?
 
-**APRESENTADORA:** Sim. Arboviroses e zoonoses, imunopreveníveis, doenças transmissíveis, saúde do trabalhador, violências, intoxicações, eventos adversos, surtos e outros eventos específicos. Por isso o capítulo organiza agravos por área de vigilância e prefixos.
+**APRESENTADORA:** [explaining] Depende da pergunta. Para taxas populacionais, normalmente usamos residência, porque o denominador é população residente. Para investigar transmissão, usamos local provável de infecção. Para fluxo de serviços e gestão da rede, usamos município ou unidade notificadora.
 
-**ESTUDANTE:** Isso ajuda a localizar fichas, instrucionais e dicionários.
+**ESTUDANTE:** [engaged] E autoctonia?
 
-**APRESENTADORA:** Exatamente. No SINAN, a documentação por agravo é parte do método. Ela orienta campos, códigos, classificação final, critérios e regras de encerramento.
+**APRESENTADORA:** [explaining] Quando o provável local de infecção coincide com o território de residência, o caso pode ser considerado autóctone. Quando a infecção provavelmente ocorreu fora, é alóctone. Essa distinção é importante para vigilância territorial, especialmente em agravos transmitidos por vetores.
 
-**ESTUDANTE:** Como os dados podem ser acessados?
+**ESTUDANTE:** [thinking] Então um município pode ter muitos moradores doentes, mas a transmissão pode ter ocorrido em outro lugar.
 
-**APRESENTADORA:** Depende do agravo. Há bases em SINAN NET, SINAN Online, e-SUS SINAN, OpenDataSUS e outros fluxos de disseminação. A disponibilidade, a periodicidade e os campos podem variar bastante.
+**APRESENTADORA:** [affirming] Exatamente. E o contrário também pode acontecer: um território pode ser local provável de infecção para pessoas que residem fora. A análise precisa declarar qual território está medindo.
 
-**ESTUDANTE:** Então a forma de acesso também precisa ser descrita.
+**ESTUDANTE:** [curious] Quais campos costumam aparecer no SINAN e ajudam na primeira inspeção?
 
-**APRESENTADORA:** Sim. A análise deve registrar origem da base, data de extração, período, agravo, dicionário, filtros, definição de caso e tratamento de duplicidades.
+**APRESENTADORA:** [explaining] Datas como `DT_NOTIFIC` e `DT_SIN_PRI`, semana epidemiológica, município de notificação, município de residência, classificação final, critério, evolução, data de encerramento e campos laboratoriais.
 
-**ESTUDANTE:** Quais são os erros mais comuns?
+**ESTUDANTE:** [engaged] Mas de novo: nomes e códigos variam.
 
-**APRESENTADORA:** Contar notificações como se fossem casos confirmados, usar classificação final sem consultar o dicionário do agravo, misturar datas de sintomas e notificação, usar residência quando a pergunta é transmissão local, ignorar atrasos de encerramento e não tratar duplicidades.
+**APRESENTADORA:** [warmly] Sim. Esse é o mantra do SINAN: consulte o dicionário específico. O campo pode ter o mesmo nome, mas outra codificação, outra regra de preenchimento ou outro sentido operacional.
 
-**ESTUDANTE:** Para fechar, qual é a mensagem central do capítulo?
+**ESTUDANTE:** [curious] Como avaliar qualidade dos dados no SINAN?
 
-**APRESENTADORA:** O SINAN é uma fonte fundamental para vigilância epidemiológica no Brasil, mas precisa ser analisado como uma base dinâmica de notificação, investigação e acompanhamento. Bons indicadores dependem de declarar a unidade de análise, aplicar a definição de caso correta, escolher datas e territórios compatíveis e avaliar qualidade, oportunidade, encerramento e duplicidades.
+**APRESENTADORA:** [explaining] Por completitude, consistência, duplicidade, oportunidade, encerramento, definição de caso e sensibilidade da vigilância. E sempre por agravo, período, território e variável.
+
+**ESTUDANTE:** [thinking] Completitude é ver se os campos estão preenchidos.
+
+**APRESENTADORA:** [affirming] Isso. Mas completitude sozinha não basta. Um campo pode estar preenchido e ainda ser inconsistente. Por exemplo, idade incompatível com data de nascimento, evolução incompatível com classificação, datas em ordem impossível.
+
+**ESTUDANTE:** [engaged] E sensibilidade da vigilância é mais difícil, porque envolve o sistema, não só a base.
+
+**APRESENTADORA:** [thoughtful] Exatamente. Aumento de notificações pode ser transmissão real, busca ativa, campanha de sensibilização, mudança de ficha, ampliação de testes ou melhoria do acesso. O dado não vem separado do funcionamento da vigilância.
+
+**ESTUDANTE:** [curious] Duplicidade é sempre erro?
+
+**APRESENTADORA:** [explaining] Não. Pode ser duplicidade administrativa, mas também pode ser reinfecção, recidiva, transferência de investigação ou acompanhamento. Por isso a deduplicação precisa ser conservadora e específica por agravo.
+
+**ESTUDANTE:** [thinking] Remover demais pode apagar evento real; remover de menos pode inflar indicador.
+
+**APRESENTADORA:** [affirming] Exatamente. E em bases públicas, sem identificadores nominais, a deduplicação individual pode ser limitada. O relatório precisa dizer quando o indicador conta registros ou notificações, não pessoas únicas.
+
+**ESTUDANTE:** [curious] Vamos usar dengue como fio condutor, porque é o exemplo clássico.
+
+**APRESENTADORA:** [warmly] Ótimo. Dengue reúne vários desafios do SINAN: notificação de suspeitos, confirmação ou descarte, classificação clínica, sinais de alarme, evolução, local provável de infecção, sazonalidade e atraso de encerramento.
+
+**ESTUDANTE:** [engaged] Se eu quero incidência de dengue, começo contando todas as notificações?
+
+**APRESENTADORA:** [explaining] Não sem cuidado. Para incidência, normalmente você precisa filtrar casos confirmados ou prováveis conforme a definição vigente, escolher território e período, e dividir pela população compatível.
+
+**ESTUDANTE:** [curious] E que data entra no tempo?
+
+**APRESENTADORA:** [explaining] Muitas análises usam semana de início de sintomas, porque ela aproxima a ocorrência clínica. Mas, para gestão operacional, a notificação pode ser mais útil. O importante é a coerência entre pergunta e data.
+
+**ESTUDANTE:** [thinking] Em bases recentes, ainda há casos sem encerramento.
+
+**APRESENTADORA:** [thoughtful] Sim. Por isso monitoramento oportuno de dengue pode precisar de correção de atraso, como nowcasting. O InfoDengue, por exemplo, trabalha justamente com a ideia de reduzir efeitos do atraso de notificação.
+
+**ESTUDANTE:** [curious] E arboviroses em geral?
+
+**APRESENTADORA:** [explaining] Dengue, chikungunya, zika, febre amarela e febre Oropouche compartilham desafios: sazonalidade, vetores, sobreposição de sintomas, mudanças na testagem, confirmação clínico-epidemiológica e interpretações territoriais.
+
+**ESTUDANTE:** [engaged] Então não posso simplesmente somar todas e chamar de "arboviroses" sem harmonizar.
+
+**APRESENTADORA:** [affirming] Exatamente. Antes de somar ou comparar, harmonize definição de caso, critério de confirmação, período, residência, local provável de infecção e status de encerramento.
+
+**ESTUDANTE:** [curious] O capítulo organiza agravos por áreas de vigilância. Isso é só uma lista?
+
+**APRESENTADORA:** [explaining] Não. A organização por área ajuda a entender a lógica de análise. Arboviroses e zoonoses pedem atenção ao território de infecção. Imunopreveníveis exigem investigação oportuna. Doenças transmissíveis crônicas podem exigir acompanhamento. Saúde do trabalhador depende do vínculo ocupacional. Violências envolvem sigilo, cuidado e fluxos intersetoriais.
+
+**ESTUDANTE:** [thinking] Então cada área tem perguntas e cuidados próprios.
+
+**APRESENTADORA:** [affirming] Sim. O prefixo do arquivo ajuda a localizar a base, mas a lógica epidemiológica do agravo orienta os filtros, indicadores e limitações.
+
+**ESTUDANTE:** [curious] O catálogo de documentos do capítulo é longo. Como usar sem se perder?
+
+**APRESENTADORA:** [explaining] Use como porta de entrada. Para cada agravo, procure ficha, instrucional, dicionário de dados e, quando houver, caderno de análise. Esses documentos informam campos, códigos, critérios, fluxo e regras de encerramento.
+
+**ESTUDANTE:** [engaged] Ou seja, antes de escrever código, eu leio a documentação.
+
+**APRESENTADORA:** [warmly] Sim. No SINAN, documentação é método. Sem ela, a análise vira tentativa e erro.
+
+**ESTUDANTE:** [curious] E as formas de acesso? TabNet, TabWin, DBC, OpenDataSUS, R, Python, PCDaS...
+
+**APRESENTADORA:** [explaining] Cada caminho tem vantagens. TabNet é rápido para tabulações agregadas. TabWin e DBC permitem processamento local. R e Python ajudam em fluxos reprodutíveis. OpenDataSUS oferece bases abertas de alguns agravos. PCDaS permite análises em infraestrutura de notebooks. InfoDengue é muito útil para arboviroses com correção de atraso.
+
+**ESTUDANTE:** [thinking] A forma de acesso muda a rastreabilidade.
+
+**APRESENTADORA:** [affirming] Sim. Em análises reprodutíveis, registre data de acesso, fonte, filtros, UF, ano, agravo, layout, dicionário e versão do script. Isso permite que outra pessoa entenda o caminho até o resultado.
+
+**ESTUDANTE:** [curious] E quando relacionamos SINAN com outros sistemas?
+
+**APRESENTADORA:** [explaining] Aí o ganho é grande, mas o risco também. Com SIM, podemos qualificar óbitos. Com SIH, internações. Com SIA, produção ambulatorial. Com população, taxas. Com CNES, serviços notificadores. Com SINASC, eventos envolvendo gestação ou nascimento.
+
+**ESTUDANTE:** [engaged] Mas a unidade final precisa estar clara.
+
+**APRESENTADORA:** [affirming] Exatamente. Relacionar notificação com óbito, internação ou nascimento exige decidir se a unidade final será pessoa, caso, episódio, internação, óbito ou notificação. Isso define janela temporal, regra de pareamento e deduplicação.
+
+**ESTUDANTE:** [curious] O capítulo também diferencia SINAN e SIVEP. Onde costuma estar a confusão?
+
+**APRESENTADORA:** [explaining] Os dois são sistemas de vigilância, mas não são equivalentes. O SINAN organiza uma ampla lista de doenças e agravos. O SIVEP reúne componentes específicos, como SIVEP-Gripe para Síndrome Respiratória Aguda Grave e SIVEP-Malária para malária em áreas e fluxos específicos.
+
+**ESTUDANTE:** [thinking] Então, para SRAG, eu não devo substituir SIVEP-Gripe por notificações gerais do SINAN.
+
+**APRESENTADORA:** [firm] Exato. E para malária, é preciso considerar o território: na região amazônica, o fluxo é SIVEP-Malária; no SINAN, a cobertura é principalmente extra-amazônica.
+
+**ESTUDANTE:** [curious] Quais indicadores aparecem com frequência no SINAN?
+
+**APRESENTADORA:** [explaining] Incidência de agravo confirmado, taxa de notificação, positividade, proporção de encerramento oportuno, letalidade, proporção de confirmação laboratorial e tempos de oportunidade.
+
+**ESTUDANTE:** [engaged] Todos precisam ser descritos com numerador e denominador.
+
+**APRESENTADORA:** [affirming] Sim. E também filtros, período, território, data de extração e status da base. A mesma base pode gerar indicadores diferentes; o que muda é a pergunta.
+
+**ESTUDANTE:** [curious] Positividade é um exemplo interessante.
+
+**APRESENTADORA:** [explaining] Sim. Ela considera a proporção de confirmados entre notificações encerradas, separando confirmados, descartados e inconclusivos. Nesse caso, registros descartados são úteis, porque ajudam a avaliar o processo de suspeição e confirmação.
+
+**ESTUDANTE:** [thinking] Então descartado não é lixo.
+
+**APRESENTADORA:** [warmly] De forma nenhuma. Descartados podem ser fundamentais para qualidade da vigilância, positividade e entendimento da sensibilidade do sistema.
+
+**ESTUDANTE:** [curious] E letalidade?
+
+**APRESENTADORA:** [explaining] Letalidade exige cuidado com desfecho. O óbito pode estar incompleto no SINAN, pode aparecer depois ou exigir relacionamento com SIM. Se o desfecho não está bem captado, a letalidade pode ficar subestimada.
+
+**ESTUDANTE:** [engaged] Isso vale para outros desfechos também, como internação.
+
+**APRESENTADORA:** [affirming] Sim. Se a pergunta envolve gravidade assistencial, pode ser necessário relacionar com SIH, respeitando janelas temporais e critérios de pareamento.
+
+**ESTUDANTE:** [curious] Quais são as limitações recorrentes do SINAN?
+
+**APRESENTADORA:** [explaining] Subnotificação, atraso de notificação, atraso de encerramento, mudança de definição de caso, diferenças entre agravos, duplicidades, transição para e-SUS SINAN e qualidade variável de campos como raça/cor, escolaridade, local provável de infecção e evolução.
+
+**ESTUDANTE:** [thinking] Mas essas limitações não tornam o sistema ruim.
+
+**APRESENTADORA:** [affirming] Não. Elas mostram como usar o sistema com responsabilidade. O SINAN é essencial, justamente porque registra a vigilância em ação. Só não pode ser tratado como se fosse uma verdade absoluta e instantânea sobre todos os eventos que ocorreram.
+
+**ESTUDANTE:** [curious] Dá para resumir os erros mais comuns?
+
+**APRESENTADORA:** [explaining] Contar notificações como casos confirmados. Comparar agravos com fichas diferentes como se fossem iguais. Misturar datas. Usar residência quando a pergunta é transmissão local. Ignorar descartados. Comparar bases recentes com bases consolidadas sem considerar atraso. E não consultar o dicionário.
+
+**ESTUDANTE:** [engaged] Parece que o capítulo todo está ensinando uma postura.
+
+**APRESENTADORA:** [warmly] Sim. A postura é: antes de calcular, entenda o processo. Antes de comparar, harmonize. Antes de concluir, verifique a qualidade e declare as escolhas.
+
+**ESTUDANTE:** [thinking] Vamos montar um checklist mental para alguém que acabou de baixar uma base do SINAN.
+
+**APRESENTADORA:** [explaining] Primeiro: qual agravo? Segundo: qual fonte e data de acesso? Terceiro: qual ficha, versão e dicionário? Quarto: qual unidade de análise? Quinto: qual classificação final entra no numerador?
+
+**ESTUDANTE:** [engaged] Sexto: qual data representa o tempo da análise.
+
+**APRESENTADORA:** [affirming] Sétimo: qual território representa a pergunta. Oitavo: como lidar com duplicidades, reinfecções ou acompanhamentos. Nono: qual a completitude dos campos essenciais. Décimo: a base é recente ou consolidada?
+
+**ESTUDANTE:** [curious] E, por fim, quais limitações precisam aparecer no texto.
+
+**APRESENTADORA:** [thoughtful] Exatamente. A análise não termina no número. Ela termina em uma interpretação honesta do que o número mede, do que ele não mede e de como foi produzido.
+
+**ESTUDANTE:** [engaged] Eu gostei dessa ideia de que o SINAN não é só uma base; é a memória operacional da vigilância.
+
+**APRESENTADORA:** [warmly] É uma boa síntese. Ele mostra suspeitas, investigações, confirmações, descartes, atrasos, fluxos e respostas. Quando bem analisado, permite enxergar não apenas a doença, mas a capacidade do sistema de saúde de perceber e reagir.
+
+**ESTUDANTE:** [curious] Se eu tivesse que guardar uma frase deste episódio, qual seria?
+
+**APRESENTADORA:** [thoughtful] Guarde esta: no SINAN, contar bem é contar com contexto. Cada indicador precisa declarar unidade de análise, definição de caso, data, território, fonte, dicionário e estágio da investigação.
+
+**ESTUDANTE:** [warmly] E quando esses elementos estão claros, o SINAN vira uma ferramenta muito poderosa para a saúde pública.
+
+**APRESENTADORA:** [affirming] Exatamente. Esse é o equilíbrio: reconhecer limitações sem desperdiçar o potencial de uma das principais fontes da vigilância epidemiológica brasileira.

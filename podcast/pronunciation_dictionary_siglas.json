@@ -109,6 +109,66 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "e-SUS",
+      "alias": "i sús"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SINAN NET",
+      "alias": "sinã nét"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIVEP-Gripe",
+      "alias": "sivépi gripe"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIVEP-Malária",
+      "alias": "sivépi malária"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SRAG",
+      "alias": "ésse rág"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DTA",
+      "alias": "dê tê á"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "LER/DORT",
+      "alias": "lér dort"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CLASSI_FIN",
+      "alias": "classi fin"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CRITERIO",
+      "alias": "critério"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "EVOLUCAO",
+      "alias": "evolução"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DT_NOTIFIC",
+      "alias": "dê tê notífic"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DT_SIN_PRI",
+      "alias": "dê tê sin pri"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "DATASUS",
       "alias": "data sús"
     },
