@@ -1,0 +1,920 @@
+[
+  {
+    "start": 0,
+    "end": 17.04,
+    "speaker": "APRESENTADORA",
+    "text": "Olá. Hoje a gente vai conversar sobre o CNES, o Cadastro Nacional de Estabelecimentos de Saúde. E eu quero começar com uma provocação simples: o CNES não conta atendimentos. Ele conta a rede onde os atendimentos podem acontecer."
+  },
+  {
+    "start": 17.04,
+    "end": 25.681,
+    "speaker": "ESTUDANTE",
+    "text": "Então ele é como um mapa da estrutura do sistema de saúde? Unidades, serviços, leitos, equipamentos, profissionais... esse tipo de coisa?"
+  },
+  {
+    "start": 25.681,
+    "end": 46.161,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ele identifica e caracteriza estabelecimentos de saúde no Brasil. Localização, natureza jurídica, gestão, tipo de unidade, atendimento SUS, serviços, equipamentos, equipes, leitos, habilitações e vínculos profissionais."
+  },
+  {
+    "start": 46.161,
+    "end": 58.001,
+    "speaker": "ESTUDANTE",
+    "text": "Isso já muda a forma de olhar. Se eu quero saber quantas internações ocorreram, eu vou ao SIH. Se eu quero saber como é o hospital que registrou essas internações, eu olho o CNES."
+  },
+  {
+    "start": 58.001,
+    "end": 74.081,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. O CNES é uma base de estrutura. Ele não registra consulta, internação, nascimento, óbito ou notificação. Mas ele ajuda a interpretar onde esses eventos foram registrados."
+  },
+  {
+    "start": 74.081,
+    "end": 81.761,
+    "speaker": "ESTUDANTE",
+    "text": "E por que esse sistema é tão central? Porque parece um cadastro, mas ao mesmo tempo aparece em várias análises importantes."
+  },
+  {
+    "start": 81.761,
+    "end": 100.001,
+    "speaker": "APRESENTADORA",
+    "text": "Porque quase todo evento em saúde precisa de contexto. Uma internação não é só uma internação; ela acontece em um estabelecimento, em um município, em uma rede, com determinado perfil de leitos, gestão e vínculo com o SUS."
+  },
+  {
+    "start": 100.001,
+    "end": 110.481,
+    "speaker": "ESTUDANTE",
+    "text": "Então o CNES dá o pano de fundo da rede. Ele ajuda a responder: que tipo de serviço é esse, onde está, que estrutura declarou ter, e como ele se conecta ao SUS."
+  },
+  {
+    "start": 110.481,
+    "end": 133.201,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E a conversa de hoje vai seguir esse arco: primeiro, de onde veio o CNES; depois, como ele é organizado; em seguida, os exemplos de leitos, profissionais, integração com SIH e SIA, análise espacial, qualidade e, por fim, os erros que a gente precisa evitar."
+  },
+  {
+    "start": 134.01,
+    "end": 139.21,
+    "speaker": "ESTUDANTE",
+    "text": "Ótimo. Porque eu tenho uma sensação de que o CNES parece fácil até a gente abrir os arquivos."
+  },
+  {
+    "start": 139.21,
+    "end": 149.45,
+    "speaker": "APRESENTADORA",
+    "text": "É uma sensação muito honesta. O CNES é simples na ideia e complexo na prática. A chave é respeitar a unidade de análise."
+  },
+  {
+    "start": 149.45,
+    "end": 153.77,
+    "speaker": "ESTUDANTE",
+    "text": "Antes de chegar nos arquivos, vamos voltar um pouco. Como surge esse cadastro?"
+  },
+  {
+    "start": 153.77,
+    "end": 168.17,
+    "speaker": "APRESENTADORA",
+    "text": "Os primeiros esforços para sistematizar informações sobre estabelecimentos aparecem ainda em 1976, com a Pesquisa da Assistência Médico-Sanitária, a AMS, realizada pelo IBGE."
+  },
+  {
+    "start": 168.17,
+    "end": 172.811,
+    "speaker": "ESTUDANTE",
+    "text": "E no mesmo período existiam sistemas ligados ao pagamento de contas hospitalares, certo?"
+  },
+  {
+    "start": 172.811,
+    "end": 192.852,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Também em 1976 foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares, o SNCPCH, no âmbito do INAMPS. O objetivo era administrativo, mas para pagar serviços era preciso saber quem prestava esses serviços."
+  },
+  {
+    "start": 192.852,
+    "end": 200.732,
+    "speaker": "ESTUDANTE",
+    "text": "Então a necessidade de cadastro aparece junto com a necessidade de organizar pagamento, controle e identificação de prestadores."
+  },
+  {
+    "start": 200.732,
+    "end": 216.813,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Depois o SNCPCH foi extinto, mas suas fichas continuaram em outros sistemas, como o SAMPS, nos anos 1980, e depois no SIH, nos anos 1990."
+  },
+  {
+    "start": 216.813,
+    "end": 219.773,
+    "speaker": "ESTUDANTE",
+    "text": "E quando a ideia de CNES começa a tomar a forma atual?"
+  },
+  {
+    "start": 219.773,
+    "end": 238.094,
+    "speaker": "APRESENTADORA",
+    "text": "Após a implantação do SIA, em 1994, ficaram evidentes inconsistências nos dados dos estabelecimentos. Isso levou à criação da Ficha de Cadastro de Estabelecimentos de Saúde, a FCES, em 1997."
+  },
+  {
+    "start": 238.094,
+    "end": 245.694,
+    "speaker": "ESTUDANTE",
+    "text": "A FCES é como uma etapa intermediária: antes do CNES consolidado, havia uma ficha cadastral mais estruturada."
+  },
+  {
+    "start": 245.694,
+    "end": 267.534,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E em 2000, a Portaria SAS/MS número 403 definiu o Cadastro Nacional de Estabelecimentos de Saúde. A primeira versão foi disponibilizada em 2001, seguida de um recadastramento informatizado entre 2001 e 2003."
+  },
+  {
+    "start": 268.66,
+    "end": 275.86,
+    "speaker": "ESTUDANTE",
+    "text": "Então o CNES tem uma origem administrativa, mas se transforma em uma base fundamental para gestão, planejamento e pesquisa."
+  },
+  {
+    "start": 275.86,
+    "end": 286.66,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma boa síntese. Ele nasce muito conectado a faturamento e controle, mas hoje é a referência para entender a estrutura cadastrada da rede de saúde."
+  },
+  {
+    "start": 286.66,
+    "end": 290.739,
+    "speaker": "ESTUDANTE",
+    "text": "E o que exatamente é um estabelecimento de saúde nessa lógica?"
+  },
+  {
+    "start": 290.739,
+    "end": 310.259,
+    "speaker": "APRESENTADORA",
+    "text": "O capítulo define como um espaço físico delimitado e permanente onde são realizadas ações e serviços de saúde humana sob responsabilidade técnica. Isso é importante porque o código CNES identifica uma unidade da rede, não uma pessoa, um procedimento ou um evento."
+  },
+  {
+    "start": 310.259,
+    "end": 321.54,
+    "speaker": "ESTUDANTE",
+    "text": "Então quando eu vejo um código CNES, ele está apontando para um estabelecimento, mesmo que eu use esse código dentro do SIH, do SIA, do SINAN, do SINASC ou do SIM."
+  },
+  {
+    "start": 321.54,
+    "end": 332.5,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O mesmo identificador pode aparecer em vários sistemas, mas o significado central é: este é o estabelecimento relacionado ao registro."
+  },
+  {
+    "start": 332.5,
+    "end": 334.793,
+    "speaker": "ESTUDANTE",
+    "text": "O CNES é atualizado com que frequência?"
+  },
+  {
+    "start": 334.793,
+    "end": 347.172,
+    "speaker": "APRESENTADORA",
+    "text": "Ele é disseminado por competência, em uma lógica mensal. Isso permite observar mudanças ao longo do tempo, mas também cria uma obrigação metodológica: escolher a competência certa."
+  },
+  {
+    "start": 347.172,
+    "end": 356.1,
+    "speaker": "ESTUDANTE",
+    "text": "Competência aqui é mês e ano do cadastro. Então um CNES de janeiro de 2020 é uma fotografia cadastral daquele momento."
+  },
+  {
+    "start": 356.1,
+    "end": 368.009,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E uma fotografia cadastral não é a mesma coisa que produção assistencial, nem disponibilidade em tempo real. Ela diz o que estava cadastrado naquela competência."
+  },
+  {
+    "start": 368.009,
+    "end": 372.26,
+    "speaker": "ESTUDANTE",
+    "text": "Essa diferença parece pequena, mas deve afetar muita análise."
+  },
+  {
+    "start": 372.26,
+    "end": 388.98,
+    "speaker": "APRESENTADORA",
+    "text": "Afeta. Se você usa o CNES atual para classificar internações de dez anos atrás, pode atribuir ao estabelecimento uma natureza jurídica, um tipo de unidade ou uma quantidade de leitos que ele não tinha naquele período."
+  },
+  {
+    "start": 389.23,
+    "end": 393.95,
+    "speaker": "ESTUDANTE",
+    "text": "Então, para eventos antigos, o ideal é buscar a competência compatível com o evento."
+  },
+  {
+    "start": 393.95,
+    "end": 402.272,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Ou, se não for possível, documentar claramente a regra temporal usada. Essa escolha muda a interpretação."
+  },
+  {
+    "start": 402.272,
+    "end": 410.752,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos entrar na organização dos dados. Você disse que a chave é respeitar a unidade de análise. O que isso quer dizer no CNES?"
+  },
+  {
+    "start": 410.752,
+    "end": 438.513,
+    "speaker": "APRESENTADORA",
+    "text": "Quer dizer que cada arquivo representa uma camada diferente. O arquivo ST representa estabelecimentos. O PF representa vínculos profissionais. O LT representa leitos. O EQ representa equipamentos. O EP representa equipes. O SR representa serviços especializados. O HB representa habilitações."
+  },
+  {
+    "start": 438.513,
+    "end": 443.472,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma linha no ST não tem o mesmo significado que uma linha no PF."
+  },
+  {
+    "start": 443.472,
+    "end": 453.512,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Esse é o ponto mais importante do episódio. Não conte linhas de arquivos diferentes como se todas fossem estabelecimentos."
+  },
+  {
+    "start": 453.512,
+    "end": 464.192,
+    "speaker": "ESTUDANTE",
+    "text": "Um estabelecimento pode ter vários profissionais, vários leitos, vários equipamentos e vários serviços. Se eu juntar tudo linha a linha, eu multiplico a realidade."
+  },
+  {
+    "start": 464.192,
+    "end": 472.993,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Você cria duplicação. E o resultado pode parecer estatisticamente sofisticado, mas está errado na base."
+  },
+  {
+    "start": 472.993,
+    "end": 476.032,
+    "speaker": "ESTUDANTE",
+    "text": "Então qual arquivo costuma ser o ponto de partida?"
+  },
+  {
+    "start": 476.032,
+    "end": 492.592,
+    "speaker": "APRESENTADORA",
+    "text": "Em geral, o ST. Ele traz os atributos gerais do estabelecimento: código CNES, município, tipo de unidade, natureza jurídica, gestão, vínculo com o SUS e outras características estruturais."
+  },
+  {
+    "start": 492.592,
+    "end": 498.672,
+    "speaker": "ESTUDANTE",
+    "text": "E arquivos como EE, EF, GM, IN, RC e DC?"
+  },
+  {
+    "start": 498.672,
+    "end": 522.512,
+    "speaker": "APRESENTADORA",
+    "text": "São dimensões complementares. EE e EF ajudam em recortes como ensino e filantropia. GM, IN e RC trazem informações administrativas específicas, como gestão, incentivos ou regras contratuais. DC reúne dados complementares do cadastro."
+  },
+  {
+    "start": 522.512,
+    "end": 527.153,
+    "speaker": "ESTUDANTE",
+    "text": "Então a pergunta de pesquisa decide o caminho. Não é baixar tudo e juntar tudo."
+  },
+  {
+    "start": 527.96,
+    "end": 542.92,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Baixar tudo pode ser útil para exploração, mas a análise precisa de desenho. Qual é a unidade? Qual é a competência? Qual é o recorte institucional? Qual arquivo responde à pergunta?"
+  },
+  {
+    "start": 542.92,
+    "end": 549.239,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar de leitos, então. O capítulo destaca que esse é um uso muito comum do CNES."
+  },
+  {
+    "start": 549.239,
+    "end": 566.36,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Leitos são usados para analisar capacidade instalada, oferta hospitalar e distribuição territorial. Mas é preciso separar leitos existentes, leitos SUS, tipo de leito, competência, município e estabelecimento."
+  },
+  {
+    "start": 566.36,
+    "end": 574.919,
+    "speaker": "ESTUDANTE",
+    "text": "Leitos existentes são todos os leitos cadastrados no estabelecimento. Leitos SUS são a parcela disponível ao SUS."
+  },
+  {
+    "start": 574.919,
+    "end": 588.16,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E eles não devem ser misturados sem explicitar o recorte. Um indicador de leitos por população pode falar de oferta total ou de oferta SUS. São perguntas diferentes."
+  },
+  {
+    "start": 588.16,
+    "end": 592.12,
+    "speaker": "ESTUDANTE",
+    "text": "E leito cadastrado significa leito disponível naquele dia?"
+  },
+  {
+    "start": 592.12,
+    "end": 607.32,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Leito cadastrado é uma medida de capacidade instalada no cadastro. Não mede ocupação diária, bloqueio operacional, equipe disponível, regulação, demanda reprimida ou disponibilidade em tempo real."
+  },
+  {
+    "start": 607.32,
+    "end": 617.36,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se eu quiser falar de pressão assistencial, eu preciso combinar com SIH, censos hospitalares, regulação ou outra fonte operacional."
+  },
+  {
+    "start": 617.36,
+    "end": 625.719,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O CNES sozinho não mede uso. Ele ajuda a construir o denominador ou a caracterizar a estrutura."
+  },
+  {
+    "start": 625.719,
+    "end": 633.479,
+    "speaker": "ESTUDANTE",
+    "text": "E o tipo de leito também importa. Não dá para somar UTI, obstétrico, pediátrico e clínico como se fossem equivalentes."
+  },
+  {
+    "start": 633.479,
+    "end": 646.8,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Às vezes faz sentido agrupar, mas a regra precisa ser documentada. Oferta total, oferta SUS, leitos por tipo e leitos por território são leituras diferentes."
+  },
+  {
+    "start": 646.8,
+    "end": 651.72,
+    "speaker": "ESTUDANTE",
+    "text": "Agora profissionais. O arquivo PF costuma gerar confusão?"
+  },
+  {
+    "start": 652.69,
+    "end": 666.21,
+    "speaker": "APRESENTADORA",
+    "text": "Muita. No PF, a unidade prática é o vínculo profissional no estabelecimento. Um mesmo profissional pode aparecer em mais de um estabelecimento, em mais de uma ocupação ou em mais de um vínculo."
+  },
+  {
+    "start": 666.21,
+    "end": 670.69,
+    "speaker": "ESTUDANTE",
+    "text": "Então contar linhas do PF não é contar pessoas únicas."
+  },
+  {
+    "start": 670.69,
+    "end": 679.33,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Em muitos casos você está contando vínculos. E isso não é errado, desde que você diga que são vínculos."
+  },
+  {
+    "start": 679.33,
+    "end": 690.29,
+    "speaker": "ESTUDANTE",
+    "text": "Posso escrever \"vínculos de médicos por município\" ou \"carga horária cadastrada de enfermeiros\", mas não simplesmente \"número de médicos\" se eu não dedupliquei."
+  },
+  {
+    "start": 690.29,
+    "end": 702.491,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E mesmo a deduplicação pode ter limitações, dependendo dos identificadores disponíveis, anonimização, formato dos dados e qualidade do cadastro."
+  },
+  {
+    "start": 702.491,
+    "end": 706.131,
+    "speaker": "ESTUDANTE",
+    "text": "O CBO e a carga horária entram nessa parte, certo?"
+  },
+  {
+    "start": 706.131,
+    "end": 720.251,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O CBO ajuda a identificar ocupações, mas agrupamentos precisam de regra explícita. E a carga horária só deve ser somada quando você sabe quais campos foram incluídos."
+  },
+  {
+    "start": 720.251,
+    "end": 726.21,
+    "speaker": "ESTUDANTE",
+    "text": "Isso se conecta ao tema maior: CNES mede cadastro, não disponibilidade efetiva."
+  },
+  {
+    "start": 726.21,
+    "end": 738.53,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Um vínculo cadastrado não garante que aquela pessoa esteja disponível em todos os momentos. Assim como um equipamento cadastrado não garante funcionamento operacional contínuo."
+  },
+  {
+    "start": 738.53,
+    "end": 745.091,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos então para integração com outros sistemas. O exemplo clássico é CNES mais SIH?"
+  },
+  {
+    "start": 745.091,
+    "end": 763.811,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Você usa o SIH para internações e o CNES para caracterizar os estabelecimentos. A AIH mede produção hospitalar; o ST caracteriza o estabelecimento; o LT pode trazer capacidade de leitos."
+  },
+  {
+    "start": 763.811,
+    "end": 765.971,
+    "speaker": "ESTUDANTE",
+    "text": "Onde mora o risco nessa junção?"
+  },
+  {
+    "start": 765.971,
+    "end": 782.771,
+    "speaker": "APRESENTADORA",
+    "text": "Na granularidade. Se você juntar cada AIH com todas as linhas de leitos daquele estabelecimento, você multiplica internações. Por isso, leitos precisam ser agregados por CNES e competência antes da junção."
+  },
+  {
+    "start": 783.82,
+    "end": 796.3,
+    "speaker": "ESTUDANTE",
+    "text": "Então o fluxo seria: preparo o SIH, seleciono AIHs, competência e CNES; preparo o ST na competência compatível; agrego LT; junto tudo; e audito perdas."
+  },
+  {
+    "start": 796.3,
+    "end": 813.46,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E as perdas importam. Se algumas AIHs não encontram correspondência no CNES, você precisa quantificar e investigar. Pode ser código ausente, estabelecimento inativo, erro de período ou problema de formato."
+  },
+  {
+    "start": 813.46,
+    "end": 815.66,
+    "speaker": "ESTUDANTE",
+    "text": "Formato como zeros à esquerda?"
+  },
+  {
+    "start": 815.66,
+    "end": 826.461,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Código CNES deve ser tratado como identificador, não como número para cálculo. Se você perde zeros à esquerda, a chave pode quebrar."
+  },
+  {
+    "start": 826.461,
+    "end": 828.781,
+    "speaker": "ESTUDANTE",
+    "text": "O mesmo raciocínio vale para SIA?"
+  },
+  {
+    "start": 828.781,
+    "end": 846.461,
+    "speaker": "APRESENTADORA",
+    "text": "Vale. A produção ambulatorial deve ser agregada por estabelecimento e competência antes de relacionar com ST, SR, EQ ou HB. Serviço cadastrado e produção realizada são dimensões diferentes."
+  },
+  {
+    "start": 846.461,
+    "end": 855.581,
+    "speaker": "ESTUDANTE",
+    "text": "Um serviço pode estar cadastrado, mas não ter produzido no período. Ou pode haver produção que precisa ser interpretada à luz de habilitações e serviços."
+  },
+  {
+    "start": 855.581,
+    "end": 867.861,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O CNES ajuda a caracterizar oferta cadastrada. O SIA ajuda a medir produção ambulatorial registrada. A análise boa preserva essa diferença."
+  },
+  {
+    "start": 867.861,
+    "end": 870.861,
+    "speaker": "ESTUDANTE",
+    "text": "E com SINAN, SINASC e SIM?"
+  },
+  {
+    "start": 870.861,
+    "end": 891.501,
+    "speaker": "APRESENTADORA",
+    "text": "O CNES pode caracterizar unidades notificadoras, estabelecimentos de ocorrência de nascimento ou óbito, ou locais relacionados ao evento. Mas ele não resolve sozinho a pergunta epidemiológica: residência, ocorrência, notificação e acesso continuam importando."
+  },
+  {
+    "start": 891.501,
+    "end": 896.621,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar de análise espacial. O CNES parece muito tentador para mapas."
+  },
+  {
+    "start": 896.621,
+    "end": 911.781,
+    "speaker": "APRESENTADORA",
+    "text": "E é mesmo. Ele permite mapear estabelecimentos, estimar densidade de oferta, estudar distância até serviços e apoiar planejamento territorial. Mas mapa bonito pode esconder problema cadastral."
+  },
+  {
+    "start": 911.781,
+    "end": 917.501,
+    "speaker": "ESTUDANTE",
+    "text": "Coordenada ausente, coordenada zero, ponto fora do município, endereço incompleto..."
+  },
+  {
+    "start": 917.75,
+    "end": 928.71,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Também há coordenadas repetidas em pontos genéricos, centróides municipais, endereços desatualizados e mudanças temporais de localização."
+  },
+  {
+    "start": 928.71,
+    "end": 933.11,
+    "speaker": "ESTUDANTE",
+    "text": "Então antes de calcular distância, eu preciso validar coordenadas."
+  },
+  {
+    "start": 933.11,
+    "end": 946.95,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Cheque latitude, longitude, município, endereço, valores fora do Brasil, pontos no mar, pontos fora do município e concentração artificial em um único ponto."
+  },
+  {
+    "start": 946.95,
+    "end": 950.791,
+    "speaker": "ESTUDANTE",
+    "text": "E distância em linha reta pode ser ruim para acesso geográfico."
+  },
+  {
+    "start": 950.791,
+    "end": 964.951,
+    "speaker": "APRESENTADORA",
+    "text": "Pode ser muito limitada. Para acesso, rede viária, transporte, barreiras naturais, tempo de deslocamento e referência assistencial podem ser mais informativos que distância euclidiana."
+  },
+  {
+    "start": 964.951,
+    "end": 968.151,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo cita GeoCNES. Qual é a ideia?"
+  },
+  {
+    "start": 968.151,
+    "end": 985.471,
+    "speaker": "APRESENTADORA",
+    "text": "Ferramentas como GeoCNES usam o cadastro para mapear estabelecimentos e apoiar análise de acesso e planejamento urbano. Elas também mostram que inconsistências cadastrais e geocodificação são parte do problema, não detalhe secundário."
+  },
+  {
+    "start": 985.471,
+    "end": 991.831,
+    "speaker": "ESTUDANTE",
+    "text": "Então mapa de CNES é análise de oferta cadastrada no território, não prova automática de acesso."
+  },
+  {
+    "start": 991.831,
+    "end": 1006.471,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Para acesso, você precisa perguntar: a população consegue chegar? O serviço funciona? Produz? Está disponível para o SUS? Tem equipe? Tem regulação?"
+  },
+  {
+    "start": 1006.471,
+    "end": 1011.191,
+    "speaker": "ESTUDANTE",
+    "text": "Isso leva à qualidade dos dados. Como eu avalio qualidade no CNES?"
+  },
+  {
+    "start": 1011.191,
+    "end": 1026.712,
+    "speaker": "APRESENTADORA",
+    "text": "Comece por atualização, completitude, consistência territorial, coerência entre recursos e tipo de unidade, duplicidade, mudança histórica e compatibilidade com produção quando fizer sentido."
+  },
+  {
+    "start": 1026.712,
+    "end": 1030.232,
+    "speaker": "ESTUDANTE",
+    "text": "Um cadastro pode estar completo, mas desatualizado."
+  },
+  {
+    "start": 1030.232,
+    "end": 1046.072,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E pode estar completo, mas incoerente. Por exemplo, um recurso cadastrado em um tipo de estabelecimento que não combina com aquele perfil, ou um serviço cadastrado sem produção esperada durante longos períodos."
+  },
+  {
+    "start": 1046.32,
+    "end": 1049.76,
+    "speaker": "ESTUDANTE",
+    "text": "A qualidade depende muito do processo local de atualização."
+  },
+  {
+    "start": 1049.76,
+    "end": 1062.44,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O CNES é nacional, mas a alimentação envolve estabelecimentos, gestores municipais, gestores estaduais, críticas cadastrais e disseminação."
+  },
+  {
+    "start": 1062.44,
+    "end": 1067.52,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos às formas de acesso. Se alguém quer começar, por onde pode ir?"
+  },
+  {
+    "start": 1067.52,
+    "end": 1086.799,
+    "speaker": "APRESENTADORA",
+    "text": "Depende do uso. Para uma consulta pontual, o site do CNES é útil. Para tabulações rápidas, TabNet. Para microdados históricos, TabWin com arquivos DBC. Para formatos abertos e bases temáticas, OpenDataSUS."
+  },
+  {
+    "start": 1086.799,
+    "end": 1092.879,
+    "speaker": "ESTUDANTE",
+    "text": "E para análise reprodutível em código, entram R, Python e plataformas de dados."
+  },
+  {
+    "start": 1092.879,
+    "end": 1111.039,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Em R, o pacote microdatasus permite baixar e processar microdados do CNES. Em Python, PySUS também oferece acesso. E a PCDaS disponibiliza dados em ambiente de notebooks e infraestrutura de análise."
+  },
+  {
+    "start": 1111.039,
+    "end": 1118.56,
+    "speaker": "ESTUDANTE",
+    "text": "Então a forma de acesso não é só conveniência. Ela afeta granularidade, atualização e reprodutibilidade."
+  },
+  {
+    "start": 1118.56,
+    "end": 1131.6,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Uma consulta no site, uma tabela no TabNet, um painel no ElasticCNES e um arquivo DBC processado em código podem servir a propósitos diferentes."
+  },
+  {
+    "start": 1131.6,
+    "end": 1140.719,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos tocar em um ponto delicado: rede SUS, pública, privada, filantrópica e suplementar. O CNES cobre tudo isso?"
+  },
+  {
+    "start": 1140.719,
+    "end": 1158.4,
+    "speaker": "APRESENTADORA",
+    "text": "O CNES cobre estabelecimentos públicos, privados, filantrópicos e conveniados. Por isso, o recorte institucional precisa ser declarado. Rede SUS, rede pública, rede privada e filantrópica não são sinônimos."
+  },
+  {
+    "start": 1158.4,
+    "end": 1161.52,
+    "speaker": "ESTUDANTE",
+    "text": "Um hospital privado pode atender pelo SUS."
+  },
+  {
+    "start": 1161.52,
+    "end": 1179.52,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E um estabelecimento público pode ter papel assistencial muito diferente de outro. O critério pode ser atendimento SUS, leitos SUS, convênio, gestão, natureza jurídica, esfera administrativa ou produção SUS."
+  },
+  {
+    "start": 1179.52,
+    "end": 1184.56,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se eu digo \"rede SUS\", preciso dizer como defini essa rede."
+  },
+  {
+    "start": 1184.81,
+    "end": 1202.73,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Em análise de leitos, talvez leitos SUS sejam o recorte principal. Em análise institucional, natureza jurídica e gestão podem ser mais adequadas. Em produção, talvez o melhor critério seja ter produção financiada pelo SUS no período."
+  },
+  {
+    "start": 1202.73,
+    "end": 1212.65,
+    "speaker": "ESTUDANTE",
+    "text": "Agora denominadores. O capítulo diz que o CNES é usado como denominador ou medida de oferta. Isso é útil, mas perigoso?"
+  },
+  {
+    "start": 1212.65,
+    "end": 1229.049,
+    "speaker": "APRESENTADORA",
+    "text": "É útil quando bem definido. Você pode calcular internações por leito SUS, procedimentos por serviço cadastrado, notificações por unidade notificadora, profissionais por população ou equipamentos por estabelecimento."
+  },
+  {
+    "start": 1229.049,
+    "end": 1233.53,
+    "speaker": "ESTUDANTE",
+    "text": "O perigo é esquecer que cada denominador tem uma unidade diferente."
+  },
+  {
+    "start": 1233.53,
+    "end": 1247.45,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Leito, estabelecimento, vínculo, serviço, equipe e equipamento são unidades diferentes. Trocar uma pela outra muda completamente o indicador."
+  },
+  {
+    "start": 1247.45,
+    "end": 1259.29,
+    "speaker": "ESTUDANTE",
+    "text": "Internações por leito SUS não é taxa de ocupação. Procedimentos por serviço cadastrado não é eficiência. Profissionais por população não é acesso efetivo."
+  },
+  {
+    "start": 1259.29,
+    "end": 1274.89,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Esses indicadores relacionam produção ou eventos com estrutura cadastrada. Para falar de produtividade, eficiência, ocupação ou acesso, é preciso muito mais contexto."
+  },
+  {
+    "start": 1274.89,
+    "end": 1279.85,
+    "speaker": "ESTUDANTE",
+    "text": "Parece que quase toda frase sobre CNES precisa de uma nota metodológica."
+  },
+  {
+    "start": 1279.85,
+    "end": 1295.61,
+    "speaker": "APRESENTADORA",
+    "text": "De certo modo, sim. Não para burocratizar, mas para proteger a interpretação. Competência, unidade, arquivo, recorte SUS e granularidade precisam estar visíveis."
+  },
+  {
+    "start": 1295.61,
+    "end": 1298.81,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos organizar os principais erros, então."
+  },
+  {
+    "start": 1298.81,
+    "end": 1315.052,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro: contar vínculos profissionais como pessoas. Segundo: somar arquivos diferentes sem harmonização. Terceiro: usar CNES atual para eventos antigos. Quarto: tratar leito cadastrado como leito disponível."
+  },
+  {
+    "start": 1315.38,
+    "end": 1329.299,
+    "speaker": "ESTUDANTE",
+    "text": "Quinto: mapear sem validar coordenadas. Sexto: misturar rede SUS, pública e privada sem critério. Sétimo: relacionar eventos com LT, PF ou SR linha a linha."
+  },
+  {
+    "start": 1329.299,
+    "end": 1336.26,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E todos esses erros têm uma origem comum: confundir camadas do cadastro."
+  },
+  {
+    "start": 1336.26,
+    "end": 1340.02,
+    "speaker": "ESTUDANTE",
+    "text": "Como seria um checklist prático antes de fechar uma análise?"
+  },
+  {
+    "start": 1340.02,
+    "end": 1355.14,
+    "speaker": "APRESENTADORA",
+    "text": "Pergunte: a unidade de análise está definida? A competência é compatível com a pergunta? O código CNES foi tratado como identificador? O arquivo escolhido corresponde ao recurso analisado?"
+  },
+  {
+    "start": 1355.14,
+    "end": 1368.1,
+    "speaker": "ESTUDANTE",
+    "text": "E também: os recursos foram agregados antes da junção? As perdas de relacionamento foram quantificadas? O recorte SUS ou não SUS foi declarado? As coordenadas foram validadas?"
+  },
+  {
+    "start": 1368.1,
+    "end": 1384.979,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Acrescente: as mudanças históricas de classificação foram consideradas? O denominador tem a mesma lógica territorial e temporal do numerador? A fonte de acesso e a data de extração foram registradas?"
+  },
+  {
+    "start": 1384.979,
+    "end": 1389.699,
+    "speaker": "ESTUDANTE",
+    "text": "Isso transforma o CNES de uma tabela grande em um painel metodológico."
+  },
+  {
+    "start": 1389.699,
+    "end": 1400.1,
+    "speaker": "APRESENTADORA",
+    "text": "Boa imagem. O CNES é um painel mensal da estrutura cadastrada da rede. Mas, como todo painel, ele precisa ser lido com legenda."
+  },
+  {
+    "start": 1400.1,
+    "end": 1406.499,
+    "speaker": "ESTUDANTE",
+    "text": "Se você tivesse que resumir a diferença entre CNES e sistemas de eventos em uma frase, qual seria?"
+  },
+  {
+    "start": 1406.499,
+    "end": 1423.78,
+    "speaker": "APRESENTADORA",
+    "text": "Sistemas de eventos registram algo que aconteceu: uma internação, um procedimento, uma notificação, um nascimento, um óbito. O CNES descreve a estrutura cadastrada onde esses eventos podem ocorrer ou ser registrados."
+  },
+  {
+    "start": 1423.78,
+    "end": 1431.379,
+    "speaker": "ESTUDANTE",
+    "text": "Então ele é menos sobre \"o que aconteceu\" e mais sobre \"onde, com que estrutura, sob qual arranjo institucional\"."
+  },
+  {
+    "start": 1431.379,
+    "end": 1443.14,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E essa é a sua potência. Sem o CNES, muitas análises perdem contexto. Com o CNES mal usado, elas ganham um contexto falso."
+  },
+  {
+    "start": 1443.14,
+    "end": 1446.901,
+    "speaker": "ESTUDANTE",
+    "text": "O que você recomenda para quem vai escrever resultados usando CNES?"
+  },
+  {
+    "start": 1448.03,
+    "end": 1470.27,
+    "speaker": "APRESENTADORA",
+    "text": "Use palavras precisas. Diga \"estabelecimentos cadastrados\", \"leitos SUS cadastrados\", \"vínculos profissionais\", \"serviços habilitados\", \"equipamentos cadastrados\". Evite encurtar para \"hospitais disponíveis\", \"médicos disponíveis\" ou \"serviços funcionando\" se a base não sustenta isso."
+  },
+  {
+    "start": 1470.27,
+    "end": 1473.789,
+    "speaker": "ESTUDANTE",
+    "text": "A linguagem já carrega a interpretação."
+  },
+  {
+    "start": 1473.789,
+    "end": 1482.23,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Um resultado tecnicamente correto pode ficar errado se a redação exagera o que o dado mede."
+  },
+  {
+    "start": 1482.23,
+    "end": 1483.75,
+    "speaker": "ESTUDANTE",
+    "text": "E para métodos?"
+  },
+  {
+    "start": 1483.75,
+    "end": 1502.295,
+    "speaker": "APRESENTADORA",
+    "text": "Informe competência, UF ou território, arquivos usados, forma de acesso, filtros, tratamento de chaves, agregações realizadas, critérios para rede SUS ou privada, e como foram tratadas perdas ou inconsistências."
+  },
+  {
+    "start": 1502.295,
+    "end": 1506.661,
+    "speaker": "ESTUDANTE",
+    "text": "Parece muito, mas é o que permite outra pessoa reproduzir."
+  },
+  {
+    "start": 1506.661,
+    "end": 1513.301,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E no CNES isso é decisivo, porque pequenas escolhas mudam o denominador."
+  },
+  {
+    "start": 1513.301,
+    "end": 1524.689,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos fechar com uma metáfora operacional. Se eu tenho uma base do SIH e quero adicionar CNES, qual é a pergunta que eu devo fazer antes de qualquer join?"
+  },
+  {
+    "start": 1524.689,
+    "end": 1537.018,
+    "speaker": "APRESENTADORA",
+    "text": "Pergunte: qual camada do CNES eu quero adicionar, em qual competência, e em que granularidade? Se a resposta não estiver clara, ainda não é hora de fazer o join."
+  },
+  {
+    "start": 1537.018,
+    "end": 1540.042,
+    "speaker": "ESTUDANTE",
+    "text": "Primeiro desenho; depois código."
+  },
+  {
+    "start": 1540.042,
+    "end": 1550.095,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O código executa uma decisão metodológica. Se a decisão estiver confusa, o resultado sai confuso com muita rapidez."
+  },
+  {
+    "start": 1550.095,
+    "end": 1554.552,
+    "speaker": "ESTUDANTE",
+    "text": "E se eu tiver que escolher uma mensagem central do capítulo?"
+  },
+  {
+    "start": 1554.552,
+    "end": 1572.352,
+    "speaker": "APRESENTADORA",
+    "text": "O CNES é a base de referência para entender a estrutura cadastrada da rede de saúde no Brasil. Ele é indispensável para estudar oferta, capacidade instalada, distribuição territorial, vínculos e caracterização de estabelecimentos."
+  },
+  {
+    "start": 1572.352,
+    "end": 1581.233,
+    "speaker": "ESTUDANTE",
+    "text": "Mas cadastro não é produção, cadastro não é disponibilidade em tempo real, e vínculo não é pessoa única."
+  },
+  {
+    "start": 1581.48,
+    "end": 1593.24,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E competência importa, unidade de análise importa, recorte institucional importa, geocodificação importa, e granularidade da junção importa."
+  },
+  {
+    "start": 1593.24,
+    "end": 1597.4,
+    "speaker": "ESTUDANTE",
+    "text": "Ou seja: o CNES é poderoso, mas exige disciplina."
+  },
+  {
+    "start": 1597.4,
+    "end": 1616.6,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Usado com disciplina, ele revela a arquitetura da rede. Usado sem cuidado, ele mistura estabelecimento, recurso, evento e vínculo em uma mesma conta. A diferença entre essas duas leituras é o que separa uma análise robusta de uma tabela enganosa."
+  },
+  {
+    "start": 1616.6,
+    "end": 1621.96,
+    "speaker": "ESTUDANTE",
+    "text": "Fico com uma frase para levar: antes de contar, pergunte o que a linha representa."
+  },
+  {
+    "start": 1621.96,
+    "end": 1638.04,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a melhor síntese. No CNES, cada linha tem uma camada. Quando você respeita essa camada, o cadastro deixa de ser apenas uma base grande e vira uma ferramenta analítica para compreender o SUS e a rede de saúde brasileira."
+  }
+]

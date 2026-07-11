@@ -89,6 +89,116 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "AMS",
+      "alias": "a eme ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SNCPCH",
+      "alias": "ésse ene cê pê cê agá"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "INAMPS",
+      "alias": "inãmps"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SAMPS",
+      "alias": "sãmps"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "FCES",
+      "alias": "éfe cê é ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SAS/MS",
+      "alias": "ésse a ésse barra eme ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CBO",
+      "alias": "cê bê ó"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "ST",
+      "alias": "ésse tê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PF",
+      "alias": "pê éfe"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "LT",
+      "alias": "éle tê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "EQ",
+      "alias": "é quê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "EP",
+      "alias": "é pê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SR",
+      "alias": "ésse érre"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "HB",
+      "alias": "agá bê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "EE",
+      "alias": "é é"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "EF",
+      "alias": "é éfe"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "GM",
+      "alias": "gê eme"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "IN",
+      "alias": "i ene"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "RC",
+      "alias": "érre cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "DC",
+      "alias": "dê cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "UTI",
+      "alias": "u tê i"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "UF",
+      "alias": "u éfe"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "CID",
       "alias": "cíd"
     },

@@ -29,9 +29,9 @@ project:
     - podcast/sinan_dialogo_eleven_v3.mp3
     - podcast/sinan.md
     - podcast/sinan_dialogo_eleven_v3_transcript.json
-    - podcast/cnes.mp3
+    - podcast/cnes_dialogo_eleven_v3.mp3
     - podcast/cnes.md
-    - podcast/cnes_transcript.json
+    - podcast/cnes_dialogo_eleven_v3_transcript.json
     - podcast/siops.mp3
     - podcast/siops.md
     - podcast/siops_transcript.json

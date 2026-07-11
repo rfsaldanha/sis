@@ -7,156 +7,308 @@
 
 ## Roteiro
 
-**APRESENTADORA:** Olá. Neste episódio, vamos conversar sobre o CNES, o Cadastro Nacional de Estabelecimentos de Saúde.
+**APRESENTADORA:** [warmly] Olá. Hoje a gente vai conversar sobre o CNES, o Cadastro Nacional de Estabelecimentos de Saúde. E eu quero começar com uma provocação simples: o CNES não conta atendimentos. Ele conta a rede onde os atendimentos podem acontecer.
 
-**ESTUDANTE:** O CNES é a base usada para identificar os estabelecimentos de saúde no Brasil?
+**ESTUDANTE:** [curious] Então ele é como um mapa da estrutura do sistema de saúde? Unidades, serviços, leitos, equipamentos, profissionais... esse tipo de coisa?
 
-**APRESENTADORA:** Exatamente. O CNES é uma base estruturante para identificar e caracterizar estabelecimentos de saúde. Ele informa localização, natureza jurídica, gestão, tipo de estabelecimento, serviços, equipamentos, leitos, equipes, habilitações, profissionais e vínculos relacionados à oferta de atenção à saúde.
+**APRESENTADORA:** [affirming] Exatamente. Ele identifica e caracteriza estabelecimentos de saúde no Brasil. Localização, natureza jurídica, gestão, tipo de unidade, atendimento SUS, serviços, equipamentos, equipes, leitos, habilitações e vínculos profissionais.
 
-**ESTUDANTE:** Então ele é diferente de sistemas como SIM, SINASC, SIH, SIA e SINAN.
+**ESTUDANTE:** [thinking] Isso já muda a forma de olhar. Se eu quero saber quantas internações ocorreram, eu vou ao SIH. Se eu quero saber como é o hospital que registrou essas internações, eu olho o CNES.
 
-**APRESENTADORA:** Sim. O CNES não registra eventos assistenciais. Ele não registra consultas, internações, óbitos, nascimentos ou notificações. Ele descreve a estrutura da rede em determinada competência.
+**APRESENTADORA:** [explaining] Perfeito. O CNES é uma base de estrutura. Ele não registra consulta, internação, nascimento, óbito ou notificação. Mas ele ajuda a interpretar onde esses eventos foram registrados.
 
-**ESTUDANTE:** Por isso ele costuma ser combinado com outros sistemas.
+**ESTUDANTE:** [curious] E por que esse sistema é tão central? Porque parece um cadastro, mas ao mesmo tempo aparece em várias análises importantes.
 
-**APRESENTADORA:** Perfeito. O código CNES permite relacionar produção ambulatorial, internações, notificações, nascimentos e óbitos à estrutura da rede onde esses eventos foram registrados.
+**APRESENTADORA:** [thoughtful] Porque quase todo evento em saúde precisa de contexto. Uma internação não é só uma internação; ela acontece em um estabelecimento, em um município, em uma rede, com determinado perfil de leitos, gestão e vínculo com o SUS.
 
-**ESTUDANTE:** Quando devo usar o CNES?
+**ESTUDANTE:** [engaged] Então o CNES dá o pano de fundo da rede. Ele ajuda a responder: que tipo de serviço é esse, onde está, que estrutura declarou ter, e como ele se conecta ao SUS.
 
-**APRESENTADORA:** Use o CNES quando a pergunta envolve oferta, capacidade instalada, localização de serviços, composição da rede, vínculos profissionais, leitos, equipamentos, equipes, habilitações ou caracterização de estabelecimentos.
+**APRESENTADORA:** [affirming] Isso. E a conversa de hoje vai seguir esse arco: primeiro, de onde veio o CNES; depois, como ele é organizado; em seguida, os exemplos de leitos, profissionais, integração com SIH e SIA, análise espacial, qualidade e, por fim, os erros que a gente precisa evitar.
 
-**ESTUDANTE:** Então, se eu quero saber quantas internações ocorreram, uso SIH. Se quero caracterizar os hospitais dessas internações, uso CNES.
+**ESTUDANTE:** [warmly] Ótimo. Porque eu tenho uma sensação de que o CNES parece fácil até a gente abrir os arquivos.
 
-**APRESENTADORA:** Exatamente. O SIH mede produção hospitalar financiada pelo SUS. O CNES ajuda a descrever o estabelecimento, seus leitos, tipo, natureza jurídica, gestão e outros atributos.
+**APRESENTADORA:** [laughing lightly] É uma sensação muito honesta. O CNES é simples na ideia e complexo na prática. A chave é respeitar a unidade de análise.
 
-**ESTUDANTE:** Como o CNES surgiu?
+**ESTUDANTE:** [curious] Antes de chegar nos arquivos, vamos voltar um pouco. Como surge esse cadastro?
 
-**APRESENTADORA:** Houve esforços anteriores de cadastro, como a Pesquisa da Assistência Médico-Sanitária e sistemas administrativos ligados ao pagamento de contas hospitalares. Depois da implantação do SIA e da identificação de inconsistências nos dados de estabelecimentos, foi criada a Ficha de Cadastro de Estabelecimentos de Saúde. Em 2000, a Portaria SAS/MS número 403 definiu o CNES.
+**APRESENTADORA:** [explaining] Os primeiros esforços para sistematizar informações sobre estabelecimentos aparecem ainda em 1976, com a Pesquisa da Assistência Médico-Sanitária, a AMS, realizada pelo IBGE.
 
-**ESTUDANTE:** Então o CNES também tem origem administrativa, mas virou uma base essencial para pesquisa e gestão.
+**ESTUDANTE:** [thinking] E no mesmo período existiam sistemas ligados ao pagamento de contas hospitalares, certo?
 
-**APRESENTADORA:** Isso. Hoje ele é referência para caracterizar a rede assistencial e para vincular estabelecimentos a diferentes sistemas de informação em saúde.
+**APRESENTADORA:** [affirming] Sim. Também em 1976 foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares, o SNCPCH, no âmbito do INAMPS. O objetivo era administrativo, mas para pagar serviços era preciso saber quem prestava esses serviços.
 
-**ESTUDANTE:** O capítulo define estabelecimento de saúde como espaço físico delimitado e permanente.
+**ESTUDANTE:** [engaged] Então a necessidade de cadastro aparece junto com a necessidade de organizar pagamento, controle e identificação de prestadores.
 
-**APRESENTADORA:** Sim. É o espaço onde são realizadas ações e serviços de saúde humana sob responsabilidade técnica. Essa definição ajuda a entender por que o código CNES identifica uma unidade da rede, e não uma pessoa, procedimento ou evento.
+**APRESENTADORA:** [explaining] Exatamente. Depois o SNCPCH foi extinto, mas suas fichas continuaram em outros sistemas, como o SAMPS, nos anos 1980, e depois no SIH, nos anos 1990.
 
-**ESTUDANTE:** O CNES é atualizado mensalmente?
+**ESTUDANTE:** [curious] E quando a ideia de CNES começa a tomar a forma atual?
 
-**APRESENTADORA:** Sim, por competência. Isso permite acompanhar mudanças na rede ao longo do tempo. Mas também exige cuidado: uma competência é uma fotografia cadastral, não uma medida de produção assistencial nem de disponibilidade em tempo real.
+**APRESENTADORA:** [explaining] Após a implantação do SIA, em 1994, ficaram evidentes inconsistências nos dados dos estabelecimentos. Isso levou à criação da Ficha de Cadastro de Estabelecimentos de Saúde, a FCES, em 1997.
 
-**ESTUDANTE:** Como funciona o fluxo cadastral?
+**ESTUDANTE:** [thinking] A FCES é como uma etapa intermediária: antes do CNES consolidado, havia uma ficha cadastral mais estruturada.
 
-**APRESENTADORA:** O estabelecimento preenche ou atualiza a FCES, o gestor municipal ou estadual valida as informações, há críticas cadastrais, e a base é disseminada por competência. A qualidade depende de preenchimento correto, atualização regular e coerência entre estabelecimento, serviços, leitos, equipamentos e profissionais.
+**APRESENTADORA:** [affirming] Isso. E em 2000, a Portaria SAS/MS número 403 definiu o Cadastro Nacional de Estabelecimentos de Saúde. A primeira versão foi disponibilizada em 2001, seguida de um recadastramento informatizado entre 2001 e 2003.
 
-**ESTUDANTE:** Qual é a unidade de análise do CNES?
+**ESTUDANTE:** [thoughtful] Então o CNES tem uma origem administrativa, mas se transforma em uma base fundamental para gestão, planejamento e pesquisa.
 
-**APRESENTADORA:** Depende do arquivo. Esse é o principal cuidado. A unidade pode ser estabelecimento, profissional, equipe, equipamento, leito, serviço especializado, habilitação ou outro módulo cadastral.
+**APRESENTADORA:** [warmly] Essa é uma boa síntese. Ele nasce muito conectado a faturamento e controle, mas hoje é a referência para entender a estrutura cadastrada da rede de saúde.
 
-**ESTUDANTE:** Então não posso somar linhas de arquivos diferentes como se fossem a mesma coisa.
+**ESTUDANTE:** [curious] E o que exatamente é um estabelecimento de saúde nessa lógica?
 
-**APRESENTADORA:** Exatamente. Uma linha no arquivo ST representa estabelecimento. Uma linha no PF representa vínculo profissional. Uma linha no LT representa leito. Uma linha no EQ representa equipamento. Misturar essas unidades gera erro.
+**APRESENTADORA:** [explaining] O capítulo define como um espaço físico delimitado e permanente onde são realizadas ações e serviços de saúde humana sob responsabilidade técnica. Isso é importante porque o código CNES identifica uma unidade da rede, não uma pessoa, um procedimento ou um evento.
 
-**ESTUDANTE:** Qual arquivo costuma ser o ponto de partida?
+**ESTUDANTE:** [engaged] Então quando eu vejo um código CNES, ele está apontando para um estabelecimento, mesmo que eu use esse código dentro do SIH, do SIA, do SINAN, do SINASC ou do SIM.
 
-**APRESENTADORA:** Em geral, o ST, que contém os atributos gerais dos estabelecimentos. Depois você combina outros arquivos apenas se a pergunta exigir recursos específicos, como leitos, equipamentos, equipes, serviços ou profissionais.
+**APRESENTADORA:** [affirming] Exatamente. O mesmo identificador pode aparecer em vários sistemas, mas o significado central é: este é o estabelecimento relacionado ao registro.
 
-**ESTUDANTE:** Quais são alguns prefixos importantes?
+**ESTUDANTE:** [curious] O CNES é atualizado com que frequência?
 
-**APRESENTADORA:** ST para estabelecimentos, PF para profissionais, LT para leitos, EQ para equipamentos, EP para equipes, SR para serviços especializados e HB para habilitações. Também há arquivos como EE, EF, GM, IN, RC e DC para dimensões específicas.
+**APRESENTADORA:** [explaining] Ele é disseminado por competência, em uma lógica mensal. Isso permite observar mudanças ao longo do tempo, mas também cria uma obrigação metodológica: escolher a competência certa.
 
-**ESTUDANTE:** E a competência precisa estar sempre presente.
+**ESTUDANTE:** [thinking] Competência aqui é mês e ano do cadastro. Então um CNES de janeiro de 2020 é uma fotografia cadastral daquele momento.
 
-**APRESENTADORA:** Sim. Em séries históricas, a competência é o eixo principal. Estabelecimentos podem abrir, sair da base, mudar de município, tipo, gestão, natureza jurídica, serviços, habilitações e leitos.
+**APRESENTADORA:** [affirming] Isso. E uma fotografia cadastral não é a mesma coisa que produção assistencial, nem disponibilidade em tempo real. Ela diz o que estava cadastrado naquela competência.
 
-**ESTUDANTE:** Então usar o CNES atual para classificar eventos antigos pode ser um erro.
+**ESTUDANTE:** [curious] Essa diferença parece pequena, mas deve afetar muita análise.
 
-**APRESENTADORA:** Exatamente. Se uma internação ocorreu em 2015, o ideal é caracterizar o estabelecimento com o CNES da competência da internação ou com uma regra temporal documentada.
+**APRESENTADORA:** [thoughtful] Afeta. Se você usa o CNES atual para classificar internações de dez anos atrás, pode atribuir ao estabelecimento uma natureza jurídica, um tipo de unidade ou uma quantidade de leitos que ele não tinha naquele período.
 
-**ESTUDANTE:** O código CNES permite acompanhar estabelecimentos ao longo do tempo.
+**ESTUDANTE:** [engaged] Então, para eventos antigos, o ideal é buscar a competência compatível com o evento.
 
-**APRESENTADORA:** Permite, mas não significa que o estabelecimento permaneceu igual. O mesmo código pode estar associado a mudanças de perfil, gestão, serviços ou capacidade. Por isso, em estudos longitudinais, é melhor tratar o CNES como um painel por competência.
+**APRESENTADORA:** [affirming] Sim. Ou, se não for possível, documentar claramente a regra temporal usada. Essa escolha muda a interpretação.
 
-**ESTUDANTE:** Vamos falar de leitos.
+**ESTUDANTE:** [curious] Vamos entrar na organização dos dados. Você disse que a chave é respeitar a unidade de análise. O que isso quer dizer no CNES?
 
-**APRESENTADORA:** Leitos são um uso muito frequente do CNES. A análise deve separar leitos existentes, leitos SUS, tipo de leito, competência, município e estabelecimento.
+**APRESENTADORA:** [explaining] Quer dizer que cada arquivo representa uma camada diferente. O arquivo ST representa estabelecimentos. O PF representa vínculos profissionais. O LT representa leitos. O EQ representa equipamentos. O EP representa equipes. O SR representa serviços especializados. O HB representa habilitações.
 
-**ESTUDANTE:** Leito cadastrado é o mesmo que leito disponível todos os dias?
+**ESTUDANTE:** [thinking] Então uma linha no ST não tem o mesmo significado que uma linha no PF.
 
-**APRESENTADORA:** Não. Leito cadastrado é uma medida de capacidade instalada. Para analisar ocupação, disponibilidade diária, demanda reprimida ou pressão assistencial, é preciso combinar com outras fontes operacionais, como SIH, censo hospitalar ou regulação.
+**APRESENTADORA:** [firm] Exatamente. Esse é o ponto mais importante do episódio. Não conte linhas de arquivos diferentes como se todas fossem estabelecimentos.
 
-**ESTUDANTE:** E leitos SUS não devem ser misturados automaticamente com leitos não SUS.
+**ESTUDANTE:** [engaged] Um estabelecimento pode ter vários profissionais, vários leitos, vários equipamentos e vários serviços. Se eu juntar tudo linha a linha, eu multiplico a realidade.
 
-**APRESENTADORA:** Isso. O recorte precisa estar claro. Leitos existentes, leitos SUS e tipos de leito respondem a perguntas diferentes.
+**APRESENTADORA:** [affirming] Sim. Você cria duplicação. E o resultado pode parecer estatisticamente sofisticado, mas está errado na base.
 
-**ESTUDANTE:** E profissionais?
+**ESTUDANTE:** [curious] Então qual arquivo costuma ser o ponto de partida?
 
-**APRESENTADORA:** No arquivo PF, a unidade prática é o vínculo profissional no estabelecimento. Um mesmo profissional pode aparecer em mais de um estabelecimento, em mais de uma ocupação ou em mais de um vínculo.
+**APRESENTADORA:** [explaining] Em geral, o ST. Ele traz os atributos gerais do estabelecimento: código CNES, município, tipo de unidade, natureza jurídica, gestão, vínculo com o SUS e outras características estruturais.
 
-**ESTUDANTE:** Então contar vínculos não é contar profissionais únicos.
+**ESTUDANTE:** [curious] E arquivos como EE, EF, GM, IN, RC e DC?
 
-**APRESENTADORA:** Perfeito. Ao escrever resultados, use termos precisos: vínculos de médicos, carga horária cadastrada de enfermeiros ou profissionais únicos, quando houver deduplicação adequada.
+**APRESENTADORA:** [explaining] São dimensões complementares. EE e EF ajudam em recortes como ensino e filantropia. GM, IN e RC trazem informações administrativas específicas, como gestão, incentivos ou regras contratuais. DC reúne dados complementares do cadastro.
 
-**ESTUDANTE:** Como o CNES se relaciona com o SIH?
+**ESTUDANTE:** [engaged] Então a pergunta de pesquisa decide o caminho. Não é baixar tudo e juntar tudo.
 
-**APRESENTADORA:** Uma integração comum é usar o CNES para caracterizar estabelecimentos que registraram internações no SIH. A junção deve respeitar o CNES e a competência. Também é importante agregar arquivos como LT antes da junção, para não multiplicar linhas de AIH.
+**APRESENTADORA:** [laughing lightly] Exatamente. Baixar tudo pode ser útil para exploração, mas a análise precisa de desenho. Qual é a unidade? Qual é a competência? Qual é o recorte institucional? Qual arquivo responde à pergunta?
 
-**ESTUDANTE:** O mesmo vale para SIA?
+**ESTUDANTE:** [curious] Vamos falar de leitos, então. O capítulo destaca que esse é um uso muito comum do CNES.
 
-**APRESENTADORA:** Sim. A produção ambulatorial deve ser agregada por estabelecimento e competência antes de relacionar com ST, SR, EQ ou HB. Serviço cadastrado e produção realizada são dimensões diferentes.
+**APRESENTADORA:** [explaining] Sim. Leitos são usados para analisar capacidade instalada, oferta hospitalar e distribuição territorial. Mas é preciso separar leitos existentes, leitos SUS, tipo de leito, competência, município e estabelecimento.
 
-**ESTUDANTE:** O capítulo também fala de geocodificação.
+**ESTUDANTE:** [thinking] Leitos existentes são todos os leitos cadastrados no estabelecimento. Leitos SUS são a parcela disponível ao SUS.
 
-**APRESENTADORA:** Sim. O CNES é muito usado para mapas de serviços e análise de acesso geográfico. Mas a qualidade espacial depende de endereço, coordenadas, geocodificação e validação local.
+**APRESENTADORA:** [affirming] Isso. E eles não devem ser misturados sem explicitar o recorte. Um indicador de leitos por população pode falar de oferta total ou de oferta SUS. São perguntas diferentes.
 
-**ESTUDANTE:** Que problemas podem aparecer nos mapas?
+**ESTUDANTE:** [curious] E leito cadastrado significa leito disponível naquele dia?
 
-**APRESENTADORA:** Coordenadas ausentes, coordenadas zero, pontos fora do município, coordenadas repetidas em endereços genéricos, endereço incompleto e mudanças temporais de localização. Tudo isso precisa ser verificado antes de calcular distância ou mapear serviços.
+**APRESENTADORA:** [firm] Não. Leito cadastrado é uma medida de capacidade instalada no cadastro. Não mede ocupação diária, bloqueio operacional, equipe disponível, regulação, demanda reprimida ou disponibilidade em tempo real.
 
-**ESTUDANTE:** Distância em linha reta pode ser inadequada, certo?
+**ESTUDANTE:** [engaged] Então, se eu quiser falar de pressão assistencial, eu preciso combinar com SIH, censos hospitalares, regulação ou outra fonte operacional.
 
-**APRESENTADORA:** Sim. Para acesso geográfico, a rede viária, barreiras naturais, transporte e tempo de deslocamento podem ser mais informativos que distância euclidiana.
+**APRESENTADORA:** [affirming] Exatamente. O CNES sozinho não mede uso. Ele ajuda a construir o denominador ou a caracterizar a estrutura.
 
-**ESTUDANTE:** Como avaliar qualidade no CNES?
+**ESTUDANTE:** [curious] E o tipo de leito também importa. Não dá para somar UTI, obstétrico, pediátrico e clínico como se fossem equivalentes.
 
-**APRESENTADORA:** Verifique atualização, completitude, consistência territorial, coerência de recursos, duplicidade, mudanças históricas e compatibilidade entre cadastro e produção quando isso fizer sentido.
+**APRESENTADORA:** [thoughtful] Isso. Às vezes faz sentido agrupar, mas a regra precisa ser documentada. Oferta total, oferta SUS, leitos por tipo e leitos por território são leituras diferentes.
 
-**ESTUDANTE:** O CNES depende muito da atualização local.
+**ESTUDANTE:** [curious] Agora profissionais. O arquivo PF costuma gerar confusão?
 
-**APRESENTADORA:** Exatamente. Como é cadastro administrativo, dados podem estar defasados ou inconsistentes se o processo local de atualização não estiver regular.
+**APRESENTADORA:** [explaining] Muita. No PF, a unidade prática é o vínculo profissional no estabelecimento. Um mesmo profissional pode aparecer em mais de um estabelecimento, em mais de uma ocupação ou em mais de um vínculo.
 
-**ESTUDANTE:** Como posso acessar os dados?
+**ESTUDANTE:** [thinking] Então contar linhas do PF não é contar pessoas únicas.
 
-**APRESENTADORA:** Por consulta direta no site do CNES, TabNet, TabWin e arquivos DBC, OpenDataSUS, ElasticCNES, R com microdatasus, Python com PySUS e PCDaS.
+**APRESENTADORA:** [firm] Exato. Em muitos casos você está contando vínculos. E isso não é errado, desde que você diga que são vínculos.
 
-**ESTUDANTE:** O CNES cobre rede pública, privada, filantrópica e conveniada.
+**ESTUDANTE:** [engaged] Posso escrever "vínculos de médicos por município" ou "carga horária cadastrada de enfermeiros", mas não simplesmente "número de médicos" se eu não dedupliquei.
 
-**APRESENTADORA:** Sim. Por isso, o recorte institucional precisa ser declarado. Rede SUS, rede pública, rede privada, filantrópica e suplementar não são sinônimos.
+**APRESENTADORA:** [affirming] Isso. E mesmo a deduplicação pode ter limitações, dependendo dos identificadores disponíveis, anonimização, formato dos dados e qualidade do cadastro.
 
-**ESTUDANTE:** Um hospital privado pode produzir para o SUS.
+**ESTUDANTE:** [curious] O CBO e a carga horária entram nessa parte, certo?
 
-**APRESENTADORA:** Exatamente. E um estabelecimento público pode ter papéis assistenciais muito diferentes. O critério de recorte deve seguir a pergunta: atendimento SUS, leitos SUS, convênio, gestão, natureza jurídica ou produção SUS.
+**APRESENTADORA:** [explaining] Sim. O CBO ajuda a identificar ocupações, mas agrupamentos precisam de regra explícita. E a carga horária só deve ser somada quando você sabe quais campos foram incluídos.
 
-**ESTUDANTE:** O CNES pode ser usado como denominador?
+**ESTUDANTE:** [curious] Isso se conecta ao tema maior: CNES mede cadastro, não disponibilidade efetiva.
 
-**APRESENTADORA:** Pode, mas com cuidado. Você pode calcular internações por leito SUS, procedimentos por serviço cadastrado, notificações por unidade notificadora, profissionais por população ou equipamentos por estabelecimento.
+**APRESENTADORA:** [thoughtful] Sim. Um vínculo cadastrado não garante que aquela pessoa esteja disponível em todos os momentos. Assim como um equipamento cadastrado não garante funcionamento operacional contínuo.
 
-**ESTUDANTE:** Mas o denominador precisa ser nomeado corretamente.
+**ESTUDANTE:** [engaged] Vamos então para integração com outros sistemas. O exemplo clássico é CNES mais SIH?
 
-**APRESENTADORA:** Isso. O denominador pode ser estabelecimento, vínculo, leito, serviço, equipe ou equipamento. Trocar uma unidade pela outra muda completamente o indicador.
+**APRESENTADORA:** [explaining] Sim. Você usa o SIH para internações e o CNES para caracterizar os estabelecimentos. A AIH mede produção hospitalar; o ST caracteriza o estabelecimento; o LT pode trazer capacidade de leitos.
 
-**ESTUDANTE:** Quais são limitações importantes?
+**ESTUDANTE:** [curious] Onde mora o risco nessa junção?
 
-**APRESENTADORA:** Cadastro não é produção. Cadastro não é disponibilidade em tempo real. A atualização depende da gestão local. Profissionais podem ter múltiplos vínculos. Classificações mudam historicamente. Endereços e coordenadas podem ter erro. E a competência importa.
+**APRESENTADORA:** [firm] Na granularidade. Se você juntar cada AIH com todas as linhas de leitos daquele estabelecimento, você multiplica internações. Por isso, leitos precisam ser agregados por CNES e competência antes da junção.
 
-**ESTUDANTE:** Então o CNES é essencial, mas não deve ser tratado como retrato perfeito da rede em funcionamento.
+**ESTUDANTE:** [thinking] Então o fluxo seria: preparo o SIH, seleciono AIHs, competência e CNES; preparo o ST na competência compatível; agrego LT; junto tudo; e audito perdas.
 
-**APRESENTADORA:** Exatamente. Ele é uma base poderosa para estudar estrutura, oferta cadastrada, distribuição territorial e vínculos da rede. Mas a interpretação precisa reconhecer que cadastro, produção e disponibilidade operacional são coisas diferentes.
+**APRESENTADORA:** [affirming] Exatamente. E as perdas importam. Se algumas AIHs não encontram correspondência no CNES, você precisa quantificar e investigar. Pode ser código ausente, estabelecimento inativo, erro de período ou problema de formato.
 
-**ESTUDANTE:** Quais erros comuns devem ser evitados?
+**ESTUDANTE:** [curious] Formato como zeros à esquerda?
 
-**APRESENTADORA:** Contar vínculos profissionais como pessoas, somar arquivos diferentes sem harmonização, usar CNES atual para eventos antigos, tratar leito cadastrado como leito disponível, mapear sem validar coordenadas, misturar rede SUS, pública e privada sem critério e relacionar eventos com recursos linha a linha.
+**APRESENTADORA:** [affirming] Sim. Código CNES deve ser tratado como identificador, não como número para cálculo. Se você perde zeros à esquerda, a chave pode quebrar.
 
-**ESTUDANTE:** Para fechar, qual é a mensagem central?
+**ESTUDANTE:** [engaged] O mesmo raciocínio vale para SIA?
 
-**APRESENTADORA:** O CNES é a base de referência para entender a estrutura da rede de saúde no Brasil. Para usá-lo bem, defina a competência, escolha o arquivo adequado à unidade de análise, preserve a diferença entre estabelecimento, recurso e vínculo, valide qualidade e geocodificação, e relacione com outros sistemas respeitando tempo, chave e granularidade.
+**APRESENTADORA:** [explaining] Vale. A produção ambulatorial deve ser agregada por estabelecimento e competência antes de relacionar com ST, SR, EQ ou HB. Serviço cadastrado e produção realizada são dimensões diferentes.
+
+**ESTUDANTE:** [thinking] Um serviço pode estar cadastrado, mas não ter produzido no período. Ou pode haver produção que precisa ser interpretada à luz de habilitações e serviços.
+
+**APRESENTADORA:** [affirming] Isso. O CNES ajuda a caracterizar oferta cadastrada. O SIA ajuda a medir produção ambulatorial registrada. A análise boa preserva essa diferença.
+
+**ESTUDANTE:** [curious] E com SINAN, SINASC e SIM?
+
+**APRESENTADORA:** [explaining] O CNES pode caracterizar unidades notificadoras, estabelecimentos de ocorrência de nascimento ou óbito, ou locais relacionados ao evento. Mas ele não resolve sozinho a pergunta epidemiológica: residência, ocorrência, notificação e acesso continuam importando.
+
+**ESTUDANTE:** [curious] Vamos falar de análise espacial. O CNES parece muito tentador para mapas.
+
+**APRESENTADORA:** [explaining] E é mesmo. Ele permite mapear estabelecimentos, estimar densidade de oferta, estudar distância até serviços e apoiar planejamento territorial. Mas mapa bonito pode esconder problema cadastral.
+
+**ESTUDANTE:** [thinking] Coordenada ausente, coordenada zero, ponto fora do município, endereço incompleto...
+
+**APRESENTADORA:** [affirming] Exatamente. Também há coordenadas repetidas em pontos genéricos, centróides municipais, endereços desatualizados e mudanças temporais de localização.
+
+**ESTUDANTE:** [curious] Então antes de calcular distância, eu preciso validar coordenadas.
+
+**APRESENTADORA:** [firm] Sim. Cheque latitude, longitude, município, endereço, valores fora do Brasil, pontos no mar, pontos fora do município e concentração artificial em um único ponto.
+
+**ESTUDANTE:** [engaged] E distância em linha reta pode ser ruim para acesso geográfico.
+
+**APRESENTADORA:** [explaining] Pode ser muito limitada. Para acesso, rede viária, transporte, barreiras naturais, tempo de deslocamento e referência assistencial podem ser mais informativos que distância euclidiana.
+
+**ESTUDANTE:** [curious] O capítulo cita GeoCNES. Qual é a ideia?
+
+**APRESENTADORA:** [explaining] Ferramentas como GeoCNES usam o cadastro para mapear estabelecimentos e apoiar análise de acesso e planejamento urbano. Elas também mostram que inconsistências cadastrais e geocodificação são parte do problema, não detalhe secundário.
+
+**ESTUDANTE:** [thinking] Então mapa de CNES é análise de oferta cadastrada no território, não prova automática de acesso.
+
+**APRESENTADORA:** [affirming] Perfeito. Para acesso, você precisa perguntar: a população consegue chegar? O serviço funciona? Produz? Está disponível para o SUS? Tem equipe? Tem regulação?
+
+**ESTUDANTE:** [curious] Isso leva à qualidade dos dados. Como eu avalio qualidade no CNES?
+
+**APRESENTADORA:** [explaining] Comece por atualização, completitude, consistência territorial, coerência entre recursos e tipo de unidade, duplicidade, mudança histórica e compatibilidade com produção quando fizer sentido.
+
+**ESTUDANTE:** [engaged] Um cadastro pode estar completo, mas desatualizado.
+
+**APRESENTADORA:** [affirming] Sim. E pode estar completo, mas incoerente. Por exemplo, um recurso cadastrado em um tipo de estabelecimento que não combina com aquele perfil, ou um serviço cadastrado sem produção esperada durante longos períodos.
+
+**ESTUDANTE:** [thinking] A qualidade depende muito do processo local de atualização.
+
+**APRESENTADORA:** [affirming] Exatamente. O CNES é nacional, mas a alimentação envolve estabelecimentos, gestores municipais, gestores estaduais, críticas cadastrais e disseminação.
+
+**ESTUDANTE:** [curious] Vamos às formas de acesso. Se alguém quer começar, por onde pode ir?
+
+**APRESENTADORA:** [explaining] Depende do uso. Para uma consulta pontual, o site do CNES é útil. Para tabulações rápidas, TabNet. Para microdados históricos, TabWin com arquivos DBC. Para formatos abertos e bases temáticas, OpenDataSUS.
+
+**ESTUDANTE:** [engaged] E para análise reprodutível em código, entram R, Python e plataformas de dados.
+
+**APRESENTADORA:** [affirming] Sim. Em R, o pacote microdatasus permite baixar e processar microdados do CNES. Em Python, PySUS também oferece acesso. E a PCDaS disponibiliza dados em ambiente de notebooks e infraestrutura de análise.
+
+**ESTUDANTE:** [thinking] Então a forma de acesso não é só conveniência. Ela afeta granularidade, atualização e reprodutibilidade.
+
+**APRESENTADORA:** [affirming] Isso. Uma consulta no site, uma tabela no TabNet, um painel no ElasticCNES e um arquivo DBC processado em código podem servir a propósitos diferentes.
+
+**ESTUDANTE:** [curious] Vamos tocar em um ponto delicado: rede SUS, pública, privada, filantrópica e suplementar. O CNES cobre tudo isso?
+
+**APRESENTADORA:** [explaining] O CNES cobre estabelecimentos públicos, privados, filantrópicos e conveniados. Por isso, o recorte institucional precisa ser declarado. Rede SUS, rede pública, rede privada e filantrópica não são sinônimos.
+
+**ESTUDANTE:** [engaged] Um hospital privado pode atender pelo SUS.
+
+**APRESENTADORA:** [affirming] Sim. E um estabelecimento público pode ter papel assistencial muito diferente de outro. O critério pode ser atendimento SUS, leitos SUS, convênio, gestão, natureza jurídica, esfera administrativa ou produção SUS.
+
+**ESTUDANTE:** [thinking] Então, se eu digo "rede SUS", preciso dizer como defini essa rede.
+
+**APRESENTADORA:** [firm] Exatamente. Em análise de leitos, talvez leitos SUS sejam o recorte principal. Em análise institucional, natureza jurídica e gestão podem ser mais adequadas. Em produção, talvez o melhor critério seja ter produção financiada pelo SUS no período.
+
+**ESTUDANTE:** [engaged] Agora denominadores. O capítulo diz que o CNES é usado como denominador ou medida de oferta. Isso é útil, mas perigoso?
+
+**APRESENTADORA:** [thoughtful] É útil quando bem definido. Você pode calcular internações por leito SUS, procedimentos por serviço cadastrado, notificações por unidade notificadora, profissionais por população ou equipamentos por estabelecimento.
+
+**ESTUDANTE:** [curious] O perigo é esquecer que cada denominador tem uma unidade diferente.
+
+**APRESENTADORA:** [affirming] Exatamente. Leito, estabelecimento, vínculo, serviço, equipe e equipamento são unidades diferentes. Trocar uma pela outra muda completamente o indicador.
+
+**ESTUDANTE:** [thinking] Internações por leito SUS não é taxa de ocupação. Procedimentos por serviço cadastrado não é eficiência. Profissionais por população não é acesso efetivo.
+
+**APRESENTADORA:** [affirming] Perfeito. Esses indicadores relacionam produção ou eventos com estrutura cadastrada. Para falar de produtividade, eficiência, ocupação ou acesso, é preciso muito mais contexto.
+
+**ESTUDANTE:** [curious] Parece que quase toda frase sobre CNES precisa de uma nota metodológica.
+
+**APRESENTADORA:** [laughing lightly] De certo modo, sim. Não para burocratizar, mas para proteger a interpretação. Competência, unidade, arquivo, recorte SUS e granularidade precisam estar visíveis.
+
+**ESTUDANTE:** [thinking] Vamos organizar os principais erros, então.
+
+**APRESENTADORA:** [explaining] Primeiro: contar vínculos profissionais como pessoas. Segundo: somar arquivos diferentes sem harmonização. Terceiro: usar CNES atual para eventos antigos. Quarto: tratar leito cadastrado como leito disponível.
+
+**ESTUDANTE:** [engaged] Quinto: mapear sem validar coordenadas. Sexto: misturar rede SUS, pública e privada sem critério. Sétimo: relacionar eventos com LT, PF ou SR linha a linha.
+
+**APRESENTADORA:** [affirming] Exatamente. E todos esses erros têm uma origem comum: confundir camadas do cadastro.
+
+**ESTUDANTE:** [curious] Como seria um checklist prático antes de fechar uma análise?
+
+**APRESENTADORA:** [explaining] Pergunte: a unidade de análise está definida? A competência é compatível com a pergunta? O código CNES foi tratado como identificador? O arquivo escolhido corresponde ao recurso analisado?
+
+**ESTUDANTE:** [engaged] E também: os recursos foram agregados antes da junção? As perdas de relacionamento foram quantificadas? O recorte SUS ou não SUS foi declarado? As coordenadas foram validadas?
+
+**APRESENTADORA:** [affirming] Sim. Acrescente: as mudanças históricas de classificação foram consideradas? O denominador tem a mesma lógica territorial e temporal do numerador? A fonte de acesso e a data de extração foram registradas?
+
+**ESTUDANTE:** [thoughtful] Isso transforma o CNES de uma tabela grande em um painel metodológico.
+
+**APRESENTADORA:** [warmly] Boa imagem. O CNES é um painel mensal da estrutura cadastrada da rede. Mas, como todo painel, ele precisa ser lido com legenda.
+
+**ESTUDANTE:** [curious] Se você tivesse que resumir a diferença entre CNES e sistemas de eventos em uma frase, qual seria?
+
+**APRESENTADORA:** [thoughtful] Sistemas de eventos registram algo que aconteceu: uma internação, um procedimento, uma notificação, um nascimento, um óbito. O CNES descreve a estrutura cadastrada onde esses eventos podem ocorrer ou ser registrados.
+
+**ESTUDANTE:** [engaged] Então ele é menos sobre "o que aconteceu" e mais sobre "onde, com que estrutura, sob qual arranjo institucional".
+
+**APRESENTADORA:** [affirming] Exatamente. E essa é a sua potência. Sem o CNES, muitas análises perdem contexto. Com o CNES mal usado, elas ganham um contexto falso.
+
+**ESTUDANTE:** [curious] O que você recomenda para quem vai escrever resultados usando CNES?
+
+**APRESENTADORA:** [explaining] Use palavras precisas. Diga "estabelecimentos cadastrados", "leitos SUS cadastrados", "vínculos profissionais", "serviços habilitados", "equipamentos cadastrados". Evite encurtar para "hospitais disponíveis", "médicos disponíveis" ou "serviços funcionando" se a base não sustenta isso.
+
+**ESTUDANTE:** [thoughtful] A linguagem já carrega a interpretação.
+
+**APRESENTADORA:** [affirming] Exatamente. Um resultado tecnicamente correto pode ficar errado se a redação exagera o que o dado mede.
+
+**ESTUDANTE:** [curious] E para métodos?
+
+**APRESENTADORA:** [explaining] Informe competência, UF ou território, arquivos usados, forma de acesso, filtros, tratamento de chaves, agregações realizadas, critérios para rede SUS ou privada, e como foram tratadas perdas ou inconsistências.
+
+**ESTUDANTE:** [engaged] Parece muito, mas é o que permite outra pessoa reproduzir.
+
+**APRESENTADORA:** [affirming] Sim. E no CNES isso é decisivo, porque pequenas escolhas mudam o denominador.
+
+**ESTUDANTE:** [curious] Vamos fechar com uma metáfora operacional. Se eu tenho uma base do SIH e quero adicionar CNES, qual é a pergunta que eu devo fazer antes de qualquer join?
+
+**APRESENTADORA:** [firm] Pergunte: qual camada do CNES eu quero adicionar, em qual competência, e em que granularidade? Se a resposta não estiver clara, ainda não é hora de fazer o join.
+
+**ESTUDANTE:** [thinking] Primeiro desenho; depois código.
+
+**APRESENTADORA:** [warmly] Exatamente. O código executa uma decisão metodológica. Se a decisão estiver confusa, o resultado sai confuso com muita rapidez.
+
+**ESTUDANTE:** [curious] E se eu tiver que escolher uma mensagem central do capítulo?
+
+**APRESENTADORA:** [thoughtful] O CNES é a base de referência para entender a estrutura cadastrada da rede de saúde no Brasil. Ele é indispensável para estudar oferta, capacidade instalada, distribuição territorial, vínculos e caracterização de estabelecimentos.
+
+**ESTUDANTE:** [engaged] Mas cadastro não é produção, cadastro não é disponibilidade em tempo real, e vínculo não é pessoa única.
+
+**APRESENTADORA:** [affirming] Perfeito. E competência importa, unidade de análise importa, recorte institucional importa, geocodificação importa, e granularidade da junção importa.
+
+**ESTUDANTE:** [warmly] Ou seja: o CNES é poderoso, mas exige disciplina.
+
+**APRESENTADORA:** [warmly] Exatamente. Usado com disciplina, ele revela a arquitetura da rede. Usado sem cuidado, ele mistura estabelecimento, recurso, evento e vínculo em uma mesma conta. A diferença entre essas duas leituras é o que separa uma análise robusta de uma tabela enganosa.
+
+**ESTUDANTE:** [thoughtful] Fico com uma frase para levar: antes de contar, pergunte o que a linha representa.
+
+**APRESENTADORA:** [affirming] Essa é a melhor síntese. No CNES, cada linha tem uma camada. Quando você respeita essa camada, o cadastro deixa de ser apenas uma base grande e vira uma ferramenta analítica para compreender o SUS e a rede de saúde brasileira.
