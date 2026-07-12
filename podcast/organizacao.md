@@ -8,252 +8,380 @@
 
 **Tom:** natural, conversado e didático
 
-**Duração:** 22 minutos e 21 segundos
+**Duração:** 26 minutos e 43 segundos
 
 ## Roteiro
 
-**APRESENTADORA:** Olá... Neste episódio, a conversa é sobre uma coisa que parece simples, mas muda muito o jeito de usar dados de saúde: como organizar os Sistemas de Informação em Saúde, os SIS brasileiros.
+**APRESENTADORA:** [warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo Organização dos SIS, do livro Sistemas de Informação em Saúde no Brasil.
 
-**ESTUDANTE:** Eu gosto desse tema porque, no começo, parece que o desafio é decorar siglas. SIM, SINASC, SIH, SIA, SINAN, CNES... vira uma sopa de letras.
+**ESTUDANTE:** [curious] Organização dos SIS parece um capítulo cheio de classificações e siglas. Por onde a gente começa?
 
-**APRESENTADORA:** Vira mesmo. Mas a ideia do capítulo não é fazer ninguém decorar sigla. É aprender a perguntar melhor. Quando a pergunta fica boa, a sigla deixa de assustar e começa a orientar.
+**APRESENTADORA:** [lightly] Por uma cena bem comum. Alguém recebe uma pergunta sobre saúde, abre a base que conhece melhor, conta as linhas e entrega um número. O cálculo pode estar correto, mas a resposta pode estar completamente errada.
 
-**ESTUDANTE:** Então o episódio não é uma lista de sistemas?
+**ESTUDANTE:** [surprised] Mesmo sem erro no código ou na soma?
 
-**APRESENTADORA:** Não. É mais como um mapa. E a gente vai montar esse mapa com uma situação bem comum: a mesma doença aparece com números diferentes em bases diferentes.
+**APRESENTADORA:** [affirming] Mesmo assim. Se a fonte não registra o evento, a população ou a unidade que a pergunta exige, nenhuma técnica sofisticada conserta a escolha inicial.
 
-**ESTUDANTE:** Tipo assim: o SINAN mostra um número, o SIH mostra outro, o SIM mostra outro... e alguém conclui que tem erro.
+**ESTUDANTE:** [thinking] Então o problema começa antes da análise. Começa na seleção da fonte.
 
-**APRESENTADORA:** Exatamente. Às vezes pode haver erro, claro. Mas muitas vezes os números são diferentes porque as bases não estão contando a mesma coisa.
+**APRESENTADORA:** [warmly] Exatamente. Neste episódio, vamos transformar uma pergunta vaga em uma escolha bem fundamentada. Para isso, construiremos uma espécie de passaporte da fonte de dados.
 
-**ESTUDANTE:** Mesmo falando da mesma doença?
+**ESTUDANTE:** [curious] O que entra nesse passaporte?
 
-**APRESENTADORA:** Mesmo assim. Uma base pode estar contando notificações. Outra, internações. Outra, óbitos. A doença é o tema comum, mas o evento registrado é diferente.
+**APRESENTADORA:** [explaining] Evento registrado, finalidade institucional, cobertura, unidade de análise, território, período, versão e fluxo de produção. Esses elementos ajudam a entender o que a base mostra e, igualmente importante, o que ela não mostra.
 
-**ESTUDANTE:** Então a primeira pergunta não é "qual sistema tem essa doença?". É "qual evento relacionado a essa doença eu quero observar?".
+**ESTUDANTE:** [engaged] Um mapa para não confundir familiaridade com adequação.
 
-**APRESENTADORA:** Perfeito. Essa é uma das viradas do capítulo. Antes de abrir uma base, vale perguntar: o que aconteceu? Um nascimento? Um óbito? Uma internação? Uma notificação? Uma vacina? Um procedimento?
+**APRESENTADORA:** [affirming] Perfeito. A base mais conhecida ou mais fácil de baixar não é necessariamente a melhor para a pergunta.
 
-**ESTUDANTE:** E cada uma dessas coisas deixa um rastro diferente no sistema.
+**ESTUDANTE:** [curious] Qual é a primeira pergunta do passaporte?
 
-**APRESENTADORA:** Isso. E esse rastro tem finalidade, cobertura, unidade de análise, tempo de disseminação e nível de detalhe. Nenhum critério resolve tudo sozinho, mas juntos eles evitam muita interpretação ruim.
+**APRESENTADORA:** [thoughtful] O que aconteceu? Um nascimento, um óbito, uma internação, uma notificação, uma vacinação, um procedimento, um cadastro ou um lançamento financeiro?
 
-**ESTUDANTE:** Vamos devagar. O primeiro critério é o evento de saúde: o que aconteceu.
+**ESTUDANTE:** [thinking] Isso é o evento registrado.
 
-**APRESENTADORA:** Sim. Se aconteceu um óbito, a conversa provavelmente passa pelo SIM. Se aconteceu um nascimento, pelo SINASC. Se houve uma notificação de agravo, pelo SINAN. Se houve internação no SUS, pelo SIH. Se houve produção ambulatorial, pelo SIA.
+**APRESENTADORA:** [affirming] Sim. Os sistemas não guardam temas abstratos. Eles registram acontecimentos ou operações definidos por instrumentos e regras.
 
-**ESTUDANTE:** E a finalidade institucional? Porque uma base não nasce no vazio.
+**ESTUDANTE:** [curious] Qual é a diferença entre tema e evento?
 
-**APRESENTADORA:** Exato. Alguns sistemas nasceram para vigilância. Outros para assistência, cadastro, financiamento ou gestão. Essa origem aparece nos dados. Um sistema criado para organizar produção e pagamento pode ser útil em pesquisa, mas continua carregando uma lógica administrativa.
+**APRESENTADORA:** [explaining] Uma doença é um tema. Ela pode estar relacionada a uma notificação, uma consulta, uma internação ou um óbito. Já o evento diz o que efetivamente entrou no sistema.
 
-**ESTUDANTE:** Então, se eu uso SIH ou SIA, preciso lembrar que eles não foram desenhados como inquéritos populacionais.
+**ESTUDANTE:** [engaged] O capítulo seguinte vai aprofundar justamente essa relação entre eventos e sistemas.
 
-**APRESENTADORA:** Isso. O SIH registra internações financiadas pelo SUS e tem como unidade central a AIH, a Autorização de Internação Hospitalar. O SIA registra produção ambulatorial, como procedimentos, exames, terapias e outras ações.
+**APRESENTADORA:** [warmly] Isso. Aqui basta guardar a virada metodológica: não comece perguntando qual base fala do meu tema. Pergunte qual acontecimento preciso observar.
 
-**ESTUDANTE:** Eles são riquíssimos, mas não respondem qualquer pergunta.
+**ESTUDANTE:** [curious] E se a minha pergunta ainda estiver vaga?
 
-**APRESENTADORA:** Exatamente. Eles ajudam muito a estudar produção e utilização de serviços. Mas não devem ser lidos como uma contagem direta de pessoas doentes em toda a população brasileira.
+**APRESENTADORA:** [thoughtful] Vale reescrevê-la. Em vez de “quero estudar saúde materna”, por exemplo, diga se o interesse está em nascimentos, óbitos, internações, acesso a serviços, oferta de leitos ou outra dimensão.
 
-**ESTUDANTE:** Aí entra cobertura. Quem aparece na base?
+**ESTUDANTE:** [thinking] Quando o evento fica claro, algumas fontes entram no mapa e outras saem.
 
-**APRESENTADORA:** Cobertura é uma pergunta central. Alguns sistemas buscam registrar eventos em todo o território nacional, independentemente de o evento ter ocorrido em serviço público, privado, filantrópico ou suplementar. É o caso do SIM e do SINASC, por exemplo.
+**APRESENTADORA:** [affirming] Exatamente. Essa é a primeira coordenada.
 
-**ESTUDANTE:** E outros sistemas registram principalmente o que está vinculado ao SUS.
+**ESTUDANTE:** [curious] A segunda é a finalidade institucional?
 
-**APRESENTADORA:** Isso. SIH e SIA registram produção financiada pelo SUS. O SIOPS fala de receitas e despesas públicas em saúde. SISAB e SISAPS se relacionam à atenção primária. O SI-PNI tem sua lógica de vacinação. E, para saúde suplementar, entram bases da ANS.
+**APRESENTADORA:** [explaining] Sim. Para que o sistema foi criado? Vigilância, assistência, cadastro, financiamento, regulação ou gestão? A finalidade orienta os campos, os fluxos e as regras de preenchimento.
 
-**ESTUDANTE:** Então "nacional" não quer dizer "total".
+**ESTUDANTE:** [thoughtful] Uma base feita para autorizar e pagar serviços não nasce com a mesma lógica de uma base de vigilância.
 
-**APRESENTADORA:** Essa frase é ótima. O SIH pode ser analisado nacionalmente, mas não representa todas as internações do país. Representa internações financiadas pelo SUS. A diferença parece pequena, mas muda a conclusão.
+**APRESENTADORA:** [affirming] Exato. Isso não impede usos secundários. Sistemas administrativos podem apoiar pesquisa e avaliação, mas sua origem continua influenciando o que aparece nos registros.
 
-**ESTUDANTE:** E a unidade de análise é a pergunta: cada linha representa o quê?
+**ESTUDANTE:** [curious] Pode dar um exemplo sem entrar no capítulo específico de cada sistema?
 
-**APRESENTADORA:** Sim. Uma linha pode ser uma pessoa, uma declaração, uma notificação, uma autorização, um procedimento, um estabelecimento, uma equipe ou uma informação financeira.
+**APRESENTADORA:** [explaining] Pense no SIH e no SIA. Eles organizam, respectivamente, internações e produção ambulatorial financiadas pelo SUS. São fontes valiosas, mas seus registros seguem uma lógica assistencial e administrativa, não a de um inquérito populacional.
 
-**ESTUDANTE:** É o erro clássico: contar linhas e chamar de pessoas.
+**ESTUDANTE:** [thinking] Então eu posso estudar utilização de serviços, mas não chamar automaticamente cada linha de pessoa doente.
 
-**APRESENTADORA:** Exato. No SIM, cada registro é um óbito. No SINASC, um nascido vivo. No SINAN, uma ficha de notificação, que pode ser suspeita, confirmada, descartada ou ainda estar em investigação. No SIH, uma AIH. No SIA, muitas vezes um procedimento ou instrumento de produção.
+**APRESENTADORA:** [affirming] Perfeito. A finalidade ajuda a formular uma afirmação compatível com a base.
 
-**ESTUDANTE:** Então o início da análise é quase uma pergunta de identidade: quem é você, linha da minha tabela?
+**ESTUDANTE:** [curious] A terceira coordenada é cobertura. Quem consegue aparecer?
 
-**APRESENTADORA:** Sim... e é uma pergunta muito boa. O dado não fala sozinho. Ele fala dentro de um fluxo de registro.
+**APRESENTADORA:** [explaining] Exatamente. Alguns sistemas buscam registrar determinado evento em todo o território nacional. Outros cobrem principalmente ações, serviços ou recursos vinculados ao SUS. Há ainda bases específicas da saúde suplementar.
 
-**ESTUDANTE:** Fluxo de registro é uma ideia importante no capítulo. Explica melhor?
+**ESTUDANTE:** [engaged] Então “base nacional” não quer dizer “todos os eventos do país”.
 
-**APRESENTADORA:** Um SIS não é só um arquivo para download. Alguém registra um evento. Outra pessoa confere ou complementa. Uma gestão municipal ou estadual recebe. Regras de crítica e consolidação entram no caminho. E depois os dados são disseminados em painéis, tabuladores, microdados, relatórios ou bases abertas.
+**APRESENTADORA:** [emphatically] Essa distinção é essencial. Uma base pode ter registros de todos os estados e, ainda assim, representar apenas um segmento da assistência.
 
-**ESTUDANTE:** Então o dado tem uma trajetória.
+**ESTUDANTE:** [curious] Como eu deveria escrever um resultado para deixar isso claro?
 
-**APRESENTADORA:** Tem. E isso ajuda a entender por que dados preliminares mudam, por que campos ficam incompletos, por que há atraso de digitação e por que versões diferentes da mesma base podem produzir resultados diferentes.
+**APRESENTADORA:** [explaining] Em vez de dizer “houve tantas internações no Brasil”, talvez a formulação adequada seja “foram registradas tantas internações financiadas pelo SUS”. A delimitação não enfraquece o resultado; ela o torna preciso.
 
-**ESTUDANTE:** Não é necessariamente falha. Pode ser o processo acontecendo.
+**ESTUDANTE:** [thoughtful] Cobertura define o universo sobre o qual posso falar.
 
-**APRESENTADORA:** Exatamente. Dá para pensar em três momentos: produção do dado, crítica e consolidação, e depois disseminação para uso secundário.
+**APRESENTADORA:** [affirming] Isso. E cobertura planejada não garante cobertura perfeita. Subregistro, atraso e diferenças territoriais ainda precisam ser avaliados.
 
-**ESTUDANTE:** E aí aparece a diferença entre dado rápido e dado mais revisado.
+**ESTUDANTE:** [curious] Agora vem a pergunta mais perigosa: o que cada linha representa?
 
-**APRESENTADORA:** Isso. Dados preliminares são mais oportunos e podem apoiar resposta rápida. Dados consolidados costumam ser mais revisados e funcionam melhor para séries históricas e indicadores oficiais. A escolha depende da pergunta.
+**APRESENTADORA:** [warmly] A unidade de análise. Uma linha pode representar uma pessoa, um evento, uma declaração, uma autorização, um procedimento, um estabelecimento, uma equipe ou uma informação financeira.
 
-**ESTUDANTE:** Um painel muito atualizado pode ser ótimo para acompanhar uma situação em curso, mas ruim para fechar uma conclusão histórica.
+**ESTUDANTE:** [thinking] Contar linhas só responde alguma coisa quando eu sei a identidade da linha.
 
-**APRESENTADORA:** Perfeito. E o contrário também vale. Uma base consolidada pode ser excelente para olhar para trás, mas lenta demais para uma resposta imediata.
+**APRESENTADORA:** [affirming] Exatamente. No SIM, o registro corresponde a um óbito. No SINASC, a um nascido vivo. No SINAN, a uma ficha de notificação. No SIH, a unidade central é a AIH. No SIA, ela pode estar associada a procedimentos ou instrumentos de produção.
 
-**ESTUDANTE:** Vamos para os grupos de sistemas. O primeiro são os sistemas vitais?
+**ESTUDANTE:** [curious] E uma ficha de notificação não é necessariamente um caso confirmado.
 
-**APRESENTADORA:** Isso. Eles registram eventos ligados ao início e ao fim da vida. No Brasil, os dois principais são o SIM, Sistema de Informação sobre Mortalidade, e o SINASC, Sistema de Informação sobre Nascidos Vivos.
+**APRESENTADORA:** [explaining] Correto. Assim como uma autorização não equivale automaticamente a uma pessoa única, e vários procedimentos podem pertencer ao mesmo usuário.
 
-**ESTUDANTE:** O SIM usa a Declaração de Óbito. O SINASC usa a Declaração de Nascido Vivo.
+**ESTUDANTE:** [engaged] O passaporte já tem quatro campos: evento, finalidade, cobertura e unidade.
 
-**APRESENTADORA:** Sim. Esses documentos conectam serviços de saúde, famílias, cartórios, secretarias e Ministério da Saúde. A partir deles, conseguimos estudar mortalidade infantil, mortalidade materna, fecundidade, condições do nascimento, causas de morte e muitos outros indicadores.
+**APRESENTADORA:** [warmly] Esses são os quatro critérios centrais do capítulo. Mas, para usar a base, precisamos acrescentar outras camadas.
 
-**ESTUDANTE:** Mas cobertura nacional não significa dado perfeito.
+**ESTUDANTE:** [curious] Qual vem primeiro?
 
-**APRESENTADORA:** Nunca. A qualidade varia por território, período e variável. Causa básica de óbito, idade gestacional, escolaridade, raça/cor e local de ocorrência, por exemplo, precisam ser avaliados antes de comparações.
+**APRESENTADORA:** [thoughtful] O fluxo de registro. Um SIS não é apenas o arquivo que chega ao computador do analista.
 
-**ESTUDANTE:** Depois vêm morbidade e vigilância.
+**ESTUDANTE:** [curious] Como esse fluxo pode ser resumido?
 
-**APRESENTADORA:** Esse grupo inclui doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento. O SINAN é o grande exemplo: ele registra agravos de notificação compulsória, muitas vezes começando por uma suspeita.
+**APRESENTADORA:** [explaining] Primeiro, alguém produz o registro em um serviço ou instituição. Depois, informações podem ser conferidas, complementadas e transmitidas. Regras de crítica e consolidação entram no caminho. Só então os dados são disseminados em painéis, tabuladores, relatórios ou microdados.
 
-**ESTUDANTE:** Então notificação não é automaticamente caso confirmado.
+**ESTUDANTE:** [thinking] Cada etapa pode alterar o tempo e a qualidade do dado disponível.
 
-**APRESENTADORA:** Essa frase deveria aparecer em letras grandes em todo curso de SIS. Uma ficha pode passar por investigação, classificação final, evolução e encerramento. Contar toda notificação como caso confirmado é um erro comum.
+**APRESENTADORA:** [affirming] Sim. Um registro recente pode ainda não ter chegado à base nacional. Uma investigação pode mudar sua classificação. Uma inconsistência pode ser corrigida em uma versão posterior.
 
-**ESTUDANTE:** E SIVEP e SISAGUA entram nessa família?
+**ESTUDANTE:** [curious] Isso explica a diferença entre dados preliminares e consolidados?
 
-**APRESENTADORA:** Entram, mas com lógicas diferentes. O SIVEP reúne componentes de vigilância voltados a agravos ou síndromes específicas. O SISAGUA trata da vigilância da qualidade da água para consumo humano.
+**APRESENTADORA:** [explaining] Explica parte dela. Dados preliminares chegam mais cedo e apoiam monitoramento oportuno. Dados consolidados costumam passar por mais revisão, mas chegam com maior defasagem.
 
-**ESTUDANTE:** No SISAGUA, o foco nem é uma pessoa doente.
+**ESTUDANTE:** [thoughtful] Nenhuma versão é sempre melhor. Depende do uso.
 
-**APRESENTADORA:** Exato. O foco pode ser uma condição ambiental relevante para a saúde pública. Por isso "vigilância" é uma palavra ampla: pode envolver caso, síndrome, ambiente, laboratório, investigação, alerta.
+**APRESENTADORA:** [affirming] Exatamente. Para acompanhar uma situação em curso, pode ser necessário aceitar maior incerteza. Para uma série histórica ou indicador oficial, uma base consolidada tende a ser mais apropriada.
 
-**ESTUDANTE:** E as datas também mudam, não é?
+**ESTUDANTE:** [curious] O que eu preciso registrar no método?
 
-**APRESENTADORA:** Mudam muito. Data de início de sintomas, data de notificação, data de investigação, data de encerramento, data de digitação... cada uma responde a uma pergunta temporal diferente.
+**APRESENTADORA:** [explaining] A data de extração, a versão da base, o período selecionado e o campo temporal utilizado. “Quando baixei” e “a que período o dado se refere” são informações diferentes.
 
-**ESTUDANTE:** Se eu uso data de digitação para curva epidêmica, talvez eu esteja medindo fluxo administrativo, não ocorrência da doença.
+**ESTUDANTE:** [thinking] E mensal, anual, preliminar e consolidado também não são sinônimos.
 
-**APRESENTADORA:** Pode acontecer. A melhor data não é universal. A melhor data é a que responde à pergunta declarada.
+**APRESENTADORA:** [affirming] Isso. Periodicidade fala do ritmo de disponibilização. Situação da base fala do estágio de revisão. As duas dimensões precisam ser documentadas.
 
-**ESTUDANTE:** Agora os sistemas assistenciais: SIH e SIA.
+**ESTUDANTE:** [curious] Falta o território.
 
-**APRESENTADORA:** Isso. O SIH registra internações hospitalares financiadas pelo SUS. O SIA registra produção ambulatorial: consultas, exames, procedimentos, terapias e outras ações.
+**APRESENTADORA:** [explaining] E território não é um único campo. Podemos encontrar município de residência, de ocorrência, de atendimento, de notificação ou do estabelecimento.
 
-**ESTUDANTE:** Eles têm origem administrativa, mas são usados em estudos epidemiológicos.
+**ESTUDANTE:** [curious] Como escolher entre eles?
 
-**APRESENTADORA:** Sim, e com razão. Eles são muito úteis para estudar acesso, utilização de serviços, padrões de morbidade atendida e avaliação da rede. Só que não cobrem toda a assistência realizada no país.
+**APRESENTADORA:** [thoughtful] Retornando à pergunta. Para estudar risco entre moradores, residência costuma ser central. Para examinar oferta e fluxos assistenciais, atendimento ou estabelecimento pode ser mais informativo. Para observar a operação da vigilância, o local de notificação pode ter outro significado.
 
-**ESTUDANTE:** Então, quando alguém pergunta "quantas internações ocorreram no Brasil", a resposta começa com outra pergunta.
+**ESTUDANTE:** [thinking] Um evento pode atravessar vários territórios.
 
-**APRESENTADORA:** Exatamente: no SUS? Em toda a rede? Por residência? Por local de atendimento? Por estabelecimento? Cada escolha muda o número.
+**APRESENTADORA:** [affirming] Sim. Uma pessoa pode morar em um município, receber atendimento em outro e ter o registro processado por uma unidade regional. Colocar tudo no mesmo mapa apaga deslocamentos importantes.
 
-**ESTUDANTE:** E uma pessoa pode ter mais de uma AIH, ou vários procedimentos no SIA.
+**ESTUDANTE:** [engaged] Então o passaporte também precisa dizer qual território o registro representa.
 
-**APRESENTADORA:** Isso. SIH e SIA são ótimos para produção e utilização, mas exigem cuidado quando a pergunta é sobre pessoas únicas, prevalência ou incidência populacional.
+**APRESENTADORA:** [warmly] Perfeito. Sem isso, numerador e denominador podem falar de populações diferentes.
 
-**ESTUDANTE:** O capítulo também fala de sistemas que não parecem, de primeira, "dados de doença".
+**ESTUDANTE:** [curious] Agora que temos as coordenadas, como os sistemas são agrupados no capítulo?
 
-**APRESENTADORA:** Sim, e eles são fundamentais. O CNES descreve estabelecimentos, profissionais, equipamentos, leitos, serviços e equipes. O SIOPS organiza receitas e despesas públicas em saúde. SISAB e SISAPS ajudam a olhar a atenção primária, produção, vínculo territorial e indicadores.
+**APRESENTADORA:** [explaining] Como um mapa de entrada, não como uma classificação rígida. O capítulo apresenta sistemas vitais; vigilância e morbidade; assistência; cadastro, gestão e financiamento; imunização; e saúde suplementar.
 
-**ESTUDANTE:** Eles dão contexto ao sistema que produz cuidado.
+**ESTUDANTE:** [curious] Por que dizer que as fronteiras não são rígidas?
 
-**APRESENTADORA:** Exatamente. Para entender uma internação, às vezes você precisa olhar a estrutura da rede. Para interpretar produção ambulatorial, precisa saber onde estão os serviços. Para discutir desigualdades, precisa considerar capacidade instalada, financiamento e organização da atenção.
+**APRESENTADORA:** [thoughtful] Porque uma base assistencial pode apoiar vigilância. Uma base cadastral pode ser indispensável para interpretar produção. Informações financeiras podem ajudar a compreender capacidade de execução de políticas.
 
-**ESTUDANTE:** Então essas bases podem funcionar como denominadores, estratificadores ou contexto.
+**ESTUDANTE:** [engaged] O grupo indica a porta de entrada, mas não limita todos os usos.
 
-**APRESENTADORA:** Isso. Sem elas, a análise de eventos pode ficar sem chão institucional.
+**APRESENTADORA:** [affirming] Exatamente. Pense nos grupos como regiões de um mapa. Eles orientam a busca, mas as perguntas podem atravessar fronteiras.
 
-**ESTUDANTE:** E vacinação entra com o SI-PNI.
+**ESTUDANTE:** [curious] Podemos percorrer esse mapa sem transformar o episódio em uma lista de siglas?
 
-**APRESENTADORA:** O SI-PNI apoia o monitoramento de doses aplicadas, coberturas vacinais, campanhas e registros de imunização. Com registros individualizados, as análises ficam mais detalhadas, mas aparecem cuidados com duplicidades, perdas de registro e consistência entre fontes.
+**APRESENTADORA:** [warmly] Podemos. Nos sistemas vitais, o foco está no início e no fim da vida, com SIM e SINASC. Na vigilância, aparecem notificações, investigações e condições de interesse sanitário, com sistemas como SINAN, SIVEP e SISAGUA.
 
-**ESTUDANTE:** Uma dose aplicada não é a mesma coisa que uma pessoa com esquema completo.
+**ESTUDANTE:** [thinking] Na assistência, entram os registros hospitalares e ambulatoriais.
 
-**APRESENTADORA:** Exatamente. Em vacinação, a pergunta pode ser sobre doses, pessoas vacinadas, cobertura, esquema completo, faixa etária, imunobiológico, estabelecimento ou campanha.
+**APRESENTADORA:** [explaining] Isso. SIH e SIA ajudam a observar produção e utilização de serviços do SUS. No campo de cadastro e gestão, CNES, SIOPS e os sistemas da atenção primária descrevem estrutura, financiamento e organização.
 
-**ESTUDANTE:** Vamos falar de território, porque isso sempre dá confusão.
+**ESTUDANTE:** [curious] E vacinação e saúde suplementar têm fontes próprias.
 
-**APRESENTADORA:** Dá mesmo. Muitos sistemas têm município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento.
+**APRESENTADORA:** [affirming] Sim. O SI-PNI organiza registros de imunização, enquanto a ANS dissemina dados relativos à saúde suplementar.
 
-**ESTUDANTE:** E cada campo responde uma pergunta.
+**ESTUDANTE:** [thoughtful] O objetivo não é memorizar o mapa inteiro, mas saber em qual região começar a procura.
 
-**APRESENTADORA:** Sim. Residência fala de onde a pessoa vive. Ocorrência, onde o evento aconteceu. Atendimento, onde o cuidado foi prestado. Notificação, onde o caso entrou na vigilância. Estabelecimento, qual serviço produziu o registro.
+**APRESENTADORA:** [warmly] Exato. Os capítulos específicos aprofundam história, variáveis e limitações de cada sistema. Aqui estamos aprendendo a localizar a fonte antes de entrar nela.
 
-**ESTUDANTE:** Uma internação em uma capital pode ser de uma pessoa que mora em outro município.
+**ESTUDANTE:** [curious] Esse mapa se parece mais com uma árvore ou com uma matriz?
 
-**APRESENTADORA:** Sim. E um óbito pode ocorrer fora do município de residência. Se a gente mistura esses campos, desloca o problema no mapa.
+**APRESENTADORA:** [thoughtful] Com uma matriz. Uma árvore colocaria cada sistema em um único galho. Mas os critérios do capítulo são eixos independentes: evento, finalidade, cobertura e unidade podem ser combinados de maneiras diferentes.
 
-**ESTUDANTE:** Para risco populacional, residência costuma fazer mais sentido. Para rede assistencial, talvez atendimento ou estabelecimento.
+**ESTUDANTE:** [thinking] Então dois sistemas do mesmo grupo podem ter coberturas ou unidades muito distintas.
 
-**APRESENTADORA:** Perfeito. Não existe campo territorial universal. Existe campo adequado à pergunta.
+**APRESENTADORA:** [affirming] Sim. E sistemas de grupos diferentes podem compartilhar território, periodicidade ou códigos. A classificação organiza a comparação sem apagar essas diferenças.
 
-**ESTUDANTE:** Vamos voltar ao exemplo da mesma doença em vários sistemas. O capítulo usa dengue, certo?
+**ESTUDANTE:** [curious] Isso também impede uma ideia de hierarquia? Como se uma base de eventos fosse mais importante que uma base cadastral.
 
-**APRESENTADORA:** Usa. Para casos suspeitos ou confirmados, o caminho provável passa pelo SINAN. Para atendimento ou exame ambulatorial no SUS, podemos olhar SIA. Para internações financiadas pelo SUS, SIH. Para óbitos por dengue como causa básica, SIM. Para estrutura de serviços, CNES.
+**APRESENTADORA:** [emphatically] Exatamente. Importância depende da pergunta. Se o problema é disponibilidade de serviços, uma base cadastral pode ser central. Se o interesse é financiamento, uma base orçamentária deixa de ser contexto e vira a fonte principal.
 
-**ESTUDANTE:** A doença é a mesma, mas cada sistema ilumina uma parte da história.
+**ESTUDANTE:** [engaged] A mesma fonte pode mudar de papel entre dois estudos.
 
-**APRESENTADORA:** Essa é a ideia. O SINAN ilumina vigilância e investigação. O SIA, produção ambulatorial. O SIH, hospitalização no SUS. O SIM, mortalidade. O CNES, estrutura.
+**APRESENTADORA:** [affirming] Pode. Em uma análise, o CNES pode ser o objeto principal. Em outra, pode apenas contextualizar a produção de um serviço. O papel analítico não está fixado no nome da base.
 
-**ESTUDANTE:** Comparar essas curvas pode ser útil, desde que eu não finja que todas medem a mesma coisa.
+**ESTUDANTE:** [curious] Então vale distinguir fonte principal e fonte complementar.
 
-**APRESENTADORA:** Exatamente. Se notificações sobem antes das internações, isso pode sugerir aumento de casos detectados, mas também pode refletir mudança na sensibilidade da vigilância ou na procura por atendimento. O dado abre perguntas; ele não fecha sozinho a explicação.
+**APRESENTADORA:** [explaining] Sim. A principal mede o núcleo da pergunta. As complementares ajudam a descrever população, estrutura, território ou recursos. Essa distinção evita exigir de uma única base respostas para dimensões que ela nunca pretendeu registrar.
 
-**ESTUDANTE:** E onde entram qualidade, completude e comparabilidade?
+**ESTUDANTE:** [thoughtful] Também ajuda a explicar por que fontes diferentes não precisam apresentar números idênticos.
 
-**APRESENTADORA:** Como uma camada transversal. Qualidade pode significar completude dos campos, consistência interna, oportunidade de envio, cobertura do evento, estabilidade das definições, validade dos códigos e comparabilidade entre períodos e territórios.
+**APRESENTADORA:** [warmly] Perfeito. Antes de buscar concordância, precisamos verificar se elas observam o mesmo evento, universo e unidade.
 
-**ESTUDANTE:** Uma base pode ser boa para uma pergunta e limitada para outra.
+**ESTUDANTE:** [curious] Podemos testar o passaporte com uma pergunta prática?
 
-**APRESENTADORA:** Exato. Um campo pode ser bem preenchido em um estado e mal preenchido em outro. Uma variável pode mudar de definição. Um formulário pode ser atualizado. Uma transição tecnológica pode quebrar a série.
+**APRESENTADORA:** [engaged] Vamos imaginar que uma gestão queira estudar acesso a internações de moradores de uma região.
 
-**ESTUDANTE:** Então, antes de interpretar tendência, eu preciso perguntar se mudou o fenômeno ou se mudou o registro.
+**ESTUDANTE:** [thinking] O evento é internação. A população são os moradores da região. O território principal é residência. E precisamos definir um período.
 
-**APRESENTADORA:** Sim. E isso vale especialmente para séries históricas. Mudança de layout, código, regra de classificação ou forma de disseminação pode parecer mudança real quando é mudança no processo de produção do dado.
+**APRESENTADORA:** [affirming] Muito bem. A finalidade da análise aponta para utilização de serviços, e a fonte provável é o SIH quando o interesse está nas internações financiadas pelo SUS.
 
-**ESTUDANTE:** Indicador também carrega escolha, não é só uma conta.
+**ESTUDANTE:** [curious] A unidade seria a AIH, não uma pessoa única.
 
-**APRESENTADORA:** Exato. Um indicador tem numerador, denominador, população de referência, período, território, fonte, critérios de inclusão e exclusão. Uma ficha conceitual bem feita vale muito.
+**APRESENTADORA:** [affirming] Correto. Depois precisamos decidir se o estudo contará autorizações, episódios aproximados ou outra medida possível. A linguagem do resultado deve acompanhar essa decisão.
 
-**ESTUDANTE:** E integração entre sistemas? Parece simples, mas não é só juntar tabelas.
+**ESTUDANTE:** [curious] E se a gestão quiser entender por que alguns moradores viajam para outra cidade?
 
-**APRESENTADORA:** Não é. Para estudar acesso, podemos combinar residência, atendimento e oferta de serviços. Para investigar letalidade, talvez notificações, internações e óbitos. Para avaliar capacidade instalada, produção junto com CNES e população.
+**APRESENTADORA:** [explaining] A comparação entre residência e atendimento ajuda a observar deslocamentos. Informações do CNES podem contextualizar onde existem estabelecimentos, serviços ou recursos no período.
 
-**ESTUDANTE:** Mas o mês de competência de um procedimento não é a data de início de sintomas, nem a data de ocorrência de um óbito.
+**ESTUDANTE:** [engaged] A pergunta começou com uma base e terminou pedindo fontes complementares.
 
-**APRESENTADORA:** Exatamente. E município de residência não é município do estabelecimento. Códigos parecidos podem ter sentidos diferentes. Juntar bases sem resolver isso cria uma aparência de precisão que não existe.
+**APRESENTADORA:** [affirming] Isso acontece com frequência. Uma fonte registra o evento; outra descreve o contexto. Organização não significa procurar uma base que contenha tudo.
 
-**ESTUDANTE:** Também precisa documentar perdas, duplicidades, regras de relacionamento e limites de privacidade.
+**ESTUDANTE:** [curious] Mas combinar fontes não é simplesmente juntar tabelas.
 
-**APRESENTADORA:** Sim. Integração responsável é documentação: o que foi relacionado, o que ficou de fora, quais chaves foram usadas, quais registros se repetiram, quais foram excluídos e quais limites permanecem.
+**APRESENTADORA:** [emphatically] Não. Antes de relacionar arquivos, precisamos verificar compatibilidade conceitual, temporal e territorial.
 
-**ESTUDANTE:** Se alguém abrisse o livro querendo escolher uma fonte, qual seria o caminho prático?
+**ESTUDANTE:** [curious] O que seria compatibilidade conceitual?
 
-**APRESENTADORA:** Eu começaria com quatro palavras: evento, população, território e período. Que evento eu quero estudar? Qual população ou cobertura me interessa? Qual recorte territorial responde à pergunta? Qual período e qual versão dos dados são adequados?
+**APRESENTADORA:** [explaining] Confirmar que categorias aparentemente iguais têm o mesmo significado. Um código, um estabelecimento ou uma medida pode mudar conforme o sistema, o arquivo e o período.
 
-**ESTUDANTE:** Depois disso, unidade de análise, campos disponíveis, documentação e limitações.
+**ESTUDANTE:** [thinking] Compatibilidade temporal seria alinhar datas que representam processos comparáveis.
 
-**APRESENTADORA:** Isso. A tabela do capítulo ajuda a entrar: óbitos apontam para SIM; nascimentos, SINASC; notificações, SINAN; internações no SUS, SIH; procedimentos ambulatoriais no SUS, SIA; estabelecimentos e serviços, CNES; gasto público, SIOPS; vacinação, SI-PNI; saúde suplementar, ANS.
+**APRESENTADORA:** [affirming] Exatamente. Mês de competência, data de atendimento, data de notificação e data de ocorrência não são intercambiáveis.
 
-**ESTUDANTE:** Mas a tabela não substitui o capítulo específico de cada sistema.
+**ESTUDANTE:** [curious] E compatibilidade territorial exige saber se estou usando residência, atendimento ou localização do serviço.
 
-**APRESENTADORA:** Não substitui. Ela orienta a primeira escolha. Depois é preciso entender história, fluxo, variáveis, cobertura, limitações e usos próprios de cada fonte.
+**APRESENTADORA:** [warmly] Perfeito. Sem essas três verificações, uma integração pode parecer precisa, mas combinar coisas diferentes.
 
-**ESTUDANTE:** Vamos fechar com os erros comuns?
+**ESTUDANTE:** [curious] E quando a análise relaciona registros individuais?
 
-**APRESENTADORA:** Vamos. Primeiro: tratar AIH como pessoa única. Segundo: contar notificações do SINAN como casos confirmados sem olhar classificação final. Terceiro: usar SIH e SIA como se representassem toda a assistência pública e privada. Quarto: misturar residência, ocorrência, atendimento e notificação. Quinto: comparar dado preliminar com consolidado sem cautela. Sexto: ignorar mudanças de layout, formulário ou definição.
+**APRESENTADORA:** [serious] Entram questões adicionais: qualidade das chaves, duplicidades, perdas de relacionamento, segurança e privacidade. Toda regra precisa ser documentada.
 
-**ESTUDANTE:** Todos esses erros esquecem o caminho que produziu o dado.
+**ESTUDANTE:** [thinking] Integração responsável mostra também o que não conseguiu integrar.
 
-**APRESENTADORA:** Exatamente. Organizar os SIS é lembrar que cada número tem origem, finalidade, cobertura, unidade, tempo e território.
+**APRESENTADORA:** [affirming] Sim. Informar perdas e limites é parte do resultado, não um detalhe constrangedor.
 
-**ESTUDANTE:** Então a mensagem final não é "decore as bases". É "pergunte melhor".
+**ESTUDANTE:** [curious] O nível de detalhamento também deveria entrar nessa decisão?
 
-**APRESENTADORA:** Isso. Não existe base certa em abstrato. Existe a base mais adequada para uma pergunta bem formulada. Quando a pergunta muda, a fonte adequada também pode mudar.
+**APRESENTADORA:** [explaining] Deveria. Uma fonte pode oferecer totais agregados, tabelas por município, arquivos de microdados ou registros individualizados. Cada nível permite perguntas diferentes.
 
-**ESTUDANTE:** Isso transforma a organização dos SIS em uma etapa metodológica.
+**ESTUDANTE:** [thinking] Existe uma tendência de achar que o arquivo mais detalhado é sempre melhor.
 
-**APRESENTADORA:** Perfeito. Antes de calcular uma taxa, fazer um mapa ou montar uma série histórica, precisamos entender o que está sendo contado. Esse é o convite do capítulo: olhar os sistemas como fluxos, documentos, eventos e decisões analíticas.
+**APRESENTADORA:** [thoughtful] E isso nem sempre é verdade. Se uma tabela agregada responde exatamente à pergunta, ela pode ser mais simples, estável e segura. Mais colunas não significam mais validade.
 
-**ESTUDANTE:** Boa. Agora, quando eu olhar uma tabela de SIS, acho que vou escutar uma pergunta por trás de cada coluna.
+**ESTUDANTE:** [curious] Quando os microdados se tornam necessários?
 
-**APRESENTADORA:** Essa é uma ótima escuta para levar adiante. No próximo capítulo, a conversa continua justamente pelos eventos de saúde: como eles aparecem nos sistemas e por que uma doença pode gerar vários registros diferentes.
+**APRESENTADORA:** [explaining] Quando precisamos construir recortes que não estão disponíveis nas tabelas prontas, combinar variáveis, aplicar critérios específicos ou estudar distribuições mais detalhadas.
+
+**ESTUDANTE:** [curious] E qual é o custo dessa flexibilidade?
+
+**APRESENTADORA:** [serious] Mais responsabilidade com documentação, processamento, valores ausentes, sigilo e risco de identificação. Também aumenta a possibilidade de criar medidas que parecem sofisticadas, mas não respeitam o desenho da fonte.
+
+**ESTUDANTE:** [engaged] Então devemos escolher o nível mínimo de detalhe suficiente para responder à pergunta.
+
+**APRESENTADORA:** [warmly] Essa é uma ótima regra. Ela reduz complexidade desnecessária e deixa mais clara a relação entre fonte e resultado.
+
+**ESTUDANTE:** [curious] E se o dado agregado esconder diferenças importantes?
+
+**APRESENTADORA:** [explaining] Aí a pergunta exige maior granularidade. Podemos precisar de faixa etária, sexo, território menor ou outro estrato. O ponto é justificar o detalhe, não buscá-lo por hábito.
+
+**ESTUDANTE:** [thinking] Granularidade também tem dimensão temporal e territorial.
+
+**APRESENTADORA:** [affirming] Sim. Um dado diário não é automaticamente melhor que um dado mensal, e um mapa muito detalhado pode produzir instabilidade quando há poucos eventos. A escala precisa ser compatível com o fenômeno e com a qualidade do registro.
+
+**ESTUDANTE:** [curious] Onde a qualidade entra no passaporte?
+
+**APRESENTADORA:** [thoughtful] Como uma avaliação transversal. Qualidade não é uma nota única para toda a base.
+
+**ESTUDANTE:** [curious] Que dimensões precisam ser observadas?
+
+**APRESENTADORA:** [explaining] Completude dos campos, consistência interna, oportunidade, cobertura do evento, validade dos códigos, estabilidade das definições e comparabilidade entre períodos e territórios.
+
+**ESTUDANTE:** [thinking] Uma base pode ser excelente para contar um evento e limitada para analisar determinada variável social.
+
+**APRESENTADORA:** [affirming] Exatamente. A qualidade depende da pergunta, do campo, do lugar e do período. Por isso, frases como “essa base é boa” ou “essa base é ruim” dizem pouco sem contexto.
+
+**ESTUDANTE:** [curious] Como investigar uma mudança brusca em uma série?
+
+**APRESENTADORA:** [explaining] Primeiro, verifique se houve alteração de formulário, sistema, campo obrigatório, classificação, cobertura ou forma de disseminação. Só depois trate a ruptura como mudança no fenômeno.
+
+**ESTUDANTE:** [thoughtful] O número pode mudar porque a realidade mudou, porque o registro mudou ou pelos dois motivos.
+
+**APRESENTADORA:** [affirming] Perfeito. A documentação ajuda a separar essas hipóteses.
+
+**ESTUDANTE:** [curious] E os indicadores? Eles entram como produto final desse processo?
+
+**APRESENTADORA:** [explaining] Sim, mas um indicador não é apenas uma fórmula. Ele exige definir numerador, denominador, população de referência, território, período, fonte e critérios de inclusão e exclusão.
+
+**ESTUDANTE:** [thinking] Ou seja, o indicador também precisa de passaporte.
+
+**APRESENTADORA:** [warmly] Boa síntese. Uma ficha conceitual permite que outras pessoas entendam e reproduzam a medida.
+
+**ESTUDANTE:** [curious] Como comparar duas fontes candidatas antes de escolher uma?
+
+**APRESENTADORA:** [thoughtful] Podemos montar uma pequena tabela de decisão. Nas linhas, colocamos os requisitos da pergunta. Nas colunas, as fontes candidatas. Depois verificamos evento, cobertura, unidade, território, período, granularidade e qualidade conhecida.
+
+**ESTUDANTE:** [engaged] Em vez de perguntar qual base é melhor, perguntamos qual atende melhor a cada requisito.
+
+**APRESENTADORA:** [affirming] Exatamente. Uma fonte pode ter cobertura mais adequada e outra oferecer mais detalhe. A escolha depende de qual requisito é indispensável e quais limitações podem ser assumidas.
+
+**ESTUDANTE:** [curious] E quando nenhuma fonte atende completamente?
+
+**APRESENTADORA:** [explaining] Há três caminhos honestos: reformular a pergunta, combinar fontes compatíveis ou declarar que a resposta disponível é parcial. O que não devemos fazer é esconder a lacuna com uma afirmação mais ampla que os dados.
+
+**ESTUDANTE:** [thoughtful] Essa comparação também ajuda a planejar uma análise antes de gastar tempo baixando arquivos enormes.
+
+**APRESENTADORA:** [warmly] Sim. Ler dicionários, notas técnicas e descrições de cobertura pode poupar muito trabalho. Metadados não são uma etapa burocrática posterior; são parte da escolha da fonte.
+
+**ESTUDANTE:** [curious] O passaporte poderia ser preenchido durante essa leitura.
+
+**APRESENTADORA:** [affirming] Perfeito. Ao final, teremos uma justificativa curta e verificável para a fonte escolhida, além de uma lista explícita de limitações.
+
+**ESTUDANTE:** [curious] Se eu estiver diante de muitas bases, qual sequência prática você recomenda?
+
+**APRESENTADORA:** [thoughtful] Primeiro, escreva a pergunta em quatro partes: evento, população, território e período.
+
+**ESTUDANTE:** [engaged] Segundo, identifique qual sistema registra o evento.
+
+**APRESENTADORA:** [affirming] Terceiro, confira finalidade e cobertura. Pergunte por que a base existe e quem pode aparecer nela.
+
+**ESTUDANTE:** [engaged] Quarto, descubra a unidade de análise e o significado dos campos principais.
+
+**APRESENTADORA:** [affirming] Quinto, escolha a versão e a referência temporal adequadas.
+
+**ESTUDANTE:** [engaged] Sexto, avalie qualidade e mudanças ocorridas no período.
+
+**APRESENTADORA:** [warmly] E sétimo, documente tudo: fonte, extração, filtros, categorias, perdas e limitações.
+
+**ESTUDANTE:** [curious] Essa sequência evita começar pelo download.
+
+**APRESENTADORA:** [emphatically] Exatamente. O download vem depois da definição conceitual. Começar pelo arquivo pode fazer a pergunta se adaptar ao que está disponível, sem que essa mudança fique explícita.
+
+**ESTUDANTE:** [thinking] Às vezes adaptar a pergunta é necessário, mas precisa ser uma decisão consciente.
+
+**APRESENTADORA:** [affirming] Sim. Podemos reformular o objetivo diante das limitações da fonte. O problema é fingir que a base responde algo que ela não mede.
+
+**ESTUDANTE:** [curious] Quais sinais indicam que escolhi a fonte errada?
+
+**APRESENTADORA:** [explaining] Você não consegue dizer o que cada linha representa; a população de interesse inclui pessoas que não podem aparecer; o território disponível não corresponde à pergunta; ou a finalidade do registro mede uma operação diferente do fenômeno pretendido.
+
+**ESTUDANTE:** [curious] E quais são os erros mais comuns depois que a fonte foi escolhida?
+
+**APRESENTADORA:** [explaining] Tratar AIH como pessoa única; contar toda notificação como caso confirmado; interpretar SIH e SIA como toda a assistência do país; misturar residência e atendimento; comparar preliminar com consolidado sem aviso; e ignorar mudanças de definição.
+
+**ESTUDANTE:** [thoughtful] Todos parecem diferentes, mas têm a mesma raiz: esquecer o passaporte do registro.
+
+**APRESENTADORA:** [affirming] Exatamente. O erro aparece quando retiramos o número de seu evento, finalidade, cobertura, unidade, tempo e território.
+
+**ESTUDANTE:** [curious] Vamos voltar à cena do início? A pessoa abriu uma base, contou linhas e entregou um número.
+
+**APRESENTADORA:** [reflective] Agora ela faria uma pausa antes do cálculo. Reescreveria a pergunta, identificaria o evento e verificaria quem entra na base. Depois descobriria a unidade da linha, escolheria território e versão e só então calcularia.
+
+**ESTUDANTE:** [engaged] Talvez o número final fosse o mesmo, mas a frase usada para apresentá-lo seria mais precisa.
+
+**APRESENTADORA:** [affirming] Sim. E talvez o número mudasse, porque filtros, unidade ou cobertura estavam inadequados. Nos dois casos, a análise melhora.
+
+**ESTUDANTE:** [thinking] Organizar os SIS é, no fundo, organizar o raciocínio antes de organizar as tabelas.
+
+**APRESENTADORA:** [warmly] Essa é a ideia central. As categorias do capítulo não servem para encaixar cada sistema em uma caixa definitiva. Elas servem para fazer perguntas melhores.
+
+**ESTUDANTE:** [curious] Se eu tivesse que guardar uma frase, qual seria?
+
+**APRESENTADORA:** [thoughtful] Não existe a melhor base em abstrato. Existe a fonte mais adequada para um evento, uma população, um território, um período e uma pergunta claramente formulada.
+
+**ESTUDANTE:** [warmly] E o passaporte ajuda a demonstrar por que aquela escolha é adequada.
+
+**APRESENTADORA:** [affirming] Exatamente. Ele transforma a seleção da fonte em uma decisão metodológica transparente.
+
+**ESTUDANTE:** [curious] O próximo capítulo aprofunda o primeiro campo desse passaporte: os eventos de saúde?
+
+**APRESENTADORA:** [warmly] Sim. Vamos olhar com mais atenção para os acontecimentos que geram registros e entender por que um mesmo tema pode aparecer em sistemas diferentes.
+
+**ESTUDANTE:** [warmly] Ótimo. Saímos da sopa de siglas com um mapa e uma sequência de perguntas.
+
+**APRESENTADORA:** [warmly] É isso. Obrigada pela companhia, e até o próximo capítulo!
