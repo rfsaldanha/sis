@@ -32,9 +32,9 @@ project:
     - podcast/cnes_dialogo_eleven_v3.mp3
     - podcast/cnes.md
     - podcast/cnes_dialogo_eleven_v3_transcript.json
-    - podcast/siops.mp3
+    - podcast/siops_dialogo_eleven_v3.mp3
     - podcast/siops.md
-    - podcast/siops_transcript.json
+    - podcast/siops_dialogo_eleven_v3_transcript.json
     - podcast/sisaps.mp3
     - podcast/sisaps.md
     - podcast/sisaps_transcript.json

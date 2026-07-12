@@ -389,6 +389,26 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "ASPS",
+      "alias": "a ésse pê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "IPCA",
+      "alias": "i pê cê á"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "API",
+      "alias": "a pê i"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "UBS",
+      "alias": "u bê ésse"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SUS",
       "alias": "sús"
     },

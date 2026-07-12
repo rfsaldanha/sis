@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>12&nbsp; SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde – Sistemas de Informação em Saúde no Brasil</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -70,19 +73,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="./sisagua.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c9bb1e29cb3145d4bdb180f1267cabd8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -503,50 +505,57 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
   <li><a href="#resumo" id="toc-resumo" class="nav-link active" data-scroll-target="#resumo"><span class="header-section-number">12.1</span> Resumo</a></li>
   <li><a href="#quando-usar-o-siops" id="toc-quando-usar-o-siops" class="nav-link" data-scroll-target="#quando-usar-o-siops"><span class="header-section-number">12.2</span> Quando usar o SIOPS</a></li>
   <li><a href="#histórico-e-organização" id="toc-histórico-e-organização" class="nav-link" data-scroll-target="#histórico-e-organização"><span class="header-section-number">12.3</span> Histórico e organização</a></li>
-  <li><a href="#fluxo-de-declaração" id="toc-fluxo-de-declaração" class="nav-link" data-scroll-target="#fluxo-de-declaração"><span class="header-section-number">12.4</span> Fluxo de declaração</a></li>
-  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">12.5</span> Unidade de análise</a></li>
-  <li><a href="#fases-da-despesa" id="toc-fases-da-despesa" class="nav-link" data-scroll-target="#fases-da-despesa"><span class="header-section-number">12.6</span> Fases da despesa</a></li>
-  <li><a href="#asps-e-aplicação-mínima" id="toc-asps-e-aplicação-mínima" class="nav-link" data-scroll-target="#asps-e-aplicação-mínima"><span class="header-section-number">12.7</span> ASPS e aplicação mínima</a>
+  <li><a href="#esferas-federativas-e-responsabilidades" id="toc-esferas-federativas-e-responsabilidades" class="nav-link" data-scroll-target="#esferas-federativas-e-responsabilidades"><span class="header-section-number">12.4</span> Esferas federativas e responsabilidades</a></li>
+  <li><a href="#fluxo-de-declaração" id="toc-fluxo-de-declaração" class="nav-link" data-scroll-target="#fluxo-de-declaração"><span class="header-section-number">12.5</span> Fluxo de declaração</a></li>
+  <li><a href="#unidade-de-análise" id="toc-unidade-de-análise" class="nav-link" data-scroll-target="#unidade-de-análise"><span class="header-section-number">12.6</span> Unidade de análise</a></li>
+  <li><a href="#fases-da-despesa" id="toc-fases-da-despesa" class="nav-link" data-scroll-target="#fases-da-despesa"><span class="header-section-number">12.7</span> Fases da despesa</a></li>
+  <li><a href="#asps-e-aplicação-mínima" id="toc-asps-e-aplicação-mínima" class="nav-link" data-scroll-target="#asps-e-aplicação-mínima"><span class="header-section-number">12.8</span> ASPS e aplicação mínima</a>
   <ul class="collapse">
-  <li><a href="#o-que-não-contar-como-asps" id="toc-o-que-não-contar-como-asps" class="nav-link" data-scroll-target="#o-que-não-contar-como-asps"><span class="header-section-number">12.7.1</span> O que não contar como ASPS</a></li>
+  <li><a href="#o-que-não-contar-como-asps" id="toc-o-que-não-contar-como-asps" class="nav-link" data-scroll-target="#o-que-não-contar-como-asps"><span class="header-section-number">12.8.1</span> O que não contar como ASPS</a></li>
+  <li><a href="#restos-a-pagar-e-compensações" id="toc-restos-a-pagar-e-compensações" class="nav-link" data-scroll-target="#restos-a-pagar-e-compensações"><span class="header-section-number">12.8.2</span> Restos a pagar e compensações</a></li>
   </ul></li>
-  <li><a href="#exemplo-percentual-aplicado-em-asps" id="toc-exemplo-percentual-aplicado-em-asps" class="nav-link" data-scroll-target="#exemplo-percentual-aplicado-em-asps"><span class="header-section-number">12.8</span> Exemplo: percentual aplicado em ASPS</a></li>
-  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">12.9</span> Estrutura dos dados</a>
+  <li><a href="#exemplo-percentual-aplicado-em-asps" id="toc-exemplo-percentual-aplicado-em-asps" class="nav-link" data-scroll-target="#exemplo-percentual-aplicado-em-asps"><span class="header-section-number">12.9</span> Exemplo: percentual aplicado em ASPS</a></li>
+  <li><a href="#estrutura-dos-dados" id="toc-estrutura-dos-dados" class="nav-link" data-scroll-target="#estrutura-dos-dados"><span class="header-section-number">12.10</span> Estrutura dos dados</a>
   <ul class="collapse">
-  <li><a href="#dicionário-mínimo" id="toc-dicionário-mínimo" class="nav-link" data-scroll-target="#dicionário-mínimo"><span class="header-section-number">12.9.1</span> Dicionário mínimo</a></li>
+  <li><a href="#dicionário-mínimo" id="toc-dicionário-mínimo" class="nav-link" data-scroll-target="#dicionário-mínimo"><span class="header-section-number">12.10.1</span> Dicionário mínimo</a></li>
   </ul></li>
-  <li><a href="#análise-temporal-e-territorial" id="toc-análise-temporal-e-territorial" class="nav-link" data-scroll-target="#análise-temporal-e-territorial"><span class="header-section-number">12.10</span> Análise temporal e territorial</a>
+  <li><a href="#análise-temporal-e-territorial" id="toc-análise-temporal-e-territorial" class="nav-link" data-scroll-target="#análise-temporal-e-territorial"><span class="header-section-number">12.11</span> Análise temporal e territorial</a>
   <ul class="collapse">
-  <li><a href="#deflação-de-valores-monetários" id="toc-deflação-de-valores-monetários" class="nav-link" data-scroll-target="#deflação-de-valores-monetários"><span class="header-section-number">12.10.1</span> Deflação de valores monetários</a></li>
-  <li><a href="#comparação-entre-municípios" id="toc-comparação-entre-municípios" class="nav-link" data-scroll-target="#comparação-entre-municípios"><span class="header-section-number">12.10.2</span> Comparação entre municípios</a></li>
+  <li><a href="#deflação-de-valores-monetários" id="toc-deflação-de-valores-monetários" class="nav-link" data-scroll-target="#deflação-de-valores-monetários"><span class="header-section-number">12.11.1</span> Deflação de valores monetários</a></li>
+  <li><a href="#comparação-entre-municípios" id="toc-comparação-entre-municípios" class="nav-link" data-scroll-target="#comparação-entre-municípios"><span class="header-section-number">12.11.2</span> Comparação entre municípios</a></li>
   </ul></li>
-  <li><a href="#exemplo-siops-pop" id="toc-exemplo-siops-pop" class="nav-link" data-scroll-target="#exemplo-siops-pop"><span class="header-section-number">12.11</span> Exemplo: SIOPS + POP</a></li>
-  <li><a href="#exemplo-siops-cnes" id="toc-exemplo-siops-cnes" class="nav-link" data-scroll-target="#exemplo-siops-cnes"><span class="header-section-number">12.12</span> Exemplo: SIOPS + CNES</a></li>
-  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">12.13</span> Qualidade dos dados</a>
+  <li><a href="#exemplo-siops-pop" id="toc-exemplo-siops-pop" class="nav-link" data-scroll-target="#exemplo-siops-pop"><span class="header-section-number">12.12</span> Exemplo: SIOPS + POP</a></li>
+  <li><a href="#exemplo-siops-cnes" id="toc-exemplo-siops-cnes" class="nav-link" data-scroll-target="#exemplo-siops-cnes"><span class="header-section-number">12.13</span> Exemplo: SIOPS + CNES</a></li>
+  <li><a href="#qualidade-dos-dados" id="toc-qualidade-dos-dados" class="nav-link" data-scroll-target="#qualidade-dos-dados"><span class="header-section-number">12.14</span> Qualidade dos dados</a>
   <ul class="collapse">
-  <li><a href="#homologação-e-dados-ausentes" id="toc-homologação-e-dados-ausentes" class="nav-link" data-scroll-target="#homologação-e-dados-ausentes"><span class="header-section-number">12.13.1</span> Homologação e dados ausentes</a></li>
+  <li><a href="#homologação-e-dados-ausentes" id="toc-homologação-e-dados-ausentes" class="nav-link" data-scroll-target="#homologação-e-dados-ausentes"><span class="header-section-number">12.14.1</span> Homologação e dados ausentes</a></li>
   </ul></li>
-  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">12.14</span> Acesso aos dados</a>
+  <li><a href="#acesso-aos-dados" id="toc-acesso-aos-dados" class="nav-link" data-scroll-target="#acesso-aos-dados"><span class="header-section-number">12.15</span> Acesso aos dados</a>
   <ul class="collapse">
-  <li><a href="#dados-agregados" id="toc-dados-agregados" class="nav-link" data-scroll-target="#dados-agregados"><span class="header-section-number">12.14.1</span> Dados agregados</a></li>
-  <li><a href="#dados-desagregados" id="toc-dados-desagregados" class="nav-link" data-scroll-target="#dados-desagregados"><span class="header-section-number">12.14.2</span> Dados desagregados</a></li>
-  <li><a href="#documentos-de-orientação" id="toc-documentos-de-orientação" class="nav-link" data-scroll-target="#documentos-de-orientação"><span class="header-section-number">12.14.3</span> Documentos de orientação</a></li>
+  <li><a href="#dados-agregados" id="toc-dados-agregados" class="nav-link" data-scroll-target="#dados-agregados"><span class="header-section-number">12.15.1</span> Dados agregados</a></li>
+  <li><a href="#dados-desagregados" id="toc-dados-desagregados" class="nav-link" data-scroll-target="#dados-desagregados"><span class="header-section-number">12.15.2</span> Dados desagregados</a></li>
+  <li><a href="#documentos-de-orientação" id="toc-documentos-de-orientação" class="nav-link" data-scroll-target="#documentos-de-orientação"><span class="header-section-number">12.15.3</span> Documentos de orientação</a></li>
   </ul></li>
-  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">12.15</span> Relacionamento com outros sistemas</a>
+  <li><a href="#relacionamento-com-outros-sistemas" id="toc-relacionamento-com-outros-sistemas" class="nav-link" data-scroll-target="#relacionamento-com-outros-sistemas"><span class="header-section-number">12.16</span> Relacionamento com outros sistemas</a>
   <ul class="collapse">
-  <li><a href="#checklist-para-integração" id="toc-checklist-para-integração" class="nav-link" data-scroll-target="#checklist-para-integração"><span class="header-section-number">12.15.1</span> Checklist para integração</a></li>
+  <li><a href="#checklist-para-integração" id="toc-checklist-para-integração" class="nav-link" data-scroll-target="#checklist-para-integração"><span class="header-section-number">12.16.1</span> Checklist para integração</a></li>
   </ul></li>
-  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">12.16</span> Principais usos e indicadores</a></li>
-  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">12.17</span> Limitações</a></li>
-  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">12.18</span> Cuidados de interpretação</a>
+  <li><a href="#principais-usos-e-indicadores" id="toc-principais-usos-e-indicadores" class="nav-link" data-scroll-target="#principais-usos-e-indicadores"><span class="header-section-number">12.17</span> Principais usos e indicadores</a>
   <ul class="collapse">
-  <li><a href="#armadilhas-de-interpretação" id="toc-armadilhas-de-interpretação" class="nav-link" data-scroll-target="#armadilhas-de-interpretação"><span class="header-section-number">12.18.1</span> Armadilhas de interpretação</a></li>
+  <li><a href="#como-ler-indicadores-do-siops" id="toc-como-ler-indicadores-do-siops" class="nav-link" data-scroll-target="#como-ler-indicadores-do-siops"><span class="header-section-number">12.17.1</span> Como ler indicadores do SIOPS</a></li>
   </ul></li>
-  <li><a href="#checklist-de-reprodutibilidade" id="toc-checklist-de-reprodutibilidade" class="nav-link" data-scroll-target="#checklist-de-reprodutibilidade"><span class="header-section-number">12.19</span> Checklist de reprodutibilidade</a></li>
-  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">12.20</span> Checklist final</a></li>
-  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">12.21</span> Bibliografia recomendada</a>
+  <li><a href="#limitações" id="toc-limitações" class="nav-link" data-scroll-target="#limitações"><span class="header-section-number">12.18</span> Limitações</a></li>
+  <li><a href="#financiamento-acesso-e-resultados" id="toc-financiamento-acesso-e-resultados" class="nav-link" data-scroll-target="#financiamento-acesso-e-resultados"><span class="header-section-number">12.19</span> Financiamento, acesso e resultados</a></li>
+  <li><a href="#cuidados-de-interpretação" id="toc-cuidados-de-interpretação" class="nav-link" data-scroll-target="#cuidados-de-interpretação"><span class="header-section-number">12.20</span> Cuidados de interpretação</a>
   <ul class="collapse">
-  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">12.21.1</span> Documentos auxiliares</a></li>
+  <li><a href="#armadilhas-de-interpretação" id="toc-armadilhas-de-interpretação" class="nav-link" data-scroll-target="#armadilhas-de-interpretação"><span class="header-section-number">12.20.1</span> Armadilhas de interpretação</a></li>
+  </ul></li>
+  <li><a href="#checklist-de-reprodutibilidade" id="toc-checklist-de-reprodutibilidade" class="nav-link" data-scroll-target="#checklist-de-reprodutibilidade"><span class="header-section-number">12.21</span> Checklist de reprodutibilidade</a></li>
+  <li><a href="#decisões-metodológicas-essenciais" id="toc-decisões-metodológicas-essenciais" class="nav-link" data-scroll-target="#decisões-metodológicas-essenciais"><span class="header-section-number">12.22</span> Decisões metodológicas essenciais</a></li>
+  <li><a href="#checklist-final" id="toc-checklist-final" class="nav-link" data-scroll-target="#checklist-final"><span class="header-section-number">12.23</span> Checklist final</a></li>
+  <li><a href="#bibliografia-recomendada" id="toc-bibliografia-recomendada" class="nav-link" data-scroll-target="#bibliografia-recomendada"><span class="header-section-number">12.24</span> Bibliografia recomendada</a>
+  <ul class="collapse">
+  <li><a href="#documentos-auxiliares" id="toc-documentos-auxiliares" class="nav-link" data-scroll-target="#documentos-auxiliares"><span class="header-section-number">12.24.1</span> Documentos auxiliares</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/siops.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
@@ -574,11 +583,11 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </header>
 
 
-<section class="podcast-player" data-transcript="podcast/siops_transcript.json">
+<section class="podcast-player" data-transcript="podcast/siops_dialogo_eleven_v3_transcript.json">
 <h2 class="anchored">Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
 <audio class="podcast-audio" controls="" preload="metadata">
-  <source src="podcast/siops.mp3" type="audio/mpeg">
+  <source src="podcast/siops_dialogo_eleven_v3.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 <details class="podcast-transcript-wrap">
@@ -689,6 +698,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tr>
 </tbody>
 </table>
+<p>A tabela mostra que o SIOPS é mais útil quando a pergunta está formulada em termos de financiamento, execução orçamentária ou cumprimento legal. Quando o objetivo é avaliar acesso, produção ou qualidade assistencial, o SIOPS entra como contexto financeiro e precisa ser combinado com outras bases. Essa distinção evita transformar gasto declarado em indicador direto de desempenho do sistema de saúde.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -710,13 +720,13 @@ Nota
 <p>A Emenda Constitucional nº 29/2000 estabeleceu bases para a aplicação mínima de recursos em saúde. Posteriormente, a Lei Complementar nº 141/2012 regulamentou os valores mínimos a serem aplicados em ASPS, as regras de fiscalização, avaliação e controle, e a obrigatoriedade de declaração no SIOPS. A partir de 2013, a homologação dos dados no sistema passou a ser obrigatória, com uso de certificação digital e penalidades em caso de ausência de declaração ou não cumprimento dos mínimos legais.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-c750829cbbdb9849c2c6" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-cb28e9ef3dc6459d51e5" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-c750829cbbdb9849c2c6">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SIOPS no<\/br>Conselho Nacional de Saúde<\/small>","start":"1993-01-01"},{"id":"3","content":"<small>Projeto de implantação do SIOPS<\/small>","start":"1999-04-30"},{"id":"4","content":"<small>Instituicionalização do SIOPS<\/small>","start":"2000-10-11"},{"id":"5","content":"<small>Relatório Resumido de Execução Orçamentária<\/br>(RREO) com base no SIOPS<\/small>","start":"2002-01-01"},{"id":"6","content":"<small>EC 29/2000 de aplicação<br>mínima de recursos<\/small>","start":"2000-09-13"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-cb28e9ef3dc6459d51e5">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SIOPS no<\/br>Conselho Nacional de Saúde<\/small>","start":"1993-01-01"},{"id":"3","content":"<small>Projeto de implantação do SIOPS<\/small>","start":"1999-04-30"},{"id":"4","content":"<small>Instituicionalização do SIOPS<\/small>","start":"2000-10-11"},{"id":"5","content":"<small>Relatório Resumido de Execução Orçamentária<\/br>(RREO) com base no SIOPS<\/small>","start":"2002-01-01"},{"id":"6","content":"<small>EC 29/2000 de aplicação<br>mínima de recursos<\/small>","start":"2000-09-13"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIOPS</p>
 </div>
 </div>
@@ -725,8 +735,50 @@ Nota
 <li><a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops">Histórico de institucionalização do SIOPS</a></li>
 </ul>
 </section>
-<section id="fluxo-de-declaração" class="level2" data-number="12.4">
-<h2 data-number="12.4" class="anchored" data-anchor-id="fluxo-de-declaração"><span class="header-section-number">12.4</span> Fluxo de declaração</h2>
+<section id="esferas-federativas-e-responsabilidades" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="esferas-federativas-e-responsabilidades"><span class="header-section-number">12.4</span> Esferas federativas e responsabilidades</h2>
+<p>O SIOPS cobre União, estados, Distrito Federal e municípios, mas esses entes não ocupam a mesma posição no financiamento e na organização do SUS. A comparação entre esferas exige atenção às bases de cálculo, às responsabilidades assistenciais, ao papel regional e à capacidade arrecadatória.</p>
+<table class="caption-top table">
+<caption>Diferenças federativas relevantes para análise do SIOPS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Esfera</th>
+<th>Papel no financiamento e na gestão</th>
+<th>Cuidado analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>União</td>
+<td>Financiamento nacional, transferências e formulação de políticas</td>
+<td>Não comparar diretamente com municípios usando a mesma base de cálculo</td>
+</tr>
+<tr class="even">
+<td>Estados e Distrito Federal</td>
+<td>Coordenação regional, cofinanciamento e serviços de referência</td>
+<td>Considerar rede própria, regionalização e apoio aos municípios</td>
+</tr>
+<tr class="odd">
+<td>Municípios</td>
+<td>Execução local de ações e serviços, atenção básica e gestão de serviços</td>
+<td>Capacidade fiscal e porte populacional condicionam o gasto próprio</td>
+</tr>
+<tr class="even">
+<td>Consórcios e arranjos regionais</td>
+<td>Organização compartilhada de serviços e despesas</td>
+<td>O gasto pode aparecer em ente diferente do local de uso do serviço</td>
+</tr>
+</tbody>
+</table>
+<p>A tabela mostra por que o SIOPS deve ser interpretado dentro do pacto federativo. Um percentual municipal, uma despesa estadual e uma transferência federal respondem a perguntas diferentes. Mesmo quando os valores estão na mesma moeda, eles refletem responsabilidades, bases legais e escalas de decisão distintas.</p>
+</section>
+<section id="fluxo-de-declaração" class="level2" data-number="12.5">
+<h2 data-number="12.5" class="anchored" data-anchor-id="fluxo-de-declaração"><span class="header-section-number">12.5</span> Fluxo de declaração</h2>
 <p>O SIOPS combina preenchimento, transmissão e homologação. A simples transmissão dos dados não encerra o processo: os dados precisam ser homologados pelo gestor responsável para que tenham efeito no acompanhamento oficial.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
@@ -799,9 +851,10 @@ Figura&nbsp;12.1: Fluxo simplificado de declaração no SIOPS
 </tr>
 </tbody>
 </table>
+<p>O fluxo evidencia que o SIOPS não é apenas um repositório de valores monetários. A informação passa por preparação contábil, preenchimento, críticas, transmissão e homologação. Para análise, a etapa de homologação é decisiva, pois separa dados apenas enviados de dados validados no fluxo oficial do sistema.</p>
 </section>
-<section id="unidade-de-análise" class="level2" data-number="12.5">
-<h2 data-number="12.5" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">12.5</span> Unidade de análise</h2>
+<section id="unidade-de-análise" class="level2" data-number="12.6">
+<h2 data-number="12.6" class="anchored" data-anchor-id="unidade-de-análise"><span class="header-section-number">12.6</span> Unidade de análise</h2>
 <p>A unidade de análise do SIOPS depende da pergunta. O mesmo dado pode ser interpretado por ente federado, exercício, bimestre, fase da despesa, fonte de recurso, categoria econômica ou indicador.</p>
 <table class="caption-top table">
 <caption>Unidades de análise frequentes no SIOPS</caption>
@@ -864,6 +917,7 @@ Figura&nbsp;12.1: Fluxo simplificado de declaração no SIOPS
 </tr>
 </tbody>
 </table>
+<p>A unidade escolhida define o que o indicador consegue responder. Um percentual aplicado em ASPS resume cumprimento legal; uma despesa por habitante aproxima esforço financeiro; uma fase da despesa descreve momento da execução orçamentária. Misturar essas unidades em uma mesma série pode produzir comparações aparentemente precisas, mas metodologicamente frágeis.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -878,8 +932,8 @@ Aviso
 </div>
 </div>
 </section>
-<section id="fases-da-despesa" class="level2" data-number="12.6">
-<h2 data-number="12.6" class="anchored" data-anchor-id="fases-da-despesa"><span class="header-section-number">12.6</span> Fases da despesa</h2>
+<section id="fases-da-despesa" class="level2" data-number="12.7">
+<h2 data-number="12.7" class="anchored" data-anchor-id="fases-da-despesa"><span class="header-section-number">12.7</span> Fases da despesa</h2>
 <p>Em análises do SIOPS, a fase da despesa muda a interpretação do indicador. O mesmo programa pode ter valor empenhado, liquidado e pago diferentes no mesmo exercício.</p>
 <table class="caption-top table">
 <caption>Interpretação das fases da despesa no SIOPS</caption>
@@ -924,6 +978,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>As fases da despesa representam momentos diferentes do ciclo orçamentário. Valores empenhados indicam compromisso, valores liquidados aproximam a entrega de bens ou serviços e valores pagos representam desembolso financeiro. A escolha da fase deve acompanhar a pergunta de pesquisa, não apenas a disponibilidade do campo.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -938,9 +993,48 @@ Dica
 </div>
 </div>
 </section>
-<section id="asps-e-aplicação-mínima" class="level2" data-number="12.7">
-<h2 data-number="12.7" class="anchored" data-anchor-id="asps-e-aplicação-mínima"><span class="header-section-number">12.7</span> ASPS e aplicação mínima</h2>
+<section id="asps-e-aplicação-mínima" class="level2" data-number="12.8">
+<h2 data-number="12.8" class="anchored" data-anchor-id="asps-e-aplicação-mínima"><span class="header-section-number">12.8</span> ASPS e aplicação mínima</h2>
 <p>Ações e Serviços Públicos de Saúde (ASPS) são o eixo central do SIOPS. A classificação define quais despesas podem compor a aplicação mínima em saúde e quais devem ser excluídas do cálculo.</p>
+<p>Uma distinção prática ajuda a evitar confusão. “Gasto em saúde” pode ser usado em sentido amplo; “despesa da saúde” pode se referir à unidade orçamentária ou secretaria; “despesa em ASPS” é a parcela que cumpre os critérios legais; e “percentual aplicado” é a razão entre essa despesa elegível e a base de cálculo. Esses termos não são intercambiáveis.</p>
+<table class="caption-top table">
+<caption>Diferenças entre gasto em saúde, despesa da saúde e ASPS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Termo</th>
+<th>O que representa</th>
+<th>Como usar</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gasto em saúde em sentido amplo</td>
+<td>Despesas relacionadas direta ou indiretamente à saúde</td>
+<td>Útil para contexto, mas não define cumprimento legal</td>
+</tr>
+<tr class="even">
+<td>Despesa da função ou órgão saúde</td>
+<td>Gasto classificado administrativamente na área da saúde</td>
+<td>Pode incluir itens que não são ASPS</td>
+</tr>
+<tr class="odd">
+<td>Despesa elegível em ASPS</td>
+<td>Gasto que atende aos critérios legais de ações e serviços públicos de saúde</td>
+<td>Base do numerador para aplicação mínima</td>
+</tr>
+<tr class="even">
+<td>Percentual aplicado em ASPS</td>
+<td>Relação entre despesa elegível e base de cálculo</td>
+<td>Indicador de cumprimento do mínimo legal</td>
+</tr>
+</tbody>
+</table>
+<p>Essa distinção evita duas leituras problemáticas: considerar todo gasto administrativo da saúde como ASPS ou tratar o percentual aplicado como medida de suficiência de financiamento. O SIOPS permite acompanhar a regra legal, mas a avaliação de suficiência exige analisar necessidade de saúde, rede, preços, população e resultados.</p>
 <table class="caption-top table">
 <caption>Elementos do cálculo de ASPS no SIOPS</caption>
 <colgroup>
@@ -984,8 +1078,8 @@ Dica
 </tbody>
 </table>
 <p>O indicador de percentual de recursos próprios aplicados em ASPS é uma das principais saídas do sistema. Ele permite verificar a situação declarada do ente em relação aos mínimos definidos pela Constituição Federal e pela Lei Complementar nº 141/2012.</p>
-<section id="o-que-não-contar-como-asps" class="level3" data-number="12.7.1">
-<h3 data-number="12.7.1" class="anchored" data-anchor-id="o-que-não-contar-como-asps"><span class="header-section-number">12.7.1</span> O que não contar como ASPS</h3>
+<section id="o-que-não-contar-como-asps" class="level3" data-number="12.8.1">
+<h3 data-number="12.8.1" class="anchored" data-anchor-id="o-que-não-contar-como-asps"><span class="header-section-number">12.8.1</span> O que não contar como ASPS</h3>
 <p>Nem toda despesa registrada em uma unidade orçamentária da saúde deve compor ASPS. A análise precisa respeitar os critérios legais e separar gastos que podem inflar artificialmente a aplicação mínima.</p>
 <table class="caption-top table">
 <caption>Exemplos de exclusões ou situações que exigem conferência no cálculo de ASPS</caption>
@@ -1029,6 +1123,7 @@ Dica
 </tr>
 </tbody>
 </table>
+<p>As exclusões protegem o conceito de ASPS contra ampliação indevida. Algumas despesas têm impacto social ou relação indireta com saúde, mas não cumprem os critérios legais para compor a aplicação mínima. Por isso, análises de financiamento devem separar gasto em saúde em sentido amplo, despesa orçamentária da saúde e despesa elegível em ASPS.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1043,9 +1138,51 @@ Aviso
 </div>
 </div>
 </section>
+<section id="restos-a-pagar-e-compensações" class="level3" data-number="12.8.2">
+<h3 data-number="12.8.2" class="anchored" data-anchor-id="restos-a-pagar-e-compensações"><span class="header-section-number">12.8.2</span> Restos a pagar e compensações</h3>
+<p>Restos a pagar são despesas empenhadas que não foram pagas até o encerramento do exercício. No SIOPS, eles exigem atenção porque podem afetar a leitura do cumprimento mínimo, especialmente quando há cancelamentos, pagamentos posteriores ou necessidade de compensação.</p>
+<table class="caption-top table">
+<caption>Tratamento analítico de restos a pagar no SIOPS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situação</th>
+<th>Interpretação</th>
+<th>Cuidado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restos a pagar inscritos</td>
+<td>Despesa empenhada que permanece para pagamento posterior</td>
+<td>Verificar se a inscrição pode compor o cálculo conforme a regra aplicável</td>
+</tr>
+<tr class="even">
+<td>Restos a pagar pagos</td>
+<td>Despesa de exercício anterior efetivamente paga depois</td>
+<td>Evitar dupla contagem entre exercícios</td>
+</tr>
+<tr class="odd">
+<td>Restos a pagar cancelados</td>
+<td>Despesa que deixou de se realizar</td>
+<td>Pode exigir compensação quando afetou o mínimo aplicado</td>
+</tr>
+<tr class="even">
+<td>Compensação</td>
+<td>Reposição em exercício posterior de valor que não se efetivou</td>
+<td>Documentar exercício de origem e exercício de compensação</td>
+</tr>
+</tbody>
+</table>
+<p>A tabela evidencia que restos a pagar não são apenas detalhe contábil. Eles podem mudar a interpretação de cumprimento do mínimo, principalmente quando a despesa foi considerada em um exercício e cancelada depois. Em séries históricas, documente se a análise usa valores inscritos, pagos, cancelados ou compensados.</p>
 </section>
-<section id="exemplo-percentual-aplicado-em-asps" class="level2" data-number="12.8">
-<h2 data-number="12.8" class="anchored" data-anchor-id="exemplo-percentual-aplicado-em-asps"><span class="header-section-number">12.8</span> Exemplo: percentual aplicado em ASPS</h2>
+</section>
+<section id="exemplo-percentual-aplicado-em-asps" class="level2" data-number="12.9">
+<h2 data-number="12.9" class="anchored" data-anchor-id="exemplo-percentual-aplicado-em-asps"><span class="header-section-number">12.9</span> Exemplo: percentual aplicado em ASPS</h2>
 <p>O percentual aplicado em ASPS resume a relação entre a despesa elegível em ASPS e a base de cálculo do ente. Ele é útil para monitoramento legal, mas não informa sozinho se o gasto foi suficiente, eficiente ou bem distribuído.</p>
 <table class="caption-top table">
 <caption>Componentes do percentual aplicado em ASPS</caption>
@@ -1089,6 +1226,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>A decomposição do indicador deixa claro que o percentual aplicado é uma razão normativa. Ele depende tanto da despesa elegível quanto da base de cálculo e das deduções permitidas. Assim, dois entes com percentuais semelhantes podem ter volumes absolutos, capacidades fiscais e necessidades de saúde muito diferentes.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1118,8 +1256,8 @@ Nota
 </div>
 </div>
 </section>
-<section id="estrutura-dos-dados" class="level2" data-number="12.9">
-<h2 data-number="12.9" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">12.9</span> Estrutura dos dados</h2>
+<section id="estrutura-dos-dados" class="level2" data-number="12.10">
+<h2 data-number="12.10" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">12.10</span> Estrutura dos dados</h2>
 <p>As consultas do SIOPS podem ser organizadas por indicadores agregados ou por dados mais detalhados de receitas e despesas. Em análises reprodutíveis, é importante registrar a origem da extração, o período, o ente federado, o indicador e a fase orçamentária.</p>
 <table class="caption-top table">
 <caption>Dimensões úteis para inspeção do SIOPS</caption>
@@ -1173,8 +1311,9 @@ Nota
 </tr>
 </tbody>
 </table>
-<section id="dicionário-mínimo" class="level3" data-number="12.9.1">
-<h3 data-number="12.9.1" class="anchored" data-anchor-id="dicionário-mínimo"><span class="header-section-number">12.9.1</span> Dicionário mínimo</h3>
+<p>Essas dimensões funcionam como uma auditoria inicial da extração. Antes de calcular indicadores, é preciso saber se o território, o período, a situação de homologação e a fase da despesa estão coerentes. Em bases financeiras, pequenas diferenças de classificação podem alterar substantivamente o resultado final.</p>
+<section id="dicionário-mínimo" class="level3" data-number="12.10.1">
+<h3 data-number="12.10.1" class="anchored" data-anchor-id="dicionário-mínimo"><span class="header-section-number">12.10.1</span> Dicionário mínimo</h3>
 <p>Antes de analisar o SIOPS, construa um dicionário operacional com as variáveis usadas. Isso reduz ambiguidade entre gasto, aplicação, execução e disponibilidade financeira.</p>
 <table class="caption-top table">
 <caption>Conceitos mínimos para análise do SIOPS</caption>
@@ -1228,10 +1367,11 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>O dicionário mínimo ajuda a evitar ambiguidades recorrentes entre receita, despesa e aplicação. Em especial, transferência recebida não é sinônimo de gasto executado, e despesa paga não é sinônimo de despesa liquidada. Nomear corretamente cada conceito reduz erros de interpretação em tabelas e gráficos.</p>
 </section>
 </section>
-<section id="análise-temporal-e-territorial" class="level2" data-number="12.10">
-<h2 data-number="12.10" class="anchored" data-anchor-id="análise-temporal-e-territorial"><span class="header-section-number">12.10</span> Análise temporal e territorial</h2>
+<section id="análise-temporal-e-territorial" class="level2" data-number="12.11">
+<h2 data-number="12.11" class="anchored" data-anchor-id="análise-temporal-e-territorial"><span class="header-section-number">12.11</span> Análise temporal e territorial</h2>
 <p>Séries do SIOPS devem ser interpretadas com atenção a inflação, mudanças contábeis, mudanças legais, porte populacional e responsabilidades federativas. Comparações diretas entre municípios pequenos e capitais, ou entre municípios e estados, podem ser pouco informativas sem padronização.</p>
 <table class="caption-top table">
 <caption>Cuidados em comparações temporais e territoriais</caption>
@@ -1275,8 +1415,9 @@ Nota
 </tr>
 </tbody>
 </table>
-<section id="deflação-de-valores-monetários" class="level3" data-number="12.10.1">
-<h3 data-number="12.10.1" class="anchored" data-anchor-id="deflação-de-valores-monetários"><span class="header-section-number">12.10.1</span> Deflação de valores monetários</h3>
+<p>A tabela resume dois problemas centrais: dinheiro muda de valor no tempo, e entes federados não têm a mesma capacidade fiscal nem as mesmas responsabilidades. Por isso, comparações temporais exigem deflação, e comparações territoriais exigem padronização por população, porte, região e papel na rede de atenção.</p>
+<section id="deflação-de-valores-monetários" class="level3" data-number="12.11.1">
+<h3 data-number="12.11.1" class="anchored" data-anchor-id="deflação-de-valores-monetários"><span class="header-section-number">12.11.1</span> Deflação de valores monetários</h3>
 <p>Valores monetários em anos diferentes devem ser comparados em termos reais. Se a análise usa valores nominais, o texto precisa declarar isso explicitamente e evitar interpretar crescimento nominal como aumento real de gasto.</p>
 <table class="caption-top table">
 <caption>Decisões mínimas para deflacionar valores do SIOPS</caption>
@@ -1315,6 +1456,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>As decisões de deflação devem ser documentadas porque mudam a leitura da tendência. A escolha do índice, do ano-base e do tratamento de valores per capita define se a análise descreve crescimento nominal ou variação real do gasto. Sem essa etapa, aumentos monetários podem refletir apenas inflação acumulada.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1325,8 +1467,8 @@ Nota
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>siops_real</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="comparação-entre-municípios" class="level3" data-number="12.10.2">
-<h3 data-number="12.10.2" class="anchored" data-anchor-id="comparação-entre-municípios"><span class="header-section-number">12.10.2</span> Comparação entre municípios</h3>
+<section id="comparação-entre-municípios" class="level3" data-number="12.11.2">
+<h3 data-number="12.11.2" class="anchored" data-anchor-id="comparação-entre-municípios"><span class="header-section-number">12.11.2</span> Comparação entre municípios</h3>
 <p>Comparar municípios exige mais do que ordenar gastos. Municípios pequenos podem apresentar valores per capita instáveis, capitais concentram serviços de referência, e a capacidade fiscal condiciona a possibilidade de gasto próprio.</p>
 <table class="caption-top table">
 <caption>Critérios para comparação municipal com SIOPS</caption>
@@ -1375,6 +1517,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>Os critérios de comparação municipal reduzem interpretações simplistas de rankings. Municípios com portes, funções regionais e capacidades fiscais distintas podem apresentar gastos per capita muito diferentes por razões estruturais. A comparação mais informativa costuma combinar tendência histórica, grupos comparáveis e inspeção de valores extremos.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1404,8 +1547,8 @@ Nota
 </div>
 </section>
 </section>
-<section id="exemplo-siops-pop" class="level2" data-number="12.11">
-<h2 data-number="12.11" class="anchored" data-anchor-id="exemplo-siops-pop"><span class="header-section-number">12.11</span> Exemplo: SIOPS + POP</h2>
+<section id="exemplo-siops-pop" class="level2" data-number="12.12">
+<h2 data-number="12.12" class="anchored" data-anchor-id="exemplo-siops-pop"><span class="header-section-number">12.12</span> Exemplo: SIOPS + POP</h2>
 <p>Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e população residente. Esse indicador padroniza por tamanho populacional, mas ainda não corrige diferenças de perfil demográfico, rede regional, capacidade fiscal ou necessidade de saúde.</p>
 <table class="caption-top table">
 <caption>Componentes de uma análise de despesa per capita</caption>
@@ -1444,6 +1587,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>A despesa per capita melhora a comparabilidade em relação ao valor total, mas não resolve todos os problemas. O indicador continua sensível à população usada, ao deflator, à fase da despesa e à situação de homologação. Além disso, gasto por residente não mede automaticamente acesso, pois serviços podem atender pessoas de outros territórios.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1459,8 +1603,8 @@ Nota
 <span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>asps_per_capita</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="exemplo-siops-cnes" class="level2" data-number="12.12">
-<h2 data-number="12.12" class="anchored" data-anchor-id="exemplo-siops-cnes"><span class="header-section-number">12.12</span> Exemplo: SIOPS + CNES</h2>
+<section id="exemplo-siops-cnes" class="level2" data-number="12.13">
+<h2 data-number="12.13" class="anchored" data-anchor-id="exemplo-siops-cnes"><span class="header-section-number">12.13</span> Exemplo: SIOPS + CNES</h2>
 <p>Também é possível relacionar gasto municipal declarado no SIOPS com medidas de oferta do CNES, como estabelecimentos, UBS, leitos SUS ou equipes. Essa relação deve ser interpretada como uma aproximação ecológica entre financiamento e oferta localizada no território.</p>
 <table class="caption-top table">
 <caption>Exemplos de indicadores combinando SIOPS e CNES</caption>
@@ -1505,6 +1649,7 @@ Nota
 </tr>
 </tbody>
 </table>
+<p>Os indicadores combinados com CNES são úteis para explorar relações entre financiamento e estrutura da rede, mas devem ser lidos como medidas ecológicas. O numerador pertence ao ente financiador, enquanto o denominador descreve estabelecimentos, leitos ou equipes localizados no território. Essa diferença impede interpretações diretas de custo por unidade de serviço.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1533,8 +1678,8 @@ Aviso
 </div>
 </div>
 </section>
-<section id="qualidade-dos-dados" class="level2" data-number="12.13">
-<h2 data-number="12.13" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">12.13</span> Qualidade dos dados</h2>
+<section id="qualidade-dos-dados" class="level2" data-number="12.14">
+<h2 data-number="12.14" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">12.14</span> Qualidade dos dados</h2>
 <p>O SIOPS é uma base declaratória. A qualidade depende da organização contábil do ente, do preenchimento correto, da transmissão no prazo, da homologação e da consistência das classificações usadas.</p>
 <table class="caption-top table">
 <caption>Dimensões de qualidade relevantes no SIOPS</caption>
@@ -1583,6 +1728,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>A qualidade do SIOPS deve ser avaliada antes da comparação substantiva. Um salto de despesa pode indicar ampliação real de investimento, mas também mudança de classificação, retificação, erro de preenchimento ou inclusão de restos a pagar. A etapa de validação ajuda a separar sinal fiscal de ruído contábil.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1597,8 +1743,8 @@ Aviso
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>validacao_siops</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<section id="homologação-e-dados-ausentes" class="level3" data-number="12.13.1">
-<h3 data-number="12.13.1" class="anchored" data-anchor-id="homologação-e-dados-ausentes"><span class="header-section-number">12.13.1</span> Homologação e dados ausentes</h3>
+<section id="homologação-e-dados-ausentes" class="level3" data-number="12.14.1">
+<h3 data-number="12.14.1" class="anchored" data-anchor-id="homologação-e-dados-ausentes"><span class="header-section-number">12.14.1</span> Homologação e dados ausentes</h3>
 <p>A ausência de dados pode ter significados diferentes: o ente pode não ter transmitido, pode ter transmitido sem homologar, pode estar fora do prazo ou pode ter inconsistências que impedem o fechamento. Em séries temporais, essas situações devem ser tratadas separadamente.</p>
 <table class="caption-top table">
 <caption>Situações de homologação e ausência no SIOPS</caption>
@@ -1642,6 +1788,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>As situações listadas mostram que ausência não deve ser tratada como valor zero. Um dado pendente, atrasado ou retificado tem implicações diferentes para a análise e pode mudar conclusões sobre cumprimento de prazo ou aplicação mínima. A data de extração precisa acompanhar qualquer resultado produzido a partir do SIOPS.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1657,25 +1804,25 @@ Aviso
 </div>
 </section>
 </section>
-<section id="acesso-aos-dados" class="level2" data-number="12.14">
-<h2 data-number="12.14" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">12.14</span> Acesso aos dados</h2>
+<section id="acesso-aos-dados" class="level2" data-number="12.15">
+<h2 data-number="12.15" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">12.15</span> Acesso aos dados</h2>
 <p>O SIOPS pode ser consultado por painéis e relatórios agregados no portal do Ministério da Saúde, por arquivos disponibilizados no OpenDataSUS e por API para extrações desagregadas.</p>
-<section id="dados-agregados" class="level3" data-number="12.14.1">
-<h3 data-number="12.14.1" class="anchored" data-anchor-id="dados-agregados"><span class="header-section-number">12.14.1</span> Dados agregados</h3>
+<section id="dados-agregados" class="level3" data-number="12.15.1">
+<h3 data-number="12.15.1" class="anchored" data-anchor-id="dados-agregados"><span class="header-section-number">12.15.1</span> Dados agregados</h3>
 <p>As consultas agregadas permitem acompanhar indicadores por ano, bimestre, ente federado e fase da despesa. São úteis para exploração inicial e validação de resultados.</p>
 <ul>
 <li><a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores">SIOPS - Indicadores</a></li>
 </ul>
 </section>
-<section id="dados-desagregados" class="level3" data-number="12.14.2">
-<h3 data-number="12.14.2" class="anchored" data-anchor-id="dados-desagregados"><span class="header-section-number">12.14.2</span> Dados desagregados</h3>
+<section id="dados-desagregados" class="level3" data-number="12.15.2">
+<h3 data-number="12.15.2" class="anchored" data-anchor-id="dados-desagregados"><span class="header-section-number">12.15.2</span> Dados desagregados</h3>
 <p>Os dados desagregados permitem análises reprodutíveis e integração com outras bases territoriais, populacionais e fiscais.</p>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/siops">OpenDataSUS - SIOPS</a></li>
 </ul>
 </section>
-<section id="documentos-de-orientação" class="level3" data-number="12.14.3">
-<h3 data-number="12.14.3" class="anchored" data-anchor-id="documentos-de-orientação"><span class="header-section-number">12.14.3</span> Documentos de orientação</h3>
+<section id="documentos-de-orientação" class="level3" data-number="12.15.3">
+<h3 data-number="12.15.3" class="anchored" data-anchor-id="documentos-de-orientação"><span class="header-section-number">12.15.3</span> Documentos de orientação</h3>
 <p>Os documentos de orientação ajudam a interpretar regras de preenchimento, prazos, ASPS, restos a pagar, homologação e penalidades.</p>
 <ul>
 <li><a href="assets/siops/cartilha-SIOPS-2023.pdf">Cartilha de orientação SIOPS</a></li>
@@ -1683,8 +1830,8 @@ Aviso
 </ul>
 </section>
 </section>
-<section id="relacionamento-com-outros-sistemas" class="level2" data-number="12.15">
-<h2 data-number="12.15" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">12.15</span> Relacionamento com outros sistemas</h2>
+<section id="relacionamento-com-outros-sistemas" class="level2" data-number="12.16">
+<h2 data-number="12.16" class="anchored" data-anchor-id="relacionamento-com-outros-sistemas"><span class="header-section-number">12.16</span> Relacionamento com outros sistemas</h2>
 <p>O SIOPS ganha poder analítico quando combinado com indicadores de oferta, produção, eventos e população. A integração deve respeitar que o SIOPS está no nível do ente federado e do período, não no nível de estabelecimento ou pessoa.</p>
 <table class="caption-top table">
 <caption>Integrações frequentes entre SIOPS e outros sistemas</caption>
@@ -1703,7 +1850,7 @@ Aviso
 <tbody>
 <tr class="odd">
 <td>Maior gasto se associa a maior oferta?</td>
-<td>SIOPS + CNES (<span class="quarto-unresolved-ref">?sec-cnes</span>)</td>
+<td>SIOPS + CNES (<a href="cnes.html" class="quarto-xref"><span>Capítulo 10</span></a>)</td>
 <td>Comparar gasto municipal com oferta localizada no município</td>
 </tr>
 <tr class="even">
@@ -1728,6 +1875,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>As integrações ampliam o alcance do SIOPS, mas também expõem diferenças de escala. O SIOPS descreve gasto por ente e período; sistemas assistenciais descrevem produção, eventos ou estabelecimentos. A relação entre financiamento e resultado em saúde deve ser formulada como associação contextual, não como vínculo individual direto.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1741,8 +1889,8 @@ Aviso
 <p>O SIOPS descreve gasto declarado pelo ente. Sistemas assistenciais registram eventos, produção ou oferta em unidades de saúde. Antes de relacionar bases, defina se o território é de residência, ocorrência, gestão ou localização do serviço.</p>
 </div>
 </div>
-<section id="checklist-para-integração" class="level3" data-number="12.15.1">
-<h3 data-number="12.15.1" class="anchored" data-anchor-id="checklist-para-integração"><span class="header-section-number">12.15.1</span> Checklist para integração</h3>
+<section id="checklist-para-integração" class="level3" data-number="12.16.1">
+<h3 data-number="12.16.1" class="anchored" data-anchor-id="checklist-para-integração"><span class="header-section-number">12.16.1</span> Checklist para integração</h3>
 <p>Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação.</p>
 <table class="caption-top table">
 <caption>Verificações antes de integrar SIOPS com outros sistemas</caption>
@@ -1783,10 +1931,11 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>O checklist de integração deve ser aplicado antes da junção das bases. Se o território, o período, o indicador financeiro e o denominador forem definidos apenas depois, perdas de relacionamento e incompatibilidades de granularidade podem passar despercebidas. O desenho analítico precisa preceder o código.</p>
 </section>
 </section>
-<section id="principais-usos-e-indicadores" class="level2" data-number="12.16">
-<h2 data-number="12.16" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">12.16</span> Principais usos e indicadores</h2>
+<section id="principais-usos-e-indicadores" class="level2" data-number="12.17">
+<h2 data-number="12.17" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">12.17</span> Principais usos e indicadores</h2>
 <p>O SIOPS é usado para monitoramento legal, controle social, análise de financiamento, planejamento e estudos comparativos.</p>
 <table class="caption-top table">
 <caption>Exemplos de indicadores construídos com SIOPS</caption>
@@ -1845,9 +1994,57 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Os indicadores da tabela cobrem usos legais, gerenciais e analíticos. Nenhum deles, isoladamente, mede suficiência de financiamento ou qualidade do cuidado. A interpretação melhora quando o indicador financeiro é acompanhado por contexto fiscal, porte populacional, composição da rede e necessidades de saúde.</p>
+<section id="como-ler-indicadores-do-siops" class="level3" data-number="12.17.1">
+<h3 data-number="12.17.1" class="anchored" data-anchor-id="como-ler-indicadores-do-siops"><span class="header-section-number">12.17.1</span> Como ler indicadores do SIOPS</h3>
+<p>Indicadores do SIOPS devem ser lidos a partir da pergunta que respondem. O percentual aplicado em ASPS informa cumprimento legal; a despesa per capita aproxima esforço financeiro por residente; a composição da despesa mostra prioridades orçamentárias; e a participação de transferências indica dependência ou composição de financiamento.</p>
+<table class="caption-top table">
+<caption>Leitura prática de indicadores do SIOPS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Pergunta principal</th>
+<th>Não responde sozinho</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Percentual aplicado em ASPS</td>
+<td>O ente declarou cumprir o mínimo legal?</td>
+<td>Se o financiamento foi suficiente ou efetivo</td>
+</tr>
+<tr class="even">
+<td>Despesa em ASPS per capita</td>
+<td>Quanto foi aplicado por residente?</td>
+<td>Quem usou serviços ou qual foi o acesso real</td>
+</tr>
+<tr class="odd">
+<td>Participação de recursos próprios</td>
+<td>Quanto depende da base fiscal do ente?</td>
+<td>Qual parcela produziu serviços específicos</td>
+</tr>
+<tr class="even">
+<td>Participação de transferências</td>
+<td>Qual o peso de recursos transferidos?</td>
+<td>Autonomia financeira ou qualidade do gasto</td>
+</tr>
+<tr class="odd">
+<td>Composição da despesa</td>
+<td>Em que categorias o gasto se concentra?</td>
+<td>Resultado sanitário ou eficiência assistencial</td>
+</tr>
+</tbody>
+</table>
+<p>O exemplo mostra que indicadores financeiros são complementares, não substitutos. Um município pode cumprir o mínimo e ainda ter baixo gasto per capita; outro pode ter gasto per capita alto por atender população regional; outro pode depender fortemente de transferências. A leitura adequada combina indicadores em vez de hierarquizar entes por uma única medida.</p>
 </section>
-<section id="limitações" class="level2" data-number="12.17">
-<h2 data-number="12.17" class="anchored" data-anchor-id="limitações"><span class="header-section-number">12.17</span> Limitações</h2>
+</section>
+<section id="limitações" class="level2" data-number="12.18">
+<h2 data-number="12.18" class="anchored" data-anchor-id="limitações"><span class="header-section-number">12.18</span> Limitações</h2>
 <table class="caption-top table">
 <caption>Limitações recorrentes do SIOPS</caption>
 <colgroup>
@@ -1899,9 +2096,52 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>As limitações não reduzem a importância do SIOPS; elas delimitam seu campo de uso. O sistema é essencial para acompanhar financiamento público e cumprimento legal, mas não substitui bases de produção, oferta, acesso ou resultado. Em análises integradas, o gasto deve ser tratado como dimensão financeira agregada.</p>
 </section>
-<section id="cuidados-de-interpretação" class="level2" data-number="12.18">
-<h2 data-number="12.18" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">12.18</span> Cuidados de interpretação</h2>
+<section id="financiamento-acesso-e-resultados" class="level2" data-number="12.19">
+<h2 data-number="12.19" class="anchored" data-anchor-id="financiamento-acesso-e-resultados"><span class="header-section-number">12.19</span> Financiamento, acesso e resultados</h2>
+<p>O SIOPS é frequentemente usado em estudos que relacionam financiamento com oferta, produção ou resultados de saúde. Esse uso é legítimo, mas exige desenho cuidadoso. Gasto público é uma condição para organizar serviços, mas não prova, sozinho, que houve melhor acesso, maior eficiência ou melhor resultado sanitário.</p>
+<table class="caption-top table">
+<caption>Cuidados ao relacionar financiamento, acesso e resultados</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Leitura pretendida</th>
+<th>O que o SIOPS informa</th>
+<th>O que precisa ser complementado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Maior gasto melhora acesso?</td>
+<td>Volume e composição do gasto declarado</td>
+<td>Oferta, barreiras geográficas, fila, cobertura e uso efetivo</td>
+</tr>
+<tr class="even">
+<td>Maior gasto aumenta produção?</td>
+<td>Esforço financeiro do ente</td>
+<td>Produção no SIA ou SIH, prestadores e fluxos regionais</td>
+</tr>
+<tr class="odd">
+<td>Maior gasto melhora resultados?</td>
+<td>Financiamento agregado no território</td>
+<td>Perfil epidemiológico, tempo de resposta, qualidade e determinantes sociais</td>
+</tr>
+<tr class="even">
+<td>Cumprimento do mínimo garante suficiência?</td>
+<td>Situação frente ao piso legal</td>
+<td>Necessidade de saúde, preços, rede instalada e responsabilidades locais</td>
+</tr>
+</tbody>
+</table>
+<p>Essa leitura evita inferência causal simples. Um gasto maior pode refletir maior necessidade, rede de referência, judicialização, investimento pontual ou custo regional mais elevado. Do mesmo modo, gasto menor pode refletir subfinanciamento, mas também diferenças de porte, responsabilidade assistencial ou classificação contábil. A relação entre financiamento e resultado deve ser tratada como hipótese analítica.</p>
+</section>
+<section id="cuidados-de-interpretação" class="level2" data-number="12.20">
+<h2 data-number="12.20" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">12.20</span> Cuidados de interpretação</h2>
 <p>Ao utilizar o SIOPS, alguns cuidados são recorrentes:</p>
 <ul>
 <li>definir se a análise usa bimestre ou exercício consolidado;</li>
@@ -1961,8 +2201,9 @@ Aviso
 </tr>
 </tbody>
 </table>
-<section id="armadilhas-de-interpretação" class="level3" data-number="12.18.1">
-<h3 data-number="12.18.1" class="anchored" data-anchor-id="armadilhas-de-interpretação"><span class="header-section-number">12.18.1</span> Armadilhas de interpretação</h3>
+<p>Os erros mais comuns decorrem de interpretar uma base financeira como se fosse uma base assistencial. O SIOPS informa esforço orçamentário declarado e aplicação legal, mas não mostra diretamente consultas, internações, cobertura efetiva ou qualidade. A redação dos resultados deve preservar essa fronteira.</p>
+<section id="armadilhas-de-interpretação" class="level3" data-number="12.20.1">
+<h3 data-number="12.20.1" class="anchored" data-anchor-id="armadilhas-de-interpretação"><span class="header-section-number">12.20.1</span> Armadilhas de interpretação</h3>
 <p>Algumas leituras parecem intuitivas, mas são frágeis:</p>
 <ul>
 <li>gasto maior não significa automaticamente melhor acesso, eficiência ou qualidade;</li>
@@ -1974,8 +2215,8 @@ Aviso
 </ul>
 </section>
 </section>
-<section id="checklist-de-reprodutibilidade" class="level2" data-number="12.19">
-<h2 data-number="12.19" class="anchored" data-anchor-id="checklist-de-reprodutibilidade"><span class="header-section-number">12.19</span> Checklist de reprodutibilidade</h2>
+<section id="checklist-de-reprodutibilidade" class="level2" data-number="12.21">
+<h2 data-number="12.21" class="anchored" data-anchor-id="checklist-de-reprodutibilidade"><span class="header-section-number">12.21</span> Checklist de reprodutibilidade</h2>
 <p>Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado.</p>
 <table class="caption-top table">
 <caption>Itens mínimos para reprodutibilidade em análises do SIOPS</caption>
@@ -2040,9 +2281,67 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Esse registro mínimo torna a análise auditável. Em uma base declaratória, bimestral e sujeita a retificações, reproduzir resultados depende de saber exatamente quando os dados foram extraídos, quais filtros foram aplicados e como valores monetários, fases da despesa e ausências foram tratados.</p>
 </section>
-<section id="checklist-final" class="level2" data-number="12.20">
-<h2 data-number="12.20" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">12.20</span> Checklist final</h2>
+<section id="decisões-metodológicas-essenciais" class="level2" data-number="12.22">
+<h2 data-number="12.22" class="anchored" data-anchor-id="decisões-metodológicas-essenciais"><span class="header-section-number">12.22</span> Decisões metodológicas essenciais</h2>
+<p>Antes de iniciar uma análise do SIOPS, vale registrar um conjunto mínimo de decisões. Essas escolhas definem o universo analisado, o sentido dos valores monetários e a comparabilidade dos resultados.</p>
+<table class="caption-top table">
+<caption>Decisões metodológicas antes de analisar o SIOPS</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Decisão</th>
+<th>Opções comuns</th>
+<th>Impacto na interpretação</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Esfera federativa</td>
+<td>União, estado, DF, município</td>
+<td>Define responsabilidade, base de cálculo e escala de análise</td>
+</tr>
+<tr class="even">
+<td>Período</td>
+<td>Bimestre, exercício, acumulado anual</td>
+<td>Muda a leitura entre acompanhamento e consolidação</td>
+</tr>
+<tr class="odd">
+<td>Fase da despesa</td>
+<td>Empenhada, liquidada, paga</td>
+<td>Altera o sentido de compromisso, execução ou desembolso</td>
+</tr>
+<tr class="even">
+<td>Situação do dado</td>
+<td>Homologado, transmitido, pendente</td>
+<td>Define validade para análise oficial</td>
+</tr>
+<tr class="odd">
+<td>Unidade monetária</td>
+<td>Corrente ou deflacionada</td>
+<td>Distingue crescimento nominal de variação real</td>
+</tr>
+<tr class="even">
+<td>Denominador</td>
+<td>Receita, população, estabelecimentos, eventos</td>
+<td>Define se o indicador é fiscal, per capita, estrutural ou ecológico</td>
+</tr>
+<tr class="odd">
+<td>ASPS</td>
+<td>Inclusões, exclusões e restos a pagar</td>
+<td>Afeta cumprimento mínimo e comparabilidade legal</td>
+</tr>
+</tbody>
+</table>
+<p>Esse quadro transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.</p>
+</section>
+<section id="checklist-final" class="level2" data-number="12.23">
+<h2 data-number="12.23" class="anchored" data-anchor-id="checklist-final"><span class="header-section-number">12.23</span> Checklist final</h2>
 <p>Antes de concluir uma análise com SIOPS, verifique se:</p>
 <ul>
 <li>a esfera federativa foi definida;</li>
@@ -2060,10 +2359,10 @@ Aviso
 <li>limitações de dado declaratório e agregado foram discutidas.</li>
 </ul>
 </section>
-<section id="bibliografia-recomendada" class="level2" data-number="12.21">
-<h2 data-number="12.21" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">12.21</span> Bibliografia recomendada</h2>
-<section id="documentos-auxiliares" class="level3" data-number="12.21.1">
-<h3 data-number="12.21.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">12.21.1</span> Documentos auxiliares</h3>
+<section id="bibliografia-recomendada" class="level2" data-number="12.24">
+<h2 data-number="12.24" class="anchored" data-anchor-id="bibliografia-recomendada"><span class="header-section-number">12.24</span> Bibliografia recomendada</h2>
+<section id="documentos-auxiliares" class="level3" data-number="12.24.1">
+<h3 data-number="12.24.1" class="anchored" data-anchor-id="documentos-auxiliares"><span class="header-section-number">12.24.1</span> Documentos auxiliares</h3>
 <ul>
 <li><a href="assets/siops/cartilha-SIOPS-2023.pdf">Cartilha de orientação SIOPS</a></li>
 <li><a href="assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf">Panfleto SIOPS</a></li>
