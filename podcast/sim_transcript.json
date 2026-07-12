@@ -1,776 +1,800 @@
 [
   {
     "start": 0,
-    "end": 17.52,
+    "end": 11.04,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SIM, Sistema de Informação sobre Mortalidade, do livro Sistemas de Informação em Saúde no Brasil."
+  },
+  {
+    "start": 11.04,
+    "end": 14.159,
+    "speaker": "ESTUDANTE",
+    "text": "E qual caminho vamos percorrer neste episódio?"
+  },
+  {
+    "start": 14.159,
+    "end": 30.879,
     "speaker": "APRESENTADORA",
     "text": "Uma morte é, antes de tudo, uma perda. Mas, quando entra no sistema de saúde, ela também vira uma pergunta pública: quem morreu, onde, em que circunstância, por qual causa, e o que essa morte revela sobre a vida no país?"
   },
   {
-    "start": 17.52,
-    "end": 23.6,
+    "start": 30.879,
+    "end": 36.96,
     "speaker": "ESTUDANTE",
     "text": "Essa abertura já muda o jeito de olhar para o SIM. Porque não é só uma base para contar óbitos."
   },
   {
-    "start": 23.6,
-    "end": 59.68,
+    "start": 36.96,
+    "end": 70.56,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... O SIM, Sistema de Informação sobre Mortalidade, é a principal fonte nacional para estudar óbitos no Brasil. Ele permite analisar níveis, tendências, desigualdades e causas de mortalidade. Mas o ponto mais importante é este: o dado não nasce pronto. Ele começa em uma Declaração de Óbito, passa por um fluxo jurídico, sanitário e cartorial, pode ser investigado, codificado, corrigido e só então vira indicador."
+    "text": "Exatamente. O SIM, Sistema de Informação sobre Mortalidade, é a principal fonte nacional para estudar óbitos no Brasil. Ele permite analisar níveis, tendências, desigualdades e causas de mortalidade. Mas o ponto mais importante é este: o dado não nasce pronto. Ele começa em uma Declaração de Óbito, passa por um fluxo jurídico, sanitário e cartorial, pode ser investigado, codificado, corrigido e só então vira indicador."
   },
   {
-    "start": 59.68,
-    "end": 64.08,
+    "start": 70.56,
+    "end": 74.961,
     "speaker": "ESTUDANTE",
     "text": "Então o episódio de hoje não é só \"onde baixo a base do SIM\"."
   },
   {
-    "start": 64.08,
-    "end": 89.839,
+    "start": 74.961,
+    "end": 98.801,
     "speaker": "APRESENTADORA",
     "text": "Não. Hoje a gente vai seguir o caminho de uma morte até ela virar estatística. Primeiro, por que a Declaração de Óbito é tão central. Depois, como o fluxo funciona. Em seguida, por que a causa básica do óbito é uma ideia mais sofisticada do que parece. E, no final, como usar o SIM sem cair nos erros clássicos."
   },
   {
-    "start": 89.839,
-    "end": 94.08,
+    "start": 98.801,
+    "end": 103.04,
     "speaker": "ESTUDANTE",
     "text": "Gosto desse caminho. Começa no documento e termina na análise."
   },
   {
-    "start": 94.08,
-    "end": 105.12,
+    "start": 103.04,
+    "end": 113.921,
     "speaker": "APRESENTADORA",
     "text": "E essa ordem importa. Se a pessoa começa direto pela tabela, ela pode esquecer que cada linha do SIM depende de uma cadeia de decisões anteriores."
   },
   {
-    "start": 105.12,
-    "end": 109.6,
+    "start": 113.921,
+    "end": 119.121,
     "speaker": "ESTUDANTE",
     "text": "Então a nossa personagem é a própria informação, mudando a cada etapa."
   },
   {
-    "start": 109.6,
-    "end": 137.919,
+    "start": 119.37,
+    "end": 143.689,
     "speaker": "APRESENTADORA",
     "text": "Gosto dessa imagem. Vamos acompanhar uma Declaração de Óbito hipotética, sem inventar nome, idade ou causa. Basta imaginar o documento chegando a uma secretaria de saúde. No final, ele estará diante de alguém que precisa calcular um indicador. E uma pergunta vai nos acompanhar: em que momento esse registro deixa de ser apenas burocracia e passa a ser vigilância?"
   },
   {
-    "start": 137.919,
-    "end": 141.6,
+    "start": 143.689,
+    "end": 147.53,
     "speaker": "ESTUDANTE",
     "text": "Vamos então para o início. O que o SIM registra?"
   },
   {
-    "start": 141.923,
-    "end": 157.122,
+    "start": 147.53,
+    "end": 163.13,
     "speaker": "APRESENTADORA",
     "text": "O SIM registra óbitos, incluindo óbitos fetais. A unidade de análise é a Declaração de Óbito. Isso significa que cada registro corresponde a um evento de morte, não a uma pessoa acompanhada ao longo do tempo."
   },
   {
-    "start": 157.122,
-    "end": 159.202,
+    "start": 163.13,
+    "end": 165.21,
     "speaker": "ESTUDANTE",
     "text": "E quando devo usar o SIM?"
   },
   {
-    "start": 159.202,
-    "end": 185.123,
+    "start": 165.21,
+    "end": 189.449,
     "speaker": "APRESENTADORA",
     "text": "Use quando a pergunta envolve morte como desfecho: mortalidade infantil, mortalidade materna, causas externas, doenças crônicas, óbitos evitáveis, mortalidade proporcional por causa, desigualdades por sexo, idade, raça ou cor, escolaridade, território. O SIM é o numerador de muitos indicadores."
   },
   {
-    "start": 185.123,
-    "end": 188.722,
+    "start": 189.449,
+    "end": 192.569,
     "speaker": "ESTUDANTE",
     "text": "Numerador, mas nem sempre denominador."
   },
   {
-    "start": 188.722,
-    "end": 212.642,
+    "start": 192.569,
+    "end": 215.049,
     "speaker": "APRESENTADORA",
     "text": "Perfeito. Para taxa populacional, o denominador vem de população residente. Para mortalidade infantil, vem de nascidos vivos do SINASC. Para letalidade entre casos notificados, pode envolver SINAN. O SIM conta o óbito; a pergunta analítica define com que outra informação esse óbito será comparado."
   },
   {
-    "start": 212.642,
-    "end": 218.963,
+    "start": 215.049,
+    "end": 221.85,
     "speaker": "ESTUDANTE",
     "text": "Então a primeira decisão não é técnica, é conceitual: que morte eu quero contar e em relação a quê?"
   },
   {
-    "start": 218.963,
-    "end": 233.123,
+    "start": 221.85,
+    "end": 234.57,
     "speaker": "APRESENTADORA",
     "text": "Isso. E também onde. No SIM, residência e ocorrência são campos diferentes. Residência é onde vivia a pessoa que morreu. Ocorrência é onde a morte aconteceu."
   },
   {
-    "start": 233.123,
-    "end": 235.843,
+    "start": 234.57,
+    "end": 237.05,
     "speaker": "ESTUDANTE",
     "text": "Parece detalhe, mas muda tudo."
   },
   {
-    "start": 235.843,
-    "end": 269.923,
+    "start": 237.3,
+    "end": 269.539,
     "speaker": "APRESENTADORA",
     "text": "Muda mesmo. Imagine uma cidade com hospital regional. Ela pode concentrar muitos óbitos por ocorrência porque recebe pacientes de vários municípios vizinhos. Se alguém pega esses óbitos ocorridos ali e divide pela população residente da cidade, cria uma taxa enganosa. Para risco da população residente, em geral usamos óbitos de residentes. Para pressão sobre serviços ou fluxo assistencial, ocorrência pode fazer mais sentido."
   },
   {
-    "start": 269.923,
-    "end": 278.683,
+    "start": 269.539,
+    "end": 277.7,
     "speaker": "ESTUDANTE",
     "text": "Então o SIM já força a pergunta: estou estudando o risco de morrer de uma população ou o lugar onde os óbitos acontecem?"
   },
   {
-    "start": 278.683,
-    "end": 284.402,
+    "start": 277.7,
+    "end": 283.7,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... E esse tipo de pergunta aparece desde a história do sistema."
+    "text": "Exatamente. E esse tipo de pergunta aparece desde a história do sistema."
   },
   {
-    "start": 284.402,
-    "end": 285.043,
+    "start": 283.7,
+    "end": 284.341,
     "speaker": "ESTUDANTE",
     "text": "Como assim?"
   },
   {
-    "start": 286.876,
-    "end": 309.516,
+    "start": 284.341,
+    "end": 309.141,
     "speaker": "APRESENTADORA",
     "text": "O SIM surgiu na década de 1970, quando o país precisava padronizar o registro de óbitos. Em 1975, o Ministério da Saúde organizou um grupo de trabalho para adotar um modelo único de Declaração de Óbito. Antes, o capítulo lembra que chegaram a coexistir 43 modelos diferentes de atestado de óbito."
   },
   {
-    "start": 309.516,
-    "end": 314.956,
+    "start": 309.141,
+    "end": 314.341,
     "speaker": "ESTUDANTE",
     "text": "Quarenta e três modelos? A comparação nacional devia ser um pesadelo."
   },
   {
-    "start": 314.956,
-    "end": 330.475,
+    "start": 314.341,
+    "end": 329.781,
     "speaker": "APRESENTADORA",
     "text": "Era um problema estrutural. Formulários diferentes geram campos diferentes, fluxos diferentes e qualidade desigual. A padronização da DO foi uma condição para construir uma base nacional comparável."
   },
   {
-    "start": 330.475,
-    "end": 333.516,
+    "start": 329.781,
+    "end": 332.901,
     "speaker": "ESTUDANTE",
     "text": "E a CID entra para padronizar as causas."
   },
   {
-    "start": 333.516,
-    "end": 361.196,
+    "start": 332.901,
+    "end": 360.98,
     "speaker": "APRESENTADORA",
     "text": "Sim. As causas de morte são codificadas pela Classificação Internacional de Doenças, a CID. Isso permite comparar causas entre regiões, períodos e países. Mas também exige treinamento, regras de codificação e cuidado com séries históricas. A adoção da CID-10, em 1996, por exemplo, pode afetar comparações com períodos anteriores."
   },
   {
-    "start": 361.196,
-    "end": 368.475,
+    "start": 360.98,
+    "end": 368.021,
     "speaker": "ESTUDANTE",
     "text": "Então, quando a gente olha uma tendência por causa de morte, precisa perguntar se a classificação ou a regra mudou."
   },
   {
-    "start": 368.475,
-    "end": 380.236,
+    "start": 368.99,
+    "end": 378.59,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Às vezes a série muda porque o perfil de mortalidade mudou. Outras vezes, porque mudou a forma de registrar, investigar ou codificar."
+    "text": "Exatamente. Às vezes a série muda porque o perfil de mortalidade mudou. Outras vezes, porque mudou a forma de registrar, investigar ou codificar."
   },
   {
-    "start": 380.236,
-    "end": 384.876,
+    "start": 378.59,
+    "end": 383.017,
     "speaker": "ESTUDANTE",
     "text": "Vamos entrar na Declaração de Óbito. Ela tem uma função dupla, certo?"
   },
   {
-    "start": 384.876,
-    "end": 408.956,
+    "start": 383.017,
+    "end": 403.47,
     "speaker": "APRESENTADORA",
     "text": "Tem. A Declaração de Óbito, ou DO, é o documento básico do SIM. Ela tem função jurídica e função epidemiológica. Do ponto de vista jurídico, permite a lavratura da Certidão de Óbito pelo cartório. Do ponto de vista epidemiológico, alimenta o SIM e sustenta estatísticas de mortalidade."
   },
   {
-    "start": 408.956,
-    "end": 413.116,
+    "start": 403.47,
+    "end": 407.07,
     "speaker": "ESTUDANTE",
     "text": "E DO, atestado e certidão não são a mesma coisa."
   },
   {
-    "start": 413.439,
-    "end": 429.438,
+    "start": 407.07,
+    "end": 423.406,
     "speaker": "APRESENTADORA",
     "text": "Esse é um ponto que vale repetir. A Declaração de Óbito é o formulário oficial. O atestado médico de óbito é a parte da DO em que o médico registra as causas. A Certidão de Óbito é o documento jurídico emitido pelo cartório."
   },
   {
-    "start": 429.438,
-    "end": 431.999,
+    "start": 423.406,
+    "end": 425.79,
     "speaker": "ESTUDANTE",
     "text": "E a DO circula em vias, não é?"
   },
   {
-    "start": 431.999,
-    "end": 451.439,
+    "start": 425.79,
+    "end": 445.85,
     "speaker": "APRESENTADORA",
     "text": "Sim. A DO é emitida em três vias. A primeira vai para a secretaria municipal de saúde, para processamento e alimentação do SIM. A segunda é entregue à família, para apresentação ao Registro Civil. A terceira fica arquivada no estabelecimento ou unidade notificadora."
   },
   {
-    "start": 451.439,
-    "end": 457.598,
+    "start": 445.85,
+    "end": 451.961,
     "speaker": "ESTUDANTE",
     "text": "Então o documento se divide, mas as três vias mantêm partes do mesmo percurso conectadas."
   },
   {
-    "start": 457.598,
-    "end": 476.559,
+    "start": 451.961,
+    "end": 470.99,
     "speaker": "APRESENTADORA",
     "text": "Médico, família, cartório e secretaria de saúde entram na história. Para a família, a DO permite seguir com o registro civil. Para a vigilância, começa a compor uma memória coletiva da mortalidade. Por isso o formulário não pode ser tratado como uma folha comum."
   },
   {
-    "start": 476.559,
-    "end": 480.158,
+    "start": 470.99,
+    "end": 475.47,
     "speaker": "ESTUDANTE",
     "text": "E o controle continua quando o documento segue adiante?"
   },
   {
-    "start": 480.158,
-    "end": 509.278,
+    "start": 475.72,
+    "end": 503.72,
     "speaker": "APRESENTADORA",
     "text": "Continua. E há controle numérico dos formulários. A numeração ajuda a acompanhar distribuição, uso, extravio, duplicidade e fraude. Podem receber formulários serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal e, em localidades sem médico, cartórios. Empresas funerárias não são unidades notificadoras aptas a receber formulários de DO."
   },
   {
-    "start": 509.278,
-    "end": 510.159,
+    "start": 503.72,
+    "end": 505.72,
     "speaker": "ESTUDANTE",
     "text": "E quem preenche?"
   },
   {
-    "start": 510.159,
-    "end": 537.519,
+    "start": 505.72,
+    "end": 531.32,
     "speaker": "APRESENTADORA",
     "text": "O preenchimento da DO é um ato médico, com responsabilidade ética e jurídica. O médico deve constatar o óbito, revisar informações, evitar abreviações e termos vagos, e registrar uma sequência causal coerente. Não deve assinar DO em branco nem preencher sem verificar o óbito pessoalmente, salvo situações específicas previstas em norma."
   },
   {
-    "start": 537.519,
-    "end": 540.639,
+    "start": 531.32,
+    "end": 535.8,
     "speaker": "ESTUDANTE",
     "text": "O fluxo muda conforme a morte é natural ou externa?"
   },
   {
-    "start": 541.752,
-    "end": 565.912,
+    "start": 535.8,
+    "end": 559.719,
     "speaker": "APRESENTADORA",
     "text": "Muda. Em óbitos naturais com assistência médica, a DO deve ser emitida, sempre que possível, pelo médico que acompanhava a pessoa. Em hospital, pode ser médico assistente, substituto ou plantonista. Em acompanhamento ambulatorial ou domiciliar, pode ser o médico vinculado ao serviço, desde que haja elementos clínicos suficientes."
   },
   {
-    "start": 565.912,
-    "end": 568.232,
+    "start": 559.719,
+    "end": 562.2,
     "speaker": "ESTUDANTE",
     "text": "E quando não houve assistência?"
   },
   {
-    "start": 568.232,
-    "end": 595.913,
+    "start": 562.2,
+    "end": 588.84,
     "speaker": "APRESENTADORA",
     "text": "Quando o óbito natural ocorre sem assistência médica, o fluxo depende da existência de Serviço de Verificação de Óbito, o SVO. Onde houver SVO, o corpo deve ser encaminhado para verificação. Onde não houver, a emissão pode caber ao médico do serviço público mais próximo ou, na ausência dele, a outro médico da localidade, conforme as regras aplicáveis."
   },
   {
-    "start": 595.913,
-    "end": 601.434,
+    "start": 588.84,
+    "end": 594.761,
     "speaker": "ESTUDANTE",
     "text": "Isso ajuda a entender por que causas mal definidas aparecem mais em alguns contextos."
   },
   {
-    "start": 601.434,
-    "end": 613.593,
+    "start": 594.761,
+    "end": 606.441,
     "speaker": "APRESENTADORA",
     "text": "Sim. Quando há pouca informação clínica, a causa tende a ficar menos esclarecida. Por isso investigação e SVO podem reduzir causas mal definidas."
   },
   {
-    "start": 613.593,
-    "end": 617.593,
+    "start": 606.69,
+    "end": 609.81,
     "speaker": "ESTUDANTE",
     "text": "E nas causas externas entra o IML."
   },
   {
-    "start": 617.593,
-    "end": 643.273,
+    "start": 609.81,
+    "end": 634.931,
     "speaker": "APRESENTADORA",
     "text": "Isso. Acidentes, agressões, suicídios, mortes suspeitas e outros eventos violentos devem seguir para o Instituto Médico-Legal quando houver esse serviço. E aqui aparece uma ideia essencial: em causas externas, a causa básica não é apenas a lesão final. É a circunstância do acidente ou da violência que produziu a lesão fatal."
   },
   {
-    "start": 643.273,
-    "end": 645.193,
+    "start": 634.931,
+    "end": 636.451,
     "speaker": "ESTUDANTE",
     "text": "Dá para dar um exemplo?"
   },
   {
-    "start": 645.193,
-    "end": 665.514,
+    "start": 636.451,
+    "end": 655.971,
     "speaker": "APRESENTADORA",
     "text": "Uma pessoa sofre uma queda, fratura o fêmur, interna, tem complicações e morre dias depois. A complicação pode ser a causa direta, mas a cadeia começou na queda. Se a estatística registrar só a complicação terminal, perdemos a informação útil para prevenção."
   },
   {
-    "start": 665.514,
-    "end": 674.554,
+    "start": 655.971,
+    "end": 665.011,
     "speaker": "ESTUDANTE",
     "text": "Isso vale para trânsito também. A pessoa pode morrer no local, no hospital ou dias depois, mas o evento externo continua importando."
   },
   {
-    "start": 674.554,
-    "end": 676.715,
+    "start": 665.011,
+    "end": 666.211,
     "speaker": "APRESENTADORA",
     "text": "Exato."
   },
   {
-    "start": 677.04,
-    "end": 685.2,
+    "start": 666.211,
+    "end": 674.93,
     "speaker": "ESTUDANTE",
     "text": "O capítulo também fala de óbito fetal e de recém-nascido que morre logo depois. Essa parte parece pequena, mas tem muito impacto."
   },
   {
-    "start": 685.2,
-    "end": 716.479,
+    "start": 674.93,
+    "end": 707.171,
     "speaker": "APRESENTADORA",
     "text": "Tem mesmo. No Brasil, orienta-se a emissão da DO para óbito fetal quando a gestação tiver 20 semanas ou mais, ou peso fetal de 500 gramas ou mais, ou estatura de 25 centímetros ou mais. Mas se houve qualquer sinal de vida após a expulsão ou extração do corpo da mãe, trata-se de nascido vivo. Se a criança morre minutos ou horas depois, deve haver Declaração de Nascido Vivo e Declaração de Óbito."
   },
   {
-    "start": 716.479,
-    "end": 722.24,
+    "start": 707.171,
+    "end": 713.491,
     "speaker": "ESTUDANTE",
     "text": "Então não é uma questão burocrática. Isso muda mortalidade fetal, neonatal e infantil."
   },
   {
-    "start": 722.24,
-    "end": 734.24,
+    "start": 713.491,
+    "end": 725.971,
     "speaker": "APRESENTADORA",
     "text": "Muda numerador, denominador e interpretação da atenção ao parto e ao recém-nascido. Um nascimento vivo seguido de óbito infantil não deve virar óbito fetal."
   },
   {
-    "start": 734.24,
-    "end": 747.36,
+    "start": 726.78,
+    "end": 739.66,
     "speaker": "ESTUDANTE",
     "text": "Nossa DO hipotética já passou por várias bifurcações: morte natural ou externa, com ou sem assistência, fetal ou não fetal. Cada escolha preserva uma parte diferente do acontecimento."
   },
   {
-    "start": 747.36,
-    "end": 757.32,
+    "start": 739.66,
+    "end": 749.38,
     "speaker": "APRESENTADORA",
     "text": "E uma classificação errada não fica presa ao formulário. Ela reaparece mais tarde no numerador, no denominador e na interpretação de uma política."
   },
   {
-    "start": 757.32,
-    "end": 762.4,
+    "start": 749.38,
+    "end": 754.3,
     "speaker": "ESTUDANTE",
     "text": "Até aqui, o SIM parece um sistema de registro. Quando ele vira vigilância?"
   },
   {
-    "start": 762.4,
-    "end": 786,
+    "start": 754.3,
+    "end": 776.7,
     "speaker": "APRESENTADORA",
     "text": "Quando a DO não é tratada como ponto final. Vários óbitos podem ser investigados para esclarecer causa, circunstância, trajetória assistencial ou campos incompletos. Isso é especialmente importante em óbitos maternos, óbitos de mulheres em idade fértil, óbitos infantis, fetais e causas mal definidas."
   },
   {
-    "start": 786,
-    "end": 791.44,
+    "start": 776.7,
+    "end": 781.899,
     "speaker": "ESTUDANTE",
     "text": "No caso de mortalidade materna, a investigação pode revelar o que a DO não deixou claro."
   },
   {
-    "start": 792.24,
-    "end": 811.919,
+    "start": 781.899,
+    "end": 801.5,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Um óbito pode chegar como choque, hemorragia ou infecção, sem menção explícita à gestação, ao parto ou ao puerpério. A investigação de prontuários, entrevistas, comitês e outros registros pode revelar a relação com o ciclo gravídico-puerperal."
+    "text": "Exatamente. Um óbito pode chegar como choque, hemorragia ou infecção, sem menção explícita à gestação, ao parto ou ao puerpério. A investigação de prontuários, entrevistas, comitês e outros registros pode revelar a relação com o ciclo gravídico-puerperal."
   },
   {
-    "start": 811.919,
-    "end": 816.719,
+    "start": 801.5,
+    "end": 805.9,
     "speaker": "ESTUDANTE",
     "text": "Então selecionar apenas alguns códigos pode subestimar mortes maternas."
   },
   {
-    "start": 816.719,
-    "end": 827.279,
+    "start": 805.9,
+    "end": 816.3,
     "speaker": "APRESENTADORA",
     "text": "Pode. Por isso os campos sobre gravidez e puerpério, a investigação de mulheres em idade fértil e a integração com SINASC são tão importantes."
   },
   {
-    "start": 827.279,
-    "end": 832.88,
+    "start": 816.3,
+    "end": 821.739,
     "speaker": "ESTUDANTE",
     "text": "E a investigação também explica por que bases preliminares e consolidadas podem diferir."
   },
   {
-    "start": 832.88,
-    "end": 850.88,
+    "start": 821.739,
+    "end": 839.82,
     "speaker": "APRESENTADORA",
     "text": "Perfeito. A investigação pode alterar causa básica, corrigir inconsistências, acrescentar informações e melhorar campos. Então, em anos recentes, uma base preliminar pode mudar depois. Não é defeito; é parte do processo de qualificação."
   },
   {
-    "start": 850.88,
-    "end": 856.721,
+    "start": 839.82,
+    "end": 845.18,
     "speaker": "ESTUDANTE",
     "text": "Agora entendo por que uma base preliminar pode apresentar um resultado e a consolidada, outro."
   },
   {
-    "start": 856.721,
-    "end": 870.161,
+    "start": 845.43,
+    "end": 858.39,
     "speaker": "APRESENTADORA",
     "text": "E por que o analista precisa informar a versão da base e a data de acesso. Sem isso, não sabemos se uma diferença vem do fenômeno estudado, do estágio da investigação ou de uma atualização posterior."
   },
   {
-    "start": 870.161,
-    "end": 874,
+    "start": 858.39,
+    "end": 862.87,
     "speaker": "ESTUDANTE",
     "text": "Vamos para o coração analítico: causa básica do óbito."
   },
   {
-    "start": 874,
-    "end": 887.201,
+    "start": 862.87,
+    "end": 876.31,
     "speaker": "APRESENTADORA",
     "text": "A causa básica é a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. Ela não é necessariamente a última coisa que aconteceu antes da morte."
   },
   {
-    "start": 887.201,
-    "end": 890.8,
+    "start": 876.31,
+    "end": 880.39,
     "speaker": "ESTUDANTE",
     "text": "Então \"parada cardiorrespiratória\" é um sinal de alerta."
   },
   {
-    "start": 890.8,
-    "end": 909.441,
+    "start": 880.39,
+    "end": 899.19,
     "speaker": "APRESENTADORA",
     "text": "Sim. Parada cardiorrespiratória, insuficiência respiratória, falência múltipla de órgãos: esses termos podem descrever mecanismos finais, mas raramente explicam o processo que iniciou a morte. Uma boa DO organiza a sequência causal."
   },
   {
-    "start": 909.441,
-    "end": 912.001,
+    "start": 899.19,
+    "end": 902.069,
     "speaker": "ESTUDANTE",
     "text": "Como essa sequência aparece no formulário?"
   },
   {
-    "start": 912.325,
-    "end": 930.645,
+    "start": 902.069,
+    "end": 921.11,
     "speaker": "APRESENTADORA",
-    "text": "A Parte I registra a cadeia causal: causa direta, causas intermediárias e causa básica na última linha preenchida. A Parte II registra outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia principal."
+    "text": "A primeira parte registra a cadeia causal: causa direta, causas intermediárias e causa básica na última linha preenchida. A segunda parte registra outras condições significativas que contribuíram para o óbito, mas que não fazem parte da cadeia principal."
   },
   {
-    "start": 930.645,
-    "end": 935.044,
+    "start": 921.11,
+    "end": 925.11,
     "speaker": "ESTUDANTE",
     "text": "Isso ajuda a diferenciar causa básica e causas múltiplas."
   },
   {
-    "start": 935.044,
-    "end": 953.285,
+    "start": 925.11,
+    "end": 944.309,
     "speaker": "APRESENTADORA",
     "text": "Sim. A análise tradicional usa causa básica porque atribui cada óbito a uma causa principal, facilitando tabulações. Mas causas múltiplas são úteis quando queremos saber em quantos óbitos uma condição foi mencionada, mesmo sem ser a causa básica."
   },
   {
-    "start": 953.285,
-    "end": 956.805,
+    "start": 944.309,
+    "end": 947.99,
     "speaker": "ESTUDANTE",
     "text": "Tipo diabetes em idosos com várias doenças."
   },
   {
-    "start": 956.805,
-    "end": 983.364,
+    "start": 947.99,
+    "end": 974.23,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Se a pergunta é \"qual a mortalidade por causa básica cardiovascular?\", usamos causa básica. Se é \"em quantos óbitos o diabetes esteve presente?\", precisamos olhar causas múltiplas. A diferença é que os totais por causas múltiplas não são mutuamente exclusivos: um mesmo óbito pode mencionar várias condições."
+    "text": "Exatamente. Se a pergunta é \"qual a mortalidade por causa básica cardiovascular?\", usamos causa básica. Se é \"em quantos óbitos o diabetes esteve presente?\", precisamos olhar causas múltiplas. A diferença é que os totais por causas múltiplas não são mutuamente exclusivos: um mesmo óbito pode mencionar várias condições."
   },
   {
-    "start": 983.364,
-    "end": 987.285,
+    "start": 974.48,
+    "end": 977.36,
     "speaker": "ESTUDANTE",
     "text": "E o nível de detalhe da CID também precisa ser escolhido."
   },
   {
-    "start": 987.285,
-    "end": 1008.965,
+    "start": 977.36,
+    "end": 996.881,
     "speaker": "APRESENTADORA",
     "text": "Sim. Podemos analisar por capítulo da CID, agrupamentos, código de três caracteres, subcategoria de quatro caracteres ou listas específicas, como causas evitáveis e causas externas. Quanto mais detalhe, maior a instabilidade em populações pequenas ou períodos curtos."
   },
   {
-    "start": 1008.965,
-    "end": 1018.885,
+    "start": 996.881,
+    "end": 1006.481,
     "speaker": "ESTUDANTE",
     "text": "Então nossa DO finalmente virou uma linha do SIM. Ela foi preenchida, circulou, talvez tenha sido investigada e recebeu uma causa codificada."
   },
   {
-    "start": 1018.885,
-    "end": 1026.965,
+    "start": 1006.481,
+    "end": 1014.161,
     "speaker": "APRESENTADORA",
     "text": "Sim. Mas agora surge um segundo risco: mesmo um registro bem produzido pode ser mal analisado."
   },
   {
-    "start": 1026.965,
-    "end": 1030.484,
+    "start": 1014.161,
+    "end": 1017.441,
     "speaker": "ESTUDANTE",
     "text": "Então, antes de tabular, vem um checklist."
   },
   {
-    "start": 1030.484,
-    "end": 1055.685,
+    "start": 1017.441,
+    "end": 1039.521,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Antes de qualquer indicador com SIM, defina: residência ou ocorrência; óbito fetal ou não fetal; causa básica ou causas múltiplas; base preliminar ou consolidada; denominador; agrupamento CID; e qualidade mínima dos campos usados."
+    "text": "Exatamente. Antes de qualquer indicador com SIM, defina: residência ou ocorrência; óbito fetal ou não fetal; causa básica ou causas múltiplas; base preliminar ou consolidada; denominador; agrupamento CID; e qualidade mínima dos campos usados."
   },
   {
-    "start": 1055.998,
-    "end": 1058.637,
+    "start": 1039.521,
+    "end": 1042.721,
     "speaker": "ESTUDANTE",
     "text": "Vamos testar esse checklist em acidentes de trânsito."
   },
   {
-    "start": 1058.637,
-    "end": 1078.157,
+    "start": 1042.721,
+    "end": 1060.241,
     "speaker": "APRESENTADORA",
     "text": "Boa. Primeiro, defina o agrupamento de CID: todos os acidentes de transporte ou apenas trânsito terrestre? Vai separar pedestres, motociclistas, ciclistas e ocupantes de automóvel? Como vai lidar com códigos inespecíficos?"
   },
   {
-    "start": 1078.157,
-    "end": 1080.157,
+    "start": 1060.241,
+    "end": 1062.081,
     "speaker": "ESTUDANTE",
     "text": "Depois, território."
   },
   {
-    "start": 1080.157,
-    "end": 1101.798,
+    "start": 1062.081,
+    "end": 1081.681,
     "speaker": "APRESENTADORA",
     "text": "Isso. Para risco populacional, use município de residência e população residente. Para estudar onde os óbitos acontecem, ocorrência pode ser adequada. E cuidado: mortalidade por trânsito não é incidência de acidentes. O SIM mede o evento fatal."
   },
   {
-    "start": 1101.798,
-    "end": 1103.987,
+    "start": 1081.681,
+    "end": 1083.681,
     "speaker": "ESTUDANTE",
     "text": "E para mortalidade infantil?"
   },
   {
-    "start": 1103.987,
-    "end": 1126.119,
+    "start": 1083.681,
+    "end": 1103.841,
     "speaker": "APRESENTADORA",
-    "text": "Aí o checklist mostra a integração SIM + SINASC. O numerador é óbitos de menores de um ano no SIM. O denominador é nascidos vivos do SINASC no mesmo território e período. E a distinção entre óbito fetal e nascimento vivo seguido de óbito é decisiva."
+    "text": "Aí o checklist mostra a integração do SIM com o SINASC. O numerador é óbitos de menores de um ano no SIM. O denominador é nascidos vivos do SINASC no mesmo território e período. E a distinção entre óbito fetal e nascimento vivo seguido de óbito é decisiva."
   },
   {
-    "start": 1126.119,
-    "end": 1131.626,
+    "start": 1104.09,
+    "end": 1109.209,
     "speaker": "ESTUDANTE",
     "text": "Também é preciso separar neonatal precoce, neonatal tardio e pós-neonatal."
   },
   {
-    "start": 1131.626,
-    "end": 1144.239,
+    "start": 1109.209,
+    "end": 1120.41,
     "speaker": "APRESENTADORA",
     "text": "Sim, porque cada componente aponta para dimensões diferentes: pré-natal, parto, cuidado neonatal, condições sociais e continuidade da atenção."
   },
   {
-    "start": 1144.239,
-    "end": 1149.639,
+    "start": 1120.41,
+    "end": 1125.93,
     "speaker": "ESTUDANTE",
     "text": "O indicador ajuda a localizar perguntas, mas não entrega sozinho uma explicação causal."
   },
   {
-    "start": 1149.639,
-    "end": 1164.887,
+    "start": 1125.93,
+    "end": 1140.49,
     "speaker": "APRESENTADORA",
     "text": "Exato. Uma diferença entre períodos ou territórios pode orientar a investigação, mas ainda precisa ser lida à luz da cobertura, da assistência, da composição populacional e da qualidade do registro."
   },
   {
-    "start": 1164.887,
-    "end": 1168.925,
+    "start": 1140.49,
+    "end": 1147.21,
     "speaker": "ESTUDANTE",
-    "text": "A tabela parece objetiva, o gráfico parece limpo..."
+    "text": "A tabela parece objetiva, e o gráfico parece limpo. Isso pode dar uma falsa sensação de certeza?"
   },
   {
-    "start": 1168.925,
-    "end": 1178.452,
+    "start": 1147.21,
+    "end": 1157.13,
     "speaker": "APRESENTADORA",
-    "text": "...mas a incerteza não desaparece só porque ganhou uma boa apresentação. Por isso a qualidade entra na análise antes da conclusão."
+    "text": "Pode. A incerteza não desaparece só porque ganhou uma boa apresentação. Por isso, a qualidade entra na análise antes da conclusão."
   },
   {
-    "start": 1178.452,
-    "end": 1182.026,
+    "start": 1157.13,
+    "end": 1160.17,
     "speaker": "ESTUDANTE",
     "text": "Vamos falar de qualidade. O que eu olho primeiro?"
   },
   {
-    "start": 1182.026,
-    "end": 1200.879,
+    "start": 1160.17,
+    "end": 1176.25,
     "speaker": "APRESENTADORA",
     "text": "Qualidade no SIM não é uma coisa só. Uma base pode ter boa cobertura de óbitos e baixa qualidade de causa. Pode ter boa causa básica e campos sociais incompletos. Pode ser boa em capitais e pior em municípios pequenos."
   },
   {
-    "start": 1201.918,
-    "end": 1206.238,
+    "start": 1176.25,
+    "end": 1180.57,
     "speaker": "ESTUDANTE",
     "text": "Então não basta dizer \"o SIM é bom\" ou \"o SIM é ruim\"."
   },
   {
-    "start": 1206.238,
-    "end": 1236.078,
+    "start": 1180.57,
+    "end": 1211.05,
     "speaker": "APRESENTADORA",
     "text": "Isso. Avalie por dimensão, variável, território e período. Problemas comuns incluem subregistro, causas mal definidas, códigos garbage, incompletude de raça ou cor, escolaridade e ocupação, inconsistências entre idade, sexo e causa, duplicidade, baixa oportunidade, erros de residência ou ocorrência e mudanças de codificação ou investigação."
   },
   {
-    "start": 1236.078,
-    "end": 1238.319,
+    "start": 1211.05,
+    "end": 1213.131,
     "speaker": "ESTUDANTE",
     "text": "O que são códigos garbage?"
   },
   {
-    "start": 1238.319,
-    "end": 1257.717,
+    "start": 1213.131,
+    "end": 1232.57,
     "speaker": "APRESENTADORA",
     "text": "São causas pouco úteis para orientar prevenção quando selecionadas como causa básica. Podem ser mecanismos terminais, causas intermediárias ou categorias muito inespecíficas. Eles não tornam o registro inútil, mas indicam que a causa básica ficou pouco informativa."
   },
   {
-    "start": 1257.717,
-    "end": 1262.695,
+    "start": 1232.9,
+    "end": 1237.061,
     "speaker": "ESTUDANTE",
     "text": "E campos sociais incompletos atrapalham análises de desigualdade."
   },
   {
-    "start": 1262.695,
-    "end": 1280.243,
+    "start": 1237.061,
+    "end": 1253.94,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Se raça ou cor, escolaridade ou ocupação têm muitos ignorados, uma comparação entre grupos pode ficar enviesada. A qualidade precisa ser avaliada antes da conclusão substantiva, não só no rodapé do método."
+    "text": "Exatamente. Se raça ou cor, escolaridade ou ocupação têm muitos ignorados, uma comparação entre grupos pode ficar enviesada. A qualidade precisa ser avaliada antes da conclusão substantiva, não só no rodapé do método."
   },
   {
-    "start": 1280.243,
-    "end": 1284.843,
+    "start": 1253.94,
+    "end": 1258.18,
     "speaker": "ESTUDANTE",
     "text": "E sobre estrutura dos dados? O que não pode passar batido?"
   },
   {
-    "start": 1284.843,
-    "end": 1313.483,
+    "start": 1258.18,
+    "end": 1287.619,
     "speaker": "APRESENTADORA",
     "text": "Os microdados do SIM são disseminados por tipo, ano e unidade federada. Historicamente, o DATASUS usa arquivos DBC, que são DBF compactados. Também há dados em ambientes como OpenDataSUS, inclusive bases preliminares de anos recentes. Em análises reprodutíveis, registre fonte, data de acesso, versão da base e dicionário."
   },
   {
-    "start": 1313.483,
-    "end": 1317.059,
+    "start": 1287.619,
+    "end": 1290.66,
     "speaker": "ESTUDANTE",
     "text": "A variável idade exige cuidado, certo?"
   },
   {
-    "start": 1317.059,
-    "end": 1336.083,
+    "start": 1290.66,
+    "end": 1310.5,
     "speaker": "APRESENTADORA",
     "text": "Muito. No SIM, idade pode codificar unidade e quantidade: minutos, horas, dias, meses ou anos. Não dá para tratar como número simples sem processamento. Esse detalhe é decisivo para mortalidade neonatal e infantil."
   },
   {
-    "start": 1336.083,
-    "end": 1342.883,
+    "start": 1310.5,
+    "end": 1315.46,
     "speaker": "ESTUDANTE",
     "text": "É o tipo de erro que pode sobreviver ao código e só aparecer na conclusão."
   },
   {
-    "start": 1343.214,
-    "end": 1354.333,
+    "start": 1315.46,
+    "end": 1327.699,
     "speaker": "APRESENTADORA",
     "text": "Ou nem aparecer. O programa executa, a tabela sai, mas pessoas com horas, dias e anos de vida acabam interpretadas como se estivessem na mesma unidade."
   },
   {
-    "start": 1354.333,
-    "end": 1359.453,
+    "start": 1327.699,
+    "end": 1332.18,
     "speaker": "ESTUDANTE",
     "text": "E o acesso pode ser via TabNet, arquivos, R ou Python."
   },
   {
-    "start": 1359.453,
-    "end": 1382.573,
+    "start": 1332.18,
+    "end": 1357.14,
     "speaker": "APRESENTADORA",
     "text": "Sim. TabNet serve para consultas agregadas rápidas. Arquivos DBC e TabWin ajudam no processamento local. Em R, o pacote microdatasus facilita baixar e processar microdados. Em Python, há PySUS. E também existem PCDaS e OpenDataSUS, dependendo do objetivo."
   },
   {
-    "start": 1382.573,
-    "end": 1388.814,
+    "start": 1357.14,
+    "end": 1363.06,
     "speaker": "ESTUDANTE",
     "text": "No exemplo em R do capítulo, o SIM entra como numerador e a população vem de fora."
   },
   {
-    "start": 1388.814,
-    "end": 1413.214,
+    "start": 1363.31,
+    "end": 1385.79,
     "speaker": "APRESENTADORA",
     "text": "Isso é uma lição central. O código filtra óbitos não fetais, agrega por município de residência e ano, junta com população externa e calcula taxa por 100 mil. A tabela de população não vem do SIM. Numerador e denominador precisam conversar: mesmo território, mesmo período e mesma população-alvo."
   },
   {
-    "start": 1413.214,
-    "end": 1418.174,
+    "start": 1385.79,
+    "end": 1390.11,
     "speaker": "ESTUDANTE",
     "text": "E quando combinamos SIM com outros sistemas, não é só juntar tabelas."
   },
   {
-    "start": 1418.174,
-    "end": 1453.215,
+    "start": 1390.11,
+    "end": 1423.951,
     "speaker": "APRESENTADORA",
-    "text": "Exato. SIM + SINASC para mortalidade infantil. SIM + SINAN para óbitos entre casos notificados. SIM + SIH para óbitos após internação. SIM + população para taxas. Mas cada base tem unidade de análise diferente: óbito, nascimento, notificação, internação, pessoa, evento. O método precisa declarar janela temporal, campos de pareamento, duplicidades e discordâncias."
+    "text": "Exato. SIM com SINASC para mortalidade infantil. SIM com SINAN para óbitos entre casos notificados. SIM com SIH para óbitos após internação. SIM com população para taxas. Mas cada base tem unidade de análise diferente: óbito, nascimento, notificação, internação, pessoa, evento. O método precisa declarar janela temporal, campos de pareamento, duplicidades e discordâncias."
   },
   {
-    "start": 1453.215,
-    "end": 1456.414,
+    "start": 1423.951,
+    "end": 1426.671,
     "speaker": "ESTUDANTE",
     "text": "Juntar bases não apaga essas diferenças."
   },
   {
-    "start": 1456.414,
-    "end": 1468.734,
+    "start": 1426.671,
+    "end": 1438.111,
     "speaker": "APRESENTADORA",
     "text": "Ao contrário: torna necessário explicá-las. Um relacionamento de registros também precisa respeitar autorização e proteção dos dados quando houver identificação."
   },
   {
-    "start": 1468.734,
-    "end": 1471.855,
+    "start": 1438.111,
+    "end": 1440.591,
     "speaker": "ESTUDANTE",
     "text": "Vamos fechar com os erros mais comuns?"
   },
   {
-    "start": 1472.181,
-    "end": 1516.42,
+    "start": 1440.591,
+    "end": 1485.23,
     "speaker": "APRESENTADORA",
     "text": "Vamos. Primeiro: calcular taxa com óbitos por ocorrência e população residente. Segundo: misturar bases preliminares e consolidadas sem aviso. Terceiro: incluir óbitos fetais em indicadores de mortalidade geral quando não faz sentido. Quarto: tratar parada cardiorrespiratória ou falência de órgãos como se fossem causas básicas substantivas. Quinto: usar código CID muito detalhado em população pequena sem avaliar instabilidade. Sexto: ignorar incompletude de raça ou cor, escolaridade e ocupação."
   },
   {
-    "start": 1516.42,
-    "end": 1520.74,
+    "start": 1485.23,
+    "end": 1488.991,
     "speaker": "ESTUDANTE",
     "text": "Ou seja, o erro comum é esquecer a história do dado."
   },
   {
-    "start": 1520.74,
-    "end": 1549.781,
+    "start": 1489.24,
+    "end": 1515.56,
     "speaker": "APRESENTADORA",
     "text": "Bonita síntese. Todos esses erros apagam alguma parte do percurso. O SIM começa em uma perda individual, passa por um documento, um fluxo, uma codificação, uma investigação possível e uma escolha analítica. Quando a gente respeita esse caminho, o sistema permite enxergar padrões de mortalidade, desigualdades, causas evitáveis e necessidades de vigilância."
   },
   {
-    "start": 1549.781,
-    "end": 1555.061,
+    "start": 1515.56,
+    "end": 1521.399,
     "speaker": "ESTUDANTE",
     "text": "E a pergunta que ficou aberta no início? Quando o registro vira vigilância?"
   },
   {
-    "start": 1555.061,
-    "end": 1573.621,
+    "start": 1521.399,
+    "end": 1539.88,
     "speaker": "APRESENTADORA",
     "text": "Quando não é apenas armazenado, mas examinado, qualificado e interpretado para orientar ação. A vigilância começa no preenchimento cuidadoso, continua na investigação e se completa quando a análise respeita o que cada campo realmente significa."
   },
   {
-    "start": 1573.621,
-    "end": 1583.702,
+    "start": 1539.88,
+    "end": 1550.599,
     "speaker": "ESTUDANTE",
     "text": "Então a pergunta final não é só \"quantas pessoas morreram?\", mas \"o que essas mortes nos ensinam, e que escolhas metodológicas sustentam essa resposta?\"."
   },
   {
-    "start": 1583.702,
-    "end": 1599.062,
+    "start": 1550.599,
+    "end": 1565.319,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente... Nossa DO hipotética chegou ao fim do percurso, mas agora uma linha da base parece diferente. Conseguimos enxergar o documento, as pessoas e as decisões que vieram antes dela."
+    "text": "Exatamente. Nossa DO hipotética chegou ao fim do percurso, mas agora uma linha da base parece diferente. Conseguimos enxergar o documento, as pessoas e as decisões que vieram antes dela."
   },
   {
-    "start": 1599.062,
-    "end": 1607.862,
+    "start": 1565.319,
+    "end": 1574.04,
     "speaker": "ESTUDANTE",
     "text": "Uma perda individual não deixa de ser uma perda. Mas, quando a informação é tratada com rigor, ela pode ajudar a proteger outras vidas."
   },
   {
-    "start": 1608.174,
-    "end": 1622.734,
+    "start": 1574.04,
+    "end": 1588.52,
     "speaker": "APRESENTADORA",
     "text": "É por isso que o SIM não serve apenas para contar mortes. Ele ajuda a compreender como, onde, quando e por que as pessoas morrem no Brasil — e transforma essa compreensão em responsabilidade pública."
+  },
+  {
+    "start": 1588.52,
+    "end": 1596.2,
+    "speaker": "ESTUDANTE",
+    "text": "A Declaração chegou ao fim do percurso, e agora sabemos enxergar tudo o que existe por trás de uma linha da base."
+  },
+  {
+    "start": 1596.2,
+    "end": 1603.48,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a leitura que vamos levar aos próximos capítulos. Obrigada pela companhia, e até o próximo episódio!"
   }
 ]
