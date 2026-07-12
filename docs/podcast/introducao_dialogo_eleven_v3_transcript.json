@@ -1,536 +1,224 @@
 [
   {
     "start": 0,
-    "end": 10.16,
+    "end": 13.999,
     "speaker": "APRESENTADORA",
-    "text": "Olá. Hoje a gente abre o livro com uma ideia simples, mas muito importante: Sistemas de Informação em Saúde não são apenas bancos de dados."
+    "text": "Olá! Este é o podcast do livro Sistemas de Informação em Saúde no Brasil, escrito por Raphael de Freitas Saldanha. Neste capítulo de introdução, Raphael também conta com a autoria de Mônica Magalhães."
   },
   {
-    "start": 10.16,
-    "end": 20.28,
+    "start": 13.999,
+    "end": 16.56,
     "speaker": "ESTUDANTE",
-    "text": "Isso já muda bastante a forma de olhar para o tema, né? Porque, quando eu ouço \"sistema de informação\", penso logo em tabela, planilha, painel, consulta online..."
+    "text": "E qual é a proposta do livro?"
   },
   {
-    "start": 20.28,
-    "end": 28.48,
+    "start": 16.56,
+    "end": 37.84,
     "speaker": "APRESENTADORA",
-    "text": "E essa imagem não está errada. Ela só está incompleta. A tabela aparece no fim de um processo bem maior."
+    "text": "Apresentar os principais Sistemas de Informação em Saúde do país: como surgiram, o que registram, como os dados são organizados e de que maneira podem ser usados. O livro foi pensado como uma porta de entrada para estudantes, profissionais, pesquisadores e gestores que trabalham com dados do SUS."
   },
   {
-    "start": 28.48,
-    "end": 32.8,
+    "start": 37.84,
+    "end": 40.56,
     "speaker": "ESTUDANTE",
-    "text": "Então o banco de dados seria o resultado visível de uma cadeia de trabalho?"
+    "text": "Então não é um catálogo de siglas."
   },
   {
-    "start": 32.8,
-    "end": 50.44,
+    "start": 40.56,
+    "end": 52.44,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Antes de existir uma base pronta para análise, alguém definiu que evento seria registrado, quais campos entrariam no formulário, quem preencheria, como os dados seriam validados, transmitidos, consolidados e disponibilizados."
+    "text": "Não. A intenção é ajudar o leitor a escolher a fonte adequada, reconhecer os limites de cada base e aproveitar melhor seu potencial para a saúde pública."
   },
   {
-    "start": 50.44,
-    "end": 61.04,
+    "start": 52.44,
+    "end": 55.28,
     "speaker": "ESTUDANTE",
-    "text": "Ou seja... quando eu baixo uma base do SUS, eu não estou pegando um retrato neutro da realidade. Estou pegando um registro produzido por regras, rotinas e escolhas."
+    "text": "E qual é a ideia central desta introdução?"
   },
   {
-    "start": 61.04,
-    "end": 76.76,
+    "start": 55.28,
+    "end": 66.64,
     "speaker": "APRESENTADORA",
-    "text": "Perfeito. E essa é uma das mensagens centrais da Introdução. Um Sistema de Informação em Saúde, ou SIS, envolve instrumentos, pessoas, normas, tecnologias, fluxos e usos."
+    "text": "Que um Sistema de Informação em Saúde, ou SIS, não é apenas um banco de dados. A tabela que consultamos é o resultado de um processo muito maior."
   },
   {
-    "start": 76.76,
-    "end": 82.16,
+    "start": 66.64,
+    "end": 70.667,
     "speaker": "ESTUDANTE",
-    "text": "Vamos por partes. Quando você fala em instrumentos, está falando de formulários?"
+    "text": "O que acontece antes de a tabela ficar pronta?"
   },
   {
-    "start": 82.16,
-    "end": 97.999,
+    "start": 70.667,
+    "end": 90.56,
     "speaker": "APRESENTADORA",
-    "text": "Também. Pode ser uma ficha em papel, uma tela de sistema, um aplicativo, um prontuário, uma interface de integração. O importante é que existe algum instrumento que transforma um acontecimento em registro."
+    "text": "Primeiro, alguém define o evento que será registrado e as informações necessárias. Depois entram os formulários ou telas, as pessoas responsáveis pelo preenchimento, as regras de validação, os caminhos de transmissão e as rotinas de consolidação e acesso."
   },
   {
-    "start": 97.999,
-    "end": 105.44,
+    "start": 90.56,
+    "end": 98.493,
     "speaker": "ESTUDANTE",
-    "text": "Por exemplo: uma criança nasce, alguém emite uma declaração de nascido vivo, e esse evento passa a existir como dado."
+    "text": "Ou seja, o dado não aparece sozinho. Ele é produzido por pessoas, normas, tecnologias e instituições."
   },
   {
-    "start": 105.44,
-    "end": 116.921,
+    "start": 98.493,
+    "end": 114.68,
     "speaker": "APRESENTADORA",
-    "text": "Isso. Ou uma pessoa morre, uma internação é autorizada, uma vacina é aplicada, uma doença é notificada, um estabelecimento de saúde é cadastrado."
+    "text": "Exatamente. Pense em um nascimento, um óbito, uma internação, uma vacina ou a notificação de uma doença. Cada acontecimento entra em um sistema por um fluxo próprio e segundo regras específicas."
   },
   {
-    "start": 116.921,
-    "end": 120.481,
+    "start": 114.68,
+    "end": 117.12,
     "speaker": "ESTUDANTE",
-    "text": "E cada um desses eventos entra por uma porta diferente."
+    "text": "Por que isso importa para quem vai analisar os dados?"
   },
   {
-    "start": 121.29,
-    "end": 128.65,
+    "start": 117.37,
+    "end": 130.01,
     "speaker": "APRESENTADORA",
-    "text": "Sim. E cada porta tem suas próprias regras. É por isso que não dá para usar todos os sistemas como se fossem iguais."
+    "text": "Porque os números não são um retrato neutro e completo da realidade. Eles mostram o que determinado sistema conseguiu registrar, com sua finalidade, sua cobertura e suas limitações."
   },
   {
-    "start": 128.65,
-    "end": 138.41,
+    "start": 130.01,
+    "end": 134.73,
     "speaker": "ESTUDANTE",
-    "text": "Antes de entrar nos sistemas específicos, a Introdução começa falando da importância de dados confiáveis e oportunos. Por que essa ênfase?"
+    "text": "Então uma base pode ser ótima para uma pergunta e inadequada para outra."
   },
   {
-    "start": 138.41,
-    "end": 154.571,
+    "start": 134.73,
+    "end": 150.97,
     "speaker": "APRESENTADORA",
-    "text": "Porque decisões em saúde dependem disso. Vigilância, planejamento, financiamento, regulação, assistência e avaliação precisam de registros capazes de descrever o que acontece com a população e com os serviços."
+    "text": "Exatamente. Um sistema criado para vigilância epidemiológica tem uma lógica diferente de outro voltado ao pagamento de internações. Um cadastro de estabelecimentos também não registra a mesma coisa que um sistema de imunização."
   },
   {
-    "start": 154.571,
-    "end": 160.571,
+    "start": 150.97,
+    "end": 153.85,
     "speaker": "ESTUDANTE",
-    "text": "Então não é uma discussão técnica isolada. É uma discussão sobre decisão pública."
+    "text": "Isso tem relação com a unidade de análise?"
   },
   {
-    "start": 160.571,
-    "end": 172.651,
+    "start": 153.85,
+    "end": 168.411,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Um dado ruim pode atrasar uma resposta de vigilância, distorcer uma avaliação, prejudicar o planejamento de serviços ou esconder uma desigualdade."
+    "text": "Tem. A unidade de análise é aquilo que cada registro representa. Pode ser um óbito, uma notificação, uma internação, uma autorização, uma dose aplicada ou um estabelecimento de saúde."
   },
   {
-    "start": 172.651,
-    "end": 178.172,
+    "start": 168.411,
+    "end": 172.97,
     "speaker": "ESTUDANTE",
-    "text": "E um dado bom, usado sem contexto, também pode levar a conclusões ruins."
+    "text": "E contar registros não significa, necessariamente, contar pessoas."
   },
   {
-    "start": 178.172,
-    "end": 195.372,
+    "start": 172.97,
+    "end": 191.611,
     "speaker": "APRESENTADORA",
-    "text": "Muito bem colocado. A qualidade do registro importa, mas a interpretação também importa. O dado precisa ser lido à luz da pergunta, do território, do período, da cobertura do sistema e das regras de produção daquele registro."
+    "text": "Esse cuidado é essencial. Uma pessoa pode gerar várias internações ou receber várias doses. Uma notificação pode ser descartada depois da investigação. Antes de calcular qualquer indicador, precisamos entender o que cada linha da base representa."
   },
   {
-    "start": 195.372,
-    "end": 208.012,
+    "start": 191.611,
+    "end": 198.17,
     "speaker": "ESTUDANTE",
-    "text": "A Introdução cita uma definição de SIS como um esforço integrado para coletar, processar, reportar e usar informação e conhecimento em saúde. O que essa definição acrescenta?"
+    "text": "O capítulo também diferencia dado, informação e conhecimento. Como funciona essa passagem?"
   },
   {
-    "start": 208.012,
-    "end": 221.452,
+    "start": 198.17,
+    "end": 219.811,
     "speaker": "APRESENTADORA",
-    "text": "Ela desloca a atenção da base de dados para o ciclo completo. Coletar é só o começo. Depois vem processar, organizar, reportar e, principalmente, usar."
+    "text": "O dado é a unidade mais simples: uma data, uma idade, um código de município, uma causa de óbito. Quando esses dados são organizados para responder a uma pergunta, produzimos informação. Pode ser uma contagem de óbitos por município ou uma taxa de internação por faixa etária."
   },
   {
-    "start": 221.452,
-    "end": 223.532,
+    "start": 219.811,
+    "end": 222.891,
     "speaker": "ESTUDANTE",
-    "text": "Usar para quê?"
+    "text": "E quando a informação se transforma em conhecimento?"
   },
   {
-    "start": 223.532,
-    "end": 239.132,
+    "start": 222.891,
+    "end": 243.451,
     "speaker": "APRESENTADORA",
-    "text": "Para orientar decisões, ações programáticas, pesquisa, gestão, avaliação de serviços e políticas públicas. Um SIS só cumpre plenamente seu papel quando a informação gerada volta para a prática."
+    "text": "Quando ela é interpretada com contexto, experiência e reflexão. Imagine um município com poucas notificações de determinada doença. Isso pode indicar baixa ocorrência, mas também dificuldade de acesso aos serviços, falhas de detecção ou atraso no registro."
   },
   {
-    "start": 239.132,
-    "end": 244.013,
+    "start": 243.7,
+    "end": 247.14,
     "speaker": "ESTUDANTE",
-    "text": "Então existe um risco de acumular dados sem transformar isso em ação."
+    "text": "O número, sozinho, não permite escolher entre essas explicações."
   },
   {
-    "start": 244.26,
-    "end": 253.22,
+    "start": 247.14,
+    "end": 256.979,
     "speaker": "APRESENTADORA",
-    "text": "Existe. E é um risco bem comum. Ter muitos dados não significa, automaticamente, ter boa informação ou bom conhecimento."
+    "text": "Exato. É o conhecimento sobre o território, o período e o processo de produção dos dados que sustenta uma interpretação responsável."
   },
   {
-    "start": 253.22,
-    "end": 260.66,
+    "start": 256.979,
+    "end": 261.46,
     "speaker": "ESTUDANTE",
-    "text": "Isso nos leva à diferença entre dado, informação e conhecimento, que o capítulo destaca. Pode explicar com calma?"
+    "text": "E por que dados confiáveis e oportunos são tão importantes?"
   },
   {
-    "start": 260.66,
-    "end": 274.74,
+    "start": 261.46,
+    "end": 279.62,
     "speaker": "APRESENTADORA",
-    "text": "Claro. O dado é o elemento mais simples. Pode ser uma data, um código de município, uma idade, uma causa de óbito, um procedimento realizado, uma dose de vacina aplicada."
+    "text": "Porque vigilância, planejamento, financiamento, assistência e avaliação dependem deles. Bons registros ajudam a acompanhar desigualdades, investigar surtos, organizar serviços, avaliar políticas e definir prioridades."
   },
   {
-    "start": 274.74,
-    "end": 278.5,
+    "start": 279.62,
+    "end": 283.22,
     "speaker": "ESTUDANTE",
-    "text": "Sozinho, ele descreve uma parte bem pequena do real."
+    "text": "Mas ter muitos dados não garante boas decisões."
   },
   {
-    "start": 278.5,
-    "end": 289.58,
+    "start": 283.22,
+    "end": 298.18,
     "speaker": "APRESENTADORA",
-    "text": "Isso. Ele é uma unidade de registro. Já a informação aparece quando os dados são organizados e interpretados em relação a uma pergunta."
+    "text": "Não garante. A qualidade do registro importa, e a qualidade da pergunta também. Dados sem contexto podem gerar conclusões frágeis; dados que não são usados tampouco cumprem sua função."
   },
   {
-    "start": 289.58,
-    "end": 291.94,
+    "start": 298.18,
+    "end": 300.32,
     "speaker": "ESTUDANTE",
-    "text": "Tipo contar óbitos por município?"
+    "text": "Como o livro ajuda nesse caminho?"
   },
   {
-    "start": 291.94,
-    "end": 309.38,
+    "start": 300.32,
+    "end": 315.478,
     "speaker": "APRESENTADORA",
-    "text": "Esse é um bom exemplo. Uma contagem de óbitos por município já organiza dados individuais para responder a uma pergunta. Uma taxa de internação por faixa etária vai além, porque relaciona eventos a uma população de referência."
+    "text": "Nos próximos capítulos, cada sistema é apresentado a partir de sua história, cobertura, unidade de análise, estrutura dos dados, formas de acesso, usos frequentes e cuidados de interpretação."
   },
   {
-    "start": 309.38,
-    "end": 316.98,
+    "start": 315.478,
+    "end": 323.972,
     "speaker": "ESTUDANTE",
-    "text": "E a proporção de casos confirmados entre notificações suspeitas também transforma registros em uma medida interpretável."
+    "text": "Então, antes de abrir uma base, vale perguntar: o que foi registrado, por quem, para qual finalidade e com qual cobertura?"
   },
   {
-    "start": 316.98,
-    "end": 323.7,
+    "start": 323.972,
+    "end": 331.46,
     "speaker": "APRESENTADORA",
-    "text": "Exato. A informação já tem uma forma analítica. Mas ainda falta um passo."
+    "text": "Perfeito. E vale conferir também o período, as variáveis disponíveis e as regras do sistema."
   },
   {
-    "start": 323.7,
-    "end": 325.059,
+    "start": 331.46,
+    "end": 335.9,
     "speaker": "ESTUDANTE",
-    "text": "O conhecimento?"
+    "text": "Se eu tivesse que guardar uma única mensagem deste episódio, qual seria?"
   },
   {
-    "start": 325.059,
-    "end": 341.7,
+    "start": 335.9,
+    "end": 352.66,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Conhecimento nasce quando essa informação é articulada com contexto, experiência e reflexão. É o que permite formular hipóteses, definir prioridades, avaliar desempenho e tomar decisões."
+    "text": "Guarde esta: um Sistema de Informação em Saúde é um processo social, técnico e institucional que transforma acontecimentos em registros, registros em informação e informação em apoio à decisão."
   },
   {
-    "start": 341.7,
-    "end": 346.26,
+    "start": 352.66,
+    "end": 357.433,
     "speaker": "ESTUDANTE",
-    "text": "Então o conhecimento depende de entender o que está por trás dos números."
+    "text": "Entender esse caminho é o primeiro passo para usar melhor os dados de saúde."
   },
   {
-    "start": 346.26,
-    "end": 368.1,
+    "start": 357.433,
+    "end": 362.66,
     "speaker": "APRESENTADORA",
-    "text": "Depende. Por exemplo, se um município aparece com poucos casos notificados de uma doença, isso pode significar baixa ocorrência. Mas também pode significar baixa capacidade de detecção, dificuldade de acesso ao serviço, falha no preenchimento ou atraso de digitação."
-  },
-  {
-    "start": 368.1,
-    "end": 372.9,
-    "speaker": "ESTUDANTE",
-    "text": "A mesma informação pode ter leituras diferentes dependendo do contexto."
-  },
-  {
-    "start": 373.15,
-    "end": 378.83,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. E por isso o livro insiste em uma leitura crítica dos SIS."
-  },
-  {
-    "start": 378.83,
-    "end": 386.589,
-    "speaker": "ESTUDANTE",
-    "text": "Quando o capítulo fala que os sistemas variam entre países e ao longo do tempo, ele está chamando atenção para essa dimensão histórica?"
-  },
-  {
-    "start": 386.589,
-    "end": 398.67,
-    "speaker": "APRESENTADORA",
-    "text": "Sim. Os SIS não surgem do nada. Eles respondem a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas de cada época."
-  },
-  {
-    "start": 398.67,
-    "end": 403.71,
-    "speaker": "ESTUDANTE",
-    "text": "Então, para interpretar um sistema, eu preciso saber por que ele foi criado."
-  },
-  {
-    "start": 403.71,
-    "end": 421.43,
-    "speaker": "APRESENTADORA",
-    "text": "Precisa. Um sistema criado para vigilância epidemiológica tem lógica diferente de um sistema criado para faturamento hospitalar. Um cadastro de estabelecimentos tem outra finalidade. Um sistema de imunização tem outra unidade de registro."
-  },
-  {
-    "start": 421.43,
-    "end": 426.07,
-    "speaker": "ESTUDANTE",
-    "text": "E isso afeta o tipo de pergunta que eu posso responder com cada base."
-  },
-  {
-    "start": 426.07,
-    "end": 432.75,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. Uma base pode ser excelente para uma pergunta e inadequada para outra."
-  },
-  {
-    "start": 432.75,
-    "end": 444.51,
-    "speaker": "ESTUDANTE",
-    "text": "No Brasil, a Introdução diz que os SIS cobrem eventos do ciclo de vida da população e também eventos ligados ao funcionamento do sistema de saúde. O que entra nesse conjunto?"
-  },
-  {
-    "start": 444.51,
-    "end": 461.39,
-    "speaker": "APRESENTADORA",
-    "text": "Entram nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias."
-  },
-  {
-    "start": 461.39,
-    "end": 463.551,
-    "speaker": "ESTUDANTE",
-    "text": "É um mapa bem amplo da saúde pública."
-  },
-  {
-    "start": 463.551,
-    "end": 470.671,
-    "speaker": "APRESENTADORA",
-    "text": "É. Mas é um mapa feito por camadas. Cada sistema ilumina uma parte da realidade."
-  },
-  {
-    "start": 470.671,
-    "end": 473.632,
-    "speaker": "ESTUDANTE",
-    "text": "A figura do ciclo de vida ajuda a visualizar isso?"
-  },
-  {
-    "start": 473.632,
-    "end": 491.712,
-    "speaker": "APRESENTADORA",
-    "text": "Ajuda. Ela mostra que os sistemas acompanham diferentes momentos e dimensões da vida das pessoas e do funcionamento dos serviços. Há sistemas mais ligados a eventos vitais, outros à assistência, outros à vigilância, outros à gestão."
-  },
-  {
-    "start": 491.712,
-    "end": 496.432,
-    "speaker": "ESTUDANTE",
-    "text": "Então aprender SIS é também aprender a escolher a fonte certa."
-  },
-  {
-    "start": 497.88,
-    "end": 510.039,
-    "speaker": "APRESENTADORA",
-    "text": "Sem dúvida. E escolher a fonte certa exige saber a unidade de análise, a cobertura, o fluxo, as variáveis disponíveis, as regras de entrada e as limitações."
-  },
-  {
-    "start": 510.039,
-    "end": 517.48,
-    "speaker": "ESTUDANTE",
-    "text": "Unidade de análise é uma expressão que aparece muito nesse tipo de discussão. Como eu devo entendê-la?"
-  },
-  {
-    "start": 517.48,
-    "end": 532.6,
-    "speaker": "APRESENTADORA",
-    "text": "É aquilo que cada linha, registro ou evento representa. Pode ser um nascimento, um óbito, uma internação, uma autorização, uma notificação, uma dose, um estabelecimento."
-  },
-  {
-    "start": 532.6,
-    "end": 537.64,
-    "speaker": "ESTUDANTE",
-    "text": "Se eu confundo a unidade de análise, posso interpretar mal a base."
-  },
-  {
-    "start": 537.64,
-    "end": 553.961,
-    "speaker": "APRESENTADORA",
-    "text": "Sim. Uma internação não é a mesma coisa que uma pessoa. Uma notificação não é necessariamente um caso confirmado. Um atendimento não é uma doença. Essas distinções mudam a análise."
-  },
-  {
-    "start": 553.961,
-    "end": 559.561,
-    "speaker": "ESTUDANTE",
-    "text": "Isso parece básico, mas é exatamente onde muita interpretação escorrega."
-  },
-  {
-    "start": 559.561,
-    "end": 566.681,
-    "speaker": "APRESENTADORA",
-    "text": "É básico e decisivo. Por isso a Introdução prepara o leitor para os capítulos seguintes."
-  },
-  {
-    "start": 566.681,
-    "end": 569.96,
-    "speaker": "ESTUDANTE",
-    "text": "E qual é o objetivo declarado do livro?"
-  },
-  {
-    "start": 569.96,
-    "end": 582.121,
-    "speaker": "APRESENTADORA",
-    "text": "Apresentar os principais Sistemas de Informação em Saúde no Brasil, com informações atualizadas sobre sua história, características dos dados e formas de utilização."
-  },
-  {
-    "start": 582.121,
-    "end": 585.48,
-    "speaker": "ESTUDANTE",
-    "text": "Então o livro não quer só listar siglas."
-  },
-  {
-    "start": 585.48,
-    "end": 593.961,
-    "speaker": "APRESENTADORA",
-    "text": "Não. A ideia é ajudar a aproveitar melhor o potencial desses sistemas para a saúde pública brasileira."
-  },
-  {
-    "start": 593.961,
-    "end": 596.585,
-    "speaker": "ESTUDANTE",
-    "text": "Como cada capítulo vai fazer isso?"
-  },
-  {
-    "start": 596.585,
-    "end": 611.561,
-    "speaker": "APRESENTADORA",
-    "text": "Cada sistema será tratado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação."
-  },
-  {
-    "start": 611.561,
-    "end": 620.67,
-    "speaker": "ESTUDANTE",
-    "text": "Gosto desse último ponto: cuidados de interpretação. Porque ele reconhece que toda base tem potência e limite."
-  },
-  {
-    "start": 620.67,
-    "end": 628.801,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. O objetivo não é desqualificar os dados. Pelo contrário. É usá-los melhor."
-  },
-  {
-    "start": 628.801,
-    "end": 632.681,
-    "speaker": "ESTUDANTE",
-    "text": "Usar melhor significa evitar dois extremos?"
-  },
-  {
-    "start": 634.13,
-    "end": 648.49,
-    "speaker": "APRESENTADORA",
-    "text": "Sim. Um extremo é subutilizar bases valiosas, deixando informações disponíveis sem uso. O outro é interpretar os dados como se eles fossem uma representação perfeita e direta da realidade."
-  },
-  {
-    "start": 648.49,
-    "end": 651.09,
-    "speaker": "ESTUDANTE",
-    "text": "O caminho do meio seria uma análise crítica."
-  },
-  {
-    "start": 651.09,
-    "end": 663.891,
-    "speaker": "APRESENTADORA",
-    "text": "Isso. Crítica no sentido produtivo: saber de onde o dado vem, o que ele mede, o que ele não mede, quais perguntas ele responde bem e onde é preciso cautela."
-  },
-  {
-    "start": 663.891,
-    "end": 668.691,
-    "speaker": "ESTUDANTE",
-    "text": "Dá para dizer que um SIS é uma infraestrutura invisível da saúde pública?"
-  },
-  {
-    "start": 668.691,
-    "end": 678.05,
-    "speaker": "APRESENTADORA",
-    "text": "Dá, e é uma boa imagem. Muitas decisões dependem dessa infraestrutura, mesmo quando ela não aparece no centro da conversa."
-  },
-  {
-    "start": 678.05,
-    "end": 685.733,
-    "speaker": "ESTUDANTE",
-    "text": "Como definir prioridades, distribuir recursos, acompanhar indicadores, investigar surtos, avaliar serviços..."
-  },
-  {
-    "start": 685.733,
-    "end": 696.773,
-    "speaker": "APRESENTADORA",
-    "text": "Tudo isso. E também produzir pesquisa, monitorar desigualdades, acompanhar políticas e dar transparência ao funcionamento do sistema de saúde."
-  },
-  {
-    "start": 696.773,
-    "end": 701.493,
-    "speaker": "ESTUDANTE",
-    "text": "Mas o capítulo também deixa claro que tecnologia não resolve tudo sozinha."
-  },
-  {
-    "start": 701.493,
-    "end": 716.453,
-    "speaker": "APRESENTADORA",
-    "text": "Sim. Um sistema não é só software. Ele depende de pessoas treinadas, rotinas bem definidas, regras claras, governança, financiamento, manutenção e uso efetivo da informação."
-  },
-  {
-    "start": 716.453,
-    "end": 723.493,
-    "speaker": "ESTUDANTE",
-    "text": "Então melhorar um SIS pode envolver desde uma mudança de formulário até uma melhoria na cultura de uso dos dados."
-  },
-  {
-    "start": 723.493,
-    "end": 739.253,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. Às vezes o problema está na coleta. Às vezes na transmissão. Às vezes na padronização. Às vezes no acesso. Às vezes na capacidade analítica de quem precisa usar a informação."
-  },
-  {
-    "start": 739.253,
-    "end": 745.333,
-    "speaker": "ESTUDANTE",
-    "text": "Para quem está começando, qual seria a atitude mais importante diante de uma base de saúde?"
-  },
-  {
-    "start": 745.333,
-    "end": 758.933,
-    "speaker": "APRESENTADORA",
-    "text": "Eu diria: antes de calcular, entenda. Entenda o evento, o fluxo, a cobertura, a unidade de análise, as variáveis e as regras do sistema."
-  },
-  {
-    "start": 758.933,
-    "end": 761.733,
-    "speaker": "ESTUDANTE",
-    "text": "E depois calcule com uma pergunta clara."
-  },
-  {
-    "start": 762.46,
-    "end": 771.42,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. Dado sem pergunta vira acúmulo. Pergunta sem cuidado metodológico vira interpretação frágil."
-  },
-  {
-    "start": 771.42,
-    "end": 775.9,
-    "speaker": "ESTUDANTE",
-    "text": "Esse episódio então funciona como uma porta de entrada para o livro inteiro."
-  },
-  {
-    "start": 775.9,
-    "end": 786.94,
-    "speaker": "APRESENTADORA",
-    "text": "Funciona. Ele dá o vocabulário básico: SIS, dado, informação, conhecimento, contexto, uso e interpretação."
-  },
-  {
-    "start": 786.94,
-    "end": 789.66,
-    "speaker": "ESTUDANTE",
-    "text": "Se eu tivesse que guardar uma frase, qual seria?"
-  },
-  {
-    "start": 789.66,
-    "end": 805.18,
-    "speaker": "APRESENTADORA",
-    "text": "Guarde esta: um Sistema de Informação em Saúde é um processo social, técnico e institucional que transforma eventos em registros, registros em informação, e informação em apoio à decisão."
-  },
-  {
-    "start": 805.18,
-    "end": 809.101,
-    "speaker": "ESTUDANTE",
-    "text": "E, para usar bem esses dados, eu preciso olhar para todo esse caminho."
-  },
-  {
-    "start": 809.101,
-    "end": 814.221,
-    "speaker": "APRESENTADORA",
-    "text": "Exatamente. Esse é o ponto de partida para os próximos capítulos."
+    "text": "É esse o convite do livro. Até o próximo capítulo!"
   }
 ]
