@@ -1,896 +1,1304 @@
 [
   {
     "start": 0,
-    "end": 17.039,
+    "end": 8.96,
     "speaker": "APRESENTADORA",
-    "text": "Vamos começar com uma cena bem comum. Alguém abre três bases sobre dengue e diz: \"tem algo errado\". O SINAN mostra um número, o SIH mostra outro, o SIM mostra outro. Mas será que eles estavam tentando contar a mesma coisa?"
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo Eventos de saúde, do livro Sistemas de Informação em Saúde no Brasil."
   },
   {
-    "start": 17.039,
-    "end": 22.16,
+    "start": 8.96,
+    "end": 14.48,
     "speaker": "ESTUDANTE",
-    "text": "Olhando de fora, parece tudo dengue. Então dá vontade de comparar direto."
+    "text": "Depois de organizar os sistemas, chegou a hora de entender o que eles registram?"
   },
   {
-    "start": 22.16,
-    "end": 44.76,
+    "start": 14.48,
+    "end": 29.359,
     "speaker": "APRESENTADORA",
-    "text": "Pois é. E é aí que entra a ideia central deste capítulo: os Sistemas de Informação em Saúde registram eventos. Eles não registram \"a doença\" como uma coisa abstrata. Registram notificações, atendimentos, procedimentos, internações, óbitos, nascimentos, doses aplicadas."
+    "text": "Exatamente. E vamos começar com um pequeno mistério. Três equipes analisam o mesmo problema de saúde. Uma encontra mil registros, outra encontra duzentos e cinquenta, e a terceira encontra doze."
   },
   {
-    "start": 44.76,
-    "end": 52.562,
+    "start": 29.359,
+    "end": 32.96,
     "speaker": "ESTUDANTE",
-    "text": "Então a pergunta muda. Em vez de \"qual sistema tem dengue?\", eu pergunto: \"qual evento relacionado à dengue eu quero observar?\"."
+    "text": "A primeira reação seria dizer que duas equipes erraram."
   },
   {
-    "start": 52.562,
-    "end": 58.402,
+    "start": 32.96,
+    "end": 47.359,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Essa mudança parece pequena, mas muda toda a análise."
+    "text": "Mas imagine que a primeira contou notificações, a segunda contou internações e a terceira contou óbitos. Os números são diferentes porque os acontecimentos observados também são diferentes."
   },
   {
-    "start": 58.402,
-    "end": 62.162,
+    "start": 47.359,
+    "end": 50.08,
     "speaker": "ESTUDANTE",
-    "text": "Porque uma pessoa com dengue pode gerar vários registros."
+    "text": "O tema é o mesmo, mas o evento muda."
   },
   {
-    "start": 62.162,
-    "end": 82.082,
+    "start": 50.08,
+    "end": 65.6,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Ela pode sentir sintomas, procurar atendimento, ser notificada como caso suspeito, fazer exame, ser internada se piorar e, em uma situação extrema, evoluir para óbito. É uma trajetória clínica, mas cada pedaço pode aparecer em um sistema diferente."
+    "text": "Essa é a chave do capítulo. Ao longo do episódio, vamos seguir o caminho que liga um problema de saúde a diferentes acontecimentos, registros e medidas. No fim, voltaremos aos três números para resolver o mistério."
   },
   {
-    "start": 82.082,
-    "end": 88.882,
+    "start": 65.6,
+    "end": 68.001,
     "speaker": "ESTUDANTE",
-    "text": "Então os sistemas não são versões imperfeitas da mesma informação. São janelas diferentes da trajetória."
+    "text": "O que é, exatamente, um evento de saúde?"
   },
   {
-    "start": 88.882,
-    "end": 113.602,
+    "start": 68.001,
+    "end": 83.6,
     "speaker": "APRESENTADORA",
-    "text": "Perfeito. O SIA pode mostrar atendimentos, exames e procedimentos ambulatoriais. O SINAN pode mostrar suspeitas, investigação, confirmação ou descarte. O SIH mostra internações financiadas pelo SUS. O SIM mostra óbitos. Se os números não batem, isso pode ser exatamente o esperado."
+    "text": "É uma ocorrência delimitada no tempo, no espaço e em uma unidade de análise. Pode ser um nascimento, um óbito, uma notificação, uma internação, um atendimento, um procedimento ou uma dose aplicada."
   },
   {
-    "start": 113.602,
-    "end": 116.883,
+    "start": 83.6,
+    "end": 86.8,
     "speaker": "ESTUDANTE",
-    "text": "O primeiro passo é reconstruir a história possível do problema."
+    "text": "Por que a palavra “delimitada” é importante?"
   },
   {
-    "start": 116.883,
-    "end": 132.243,
+    "start": 86.8,
+    "end": 99.84,
     "speaker": "APRESENTADORA",
-    "text": "Isso. Antes de abrir a planilha, vale perguntar: que acontecimentos esse problema pode produzir? Onde eles são registrados? Quem registra? Com qual finalidade? Em que momento?"
+    "text": "Porque precisamos reconhecer quando o evento aconteceu, onde ocorreu e o que ele representa. Sem esses limites, o tema permanece amplo demais para ser contado de forma consistente."
   },
   {
-    "start": 132.243,
-    "end": 134.803,
+    "start": 99.84,
+    "end": 107.681,
     "speaker": "ESTUDANTE",
-    "text": "Parece uma investigação de rastros."
+    "text": "“Doença respiratória” é um tema. “Internação por doença respiratória em determinado período” é um evento observável."
   },
   {
-    "start": 135.69,
-    "end": 154.41,
+    "start": 107.681,
+    "end": 116.001,
     "speaker": "APRESENTADORA",
-    "text": "É uma boa imagem. Cada registro é um rastro institucional. Uma ficha de notificação, uma autorização de internação, uma declaração de óbito, um procedimento lançado no sistema. Todos podem falar do mesmo tema, mas não dizem a mesma coisa."
+    "text": "Perfeito. A transformação de um tema em eventos observáveis é o primeiro passo para uma pergunta analisável."
   },
   {
-    "start": 154.41,
-    "end": 160.41,
+    "start": 116.001,
+    "end": 119.601,
     "speaker": "ESTUDANTE",
-    "text": "Então a tabela que liga pergunta, evento e sistema funciona como mapa de decisão."
+    "text": "Um problema de saúde pode produzir vários eventos?"
   },
   {
-    "start": 160.41,
-    "end": 188.65,
+    "start": 120.81,
+    "end": 133.131,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Se a pergunta é sobre suspeita ou confirmação de doença de notificação, o caminho provável é o SINAN. Se é atendimento, exame ou procedimento no SUS, olhamos para o SIA. Se é hospitalização no SUS, SIH. Se é morte, SIM. Se é nascimento, SINASC. Se é vacinação, SI-PNI."
+    "text": "Quase sempre. Uma pessoa pode apresentar sintomas, procurar atendimento, fazer exames, ser notificada, iniciar tratamento, ser internada, receber alta ou evoluir para óbito."
   },
   {
-    "start": 188.65,
-    "end": 192.73,
+    "start": 133.131,
+    "end": 136.25,
     "speaker": "ESTUDANTE",
-    "text": "Mas a tabela não substitui a pergunta metodológica."
+    "text": "É uma trajetória, não um ponto isolado."
   },
   {
-    "start": 192.73,
-    "end": 205.21,
+    "start": 136.25,
+    "end": 149.689,
     "speaker": "APRESENTADORA",
-    "text": "Não substitui. Ela só orienta a entrada. Depois ainda precisamos conferir cobertura, campos disponíveis, período, versão da base e unidade de análise."
+    "text": "Sim. Cada etapa pode deixar um rastro em uma instituição diferente. Alguns rastros aparecem em Sistemas de Informação em Saúde; outros não são registrados ou não ficam disponíveis para análise."
   },
   {
-    "start": 205.21,
-    "end": 210.09,
+    "start": 149.689,
+    "end": 152.73,
     "speaker": "ESTUDANTE",
-    "text": "Vamos falar dessa unidade de análise, porque é onde muita coisa dá errado."
+    "text": "Então o sistema não observa diretamente todo o fenômeno."
   },
   {
-    "start": 210.09,
-    "end": 241.29,
+    "start": 152.73,
+    "end": 166.409,
     "speaker": "APRESENTADORA",
-    "text": "Dá mesmo. Um evento de saúde nem sempre equivale a uma pessoa. No SIA, uma linha pode ser um procedimento. Uma pessoa pode fazer vários exames. No SIH, a unidade operacional é a AIH, e uma pessoa pode ter mais de uma autorização. No SINAN, uma ficha pode ser uma suspeita que será descartada. No SIM, cada registro corresponde a um óbito."
+    "text": "Exatamente. Ele observa eventos definidos por suas regras. Entre a realidade e a base existe uma seleção: alguém precisa reconhecer, registrar e transmitir o acontecimento."
   },
   {
-    "start": 241.29,
-    "end": 246.971,
+    "start": 166.409,
+    "end": 172.17,
     "speaker": "ESTUDANTE",
-    "text": "\"Quantos registros existem?\" não é a mesma pergunta que \"quantas pessoas tiveram o problema?\"."
+    "text": "Isso explica por que nenhuma base, sozinha, representa necessariamente o problema inteiro."
   },
   {
-    "start": 246.971,
-    "end": 265.411,
+    "start": 172.17,
+    "end": 181.289,
     "speaker": "APRESENTADORA",
-    "text": "Exato. Às vezes as respostas se aproximam. Às vezes ficam muito distantes. Antes de contar, precisamos dizer se estamos falando de pessoa, evento, procedimento, autorização, documento ou episódio de cuidado."
+    "text": "Sim. Cada base funciona como uma janela. A janela pode ser ampla e valiosa, mas continua tendo enquadramento."
   },
   {
-    "start": 265.411,
-    "end": 269.611,
+    "start": 181.289,
+    "end": 186.09,
     "speaker": "ESTUDANTE",
-    "text": "E ainda existe a diferença entre duplicidade e recorrência."
+    "text": "O que determina esse enquadramento antes de o registro chegar ao sistema?"
   },
   {
-    "start": 269.86,
-    "end": 288.659,
+    "start": 186.09,
+    "end": 203.45,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Dois registros parecidos podem ser erro de digitação, duplicação da ficha, transferência entre serviços, novo atendimento ou novo episódio clínico. A decisão de deduplicar não é automática. Ela depende do sistema e da pergunta."
+    "text": "Podemos imaginar uma sequência de portas. Primeiro, a pessoa ou o serviço precisa reconhecer o acontecimento. Depois, pode ser necessário acesso ao cuidado, aplicação de uma definição, preenchimento de um instrumento e envio da informação."
   },
   {
-    "start": 288.659,
-    "end": 292.659,
+    "start": 203.45,
+    "end": 208.81,
     "speaker": "ESTUDANTE",
-    "text": "Então limpar a base também é uma decisão conceitual."
+    "text": "Se o evento não atravessa uma dessas portas, ele pode ficar invisível na base."
   },
   {
-    "start": 292.659,
-    "end": 309.54,
+    "start": 208.81,
+    "end": 223.69,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Não é só técnica. Se eu apago registros achando que são duplicados, posso eliminar recorrências reais. Se mantenho duplicidades verdadeiras, posso inflar o resultado. O método precisa explicar a regra."
+    "text": "Exatamente. Uma barreira de acesso reduz eventos observados. Uma definição muito restrita muda quem é incluído. Uma falha de transmissão impede que registros locais apareçam na consolidação."
   },
   {
-    "start": 309.54,
-    "end": 315.78,
+    "start": 223.69,
+    "end": 229.449,
     "speaker": "ESTUDANTE",
-    "text": "Agora vamos ao tempo. O evento acontece em um momento, mas o dado aparece depois."
+    "text": "Isso significa que o número depende do fenômeno e também da capacidade de observá-lo."
   },
   {
-    "start": 315.78,
-    "end": 339.221,
+    "start": 229.449,
+    "end": 239.85,
     "speaker": "APRESENTADORA",
-    "text": "Entre a ocorrência e o dado analisável existe um ciclo. O evento acontece; alguém registra; pode haver investigação, crítica, validação, digitação, envio, consolidação; e só depois vem a disseminação em TabNet, microdados, painel ou base aberta."
+    "text": "Sim. Essa é uma das ideias mais importantes do capítulo. O registro resulta do encontro entre o acontecimento e o sistema que consegue reconhecê-lo."
   },
   {
-    "start": 339.221,
-    "end": 342.021,
+    "start": 240.98,
+    "end": 246.98,
     "speaker": "ESTUDANTE",
-    "text": "Cada etapa pode ter uma data."
+    "text": "Uma melhoria na detecção pode aumentar os registros mesmo que o risco real não tenha aumentado na mesma proporção."
   },
   {
-    "start": 342.021,
-    "end": 360.261,
+    "start": 246.98,
+    "end": 256.9,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Data de início de sintomas, data de atendimento, data de notificação, data de internação, data de óbito, data de digitação, data de disponibilização. Elas respondem a perguntas diferentes."
+    "text": "Pode. Da mesma forma, interrupções no acesso ou no fluxo informacional podem reduzir registros sem que o problema tenha diminuído."
   },
   {
-    "start": 360.261,
-    "end": 366.101,
+    "start": 256.9,
+    "end": 260.499,
     "speaker": "ESTUDANTE",
-    "text": "Em uma epidemia, trocar a data de sintomas pela data de digitação pode mudar a curva."
+    "text": "Então precisamos conhecer mudanças nas portas de entrada."
   },
   {
-    "start": 366.101,
-    "end": 385.941,
+    "start": 260.499,
+    "end": 273.46,
     "speaker": "APRESENTADORA",
-    "text": "Pode mudar bastante. A data de sintomas tenta se aproximar do início clínico. A data de notificação mostra quando o sistema tomou conhecimento. A data de digitação informa parte do fluxo administrativo. Nenhuma é universalmente melhor."
+    "text": "Exatamente. Expansão de testes, nova definição de caso, campanha de busca ativa, mudança de formulário ou implantação de um sistema podem alterar a série observada."
   },
   {
-    "start": 385.941,
-    "end": 389.701,
+    "start": 273.46,
+    "end": 279.14,
     "speaker": "ESTUDANTE",
-    "text": "A melhor data é a que responde à pergunta declarada."
+    "text": "O evento registrado é uma medida do fenômeno atravessada pela capacidade institucional."
   },
   {
-    "start": 389.701,
-    "end": 396.661,
+    "start": 279.14,
+    "end": 286.02,
     "speaker": "APRESENTADORA",
-    "text": "Perfeito. E essa escolha precisa aparecer no método, porque muda a interpretação."
+    "text": "Perfeito. Isso não torna o dado inútil; torna sua interpretação mais completa."
   },
   {
-    "start": 396.661,
-    "end": 400.341,
+    "start": 286.02,
+    "end": 288.581,
     "speaker": "ESTUDANTE",
-    "text": "Isso explica por que dados recentes mudam depois?"
+    "text": "Como escolher a janela adequada?"
   },
   {
-    "start": 400.59,
-    "end": 418.83,
+    "start": 288.581,
+    "end": 304.165,
     "speaker": "APRESENTADORA",
-    "text": "Também. Dados preliminares chegam mais rápido, mas podem receber registros atrasados, correções, investigação e consolidação. Em surtos, esse atraso pode aumentar porque as equipes estão atendendo, investigando, preenchendo e digitando ao mesmo tempo."
+    "text": "Comece com um verbo. Quero observar quem nasceu? Quem foi notificado? Quem recebeu atendimento? Quem foi internado? Quais procedimentos foram realizados? Quem morreu?"
   },
   {
-    "start": 418.83,
-    "end": 423.87,
+    "start": 304.165,
+    "end": 309.221,
     "speaker": "ESTUDANTE",
-    "text": "Então uma queda nos últimos dias de uma curva pode ser atraso, não melhora real."
+    "text": "O verbo força a pergunta a dizer qual acontecimento interessa."
   },
   {
-    "start": 423.87,
-    "end": 438.91,
+    "start": 309.221,
+    "end": 319.365,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Os últimos pontos de uma série recente costumam ser os mais instáveis. Por isso, em epidemias, técnicas de correção de atraso ou nowcasting podem ajudar, mas também precisam ser explicadas."
+    "text": "Exatamente. Depois, identificamos o sistema capaz de registrar esse acontecimento e verificamos cobertura, unidade, período e território."
   },
   {
-    "start": 438.91,
-    "end": 443.23,
+    "start": 319.365,
+    "end": 323.541,
     "speaker": "ESTUDANTE",
-    "text": "E um painel rápido não tem a mesma função que uma base consolidada."
+    "text": "Podemos montar um mapa rápido dos eventos e sistemas?"
   },
   {
-    "start": 443.23,
-    "end": 460.91,
+    "start": 323.541,
+    "end": 347.791,
     "speaker": "APRESENTADORA",
-    "text": "Isso. Painéis oportunos apoiam alerta, resposta rápida e gestão de risco. Bases consolidadas ajudam mais em avaliação, séries históricas e indicadores oficiais. O erro é exigir de uma fonte a função da outra."
+    "text": "Sim, apenas como orientação. Notificações costumam passar pelo SINAN. Procedimentos ambulatoriais do SUS, pelo SIA. Internações financiadas pelo SUS, pelo SIH. Óbitos, pelo SIM. Nascidos vivos, pelo SINASC. Imunizações, pelo SI-PNI."
   },
   {
-    "start": 460.91,
-    "end": 469.309,
+    "start": 347.791,
+    "end": 352.128,
     "speaker": "ESTUDANTE",
-    "text": "Vamos trazer território para a conversa. Residência, notificação, atendimento e infecção não são a mesma coisa."
+    "text": "Os capítulos seguintes vão detalhar cada um deles."
   },
   {
-    "start": 469.309,
-    "end": 486.59,
+    "start": 352.128,
+    "end": 362.341,
     "speaker": "APRESENTADORA",
-    "text": "Não são. Imagine uma pessoa que mora no Rio de Janeiro, provavelmente se infecta no Oiapoque e procura atendimento em Belém. Residência, local provável de infecção e local de notificação são territórios diferentes."
+    "text": "Isso. Aqui o objetivo não é aprender o funcionamento interno de cada sistema, mas compreender por que eventos diferentes geram números diferentes."
   },
   {
-    "start": 486.59,
-    "end": 488.83,
+    "start": 362.341,
+    "end": 363.861,
     "speaker": "ESTUDANTE",
-    "text": "Cada campo responde uma pergunta."
+    "text": "Existe diferença entre evento e registro?"
   },
   {
-    "start": 488.83,
-    "end": 507.27,
+    "start": 364.11,
+    "end": 375.39,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Residência ajuda a falar de risco para a população residente. Local provável de infecção ajuda a investigar transmissão. Notificação mostra onde o sistema tomou conhecimento. Atendimento mostra onde o cuidado aconteceu."
+    "text": "Existe. O evento acontece no mundo. O registro é a representação institucional desse acontecimento em uma ficha, declaração, autorização, formulário ou tela."
   },
   {
-    "start": 507.27,
-    "end": 510.43,
+    "start": 375.39,
+    "end": 378.27,
     "speaker": "ESTUDANTE",
-    "text": "E aí entram casos autóctones e alóctones."
+    "text": "O evento pode acontecer sem virar registro."
   },
   {
-    "start": 510.43,
-    "end": 526.27,
+    "start": 378.27,
+    "end": 389.91,
     "speaker": "APRESENTADORA",
-    "text": "Um caso autóctone provavelmente se infectou no território analisado. Um caso alóctone provavelmente se infectou em outro território. Essa distinção muda mapas, surtos e prioridade de resposta."
+    "text": "Pode. Uma pessoa pode não procurar atendimento, o serviço pode não reconhecer a situação, o preenchimento pode falhar ou o registro pode não chegar à base analisada."
   },
   {
-    "start": 526.27,
-    "end": 531.07,
+    "start": 389.91,
+    "end": 393.711,
     "speaker": "ESTUDANTE",
-    "text": "Sem isso, posso culpar um município que apenas notificou ou atendeu."
+    "text": "E o contrário? Um evento pode gerar mais de um registro?"
   },
   {
-    "start": 531.96,
-    "end": 537.241,
+    "start": 393.711,
+    "end": 407.63,
     "speaker": "APRESENTADORA",
-    "text": "Exato. Em análise espacial, o campo territorial é parte do argumento."
+    "text": "Também. O mesmo episódio pode produzir atendimento, exame, notificação e internação. Até dentro de um sistema, uma pessoa pode gerar vários procedimentos ou registros em momentos diferentes."
   },
   {
-    "start": 537.241,
-    "end": 540.92,
+    "start": 407.63,
+    "end": 412.83,
     "speaker": "ESTUDANTE",
-    "text": "Vamos voltar ao exemplo da dengue com tudo isso em mente."
+    "text": "Então pessoa, evento, episódio e registro não são sinônimos."
   },
   {
-    "start": 540.92,
-    "end": 564.12,
+    "start": 412.83,
+    "end": 427.151,
     "speaker": "APRESENTADORA",
-    "text": "Vamos. Se usamos o SINAN, vemos notificações, investigação e classificação. Se usamos o SIH, vemos internações financiadas pelo SUS, que tendem a representar uma fração mais grave. Se usamos o SIM, olhamos o desfecho fatal, com regras próprias de declaração e codificação."
+    "text": "Essa distinção é central. Uma pessoa pode viver vários eventos. Um episódio pode gerar vários registros. E registros parecidos podem representar recorrência, transferência ou duplicidade."
   },
   {
-    "start": 564.12,
-    "end": 569.32,
+    "start": 427.151,
+    "end": 429.07,
     "speaker": "ESTUDANTE",
-    "text": "Então notificações, internações e óbitos podem ter curvas diferentes."
+    "text": "Como definir episódio?"
   },
   {
-    "start": 569.32,
-    "end": 596.52,
+    "start": 429.07,
+    "end": 446.191,
     "speaker": "APRESENTADORA",
-    "text": "E devem ser lidas como curvas diferentes. Notificações respondem à transmissão, mas também à procura por atendimento, sensibilidade da vigilância e definição de caso. Internações refletem gravidade, acesso e capacidade hospitalar. Óbitos dependem da ocorrência da morte, da Declaração de Óbito, da codificação e da consolidação."
+    "text": "É um conjunto de acontecimentos relacionados em uma trajetória de cuidado ou de doença. Seus limites dependem da pergunta. Uma internação pode ser tratada como episódio; uma sequência de atendimentos próximos pode ou não fazer parte do mesmo processo."
   },
   {
-    "start": 596.52,
-    "end": 601.16,
+    "start": 446.191,
+    "end": 448.991,
     "speaker": "ESTUDANTE",
-    "text": "Comparar essas curvas é útil, mas não para decidir qual está certa."
+    "text": "O limite não vem pronto em todas as bases."
   },
   {
-    "start": 601.16,
-    "end": 606.681,
+    "start": 448.991,
+    "end": 457.271,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Elas dialogam, mas não substituem umas às outras."
+    "text": "Exatamente. Às vezes o pesquisador precisa estabelecer uma regra temporal ou clínica para aproximar episódios."
   },
   {
-    "start": 606.681,
-    "end": 611.319,
+    "start": 457.271,
+    "end": 459.391,
     "speaker": "ESTUDANTE",
-    "text": "Se notificações sobem e internações não sobem, o que posso pensar?"
+    "text": "E onde entra a unidade de análise?"
   },
   {
-    "start": 611.319,
-    "end": 628.44,
+    "start": 459.391,
+    "end": 470.911,
     "speaker": "APRESENTADORA",
-    "text": "Pode ser aumento de casos leves, melhor captação ambulatorial, mudança na definição de caso, atraso até aparecerem internações ou diferença de território. O dado abre hipóteses; ele não entrega a explicação pronta."
+    "text": "Ela diz o que cada linha ou contagem representa: uma pessoa, uma ficha, uma autorização, um procedimento, um óbito ou outro tipo de registro."
   },
   {
-    "start": 628.44,
-    "end": 632.12,
+    "start": 470.911,
+    "end": 475.15,
     "speaker": "ESTUDANTE",
-    "text": "E se internações sobem sem aumento de notificações?"
+    "text": "Antes de contar linhas, eu preciso perguntar qual é a identidade da linha."
   },
   {
-    "start": 632.12,
-    "end": 650.92,
+    "start": 475.15,
+    "end": 483.071,
     "speaker": "APRESENTADORA",
-    "text": "Eu investigaria subnotificação, atraso no SINAN, seleção de códigos diagnósticos, mudança na rede hospitalar ou diferença entre município de residência e de internação. Também checaria se as bases cobrem o mesmo período e a mesma população."
+    "text": "Perfeito. Sem essa resposta, uma frequência pode ser matematicamente correta e conceitualmente inútil."
   },
   {
-    "start": 650.92,
-    "end": 653.68,
+    "start": 483.32,
+    "end": 488.36,
     "speaker": "ESTUDANTE",
-    "text": "Isso deixa a conclusão mais humilde."
+    "text": "Vamos falar de duplicidade. Dois registros iguais devem ser removidos?"
   },
   {
-    "start": 653.68,
-    "end": 660.84,
+    "start": 488.36,
+    "end": 500.68,
     "speaker": "APRESENTADORA",
-    "text": "Mais humilde e mais forte. A boa análise não força compatibilidade onde ela não existe."
+    "text": "Não automaticamente. Eles podem ser cópias indevidas, mas também podem representar dois atendimentos, duas doses, reinternação, transferência ou novo episódio."
   },
   {
-    "start": 661.09,
-    "end": 664.01,
+    "start": 500.68,
+    "end": 507,
     "speaker": "ESTUDANTE",
-    "text": "O capítulo usa também acidente de trânsito como exemplo."
+    "text": "Deduplicar é uma decisão sobre o significado dos registros, não apenas uma limpeza técnica."
   },
   {
-    "start": 664.01,
-    "end": 678.61,
+    "start": 507,
+    "end": 514.679,
     "speaker": "APRESENTADORA",
-    "text": "Sim, porque a lógica de eventos não vale só para doença infecciosa. Um acidente pode gerar atendimento ambulatorial, internação por lesão, óbito por causa externa e uso de serviços específicos."
+    "text": "Isso. A regra deve considerar sistema, evento, intervalo de tempo e objetivo da análise."
   },
   {
-    "start": 678.61,
-    "end": 687.41,
+    "start": 514.679,
+    "end": 518.359,
     "speaker": "ESTUDANTE",
-    "text": "No SIA, eu posso ver procedimentos. No SIH, internações. No SIM, mortalidade. No CNES, estrutura de serviços."
+    "text": "O que acontece se eu remover recorrências verdadeiras?"
   },
   {
-    "start": 687.41,
-    "end": 703.89,
+    "start": 518.359,
+    "end": 532.359,
     "speaker": "APRESENTADORA",
-    "text": "Isso. Um estudo sobre mortalidade no trânsito não responde automaticamente sobre volume de atendimentos de urgência. Um estudo sobre internações não mede todos os acidentes ocorridos. Cada fonte ilumina uma dimensão."
+    "text": "Você pode subestimar uso de serviços ou repetição do evento. Se mantiver duplicidades indevidas, pode inflar a contagem. Por isso, a regra e seus efeitos precisam ser documentados."
   },
   {
-    "start": 703.89,
-    "end": 708.61,
+    "start": 532.359,
+    "end": 535.319,
     "speaker": "ESTUDANTE",
-    "text": "E em causas externas tem a diferença entre lesão e circunstância."
+    "text": "E como escolher o intervalo que separa dois episódios?"
   },
   {
-    "start": 708.61,
-    "end": 726.77,
+    "start": 535.319,
+    "end": 544.76,
     "speaker": "APRESENTADORA",
-    "text": "Sim. A lesão descreve o dano físico: fratura, traumatismo, queimadura. A causa externa descreve a circunstância: atropelamento, colisão, queda, agressão. Para prevenção, essa diferença é decisiva."
+    "text": "Não existe um intervalo universal. Ele pode depender da doença, do tratamento, do tipo de serviço e da finalidade do estudo."
   },
   {
-    "start": 726.77,
-    "end": 732.61,
+    "start": 544.76,
+    "end": 553,
     "speaker": "ESTUDANTE",
-    "text": "Saber que houve fratura é importante, mas não diz sozinho como evitar o próximo acidente."
+    "text": "Dois atendimentos no mesmo dia podem integrar um episódio; dois atendimentos meses depois podem representar recorrência."
   },
   {
-    "start": 732.61,
-    "end": 737.65,
+    "start": 553,
+    "end": 565.16,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. A prevenção depende de entender a circunstância."
+    "text": "Talvez. Mas até essa interpretação precisa de contexto. Uma transferência entre serviços pode gerar registros próximos sem representar um novo adoecimento."
   },
   {
-    "start": 737.65,
-    "end": 741.01,
+    "start": 565.16,
+    "end": 568.841,
     "speaker": "ESTUDANTE",
-    "text": "Vamos entrar nos casos de doenças e agravos."
+    "text": "Então a janela temporal funciona como uma definição operacional."
   },
   {
-    "start": 741.01,
-    "end": 753.41,
+    "start": 568.841,
+    "end": 581.001,
     "speaker": "APRESENTADORA",
-    "text": "No Brasil, muitos agravos seguem regras de notificação. O SINAN é central nesse processo, mas é importante lembrar: uma ficha pode começar com uma suspeita."
+    "text": "Sim. Ela diz quando registros serão agrupados e quando serão tratados como eventos separados. Pequenas mudanças nessa janela podem alterar o resultado."
   },
   {
-    "start": 753.41,
-    "end": 756.37,
+    "start": 581.001,
+    "end": 590.201,
     "speaker": "ESTUDANTE",
-    "text": "Notificação não é confirmação."
+    "text": "Uma análise de pessoas únicas, episódios e volume de atendimentos pode usar os mesmos registros e produzir três medidas legítimas."
   },
   {
-    "start": 756.37,
-    "end": 774.53,
+    "start": 590.201,
+    "end": 601.241,
     "speaker": "APRESENTADORA",
-    "text": "Essa frase precisa acompanhar qualquer análise do SINAN. Depois da investigação, o caso pode ser confirmado, descartado, inconclusivo ou permanecer em acompanhamento. A análise precisa dizer o que está contando."
+    "text": "Exatamente. Elas respondem a perguntas diferentes: quantas pessoas apareceram, quantos episódios ocorreram e quanto trabalho o serviço realizou."
   },
   {
-    "start": 774.53,
-    "end": 779.01,
+    "start": 601.241,
+    "end": 603.802,
     "speaker": "ESTUDANTE",
-    "text": "Suspeitos? Confirmados? Prováveis? Descartados?"
+    "text": "A escolha precisa aparecer no nome da medida."
   },
   {
-    "start": 779.26,
-    "end": 798.3,
+    "start": 607.73,
+    "end": 616.05,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Em resposta rápida, contar prováveis ou suspeitos pode ser adequado. Em análise retrospectiva, talvez a classificação final seja melhor. Em gestão do serviço, o volume de suspeitas também pode ser relevante porque mede demanda e sensibilidade da vigilância."
+    "text": "Perfeito. “Pessoas”, “episódios” e “registros” não devem ser trocados apenas para deixar o texto mais fluido."
   },
   {
-    "start": 798.3,
-    "end": 800.54,
+    "start": 616.05,
+    "end": 622.21,
     "speaker": "ESTUDANTE",
-    "text": "A pergunta define o recorte."
+    "text": "Já entendemos o que está sendo contado. Agora precisamos saber quando aconteceu?"
   },
   {
-    "start": 800.54,
-    "end": 807.42,
+    "start": 622.21,
+    "end": 626.13,
     "speaker": "APRESENTADORA",
-    "text": "Sempre. E o momento de extração também importa, porque classificações podem mudar."
+    "text": "Sim. Todo evento percorre vários relógios."
   },
   {
-    "start": 807.42,
-    "end": 811.26,
+    "start": 626.13,
+    "end": 627.89,
     "speaker": "ESTUDANTE",
-    "text": "O SINAN traz vários campos territoriais e temporais, certo?"
+    "text": "Vários relógios?"
   },
   {
-    "start": 811.26,
-    "end": 832.859,
+    "start": 627.89,
+    "end": 643.17,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Pode trazer dados da pessoa, residência, município de notificação, local provável de infecção, datas de sintomas, notificação, investigação, digitação, critério de confirmação, classificação final e evolução. Cada campo tem uma função."
+    "text": "Há o momento da ocorrência, o momento em que o serviço toma conhecimento, o registro inicial, a investigação, a digitação, o envio, a consolidação e a disseminação."
   },
   {
-    "start": 832.859,
-    "end": 837.98,
+    "start": 643.17,
+    "end": 646.29,
     "speaker": "ESTUDANTE",
-    "text": "O erro é tratar a ficha como se tudo tivesse o mesmo significado e a mesma maturidade."
+    "text": "Cada etapa pode produzir uma data diferente."
   },
   {
-    "start": 837.98,
-    "end": 839.5,
+    "start": 646.29,
+    "end": 660.45,
     "speaker": "APRESENTADORA",
-    "text": "Perfeito."
+    "text": "Exatamente. Início de sintomas, atendimento, notificação, internação, óbito, digitação e disponibilização respondem a perguntas distintas."
   },
   {
-    "start": 839.5,
-    "end": 843.58,
+    "start": 660.45,
+    "end": 662.61,
     "speaker": "ESTUDANTE",
-    "text": "Vamos falar do SIA. O que é um evento ambulatorial nesse contexto?"
+    "text": "Qual delas é a verdadeira?"
   },
   {
-    "start": 843.58,
-    "end": 862.06,
+    "start": 662.61,
+    "end": 671.809,
     "speaker": "APRESENTADORA",
-    "text": "Procedimentos ambulatoriais incluem consultas, exames, terapias, atendimentos especializados, ações de diagnóstico e outros procedimentos realizados sem internação. No SIA, a unidade costuma ser o procedimento ou instrumento de produção."
+    "text": "Todas podem ser verdadeiras dentro de sua função. A questão é escolher a data que melhor representa o processo que queremos analisar."
   },
   {
-    "start": 862.06,
-    "end": 865.019,
+    "start": 671.809,
+    "end": 682.13,
     "speaker": "ESTUDANTE",
-    "text": "Então ele é muito útil para oferta e produção."
+    "text": "Para uma curva clínica, início de sintomas pode ser mais adequado. Para avaliar a velocidade da vigilância, notificação e digitação ganham importância."
   },
   {
-    "start": 865.019,
-    "end": 879.9,
+    "start": 682.13,
+    "end": 691.729,
     "speaker": "APRESENTADORA",
-    "text": "Muito. Permite observar onde procedimentos são realizados, quais estabelecimentos produzem determinado cuidado, como a produção varia no tempo e como políticas alteram acesso a exames e terapias."
+    "text": "Perfeito. Já para uso hospitalar, a data de internação pode ser central. Não existe uma data universalmente superior."
   },
   {
-    "start": 879.9,
-    "end": 883.821,
+    "start": 691.729,
+    "end": 694.45,
     "speaker": "ESTUDANTE",
-    "text": "Mas maior produção não significa automaticamente maior doença."
+    "text": "O atraso surge da distância entre esses relógios?"
   },
   {
-    "start": 883.821,
-    "end": 899.981,
+    "start": 694.45,
+    "end": 709.01,
     "speaker": "APRESENTADORA",
-    "text": "Exato. Pode indicar maior necessidade, maior oferta, melhor registro, mudança de financiamento, campanha específica ou expansão de acesso. O número de procedimentos precisa ser lido com contexto."
+    "text": "Sim. Atraso de notificação, de digitação ou de disseminação é o intervalo entre etapas. Ele pode variar por território, período, serviço e intensidade da demanda."
   },
   {
-    "start": 899.981,
-    "end": 902.301,
+    "start": 709.01,
+    "end": 714.29,
     "speaker": "ESTUDANTE",
-    "text": "Internações têm lógica parecida?"
+    "text": "Em uma emergência, as equipes podem priorizar atendimento e registrar depois."
   },
   {
-    "start": 903.67,
-    "end": 924.63,
+    "start": 714.29,
+    "end": 721.25,
     "speaker": "APRESENTADORA",
-    "text": "Têm uma mistura de cuidado e administração. No SIH, a AIH organiza a informação da internação e tem finalidade assistencial e administrativa. Ela ajuda a estudar gravidade, uso da rede, tempo de permanência, procedimentos e deslocamentos."
+    "text": "Isso. Por essa razão, os dias mais recentes de uma curva costumam ser os mais incompletos."
   },
   {
-    "start": 924.63,
-    "end": 930.629,
+    "start": 721.25,
+    "end": 725.009,
     "speaker": "ESTUDANTE",
-    "text": "Mas o SIH registra internações financiadas pelo SUS, não todas as internações do país."
+    "text": "Uma queda no final da série pode ser apenas atraso?"
   },
   {
-    "start": 930.629,
-    "end": 939.99,
+    "start": 725.009,
+    "end": 735.53,
     "speaker": "APRESENTADORA",
-    "text": "Isso precisa ficar claro. Perguntas sobre toda a rede hospitalar brasileira exigem outras fontes ou limitações explícitas."
+    "text": "Pode. Antes de interpretar como melhora, precisamos verificar oportunidade, data de extração e comportamento histórico dos atrasos."
   },
   {
-    "start": 939.99,
-    "end": 943.59,
+    "start": 735.53,
+    "end": 738.37,
     "speaker": "ESTUDANTE",
-    "text": "No SIM, o evento é o óbito. Parece mais direto."
+    "text": "E quando os registros atrasados chegam?"
   },
   {
-    "start": 943.59,
-    "end": 962.071,
+    "start": 739.5,
+    "end": 747.74,
     "speaker": "APRESENTADORA",
-    "text": "É mais delimitado, mas ainda complexo. O óbito tem município de residência, município de ocorrência, idade, sexo, raça ou cor e causa de morte. A causa básica é a condição que iniciou a cadeia que levou à morte."
+    "text": "A série preliminar pode mudar. Classificações também podem ser revistas após investigação, correção ou consolidação."
   },
   {
-    "start": 962.071,
-    "end": 967.27,
+    "start": 747.74,
+    "end": 751.18,
     "speaker": "ESTUDANTE",
-    "text": "Então \"parada cardiorrespiratória\" não costuma ser uma explicação suficiente."
+    "text": "O dado recente troca estabilidade por rapidez."
   },
   {
-    "start": 967.27,
-    "end": 982.951,
+    "start": 751.18,
+    "end": 761.74,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. Ela descreve um mecanismo final, mas a análise precisa da causa que iniciou a cadeia. Em causas externas, a circunstância também importa: queda, atropelamento, agressão, colisão."
+    "text": "Essa é uma boa síntese. Para resposta rápida, aceitamos mais incerteza. Para avaliação retrospectiva, esperamos uma versão mais consolidada."
   },
   {
-    "start": 982.951,
-    "end": 985.591,
+    "start": 761.74,
+    "end": 764.62,
     "speaker": "ESTUDANTE",
-    "text": "Nascimentos entram pelo SINASC."
+    "text": "O ciclo termina quando o dado é publicado?"
   },
   {
-    "start": 985.591,
-    "end": 1005.111,
+    "start": 764.62,
+    "end": 776.46,
     "speaker": "APRESENTADORA",
-    "text": "Sim. O SINASC registra nascidos vivos a partir da Declaração de Nascido Vivo. Ele permite analisar peso ao nascer, idade gestacional, tipo de parto, características da pessoa gestante, local de ocorrência e outros elementos materno-infantis."
+    "text": "Termina uma etapa, não necessariamente a história. Arquivos podem receber atualizações retroativas, e novas versões podem corrigir registros anteriores."
   },
   {
-    "start": 1005.111,
-    "end": 1007.43,
+    "start": 776.46,
+    "end": 780.461,
     "speaker": "ESTUDANTE",
-    "text": "E também serve como denominador."
+    "text": "Por isso data de extração e versão fazem parte do método."
   },
   {
-    "start": 1007.43,
-    "end": 1021.471,
+    "start": 780.461,
+    "end": 787.701,
     "speaker": "APRESENTADORA",
-    "text": "Isso é central. Muitos indicadores usam nascidos vivos como denominador. Mortalidade infantil, por exemplo, combina óbitos de menores de um ano no SIM com nascidos vivos no SINASC."
+    "text": "Exatamente. Sem elas, outra pessoa pode repetir o código e encontrar um resultado diferente."
   },
   {
-    "start": 1021.471,
-    "end": 1023.991,
+    "start": 787.701,
+    "end": 790.381,
     "speaker": "ESTUDANTE",
-    "text": "E óbito fetal não entra do mesmo jeito."
+    "text": "Depois do tempo, vem o espaço?"
   },
   {
-    "start": 1024.64,
-    "end": 1045.04,
+    "start": 790.381,
+    "end": 795.902,
     "speaker": "APRESENTADORA",
-    "text": "Não. Se houve sinal de vida, há nascimento vivo e, se a criança morre depois, óbito infantil. Se não houve sinal de vida, é óbito fetal. Essa diferença muda numerador, denominador e interpretação da atenção ao pré-natal, parto e recém-nascido."
+    "text": "Sim. Um evento também pode deixar vários rastros territoriais."
   },
   {
-    "start": 1045.04,
-    "end": 1048.399,
+    "start": 795.902,
+    "end": 797.901,
     "speaker": "ESTUDANTE",
-    "text": "Vacinação também exige separar níveis."
+    "text": "Quais são os principais?"
   },
   {
-    "start": 1048.399,
-    "end": 1065.04,
+    "start": 797.901,
+    "end": 808.461,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Uma dose aplicada é um evento. Uma pessoa vacinada é uma unidade individual. Um esquema completo combina doses esperadas. Cobertura vacinal é uma razão entre registros e população-alvo."
+    "text": "Residência, ocorrência, atendimento, notificação, localização do estabelecimento e, quando aplicável, local provável de infecção."
   },
   {
-    "start": 1065.04,
-    "end": 1069.36,
+    "start": 808.461,
+    "end": 814.222,
     "speaker": "ESTUDANTE",
-    "text": "Misturar dose aplicada com pessoa protegida pode gerar erro."
+    "text": "Uma pessoa pode morar em um município, adoecer em outro e receber atendimento em um terceiro."
   },
   {
-    "start": 1069.36,
-    "end": 1093.56,
+    "start": 814.222,
+    "end": 820.222,
     "speaker": "APRESENTADORA",
-    "text": "Pode, especialmente em vacinas com múltiplas doses, reforços e campanhas. Uma cobertura acima de cem por cento, por exemplo, não significa automaticamente sucesso perfeito. Pode refletir denominador inadequado, população flutuante, duplicidade, vacinação de pessoas fora do recorte ou erro de registro."
+    "text": "Exatamente. Se misturamos esses campos, podemos deslocar o fenômeno no mapa."
   },
   {
-    "start": 1093.56,
-    "end": 1096.96,
+    "start": 820.222,
+    "end": 823.101,
     "speaker": "ESTUDANTE",
-    "text": "Então denominador não é detalhe matemático."
+    "text": "Que pergunta a residência costuma responder?"
   },
   {
-    "start": 1096.96,
-    "end": 1110.52,
+    "start": 823.101,
+    "end": 832.061,
     "speaker": "APRESENTADORA",
-    "text": "Não. Denominador é parte da pergunta. Indicadores precisam de numerador, denominador, período, território, população de referência e regra de inclusão."
+    "text": "Onde vive a população relacionada ao evento. É frequentemente usada para estudar risco e necessidades dos moradores."
   },
   {
-    "start": 1110.52,
-    "end": 1117.92,
+    "start": 832.061,
+    "end": 834.141,
     "speaker": "ESTUDANTE",
-    "text": "Óbitos de residentes com população residente. Óbitos infantis com nascidos vivos do mesmo recorte."
+    "text": "E o local de atendimento?"
   },
   {
-    "start": 1117.92,
-    "end": 1139.681,
+    "start": 834.141,
+    "end": 843.182,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. E procedimentos realizados em um município não devem ser automaticamente divididos pela população residente se o serviço atende pessoas de outros municípios. Para carga da rede, local de atendimento pode ser adequado. Para risco populacional, residência costuma fazer mais sentido."
+    "text": "Mostra onde o cuidado foi prestado. Pode revelar fluxos, concentração de serviços e deslocamentos entre municípios."
   },
   {
-    "start": 1139.681,
-    "end": 1144.961,
+    "start": 843.182,
+    "end": 846.863,
     "speaker": "ESTUDANTE",
-    "text": "Vamos detalhar mortalidade infantil como exemplo de indicador combinado."
+    "text": "Notificação é onde o sistema tomou conhecimento."
   },
   {
-    "start": 1144.961,
-    "end": 1160.401,
+    "start": 846.863,
+    "end": 856.623,
     "speaker": "APRESENTADORA",
-    "text": "O numerador são óbitos em menores de um ano no SIM. O denominador são nascidos vivos no SINASC. O indicador só faz sentido se os eventos estiverem compatíveis em território e período."
+    "text": "Isso. E local provável de infecção tenta aproximar o território da transmissão, quando essa informação faz sentido e está disponível."
   },
   {
-    "start": 1160.65,
-    "end": 1164.01,
+    "start": 856.87,
+    "end": 863.19,
     "speaker": "ESTUDANTE",
-    "text": "Então até indicador clássico é uma costura entre sistemas."
+    "text": "Um município pode notificar muitos casos porque atende uma região inteira, não porque toda a transmissão ocorreu ali."
   },
   {
-    "start": 1164.01,
-    "end": 1168.01,
+    "start": 863.19,
+    "end": 869.03,
     "speaker": "APRESENTADORA",
-    "text": "Sim. E essa costura precisa aparecer no método."
+    "text": "Perfeito. O mapa precisa declarar qual rastro territorial está representando."
   },
   {
-    "start": 1168.01,
-    "end": 1170.41,
+    "start": 869.03,
+    "end": 871.511,
     "speaker": "ESTUDANTE",
-    "text": "E letalidade entre notificados?"
+    "text": "E os termos autóctone e alóctone?"
   },
   {
-    "start": 1170.41,
-    "end": 1192.73,
+    "start": 871.511,
+    "end": 881.91,
     "speaker": "APRESENTADORA",
-    "text": "Também exige cuidado. O numerador pode ser óbitos entre casos notificados ou confirmados. O denominador pode ser casos notificados, prováveis ou confirmados. Cada escolha muda a medida. Se misturo suspeitos no denominador com óbitos confirmados no numerador, posso distorcer a interpretação."
+    "text": "Em linhas gerais, um evento autóctone tem provável origem no território analisado. Um evento alóctone provavelmente se originou em outro território."
   },
   {
-    "start": 1192.73,
-    "end": 1196.09,
+    "start": 881.91,
+    "end": 887.191,
     "speaker": "ESTUDANTE",
-    "text": "A fórmula parece simples, mas o conceito não é."
+    "text": "Essa distinção é útil para vigilância, mas depende da qualidade da investigação."
   },
   {
-    "start": 1196.09,
-    "end": 1197.65,
+    "start": 887.191,
+    "end": 895.43,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O campo não deve ser tratado como certeza absoluta quando a informação é incompleta ou provável."
+  },
+  {
+    "start": 895.43,
+    "end": 899.191,
+    "speaker": "ESTUDANTE",
+    "text": "A mobilidade pode complicar ainda mais a leitura territorial?"
+  },
+  {
+    "start": 899.191,
+    "end": 911.511,
+    "speaker": "APRESENTADORA",
+    "text": "Muito. Pessoas cruzam fronteiras municipais para trabalhar, estudar e buscar cuidado. Serviços de referência concentram eventos de moradores de uma região inteira."
+  },
+  {
+    "start": 911.511,
+    "end": 919.831,
+    "speaker": "ESTUDANTE",
+    "text": "Um mapa por atendimento pode mostrar a organização da rede; um mapa por residência pode mostrar a distribuição dos usuários."
+  },
+  {
+    "start": 919.831,
+    "end": 928.471,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Nenhum é automaticamente mais verdadeiro. Eles descrevem dimensões espaciais diferentes."
+  },
+  {
+    "start": 928.471,
+    "end": 930.791,
+    "speaker": "ESTUDANTE",
+    "text": "E quando o denominador é municipal?"
+  },
+  {
+    "start": 930.791,
+    "end": 944.311,
+    "speaker": "APRESENTADORA",
+    "text": "Precisamos verificar se o numerador pertence àquela população. Dividir atendimentos realizados em um polo regional pela população do polo pode produzir uma taxa difícil de interpretar."
+  },
+  {
+    "start": 944.311,
+    "end": 948.791,
+    "speaker": "ESTUDANTE",
+    "text": "O território do evento e o território da população precisam conversar."
+  },
+  {
+    "start": 948.791,
+    "end": 955.991,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Essa compatibilidade será decisiva quando transformarmos contagens em indicadores."
+  },
+  {
+    "start": 955.991,
+    "end": 963.751,
+    "speaker": "ESTUDANTE",
+    "text": "Já temos evento, registro, pessoa, tempo e território. Como isso explica os três números do início?"
+  },
+  {
+    "start": 964.56,
+    "end": 978.32,
+    "speaker": "APRESENTADORA",
+    "text": "Pense na trajetória de um problema que pode gerar suspeitas, atendimentos, internações e óbitos. Esses eventos ocupam posições diferentes no percurso e têm mecanismos distintos de seleção."
+  },
+  {
+    "start": 978.32,
+    "end": 987.52,
+    "speaker": "ESTUDANTE",
+    "text": "Nem toda pessoa com sintomas procura atendimento. Nem todo atendimento gera notificação. Nem toda notificação leva a internação."
+  },
+  {
+    "start": 987.52,
+    "end": 997.92,
+    "speaker": "APRESENTADORA",
+    "text": "E nem toda internação evolui para óbito. Cada etapa representa um subconjunto, embora as relações não sejam sempre lineares."
+  },
+  {
+    "start": 997.92,
+    "end": 1000.239,
+    "speaker": "ESTUDANTE",
+    "text": "Podemos imaginar uma pirâmide?"
+  },
+  {
+    "start": 1000.239,
+    "end": 1014.48,
+    "speaker": "APRESENTADORA",
+    "text": "Como metáfora, sim. Eventos frequentes e menos graves podem formar a base. Internações ocupam uma faixa menor. Óbitos são mais raros e estão no extremo dos desfechos."
+  },
+  {
+    "start": 1014.48,
+    "end": 1019.76,
+    "speaker": "ESTUDANTE",
+    "text": "Mas a pirâmide observada depende também da capacidade de registrar cada camada."
+  },
+  {
+    "start": 1019.76,
+    "end": 1031.76,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Mudança na vigilância, no acesso ou na oferta de serviços altera o que conseguimos enxergar, mesmo sem uma mudança proporcional no fenômeno."
+  },
+  {
+    "start": 1031.76,
+    "end": 1038.399,
+    "speaker": "ESTUDANTE",
+    "text": "Uma alta de notificações pode refletir aumento de ocorrência, melhora de detecção ou os dois."
+  },
+  {
+    "start": 1038.399,
+    "end": 1053.84,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Uma alta de internações pode envolver gravidade, acesso, disponibilidade de leitos, critérios de admissão ou codificação. Um número abre hipóteses; não entrega sozinho a explicação."
+  },
+  {
+    "start": 1053.84,
+    "end": 1056.4,
+    "speaker": "ESTUDANTE",
+    "text": "Então comparar curvas é útil?"
+  },
+  {
+    "start": 1056.4,
+    "end": 1069.199,
+    "speaker": "APRESENTADORA",
+    "text": "Muito, desde que preservemos suas diferenças. Curvas de notificações, internações e óbitos podem mostrar momentos e intensidades distintas da trajetória."
+  },
+  {
+    "start": 1069.199,
+    "end": 1074.8,
+    "speaker": "ESTUDANTE",
+    "text": "O objetivo não é descobrir qual curva está certa, mas entender o que cada uma mede."
+  },
+  {
+    "start": 1074.8,
+    "end": 1082.24,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Concordância e divergência se tornam achados a investigar, não erros automáticos."
+  },
+  {
+    "start": 1082.24,
+    "end": 1085.44,
+    "speaker": "ESTUDANTE",
+    "text": "Pode dar um exemplo de divergência informativa?"
+  },
+  {
+    "start": 1085.69,
+    "end": 1097.85,
+    "speaker": "APRESENTADORA",
+    "text": "Se notificações aumentam e internações permanecem estáveis, podemos considerar casos menos graves, ampliação da detecção, mudança na procura por cuidado ou diferença de atraso."
+  },
+  {
+    "start": 1097.85,
+    "end": 1101.69,
+    "speaker": "ESTUDANTE",
+    "text": "E se internações sobem sem aumento nas notificações?"
+  },
+  {
+    "start": 1101.69,
+    "end": 1115.69,
+    "speaker": "APRESENTADORA",
+    "text": "Vale investigar atraso, subnotificação, mudança diagnóstica, cobertura das bases, território e perfil de gravidade. Nenhuma hipótese deve ser escolhida apenas pela forma da curva."
+  },
+  {
+    "start": 1115.69,
+    "end": 1119.53,
+    "speaker": "ESTUDANTE",
+    "text": "A interpretação exige contexto externo aos números."
+  },
+  {
+    "start": 1119.53,
+    "end": 1129.01,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Normas, organização dos serviços, mudanças de sistema e acontecimentos locais ajudam a explicar os registros."
+  },
+  {
+    "start": 1129.01,
+    "end": 1133.05,
+    "speaker": "ESTUDANTE",
+    "text": "Os eventos podem ser usados diretamente como indicadores?"
+  },
+  {
+    "start": 1133.05,
+    "end": 1140.01,
+    "speaker": "APRESENTADORA",
+    "text": "Uma contagem já é uma medida, mas muitas perguntas exigem relacioná-la a um denominador."
+  },
+  {
+    "start": 1140.01,
+    "end": 1141.61,
+    "speaker": "ESTUDANTE",
+    "text": "O que o denominador faz?"
+  },
+  {
+    "start": 1141.61,
+    "end": 1153.77,
+    "speaker": "APRESENTADORA",
+    "text": "Define a base de comparação: população residente, nascidos vivos, pessoas acompanhadas, casos confirmados, internações ou outro conjunto coerente."
+  },
+  {
+    "start": 1153.77,
+    "end": 1159.843,
+    "speaker": "ESTUDANTE",
+    "text": "O mesmo numerador pode produzir interpretações diferentes com denominadores diferentes."
+  },
+  {
+    "start": 1159.843,
+    "end": 1168.517,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Cem eventos em uma população de dez mil têm significado diferente de cem em uma população de um milhão."
+  },
+  {
+    "start": 1168.517,
+    "end": 1172.721,
+    "speaker": "ESTUDANTE",
+    "text": "E o numerador e o denominador podem vir de sistemas distintos?"
+  },
+  {
+    "start": 1172.721,
+    "end": 1182.93,
+    "speaker": "APRESENTADORA",
+    "text": "Frequentemente. Mortalidade infantil, por exemplo, relaciona óbitos de menores de um ano registrados no SIM a nascidos vivos do SINASC."
+  },
+  {
+    "start": 1182.93,
+    "end": 1186.57,
+    "speaker": "ESTUDANTE",
+    "text": "A coerência precisa ser temporal e territorial."
+  },
+  {
+    "start": 1186.57,
+    "end": 1198.15,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Eventos de residentes devem dialogar com a população residente do mesmo recorte. Períodos e critérios de inclusão também precisam ser compatíveis."
+  },
+  {
+    "start": 1198.15,
+    "end": 1206.17,
+    "speaker": "ESTUDANTE",
+    "text": "O que acontece quando uso produção por local de atendimento e divido pela população residente daquele município?"
+  },
+  {
+    "start": 1206.42,
+    "end": 1216.02,
+    "speaker": "APRESENTADORA",
+    "text": "O indicador pode refletir fluxo regional, não apenas utilização dos moradores. Isso pode ser exatamente o interesse, mas precisa ser declarado."
+  },
+  {
+    "start": 1216.02,
+    "end": 1221.86,
+    "speaker": "ESTUDANTE",
+    "text": "Não existe denominador automático. Existe denominador coerente com a pergunta."
+  },
+  {
+    "start": 1221.86,
+    "end": 1223.86,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a regra."
+  },
+  {
+    "start": 1223.86,
+    "end": 1228.179,
+    "speaker": "ESTUDANTE",
+    "text": "Além de taxas, podemos calcular proporções e letalidade?"
+  },
+  {
+    "start": 1228.179,
+    "end": 1240.98,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, mas o conjunto comparado deve ser claro. Em uma medida de letalidade, por exemplo, precisamos definir quais casos entram no denominador e quais óbitos entram no numerador."
+  },
+  {
+    "start": 1240.98,
+    "end": 1247.859,
+    "speaker": "ESTUDANTE",
+    "text": "Misturar casos suspeitos no denominador com óbitos confirmados no numerador pode distorcer a medida."
+  },
+  {
+    "start": 1247.859,
+    "end": 1254.1,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A fórmula pode ser simples, mas as definições exigem cuidado."
+  },
+  {
+    "start": 1254.1,
+    "end": 1258.42,
+    "speaker": "ESTUDANTE",
+    "text": "Um indicador é uma construção conceitual feita com eventos."
+  },
+  {
+    "start": 1258.42,
+    "end": 1267.22,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Numerador, denominador, período, território e regras de inclusão precisam viajar juntos."
+  },
+  {
+    "start": 1267.22,
+    "end": 1270.981,
+    "speaker": "ESTUDANTE",
+    "text": "Uma taxa calculada com poucos eventos merece algum cuidado especial?"
+  },
+  {
+    "start": 1270.981,
+    "end": 1283.381,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Eventos raros ou populações pequenas podem produzir taxas muito instáveis. Uma diferença de poucos registros gera grandes oscilações percentuais."
+  },
+  {
+    "start": 1283.381,
+    "end": 1288.341,
+    "speaker": "ESTUDANTE",
+    "text": "Um mapa pode destacar um município apenas porque o denominador é pequeno."
+  },
+  {
+    "start": 1288.341,
+    "end": 1299.94,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. É importante observar contagem e taxa juntas, considerar períodos maiores ou usar métodos adequados de estabilização quando fizer sentido."
+  },
+  {
+    "start": 1299.94,
+    "end": 1301.622,
+    "speaker": "ESTUDANTE",
+    "text": "E um valor zero?"
+  },
+  {
+    "start": 1301.622,
+    "end": 1313.621,
+    "speaker": "APRESENTADORA",
+    "text": "Zero pode significar ausência observada, mas também atraso, subregistro ou falta de capacidade de detecção. O contexto volta a ser indispensável."
+  },
+  {
+    "start": 1313.621,
+    "end": 1319.38,
+    "speaker": "ESTUDANTE",
+    "text": "Até a incerteza da medida nasce da relação entre evento, registro e população."
+  },
+  {
+    "start": 1319.38,
+    "end": 1325.621,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Indicadores resumem, mas não eliminam as condições que produziram os dados."
+  },
+  {
+    "start": 1325.621,
+    "end": 1330.341,
+    "speaker": "ESTUDANTE",
+    "text": "Em que momento precisamos relacionar registros de sistemas diferentes?"
+  },
+  {
+    "start": 1331.31,
+    "end": 1345.63,
+    "speaker": "APRESENTADORA",
+    "text": "Quando a pergunta quer acompanhar etapas de uma trajetória ou ligar evento e desfecho. Podemos relacionar nascimento e óbito infantil, notificação e internação, ou atendimento e estrutura do serviço."
+  },
+  {
+    "start": 1345.63,
+    "end": 1348.111,
+    "speaker": "ESTUDANTE",
+    "text": "Relacionar é o mesmo que somar as bases?"
+  },
+  {
+    "start": 1348.111,
+    "end": 1359.63,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Somar registros diferentes pode produzir uma contagem sem significado. Relacionar busca reconhecer vínculos preservando a identidade de cada evento."
+  },
+  {
+    "start": 1359.63,
+    "end": 1367.071,
+    "speaker": "ESTUDANTE",
+    "text": "Um nascimento continua sendo nascimento; uma internação continua sendo internação; um óbito continua sendo óbito."
+  },
+  {
+    "start": 1367.071,
+    "end": 1374.191,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A integração amplia a trajetória observável, mas não apaga diferenças conceituais."
+  },
+  {
+    "start": 1374.191,
+    "end": 1376.91,
+    "speaker": "ESTUDANTE",
+    "text": "Como os registros podem ser relacionados?"
+  },
+  {
+    "start": 1376.91,
+    "end": 1390.711,
+    "speaker": "APRESENTADORA",
+    "text": "Quando existem identificadores adequados, o relacionamento pode ser mais direto. Em outros casos, combina campos como datas, território e características da pessoa, com diferentes graus de incerteza."
+  },
+  {
+    "start": 1390.711,
+    "end": 1392.591,
+    "speaker": "ESTUDANTE",
+    "text": "O que precisamos documentar?"
+  },
+  {
+    "start": 1392.591,
+    "end": 1402.911,
+    "speaker": "APRESENTADORA",
+    "text": "Chaves utilizadas, regras de comparação, duplicidades, perdas, qualidade dos campos e proporção de registros relacionados."
+  },
+  {
+    "start": 1402.911,
+    "end": 1406.83,
+    "speaker": "ESTUDANTE",
+    "text": "Os registros não relacionados também podem revelar alguma coisa."
+  },
+  {
+    "start": 1406.83,
+    "end": 1420.99,
+    "speaker": "APRESENTADORA",
+    "text": "Podem indicar preenchimento incompleto, diferenças de fluxo, subregistro ou limites do método. Precisamos observar se as perdas se concentram em determinados períodos, territórios ou grupos."
+  },
+  {
+    "start": 1420.99,
+    "end": 1422.031,
+    "speaker": "ESTUDANTE",
+    "text": "E a privacidade?"
+  },
+  {
+    "start": 1422.031,
+    "end": 1438.351,
+    "speaker": "APRESENTADORA",
+    "text": "É indispensável. Relacionar eventos de uma mesma pessoa aumenta o risco de identificação. Finalidade, acesso, segurança, minimização e proteção dos dados precisam ser considerados desde o planejamento."
+  },
+  {
+    "start": 1438.351,
+    "end": 1442.031,
+    "speaker": "ESTUDANTE",
+    "text": "Quanto maior o poder analítico, maior a responsabilidade."
+  },
+  {
+    "start": 1442.031,
+    "end": 1443.55,
     "speaker": "APRESENTADORA",
     "text": "Exatamente."
   },
   {
-    "start": 1197.65,
-    "end": 1201.37,
+    "start": 1443.55,
+    "end": 1447.791,
     "speaker": "ESTUDANTE",
-    "text": "Essa lógica vale para outros temas além de dengue e acidentes?"
+    "text": "Podemos montar uma sequência prática para transformar um tema em análise?"
   },
   {
-    "start": 1201.37,
-    "end": 1221.85,
+    "start": 1447.791,
+    "end": 1453.151,
     "speaker": "APRESENTADORA",
-    "text": "Vale muito. Pense em COVID-19. Podemos olhar casos notificados, testes realizados, atendimentos respiratórios, internações, ocupação de leitos, vacinação e óbitos. Todos se relacionam ao mesmo problema, mas cada um é um evento diferente."
+    "text": "Vamos. Primeiro, descreva o problema sem escolher uma base."
   },
   {
-    "start": 1221.85,
-    "end": 1229.851,
+    "start": 1454.84,
+    "end": 1459.319,
     "speaker": "ESTUDANTE",
-    "text": "Então um aumento de testes pode aumentar casos detectados sem significar, sozinho, a mesma coisa que aumento de internações."
+    "text": "Segundo, liste os acontecimentos que podem representar esse problema."
   },
   {
-    "start": 1229.851,
-    "end": 1247.051,
+    "start": 1459.319,
+    "end": 1464.519,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. E em tuberculose acontece algo parecido. Posso estudar notificação do caso, início de tratamento, acompanhamento, cura, abandono ou óbito. Cada etapa fala de uma parte diferente da linha de cuidado."
+    "text": "Terceiro, escolha qual evento responde melhor à pergunta principal."
   },
   {
-    "start": 1247.051,
-    "end": 1250.331,
+    "start": 1464.519,
+    "end": 1469.399,
     "speaker": "ESTUDANTE",
-    "text": "E em doenças crônicas, como diabetes ou hipertensão?"
+    "text": "Quarto, identifique onde e como esse evento é registrado."
   },
   {
-    "start": 1250.331,
-    "end": 1276.091,
+    "start": 1469.399,
+    "end": 1474.6,
     "speaker": "APRESENTADORA",
-    "text": "Aí a pergunta pode ser sobre cadastro, consultas, exames, dispensação de medicamentos, internações por complicações ou óbitos. Se eu escolho apenas internações, estou olhando uma ponta mais grave. Se escolho consultas ou exames, estou olhando contato com o serviço. O evento escolhido define a história que o indicador consegue contar."
+    "text": "Quinto, defina unidade de análise, data e território."
   },
   {
-    "start": 1276.091,
-    "end": 1283.611,
+    "start": 1474.6,
+    "end": 1481.079,
     "speaker": "ESTUDANTE",
-    "text": "Então o capítulo não está ensinando só a escolher uma base. Está ensinando a decompor um problema em eventos observáveis."
+    "text": "Sexto, verifique cobertura, atraso, classificação e possíveis recorrências."
   },
   {
-    "start": 1283.86,
-    "end": 1290.18,
+    "start": 1481.079,
+    "end": 1487.4,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Essa decomposição é o que transforma um tema amplo em uma pergunta analisável."
+    "text": "Sétimo, escolha a medida e um denominador coerente, se ele for necessário."
   },
   {
-    "start": 1290.18,
-    "end": 1293.54,
+    "start": 1487.4,
+    "end": 1493.08,
     "speaker": "ESTUDANTE",
-    "text": "Em algum momento, relacionar sistemas vira inevitável."
+    "text": "E, se a pergunta envolver trajetória, avaliamos a relação com outros eventos."
   },
   {
-    "start": 1293.54,
-    "end": 1315.461,
+    "start": 1493.08,
+    "end": 1498.439,
     "speaker": "APRESENTADORA",
-    "text": "Muitas perguntas exigem isso. SIM e SINASC para mortalidade infantil. SINAN e SIM para óbitos entre notificados. SINAN e SIH para internações após notificação. SIA, SIH e CNES para relacionar produção e estrutura da rede."
+    "text": "Sim, sempre com compatibilidade conceitual e proteção adequada."
   },
   {
-    "start": 1315.461,
-    "end": 1317.702,
+    "start": 1498.439,
+    "end": 1501.64,
     "speaker": "ESTUDANTE",
-    "text": "Relacionamento de bases resolve tudo?"
+    "text": "Quais perguntas devo fazer antes de interpretar um número?"
   },
   {
-    "start": 1317.702,
-    "end": 1334.502,
+    "start": 1501.64,
+    "end": 1519.479,
     "speaker": "APRESENTADORA",
-    "text": "Não. Ele amplia a análise, mas aumenta a responsabilidade. Um nascimento, uma internação e um óbito continuam sendo eventos distintos, produzidos em sistemas diferentes. Relacionar não apaga a origem dos registros."
+    "text": "O que foi contado? O registro representa pessoa, evento, procedimento ou documento? Qual data foi usada? Qual território? Quem pode aparecer? O dado é preliminar? Houve mudança de regra?"
   },
   {
-    "start": 1334.502,
-    "end": 1336.982,
+    "start": 1519.479,
+    "end": 1523.96,
     "speaker": "ESTUDANTE",
-    "text": "Também tem a dimensão ética."
+    "text": "E também: o que ficou invisível porque não foi registrado."
   },
   {
-    "start": 1336.982,
-    "end": 1355.303,
+    "start": 1523.96,
+    "end": 1530.68,
     "speaker": "APRESENTADORA",
-    "text": "Sim. Quando aproximamos eventos de uma mesma pessoa, precisamos observar regras de acesso, sigilo, minimização de dados, finalidade clara e proteção contra identificação indevida. Quanto mais detalhado o pareamento, maior o cuidado."
+    "text": "Essa pergunta é essencial. Ausência de registro não prova ausência do evento."
   },
   {
-    "start": 1355.303,
-    "end": 1358.183,
+    "start": 1530.68,
+    "end": 1533.479,
     "speaker": "ESTUDANTE",
-    "text": "E metodologicamente, o que pode dar errado?"
+    "text": "Quais são os tropeços mais comuns?"
   },
   {
-    "start": 1358.183,
-    "end": 1379.223,
+    "start": 1533.479,
+    "end": 1553.081,
     "speaker": "APRESENTADORA",
-    "text": "Campos incompletos, nomes com grafias diferentes, datas erradas, municípios inconsistentes, duplicidades e registros que não aparecem na outra base. Registros não pareados não são só falha técnica; podem revelar subregistro, diferença de fluxo ou limite do método."
+    "text": "Tratar procedimentos como pessoas; notificações como casos confirmados; autorizações como indivíduos únicos; data de digitação como ocorrência; atendimento como residência; e bases recentes como se estivessem consolidadas."
   },
   {
-    "start": 1379.223,
-    "end": 1382.503,
+    "start": 1553.081,
+    "end": 1557.961,
     "speaker": "ESTUDANTE",
-    "text": "Os não pareados também contam uma história."
+    "text": "Todos confundem algum elo entre realidade, evento e registro."
   },
   {
-    "start": 1382.503,
-    "end": 1396.742,
+    "start": 1557.961,
+    "end": 1563.16,
     "speaker": "APRESENTADORA",
-    "text": "Contam. Uma boa análise informa quantos registros foram pareados, quantos ficaram fora, quais critérios foram usados e se as perdas se concentram em algum território, período ou perfil."
+    "text": "Exatamente. O método precisa tornar esses elos visíveis."
   },
   {
-    "start": 1396.742,
-    "end": 1402.343,
+    "start": 1563.16,
+    "end": 1566.12,
     "speaker": "ESTUDANTE",
-    "text": "Parece que relacionar sistemas aumenta o poder da pergunta e o peso da documentação."
+    "text": "Vamos resolver o mistério dos três números?"
   },
   {
-    "start": 1402.343,
-    "end": 1412.263,
+    "start": 1566.12,
+    "end": 1585.64,
     "speaker": "APRESENTADORA",
-    "text": "Essa é uma boa síntese. Bases relacionadas podem produzir evidências muito ricas, mas a documentação precisa acompanhar a complexidade."
+    "text": "Vamos. Mil notificações descrevem o volume que entrou na vigilância segundo determinado recorte. Duzentas e cinquenta internações descrevem hospitalizações cobertas pela fonte utilizada. Doze óbitos descrevem o desfecho fatal registrado."
   },
   {
-    "start": 1412.263,
-    "end": 1416.423,
+    "start": 1586.61,
+    "end": 1591.49,
     "speaker": "ESTUDANTE",
-    "text": "Se eu tivesse que levar um checklist deste episódio, qual seria?"
+    "text": "Nenhum número substitui os outros, e nenhum representa sozinho todo o problema."
   },
   {
-    "start": 1417.55,
-    "end": 1444.83,
+    "start": 1591.49,
+    "end": 1599.251,
     "speaker": "APRESENTADORA",
-    "text": "Primeiro: qual evento quero observar? Segundo: qual sistema registra esse evento? Terceiro: qual é a unidade de análise? Quarto: qual data representa minha pergunta? Quinto: qual território faz sentido? Sexto: qual cobertura a fonte tem? Sétimo: qual denominador é coerente?"
+    "text": "Perfeito. Eles podem compor uma leitura mais rica se mantivermos clara a identidade de cada evento."
   },
   {
-    "start": 1444.83,
-    "end": 1457.069,
+    "start": 1599.251,
+    "end": 1604.931,
     "speaker": "ESTUDANTE",
-    "text": "Esse checklist evita tratar procedimentos como pessoas, notificações como casos confirmados, internações SUS como todas as internações e atendimento como residência."
+    "text": "A diferença entre os números deixou de ser defeito e virou informação sobre a trajetória."
   },
   {
-    "start": 1457.069,
-    "end": 1465.15,
+    "start": 1604.931,
+    "end": 1607.571,
     "speaker": "APRESENTADORA",
-    "text": "Exatamente. A maioria dos tropeços vem de pular a tradução entre problema de saúde e evento registrado."
+    "text": "Essa é a resolução do nosso mistério."
   },
   {
-    "start": 1465.15,
-    "end": 1471.79,
+    "start": 1607.571,
+    "end": 1611.091,
     "speaker": "ESTUDANTE",
-    "text": "Então a pergunta \"qual base eu uso?\" vem depois da pergunta \"o que estou tentando contar?\"."
+    "text": "Se eu tivesse que guardar uma frase do capítulo, qual seria?"
   },
   {
-    "start": 1471.79,
-    "end": 1491.149,
+    "start": 1611.091,
+    "end": 1620.37,
     "speaker": "APRESENTADORA",
-    "text": "Sim. E, quando alguma resposta for incerta, a incerteza deve aparecer no texto. Podemos dizer que a fonte aproxima uma dimensão do problema, que cobre a rede SUS, que reflete casos notificados, que pode ter atraso ou que exige cautela territorial."
+    "text": "Antes de perguntar qual base usar, pergunte qual acontecimento você pretende observar e como ele se transforma em registro."
   },
   {
-    "start": 1491.149,
-    "end": 1493.63,
+    "start": 1620.37,
+    "end": 1626.77,
     "speaker": "ESTUDANTE",
-    "text": "Isso não enfraquece a análise."
+    "text": "Do problema ao evento; do evento ao registro; do registro à medida."
   },
   {
-    "start": 1493.63,
-    "end": 1498.511,
+    "start": 1626.77,
+    "end": 1640.21,
     "speaker": "APRESENTADORA",
-    "text": "Não. Torna a interpretação mais transparente e mais útil."
+    "text": "Exatamente. Nos próximos capítulos, essa lógica será aplicada a cada um dos principais sistemas brasileiros, começando pelo SIM e pelo percurso do óbito até a estatística de mortalidade."
   },
   {
-    "start": 1498.511,
-    "end": 1502.592,
+    "start": 1640.21,
+    "end": 1643.491,
     "speaker": "ESTUDANTE",
-    "text": "Então dois números diferentes não são necessariamente uma contradição."
+    "text": "Agora os números diferentes contam uma história mais clara."
   },
   {
-    "start": 1502.592,
-    "end": 1522.353,
+    "start": 1643.491,
+    "end": 1648.051,
     "speaker": "APRESENTADORA",
-    "text": "Muitas vezes são duas respostas para perguntas diferentes. Um número pode contar suspeitas; outro, internações; outro, óbitos. O trabalho analítico é declarar a pergunta, preservar a diferença entre eventos e construir indicadores coerentes."
-  },
-  {
-    "start": 1522.353,
-    "end": 1529.873,
-    "speaker": "ESTUDANTE",
-    "text": "Os sistemas de informação deixam de ser depósitos de números e passam a ser registros de acontecimentos."
-  },
-  {
-    "start": 1529.873,
-    "end": 1541.713,
-    "speaker": "APRESENTADORA",
-    "text": "Essa é a mensagem central. Do evento ao registro, do registro à base, da base ao indicador e do indicador à interpretação, cada etapa importa."
-  },
-  {
-    "start": 1541.713,
-    "end": 1550.753,
-    "speaker": "ESTUDANTE",
-    "text": "Da próxima vez que dois números não baterem, antes de dizer que um está errado, eu vou perguntar: eles estão contando o mesmo evento?"
-  },
-  {
-    "start": 1551.88,
-    "end": 1564.84,
-    "speaker": "APRESENTADORA",
-    "text": "Essa pergunta já melhora metade da análise. No próximo capítulo, a gente aplica essa lógica a um sistema específico: o SIM, e o percurso do óbito até virar estatística de mortalidade."
+    "text": "É isso. Obrigada pela companhia, e até o próximo capítulo!"
   }
 ]
