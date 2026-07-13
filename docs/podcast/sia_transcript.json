@@ -1,555 +1,728 @@
 [
-{
-  "start": 0,
-  "end": 7.152,
-  "speaker": "APRESENTADORA",
-  "text": "Olá. Neste episódio, vamos conversar sobre o SIA, o Sistema de Informações Ambulatoriais do SUS."
-}
-,
-{
-  "start": 7.502,
-  "end": 12.146,
-  "speaker": "ESTUDANTE",
-  "text": "O SIA é o sistema usado para estudar a produção ambulatorial do SUS?"
-}
-,
-{
-  "start": 12.496,
-  "end": 36.227,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. O SIA é a principal fonte nacional para analisar produção ambulatorial financiada pelo SUS. Ele inclui consultas, exames, terapias, procedimentos especializados, atenção domiciliar, atenção psicossocial, medicamentos e procedimentos de alta complexidade, dependendo do instrumento de registro."
-}
-,
-{
-  "start": 36.577,
-  "end": 39.503,
-  "speaker": "ESTUDANTE",
-  "text": "Então ele é amplo, mas não é uma base simples."
-}
-,
-{
-  "start": 39.853,
-  "end": 55.550,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. Assim como o SIH, o SIA tem forte origem administrativa e financeira. Seus dados devem ser interpretados como produção registrada e aprovada segundo regras do SUS."
-}
-,
-{
-  "start": 55.900,
-  "end": 61.055,
-  "speaker": "ESTUDANTE",
-  "text": "Ou seja, produção ambulatorial não é automaticamente número de pessoas atendidas."
-}
-,
-{
-  "start": 61.405,
-  "end": 71.297,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Uma mesma pessoa pode gerar vários procedimentos, várias autorizações ou registros em instrumentos diferentes no mesmo período."
-}
-,
-{
-  "start": 71.647,
-  "end": 73.040,
-  "speaker": "ESTUDANTE",
-  "text": "Quando devo usar o SIA?"
-}
-,
-{
-  "start": 73.390,
-  "end": 94.009,
-  "speaker": "APRESENTADORA",
-  "text": "Use o SIA quando a pergunta envolve produção ambulatorial financiada pelo SUS, procedimentos, estabelecimentos, valores aprovados, APAC, BPA ou RAAS. Quando a pergunta envolve internação hospitalar, o sistema principal é o SIH."
-}
-,
-{
-  "start": 94.359,
-  "end": 98.353,
-  "speaker": "ESTUDANTE",
-  "text": "E quando a pergunta envolve produção privada não financiada pelo SUS?"
-}
-,
-{
-  "start": 98.703,
-  "end": 109.709,
-  "speaker": "APRESENTADORA",
-  "text": "Aí o SIA não cobre integralmente. Ele representa a produção ambulatorial da rede pública e conveniada ao SUS, não toda a produção ambulatorial do país."
-}
-,
-{
-  "start": 110.059,
-  "end": 111.359,
-  "speaker": "ESTUDANTE",
-  "text": "Como o SIA surgiu?"
-}
-,
-{
-  "start": 111.709,
-  "end": 132.793,
-  "speaker": "APRESENTADORA",
-  "text": "O SIA foi instituído em 1990, com origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social. A implantação nacional ocorreu em 1995 com o BPA-C, o Boletim de Produção Ambulatorial Consolidado."
-}
-,
-{
-  "start": 133.143,
-  "end": 135.140,
-  "speaker": "ESTUDANTE",
-  "text": "Depois vieram outros instrumentos."
-}
-,
-{
-  "start": 135.490,
-  "end": 155.877,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Em 1996, a APAC foi incorporada para registrar procedimentos ambulatoriais de alta complexidade ou alto custo. Em 2008, o BPA-I passou a permitir registros individualizados, com maior detalhamento de profissional e usuário."
-}
-,
-{
-  "start": 156.227,
-  "end": 161.150,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo diz que essa diversidade é uma força, mas também exige cuidado."
-}
-,
-{
-  "start": 161.500,
-  "end": 172.228,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. BPA-C, BPA-I, APAC e RAAS não devem ser tratados como se tivessem a mesma unidade de análise."
-}
-,
-{
-  "start": 172.578,
-  "end": 174.714,
-  "speaker": "ESTUDANTE",
-  "text": "Vamos comparar SIA e SIH."
-}
-,
-{
-  "start": 175.064,
-  "end": 196.984,
-  "speaker": "APRESENTADORA",
-  "text": "O SIA registra produção ambulatorial: atendimentos, exames, terapias e procedimentos. O SIH registra internações hospitalares por AIH. Os dois são sistemas de produção assistencial e remuneração, mas representam tipos diferentes de cuidado."
-}
-,
-{
-  "start": 197.334,
-  "end": 205.461,
-  "speaker": "ESTUDANTE",
-  "text": "E o cuidado central é parecido: no SIH, AIH não é pessoa; no SIA, produção não é pessoa."
-}
-,
-{
-  "start": 205.811,
-  "end": 210.130,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Essa frase resume boa parte da interpretação."
-}
-,
-{
-  "start": 210.480,
-  "end": 213.313,
-  "speaker": "ESTUDANTE",
-  "text": "Como funciona o fluxo da produção ambulatorial?"
-}
-,
-{
-  "start": 213.663,
-  "end": 231.124,
-  "speaker": "APRESENTADORA",
-  "text": "Primeiro ocorre o atendimento ou procedimento. Depois ele é registrado no instrumento adequado, enviado ao gestor, passa por críticas e consistência, pode ser aprovado ou rejeitado, e então entra na disseminação do SIA."
-}
-,
-{
-  "start": 231.474,
-  "end": 234.957,
-  "speaker": "ESTUDANTE",
-  "text": "Então a base disseminada é uma base de produção aprovada."
-}
-,
-{
-  "start": 235.307,
-  "end": 245.199,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Regras de crítica, compatibilidades, instrumentos e competência influenciam diretamente o que aparece nos microdados."
-}
-,
-{
-  "start": 245.549,
-  "end": 248.335,
-  "speaker": "ESTUDANTE",
-  "text": "Quais são os principais instrumentos de registro?"
-}
-,
-{
-  "start": 248.685,
-  "end": 272.369,
-  "speaker": "APRESENTADORA",
-  "text": "O BPA-C registra produção agregada, útil para procedimentos simples e volume consolidado. O BPA-I registra produção individualizada. A APAC registra procedimentos de alta complexidade ou alto custo. A RAAS registra ações ambulatoriais específicas, como atenção psicossocial e atenção domiciliar."
-}
-,
-{
-  "start": 272.719,
-  "end": 276.899,
-  "speaker": "ESTUDANTE",
-  "text": "Então a primeira decisão metodológica é escolher o que será contado."
-}
-,
-{
-  "start": 277.249,
-  "end": 293.364,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. A análise pode contar procedimentos, quantidade aprovada, registros individualizados, autorizações, tratamentos ou estabelecimentos. Cada unidade responde a uma pergunta diferente."
-}
-,
-{
-  "start": 293.714,
-  "end": 297.243,
-  "speaker": "ESTUDANTE",
-  "text": "Se eu somo `PA_QTDAPR`, o que estou medindo?"
-}
-,
-{
-  "start": 297.593,
-  "end": 307.996,
-  "speaker": "APRESENTADORA",
-  "text": "Você está medindo quantidade aprovada de procedimentos, não usuários atendidos. Esse detalhe precisa aparecer na redação dos resultados."
-}
-,
-{
-  "start": 308.346,
-  "end": 309.646,
-  "speaker": "ESTUDANTE",
-  "text": "E se eu conto linhas?"
-}
-,
-{
-  "start": 309.996,
-  "end": 324.485,
-  "speaker": "APRESENTADORA",
-  "text": "Contar linhas pode não representar o volume de produção desejado, porque a quantidade aprovada pode ser maior que o número de registros. Antes de contar, é preciso entender a estrutura do arquivo e o campo usado."
-}
-,
-{
-  "start": 324.835,
-  "end": 327.482,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo propõe um roteiro para análise."
-}
-,
-{
-  "start": 327.832,
-  "end": 350.820,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Primeiro, definir a pergunta e a unidade final. Depois, escolher o instrumento adequado, fixar período e território, selecionar códigos SIGTAP, baixar os arquivos, padronizar tipos, aplicar filtros, validar totais e só então construir indicadores."
-}
-,
-{
-  "start": 351.170,
-  "end": 354.514,
-  "speaker": "ESTUDANTE",
-  "text": "Parece burocrático, mas evita erro de interpretação."
-}
-,
-{
-  "start": 354.864,
-  "end": 367.449,
-  "speaker": "APRESENTADORA",
-  "text": "Evita muito. O SIA é detalhado, mensal e heterogêneo. Sem uma pergunta clara, é fácil misturar instrumentos, competências e unidades de análise."
-}
-,
-{
-  "start": 367.799,
-  "end": 369.982,
-  "speaker": "ESTUDANTE",
-  "text": "O SIGTAP também é central aqui."
-}
-,
-{
-  "start": 370.332,
-  "end": 385.611,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O código do procedimento é gerenciado pelo SIGTAP, que define descrição, grupo, subgrupo, forma de organização, complexidade, financiamento, valores e regras de compatibilidade."
-}
-,
-{
-  "start": 385.961,
-  "end": 388.190,
-  "speaker": "ESTUDANTE",
-  "text": "Essas regras mudam ao longo do tempo?"
-}
-,
-{
-  "start": 388.540,
-  "end": 406.930,
-  "speaker": "APRESENTADORA",
-  "text": "Mudam. Por isso, em séries históricas, é preciso verificar vigência, inclusão, exclusão e alteração de códigos. Uma mudança no total pode refletir mudança administrativa, não necessariamente mudança real de produção."
-}
-,
-{
-  "start": 407.280,
-  "end": 411.367,
-  "speaker": "ESTUDANTE",
-  "text": "A análise territorial também diferencia residência e ocorrência."
-}
-,
-{
-  "start": 411.717,
-  "end": 433.265,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Ocorrência indica onde a produção foi realizada. Residência indica de onde vem a demanda. Para avaliar uso pela população residente, use residência e denominador populacional compatível. Para avaliar oferta ou capacidade produtiva, use ocorrência e estabelecimento."
-}
-,
-{
-  "start": 433.615,
-  "end": 436.773,
-  "speaker": "ESTUDANTE",
-  "text": "O exemplo do capítulo é produção de mamografias."
-}
-,
-{
-  "start": 437.123,
-  "end": 456.256,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. Mamografias mostram bem a importância de definir códigos SIGTAP, faixa etária, território, instrumento, competência e numerador. A quantidade aprovada de mamografias não é o mesmo que número de mulheres rastreadas."
-}
-,
-{
-  "start": 456.606,
-  "end": 460.507,
-  "speaker": "ESTUDANTE",
-  "text": "Porque uma mesma mulher pode fazer mais de uma mamografia no período."
-}
-,
-{
-  "start": 460.857,
-  "end": 475.393,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. E bases públicas podem não permitir deduplicação nominal. Então o indicador deve ser interpretado como produção registrada, não como cobertura individual do rastreamento."
-}
-,
-{
-  "start": 475.743,
-  "end": 478.529,
-  "speaker": "ESTUDANTE",
-  "text": "Quais campos mínimos são úteis para inspecionar?"
-}
-,
-{
-  "start": 478.879,
-  "end": 497.548,
-  "speaker": "APRESENTADORA",
-  "text": "Competência, estabelecimento, município de ocorrência, município de residência, procedimento, quantidade aprovada, valor aprovado, idade, sexo, CBO e campos específicos do instrumento."
-}
-,
-{
-  "start": 497.898,
-  "end": 501.195,
-  "speaker": "ESTUDANTE",
-  "text": "Mas os nomes e a disponibilidade dos campos variam."
-}
-,
-{
-  "start": 501.545,
-  "end": 525.229,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. PA, APAC, BPA-I e RAAS podem ter estruturas diferentes. Por isso, é recomendável organizar um dicionário por blocos: competência, estabelecimento, território, procedimento, quantidade e valor, usuário, profissional e instrumento."
-}
-,
-{
-  "start": 525.579,
-  "end": 527.204,
-  "speaker": "ESTUDANTE",
-  "text": "Vamos falar da APAC."
-}
-,
-{
-  "start": 527.554,
-  "end": 547.152,
-  "speaker": "APRESENTADORA",
-  "text": "A APAC registra procedimentos ambulatoriais de alta complexidade ou alto custo, como medicamentos especializados, terapia renal, quimioterapia e radioterapia. Em geral, exige autorização, laudo e regras próprias de continuidade."
-}
-,
-{
-  "start": 547.502,
-  "end": 552.843,
-  "speaker": "ESTUDANTE",
-  "text": "Então uma APAC mensal pode representar continuidade de tratamento, não um novo caso."
-}
-,
-{
-  "start": 553.193,
-  "end": 570.515,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Em estudos longitudinais, é preciso definir janelas de continuidade, intervalos aceitáveis entre competências e regras para troca de procedimento ou estabelecimento antes de interpretar APACs como tratamentos."
-}
-,
-{
-  "start": 570.865,
-  "end": 572.444,
-  "speaker": "ESTUDANTE",
-  "text": "E a produção rejeitada?"
-}
-,
-{
-  "start": 572.794,
-  "end": 592.995,
-  "speaker": "APRESENTADORA",
-  "text": "Registros podem ser rejeitados por inconsistências, incompatibilidades ou problemas administrativos. Para medir produção realizada e aprovada, use arquivos de produção aprovada. Para auditoria ou qualidade do faturamento, analise rejeições separadamente."
-}
-,
-{
-  "start": 593.345,
-  "end": 595.435,
-  "speaker": "ESTUDANTE",
-  "text": "Como os dados podem ser acessados?"
-}
-,
-{
-  "start": 595.785,
-  "end": 610.181,
-  "speaker": "APRESENTADORA",
-  "text": "Por TabNet, para consultas rápidas; por TabWin e arquivos DBC; em R, com o pacote microdatasus; em Python, com PySUS; e em ambientes como a PCDaS."
-}
-,
-{
-  "start": 610.531,
-  "end": 613.317,
-  "speaker": "ESTUDANTE",
-  "text": "O SIA também exige atenção a grandes volumes."
-}
-,
-{
-  "start": 613.667,
-  "end": 636.794,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Ele é disseminado em arquivos mensais por unidade federativa e por instrumento. Séries longas e análises nacionais podem envolver grande volume e estruturas diferentes. Separar PA, APAC e RAAS, salvar em Parquet e usar DuckDB ajuda bastante."
-}
-,
-{
-  "start": 637.144,
-  "end": 639.466,
-  "speaker": "ESTUDANTE",
-  "text": "E manter os dados brutos imutáveis."
-}
-,
-{
-  "start": 639.816,
-  "end": 650.358,
-  "speaker": "APRESENTADORA",
-  "text": "Isso melhora a auditoria e a reprodutibilidade. O ideal é ter camadas tratadas por instrumento e bases analíticas menores para cada pergunta."
-}
-,
-{
-  "start": 650.708,
-  "end": 653.634,
-  "speaker": "ESTUDANTE",
-  "text": "Com quais sistemas o SIA costuma ser combinado?"
-}
-,
-{
-  "start": 653.984,
-  "end": 675.811,
-  "speaker": "APRESENTADORA",
-  "text": "Com o CNES, para caracterizar serviços; com o SIH, para combinar produção ambulatorial e hospitalar; com o SIM, para desfechos como óbito após procedimento; com o SINAN, quando o procedimento se relaciona a agravos notificados; e com população residente, para taxas."
-}
-,
-{
-  "start": 676.161,
-  "end": 679.505,
-  "speaker": "ESTUDANTE",
-  "text": "Mas a integração também exige definir a unidade final."
-}
-,
-{
-  "start": 679.855,
-  "end": 695.227,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. A unidade final pode ser procedimento, pessoa, autorização, tratamento ou trajetória assistencial. Cada uma exige regras próprias de deduplicação e janelas temporais."
-}
-,
-{
-  "start": 695.577,
-  "end": 698.503,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo recomenda validações automáticas."
-}
-,
-{
-  "start": 698.853,
-  "end": 722.537,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Antes de publicar indicadores, é útil verificar procedimento ausente, município ausente, idade fora do intervalo, sexo ignorado, quantidade zero ou negativa e valor negativo. Também é importante comparar totais agregados com o TabNet no mesmo período, UF, instrumento e procedimento."
-}
-,
-{
-  "start": 722.887,
-  "end": 725.673,
-  "speaker": "ESTUDANTE",
-  "text": "Quais indicadores podem ser construídos com o SIA?"
-}
-,
-{
-  "start": 726.023,
-  "end": 743.206,
-  "speaker": "APRESENTADORA",
-  "text": "Produção ambulatorial por procedimento, taxa de procedimentos por residentes, valor médio por procedimento, proporção por grupo de procedimentos, produção fora do município de residência e produção de alta complexidade, entre outros."
-}
-,
-{
-  "start": 743.556,
-  "end": 745.785,
-  "speaker": "ESTUDANTE",
-  "text": "Quais são as limitações principais?"
-}
-,
-{
-  "start": 746.135,
-  "end": 767.079,
-  "speaker": "APRESENTADORA",
-  "text": "Cobertura restrita ao SUS, finalidade administrativa e financeira, mudanças no SIGTAP, instrumentos heterogêneos, valores que não representam custo econômico total, dificuldade de medir pessoa única nas bases públicas e separação entre produção aprovada e rejeitada."
-}
-,
-{
-  "start": 767.429,
-  "end": 773.327,
-  "speaker": "ESTUDANTE",
-  "text": "Então o SIA é mais forte para medir produção ambulatorial registrada do que necessidade de saúde."
-}
-,
-{
-  "start": 773.677,
-  "end": 793.042,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Ele é forte para estudar produção aprovada, oferta utilizada, fluxos assistenciais e remuneração registrada. Mas não mede diretamente necessidade de saúde, cobertura individual ou custo real do cuidado."
-}
-,
-{
-  "start": 793.392,
-  "end": 796.689,
-  "speaker": "ESTUDANTE",
-  "text": "Para fechar, quais erros comuns devem ser evitados?"
-}
-,
-{
-  "start": 797.039,
-  "end": 820.723,
-  "speaker": "APRESENTADORA",
-  "text": "Contar procedimentos como pessoas, contar linhas como produção sem verificar quantidade aprovada, misturar BPA-C, BPA-I, APAC e RAAS sem harmonização, ignorar vigência do SIGTAP, usar ocorrência para risco populacional e comparar valores aprovados como se fossem custos."
-}
-,
-{
-  "start": 821.073,
-  "end": 828.968,
-  "speaker": "ESTUDANTE",
-  "text": "Então a mensagem central é: antes de analisar, definir unidade, instrumento, código, território e competência."
-}
-,
-{
-  "start": 829.318,
-  "end": 852.631,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. O SIA é uma base muito poderosa para estudar a produção ambulatorial do SUS. Mas sua interpretação depende de respeitar a lógica dos instrumentos, das regras administrativas, do SIGTAP e da diferença entre produção, procedimento, autorização, tratamento e pessoa."
-}
-
+  {
+    "start": 0,
+    "end": 17.32,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SIA, o Sistema de Informações Ambulatoriais do SUS, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, eu queria começar com uma cena, não com uma definição."
+  },
+  {
+    "start": 17.32,
+    "end": 18.559,
+    "speaker": "ESTUDANTE",
+    "text": "Uma cena?"
+  },
+  {
+    "start": 18.559,
+    "end": 49.4,
+    "speaker": "APRESENTADORA",
+    "text": "Imagine uma pessoa abrindo uma base do DataSUS porque quer responder uma pergunta que parece simples: quantas mamografias o SUS realizou em determinados municípios? Ela baixa os dados, filtra dois códigos de procedimento, soma uma coluna, faz um mapa bonito e escreve: cobertura de mamografia. No fim do episódio, vamos voltar a esse mapa e decidir o que ele realmente permite afirmar."
+  },
+  {
+    "start": 49.4,
+    "end": 51.28,
+    "speaker": "ESTUDANTE",
+    "text": "E aí vem o problema."
+  },
+  {
+    "start": 51.28,
+    "end": 82.721,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O mapa pode estar tecnicamente bem feito, mas a frase pode estar errada. Talvez ela tenha calculado produção aprovada de exames, não cobertura individual. Talvez tenha usado município de ocorrência quando queria falar das mulheres residentes. Talvez tenha misturado mamografias diagnósticas e de rastreamento. Talvez tenha contado linhas quando deveria somar quantidade aprovada."
+  },
+  {
+    "start": 82.721,
+    "end": 90.481,
+    "speaker": "ESTUDANTE",
+    "text": "Então o episódio começa com uma suspeita: o SIA parece simples, mas muda de sentido dependendo da pergunta."
+  },
+  {
+    "start": 90.481,
+    "end": 116.24,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a porta de entrada perfeita. O SIA é uma das fontes mais importantes para estudar produção ambulatorial financiada pelo SUS. Só que ele não é uma fotografia direta de pessoas atendidas. Ele é uma base de produção registrada, processada e aprovada dentro de regras administrativas, assistenciais e financeiras."
+  },
+  {
+    "start": 116.24,
+    "end": 123.521,
+    "speaker": "ESTUDANTE",
+    "text": "Então a primeira frase para guardar é: produção ambulatorial não é automaticamente pessoa atendida."
+  },
+  {
+    "start": 123.77,
+    "end": 138.809,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E a segunda é: antes de analisar o SIA, defina exatamente o que você quer contar. Procedimentos? Quantidade aprovada? Autorizações? Tratamentos? Estabelecimentos? Fluxos entre residência e atendimento?"
+  },
+  {
+    "start": 138.809,
+    "end": 145.93,
+    "speaker": "ESTUDANTE",
+    "text": "Eu gosto dessa entrada porque ela já tira a gente do modo automático. Mas vamos dar um passo atrás. O que é o SIA?"
+  },
+  {
+    "start": 145.93,
+    "end": 168.171,
+    "speaker": "APRESENTADORA",
+    "text": "O SIA/SUS é o Sistema de Informações Ambulatoriais do SUS. Ele organiza a produção ambulatorial financiada pelo SUS: consultas, exames, terapias, procedimentos especializados, ações de atenção domiciliar, atenção psicossocial, medicamentos e procedimentos de alta complexidade, dependendo do instrumento de registro."
+  },
+  {
+    "start": 168.171,
+    "end": 171.531,
+    "speaker": "ESTUDANTE",
+    "text": "E ele cobre a rede pública e a rede conveniada ao SUS?"
+  },
+  {
+    "start": 171.531,
+    "end": 185.931,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Ele cobre produção ambulatorial da rede pública e conveniada ao SUS. Então ele não mede toda a produção ambulatorial do país. Se a produção é privada e não financiada pelo SUS, ela não está integralmente ali."
+  },
+  {
+    "start": 185.931,
+    "end": 190.17,
+    "speaker": "ESTUDANTE",
+    "text": "Essa distinção é importante em municípios onde há muita oferta privada, né?"
+  },
+  {
+    "start": 190.17,
+    "end": 206.331,
+    "speaker": "APRESENTADORA",
+    "text": "Muito. Quando você usa o SIA, você está olhando para a dimensão SUS da produção ambulatorial. Isso é enorme e valiosíssimo para planejamento, avaliação e pesquisa. Mas não é o universo completo de todo atendimento ambulatorial feito no Brasil."
+  },
+  {
+    "start": 206.331,
+    "end": 209.851,
+    "speaker": "ESTUDANTE",
+    "text": "E por que o SIA tem esse caráter administrativo e financeiro?"
+  },
+  {
+    "start": 209.851,
+    "end": 234.811,
+    "speaker": "APRESENTADORA",
+    "text": "Porque ele nasce ligado à organização, registro, controle e remuneração da produção ambulatorial. Assim como o SIH, que organiza internações financiadas pelo SUS por AIH, o SIA estrutura a produção ambulatorial a partir de instrumentos próprios. A finalidade original não é ser um prontuário clínico completo. É registrar produção segundo regras do sistema."
+  },
+  {
+    "start": 235.46,
+    "end": 240.42,
+    "speaker": "ESTUDANTE",
+    "text": "Mas mesmo assim ele é muito usado em estudos epidemiológicos e de serviços de saúde."
+  },
+  {
+    "start": 240.42,
+    "end": 266.819,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A origem administrativa não diminui o valor analítico. Ela orienta a leitura. Se a gente respeita a lógica da fonte, o SIA permite estudar volume de procedimentos, distribuição territorial, uso da rede, concentração de serviços, acesso geográfico, valores aprovados, alta complexidade e continuidade de algumas modalidades de cuidado."
+  },
+  {
+    "start": 266.819,
+    "end": 273.14,
+    "speaker": "ESTUDANTE",
+    "text": "Então a pergunta não é: o SIA é bom ou ruim? A pergunta é: para que ele serve bem?"
+  },
+  {
+    "start": 273.14,
+    "end": 302.18,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Ele serve muito bem para perguntas sobre produção ambulatorial financiada pelo SUS. Quantos procedimentos foram aprovados? Onde foram realizados? Quais estabelecimentos executaram? Como a produção varia ao longo do tempo? Qual valor foi aprovado? De onde vêm os usuários, quando há campo de residência? Quais procedimentos de alta complexidade aparecem em APAC?"
+  },
+  {
+    "start": 302.18,
+    "end": 304.66,
+    "speaker": "ESTUDANTE",
+    "text": "E quando ele não é suficiente?"
+  },
+  {
+    "start": 304.66,
+    "end": 327.86,
+    "speaker": "APRESENTADORA",
+    "text": "Quando a pergunta é sobre custo econômico total, necessidade de saúde, cobertura individual, diagnóstico completo, desfecho posterior, capacidade instalada ou produção privada não SUS. Nesses casos, ele pode entrar na análise, mas precisa ser combinado com outras fontes ou interpretado com limites explícitos."
+  },
+  {
+    "start": 327.86,
+    "end": 331.14,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos para a história. Quando o SIA surgiu?"
+  },
+  {
+    "start": 331.14,
+    "end": 350.9,
+    "speaker": "APRESENTADORA",
+    "text": "O SIA foi instituído em 1990, com origem no SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social. A implantação nacional ocorreu em 1995 com o BPA-C, o Boletim de Produção Ambulatorial Consolidado."
+  },
+  {
+    "start": 350.9,
+    "end": 354.02,
+    "speaker": "ESTUDANTE",
+    "text": "Esse BPA-C era agregado, certo?"
+  },
+  {
+    "start": 354.27,
+    "end": 386.109,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O BPA-C registra produção agregada. Ele é útil para consolidar volume por procedimento, mas não foi desenhado para reconstruir trajetórias individuais. Depois, em 1996, entra a APAC, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade ou Alto Custo. E em 2008, o BPA-I passa a permitir registro individualizado de produção, com mais detalhes sobre profissional e usuário."
+  },
+  {
+    "start": 386.109,
+    "end": 389.789,
+    "speaker": "ESTUDANTE",
+    "text": "Então a história do SIA é uma história de camadas."
+  },
+  {
+    "start": 389.789,
+    "end": 407.15,
+    "speaker": "APRESENTADORA",
+    "text": "Bonita forma de dizer. Ele não é uma única tabela uniforme. Ele reúne instrumentos criados para necessidades diferentes. Essa diversidade é uma força, porque amplia o alcance do sistema. Mas também é o principal ponto de atenção metodológica."
+  },
+  {
+    "start": 407.15,
+    "end": 412.51,
+    "speaker": "ESTUDANTE",
+    "text": "Porque BPA-C, BPA-I, APAC e RAAS não têm a mesma unidade."
+  },
+  {
+    "start": 412.51,
+    "end": 441.39,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O BPA-C fala bem de produção agregada. O BPA-I traz registros individualizados em parte da produção. A APAC organiza procedimentos de alta complexidade, muitas vezes com continuidade. A RAAS registra ações ambulatoriais específicas, como atenção psicossocial e atenção domiciliar. Se você soma tudo como se fosse a mesma coisa, o indicador fica frágil."
+  },
+  {
+    "start": 441.39,
+    "end": 444.35,
+    "speaker": "ESTUDANTE",
+    "text": "É aqui que entra a comparação com o SIH?"
+  },
+  {
+    "start": 444.35,
+    "end": 467.629,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. SIA e SIH são sistemas de produção assistencial e remuneração, mas registram tipos diferentes de cuidado. O SIH organiza internações hospitalares por AIH. O SIA organiza produção ambulatorial por procedimento, BPA, APAC, RAAS ou outros arquivos relacionados."
+  },
+  {
+    "start": 467.629,
+    "end": 475.31,
+    "speaker": "ESTUDANTE",
+    "text": "No SIH, a frase de alerta é: AIH não é pessoa. No SIA, seria: produção não é pessoa."
+  },
+  {
+    "start": 476.12,
+    "end": 497.479,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma das melhores sínteses do capítulo. Uma pessoa pode gerar vários procedimentos no mesmo dia, várias competências de APAC, registros em instrumentos diferentes ou atendimento em mais de um estabelecimento. Então, se o método não identificou pessoas, não escreva como se tivesse contado pessoas."
+  },
+  {
+    "start": 497.479,
+    "end": 510.28,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos imaginar então que alguém diz: em 2021, o município teve tantos pacientes de um procedimento. Se a pessoa só somou `PA_QTDAPR`, isso está errado?"
+  },
+  {
+    "start": 510.28,
+    "end": 534.121,
+    "speaker": "APRESENTADORA",
+    "text": "O mais seguro seria dizer: quantidade aprovada de procedimentos. `PA_QTDAPR` é uma coluna importantíssima, mas ela mede quantidade aprovada, não indivíduos. Pode ser que, para determinada análise, esse seja exatamente o numerador desejado. O problema é trocar a palavra na interpretação."
+  },
+  {
+    "start": 534.121,
+    "end": 537.32,
+    "speaker": "ESTUDANTE",
+    "text": "Parece uma diferença pequena, mas muda muito."
+  },
+  {
+    "start": 537.32,
+    "end": 557.441,
+    "speaker": "APRESENTADORA",
+    "text": "Muda. Pense em fisioterapia, hemodiálise, quimioterapia, radioterapia, acompanhamento especializado, exames repetidos. Uma pessoa pode gerar várias unidades de produção. Se você chama isso de pacientes, pode superestimar acesso individual ou cobertura."
+  },
+  {
+    "start": 557.441,
+    "end": 561.801,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar do fluxo. O que acontece até um dado aparecer no SIA?"
+  },
+  {
+    "start": 561.801,
+    "end": 581.72,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro existe o atendimento ou procedimento ambulatorial. Depois ele é registrado no instrumento adequado. Esse registro é enviado ao gestor, passa por críticas e consistências, pode ser aprovado ou rejeitado, e então a produção aprovada entra na disseminação."
+  },
+  {
+    "start": 581.72,
+    "end": 586.521,
+    "speaker": "ESTUDANTE",
+    "text": "Então o SIA disseminado não é simplesmente tudo que aconteceu em um serviço."
+  },
+  {
+    "start": 586.521,
+    "end": 601.801,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Ele é resultado de um fluxo de registro, processamento e aprovação. Regras de crítica, compatibilidades, instrumentos e competência influenciam diretamente o que aparece nos microdados."
+  },
+  {
+    "start": 602.45,
+    "end": 610.61,
+    "speaker": "ESTUDANTE",
+    "text": "Quando você fala em crítica, está falando de checagens como idade compatível, sexo compatível, procedimento compatível?"
+  },
+  {
+    "start": 610.61,
+    "end": 633.41,
+    "speaker": "APRESENTADORA",
+    "text": "Esse é o tipo de lógica. O sistema usa regras administrativas e assistenciais para consistir a produção. Por isso, mudanças nessas regras podem afetar séries históricas. Uma queda ou aumento em determinado procedimento pode ser real, mas também pode refletir alteração de código, vigência, instrumento ou compatibilidade."
+  },
+  {
+    "start": 633.41,
+    "end": 636.13,
+    "speaker": "ESTUDANTE",
+    "text": "E isso nos leva ao SIGTAP."
+  },
+  {
+    "start": 636.13,
+    "end": 667.33,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O SIGTAP é central. Ele é a tabela que organiza procedimentos, medicamentos, órteses, próteses e materiais especiais do SUS. No contexto do SIA, o código do procedimento remete a descrição, grupo, subgrupo, forma de organização, complexidade, financiamento, valores, idade, sexo, CBO, CID, serviço, classificação, habilitação e vigência."
+  },
+  {
+    "start": 667.33,
+    "end": 670.13,
+    "speaker": "ESTUDANTE",
+    "text": "Ou seja, o código não é só um rótulo."
+  },
+  {
+    "start": 670.13,
+    "end": 691.81,
+    "speaker": "APRESENTADORA",
+    "text": "Não. O código é uma porta para um conjunto de regras. Se você analisa uma série por procedimento, precisa saber se o código existia em todo o período, se mudou de descrição, se foi descontinuado, se outro código entrou no lugar, se houve alteração de instrumento de registro ou de regra de financiamento."
+  },
+  {
+    "start": 691.81,
+    "end": 694.53,
+    "speaker": "ESTUDANTE",
+    "text": "Então a lista de códigos deve ser versionada."
+  },
+  {
+    "start": 694.53,
+    "end": 709.73,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Uma análise reprodutível deve guardar a lista de códigos e a competência da tabela usada. Isso é especialmente importante em séries longas. Sem isso, outro pesquisador não sabe exatamente o que entrou no numerador."
+  },
+  {
+    "start": 709.73,
+    "end": 717.81,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar para a pessoa que abriu a base querendo estudar mamografias. Como a gente transformaria essa situação em uma análise mais robusta?"
+  },
+  {
+    "start": 718.06,
+    "end": 738.54,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro, ela precisa formular a pergunta. Quer medir produção de exames? Quer aproximar rastreamento? Quer estudar deslocamento entre município de residência e município de realização? Quer avaliar concentração de oferta em estabelecimentos? Cada pergunta muda o caminho."
+  },
+  {
+    "start": 738.54,
+    "end": 746.94,
+    "speaker": "ESTUDANTE",
+    "text": "Digamos que ela quer estimar uma taxa de mamografias de rastreamento em mulheres de 50 a 69 anos residentes nos municípios."
+  },
+  {
+    "start": 746.94,
+    "end": 783.66,
+    "speaker": "APRESENTADORA",
+    "text": "Ótimo. Então o numerador não é qualquer mamografia. O capítulo usa dois códigos como exemplo didático: `0204030030`, mamografia, que pode envolver finalidades clínicas variadas, e `0204030188`, mamografia bilateral para rastreamento. Para rastreamento, o segundo é mais alinhado à pergunta, mas em uma análise real é preciso conferir vigência e regras no SIGTAP da competência analisada."
+  },
+  {
+    "start": 783.66,
+    "end": 784.86,
+    "speaker": "ESTUDANTE",
+    "text": "E o território?"
+  },
+  {
+    "start": 784.86,
+    "end": 804.46,
+    "speaker": "APRESENTADORA",
+    "text": "Se o denominador é a população feminina residente de 50 a 69 anos, o numerador deve usar município de residência quando esse campo estiver disponível e adequado. Usar ocorrência responderia outra pergunta: onde os exames foram realizados."
+  },
+  {
+    "start": 804.46,
+    "end": 810.7,
+    "speaker": "ESTUDANTE",
+    "text": "Então residência aproxima demanda da população; ocorrência descreve a rede que executou."
+  },
+  {
+    "start": 810.7,
+    "end": 832.86,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Essa distinção é poderosa. Com residência, você pode calcular taxas para residentes. Com ocorrência e estabelecimento, você estuda oferta, produção local e centralidade dos serviços. Comparando residência e ocorrência, você começa a enxergar fluxos assistenciais."
+  },
+  {
+    "start": 832.86,
+    "end": 837.42,
+    "speaker": "ESTUDANTE",
+    "text": "Fluxos como pessoas que moram em um município e fazem exame em outro."
+  },
+  {
+    "start": 837.42,
+    "end": 857.98,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O SIA pode apoiar estudos de deslocamento para cuidado especializado, desde que os campos permitam essa leitura e que a unidade seja bem definida. A análise de fluxos é útil para regionalização, planejamento e identificação de concentração de serviços."
+  },
+  {
+    "start": 858.23,
+    "end": 860.549,
+    "speaker": "ESTUDANTE",
+    "text": "E a taxa de mamografia ficaria como?"
+  },
+  {
+    "start": 860.549,
+    "end": 892.869,
+    "speaker": "APRESENTADORA",
+    "text": "Uma especificação possível seria: numerador, quantidade aprovada do procedimento `0204030188` em mulheres de 50 a 69 anos; denominador, população feminina residente de 50 a 69 anos; território, município de residência; período, uma competência ou conjunto de competências; medida, mamografias por mil mulheres nessa faixa etária."
+  },
+  {
+    "start": 892.869,
+    "end": 896.31,
+    "speaker": "ESTUDANTE",
+    "text": "Mas o resultado ainda não seria cobertura individual."
+  },
+  {
+    "start": 896.31,
+    "end": 918.23,
+    "speaker": "APRESENTADORA",
+    "text": "Isso precisa ficar explícito. Seria taxa de mamografias aprovadas por população residente. Uma mesma mulher pode realizar mais de um exame no período, e bases públicas podem não permitir deduplicação nominal. Então não é correto dizer automaticamente que aquela proporção de mulheres foi rastreada."
+  },
+  {
+    "start": 918.23,
+    "end": 921.749,
+    "speaker": "ESTUDANTE",
+    "text": "Dá para sentir como a análise ficou mais honesta."
+  },
+  {
+    "start": 921.749,
+    "end": 932.87,
+    "speaker": "APRESENTADORA",
+    "text": "E mais útil. A honestidade metodológica não enfraquece o indicador. Ela diz exatamente o que ele mede, e isso ajuda quem vai usar o resultado."
+  },
+  {
+    "start": 932.87,
+    "end": 936.709,
+    "speaker": "ESTUDANTE",
+    "text": "Quais campos a pessoa deveria olhar antes de confiar na base?"
+  },
+  {
+    "start": 936.709,
+    "end": 963.27,
+    "speaker": "APRESENTADORA",
+    "text": "Um conjunto mínimo inclui competência, estabelecimento executor, município de ocorrência, município de residência, procedimento, quantidade aprovada, valor aprovado, idade, sexo, CBO e campos específicos do instrumento. Mas isso varia conforme PA, APAC, BPA-I e RAAS."
+  },
+  {
+    "start": 963.27,
+    "end": 967.27,
+    "speaker": "ESTUDANTE",
+    "text": "Então a primeira inspeção é quase uma conversa com o dicionário."
+  },
+  {
+    "start": 967.27,
+    "end": 995.11,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Você pergunta ao arquivo: que campos existem? Quais estão completos? Como estão tipados? O município tem seis ou sete dígitos? A idade está numérica? O sexo está preenchido? A quantidade aprovada faz sentido? O valor aprovado veio como número ou texto? O procedimento aparece com zeros à esquerda preservados?"
+  },
+  {
+    "start": 995.11,
+    "end": 997.91,
+    "speaker": "ESTUDANTE",
+    "text": "Zeros à esquerda são uma dor clássica."
+  },
+  {
+    "start": 998.16,
+    "end": 1013.28,
+    "speaker": "APRESENTADORA",
+    "text": "São. Código de procedimento, município, CNES e CBO não devem ser tratados como números comuns quando isso faz perder zeros ou alterar formato. Muitas falhas de integração começam aí."
+  },
+  {
+    "start": 1013.28,
+    "end": 1018.08,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo fala em organizar um dicionário por blocos. Como seria isso?"
+  },
+  {
+    "start": 1018.08,
+    "end": 1044.72,
+    "speaker": "APRESENTADORA",
+    "text": "Você pode separar campos de competência, estabelecimento, território, procedimento, quantidade e valor, usuário, profissional e instrumento. Em cada bloco, registre nome original, nome padronizado, tipo, regra de transformação e observações. Se um campo muda entre instrumentos ou anos, essa diferença aparece no dicionário e não fica escondida no código."
+  },
+  {
+    "start": 1044.72,
+    "end": 1048.801,
+    "speaker": "ESTUDANTE",
+    "text": "Isso parece especialmente importante quando a análise é nacional e longa."
+  },
+  {
+    "start": 1048.801,
+    "end": 1074.481,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O SIA é mensal, por unidade federativa e por instrumento. O volume cresce rápido, mas a regra permanece simples: preserve o dado bruto e documente data de acesso, arquivos, filtros, códigos e transformações. Assim, se uma lista de procedimentos mudar, você refaz a camada analítica sem perder a origem do resultado."
+  },
+  {
+    "start": 1074.481,
+    "end": 1079.681,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos entrar na APAC, porque ela parece uma parte do SIA que exige cuidado extra."
+  },
+  {
+    "start": 1079.681,
+    "end": 1100.481,
+    "speaker": "APRESENTADORA",
+    "text": "A APAC registra procedimentos ambulatoriais de alta complexidade ou alto custo, como medicamentos especializados, terapias renais, quimioterapia, radioterapia e outros tratamentos específicos. Em geral, envolve autorização, laudo e regras de continuidade."
+  },
+  {
+    "start": 1100.481,
+    "end": 1104.32,
+    "speaker": "ESTUDANTE",
+    "text": "Então a APAC aproxima uma lógica de tratamento continuado?"
+  },
+  {
+    "start": 1104.32,
+    "end": 1129.521,
+    "speaker": "APRESENTADORA",
+    "text": "Em muitas situações, sim. Um registro mensal pode representar continuidade de um tratamento, não um novo caso. Por isso, se a pergunta é produção mensal, a contagem de procedimentos ou APACs pode ser adequada. Se a pergunta é quantas pessoas estavam em tratamento, ou como foi a trajetória de cuidado, você precisa de regras longitudinais."
+  },
+  {
+    "start": 1130.33,
+    "end": 1133.129,
+    "speaker": "ESTUDANTE",
+    "text": "Tipo definir janelas de continuidade."
+  },
+  {
+    "start": 1133.129,
+    "end": 1152.169,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Em estudos longitudinais, defina intervalo aceitável entre competências, como lidar com troca de procedimento, troca de estabelecimento, interrupções e retorno. Sem essas regras, interpretar APAC como tratamento pode ser enganoso."
+  },
+  {
+    "start": 1152.169,
+    "end": 1157.531,
+    "speaker": "ESTUDANTE",
+    "text": "E para oncologia, por exemplo, dá para estudar quimioterapia e radioterapia."
+  },
+  {
+    "start": 1157.531,
+    "end": 1177.21,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, mas de novo: escolha a unidade. Você pode estudar volume de procedimentos, distribuição territorial, fluxos para serviços especializados, continuidade aproximada ou produção por estabelecimento. Cada leitura tem exigências diferentes."
+  },
+  {
+    "start": 1177.21,
+    "end": 1180.65,
+    "speaker": "ESTUDANTE",
+    "text": "A produção rejeitada entra onde nessa história?"
+  },
+  {
+    "start": 1180.65,
+    "end": 1206.489,
+    "speaker": "APRESENTADORA",
+    "text": "Registros podem ser rejeitados por inconsistências, incompatibilidades ou problemas administrativos. Para indicadores de produção realizada e aprovada, a produção aprovada é a referência usual. Para auditoria, qualidade do faturamento ou gestão do processo de registro, as rejeições são uma fonte importante, mas devem ser analisadas separadamente."
+  },
+  {
+    "start": 1206.489,
+    "end": 1210.97,
+    "speaker": "ESTUDANTE",
+    "text": "Então não é só somar aprovada e rejeitada para chegar ao que aconteceu."
+  },
+  {
+    "start": 1210.97,
+    "end": 1222.729,
+    "speaker": "APRESENTADORA",
+    "text": "Não. A rejeição tem sentido próprio no fluxo administrativo. Somar sem entender a regra pode misturar coisas que passaram por estados diferentes de validação."
+  },
+  {
+    "start": 1222.729,
+    "end": 1226.331,
+    "speaker": "ESTUDANTE",
+    "text": "Para acessar os dados, eu preciso começar por uma ferramenta específica?"
+  },
+  {
+    "start": 1226.331,
+    "end": 1259.612,
+    "speaker": "APRESENTADORA",
+    "text": "Não. O TabNet atende bem a consultas agregadas, exploração inicial e conferência de totais; arquivos locais e ferramentas em diferentes linguagens atendem a análises maiores. O capítulo detalha esses caminhos. Para o nosso arco, o essencial é comparar os totais processados com uma referência agregada usando o mesmo período, território, instrumento, procedimento e filtros. Se houver grande divergência, pare antes de interpretar."
+  },
+  {
+    "start": 1259.86,
+    "end": 1263.7,
+    "speaker": "ESTUDANTE",
+    "text": "Quais checagens automáticas você faria antes de publicar um indicador?"
+  },
+  {
+    "start": 1263.7,
+    "end": 1288.58,
+    "speaker": "APRESENTADORA",
+    "text": "Eu verificaria número de registros, procedimento ausente, município de residência e ocorrência ausentes, idade fora do intervalo esperado, sexo ignorado quando isso importa, quantidade aprovada zero ou negativa, valor negativo e distribuição por competência. Também olharia valores extremos e quebras inesperadas na série."
+  },
+  {
+    "start": 1288.58,
+    "end": 1291.54,
+    "speaker": "ESTUDANTE",
+    "text": "E se aparecer uma quebra em determinado mês?"
+  },
+  {
+    "start": 1291.54,
+    "end": 1310.82,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro, eu suspeitaria do meu processamento. Depois, verificaria arquivo, competência, filtro, mudança no SIGTAP, mudança de regra, instrumento e comparação com TabNet. Só depois começaria a interpretar como mudança assistencial."
+  },
+  {
+    "start": 1310.82,
+    "end": 1313.221,
+    "speaker": "ESTUDANTE",
+    "text": "Isso é quase uma ética da análise."
+  },
+  {
+    "start": 1313.221,
+    "end": 1332.901,
+    "speaker": "APRESENTADORA",
+    "text": "Eu gosto dessa ideia. Com bases administrativas, a ética inclui não forçar a fonte a dizer mais do que ela sabe. O SIA sabe muito sobre produção aprovada do SUS. Ele não sabe sozinho tudo sobre necessidade, qualidade, custo real ou cuidado longitudinal."
+  },
+  {
+    "start": 1332.901,
+    "end": 1336.741,
+    "speaker": "ESTUDANTE",
+    "text": "O SIA também pode ser combinado com outros sistemas, certo?"
+  },
+  {
+    "start": 1336.741,
+    "end": 1368.181,
+    "speaker": "APRESENTADORA",
+    "text": "Pode. O CNES ajuda a caracterizar os serviços; o SIH amplia a leitura para internações; outras fontes podem acrescentar desfechos, agravos ou denominadores. Mas não precisamos aprofundar cada integração aqui. A regra central é definir antes se a unidade final será procedimento, autorização, pessoa, tratamento, estabelecimento ou trajetória, e harmonizar território e período."
+  },
+  {
+    "start": 1368.181,
+    "end": 1371.701,
+    "speaker": "ESTUDANTE",
+    "text": "E se eu quero uma taxa municipal, uso residência."
+  },
+  {
+    "start": 1371.701,
+    "end": 1385.78,
+    "speaker": "APRESENTADORA",
+    "text": "Em geral, sim, se a taxa se refere à população residente. Para produção do serviço localizado no município, use ocorrência ou estabelecimento. A pergunta manda no campo."
+  },
+  {
+    "start": 1385.78,
+    "end": 1387.941,
+    "speaker": "ESTUDANTE",
+    "text": "Quais indicadores clássicos vêm do SIA?"
+  },
+  {
+    "start": 1388.75,
+    "end": 1408.67,
+    "speaker": "APRESENTADORA",
+    "text": "Produção ambulatorial por procedimento, taxa de procedimento por residentes, valor médio aprovado por procedimento, proporção por grupo SIGTAP, produção fora do município de residência, produção de alta complexidade, concentração por estabelecimento e fluxos assistenciais."
+  },
+  {
+    "start": 1408.67,
+    "end": 1410.509,
+    "speaker": "ESTUDANTE",
+    "text": "Mas nomes importam."
+  },
+  {
+    "start": 1410.509,
+    "end": 1432.19,
+    "speaker": "APRESENTADORA",
+    "text": "Muito. Chame o indicador pelo que ele mede. Valor aprovado não é custo real. Produção aprovada não é necessidade atendida. Procedimentos por mil residentes não são pessoas cobertas. Produção fora do município sugere deslocamento, mas não mede sozinha barreira de acesso."
+  },
+  {
+    "start": 1432.19,
+    "end": 1435.309,
+    "speaker": "ESTUDANTE",
+    "text": "Quais são as principais limitações do SIA?"
+  },
+  {
+    "start": 1435.309,
+    "end": 1461.79,
+    "speaker": "APRESENTADORA",
+    "text": "Cobertura restrita ao SUS, finalidade administrativa e financeira, mudanças no SIGTAP, heterogeneidade de instrumentos, valores aprovados que não representam custo econômico total, dificuldade de identificar pessoa única em bases públicas, produção rejeitada separada e dependência de informações do CNES para caracterizar a rede."
+  },
+  {
+    "start": 1461.79,
+    "end": 1465.55,
+    "speaker": "ESTUDANTE",
+    "text": "Então limite não é defeito; é condição de uso."
+  },
+  {
+    "start": 1465.55,
+    "end": 1478.35,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O SIA continua sendo uma fonte ampla, mensal, nacional e muito rica. O problema não é ele ter limites. É fingir que eles não existem."
+  },
+  {
+    "start": 1478.35,
+    "end": 1480.59,
+    "speaker": "ESTUDANTE",
+    "text": "Dá para resumir os erros mais comuns?"
+  },
+  {
+    "start": 1480.59,
+    "end": 1520.79,
+    "speaker": "APRESENTADORA",
+    "text": "Dá. Primeiro: contar linhas como procedimentos sem verificar quantidade aprovada. Segundo: contar procedimentos como pessoas. Terceiro: misturar BPA-C, BPA-I, APAC e RAAS sem regra de harmonização. Quarto: ignorar vigência do SIGTAP. Quinto: usar ocorrência quando a taxa exige residência. Sexto: interpretar valor aprovado como custo. Sétimo: não validar totais contra uma fonte agregada, como o TabNet."
+  },
+  {
+    "start": 1520.79,
+    "end": 1525.95,
+    "speaker": "ESTUDANTE",
+    "text": "E talvez um oitavo: começar pelo download antes de formular a pergunta."
+  },
+  {
+    "start": 1526.2,
+    "end": 1543.639,
+    "speaker": "APRESENTADORA",
+    "text": "Esse é excelente. Em bases grandes, a tentação é baixar tudo e descobrir depois. Mas com SIA, a pergunta precisa vir antes. Ela define instrumento, período, território, códigos, unidade de análise e validações."
+  },
+  {
+    "start": 1543.639,
+    "end": 1549.4,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar à cena inicial. Como fica aquele mapa de mamografias depois de tudo isso?"
+  },
+  {
+    "start": 1549.4,
+    "end": 1571.96,
+    "speaker": "APRESENTADORA",
+    "text": "Ele passa a ter um nome mais preciso: taxa de mamografias bilaterais para rastreamento aprovadas, por população feminina residente de 50 a 69 anos, no período definido. A análise registra a competência do SIGTAP, valida os totais e deixa claro que não identificou mulheres únicas."
+  },
+  {
+    "start": 1571.96,
+    "end": 1577.56,
+    "speaker": "ESTUDANTE",
+    "text": "Menos chamativo que “cobertura de mamografia”, mas muito mais correto e útil."
+  },
+  {
+    "start": 1577.56,
+    "end": 1595.48,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E o caminho até essa frase resume o capítulo: qual instrumento? Qual unidade? Qual território? Qual competência? Qual código? Qual campo foi somado? Qual validação foi feita? Qual limite acompanha o resultado?"
+  },
+  {
+    "start": 1595.48,
+    "end": 1600.6,
+    "speaker": "ESTUDANTE",
+    "text": "Então, antes de clicar em baixar, a gente respira e escreve a pergunta."
+  },
+  {
+    "start": 1600.6,
+    "end": 1626.28,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O SIA é uma fonte poderosa para estudar a produção ambulatorial financiada pelo SUS, mas sua potência depende de respeitar sua lógica: produção não é pessoa; quantidade aprovada não é linha; valor aprovado não é custo; residência e ocorrência respondem perguntas diferentes; e cada instrumento tem sua própria unidade."
+  },
+  {
+    "start": 1626.28,
+    "end": 1632.2,
+    "speaker": "ESTUDANTE",
+    "text": "A base deixa de ser só uma planilha e passa a mostrar a arquitetura da produção ambulatorial do SUS."
+  },
+  {
+    "start": 1632.2,
+    "end": 1649.88,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Quando a pergunta, a unidade e o método estão claros, o SIA transforma produção administrativa em evidência útil sem prometer mais do que o dado consegue dizer. Obrigada pela companhia, e até o próximo episódio!"
+  }
 ]

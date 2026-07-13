@@ -446,6 +446,41 @@
       "type": "alias",
       "string_to_replace": "ICSAP",
       "alias": "icsápi"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SICAPS",
+      "alias": "sicáps"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "BPA-C",
+      "alias": "bê pê á cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "BPA-I",
+      "alias": "bê pê á i"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "BPA",
+      "alias": "bê pê á"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "APAC",
+      "alias": "apáqui"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "RAAS",
+      "alias": "rás"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PA_QTDAPR",
+      "alias": "pê a, quantidade aprovada"
     }
   ]
 }
