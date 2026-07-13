@@ -8,15 +8,19 @@
 
 **Tom:** natural, conversado e didático
 
-**Duração:** 28 minutos e 22 segundos
+**Duração:** 26 minutos e 47 segundos
+
+## Arco narrativo
+
+O episódio acompanha uma notificação fictícia desde a suspeita inicial até a investigação e o encerramento. Ao longo do caminho, diferencia registro, caso e pessoa; discute datas, território e qualidade; e retorna à notificação inicial para mostrar o que pode ser afirmado com segurança.
 
 ## Roteiro
 
-**APRESENTADORA:** [warmly] Olá. Hoje a gente vai entrar em um dos sistemas mais importantes da vigilância epidemiológica no Brasil: o SINAN, o Sistema de Informação de Agravos de Notificação.
+**APRESENTADORA:** [warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SINAN, o Sistema de Informação de Agravos de Notificação, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma notificação desde a suspeita inicial até o encerramento da investigação.
 
 **ESTUDANTE:** [curious] Eu conheço o SINAN de nome, principalmente por causa de dengue, violência, tuberculose... mas confesso que sempre fico com uma dúvida básica: ele registra casos ou notificações?
 
-**APRESENTADORA:** [thoughtful] Essa é a melhor pergunta para começar. Porque o grande ponto do capítulo é exatamente esse: o SINAN não é apenas uma lista de casos confirmados. Ele registra o processo de notificação, investigação, confirmação, descarte, acompanhamento e encerramento.
+**APRESENTADORA:** [thoughtful] Essa é a melhor pergunta para começar. O SINAN não é apenas uma lista de casos confirmados. Ele registra um processo: notificação, investigação, confirmação ou descarte, acompanhamento e encerramento. No fim do episódio, vamos voltar ao nosso registro inicial e perguntar o que ele realmente permite contar.
 
 **ESTUDANTE:** [engaged] Então, se eu abro uma base do SINAN e conto as linhas, eu não estou necessariamente contando pessoas doentes.
 
@@ -208,7 +212,7 @@
 
 **ESTUDANTE:** [thinking] Em bases recentes, ainda há casos sem encerramento.
 
-**APRESENTADORA:** [thoughtful] Sim. Por isso monitoramento oportuno de dengue pode precisar de correção de atraso, como nowcasting. O InfoDengue, por exemplo, trabalha justamente com a ideia de reduzir efeitos do atraso de notificação.
+**APRESENTADORA:** [thoughtful] Sim. Por isso, o monitoramento oportuno de dengue pode precisar de projeções que corrijam o atraso de notificação. O InfoDengue, por exemplo, trabalha justamente com a ideia de reduzir esse efeito.
 
 **ESTUDANTE:** [curious] E arboviroses em geral?
 
@@ -234,29 +238,17 @@
 
 **APRESENTADORA:** [warmly] Sim. No SINAN, documentação é método. Sem ela, a análise vira tentativa e erro.
 
-**ESTUDANTE:** [curious] E as formas de acesso? TabNet, TabWin, DBC, OpenDataSUS, R, Python, PCDaS...
+**ESTUDANTE:** [curious] A ferramenta de acesso muda o significado do dado?
 
-**APRESENTADORA:** [explaining] Cada caminho tem vantagens. TabNet é rápido para tabulações agregadas. TabWin e DBC permitem processamento local. R e Python ajudam em fluxos reprodutíveis. OpenDataSUS oferece bases abertas de alguns agravos. PCDaS permite análises em infraestrutura de notebooks. InfoDengue é muito útil para arboviroses com correção de atraso.
+**APRESENTADORA:** [explaining] A ferramenta pode mudar o formato e o nível de detalhe, mas não dispensa o método. O capítulo apresenta caminhos para tabulação e microdados. Em qualquer um deles, registre data de acesso, fonte, filtros, território, ano, agravo, layout, dicionário e versão do processamento. É isso que preserva a rastreabilidade.
 
-**ESTUDANTE:** [thinking] A forma de acesso muda a rastreabilidade.
+**ESTUDANTE:** [curious] E quando o SINAN é relacionado a outros sistemas?
 
-**APRESENTADORA:** [affirming] Sim. Em análises reprodutíveis, registre data de acesso, fonte, filtros, UF, ano, agravo, layout, dicionário e versão do script. Isso permite que outra pessoa entenda o caminho até o resultado.
+**APRESENTADORA:** [explaining] Outras fontes podem acrescentar óbitos, internações, produção assistencial, nascimentos, serviços ou denominadores. Não precisamos aprofundar cada integração aqui. O cuidado central é declarar se a unidade final será pessoa, caso, episódio ou notificação, porque isso define janela temporal, pareamento e deduplicação.
 
-**ESTUDANTE:** [curious] E quando relacionamos SINAN com outros sistemas?
+**ESTUDANTE:** [thinking] E também não posso substituir sistemas de vigilância específicos pelo SINAN só porque todos registram notificações.
 
-**APRESENTADORA:** [explaining] Aí o ganho é grande, mas o risco também. Com SIM, podemos qualificar óbitos. Com SIH, internações. Com SIA, produção ambulatorial. Com população, taxas. Com CNES, serviços notificadores. Com SINASC, eventos envolvendo gestação ou nascimento.
-
-**ESTUDANTE:** [engaged] Mas a unidade final precisa estar clara.
-
-**APRESENTADORA:** [affirming] Exatamente. Relacionar notificação com óbito, internação ou nascimento exige decidir se a unidade final será pessoa, caso, episódio, internação, óbito ou notificação. Isso define janela temporal, regra de pareamento e deduplicação.
-
-**ESTUDANTE:** [curious] O capítulo também diferencia SINAN e SIVEP. Onde costuma estar a confusão?
-
-**APRESENTADORA:** [explaining] Os dois são sistemas de vigilância, mas não são equivalentes. O SINAN organiza uma ampla lista de doenças e agravos. O SIVEP reúne componentes específicos, como SIVEP-Gripe para Síndrome Respiratória Aguda Grave e SIVEP-Malária para malária em áreas e fluxos específicos.
-
-**ESTUDANTE:** [thinking] Então, para SRAG, eu não devo substituir SIVEP-Gripe por notificações gerais do SINAN.
-
-**APRESENTADORA:** [firm] Exato. E para malária, é preciso considerar o território: na região amazônica, o fluxo é SIVEP-Malária; no SINAN, a cobertura é principalmente extra-amazônica.
+**APRESENTADORA:** [firm] Exato. Alguns eventos, como síndrome respiratória aguda grave e determinados fluxos de malária, têm sistemas próprios. A pergunta deve começar pela fonte adequada ao evento e ao território.
 
 **ESTUDANTE:** [curious] Quais indicadores aparecem com frequência no SINAN?
 
@@ -296,28 +288,20 @@
 
 **ESTUDANTE:** [engaged] Parece que o capítulo todo está ensinando uma postura.
 
-**APRESENTADORA:** [warmly] Sim. A postura é: antes de calcular, entenda o processo. Antes de comparar, harmonize. Antes de concluir, verifique a qualidade e declare as escolhas.
+**APRESENTADORA:** [thoughtful] Sim. Antes de calcular, entenda o processo. Antes de comparar, harmonize. Antes de concluir, verifique a qualidade e declare as escolhas.
 
-**ESTUDANTE:** [thinking] Vamos montar um checklist mental para alguém que acabou de baixar uma base do SINAN.
+**ESTUDANTE:** [curious] Qual seria o checklist mínimo para quem acabou de baixar uma base do SINAN?
 
-**APRESENTADORA:** [explaining] Primeiro: qual agravo? Segundo: qual fonte e data de acesso? Terceiro: qual ficha, versão e dicionário? Quarto: qual unidade de análise? Quinto: qual classificação final entra no numerador?
+**APRESENTADORA:** [explaining] Pergunte: qual agravo, fonte, data de acesso, ficha e dicionário? Qual é a unidade? Qual classificação entra no numerador? Qual data e qual território representam a pergunta? Como tratar duplicidades ou novos episódios? A base é recente ou consolidada? E quais limitações devem acompanhar o resultado?
 
-**ESTUDANTE:** [engaged] Sexto: qual data representa o tempo da análise.
+**ESTUDANTE:** [thinking] Vamos voltar à notificação do começo. Depois da investigação e do encerramento, o que aquela linha permite contar?
 
-**APRESENTADORA:** [affirming] Sétimo: qual território representa a pergunta. Oitavo: como lidar com duplicidades, reinfecções ou acompanhamentos. Nono: qual a completitude dos campos essenciais. Décimo: a base é recente ou consolidada?
+**APRESENTADORA:** [thoughtful] Se a classificação final confirmar o caso e os campos estiverem coerentes, ela pode compor um indicador de casos confirmados segundo a definição escolhida. Antes disso, ela representa uma notificação em investigação. E, sem deduplicação válida, continua sendo um registro, não necessariamente uma pessoa única.
 
-**ESTUDANTE:** [curious] E, por fim, quais limitações precisam aparecer no texto.
+**ESTUDANTE:** [engaged] Então o SINAN é uma espécie de memória operacional da vigilância.
 
-**APRESENTADORA:** [thoughtful] Exatamente. A análise não termina no número. Ela termina em uma interpretação honesta do que o número mede, do que ele não mede e de como foi produzido.
-
-**ESTUDANTE:** [engaged] Eu gostei dessa ideia de que o SINAN não é só uma base; é a memória operacional da vigilância.
-
-**APRESENTADORA:** [warmly] É uma boa síntese. Ele mostra suspeitas, investigações, confirmações, descartes, atrasos, fluxos e respostas. Quando bem analisado, permite enxergar não apenas a doença, mas a capacidade do sistema de saúde de perceber e reagir.
+**APRESENTADORA:** [affirming] É uma boa síntese. Ele mostra suspeitas, investigações, confirmações, descartes, atrasos, fluxos e respostas. Quando bem analisado, permite enxergar não apenas o agravo, mas a capacidade do sistema de saúde de perceber e reagir.
 
 **ESTUDANTE:** [curious] Se eu tivesse que guardar uma frase deste episódio, qual seria?
 
-**APRESENTADORA:** [thoughtful] Guarde esta: no SINAN, contar bem é contar com contexto. Cada indicador precisa declarar unidade de análise, definição de caso, data, território, fonte, dicionário e estágio da investigação.
-
-**ESTUDANTE:** [warmly] E quando esses elementos estão claros, o SINAN vira uma ferramenta muito poderosa para a saúde pública.
-
-**APRESENTADORA:** [affirming] Exatamente. Esse é o equilíbrio: reconhecer limitações sem desperdiçar o potencial de uma das principais fontes da vigilância epidemiológica brasileira.
+**APRESENTADORA:** [warmly] No SINAN, contar bem é contar com contexto. Cada indicador precisa declarar unidade, definição de caso, data, território, fonte, dicionário e estágio da investigação. Obrigada pela companhia, e até o próximo episódio!

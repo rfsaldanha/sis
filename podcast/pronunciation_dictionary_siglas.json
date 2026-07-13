@@ -481,6 +481,11 @@
       "type": "alias",
       "string_to_replace": "PA_QTDAPR",
       "alias": "pê a, quantidade aprovada"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "InfoDengue",
+      "alias": "info dengue"
     }
   ]
 }
