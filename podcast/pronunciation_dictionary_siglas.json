@@ -486,6 +486,11 @@
       "type": "alias",
       "string_to_replace": "InfoDengue",
       "alias": "info dengue"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "GeoCNES",
+      "alias": "geo cenés"
     }
   ]
 }
