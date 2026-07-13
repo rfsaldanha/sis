@@ -1088,5 +1088,75 @@
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>SINASC -- Sistema de Informação sobre Nascidos Vivos</span>"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sistemas de Informação em Saúde no Brasil",
+    "section": "",
+    "text": "Bem-vindo\nEste e-book apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.\nO material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "index.html#o-que-você-encontra-neste-livro",
+    "href": "index.html#o-que-você-encontra-neste-livro",
+    "title": "Sistemas de Informação em Saúde no Brasil",
+    "section": "O que você encontra neste livro",
+    "text": "O que você encontra neste livro\nOs capítulos iniciais apresentam conceitos gerais, a trajetória brasileira de implantação dos SIS e a forma como os sistemas se organizam em torno de eventos de saúde, como nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações, imunizações e registros de estabelecimentos.\nEm seguida, cada sistema é descrito com foco em quatro perguntas práticas:\n\nQual evento de saúde o sistema registra?\nQual é sua cobertura e unidade de análise?\nComo os dados são coletados, processados e disseminados?\nQue usos, cuidados e limitações devem ser considerados na análise?",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "index.html#bibtex",
+    "href": "index.html#bibtex",
+    "title": "Sistemas de Informação em Saúde no Brasil",
+    "section": "BibTeX",
+    "text": "BibTeX\n@book{saldanha_sis_brasil,\n  author = {Saldanha, Raphael de Freitas},\n  title = {Sistemas de Informação em Saúde no Brasil},\n  url = {https://rfsaldanha.github.io/sis/},\n  isbn = {978-65-01-37841-1},\n  note = {E-book}\n}",
+    "crumbs": [
+      "Bem-vindo"
+    ]
+  },
+  {
+    "objectID": "introducao.html",
+    "href": "introducao.html",
+    "title": "1  Introdução",
+    "section": "",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.\nA disponibilidade oportuna de dados confiáveis é essencial para a tomada de decisão em saúde. Sistemas de vigilância, planejamento, financiamento, regulação, assistência e avaliação dependem de registros capazes de descrever o que acontece com a população e com os serviços. Nesse contexto, os Sistemas de Informação em Saúde (SIS) são componentes centrais dos sistemas de saúde e também integram redes mais amplas de estatísticas nacionais e internacionais (ABOUZAHR; BOERMA, 2005; WHO, 2008).\nO emprego do termo “sistema” indica um processo organizado, composto por instrumentos, pessoas, normas, tecnologias, fluxos e usos. Um SIS, portanto, não se resume a um banco de dados. Ele envolve a definição do evento a ser registrado, os formulários ou interfaces de entrada, as regras de validação, os caminhos de transmissão, as rotinas de consolidação, as formas de acesso e as práticas de análise que transformam registros em informação útil.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "introducao.html#sistemas-contextos-e-usos",
+    "href": "introducao.html#sistemas-contextos-e-usos",
+    "title": "1  Introdução",
+    "section": "1.1 Sistemas, contextos e usos",
+    "text": "1.1 Sistemas, contextos e usos\nA organização dos SIS varia entre países e também ao longo do tempo. Sua implantação costuma responder a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas específicas. Por isso, compreender o contexto de criação e evolução de cada sistema é indispensável para interpretar suas possibilidades e limitações (WHO, 2008).\nNo Brasil, os SIS buscam cobrir diferentes eventos de saúde que ocorrem durante o ciclo de vida da população, bem como eventos relacionados à organização e ao funcionamento do próprio sistema de saúde. Entre esses eventos estão nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias.\nA Figura 1.1 apresenta as siglas de alguns dos principais SIS existentes no Brasil.\n\n\n\n\n\n\nFigura 1.1: Sistemas de informação e o ciclo de vida do cidadão",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "introducao.html#dados-informação-e-conhecimento",
+    "href": "introducao.html#dados-informação-e-conhecimento",
+    "title": "1  Introdução",
+    "section": "1.2 Dados, informação e conhecimento",
+    "text": "1.2 Dados, informação e conhecimento\nPara utilizar adequadamente os SIS, é fundamental distinguir dado, informação e conhecimento. O dado é o elemento mais simples do sistema: um registro delimitado de uma ocorrência, como uma data, um código de município, uma causa de óbito, um procedimento realizado ou uma dose de vacina aplicada. Isolado, o dado descreve apenas uma parte do real.\nA informação surge quando os dados são organizados, analisados e interpretados em relação a uma pergunta ou necessidade concreta. Uma contagem de óbitos por município, uma taxa de internação por faixa etária ou a proporção de casos confirmados entre notificações suspeitas já expressam algum nível de processamento e interpretação.\nO conhecimento, por sua vez, depende da articulação entre informações, contexto, experiência e reflexão. É a partir dele que se formulam explicações, hipóteses, prioridades de ação, avaliações de desempenho e decisões de gestão (ROUQUAYROL; SILVA, 2018; SIQUEIRA, 2005).\nAssim, os Sistemas de Informação em Saúde podem ser entendidos como mecanismos de coleta, processamento, análise e transmissão da informação necessária para planejar, organizar, operar e avaliar os serviços de saúde (WHO, 2000). Sua utilidade depende tanto da qualidade dos registros quanto da capacidade de interpretar esses registros de acordo com a pergunta em análise.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "introducao.html#escopo-do-livro",
+    "href": "introducao.html#escopo-do-livro",
+    "title": "1  Introdução",
+    "section": "1.3 Escopo do livro",
+    "text": "1.3 Escopo do livro\nO objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.\nAo longo dos capítulos, cada sistema é tratado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação. A intenção é apoiar uma leitura crítica dos dados em saúde, evitando tanto a subutilização das bases disponíveis quanto interpretações que desconsiderem seus processos de produção.\n\n\n\n\nABOUZAHR, C.; BOERMA, T. Health Information Systems: The Foundations of Public Health. Bulletin of the World Health Organization, 2005.\n\n\nLIPPEVELD, T. Routine Health Information Systems: The Glue of a Unified Health System. Keynotes Address. Anais...Washington: Workshop on Issues; Innovation in Routine Health Information in Developing Countries, 2001.\n\n\nROUQUAYROL, M. Z.; SILVA, M. G. C. DA. Epidemiologia e saúde. 8. ed. Rio de Janeiro: Medbook, 2018.\n\n\nSIQUEIRA, M. C. Gestão estratégica da informação. Rio de Janeiro: Brasport, 2005.\n\n\nWHO. The world health report 2000: health systems, improving performance. Geneva: World Health Organization, 2000.\n\n\nWHO. Framework and Standards for Country Health Information Systems. 2. ed. Genebra: [s.n.].",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
   }
 ]
