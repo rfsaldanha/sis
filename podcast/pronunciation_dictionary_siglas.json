@@ -491,6 +491,31 @@
       "type": "alias",
       "string_to_replace": "GeoCNES",
       "alias": "geo cenés"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "Vigiagua",
+      "alias": "vigi água"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "Funasa",
+      "alias": "funása"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "Escherichia coli",
+      "alias": "esqueríquia cóli"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "E. coli",
+      "alias": "é cóli"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "pH",
+      "alias": "pê agá"
     }
   ]
 }

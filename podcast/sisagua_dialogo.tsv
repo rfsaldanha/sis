@@ -1,6 +1,6 @@
-APRESENTADORA	[warmly] Olá. Hoje a conversa é sobre o SISAGUA, o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano. E a ideia central é simples, mas poderosa: o SISAGUA não registra doenças. Ele ajuda a enxergar riscos ligados à água que a população consome.
+APRESENTADORA	[warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SISAGUA, o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, imagine um município rural cujo relatório não mostra resultado fora do padrão. Isso significa que a água está segura?
 ESTUDANTE	[curious] Então ele não é como o SINAN, que registra notificações de agravos, nem como o SIH, que registra internações. Ele olha para a água e para o abastecimento.
-APRESENTADORA	[affirming] Exatamente. Ele descreve formas de abastecimento, monitoramento da qualidade da água, resultados de controle e ações de vigilância. É uma base ambiental e sanitária, não uma base clínica.
+APRESENTADORA	[affirming] Exatamente. O SISAGUA não registra doenças; ele ajuda a enxergar riscos ligados à água consumida pela população. Descreve formas de abastecimento, monitoramento, resultados de controle e ações de vigilância. É uma base ambiental e sanitária, não uma base clínica. No fim do episódio, vamos voltar ao município e decidir o que aquele silêncio realmente permite afirmar.
 ESTUDANTE	[thinking] Isso já muda a pergunta. Em vez de perguntar "quem adoeceu?", eu pergunto "como a água está sendo abastecida, monitorada e avaliada?"
 APRESENTADORA	[explaining] Perfeito. E essa diferença é essencial para não forçar o dado além do que ele mede. O SISAGUA apoia a vigilância, a gestão de risco e a prevenção de doenças de veiculação hídrica.
 ESTUDANTE	[curious] O sistema está ligado ao Vigiagua, certo?
@@ -111,18 +111,12 @@ ESTUDANTE	[engaged] E as emergências? Denúncia, surto, enchente, seca, desastr
 APRESENTADORA	[explaining] Nessas situações, as coletas podem ser direcionadas a locais de maior risco. Isso é excelente para resposta em saúde pública, mas dificulta comparar com rotina.
 ESTUDANTE	[thinking] Uma série com muitas coletas motivadas por denúncia pode parecer pior porque procurou problemas.
 APRESENTADORA	[affirming] Exatamente. A vigilância fica mais sensível ao risco. Isso precisa ser registrado, não tratado como viés inconveniente a ser ignorado.
-ESTUDANTE	[curious] Como os dados são acessados?
-APRESENTADORA	[explaining] Há dados abertos, relatórios do sistema, painéis Vigiagua ou SISAGUA, webservices e integração com o GAL, o Gerenciador de Ambiente Laboratorial.
-ESTUDANTE	[engaged] Para pesquisa reprodutível, dados abertos são importantes.
-APRESENTADORA	[affirming] Sim, mas podem ser grandes. Em séries extensas, planilhas comuns podem ser insuficientes. É melhor usar R, Python, DuckDB, Arrow, Polars ou banco de dados.
-ESTUDANTE	[curious] E a forma de acesso muda a análise?
-APRESENTADORA	[explaining] Pode mudar granularidade, atualização, campos disponíveis e dicionário. Por isso, sempre registre fonte, data de extração, módulo, período, território, forma de abastecimento, parâmetro, ponto de coleta, norma e origem do dado.
+ESTUDANTE	[curious] A forma de acesso muda a análise?
+APRESENTADORA	[explaining] Pode mudar granularidade, atualização, campos disponíveis e dicionário. O capítulo apresenta dados abertos, relatórios, painéis e integrações laboratoriais. Seja qual for o caminho, registre fonte, data de extração, módulo, período, território, forma de abastecimento, parâmetro, ponto de coleta, norma e origem do dado.
 ESTUDANTE	[thinking] Isso parece burocrático, mas é o que torna a análise auditável.
 APRESENTADORA	[affirming] Exatamente. No SISAGUA, duas análises podem chegar a resultados diferentes se escolherem módulos, parâmetros ou regras de ausentes de forma diferente.
-ESTUDANTE	[curious] Com que outros sistemas o SISAGUA pode ser relacionado?
-APRESENTADORA	[explaining] Com POP para população residente, com SINAN ou SIH para doenças de veiculação hídrica, com CNES para serviços e laboratórios, com malhas territoriais, saneamento, dados socioeconômicos e registros de desastre.
-ESTUDANTE	[engaged] Mas é preciso evitar inferência causal simples.
-APRESENTADORA	[firm] Sim. Associar água e doenças em dados agregados exige muito cuidado. O SISAGUA pode indicar exposição potencial e qualidade monitorada; ele não identifica consumo individual nem prova causalidade.
+ESTUDANTE	[curious] O SISAGUA pode ser relacionado a população, doenças, serviços, saneamento e registros de desastre?
+APRESENTADORA	[firm] Pode, mas não precisamos aprofundar cada integração aqui. A regra central é evitar inferência causal simples: o SISAGUA indica exposição potencial e qualidade monitorada; ele não identifica consumo individual nem prova causalidade.
 ESTUDANTE	[thinking] Por exemplo, um município com resultado fora do padrão e aumento de diarreia pode levantar hipótese, mas não fechar causalidade.
 APRESENTADORA	[affirming] Perfeito. É um sinal para investigação, não uma sentença causal automática.
 ESTUDANTE	[curious] Quais limitações são mais importantes?
@@ -153,7 +147,9 @@ ESTUDANTE	[curious] E como comunicar resultados sem exagerar?
 APRESENTADORA	[explaining] Use frases precisas. Diga "amostras registradas", "formas de abastecimento cadastradas", "população estimada abastecida", "resultados fora do padrão" e "ausência de amostra". Evite dizer "a água do município é segura" se você não avaliou cobertura de monitoramento e representatividade.
 ESTUDANTE	[engaged] A linguagem evita conclusões indevidas.
 APRESENTADORA	[affirming] Exatamente. No SISAGUA, uma boa redação protege a interpretação tanto quanto uma boa tabela.
-ESTUDANTE	[curious] Qual é a mensagem central do capítulo?
-APRESENTADORA	[thoughtful] O SISAGUA é uma base fundamental para entender abastecimento, monitoramento e risco sanitário da água para consumo humano. Ele não mede doença diretamente, mas ajuda a prevenir adoecimento ao revelar onde há monitoramento, inconformidade, lacuna ou risco.
-ESTUDANTE	[warmly] E a pergunta não é só "deu fora do padrão?", mas "foi monitorado, em que ponto, por quem, com qual parâmetro, em qual forma de abastecimento e sob qual norma?"
-APRESENTADORA	[warmly] Exatamente. Quando essas perguntas acompanham a análise, o SISAGUA deixa de ser apenas uma base de resultados laboratoriais e se torna uma ferramenta de vigilância, gestão e proteção da saúde pública.
+ESTUDANTE	[curious] Vamos voltar ao município do começo. Se não houve resultado fora do padrão, a água está segura?
+APRESENTADORA	[thoughtful] Só podemos responder depois de verificar se houve amostragem suficiente, em quais formas de abastecimento, pontos e parâmetros, e sob qual norma. Se não houve amostra registrada, o silêncio indica falta de informação, não segurança.
+ESTUDANTE	[engaged] Então a pergunta não é apenas “deu fora do padrão?”, mas “foi monitorado, onde, por quem e com qual representatividade?”
+APRESENTADORA	[affirming] Exatamente. O SISAGUA não mede doença diretamente, mas ajuda a prevenir adoecimento ao revelar monitoramento, inconformidade, lacuna e risco.
+ESTUDANTE	[thinking] Quando essas camadas estão claras, o dado laboratorial ganha sentido de vigilância.
+APRESENTADORA	[warmly] Essa é a melhor síntese. O SISAGUA transforma cadastro e monitoramento em uma ferramenta de gestão e proteção da saúde pública, desde que a ausência de dado nunca seja confundida com ausência de risco. Que esse cuidado acompanhe cada mapa e indicador: antes de concluir que a água está segura, confirme se o território foi realmente observado. Obrigada pela companhia, e até o próximo episódio!
