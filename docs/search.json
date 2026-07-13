@@ -1158,5 +1158,255 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
     ]
+  },
+  {
+    "objectID": "sisaps.html",
+    "href": "sisaps.html",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#resumo",
+    "href": "sisaps.html#resumo",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.1 Resumo",
+    "text": "13.1 Resumo\n\nCaracterísticas gerais do SISAPS/Siaps e do SISAB\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nSistema atual\nSISAPS/Siaps, em implantação progressiva\n\n\nSistema anterior\nSISAB, instituído em 2013\n\n\nÁrea temática\nAtenção Primária à Saúde (APS)\n\n\nFontes de registro\nEstratégia e-SUS APS, incluindo PEC, CDS e aplicativos\n\n\nUnidade de análise\nEquipe, estabelecimento, município, região de saúde, UF, competência e indicador\n\n\nPeriodicidade\nMensal, com prazos de envio definidos em calendário da APS\n\n\nUso central\nGestão, monitoramento, cofinanciamento e avaliação da APS\n\n\n\nO Sistema de Informação para a Atenção Primária à Saúde (Siaps), referido neste livro pela sigla SISAPS, substitui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) e organiza informações estratégicas da Atenção Primária à Saúde (APS). O capítulo aborda a transição entre os dois sistemas, necessária para interpretar tanto as séries históricas quanto os dados atuais.\nO SISAPS/Siaps não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, incluindo cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal.\n\n\n\n\n\n\nNota\n\n\n\nTerminologia. O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, “Sistema de Informação para a Atenção Primária à Saúde”. Neste livro, o título usa SISAPS para explicitar a sigla solicitada e o escopo temático, mas as referências oficiais podem aparecer como Siaps.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#quando-usar-o-sisaps",
+    "href": "sisaps.html#quando-usar-o-sisaps",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.2 Quando usar o SISAPS",
+    "text": "13.2 Quando usar o SISAPS\nUse o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS.\n\nPerguntas comuns que podem ser respondidas com SISAPS/SISAB\n\n\n\n\n\n\n\nPergunta de análise\nUsar SISAPS/SISAB para\nCuidado principal\n\n\n\n\nComo está a produção da APS?\nConsultar atendimentos, procedimentos, visitas e atividades coletivas\nProdução registrada não equivale à necessidade da população\n\n\nComo acompanhar indicadores de APS?\nMonitorar indicadores de cofinanciamento e desempenho\nVerificar regras de cálculo e competência\n\n\nQual é a cobertura cadastral?\nAnalisar cadastros e vínculos territoriais\nCadastro pode estar desatualizado ou duplicado\n\n\nComo avaliar equipes?\nComparar indicadores por equipe, município ou UF\nEquipes têm composição, território e contexto diferentes\n\n\nComo acompanhar pré-natal, vacinas ou condições crônicas na APS?\nUsar relatórios e indicadores específicos\nEventos podem aparecer também em outros sistemas\n\n\nComo relacionar oferta e produção?\nCombinar com CNES (Capítulo 10) e SIA (Capítulo 8)\nAlinhar equipe, estabelecimento, competência e território\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nO sistema apoia gestão da APS, mas não substitui prontuário clínico, auditoria de qualidade do cuidado ou inquéritos populacionais. A interpretação deve considerar registro, envio, validação e regras de processamento.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#histórico-e-transição",
+    "href": "sisaps.html#histórico-e-transição",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.3 Histórico e transição",
+    "text": "13.3 Histórico e transição\nO SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, como sistema oficial da Atenção Básica para fins de financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo Sistema de Informação da Atenção Básica (SIAB) e passou a ser alimentado pela estratégia e-SUS Atenção Primária à Saúde (e-SUS APS).\nA partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde.\nEm 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o SISAPS/Siaps.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#arquitetura-da-informação",
+    "href": "sisaps.html#arquitetura-da-informação",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.4 Arquitetura da informação",
+    "text": "13.4 Arquitetura da informação\nO SISAPS/Siaps integra informações oriundas da estratégia e-SUS APS. Os registros são produzidos no processo de trabalho das equipes e depois enviados para consolidação nacional.\n\n\n\n\n\n\nflowchart TD\n  equipe[Equipe de APS] --&gt; registro[Registro no PEC, CDS ou aplicativo]\n  registro --&gt; esus[e-SUS APS local]\n  esus --&gt; envio[Envio mensal ao repositório nacional]\n  envio --&gt; sisaps[SISAPS/Siaps]\n  sisaps --&gt; rel[Relatórios e indicadores]\n  rel --&gt; gest[Gestão, cofinanciamento e avaliação]\n\n\n\n\nFigura 13.1: Fluxo simplificado de informação da APS\n\n\n\n\n\n\nComponentes do fluxo informacional da APS\n\n\n\n\n\n\n\nComponente\nPapel\nCuidado\n\n\n\n\nPEC\nRegistro clínico e administrativo no prontuário eletrônico\nDepende de implantação local e uso adequado\n\n\nCDS\nColeta simplificada de dados\nPode ser usado em cenários com menor informatização\n\n\nAplicativos\nRegistro territorial e atividades específicas\nConferir integração e competência de envio\n\n\ne-SUS APS\nEstratégia de registro e envio da APS\nAtrasos e inconsistências afetam indicadores\n\n\nSISAPS/Siaps\nConsolidação, relatórios e indicadores\nResultado depende das regras de processamento",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#unidade-de-análise",
+    "href": "sisaps.html#unidade-de-análise",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.5 Unidade de análise",
+    "text": "13.5 Unidade de análise\nA unidade de análise varia conforme o relatório ou indicador. Antes de comparar resultados, defina se a pergunta é sobre pessoas cadastradas, atendimentos, procedimentos, equipes, estabelecimentos, municípios ou indicadores.\n\nUnidades de análise frequentes no SISAPS/SISAB\n\n\n\n\n\n\n\n\nUnidade\nO que representa\nQuando usar\nCuidado\n\n\n\n\nPessoa cadastrada\nUsuário vinculado ao território/equipe\nCobertura cadastral e acompanhamento\nCadastro não equivale a uso efetivo\n\n\nAtendimento\nContato individual registrado\nProdução assistencial da APS\nUm usuário pode ter vários atendimentos\n\n\nProcedimento\nAção ou procedimento registrado\nVolume de ações realizadas\nPode depender de regra local de registro\n\n\nVisita domiciliar\nAtividade no domicílio ou território\nAcompanhamento territorial\nNão mede qualidade da visita\n\n\nAtividade coletiva\nAção coletiva registrada\nPromoção, prevenção e educação em saúde\nPúblico-alvo e tema devem ser considerados\n\n\nEquipe\neSF, eAP, eSB ou outras equipes\nMonitoramento e cofinanciamento\nEquipes podem mudar composição e credenciamento\n\n\nMunicípio/UF\nAgregação territorial\nComparações e gestão\nDiferenças de porte e rede afetam interpretação\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nNão some cadastros, atendimentos, procedimentos e indicadores como se fossem a mesma unidade. Cada relatório responde a uma pergunta diferente.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#identificadores-de-equipe",
+    "href": "sisaps.html#identificadores-de-equipe",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.6 Identificadores de equipe",
+    "text": "13.6 Identificadores de equipe\nAnálises da APS dependem de identificadores que mudam no tempo. O código CNES identifica o estabelecimento, enquanto o INE identifica a equipe. Uma mesma unidade pode ter várias equipes, e uma equipe pode passar por mudanças de composição, credenciamento, suspensão ou desativação.\n\nIdentificadores essenciais para análises da APS\n\n\n\n\n\n\n\n\nIdentificador\nO que representa\nUso\nCuidado\n\n\n\n\nCNES\nEstabelecimento de saúde\nRelacionar APS com estrutura da rede\nUnidade pode mudar de tipo, gestão ou vínculo\n\n\nINE\nIdentificador Nacional de Equipe\nAcompanhar produção, cadastro e indicadores por equipe\nEquipe pode mudar situação, composição ou estabelecimento\n\n\nTipo de equipe\neSF, eAP, eSB e outras modalidades\nEstratificar comparações\nTipos de equipe têm atribuições e parâmetros diferentes\n\n\nCompetência\nMês de referência\nConstruir séries temporais\nCNES, INE e regras podem mudar entre competências\n\n\nTerritório\nÁrea adscrita, município, região ou UF\nAnalisar vínculo e cobertura\nTerritório de acompanhamento não é sempre território de residência\n\n\n\n\nlibrary(dplyr)\n\nhistorico_equipes &lt;- sisaps_equipes |&gt;\n  group_by(ine) |&gt;\n  summarise(\n    primeira_competencia = min(competencia, na.rm = TRUE),\n    ultima_competencia = max(competencia, na.rm = TRUE),\n    n_cnes = n_distinct(cnes, na.rm = TRUE),\n    n_tipos = n_distinct(tipo_equipe, na.rm = TRUE),\n    .groups = \"drop\"\n  )\n\nhistorico_equipes\n\n\n\n\n\n\n\nDica\n\n\n\nPara comparar equipes, monte primeiro um painel por INE, CNES, tipo de equipe e competência. Isso evita atribuir produção ou indicadores a equipes que mudaram de situação ao longo da série.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#estrutura-dos-dados-e-relatórios",
+    "href": "sisaps.html#estrutura-dos-dados-e-relatórios",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.7 Estrutura dos dados e relatórios",
+    "text": "13.7 Estrutura dos dados e relatórios\nO SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o SISAPS/Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação.\n\nDimensões analíticas comuns na APS\n\n\n\n\n\n\n\nDimensão\nExemplos\nUso analítico\n\n\n\n\nCadastro\nPessoas, domicílios, famílias, vínculo territorial\nCobertura cadastral e população acompanhada\n\n\nProdução\nAtendimentos individuais, odontológicos, procedimentos, visitas\nVolume e perfil de ações da APS\n\n\nAtividades coletivas\nReuniões, ações educativas, PSE, grupos\nPromoção e prevenção em saúde\n\n\nPré-natal\nConsultas, acompanhamento, exames e indicadores\nMonitoramento do cuidado materno-infantil\n\n\nVacinas\nRegistros enviados pela APS quando aplicável\nAcompanhar registros integrados ao e-SUS APS\n\n\nIndicadores\nCofinanciamento, vínculo e acompanhamento territorial\nMonitoramento e repasses federais\n\n\nValidação\nInconsistências, processamento e envio\nQualidade dos dados enviados\n\n\n\n\n13.7.1 Campos e dimensões mínimas\n\nDimensões mínimas para análise de dados da APS\n\n\n\n\n\n\nDimensão\nPergunta de controle\n\n\n\n\nCompetência\nO mês de registro e envio corresponde ao período analisado?\n\n\nTerritório\nO município, UF, região ou equipe está correto?\n\n\nTipo de equipe\nA equipe é eSF, eAP, eSB ou outro tipo?\n\n\nIdentificador de estabelecimento\nO CNES está válido e compatível com a equipe?\n\n\nIndicador\nA regra de cálculo foi documentada?\n\n\nDenominador\nPopulação cadastrada, vinculada, estimada ou acompanhada?\n\n\nStatus de envio\nO dado foi enviado, processado e validado?\n\n\n\n\n\n13.7.2 Qual denominador usar?\nIndicadores da APS podem usar denominadores diferentes. A escolha do denominador muda a interpretação do resultado.\n\nDenominadores frequentes em análises da APS\n\n\n\n\n\n\n\n\nDenominador\nO que mede\nQuando usar\nCuidado\n\n\n\n\nPopulação cadastrada\nPessoas registradas no território/equipe\nCobertura cadastral e organização territorial\nPode haver cadastro duplicado ou desatualizado\n\n\nPopulação vinculada\nPessoas atribuídas a uma equipe ou território\nVínculo territorial e cofinanciamento\nDepende das regras vigentes de vinculação\n\n\nPopulação residente\nPessoas residentes no município ou área\nComparação populacional ampla\nUsar POP (Apêndice D) e ano compatível\n\n\nPopulação esperada\nEstimativa para grupo-alvo do indicador\nIndicadores de desempenho\nMétodo de estimativa deve ser documentado\n\n\nUsuários atendidos\nPessoas com atendimento registrado\nUso registrado da APS\nNão representa toda a população que precisa de cuidado\n\n\nEventos ou registros\nAtendimentos, visitas, procedimentos\nProdução e processo de trabalho\nUm usuário pode gerar múltiplos registros",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#indicadores-e-cofinanciamento",
+    "href": "sisaps.html#indicadores-e-cofinanciamento",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.8 Indicadores e cofinanciamento",
+    "text": "13.8 Indicadores e cofinanciamento\nO uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos.\n\nElementos de indicadores de cofinanciamento da APS\n\n\n\n\n\n\n\nElemento\nInterpretação\nCuidado\n\n\n\n\nIndicador de desempenho\nMedida sintética de processo ou acompanhamento\nRegras podem mudar entre ciclos\n\n\nVínculo territorial\nRelação entre pessoa, equipe e território\nCadastro duplicado ou desatualizado afeta denominador\n\n\nAcompanhamento\nRegistro de cuidado ou seguimento\nAusência de registro não é ausência de cuidado\n\n\nCofinanciamento\nUso de indicadores para repasses\nNão interpretar apenas como avaliação assistencial\n\n\nPrazo de envio\nData-limite para transmissão da competência\nAtrasos podem afetar cálculo e repasses\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nIndicadores de cofinanciamento são indicadores administrativos e de monitoramento. Eles podem apoiar avaliação da APS, mas precisam ser interpretados junto com contexto local, capacidade de registro, composição da equipe e perfil da população.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#vínculo-territorial",
+    "href": "sisaps.html#vínculo-territorial",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.9 Vínculo territorial",
+    "text": "13.9 Vínculo territorial\nO vínculo territorial organiza a relação entre pessoas, equipes e território adscrito. Ele é central para interpretar cobertura, acompanhamento e cofinanciamento, mas depende de cadastro atualizado e regras de vinculação.\n\nElementos do vínculo territorial na APS\n\n\n\n\n\n\n\nElemento\nInterpretação\nCuidado\n\n\n\n\nPessoa cadastrada\nIndivíduo registrado na base da APS\nPode estar desatualizado ou duplicado\n\n\nEquipe vinculada\nEquipe responsável pelo acompanhamento\nMudanças de equipe alteram séries\n\n\nTerritório\nÁrea de responsabilidade sanitária\nPode não coincidir com limites administrativos\n\n\nAcompanhamento\nRegistro de cuidado realizado pela equipe\nAusência de registro não prova ausência de cuidado\n\n\nIndicador\nMedida calculada a partir de numerador e denominador\nDenominador precisa ser explicitado\n\n\n\n\nlibrary(dplyr)\n\nvinculo_territorial &lt;- sisaps_cadastro |&gt;\n  group_by(codmun, ine, competencia) |&gt;\n  summarise(\n    pessoas_cadastradas = n_distinct(id_pessoa),\n    pessoas_vinculadas = sum(vinculo_valido == TRUE, na.rm = TRUE),\n    proporcao_vinculada = pessoas_vinculadas / pessoas_cadastradas,\n    .groups = \"drop\"\n  )\n\nvinculo_territorial",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#calendário-de-envio",
+    "href": "sisaps.html#calendário-de-envio",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.10 Calendário de envio",
+    "text": "13.10 Calendário de envio\nOs dados da APS são organizados por competência mensal. Para fins de monitoramento e cofinanciamento, o envio precisa respeitar o calendário oficial. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e alterar resultados quando a base é reprocessada.\n\nEtapas temporais do envio de dados da APS\n\n\n\n\n\n\n\nEtapa\nInterpretação\nCuidado\n\n\n\n\nRegistro\nInformação lançada no PEC, CDS ou aplicativo\nDepende do processo local de trabalho\n\n\nFechamento da competência\nEncerramento do mês de referência\nRegistros tardios podem ficar para outra competência\n\n\nEnvio\nTransmissão para a base nacional\nVerificar prazo oficial do mês\n\n\nProcessamento\nCríticas, validações e consolidação\nRegistros podem ser rejeitados ou reprocessados\n\n\nRelatório\nDisponibilização de dados agregados\nRegistrar data de extração\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nQuando um indicador cai em uma competência recente, investigue primeiro atraso de envio, processamento e validação. A queda pode ser informacional, não assistencial.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#exemplo-pré-natal-na-aps",
+    "href": "sisaps.html#exemplo-pré-natal-na-aps",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.11 Exemplo: pré-natal na APS",
+    "text": "13.11 Exemplo: pré-natal na APS\nO acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com SINASC (Capítulo 6). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil.\n\nComponentes de uma análise de pré-natal na APS\n\n\n\n\n\n\n\nElemento\nFonte principal\nCuidado\n\n\n\n\nGestantes acompanhadas\nSISAPS/SISAB\nDepende de cadastro e registro correto\n\n\nConsultas de pré-natal\nSISAPS/SISAB\nMede registro de atendimento na APS\n\n\nNascidos vivos\nSINASC (Capítulo 6)\nMede ocorrência de nascimento, não acompanhamento na APS\n\n\nTerritório\nMunicípio, equipe ou residência\nEvitar misturar local de atendimento e residência\n\n\nTempo\nCompetência de atendimento e data de nascimento\nDefinir janela de acompanhamento\n\n\n\n\nlibrary(dplyr)\n\nprenatal_aps &lt;- sisaps_indicadores |&gt;\n  filter(indicador == \"pre_natal\", competencia &gt;= \"2025-01\") |&gt;\n  group_by(codmun, competencia) |&gt;\n  summarise(\n    gestantes_acompanhadas = sum(numerador, na.rm = TRUE),\n    gestantes_esperadas = sum(denominador, na.rm = TRUE),\n    proporcao = gestantes_acompanhadas / gestantes_esperadas,\n    .groups = \"drop\"\n  )\n\nprenatal_aps",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#exemplo-sisaps-sinasc",
+    "href": "sisaps.html#exemplo-sisaps-sinasc",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.12 Exemplo: SISAPS + SINASC",
+    "text": "13.12 Exemplo: SISAPS + SINASC\nO relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC pode ser feito de forma agregada, por município e ano, para análises ecológicas. Essa abordagem não acompanha gestantes individualmente; ela compara indicadores territoriais.\n\nExemplo de integração ecológica entre APS e SINASC\n\n\n\n\n\n\n\nElemento\nFonte\nCuidado\n\n\n\n\nIndicador de pré-natal APS\nSISAPS/SISAB\nMede acompanhamento registrado na APS\n\n\nNascidos vivos\nSINASC (Capítulo 6)\nMede nascimentos ocorridos ou residentes, conforme campo usado\n\n\nBaixo peso ao nascer\nSINASC (Capítulo 6)\nDesfecho multifatorial, não atribuível apenas à APS\n\n\nTerritório\nMunicípio de residência\nManter o mesmo recorte nas duas bases\n\n\nTempo\nAno ou janela de competência\nAlinhar gestação, atendimento e nascimento\n\n\n\n\nlibrary(dplyr)\n\nprenatal_mun_ano &lt;- prenatal_aps |&gt;\n  mutate(ano = substr(competencia, 1, 4)) |&gt;\n  group_by(codmun, ano) |&gt;\n  summarise(\n    cobertura_prenatal_aps = weighted.mean(\n      proporcao,\n      gestantes_esperadas,\n      na.rm = TRUE\n    ),\n    .groups = \"drop\"\n  )\n\nbaixo_peso &lt;- sinasc |&gt;\n  group_by(CODMUNRES, ano = as.character(ano_nascimento)) |&gt;\n  summarise(\n    nascidos_vivos = n(),\n    baixo_peso = sum(peso &lt; 2500, na.rm = TRUE),\n    proporcao_baixo_peso = baixo_peso / nascidos_vivos,\n    .groups = \"drop\"\n  )\n\naps_sinasc &lt;- prenatal_mun_ano |&gt;\n  left_join(baixo_peso, by = c(\"codmun\" = \"CODMUNRES\", \"ano\"))\n\naps_sinasc\n\n\n\n\n\n\n\nNota\n\n\n\nEsse exemplo é ecológico. Relações observadas no município não devem ser interpretadas como efeito individual do acompanhamento pré-natal sem desenho analítico apropriado.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#exemplo-produção-da-aps",
+    "href": "sisaps.html#exemplo-produção-da-aps",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.13 Exemplo: produção da APS",
+    "text": "13.13 Exemplo: produção da APS\nProdução da APS deve ser lida como registro de atividades realizadas por equipes e profissionais. Ela é útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como medida de necessidade, acesso ou qualidade.\n\nlibrary(dplyr)\n\nproducao_municipal &lt;- sisaps_producao |&gt;\n  group_by(codmun, competencia, tipo_producao) |&gt;\n  summarise(\n    registros = sum(quantidade, na.rm = TRUE),\n    equipes = n_distinct(ine),\n    registros_por_equipe = registros / equipes,\n    .groups = \"drop\"\n  )\n\nproducao_municipal\n\n\n\n\n\n\n\nAviso\n\n\n\nProdução por equipe pode variar por perfil populacional, tamanho da equipe, informatização, disponibilidade de profissionais, agenda local e qualidade do envio. Compare equipes semelhantes e sempre verifique denominadores.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#exemplo-sisaps-cnes",
+    "href": "sisaps.html#exemplo-sisaps-cnes",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.14 Exemplo: SISAPS + CNES",
+    "text": "13.14 Exemplo: SISAPS + CNES\nA integração com o CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada, além de caracterizar a estrutura da rede da APS.\n\nValidações entre SISAPS/SISAB e CNES\n\n\n\n\n\n\n\nChecagem\nFonte\nCuidado\n\n\n\n\nCNES da equipe existe?\nSISAPS + CNES (Capítulo 10)\nRelacionar pela mesma competência ou competência de referência\n\n\nTipo de estabelecimento é compatível?\nCNES ST\nUBS, posto, centro de saúde e outros tipos devem ser interpretados\n\n\nEquipe está ativa?\nSISAPS e CNES EP quando disponível\nSituação pode mudar no mês\n\n\nProdução tem equipe identificada?\nSISAPS/SISAB\nRegistros sem INE prejudicam avaliação por equipe\n\n\nMunicípio do CNES é compatível?\nCNES\nConferir mudança territorial ou erro cadastral\n\n\n\n\nlibrary(dplyr)\n\nequipes_cnes &lt;- sisaps_equipes |&gt;\n  filter(competencia == \"2026-01\") |&gt;\n  left_join(\n    cnes_st |&gt; filter(competencia == \"2026-01\"),\n    by = c(\"cnes\" = \"CNES\")\n  ) |&gt;\n  mutate(cnes_encontrado = !is.na(TP_UNID))\n\nequipes_cnes",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#qualidade-dos-dados",
+    "href": "sisaps.html#qualidade-dos-dados",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.15 Qualidade dos dados",
+    "text": "13.15 Qualidade dos dados\nA qualidade dos dados da APS depende do registro no ponto de cuidado, da consistência do cadastro, da integração do e-SUS APS, do envio dentro do prazo e das regras de validação do sistema nacional.\n\nDimensões de qualidade relevantes no SISAPS/SISAB\n\n\n\n\n\n\nDimensão\nChecagem\n\n\n\n\nOportunidade\nDados enviados dentro do prazo da competência\n\n\nCompletitude\nCampos essenciais preenchidos\n\n\nConsistência cadastral\nPessoa, domicílio, equipe, território e CNES compatíveis\n\n\nDuplicidade\nCadastros ou registros repetidos\n\n\nDenominador\nPopulação cadastrada, vinculada ou estimada corretamente definida\n\n\nVínculo de equipe\nINE e CNES válidos no período\n\n\nMudança normativa\nRegras de indicadores comparáveis entre competências\n\n\nProcessamento\nRegistros enviados foram processados e aceitos\n\n\n\n\nlibrary(dplyr)\n\nvalidacao_aps &lt;- sisaps_indicadores |&gt;\n  group_by(codmun, competencia) |&gt;\n  summarise(\n    indicadores = n_distinct(indicador),\n    denominadores_zerados = sum(denominador == 0, na.rm = TRUE),\n    registros_sem_equipe = sum(is.na(ine) | ine == \"\", na.rm = TRUE),\n    .groups = \"drop\"\n  )\n\nvalidacao_aps",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#privacidade-e-agregação",
+    "href": "sisaps.html#privacidade-e-agregação",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.16 Privacidade e agregação",
+    "text": "13.16 Privacidade e agregação\nDados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. A indisponibilidade de microdados identificáveis publicamente protege a privacidade, mas limita análises individuais, auditorias externas detalhadas e pareamentos diretos com outros sistemas.\n\nImplicações de privacidade e agregação na APS\n\n\n\n\n\n\nAspecto\nImplicação\n\n\n\n\nDados pessoais e clínicos\nExigem proteção, controle de acesso e finalidade definida\n\n\nRelatórios agregados\nFavorecem transparência sem expor pessoas\n\n\nLinkage individual\nDepende de autorização, governança e base legal\n\n\nReprodutibilidade\nDeve registrar relatório, filtros, data de extração e versão\n\n\nPequenos números\nPodem exigir supressão ou agregação adicional",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#análise-temporal-e-territorial",
+    "href": "sisaps.html#análise-temporal-e-territorial",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.17 Análise temporal e territorial",
+    "text": "13.17 Análise temporal e territorial\nSéries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes.\n\nCuidados em análises temporais e territoriais da APS\n\n\n\n\n\n\n\nComparação\nRecomendação\nCuidado\n\n\n\n\nAntes e depois da transição\nSeparar períodos SIAB, SISAB e SISAPS\nQuebras tecnológicas podem parecer mudança assistencial\n\n\nEntre municípios\nPadronizar por população, equipe ou cadastro\nMunicípios têm porte e rede muito diferentes\n\n\nEntre equipes\nComparar equipes do mesmo tipo\neSF, eAP e eSB têm atribuições diferentes\n\n\nEntre competências\nVerificar calendário de envio\nAtrasos podem reduzir indicadores temporariamente\n\n\nEntre indicadores\nConferir regra de cálculo\nNumeradores e denominadores podem mudar",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#acesso-aos-dados",
+    "href": "sisaps.html#acesso-aos-dados",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.18 Acesso aos dados",
+    "text": "13.18 Acesso aos dados\nO acesso é realizado principalmente por relatórios e painéis públicos ou restritos, conforme perfil de usuário e finalidade. O acesso a microdados identificáveis não é disponibilizado publicamente, pois os registros da APS envolvem dados pessoais e clínicos protegidos pela LGPD.\n\nFormas de acesso a informações da APS\n\n\n\n\n\n\nForma de acesso\nIndicação de uso\n\n\n\n\nRelatórios públicos\nConsulta de indicadores e produção agregada\n\n\nÁrea de gestores\nMonitoramento municipal, estadual e federal\n\n\nSISAB\nConsulta histórica e relatórios da APS\n\n\nSISAPS/Siaps\nPlataforma renovada para gestão da informação da APS\n\n\ne-Gestor APS\nAcesso a sistemas e relatórios de gestão\n\n\nDocumentação oficial\nRegras, calendários, manuais e modelos de informação\n\n\n\n\nSISAPS/Siaps\nSISAB\nManual do SISAB\nManual do SISAPS/Siaps\nCalendário Siaps",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#relacionamento-com-outros-sistemas",
+    "href": "sisaps.html#relacionamento-com-outros-sistemas",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.19 Relacionamento com outros sistemas",
+    "text": "13.19 Relacionamento com outros sistemas\nO SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento.\n\nIntegrações frequentes entre SISAPS/SISAB e outros sistemas\n\n\n\n\n\n\n\nPergunta\nFontes combinadas\nCuidado principal\n\n\n\n\nOferta da APS acompanha produção?\nSISAPS/SISAB + CNES (Capítulo 10)\nEquipes e estabelecimentos devem ser compatíveis por competência\n\n\nAPS reduz internações evitáveis?\nSISAPS/SISAB + SIH (Capítulo 7)\nEvitar inferência causal simples com dados agregados\n\n\nPré-natal se relaciona a desfechos de nascimento?\nSISAPS/SISAB + SINASC (Capítulo 6)\nRelacionamento direto exige regras de privacidade e linkage\n\n\nAcompanhamento de agravos aparece na vigilância?\nSISAPS/SISAB + SINAN (Capítulo 9)\nNotificação e cuidado são processos diferentes\n\n\nProdução ambulatorial é coerente?\nSISAPS/SISAB + SIA (Capítulo 8)\nProdução da APS e faturamento/procedimentos têm escopos distintos\n\n\nCobertura por população\nSISAPS/SISAB + POP (Apêndice D)\nPopulação cadastrada e população residente são denominadores diferentes\n\n\n\n\n13.19.1 Checklist para integração\nAntes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador.\n\nVerificações antes de integrar dados da APS com outros sistemas\n\n\n\n\n\n\nChecagem\nPor que importa\n\n\n\n\nCompetência compatível\nAPS é mensal; outros sistemas podem ser por evento, ano ou competência de produção\n\n\nTerritório definido\nResidência, acompanhamento, ocorrência e localização podem divergir\n\n\nINE e CNES válidos\nEquipe e estabelecimento precisam existir na competência\n\n\nDenominador explícito\nCadastro, vínculo, residência e usuários atendidos medem populações diferentes\n\n\nRegras de indicador versionadas\nIndicadores de cofinanciamento podem mudar\n\n\nPrivacidade respeitada\nLinkage individual exige governança própria",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#limitações",
+    "href": "sisaps.html#limitações",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.20 Limitações",
+    "text": "13.20 Limitações\n\nLimitações recorrentes do SISAPS/SISAB\n\n\n\n\n\n\nLimitação\nConsequência analítica\n\n\n\n\nTransição de sistema\nSéries podem ter quebras entre SISAB e SISAPS\n\n\nDados dependem do registro local\nSub-registro e atraso de envio afetam indicadores\n\n\nRelatórios agregados\nMicrodados identificáveis não estão disponíveis publicamente\n\n\nDenominadores variáveis\nPopulação cadastrada, vinculada e residente têm significados distintos\n\n\nIndicadores mudam com regras de cofinanciamento\nComparações históricas exigem versionamento\n\n\nProdução não é necessidade\nBaixa produção pode refletir sub-registro, acesso reduzido ou menor demanda\n\n\nEquipes não são homogêneas\nComposição, carga horária e território variam\n\n\nCalendário de envio afeta resultados\nCompetências recentes podem estar incompletas\n\n\nLinkage individual é restrito\nPrivacidade limita pareamentos públicos entre bases",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#cuidados-de-interpretação",
+    "href": "sisaps.html#cuidados-de-interpretação",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.21 Cuidados de interpretação",
+    "text": "13.21 Cuidados de interpretação\nAo utilizar SISAPS/SISAB, alguns cuidados são recorrentes:\n\ndocumentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;\ndefinir a unidade de análise antes de baixar ou consultar relatórios;\nverificar competência, prazo de envio e processamento;\ndistinguir população cadastrada, vinculada, acompanhada e residente;\ncomparar equipes do mesmo tipo e com contexto semelhante;\nconferir regras de cálculo dos indicadores;\nverificar INE, CNES e situação da equipe na competência;\nregistrar relatório, filtros e data de extração;\nnão interpretar produção registrada como necessidade ou qualidade;\ncombinar com CNES, POP, SIH, SIA, SINAN ou SINASC apenas com território e período compatíveis.\n\n\nErros frequentes em análises da APS\n\n\n\n\n\n\nErro\nComo evitar\n\n\n\n\nComparar SISAB e SISAPS como série homogênea\nMarcar a transição e verificar mudanças de regra\n\n\nUsar população cadastrada como população residente\nDeclarar o denominador e, quando necessário, usar POP\n\n\nTratar ausência de produção como ausência de cuidado\nVerificar envio, processamento e sub-registro\n\n\nComparar equipes diferentes sem ajuste\nEstratificar por tipo de equipe e contexto\n\n\nInterpretar indicador de cofinanciamento como avaliação completa\nComplementar com contexto, oferta, produção e resultados\n\n\nUsar competência recente sem checar calendário\nConferir prazo de envio e processamento\n\n\nFazer linkage individual sem governança\nUsar apenas bases autorizadas e regras de privacidade",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#checklist-de-reprodutibilidade",
+    "href": "sisaps.html#checklist-de-reprodutibilidade",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.22 Checklist de reprodutibilidade",
+    "text": "13.22 Checklist de reprodutibilidade\nUma extração de dados da APS deve permitir que outra pessoa entenda exatamente qual relatório foi usado e como os resultados foram obtidos.\n\nItens mínimos para reprodutibilidade em análises do SISAPS/SISAB\n\n\n\n\n\n\nItem\nRegistrar\n\n\n\n\nPlataforma\nSISAB, SISAPS/Siaps, e-Gestor APS ou outro acesso\n\n\nData de extração\nDia em que o relatório foi consultado ou baixado\n\n\nRelatório\nNome do relatório, painel ou indicador\n\n\nCompetência\nMês, ano e se o dado é acumulado\n\n\nTerritório\nMunicípio, UF, região, equipe ou estabelecimento\n\n\nTipo de equipe\neSF, eAP, eSB ou outra modalidade\n\n\nIdentificadores\nINE, CNES ou agregação utilizada\n\n\nIndicador\nNome, versão e regra de cálculo\n\n\nNumerador\nEvento, registro ou população usada\n\n\nDenominador\nPopulação cadastrada, vinculada, residente, esperada ou atendida\n\n\nFiltros\nSexo, idade, equipe, condição, programa ou categoria\n\n\nTratamento de ausentes\nComo atrasos, não processados e zeros foram tratados",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#checklist-final",
+    "href": "sisaps.html#checklist-final",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.23 Checklist final",
+    "text": "13.23 Checklist final\nAntes de concluir uma análise com SISAPS/SISAB, verifique se:\n\no sistema e o período foram definidos;\na transição SISAB-SISAPS foi considerada;\na competência e o prazo de envio foram conferidos;\na unidade de análise foi declarada;\no denominador do indicador foi documentado;\ntipo de equipe, INE e CNES foram verificados quando usados;\nregras de cálculo e versão do indicador foram registradas;\no calendário de envio e a data de extração foram considerados;\ndados ausentes, atrasados ou não processados foram separados;\ncomparações territoriais usaram população ou cadastro compatível;\nrequisitos de privacidade foram observados;\na extração foi documentada de forma reprodutível;\nlimitações de registro, agregação e privacidade foram discutidas.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
+  },
+  {
+    "objectID": "sisaps.html#bibliografia-recomendada",
+    "href": "sisaps.html#bibliografia-recomendada",
+    "title": "13  SISAPS - Sistema de Informação para a Atenção Primária à Saúde",
+    "section": "13.24 Bibliografia recomendada",
+    "text": "13.24 Bibliografia recomendada\n\n13.24.1 Documentos oficiais\n\nSISAPS/Siaps\nSISAB\nManual do SISAB\nManual do SISAPS/Siaps\nCalendário Siaps\n\n\n\n13.24.2 Artigos\n\nArtigo Atenção Básica e Informação: análise do Sistema de Informação em Saúde para Atenção Básica (SISAB) e estratégia e-SUS AB e suas repercussões para uma gestão da saúde com transparência.[trabalho de conclusão de curso] (SOARES, 2016). Disponível aqui.\n\n\n\n13.24.3 Vídeos\n\n\n\n\n\nSOARES, E. V. B. Atenção Básica e Informação: Análise Do Sistema de Informação Em Saúde Para Atenção Básica (SISAB) e Estratégia e-SUS AB e Suas Repercussões Para Uma Gestão Da Saúde Com Transparência.[Trabalho de Conclusão de Curso]. Brası́lia, DF: Universidade de Brası́lia, 2016.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span>"
+    ]
   }
 ]

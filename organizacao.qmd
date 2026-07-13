@@ -149,13 +149,13 @@ O Cadastro Nacional de Estabelecimentos de Saúde (CNES) (@sec-cnes) descreve es
 
 O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) (@sec-siops) registra informações orçamentárias e financeiras, permitindo acompanhar receitas, despesas e cumprimento de regras de aplicação de recursos em saúde.
 
-O Sistema de Informação da Atenção Primária à Saúde (SISAPS/Siaps) (@sec-sisab), em transição a partir do SISAB, organiza informações da APS, incluindo equipes, vínculo territorial, produção e indicadores relacionados à estratégia e-SUS APS.
+O Sistema de Informação para a Atenção Primária à Saúde (SISAPS/Siaps) (@sec-siaps), em transição a partir do SISAB, organiza informações da APS, incluindo equipes, vínculo territorial, produção e indicadores relacionados à estratégia e-SUS APS.
 
 | Sistema | Tipo de informação | Uso frequente |
 |---|---|---|
 | CNES (@sec-cnes) | Estabelecimentos, profissionais, equipamentos e serviços | Análise da oferta e da estrutura da rede de saúde |
 | SIOPS (@sec-siops) | Orçamentos, receitas e despesas em saúde | Monitoramento do financiamento público da saúde |
-| SISAB/SISAPS (@sec-sisab) | Produção, vínculo territorial e indicadores da APS | Gestão, monitoramento, cofinanciamento e avaliação da APS |
+| SISAB/SISAPS (@sec-siaps) | Produção, vínculo territorial e indicadores da APS | Gestão, monitoramento, cofinanciamento e avaliação da APS |
 : Sistemas cadastrais, financeiros e de gestão abordados no livro
 
 Essas bases não devem ser vistas como secundárias apenas porque não registram, necessariamente, uma doença ou um procedimento clínico. A tabela mostra que elas ajudam a responder perguntas sobre capacidade instalada, recursos humanos, financiamento e organização da atenção. Em análises aplicadas, essas dimensões frequentemente explicam por que um evento ocorre em determinado lugar, por que um serviço concentra atendimentos ou por que certos indicadores variam entre municípios.
@@ -174,7 +174,7 @@ No SI-PNI, a unidade observada pode mudar conforme o arquivo ou relatório utili
 
 Um ponto central na organização dos SIS é a cobertura. Alguns sistemas buscam registrar eventos ocorridos em todo o território nacional, independentemente de terem acontecido em serviços públicos, privados, filantrópicos ou suplementares. É o caso de SIM (@sec-sim), SINASC (@sec-sinasc), SINAN (@sec-sinan), CNES (@sec-cnes) e SISAGUA (@sec-sisagua), ainda que cada um tenha suas próprias regras e limitações de cobertura.
 
-Outros sistemas registram principalmente eventos, produção ou gestão vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB/SISAPS (@sec-sisab) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
+Outros sistemas registram principalmente eventos, produção ou gestão vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB/SISAPS (@sec-siaps) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
 
 A distinção entre cobertura territorial e cobertura assistencial é uma das mais importantes. Um sistema pode ter presença nacional e, ao mesmo tempo, registrar apenas um subconjunto dos eventos de interesse. O SIH, por exemplo, pode ser analisado para todos os municípios do país, mas a sua cobertura se refere às internações financiadas pelo SUS, não a todas as internações ocorridas no território brasileiro.
 

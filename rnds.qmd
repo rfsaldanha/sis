@@ -323,7 +323,7 @@ A RNDS se relaciona com vários sistemas, mas a relação não é sempre a mesma
 | Sistema ou área | Relação com a RNDS | Cuidado |
 |---|---|---|
 | SI-PNI (@sec-sipni) | Registros de imunização podem ser integrados por RIA | Dose, pessoa, residência e aplicação precisam ser diferenciadas |
-| SISAPS/SISAB (@sec-sisab) | Registros da APS podem compor fluxos de atendimento e vacinação | Fluxos intermediários podem gerar atraso |
+| SISAPS/SISAB (@sec-siaps) | Registros da APS podem compor fluxos de atendimento e vacinação | Fluxos intermediários podem gerar atraso |
 | CNES (@sec-cnes) | Estabelecimentos precisam estar identificados | CNES deve estar válido e compatível com o evento |
 | SINAN (@sec-sinan) | Vigilância pode se beneficiar de integração e documentos clínicos | Notificação e atendimento são eventos diferentes |
 | SIA/SIH (@sec-sia; @sec-sih) | Produção e internação podem dialogar com trajetória assistencial | Faturamento/produção não equivale a prontuário completo |

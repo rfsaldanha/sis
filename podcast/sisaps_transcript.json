@@ -1,569 +1,896 @@
 [
-{
-  "start": 0,
-  "end": 8.313,
-  "speaker": "APRESENTADORA",
-  "text": "Olá. Neste episódio, vamos conversar sobre o SISAPS, o Sistema de Informação da Atenção Primária à Saúde."
-}
-,
-{
-  "start": 8.663,
-  "end": 14.050,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo também fala do SISAB e do Siaps. Qual é a relação entre esses nomes?"
-}
-,
-{
-  "start": 14.400,
-  "end": 33.673,
-  "speaker": "APRESENTADORA",
-  "text": "Boa pergunta. O SISAB foi o sistema oficial da Atenção Básica instituído em 2013. O Siaps, ou SISAPS, aparece como uma renovação em implantação progressiva, voltada a modernizar a informação da Atenção Primária à Saúde."
-}
-,
-{
-  "start": 34.023,
-  "end": 37.831,
-  "speaker": "ESTUDANTE",
-  "text": "Então o capítulo trata da transição SISAB-SISAPS."
-}
-,
-{
-  "start": 38.181,
-  "end": 53.228,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Para análises históricas, ainda é necessário entender o SISAB. Para análises recentes, é preciso acompanhar a transição para o SISAPS, também apresentado oficialmente como Siaps."
-}
-,
-{
-  "start": 53.578,
-  "end": 57.061,
-  "speaker": "ESTUDANTE",
-  "text": "O SISAPS é parecido com SIM, SINASC ou SINAN?"
-}
-,
-{
-  "start": 57.411,
-  "end": 77.287,
-  "speaker": "APRESENTADORA",
-  "text": "Não exatamente. Ele não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, como cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal."
-}
-,
-{
-  "start": 77.637,
-  "end": 80.052,
-  "speaker": "ESTUDANTE",
-  "text": "Quando devo usar o SISAPS ou SISAB?"
-}
-,
-{
-  "start": 80.402,
-  "end": 102.879,
-  "speaker": "APRESENTADORA",
-  "text": "Use quando a pergunta envolve organização, produção, acompanhamento e desempenho da Atenção Primária à Saúde. Por exemplo: produção das equipes, cobertura cadastral, indicadores de cofinanciamento, acompanhamento de pré-natal, vacinas, condições crônicas e vínculo territorial."
-}
-,
-{
-  "start": 103.229,
-  "end": 107.130,
-  "speaker": "ESTUDANTE",
-  "text": "Mas ele não substitui prontuário clínico nem auditoria de qualidade."
-}
-,
-{
-  "start": 107.480,
-  "end": 119.926,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. O sistema apoia gestão e monitoramento, mas a interpretação depende do registro, envio, validação e regras de processamento."
-}
-,
-{
-  "start": 120.276,
-  "end": 121.716,
-  "speaker": "ESTUDANTE",
-  "text": "Como o SISAB surgiu?"
-}
-,
-{
-  "start": 122.066,
-  "end": 144.404,
-  "speaker": "APRESENTADORA",
-  "text": "O SISAB foi instituído em 2013 como sistema oficial da Atenção Básica para fins de financiamento e adesão a programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo SIAB e passou a ser alimentado pela estratégia e-SUS APS."
-}
-,
-{
-  "start": 144.754,
-  "end": 149.630,
-  "speaker": "ESTUDANTE",
-  "text": "E a partir de 2016 o envio passou a ser exclusivamente para o SISAB."
-}
-,
-{
-  "start": 149.980,
-  "end": 163.773,
-  "speaker": "APRESENTADORA",
-  "text": "Isso, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação."
-}
-,
-{
-  "start": 164.123,
-  "end": 166.399,
-  "speaker": "ESTUDANTE",
-  "text": "E em 2025 aparece o Siaps."
-}
-,
-{
-  "start": 166.749,
-  "end": 187.833,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O Siaps foi instituído como renovação do SISAB, com implantação incremental. A proposta é modernizar a infraestrutura tecnológica, centralizar dados da APS em repositório nacional e apoiar melhor o monitoramento de indicadores de cofinanciamento e qualidade."
-}
-,
-{
-  "start": 188.183,
-  "end": 190.273,
-  "speaker": "ESTUDANTE",
-  "text": "Como os dados chegam ao SISAPS?"
-}
-,
-{
-  "start": 190.623,
-  "end": 208.642,
-  "speaker": "APRESENTADORA",
-  "text": "Os registros são produzidos no processo de trabalho das equipes, geralmente no PEC, no CDS ou em aplicativos da estratégia e-SUS APS. Depois são enviados para consolidação nacional e aparecem em relatórios e indicadores."
-}
-,
-{
-  "start": 208.992,
-  "end": 211.175,
-  "speaker": "ESTUDANTE",
-  "text": "O PEC é o prontuário eletrônico."
-}
-,
-{
-  "start": 211.525,
-  "end": 229.637,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O PEC registra informações clínicas e administrativas. O CDS é a coleta simplificada de dados, útil em cenários com menor informatização. Aplicativos podem apoiar registros territoriais e atividades específicas."
-}
-,
-{
-  "start": 229.987,
-  "end": 232.402,
-  "speaker": "ESTUDANTE",
-  "text": "Então a qualidade depende do trabalho local."
-}
-,
-{
-  "start": 232.752,
-  "end": 243.387,
-  "speaker": "APRESENTADORA",
-  "text": "Muito. Depende de registro no ponto de cuidado, integração do e-SUS APS, envio dentro do prazo, validações e regras nacionais de processamento."
-}
-,
-{
-  "start": 243.737,
-  "end": 245.362,
-  "speaker": "ESTUDANTE",
-  "text": "Qual é a unidade de análise?"
-}
-,
-{
-  "start": 245.712,
-  "end": 262.988,
-  "speaker": "APRESENTADORA",
-  "text": "Depende do relatório ou indicador. Pode ser pessoa cadastrada, atendimento, procedimento, visita domiciliar, atividade coletiva, equipe, estabelecimento, município, UF, competência ou indicador."
-}
-,
-{
-  "start": 263.338,
-  "end": 270.072,
-  "speaker": "ESTUDANTE",
-  "text": "Então eu não posso somar cadastros, atendimentos, procedimentos e indicadores como se fossem a mesma coisa."
-}
-,
-{
-  "start": 270.422,
-  "end": 289.602,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Cada unidade responde a uma pergunta diferente. Cadastro fala de população registrada. Atendimento fala de contato individual. Procedimento fala de ação registrada. Indicador combina numerador, denominador e regra de cálculo."
-}
-,
-{
-  "start": 289.952,
-  "end": 292.785,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo destaca CNES e INE."
-}
-,
-{
-  "start": 293.135,
-  "end": 312.082,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O CNES identifica o estabelecimento de saúde. O INE identifica a equipe. Uma unidade pode ter várias equipes, e uma equipe pode mudar de composição, credenciamento, suspensão, desativação ou até estabelecimento."
-}
-,
-{
-  "start": 312.432,
-  "end": 316.008,
-  "speaker": "ESTUDANTE",
-  "text": "Então séries por equipe precisam ser tratadas como painel."
-}
-,
-{
-  "start": 316.358,
-  "end": 332.287,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Para comparar equipes, monte primeiro um painel por INE, CNES, tipo de equipe e competência. Isso evita atribuir produção ou indicadores a equipes que mudaram de situação ao longo do tempo."
-}
-,
-{
-  "start": 332.637,
-  "end": 334.448,
-  "speaker": "ESTUDANTE",
-  "text": "Quais tipos de equipe aparecem?"
-}
-,
-{
-  "start": 334.798,
-  "end": 351.470,
-  "speaker": "APRESENTADORA",
-  "text": "Equipes de Saúde da Família, equipes de Atenção Primária, equipes de Saúde Bucal e outras modalidades. Comparações devem respeitar o tipo de equipe, porque atribuições, território e parâmetros podem ser diferentes."
-}
-,
-{
-  "start": 351.820,
-  "end": 354.142,
-  "speaker": "ESTUDANTE",
-  "text": "Quais dimensões analíticas são comuns?"
-}
-,
-{
-  "start": 354.492,
-  "end": 368.331,
-  "speaker": "APRESENTADORA",
-  "text": "Cadastro, produção, atividades coletivas, pré-natal, vacinas, indicadores de cofinanciamento, vínculo territorial e validação dos dados enviados."
-}
-,
-{
-  "start": 368.681,
-  "end": 370.864,
-  "speaker": "ESTUDANTE",
-  "text": "E os denominadores variam bastante."
-}
-,
-{
-  "start": 371.214,
-  "end": 389.047,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Um indicador pode usar população cadastrada, população vinculada, população residente, população esperada, usuários atendidos ou eventos registrados. A escolha muda completamente a interpretação."
-}
-,
-{
-  "start": 389.397,
-  "end": 393.298,
-  "speaker": "ESTUDANTE",
-  "text": "População cadastrada não é a mesma coisa que população residente."
-}
-,
-{
-  "start": 393.648,
-  "end": 407.441,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. População cadastrada depende do cadastro da APS, que pode estar duplicado ou desatualizado. População residente vem de estimativas populacionais e responde a outra pergunta."
-}
-,
-{
-  "start": 407.791,
-  "end": 409.324,
-  "speaker": "ESTUDANTE",
-  "text": "E população vinculada?"
-}
-,
-{
-  "start": 409.674,
-  "end": 422.538,
-  "speaker": "APRESENTADORA",
-  "text": "É a população atribuída a uma equipe ou território, conforme regras vigentes. Ela é importante para vínculo territorial e cofinanciamento, mas também depende da qualidade do cadastro."
-}
-,
-{
-  "start": 422.888,
-  "end": 425.628,
-  "speaker": "ESTUDANTE",
-  "text": "Vamos falar de indicadores e cofinanciamento."
-}
-,
-{
-  "start": 425.978,
-  "end": 442.325,
-  "speaker": "APRESENTADORA",
-  "text": "Indicadores de cofinanciamento são medidas administrativas e de monitoramento. Eles podem apoiar avaliação da APS, mas não devem ser interpretados sozinhos como avaliação completa da qualidade assistencial."
-}
-,
-{
-  "start": 442.675,
-  "end": 443.325,
-  "speaker": "ESTUDANTE",
-  "text": "Por quê?"
-}
-,
-{
-  "start": 443.675,
-  "end": 461.229,
-  "speaker": "APRESENTADORA",
-  "text": "Porque dependem de regra de cálculo, competência, prazo de envio, denominador, composição da equipe, perfil populacional e capacidade de registro. Mudanças normativas podem alterar indicadores entre ciclos."
-}
-,
-{
-  "start": 461.579,
-  "end": 463.622,
-  "speaker": "ESTUDANTE",
-  "text": "O vínculo territorial é central."
-}
-,
-{
-  "start": 463.972,
-  "end": 477.300,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Ele organiza a relação entre pessoas, equipes e território adscrito. Mas depende de cadastro atualizado, regras de vinculação e registro adequado do acompanhamento."
-}
-,
-{
-  "start": 477.650,
-  "end": 480.529,
-  "speaker": "ESTUDANTE",
-  "text": "Ausência de registro não prova ausência de cuidado."
-}
-,
-{
-  "start": 480.879,
-  "end": 491.189,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Pode haver cuidado não registrado, atraso de envio, registro rejeitado, problema de processamento ou sub-registro local."
-}
-,
-{
-  "start": 491.539,
-  "end": 493.722,
-  "speaker": "ESTUDANTE",
-  "text": "O calendário de envio também importa."
-}
-,
-{
-  "start": 494.072,
-  "end": 511.023,
-  "speaker": "APRESENTADORA",
-  "text": "Muito. Os dados da APS são organizados por competência mensal, com prazos de envio. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e mudar resultados quando a base é reprocessada."
-}
-,
-{
-  "start": 511.373,
-  "end": 515.181,
-  "speaker": "ESTUDANTE",
-  "text": "Então uma queda em competência recente pode ser informacional."
-}
-,
-{
-  "start": 515.531,
-  "end": 525.005,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Antes de interpretar como queda assistencial, investigue atraso de envio, processamento e validação."
-}
-,
-{
-  "start": 525.355,
-  "end": 527.863,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo usa pré-natal como exemplo."
-}
-,
-{
-  "start": 528.213,
-  "end": 547.671,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Pré-natal é útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com o SINASC. A pergunta precisa definir se o foco é produção registrada, cobertura de acompanhamento ou desfecho materno-infantil."
-}
-,
-{
-  "start": 548.021,
-  "end": 554.151,
-  "speaker": "ESTUDANTE",
-  "text": "Se eu relaciono SISAPS com SINASC por município, isso acompanha gestantes individualmente?"
-}
-,
-{
-  "start": 554.501,
-  "end": 568.851,
-  "speaker": "APRESENTADORA",
-  "text": "Não. Uma análise agregada por município e ano é ecológica. Ela compara indicadores territoriais, mas não demonstra efeito individual do acompanhamento pré-natal sem desenho analítico apropriado."
-}
-,
-{
-  "start": 569.201,
-  "end": 570.780,
-  "speaker": "ESTUDANTE",
-  "text": "E a produção da APS?"
-}
-,
-{
-  "start": 571.130,
-  "end": 587.245,
-  "speaker": "APRESENTADORA",
-  "text": "Produção deve ser lida como registro de atividades realizadas por equipes e profissionais. É útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como necessidade, acesso ou qualidade."
-}
-,
-{
-  "start": 587.595,
-  "end": 590.660,
-  "speaker": "ESTUDANTE",
-  "text": "Produção por equipe pode variar por muitos motivos."
-}
-,
-{
-  "start": 591.010,
-  "end": 603.874,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Perfil populacional, tamanho da equipe, informatização, disponibilidade de profissionais, agenda local, qualidade do envio e denominadores usados."
-}
-,
-{
-  "start": 604.224,
-  "end": 607.103,
-  "speaker": "ESTUDANTE",
-  "text": "O SISAPS também pode ser combinado com CNES."
-}
-,
-{
-  "start": 607.453,
-  "end": 623.150,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada e a caracterizar a estrutura da rede. A relação precisa respeitar CNES, INE e competência."
-}
-,
-{
-  "start": 623.500,
-  "end": 625.729,
-  "speaker": "ESTUDANTE",
-  "text": "Como avaliar a qualidade dos dados?"
-}
-,
-{
-  "start": 626.079,
-  "end": 641.126,
-  "speaker": "APRESENTADORA",
-  "text": "Verifique oportunidade de envio, completitude, consistência cadastral, duplicidade, denominador, vínculo de equipe, mudanças normativas e processamento dos registros."
-}
-,
-{
-  "start": 641.476,
-  "end": 643.798,
-  "speaker": "ESTUDANTE",
-  "text": "E existe uma questão de privacidade."
-}
-,
-{
-  "start": 644.148,
-  "end": 662.399,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. Linkage individual exige autorização, governança e base legal."
-}
-,
-{
-  "start": 662.749,
-  "end": 664.467,
-  "speaker": "ESTUDANTE",
-  "text": "Como acessar as informações?"
-}
-,
-{
-  "start": 664.817,
-  "end": 680.096,
-  "speaker": "APRESENTADORA",
-  "text": "Principalmente por relatórios públicos, áreas de gestores, SISAB, SISAPS ou Siaps, e-Gestor APS e documentação oficial, como manuais e calendário de envio."
-}
-,
-{
-  "start": 680.446,
-  "end": 682.536,
-  "speaker": "ESTUDANTE",
-  "text": "E como analisar séries temporais?"
-}
-,
-{
-  "start": 682.886,
-  "end": 699.651,
-  "speaker": "APRESENTADORA",
-  "text": "Com muita atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes. Quebras tecnológicas podem parecer mudanças assistenciais."
-}
-,
-{
-  "start": 700.001,
-  "end": 703.066,
-  "speaker": "ESTUDANTE",
-  "text": "Com quais sistemas o SISAPS pode ser combinado?"
-}
-,
-{
-  "start": 703.416,
-  "end": 724.593,
-  "speaker": "APRESENTADORA",
-  "text": "Com CNES para oferta e equipes, com SIH para internações evitáveis, com SINASC para pré-natal e desfechos de nascimento, com SINAN para agravos notificados, com SIA para produção ambulatorial e com população residente para indicadores populacionais."
-}
-,
-{
-  "start": 724.943,
-  "end": 727.729,
-  "speaker": "ESTUDANTE",
-  "text": "Mas sempre respeitando território e período."
-}
-,
-{
-  "start": 728.079,
-  "end": 739.317,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Território de residência, território de acompanhamento, local de ocorrência, estabelecimento e equipe podem ser coisas diferentes."
-}
-,
-{
-  "start": 739.667,
-  "end": 742.082,
-  "speaker": "ESTUDANTE",
-  "text": "Quais limitações são mais importantes?"
-}
-,
-{
-  "start": 742.432,
-  "end": 762.448,
-  "speaker": "APRESENTADORA",
-  "text": "Transição de sistema, dependência do registro local, relatórios agregados, denominadores variáveis, mudanças nas regras de cofinanciamento, produção que não mede necessidade, heterogeneidade das equipes, calendário de envio e restrições de privacidade."
-}
-,
-{
-  "start": 762.798,
-  "end": 765.027,
-  "speaker": "ESTUDANTE",
-  "text": "Quais erros comuns devem ser evitados?"
-}
-,
-{
-  "start": 765.377,
-  "end": 789.061,
-  "speaker": "APRESENTADORA",
-  "text": "Comparar SISAB e SISAPS como se fossem uma série homogênea, usar população cadastrada como população residente, tratar ausência de produção como ausência de cuidado, comparar equipes diferentes sem ajuste, interpretar indicador de cofinanciamento como avaliação completa e usar competência recente sem checar calendário."
-}
-,
-{
-  "start": 789.411,
-  "end": 791.826,
-  "speaker": "ESTUDANTE",
-  "text": "Para fechar, qual é a mensagem central?"
-}
-,
-{
-  "start": 792.176,
-  "end": 825.520,
-  "speaker": "APRESENTADORA",
-  "text": "O SISAPS, em continuidade e renovação do SISAB, é uma base essencial para gestão e monitoramento da Atenção Primária à Saúde. Para usá-lo bem, defina sistema e período, unidade de análise, competência, equipe, CNES, denominador, regra de cálculo e data de extração. E sempre interprete os resultados como dados de registro, envio e processamento da APS, não como retrato completo da necessidade ou qualidade do cuidado."
-}
-
+  {
+    "start": 0,
+    "end": 17.28,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SISAPS, o Sistema de Informação para a Atenção Primária à Saúde, do livro Sistemas de Informação em Saúde no Brasil. Hoje, vamos acompanhar um pequeno mistério informacional."
+  },
+  {
+    "start": 17.28,
+    "end": 18.56,
+    "speaker": "ESTUDANTE",
+    "text": "Um mistério?"
+  },
+  {
+    "start": 18.56,
+    "end": 33.599,
+    "speaker": "APRESENTADORA",
+    "text": "Imagine a equipe de Saúde da Família Ipê. De um mês para outro, o relatório mostra uma queda forte no acompanhamento de pessoas com condições crônicas. A primeira reação da gestão é perguntar: o cuidado piorou?"
+  },
+  {
+    "start": 33.599,
+    "end": 39.441,
+    "speaker": "ESTUDANTE",
+    "text": "Parece uma conclusão razoável. Se o indicador caiu, houve menos acompanhamento, certo?"
+  },
+  {
+    "start": 39.441,
+    "end": 61.44,
+    "speaker": "APRESENTADORA",
+    "text": "Talvez. Mas o indicador também pode ter mudado porque o registro atrasou, um lote foi rejeitado, a equipe mudou de identificador, o denominador cresceu ou a regra de processamento foi atualizada. A pergunta que vai conduzir o episódio é esta: a queda aconteceu no cuidado ou no caminho do dado?"
+  },
+  {
+    "start": 61.44,
+    "end": 63.521,
+    "speaker": "ESTUDANTE",
+    "text": "Então vamos seguir esse caminho."
+  },
+  {
+    "start": 63.521,
+    "end": 83.44,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ao longo dele, vamos entender o SISAPS sem transformar o episódio em um catálogo de telas ou normas. O objetivo é aprender a formular perguntas, reconhecer a unidade de análise e interpretar os resultados no limite do que o sistema consegue demonstrar."
+  },
+  {
+    "start": 83.44,
+    "end": 90.481,
+    "speaker": "ESTUDANTE",
+    "text": "Antes de começar, precisamos resolver os nomes. SISAB, SISAPS e Siaps são a mesma coisa?"
+  },
+  {
+    "start": 90.481,
+    "end": 114.08,
+    "speaker": "APRESENTADORA",
+    "text": "Não exatamente. O SISAB, Sistema de Informação em Saúde para a Atenção Básica, foi instituído em 2013 e substituiu progressivamente o antigo SIAB. O Siaps, Sistema de Informação para a Atenção Primária à Saúde, substitui o SISAB e renova a infraestrutura nacional de informação da APS."
+  },
+  {
+    "start": 114.08,
+    "end": 117.121,
+    "speaker": "ESTUDANTE",
+    "text": "E por que o capítulo escreve SISAPS?"
+  },
+  {
+    "start": 117.85,
+    "end": 139.049,
+    "speaker": "APRESENTADORA",
+    "text": "O título usa SISAPS para explicitar a sigla e o escopo do capítulo. Nos materiais oficiais, a plataforma aparece como Siaps. Em uma análise, o mais importante é declarar qual sistema, interface ou período está sendo usado, porque uma série histórica pode atravessar mais de uma geração tecnológica."
+  },
+  {
+    "start": 139.049,
+    "end": 142.81,
+    "speaker": "ESTUDANTE",
+    "text": "A estratégia e-SUS APS entra onde?"
+  },
+  {
+    "start": 142.81,
+    "end": 169.689,
+    "speaker": "APRESENTADORA",
+    "text": "Ela organiza a informatização e os instrumentos usados no trabalho da Atenção Primária. O registro pode ocorrer no Prontuário Eletrônico do Cidadão, o PEC, na Coleta de Dados Simplificada, o CDS, em aplicativos ou em sistemas próprios integrados. SISAB e SISAPS recebem, processam e disponibilizam informações desse ecossistema."
+  },
+  {
+    "start": 169.689,
+    "end": 174.73,
+    "speaker": "ESTUDANTE",
+    "text": "Então sistema nacional e ferramenta de registro local não são sinônimos."
+  },
+  {
+    "start": 174.73,
+    "end": 190.17,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Confundir essas camadas dificulta a investigação. Um problema pode nascer no registro, na instalação local, na transmissão, na validação, no processamento nacional ou na consulta ao relatório."
+  },
+  {
+    "start": 190.17,
+    "end": 193.05,
+    "speaker": "ESTUDANTE",
+    "text": "Onde começa o dado da equipe Ipê?"
+  },
+  {
+    "start": 193.05,
+    "end": 214.33,
+    "speaker": "APRESENTADORA",
+    "text": "Começa no processo de trabalho. Uma pessoa é cadastrada, recebe uma visita, participa de uma atividade coletiva ou tem um atendimento. Profissionais registram informações clínicas e administrativas associadas à pessoa, à equipe, ao estabelecimento, ao território e à data."
+  },
+  {
+    "start": 214.33,
+    "end": 217.53,
+    "speaker": "ESTUDANTE",
+    "text": "Tudo o que acontece vira um único registro?"
+  },
+  {
+    "start": 217.53,
+    "end": 234.49,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Cadastro, atendimento individual, procedimento, visita domiciliar, atividade coletiva e marcador de consumo alimentar são exemplos de modelos diferentes. Cada um possui campos, regras e unidades próprias."
+  },
+  {
+    "start": 234.49,
+    "end": 242.33,
+    "speaker": "ESTUDANTE",
+    "text": "Isso significa que não posso somar atendimentos, procedimentos e pessoas cadastradas como se representassem a mesma coisa."
+  },
+  {
+    "start": 242.58,
+    "end": 256.82,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Um atendimento pode conter vários procedimentos; uma pessoa pode ter vários atendimentos; uma atividade coletiva reúne participantes; e um cadastro não prova que houve contato assistencial naquele mês."
+  },
+  {
+    "start": 256.82,
+    "end": 260.661,
+    "speaker": "ESTUDANTE",
+    "text": "Qual é, então, a unidade de análise do SISAPS?"
+  },
+  {
+    "start": 260.661,
+    "end": 285.46,
+    "speaker": "APRESENTADORA",
+    "text": "Depende da pergunta e do produto consultado. Pode ser pessoa cadastrada, atendimento, procedimento, visita, atividade, equipe, estabelecimento, município, competência ou indicador. A primeira linha de qualquer plano analítico deveria dizer qual dessas unidades está sendo observada."
+  },
+  {
+    "start": 285.46,
+    "end": 291.701,
+    "speaker": "ESTUDANTE",
+    "text": "No caso da equipe Ipê, o relatório mostra um indicador. A unidade é a equipe?"
+  },
+  {
+    "start": 291.701,
+    "end": 313.141,
+    "speaker": "APRESENTADORA",
+    "text": "A equipe é uma dimensão importante, mas o indicador combina outras unidades. Há um numerador, um denominador, uma competência, uma regra de inclusão e uma forma de vincular pessoas e registros à equipe. Precisamos abrir essa fórmula conceitualmente antes de interpretar a queda."
+  },
+  {
+    "start": 313.141,
+    "end": 316.1,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos começar pelos identificadores?"
+  },
+  {
+    "start": 316.1,
+    "end": 333.14,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O CNES identifica o estabelecimento. O INE identifica a equipe. Uma unidade pode abrigar várias equipes, e a composição, o credenciamento ou a situação de uma equipe pode mudar ao longo do tempo."
+  },
+  {
+    "start": 333.14,
+    "end": 338.5,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu agrupar apenas pelo CNES, misturo equipes do mesmo estabelecimento."
+  },
+  {
+    "start": 338.5,
+    "end": 358.5,
+    "speaker": "APRESENTADORA",
+    "text": "Pode misturar. E, se usar apenas o nome da equipe, corre o risco de unir nomes parecidos ou separar uma equipe que apenas mudou de grafia. Para séries por equipe, o ideal é construir um painel com INE, CNES, tipo de equipe e competência."
+  },
+  {
+    "start": 358.5,
+    "end": 361.061,
+    "speaker": "ESTUDANTE",
+    "text": "Isso já poderia explicar a queda da equipe Ipê?"
+  },
+  {
+    "start": 361.061,
+    "end": 375.941,
+    "speaker": "APRESENTADORA",
+    "text": "Poderia. Se parte da produção foi enviada com outro identificador, o relatório da equipe antiga cairia mesmo que os atendimentos continuassem. Ainda não é a resposta, mas é uma hipótese verificável."
+  },
+  {
+    "start": 375.941,
+    "end": 378.101,
+    "speaker": "ESTUDANTE",
+    "text": "E os tipos de equipe?"
+  },
+  {
+    "start": 379.31,
+    "end": 398.59,
+    "speaker": "APRESENTADORA",
+    "text": "Equipes de Saúde da Família, equipes de Atenção Primária, equipes de Saúde Bucal e outras modalidades podem ter atribuições e parâmetros diferentes. Comparar volumes brutos sem considerar tipo, população vinculada e composição profissional pode produzir rankings injustos."
+  },
+  {
+    "start": 398.59,
+    "end": 404.51,
+    "speaker": "ESTUDANTE",
+    "text": "Duas equipes com cem atendimentos não necessariamente tiveram o mesmo desempenho."
+  },
+  {
+    "start": 404.51,
+    "end": 421.47,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Uma pode acompanhar uma população maior, mais envelhecida ou mais vulnerável. Outra pode ter ficado parte do mês sem profissionais. O número registrado precisa de contexto operacional e territorial."
+  },
+  {
+    "start": 421.47,
+    "end": 425.23,
+    "speaker": "ESTUDANTE",
+    "text": "Depois do registro local, qual é a próxima etapa?"
+  },
+  {
+    "start": 425.23,
+    "end": 442.349,
+    "speaker": "APRESENTADORA",
+    "text": "O sistema aplica verificações e organiza os registros para envio. Há campos obrigatórios, compatibilidades entre datas e identificadores e regras que podem impedir ou limitar o aproveitamento de uma informação inconsistente."
+  },
+  {
+    "start": 442.349,
+    "end": 446.75,
+    "speaker": "ESTUDANTE",
+    "text": "Então um atendimento pode ter ocorrido e não aparecer no indicador."
+  },
+  {
+    "start": 446.75,
+    "end": 465.949,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Pode ter sido registrado de forma incompleta, enviado fora do prazo, rejeitado, vinculado à equipe errada ou não incluído pela regra do indicador. Por isso, “não apareceu no relatório” não equivale automaticamente a “não aconteceu”."
+  },
+  {
+    "start": 465.949,
+    "end": 470.99,
+    "speaker": "ESTUDANTE",
+    "text": "E o contrário? Um registro no sistema prova que o cuidado teve qualidade?"
+  },
+  {
+    "start": 470.99,
+    "end": 488.43,
+    "speaker": "APRESENTADORA",
+    "text": "Também não. O registro documenta uma ação segundo determinados campos e regras. Ele não substitui avaliação clínica, experiência da pessoa atendida, auditoria, continuidade do cuidado ou análise de desfechos."
+  },
+  {
+    "start": 488.43,
+    "end": 493.07,
+    "speaker": "ESTUDANTE",
+    "text": "O sistema enxerga o registro processado, não toda a relação de cuidado."
+  },
+  {
+    "start": 493.07,
+    "end": 508.43,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma distinção central. O SISAPS é valioso justamente porque organiza uma dimensão nacional do trabalho da APS, mas essa dimensão é mediada por registro, envio e processamento."
+  },
+  {
+    "start": 508.68,
+    "end": 510.279,
+    "speaker": "ESTUDANTE",
+    "text": "Como funciona a competência?"
+  },
+  {
+    "start": 510.279,
+    "end": 528.84,
+    "speaker": "APRESENTADORA",
+    "text": "A competência é o período de referência do dado, geralmente mensal. Ela ajuda a organizar produção, cadastro e indicadores, mas não deve ser confundida com a data em que o pesquisador fez a extração nem com a data em que o relatório foi atualizado."
+  },
+  {
+    "start": 528.84,
+    "end": 533.96,
+    "speaker": "ESTUDANTE",
+    "text": "Posso consultar em maio um dado referente a março que ainda será reprocessado."
+  },
+  {
+    "start": 533.96,
+    "end": 551.4,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Por isso, registre competência, data de extração, calendário de envio e situação do processamento. Resultados recentes podem mudar quando lotes atrasados entram ou quando inconsistências são corrigidas."
+  },
+  {
+    "start": 551.4,
+    "end": 555.48,
+    "speaker": "ESTUDANTE",
+    "text": "Uma queda no último mês é, então, especialmente suspeita."
+  },
+  {
+    "start": 555.48,
+    "end": 576.359,
+    "speaker": "APRESENTADORA",
+    "text": "Ela merece cautela. Compare o mesmo intervalo de atraso em períodos anteriores, verifique se todas as equipes transmitiram e observe se a curva se recompõe nas atualizações seguintes. O dado mais recente pode ser útil, mas precisa ser identificado como sujeito a revisão."
+  },
+  {
+    "start": 576.359,
+    "end": 581.48,
+    "speaker": "ESTUDANTE",
+    "text": "No nosso caso, a queda apareceu justamente durante a migração para o novo sistema."
+  },
+  {
+    "start": 581.48,
+    "end": 601.16,
+    "speaker": "APRESENTADORA",
+    "text": "Isso aumenta o número de hipóteses. Transições podem alterar telas, fluxos, modelos de informação, validações, calendário, relatórios e regras de cálculo. Uma quebra na série pode ser tecnológica ou normativa, não assistencial."
+  },
+  {
+    "start": 601.16,
+    "end": 603.64,
+    "speaker": "ESTUDANTE",
+    "text": "Como separar uma coisa da outra?"
+  },
+  {
+    "start": 603.64,
+    "end": 628.68,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro, marque a transição na série. Depois, compare variáveis que deveriam reagir de maneiras diferentes. Se vários indicadores e equipes caem simultaneamente na mesma competência, pense em envio ou processamento. Se apenas uma equipe cai, investigue identificadores, composição e rotina local."
+  },
+  {
+    "start": 628.68,
+    "end": 633.48,
+    "speaker": "ESTUDANTE",
+    "text": "E se o número de atendimentos fica estável, mas um indicador específico cai?"
+  },
+  {
+    "start": 633.73,
+    "end": 648.85,
+    "speaker": "APRESENTADORA",
+    "text": "A hipótese se desloca para a definição do indicador: numerador, denominador, janela temporal, códigos aceitos ou vínculo exigido. A análise ganha força quando cada explicação produz uma checagem concreta."
+  },
+  {
+    "start": 648.85,
+    "end": 655.01,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar dos denominadores. Eles parecem ser uma fonte frequente de confusão."
+  },
+  {
+    "start": 655.01,
+    "end": 674.849,
+    "speaker": "APRESENTADORA",
+    "text": "São. Um indicador pode usar população cadastrada, população vinculada, população residente, população esperada, pessoas atendidas ou registros elegíveis. Trocar o denominador muda a pergunta, mesmo quando o numerador permanece igual."
+  },
+  {
+    "start": 674.849,
+    "end": 679.649,
+    "speaker": "ESTUDANTE",
+    "text": "População cadastrada e população residente não são equivalentes?"
+  },
+  {
+    "start": 679.649,
+    "end": 699.09,
+    "speaker": "APRESENTADORA",
+    "text": "Não. A população residente é uma estimativa demográfica de quem vive no território. A população cadastrada depende do processo de cadastro da APS e pode conter desatualizações, duplicidades, mudanças de endereço ou pessoas ainda não alcançadas pela equipe."
+  },
+  {
+    "start": 699.09,
+    "end": 701.49,
+    "speaker": "ESTUDANTE",
+    "text": "E a população vinculada?"
+  },
+  {
+    "start": 701.49,
+    "end": 716.13,
+    "speaker": "APRESENTADORA",
+    "text": "É a população atribuída a uma equipe ou território segundo regras vigentes. Ela é importante para acompanhamento e cofinanciamento, mas também depende da qualidade cadastral e das regras de vinculação."
+  },
+  {
+    "start": 716.13,
+    "end": 722.69,
+    "speaker": "ESTUDANTE",
+    "text": "Então um percentual pode cair mesmo com o mesmo número de acompanhamentos, se o denominador aumentar."
+  },
+  {
+    "start": 722.69,
+    "end": 741.65,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeitamente. Imagine cem pessoas acompanhadas entre duzentas elegíveis: cinquenta por cento. Se uma atualização cadastral eleva o denominador para duzentas e cinquenta, o percentual cai para quarenta por cento, embora o numerador continue em cem."
+  },
+  {
+    "start": 741.65,
+    "end": 746.53,
+    "speaker": "ESTUDANTE",
+    "text": "A equipe não fez menos, mas agora enxergamos uma população maior."
+  },
+  {
+    "start": 746.53,
+    "end": 758.45,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. A queda pode revelar uma necessidade antes invisível. Tratar todo declínio como piora elimina justamente a informação que o indicador trouxe."
+  },
+  {
+    "start": 758.45,
+    "end": 761.41,
+    "speaker": "ESTUDANTE",
+    "text": "O cadastro, então, merece uma análise própria."
+  },
+  {
+    "start": 761.66,
+    "end": 780.3,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Avalie duplicidades, atualização, vínculo territorial, identificação da equipe e coerência com o território. Um cadastro volumoso não é automaticamente um cadastro qualificado; e um cadastro incompleto afeta indicadores que dependem dele."
+  },
+  {
+    "start": 780.3,
+    "end": 783.341,
+    "speaker": "ESTUDANTE",
+    "text": "Como o território entra nessa história?"
+  },
+  {
+    "start": 783.341,
+    "end": 805.821,
+    "speaker": "APRESENTADORA",
+    "text": "A APS trabalha com responsabilização territorial. Pessoa, domicílio, microárea, equipe, unidade e município formam camadas relacionadas, mas não intercambiáveis. Mudanças de endereço ou redistribuição de microáreas podem alterar a população vinculada a cada equipe."
+  },
+  {
+    "start": 805.821,
+    "end": 812.781,
+    "speaker": "ESTUDANTE",
+    "text": "Se a equipe Ipê perdeu uma microárea para outra equipe, sua série precisa registrar essa reorganização."
+  },
+  {
+    "start": 812.781,
+    "end": 824.982,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Sem essa anotação, a queda de cadastros ou atendimentos poderia parecer perda de desempenho, quando na verdade houve mudança de responsabilidade territorial."
+  },
+  {
+    "start": 824.982,
+    "end": 829.582,
+    "speaker": "ESTUDANTE",
+    "text": "E os indicadores de cofinanciamento? Eles medem qualidade?"
+  },
+  {
+    "start": 829.582,
+    "end": 846.022,
+    "speaker": "APRESENTADORA",
+    "text": "Eles são instrumentos administrativos e de monitoramento construídos segundo regras definidas. Podem iluminar dimensões importantes do cuidado, mas nenhum conjunto sintético esgota a qualidade da APS."
+  },
+  {
+    "start": 846.022,
+    "end": 847.022,
+    "speaker": "ESTUDANTE",
+    "text": "Por quê?"
+  },
+  {
+    "start": 847.022,
+    "end": 872.623,
+    "speaker": "APRESENTADORA",
+    "text": "Porque o resultado depende de elegibilidade, janela de acompanhamento, denominador, registro oportuno, composição da equipe e norma vigente. Além disso, qualidade inclui acesso, continuidade, coordenação, segurança, vínculo e experiência das pessoas, dimensões que não cabem inteiramente em um único indicador."
+  },
+  {
+    "start": 872.623,
+    "end": 877.184,
+    "speaker": "ESTUDANTE",
+    "text": "Então o indicador orienta perguntas; não encerra a avaliação."
+  },
+  {
+    "start": 877.184,
+    "end": 892.306,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Use-o para localizar padrões, desigualdades e possíveis problemas. Depois, combine a leitura com contexto da equipe, outros indicadores e conhecimento do território."
+  },
+  {
+    "start": 892.306,
+    "end": 895.905,
+    "speaker": "ESTUDANTE",
+    "text": "Mudanças de regra podem quebrar séries?"
+  },
+  {
+    "start": 896.15,
+    "end": 911.669,
+    "speaker": "APRESENTADORA",
+    "text": "Podem. Se muda quem entra no denominador, quais registros contam ou qual é a janela temporal, valores antes e depois deixam de ser diretamente comparáveis. A nota metodológica passa a fazer parte do dado."
+  },
+  {
+    "start": 911.669,
+    "end": 916.55,
+    "speaker": "ESTUDANTE",
+    "text": "Gostei dessa frase: a nota metodológica faz parte do dado."
+  },
+  {
+    "start": 916.55,
+    "end": 924.79,
+    "speaker": "APRESENTADORA",
+    "text": "E faz mesmo. Um número sem versão, competência e regra pode parecer preciso, mas permanecer ambíguo."
+  },
+  {
+    "start": 924.79,
+    "end": 929.83,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo usa pré-natal como exemplo. Até onde devemos ir aqui?"
+  },
+  {
+    "start": 929.83,
+    "end": 953.349,
+    "speaker": "APRESENTADORA",
+    "text": "Apenas o necessário para entender o SISAPS. No contexto da APS, podemos observar cadastro, atendimentos e indicadores de acompanhamento. Quando a pergunta passa para características do nascimento ou desfechos materno-infantis, outras bases entram, mas esse aprofundamento pertence aos capítulos específicos."
+  },
+  {
+    "start": 953.349,
+    "end": 959.11,
+    "speaker": "ESTUDANTE",
+    "text": "Uma comparação municipal entre acompanhamento pré-natal e nascimentos é agregada."
+  },
+  {
+    "start": 959.11,
+    "end": 976.95,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Ela descreve territórios e períodos. Não demonstra, sozinha, que uma pessoa acompanhada teve determinado desfecho. Para afirmações individuais, seria necessário outro desenho, com governança, base legal e método apropriado."
+  },
+  {
+    "start": 976.95,
+    "end": 980.55,
+    "speaker": "ESTUDANTE",
+    "text": "E a produção da APS? Contar atividades é útil?"
+  },
+  {
+    "start": 980.55,
+    "end": 996.551,
+    "speaker": "APRESENTADORA",
+    "text": "É útil para compreender o processo de trabalho, acompanhar volume registrado e identificar mudanças operacionais. Mas produção não mede diretamente necessidade, acesso efetivo, resolutividade ou qualidade."
+  },
+  {
+    "start": 996.551,
+    "end": 999.991,
+    "speaker": "ESTUDANTE",
+    "text": "Uma equipe com mais produção pode estar melhor?"
+  },
+  {
+    "start": 999.991,
+    "end": 1019.111,
+    "speaker": "APRESENTADORA",
+    "text": "Pode, mas também pode atender uma população maior, registrar com mais completitude ou enfrentar maior demanda. Outra equipe pode realizar atividades complexas que não aparecem bem em uma contagem simples. O volume precisa de denominador e contexto."
+  },
+  {
+    "start": 1019.111,
+    "end": 1025.752,
+    "speaker": "ESTUDANTE",
+    "text": "E produção baixa pode significar equipe incompleta, falha de registro ou população menor."
+  },
+  {
+    "start": 1026.72,
+    "end": 1036.56,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A interpretação deve transformar cada possibilidade em evidência a buscar, não em explicação improvisada depois de ver o resultado."
+  },
+  {
+    "start": 1036.56,
+    "end": 1040.4,
+    "speaker": "ESTUDANTE",
+    "text": "Como avaliar a qualidade dos dados do SISAPS?"
+  },
+  {
+    "start": 1040.4,
+    "end": 1063.759,
+    "speaker": "APRESENTADORA",
+    "text": "Pense em pelo menos seis dimensões: oportunidade, completitude, consistência, duplicidade, vínculo e estabilidade. Oportunidade pergunta se o dado chegou no prazo. Completitude observa campos preenchidos. Consistência testa combinações plausíveis."
+  },
+  {
+    "start": 1063.759,
+    "end": 1073.52,
+    "speaker": "ESTUDANTE",
+    "text": "Duplicidade verifica repetição; vínculo confirma pessoa, equipe e território; estabilidade observa mudanças bruscas."
+  },
+  {
+    "start": 1073.52,
+    "end": 1087.84,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E estabilidade não significa que o número deva ficar parado. Uma mudança real pode ser importante. O objetivo é distinguir variação explicável de artefato informacional."
+  },
+  {
+    "start": 1087.84,
+    "end": 1091.2,
+    "speaker": "ESTUDANTE",
+    "text": "Que checagens simples você faria primeiro?"
+  },
+  {
+    "start": 1091.2,
+    "end": 1112.399,
+    "speaker": "APRESENTADORA",
+    "text": "Contaria registros por competência e equipe, compararia data de atendimento com data de envio, verificaria rejeições, calcularia campos ausentes, examinaria mudanças de INE e CNES e confrontaria numerador e denominador separadamente."
+  },
+  {
+    "start": 1112.399,
+    "end": 1115.31,
+    "speaker": "ESTUDANTE",
+    "text": "Por que separar numerador e denominador?"
+  },
+  {
+    "start": 1115.31,
+    "end": 1128.56,
+    "speaker": "APRESENTADORA",
+    "text": "Porque o percentual esconde movimentos opostos. Uma queda pode vir de numerador menor, denominador maior ou ambos. Cada situação sugere causas e ações diferentes."
+  },
+  {
+    "start": 1128.56,
+    "end": 1132.42,
+    "speaker": "ESTUDANTE",
+    "text": "Também vale olhar valores absolutos antes das taxas."
+  },
+  {
+    "start": 1132.42,
+    "end": 1147.381,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E, em equipes pequenas, poucos registros podem produzir grandes oscilações percentuais. Apresente contagens, denominadores e, quando fizer sentido, médias móveis ou períodos agregados."
+  },
+  {
+    "start": 1147.381,
+    "end": 1151.841,
+    "speaker": "ESTUDANTE",
+    "text": "Ausência e zero também precisam ser separados?"
+  },
+  {
+    "start": 1152.09,
+    "end": 1168.489,
+    "speaker": "APRESENTADORA",
+    "text": "Sempre. Zero pode significar que o universo foi observado e nenhum evento elegível ocorreu. Ausência pode significar que o dado não chegou, não foi processado ou não estava disponível. Converter tudo em zero cria uma falsa certeza."
+  },
+  {
+    "start": 1168.489,
+    "end": 1171.21,
+    "speaker": "ESTUDANTE",
+    "text": "E se o relatório não explicar a situação do dado?"
+  },
+  {
+    "start": 1171.21,
+    "end": 1184.01,
+    "speaker": "APRESENTADORA",
+    "text": "Consulte a documentação, o calendário, as notas metodológicas e, quando possível, relatórios de validação. Se a incerteza permanecer, registre-a explicitamente na análise."
+  },
+  {
+    "start": 1184.01,
+    "end": 1187.69,
+    "speaker": "ESTUDANTE",
+    "text": "Melhor declarar uma limitação do que inventar completitude."
+  },
+  {
+    "start": 1187.69,
+    "end": 1192.73,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Transparência metodológica aumenta a utilidade do resultado."
+  },
+  {
+    "start": 1192.73,
+    "end": 1196.97,
+    "speaker": "ESTUDANTE",
+    "text": "Como acessar as informações sem se perder entre tantas interfaces?"
+  },
+  {
+    "start": 1196.97,
+    "end": 1218.01,
+    "speaker": "APRESENTADORA",
+    "text": "Comece pela pergunta. Relatórios públicos ajudam a conhecer indicadores agregados por município, região ou estado. Áreas de gestão oferecem produtos específicos. Manuais descrevem modelos, calendários e regras. Só depois escolha uma forma automatizada, se ela for necessária."
+  },
+  {
+    "start": 1218.01,
+    "end": 1221.93,
+    "speaker": "ESTUDANTE",
+    "text": "O caminho de acesso pode alterar atualização e granularidade."
+  },
+  {
+    "start": 1221.93,
+    "end": 1237.05,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Por isso, documente plataforma, endereço, data, filtros, competência e versão do produto. Uma captura de tela sem contexto é frágil; uma extração reproduzível precisa guardar os parâmetros."
+  },
+  {
+    "start": 1237.05,
+    "end": 1242.009,
+    "speaker": "ESTUDANTE",
+    "text": "E a transição SISAB-SISAPS exige guardar o nome da plataforma."
+  },
+  {
+    "start": 1242.009,
+    "end": 1259.609,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Não escreva apenas “dados da APS”. Informe se usou relatório histórico do SISAB, produto do SISAPS, área pública, acesso de gestão ou base derivada. Isso permite interpretar diferenças futuras."
+  },
+  {
+    "start": 1259.609,
+    "end": 1262.65,
+    "speaker": "ESTUDANTE",
+    "text": "Há dados individuais disponíveis publicamente?"
+  },
+  {
+    "start": 1262.9,
+    "end": 1280.181,
+    "speaker": "APRESENTADORA",
+    "text": "As informações públicas tendem a ser agregadas. Registros da APS envolvem dados pessoais, clínicos e territoriais protegidos. Acesso individual requer finalidade legítima, governança, segurança e observância da LGPD."
+  },
+  {
+    "start": 1280.181,
+    "end": 1285.3,
+    "speaker": "ESTUDANTE",
+    "text": "Mesmo uma combinação de tabelas agregadas pode trazer risco em territórios pequenos?"
+  },
+  {
+    "start": 1285.3,
+    "end": 1303.379,
+    "speaker": "APRESENTADORA",
+    "text": "Pode. Células com contagens muito baixas, recortes raros e cruzamentos detalhados podem favorecer reidentificação. A análise responsável reduz granularidade quando necessário e divulga apenas o que é compatível com a finalidade."
+  },
+  {
+    "start": 1303.379,
+    "end": 1306.659,
+    "speaker": "ESTUDANTE",
+    "text": "Quando combinar o SISAPS com outros sistemas?"
+  },
+  {
+    "start": 1306.659,
+    "end": 1321.06,
+    "speaker": "APRESENTADORA",
+    "text": "Quando a pergunta exigir contexto de oferta, eventos ou população. O ponto essencial aqui não é listar todas as integrações, mas definir território, período e unidade antes da junção."
+  },
+  {
+    "start": 1321.06,
+    "end": 1328.1,
+    "speaker": "ESTUDANTE",
+    "text": "O SISAPS pode falar de território de acompanhamento; outra base pode falar de residência ou ocorrência."
+  },
+  {
+    "start": 1328.1,
+    "end": 1344.98,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Estabelecimento, equipe, residência, ocorrência e gestão não são o mesmo recorte. Uma junção tecnicamente bem executada ainda pode responder à pergunta errada se esses conceitos forem misturados."
+  },
+  {
+    "start": 1344.98,
+    "end": 1349.38,
+    "speaker": "ESTUDANTE",
+    "text": "E combinar com o CNES ajuda a entender equipes e estabelecimentos."
+  },
+  {
+    "start": 1349.38,
+    "end": 1366.1,
+    "speaker": "APRESENTADORA",
+    "text": "Ajuda a conferir existência, tipo e situação na competência analisada. Mas o detalhamento da estrutura cadastral pertence ao capítulo do CNES. Aqui, basta lembrar que identificadores e tempo precisam ser compatíveis."
+  },
+  {
+    "start": 1366.1,
+    "end": 1369.14,
+    "speaker": "ESTUDANTE",
+    "text": "Quais são os erros mais frequentes com o SISAPS?"
+  },
+  {
+    "start": 1369.39,
+    "end": 1396.75,
+    "speaker": "APRESENTADORA",
+    "text": "Comparar SISAB e SISAPS como série homogênea; misturar cadastro, atendimento e procedimento; usar população cadastrada como residente; ignorar competência e reprocessamento; tratar ausência como zero; comparar equipes sem considerar INE, tipo e território; e transformar indicador administrativo em medida completa de qualidade."
+  },
+  {
+    "start": 1396.75,
+    "end": 1401.87,
+    "speaker": "ESTUDANTE",
+    "text": "Também seria erro afirmar que falta de registro prova falta de cuidado."
+  },
+  {
+    "start": 1401.87,
+    "end": 1412.51,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. E o inverso também: registro presente não prova cuidado resolutivo. A redação deve dizer exatamente o que foi observado."
+  },
+  {
+    "start": 1412.51,
+    "end": 1416.51,
+    "speaker": "ESTUDANTE",
+    "text": "Como ficaria uma frase metodologicamente cuidadosa?"
+  },
+  {
+    "start": 1416.51,
+    "end": 1433.549,
+    "speaker": "APRESENTADORA",
+    "text": "Em vez de “a equipe deixou de acompanhar os usuários”, diga: “o indicador processado de acompanhamento diminuiu na competência analisada”. Depois, apresente as verificações que apoiam ou afastam explicações informacionais."
+  },
+  {
+    "start": 1433.549,
+    "end": 1437.549,
+    "speaker": "ESTUDANTE",
+    "text": "A frase fica menos dramática e mais investigável."
+  },
+  {
+    "start": 1437.549,
+    "end": 1446.43,
+    "speaker": "APRESENTADORA",
+    "text": "E mais fiel ao dado. Precisão não enfraquece a conclusão; ela mostra o alcance real da evidência."
+  },
+  {
+    "start": 1446.43,
+    "end": 1450.99,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar à equipe Ipê. O que a investigação encontrou?"
+  },
+  {
+    "start": 1450.99,
+    "end": 1467.87,
+    "speaker": "APRESENTADORA",
+    "text": "No nosso exemplo fictício, o número de atendimentos registrados localmente permaneceu estável. Parte dos lotes da competência chegou depois do primeiro fechamento, e uma reorganização territorial ampliou a população vinculada à equipe."
+  },
+  {
+    "start": 1467.87,
+    "end": 1474.03,
+    "speaker": "ESTUDANTE",
+    "text": "Então o numerador apareceu incompleto no primeiro relatório e o denominador ficou maior."
+  },
+  {
+    "start": 1474.03,
+    "end": 1489.71,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Além disso, a equipe passou por uma atualização cadastral. Quando os lotes foram processados e a série foi reconstruída por INE, CNES e competência, a queda ficou bem menor."
+  },
+  {
+    "start": 1489.71,
+    "end": 1493.23,
+    "speaker": "ESTUDANTE",
+    "text": "O cuidado não havia desabado como parecia."
+  },
+  {
+    "start": 1493.48,
+    "end": 1511.639,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a conclusão prudente. As evidências não sustentavam a ideia de colapso assistencial. Ainda assim, o denominador maior revelou pessoas que precisavam ser acompanhadas, e o atraso de envio mostrou um problema de gestão da informação que merecia correção."
+  },
+  {
+    "start": 1511.639,
+    "end": 1523.16,
+    "speaker": "ESTUDANTE",
+    "text": "O mistério não termina com “era só um erro”. Ele produz duas ações: melhorar o fluxo do dado e planejar o cuidado para a população agora visível."
+  },
+  {
+    "start": 1523.16,
+    "end": 1532.599,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Informação de qualidade não serve para defender um indicador; serve para orientar decisões melhores."
+  },
+  {
+    "start": 1532.599,
+    "end": 1536.119,
+    "speaker": "ESTUDANTE",
+    "text": "Qual checklist você deixaria para uma análise do SISAPS?"
+  },
+  {
+    "start": 1536.119,
+    "end": 1560.84,
+    "speaker": "APRESENTADORA",
+    "text": "Declare sistema e plataforma, período e competência, data de extração, unidade de análise, INE e CNES quando aplicáveis, tipo de equipe, território, numerador, denominador, regra de cálculo, situação do envio, tratamento de ausentes e ponto de transição entre sistemas."
+  },
+  {
+    "start": 1560.84,
+    "end": 1564.92,
+    "speaker": "ESTUDANTE",
+    "text": "E guarde as notas metodológicas usadas na interpretação."
+  },
+  {
+    "start": 1564.92,
+    "end": 1572.72,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Sem elas, o mesmo código pode reproduzir números e ainda assim perder o significado."
+  },
+  {
+    "start": 1572.72,
+    "end": 1575.24,
+    "speaker": "ESTUDANTE",
+    "text": "Qual é a mensagem central do capítulo?"
+  },
+  {
+    "start": 1575.24,
+    "end": 1593.879,
+    "speaker": "APRESENTADORA",
+    "text": "O SISAPS organiza uma visão estratégica da Atenção Primária, conectando registros, pessoas, equipes, territórios e indicadores. Seu valor depende de compreender como cada informação foi registrada, transmitida, validada e processada."
+  },
+  {
+    "start": 1593.879,
+    "end": 1601,
+    "speaker": "ESTUDANTE",
+    "text": "E toda queda pede duas perguntas: o cuidado mudou e o fluxo da informação mudou?"
+  },
+  {
+    "start": 1601,
+    "end": 1608.44,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Compare as duas hipóteses com evidências, em vez de escolher uma por intuição."
+  },
+  {
+    "start": 1608.44,
+    "end": 1616.361,
+    "speaker": "ESTUDANTE",
+    "text": "Assim, a análise deixa de tratar o relatório como ponto final e passa a usá-lo como começo de uma investigação."
+  },
+  {
+    "start": 1617.49,
+    "end": 1634.93,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a melhor síntese. Defina a unidade, respeite a competência, abra numerador e denominador, marque a transição SISAB-SISAPS e escreva no limite do dado. Obrigada pela companhia, e até o próximo episódio!"
+  }
 ]

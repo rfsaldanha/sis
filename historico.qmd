@@ -84,7 +84,7 @@ A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando 
 | SISAGUA (@sec-sisagua) | Implantado em 1999 | Vigilância da qualidade da água para consumo humano |
 | CNES (@sec-cnes) | Criado em 2000 | Cadastro nacional de estabelecimentos, serviços, equipamentos e profissionais de saúde |
 | SIOPS (@sec-siops) | Criado em 2000 | Informações sobre receitas e despesas públicas em saúde |
-| SISAB/SISAPS (@sec-sisab) | SISAB implantado em 2013 e renovado pelo SISAPS/Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
+| SISAB/SISAPS (@sec-siaps) | SISAB implantado em 2013 e renovado pelo SISAPS/Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
 : Marcos de criação e consolidação dos principais sistemas abordados no livro
 
 Esses marcos não indicam que os sistemas permaneceram estáticos desde sua criação. Ao contrário, muitos passaram por mudanças de escopo, instrumentos, modelos de arquivo, regras de consistência e formas de disseminação. A leitura histórica deve considerar tanto o ano de criação quanto as transformações posteriores.

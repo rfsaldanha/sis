@@ -44,8 +44,48 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "SIAB",
+      "alias": "siábi"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SISAPS",
       "alias": "sis á pê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "Siaps",
+      "alias": "siáps"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "APS",
+      "alias": "a pê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PEC",
+      "alias": "pê é cê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CDS",
+      "alias": "cê dê ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "INE",
+      "alias": "i ene é"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "LGPD",
+      "alias": "éle gê pê dê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "PNAB",
+      "alias": "pê ene a bê"
     },
     {
       "type": "alias",
