@@ -1,527 +1,992 @@
 [
-{
-  "start": 0,
-  "end": 9.381,
-  "speaker": "APRESENTADORA",
-  "text": "Olá. Neste episódio, vamos conversar sobre o SI-PNI, o Sistema de Informações do Programa Nacional de Imunizações."
-}
-,
-{
-  "start": 9.731,
-  "end": 13.539,
-  "speaker": "ESTUDANTE",
-  "text": "Esse capítulo ficou bem mais detalhado. Qual é a ideia central?"
-}
-,
-{
-  "start": 13.889,
-  "end": 34.044,
-  "speaker": "APRESENTADORA",
-  "text": "A ideia central é simples, mas muito importante: o SI-PNI registra ações de vacinação. Para transformar esses registros em indicadores, precisamos definir dose, pessoa, esquema, calendário, território, período e denominador."
-}
-,
-{
-  "start": 34.394,
-  "end": 38.388,
-  "speaker": "ESTUDANTE",
-  "text": "Então não basta contar registros e chamar isso de cobertura vacinal."
-}
-,
-{
-  "start": 38.738,
-  "end": 56.989,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Cobertura vacinal depende de numerador e denominador compatíveis. Uma contagem de doses aplicadas mede produção registrada. Uma cobertura mede a relação entre doses ou pessoas elegíveis e uma população-alvo."
-}
-,
-{
-  "start": 57.339,
-  "end": 61.008,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo começa distinguindo o PNI do SI-PNI."
-}
-,
-{
-  "start": 61.358,
-  "end": 77.287,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O PNI é o Programa Nacional de Imunizações, responsável por coordenar a política de vacinação. O SI-PNI é o sistema de informação que organiza registros relacionados às ações de vacinação."
-}
-,
-{
-  "start": 77.637,
-  "end": 79.959,
-  "speaker": "ESTUDANTE",
-  "text": "E ele não mede diretamente imunidade."
-}
-,
-{
-  "start": 80.309,
-  "end": 103.993,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. O SI-PNI registra doses, produtos, datas, lotes, estratégias, pessoas e estabelecimentos, quando esses campos estão disponíveis e preenchidos. Ele não mede sozinho proteção imunológica, efetividade vacinal, hesitação vacinal, qualidade técnica da aplicação ou causalidade de eventos adversos."
-}
-,
-{
-  "start": 104.343,
-  "end": 106.386,
-  "speaker": "ESTUDANTE",
-  "text": "Para quem esse capítulo é útil?"
-}
-,
-{
-  "start": 106.736,
-  "end": 131.674,
-  "speaker": "APRESENTADORA",
-  "text": "Para estudantes, gestores, pesquisadores e analistas de dados. Estudantes devem focar nos conceitos. Gestores, no fluxo de registro e na oportunidade da informação. Pesquisadores, nas unidades de análise, denominadores e vieses. Analistas, nos campos, filtros, datas, território, duplicidades e reprodutibilidade."
-}
-,
-{
-  "start": 132.024,
-  "end": 133.882,
-  "speaker": "ESTUDANTE",
-  "text": "Quando devo usar o SI-PNI?"
-}
-,
-{
-  "start": 134.232,
-  "end": 149.279,
-  "speaker": "APRESENTADORA",
-  "text": "Use quando a pergunta envolve doses aplicadas, pessoas vacinadas, esquemas vacinais, campanhas, cobertura vacinal, registros de imunobiológicos ou eventos relacionados à vacinação."
-}
-,
-{
-  "start": 149.629,
-  "end": 151.301,
-  "speaker": "ESTUDANTE",
-  "text": "E quando não devo usar sozinho?"
-}
-,
-{
-  "start": 151.651,
-  "end": 174.267,
-  "speaker": "APRESENTADORA",
-  "text": "Não use sozinho para responder perguntas sobre efetividade vacinal, proteção imunológica individual, causas de eventos adversos, motivos da não vacinação, barreiras de acesso ou qualidade técnica da sala de vacina. Para essas perguntas, ele precisa ser combinado com outras fontes e desenhos de estudo."
-}
-,
-{
-  "start": 174.617,
-  "end": 177.171,
-  "speaker": "ESTUDANTE",
-  "text": "Como o SI-PNI se organizava antes?"
-}
-,
-{
-  "start": 177.521,
-  "end": 199.766,
-  "speaker": "APRESENTADORA",
-  "text": "O SI-PNI antigo tinha diferentes módulos e aplicações, como API, EDI, EAPV, PAISSV, AIU, PAIS e SICRIE. Eles apoiavam avaliação do programa, estoque e distribuição, eventos adversos, supervisão e centros de referência."
-}
-,
-{
-  "start": 200.116,
-  "end": 202.624,
-  "speaker": "ESTUDANTE",
-  "text": "E o que mudou com o novo SI-PNI?"
-}
-,
-{
-  "start": 202.974,
-  "end": 225.683,
-  "speaker": "APRESENTADORA",
-  "text": "A mudança principal é a centralidade do registro nominal e da integração com a Rede Nacional de Dados em Saúde, a RNDS. Isso permite acompanhar melhor pessoas e esquemas, mas também exige mais cuidado com deduplicação, integração, privacidade e comparabilidade histórica."
-}
-,
-{
-  "start": 226.033,
-  "end": 229.330,
-  "speaker": "ESTUDANTE",
-  "text": "A transição aconteceu depois da pandemia de Covid-19?"
-}
-,
-{
-  "start": 229.680,
-  "end": 253.364,
-  "speaker": "APRESENTADORA",
-  "text": "A pandemia acelerou a necessidade de registro oportuno e nominal. Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos web e desktop para o registro individualizado e movimentação de imunobiológicos. Em 1º de junho de 2023, entrou o módulo de vacinação de rotina no novo SI-PNI."
-}
-,
-{
-  "start": 253.714,
-  "end": 256.268,
-  "speaker": "ESTUDANTE",
-  "text": "Então séries históricas podem ter quebras."
-}
-,
-{
-  "start": 256.618,
-  "end": 270.318,
-  "speaker": "APRESENTADORA",
-  "text": "Podem. Uma mudança na série pode refletir mudança real na vacinação, mas também mudança de sistema, fluxo, prazo, integração, deduplicação ou forma de divulgação."
-}
-,
-{
-  "start": 270.668,
-  "end": 272.386,
-  "speaker": "ESTUDANTE",
-  "text": "Como o dado chega ao sistema?"
-}
-,
-{
-  "start": 272.736,
-  "end": 296.420,
-  "speaker": "APRESENTADORA",
-  "text": "O registro pode ser feito diretamente no novo SI-PNI ou em sistemas locais integrados. Quando há integração, o evento de imunização segue para a RNDS. Em alguns contextos, registros da Atenção Primária podem passar por fluxos intermediários, como e-SUS APS e SISAB."
-}
-,
-{
-  "start": 296.770,
-  "end": 300.253,
-  "speaker": "ESTUDANTE",
-  "text": "Então competências recentes podem estar incompletas."
-}
-,
-{
-  "start": 300.603,
-  "end": 313.002,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Antes de interpretar queda recente de doses como queda real da vacinação, verifique atraso de envio, processamento, integração e data de extração."
-}
-,
-{
-  "start": 313.352,
-  "end": 316.046,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo fala bastante de unidade de análise."
-}
-,
-{
-  "start": 316.396,
-  "end": 337.108,
-  "speaker": "APRESENTADORA",
-  "text": "Porque esse é o coração da análise. Uma dose aplicada é um registro. Uma pessoa vacinada é um indivíduo com pelo menos uma dose. Um esquema completo é uma sequência de doses que cumpre regras. Uma dose válida precisa respeitar idade, intervalo, produto e calendário."
-}
-,
-{
-  "start": 337.458,
-  "end": 340.012,
-  "speaker": "ESTUDANTE",
-  "text": "Então uma pessoa pode aparecer várias vezes."
-}
-,
-{
-  "start": 340.362,
-  "end": 357.220,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Ela pode receber várias doses do mesmo imunobiológico, vacinas diferentes no mesmo dia, reforços em momentos posteriores ou registros duplicados. Por isso, dose, pessoa e esquema não são a mesma coisa."
-}
-,
-{
-  "start": 357.570,
-  "end": 359.660,
-  "speaker": "ESTUDANTE",
-  "text": "Como pensar no dicionário de dados?"
-}
-,
-{
-  "start": 360.010,
-  "end": 384.855,
-  "speaker": "APRESENTADORA",
-  "text": "Procure grupos de campos. Campos de pessoa, como identificador anonimizado, idade, sexo, raça/cor e residência. Campos de vacinação, como vacina, dose, estratégia e data. Campos de produto, como fabricante e lote. Campos de estabelecimento, como CNES e município de aplicação. E campos de tempo e fonte."
-}
-,
-{
-  "start": 385.205,
-  "end": 387.666,
-  "speaker": "ESTUDANTE",
-  "text": "Os nomes das variáveis são sempre os mesmos?"
-}
-,
-{
-  "start": 388.016,
-  "end": 406.313,
-  "speaker": "APRESENTADORA",
-  "text": "Não necessariamente. Bases, anos, campanhas e versões podem mudar. Por isso, uma análise reprodutível deve salvar o dicionário, a URL, o período, o formato, a data de extração e as regras de renomeação."
-}
-,
-{
-  "start": 406.663,
-  "end": 410.239,
-  "speaker": "ESTUDANTE",
-  "text": "Vamos voltar para cobertura vacinal. Qual é o erro mais comum?"
-}
-,
-{
-  "start": 410.589,
-  "end": 432.694,
-  "speaker": "APRESENTADORA",
-  "text": "Chamar qualquer contagem de dose de cobertura. Cobertura administrativa exige numerador e denominador. O numerador pode ser uma dose específica, uma pessoa com dose válida ou uma pessoa com esquema completo. O denominador deve representar a população-alvo correta."
-}
-,
-{
-  "start": 433.044,
-  "end": 435.505,
-  "speaker": "ESTUDANTE",
-  "text": "Quais denominadores aparecem com frequência?"
-}
-,
-{
-  "start": 435.855,
-  "end": 453.224,
-  "speaker": "APRESENTADORA",
-  "text": "Nascidos vivos para vacinas do calendário infantil, população residente para faixas etárias amplas, população-alvo de campanha, cadastro da APS, populações específicas, como povos indígenas, ou grupos definidos por norma."
-}
-,
-{
-  "start": 453.574,
-  "end": 455.617,
-  "speaker": "ESTUDANTE",
-  "text": "E cobertura acima de 100 por cento?"
-}
-,
-{
-  "start": 455.967,
-  "end": 473.010,
-  "speaker": "APRESENTADORA",
-  "text": "É um sinal para investigação. Pode ocorrer por denominador subestimado, vacinação de residentes de outros territórios, duplicidade, migração, população-alvo mal definida ou mistura de campanha com rotina."
-}
-,
-{
-  "start": 473.360,
-  "end": 477.865,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo diferencia cobertura administrativa e cobertura de inquérito."
-}
-,
-{
-  "start": 478.215,
-  "end": 499.345,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. A cobertura administrativa vem de registros do SI-PNI divididos por uma população-alvo. Inquéritos usam amostras, cadernetas, entrevistas ou registros verificados. As duas fontes respondem perguntas próximas, mas não são intercambiáveis."
-}
-,
-{
-  "start": 499.695,
-  "end": 503.596,
-  "speaker": "ESTUDANTE",
-  "text": "Se o SI-PNI e um inquérito discordam, qual está certo?"
-}
-,
-{
-  "start": 503.946,
-  "end": 520.850,
-  "speaker": "APRESENTADORA",
-  "text": "A pergunta melhor é: por que discordam? Pode haver perda de registro, erro de denominador, duplicidade, dose fora da janela, problema de identificação, diferença territorial ou diferença no período observado."
-}
-,
-{
-  "start": 521.200,
-  "end": 523.615,
-  "speaker": "ESTUDANTE",
-  "text": "Como seria um exemplo de cobertura infantil?"
-}
-,
-{
-  "start": 523.965,
-  "end": 547.649,
-  "speaker": "APRESENTADORA",
-  "text": "Primeiro defina a coorte, por exemplo crianças nascidas em determinado ano e residentes em um município. Depois selecione a vacina e a dose do calendário, valide idade e intervalo, conte pessoas uma única vez e use um denominador compatível, como nascidos vivos residentes da mesma coorte."
-}
-,
-{
-  "start": 547.999,
-  "end": 550.228,
-  "speaker": "ESTUDANTE",
-  "text": "E para campanha de influenza em idosos?"
-}
-,
-{
-  "start": 550.578,
-  "end": 567.807,
-  "speaker": "APRESENTADORA",
-  "text": "Defina o público-alvo, o período da campanha, o território, o numerador como pessoas do grupo-alvo vacinadas e o denominador como população estimada do grupo. Doses duplicadas da mesma pessoa não devem virar duas pessoas cobertas."
-}
-,
-{
-  "start": 568.157,
-  "end": 570.293,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo também fala de raça/cor."
-}
-,
-{
-  "start": 570.643,
-  "end": 590.008,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Antes de estudar desigualdades, avalie a completitude do campo raça/cor. Veja se o preenchimento varia por UF, município, período, serviço ou sistema de origem. Campo incompleto pode limitar muito a análise de iniquidades."
-}
-,
-{
-  "start": 590.358,
-  "end": 593.516,
-  "speaker": "ESTUDANTE",
-  "text": "Como separar rotina, campanha e Covid-19?"
-}
-,
-{
-  "start": 593.866,
-  "end": 614.207,
-  "speaker": "APRESENTADORA",
-  "text": "Use filtros de estratégia, produto, dose, público-alvo e período. Covid-19 teve regras próprias, produtos diferentes, reforços e grupos que mudaram rapidamente. Misturar Covid-19 com rotina pode distorcer séries e coberturas."
-}
-,
-{
-  "start": 614.557,
-  "end": 615.625,
-  "speaker": "ESTUDANTE",
-  "text": "E o território?"
-}
-,
-{
-  "start": 615.975,
-  "end": 631.300,
-  "speaker": "APRESENTADORA",
-  "text": "Para cobertura populacional, geralmente use residência. Para produção do serviço, use local de aplicação ou CNES. Município de residência e município de aplicação respondem perguntas diferentes."
-}
-,
-{
-  "start": 631.650,
-  "end": 632.718,
-  "speaker": "ESTUDANTE",
-  "text": "E as datas?"
-}
-,
-{
-  "start": 633.068,
-  "end": 646.350,
-  "speaker": "APRESENTADORA",
-  "text": "Data de vacinação mostra quando a dose foi aplicada. Data de registro mostra quando entrou no sistema. Mês do arquivo organiza a base aberta. Essas datas não são equivalentes."
-}
-,
-{
-  "start": 646.700,
-  "end": 648.743,
-  "speaker": "ESTUDANTE",
-  "text": "Como validar a qualidade dos dados?"
-}
-,
-{
-  "start": 649.093,
-  "end": 668.226,
-  "speaker": "APRESENTADORA",
-  "text": "Verifique registros sem vacina, dose, data, residência ou CNES. Procure duplicidades. Avalie idade incompatível, intervalo incompatível entre doses, mudanças abruptas em meses recentes e completitude de campos sociais."
-}
-,
-{
-  "start": 668.576,
-  "end": 671.270,
-  "speaker": "ESTUDANTE",
-  "text": "A reprodutibilidade parece bem importante."
-}
-,
-{
-  "start": 671.620,
-  "end": 689.824,
-  "speaker": "APRESENTADORA",
-  "text": "Muito. Documente conjunto de dados, ano, meses, formato, data e horário de extração, versão do dicionário, filtros, regra de deduplicação, fonte do denominador e tratamento de registros incompletos."
-}
-,
-{
-  "start": 690.174,
-  "end": 692.589,
-  "speaker": "ESTUDANTE",
-  "text": "Como a privacidade entra nessa discussão?"
-}
-,
-{
-  "start": 692.939,
-  "end": 710.679,
-  "speaker": "APRESENTADORA",
-  "text": "O novo SI-PNI trabalha com registros individualizados, mas a base pública precisa proteger dados pessoais. Por isso, há anonimização ou pseudonimização e limites para linkage individual público."
-}
-,
-{
-  "start": 711.029,
-  "end": 714.651,
-  "speaker": "ESTUDANTE",
-  "text": "Com quais sistemas o SI-PNI costuma ser combinado?"
-}
-,
-{
-  "start": 715.001,
-  "end": 738.175,
-  "speaker": "APRESENTADORA",
-  "text": "Com SINASC para cobertura infantil, POP para denominadores populacionais, SISAPS ou SISAB para Atenção Primária, CNES para estabelecimentos, SINAN para agravos, SIVEP-Gripe e SIM para estudos de eventos graves e mortalidade, sempre com desenho adequado."
-}
-,
-{
-  "start": 738.525,
-  "end": 740.615,
-  "speaker": "ESTUDANTE",
-  "text": "Quais erros comuns devemos evitar?"
-}
-,
-{
-  "start": 740.965,
-  "end": 759.077,
-  "speaker": "APRESENTADORA",
-  "text": "Contar doses como pessoas, misturar residência e aplicação, misturar rotina e campanha, usar denominador genérico, ignorar idade e intervalo, interpretar mês recente como definitivo e tratar ESAVI como causalidade."
-}
-,
-{
-  "start": 759.427,
-  "end": 764.907,
-  "speaker": "ESTUDANTE",
-  "text": "ESAVI significa evento supostamente atribuível à vacinação ou imunização."
-}
-,
-{
-  "start": 765.257,
-  "end": 776.774,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. A palavra supostamente é essencial. Notificação de ESAVI é ponto de partida para investigação, não prova automática de relação causal."
-}
-,
-{
-  "start": 777.124,
-  "end": 780.003,
-  "speaker": "ESTUDANTE",
-  "text": "Qual é a principal limitação do SI-PNI?"
-}
-,
-{
-  "start": 780.353,
-  "end": 801.019,
-  "speaker": "APRESENTADORA",
-  "text": "Não há uma única. As principais são sub-registro, atraso de envio, duplicidade, identificação inconsistente, denominador incerto, mudança de calendário, diferença entre residência e aplicação, transição de sistemas e limites de privacidade."
-}
-,
-{
-  "start": 801.369,
-  "end": 803.784,
-  "speaker": "ESTUDANTE",
-  "text": "Para fechar, qual é a mensagem prática?"
-}
-,
-{
-  "start": 804.134,
-  "end": 825.543,
-  "speaker": "APRESENTADORA",
-  "text": "Use o SI-PNI com respeito à sua lógica. Ele é essencial para monitorar vacinação no Brasil, mas todo indicador precisa declarar unidade de análise, numerador, denominador, território, período, regra de validade, data de extração e limitações."
-}
-,
-{
-  "start": 825.893,
-  "end": 832.534,
-  "speaker": "ESTUDANTE",
-  "text": "Então o capítulo ensina menos a apertar botões e mais a pensar corretamente sobre dados de vacinação."
-}
-,
-{
-  "start": 832.884,
-  "end": 847.420,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Em vacinação, uma boa análise começa antes da base: começa na pergunta, na definição da população-alvo e na distinção entre dose, pessoa, esquema e cobertura."
-}
-
+  {
+    "start": 0,
+    "end": 17.361,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SI-PNI, o Sistema de Informações do Programa Nacional de Imunizações, do livro Sistemas de Informação em Saúde no Brasil. Hoje, vamos começar com um aparente paradoxo."
+  },
+  {
+    "start": 17.361,
+    "end": 19.199,
+    "speaker": "ESTUDANTE",
+    "text": "Que paradoxo é esse?"
+  },
+  {
+    "start": 19.199,
+    "end": 39.84,
+    "speaker": "APRESENTADORA",
+    "text": "No município fictício de Horizonte, um painel mostra cobertura vacinal de cento e doze por cento para uma vacina infantil. Ao mesmo tempo, as equipes encontram muitas crianças com esquema incompleto. Como pode haver cobertura acima de cem por cento e pessoas ainda desprotegidas?"
+  },
+  {
+    "start": 39.84,
+    "end": 42.48,
+    "speaker": "ESTUDANTE",
+    "text": "Uma das informações deve estar errada."
+  },
+  {
+    "start": 42.48,
+    "end": 59.04,
+    "speaker": "APRESENTADORA",
+    "text": "Talvez haja problema de registro ou denominador. Mas também é possível que as duas medidas estejam corretas e respondam a perguntas diferentes. Para resolver o caso, vamos seguir o dado da sala de vacinação ao indicador."
+  },
+  {
+    "start": 59.04,
+    "end": 64,
+    "speaker": "ESTUDANTE",
+    "text": "Então a pergunta do episódio é: o que exatamente foi contado?"
+  },
+  {
+    "start": 64,
+    "end": 81.759,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Em vacinação, uma palavra trocada pode mudar toda a análise: dose não é pessoa; pessoa com uma dose não é pessoa com esquema completo; e produção do serviço não é cobertura da população residente."
+  },
+  {
+    "start": 81.759,
+    "end": 86.879,
+    "speaker": "ESTUDANTE",
+    "text": "Antes do dado, precisamos distinguir PNI e SI-PNI?"
+  },
+  {
+    "start": 86.879,
+    "end": 111.76,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O PNI é o Programa Nacional de Imunizações, responsável pela política de vacinação. O SI-PNI é o sistema de informação que organiza registros das ações de imunização. O programa define calendários, estratégias e normas; o sistema documenta e processa informações relacionadas a essas ações."
+  },
+  {
+    "start": 111.76,
+    "end": 114.48,
+    "speaker": "ESTUDANTE",
+    "text": "O sistema não é a política inteira."
+  },
+  {
+    "start": 114.48,
+    "end": 133.759,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E também não mede diretamente imunidade. Ele registra imunobiológicos administrados, doses, datas, produtos, lotes, pessoas, estratégias e estabelecimentos, conforme os campos disponíveis e preenchidos."
+  },
+  {
+    "start": 133.759,
+    "end": 136.8,
+    "speaker": "ESTUDANTE",
+    "text": "O que ele não consegue demonstrar sozinho?"
+  },
+  {
+    "start": 137.05,
+    "end": 153.689,
+    "speaker": "APRESENTADORA",
+    "text": "Proteção imunológica individual, efetividade da vacina, motivo da não vacinação, qualidade técnica da aplicação e relação causal de um evento adverso. Essas perguntas exigem outras evidências e desenhos específicos."
+  },
+  {
+    "start": 153.689,
+    "end": 157.05,
+    "speaker": "ESTUDANTE",
+    "text": "Então vamos começar pelo evento que o sistema enxerga."
+  },
+  {
+    "start": 157.05,
+    "end": 176.009,
+    "speaker": "APRESENTADORA",
+    "text": "Imagine uma criança chegando à sala de vacinação. A equipe confere identificação, idade, histórico e indicação. Depois da aplicação, registra vacina, dose, data, lote, estratégia, pessoa e estabelecimento."
+  },
+  {
+    "start": 176.009,
+    "end": 178.41,
+    "speaker": "ESTUDANTE",
+    "text": "Uma linha da base representa essa aplicação?"
+  },
+  {
+    "start": 178.41,
+    "end": 195.85,
+    "speaker": "APRESENTADORA",
+    "text": "Em uma base individualizada de doses, essa é a interpretação usual: um registro corresponde a um imunobiológico administrado. Mas sempre confirme o dicionário, porque estrutura, campos e forma de divulgação podem variar."
+  },
+  {
+    "start": 195.85,
+    "end": 200.73,
+    "speaker": "ESTUDANTE",
+    "text": "Se duas vacinas forem aplicadas no mesmo dia, haverá dois registros."
+  },
+  {
+    "start": 200.73,
+    "end": 216.01,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E a mesma pessoa pode receber primeiras doses, doses subsequentes e reforços em datas diferentes. Por isso, contar linhas produz doses registradas, não pessoas distintas."
+  },
+  {
+    "start": 216.01,
+    "end": 218.569,
+    "speaker": "ESTUDANTE",
+    "text": "Essa é a primeira pista para Horizonte?"
+  },
+  {
+    "start": 218.569,
+    "end": 231.849,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Se o numerador contou todas as doses ou registros, pode ter incluído eventos que não correspondem à dose usada na cobertura. Precisamos abrir a definição do numerador."
+  },
+  {
+    "start": 231.849,
+    "end": 233.69,
+    "speaker": "ESTUDANTE",
+    "text": "O que deve aparecer nessa definição?"
+  },
+  {
+    "start": 233.69,
+    "end": 252.611,
+    "speaker": "APRESENTADORA",
+    "text": "Vacina, dose, público elegível, idade, período, território e regra de validade. Também é preciso decidir se a unidade será registro de dose, pessoa com uma dose ou pessoa com esquema completo."
+  },
+  {
+    "start": 252.611,
+    "end": 255.851,
+    "speaker": "ESTUDANTE",
+    "text": "“Vacinação aumentou” é uma frase vaga demais."
+  },
+  {
+    "start": 255.851,
+    "end": 270.011,
+    "speaker": "APRESENTADORA",
+    "text": "Muito vaga. Pode significar mais doses aplicadas, mais pessoas alcançadas, maior cobertura de uma dose ou maior conclusão de esquema. Cada medida precisa de uma frase própria."
+  },
+  {
+    "start": 271.62,
+    "end": 274.579,
+    "speaker": "ESTUDANTE",
+    "text": "Como distinguir dose aplicada de dose válida?"
+  },
+  {
+    "start": 274.579,
+    "end": 290.899,
+    "speaker": "APRESENTADORA",
+    "text": "Dose aplicada descreve o registro do evento. Dose válida acrescenta regras do calendário: idade indicada, sequência, intervalo mínimo e produto compatível, conforme a norma vigente no período."
+  },
+  {
+    "start": 290.899,
+    "end": 294.34,
+    "speaker": "ESTUDANTE",
+    "text": "Uma dose fora do intervalo deve ser apagada?"
+  },
+  {
+    "start": 294.34,
+    "end": 312.339,
+    "speaker": "APRESENTADORA",
+    "text": "Não automaticamente. Ela continua sendo um evento registrado e pode ser relevante para produção ou investigação. Apenas talvez não conte para determinado esquema. Preserve o registro original e crie uma classificação analítica documentada."
+  },
+  {
+    "start": 312.339,
+    "end": 318.099,
+    "speaker": "ESTUDANTE",
+    "text": "O mesmo evento pode contar como produção e não contar como conclusão de esquema."
+  },
+  {
+    "start": 318.099,
+    "end": 324.74,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Isso mostra por que a finalidade da análise vem antes do filtro."
+  },
+  {
+    "start": 324.74,
+    "end": 327.7,
+    "speaker": "ESTUDANTE",
+    "text": "E como se reconstrói um esquema?"
+  },
+  {
+    "start": 327.7,
+    "end": 347.781,
+    "speaker": "APRESENTADORA",
+    "text": "Organize os registros por pessoa, vacina e data; classifique as doses; verifique idade, sequência e intervalo; e aplique a regra correspondente ao calendário e ao período. A definição deve estar escrita antes do código."
+  },
+  {
+    "start": 347.781,
+    "end": 350.74,
+    "speaker": "ESTUDANTE",
+    "text": "Por que mencionar o período da regra?"
+  },
+  {
+    "start": 350.74,
+    "end": 366.34,
+    "speaker": "APRESENTADORA",
+    "text": "Porque calendários, produtos e recomendações mudam. Uma sequência adequada em um ano pode não ser idêntica à de outro. Aplicar retrospectivamente uma regra atual a toda a série cria erros silenciosos."
+  },
+  {
+    "start": 366.34,
+    "end": 369.781,
+    "speaker": "ESTUDANTE",
+    "text": "Então a versão da norma faz parte do dado."
+  },
+  {
+    "start": 369.781,
+    "end": 375.782,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Guarde a fonte da regra junto com o script e a data de extração."
+  },
+  {
+    "start": 375.782,
+    "end": 382.182,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos agora para a cobertura de cento e doze por cento. Qual é a fórmula conceitual?"
+  },
+  {
+    "start": 382.182,
+    "end": 397.223,
+    "speaker": "APRESENTADORA",
+    "text": "Um numerador compatível com a vacinação do grupo-alvo dividido por um denominador que represente essa população, multiplicado por cem. Parece simples, mas cada termo exige escolhas."
+  },
+  {
+    "start": 397.223,
+    "end": 398.904,
+    "speaker": "ESTUDANTE",
+    "text": "Que numeradores são possíveis?"
+  },
+  {
+    "start": 400.35,
+    "end": 421.31,
+    "speaker": "APRESENTADORA",
+    "text": "Doses de uma etapa específica, pessoas distintas com dose válida ou pessoas com esquema completo. Em monitoramento administrativo tradicional, uma dose selecionada pode ser usada como numerador. Em análise nominal, é possível reconstruir pessoas e sequências, se a identificação for consistente."
+  },
+  {
+    "start": 421.31,
+    "end": 424.51,
+    "speaker": "ESTUDANTE",
+    "text": "E os resultados não são intercambiáveis."
+  },
+  {
+    "start": 424.51,
+    "end": 434.75,
+    "speaker": "APRESENTADORA",
+    "text": "Não. A cobertura de uma dose pode ser alta enquanto a conclusão do esquema permanece baixa. Esse pode ser parte do paradoxo de Horizonte."
+  },
+  {
+    "start": 434.75,
+    "end": 436.751,
+    "speaker": "ESTUDANTE",
+    "text": "Quais denominadores são frequentes?"
+  },
+  {
+    "start": 436.751,
+    "end": 457.151,
+    "speaker": "APRESENTADORA",
+    "text": "Nascidos vivos para coortes infantis, estimativas de população residente para grupos etários, população-alvo de campanha e cadastros específicos quando a estratégia assim exige. A fonte precisa corresponder a idade, território e período do numerador."
+  },
+  {
+    "start": 457.151,
+    "end": 461.391,
+    "speaker": "ESTUDANTE",
+    "text": "Como um denominador produz cobertura acima de cem por cento?"
+  },
+  {
+    "start": 461.391,
+    "end": 477.791,
+    "speaker": "APRESENTADORA",
+    "text": "Pode estar subestimado ou desatualizado. Também pode haver migração, vacinação de pessoas de outros municípios, duplicidade, mistura de doses, erro no grupo-alvo ou diferença entre residência e local de aplicação."
+  },
+  {
+    "start": 477.791,
+    "end": 483.311,
+    "speaker": "ESTUDANTE",
+    "text": "Então acima de cem não significa automaticamente fraude nem erro do sistema."
+  },
+  {
+    "start": 483.311,
+    "end": 494.031,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. É um sinal para investigação. O valor informa que numerador e denominador não estão descrevendo o universo da maneira esperada."
+  },
+  {
+    "start": 494.031,
+    "end": 499.152,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos explorar o território. Qual município deve entrar na cobertura?"
+  },
+  {
+    "start": 499.152,
+    "end": 511.632,
+    "speaker": "APRESENTADORA",
+    "text": "Para cobertura populacional, geralmente interessa a residência da pessoa. Para produção da sala ou do serviço, interessa o local de aplicação ou o CNES do estabelecimento."
+  },
+  {
+    "start": 511.632,
+    "end": 516.592,
+    "speaker": "ESTUDANTE",
+    "text": "Uma cidade polo pode vacinar muitos moradores dos municípios vizinhos."
+  },
+  {
+    "start": 517.64,
+    "end": 532.6,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Se todas essas doses forem colocadas no numerador do município aplicador e o denominador contiver apenas seus residentes, a razão pode ultrapassar cem por cento sem que todos os residentes estejam cobertos."
+  },
+  {
+    "start": 532.6,
+    "end": 535.56,
+    "speaker": "ESTUDANTE",
+    "text": "Isso combina perfeitamente com Horizonte."
+  },
+  {
+    "start": 535.56,
+    "end": 548.96,
+    "speaker": "APRESENTADORA",
+    "text": "É uma hipótese forte, mas ainda precisamos verificar. Compare município de residência e município de aplicação, quando os campos permitirem, e observe o fluxo entre territórios."
+  },
+  {
+    "start": 548.96,
+    "end": 551.72,
+    "speaker": "ESTUDANTE",
+    "text": "E se o campo de residência estiver ausente?"
+  },
+  {
+    "start": 551.72,
+    "end": 567.24,
+    "speaker": "APRESENTADORA",
+    "text": "Não substitua silenciosamente pela aplicação. Defina uma categoria de residência ignorada, avalie a proporção ausente e faça análise de sensibilidade. O tratamento precisa aparecer no método."
+  },
+  {
+    "start": 567.24,
+    "end": 570.359,
+    "speaker": "ESTUDANTE",
+    "text": "Como trabalhar com crianças e coortes?"
+  },
+  {
+    "start": 570.359,
+    "end": 588.839,
+    "speaker": "APRESENTADORA",
+    "text": "Uma abordagem é definir crianças nascidas em determinado intervalo e observar, dentro de uma janela, quais doses válidas receberam. O denominador deve representar nascidos vivos residentes da mesma coorte, com os cuidados próprios da fonte."
+  },
+  {
+    "start": 588.839,
+    "end": 594.92,
+    "speaker": "ESTUDANTE",
+    "text": "Isso é diferente de dividir doses aplicadas no ano pela população de uma idade no mesmo ano."
+  },
+  {
+    "start": 594.92,
+    "end": 610.679,
+    "speaker": "APRESENTADORA",
+    "text": "Pode ser bastante diferente. A análise por coorte acompanha uma geração; a análise por período reúne eventos ocorridos em uma janela. Ambas podem ser úteis, desde que sejam nomeadas corretamente."
+  },
+  {
+    "start": 610.679,
+    "end": 613.64,
+    "speaker": "ESTUDANTE",
+    "text": "Uma criança que tomou dose atrasada entra onde?"
+  },
+  {
+    "start": 613.64,
+    "end": 631.32,
+    "speaker": "APRESENTADORA",
+    "text": "Depende da pergunta. Para produção do período, entra na data em que recebeu a dose. Para cobertura oportuna, pode não cumprir a janela. Para situação vacinal atual, pode passar a ser considerada atualizada depois da dose."
+  },
+  {
+    "start": 631.32,
+    "end": 635.24,
+    "speaker": "ESTUDANTE",
+    "text": "Três perguntas, três classificações possíveis."
+  },
+  {
+    "start": 635.24,
+    "end": 643.161,
+    "speaker": "APRESENTADORA",
+    "text": "E um único registro original. A análise cria medidas derivadas; não muda o evento."
+  },
+  {
+    "start": 643.161,
+    "end": 646.201,
+    "speaker": "ESTUDANTE",
+    "text": "O que diferencia rotina e campanha?"
+  },
+  {
+    "start": 647.17,
+    "end": 663.01,
+    "speaker": "APRESENTADORA",
+    "text": "Rotina segue o calendário e o acompanhamento contínuo. Campanha concentra uma estratégia, período e público-alvo. Misturar as duas sem definir objetivo pode duplicar pessoas, alterar doses selecionadas e distorcer a cobertura."
+  },
+  {
+    "start": 663.01,
+    "end": 668.77,
+    "speaker": "ESTUDANTE",
+    "text": "Se uma pessoa recebeu a mesma vacina na rotina e na campanha, conto duas vezes?"
+  },
+  {
+    "start": 668.77,
+    "end": 685.809,
+    "speaker": "APRESENTADORA",
+    "text": "Para doses aplicadas, são dois registros. Para pessoas alcançadas, conte a pessoa uma vez segundo a regra. Para esquema, examine produto, dose, data e validade. Novamente, a resposta depende da unidade."
+  },
+  {
+    "start": 685.809,
+    "end": 689.65,
+    "speaker": "ESTUDANTE",
+    "text": "O filtro de estratégia não é apenas decorativo."
+  },
+  {
+    "start": 689.65,
+    "end": 698.45,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E campanhas podem ter públicos que mudam durante a execução. Preserve a definição usada em cada momento."
+  },
+  {
+    "start": 698.45,
+    "end": 703.09,
+    "speaker": "ESTUDANTE",
+    "text": "A vacinação contra Covid-19 exige cuidados adicionais?"
+  },
+  {
+    "start": 703.09,
+    "end": 723.089,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, por causa de produtos, grupos prioritários, doses adicionais e recomendações que mudaram ao longo do tempo. Mas não precisamos aprofundar esse calendário aqui. A lição geral é versionar regras e não misturar automaticamente Covid-19 com a rotina de outras vacinas."
+  },
+  {
+    "start": 723.089,
+    "end": 728.85,
+    "speaker": "ESTUDANTE",
+    "text": "Agora quero entender as datas. A data de vacinação é sempre o eixo correto?"
+  },
+  {
+    "start": 728.85,
+    "end": 741.49,
+    "speaker": "APRESENTADORA",
+    "text": "Para estudar quando a dose foi aplicada, sim. Mas também pode existir data de registro, transmissão, processamento ou extração. Elas respondem a perguntas diferentes."
+  },
+  {
+    "start": 741.49,
+    "end": 745.73,
+    "speaker": "ESTUDANTE",
+    "text": "Uma dose aplicada em março pode entrar na base apenas em abril."
+  },
+  {
+    "start": 745.73,
+    "end": 759.969,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Se a extração ocorreu antes da transmissão, março parecerá incompleto. Quando o registro atrasado chegar, a série histórica muda sem que uma nova vacina tenha sido aplicada em março."
+  },
+  {
+    "start": 759.969,
+    "end": 764.85,
+    "speaker": "ESTUDANTE",
+    "text": "Como evitar interpretar essa revisão como aumento tardio da vacinação?"
+  },
+  {
+    "start": 765.1,
+    "end": 775.74,
+    "speaker": "APRESENTADORA",
+    "text": "Registre a data de extração, compare versões da base e dê margem para atraso. Em painéis operacionais, sinalize competências recentes como provisórias."
+  },
+  {
+    "start": 775.74,
+    "end": 779.74,
+    "speaker": "ESTUDANTE",
+    "text": "A transição para o novo SI-PNI também afeta séries?"
+  },
+  {
+    "start": 779.74,
+    "end": 798.3,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O novo modelo ampliou a centralidade do registro nominal e da integração nacional. Uma série que atravessa a transição de 2023 pode refletir mudanças de fluxo, sistema, prazo, identificação e deduplicação, além da vacinação real."
+  },
+  {
+    "start": 798.3,
+    "end": 801.34,
+    "speaker": "ESTUDANTE",
+    "text": "Preciso marcar essa transição no gráfico."
+  },
+  {
+    "start": 801.34,
+    "end": 810.38,
+    "speaker": "APRESENTADORA",
+    "text": "E descrever fontes e métodos de cada período. Não una bases agregadas e individualizadas como se fossem uma série homogênea."
+  },
+  {
+    "start": 810.38,
+    "end": 813.34,
+    "speaker": "ESTUDANTE",
+    "text": "Como o registro chega ao nível nacional?"
+  },
+  {
+    "start": 813.34,
+    "end": 828.859,
+    "speaker": "APRESENTADORA",
+    "text": "Pode ser feito no SI-PNI ou em sistema integrado. O evento passa por transmissão, padronização e processamento até compor bases e relatórios nacionais. A RNDS participa dessa arquitetura de integração."
+  },
+  {
+    "start": 828.859,
+    "end": 832.06,
+    "speaker": "ESTUDANTE",
+    "text": "Precisamos explicar toda a RNDS neste episódio?"
+  },
+  {
+    "start": 832.06,
+    "end": 844.86,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Há um capítulo próprio para isso. Aqui basta entender que diferentes origens e tempos de integração podem afetar oportunidade, completitude e identificação dos registros."
+  },
+  {
+    "start": 844.86,
+    "end": 849.26,
+    "speaker": "ESTUDANTE",
+    "text": "Quais campos mínimos você verificaria em uma base de doses?"
+  },
+  {
+    "start": 849.26,
+    "end": 866.779,
+    "speaker": "APRESENTADORA",
+    "text": "Identificador protegido da pessoa, vacina, dose, data, idade ou nascimento, residência, estabelecimento, estratégia, produto, lote e fonte do registro, quando disponíveis."
+  },
+  {
+    "start": 866.779,
+    "end": 871.18,
+    "speaker": "ESTUDANTE",
+    "text": "E eu não devo presumir que os nomes das variáveis serão sempre iguais."
+  },
+  {
+    "start": 871.18,
+    "end": 885.86,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Salve o dicionário, o endereço eletrônico, o período, o formato e a data de extração. Crie uma camada de padronização explícita e teste se categorias novas apareceram."
+  },
+  {
+    "start": 885.86,
+    "end": 888.14,
+    "speaker": "ESTUDANTE",
+    "text": "Como detectar duplicidades?"
+  },
+  {
+    "start": 889.35,
+    "end": 907.11,
+    "speaker": "APRESENTADORA",
+    "text": "Comece procurando combinações repetidas de pessoa, vacina, dose e data. Depois examine estabelecimento, lote, fonte e horário, quando existirem. Repetição exata é uma pista, não uma autorização automática para excluir."
+  },
+  {
+    "start": 907.11,
+    "end": 910.629,
+    "speaker": "ESTUDANTE",
+    "text": "Por que não remover todas as repetições?"
+  },
+  {
+    "start": 910.629,
+    "end": 927.429,
+    "speaker": "APRESENTADORA",
+    "text": "Porque duas aplicações podem ter ocorrido no mesmo dia, ou um registro pode ter sido corrigido sem que a versão anterior esteja claramente marcada. A regra de deduplicação precisa considerar o contexto e preservar uma trilha auditável."
+  },
+  {
+    "start": 927.429,
+    "end": 933.75,
+    "speaker": "ESTUDANTE",
+    "text": "Primeiro classifico duplicidade provável; depois avalio seu efeito no indicador."
+  },
+  {
+    "start": 933.75,
+    "end": 942.149,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma abordagem mais segura. Apresente resultados antes e depois da regra quando o impacto for relevante."
+  },
+  {
+    "start": 942.149,
+    "end": 946.15,
+    "speaker": "ESTUDANTE",
+    "text": "Que outras verificações de qualidade são importantes?"
+  },
+  {
+    "start": 946.15,
+    "end": 969.23,
+    "speaker": "APRESENTADORA",
+    "text": "Completitude de vacina, dose, data, idade, residência e CNES; idade incompatível; sequência impossível; intervalo muito curto; produto inconsistente; lote ausente; mudanças abruptas; e diferenças entre fonte de registro."
+  },
+  {
+    "start": 969.23,
+    "end": 972.55,
+    "speaker": "ESTUDANTE",
+    "text": "Valores improváveis devem ser apagados?"
+  },
+  {
+    "start": 972.55,
+    "end": 986.391,
+    "speaker": "APRESENTADORA",
+    "text": "Não antes de investigar. Podem representar erro, regra especial, dose registrada tardiamente ou categoria nova. Documente a decisão e mantenha o dado bruto preservado."
+  },
+  {
+    "start": 986.391,
+    "end": 989.75,
+    "speaker": "ESTUDANTE",
+    "text": "E campos sociais, como raça e cor?"
+  },
+  {
+    "start": 989.75,
+    "end": 1005.671,
+    "speaker": "APRESENTADORA",
+    "text": "Antes de analisar desigualdades, avalie completitude e padrão de ausência por território, serviço, período e fonte. Um campo muito incompleto pode produzir uma desigualdade aparente ou esconder uma desigualdade real."
+  },
+  {
+    "start": 1005.671,
+    "end": 1009.831,
+    "speaker": "ESTUDANTE",
+    "text": "Não basta excluir ignorados e comparar percentuais."
+  },
+  {
+    "start": 1009.831,
+    "end": 1016.952,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Mostre o tamanho dos ignorados e discuta quem tem maior chance de ficar sem classificação."
+  },
+  {
+    "start": 1016.952,
+    "end": 1020.872,
+    "speaker": "ESTUDANTE",
+    "text": "Como o SI-PNI trata eventos após a vacinação?"
+  },
+  {
+    "start": 1021.92,
+    "end": 1033.12,
+    "speaker": "APRESENTADORA",
+    "text": "O sistema pode apoiar registros de eventos supostamente atribuíveis à vacinação ou imunização, chamados ESAVI. A palavra “supostamente” é essencial."
+  },
+  {
+    "start": 1033.12,
+    "end": 1036.56,
+    "speaker": "ESTUDANTE",
+    "text": "Uma notificação não prova que a vacina causou o evento."
+  },
+  {
+    "start": 1036.56,
+    "end": 1052.241,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ela inicia uma investigação de temporalidade, plausibilidade, diagnóstico, lote e outras causas. Frequência de notificações também depende da sensibilidade da vigilância e da atenção pública."
+  },
+  {
+    "start": 1052.241,
+    "end": 1057.361,
+    "speaker": "ESTUDANTE",
+    "text": "Então não devemos comparar simplesmente número de doses e número de notificações?"
+  },
+  {
+    "start": 1057.361,
+    "end": 1073.12,
+    "speaker": "APRESENTADORA",
+    "text": "Uma taxa descritiva pode ser construída com denominadores e períodos adequados, mas causalidade exige muito mais. O capítulo ensina a respeitar essa fronteira; a investigação de segurança tem metodologia própria."
+  },
+  {
+    "start": 1073.12,
+    "end": 1076.321,
+    "speaker": "ESTUDANTE",
+    "text": "E a privacidade, já que os registros são individualizados?"
+  },
+  {
+    "start": 1076.321,
+    "end": 1093.441,
+    "speaker": "APRESENTADORA",
+    "text": "Dados públicos precisam proteger identidade. Identificadores podem ser anonimizados ou pseudonimizados, e combinações de campos sensíveis exigem cautela. A base aberta não deve ser usada para tentar reidentificar pessoas."
+  },
+  {
+    "start": 1093.441,
+    "end": 1097.682,
+    "speaker": "ESTUDANTE",
+    "text": "Isso também limita relacionamentos individuais com outras bases."
+  },
+  {
+    "start": 1097.682,
+    "end": 1110.881,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Linkage individual exige autorização, governança, segurança e base legal. Análises públicas costumam trabalhar com agregações territoriais e temporais."
+  },
+  {
+    "start": 1110.881,
+    "end": 1114.881,
+    "speaker": "ESTUDANTE",
+    "text": "Com quais fontes o SI-PNI pode ser combinado sem aprofundar demais?"
+  },
+  {
+    "start": 1114.881,
+    "end": 1132.4,
+    "speaker": "APRESENTADORA",
+    "text": "Com denominadores de população ou nascimentos, informações de estabelecimentos e indicadores de outros sistemas, quando a pergunta justificar. O essencial é alinhar unidade, território, período e finalidade antes da junção."
+  },
+  {
+    "start": 1132.4,
+    "end": 1137.68,
+    "speaker": "ESTUDANTE",
+    "text": "Não precisamos revisar agora os capítulos de SINASC, CNES ou RNDS."
+  },
+  {
+    "start": 1137.68,
+    "end": 1147.041,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O SI-PNI entra com o registro de vacinação; cada outra fonte conserva sua própria unidade e seus limites."
+  },
+  {
+    "start": 1147.85,
+    "end": 1150.41,
+    "speaker": "ESTUDANTE",
+    "text": "Como acessar os dados de maneira reprodutível?"
+  },
+  {
+    "start": 1150.41,
+    "end": 1168.41,
+    "speaker": "APRESENTADORA",
+    "text": "Identifique o conjunto de dados e o recurso exato; registre endereço, período, formato, data e horário da extração; salve o dicionário; documente filtros, renomeações, deduplicação e denominador."
+  },
+  {
+    "start": 1168.41,
+    "end": 1170.81,
+    "speaker": "ESTUDANTE",
+    "text": "Por que registrar até o horário?"
+  },
+  {
+    "start": 1170.81,
+    "end": 1184.89,
+    "speaker": "APRESENTADORA",
+    "text": "Bases atualizadas com frequência podem mudar no mesmo dia. O horário nem sempre será necessário, mas ajuda quando a atualização é contínua ou quando resultados precisam ser auditados."
+  },
+  {
+    "start": 1184.89,
+    "end": 1188.33,
+    "speaker": "ESTUDANTE",
+    "text": "Quais erros de escrita aparecem com frequência?"
+  },
+  {
+    "start": 1188.33,
+    "end": 1208.01,
+    "speaker": "APRESENTADORA",
+    "text": "Chamar doses de pessoas, chamar produção de cobertura, dizer “imunizados” quando apenas há dose registrada, misturar residência com aplicação, tratar mês recente como definitivo e afirmar causalidade a partir de ESAVI."
+  },
+  {
+    "start": 1208.01,
+    "end": 1211.69,
+    "speaker": "ESTUDANTE",
+    "text": "A redação deve acompanhar a unidade observada."
+  },
+  {
+    "start": 1211.69,
+    "end": 1223.929,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Escreva “doses registradas”, “pessoas com registro”, “esquemas classificados como completos” ou “cobertura calculada com determinado denominador”."
+  },
+  {
+    "start": 1223.929,
+    "end": 1227.93,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar a Horizonte. O que encontramos primeiro?"
+  },
+  {
+    "start": 1227.93,
+    "end": 1242.01,
+    "speaker": "APRESENTADORA",
+    "text": "O numerador do painel usava uma dose específica aplicada nos serviços do município. Como Horizonte é polo regional, parte relevante das doses foi administrada em moradores de cidades vizinhas."
+  },
+  {
+    "start": 1242.01,
+    "end": 1246.491,
+    "speaker": "ESTUDANTE",
+    "text": "Mas o denominador continha apenas crianças residentes em Horizonte."
+  },
+  {
+    "start": 1246.491,
+    "end": 1252.811,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A combinação elevou a cobertura aparente do município aplicador."
+  },
+  {
+    "start": 1252.811,
+    "end": 1256.091,
+    "speaker": "ESTUDANTE",
+    "text": "Isso explica as crianças com esquema incompleto?"
+  },
+  {
+    "start": 1256.091,
+    "end": 1271.692,
+    "speaker": "APRESENTADORA",
+    "text": "Explica parte do paradoxo, não tudo. Ao reconstruir pessoas residentes, vimos boa entrada na primeira dose, mas perdas entre etapas do esquema. A dose usada no painel não representava conclusão."
+  },
+  {
+    "start": 1271.692,
+    "end": 1277.052,
+    "speaker": "ESTUDANTE",
+    "text": "Havia muita dose aplicada e alcance inicial, mas continuidade desigual."
+  },
+  {
+    "start": 1277.3,
+    "end": 1290.42,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Além disso, o denominador populacional estava desatualizado e alguns registros recentes chegaram depois da primeira extração. Cada fator empurrava o indicador em uma direção."
+  },
+  {
+    "start": 1290.42,
+    "end": 1291.859,
+    "speaker": "ESTUDANTE",
+    "text": "E havia duplicidade?"
+  },
+  {
+    "start": 1291.859,
+    "end": 1304.179,
+    "speaker": "APRESENTADORA",
+    "text": "Havia poucos pares prováveis, insuficientes para explicar o resultado sozinhos. Ainda assim, a regra de deduplicação foi documentada e seu impacto foi apresentado."
+  },
+  {
+    "start": 1304.179,
+    "end": 1307.94,
+    "speaker": "ESTUDANTE",
+    "text": "Então nenhuma fonte estava simplesmente “mentindo”."
+  },
+  {
+    "start": 1307.94,
+    "end": 1323.699,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. O painel mostrava produção de uma dose sob determinada regra territorial. A busca ativa mostrava situação individual de residentes. O problema foi tratar medidas diferentes como se fossem a mesma cobertura."
+  },
+  {
+    "start": 1323.699,
+    "end": 1327.06,
+    "speaker": "ESTUDANTE",
+    "text": "Qual seria a decisão de gestão depois dessa análise?"
+  },
+  {
+    "start": 1327.06,
+    "end": 1342.5,
+    "speaker": "APRESENTADORA",
+    "text": "Separar produção por local de aplicação de cobertura por residência, atualizar o denominador, acompanhar abandono entre doses, corrigir atrasos de integração e orientar busca ativa para quem não completou o esquema."
+  },
+  {
+    "start": 1342.5,
+    "end": 1348.5,
+    "speaker": "ESTUDANTE",
+    "text": "O número acima de cem deixa de ser troféu ou escândalo e vira uma pergunta de qualidade."
+  },
+  {
+    "start": 1348.5,
+    "end": 1356.341,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Indicadores servem para investigar e agir, não apenas para classificar municípios."
+  },
+  {
+    "start": 1356.341,
+    "end": 1360.42,
+    "speaker": "ESTUDANTE",
+    "text": "Qual checklist mínimo você deixaria para qualquer análise do SI-PNI?"
+  },
+  {
+    "start": 1360.42,
+    "end": 1383.941,
+    "speaker": "APRESENTADORA",
+    "text": "Defina unidade, vacina, dose, validade, pessoa, esquema, público-alvo, numerador, denominador, residência ou aplicação, período, data do evento, data de extração, estratégia, regra de deduplicação e tratamento de ausentes."
+  },
+  {
+    "start": 1383.941,
+    "end": 1387.541,
+    "speaker": "ESTUDANTE",
+    "text": "E marque transições de sistema e mudanças de calendário."
+  },
+  {
+    "start": 1387.541,
+    "end": 1393.3,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Sem isso, uma quebra informacional pode parecer mudança de cobertura."
+  },
+  {
+    "start": 1393.3,
+    "end": 1396.261,
+    "speaker": "ESTUDANTE",
+    "text": "Qual é a mensagem central do capítulo?"
+  },
+  {
+    "start": 1396.51,
+    "end": 1411.87,
+    "speaker": "APRESENTADORA",
+    "text": "O SI-PNI é essencial para monitorar a vacinação, mas o significado do resultado nasce das escolhas analíticas. Contar corretamente exige saber se estamos falando de dose, pessoa, esquema, serviço ou população."
+  },
+  {
+    "start": 1411.87,
+    "end": 1416.59,
+    "speaker": "ESTUDANTE",
+    "text": "A média municipal também pode esconder diferenças dentro do território?"
+  },
+  {
+    "start": 1416.59,
+    "end": 1435.07,
+    "speaker": "APRESENTADORA",
+    "text": "Pode. Uma cobertura próxima da meta no conjunto do município pode combinar bairros com valores altos e áreas com baixa vacinação. Sempre que os dados e a privacidade permitirem, examine a homogeneidade por território, faixa etária e etapa do esquema."
+  },
+  {
+    "start": 1435.07,
+    "end": 1440.19,
+    "speaker": "ESTUDANTE",
+    "text": "Então não basta alcançar uma média; é preciso observar quem ficou para trás."
+  },
+  {
+    "start": 1440.19,
+    "end": 1453.39,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Uma política de vacinação procura cobertura ampla e distribuída. Bolsões de pessoas suscetíveis podem permanecer mesmo quando o indicador agregado parece confortável."
+  },
+  {
+    "start": 1453.39,
+    "end": 1456.19,
+    "speaker": "ESTUDANTE",
+    "text": "E como medir abandono entre doses?"
+  },
+  {
+    "start": 1456.19,
+    "end": 1476.429,
+    "speaker": "APRESENTADORA",
+    "text": "O ideal é acompanhar pessoas elegíveis da mesma coorte e verificar quantas iniciaram e quantas completaram a sequência na janela definida. Uma simples subtração entre totais de doses pode misturar coortes, atrasos, migração e registros recebidos em momentos diferentes."
+  },
+  {
+    "start": 1476.429,
+    "end": 1483.39,
+    "speaker": "ESTUDANTE",
+    "text": "Seria como construir um percurso: elegíveis, primeira dose, etapa seguinte e esquema completo."
+  },
+  {
+    "start": 1483.39,
+    "end": 1496.75,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Em cada passagem, registre o denominador e a janela. Assim, a gestão identifica se o principal problema está no alcance inicial, na continuidade ou na oportunidade."
+  },
+  {
+    "start": 1496.75,
+    "end": 1501.95,
+    "speaker": "ESTUDANTE",
+    "text": "O SI-PNI sozinho identifica todas as oportunidades perdidas de vacinação?"
+  },
+  {
+    "start": 1501.95,
+    "end": 1521.47,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Para saber se uma pessoa esteve em um serviço e poderia ter sido vacinada, podem ser necessárias outras informações. No SI-PNI, conseguimos observar o que foi registrado como vacinação e os intervalos entre doses, sem presumir todos os contatos assistenciais."
+  },
+  {
+    "start": 1521.72,
+    "end": 1524.28,
+    "speaker": "ESTUDANTE",
+    "text": "Como resumir isso em um painel responsável?"
+  },
+  {
+    "start": 1524.28,
+    "end": 1542.121,
+    "speaker": "APRESENTADORA",
+    "text": "Mostre doses por local de aplicação, cobertura por residência, pessoas com esquema completo, oportunidade, homogeneidade territorial e indicadores de qualidade do dado. Nenhuma medida precisa carregar sozinha toda a história."
+  },
+  {
+    "start": 1542.121,
+    "end": 1548.44,
+    "speaker": "ESTUDANTE",
+    "text": "E uma cobertura só faz sentido quando numerador e denominador pertencem ao mesmo universo."
+  },
+  {
+    "start": 1548.44,
+    "end": 1556.68,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Essa compatibilidade vale para idade, território, período e regra do calendário."
+  },
+  {
+    "start": 1556.68,
+    "end": 1561.801,
+    "speaker": "ESTUDANTE",
+    "text": "No fim, o paradoxo de Horizonte era um convite para fazer perguntas melhores."
+  },
+  {
+    "start": 1561.801,
+    "end": 1577.641,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a melhor síntese. Antes de celebrar ou alarmar-se com um percentual, abra a fórmula, siga o registro e nomeie a unidade. Obrigada pela companhia, e até o próximo episódio!"
+  }
 ]

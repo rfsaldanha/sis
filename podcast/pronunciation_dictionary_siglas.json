@@ -154,6 +154,11 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "ESAVI",
+      "alias": "esávi"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "CNES",
       "alias": "cenés"
     },
