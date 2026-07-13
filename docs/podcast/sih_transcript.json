@@ -1,457 +1,692 @@
 [
-{
-  "start": 0,
-  "end": 8.406,
-  "speaker": "APRESENTADORA",
-  "text": "Olá. Neste episódio, vamos conversar sobre o SIH, o Sistema de Informações Hospitalares do SUS."
-}
-,
-{
-  "start": 8.756,
-  "end": 12.657,
-  "speaker": "ESTUDANTE",
-  "text": "Esse é o sistema usado para estudar internações hospitalares no SUS?"
-}
-,
-{
-  "start": 13.007,
-  "end": 34.648,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. O SIH é a principal fonte nacional para analisar internações financiadas pelo SUS. Ele permite estudar volume de internações, diagnósticos, procedimentos, permanência hospitalar, valores pagos, óbitos hospitalares, fluxos de pacientes e uso da rede hospitalar."
-}
-,
-{
-  "start": 34.998,
-  "end": 39.688,
-  "speaker": "ESTUDANTE",
-  "text": "Mas o capítulo destaca que o SIH tem origem administrativa e financeira."
-}
-,
-{
-  "start": 40.038,
-  "end": 56.246,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Esse ponto é essencial. O SIH nasceu para autorizar, registrar, criticar e remunerar internações. Sua unidade básica é a AIH, a Autorização de Internação Hospitalar."
-}
-,
-{
-  "start": 56.596,
-  "end": 60.915,
-  "speaker": "ESTUDANTE",
-  "text": "Então ele não foi criado originalmente como um sistema epidemiológico."
-}
-,
-{
-  "start": 61.265,
-  "end": 76.404,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. Mas, apesar da origem administrativa, os dados do SIH são muito usados em estudos epidemiológicos, avaliação de políticas, planejamento regional e análise da oferta hospitalar."
-}
-,
-{
-  "start": 76.754,
-  "end": 78.565,
-  "speaker": "ESTUDANTE",
-  "text": "Quando devo usar o SIH?"
-}
-,
-{
-  "start": 78.915,
-  "end": 93.451,
-  "speaker": "APRESENTADORA",
-  "text": "Use o SIH quando a pergunta envolve internações hospitalares financiadas pelo SUS, procedimentos hospitalares, tempo de permanência, valores registrados ou desfecho da internação."
-}
-,
-{
-  "start": 93.801,
-  "end": 98.445,
-  "speaker": "ESTUDANTE",
-  "text": "E quando a pergunta envolve atendimentos ambulatoriais ou internações privadas?"
-}
-,
-{
-  "start": 98.795,
-  "end": 113.098,
-  "speaker": "APRESENTADORA",
-  "text": "Aí é preciso cuidado. Atendimentos ambulatoriais estão mais próximos do SIA. Internações exclusivamente privadas, não financiadas pelo SUS, não são cobertas integralmente pelo SIH."
-}
-,
-{
-  "start": 113.448,
-  "end": 116.792,
-  "speaker": "ESTUDANTE",
-  "text": "Qual é a diferença central entre SIH e SIA?"
-}
-,
-{
-  "start": 117.142,
-  "end": 134.557,
-  "speaker": "APRESENTADORA",
-  "text": "O SIH organiza internações por AIH. O SIA registra produção ambulatorial por diferentes instrumentos. Os dois têm forte componente administrativo-financeiro, mas representam tipos de cuidado diferentes."
-}
-,
-{
-  "start": 134.907,
-  "end": 136.347,
-  "speaker": "ESTUDANTE",
-  "text": "Como o SIH surgiu?"
-}
-,
-{
-  "start": 136.697,
-  "end": 158.106,
-  "speaker": "APRESENTADORA",
-  "text": "A concepção do SIH veio da necessidade de controlar contas hospitalares, padronizar registros e reduzir problemas de faturamento. Em 1981 começou a adoção da AIH, com projeto piloto em Curitiba, e a implantação nacional avançou a partir de 1983."
-}
-,
-{
-  "start": 158.456,
-  "end": 161.057,
-  "speaker": "ESTUDANTE",
-  "text": "E hoje o sistema tem críticas automáticas."
-}
-,
-{
-  "start": 161.407,
-  "end": 185.370,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O processamento inclui regras de consistência para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento. Essas críticas ajudam a qualificar o registro, mas também reforçam que a base disseminada passa por regras administrativas."
-}
-,
-{
-  "start": 185.720,
-  "end": 189.157,
-  "speaker": "ESTUDANTE",
-  "text": "Vamos falar da AIH. Ela representa uma pessoa?"
-}
-,
-{
-  "start": 189.507,
-  "end": 213.609,
-  "speaker": "APRESENTADORA",
-  "text": "Não automaticamente. Esse é talvez o cuidado mais importante do capítulo. A AIH é uma autorização e um registro administrativo da internação. Uma pessoa pode ter mais de uma AIH ao longo do tempo, e algumas internações complexas podem envolver continuidade, renovação, complementação ou transferência."
-}
-,
-{
-  "start": 213.959,
-  "end": 217.628,
-  "speaker": "ESTUDANTE",
-  "text": "Então contar AIHs não é o mesmo que contar pessoas."
-}
-,
-{
-  "start": 217.978,
-  "end": 235.300,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. Em muitas análises, o número de AIHs aprovadas funciona como aproximação operacional de internações registradas. Mas não deve ser apresentado como número de indivíduos, a menos que o método tenha identificado pessoas."
-}
-,
-{
-  "start": 235.650,
-  "end": 240.573,
-  "speaker": "ESTUDANTE",
-  "text": "Também não é sempre simples dizer que uma AIH é um episódio assistencial."
-}
-,
-{
-  "start": 240.923,
-  "end": 260.381,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Internações de longa permanência, reinternações, transferências, procedimentos de alta complexidade e AIHs complementares podem afetar a interpretação. Por isso, a unidade de análise precisa ser definida antes de contar."
-}
-,
-{
-  "start": 260.731,
-  "end": 263.657,
-  "speaker": "ESTUDANTE",
-  "text": "O SIH cobre todas as internações do Brasil?"
-}
-,
-{
-  "start": 264.007,
-  "end": 282.629,
-  "speaker": "APRESENTADORA",
-  "text": "Não. Ele cobre internações financiadas pelo SUS, na rede pública e conveniada. Em municípios ou procedimentos com grande participação do setor privado não SUS, os resultados do SIH representam apenas parte do cuidado hospitalar."
-}
-,
-{
-  "start": 282.979,
-  "end": 286.834,
-  "speaker": "ESTUDANTE",
-  "text": "E a análise territorial pode usar residência ou ocorrência."
-}
-,
-{
-  "start": 287.184,
-  "end": 308.593,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. Residência responde de onde vem a demanda da população. Ocorrência indica onde a internação aconteceu. Para taxas populacionais, em geral usamos residência e população residente. Para estudar rede, oferta e produção hospitalar, ocorrência e estabelecimento são mais adequados."
-}
-,
-{
-  "start": 308.943,
-  "end": 313.030,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo também diferencia diagnóstico, procedimento e valor."
-}
-,
-{
-  "start": 313.380,
-  "end": 333.953,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. O diagnóstico principal, codificado pela CID, responde por que a internação ocorreu. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. O valor total indica o valor aprovado ou pago segundo regras do SUS."
-}
-,
-{
-  "start": 334.303,
-  "end": 337.647,
-  "speaker": "ESTUDANTE",
-  "text": "Então valor no SIH não é custo real do hospital."
-}
-,
-{
-  "start": 337.997,
-  "end": 355.412,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Valores do SIH não devem ser interpretados como custo econômico total, preço de mercado ou gasto completo da instituição. Eles representam remuneração registrada conforme regras administrativas."
-}
-,
-{
-  "start": 355.762,
-  "end": 358.270,
-  "speaker": "ESTUDANTE",
-  "text": "E os procedimentos dependem do SIGTAP."
-}
-,
-{
-  "start": 358.620,
-  "end": 382.304,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O SIGTAP define códigos, descrições, grupos, subgrupos, complexidade, compatibilidades, restrições e vigências dos procedimentos. Em séries históricas, mudanças no SIGTAP podem parecer mudança de produção, quando na verdade refletem alteração de código, regra ou valor."
-}
-,
-{
-  "start": 382.654,
-  "end": 385.580,
-  "speaker": "ESTUDANTE",
-  "text": "Isso exige versionar a tabela usada na análise."
-}
-,
-{
-  "start": 385.930,
-  "end": 395.729,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Uma boa análise por procedimento documenta a versão da tabela, o período de vigência e os critérios de agregação."
-}
-,
-{
-  "start": 396.079,
-  "end": 399.144,
-  "speaker": "ESTUDANTE",
-  "text": "Quais são os arquivos mais importantes do SIH?"
-}
-,
-{
-  "start": 399.494,
-  "end": 417.095,
-  "speaker": "APRESENTADORA",
-  "text": "O arquivo RD costuma ser o ponto de partida para análises de internações aprovadas. O SP detalha serviços profissionais associados à AIH. Os arquivos RJ e ER registram rejeições e erros de processamento."
-}
-,
-{
-  "start": 417.445,
-  "end": 423.111,
-  "speaker": "ESTUDANTE",
-  "text": "Então RJ e ER não devem ser somados ao RD como se fossem internações aprovadas."
-}
-,
-{
-  "start": 423.461,
-  "end": 438.322,
-  "speaker": "APRESENTADORA",
-  "text": "Correto. Se a pergunta é quantas internações aprovadas ocorreram, use RD. Se a pergunta é por que AIHs foram rejeitadas, analise RJ e ER separadamente."
-}
-,
-{
-  "start": 438.672,
-  "end": 444.059,
-  "speaker": "ESTUDANTE",
-  "text": "Um exemplo do capítulo são as internações por condições sensíveis à atenção primária."
-}
-,
-{
-  "start": 444.409,
-  "end": 467.815,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. As ICSAP são um uso clássico do SIH para avaliação indireta do acesso e da efetividade da atenção primária. A ideia é identificar AIHs cujo diagnóstico principal está em uma lista de condições que poderiam ser reduzidas com atenção primária oportuna e efetiva."
-}
-,
-{
-  "start": 468.165,
-  "end": 471.462,
-  "speaker": "ESTUDANTE",
-  "text": "Mas é preciso documentar a lista e a versão usada."
-}
-,
-{
-  "start": 471.812,
-  "end": 488.252,
-  "speaker": "APRESENTADORA",
-  "text": "Isso. Também é preciso escolher bem o denominador, o território, a faixa etária e o recorte temporal. Para avaliar risco da população residente, use município de residência e população compatível."
-}
-,
-{
-  "start": 488.602,
-  "end": 491.806,
-  "speaker": "ESTUDANTE",
-  "text": "O SIH também é útil para fluxos de internação."
-}
-,
-{
-  "start": 492.156,
-  "end": 506.552,
-  "speaker": "APRESENTADORA",
-  "text": "Muito. Comparar município de residência com município ou estabelecimento de internação ajuda a estudar regionalização, dependência de centros de referência e organização da rede hospitalar."
-}
-,
-{
-  "start": 506.902,
-  "end": 511.221,
-  "speaker": "ESTUDANTE",
-  "text": "Mas, de novo, o volume é número de AIHs, não número de pessoas."
-}
-,
-{
-  "start": 511.571,
-  "end": 517.237,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Essa distinção acompanha praticamente todo uso do SIH."
-}
-,
-{
-  "start": 517.587,
-  "end": 519.677,
-  "speaker": "ESTUDANTE",
-  "text": "Como os dados podem ser acessados?"
-}
-,
-{
-  "start": 520.027,
-  "end": 539.996,
-  "speaker": "APRESENTADORA",
-  "text": "Há vários caminhos. TabNet para consultas rápidas. TabWin e arquivos DBC para processamento local. Em R, o pacote microdatasus. Em Python, a biblioteca PySUS. E também há acesso por plataformas como a PCDaS."
-}
-,
-{
-  "start": 540.346,
-  "end": 543.597,
-  "speaker": "ESTUDANTE",
-  "text": "O capítulo menciona o desafio de grandes volumes."
-}
-,
-{
-  "start": 543.947,
-  "end": 567.167,
-  "speaker": "APRESENTADORA",
-  "text": "Sim. O SIH é disseminado em arquivos mensais por unidade federativa. Em análises nacionais ou séries longas, o volume cresce rapidamente. Por isso, é recomendável baixar de forma incremental, padronizar nomes e tipos, salvar em formatos colunares, como Parquet, e usar ferramentas como DuckDB."
-}
-,
-{
-  "start": 567.517,
-  "end": 571.557,
-  "speaker": "ESTUDANTE",
-  "text": "E manter separados dados brutos, tratados e tabelas analíticas."
-}
-,
-{
-  "start": 571.907,
-  "end": 584.399,
-  "speaker": "APRESENTADORA",
-  "text": "Isso melhora a reprodutibilidade e facilita auditoria. Também ajuda a deixar claros os filtros, arquivos, competências e critérios usados."
-}
-,
-{
-  "start": 584.749,
-  "end": 587.768,
-  "speaker": "ESTUDANTE",
-  "text": "Com quais sistemas o SIH costuma ser combinado?"
-}
-,
-{
-  "start": 588.118,
-  "end": 610.966,
-  "speaker": "APRESENTADORA",
-  "text": "Com o CNES, para caracterizar estabelecimentos e rede. Com o SIM, para estudar óbitos, lembrando que óbito hospitalar não equivale à mortalidade total. Com o SINAN, para agravos notificados. Com população residente, para taxas. E com o SIA, para complementar a produção ambulatorial."
-}
-,
-{
-  "start": 611.316,
-  "end": 614.753,
-  "speaker": "ESTUDANTE",
-  "text": "A integração exige definir a unidade final da análise."
-}
-,
-{
-  "start": 615.103,
-  "end": 633.400,
-  "speaker": "APRESENTADORA",
-  "text": "Perfeito. A unidade pode ser AIH, internação, pessoa, episódio, trajetória assistencial ou desfecho pós-alta. Cada escolha exige regras diferentes para duplicidade, janelas temporais e discordâncias."
-}
-,
-{
-  "start": 633.750,
-  "end": 637.001,
-  "speaker": "ESTUDANTE",
-  "text": "Quais indicadores podem ser construídos com o SIH?"
-}
-,
-{
-  "start": 637.351,
-  "end": 656.020,
-  "speaker": "APRESENTADORA",
-  "text": "Proporção de internações por grupo de causas, taxa de internação SUS, internações por causas externas, internações por condições sensíveis à atenção primária, permanência média, letalidade hospitalar e valor médio da AIH, entre outros."
-}
-,
-{
-  "start": 656.370,
-  "end": 659.667,
-  "speaker": "ESTUDANTE",
-  "text": "Mas a ficha do indicador precisa dizer o que está contando."
-}
-,
-{
-  "start": 660.017,
-  "end": 671.906,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. Pode ser AIH, internação, procedimento, valor ou pessoa. Misturar essas unidades gera interpretações erradas."
-}
-,
-{
-  "start": 672.256,
-  "end": 675.507,
-  "speaker": "ESTUDANTE",
-  "text": "Para fechar, quais são os principais erros a evitar?"
-}
-,
-{
-  "start": 675.857,
-  "end": 696.105,
-  "speaker": "APRESENTADORA",
-  "text": "Contar AIHs como pessoas. Calcular taxas com internações por ocorrência e população residente. Comparar valores pagos como se fossem custos totais. Misturar arquivos aprovados e rejeitados. E interpretar óbito hospitalar como mortalidade populacional."
-}
-,
-{
-  "start": 696.455,
-  "end": 703.096,
-  "speaker": "ESTUDANTE",
-  "text": "Então a mensagem central é que o SIH é muito potente, mas precisa ser lido na lógica da AIH."
-}
-,
-{
-  "start": 703.446,
-  "end": 731.217,
-  "speaker": "APRESENTADORA",
-  "text": "Exatamente. O SIH é uma fonte central para estudar internações financiadas pelo SUS, produção hospitalar e rede assistencial. Mas sua força analítica depende de respeitar sua unidade de análise, sua cobertura, seus arquivos, suas regras administrativas e a diferença entre diagnóstico, procedimento, valor, internação e pessoa."
-}
-
+  {
+    "start": 0,
+    "end": 22.719,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SIH, o Sistema de Informações Hospitalares do SUS, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma internação fictícia do começo ao fim, como se a gente estivesse seguindo o rastro que ela deixa no sistema de informação."
+  },
+  {
+    "start": 22.719,
+    "end": 34.48,
+    "speaker": "ESTUDANTE",
+    "text": "Gostei. Assim, a gente começa pela história antes de chegar à tabela. Porque o SIH parece simples quando a base se abre, mas ganha várias camadas quando a análise começa de verdade."
+  },
+  {
+    "start": 34.48,
+    "end": 65.681,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Imagine uma pessoa que precisa ser internada pelo SUS. Não precisamos dar nome, diagnóstico ou cidade; o ponto aqui é o caminho da informação. Antes de virar uma linha na base, essa internação passa por autorização, registro, faturamento, crítica, aprovação e disseminação. No fim desse percurso, vamos voltar à história e perguntar: o que aquela linha realmente nos permite afirmar?"
+  },
+  {
+    "start": 65.681,
+    "end": 72.561,
+    "speaker": "ESTUDANTE",
+    "text": "Ou seja, a internação que eu vejo no arquivo do SIH já é o resultado de um fluxo administrativo."
+  },
+  {
+    "start": 72.561,
+    "end": 103.52,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E essa é a chave do episódio. O SIH é uma das principais fontes nacionais para estudar internações financiadas pelo SUS. Ele permite analisar volume de internações, diagnósticos, procedimentos, permanência hospitalar, valores registrados, óbitos hospitalares, fluxos de pacientes e uso da rede. Mas ele faz tudo isso a partir de uma lógica muito específica: a lógica da AIH."
+  },
+  {
+    "start": 103.52,
+    "end": 106.641,
+    "speaker": "ESTUDANTE",
+    "text": "A Autorização de Internação Hospitalar."
+  },
+  {
+    "start": 106.641,
+    "end": 129.361,
+    "speaker": "APRESENTADORA",
+    "text": "Ela mesma. A AIH é o documento básico do SIH. É ao mesmo tempo autorização, registro administrativo e base para remuneração da internação. Por isso, a primeira pergunta que a gente precisa fazer não é só: quantas pessoas internaram? É: o que exatamente foi contado?"
+  },
+  {
+    "start": 129.61,
+    "end": 137.05,
+    "speaker": "ESTUDANTE",
+    "text": "Então já começamos com um alerta: SIH não é prontuário eletrônico e AIH não é automaticamente pessoa."
+  },
+  {
+    "start": 137.05,
+    "end": 161.01,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. O SIH tem origem administrativa e financeira. Ele foi organizado para autorizar, registrar, criticar e remunerar internações. Isso não diminui seu valor; ao contrário, explica por que ele é tão abrangente e tão usado. Mas também explica por que a leitura epidemiológica precisa respeitar as regras de registro."
+  },
+  {
+    "start": 161.01,
+    "end": 167.05,
+    "speaker": "ESTUDANTE",
+    "text": "Então o SIH é confiável, mas não é neutro. Ele carrega a lógica do processo que o produziu."
+  },
+  {
+    "start": 167.05,
+    "end": 197.21,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma ótima formulação. Todo sistema de informação carrega a lógica do seu processo de produção. No SIH, essa lógica passa por autorização e faturamento. No SIM, passa pela declaração de óbito. No SINASC, pela declaração de nascido vivo. No SINAN, pela notificação e investigação. O bom analista não tenta apagar essa origem; ele a usa para interpretar corretamente."
+  },
+  {
+    "start": 197.21,
+    "end": 199.69,
+    "speaker": "ESTUDANTE",
+    "text": "Quando devo usar o SIH, então?"
+  },
+  {
+    "start": 199.69,
+    "end": 236.49,
+    "speaker": "APRESENTADORA",
+    "text": "Use o SIH quando a pergunta envolve internações hospitalares financiadas pelo SUS, procedimentos hospitalares, tempo de permanência, valores registrados ou desfecho da internação. Ele é adequado para perguntas como: quantas internações aprovadas ocorreram? Quais diagnósticos apareceram como principais? Quais procedimentos foram realizados? Onde ocorreram as internações? Como os pacientes se deslocaram entre município de residência e município de internação?"
+  },
+  {
+    "start": 236.49,
+    "end": 238.65,
+    "speaker": "ESTUDANTE",
+    "text": "E quando eu não devo usar?"
+  },
+  {
+    "start": 238.9,
+    "end": 270.339,
+    "speaker": "APRESENTADORA",
+    "text": "Quando a pergunta é sobre atendimentos ambulatoriais, a fonte principal tende a ser o SIA. Quando a pergunta é sobre mortalidade total, o SIM é mais adequado. Quando a pergunta é sobre toda a rede hospitalar, inclusive internações privadas não financiadas pelo SUS, o SIH sozinho não cobre tudo. E quando a pergunta é sobre pessoas únicas, trajetórias individuais ou episódios clínicos complexos, é preciso ter muita cautela com a unidade de análise."
+  },
+  {
+    "start": 270.339,
+    "end": 282.579,
+    "speaker": "ESTUDANTE",
+    "text": "Esse ponto da cobertura é importante. O SIH cobre internações financiadas pelo SUS, na rede pública e conveniada, mas não cobre integralmente o setor privado não SUS."
+  },
+  {
+    "start": 282.579,
+    "end": 306.38,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. Isso muda a interpretação. Em algumas regiões, faixas de renda, especialidades ou procedimentos, a participação do setor privado pode ser relevante. Então, quando a gente calcula uma taxa com SIH, estamos falando de internações SUS de residentes, não de todas as internações possíveis da população."
+  },
+  {
+    "start": 306.38,
+    "end": 315.74,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos voltar para a nossa internação fictícia. A pessoa chega ao serviço, há necessidade de internar, e aí entra a AIH."
+  },
+  {
+    "start": 315.74,
+    "end": 341.62,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. A AIH estrutura o ciclo administrativo da internação. Primeiro há a solicitação ou autorização. Depois ocorre a internação, o registro das informações, a alta, transferência ou óbito, o faturamento, as críticas de consistência e, se aprovada, a disseminação nos arquivos do SIH."
+  },
+  {
+    "start": 341.62,
+    "end": 344.02,
+    "speaker": "ESTUDANTE",
+    "text": "E se não passar nas críticas?"
+  },
+  {
+    "start": 344.02,
+    "end": 364.34,
+    "speaker": "APRESENTADORA",
+    "text": "Pode aparecer como rejeição ou erro em arquivos próprios, como RJ e ER, dependendo do caso e do processamento. Esses arquivos são úteis para auditoria e qualidade do faturamento, mas não devem ser misturados com o RD como se fossem produção aprovada."
+  },
+  {
+    "start": 364.34,
+    "end": 368.421,
+    "speaker": "ESTUDANTE",
+    "text": "RD é o arquivo principal para analisar internações aprovadas, certo?"
+  },
+  {
+    "start": 369.79,
+    "end": 394.11,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O RD, a AIH reduzida, costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Já o SP detalha serviços profissionais associados à AIH. RJ e ER ajudam a entender rejeições e inconsistências. Cada arquivo responde a uma pergunta diferente."
+  },
+  {
+    "start": 394.11,
+    "end": 400.749,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se eu quero saber quantas internações SUS aprovadas ocorreram em um período, eu começo pelo RD."
+  },
+  {
+    "start": 400.749,
+    "end": 418.19,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Se a pergunta é produção aprovada, RD. Se a pergunta é qualidade do processamento ou motivos de rejeição, RJ e ER separados. Essa separação parece técnica, mas muda o sentido do resultado."
+  },
+  {
+    "start": 418.19,
+    "end": 420.75,
+    "speaker": "ESTUDANTE",
+    "text": "E o sistema faz críticas automáticas, não é?"
+  },
+  {
+    "start": 420.75,
+    "end": 444.83,
+    "speaker": "APRESENTADORA",
+    "text": "Faz. O processamento inclui regras de consistência, como compatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento. Essas críticas ajudam a qualificar o registro. Ao mesmo tempo, lembram que o que aparece na base já foi filtrado por regras administrativas."
+  },
+  {
+    "start": 444.83,
+    "end": 449.55,
+    "speaker": "ESTUDANTE",
+    "text": "Isso me faz pensar na diferença entre evento assistencial e evento registrado."
+  },
+  {
+    "start": 449.55,
+    "end": 478.67,
+    "speaker": "APRESENTADORA",
+    "text": "Excelente. Uma internação aconteceu no mundo do cuidado; a AIH é como essa internação foi autorizada, registrada e aprovada no mundo administrativo do SUS. Na maioria das análises, as duas coisas ficam muito próximas. Mas em situações de longa permanência, transferência, reinternação, procedimentos complexos ou registros complementares, a equivalência pode não ser tão direta."
+  },
+  {
+    "start": 478.67,
+    "end": 484.991,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma AIH pode aproximar uma internação, mas nem sempre é igual a um episódio clínico completo."
+  },
+  {
+    "start": 485.24,
+    "end": 512.199,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. E uma pessoa pode ter mais de uma AIH ao longo do tempo. Pode ter reinternações, pode ser transferida, pode ter continuidade de cuidado. Por isso, quando o método conta AIHs, o texto deve dizer AIHs, internações registradas ou internações aprovadas. Não deve dizer pacientes, a menos que tenha havido uma estratégia válida para identificar pessoas."
+  },
+  {
+    "start": 512.199,
+    "end": 515.8,
+    "speaker": "ESTUDANTE",
+    "text": "Essa é uma daquelas correções pequenas que evitam um erro grande."
+  },
+  {
+    "start": 515.8,
+    "end": 538.68,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Trocar a palavra muda a promessa do indicador. Se eu digo pacientes, estou sugerindo indivíduos únicos. Se eu digo AIHs, estou dizendo registros administrativos de internação. Essa precisão é especialmente importante em séries longas, em tratamentos de repetição e em análises por estabelecimento."
+  },
+  {
+    "start": 538.68,
+    "end": 540.919,
+    "speaker": "ESTUDANTE",
+    "text": "E como entra o diagnóstico?"
+  },
+  {
+    "start": 540.919,
+    "end": 565.959,
+    "speaker": "APRESENTADORA",
+    "text": "O diagnóstico principal, codificado pela CID, descreve a condição associada à internação. Ele é muito usado para morbidade hospitalar: internações por pneumonia, por causas externas, por doenças cardiovasculares, por condições sensíveis à atenção primária. Mas o diagnóstico principal não deve ser confundido com o procedimento realizado."
+  },
+  {
+    "start": 565.959,
+    "end": 568.2,
+    "speaker": "ESTUDANTE",
+    "text": "Procedimento é outra coisa."
+  },
+  {
+    "start": 568.2,
+    "end": 595.56,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. O procedimento realizado descreve a produção hospitalar registrada para fins assistenciais e de remuneração. Em uma análise por diagnóstico, você se aproxima da pergunta sobre motivo da internação. Em uma análise por procedimento, você se aproxima da pergunta sobre produção hospitalar aprovada. As duas leituras são legítimas, mas respondem a perguntas diferentes."
+  },
+  {
+    "start": 595.56,
+    "end": 597.88,
+    "speaker": "ESTUDANTE",
+    "text": "E valor é uma terceira camada."
+  },
+  {
+    "start": 598.13,
+    "end": 623.169,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Valores no SIH devem ser interpretados como valores registrados, aprovados ou pagos segundo regras do SUS. Não equivalem necessariamente ao custo real do cuidado, ao gasto total do hospital ou ao preço de mercado. Se eu uso valor médio da AIH, estou olhando remuneração registrada dentro das regras do sistema."
+  },
+  {
+    "start": 623.169,
+    "end": 631.17,
+    "speaker": "ESTUDANTE",
+    "text": "Então diagnóstico, procedimento e valor formam uma espécie de triângulo: morbidade, produção e remuneração."
+  },
+  {
+    "start": 631.17,
+    "end": 660.13,
+    "speaker": "APRESENTADORA",
+    "text": "Gostei da imagem. E esse triângulo ajuda muito. Se uma análise mistura os três sem explicitar, a interpretação fica confusa. Por exemplo: uma mudança no valor médio pode refletir mudança no perfil dos procedimentos, mudança de regras de remuneração, mudança na complexidade dos casos ou mudança administrativa. Não é automaticamente aumento de custo econômico."
+  },
+  {
+    "start": 660.13,
+    "end": 663.41,
+    "speaker": "ESTUDANTE",
+    "text": "Falando em procedimento, entra o SIGTAP."
+  },
+  {
+    "start": 663.41,
+    "end": 690.049,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O SIGTAP é a tabela de procedimentos do SUS. Ele define códigos, descrições, grupos, subgrupos, forma de organização, complexidade, financiamento, compatibilidades, restrições e vigências. Em análises do SIH, o SIGTAP é essencial para entender o que um procedimento significa em determinado período."
+  },
+  {
+    "start": 690.049,
+    "end": 691.65,
+    "speaker": "ESTUDANTE",
+    "text": "Porque códigos mudam."
+  },
+  {
+    "start": 691.65,
+    "end": 712.411,
+    "speaker": "APRESENTADORA",
+    "text": "Mudam códigos, descrições, regras de compatibilidade, valores de referência e vigências. Uma série histórica por procedimento precisa guardar a versão da tabela usada. Caso contrário, uma aparente mudança de produção pode ser apenas efeito de reorganização administrativa."
+  },
+  {
+    "start": 712.411,
+    "end": 721.171,
+    "speaker": "ESTUDANTE",
+    "text": "Então, se eu monto uma lista de procedimentos cirúrgicos, por exemplo, preciso documentar quais códigos entraram, em qual período e com qual fonte."
+  },
+  {
+    "start": 721.98,
+    "end": 738.299,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A lista não deve ficar escondida na cabeça de quem analisou. Ela precisa estar no código, no anexo metodológico ou na documentação do estudo. Isso permite reproduzir a análise e entender que tipo de produção está sendo incluída."
+  },
+  {
+    "start": 738.299,
+    "end": 744.54,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos falar de território. No SIH, eu posso olhar residência e ocorrência."
+  },
+  {
+    "start": 744.54,
+    "end": 773.82,
+    "speaker": "APRESENTADORA",
+    "text": "Pode, e essa é uma das maiores riquezas do sistema. O município de residência indica de onde vem a demanda da população. O município de ocorrência ou o estabelecimento indicam onde a internação aconteceu. Para estimar risco populacional, em geral usamos residência e população residente. Para estudar oferta, produção, centralidade hospitalar ou rede, usamos ocorrência e estabelecimento."
+  },
+  {
+    "start": 773.82,
+    "end": 781.099,
+    "speaker": "ESTUDANTE",
+    "text": "Um erro comum seria calcular taxa usando internações por ocorrência e população residente daquele município."
+  },
+  {
+    "start": 781.099,
+    "end": 802.54,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Imagine um município polo que recebe pacientes de vários lugares. Se você usa internações por ocorrência e divide pela população residente do polo, pode parecer que os moradores internam muito mais do que realmente internam. Você misturou produção do serviço com risco da população local."
+  },
+  {
+    "start": 802.54,
+    "end": 812.66,
+    "speaker": "ESTUDANTE",
+    "text": "Então a pergunta orienta o recorte. Se quero demanda dos moradores, residência. Se quero produção dos hospitais, ocorrência ou CNES."
+  },
+  {
+    "start": 812.66,
+    "end": 833.419,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E quando analisamos fluxo de internação, comparamos origem e destino: residência versus município ou estabelecimento de internação. Esse tipo de análise mostra dependência regional, concentração de serviços, deslocamentos e possíveis vazios assistenciais."
+  },
+  {
+    "start": 833.419,
+    "end": 837.42,
+    "speaker": "ESTUDANTE",
+    "text": "Mas o volume do fluxo continua sendo número de AIHs."
+  },
+  {
+    "start": 837.67,
+    "end": 853.269,
+    "speaker": "APRESENTADORA",
+    "text": "Exato. A matriz origem-destino conta registros de internação aprovados. Ela não identifica automaticamente pessoas únicas. Ainda assim, é muito útil para planejamento regional, porque mostra como a rede hospitalar está sendo usada."
+  },
+  {
+    "start": 853.269,
+    "end": 859.83,
+    "speaker": "ESTUDANTE",
+    "text": "E a competência? O SIH é mensal, mas também tem data de internação e data de saída."
+  },
+  {
+    "start": 859.83,
+    "end": 882.79,
+    "speaker": "APRESENTADORA",
+    "text": "Ótimo ponto. Competência é o mês de processamento ou apresentação da produção, conforme a lógica da base. Data de internação e data de saída se aproximam do tempo assistencial. Para séries temporais, é preciso escolher uma régua e mantê-la. Misturar competência com data de internação pode deslocar eventos no tempo."
+  },
+  {
+    "start": 882.79,
+    "end": 890.63,
+    "speaker": "ESTUDANTE",
+    "text": "Para sazonalidade, talvez data de internação seja mais intuitiva. Para faturamento, competência pode fazer mais sentido."
+  },
+  {
+    "start": 890.63,
+    "end": 899.19,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Não existe uma resposta universal. Existe coerência entre pergunta, campo temporal e interpretação."
+  },
+  {
+    "start": 899.19,
+    "end": 903.671,
+    "speaker": "ESTUDANTE",
+    "text": "Quais campos eu deveria olhar primeiro quando abro uma base do SIH?"
+  },
+  {
+    "start": 903.671,
+    "end": 932.791,
+    "speaker": "APRESENTADORA",
+    "text": "Um núcleo mínimo inclui ano e mês de competência, número da AIH, CNES ou identificador do hospital, município de residência, datas de internação e saída, diagnóstico principal, diagnóstico secundário quando disponível, procedimento realizado, idade, sexo, indicador de morte ou motivo de saída e valor total registrado."
+  },
+  {
+    "start": 932.791,
+    "end": 935.91,
+    "speaker": "ESTUDANTE",
+    "text": "Parece um checklist de reconhecimento da base."
+  },
+  {
+    "start": 935.91,
+    "end": 957.031,
+    "speaker": "APRESENTADORA",
+    "text": "É isso mesmo. Antes de construir indicador, confira tipos de variáveis, valores ausentes, códigos territoriais, datas impossíveis, diagnósticos vazios, procedimentos não esperados e totais por competência. Essa etapa é pouco glamourosa, mas salva análises."
+  },
+  {
+    "start": 957.031,
+    "end": 960.551,
+    "speaker": "ESTUDANTE",
+    "text": "Porque pequenos problemas viram grandes distorções."
+  },
+  {
+    "start": 960.8,
+    "end": 984.24,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Uma data mal interpretada pode alterar permanência. Um município com código incompleto pode sumir do mapa. Um procedimento fora da lista pode entrar indevidamente no numerador. Um filtro aplicado depois da agregação pode mudar a taxa. O cuidado com a base é parte da análise, não uma preliminar menor."
+  },
+  {
+    "start": 984.24,
+    "end": 986.639,
+    "speaker": "ESTUDANTE",
+    "text": "E quais transformações são comuns?"
+  },
+  {
+    "start": 986.639,
+    "end": 1010.8,
+    "speaker": "APRESENTADORA",
+    "text": "Calcular permanência a partir de data de internação e saída, agrupar idade em faixas etárias, identificar óbito hospitalar a partir do motivo de saída ou indicador de morte, agrupar diagnóstico principal por capítulo ou lista CID, agrupar procedimento realizado e definir internação de residente ou internação fora do município."
+  },
+  {
+    "start": 1010.8,
+    "end": 1013.44,
+    "speaker": "ESTUDANTE",
+    "text": "Cada transformação carrega uma decisão."
+  },
+  {
+    "start": 1013.44,
+    "end": 1036.8,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Faixas etárias afetam comparação entre territórios. Grupos de causa dependem da lista escolhida. Permanência depende da qualidade das datas. Internação fora do município depende da padronização dos códigos de residência e ocorrência. Por isso, regras derivadas precisam estar explícitas."
+  },
+  {
+    "start": 1036.8,
+    "end": 1040.32,
+    "speaker": "ESTUDANTE",
+    "text": "Um uso clássico do SIH são as ICSAP, certo?"
+  },
+  {
+    "start": 1040.32,
+    "end": 1065.36,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Internações por condições sensíveis à atenção primária são usadas como indicador indireto de acesso e efetividade da atenção primária. A ideia é identificar internações cujo diagnóstico principal está em uma lista de condições que, em parte, poderiam ser evitadas ou reduzidas com atenção primária oportuna, resolutiva e contínua."
+  },
+  {
+    "start": 1065.36,
+    "end": 1068,
+    "speaker": "ESTUDANTE",
+    "text": "Mas não dá para interpretar mecanicamente."
+  },
+  {
+    "start": 1068,
+    "end": 1088.56,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Uma taxa de ICSAP pode ser influenciada pela atenção primária, mas também por perfil etário, vulnerabilidade social, oferta de leitos, acesso ao hospital, práticas de codificação e mudanças no registro. O indicador é útil, mas precisa de contexto."
+  },
+  {
+    "start": 1088.81,
+    "end": 1094.65,
+    "speaker": "ESTUDANTE",
+    "text": "Então eu devo documentar a lista, o denominador, o território, a idade e o período."
+  },
+  {
+    "start": 1094.65,
+    "end": 1118.49,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Para avaliar risco da população residente, use município de residência e população compatível. Se comparar territórios, considere padronização por idade quando necessário. E nunca esqueça que o numerador são internações SUS registradas no SIH, não todas as internações do país."
+  },
+  {
+    "start": 1118.49,
+    "end": 1122.09,
+    "speaker": "ESTUDANTE",
+    "text": "O SIH também conversa com outros sistemas."
+  },
+  {
+    "start": 1122.09,
+    "end": 1158.49,
+    "speaker": "APRESENTADORA",
+    "text": "Bastante. Com o CNES, conseguimos caracterizar estabelecimentos, leitos, habilitações e natureza da rede. Com o SIM, podemos estudar mortalidade, lembrando que óbito hospitalar no SIH não equivale à mortalidade total. Com o SINAN, podemos investigar relação entre agravos notificados e internações. Com POP, construímos taxas. Com SIA, olhamos a produção ambulatorial que pode anteceder, complementar ou substituir hospitalizações."
+  },
+  {
+    "start": 1158.49,
+    "end": 1161.69,
+    "speaker": "ESTUDANTE",
+    "text": "Mas integração não é só juntar tabelas."
+  },
+  {
+    "start": 1161.69,
+    "end": 1190.89,
+    "speaker": "APRESENTADORA",
+    "text": "De jeito nenhum. Em análises agregadas, é preciso compatibilizar território e período. Em relacionamento de registros, é preciso governança, base legal, identificadores adequados, regras de pareamento e tratamento de registros sem correspondência. E antes de tudo, é preciso definir a unidade final: AIH, pessoa, episódio, trajetória ou desfecho."
+  },
+  {
+    "start": 1190.89,
+    "end": 1195.61,
+    "speaker": "ESTUDANTE",
+    "text": "Você falou em óbito hospitalar. Esse campo é muito tentador."
+  },
+  {
+    "start": 1195.61,
+    "end": 1220.57,
+    "speaker": "APRESENTADORA",
+    "text": "É útil, mas precisa de cuidado. O óbito no SIH se refere ao desfecho da internação hospitalar registrada. Ele não capta óbitos fora do hospital, não substitui o SIM e não mede mortalidade populacional total. Para letalidade hospitalar, pode ser adequado. Para mortalidade, o SIM é a fonte central."
+  },
+  {
+    "start": 1220.57,
+    "end": 1225.93,
+    "speaker": "ESTUDANTE",
+    "text": "Então letalidade hospitalar e mortalidade são indicadores diferentes."
+  },
+  {
+    "start": 1226.18,
+    "end": 1248.1,
+    "speaker": "APRESENTADORA",
+    "text": "Muito diferentes. Letalidade hospitalar olha óbitos entre internações ou AIHs em determinado recorte. Mortalidade populacional olha óbitos em uma população, geralmente com denominador populacional. Confundir os dois pode levar a conclusões erradas sobre risco, gravidade ou desempenho dos serviços."
+  },
+  {
+    "start": 1248.1,
+    "end": 1251.54,
+    "speaker": "ESTUDANTE",
+    "text": "E permanência média também exige contexto."
+  },
+  {
+    "start": 1251.54,
+    "end": 1273.62,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Permanência média depende do perfil dos procedimentos, da complexidade dos casos, do tipo de hospital, das regras de registro, da disponibilidade de leitos de retaguarda e de práticas clínicas. Comparar permanência entre hospitais ou municípios sem estratificar pode ser injusto ou pouco informativo."
+  },
+  {
+    "start": 1273.62,
+    "end": 1276.1,
+    "speaker": "ESTUDANTE",
+    "text": "Isso vale para valor médio também."
+  },
+  {
+    "start": 1276.1,
+    "end": 1297.06,
+    "speaker": "APRESENTADORA",
+    "text": "Vale. Valor médio da AIH pode variar por mix de procedimentos, complexidade, regras de remuneração, presença de alta complexidade e composição dos serviços. Não é uma medida direta de eficiência econômica. É um indicador administrativo que precisa ser lido com cuidado."
+  },
+  {
+    "start": 1297.06,
+    "end": 1301.859,
+    "speaker": "ESTUDANTE",
+    "text": "E, para acessar os dados, eu preciso começar por uma ferramenta específica?"
+  },
+  {
+    "start": 1301.859,
+    "end": 1330.42,
+    "speaker": "APRESENTADORA",
+    "text": "Não. O TabNet atende bem a consultas rápidas e à conferência de totais. Para séries maiores, há arquivos para processamento local e ferramentas em diferentes linguagens. O mais importante aqui não é decorar caminhos de acesso, que o capítulo apresenta com mais detalhe. É preservar os dados brutos, registrar a data da extração e separar com clareza o que foi baixado, tratado e usado na análise."
+  },
+  {
+    "start": 1330.42,
+    "end": 1335.62,
+    "speaker": "ESTUDANTE",
+    "text": "Então a ferramenta pode mudar, mas a rastreabilidade precisa permanecer."
+  },
+  {
+    "start": 1335.62,
+    "end": 1351.7,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Como o SIH tem arquivos mensais, grande volume e possibilidade de reprocessamento, essa organização permite repetir filtros, conferir totais e explicar como cada indicador foi construído."
+  },
+  {
+    "start": 1352.03,
+    "end": 1356.59,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos imaginar que eu estou escrevendo um resultado. O que eu devo deixar claro?"
+  },
+  {
+    "start": 1356.59,
+    "end": 1403.47,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro, a unidade: AIHs, internações registradas, procedimentos, valores ou pessoas. Segundo, a cobertura: SUS e rede conveniada, não totalidade do setor hospitalar. Terceiro, o arquivo usado: RD, SP, RJ ou ER. Quarto, o recorte territorial: residência, ocorrência ou estabelecimento. Quinto, o recorte temporal: competência, data de internação ou data de saída. E sexto, as listas ou agrupamentos usados, como CID, ICSAP ou procedimentos SIGTAP."
+  },
+  {
+    "start": 1403.47,
+    "end": 1405.631,
+    "speaker": "ESTUDANTE",
+    "text": "Isso é quase uma ficha técnica mínima."
+  },
+  {
+    "start": 1405.631,
+    "end": 1427.071,
+    "speaker": "APRESENTADORA",
+    "text": "É. E uma boa ficha técnica evita interpretações apressadas. Quando alguém lê que houve aumento de internações por determinado grupo de causas, precisa saber se estamos falando de residentes ou ocorrência, qual período, qual lista CID, qual arquivo, qual filtro de idade e qual denominador."
+  },
+  {
+    "start": 1427.071,
+    "end": 1430.27,
+    "speaker": "ESTUDANTE",
+    "text": "Quais erros você mais vê com SIH?"
+  },
+  {
+    "start": 1430.27,
+    "end": 1462.431,
+    "speaker": "APRESENTADORA",
+    "text": "Contar AIHs como pessoas. Calcular taxa com internações por ocorrência e população residente. Comparar valores pagos como se fossem custos totais. Misturar arquivos aprovados e rejeitados. Usar procedimento sem verificar SIGTAP e vigência. Interpretar óbito hospitalar como mortalidade populacional. E não verificar duplicidade ou continuidade em análises que pretendem falar de episódios."
+  },
+  {
+    "start": 1462.431,
+    "end": 1466.512,
+    "speaker": "ESTUDANTE",
+    "text": "Tem também o risco de usar uma tabela pronta sem entender de onde ela veio."
+  },
+  {
+    "start": 1466.512,
+    "end": 1489.632,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Tabelas agregadas são úteis, mas podem esconder filtros, competências e regras. O ideal é que uma análise reprodutível consiga sair do dado bruto, passar pelo tratamento e chegar ao indicador com código documentado. Mesmo quando usamos TabNet, devemos registrar as escolhas feitas na tabulação."
+  },
+  {
+    "start": 1489.632,
+    "end": 1495.792,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo fala que o SIH tem atualização frequente. Isso é uma vantagem."
+  },
+  {
+    "start": 1496.76,
+    "end": 1520.68,
+    "speaker": "APRESENTADORA",
+    "text": "É uma grande vantagem. O SIH permite acompanhar produção hospitalar com defasagem relativamente curta. Para gestão e planejamento, isso é valioso. Mas a atualização frequente também exige controle de versões: quando os dados foram baixados, quais competências estavam disponíveis, se houve reprocessamento e quais arquivos entraram."
+  },
+  {
+    "start": 1520.68,
+    "end": 1525.24,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma mesma análise pode mudar se eu baixar os dados em outro momento."
+  },
+  {
+    "start": 1525.24,
+    "end": 1537.399,
+    "speaker": "APRESENTADORA",
+    "text": "Pode, especialmente em períodos recentes ou quando há reprocessamentos. Por isso, guardar data de extração, fonte e script é parte da reprodutibilidade."
+  },
+  {
+    "start": 1537.399,
+    "end": 1543.96,
+    "speaker": "ESTUDANTE",
+    "text": "Estou percebendo que o SIH é menos uma tabela e mais uma história administrativa da internação."
+  },
+  {
+    "start": 1543.96,
+    "end": 1568.64,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E essa história é muito poderosa. Ela permite enxergar a rede hospitalar do SUS em escala nacional, observar fluxos, comparar causas de internação, acompanhar procedimentos e construir indicadores. Mas, como toda história, precisa ser lida com atenção ao narrador, ao contexto e às regras de registro."
+  },
+  {
+    "start": 1568.64,
+    "end": 1573.56,
+    "speaker": "ESTUDANTE",
+    "text": "Gostei dessa imagem. A AIH é o narrador administrativo da internação."
+  },
+  {
+    "start": 1573.56,
+    "end": 1597.48,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Ela não conta tudo que aconteceu clinicamente, mas conta algo muito importante: que uma internação foi autorizada, registrada, processada e aprovada dentro do SUS. Para muitas perguntas de saúde pública, isso é suficiente e extremamente útil. Para outras, precisamos combinar fontes ou mudar o desenho do estudo."
+  },
+  {
+    "start": 1597.48,
+    "end": 1604.52,
+    "speaker": "ESTUDANTE",
+    "text": "Então a mensagem final seria: o SIH é indispensável, mas pede humildade metodológica."
+  },
+  {
+    "start": 1604.52,
+    "end": 1626.68,
+    "speaker": "APRESENTADORA",
+    "text": "Eu assinaria embaixo. Sua força está na abrangência, na periodicidade e na riqueza de campos. O cuidado está em distinguir diagnóstico, procedimento, valor, internação, AIH e pessoa; e em deixar claras a cobertura, a unidade, o território e a régua temporal."
+  },
+  {
+    "start": 1626.93,
+    "end": 1631.57,
+    "speaker": "ESTUDANTE",
+    "text": "Se alguém abrisse o SIH pela primeira vez amanhã, qual seria seu conselho?"
+  },
+  {
+    "start": 1631.57,
+    "end": 1653.97,
+    "speaker": "APRESENTADORA",
+    "text": "Comece pela pergunta, não pelo arquivo. Depois escolha a unidade, o arquivo e o recorte coerentes; documente diagnósticos e procedimentos; verifique a qualidade; e só então construa o indicador. Assim, a tabela deixa de parecer neutra e passa a mostrar o método."
+  },
+  {
+    "start": 1653.97,
+    "end": 1660.13,
+    "speaker": "ESTUDANTE",
+    "text": "E a internação fictícia que acompanhamos? O que aquela linha finalmente nos permite afirmar?"
+  },
+  {
+    "start": 1660.13,
+    "end": 1686.37,
+    "speaker": "APRESENTADORA",
+    "text": "Ela permite afirmar que uma AIH foi autorizada, registrada, processada e aprovada dentro do SUS, com os campos e as regras que acabamos de percorrer. Ela não conta toda a história clínica nem identifica, sozinha, uma pessoa única. Mas, interpretada com cuidado, abre uma janela muito rica para entender a hospitalização e o uso da rede."
+  },
+  {
+    "start": 1686.37,
+    "end": 1692.529,
+    "speaker": "ESTUDANTE",
+    "text": "Então a pergunta não é apenas o que o SIH mostra. É também como ele aprendeu a mostrar."
+  },
+  {
+    "start": 1692.529,
+    "end": 1707.65,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. É aí que a análise fica boa: quando transforma um registro administrativo em evidência sem esquecer o caminho que fez esse registro existir. Obrigada pela companhia, e até o próximo episódio!"
+  }
 ]

@@ -416,6 +416,36 @@
       "type": "alias",
       "string_to_replace": "ANS",
       "alias": "a ene ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "RD",
+      "alias": "érre dê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SP",
+      "alias": "ésse pê"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "RJ",
+      "alias": "érre jota"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "ER",
+      "alias": "ê érre"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SIGTAP",
+      "alias": "sigtápi"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "ICSAP",
+      "alias": "icsápi"
     }
   ]
 }
