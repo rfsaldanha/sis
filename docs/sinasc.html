@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>6&nbsp; SINASC – Sistema de Informação sobre Nascidos Vivos – Sistemas de Informação em Saúde no Brasil</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -90,19 +93,18 @@ div.csl-indent {
 <link href="./sim.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c9bb1e29cb3145d4bdb180f1267cabd8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-1f24365207f3bb5c60ba23f857ce6ed9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -359,6 +361,12 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bem-vindo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./siglas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lista de siglas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -648,6 +656,8 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tbody>
 </table>
 <p>O Sistema de Informação sobre Nascidos Vivos (SINASC) é a principal fonte nacional para estudar nascimentos, condições da gestação, parto, recém-nascido e características maternas. Seus dados são usados para descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar a atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil.</p>
+<p>Como se trata de um sistema baseado em evento vital, o SINASC não acompanha a gestante durante toda a gravidez. Ele registra o desfecho nascimento vivo e reúne informações observadas ou declaradas no momento do parto e do preenchimento da Declaração de Nascido Vivo. Essa característica é uma vantagem quando a análise precisa de uma base nacional padronizada de nascimentos, mas exige cautela quando a pergunta envolve trajetória assistencial, qualidade clínica do pré-natal ou causalidade entre exposição materna e desfecho neonatal.</p>
+<p>O quadro de resumo situa o SINASC dentro da família dos sistemas nacionais de informação em saúde: seu documento de entrada é padronizado, a unidade de análise é a DNV e a cobertura pretendida é universal. Por isso, antes de iniciar uma análise, é útil verificar se o problema realmente se refere a nascidos vivos ou se seria melhor usar outro sistema como fonte principal.</p>
 </section>
 <section id="quando-usar-o-sinasc" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="quando-usar-o-sinasc"><span class="header-section-number">6.2</span> Quando usar o SINASC</h2>
@@ -699,15 +709,18 @@ Para acompanhar a transcrição, acesse o roteiro em
 </tr>
 </tbody>
 </table>
+<p>Esse conjunto de perguntas mostra que o SINASC pode responder tanto perguntas descritivas, como a contagem de nascidos vivos, quanto perguntas analíticas, como desigualdades no peso ao nascer ou no tipo de parto. O ponto decisivo é não transformar automaticamente variáveis disponíveis em conclusões sobre qualidade da assistência. Número de consultas, tipo de parto, Apgar e anomalias congênitas, por exemplo, precisam ser lidos junto com contexto clínico, cobertura, completitude e diferenças de preenchimento entre serviços.</p>
 </section>
 <section id="histórico-e-organização" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">6.3</span> Histórico e organização</h2>
 <p>O SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990 e os dados consolidados passaram a estar disponíveis a partir de 1994. Nos primeiros anos, o sistema enfrentou problemas de cobertura, especialmente em áreas mais remotas e em municípios das regiões Norte e Nordeste, além de desafios de rotina de crítica, duplicidade e controle de qualidade.</p>
-<p>Estudos de avaliação indicam melhora importante da cobertura e da qualidade do SINASC, mas também mostram heterogeneidade entre municípios e variáveis. <span class="citation" data-cites="szwarcwaldAvaliacaoInformacoesSistema2019">SZWARCWALD et al. (<a href="referencias.html#ref-szwarcwaldAvaliacaoInformacoesSistema2019" role="doc-biblioref">2019</a>)</span> estimam cobertura superior a 90% na maioria das Unidades da Federação, embora municípios remotos e mais vulneráveis ainda possam apresentar cobertura insuficiente. A qualidade também varia conforme o campo analisado; idade gestacional, paridade, escolaridade materna e anomalias congênitas exigem atenção especial <span class="citation" data-cites="pedrazaQualidadeSistemaInformacoes2012 luquettiQualidadeNotificacaoAnomalias2010">(<a href="referencias.html#ref-luquettiQualidadeNotificacaoAnomalias2010" role="doc-biblioref">LUQUETTI; KOIFMAN, 2010</a>; <a href="referencias.html#ref-pedrazaQualidadeSistemaInformacoes2012" role="doc-biblioref">PEDRAZA, 2012</a>)</span>.</p>
+<p>Estudos de avaliação indicam melhora importante da cobertura e da qualidade do SINASC, mas também mostram heterogeneidade entre municípios e variáveis. A experiência de implantação do SIM e do SINASC é descrita como parte do esforço de construção de séries nacionais mais completas para eventos vitais, ainda que com diferenças regionais no ritmo de consolidação <span class="citation" data-cites="jorgeAnaliseQualidadeEstatisticas2007">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>)</span>. <span class="citation" data-cites="szwarcwaldAvaliacaoInformacoesSistema2019">SZWARCWALD et al. (<a href="referencias.html#ref-szwarcwaldAvaliacaoInformacoesSistema2019" role="doc-biblioref">2019</a>)</span> estimam cobertura superior a 90% na maioria das Unidades da Federação, embora municípios remotos e mais vulneráveis ainda possam apresentar cobertura insuficiente. A qualidade também varia conforme o campo analisado; idade gestacional, paridade, escolaridade materna e anomalias congênitas exigem atenção especial <span class="citation" data-cites="pedrazaQualidadeSistemaInformacoes2012 luquettiQualidadeNotificacaoAnomalias2010">(<a href="referencias.html#ref-luquettiQualidadeNotificacaoAnomalias2010" role="doc-biblioref">LUQUETTI; KOIFMAN, 2010</a>; <a href="referencias.html#ref-pedrazaQualidadeSistemaInformacoes2012" role="doc-biblioref">PEDRAZA, 2012</a>)</span>.</p>
+<p>Na prática, isso significa que a série histórica do SINASC não deve ser lida apenas como uma sequência de nascimentos. Ela também reflete mudanças de implantação, qualificação das rotinas municipais e estaduais, informatização, revisão de formulários e estratégias de busca ativa. Comparações temporais muito longas precisam considerar esses elementos, principalmente quando o interesse está em municípios pequenos ou em variáveis de preenchimento mais sensível.</p>
 </section>
 <section id="fluxo-da-declaração-de-nascido-vivo" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="fluxo-da-declaração-de-nascido-vivo"><span class="header-section-number">6.4</span> Fluxo da Declaração de Nascido Vivo</h2>
 <p>O documento básico do SINASC é a Declaração de Nascido Vivo (DNV), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV é emitida em três vias e distribuída gratuitamente.</p>
+<p>O fluxo das vias da DNV explica por que o SINASC tem dupla importância: ele alimenta uma base epidemiológica e, ao mesmo tempo, conversa com o processo civil de registro do nascimento. A separação das vias cria pontos de controle distintos, mas também depende de rotinas locais bem organizadas para evitar atraso de digitação, perda de documento ou inconsistência entre campos clínicos e administrativos.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-sinasc-dnv" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -741,6 +754,7 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </div>
 </div>
 <p>A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário.</p>
+<p>Esse encadeamento ajuda a interpretar problemas de oportunidade. Um nascimento pode ter ocorrido em determinada data, mas entrar na base municipal ou nacional depois, a depender do tempo de envio, digitação, crítica e consolidação. Por isso, análises de anos recentes devem explicitar se usam base preliminar ou consolidada.</p>
 </section>
 <section id="o-que-é-nascido-vivo" class="level2" data-number="6.5">
 <h2 data-number="6.5" class="anchored" data-anchor-id="o-que-é-nascido-vivo"><span class="header-section-number">6.5</span> O que é nascido vivo</h2>
@@ -788,6 +802,7 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </tr>
 </tbody>
 </table>
+<p>O quadro comparativo destaca uma distinção operacional que evita muitos erros: nascimento vivo e óbito fetal pertencem a fluxos informacionais diferentes. Quando um recém-nascido apresenta sinal de vida e morre em seguida, o evento precisa aparecer tanto no SINASC quanto no SIM, pois há um nascimento e há um óbito. Essa dupla presença não é duplicidade; é a forma correta de representar dois eventos vitais relacionados.</p>
 </section>
 <section id="cobertura-e-unidade-de-análise" class="level2" data-number="6.6">
 <h2 data-number="6.6" class="anchored" data-anchor-id="cobertura-e-unidade-de-análise"><span class="header-section-number">6.6</span> Cobertura e unidade de análise</h2>
@@ -828,6 +843,7 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </tbody>
 </table>
 <p>Para estimar riscos na população residente, em geral utiliza-se o município de residência da mãe. Para avaliar concentração de partos, serviços de referência e deslocamentos para nascer, o município de ocorrência do parto é mais informativo.</p>
+<p>Esse recorte organiza dimensões que costumam se misturar durante a análise. Um mesmo registro contém atributos do recém-nascido, da mãe, da gestação, do parto e do local de ocorrência, mas nem todos respondem à mesma pergunta. Misturar essas dimensões pode levar, por exemplo, a calcular risco populacional com base no local de ocorrência do parto ou a interpretar perfil de maternidade como perfil das residentes do município.</p>
 </section>
 <section id="gestações-múltiplas" class="level2" data-number="6.7">
 <h2 data-number="6.7" class="anchored" data-anchor-id="gestações-múltiplas"><span class="header-section-number">6.7</span> Gestações múltiplas</h2>
@@ -869,6 +885,7 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </tr>
 </tbody>
 </table>
+<p>Essa distinção é especialmente importante em indicadores sensíveis à gemelaridade, como baixo peso, prematuridade e tipo de parto. Se o objetivo é contar recém-nascidos, cada DNV deve permanecer como uma observação. Se o objetivo é descrever gestações ou partos, será necessário definir uma estratégia para agrupar registros relacionados, o que nem sempre é possível com dados agregados.</p>
 </section>
 <section id="variáveis-chave" class="level2" data-number="6.8">
 <h2 data-number="6.8" class="anchored" data-anchor-id="variáveis-chave"><span class="header-section-number">6.8</span> Variáveis-chave</h2>
@@ -915,6 +932,7 @@ Figura&nbsp;6.1: Fluxo de emissão e destinação das vias da Declaração de Na
 </tr>
 </tbody>
 </table>
+<p>Os blocos da tabela também ajudam a planejar a avaliação de qualidade. Variáveis administrativas, como datas e municípios, tendem a ser usadas para vinculação, recorte territorial e controle de oportunidade. Variáveis clínicas e sociodemográficas, por sua vez, costumam exigir inspeção mais cuidadosa de ignorados, categorias residuais e mudanças de preenchimento ao longo do tempo.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -983,12 +1001,14 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Essas transformações devem ser tratadas como decisões metodológicas, não como detalhes de programação. Dependendo do ano, do dicionário usado e do pacote de processamento, códigos ignorados podem aparecer como categorias, valores numéricos específicos ou <code>NA</code>. Uma boa prática é apresentar no método a regra usada para o numerador, o denominador e as exclusões.</p>
 </section>
 </section>
 <section id="anomalias-congênitas" class="level2" data-number="6.9">
 <h2 data-number="6.9" class="anchored" data-anchor-id="anomalias-congênitas"><span class="header-section-number">6.9</span> Anomalias congênitas</h2>
 <p>O SINASC permite registrar anomalias congênitas identificadas no nascimento, mas esse campo é particularmente sensível à qualidade do exame, ao treinamento da equipe, à disponibilidade de diagnóstico e ao preenchimento da DNV. Estudos mostram subnotificação relevante, o que impede interpretar baixa frequência registrada como baixa ocorrência real sem avaliação de qualidade <span class="citation" data-cites="luquettiQualidadeNotificacaoAnomalias2010">(<a href="referencias.html#ref-luquettiQualidadeNotificacaoAnomalias2010" role="doc-biblioref">LUQUETTI; KOIFMAN, 2010</a>)</span>.</p>
 <p>Para análises de anomalias congênitas, verifique a proporção de ignorados, a mudança temporal do preenchimento, a consistência por estabelecimento e a compatibilidade entre frequência observada e padrões esperados. Quando possível, complemente a análise com vigilância específica, prontuários, investigação local ou bases especializadas.</p>
+<p>Também é importante lembrar que nem toda anomalia é identificável no momento do nascimento. Algumas dependem de exames complementares, seguimento clínico ou confirmação diagnóstica posterior. Assim, o campo da DNV é útil para vigilância e triagem epidemiológica, mas não substitui sistemas ou estudos desenhados especificamente para monitorar malformações congênitas.</p>
 </section>
 <section id="análise-territorial-e-temporal" class="level2" data-number="6.10">
 <h2 data-number="6.10" class="anchored" data-anchor-id="análise-territorial-e-temporal"><span class="header-section-number">6.10</span> Análise territorial e temporal</h2>
@@ -1026,6 +1046,7 @@ Aviso
 </tbody>
 </table>
 <p>Na análise temporal, diferencie a data de nascimento, o ano do arquivo e a situação de consolidação da base. Bases preliminares são úteis para monitoramento oportuno, mas podem mudar com atualizações posteriores.</p>
+<p>Esses recortes resumem uma escolha que deve aparecer explicitamente no plano analítico. O recorte por residência descreve a população de referência e é o mais adequado para taxas e comparações territoriais de risco. O recorte por ocorrência descreve a rede onde o parto aconteceu e é mais apropriado para estudar fluxos assistenciais, centralização de maternidades e capacidade instalada.</p>
 </section>
 <section id="exemplo-baixo-peso-ao-nascer" class="level2 page-columns page-full" data-number="6.11">
 <h2 data-number="6.11" class="anchored" data-anchor-id="exemplo-baixo-peso-ao-nascer"><span class="header-section-number">6.11</span> Exemplo: baixo peso ao nascer</h2>
@@ -1078,6 +1099,7 @@ Aviso
 </tbody>
 </table>
 <p>Uma análise mais consistente deve avaliar baixo peso junto com idade gestacional. Um recém-nascido pode ter baixo peso por prematuridade, restrição de crescimento intrauterino ou combinação de fatores. Em municípios pequenos, use períodos agregados ou medidas de suavização quando a proporção for instável.</p>
+<p>Os elementos da tabela funcionam como um roteiro mínimo para evitar uma proporção aparentemente simples, mas frágil. O denominador deve excluir registros sem peso válido, a estratificação precisa considerar perdas de informação e o território deve ser coerente com a pergunta. Se o interesse for desigualdade entre residentes, use residência da mãe; se for perfil de serviços de parto, use ocorrência ou estabelecimento.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1096,13 +1118,13 @@ Aviso
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-50654465054293d387c5" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-e7ed5fded55294d8cbfa" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-50654465054293d387c5">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SINASC e base normativa<\/small>","start":"1989-01-01"},{"id":"3","content":"<small><b>Implantação gradual do SINASC nas Ufs<\/b><\/small>","start":"1990-01-01","end":"1994-01-01"},{"id":"4","content":"<small>Formalização de manuais e rotinas<\/small>","start":"1999-01-01","end":"2001-01-01"},{"id":"5","content":"<small>Portaria SVS n. 20, regulamenta fluxo de dados<\/small>","start":"2003-10-03"},{"id":"6","content":"<small>Portaria SVS n. 116, regulamenta fluxo de dados<\/small>","start":"2009-02-11"},{"id":"7","content":"<small>Novo manual da DNV<\/small>","start":"2011-01-01"},{"id":"8","content":"<small>Integração com políticas de vigilância em saúde e malformações congênitas<\/small>","start":"2013-01-01","end":"2018-01-01"},{"id":"9","content":"<small>Portaria SVS n. 47, regularidade na<\/br>alimentação do SINASC e SIM<\/small>","start":"2016-05-03"},{"id":"10","content":"<small>Atualização do layout da<\/br>DNV e novo manual<\/small>","start":"2021-01-01","end":"2022-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-e7ed5fded55294d8cbfa">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Concepção do SINASC e base normativa<\/small>","start":"1989-01-01"},{"id":"3","content":"<small><b>Implantação gradual do SINASC nas Ufs<\/b><\/small>","start":"1990-01-01","end":"1994-01-01"},{"id":"4","content":"<small>Formalização de manuais e rotinas<\/small>","start":"1999-01-01","end":"2001-01-01"},{"id":"5","content":"<small>Portaria SVS n. 20, regulamenta fluxo de dados<\/small>","start":"2003-10-03"},{"id":"6","content":"<small>Portaria SVS n. 116, regulamenta fluxo de dados<\/small>","start":"2009-02-11"},{"id":"7","content":"<small>Novo manual da DNV<\/small>","start":"2011-01-01"},{"id":"8","content":"<small>Integração com políticas de vigilância em saúde e malformações congênitas<\/small>","start":"2013-01-01","end":"2018-01-01"},{"id":"9","content":"<small>Portaria SVS n. 47, regularidade na<\/br>alimentação do SINASC e SIM<\/small>","start":"2016-05-03"},{"id":"10","content":"<small>Atualização do layout da<\/br>DNV e novo manual<\/small>","start":"2021-01-01","end":"2022-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SINASC</p>
 </div>
 </div>
@@ -1115,10 +1137,12 @@ Aviso
 <figcaption>Modelo de Declaração de Nascido Vivo</figcaption>
 </figure>
 </div>
+<p>A imagem da DNV ajuda a perceber que o SINASC nasce de um formulário estruturado, não de um banco criado apenas para pesquisa. Campos aparentemente simples carregam instruções de preenchimento, categorias oficiais e limites do momento em que a informação é registrada. Por isso, o manual da DNV e o dicionário de dados devem ser consultados junto com a base.</p>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="6.13">
 <h2 data-number="6.13" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">6.13</span> Estrutura dos dados</h2>
 <p>O documento de <a href="assets/sinasc/Estrutura_SINASC_para_CD.pdf">estrutura do SINASC</a> descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão data de nascimento, município de residência da mãe, município de ocorrência, idade materna, escolaridade, raça/cor, número de consultas de pré-natal, tipo de parto, idade gestacional, peso ao nascer, Apgar e presença de anomalia congênita.</p>
+<p>Antes de produzir indicadores, vale fazer uma inspeção exploratória dos campos essenciais: número de registros por ano e território, distribuição de datas, proporção de ignorados, categorias inesperadas e valores biologicamente implausíveis. Essa etapa costuma revelar problemas que não aparecem em tabulações agregadas, como códigos residuais, mudanças de nomenclatura e campos disponíveis apenas em determinados períodos.</p>
 <section id="campos-mínimos-para-inspecionar" class="level3" data-number="6.13.1">
 <h3 data-number="6.13.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">6.13.1</span> Campos mínimos para inspecionar</h3>
 <p>Os nomes e a disponibilidade das variáveis podem variar conforme o ano e a forma de acesso. Em uma primeira inspeção, costuma ser útil verificar:</p>
@@ -1181,9 +1205,11 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>A lista não esgota o dicionário do SINASC, mas reúne campos que ajudam a confirmar se a base foi lida corretamente. Eles permitem checar volume, tempo, território, características maternas, assistência e condições ao nascer. Em análises mais específicas, outros campos podem ser necessários, como estabelecimento de ocorrência, tipo de gravidez, ocupação materna ou histórico reprodutivo.</p>
 </section>
 <section id="prefixo-dos-arquivos" class="level3" data-number="6.13.2">
 <h3 data-number="6.13.2" class="anchored" data-anchor-id="prefixo-dos-arquivos"><span class="header-section-number">6.13.2</span> Prefixo dos arquivos</h3>
+<p>Nos arquivos de disseminação do DataSUS, o prefixo ajuda a reconhecer o conteúdo antes mesmo da leitura do banco. Isso é útil quando há muitos arquivos baixados localmente ou quando a análise combina diferentes sistemas.</p>
 <table class="caption-top table">
 <caption>Prefixos comuns dos arquivos do SINASC</caption>
 <thead>
@@ -1203,6 +1229,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Em análises nacionais, registros de residentes no exterior geralmente precisam ser avaliados separadamente, pois não pertencem à população residente brasileira usada como denominador de indicadores municipais, estaduais ou nacionais. A regra de inclusão deve ser documentada para manter coerência entre numerador, denominador e território.</p>
 </section>
 </section>
 <section id="acesso-aos-dados" class="level2" data-number="6.14">
@@ -1247,6 +1274,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>Esse quadro diferencia acesso para consulta rápida e acesso para análise reprodutível. TabNet é prático para exploração inicial e conferência de totais. Arquivos DBC, pacotes em R ou Python e bases em plataformas de dados são mais adequados quando a análise precisa documentar filtros, recodificações e versões dos dados.</p>
 <section id="tabnet" class="level3" data-number="6.14.1">
 <h3 data-number="6.14.1" class="anchored" data-anchor-id="tabnet"><span class="header-section-number">6.14.1</span> TabNet</h3>
 <p>Os dados do SINASC podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.</p>
@@ -1260,6 +1288,7 @@ Aviso
 <ul>
 <li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
 </ul>
+<p>Esse caminho é útil quando a equipe precisa manter uma cópia local dos dados ou reproduzir tabulações em ambiente sem conexão permanente. Nesse caso, registre a data do download, os arquivos utilizados e qualquer conversão de formato aplicada aos microdados.</p>
 </section>
 <section id="r" class="level3" data-number="6.14.3">
 <h3 data-number="6.14.3" class="anchored" data-anchor-id="r"><span class="header-section-number">6.14.3</span> R</h3>
@@ -1278,6 +1307,7 @@ Aviso
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>sinasc_p</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
+<p>O exemplo ilustra um fluxo mínimo: baixar os registros, processar os códigos originais e só então iniciar a análise. Em trabalhos reprodutíveis, convém salvar a versão bruta, a versão processada e o script de transformação, para que totais e categorias possam ser auditados depois.</p>
 </section>
 <section id="python" class="level3" data-number="6.14.4">
 <h3 data-number="6.14.4" class="anchored" data-anchor-id="python"><span class="header-section-number">6.14.4</span> Python</h3>
@@ -1347,6 +1377,7 @@ Aviso
 </tbody>
 </table>
 <p>Em relacionamentos determinísticos ou probabilísticos, defina previamente a unidade final de análise. Ao relacionar SINASC e SIM, por exemplo, a unidade pode ser o nascimento, o óbito infantil ou o par nascimento-óbito, dependendo da pergunta.</p>
+<p>As integrações listadas são comuns, mas cada combinação muda a interpretação. Quando a análise é agregada por município e ano, o resultado descreve associações territoriais. Quando há relacionamento de registros, o resultado pode se aproximar de trajetórias individuais, mas passa a depender de regras de pareamento, qualidade dos identificadores, proteção de dados e avaliação de pares falsos ou perdidos.</p>
 </section>
 <section id="uso-como-denominador" class="level2" data-number="6.16">
 <h2 data-number="6.16" class="anchored" data-anchor-id="uso-como-denominador"><span class="header-section-number">6.16</span> Uso como denominador</h2>
@@ -1394,6 +1425,7 @@ Aviso
 </tbody>
 </table>
 <p>Quando o indicador é uma proporção entre nascidos vivos, como baixo peso ao nascer ou parto cesáreo, o SINASC fornece numerador e denominador. Quando o indicador envolve óbitos, o numerador vem do SIM e o denominador costuma vir do SINASC.</p>
+<p>Os indicadores da tabela têm em comum a necessidade de compatibilizar tempo e território. Para mortalidade infantil, por exemplo, o denominador costuma ser o conjunto de nascidos vivos de mães residentes em determinado local e ano, enquanto o numerador vem dos óbitos de crianças com a mesma base territorial. Diferenças entre residência e ocorrência podem produzir taxas distorcidas, sobretudo em municípios que concentram maternidades ou serviços de referência.</p>
 </section>
 <section id="principais-usos-e-indicadores" class="level2" data-number="6.17">
 <h2 data-number="6.17" class="anchored" data-anchor-id="principais-usos-e-indicadores"><span class="header-section-number">6.17</span> Principais usos e indicadores</h2>
@@ -1451,6 +1483,7 @@ Aviso
 </tbody>
 </table>
 <p>Consulte o <a href="http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf">livro da RIPSA</a> para mais detalhes sobre esses e outros indicadores.</p>
+<p>O conjunto de indicadores reúne medidas de naturezas diferentes. Alguns medem volume ou fecundidade e exigem população como denominador; outros medem proporções entre nascidos vivos; e outros combinam SINASC e SIM. Separar esses grupos evita confundir taxa, proporção e razão, além de facilitar a escrita da ficha técnica de cada indicador.</p>
 </section>
 <section id="cuidados-de-interpretação" class="level2" data-number="6.18">
 <h2 data-number="6.18" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">6.18</span> Cuidados de interpretação</h2>
@@ -1508,6 +1541,7 @@ Aviso
 </tr>
 </tbody>
 </table>
+<p>O checklist funciona como uma etapa de controle antes da interpretação substantiva. Ele não precisa ser apresentado integralmente em todos os relatórios, mas as decisões tomadas a partir dele devem aparecer no método: critérios de exclusão, tratamento de ignorados, escolha territorial, período usado e versão da base. Em séries municipais, também é recomendável observar flutuações abruptas que possam refletir atraso de registro ou mudança administrativa, e não alteração real do evento.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1541,24 +1575,28 @@ Aviso
 <li>Artigo <em>Avaliação das informações do Sistema de Informações sobre Nascidos Vivos (SINASC), Brasil</em> <span class="citation" data-cites="szwarcwaldAvaliacaoInformacoesSistema2019">(<a href="referencias.html#ref-szwarcwaldAvaliacaoInformacoesSistema2019" role="doc-biblioref">SZWARCWALD et al., 2019</a>)</span>. Disponível <a href="https://doi.org/10.1590/0102-311X00214918">aqui</a>.</li>
 <li>Artigo <em>Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura</em> <span class="citation" data-cites="pedrazaQualidadeSistemaInformacoes2012">(<a href="referencias.html#ref-pedrazaQualidadeSistemaInformacoes2012" role="doc-biblioref">PEDRAZA, 2012</a>)</span>. Disponível <a href="https://doi.org/10.1590/S1413-81232012001000021">aqui</a>.</li>
 <li>Artigo <em>Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007</em> <span class="citation" data-cites="luquettiQualidadeNotificacaoAnomalias2010">(<a href="referencias.html#ref-luquettiQualidadeNotificacaoAnomalias2010" role="doc-biblioref">LUQUETTI; KOIFMAN, 2010</a>)</span>. Disponível <a href="https://doi.org/10.1590/S0102-311X2010000900009">aqui</a>.</li>
+<li>Artigo <em>Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC</em> <span class="citation" data-cites="jorgeAnaliseQualidadeEstatisticas2007">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>)</span>. Disponível <a href="https://doi.org/10.1590/S1413-81232007000300014">aqui</a>.</li>
 </ul>
 
 
 <div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-jorgeAnaliseQualidadeEstatisticas2007" class="csl-entry" role="listitem">
+JORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. <a href="https://doi.org/10.1590/S1413-81232007000300014"><span>An<span>á</span>lise da qualidade das estat<span>í</span>sticas vitais brasileiras: a experi<span>ê</span>ncia de implanta<span>ç</span><span>ã</span>o do SIM e do SINASC</span></a>. <strong>Ci<span class="nocase">ê</span>ncia &amp; Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 12, n. 3, p. 643–654, jun. 2007.
+</div>
 <div id="ref-luquettiQualidadeNotificacaoAnomalias2010" class="csl-entry" role="listitem">
-LUQUETTI, D. V.; KOIFMAN, R. J. <a href="https://doi.org/10.1590/S0102-311X2010000900009"><span>Qualidade da notifica<span>ç</span><span>ã</span>o de anomalias cong<span>ê</span>nitas pelo Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007</span></a>. <strong>Cadernos de Sa<span>ú</span>de P<span>ú</span>blica</strong>, v. 26, n. 9, p. 1756–1765, set. 2010.
+LUQUETTI, D. V.; KOIFMAN, R. J. <a href="https://doi.org/10.1590/S0102-311X2010000900009"><span>Qualidade da notifica<span>ç</span><span>ã</span>o de anomalias cong<span>ê</span>nitas pelo Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007</span></a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 26, n. 9, p. 1756–1765, set. 2010.
 </div>
 <div id="ref-pedrazaQualidadeSistemaInformacoes2012" class="csl-entry" role="listitem">
-PEDRAZA, D. F. <a href="https://doi.org/10.1590/S1413-81232012001000021"><span>Qualidade do Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (Sinasc): an<span>á</span>lise cr<span>í</span>tica da literatura</span></a>. <strong>Ci<span>ê</span>ncia &amp; Sa<span>ú</span>de Coletiva</strong>, v. 17, n. 10, p. 2729–2737, out. 2012.
+PEDRAZA, D. F. <a href="https://doi.org/10.1590/S1413-81232012001000021"><span>Qualidade do Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (Sinasc): an<span>á</span>lise cr<span>í</span>tica da literatura</span></a>. <strong>Ci<span class="nocase">ê</span>ncia &amp; Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 17, n. 10, p. 2729–2737, out. 2012.
 </div>
 <div id="ref-OPAS2008" class="csl-entry" role="listitem">
 RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
 </div>
 <div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
-SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span>ú</span>de P<span>ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 <div id="ref-szwarcwaldAvaliacaoInformacoesSistema2019" class="csl-entry" role="listitem">
-SZWARCWALD, C. L. et al. <a href="https://doi.org/10.1590/0102-311x00214918"><span>Avalia<span>ç</span><span>ã</span>o das informa<span>ç</span><span>õ</span>es do Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (SINASC), Brasil</span></a>. <strong>Cadernos de Sa<span>ú</span>de P<span>ú</span>blica</strong>, v. 35, n. 10, p. e00214918, 2019.
+SZWARCWALD, C. L. et al. <a href="https://doi.org/10.1590/0102-311x00214918"><span>Avalia<span>ç</span><span>ã</span>o das informa<span>ç</span><span>õ</span>es do Sistema de Informa<span>ç</span><span>õ</span>es sobre Nascidos Vivos (SINASC), Brasil</span></a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 10, p. e00214918, 2019.
 </div>
 <div id="ref-viacavaSistemaInformacaoSobre2009" class="csl-entry" role="listitem">
 VIACAVA, F. Sistema de <span>Informa<span>ç</span><span>ã</span>o</span> Sobre <span>Nascidos Vivos</span> (<span>Sinasc</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.

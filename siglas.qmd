@@ -1,0 +1,447 @@
+# Lista de siglas {.unnumbered .unlisted}
+
+Esta lista reúne as siglas, os acrônimos e as abreviações empregados no texto, nas tabelas e nas figuras do livro. Quando uma mesma forma tem mais de um significado, os sentidos são indicados na mesma entrada. Códigos da CID, nomes de variáveis e prefixos técnicos de arquivos não são tratados como siglas, pois funcionam como identificadores e são explicados nos respectivos capítulos e apêndices.
+
+```{=typst}
+#[
+#set text(size: 9pt)
+#show terms: it => it.children.map(item => grid(
+  columns: (31mm, 1fr),
+  column-gutter: 3mm,
+  item.term,
+  item.description,
+)).join(v(0.5em))
+```
+
+AB
+: Atenção Básica
+
+Aids/AIDS
+: Síndrome da imunodeficiência adquirida; a sigla deriva do inglês *acquired immunodeficiency syndrome*
+
+AIH
+: Autorização de Internação Hospitalar
+
+AIU
+: Apuração dos Imunobiológicos Utilizados
+
+AMS
+: Pesquisa da Assistência Médico-Sanitária
+
+ANS
+: Agência Nacional de Saúde Suplementar
+
+AP
+: Autorização de Procedimento Ambulatorial; em referências territoriais, Amapá
+
+APAC
+: Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo
+
+API
+: Avaliação do Programa de Imunizações; em contextos tecnológicos, interface de programação de aplicações
+
+APS
+: Atenção Primária à Saúde
+
+ASPS
+: Ações e Serviços Públicos de Saúde
+
+BPA
+: Boletim de Produção Ambulatorial
+
+BPA-C
+: Boletim de Produção Ambulatorial Consolidado
+
+BPA-I
+: Boletim de Produção Ambulatorial Individualizado
+
+CBO
+: Classificação Brasileira de Ocupações
+
+CDS
+: Coleta de Dados Simplificada
+
+CID
+: Classificação Internacional de Doenças
+
+CID-9
+: Nona revisão da Classificação Internacional de Doenças
+
+CID-10
+: Décima revisão da Classificação Internacional de Doenças
+
+CID-11
+: Décima primeira revisão da Classificação Internacional de Doenças
+
+CNES
+: Cadastro Nacional de Estabelecimentos de Saúde
+
+CNS
+: Cartão Nacional de Saúde
+
+Covid-19/COVID-19
+: Doença por coronavírus de 2019; a sigla deriva do inglês *coronavirus disease 2019*
+
+CPF
+: Cadastro de Pessoas Físicas
+
+CRIE
+: Centros de Referência para Imunobiológicos Especiais
+
+CSV
+: Valores separados por vírgula, do inglês *comma-separated values*
+
+D1/D2
+: Primeira dose e segunda dose de um esquema vacinal
+
+DataSUS/DATASUS
+: Departamento de Informática do Sistema Único de Saúde
+
+DATAPREV
+: Empresa de Tecnologia e Informações da Previdência
+
+DBC
+: Formato compactado de arquivos DBF usado pelo DataSUS
+
+DBF
+: Formato de arquivo de banco de dados associado ao *dBASE*
+
+DCA
+: Doença de Chagas aguda
+
+DCC
+: Doença de Chagas crônica
+
+DDA
+: Doenças Diarreicas Agudas
+
+DN
+: Declaração de Nascido Vivo; forma abreviada também representada por DNV
+
+DNV
+: Declaração de Nascido Vivo
+
+DO
+: Declaração de Óbito
+
+DPNI
+: Departamento do Programa Nacional de Imunizações
+
+Dsei/DSEI
+: Distrito Sanitário Especial Indígena
+
+DTA
+: Doenças Transmitidas por Alimentos
+
+DTB
+: Divisão Territorial Brasileira
+
+EAPV
+: Eventos Adversos Pós-Vacinação
+
+EDI
+: Estoque e Distribuição de Imunobiológicos
+
+EMAp
+: Escola de Matemática Aplicada da Fundação Getulio Vargas
+
+ESAVI
+: Eventos Supostamente Atribuíveis à Vacinação ou Imunização
+
+eAP
+: Equipe de Atenção Primária
+
+e-Gestor APS
+: Plataforma eletrônica de gestão da Atenção Primária à Saúde
+
+eSB
+: Equipe de Saúde Bucal
+
+eSF
+: Equipe de Saúde da Família
+
+e-SUS
+: Estratégia de informatização e integração de informações do Sistema Único de Saúde
+
+e-SUS APS
+: Estratégia e-SUS Atenção Primária à Saúde
+
+e-SUS Sinan
+: Plataforma e-SUS do Sistema de Informação de Agravos de Notificação
+
+FCES
+: Ficha de Cadastro de Estabelecimentos de Saúde
+
+FGV
+: Fundação Getulio Vargas
+
+FHIR
+: Padrão *Fast Healthcare Interoperability Resources* para intercâmbio eletrônico de informações em saúde
+
+Fiocruz
+: Fundação Oswaldo Cruz
+
+FPM
+: Fundo de Participação dos Municípios
+
+Funasa/FUNASA
+: Fundação Nacional de Saúde
+
+GAL
+: Gerenciador de Ambiente Laboratorial
+
+GM/MS
+: Gabinete do Ministro do Ministério da Saúde
+
+H1N1
+: Subtipo do vírus influenza A caracterizado pelas proteínas hemaglutinina 1 e neuraminidase 1
+
+HIV
+: Vírus da imunodeficiência humana; a sigla deriva do inglês *human immunodeficiency virus*
+
+IBGE
+: Instituto Brasileiro de Geografia e Estatística
+
+ICD
+: *International Classification of Diseases*, denominação em inglês da CID
+
+ICICT
+: Instituto de Comunicação e Informação Científica e Tecnológica em Saúde
+
+ICSAP
+: Internações por Condições Sensíveis à Atenção Primária
+
+IML
+: Instituto Médico-Legal
+
+INAMPS
+: Instituto Nacional de Assistência Médica da Previdência Social
+
+INE
+: Identificador Nacional de Equipe
+
+IPCA
+: Índice Nacional de Preços ao Consumidor Amplo
+
+ISBN
+: Número Padrão Internacional de Livro, do inglês *International Standard Book Number*
+
+JSON
+: Formato de intercâmbio de dados *JavaScript Object Notation*
+
+LEPP
+: Laboratório de Estimativas e Projeções Populacionais
+
+LER/DORT
+: Lesões por Esforços Repetitivos/Distúrbios Osteomusculares Relacionados ao Trabalho
+
+LGPD
+: Lei Geral de Proteção de Dados Pessoais
+
+LIS
+: Laboratório de Informação em Saúde
+
+LOINC
+: Terminologia *Logical Observation Identifiers Names and Codes* para observações clínicas e laboratoriais
+
+MDDA
+: Monitorização das Doenças Diarreicas Agudas
+
+MIRA
+: Modelo de Informação da Regulação Assistencial
+
+MS
+: Ministério da Saúde
+
+MS/PGR
+: Ministério da Saúde/Procuradoria-Geral da República
+
+OMS
+: Organização Mundial da Saúde
+
+PA
+: Procedimentos ambulatoriais nos arquivos do SIA; em referências territoriais, Pará
+
+PAIR
+: Perda Auditiva Induzida por Ruído relacionada ao trabalho
+
+PAIS
+: Programa de Avaliação do Instrumento de Supervisão
+
+PAISSV
+: Programa de Avaliação do Instrumento de Supervisão em Sala de Vacinação
+
+PCDaS
+: Plataforma de Ciência de Dados aplicada à Saúde
+
+PEC
+: Prontuário Eletrônico do Cidadão
+
+PFA
+: Paralisia Flácida Aguda
+
+PNI
+: Programa Nacional de Imunizações
+
+POP
+: Estimativas populacionais; rótulo usado no livro para o apêndice e para fontes de denominadores
+
+PRC/MS
+: Portaria de Consolidação do Ministério da Saúde
+
+PSE
+: Programa Saúde na Escola
+
+RAAS
+: Registro das Ações Ambulatoriais de Saúde
+
+RAC
+: Registro de Atendimento Clínico
+
+REL
+: Resultado de Exames Laboratoriais
+
+RIA
+: Registro de Imunobiológico Administrado
+
+RIA-C
+: Registro de Imunobiológico Administrado em Campanha
+
+RIA-R
+: Registro de Imunobiológico Administrado em Rotina
+
+RIPSA
+: Rede Interagencial de Informações para a Saúde
+
+RIRA
+: Registro de Informações de Regulação Assistencial
+
+RNDS
+: Rede Nacional de Dados em Saúde
+
+RNVe
+: Registro Nominal de Vacinação Eletrônico
+
+SAA
+: Sistema de Abastecimento de Água
+
+SAC
+: Solução Alternativa Coletiva
+
+SAI
+: Solução Alternativa Individual
+
+SAMPS
+: Sistema de Assistência Médico-Hospitalar da Previdência Social
+
+SAS/MS
+: Secretaria de Assistência à Saúde ou Secretaria de Atenção à Saúde, conforme o período, do Ministério da Saúde
+
+SG
+: Síndrome gripal
+
+SI-PNI/SIPNI
+: Sistema de Informações do Programa Nacional de Imunizações
+
+SIA/SUS
+: Sistema de Informações Ambulatoriais do Sistema Único de Saúde
+
+SIAB
+: Sistema de Informação da Atenção Básica
+
+SICAPS
+: Sistema de Informação e Controle Ambulatorial da Previdência Social
+
+SICRIE
+: Sistema de Informações dos Centros de Referência em Imunobiológicos Especiais
+
+SIGTAP
+: Sistema de Gerenciamento da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS
+
+SIH/SUS
+: Sistema de Informações Hospitalares do Sistema Único de Saúde
+
+SIM
+: Sistema de Informação sobre Mortalidade
+
+SINAN
+: Sistema de Informação de Agravos de Notificação
+
+SINASC
+: Sistema de Informação sobre Nascidos Vivos
+
+SIOPS
+: Sistema de Informações sobre Orçamentos Públicos em Saúde
+
+SIS
+: Sistemas de Informação em Saúde
+
+SISAB
+: Sistema de Informação em Saúde para a Atenção Básica
+
+SISAGUA
+: Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+
+SISAPS/Siaps
+: Sistema de Informação para a Atenção Primária à Saúde
+
+SISVAN
+: Sistema de Vigilância Alimentar e Nutricional
+
+SIVEP
+: Sistema de Vigilância Epidemiológica
+
+SIVEP-DDA
+: Sistema de Vigilância Epidemiológica das Doenças Diarreicas Agudas
+
+SIVEP-Gripe
+: Sistema de Vigilância Epidemiológica da Gripe
+
+SIVEP-Malária
+: Sistema de Vigilância Epidemiológica da Malária
+
+SNCPCH
+: Sistema Nacional de Controle de Pagamento de Contas Hospitalares
+
+SRAG
+: Síndrome Respiratória Aguda Grave
+
+SRC
+: Síndrome da Rubéola Congênita
+
+SUS
+: Sistema Único de Saúde
+
+SVO
+: Serviço de Verificação de Óbito
+
+SVS/MS
+: Secretaria de Vigilância em Saúde do Ministério da Saúde
+
+TCU
+: Tribunal de Contas da União
+
+UBS
+: Unidade Básica de Saúde
+
+UF
+: Unidade da Federação
+
+UFRN
+: Universidade Federal do Rio Grande do Norte
+
+URL
+: Localizador uniforme de recursos, do inglês *Uniform Resource Locator*
+
+UTI
+: Unidade de Terapia Intensiva
+
+VAN
+: Vigilância Alimentar e Nutricional
+
+XML
+: Linguagem extensível de marcação, do inglês *Extensible Markup Language*
+
+```{=typst}
+]
+```

@@ -72,6 +72,7 @@ book:
     anonymize-ip: false
   chapters:
     - index.qmd
+    - siglas.qmd
     - introducao.qmd
     - historico.qmd
     - organizacao.qmd

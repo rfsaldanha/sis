@@ -39,7 +39,9 @@ Em seguida, cada sistema é descrito com foco em quatro perguntas práticas:
 
 # Sobre o autor
 
-Raphael Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, Mestre em Saúde Coletiva pela Universidade Federal de Juiz de Fora e Doutor em Informação e Comunicação em Saúde pela Fundação Oswaldo Cruz.
+Raphael de Freitas Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais e mestre em Saúde Coletiva pela Universidade Federal de Juiz de Fora. É doutor em Informação e Comunicação em Saúde pela Fundação Oswaldo Cruz (Fiocruz).
+
+Atua como Pesquisador em Saúde Pública no Laboratório de Informação em Saúde (LIS) do Instituto de Comunicação e Informação Científica e Tecnológica em Saúde (ICICT) da Fiocruz. Sua formação e atuação articulam geografia, saúde coletiva, métodos computacionais e informação em saúde, com ênfase na organização, análise e uso de dados e sistemas de informação para a pesquisa em saúde pública.
 
 # Sugestões e contato
 

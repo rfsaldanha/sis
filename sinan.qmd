@@ -732,7 +732,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
-### LER/DOT
+### LER/DORT
 
 -  Prefixo dos arquivos: LERD
 
