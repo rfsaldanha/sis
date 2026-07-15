@@ -113,3 +113,16 @@
         columns: 1;
     }
 }
+
+.acronym-list dl {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 1rem;
+    row-gap: 0.35rem;
+}
+
+.acronym-list dt,
+.acronym-list dd,
+.acronym-list dd p {
+    margin: 0;
+}

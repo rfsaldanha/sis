@@ -15,6 +15,8 @@ Esta lista reúne as siglas, os acrônimos e as abreviações empregados no text
 )).join(v(0.5em))
 ```
 
+::: {.acronym-list}
+
 AB
 : Atenção Básica
 
@@ -476,6 +478,8 @@ VAN
 
 XML
 : Linguagem extensível de marcação, do inglês *Extensible Markup Language*
+
+:::
 
 ```{=typst}
 ]

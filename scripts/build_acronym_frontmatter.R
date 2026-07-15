@@ -38,9 +38,10 @@ latex_text <- function(x) {
 }
 
 entries <- unlist(Map(
-  function(term, description) c(
-    sprintf("\\noindent\\textbf{%s}\\par", latex_text(term)),
-    sprintf("%s\\par\\smallskip", latex_text(description))
+  function(term, description) sprintf(
+    "\\noindent\\textbf{%s}\\hspace{1em}%s\\par\\smallskip",
+    latex_text(term),
+    latex_text(description)
   ),
   terms,
   descriptions
