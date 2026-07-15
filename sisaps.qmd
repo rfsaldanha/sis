@@ -24,6 +24,8 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 ## Resumo
 
+::: {#qua-sisaps-caracteristicas-gerais-do-sisaps-siaps-e-do-sisab}
+
 | Característica | Descrição |
 |---|---|
 | Sistema atual | SISAPS/Siaps, em implantação progressiva |
@@ -33,7 +35,10 @@ Para acompanhar a transcrição, acesse o roteiro em
 | Unidade de análise | Equipe, estabelecimento, município, região de saúde, UF, competência e indicador |
 | Periodicidade | Mensal, com prazos de envio definidos em calendário da APS |
 | Uso central | Gestão, monitoramento, cofinanciamento e avaliação da APS |
-: Características gerais do SISAPS/Siaps e do SISAB
+
+Características gerais do SISAPS/Siaps e do SISAB
+
+:::
 
 O Sistema de Informação para a Atenção Primária à Saúde (Siaps), referido neste livro pela sigla SISAPS, substitui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) e organiza informações estratégicas da Atenção Primária à Saúde (APS). O capítulo aborda a transição entre os dois sistemas, necessária para interpretar tanto as séries históricas quanto os dados atuais.
 
@@ -45,7 +50,9 @@ O SISAPS/Siaps não é um sistema de eventos vitais, internações ou notificaç
 
 ## Quando usar o SISAPS
 
-Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS.
+Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS (ver @qua-sisaps-perguntas-comuns-que-podem-ser-respondidas-com-sisaps-sisab).
+
+::: {#qua-sisaps-perguntas-comuns-que-podem-ser-respondidas-com-sisaps-sisab}
 
 | Pergunta de análise | Usar SISAPS/SISAB para | Cuidado principal |
 |---|---|---|
@@ -55,7 +62,10 @@ Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanh
 | Como avaliar equipes? | Comparar indicadores por equipe, município ou UF | Equipes têm composição, território e contexto diferentes |
 | Como acompanhar pré-natal, vacinas ou condições crônicas na APS? | Usar relatórios e indicadores específicos | Eventos podem aparecer também em outros sistemas |
 | Como relacionar oferta e produção? | Combinar com CNES (@sec-cnes) e SIA (@sec-sia) | Alinhar equipe, estabelecimento, competência e território |
-: Perguntas comuns que podem ser respondidas com SISAPS/SISAB
+
+Perguntas comuns que podem ser respondidas com SISAPS/SISAB
+
+:::
 
 ::: {.callout-note}
 O sistema apoia gestão da APS, mas não substitui prontuário clínico, auditoria de qualidade do cuidado ou inquéritos populacionais. A interpretação deve considerar registro, envio, validação e regras de processamento.
@@ -87,6 +97,8 @@ flowchart TD
 ```
 :::
 
+::: {#qua-sisaps-componentes-do-fluxo-informacional-da-aps}
+
 | Componente | Papel | Cuidado |
 |---|---|---|
 | PEC | Registro clínico e administrativo no prontuário eletrônico | Depende de implantação local e uso adequado |
@@ -94,11 +106,16 @@ flowchart TD
 | Aplicativos | Registro territorial e atividades específicas | Conferir integração e competência de envio |
 | e-SUS APS | Estratégia de registro e envio da APS | Atrasos e inconsistências afetam indicadores |
 | SISAPS/Siaps | Consolidação, relatórios e indicadores | Resultado depende das regras de processamento |
-: Componentes do fluxo informacional da APS
+
+Componentes do fluxo informacional da APS
+
+:::
 
 ## Unidade de análise
 
-A unidade de análise varia conforme o relatório ou indicador. Antes de comparar resultados, defina se a pergunta é sobre pessoas cadastradas, atendimentos, procedimentos, equipes, estabelecimentos, municípios ou indicadores.
+A unidade de análise varia conforme o relatório ou indicador. Antes de comparar resultados, defina se a pergunta é sobre pessoas cadastradas, atendimentos, procedimentos, equipes, estabelecimentos, municípios ou indicadores (ver @qua-sisaps-unidades-de-analise-frequentes-no-sisaps-sisab).
+
+::: {#qua-sisaps-unidades-de-analise-frequentes-no-sisaps-sisab}
 
 | Unidade | O que representa | Quando usar | Cuidado |
 |---|---|---|---|
@@ -109,7 +126,10 @@ A unidade de análise varia conforme o relatório ou indicador. Antes de compara
 | Atividade coletiva | Ação coletiva registrada | Promoção, prevenção e educação em saúde | Público-alvo e tema devem ser considerados |
 | Equipe | eSF, eAP, eSB ou outras equipes | Monitoramento e cofinanciamento | Equipes podem mudar composição e credenciamento |
 | Município/UF | Agregação territorial | Comparações e gestão | Diferenças de porte e rede afetam interpretação |
-: Unidades de análise frequentes no SISAPS/SISAB
+
+Unidades de análise frequentes no SISAPS/SISAB
+
+:::
 
 ::: {.callout-warning}
 Não some cadastros, atendimentos, procedimentos e indicadores como se fossem a mesma unidade. Cada relatório responde a uma pergunta diferente.
@@ -117,7 +137,9 @@ Não some cadastros, atendimentos, procedimentos e indicadores como se fossem a 
 
 ## Identificadores de equipe
 
-Análises da APS dependem de identificadores que mudam no tempo. O código CNES identifica o estabelecimento, enquanto o INE identifica a equipe. Uma mesma unidade pode ter várias equipes, e uma equipe pode passar por mudanças de composição, credenciamento, suspensão ou desativação.
+Análises da APS dependem de identificadores que mudam no tempo. O código CNES identifica o estabelecimento, enquanto o INE identifica a equipe. Uma mesma unidade pode ter várias equipes, e uma equipe pode passar por mudanças de composição, credenciamento, suspensão ou desativação (ver @qua-sisaps-identificadores-essenciais-para-analises-da-aps).
+
+::: {#qua-sisaps-identificadores-essenciais-para-analises-da-aps}
 
 | Identificador | O que representa | Uso | Cuidado |
 |---|---|---|---|
@@ -126,7 +148,10 @@ Análises da APS dependem de identificadores que mudam no tempo. O código CNES 
 | Tipo de equipe | eSF, eAP, eSB e outras modalidades | Estratificar comparações | Tipos de equipe têm atribuições e parâmetros diferentes |
 | Competência | Mês de referência | Construir séries temporais | CNES, INE e regras podem mudar entre competências |
 | Território | Área adscrita, município, região ou UF | Analisar vínculo e cobertura | Território de acompanhamento não é sempre território de residência |
-: Identificadores essenciais para análises da APS
+
+Identificadores essenciais para análises da APS
+
+:::
 
 ```{r}
 #| eval: false
@@ -152,7 +177,9 @@ Para comparar equipes, monte primeiro um painel por `INE`, `CNES`, tipo de equip
 
 ## Estrutura dos dados e relatórios
 
-O SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o SISAPS/Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação.
+O SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o SISAPS/Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação (ver @qua-sisaps-dimensoes-analiticas-comuns-na-aps).
+
+::: {#qua-sisaps-dimensoes-analiticas-comuns-na-aps}
 
 | Dimensão | Exemplos | Uso analítico |
 |---|---|---|
@@ -163,9 +190,14 @@ O SISAB organizava relatórios públicos e gerenciais que continuam sendo refer�
 | Vacinas | Registros enviados pela APS quando aplicável | Acompanhar registros integrados ao e-SUS APS |
 | Indicadores | Cofinanciamento, vínculo e acompanhamento territorial | Monitoramento e repasses federais |
 | Validação | Inconsistências, processamento e envio | Qualidade dos dados enviados |
-: Dimensões analíticas comuns na APS
+
+Dimensões analíticas comuns na APS
+
+:::
 
 ### Campos e dimensões mínimas
+
+::: {#qua-sisaps-dimensoes-minimas-para-analise-de-dados-da-aps}
 
 | Dimensão | Pergunta de controle |
 |---|---|
@@ -176,11 +208,16 @@ O SISAB organizava relatórios públicos e gerenciais que continuam sendo refer�
 | Indicador | A regra de cálculo foi documentada? |
 | Denominador | População cadastrada, vinculada, estimada ou acompanhada? |
 | Status de envio | O dado foi enviado, processado e validado? |
-: Dimensões mínimas para análise de dados da APS
+
+Dimensões mínimas para análise de dados da APS
+
+:::
 
 ### Qual denominador usar?
 
-Indicadores da APS podem usar denominadores diferentes. A escolha do denominador muda a interpretação do resultado.
+Indicadores da APS podem usar denominadores diferentes. A escolha do denominador muda a interpretação do resultado (ver @qua-sisaps-denominadores-frequentes-em-analises-da-aps).
+
+::: {#qua-sisaps-denominadores-frequentes-em-analises-da-aps}
 
 | Denominador | O que mede | Quando usar | Cuidado |
 |---|---|---|---|
@@ -190,11 +227,16 @@ Indicadores da APS podem usar denominadores diferentes. A escolha do denominador
 | População esperada | Estimativa para grupo-alvo do indicador | Indicadores de desempenho | Método de estimativa deve ser documentado |
 | Usuários atendidos | Pessoas com atendimento registrado | Uso registrado da APS | Não representa toda a população que precisa de cuidado |
 | Eventos ou registros | Atendimentos, visitas, procedimentos | Produção e processo de trabalho | Um usuário pode gerar múltiplos registros |
-: Denominadores frequentes em análises da APS
+
+Denominadores frequentes em análises da APS
+
+:::
 
 ## Indicadores e cofinanciamento
 
-O uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos.
+O uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos (ver @qua-sisaps-elementos-de-indicadores-de-cofinanciamento-da-aps).
+
+::: {#qua-sisaps-elementos-de-indicadores-de-cofinanciamento-da-aps}
 
 | Elemento | Interpretação | Cuidado |
 |---|---|---|
@@ -203,7 +245,10 @@ O uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo,
 | Acompanhamento | Registro de cuidado ou seguimento | Ausência de registro não é ausência de cuidado |
 | Cofinanciamento | Uso de indicadores para repasses | Não interpretar apenas como avaliação assistencial |
 | Prazo de envio | Data-limite para transmissão da competência | Atrasos podem afetar cálculo e repasses |
-: Elementos de indicadores de cofinanciamento da APS
+
+Elementos de indicadores de cofinanciamento da APS
+
+:::
 
 ::: {.callout-note}
 Indicadores de cofinanciamento são indicadores administrativos e de monitoramento. Eles podem apoiar avaliação da APS, mas precisam ser interpretados junto com contexto local, capacidade de registro, composição da equipe e perfil da população.
@@ -211,7 +256,9 @@ Indicadores de cofinanciamento são indicadores administrativos e de monitoramen
 
 ## Vínculo territorial
 
-O vínculo territorial organiza a relação entre pessoas, equipes e território adscrito. Ele é central para interpretar cobertura, acompanhamento e cofinanciamento, mas depende de cadastro atualizado e regras de vinculação.
+O vínculo territorial organiza a relação entre pessoas, equipes e território adscrito. Ele é central para interpretar cobertura, acompanhamento e cofinanciamento, mas depende de cadastro atualizado e regras de vinculação (ver @qua-sisaps-elementos-do-vinculo-territorial-na-aps).
+
+::: {#qua-sisaps-elementos-do-vinculo-territorial-na-aps}
 
 | Elemento | Interpretação | Cuidado |
 |---|---|---|
@@ -220,7 +267,10 @@ O vínculo territorial organiza a relação entre pessoas, equipes e território
 | Território | Área de responsabilidade sanitária | Pode não coincidir com limites administrativos |
 | Acompanhamento | Registro de cuidado realizado pela equipe | Ausência de registro não prova ausência de cuidado |
 | Indicador | Medida calculada a partir de numerador e denominador | Denominador precisa ser explicitado |
-: Elementos do vínculo territorial na APS
+
+Elementos do vínculo territorial na APS
+
+:::
 
 ```{r}
 #| eval: false
@@ -241,7 +291,9 @@ vinculo_territorial
 
 ## Calendário de envio
 
-Os dados da APS são organizados por competência mensal. Para fins de monitoramento e cofinanciamento, o envio precisa respeitar o calendário oficial. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e alterar resultados quando a base é reprocessada.
+Os dados da APS são organizados por competência mensal. Para fins de monitoramento e cofinanciamento, o envio precisa respeitar o calendário oficial. Atrasos podem reduzir temporariamente indicadores, gerar lacunas em relatórios e alterar resultados quando a base é reprocessada (ver @qua-sisaps-etapas-temporais-do-envio-de-dados-da-aps).
+
+::: {#qua-sisaps-etapas-temporais-do-envio-de-dados-da-aps}
 
 | Etapa | Interpretação | Cuidado |
 |---|---|---|
@@ -250,7 +302,10 @@ Os dados da APS são organizados por competência mensal. Para fins de monitoram
 | Envio | Transmissão para a base nacional | Verificar prazo oficial do mês |
 | Processamento | Críticas, validações e consolidação | Registros podem ser rejeitados ou reprocessados |
 | Relatório | Disponibilização de dados agregados | Registrar data de extração |
-: Etapas temporais do envio de dados da APS
+
+Etapas temporais do envio de dados da APS
+
+:::
 
 ::: {.callout-warning}
 Quando um indicador cai em uma competência recente, investigue primeiro atraso de envio, processamento e validação. A queda pode ser informacional, não assistencial.
@@ -258,7 +313,9 @@ Quando um indicador cai em uma competência recente, investigue primeiro atraso 
 
 ## Exemplo: pré-natal na APS
 
-O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com SINASC (@sec-sinasc). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil.
+O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com SINASC (@sec-sinasc). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil (ver @qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps).
+
+::: {#qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps}
 
 | Elemento | Fonte principal | Cuidado |
 |---|---|---|
@@ -267,7 +324,10 @@ O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendim
 | Nascidos vivos | SINASC (@sec-sinasc) | Mede ocorrência de nascimento, não acompanhamento na APS |
 | Território | Município, equipe ou residência | Evitar misturar local de atendimento e residência |
 | Tempo | Competência de atendimento e data de nascimento | Definir janela de acompanhamento |
-: Componentes de uma análise de pré-natal na APS
+
+Componentes de uma análise de pré-natal na APS
+
+:::
 
 ```{r}
 #| eval: false
@@ -289,7 +349,9 @@ prenatal_aps
 
 ## Exemplo: SISAPS + SINASC
 
-O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC pode ser feito de forma agregada, por município e ano, para análises ecológicas. Essa abordagem não acompanha gestantes individualmente; ela compara indicadores territoriais.
+O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC pode ser feito de forma agregada, por município e ano, para análises ecológicas. Essa abordagem não acompanha gestantes individualmente; ela compara indicadores territoriais (ver @qua-sisaps-exemplo-de-integracao-ecologica-entre-aps-e-sinasc).
+
+::: {#qua-sisaps-exemplo-de-integracao-ecologica-entre-aps-e-sinasc}
 
 | Elemento | Fonte | Cuidado |
 |---|---|---|
@@ -298,7 +360,10 @@ O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC po
 | Baixo peso ao nascer | SINASC (@sec-sinasc) | Desfecho multifatorial, não atribuível apenas à APS |
 | Território | Município de residência | Manter o mesmo recorte nas duas bases |
 | Tempo | Ano ou janela de competência | Alinhar gestação, atendimento e nascimento |
-: Exemplo de integração ecológica entre APS e SINASC
+
+Exemplo de integração ecológica entre APS e SINASC
+
+:::
 
 ```{r}
 #| eval: false
@@ -363,7 +428,9 @@ Produção por equipe pode variar por perfil populacional, tamanho da equipe, in
 
 ## Exemplo: SISAPS + CNES
 
-A integração com o CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada, além de caracterizar a estrutura da rede da APS.
+A integração com o CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada, além de caracterizar a estrutura da rede da APS (ver @qua-sisaps-validacoes-entre-sisaps-sisab-e-cnes).
+
+::: {#qua-sisaps-validacoes-entre-sisaps-sisab-e-cnes}
 
 | Checagem | Fonte | Cuidado |
 |---|---|---|
@@ -372,7 +439,10 @@ A integração com o CNES ajuda a validar se equipes e estabelecimentos existem 
 | Equipe está ativa? | SISAPS e CNES `EP` quando disponível | Situação pode mudar no mês |
 | Produção tem equipe identificada? | SISAPS/SISAB | Registros sem INE prejudicam avaliação por equipe |
 | Município do CNES é compatível? | CNES | Conferir mudança territorial ou erro cadastral |
-: Validações entre SISAPS/SISAB e CNES
+
+Validações entre SISAPS/SISAB e CNES
+
+:::
 
 ```{r}
 #| eval: false
@@ -392,7 +462,9 @@ equipes_cnes
 
 ## Qualidade dos dados
 
-A qualidade dos dados da APS depende do registro no ponto de cuidado, da consistência do cadastro, da integração do e-SUS APS, do envio dentro do prazo e das regras de validação do sistema nacional.
+A qualidade dos dados da APS depende do registro no ponto de cuidado, da consistência do cadastro, da integração do e-SUS APS, do envio dentro do prazo e das regras de validação do sistema nacional (ver @qua-sisaps-dimensoes-de-qualidade-relevantes-no-sisaps-sisab).
+
+::: {#qua-sisaps-dimensoes-de-qualidade-relevantes-no-sisaps-sisab}
 
 | Dimensão | Checagem |
 |---|---|
@@ -404,7 +476,10 @@ A qualidade dos dados da APS depende do registro no ponto de cuidado, da consist
 | Vínculo de equipe | INE e CNES válidos no período |
 | Mudança normativa | Regras de indicadores comparáveis entre competências |
 | Processamento | Registros enviados foram processados e aceitos |
-: Dimensões de qualidade relevantes no SISAPS/SISAB
+
+Dimensões de qualidade relevantes no SISAPS/SISAB
+
+:::
 
 ```{r}
 #| eval: false
@@ -425,7 +500,9 @@ validacao_aps
 
 ## Privacidade e agregação
 
-Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. A indisponibilidade de microdados identificáveis publicamente protege a privacidade, mas limita análises individuais, auditorias externas detalhadas e pareamentos diretos com outros sistemas.
+Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso, o acesso público ocorre principalmente por relatórios agregados. A indisponibilidade de microdados identificáveis publicamente protege a privacidade, mas limita análises individuais, auditorias externas detalhadas e pareamentos diretos com outros sistemas (ver @qua-sisaps-implicacoes-de-privacidade-e-agregacao-na-aps).
+
+::: {#qua-sisaps-implicacoes-de-privacidade-e-agregacao-na-aps}
 
 | Aspecto | Implicação |
 |---|---|
@@ -434,11 +511,16 @@ Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso
 | Linkage individual | Depende de autorização, governança e base legal |
 | Reprodutibilidade | Deve registrar relatório, filtros, data de extração e versão |
 | Pequenos números | Podem exigir supressão ou agregação adicional |
-: Implicações de privacidade e agregação na APS
+
+Implicações de privacidade e agregação na APS
+
+:::
 
 ## Análise temporal e territorial
 
-Séries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes.
+Séries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes (ver @qua-sisaps-cuidados-em-analises-temporais-e-territoriais-da-aps).
+
+::: {#qua-sisaps-cuidados-em-analises-temporais-e-territoriais-da-aps}
 
 | Comparação | Recomendação | Cuidado |
 |---|---|---|
@@ -447,11 +529,16 @@ Séries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SIS
 | Entre equipes | Comparar equipes do mesmo tipo | eSF, eAP e eSB têm atribuições diferentes |
 | Entre competências | Verificar calendário de envio | Atrasos podem reduzir indicadores temporariamente |
 | Entre indicadores | Conferir regra de cálculo | Numeradores e denominadores podem mudar |
-: Cuidados em análises temporais e territoriais da APS
+
+Cuidados em análises temporais e territoriais da APS
+
+:::
 
 ## Acesso aos dados
 
-O acesso é realizado principalmente por relatórios e painéis públicos ou restritos, conforme perfil de usuário e finalidade. O acesso a microdados identificáveis não é disponibilizado publicamente, pois os registros da APS envolvem dados pessoais e clínicos protegidos pela LGPD.
+O acesso é realizado principalmente por relatórios e painéis públicos ou restritos, conforme perfil de usuário e finalidade. O acesso a microdados identificáveis não é disponibilizado publicamente, pois os registros da APS envolvem dados pessoais e clínicos protegidos pela LGPD (ver @qua-sisaps-formas-de-acesso-a-informacoes-da-aps).
+
+::: {#qua-sisaps-formas-de-acesso-a-informacoes-da-aps}
 
 | Forma de acesso | Indicação de uso |
 |---|---|
@@ -461,7 +548,10 @@ O acesso é realizado principalmente por relatórios e painéis públicos ou res
 | SISAPS/Siaps | Plataforma renovada para gestão da informação da APS |
 | e-Gestor APS | Acesso a sistemas e relatórios de gestão |
 | Documentação oficial | Regras, calendários, manuais e modelos de informação |
-: Formas de acesso a informações da APS
+
+Formas de acesso a informações da APS
+
+:::
 
 -  [SISAPS/Siaps](https://sisaps.saude.gov.br/sistemas/siaps/)
 -  [SISAB](https://sisaps.saude.gov.br/sistemas/sisab/)
@@ -471,7 +561,9 @@ O acesso é realizado principalmente por relatórios e painéis públicos ou res
 
 ## Relacionamento com outros sistemas
 
-O SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento.
+O SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento (ver @qua-sisaps-integracoes-frequentes-entre-sisaps-sisab-e-outros-sistemas).
+
+::: {#qua-sisaps-integracoes-frequentes-entre-sisaps-sisab-e-outros-sistemas}
 
 | Pergunta | Fontes combinadas | Cuidado principal |
 |---|---|---|
@@ -481,11 +573,16 @@ O SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e 
 | Acompanhamento de agravos aparece na vigilância? | SISAPS/SISAB + SINAN (@sec-sinan) | Notificação e cuidado são processos diferentes |
 | Produção ambulatorial é coerente? | SISAPS/SISAB + SIA (@sec-sia) | Produção da APS e faturamento/procedimentos têm escopos distintos |
 | Cobertura por população | SISAPS/SISAB + POP (@sec-pop) | População cadastrada e população residente são denominadores diferentes |
-: Integrações frequentes entre SISAPS/SISAB e outros sistemas
+
+Integrações frequentes entre SISAPS/SISAB e outros sistemas
+
+:::
 
 ### Checklist para integração
 
-Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador.
+Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador (ver @qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas).
+
+::: {#qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas}
 
 | Checagem | Por que importa |
 |---|---|
@@ -495,9 +592,14 @@ Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade terri
 | Denominador explícito | Cadastro, vínculo, residência e usuários atendidos medem populações diferentes |
 | Regras de indicador versionadas | Indicadores de cofinanciamento podem mudar |
 | Privacidade respeitada | Linkage individual exige governança própria |
-: Verificações antes de integrar dados da APS com outros sistemas
+
+Verificações antes de integrar dados da APS com outros sistemas
+
+:::
 
 ## Limitações
+
+::: {#qua-sisaps-limitacoes-recorrentes-do-sisaps-sisab}
 
 | Limitação | Consequência analítica |
 |---|---|
@@ -510,7 +612,10 @@ Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade terri
 | Equipes não são homogêneas | Composição, carga horária e território variam |
 | Calendário de envio afeta resultados | Competências recentes podem estar incompletas |
 | Linkage individual é restrito | Privacidade limita pareamentos públicos entre bases |
-: Limitações recorrentes do SISAPS/SISAB
+
+Limitações recorrentes do SISAPS/SISAB
+
+:::
 
 ## Cuidados de interpretação
 
@@ -527,6 +632,8 @@ Ao utilizar SISAPS/SISAB, alguns cuidados são recorrentes:
 - não interpretar produção registrada como necessidade ou qualidade;
 - combinar com CNES, POP, SIH, SIA, SINAN ou SINASC apenas com território e período compatíveis.
 
+::: {#qua-sisaps-erros-frequentes-em-analises-da-aps}
+
 | Erro | Como evitar |
 |---|---|
 | Comparar SISAB e SISAPS como série homogênea | Marcar a transição e verificar mudanças de regra |
@@ -536,11 +643,16 @@ Ao utilizar SISAPS/SISAB, alguns cuidados são recorrentes:
 | Interpretar indicador de cofinanciamento como avaliação completa | Complementar com contexto, oferta, produção e resultados |
 | Usar competência recente sem checar calendário | Conferir prazo de envio e processamento |
 | Fazer linkage individual sem governança | Usar apenas bases autorizadas e regras de privacidade |
-: Erros frequentes em análises da APS
+
+Erros frequentes em análises da APS
+
+:::
 
 ## Checklist de reprodutibilidade
 
-Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente qual relatório foi usado e como os resultados foram obtidos.
+Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente qual relatório foi usado e como os resultados foram obtidos (ver @qua-sisaps-itens-minimos-para-reprodutibilidade-em-analises-do-sisaps-sisab).
+
+::: {#qua-sisaps-itens-minimos-para-reprodutibilidade-em-analises-do-sisaps-sisab}
 
 | Item | Registrar |
 |---|---|
@@ -556,7 +668,10 @@ Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente
 | Denominador | População cadastrada, vinculada, residente, esperada ou atendida |
 | Filtros | Sexo, idade, equipe, condição, programa ou categoria |
 | Tratamento de ausentes | Como atrasos, não processados e zeros foram tratados |
-: Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB
+
+Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB
+
+:::
 
 ## Checklist final
 
@@ -603,7 +718,7 @@ Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 220.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 96.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 95.
 
 :::
 <!-- END GENERATED SEE ALSO -->

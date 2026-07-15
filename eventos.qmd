@@ -36,7 +36,9 @@ Uma pessoa com dengue pode procurar atendimento em uma unidade de saúde, ser no
 
 Uma doença ou agravo pode gerar vários eventos ao longo do cuidado. Cada evento tem uma lógica própria de registro, uma unidade de análise e uma utilidade analítica.
 
-A tabela a seguir organiza essa passagem entre pergunta, evento e sistema. Ela não deve ser lida como uma regra fixa, mas como um roteiro inicial de investigação: primeiro delimita-se o tipo de ocorrência que interessa, depois identifica-se qual sistema tende a registrá-la e, por fim, verifica-se se a cobertura e os campos disponíveis são compatíveis com a pergunta.
+O quadro a seguir organiza essa passagem entre pergunta, evento e sistema. Ela não deve ser lida como uma regra fixa, mas como um roteiro inicial de investigação: primeiro delimita-se o tipo de ocorrência que interessa, depois identifica-se qual sistema tende a registrá-la e, por fim, verifica-se se a cobertura e os campos disponíveis são compatíveis com a pergunta.
+
+::: {#qua-eventos-relacao-entre-perguntas-eventos-e-sistemas-de-informacao}
 
 | Pergunta | Evento de saúde | Sistema mais provável |
 |---|---|---|
@@ -46,9 +48,12 @@ A tabela a seguir organiza essa passagem entre pergunta, evento e sistema. Ela n
 | Houve óbito? | Óbito | SIM (@sec-sim) |
 | Houve nascimento? | Nascimento vivo | SINASC (@sec-sinasc) |
 | Houve vacinação? | Dose aplicada ou registro de imunização | SI-PNI (@sec-sipni) |
-: Relação entre perguntas, eventos e sistemas de informação
 
-Essa separação evita interpretações equivocadas. Um aumento de notificações no SINAN pode refletir maior transmissão, maior sensibilidade da vigilância, mudança na definição de caso ou melhora na notificação. Da mesma forma, internações no SIH informam casos atendidos na rede SUS, mas não representam todos os casos graves ocorridos no país. A utilidade da tabela está justamente em lembrar que a escolha da base não é apenas temática; ela depende da forma como o fenômeno se materializa como registro.
+Relação entre perguntas, eventos e sistemas de informação
+
+:::
+
+Essa separação evita interpretações equivocadas. Um aumento de notificações no SINAN pode refletir maior transmissão, maior sensibilidade da vigilância, mudança na definição de caso ou melhora na notificação. Da mesma forma, internações no SIH informam casos atendidos na rede SUS, mas não representam todos os casos graves ocorridos no país. A utilidade do @qua-eventos-relacao-entre-perguntas-eventos-e-sistemas-de-informacao está justamente em lembrar que a escolha da base não é apenas temática; ela depende da forma como o fenômeno se materializa como registro.
 
 Em termos práticos, a pergunta "quantas pessoas tiveram dengue?" é diferente de "quantas notificações de dengue foram registradas?", "quantas internações por dengue ocorreram no SUS?" ou "quantos óbitos tiveram dengue como causa básica?". Essas perguntas podem ser complementares, mas não são intercambiáveis. Quando o evento não é explicitado, o indicador resultante tende a misturar dimensões distintas do problema.
 
@@ -56,7 +61,9 @@ Em termos práticos, a pergunta "quantas pessoas tiveram dengue?" é diferente d
 
 Entre a ocorrência de um evento e sua transformação em dado analisável, há várias etapas. Cada etapa pode gerar datas, campos e atrasos próprios.
 
-A tabela a seguir resume esse ciclo. Ela ajuda a localizar onde podem surgir diferenças entre o momento em que algo aconteceu e o momento em que esse algo aparece na base disponível para análise. Em muitos estudos, essa diferença é decisiva para interpretar tendências recentes, comparar fontes e distinguir variação real de variação produzida pelo fluxo de informação.
+O quadro a seguir resume esse ciclo. Ela ajuda a localizar onde podem surgir diferenças entre o momento em que algo aconteceu e o momento em que esse algo aparece na base disponível para análise. Em muitos estudos, essa diferença é decisiva para interpretar tendências recentes, comparar fontes e distinguir variação real de variação produzida pelo fluxo de informação (ver @qua-eventos-etapas-entre-a-ocorrencia-de-um-evento-e-sua-disseminacao-como-dado).
+
+::: {#qua-eventos-etapas-entre-a-ocorrencia-de-um-evento-e-sua-disseminacao-como-dado}
 
 | Etapa | O que representa | Campo ou registro típico | Cuidado |
 |---|---|---|---|
@@ -66,7 +73,10 @@ A tabela a seguir resume esse ciclo. Ela ajuda a localizar onde podem surgir dif
 | Digitação ou envio | Dado entra no fluxo do sistema | data de digitação ou transmissão | Mede fluxo administrativo |
 | Consolidação | Base é revisada | dados consolidados | Pode alterar valores preliminares |
 | Disseminação | Dado fica disponível | TabNet, microdados, OpenDataSUS | Depende de periodicidade e versão |
-: Etapas entre a ocorrência de um evento e sua disseminação como dado
+
+Etapas entre a ocorrência de um evento e sua disseminação como dado
+
+:::
 
 As etapas não têm o mesmo peso em todos os sistemas. Em um óbito, por exemplo, a Declaração de Óbito, a codificação da causa básica e a consolidação da base são pontos centrais. Em uma doença de notificação, a investigação e a classificação final podem modificar a leitura inicial do caso. Em procedimentos ambulatoriais, a rotina de produção, autorização e faturamento pode ser mais relevante que uma investigação epidemiológica posterior.
 
@@ -104,7 +114,9 @@ flowchart LR
   obito -.-> SIM[SIM]
 ```
 
-Na figura, a mesma trajetória clínica se desdobra em registros diferentes. O atendimento ambulatorial pode existir mesmo sem confirmação laboratorial; a notificação pode ocorrer antes da investigação completa; a internação tende a representar uma fração mais grave dos casos; e o óbito depende de regras de declaração, codificação e seleção de causa. A tabela a seguir traduz essa trajetória em sistemas e usos analíticos.
+Na figura, a mesma trajetória clínica se desdobra em registros diferentes. O atendimento ambulatorial pode existir mesmo sem confirmação laboratorial; a notificação pode ocorrer antes da investigação completa; a internação tende a representar uma fração mais grave dos casos; e o óbito depende de regras de declaração, codificação e seleção de causa. O quadro a seguir traduz essa trajetória em sistemas e usos analíticos.
+
+::: {#qua-eventos-eventos-relacionados-a-dengue-e-seus-sistemas-de-registro}
 
 | Evento | Sistema | O que permite analisar |
 |---|---|---|
@@ -112,9 +124,12 @@ Na figura, a mesma trajetória clínica se desdobra em registros diferentes. O a
 | Notificação de caso suspeito | SINAN (@sec-sinan) | Suspeitas, investigação, confirmação e descarte |
 | Internação | SIH (@sec-sih) | Casos graves atendidos na rede hospitalar do SUS |
 | Óbito | SIM (@sec-sim) | Mortalidade por causa básica e condições associadas |
-: Eventos relacionados à dengue e seus sistemas de registro
 
-A leitura da tabela mostra por que séries de dengue produzidas a partir de sistemas diferentes podem ter formatos e magnitudes diferentes. Uma curva de notificações costuma ser mais sensível à busca por atendimento, à organização da vigilância e à atualização de definições de caso. Uma curva de internações se aproxima mais da pressão sobre a rede hospitalar. Uma curva de óbitos privilegia o desfecho mais grave e depende da qualidade da informação de mortalidade. Essas curvas podem dialogar entre si, mas não substituem umas às outras.
+Eventos relacionados à dengue e seus sistemas de registro
+
+:::
+
+A leitura do @qua-eventos-eventos-relacionados-a-dengue-e-seus-sistemas-de-registro mostra por que séries de dengue produzidas a partir de sistemas diferentes podem ter formatos e magnitudes diferentes. Uma curva de notificações costuma ser mais sensível à busca por atendimento, à organização da vigilância e à atualização de definições de caso. Uma curva de internações se aproxima mais da pressão sobre a rede hospitalar. Uma curva de óbitos privilegia o desfecho mais grave e depende da qualidade da informação de mortalidade. Essas curvas podem dialogar entre si, mas não substituem umas às outras.
 
 O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVID-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas. Em todos esses casos, o evento registrado delimita o que pode ser afirmado com segurança.
 
@@ -122,7 +137,9 @@ O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVI
 
 Um acidente de trânsito mostra que a lógica de eventos não se limita às doenças de notificação. Dependendo da gravidade e do percurso assistencial, o mesmo problema pode aparecer em sistemas distintos.
 
-A tabela abaixo destaca algumas entradas possíveis para estudar acidentes de trânsito. O objetivo não é esgotar todas as fontes, mas mostrar que a escolha do sistema depende da dimensão analisada: cuidado prestado, gravidade, desfecho, local de atendimento ou estrutura da rede.
+O quadro abaixo destaca algumas entradas possíveis para estudar acidentes de trânsito. O objetivo não é esgotar todas as fontes, mas mostrar que a escolha do sistema depende da dimensão analisada: cuidado prestado, gravidade, desfecho, local de atendimento ou estrutura da rede (ver @qua-eventos-eventos-relacionados-a-acidentes-de-transito-e-seus-sistemas-de-regist).
+
+::: {#qua-eventos-eventos-relacionados-a-acidentes-de-transito-e-seus-sistemas-de-regist}
 
 | Evento relacionado ao acidente | Sistema | O que permite analisar |
 |---|---|---|
@@ -130,7 +147,10 @@ A tabela abaixo destaca algumas entradas possíveis para estudar acidentes de tr
 | Internação por lesão | SIH (@sec-sih) | Gravidade, tempo de internação e uso da rede hospitalar SUS |
 | Óbito por causa externa | SIM (@sec-sim) | Mortalidade por acidentes de transporte e circunstâncias do óbito |
 | Estabelecimento de atendimento | CNES (@sec-cnes) | Estrutura e localização dos serviços envolvidos |
-: Eventos relacionados a acidentes de trânsito e seus sistemas de registro
+
+Eventos relacionados a acidentes de trânsito e seus sistemas de registro
+
+:::
 
 Nesse tipo de tema, a causa externa, o local de ocorrência, o tipo de vítima, o tipo de lesão e o serviço de atendimento podem estar distribuídos entre diferentes bases. A análise depende de reconhecer qual dimensão do problema cada sistema registra. Um estudo sobre mortalidade no trânsito, por exemplo, não responde automaticamente sobre o volume de atendimentos de urgência; já um estudo sobre internações não deve ser interpretado como medida completa de todos os acidentes ocorridos.
 
@@ -234,7 +254,9 @@ Uma dose aplicada é um evento; uma pessoa vacinada é uma unidade individual; u
 
 Muitos indicadores combinam eventos registrados em um SIS com denominadores vindos de outra fonte. O numerador costuma ser uma contagem de eventos; o denominador define a população, o conjunto de nascidos vivos, o número de internações, a população-alvo ou outra base de comparação.
 
-Indicadores de saúde são construções sintéticas: transformam registros em medidas comparáveis. Para isso, precisam de numerador, denominador, período, território, população de referência e regra de inclusão. A literatura de indicadores em saúde enfatiza que uma boa medida depende não apenas da fórmula, mas da clareza conceitual sobre o que está sendo medido e com que finalidade [@OPAS2008].
+Indicadores de saúde são construções sintéticas: transformam registros em medidas comparáveis. Para isso, precisam de numerador, denominador, período, território, população de referência e regra de inclusão. A literatura de indicadores em saúde enfatiza que uma boa medida depende não apenas da fórmula, mas da clareza conceitual sobre o que está sendo medido e com que finalidade [@OPAS2008] (ver @qua-eventos-exemplos-de-numeradores-e-denominadores-em-indicadores-de-saude).
+
+::: {#qua-eventos-exemplos-de-numeradores-e-denominadores-em-indicadores-de-saude}
 
 | Indicador | Numerador | Denominador |
 |---|---|---|
@@ -243,17 +265,22 @@ Indicadores de saúde são construções sintéticas: transformam registros em m
 | Taxa de internação | Internações no SIH | População residente |
 | Letalidade entre notificados | Óbitos entre casos | Casos notificados ou confirmados |
 | Proporção de procedimentos | Procedimentos selecionados no SIA | Total de procedimentos comparáveis |
-: Exemplos de numeradores e denominadores em indicadores de saúde
+
+Exemplos de numeradores e denominadores em indicadores de saúde
+
+:::
 
 Escolher o denominador incorreto pode distorcer a interpretação. Taxas populacionais dependem de estimativas populacionais (@sec-pop); indicadores materno-infantis frequentemente dependem do SINASC; e proporções internas de um sistema dependem da definição clara do conjunto de registros comparáveis.
 
-A tabela mostra que o numerador e o denominador frequentemente vêm de sistemas diferentes. Isso exige coerência temporal e territorial. Óbitos de residentes devem ser comparados com população residente; óbitos infantis devem ser comparados com nascidos vivos do mesmo recorte; procedimentos realizados em um município não devem ser automaticamente divididos pela população residente se o serviço atende pessoas de outros municípios. A regra de construção do indicador precisa acompanhar a pergunta de análise.
+O quadro mostra que o numerador e o denominador frequentemente vêm de sistemas diferentes. Isso exige coerência temporal e territorial. Óbitos de residentes devem ser comparados com população residente; óbitos infantis devem ser comparados com nascidos vivos do mesmo recorte; procedimentos realizados em um município não devem ser automaticamente divididos pela população residente se o serviço atende pessoas de outros municípios. A regra de construção do indicador precisa acompanhar a pergunta de análise.
 
 ## Relacionamento entre sistemas
 
 Algumas perguntas exigem combinar bases. O relacionamento entre sistemas pode ser determinístico, quando há identificadores comuns suficientes, ou probabilístico, quando é necessário combinar campos como nome, data de nascimento, sexo, município e datas de eventos.
 
-A tabela seguinte apresenta perguntas que dependem dessa integração. Ela evidencia que o relacionamento de bases não é um fim em si mesmo: ele é necessário quando o evento de interesse começa em um sistema e seu desfecho, contexto ou denominador está em outro.
+O quadro seguinte apresenta perguntas que dependem dessa integração. Ele evidencia que o relacionamento de bases não é um fim em si mesmo: ele é necessário quando o evento de interesse começa em um sistema e seu desfecho, contexto ou denominador está em outro (ver @qua-eventos-exemplos-de-perguntas-que-podem-exigir-relacionamento-entre-sis).
+
+::: {#qua-eventos-exemplos-de-perguntas-que-podem-exigir-relacionamento-entre-sis}
 
 | Pergunta | Sistemas possivelmente envolvidos | Exemplo de uso |
 |---|---|---|
@@ -261,7 +288,10 @@ A tabela seguinte apresenta perguntas que dependem dessa integração. Ela evide
 | Desfechos fatais de casos notificados | SINAN e SIM | Investigar mortes entre casos de agravos |
 | Internações após notificação | SINAN e SIH | Avaliar gravidade e uso hospitalar |
 | Produção de serviços por estabelecimento | SIA/SIH e CNES | Relacionar produção e estrutura da rede |
-: Exemplos de perguntas que podem exigir relacionamento entre SIS
+
+Exemplos de perguntas que podem exigir relacionamento entre SIS
+
+:::
 
 O relacionamento entre bases amplia as possibilidades analíticas, mas exige atenção à privacidade, qualidade dos campos identificadores, perdas de pareamento, duplicidades e diferenças temporais entre sistemas.
 
@@ -271,7 +301,9 @@ Além disso, integrar bases não elimina as diferenças conceituais entre elas. 
 
 ## Relação entre eventos e perguntas de análise
 
-Depois de discutir exemplos específicos, a tabela a seguir sintetiza a lógica do capítulo. Para cada tema, ela indica quais eventos precisam ser observados, quais sistemas tendem a ser mobilizados e qual cuidado costuma ser mais importante na interpretação. Essa síntese pode servir como lista de verificação antes de iniciar uma análise com dados secundários.
+Depois de discutir exemplos específicos, o quadro a seguir sintetiza a lógica do capítulo. Para cada tema, ele indica quais eventos precisam ser observados, quais sistemas tendem a ser mobilizados e qual cuidado costuma ser mais importante na interpretação. Essa síntese pode servir como lista de verificação antes de iniciar uma análise com dados secundários (ver @qua-eventos-exemplos-de-temas-eventos-e-sistemas-correspondentes).
+
+::: {#qua-eventos-exemplos-de-temas-eventos-e-sistemas-correspondentes}
 
 | Tema de interesse | Evento observado | Sistema | Cuidado principal |
 |---|---|---|---|
@@ -280,7 +312,10 @@ Depois de discutir exemplos específicos, a tabela a seguir sintetiza a lógica 
 | Acesso hospitalar | Internação | SIH | Considerar apenas internações SUS |
 | Produção de exames | Procedimento ambulatorial | SIA | Procedimentos não equivalem a pessoas |
 | Cobertura vacinal | Dose aplicada e população-alvo | SI-PNI e POP (@sec-pop) | Avaliar registros e denominadores |
-: Exemplos de temas, eventos e sistemas correspondentes
+
+Exemplos de temas, eventos e sistemas correspondentes
+
+:::
 
 O ponto comum entre os exemplos é a necessidade de alinhar pergunta, evento, sistema e medida. Quando esse alinhamento é claro, o pesquisador consegue explicar por que uma base foi escolhida, o que ela permite afirmar e quais lacunas permanecem. Quando ele é frágil, aumentam os riscos de comparar fontes incompatíveis, transformar produção assistencial em incidência, interpretar cobertura administrativa como risco populacional ou tratar registros preliminares como série consolidada.
 
@@ -311,7 +346,7 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 66.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 154.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 153.
 
 :::
 <!-- END GENERATED SEE ALSO -->

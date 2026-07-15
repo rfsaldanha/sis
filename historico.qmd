@@ -28,7 +28,9 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 As iniciativas de sistematização dos dados de saúde no Brasil estão ligadas, desde o início, à necessidade de registrar eventos vitais, especialmente nascimentos e óbitos. Ainda no período colonial já havia preocupação com esses registros, mas sua produção era marcada por forte fragmentação institucional, desigualdades de acesso e baixa padronização.
 
-Essa trajetória ajuda a compreender uma característica central dos Sistemas de Informação em Saúde (SIS) brasileiros: eles não surgiram de uma única arquitetura planejada de forma integrada. Ao contrário, foram criados em momentos históricos distintos, para responder a necessidades específicas de registro civil, vigilância epidemiológica, assistência, financiamento, gestão e controle. Por isso, cada sistema carrega marcas de seu contexto de criação, de suas normas, de seus instrumentos de coleta e dos usos administrativos ou sanitários que motivaram sua implantação.
+Essa trajetória ajuda a compreender uma característica central dos Sistemas de Informação em Saúde (SIS) brasileiros: eles não surgiram de uma única arquitetura planejada de forma integrada. Ao contrário, foram criados em momentos históricos distintos, para responder a necessidades específicas de registro civil, vigilância epidemiológica, assistência, financiamento, gestão e controle. Por isso, cada sistema carrega marcas de seu contexto de criação, de suas normas, de seus instrumentos de coleta e dos usos administrativos ou sanitários que motivaram sua implantação (ver @qua-historico-periodizacao-sintetica-da-experiencia-brasileira-em-sistemas-de-inform).
+
+::: {#qua-historico-periodizacao-sintetica-da-experiencia-brasileira-em-sistemas-de-inform}
 
 | Período | Movimento principal | Efeito sobre os SIS |
 |---|---|---|
@@ -37,7 +39,10 @@ Essa trajetória ajuda a compreender uma característica central dos Sistemas de
 | A partir de 1988 | Constituição Federal, criação do SUS e descentralização | Municípios e estados assumem papel central na produção e uso dos dados |
 | Anos 1990-2000 | Criação e consolidação do DataSUS | Integração nacional de bases, disseminação pública e infraestrutura tecnológica |
 | Anos 2010 em diante | Expansão de dados abertos, sistemas online e interoperabilidade | Novas possibilidades de análise, integração e uso em tempo oportuno |
-: Periodização sintética da experiência brasileira em Sistemas de Informação em Saúde
+
+Periodização sintética da experiência brasileira em Sistemas de Informação em Saúde
+
+:::
 
 ## Do Registro Civil à aproximação com o setor saúde
 
@@ -71,7 +76,9 @@ Essa descentralização ampliou a capilaridade da produção de dados, mas tamb�
 
 ## Marcos de criação dos principais sistemas
 
-A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando mudanças nas necessidades de vigilância, assistência, financiamento e gestão. Alguns marcos ajudam a compreender a posição de cada sistema no conjunto apresentado neste livro:
+A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando mudanças nas necessidades de vigilância, assistência, financiamento e gestão. Alguns marcos ajudam a compreender a posição de cada sistema no conjunto apresentado neste livro: (ver @qua-historico-marcos-de-criacao-e-consolidacao-dos-principais-sistemas-abordados-no).
+
+::: {#qua-historico-marcos-de-criacao-e-consolidacao-dos-principais-sistemas-abordados-no}
 
 | Sistema | Marco histórico | Papel principal |
 |---|---|---|
@@ -85,7 +92,10 @@ A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando 
 | CNES (@sec-cnes) | Criado em 2000 | Cadastro nacional de estabelecimentos, serviços, equipamentos e profissionais de saúde |
 | SIOPS (@sec-siops) | Criado em 2000 | Informações sobre receitas e despesas públicas em saúde |
 | SISAB/SISAPS (@sec-siaps) | SISAB implantado em 2013 e renovado pelo SISAPS/Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
-: Marcos de criação e consolidação dos principais sistemas abordados no livro
+
+Marcos de criação e consolidação dos principais sistemas abordados no livro
+
+:::
 
 Esses marcos não indicam que os sistemas permaneceram estáticos desde sua criação. Ao contrário, muitos passaram por mudanças de escopo, instrumentos, modelos de arquivo, regras de consistência e formas de disseminação. A leitura histórica deve considerar tanto o ano de criação quanto as transformações posteriores.
 
@@ -143,7 +153,9 @@ Por isso, a leitura histórica dos SIS não deve ser entendida apenas como uma s
 
 ## Linha do tempo de criação dos principais SIS
 
-A tabela a seguir resume marcos históricos da criação dos principais SIS.
+O quadro a seguir resume marcos históricos da criação dos principais SIS (ver @qua-historico-marcos-selecionados-da-trajetoria-dos-sis-brasileiros).
+
+::: {#qua-historico-marcos-selecionados-da-trajetoria-dos-sis-brasileiros}
 
 | Ano | Marco |
 |---:|---|
@@ -160,7 +172,10 @@ A tabela a seguir resume marcos históricos da criação dos principais SIS.
 | 2013 | Implantação do SISAB |
 | 2025 | Instituição do SISAPS/Siaps como renovação do SISAB |
 | 2020 | Instituição do Programa Conecte SUS e da RNDS |
-: Marcos selecionados da trajetória dos SIS brasileiros
+
+Marcos selecionados da trajetória dos SIS brasileiros
+
+:::
 
 A linha do tempo a seguir apresenta alguns marcos da criação e consolidação dos principais sistemas abordados neste livro. As datas devem ser interpretadas como pontos de referência para a trajetória institucional dos sistemas, pois muitos deles passaram por mudanças relevantes de escopo, instrumentos, tecnologias e formas de disseminação ao longo do tempo.
 
@@ -181,7 +196,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 
 - [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 29.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 422.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 416.
 
 :::
 <!-- END GENERATED SEE ALSO -->

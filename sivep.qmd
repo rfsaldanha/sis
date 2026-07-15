@@ -48,25 +48,30 @@ O acesso operacional ao SIVEP-DDA é restrito às rotinas de vigilância. O Mini
 
 ## Cuidados de interpretação
 
+::: {#qua-sivep-diferencas-praticas-entre-componentes-do-sivep}
+
 | Componente | Evento ou foco | Unidade e cobertura | Cuidado principal |
 |---|---|---|---|
 | SIVEP-Gripe | SRAG hospitalizada e óbitos por SRAG; vigilância de vírus respiratórios | Registros de casos graves e óbitos, com bases públicas anonimizadas para SRAG | Não representa todos os casos leves de síndrome gripal |
 | SIVEP-Malária | Casos de malária em fluxos específicos, especialmente região amazônica | Depende do fluxo regional; SINAN cobre a região extra-amazônica em muitos usos | Pode exigir combinação com SINAN para análise nacional |
 | SIVEP-DDA | Monitorização de doenças diarreicas agudas | Registros semanais de unidades sentinelas | Não deve ser interpretado como incidência populacional completa |
-: Diferenças práticas entre componentes do SIVEP
 
-Em síntese, o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.
+Diferenças práticas entre componentes do SIVEP
+
+:::
+
+O @qua-sivep-diferencas-praticas-entre-componentes-do-sivep sintetiza os elementos discutidos. Em síntese, o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sivep}
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 197.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 196.
 
 - [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 48.
 
-- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 247.
+- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 246.
 
 :::
 <!-- END GENERATED SEE ALSO -->

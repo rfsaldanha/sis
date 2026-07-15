@@ -28,6 +28,8 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 ## Resumo
 
+::: {#qua-siops-caracteristicas-gerais-do-siops}
+
 | Característica | Descrição |
 |---|---|
 | Ano de institucionalização | 2000 |
@@ -37,7 +39,10 @@ Para acompanhar a transcrição, acesse o roteiro em
 | Periodicidade | Bimestral, com destaque para o sexto bimestre, que consolida o exercício |
 | Natureza dos dados | Declaratória, com homologação pelo gestor |
 | Uso central | Monitoramento do financiamento público da saúde e da aplicação mínima em ASPS |
-: Características gerais do SIOPS
+
+Características gerais do SIOPS
+
+:::
 
 O Sistema de Informações sobre Orçamentos Públicos em Saúde (SIOPS) organiza informações sobre receitas e despesas públicas em saúde. Diferentemente de sistemas baseados em eventos assistenciais, como SIH (@sec-sih), SIA (@sec-sia), SINAN (@sec-sinan), SINASC (@sec-sinasc) e SIM (@sec-sim), o SIOPS descreve a dimensão orçamentária e financeira do sistema de saúde.
 
@@ -47,6 +52,8 @@ Seu uso principal é acompanhar quanto cada ente federado declara aplicar em Aç
 
 Use o SIOPS quando a pergunta envolve financiamento público, receitas vinculadas, despesas em saúde, cumprimento de aplicação mínima, composição de gasto ou comparação entre entes federados.
 
+::: {#qua-siops-perguntas-comuns-que-podem-ser-respondidas-com-o-siops}
+
 | Pergunta de análise | Usar SIOPS para | Cuidado principal |
 |---|---|---|
 | O município aplicou o mínimo constitucional em saúde? | Consultar percentual de recursos próprios aplicados em ASPS | Verificar exercício, bimestre e homologação |
@@ -55,9 +62,12 @@ Use o SIOPS quando a pergunta envolve financiamento público, receitas vinculada
 | Quanto foi aplicado por habitante? | Relacionar despesa declarada à população | Usar população compatível com ano e território |
 | Como comparar municípios? | Padronizar por porte populacional, região e capacidade fiscal | Diferenças contábeis e de capacidade arrecadatória importam |
 | Há dependência de transferências? | Comparar recursos próprios e transferências | Distinguir origem do recurso e aplicação final |
-: Perguntas comuns que podem ser respondidas com o SIOPS
 
-A tabela mostra que o SIOPS é mais útil quando a pergunta está formulada em termos de financiamento, execução orçamentária ou cumprimento legal. Quando o objetivo é avaliar acesso, produção ou qualidade assistencial, o SIOPS entra como contexto financeiro e precisa ser combinado com outras bases. Essa distinção evita transformar gasto declarado em indicador direto de desempenho do sistema de saúde.
+Perguntas comuns que podem ser respondidas com o SIOPS
+
+:::
+
+O @qua-siops-perguntas-comuns-que-podem-ser-respondidas-com-o-siops mostra que o SIOPS é mais útil quando a pergunta está formulada em termos de financiamento, execução orçamentária ou cumprimento legal. Quando o objetivo é avaliar acesso, produção ou qualidade assistencial, o SIOPS entra como contexto financeiro e precisa ser combinado com outras bases. Essa distinção evita transformar gasto declarado em indicador direto de desempenho do sistema de saúde.
 
 ::: {.callout-note}
 O SIOPS não mede produção assistencial, acesso, qualidade do cuidado ou necessidade de saúde. Ele informa receitas, despesas e indicadores financeiros declarados pelos entes federados.
@@ -89,15 +99,20 @@ Um histórico mais detalhado sobre o SIOPS pode ser consultado no portal do Mini
 
 O SIOPS cobre União, estados, Distrito Federal e municípios, mas esses entes não ocupam a mesma posição no financiamento e na organização do SUS. A comparação entre esferas exige atenção às bases de cálculo, às responsabilidades assistenciais, ao papel regional e à capacidade arrecadatória.
 
+::: {#qua-siops-diferencas-federativas-relevantes-para-analise-do-siops}
+
 | Esfera | Papel no financiamento e na gestão | Cuidado analítico |
 |---|---|---|
 | União | Financiamento nacional, transferências e formulação de políticas | Não comparar diretamente com municípios usando a mesma base de cálculo |
 | Estados e Distrito Federal | Coordenação regional, cofinanciamento e serviços de referência | Considerar rede própria, regionalização e apoio aos municípios |
 | Municípios | Execução local de ações e serviços, atenção básica e gestão de serviços | Capacidade fiscal e porte populacional condicionam o gasto próprio |
 | Consórcios e arranjos regionais | Organização compartilhada de serviços e despesas | O gasto pode aparecer em ente diferente do local de uso do serviço |
-: Diferenças federativas relevantes para análise do SIOPS
 
-A tabela mostra por que o SIOPS deve ser interpretado dentro do pacto federativo. Um percentual municipal, uma despesa estadual e uma transferência federal respondem a perguntas diferentes. Mesmo quando os valores estão na mesma moeda, eles refletem responsabilidades, bases legais e escalas de decisão distintas.
+Diferenças federativas relevantes para análise do SIOPS
+
+:::
+
+O @qua-siops-diferencas-federativas-relevantes-para-analise-do-siops mostra por que o SIOPS deve ser interpretado dentro do pacto federativo. Um percentual municipal, uma despesa estadual e uma transferência federal respondem a perguntas diferentes. Mesmo quando os valores estão na mesma moeda, eles refletem responsabilidades, bases legais e escalas de decisão distintas.
 
 ## Fluxo de declaração
 
@@ -118,6 +133,8 @@ flowchart TD
 ```
 :::
 
+::: {#qua-siops-etapas-gerais-da-declaracao-no-siops}
+
 | Etapa | O que ocorre | Cuidado |
 |---|---|---|
 | Preparação | Organização dos dados contábeis do ente | Conferir exercício, bimestre e fontes de recursos |
@@ -126,13 +143,18 @@ flowchart TD
 | Transmissão | Envio dos dados ao banco nacional | Transmissão não substitui homologação |
 | Homologação | Validação pelo gestor com perfil autorizado | Etapa necessária para publicidade e efeitos legais |
 | Divulgação | Disponibilização de indicadores e relatórios | Verificar se os dados estão homologados |
-: Etapas gerais da declaração no SIOPS
 
-O fluxo evidencia que o SIOPS não é apenas um repositório de valores monetários. A informação passa por preparação contábil, preenchimento, críticas, transmissão e homologação. Para análise, a etapa de homologação é decisiva, pois separa dados apenas enviados de dados validados no fluxo oficial do sistema.
+Etapas gerais da declaração no SIOPS
+
+:::
+
+O @qua-siops-etapas-gerais-da-declaracao-no-siops sintetiza os elementos discutidos. O fluxo evidencia que o SIOPS não é apenas um repositório de valores monetários. A informação passa por preparação contábil, preenchimento, críticas, transmissão e homologação. Para análise, a etapa de homologação é decisiva, pois separa dados apenas enviados de dados validados no fluxo oficial do sistema.
 
 ## Unidade de análise
 
-A unidade de análise do SIOPS depende da pergunta. O mesmo dado pode ser interpretado por ente federado, exercício, bimestre, fase da despesa, fonte de recurso, categoria econômica ou indicador.
+A unidade de análise do SIOPS depende da pergunta. O mesmo dado pode ser interpretado por ente federado, exercício, bimestre, fase da despesa, fonte de recurso, categoria econômica ou indicador (ver @qua-siops-unidades-de-analise-frequentes-no-siops).
+
+::: {#qua-siops-unidades-de-analise-frequentes-no-siops}
 
 | Unidade | Exemplo | Uso comum | Cuidado |
 |---|---|---|---|
@@ -143,7 +165,10 @@ A unidade de análise do SIOPS depende da pergunta. O mesmo dado pode ser interp
 | Despesa | Empenhada, liquidada ou paga | Execução orçamentária | Escolher a fase adequada para a pergunta |
 | ASPS | Ações e serviços públicos de saúde | Aplicação mínima | Respeitar inclusões e exclusões legais |
 | Indicador | Percentual aplicado, gasto per capita | Monitoramento sintético | Verificar metodologia e denominador |
-: Unidades de análise frequentes no SIOPS
+
+Unidades de análise frequentes no SIOPS
+
+:::
 
 A unidade escolhida define o que o indicador consegue responder. Um percentual aplicado em ASPS resume cumprimento legal; uma despesa por habitante aproxima esforço financeiro; uma fase da despesa descreve momento da execução orçamentária. Misturar essas unidades em uma mesma série pode produzir comparações aparentemente precisas, mas metodologicamente frágeis.
 
@@ -153,7 +178,9 @@ Não misture bimestres, fases da despesa ou critérios de ASPS sem documentar a 
 
 ## Fases da despesa
 
-Em análises do SIOPS, a fase da despesa muda a interpretação do indicador. O mesmo programa pode ter valor empenhado, liquidado e pago diferentes no mesmo exercício.
+Em análises do SIOPS, a fase da despesa muda a interpretação do indicador. O mesmo programa pode ter valor empenhado, liquidado e pago diferentes no mesmo exercício (ver @qua-siops-interpretacao-das-fases-da-despesa-no-siops).
+
+::: {#qua-siops-interpretacao-das-fases-da-despesa-no-siops}
 
 | Fase | Interpretação | Quando usar | Cuidado |
 |---|---|---|---|
@@ -161,7 +188,10 @@ Em análises do SIOPS, a fase da despesa muda a interpretação do indicador. O 
 | Liquidada | Reconhecimento de que o bem ou serviço foi entregue | Execução de despesa com maior proximidade do fato gerador | Ainda pode não ter sido paga |
 | Paga | Desembolso financeiro realizado | Fluxo de caixa e pagamento efetivo | Pode incluir despesas de exercícios anteriores |
 | Restos a pagar | Despesas empenhadas não pagas até o fim do exercício | Continuidade e compensações | Cancelamentos podem alterar o cumprimento do mínimo |
-: Interpretação das fases da despesa no SIOPS
+
+Interpretação das fases da despesa no SIOPS
+
+:::
 
 As fases da despesa representam momentos diferentes do ciclo orçamentário. Valores empenhados indicam compromisso, valores liquidados aproximam a entrega de bens ou serviços e valores pagos representam desembolso financeiro. A escolha da fase deve acompanhar a pergunta de pesquisa, não apenas a disponibilidade do campo.
 
@@ -173,7 +203,9 @@ Para séries comparativas, mantenha a mesma fase da despesa em todos os anos e e
 
 Ações e Serviços Públicos de Saúde (ASPS) são o eixo central do SIOPS. A classificação define quais despesas podem compor a aplicação mínima em saúde e quais devem ser excluídas do cálculo.
 
-Uma distinção prática ajuda a evitar confusão. "Gasto em saúde" pode ser usado em sentido amplo; "despesa da saúde" pode se referir à unidade orçamentária ou secretaria; "despesa em ASPS" é a parcela que cumpre os critérios legais; e "percentual aplicado" é a razão entre essa despesa elegível e a base de cálculo. Esses termos não são intercambiáveis.
+Uma distinção prática ajuda a evitar confusão. "Gasto em saúde" pode ser usado em sentido amplo; "despesa da saúde" pode se referir à unidade orçamentária ou secretaria; "despesa em ASPS" é a parcela que cumpre os critérios legais; e "percentual aplicado" é a razão entre essa despesa elegível e a base de cálculo. Esses termos não são intercambiáveis (ver @qua-siops-diferencas-entre-gasto-em-saude-despesa-da-saude-e-asps).
+
+::: {#qua-siops-diferencas-entre-gasto-em-saude-despesa-da-saude-e-asps}
 
 | Termo | O que representa | Como usar |
 |---|---|---|
@@ -181,9 +213,14 @@ Uma distinção prática ajuda a evitar confusão. "Gasto em saúde" pode ser us
 | Despesa da função ou órgão saúde | Gasto classificado administrativamente na área da saúde | Pode incluir itens que não são ASPS |
 | Despesa elegível em ASPS | Gasto que atende aos critérios legais de ações e serviços públicos de saúde | Base do numerador para aplicação mínima |
 | Percentual aplicado em ASPS | Relação entre despesa elegível e base de cálculo | Indicador de cumprimento do mínimo legal |
-: Diferenças entre gasto em saúde, despesa da saúde e ASPS
 
-Essa distinção evita duas leituras problemáticas: considerar todo gasto administrativo da saúde como ASPS ou tratar o percentual aplicado como medida de suficiência de financiamento. O SIOPS permite acompanhar a regra legal, mas a avaliação de suficiência exige analisar necessidade de saúde, rede, preços, população e resultados.
+Diferenças entre gasto em saúde, despesa da saúde e ASPS
+
+:::
+
+Essa distinção evita duas leituras problemáticas: considerar todo gasto administrativo da saúde como ASPS ou tratar o percentual aplicado como medida de suficiência de financiamento. O SIOPS permite acompanhar a regra legal, mas a avaliação de suficiência exige analisar necessidade de saúde, rede, preços, população e resultados (ver @qua-siops-elementos-do-calculo-de-asps-no-siops).
+
+::: {#qua-siops-elementos-do-calculo-de-asps-no-siops}
 
 | Elemento | Interpretação | Cuidado |
 |---|---|---|
@@ -192,13 +229,18 @@ Essa distinção evita duas leituras problemáticas: considerar todo gasto admin
 | Despesa não ASPS | Gasto excluído do cálculo do mínimo | Deve ser separado para evitar superestimação |
 | Percentual aplicado | Relação entre despesa em ASPS e base de cálculo | Interpretação depende da metodologia vigente |
 | Restos a pagar | Despesas inscritas, canceladas ou compensadas | Podem afetar cumprimento e compensações |
-: Elementos do cálculo de ASPS no SIOPS
+
+Elementos do cálculo de ASPS no SIOPS
+
+:::
 
 O indicador de percentual de recursos próprios aplicados em ASPS é uma das principais saídas do sistema. Ele permite verificar a situação declarada do ente em relação aos mínimos definidos pela Constituição Federal e pela Lei Complementar nº 141/2012.
 
 ### O que não contar como ASPS
 
-Nem toda despesa registrada em uma unidade orçamentária da saúde deve compor ASPS. A análise precisa respeitar os critérios legais e separar gastos que podem inflar artificialmente a aplicação mínima.
+Nem toda despesa registrada em uma unidade orçamentária da saúde deve compor ASPS. A análise precisa respeitar os critérios legais e separar gastos que podem inflar artificialmente a aplicação mínima (ver @qua-siops-exemplos-de-exclusoes-ou-situacoes-que-exigem-conferencia-no-calculo-d).
+
+::: {#qua-siops-exemplos-de-exclusoes-ou-situacoes-que-exigem-conferencia-no-calculo-d}
 
 | Situação | Por que exige cuidado | Risco analítico |
 |---|---|---|
@@ -207,7 +249,10 @@ Nem toda despesa registrada em uma unidade orçamentária da saúde deve compor 
 | Assistência à saúde de clientelas fechadas | Pode não estar disponível universalmente ao SUS | Comparar gasto restrito com política pública universal |
 | Merenda, saneamento ou assistência social fora dos critérios de ASPS | Podem melhorar saúde, mas pertencem a outras políticas | Ampliar indevidamente o conceito de saúde |
 | Restos a pagar cancelados | Despesa contabilizada pode não se realizar | Manter aplicação que precisa ser compensada |
-: Exemplos de exclusões ou situações que exigem conferência no cálculo de ASPS
+
+Exemplos de exclusões ou situações que exigem conferência no cálculo de ASPS
+
+:::
 
 As exclusões protegem o conceito de ASPS contra ampliação indevida. Algumas despesas têm impacto social ou relação indireta com saúde, mas não cumprem os critérios legais para compor a aplicação mínima. Por isso, análises de financiamento devem separar gasto em saúde em sentido amplo, despesa orçamentária da saúde e despesa elegível em ASPS.
 
@@ -219,19 +264,26 @@ A classificação de ASPS é normativa. Em caso de dúvida, consulte a cartilha 
 
 Restos a pagar são despesas empenhadas que não foram pagas até o encerramento do exercício. No SIOPS, eles exigem atenção porque podem afetar a leitura do cumprimento mínimo, especialmente quando há cancelamentos, pagamentos posteriores ou necessidade de compensação.
 
+::: {#qua-siops-tratamento-analitico-de-restos-a-pagar-no-siops}
+
 | Situação | Interpretação | Cuidado |
 |---|---|---|
 | Restos a pagar inscritos | Despesa empenhada que permanece para pagamento posterior | Verificar se a inscrição pode compor o cálculo conforme a regra aplicável |
 | Restos a pagar pagos | Despesa de exercício anterior efetivamente paga depois | Evitar dupla contagem entre exercícios |
 | Restos a pagar cancelados | Despesa que deixou de se realizar | Pode exigir compensação quando afetou o mínimo aplicado |
 | Compensação | Reposição em exercício posterior de valor que não se efetivou | Documentar exercício de origem e exercício de compensação |
-: Tratamento analítico de restos a pagar no SIOPS
 
-A tabela evidencia que restos a pagar não são apenas detalhe contábil. Eles podem mudar a interpretação de cumprimento do mínimo, principalmente quando a despesa foi considerada em um exercício e cancelada depois. Em séries históricas, documente se a análise usa valores inscritos, pagos, cancelados ou compensados.
+Tratamento analítico de restos a pagar no SIOPS
+
+:::
+
+O @qua-siops-tratamento-analitico-de-restos-a-pagar-no-siops evidencia que restos a pagar não são apenas detalhe contábil. Eles podem mudar a interpretação de cumprimento do mínimo, principalmente quando a despesa foi considerada em um exercício e cancelada depois. Em séries históricas, documente se a análise usa valores inscritos, pagos, cancelados ou compensados.
 
 ## Exemplo: percentual aplicado em ASPS
 
-O percentual aplicado em ASPS resume a relação entre a despesa elegível em ASPS e a base de cálculo do ente. Ele é útil para monitoramento legal, mas não informa sozinho se o gasto foi suficiente, eficiente ou bem distribuído.
+O percentual aplicado em ASPS resume a relação entre a despesa elegível em ASPS e a base de cálculo do ente. Ele é útil para monitoramento legal, mas não informa sozinho se o gasto foi suficiente, eficiente ou bem distribuído (ver @qua-siops-componentes-do-percentual-aplicado-em-asps).
+
+::: {#qua-siops-componentes-do-percentual-aplicado-em-asps}
 
 | Elemento | Medida | Cuidado |
 |---|---|---|
@@ -240,7 +292,10 @@ O percentual aplicado em ASPS resume a relação entre a despesa elegível em AS
 | Tempo | Exercício ou bimestre acumulado | O sexto bimestre consolida o exercício |
 | Situação | Dados homologados | Pendências podem alterar o resultado |
 | Interpretação | Cumprimento do mínimo | Não mede qualidade, acesso ou resultado em saúde |
-: Componentes do percentual aplicado em ASPS
+
+Componentes do percentual aplicado em ASPS
+
+:::
 
 A decomposição do indicador deixa claro que o percentual aplicado é uma razão normativa. Ele depende tanto da despesa elegível quanto da base de cálculo e das deduções permitidas. Assim, dois entes com percentuais semelhantes podem ter volumes absolutos, capacidades fiscais e necessidades de saúde muito diferentes.
 
@@ -268,7 +323,9 @@ O código é um modelo conceitual. Ajuste nomes de indicadores, variáveis e fil
 
 ## Estrutura dos dados
 
-As consultas do SIOPS podem ser organizadas por indicadores agregados ou por dados mais detalhados de receitas e despesas. Em análises reprodutíveis, é importante registrar a origem da extração, o período, o ente federado, o indicador e a fase orçamentária.
+As consultas do SIOPS podem ser organizadas por indicadores agregados ou por dados mais detalhados de receitas e despesas. Em análises reprodutíveis, é importante registrar a origem da extração, o período, o ente federado, o indicador e a fase orçamentária (ver @qua-siops-dimensoes-uteis-para-inspecao-do-siops).
+
+::: {#qua-siops-dimensoes-uteis-para-inspecao-do-siops}
 
 | Dimensão | Exemplos de campos ou conceitos | Pergunta de controle |
 |---|---|---|
@@ -279,13 +336,18 @@ As consultas do SIOPS podem ser organizadas por indicadores agregados ou por dad
 | ASPS | Despesa incluída ou excluída do cálculo | A regra de elegibilidade foi aplicada corretamente? |
 | Indicador | Percentual aplicado, despesa per capita, composição | O denominador está explícito? |
 | Situação | Transmitido, homologado, pendente | O dado tem validade para análise oficial? |
-: Dimensões úteis para inspeção do SIOPS
+
+Dimensões úteis para inspeção do SIOPS
+
+:::
 
 Essas dimensões funcionam como uma auditoria inicial da extração. Antes de calcular indicadores, é preciso saber se o território, o período, a situação de homologação e a fase da despesa estão coerentes. Em bases financeiras, pequenas diferenças de classificação podem alterar substantivamente o resultado final.
 
 ### Dicionário mínimo
 
-Antes de analisar o SIOPS, construa um dicionário operacional com as variáveis usadas. Isso reduz ambiguidade entre gasto, aplicação, execução e disponibilidade financeira.
+Antes de analisar o SIOPS, construa um dicionário operacional com as variáveis usadas. Isso reduz ambiguidade entre gasto, aplicação, execução e disponibilidade financeira (ver @qua-siops-conceitos-minimos-para-analise-do-siops).
+
+::: {#qua-siops-conceitos-minimos-para-analise-do-siops}
 
 | Conceito | Pergunta que resolve | Cuidado |
 |---|---|---|
@@ -296,13 +358,18 @@ Antes de analisar o SIOPS, construa um dicionário operacional com as variáveis
 | Despesa liquidada | O serviço ou bem foi reconhecido como devido? | Difere de desembolso financeiro |
 | Despesa paga | Houve pagamento financeiro? | Pode ocorrer em exercício diferente |
 | Percentual ASPS | O mínimo legal foi declarado como cumprido? | Depende da base e das deduções corretas |
-: Conceitos mínimos para análise do SIOPS
+
+Conceitos mínimos para análise do SIOPS
+
+:::
 
 O dicionário mínimo ajuda a evitar ambiguidades recorrentes entre receita, despesa e aplicação. Em especial, transferência recebida não é sinônimo de gasto executado, e despesa paga não é sinônimo de despesa liquidada. Nomear corretamente cada conceito reduz erros de interpretação em tabelas e gráficos.
 
 ## Análise temporal e territorial
 
 Séries do SIOPS devem ser interpretadas com atenção a inflação, mudanças contábeis, mudanças legais, porte populacional e responsabilidades federativas. Comparações diretas entre municípios pequenos e capitais, ou entre municípios e estados, podem ser pouco informativas sem padronização.
+
+::: {#qua-siops-cuidados-em-comparacoes-temporais-e-territoriais}
 
 | Comparação | Recomendação | Cuidado |
 |---|---|---|
@@ -311,13 +378,18 @@ Séries do SIOPS devem ser interpretadas com atenção a inflação, mudanças c
 | Entre estados | Considerar responsabilidades regionais e rede própria | Estados podem financiar serviços de referência |
 | Entre bimestres | Comparar o mesmo bimestre ou acumulado equivalente | Execução orçamentária é sazonal |
 | Antes e depois de normas | Documentar mudança legal ou contábil | Quebras metodológicas podem parecer mudança real |
-: Cuidados em comparações temporais e territoriais
 
-A tabela resume dois problemas centrais: dinheiro muda de valor no tempo, e entes federados não têm a mesma capacidade fiscal nem as mesmas responsabilidades. Por isso, comparações temporais exigem deflação, e comparações territoriais exigem padronização por população, porte, região e papel na rede de atenção.
+Cuidados em comparações temporais e territoriais
+
+:::
+
+O @qua-siops-cuidados-em-comparacoes-temporais-e-territoriais resume dois problemas centrais: dinheiro muda de valor no tempo, e entes federados não têm a mesma capacidade fiscal nem as mesmas responsabilidades. Por isso, comparações temporais exigem deflação, e comparações territoriais exigem padronização por população, porte, região e papel na rede de atenção.
 
 ### Deflação de valores monetários
 
-Valores monetários em anos diferentes devem ser comparados em termos reais. Se a análise usa valores nominais, o texto precisa declarar isso explicitamente e evitar interpretar crescimento nominal como aumento real de gasto.
+Valores monetários em anos diferentes devem ser comparados em termos reais. Se a análise usa valores nominais, o texto precisa declarar isso explicitamente e evitar interpretar crescimento nominal como aumento real de gasto (ver @qua-siops-decisoes-minimas-para-deflacionar-valores-do-siops).
+
+::: {#qua-siops-decisoes-minimas-para-deflacionar-valores-do-siops}
 
 | Decisão | Recomendação | Cuidado |
 |---|---|---|
@@ -325,7 +397,10 @@ Valores monetários em anos diferentes devem ser comparados em termos reais. Se 
 | Ano-base | Converter todos os valores para o mesmo ano | Não misturar valores correntes e reais |
 | Indicador per capita | Deflacionar o numerador antes de dividir pela população | Evitar comparar reais de anos diferentes |
 | Transferências e receitas | Aplicar o mesmo deflator usado nas despesas | Manter consistência entre numerador e denominador monetário |
-: Decisões mínimas para deflacionar valores do SIOPS
+
+Decisões mínimas para deflacionar valores do SIOPS
+
+:::
 
 As decisões de deflação devem ser documentadas porque mudam a leitura da tendência. A escolha do índice, do ano-base e do tratamento de valores per capita define se a análise descreve crescimento nominal ou variação real do gasto. Sem essa etapa, aumentos monetários podem refletir apenas inflação acumulada.
 
@@ -343,7 +418,9 @@ siops_real
 
 ### Comparação entre municípios
 
-Comparar municípios exige mais do que ordenar gastos. Municípios pequenos podem apresentar valores per capita instáveis, capitais concentram serviços de referência, e a capacidade fiscal condiciona a possibilidade de gasto próprio.
+Comparar municípios exige mais do que ordenar gastos. Municípios pequenos podem apresentar valores per capita instáveis, capitais concentram serviços de referência, e a capacidade fiscal condiciona a possibilidade de gasto próprio (ver @qua-siops-criterios-para-comparacao-municipal-com-siops).
+
+::: {#qua-siops-criterios-para-comparacao-municipal-com-siops}
 
 | Dimensão | Como controlar | Cuidado |
 |---|---|---|
@@ -353,7 +430,10 @@ Comparar municípios exige mais do que ordenar gastos. Municípios pequenos pode
 | Consórcios | Verificar despesas compartilhadas | Gasto pode aparecer fora do município de uso |
 | Outliers | Inspecionar valores extremos | Podem indicar erro, evento excepcional ou mudança contábil |
 | Série histórica | Comparar tendências, não apenas um ano isolado | Um único exercício pode ser atípico |
-: Critérios para comparação municipal com SIOPS
+
+Critérios para comparação municipal com SIOPS
+
+:::
 
 Os critérios de comparação municipal reduzem interpretações simplistas de rankings. Municípios com portes, funções regionais e capacidades fiscais distintas podem apresentar gastos per capita muito diferentes por razões estruturais. A comparação mais informativa costuma combinar tendência histórica, grupos comparáveis e inspeção de valores extremos.
 
@@ -380,7 +460,9 @@ O exemplo assume uma base já importada e padronizada. Os nomes das variáveis d
 
 ## Exemplo: SIOPS + POP
 
-Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e população residente. Esse indicador padroniza por tamanho populacional, mas ainda não corrige diferenças de perfil demográfico, rede regional, capacidade fiscal ou necessidade de saúde.
+Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e população residente. Esse indicador padroniza por tamanho populacional, mas ainda não corrige diferenças de perfil demográfico, rede regional, capacidade fiscal ou necessidade de saúde (ver @qua-siops-componentes-de-uma-analise-de-despesa-per-capita).
+
+::: {#qua-siops-componentes-de-uma-analise-de-despesa-per-capita}
 
 | Elemento | Fonte | Cuidado |
 |---|---|---|
@@ -388,7 +470,10 @@ Um uso comum é calcular despesa em ASPS per capita, combinando SIOPS e populaç
 | População residente | POP (@sec-pop) | Usar mesmo ano e código territorial |
 | Valor monetário | SIOPS + deflator | Deflacionar antes do cálculo em séries temporais |
 | Território | Código municipal ou UF | Harmonizar códigos e mudanças territoriais |
-: Componentes de uma análise de despesa per capita
+
+Componentes de uma análise de despesa per capita
+
+:::
 
 A despesa per capita melhora a comparabilidade em relação ao valor total, mas não resolve todos os problemas. O indicador continua sensível à população usada, ao deflator, à fase da despesa e à situação de homologação. Além disso, gasto por residente não mede automaticamente acesso, pois serviços podem atender pessoas de outros territórios.
 
@@ -411,7 +496,9 @@ asps_per_capita
 
 ## Exemplo: SIOPS + CNES
 
-Também é possível relacionar gasto municipal declarado no SIOPS com medidas de oferta do CNES, como estabelecimentos, UBS, leitos SUS ou equipes. Essa relação deve ser interpretada como uma aproximação ecológica entre financiamento e oferta localizada no território.
+Também é possível relacionar gasto municipal declarado no SIOPS com medidas de oferta do CNES, como estabelecimentos, UBS, leitos SUS ou equipes. Essa relação deve ser interpretada como uma aproximação ecológica entre financiamento e oferta localizada no território (ver @qua-siops-exemplos-de-indicadores-combinando-siops-e-cnes).
+
+::: {#qua-siops-exemplos-de-indicadores-combinando-siops-e-cnes}
 
 | Indicador | Numerador | Denominador | Cuidado |
 |---|---|---|---|
@@ -419,7 +506,10 @@ Também é possível relacionar gasto municipal declarado no SIOPS com medidas d
 | Despesa em ASPS por UBS | Despesa em ASPS municipal | UBS cadastradas no CNES | Nem toda despesa municipal financia apenas UBS |
 | Despesa em ASPS por leito SUS | Despesa em ASPS municipal | Leitos SUS do CNES | Leitos podem estar sob gestão ou financiamento regional |
 | Despesa por equipe | Despesa em ASPS municipal | Equipes cadastradas no CNES | Equipe cadastrada não resume custo da atenção primária |
-: Exemplos de indicadores combinando SIOPS e CNES
+
+Exemplos de indicadores combinando SIOPS e CNES
+
+:::
 
 Os indicadores combinados com CNES são úteis para explorar relações entre financiamento e estrutura da rede, mas devem ser lidos como medidas ecológicas. O numerador pertence ao ente financiador, enquanto o denominador descreve estabelecimentos, leitos ou equipes localizados no território. Essa diferença impede interpretações diretas de custo por unidade de serviço.
 
@@ -446,7 +536,9 @@ SIOPS está no nível do ente financiador; CNES está no nível do estabelecimen
 
 ## Qualidade dos dados
 
-O SIOPS é uma base declaratória. A qualidade depende da organização contábil do ente, do preenchimento correto, da transmissão no prazo, da homologação e da consistência das classificações usadas.
+O SIOPS é uma base declaratória. A qualidade depende da organização contábil do ente, do preenchimento correto, da transmissão no prazo, da homologação e da consistência das classificações usadas (ver @qua-siops-dimensoes-de-qualidade-relevantes-no-siops).
+
+::: {#qua-siops-dimensoes-de-qualidade-relevantes-no-siops}
 
 | Dimensão | Checagem |
 |---|---|
@@ -458,7 +550,10 @@ O SIOPS é uma base declaratória. A qualidade depende da organização contábi
 | Restos a pagar | Cancelamentos e compensações foram considerados? |
 | Comparabilidade | Houve mudança de classificação ou regra na série? |
 | Valores extremos | Há saltos incompatíveis com porte populacional ou orçamento? |
-: Dimensões de qualidade relevantes no SIOPS
+
+Dimensões de qualidade relevantes no SIOPS
+
+:::
 
 A qualidade do SIOPS deve ser avaliada antes da comparação substantiva. Um salto de despesa pode indicar ampliação real de investimento, mas também mudança de classificação, retificação, erro de preenchimento ou inclusão de restos a pagar. A etapa de validação ajuda a separar sinal fiscal de ruído contábil.
 
@@ -481,7 +576,9 @@ validacao_siops
 
 ### Homologação e dados ausentes
 
-A ausência de dados pode ter significados diferentes: o ente pode não ter transmitido, pode ter transmitido sem homologar, pode estar fora do prazo ou pode ter inconsistências que impedem o fechamento. Em séries temporais, essas situações devem ser tratadas separadamente.
+A ausência de dados pode ter significados diferentes: o ente pode não ter transmitido, pode ter transmitido sem homologar, pode estar fora do prazo ou pode ter inconsistências que impedem o fechamento. Em séries temporais, essas situações devem ser tratadas separadamente (ver @qua-siops-situacoes-de-homologacao-e-ausencia-no-siops).
+
+::: {#qua-siops-situacoes-de-homologacao-e-ausencia-no-siops}
 
 | Situação | Interpretação possível | Como tratar |
 |---|---|---|
@@ -490,7 +587,10 @@ A ausência de dados pode ter significados diferentes: o ente pode não ter tran
 | Ausente no bimestre | Não há registro disponível para o período | Distinguir ausência de zero |
 | Atrasado | Informação pode aparecer após a data de extração | Registrar data de extração |
 | Retificado | Dado alterado após envio anterior | Preservar versão ou reextrair série completa |
-: Situações de homologação e ausência no SIOPS
+
+Situações de homologação e ausência no SIOPS
+
+:::
 
 As situações listadas mostram que ausência não deve ser tratada como valor zero. Um dado pendente, atrasado ou retificado tem implicações diferentes para a análise e pode mudar conclusões sobre cumprimento de prazo ou aplicação mínima. A data de extração precisa acompanhar qualquer resultado produzido a partir do SIOPS.
 
@@ -535,7 +635,9 @@ Os documentos de orientação ajudam a interpretar regras de preenchimento, praz
 
 ## Relacionamento com outros sistemas
 
-O SIOPS ganha poder analítico quando combinado com indicadores de oferta, produção, eventos e população. A integração deve respeitar que o SIOPS está no nível do ente federado e do período, não no nível de estabelecimento ou pessoa.
+O SIOPS ganha poder analítico quando combinado com indicadores de oferta, produção, eventos e população. A integração deve respeitar que o SIOPS está no nível do ente federado e do período, não no nível de estabelecimento ou pessoa (ver @qua-siops-integracoes-frequentes-entre-siops-e-outros-sistemas).
+
+::: {#qua-siops-integracoes-frequentes-entre-siops-e-outros-sistemas}
 
 | Pergunta | Fontes combinadas | Cuidado principal |
 |---|---|---|
@@ -544,7 +646,10 @@ O SIOPS ganha poder analítico quando combinado com indicadores de oferta, produ
 | Gasto acompanha internações? | SIOPS + SIH (@sec-sih) | Internação pode ocorrer fora do município de residência |
 | Gasto per capita varia com população? | SIOPS + POP (@sec-pop) | Usar população do mesmo ano e território |
 | Financiamento se relaciona a eventos de saúde? | SIOPS + SIM/SINASC/SINAN | Evitar inferência causal simples com dados agregados |
-: Integrações frequentes entre SIOPS e outros sistemas
+
+Integrações frequentes entre SIOPS e outros sistemas
+
+:::
 
 As integrações ampliam o alcance do SIOPS, mas também expõem diferenças de escala. O SIOPS descreve gasto por ente e período; sistemas assistenciais descrevem produção, eventos ou estabelecimentos. A relação entre financiamento e resultado em saúde deve ser formulada como associação contextual, não como vínculo individual direto.
 
@@ -554,7 +659,9 @@ O SIOPS descreve gasto declarado pelo ente. Sistemas assistenciais registram eve
 
 ### Checklist para integração
 
-Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação.
+Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação (ver @qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas).
+
+::: {#qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas}
 
 | Checagem | Por que importa |
 |---|---|
@@ -564,13 +671,18 @@ Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela
 | Indicador financeiro definido | Receita, despesa, ASPS e percentual não são intercambiáveis |
 | Valor deflacionado quando houver série | Evita interpretar inflação como aumento real |
 | Denominador documentado | População, estabelecimentos e eventos medem coisas diferentes |
-: Verificações antes de integrar SIOPS com outros sistemas
+
+Verificações antes de integrar SIOPS com outros sistemas
+
+:::
 
 O checklist de integração deve ser aplicado antes da junção das bases. Se o território, o período, o indicador financeiro e o denominador forem definidos apenas depois, perdas de relacionamento e incompatibilidades de granularidade podem passar despercebidas. O desenho analítico precisa preceder o código.
 
 ## Principais usos e indicadores
 
 O SIOPS é usado para monitoramento legal, controle social, análise de financiamento, planejamento e estudos comparativos.
+
+::: {#qua-siops-exemplos-de-indicadores-construidos-com-siops}
 
 | Indicador | Numerador | Denominador ou cuidado |
 |---|---|---|
@@ -582,13 +694,18 @@ O SIOPS é usado para monitoramento legal, controle social, análise de financia
 | Regularidade de declaração | Bimestres homologados | Verificar prazo e situação |
 | Despesa por estabelecimento | Despesa em ASPS | Usar CNES com cuidado territorial |
 | Despesa real per capita | Despesa deflacionada | Usar população e deflator compatíveis |
-: Exemplos de indicadores construídos com SIOPS
 
-Os indicadores da tabela cobrem usos legais, gerenciais e analíticos. Nenhum deles, isoladamente, mede suficiência de financiamento ou qualidade do cuidado. A interpretação melhora quando o indicador financeiro é acompanhado por contexto fiscal, porte populacional, composição da rede e necessidades de saúde.
+Exemplos de indicadores construídos com SIOPS
+
+:::
+
+Os indicadores do @qua-siops-exemplos-de-indicadores-construidos-com-siops cobrem usos legais, gerenciais e analíticos. Nenhum deles, isoladamente, mede suficiência de financiamento ou qualidade do cuidado. A interpretação melhora quando o indicador financeiro é acompanhado por contexto fiscal, porte populacional, composição da rede e necessidades de saúde.
 
 ### Como ler indicadores do SIOPS
 
-Indicadores do SIOPS devem ser lidos a partir da pergunta que respondem. O percentual aplicado em ASPS informa cumprimento legal; a despesa per capita aproxima esforço financeiro por residente; a composição da despesa mostra prioridades orçamentárias; e a participação de transferências indica dependência ou composição de financiamento.
+Indicadores do SIOPS devem ser lidos a partir da pergunta que respondem. O percentual aplicado em ASPS informa cumprimento legal; a despesa per capita aproxima esforço financeiro por residente; a composição da despesa mostra prioridades orçamentárias; e a participação de transferências indica dependência ou composição de financiamento (ver @qua-siops-leitura-pratica-de-indicadores-do-siops).
+
+::: {#qua-siops-leitura-pratica-de-indicadores-do-siops}
 
 | Indicador | Pergunta principal | Não responde sozinho |
 |---|---|---|
@@ -597,11 +714,16 @@ Indicadores do SIOPS devem ser lidos a partir da pergunta que respondem. O perce
 | Participação de recursos próprios | Quanto depende da base fiscal do ente? | Qual parcela produziu serviços específicos |
 | Participação de transferências | Qual o peso de recursos transferidos? | Autonomia financeira ou qualidade do gasto |
 | Composição da despesa | Em que categorias o gasto se concentra? | Resultado sanitário ou eficiência assistencial |
-: Leitura prática de indicadores do SIOPS
+
+Leitura prática de indicadores do SIOPS
+
+:::
 
 O exemplo mostra que indicadores financeiros são complementares, não substitutos. Um município pode cumprir o mínimo e ainda ter baixo gasto per capita; outro pode ter gasto per capita alto por atender população regional; outro pode depender fortemente de transferências. A leitura adequada combina indicadores em vez de hierarquizar entes por uma única medida.
 
 ## Limitações
+
+::: {#qua-siops-limitacoes-recorrentes-do-siops}
 
 | Limitação | Consequência analítica |
 |---|---|
@@ -614,13 +736,18 @@ O exemplo mostra que indicadores financeiros são complementares, não substitut
 | Homologação importa | Dados pendentes podem não representar situação oficial |
 | Indicador per capita pode ser instável | Municípios pequenos podem ter valores extremos |
 | Relação com oferta é ecológica | Gasto municipal não financia necessariamente cada serviço localizado no território |
-: Limitações recorrentes do SIOPS
 
-As limitações não reduzem a importância do SIOPS; elas delimitam seu campo de uso. O sistema é essencial para acompanhar financiamento público e cumprimento legal, mas não substitui bases de produção, oferta, acesso ou resultado. Em análises integradas, o gasto deve ser tratado como dimensão financeira agregada.
+Limitações recorrentes do SIOPS
+
+:::
+
+O @qua-siops-limitacoes-recorrentes-do-siops sintetiza os elementos discutidos. As limitações não reduzem a importância do SIOPS; elas delimitam seu campo de uso. O sistema é essencial para acompanhar financiamento público e cumprimento legal, mas não substitui bases de produção, oferta, acesso ou resultado. Em análises integradas, o gasto deve ser tratado como dimensão financeira agregada.
 
 ## Financiamento, acesso e resultados
 
-O SIOPS é frequentemente usado em estudos que relacionam financiamento com oferta, produção ou resultados de saúde. Esse uso é legítimo, mas exige desenho cuidadoso. Gasto público é uma condição para organizar serviços, mas não prova, sozinho, que houve melhor acesso, maior eficiência ou melhor resultado sanitário.
+O SIOPS é frequentemente usado em estudos que relacionam financiamento com oferta, produção ou resultados de saúde. Esse uso é legítimo, mas exige desenho cuidadoso. Gasto público é uma condição para organizar serviços, mas não prova, sozinho, que houve melhor acesso, maior eficiência ou melhor resultado sanitário (ver @qua-siops-cuidados-ao-relacionar-financiamento-acesso-e-resultados).
+
+::: {#qua-siops-cuidados-ao-relacionar-financiamento-acesso-e-resultados}
 
 | Leitura pretendida | O que o SIOPS informa | O que precisa ser complementado |
 |---|---|---|
@@ -628,7 +755,10 @@ O SIOPS é frequentemente usado em estudos que relacionam financiamento com ofer
 | Maior gasto aumenta produção? | Esforço financeiro do ente | Produção no SIA ou SIH, prestadores e fluxos regionais |
 | Maior gasto melhora resultados? | Financiamento agregado no território | Perfil epidemiológico, tempo de resposta, qualidade e determinantes sociais |
 | Cumprimento do mínimo garante suficiência? | Situação frente ao piso legal | Necessidade de saúde, preços, rede instalada e responsabilidades locais |
-: Cuidados ao relacionar financiamento, acesso e resultados
+
+Cuidados ao relacionar financiamento, acesso e resultados
+
+:::
 
 Essa leitura evita inferência causal simples. Um gasto maior pode refletir maior necessidade, rede de referência, judicialização, investimento pontual ou custo regional mais elevado. Do mesmo modo, gasto menor pode refletir subfinanciamento, mas também diferenças de porte, responsabilidade assistencial ou classificação contábil. A relação entre financiamento e resultado deve ser tratada como hipótese analítica.
 
@@ -646,6 +776,8 @@ Ao utilizar o SIOPS, alguns cuidados são recorrentes:
 - registrar fonte, data de extração e versão da base;
 - evitar inferir acesso ou qualidade assistencial apenas a partir do gasto.
 
+::: {#qua-siops-erros-frequentes-em-analises-com-siops}
+
 | Erro | Como evitar |
 |---|---|
 | Tratar SIOPS como produção assistencial | Usar SIH, SIA, SINAN, SIM ou SINASC para eventos e produção |
@@ -656,9 +788,12 @@ Ao utilizar o SIOPS, alguns cuidados são recorrentes:
 | Interpretar percentual ASPS sem olhar a base | Conferir receitas, deduções e despesas elegíveis |
 | Tratar gasto per capita alto como melhor desempenho | Avaliar necessidade, rede regional, composição e resultados |
 | Interpretar ausência como zero | Separar dado ausente, pendente, não homologado e valor zero |
-: Erros frequentes em análises com SIOPS
 
-Os erros mais comuns decorrem de interpretar uma base financeira como se fosse uma base assistencial. O SIOPS informa esforço orçamentário declarado e aplicação legal, mas não mostra diretamente consultas, internações, cobertura efetiva ou qualidade. A redação dos resultados deve preservar essa fronteira.
+Erros frequentes em análises com SIOPS
+
+:::
+
+O @qua-siops-erros-frequentes-em-analises-com-siops sintetiza os elementos discutidos. Os erros mais comuns decorrem de interpretar uma base financeira como se fosse uma base assistencial. O SIOPS informa esforço orçamentário declarado e aplicação legal, mas não mostra diretamente consultas, internações, cobertura efetiva ou qualidade. A redação dos resultados deve preservar essa fronteira.
 
 ### Armadilhas de interpretação
 
@@ -673,7 +808,9 @@ Algumas leituras parecem intuitivas, mas são frágeis:
 
 ## Checklist de reprodutibilidade
 
-Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado.
+Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado (ver @qua-siops-itens-minimos-para-reprodutibilidade-em-analises-do-siops).
+
+::: {#qua-siops-itens-minimos-para-reprodutibilidade-em-analises-do-siops}
 
 | Item | Registrar |
 |---|---|
@@ -689,13 +826,18 @@ Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado.
 | Deflator | Índice, fonte, ano-base e fator usado |
 | Denominador | População, receita, estabelecimentos, eventos ou outro |
 | Transformações | Filtros, agregações, exclusões e tratamentos de ausentes |
-: Itens mínimos para reprodutibilidade em análises do SIOPS
+
+Itens mínimos para reprodutibilidade em análises do SIOPS
+
+:::
 
 Esse registro mínimo torna a análise auditável. Em uma base declaratória, bimestral e sujeita a retificações, reproduzir resultados depende de saber exatamente quando os dados foram extraídos, quais filtros foram aplicados e como valores monetários, fases da despesa e ausências foram tratados.
 
 ## Decisões metodológicas essenciais
 
 Antes de iniciar uma análise do SIOPS, vale registrar um conjunto mínimo de decisões. Essas escolhas definem o universo analisado, o sentido dos valores monetários e a comparabilidade dos resultados.
+
+::: {#qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops}
 
 | Decisão | Opções comuns | Impacto na interpretação |
 |---|---|---|
@@ -706,9 +848,12 @@ Antes de iniciar uma análise do SIOPS, vale registrar um conjunto mínimo de de
 | Unidade monetária | Corrente ou deflacionada | Distingue crescimento nominal de variação real |
 | Denominador | Receita, população, estabelecimentos, eventos | Define se o indicador é fiscal, per capita, estrutural ou ecológico |
 | ASPS | Inclusões, exclusões e restos a pagar | Afeta cumprimento mínimo e comparabilidade legal |
-: Decisões metodológicas antes de analisar o SIOPS
 
-Esse quadro transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.
+Decisões metodológicas antes de analisar o SIOPS
+
+:::
+
+Esse @qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.
 
 ## Checklist final
 
@@ -742,7 +887,7 @@ Antes de concluir uma análise com SIOPS, verifique se:
 
 - [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 32.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 395.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “CNES como denominador”](cnes.html#cnes-como-denominador). Na edição impressa, p. 222.
 

@@ -109,6 +109,15 @@ book:
 bibliography: references.bib
 csl: abnt.csl
 
+crossref:
+  chapters: true
+  custom:
+    - kind: float
+      key: qua
+      reference-prefix: "Quadro"
+      caption-prefix: "Quadro"
+      caption-location: top
+
 format:
   html:
     theme:

@@ -6,6 +6,8 @@ Essa distinção é essencial. O SISVAN permite analisar acompanhamentos, perfil
 
 ## Resumo
 
+::: {#qua-sisvan-caracteristicas-gerais-do-sisvan}
+
 | Característica | Descrição |
 |---|---|
 | Implantação no Brasil | Experiências iniciadas em 1977; regulamentação nacional pela Portaria MS nº 80, de 16 de outubro de 1990 |
@@ -15,7 +17,10 @@ Essa distinção é essencial. O SISVAN permite analisar acompanhamentos, perfil
 | Cobertura | Pessoas atendidas ou acompanhadas na APS e em programas que geram registros para o SISVAN |
 | Uso central | Monitoramento do estado nutricional, marcadores de consumo alimentar e ações de VAN |
 | Divulgação de dados | Relatórios públicos do SISVAN e bases anonimizadas no Portal de Dados Abertos do SUS |
-: Características gerais do SISVAN
+
+Características gerais do SISVAN
+
+:::
 
 ## Histórico e organização
 
@@ -27,7 +32,9 @@ Na prática atual, o SISVAN reúne registros produzidos por diferentes fluxos. O
 
 ## Quando usar o SISVAN
 
-Use o SISVAN quando a pergunta envolve acompanhamento nutricional na APS, cobertura de registros, perfil antropométrico da população acompanhada ou marcadores de consumo alimentar.
+Use o SISVAN quando a pergunta envolve acompanhamento nutricional na APS, cobertura de registros, perfil antropométrico da população acompanhada ou marcadores de consumo alimentar (ver @qua-sisvan-perguntas-comuns-que-podem-ser-respondidas-com-o-sisvan).
+
+::: {#qua-sisvan-perguntas-comuns-que-podem-ser-respondidas-com-o-sisvan}
 
 | Pergunta de análise | Usar SISVAN para | Cuidado principal |
 |---|---|---|
@@ -36,7 +43,10 @@ Use o SISVAN quando a pergunta envolve acompanhamento nutricional na APS, cobert
 | Como estão os marcadores de consumo alimentar? | Usar relatórios ou bases de consumo alimentar conforme faixa etária e formulário | Instrumentos e perguntas mudaram ao longo do tempo |
 | Há desigualdades territoriais no acompanhamento? | Comparar municípios, regiões e grupos acompanhados | Diferenças podem refletir capacidade de registro, não apenas situação nutricional |
 | Os dados abertos reproduzem o relatório público? | Processar microdados anonimizados e aplicar critérios de deduplicação | Relatórios públicos tendem a consolidar o último acompanhamento do indivíduo |
-: Perguntas comuns que podem ser respondidas com o SISVAN
+
+Perguntas comuns que podem ser respondidas com o SISVAN
+
+:::
 
 ::: {.callout-note}
 O SISVAN é uma base de vigilância e acompanhamento. Bons usos analíticos precisam explicitar população de referência, fonte do registro, período, critério de seleção de acompanhamentos e tratamento de registros repetidos.
@@ -44,14 +54,19 @@ O SISVAN é uma base de vigilância e acompanhamento. Bons usos analíticos prec
 
 ## Estrutura dos dados
 
-Os dados do SISVAN se concentram em dois grandes blocos: estado nutricional e consumo alimentar. O primeiro reúne informações antropométricas, como peso e altura, a partir das quais são calculados indicadores nutricionais conforme sexo, idade e fase do curso da vida. O segundo reúne respostas a formulários de marcadores de consumo alimentar, usados para acompanhar padrões alimentares na população atendida.
+Os dados do SISVAN se concentram em dois grandes blocos: estado nutricional e consumo alimentar. O primeiro reúne informações antropométricas, como peso e altura, a partir das quais são calculados indicadores nutricionais conforme sexo, idade e fase do curso da vida. O segundo reúne respostas a formulários de marcadores de consumo alimentar, usados para acompanhar padrões alimentares na população atendida (ver @qua-sisvan-blocos-de-informacao-do-sisvan).
+
+::: {#qua-sisvan-blocos-de-informacao-do-sisvan}
 
 | Bloco | Conteúdo | Uso comum | Cuidado |
 |---|---|---|---|
 | Estado nutricional | Registros antropométricos e classificações nutricionais | Avaliar baixo peso, eutrofia, excesso de peso e outros indicadores | Pode haver mais de um acompanhamento para a mesma pessoa |
 | Consumo alimentar | Marcadores de consumo conforme formulários do SISVAN | Monitorar práticas alimentares e consumo de grupos de alimentos | Comparabilidade depende do instrumento e da faixa etária |
 | Origem do acompanhamento | SISVAN, programas sociais, e-SUS APS e outros fluxos integrados | Entender captação e cobertura dos registros | A origem afeta completitude, oportunidade e duplicidade |
-: Blocos de informação do SISVAN
+
+Blocos de informação do SISVAN
+
+:::
 
 As bases individualizadas anonimizadas de estado nutricional disponíveis no Portal de Dados Abertos do SUS referem-se a pessoas atendidas quanto à antropometria em serviços de APS desde 2008. O próprio portal informa que pode haver mais de um registro para a mesma pessoa e orienta priorizar acompanhamentos por origem quando houver registros com a mesma data. Também alerta que comparações diretas com os relatórios públicos podem divergir, porque os relatórios consolidam o último acompanhamento do indivíduo e novos dados são incorporados ao sistema [@dadosabertosSISVANEstadoNutricional2026].
 
@@ -68,7 +83,9 @@ Em maio de 2026, o conjunto de dados abertos de estado nutricional indicava freq
 
 O SISVAN tende a refletir a população efetivamente acompanhada pela APS e por programas que induzem o registro. Por isso, expansão ou queda de cobertura pode decorrer tanto de mudanças na situação alimentar e nutricional quanto de mudanças na capacidade de registro, integração de sistemas, busca ativa, condicionalidades de programas sociais ou organização local da APS.
 
-Outro ponto crítico é a repetição de acompanhamentos. Uma mesma pessoa pode ter múltiplos registros em um ano ou em anos diferentes. Dependendo da pergunta, isso pode ser desejável, como em análises longitudinais de acompanhamento, ou pode distorcer estimativas, como em tabulações que deveriam representar pessoas únicas.
+Outro ponto crítico é a repetição de acompanhamentos. Uma mesma pessoa pode ter múltiplos registros em um ano ou em anos diferentes. Dependendo da pergunta, isso pode ser desejável, como em análises longitudinais de acompanhamento, ou pode distorcer estimativas, como em tabulações que deveriam representar pessoas únicas (ver @qua-sisvan-cuidados-frequentes-no-uso-de-dados-do-sisvan).
+
+::: {#qua-sisvan-cuidados-frequentes-no-uso-de-dados-do-sisvan}
 
 | Risco analítico | Consequência | Boa prática |
 |---|---|---|
@@ -77,7 +94,10 @@ Outro ponto crítico é a repetição de acompanhamentos. Uma mesma pessoa pode 
 | Comparar diretamente com inquéritos populacionais | Diferenças interpretadas como erro ou tendência real | Explicitar que o SISVAN cobre população acompanhada |
 | Misturar instrumentos de consumo alimentar | Perda de comparabilidade temporal | Conferir formulário, faixa etária e período |
 | Usar ausência de registro como ausência de problema nutricional | Subestimação de vulnerabilidades | Analisar cobertura e completitude antes dos indicadores |
-: Cuidados frequentes no uso de dados do SISVAN
+
+Cuidados frequentes no uso de dados do SISVAN
+
+:::
 
 Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e Nutricional no SUS. Seu maior valor está no acompanhamento contínuo da população atendida pela APS, na identificação de padrões e desigualdades e no apoio à gestão local. Seu uso analítico deve preservar a diferença entre dado de vigilância e estimativa populacional geral.
 
@@ -93,11 +113,11 @@ Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e N
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sisvan}
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 298.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 296.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 96.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 95.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 395.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
 
 :::
 <!-- END GENERATED SEE ALSO -->

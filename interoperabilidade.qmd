@@ -6,7 +6,9 @@ Os Sistemas de Informação em Saúde (SIS) brasileiros foram criados em épocas
 
 Interoperabilidade é a capacidade de dois ou mais sistemas trocarem informações e utilizarem corretamente o que foi recebido. Não basta transportar um arquivo de um ponto a outro: o sistema receptor precisa reconhecer sua estrutura, compreender o significado dos campos, preservar o contexto do registro e empregar a informação de acordo com regras institucionais, jurídicas e assistenciais.
 
-No SUS, a regulamentação distingue a interoperabilidade sintática da semântica. A primeira trata dos modelos e das técnicas computacionais que permitem a troca padronizada entre sistemas, redes e plataformas. A segunda depende de modelos de informação e de vocabulários padronizados — terminologias, classificações, taxonomias e ontologias — que preservem o significado para as pessoas e instituições envolvidas [@brasilPortariaConsolidacao12017]. Na prática, há ainda dimensões organizacional e jurídica: os participantes precisam definir responsabilidades, finalidades, fluxos, perfis de acesso, segurança, auditoria e resposta a incidentes.
+No SUS, a regulamentação distingue a interoperabilidade sintática da semântica. A primeira trata dos modelos e das técnicas computacionais que permitem a troca padronizada entre sistemas, redes e plataformas. A segunda depende de modelos de informação e de vocabulários padronizados — terminologias, classificações, taxonomias e ontologias — que preservem o significado para as pessoas e instituições envolvidas [@brasilPortariaConsolidacao12017]. Na prática, há ainda dimensões organizacional e jurídica: os participantes precisam definir responsabilidades, finalidades, fluxos, perfis de acesso, segurança, auditoria e resposta a incidentes (ver @qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude).
+
+::: {#qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude}
 
 | Dimensão | Pergunta central | Exemplos nos SIS |
 |---|---|---|
@@ -15,7 +17,10 @@ No SUS, a regulamentação distingue a interoperabilidade sintática da semânti
 | Semântica | O dado tem o mesmo significado na origem e no destino? | CID para diagnósticos, LOINC para observações laboratoriais e SIGTAP para procedimentos |
 | Organizacional | Os processos e as responsabilidades estão articulados? | Definição de quem registra, envia, corrige, consulta e audita |
 | Jurídica e ética | O intercâmbio tem finalidade e base legal adequadas? | Controle de acesso, minimização, rastreabilidade e proteção de dados pessoais |
-: Dimensões da interoperabilidade em saúde
+
+Dimensões da interoperabilidade em saúde
+
+:::
 
 As dimensões se acumulam. Uma mensagem pode chegar ao destino e ser sintaticamente válida, mas conter um código usado com significado diferente pelo serviço de origem. Também pode ser tecnicamente e semanticamente correta, mas ter sido consultada por um perfil sem autorização para aquela finalidade. A interoperabilidade efetiva só ocorre quando todas as dimensões necessárias ao uso estão presentes.
 
@@ -41,7 +46,9 @@ Além da integração de pessoas e eventos assistenciais, há interoperabilidade
 
 O relacionamento pode unir bases diferentes, como SIM e SINASC, ou procurar duplicidades dentro da mesma base. No primeiro caso, permite acrescentar informações sobre a trajetória de uma pessoa ou de um evento; no segundo, ajuda a identificar registros repetidos. O resultado não deve ser entendido automaticamente como verdade: trata-se de uma classificação de pares ou conjuntos de registros, sujeita a falsos positivos e falsos negativos.
 
-Interoperabilidade e *linkage* se distinguem sobretudo pelo momento e pelo mecanismo. A interoperabilidade organiza a troca entre sistemas, em geral no fluxo operacional, com contratos de informação e identificadores definidos. O *linkage* costuma atuar depois da produção dos dados, comparando registros que já existem. Uma arquitetura interoperável pode reduzir a necessidade de inferir identidades, mas não elimina o relacionamento de bases históricas, sistemas legados ou registros com identificadores ausentes e incorretos.
+Interoperabilidade e *linkage* se distinguem sobretudo pelo momento e pelo mecanismo. A interoperabilidade organiza a troca entre sistemas, em geral no fluxo operacional, com contratos de informação e identificadores definidos. O *linkage* costuma atuar depois da produção dos dados, comparando registros que já existem. Uma arquitetura interoperável pode reduzir a necessidade de inferir identidades, mas não elimina o relacionamento de bases históricas, sistemas legados ou registros com identificadores ausentes e incorretos (ver @qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros).
+
+::: {#qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros}
 
 | Aspecto | Interoperabilidade | *Linkage* |
 |---|---|---|
@@ -51,7 +58,10 @@ Interoperabilidade e *linkage* se distinguem sobretudo pelo momento e pelo mecan
 | Resultado | Informação compreensível e utilizável pelo sistema receptor | Base relacionada, chave de vínculo ou conjunto de pares |
 | Erro característico | Falha de transmissão, mapeamento ou interpretação | Falso pareamento ou perda de um par verdadeiro |
 | Relação entre ambos | Identificadores e semântica comuns facilitam o relacionamento | Pode recompor vínculos que a integração não produziu |
-: Diferenças entre interoperabilidade e relacionamento de registros
+
+Diferenças entre interoperabilidade e relacionamento de registros
+
+:::
 
 ## Principais métodos de relacionamento
 
@@ -71,7 +81,9 @@ Como comparar todos os registros de duas bases pode gerar um número impraticáv
 
 Na prática, muitos projetos combinam abordagens. Pares de alta confiança são obtidos por regras determinísticas; os registros restantes passam por comparações aproximadas de texto, tolerância em datas e um modelo probabilístico. Métodos de aprendizado de máquina também podem classificar pares a partir de exemplos previamente rotulados. Eles são úteis em bases volumosas ou com padrões complexos, mas a qualidade depende do conjunto de treinamento e da estabilidade desses padrões em outros períodos e populações.
 
-O relacionamento com preservação de privacidade transforma ou codifica identificadores antes da comparação e pode empregar resumos criptográficos, filtros de Bloom ou protocolos seguros entre instituições. Essas técnicas reduzem a exposição direta dos identificadores, mas não tornam o processo isento de risco nem dispensam governança. Parâmetros inadequados podem reduzir a qualidade do pareamento, e valores pseudonimizados continuam sujeitos à proteção de dados quando podem ser associados a uma pessoa por informação adicional [@schnellBachtelerReiher2009; @brasilLei137092018].
+O relacionamento com preservação de privacidade transforma ou codifica identificadores antes da comparação e pode empregar resumos criptográficos, filtros de Bloom ou protocolos seguros entre instituições. Essas técnicas reduzem a exposição direta dos identificadores, mas não tornam o processo isento de risco nem dispensam governança. Parâmetros inadequados podem reduzir a qualidade do pareamento, e valores pseudonimizados continuam sujeitos à proteção de dados quando podem ser associados a uma pessoa por informação adicional [@schnellBachtelerReiher2009; @brasilLei137092018] (ver @qua-interoperabilidade-metodos-de-relacionamento-de-registros).
+
+::: {#qua-interoperabilidade-metodos-de-relacionamento-de-registros}
 
 | Método | Como decide | Vantagem | Limitação principal |
 |---|---|---|---|
@@ -81,7 +93,10 @@ O relacionamento com preservação de privacidade transforma ou codifica identif
 | Híbrido | Regras estritas seguidas de comparação aproximada | Aproveita pares fáceis e concentra esforço nos difíceis | Fluxo mais complexo e dependente da ordem das etapas |
 | Aprendizado de máquina | Classificador treinado com pares rotulados | Pode representar padrões complexos e operar em escala | Depende de exemplos confiáveis e pode perder desempenho em outro contexto |
 | Preservação de privacidade | Compara representações protegidas dos identificadores | Reduz o compartilhamento de identificadores em claro | Não elimina risco, erros nem obrigações legais |
-: Métodos de relacionamento de registros
+
+Métodos de relacionamento de registros
+
+:::
 
 ## Etapas de um *linkage*
 
@@ -119,7 +134,9 @@ Também há relacionamentos que não envolvem pessoas. O CNES conecta produção
 
 Os dados disseminados ao público não são uma cópia integral das bases operacionais. Para proteger o sigilo e cumprir a legislação, produtos públicos podem retirar identificadores diretos, suprimir ou agrupar categorias, reduzir precisão de datas e localização, selecionar variáveis ou divulgar apenas agregados. No caso do SIM, o Ministério da Saúde informa expressamente que as bases públicas são anonimizadas e que campos pessoais e sensíveis são removidos antes da oferta para tabulação e obtenção de microdados [@msSIMTransparencia2026]. Outros SIS adotam produtos e procedimentos próprios, que precisam ser verificados em cada fonte e versão.
 
-As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado [@brasilLei137092018].
+As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado [@brasilLei137092018] (ver @qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais).
+
+::: {#qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais}
 
 | Característica | Produto público | Base de acesso institucional |
 |---|---|---|
@@ -129,7 +146,10 @@ As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua co
 | Atualização | Segue calendário e versão de disseminação | Pode acompanhar fluxos preliminares, correções e consolidações |
 | Acesso | Aberto ou sujeito às condições do portal | Controlado por perfil, finalidade, órgão e ambiente |
 | Possibilidade de *linkage* individual | Limitada pelos campos divulgados e pelo risco de reidentificação | Maior quando há identificadores e base legal para o relacionamento |
-: Diferenças gerais entre produtos públicos e bases institucionais
+
+Diferenças gerais entre produtos públicos e bases institucionais
+
+:::
 
 A retirada de identificadores afeta diretamente o *linkage*. Sem uma chave comum, o relacionamento determinístico individual pode tornar-se impossível; sem nomes, datas completas ou localização detalhada, o probabilístico perde poder de discriminação. Ainda pode ser possível integrar dados em nível agregado — por município, estabelecimento, período ou categoria — mas isso responde a perguntas ecológicas e administrativas, não recompõe trajetórias individuais.
 
@@ -158,11 +178,11 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-interoperabilidade}
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 344.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 338.
 
 - [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 54.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 416.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 410.
 
 :::
 <!-- END GENERATED SEE ALSO -->

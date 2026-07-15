@@ -1,6 +1,8 @@
 # Agência Nacional de Saúde Suplementar - ANS {#sec-ans}
 
-A Agência Nacional de Saúde Suplementar (ANS) é a agência reguladora federal responsável pelo setor de planos privados de assistência à saúde. Vinculada ao Ministério da Saúde, ela é uma autarquia sob regime especial, com autonomia administrativa, financeira e técnica, sede no Rio de Janeiro e atuação em todo o território nacional. A Lei nº 9.961, de 28 de janeiro de 2000, atribuiu-lhe funções de regulação, normatização, controle e fiscalização das atividades que garantem a assistência suplementar à saúde [@brasilLei99612000].
+A Agência Nacional de Saúde Suplementar (ANS) é a agência reguladora federal responsável pelo setor de planos privados de assistência à saúde. Vinculada ao Ministério da Saúde, ela é uma autarquia sob regime especial, com autonomia administrativa, financeira e técnica, sede no Rio de Janeiro e atuação em todo o território nacional. A Lei nº 9.961, de 28 de janeiro de 2000, atribuiu-lhe funções de regulação, normatização, controle e fiscalização das atividades que garantem a assistência suplementar à saúde [@brasilLei99612000] (ver @qua-ans-caracteristicas-gerais-da-ans).
+
+::: {#qua-ans-caracteristicas-gerais-da-ans}
 
 | Característica | Descrição |
 |---|---|
@@ -11,7 +13,10 @@ A Agência Nacional de Saúde Suplementar (ANS) é a agência reguladora federal
 | Objetivo institucional | Defender o interesse público na assistência suplementar à saúde e regular as relações entre operadoras, prestadores e beneficiários |
 | Fontes de informação | Cadastros de operadoras, planos e beneficiários; dados assistenciais, econômico-financeiros, de fiscalização e de ressarcimento ao SUS |
 | Formas públicas de acesso | Dados abertos, arquivos para transferência, TabNet, painéis e publicações setoriais |
-: Características gerais da ANS
+
+Características gerais da ANS
+
+:::
 
 O campo de atuação da Agência precisa ser delimitado com precisão. A ANS não regula diretamente toda consulta, clínica ou hospital privado do país. Sua competência está concentrada nas relações organizadas por planos privados de assistência à saúde: autorização e acompanhamento de operadoras e produtos, coberturas contratadas, garantias dos beneficiários, rede assistencial, equilíbrio econômico-financeiro, padrões de informação e fiscalização. Serviços privados pagos diretamente pelas pessoas, sem intermediação de um plano, não passam a integrar o setor regulado apenas por serem privados.
 
@@ -25,7 +30,9 @@ Saúde suplementar designa a assistência intermediada por planos privados. Ela 
 
 A Constituição Federal de 1988 consolidou a saúde como direito de todos e dever do Estado, instituiu as bases do SUS e permitiu a atuação da iniciativa privada na assistência à saúde. Durante a década seguinte, o mercado de planos operou sem uma agência setorial e com regras fragmentadas, embora seguradoras já estivessem submetidas ao controle econômico-financeiro da Superintendência de Seguros Privados.
 
-A Lei nº 9.656, de 3 de junho de 1998, estabeleceu o marco legal dos planos e seguros privados de assistência à saúde. A norma definiu produtos e operadoras, instituiu exigências de cobertura e contratação, disciplinou registros e criou a obrigação de ressarcimento ao SUS pelos atendimentos sujeitos aos critérios legais [@brasilLei96561998]. Dois anos depois, a Lei nº 9.961/2000 criou a ANS e reuniu em uma agência especializada a regulação assistencial e econômico-financeira do setor.
+A Lei nº 9.656, de 3 de junho de 1998, estabeleceu o marco legal dos planos e seguros privados de assistência à saúde. A norma definiu produtos e operadoras, instituiu exigências de cobertura e contratação, disciplinou registros e criou a obrigação de ressarcimento ao SUS pelos atendimentos sujeitos aos critérios legais [@brasilLei96561998]. Dois anos depois, a Lei nº 9.961/2000 criou a ANS e reuniu em uma agência especializada a regulação assistencial e econômico-financeira do setor (ver @qua-ans-marcos-selecionados-da-regulacao-da-saude-suplementar).
+
+::: {#qua-ans-marcos-selecionados-da-regulacao-da-saude-suplementar}
 
 | Ano | Marco | Efeito principal |
 |---|---|---|
@@ -36,7 +43,10 @@ A Lei nº 9.656, de 3 de junho de 1998, estabeleceu o marco legal dos planos e s
 | 2011 e 2022 | Garantia de atendimento | Estabelece e consolida prazos e responsabilidades para acesso dos beneficiários aos serviços cobertos |
 | 2019 | Lei nº 13.848 | Uniformiza regras de gestão, decisão, transparência e controle social das agências reguladoras |
 | 2022 | Leis nº 14.307 e nº 14.454 | Reformulam o processo de atualização do Rol e definem critérios legais para coberturas não incluídas na lista |
-: Marcos selecionados da regulação da saúde suplementar
+
+Marcos selecionados da regulação da saúde suplementar
+
+:::
 
 O padrão de Troca de Informações na Saúde Suplementar (TISS), instituído em 2005 e atualizado ao longo do tempo, tornou obrigatória a padronização das trocas eletrônicas de dados de atenção à saúde entre os agentes do setor. Ele organiza componentes, mensagens e terminologias usados por prestadores e operadoras, subsidia o acompanhamento assistencial e econômico e tem a interoperabilidade com sistemas do Ministério da Saúde entre suas diretrizes [@ansTISS2026]. A Terminologia Unificada da Saúde Suplementar (TUSS) integra esse padrão e identifica procedimentos, itens e conceitos empregados nas transações.
 
@@ -50,7 +60,9 @@ O estoque regulatório da ANS é atualizado e consolidado periodicamente. Para d
 
 ## Para que serve a ANS
 
-A finalidade legal da Agência é promover a defesa do interesse público na assistência suplementar à saúde, regulando as operadoras e contribuindo para o desenvolvimento das ações de saúde no país. Isso envolve interesses que podem entrar em tensão: acesso e proteção dos beneficiários, qualidade assistencial, sustentabilidade das operadoras, remuneração e organização da rede prestadora, concorrência e articulação com o SUS.
+A finalidade legal da Agência é promover a defesa do interesse público na assistência suplementar à saúde, regulando as operadoras e contribuindo para o desenvolvimento das ações de saúde no país. Isso envolve interesses que podem entrar em tensão: acesso e proteção dos beneficiários, qualidade assistencial, sustentabilidade das operadoras, remuneração e organização da rede prestadora, concorrência e articulação com o SUS (ver @qua-ans-principais-areas-de-atuacao-da-ans).
+
+::: {#qua-ans-principais-areas-de-atuacao-da-ans}
 
 | Área de atuação | Exemplos de atividades |
 |---|---|
@@ -61,7 +73,10 @@ A finalidade legal da Agência é promover a defesa do interesse público na ass
 | Qualidade | Avaliar desempenho de operadoras, atenção à saúde, acesso, sustentabilidade e qualidade dos dados |
 | Informação e interoperabilidade | Manter cadastros, estabelecer TISS e TUSS e receber dados periódicos das operadoras |
 | Relação com o SUS | Identificar atendimentos de beneficiários no SUS, processar o ressarcimento e produzir informações setoriais |
-: Principais áreas de atuação da ANS
+
+Principais áreas de atuação da ANS
+
+:::
 
 A Agência registra operadoras e planos, acompanha alterações de rede, monitora garantias financeiras e pode determinar medidas corretivas quando identifica problemas assistenciais ou econômico-financeiros. O Rol delimita a referência de cobertura obrigatória conforme a segmentação do produto, enquanto regras de garantia de atendimento tratam da disponibilidade do serviço dentro dos prazos e da área aplicáveis.
 
@@ -71,7 +86,9 @@ O Índice de Desempenho da Saúde Suplementar (IDSS) sintetiza dimensões relaci
 
 ## Sistemas e fluxos de informação da saúde suplementar
 
-A regulação depende de diferentes sistemas, pois beneficiário, plano, operadora, atendimento e situação financeira são unidades distintas. A existência de um padrão comum não transforma esses registros em uma única base nem elimina diferenças de finalidade.
+A regulação depende de diferentes sistemas, pois beneficiário, plano, operadora, atendimento e situação financeira são unidades distintas. A existência de um padrão comum não transforma esses registros em uma única base nem elimina diferenças de finalidade (ver @qua-ans-fontes-de-informacao-usadas-na-regulacao-da-saude-suplementar).
+
+::: {#qua-ans-fontes-de-informacao-usadas-na-regulacao-da-saude-suplementar}
 
 | Fonte | Conteúdo principal | Unidade ou lógica de registro |
 |---|---|---|
@@ -83,7 +100,10 @@ A regulação depende de diferentes sistemas, pois beneficiário, plano, operado
 | Documento de Informações Periódicas das Operadoras de Planos de Assistência à Saúde (DIOPS) | Demonstrações e informações econômico-financeiras | Operadora e período contábil |
 | Fiscalização e NIP | Demandas, reclamações, intermediações e processos | Demanda ou processo regulatório |
 | Ressarcimento ao SUS | Atendimentos identificados, avisos, impugnações, cobranças e pagamentos | Atendimento de beneficiário no SUS e processo administrativo |
-: Fontes de informação usadas na regulação da saúde suplementar
+
+Fontes de informação usadas na regulação da saúde suplementar
+
+:::
 
 O SIB recebe atualizações cadastrais mensais das operadoras. Sua lógica é de vínculos, não necessariamente de pessoas únicas: alguém associado a dois produtos pode ter dois registros e dois códigos de controle operacional. Por isso, totais divulgados como “beneficiários” precisam ser lidos segundo a definição do conjunto consultado, especialmente em análises de cobertura populacional [@ansSIB2024].
 
@@ -109,7 +129,9 @@ Os principais pontos de entrada são:
 
 -   [Dados e Publicações do Ressarcimento ao SUS](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/dados-e-publicacoes-do-ressarcimento-ao-sus), com bases, painéis e boletins sobre atendimentos de beneficiários no SUS.
 
-Entre os conjuntos mais úteis estão os de beneficiários por município, faixa etária, sexo, operadora, modalidade e tipo de contratação; cadastros de operadoras ativas e canceladas; características e abrangência dos planos; rede de prestadores; procedimentos ambulatoriais e hospitalares informados pelo TISS; produção assistencial do SIP; demonstrações contábeis; receitas e despesas; reajustes; reclamações; IDSS; e ressarcimento ao SUS.
+Entre os conjuntos mais úteis estão os de beneficiários por município, faixa etária, sexo, operadora, modalidade e tipo de contratação; cadastros de operadoras ativas e canceladas; características e abrangência dos planos; rede de prestadores; procedimentos ambulatoriais e hospitalares informados pelo TISS; produção assistencial do SIP; demonstrações contábeis; receitas e despesas; reajustes; reclamações; IDSS; e ressarcimento ao SUS (ver @qua-ans-usos-e-limites-de-grupos-de-dados-divulgados-pela-ans).
+
+::: {#qua-ans-usos-e-limites-de-grupos-de-dados-divulgados-pela-ans}
 
 | Grupo de dados | Perguntas possíveis | Cuidados principais |
 |---|---|---|
@@ -120,7 +142,10 @@ Entre os conjuntos mais úteis estão os de beneficiários por município, faixa
 | Econômico-financeiros | Como evoluem receitas, despesas e solvência? | Regime contábil não equivale à data clínica do atendimento |
 | Qualidade e reclamações | Como operadoras se comparam nos indicadores regulatórios? | Metodologia, elegibilidade e ano-base precisam acompanhar o resultado |
 | Ressarcimento ao SUS | Que atendimentos de beneficiários foram identificados e cobrados? | Identificação, cobrança, pagamento e atendimento são etapas diferentes |
-: Usos e limites de grupos de dados divulgados pela ANS
+
+Usos e limites de grupos de dados divulgados pela ANS
+
+:::
 
 Os produtos públicos não expõem toda a base operacional. Informações pessoais do SIB e registros individualizados de atenção são protegidos; arquivos públicos podem estar agregados, anonimizados ou ter variáveis selecionadas. A ausência de identificadores limita o relacionamento individual com outros SIS, mas ainda permite integração por município, período, estabelecimento, operadora, faixa etária ou categoria de procedimento.
 
@@ -132,7 +157,9 @@ A primeira decisão ao integrar ANS e SIS é definir quem e o que cada fonte obs
 
 O SISAB e o Siaps descrevem atividades da APS no SUS em períodos e arranjos operacionais distintos. Em contraste, TISS e SIP refletem atenção intermediada por operadoras. Consultas e procedimentos privados pagos diretamente pelas famílias podem ficar fora dos dois domínios, pois não foram financiados pelo SUS nem por um plano.
 
-Nem todos os SIS, contudo, se restringem à dimensão pública. SIM e SINASC têm pretensão nacional e registram óbitos e nascimentos ocorridos nos setores público e privado. SINAN recebe notificações compulsórias originadas em serviços públicos e privados. O CNES cadastra estabelecimentos de diferentes naturezas e vínculos. Essas fontes podem funcionar como referências nacionais ou pontes de integração, embora sua cobertura e qualidade precisem ser avaliadas em cada uso.
+Nem todos os SIS, contudo, se restringem à dimensão pública. SIM e SINASC têm pretensão nacional e registram óbitos e nascimentos ocorridos nos setores público e privado. SINAN recebe notificações compulsórias originadas em serviços públicos e privados. O CNES cadastra estabelecimentos de diferentes naturezas e vínculos. Essas fontes podem funcionar como referências nacionais ou pontes de integração, embora sua cobertura e qualidade precisem ser avaliadas em cada uso (ver @qua-ans-possibilidades-e-limites-da-integracao-entre-dados-da-ans-e-sis).
+
+::: {#qua-ans-possibilidades-e-limites-da-integracao-entre-dados-da-ans-e-sis}
 
 | Fonte da ANS | SIS relacionado | O que a combinação pode mostrar | Limite essencial |
 |---|---|---|---|
@@ -142,7 +169,10 @@ Nem todos os SIS, contudo, se restringem à dimensão pública. SIM e SINASC tê
 | SIB e TISS | SISAB | Relação entre cobertura por planos e produção da APS pública | Dados agregados não demonstram substituição individual entre serviços |
 | Rede das operadoras | CNES | Localização, natureza e capacidade dos prestadores | Rede contratada, cadastro ativo e produção realizada são conceitos distintos |
 | SIB | SIM, SINASC ou SINAN | Desfechos e eventos entre beneficiários, mediante governança | Esses SIS não representam apenas a dimensão pública e o vínculo individual exige dados protegidos |
-: Possibilidades e limites da integração entre dados da ANS e SIS
+
+Possibilidades e limites da integração entre dados da ANS e SIS
+
+:::
 
 ### Ressarcimento ao SUS como integração institucional
 
@@ -191,7 +221,7 @@ Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileir
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 221.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 428.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 422.
 
 :::
 <!-- END GENERATED SEE ALSO -->

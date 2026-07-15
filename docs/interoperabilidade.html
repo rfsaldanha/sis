@@ -540,9 +540,14 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <section id="o-que-é-interoperabilidade" class="level2" data-number="H.1">
 <h2 data-number="H.1" class="anchored" data-anchor-id="o-que-é-interoperabilidade"><span class="header-section-number">H.1</span> O que é interoperabilidade</h2>
 <p>Interoperabilidade é a capacidade de dois ou mais sistemas trocarem informações e utilizarem corretamente o que foi recebido. Não basta transportar um arquivo de um ponto a outro: o sistema receptor precisa reconhecer sua estrutura, compreender o significado dos campos, preservar o contexto do registro e empregar a informação de acordo com regras institucionais, jurídicas e assistenciais.</p>
-<p>No SUS, a regulamentação distingue a interoperabilidade sintática da semântica. A primeira trata dos modelos e das técnicas computacionais que permitem a troca padronizada entre sistemas, redes e plataformas. A segunda depende de modelos de informação e de vocabulários padronizados — terminologias, classificações, taxonomias e ontologias — que preservem o significado para as pessoas e instituições envolvidas <span class="citation" data-cites="brasilPortariaConsolidacao12017">(<a href="referencias.html#ref-brasilPortariaConsolidacao12017" role="doc-biblioref">BRASIL, 2017</a>)</span>. Na prática, há ainda dimensões organizacional e jurídica: os participantes precisam definir responsabilidades, finalidades, fluxos, perfis de acesso, segurança, auditoria e resposta a incidentes.</p>
+<p>No SUS, a regulamentação distingue a interoperabilidade sintática da semântica. A primeira trata dos modelos e das técnicas computacionais que permitem a troca padronizada entre sistemas, redes e plataformas. A segunda depende de modelos de informação e de vocabulários padronizados — terminologias, classificações, taxonomias e ontologias — que preservem o significado para as pessoas e instituições envolvidas <span class="citation" data-cites="brasilPortariaConsolidacao12017">(<a href="referencias.html#ref-brasilPortariaConsolidacao12017" role="doc-biblioref">BRASIL, 2017</a>)</span>. Na prática, há ainda dimensões organizacional e jurídica: os participantes precisam definir responsabilidades, finalidades, fluxos, perfis de acesso, segurança, auditoria e resposta a incidentes (ver <a href="#qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude" class="quarto-xref">Quadro&nbsp;<span>H.1</span></a>).</p>
+<div id="qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-qua figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Quadro&nbsp;H.1: Dimensões da interoperabilidade em saúde
+</figcaption>
+<div aria-describedby="qua-interoperabilidade-dimensoes-da-interoperabilidade-em-saude-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
-<caption>Dimensões da interoperabilidade em saúde</caption>
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -583,6 +588,9 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 <p>As dimensões se acumulam. Uma mensagem pode chegar ao destino e ser sintaticamente válida, mas conter um código usado com significado diferente pelo serviço de origem. Também pode ser tecnicamente e semanticamente correta, mas ter sido consultada por um perfil sem autorização para aquela finalidade. A interoperabilidade efetiva só ocorre quando todas as dimensões necessárias ao uso estão presentes.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Integração e interoperabilidade">
 <div class="callout-header d-flex align-content-center">
@@ -610,9 +618,14 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <h2 data-number="H.3" class="anchored" data-anchor-id="o-que-é-linkage"><span class="header-section-number">H.3</span> O que é <em>linkage</em></h2>
 <p><em>Linkage</em>, ou relacionamento de registros, é o processo de identificar quais registros de uma ou mais bases se referem à mesma entidade do mundo real. A entidade pode ser uma pessoa, um estabelecimento, um episódio assistencial, uma gestação ou outro objeto de interesse. O termo costuma ser empregado para o relacionamento de pessoas quando não existe, não está disponível ou não é confiável uma chave única comum às bases.</p>
 <p>O relacionamento pode unir bases diferentes, como SIM e SINASC, ou procurar duplicidades dentro da mesma base. No primeiro caso, permite acrescentar informações sobre a trajetória de uma pessoa ou de um evento; no segundo, ajuda a identificar registros repetidos. O resultado não deve ser entendido automaticamente como verdade: trata-se de uma classificação de pares ou conjuntos de registros, sujeita a falsos positivos e falsos negativos.</p>
-<p>Interoperabilidade e <em>linkage</em> se distinguem sobretudo pelo momento e pelo mecanismo. A interoperabilidade organiza a troca entre sistemas, em geral no fluxo operacional, com contratos de informação e identificadores definidos. O <em>linkage</em> costuma atuar depois da produção dos dados, comparando registros que já existem. Uma arquitetura interoperável pode reduzir a necessidade de inferir identidades, mas não elimina o relacionamento de bases históricas, sistemas legados ou registros com identificadores ausentes e incorretos.</p>
+<p>Interoperabilidade e <em>linkage</em> se distinguem sobretudo pelo momento e pelo mecanismo. A interoperabilidade organiza a troca entre sistemas, em geral no fluxo operacional, com contratos de informação e identificadores definidos. O <em>linkage</em> costuma atuar depois da produção dos dados, comparando registros que já existem. Uma arquitetura interoperável pode reduzir a necessidade de inferir identidades, mas não elimina o relacionamento de bases históricas, sistemas legados ou registros com identificadores ausentes e incorretos (ver <a href="#qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros" class="quarto-xref">Quadro&nbsp;<span>H.2</span></a>).</p>
+<div id="qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-qua figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Quadro&nbsp;H.2: Diferenças entre interoperabilidade e relacionamento de registros
+</figcaption>
+<div aria-describedby="qua-interoperabilidade-diferencas-entre-interoperabilidade-e-relacionamento-de-registros-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
-<caption>Diferenças entre interoperabilidade e relacionamento de registros</caption>
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -658,6 +671,9 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 </section>
 <section id="principais-métodos-de-relacionamento" class="level2" data-number="H.4">
 <h2 data-number="H.4" class="anchored" data-anchor-id="principais-métodos-de-relacionamento"><span class="header-section-number">H.4</span> Principais métodos de relacionamento</h2>
@@ -674,9 +690,14 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <section id="estratégias-híbridas-e-métodos-de-classificação" class="level3" data-number="H.4.3">
 <h3 data-number="H.4.3" class="anchored" data-anchor-id="estratégias-híbridas-e-métodos-de-classificação"><span class="header-section-number">H.4.3</span> Estratégias híbridas e métodos de classificação</h3>
 <p>Na prática, muitos projetos combinam abordagens. Pares de alta confiança são obtidos por regras determinísticas; os registros restantes passam por comparações aproximadas de texto, tolerância em datas e um modelo probabilístico. Métodos de aprendizado de máquina também podem classificar pares a partir de exemplos previamente rotulados. Eles são úteis em bases volumosas ou com padrões complexos, mas a qualidade depende do conjunto de treinamento e da estabilidade desses padrões em outros períodos e populações.</p>
-<p>O relacionamento com preservação de privacidade transforma ou codifica identificadores antes da comparação e pode empregar resumos criptográficos, filtros de Bloom ou protocolos seguros entre instituições. Essas técnicas reduzem a exposição direta dos identificadores, mas não tornam o processo isento de risco nem dispensam governança. Parâmetros inadequados podem reduzir a qualidade do pareamento, e valores pseudonimizados continuam sujeitos à proteção de dados quando podem ser associados a uma pessoa por informação adicional <span class="citation" data-cites="schnellBachtelerReiher2009 brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>; <a href="referencias.html#ref-schnellBachtelerReiher2009" role="doc-biblioref">SCHNELL; BACHTELER; REIHER, 2009</a>)</span>.</p>
+<p>O relacionamento com preservação de privacidade transforma ou codifica identificadores antes da comparação e pode empregar resumos criptográficos, filtros de Bloom ou protocolos seguros entre instituições. Essas técnicas reduzem a exposição direta dos identificadores, mas não tornam o processo isento de risco nem dispensam governança. Parâmetros inadequados podem reduzir a qualidade do pareamento, e valores pseudonimizados continuam sujeitos à proteção de dados quando podem ser associados a uma pessoa por informação adicional <span class="citation" data-cites="schnellBachtelerReiher2009 brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>; <a href="referencias.html#ref-schnellBachtelerReiher2009" role="doc-biblioref">SCHNELL; BACHTELER; REIHER, 2009</a>)</span> (ver <a href="#qua-interoperabilidade-metodos-de-relacionamento-de-registros" class="quarto-xref">Quadro&nbsp;<span>H.3</span></a>).</p>
+<div id="qua-interoperabilidade-metodos-de-relacionamento-de-registros" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-qua figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-interoperabilidade-metodos-de-relacionamento-de-registros-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Quadro&nbsp;H.3: Métodos de relacionamento de registros
+</figcaption>
+<div aria-describedby="qua-interoperabilidade-metodos-de-relacionamento-de-registros-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
-<caption>Métodos de relacionamento de registros</caption>
 <colgroup>
 <col style="width: 25%">
 <col style="width: 25%">
@@ -730,6 +751,9 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 </section>
 </section>
 <section id="etapas-de-um-linkage" class="level2" data-number="H.5">
@@ -757,9 +781,14 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <section id="dados-públicos-e-bases-institucionais" class="level2" data-number="H.7">
 <h2 data-number="H.7" class="anchored" data-anchor-id="dados-públicos-e-bases-institucionais"><span class="header-section-number">H.7</span> Dados públicos e bases institucionais</h2>
 <p>Os dados disseminados ao público não são uma cópia integral das bases operacionais. Para proteger o sigilo e cumprir a legislação, produtos públicos podem retirar identificadores diretos, suprimir ou agrupar categorias, reduzir precisão de datas e localização, selecionar variáveis ou divulgar apenas agregados. No caso do SIM, o Ministério da Saúde informa expressamente que as bases públicas são anonimizadas e que campos pessoais e sensíveis são removidos antes da oferta para tabulação e obtenção de microdados <span class="citation" data-cites="msSIMTransparencia2026">(<a href="referencias.html#ref-msSIMTransparencia2026" role="doc-biblioref">BRASIL, 2026a</a>)</span>. Outros SIS adotam produtos e procedimentos próprios, que precisam ser verificados em cada fonte e versão.</p>
-<p>As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado <span class="citation" data-cites="brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>)</span>.</p>
+<p>As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado <span class="citation" data-cites="brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>)</span> (ver <a href="#qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais" class="quarto-xref">Quadro&nbsp;<span>H.4</span></a>).</p>
+<div id="qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-qua figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Quadro&nbsp;H.4: Diferenças gerais entre produtos públicos e bases institucionais
+</figcaption>
+<div aria-describedby="qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
-<caption>Diferenças gerais entre produtos públicos e bases institucionais</caption>
 <colgroup>
 <col style="width: 33%">
 <col style="width: 33%">
@@ -805,6 +834,9 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 <p>A retirada de identificadores afeta diretamente o <em>linkage</em>. Sem uma chave comum, o relacionamento determinístico individual pode tornar-se impossível; sem nomes, datas completas ou localização detalhada, o probabilístico perde poder de discriminação. Ainda pode ser possível integrar dados em nível agregado — por município, estabelecimento, período ou categoria — mas isso responde a perguntas ecológicas e administrativas, não recompõe trajetórias individuais.</p>
 <p>Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam ao estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de <em>linkage</em>, mesmo em um ambiente mais interoperável.</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Interoperabilidade não é abertura">
@@ -836,9 +868,9 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <section id="sec-veja-tambem-interoperabilidade" class="level2" data-number="H.10">
 <h2 data-number="H.10" class="anchored" data-anchor-id="sec-veja-tambem-interoperabilidade"><span class="header-section-number">H.10</span> Veja também</h2>
 <ul>
-<li><p><a href="rnds.html#fhir-terminologias-e-semântica">RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”</a>. Na edição impressa, p.&nbsp;344.</p></li>
+<li><p><a href="rnds.html#fhir-terminologias-e-semântica">RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”</a>. Na edição impressa, p.&nbsp;338.</p></li>
 <li><p><a href="eventos.html#relacionamento-entre-sistemas">Eventos de saúde — seção “Relacionamento entre sistemas”</a>. Na edição impressa, p.&nbsp;54.</p></li>
-<li><p><a href="ans.html#integração-com-dados-dos-sis">Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”</a>. Na edição impressa, p.&nbsp;416.</p></li>
+<li><p><a href="ans.html#integração-com-dados-dos-sis">Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”</a>. Na edição impressa, p.&nbsp;410.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

@@ -2,7 +2,7 @@
 
 # Lista de siglas {.unnumbered .unlisted}
 
-Esta lista reúne as siglas, os acrônimos e as abreviações empregados no texto, nas tabelas e nas figuras do livro. Quando uma mesma forma tem mais de um significado, os sentidos são indicados na mesma entrada. Códigos da CID, nomes de variáveis e prefixos técnicos de arquivos não são tratados como siglas, pois funcionam como identificadores e são explicados nos respectivos capítulos e apêndices.
+Esta lista reúne as siglas, os acrônimos e as abreviações empregados no texto, nos quadros e nas figuras do livro. Quando uma mesma forma tem mais de um significado, os sentidos são indicados na mesma entrada. Códigos da CID, nomes de variáveis e prefixos técnicos de arquivos não são tratados como siglas, pois funcionam como identificadores e são explicados nos respectivos capítulos e apêndices.
 
 ```{=typst}
 #[

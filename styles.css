@@ -1,3 +1,18 @@
+/*
+ * Conforme a distinção editorial adotada pelo IBGE, quadros organizam
+ * conteúdo predominantemente textual e usam grade fechada. Tabelas
+ * estatísticas permanecem reservadas à apresentação de dados numéricos.
+ */
+.quarto-float-qua table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.quarto-float-qua table th,
+.quarto-float-qua table td {
+  border: 1px solid var(--bs-border-color, #777) !important;
+}
+
 .timevis {
     height: auto !important;
     min-height: 0;

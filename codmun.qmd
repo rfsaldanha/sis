@@ -6,13 +6,15 @@ always_allow_html: true
 
 Os códigos de município são identificadores territoriais fundamentais nos Sistemas de Informação em Saúde (SIS). Eles aparecem em campos como município de residência, município de ocorrência, município de atendimento, município de notificação e município do estabelecimento. Esses campos permitem agregar eventos, calcular indicadores e relacionar bases diferentes, mas cada um responde a uma pergunta territorial distinta.
 
-No Brasil, a referência oficial é a tabela de códigos de municípios do IBGE. O código completo possui 7 dígitos: os dois primeiros identificam a Unidade da Federação (UF), os quatro dígitos seguintes identificam o município dentro da UF, e o último dígito é o dígito verificador. O IBGE informa que essa tabela é atualizada sistematicamente para incorporar criação de municípios, mudanças de nome, fusões e outras alterações territoriais [@ibgeCodigosMunicipios2026].
+No Brasil, a referência oficial é a relação de códigos de municípios do IBGE. O código completo possui 7 dígitos: os dois primeiros identificam a Unidade da Federação (UF), os quatro dígitos seguintes identificam o município dentro da UF, e o último dígito é o dígito verificador. O IBGE informa que essa relação é atualizada sistematicamente para incorporar criação de municípios, mudanças de nome, fusões e outras alterações territoriais [@ibgeCodigosMunicipios2026].
 
 ::: {.callout-note}
 Muitos SIS usam o código municipal com 6 dígitos, sem o dígito verificador. Por isso, antes de juntar bases, verifique se os códigos estão em formato de 6 ou 7 dígitos e padronize explicitamente.
 :::
 
 ## Resumo
+
+::: {#qua-codmun-caracteristicas-gerais-dos-codigos-municipais}
 
 | Característica | Descrição |
 |---|---|
@@ -23,11 +25,16 @@ Muitos SIS usam o código municipal com 6 dígitos, sem o dígito verificador. P
 | Próximos quatro dígitos | Código do município dentro da UF |
 | Último dígito | Dígito verificador no código completo do IBGE |
 | Uso central nos SIS | Identificar território de residência, ocorrência, atendimento, notificação ou estabelecimento |
-: Características gerais dos códigos municipais
+
+Características gerais dos códigos municipais
+
+:::
 
 ## Quando usar
 
-Use códigos municipais quando a pergunta envolve território, agregação espacial, indicadores por município ou relacionamento entre bases. O ponto central é distinguir o tipo de território representado pelo campo.
+Use códigos municipais quando a pergunta envolve território, agregação espacial, indicadores por município ou relacionamento entre bases. O ponto central é distinguir o tipo de território representado pelo campo (ver @qua-codmun-perguntas-comuns-envolvendo-codigos-municipais).
+
+::: {#qua-codmun-perguntas-comuns-envolvendo-codigos-municipais}
 
 | Pergunta de análise | Campo territorial adequado | Cuidado principal |
 |---|---|---|
@@ -36,11 +43,16 @@ Use códigos municipais quando a pergunta envolve território, agregação espac
 | Onde o atendimento foi realizado? | Município de atendimento ou estabelecimento | Mede produção ou oferta local, não cobertura da população residente |
 | Onde o caso foi notificado? | Município de notificação | Pode diferir do local provável de infecção |
 | Como juntar SIS com população ou malha? | Código municipal padronizado | Conferir 6/7 dígitos, ano da divisão territorial e códigos ausentes |
-: Perguntas comuns envolvendo códigos municipais
+
+Perguntas comuns envolvendo códigos municipais
+
+:::
 
 ## Estrutura do código
 
-O código municipal completo do IBGE pode ser entendido como uma composição de UF, município e dígito verificador. Por exemplo, o código de Belo Horizonte, MG, é `3106200`.
+O código municipal completo do IBGE pode ser entendido como uma composição de UF, município e dígito verificador. Por exemplo, o código de Belo Horizonte, MG, é `3106200` (ver @qua-codmun-estrutura-do-codigo-municipal).
+
+::: {#qua-codmun-estrutura-do-codigo-municipal}
 
 | Parte | Exemplo | Significado |
 |---|---|---|
@@ -49,13 +61,16 @@ O código municipal completo do IBGE pode ser entendido como uma composição de
 | `0` | `0` | Dígito verificador |
 | `310620` | `310620` | Formato de 6 dígitos frequente em SIS |
 | `3106200` | `3106200` | Código completo de 7 dígitos do IBGE |
-: Estrutura do código municipal
+
+Estrutura do código municipal
+
+:::
 
 Em arquivos de saúde, campos como `CODMUNRES`, `MUN_RES`, `MUNIC_RES`, `CODMUNOCOR`, `MUN_NOT` ou `CODMUN` podem aparecer com nomes e tamanhos diferentes. O nome do campo não basta: consulte sempre o dicionário da base para confirmar se o código é de residência, ocorrência, atendimento, notificação ou estabelecimento.
 
-## Tabela de códigos
+## Quadro de códigos
 
-A tabela abaixo, gerada com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa "Procurar".
+O quadro abaixo, gerado com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa "Procurar".
 
 ::: {.content-visible when-format="html"}
 
@@ -104,7 +119,9 @@ O projeto [IBGE Cidades](https://cidades.ibge.gov.br) também permite consultar 
 
 O IBGE é responsável pela Divisão Territorial Brasileira (DTB), que organiza unidades territoriais como municípios, distritos e subdistritos. A DTB é atualizada para refletir alterações legais e administrativas, incluindo criação, extinção, fusão, mudança de nome e alteração de limites territoriais [@ibgeDTB2026].
 
-Essa dimensão temporal importa para séries históricas. Um código válido em um ano pode não existir em outro; um município pode ser criado por desmembramento; limites podem mudar; e alguns indicadores podem precisar ser recompostos para manter uma área comparável ao longo do tempo.
+Essa dimensão temporal importa para séries históricas. Um código válido em um ano pode não existir em outro; um município pode ser criado por desmembramento; limites podem mudar; e alguns indicadores podem precisar ser recompostos para manter uma área comparável ao longo do tempo (ver @qua-codmun-mudancas-territoriais-e-efeitos-analiticos).
+
+::: {#qua-codmun-mudancas-territoriais-e-efeitos-analiticos}
 
 | Situação | Efeito na análise | Boa prática |
 |---|---|---|
@@ -113,7 +130,10 @@ Essa dimensão temporal importa para séries históricas. Um código válido em 
 | Mudança de nome | Código pode permanecer, mas rótulo muda | Usar código como chave e nome como atributo |
 | Alteração de limites | População e eventos podem mudar de área | Evitar comparar sem considerar a malha do período |
 | Município ignorado ou estrangeiro | Pode aparecer como código especial ou ausente | Tratar separadamente de municípios válidos |
-: Mudanças territoriais e efeitos analíticos
+
+Mudanças territoriais e efeitos analíticos
+
+:::
 
 ## Regionalização em saúde
 
@@ -121,7 +141,9 @@ A regionalização organiza o Sistema Único de Saúde (SUS) em espaços que ult
 
 O Decreto nº 7.508, de 28 de junho de 2011, define Região de Saúde como um espaço geográfico contínuo formado por agrupamentos de municípios limítrofes, delimitado a partir de identidades culturais, econômicas e sociais e de redes de comunicação e infraestrutura de transportes compartilhadas. As regiões são instituídas pelos estados, em articulação com os municípios, e devem conter, no mínimo, ações e serviços de atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar e vigilância em saúde. A definição mostra que a região não é apenas uma divisão cartográfica: ela deve expressar uma rede capaz de articular necessidades da população, oferta de serviços e fluxos de atendimento [@brasilDecreto75082011].
 
-A Região de Saúde não substitui o município nem a Unidade da Federação como ente político-administrativo. Trata-se de uma territorialização própria da organização do SUS, que pode ser revista quando mudam as redes, os fluxos ou os pactos interfederativos. Em escala mais ampla, as Macrorregiões de Saúde reúnem uma ou mais regiões e orientam o planejamento de serviços de maior complexidade. A Resolução CIT nº 37, de 22 de março de 2018, consolidou a Macrorregião de Saúde como base do Planejamento Regional Integrado (PRI). O Ministério da Saúde informa atualmente 456 Regiões de Saúde e 117 Macrorregiões de Saúde no país; a relação oficial pode ser consultada em https://www.gov.br/saude/pt-br/composicao/se/dgip/regionalizacao/regionalizacao/ [@brasilResolucaoCIT372018; @brasilRegionalizacao2026]. Essas escalas territoriais se complementam e devem ser analisadas em conjunto.
+A Região de Saúde não substitui o município nem a Unidade da Federação como ente político-administrativo. Trata-se de uma territorialização própria da organização do SUS, que pode ser revista quando mudam as redes, os fluxos ou os pactos interfederativos. Em escala mais ampla, as Macrorregiões de Saúde reúnem uma ou mais regiões e orientam o planejamento de serviços de maior complexidade. A Resolução CIT nº 37, de 22 de março de 2018, consolidou a Macrorregião de Saúde como base do Planejamento Regional Integrado (PRI). O Ministério da Saúde informa atualmente 456 Regiões de Saúde e 117 Macrorregiões de Saúde no país; a relação oficial pode ser consultada em https://www.gov.br/saude/pt-br/composicao/se/dgip/regionalizacao/regionalizacao/ [@brasilResolucaoCIT372018; @brasilRegionalizacao2026]. Essas escalas territoriais se complementam e devem ser analisadas em conjunto (ver @qua-escalas-regionalizacao).
+
+::: {#qua-escalas-regionalizacao}
 
 | Escala | Papel na análise e no planejamento |
 |---|---|
@@ -129,7 +151,10 @@ A Região de Saúde não substitui o município nem a Unidade da Federação com
 | Região de Saúde | Agrupa municípios articulados por redes e fluxos assistenciais e apoia a pactuação da oferta regional. |
 | Macrorregião de Saúde | Integra uma ou mais regiões para planejar ações e serviços de maior complexidade e organizar referências em escala ampliada. |
 | Unidade da Federação | Coordena a regionalização, institui as regiões em articulação com os municípios e acompanha desigualdades no território estadual. |
-: Escalas territoriais usadas na regionalização do SUS {#tbl-escalas-regionalizacao}
+
+Escalas territoriais usadas na regionalização do SUS
+
+:::
 
 ### Governança e planejamento regional
 
@@ -141,7 +166,9 @@ Para trabalhar com essas escalas, o código do município funciona como chave de
 
 ### Aplicações aos dados dos SIS
 
-A agregação por Região de Saúde costuma produzir indicadores mais estáveis do que a análise isolada de municípios pequenos, mas não elimina a necessidade de examinar a heterogeneidade interna. Uma média regional favorável pode combinar um município-polo com ampla oferta e municípios periféricos com barreiras de deslocamento. Por isso, resultados regionais devem ser acompanhados, sempre que possível, por medidas municipais, distribuição da oferta e informações sobre tempo ou distância de viagem. A pergunta de pesquisa deve orientar a escolha da unidade territorial e das informações utilizadas.
+A agregação por Região de Saúde costuma produzir indicadores mais estáveis do que a análise isolada de municípios pequenos, mas não elimina a necessidade de examinar a heterogeneidade interna. Uma média regional favorável pode combinar um município-polo com ampla oferta e municípios periféricos com barreiras de deslocamento. Por isso, resultados regionais devem ser acompanhados, sempre que possível, por medidas municipais, distribuição da oferta e informações sobre tempo ou distância de viagem. A pergunta de pesquisa deve orientar a escolha da unidade territorial e das informações utilizadas (ver @qua-aplicacoes-regionalizacao).
+
+::: {#qua-aplicacoes-regionalizacao}
 
 | Pergunta | Unidade e informação recomendadas |
 |---|---|
@@ -150,7 +177,10 @@ A agregação por Região de Saúde costuma produzir indicadores mais estáveis 
 | Onde se concentra a oferta assistencial? | Agregar estabelecimentos, procedimentos ou internações pelo município de atendimento e relacioná-los à rede regional. |
 | Existem vazios assistenciais ou barreiras de acesso? | Combinar oferta, utilização, fluxos intermunicipais, distâncias e características da população. |
 | A mudança do desenho regional alterou o indicador? | Recalcular a série com uma regionalização fixa e compará-la à classificação vigente em cada período. |
-: Exemplos de uso das Regiões de Saúde na análise dos SIS {#tbl-aplicacoes-regionalizacao}
+
+Exemplos de uso das Regiões de Saúde na análise dos SIS
+
+:::
 
 Também é importante distinguir o município de residência do município de ocorrência ou atendimento. No SIM, por exemplo, o local de residência descreve melhor o risco de mortalidade da população, enquanto o local de ocorrência ajuda a estudar a concentração dos serviços. No SIH/SUS e no SIA/SUS, o cruzamento entre origem e destino permite construir matrizes de fluxo, estimar dependência de outros municípios e identificar polos assistenciais. Regiões definidas administrativamente e regiões formadas pelos fluxos reais podem não coincidir, e essa diferença é uma evidência útil para avaliar a organização da rede [@Xavier2019].
 
@@ -173,7 +203,9 @@ base_saude <- base_saude |>
   )
 ```
 
-Antes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 dígitos e a tabela territorial usa 7, remova o dígito verificador da tabela territorial ou acrescente-o de forma confiável a partir de uma tabela oficial. Não tente inferir o dígito verificador manualmente sem necessidade.
+Antes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 dígitos e a tabela territorial usa 7, remova o dígito verificador da tabela territorial ou acrescente-o de forma confiável a partir de uma tabela oficial. Não tente inferir o dígito verificador manualmente sem necessidade (ver @qua-codmun-erros-comuns-em-juncoes-por-municipio).
+
+::: {#qua-codmun-erros-comuns-em-juncoes-por-municipio}
 
 | Problema comum | Consequência | Como evitar |
 |---|---|---|
@@ -182,7 +214,10 @@ Antes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 
 | Usar nome do município como chave | Erros por acento, grafia e mudança de nome | Usar código como chave |
 | Ignorar ano da malha | Comparações territoriais inconsistentes | Registrar ano da DTB, malha ou tabela usada |
 | Misturar residência e ocorrência | Indicador territorial incorreto | Separar campos conforme a pergunta |
-: Erros comuns em junções por município
+
+Erros comuns em junções por município
+
+:::
 
 Em síntese, o código municipal é uma chave de integração entre SIS, população, malhas, estabelecimentos e indicadores. Seu uso correto depende de padronizar o formato, declarar o ano da referência territorial e distinguir claramente residência, ocorrência, atendimento, notificação e localização do estabelecimento.
 
@@ -193,7 +228,7 @@ Em síntese, o código municipal é uma chave de integração entre SIS, popula�
 
 - [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
 
-- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 393.
+- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 387.
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 217.
 

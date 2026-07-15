@@ -10,6 +10,8 @@ A CID não é apenas uma lista de diagnósticos. Ela organiza informações clí
 
 ## Resumo
 
+::: {#qua-cid-caracteristicas-gerais-da-cid}
+
 | Característica | Descrição |
 |---|---|
 | Nome | Classificação Internacional de Doenças |
@@ -19,11 +21,16 @@ A CID não é apenas uma lista de diagnósticos. Ela organiza informações clí
 | Revisão usada nas principais séries brasileiras recentes | CID-10, adotada nos sistemas nacionais a partir de 1996 |
 | Unidade informacional | Código, categoria, subcategoria, capítulo, bloco ou lista de tabulação |
 | Cuidado central | Revisões, regras de codificação e agrupamentos mudam a comparabilidade temporal |
-: Características gerais da CID
+
+Características gerais da CID
+
+:::
 
 ## Quando usar a CID
 
-Use a CID quando a pergunta envolve causas, diagnósticos, agravos, causas externas ou agrupamentos clínico-epidemiológicos. O mesmo código pode aparecer em sistemas diferentes, mas o campo em que ele aparece muda a interpretação.
+Use a CID quando a pergunta envolve causas, diagnósticos, agravos, causas externas ou agrupamentos clínico-epidemiológicos. O mesmo código pode aparecer em sistemas diferentes, mas o campo em que ele aparece muda a interpretação (ver @qua-cid-usos-frequentes-da-cid-nos-sis).
+
+::: {#qua-cid-usos-frequentes-da-cid-nos-sis}
 
 | Pergunta de análise | Sistema comum | Campo ou uso da CID | Cuidado principal |
 |---|---|---|---|
@@ -32,7 +39,10 @@ Use a CID quando a pergunta envolve causas, diagnósticos, agravos, causas exter
 | Quais causas externas aparecem em atendimentos ou óbitos? | SIM, SIH, SIA | Códigos dos capítulos XIX e XX da CID-10 | Separar natureza da lesão e circunstância externa |
 | Um agravo é de notificação compulsória? | SINAN | Código ou faixa CID usada como referência | A definição de caso do agravo é mais importante que o código isolado |
 | Um indicador usa lista específica? | SIM, SIH, SIA | Lista de evitabilidade, ICSAP, capítulos ou grupos | Versionar a lista e a revisão da CID |
-: Usos frequentes da CID nos SIS
+
+Usos frequentes da CID nos SIS
+
+:::
 
 ::: {.callout-note}
 Um código CID isolado raramente define a análise inteira. Declare sempre o sistema, o campo, a revisão da CID, o período e o agrupamento usado.
@@ -50,7 +60,9 @@ Uma descrição histórica mais detalhada pode ser consultada no documento [Hist
 
 ## Estrutura da CID-10
 
-A CID-10 é organizada de forma hierárquica. Em análises de SIS, é comum alternar entre níveis amplos, como capítulos, e níveis detalhados, como subcategorias de quatro caracteres.
+A CID-10 é organizada de forma hierárquica. Em análises de SIS, é comum alternar entre níveis amplos, como capítulos, e níveis detalhados, como subcategorias de quatro caracteres (ver @qua-cid-niveis-hierarquicos-comuns-da-cid-10).
+
+::: {#qua-cid-niveis-hierarquicos-comuns-da-cid-10}
 
 | Nível | Exemplo na CID-10 | Uso comum |
 |---|---|---|
@@ -58,7 +70,10 @@ A CID-10 é organizada de forma hierárquica. Em análises de SIS, é comum alte
 | Bloco ou grupo | Doenças infecciosas intestinais (`A00-A09`) | Agrupamentos intermediários |
 | Categoria | Cólera (`A00`) | Causa ou diagnóstico em três caracteres |
 | Subcategoria | Cólera devida a *Vibrio cholerae* 01, biótipo El Tor (`A00.1`) | Maior detalhamento clínico |
-: Níveis hierárquicos comuns da CID-10
+
+Níveis hierárquicos comuns da CID-10
+
+:::
 
 Em muitos arquivos do DATASUS, o ponto da subcategoria é removido. Assim, `A00.1` pode aparecer como `A001`. Essa diferença é de formato, não de conteúdo, mas precisa ser tratada antes de juntar bases, buscar listas de códigos ou filtrar causas.
 
@@ -71,7 +86,7 @@ Para "Cólera devida a *Vibrio cholerae* 01, biótipo El Tor" na CID-10:
 -  Categoria: Cólera (`A00`)
 -  Subcategoria: Cólera El Tor (`A00.1`, frequentemente `A001` em bases sem ponto)
 
-Você pode acessar e explorar o catálogo da CID-10 na tabela abaixo:
+Você pode acessar e explorar o catálogo da CID-10 no quadro abaixo:
 
 ::: {.content-visible when-format="html"}
 
@@ -113,7 +128,9 @@ Nos links a seguir, você pode consultar a hierarquia da CID-10 e da CID-11:
 
 ## CID nos sistemas brasileiros
 
-O Brasil utilizou a CID-9 em séries nacionais até 1995. A partir de 1996, as principais bases nacionais passaram a divulgar causas e diagnósticos segundo a CID-10. Essa mudança é decisiva para séries históricas longas: comparações antes e depois de 1996 precisam considerar a troca de revisão, as listas de equivalência e possíveis quebras de comparabilidade.
+O Brasil utilizou a CID-9 em séries nacionais até 1995. A partir de 1996, as principais bases nacionais passaram a divulgar causas e diagnósticos segundo a CID-10. Essa mudança é decisiva para séries históricas longas: comparações antes e depois de 1996 precisam considerar a troca de revisão, as listas de equivalência e possíveis quebras de comparabilidade (ver @qua-cid-usos-da-cid-em-sistemas-brasileiros).
+
+::: {#qua-cid-usos-da-cid-em-sistemas-brasileiros}
 
 | Sistema | Uso típico da CID | Cuidado |
 |---|---|---|
@@ -121,7 +138,10 @@ O Brasil utilizou a CID-9 em séries nacionais até 1995. A partir de 1996, as p
 | SIH | Diagnóstico principal, diagnósticos secundários e causas externas | Campo diagnóstico está ligado à internação autorizada |
 | SIA | Diagnóstico ou CID compatível em alguns procedimentos e instrumentos | Nem todo atendimento ambulatorial tem diagnóstico com o mesmo papel |
 | SINAN | Referência para agravos e classificações específicas | Definição de caso e ficha do agravo prevalecem sobre o código isolado |
-: Usos da CID em sistemas brasileiros
+
+Usos da CID em sistemas brasileiros
+
+:::
 
 ### Mortalidade e morbidade
 
@@ -147,6 +167,8 @@ Em séries brasileiras recentes, o uso prático ainda exige atenção à CID-10.
 
 ## Cuidados de interpretação
 
+::: {#qua-cid-cuidados-frequentes-ao-usar-codigos-cid}
+
 | Risco analítico | Consequência | Boa prática |
 |---|---|---|
 | Misturar revisões da CID | Quebra de série histórica | Separar períodos e usar tabelas de transição quando disponíveis |
@@ -155,9 +177,12 @@ Em séries brasileiras recentes, o uso prático ainda exige atenção à CID-10.
 | Usar código muito detalhado em população pequena | Instabilidade e risco de identificação indireta | Agregar por capítulo, bloco ou lista validada |
 | Remover ou inserir ponto em códigos sem controle | Perda de correspondência entre listas e bases | Padronizar formato dos códigos antes da análise |
 | Comparar CID-10 e CID-11 como se fossem equivalentes | Tendências artificiais | Documentar mapeamentos, dupla codificação e quebras |
-: Cuidados frequentes ao usar códigos CID
 
-Em síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.
+Cuidados frequentes ao usar códigos CID
+
+:::
+
+O @qua-cid-cuidados-frequentes-ao-usar-codigos-cid sintetiza os elementos discutidos. Em síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
@@ -166,9 +191,9 @@ Em síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analític
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 68.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 108.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 106.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 154.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 153.
 
 :::
 <!-- END GENERATED SEE ALSO -->

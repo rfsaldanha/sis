@@ -6,6 +6,8 @@ O denominador, porém, não é neutro. Diferentes fontes populacionais podem usa
 
 ## Resumo
 
+::: {#qua-pop-caracteristicas-gerais-das-estimativas-populacionais}
+
 | Característica | Descrição |
 |---|---|
 | Uso central | Denominador para indicadores populacionais |
@@ -13,11 +15,16 @@ O denominador, porém, não é neutro. Diferentes fontes populacionais podem usa
 | Fontes comuns | IBGE, DATASUS/Ministério da Saúde, UFRN/LEPP e pacotes derivados |
 | Data de referência frequente | 1º de julho do ano de referência nas estimativas municipais do IBGE |
 | Cuidado principal | Numerador e denominador precisam ter território, período e população-alvo compatíveis |
-: Características gerais das estimativas populacionais
+
+Características gerais das estimativas populacionais
+
+:::
 
 ## Quando usar
 
-Use estimativas populacionais quando o objetivo for padronizar uma contagem pelo tamanho da população sob risco ou da população-alvo.
+Use estimativas populacionais quando o objetivo for padronizar uma contagem pelo tamanho da população sob risco ou da população-alvo (ver @qua-pop-perguntas-comuns-que-usam-populacao-como-denominador).
+
+::: {#qua-pop-perguntas-comuns-que-usam-populacao-como-denominador}
 
 | Pergunta de análise | Numerador comum | Denominador adequado | Cuidado principal |
 |---|---|---|---|
@@ -26,7 +33,10 @@ Use estimativas populacionais quando o objetivo for padronizar uma contagem pelo
 | Qual é a cobertura vacinal? | Doses válidas ou pessoas vacinadas | População-alvo da vacina | População total pode não ser o denominador correto |
 | Qual é a despesa per capita? | Despesa em saúde | População residente | Usar mesmo ente federado e ano |
 | Como comparar municípios? | Eventos agregados por município | População municipal compatível | Municípios pequenos produzem taxas instáveis |
-: Perguntas comuns que usam população como denominador
+
+Perguntas comuns que usam população como denominador
+
+:::
 
 ::: {.callout-note}
 Em indicadores territoriais, alinhe o território do numerador com o território do denominador. Óbitos por município de ocorrência divididos pela população residente do município medem uma combinação incoerente para risco populacional.
@@ -34,7 +44,9 @@ Em indicadores territoriais, alinhe o território do numerador com o território
 
 ## Censo, contagem, estimativa e projeção
 
-Dados populacionais podem vir de observação direta ou de modelos. Censos demográficos buscam enumerar a população residente e levantar características demográficas, sociais, econômicas e domiciliares. Entre censos, estimativas e projeções atualizam o tamanho da população com métodos demográficos e estatísticos.
+Dados populacionais podem vir de observação direta ou de modelos. Censos demográficos buscam enumerar a população residente e levantar características demográficas, sociais, econômicas e domiciliares. Entre censos, estimativas e projeções atualizam o tamanho da população com métodos demográficos e estatísticos (ver @qua-pop-diferencas-entre-fontes-populacionais).
+
+::: {#qua-pop-diferencas-entre-fontes-populacionais}
 
 | Tipo de dado | O que representa | Uso comum | Cuidado |
 |---|---|---|---|
@@ -42,7 +54,10 @@ Dados populacionais podem vir de observação direta ou de modelos. Censos demog
 | Contagem populacional | Levantamento intermediário, quando realizado | Atualização entre censos | Não ocorre regularmente em todos os períodos |
 | Estimativa | População calculada para ano corrente ou intercensitário | Indicadores anuais e repasses legais | Pode ser revisada após novo censo ou decisão judicial |
 | Projeção | População futura ou série modelada | Planejamento, cenários e denominadores futuros | Depende de hipóteses sobre fecundidade, mortalidade e migração |
-: Diferenças entre fontes populacionais
+
+Diferenças entre fontes populacionais
+
+:::
 
 O IBGE divulga estimativas anuais de população para municípios e Unidades da Federação, com referência em 1º de julho. Essas estimativas são usadas também para finalidades legais, como a distribuição de cotas do Fundo de Participação dos Municípios (FPM), e sua comparação histórica deve ser feita com cautela porque incorpora revisões e alterações territoriais [@ibgeEstimativasPopulacao2026].
 
@@ -93,7 +108,9 @@ mun_pop_totals(source = "ufrn")
 
 ## Escolha do denominador
 
-A escolha do denominador deve vir da pergunta analítica, não da disponibilidade imediata da tabela. A população total do município serve para alguns indicadores, mas é inadequada para muitos outros.
+A escolha do denominador deve vir da pergunta analítica, não da disponibilidade imediata da tabela. A população total do município serve para alguns indicadores, mas é inadequada para muitos outros (ver @qua-pop-denominadores-frequentes-em-indicadores-de-saude).
+
+::: {#qua-pop-denominadores-frequentes-em-indicadores-de-saude}
 
 | Indicador | Denominador mais comum | Exemplo de cuidado |
 |---|---|---|
@@ -103,13 +120,18 @@ A escolha do denominador deve vir da pergunta analítica, não da disponibilidad
 | Cobertura vacinal infantil | Coorte de nascidos vivos ou população-alvo | Dose válida e idade-alvo precisam ser definidas |
 | Despesa em saúde per capita | População residente total | Deflacionar valores antes de comparar anos |
 | Indicador por sexo e idade | População por sexo e idade | Conferir categorias e idades abertas |
-: Denominadores frequentes em indicadores de saúde
+
+Denominadores frequentes em indicadores de saúde
+
+:::
 
 Alguns indicadores não usam população residente como denominador. Mortalidade infantil usa nascidos vivos; letalidade usa casos; positividade usa testes ou exames; cobertura de pré-natal pode usar gestantes estimadas, nascidos vivos ou pessoas vinculadas, dependendo da definição. Chamar tudo de "taxa populacional" pode esconder denominadores muito diferentes.
 
 ## Comparações entre estimativas
 
-As fontes citadas usam métodos e finalidades diferentes. Discrepâncias são esperadas, especialmente em municípios pequenos, em áreas com migração intensa, em anos próximos ao censo, em territórios que sofreram alteração de limites e em grupos etários muito específicos.
+As fontes citadas usam métodos e finalidades diferentes. Discrepâncias são esperadas, especialmente em municípios pequenos, em áreas com migração intensa, em anos próximos ao censo, em territórios que sofreram alteração de limites e em grupos etários muito específicos (ver @qua-pop-razoes-comuns-para-discrepancias-entre-estimativas).
+
+::: {#qua-pop-razoes-comuns-para-discrepancias-entre-estimativas}
 
 | Diferença entre fontes | Por que ocorre | Como lidar |
 |---|---|---|
@@ -118,7 +140,10 @@ As fontes citadas usam métodos e finalidades diferentes. Discrepâncias são es
 | Quebra após novo censo | Revisão do nível populacional | Marcar séries antes e depois do censo |
 | Divergência em município pequeno | Maior sensibilidade a migração e erro relativo | Usar médias móveis, agregações ou intervalos |
 | Mudança territorial | Criação, fusão ou alteração de limites | Usar códigos e malhas compatíveis |
-: Razões comuns para discrepâncias entre estimativas
+
+Razões comuns para discrepâncias entre estimativas
+
+:::
 
 [Este aplicativo on-line](https://shiny.icict.fiocruz.br/brpopview/) permite comparar graficamente estimativas populacionais nos municípios brasileiros.
 
@@ -160,9 +185,9 @@ Antes de publicar um indicador com denominador populacional, verifique:
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 53.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 293.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 291.
 
-- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 321.
+- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 316.
 
 :::
 <!-- END GENERATED SEE ALSO -->
