@@ -1,0 +1,268 @@
+term	chapter	heading
+Sistemas de Informação em Saúde (SIS)	introducao	Introdução
+Dados	introducao	Dados, informação e conhecimento
+Informação	introducao	Dados, informação e conhecimento
+Conhecimento	introducao	Dados, informação e conhecimento
+Registro Civil	historico	Do Registro Civil à aproximação com o setor saúde
+Instrumentos de coleta	historico	Padronização dos instrumentos de coleta
+DataSUS	historico	O Departamento de Informática do SUS -- DataSUS
+Disseminação pública de dados	historico	Disseminação pública e acesso aos dados
+Interoperabilidade	historico	Integração, interoperabilidade e novos desafios
+Qualidade dos dados	historico	Qualidade, oportunidade e desigualdades
+Sistemas vitais	organizacao	Sistemas vitais
+Morbidade	organizacao	Sistemas de morbidade e vigilância
+Vigilância epidemiológica	organizacao	Sistemas de morbidade e vigilância
+Sistemas assistenciais	organizacao	Sistemas assistenciais
+Sistemas cadastrais	organizacao	Sistemas cadastrais, financeiros e de gestão
+Sistemas financeiros	organizacao	Sistemas cadastrais, financeiros e de gestão
+Sistemas de imunização	organizacao	Sistemas de imunização
+Cobertura dos dados	organizacao	Cobertura: todo o território, SUS e saúde suplementar
+Saúde suplementar	organizacao	Cobertura: todo o território, SUS e saúde suplementar
+Níveis geográficos	organizacao	Níveis geográficos
+Periodicidade dos dados	organizacao	Periodicidade e versões dos dados
+Unidade de análise	organizacao	Unidade de análise
+Completude	organizacao	Qualidade, completude e comparabilidade
+Comparabilidade	organizacao	Qualidade, completude e comparabilidade
+Doenças, agravos e eventos de saúde	organizacao	Doenças, agravos e eventos de saúde
+Integração entre sistemas	organizacao	Integração entre sistemas
+Evento de saúde	eventos	Eventos de saúde
+Pessoa	eventos	Evento, pessoa, episódio e registro
+Episódio	eventos	Evento, pessoa, episódio e registro
+Registro	eventos	Evento, pessoa, episódio e registro
+Dengue	eventos	Exemplo integrado: dengue
+Acidente de trânsito	eventos	Exemplo integrado: acidente de trânsito
+Notificação	eventos	Casos de doenças e agravos
+Procedimentos ambulatoriais	eventos	Procedimentos ambulatoriais
+Internações	eventos	Internações
+Óbitos	eventos	Óbitos
+Nascimentos	eventos	Nascimentos
+Imunizações	eventos	Imunizações
+Denominadores	eventos	Denominadores e indicadores
+Indicadores	eventos	Denominadores e indicadores
+Relacionamento entre sistemas	eventos	Relacionamento entre sistemas
+SIM — Sistema de Informação sobre Mortalidade	sim	SIM -- Sistema de Informação sobre Mortalidade
+Declaração de Óbito (DO)	sim	Fluxo da Declaração de Óbito
+Emissão da Declaração de Óbito	sim	Emissão da Declaração de Óbito
+Vigilância do óbito	sim	Vigilância e investigação de óbitos
+Unidade de análise	sim	Cobertura e unidade de análise
+Causa básica do óbito	sim	Causa básica do óbito
+Causas múltiplas de morte	sim	Causa básica e causas múltiplas
+Codificação pela CID	sim	Codificação pela CID
+Análise territorial	sim	Análise territorial
+Análise temporal	sim	Análise temporal
+Acidentes de trânsito	sim	Exemplo: acidentes de trânsito
+Mortalidade infantil	sim	Exemplo: mortalidade infantil
+Qualidade dos dados	sim	Qualidade dos dados
+SINASC — Sistema de Informação sobre Nascidos Vivos	sinasc	SINASC -- Sistema de Informação sobre Nascidos Vivos
+Declaração de Nascido Vivo (DNV)	sinasc	Fluxo da Declaração de Nascido Vivo
+Nascido vivo	sinasc	O que é nascido vivo
+Unidade de análise	sinasc	Cobertura e unidade de análise
+Gestação múltipla	sinasc	Gestações múltiplas
+Anomalias congênitas	sinasc	Anomalias congênitas
+Baixo peso ao nascer	sinasc	Exemplo: baixo peso ao nascer
+Denominadores	sinasc	Uso como denominador
+Qualidade dos dados	sinasc	Avaliação da qualidade dos dados
+SIH/SUS — Sistema de Informações Hospitalares do SUS	sih	SIH -- Sistema de Informações Hospitalares do SUS
+Autorização de Internação Hospitalar (AIH)	sih	Fluxo da AIH
+AIH	sih	AIH, internação e pessoa
+Internação hospitalar	sih	AIH, internação e pessoa
+Tipos de AIH	sih	Tipos de AIH e complexidade
+Unidade de análise	sih	Cobertura e unidade de análise
+Diagnóstico hospitalar	sih	Diagnóstico, procedimento e valores
+SIGTAP	sih	Procedimentos e SIGTAP
+Fluxos de internação	sih	Exemplo: fluxos de internação
+AIH rejeitada	sih	AIHs rejeitadas
+Internações por Condições Sensíveis à Atenção Primária (ICSAP)	sih	Exemplo: internações por condições sensíveis à atenção primária
+Grandes volumes de dados	sih	Processamento de grandes volumes
+SIA/SUS — Sistema de Informações Ambulatoriais do SUS	sia	SIA -- Sistema de Informações Ambulatoriais do SUS
+Produção ambulatorial	sia	Fluxo da produção ambulatorial
+Boletim de Produção Ambulatorial (BPA)	sia	Instrumentos de registro
+Autorização de Procedimentos Ambulatoriais (APAC)	sia	Instrumentos de registro
+Unidade de análise	sia	Unidade de análise
+SIGTAP	sia	Procedimentos e SIGTAP
+Mamografia	sia	Exemplo: produção de mamografias
+APAC	sia	APAC e alta complexidade
+Produção ambulatorial rejeitada	sia	Produção rejeitada e crítica
+Validação reprodutível	sia	Validação reprodutível
+SINAN — Sistema de Informação de Agravos de Notificação	sinan	SINAN -- Sistema de Informação de Agravos de Notificação
+Notificação compulsória	sinan	Fluxo da notificação
+SINAN NET	sinan	SINAN NET, SINAN Online e e-SUS SINAN
+SINAN Online	sinan	SINAN NET, SINAN Online e e-SUS SINAN
+e-SUS SINAN	sinan	SINAN NET, SINAN Online e e-SUS SINAN
+Definição de caso	sinan	Definições de caso
+Unidade de análise	sinan	Unidade de análise
+Oportunidade da vigilância	sinan	Oportunidade da vigilância
+Duplicidades	sinan	Duplicidades e recorrências
+Recorrências	sinan	Duplicidades e recorrências
+Dengue	sinan	Exemplo: dengue
+Arboviroses	sinan	Arboviroses
+Acidente de trabalho com material biológico	sinan	Acidente de trabalho com material biológico
+Acidente de trabalho	sinan	Acidente de trabalho
+Aids em adultos	sinan	AIDS em adultos
+Aids em crianças	sinan	AIDS em crianças
+Acidentes por animais peçonhentos	sinan	Acidentes por Animais Peçonhentos
+Atendimento antirrábico	sinan	Atendimento antirrábico
+Botulismo	sinan	Botulismo
+Câncer relacionado ao trabalho	sinan	Câncer relacionado ao trabalho
+Doença de Chagas	sinan	Doença de Chagas
+Chikungunya	sinan	Chikungunya
+Cólera	sinan	Cólera
+Coqueluche	sinan	Coqueluche
+Dengue	sinan	Dengue
+Dermatoses ocupacionais	sinan	Dermatoses ocupacionais
+Esporotricose	sinan	Esporotricose (Epizootia)
+HIV em adultos	sinan	HIV em adultos
+HIV em crianças	sinan	HIV em crianças
+HIV em gestantes	sinan	HIV em gestante
+Influenza pandêmica	sinan	Influenza pandêmica
+Rotavírus	sinan	Rotavírus
+Doenças transmitidas por alimentos	sinan	Surto de doenças transmitidas por alimentos
+Difteria	sinan	Difteria
+Esquistossomose mansoni	sinan	Esquistossomose mansoni
+Doenças exantemáticas	sinan	Doenças Exantemáticas
+Febre amarela	sinan	Febre Amarela
+Febre maculosa	sinan	Febre Maculosa
+Febre Oropouche	sinan	Febre Oropouche
+Febre tifoide	sinan	Febre Tifóide
+Hanseníase	sinan	Hanseníase
+Hantavirose	sinan	Hantavirose
+Hepatites virais	sinan	Hepatites Virais
+Intoxicação exógena	sinan	Intoxicação Exógena
+Leishmaniose tegumentar americana	sinan	Leishmaniose Tegumentar Americana
+Leishmaniose visceral	sinan	Leishmaniose Visceral
+Leptospirose	sinan	Leptospirose
+LER/DORT	sinan	LER/DORT
+Malária	sinan	Malária
+Meningite	sinan	Meningite
+Transtornos mentais relacionados ao trabalho	sinan	Transtornos mentais relacionais ao trabalho
+Tracoma	sinan	Notificação de tracoma
+Perda auditiva induzida por ruído	sinan	Perda auditiva por ruído relacionado ao trabalho
+Mpox (Monkeypox)	sinan	Monkeypox
+Peste	sinan	Peste
+Poliomielite	sinan	Poliomielite / Paralisia Flácida Aguda
+Paralisia Flácida Aguda	sinan	Poliomielite / Paralisia Flácida Aguda
+Pneumoconioses relacionadas ao trabalho	sinan	Pneumoconioses relacionadas ao trabalho
+Raiva humana	sinan	Raiva Humana
+Sífilis adquirida	sinan	Sífilis adquirida
+Sífilis congênita	sinan	Sífilis Congênita
+Sífilis em gestantes	sinan	Sífilis em Gestante
+Síndrome da Rubéola Congênita	sinan	Síndrome da Rubéola Congênita
+Tétano acidental	sinan	Tétano Acidental
+Tétano neonatal	sinan	Tétano Neonatal
+Toxoplasmose congênita	sinan	Toxoplasmose congênita
+Toxoplasmose gestacional	sinan	Toxoplasmose gestacional
+Tuberculose	sinan	Tuberculose
+Varicela	sinan	Varicela / Herpes-Zóster
+Herpes-zóster	sinan	Varicela / Herpes-Zóster
+Violência doméstica e sexual	sinan	Violência doméstica, sexual e/ou outras violências
+Violência interpessoal ou autoprovocada	sinan	Violência Interpessoal/Autoprovocada
+Zika vírus	sinan	Zika vírus
+SIVEP	sinan	SINAN e SIVEP
+CNES — Cadastro Nacional de Estabelecimentos de Saúde	cnes	CNES -- Cadastro Nacional de Estabelecimentos de Saúde
+Estabelecimento de saúde	cnes	Unidade de análise
+Série histórica do CNES	cnes	Estabelecimentos em série histórica
+Leitos hospitalares	cnes	Exemplo: leitos hospitalares
+Profissionais de saúde	cnes	Exemplo: profissionais e vínculos
+Vínculos profissionais	cnes	Exemplo: profissionais e vínculos
+Geocodificação	cnes	Geocodificação e análise espacial
+Análise espacial	cnes	Geocodificação e análise espacial
+Qualidade dos dados	cnes	Qualidade dos dados
+Rede SUS	cnes	Rede SUS, privada, filantrópica e suplementar
+Rede privada	cnes	Rede SUS, privada, filantrópica e suplementar
+Rede filantrópica	cnes	Rede SUS, privada, filantrópica e suplementar
+Rede suplementar	cnes	Rede SUS, privada, filantrópica e suplementar
+Denominadores	cnes	CNES como denominador
+SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+Qualidade da água	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+Controle da qualidade da água	sisagua	Controle e Vigilância
+Vigilância da qualidade da água	sisagua	Controle e Vigilância
+Formas de abastecimento de água	sisagua	Formas de abastecimento
+Unidade de análise	sisagua	Unidade de análise
+Potabilidade	sisagua	Parâmetros e potabilidade
+Plano de amostragem	sisagua	Plano de amostragem
+Indicador microbiológico	sisagua	Exemplo: indicador microbiológico
+Emergências em saúde pública	sisagua	Monitoramento em emergências
+SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde	siops	SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde
+Orçamento público em saúde	siops	SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde
+Esferas federativas	siops	Esferas federativas e responsabilidades
+Despesa pública em saúde	siops	Fases da despesa
+Ações e Serviços Públicos de Saúde (ASPS)	siops	ASPS e aplicação mínima
+Aplicação mínima em saúde	siops	ASPS e aplicação mínima
+Restos a pagar	siops	Restos a pagar e compensações
+Deflação	siops	Deflação de valores monetários
+Financiamento da saúde	siops	Financiamento, acesso e resultados
+SISAPS — Sistema de Informação para a Atenção Primária à Saúde	sisaps	SISAPS - Sistema de Informação para a Atenção Primária à Saúde
+Atenção Primária à Saúde (APS)	sisaps	SISAPS - Sistema de Informação para a Atenção Primária à Saúde
+Equipe de saúde	sisaps	Identificadores de equipe
+Denominadores	sisaps	Qual denominador usar?
+Cofinanciamento da APS	sisaps	Indicadores e cofinanciamento
+Vínculo territorial	sisaps	Vínculo territorial
+Pré-natal na APS	sisaps	Exemplo: pré-natal na APS
+Privacidade	sisaps	Privacidade e agregação
+SI-PNI — Sistema de Informações do Programa Nacional de Imunizações	sipni	SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações
+Programa Nacional de Imunizações (PNI)	sipni	SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações
+Registro de imunização	sipni	O que o SI-PNI registra
+Dose de vacina	sipni	Dose, pessoa e esquema
+Esquema vacinal	sipni	Dose, pessoa e esquema
+Cobertura vacinal	sipni	Cobertura vacinal e denominadores
+Cobertura administrativa	sipni	Cobertura administrativa e cobertura de inquérito
+Cobertura de inquérito	sipni	Cobertura administrativa e cobertura de inquérito
+Campanha de vacinação	sipni	Rotina, campanha e Covid-19
+Dados individualizados	sipni	Privacidade e dados individualizados
+RNDS — Rede Nacional de Dados em Saúde	rnds	RNDS -- Rede Nacional de Dados em Saúde
+Arquitetura da RNDS	rnds	Arquitetura em camadas
+Modelos de informação	rnds	Modelos de informação
+FHIR	rnds	FHIR, terminologias e semântica
+Terminologias em saúde	rnds	FHIR, terminologias e semântica
+Semântica	rnds	FHIR, terminologias e semântica
+Identificadores em saúde	rnds	Identificadores essenciais
+Dados abertos	rnds	RNDS e dados abertos
+Privacidade	rnds	Privacidade, segurança e governança
+Segurança da informação	rnds	Privacidade, segurança e governança
+Governança de dados	rnds	Privacidade, segurança e governança
+Continuidade do cuidado	rnds	Continuidade do cuidado
+Uso secundário de dados	rnds	Uso secundário de dados
+CID — Classificação Internacional de Doenças	cid	CID -- Classificação Internacional de Doenças
+CID-10	cid	Estrutura da CID-10
+Mortalidade e morbidade	cid	Mortalidade e morbidade
+Causas externas	cid	Causas externas
+CID-11	cid	CID-11 e transição no Brasil
+Códigos dos municípios	codmun	Códigos dos municípios
+Código do município	codmun	Estrutura do código
+Divisão Territorial Brasileira (DTB)	codmun	Divisão Territorial Brasileira
+Junção de dados	codmun	Boas práticas para junções
+Estimativas populacionais	pop	Estimativas populacionais
+Censo demográfico	pop	Censo, contagem, estimativa e projeção
+Contagem populacional	pop	Censo, contagem, estimativa e projeção
+Projeção populacional	pop	Censo, contagem, estimativa e projeção
+IBGE	pop	IBGE -- TCU
+Denominadores	pop	Escolha do denominador
+SIVEP — Sistema de Vigilância Epidemiológica	sivep	SIVEP -- Sistema de Vigilância Epidemiológica
+SIVEP-Gripe	sivep	SIVEP-Gripe
+SIVEP-Malária	sivep	SIVEP-Malária
+SIVEP-DDA	sivep	SIVEP-DDA
+SISVAN — Sistema de Vigilância Alimentar e Nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
+Vigilância alimentar e nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
+ANS — Agência Nacional de Saúde Suplementar	ans	Agência Nacional de Saúde Suplementar - ANS
+Planos privados de saúde	ans	Para que serve a ANS
+Regulação da saúde suplementar	ans	Criação e principais marcos regulatórios
+Saúde suplementar	ans	Para que serve a ANS
+Sistema de Informações de Beneficiários (SIB)	ans	Sistemas e fluxos de informação da saúde suplementar
+Troca de Informações na Saúde Suplementar (TISS)	ans	Sistemas e fluxos de informação da saúde suplementar
+Terminologia Unificada da Saúde Suplementar (TUSS)	ans	Sistemas e fluxos de informação da saúde suplementar
+Sistema de Informações de Produtos (SIP)	ans	Sistemas e fluxos de informação da saúde suplementar
+DIOPS	ans	Sistemas e fluxos de informação da saúde suplementar
+NIP	ans	Para que serve a ANS
+IDSS	ans	Para que serve a ANS
+Dados abertos da ANS	ans	Dados abertos e formas de acesso
+Ressarcimento ao SUS	ans	Ressarcimento ao SUS como integração institucional
+Interoperabilidade	interoperabilidade	Interoperabilidade entre os Sistemas de Informação em Saúde
+Interoperabilidade técnica	interoperabilidade	O que é interoperabilidade
+Interoperabilidade semântica	interoperabilidade	O que é interoperabilidade
+Interoperabilidade organizacional	interoperabilidade	O que é interoperabilidade
+Linkage	interoperabilidade	O que é *linkage*
+Relacionamento determinístico	interoperabilidade	Relacionamento determinístico
+Relacionamento probabilístico	interoperabilidade	Relacionamento probabilístico
+Métodos híbridos de relacionamento	interoperabilidade	Estratégias híbridas e métodos de classificação
+Privacidade	interoperabilidade	Privacidade, segurança e uso responsável
+Proteção de dados	interoperabilidade	Privacidade, segurança e uso responsável

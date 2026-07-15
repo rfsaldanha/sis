@@ -92,3 +92,24 @@
         max-width: 92%;
     }
 }
+
+.subject-index {
+    columns: 2 24rem;
+    column-gap: 2rem;
+}
+
+.subject-index-entry {
+    break-inside: avoid;
+    margin: 0 0 0.45rem;
+    line-height: 1.35;
+}
+
+.subject-index-entry p {
+    margin: 0;
+}
+
+@media (max-width: 720px) {
+    .subject-index {
+        columns: 1;
+    }
+}

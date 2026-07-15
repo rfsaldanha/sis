@@ -3539,6 +3539,61 @@
     ]
   },
   {
+    "objectID": "ans.html#criação-e-principais-marcos-regulatórios",
+    "href": "ans.html#criação-e-principais-marcos-regulatórios",
+    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "",
+    "text": "Marcos selecionados da regulação da saúde suplementar\n\n\n\n\n\n\n\nAno\nMarco\nEfeito principal\n\n\n\n\n1988\nConstituição Federal\nAfirma a universalidade do SUS e a liberdade de atuação privada em saúde nos limites legais\n\n\n1998\nLei nº 9.656\nRegulamenta os planos privados, coberturas, contratos, operadoras e ressarcimento ao SUS\n\n\n2000\nLei nº 9.961\nCria a ANS como autarquia especial vinculada ao Ministério da Saúde\n\n\n2005\nInstituição do padrão TISS\nPadroniza trocas eletrônicas entre operadoras e prestadores e amplia a produção de informação assistencial\n\n\n2011 e 2022\nGarantia de atendimento\nEstabelece e consolida prazos e responsabilidades para acesso dos beneficiários aos serviços cobertos\n\n\n2019\nLei nº 13.848\nUniformiza regras de gestão, decisão, transparência e controle social das agências reguladoras\n\n\n2022\nLeis nº 14.307 e nº 14.454\nReformulam o processo de atualização do Rol e definem critérios legais para coberturas não incluídas na lista\n\n\n\n\n\n\n\n\n\n\n\n\nAvisoNormas em atualização\n\n\n\nO estoque regulatório da ANS é atualizado e consolidado periodicamente. Para decisões assistenciais, contratuais ou jurídicas, consulte a norma vigente e não apenas o ano do marco histórico apresentado neste apêndice.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
+    "objectID": "ans.html#para-que-serve-a-ans",
+    "href": "ans.html#para-que-serve-a-ans",
+    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "G.2 Para que serve a ANS",
+    "text": "G.2 Para que serve a ANS\nA finalidade legal da Agência é promover a defesa do interesse público na assistência suplementar à saúde, regulando as operadoras e contribuindo para o desenvolvimento das ações de saúde no país. Isso envolve interesses que podem entrar em tensão: acesso e proteção dos beneficiários, qualidade assistencial, sustentabilidade das operadoras, remuneração e organização da rede prestadora, concorrência e articulação com o SUS.\n\nPrincipais áreas de atuação da ANS\n\n\n\n\n\n\nÁrea de atuação\nExemplos de atividades\n\n\n\n\nEntrada e permanência no mercado\nRegistrar operadoras, autorizar produtos, acompanhar condições de funcionamento e adotar regimes especiais\n\n\nCobertura e acesso\nDefinir o Rol, segmentações assistenciais, regras contratuais, rede e garantia de atendimento\n\n\nProteção do beneficiário\nReceber reclamações, realizar intermediação, fiscalizar negativas e aplicar sanções\n\n\nRegulação econômica\nAcompanhar solvência, provisões, demonstrações contábeis e reajustes sujeitos à competência da Agência\n\n\nQualidade\nAvaliar desempenho de operadoras, atenção à saúde, acesso, sustentabilidade e qualidade dos dados\n\n\nInformação e interoperabilidade\nManter cadastros, estabelecer TISS e TUSS e receber dados periódicos das operadoras\n\n\nRelação com o SUS\nIdentificar atendimentos de beneficiários no SUS, processar o ressarcimento e produzir informações setoriais\n\n\n\nA Agência registra operadoras e planos, acompanha alterações de rede, monitora garantias financeiras e pode determinar medidas corretivas quando identifica problemas assistenciais ou econômico-financeiros. O Rol delimita a referência de cobertura obrigatória conforme a segmentação do produto, enquanto regras de garantia de atendimento tratam da disponibilidade do serviço dentro dos prazos e da área aplicáveis.\nNa relação com os beneficiários, a ANS disponibiliza canais de informação e recebe demandas contra operadoras. A Notificação de Intermediação Preliminar (NIP) busca solucionar conflitos de natureza assistencial ou não assistencial antes da abertura de processo sancionador. Reclamações, sua resolutividade e seu desfecho também alimentam indicadores de monitoramento.\nO Índice de Desempenho da Saúde Suplementar (IDSS) sintetiza dimensões relacionadas à qualidade da atenção, garantia de acesso, sustentabilidade e gestão de processos e regulação. Ele não deve ser interpretado como uma medida direta e isolada da qualidade de todos os serviços de uma operadora: depende dos indicadores selecionados, das regras do ano-base e da qualidade das informações enviadas.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
+    "objectID": "ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar",
+    "href": "ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar",
+    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "G.3 Sistemas e fluxos de informação da saúde suplementar",
+    "text": "G.3 Sistemas e fluxos de informação da saúde suplementar\nA regulação depende de diferentes sistemas, pois beneficiário, plano, operadora, atendimento e situação financeira são unidades distintas. A existência de um padrão comum não transforma esses registros em uma única base nem elimina diferenças de finalidade.\n\nFontes de informação usadas na regulação da saúde suplementar\n\n\n\n\n\n\n\nFonte\nConteúdo principal\nUnidade ou lógica de registro\n\n\n\n\nSistema de Informações de Beneficiários (SIB)\nIdentificação, endereço e vínculo contratual dos beneficiários\nVínculo entre beneficiário, produto, contratante e operadora\n\n\nCadastro de Operadoras\nRegistro, modalidade, endereço e situação cadastral\nOperadora\n\n\nRegistro de Produtos\nSegmentação, abrangência, contratação e características do plano\nProduto ou plano registrado\n\n\nTISS\nGuias, eventos assistenciais, procedimentos e valores trocados entre prestadores e operadoras\nEvento ou item assistencial, segundo a mensagem e o componente\n\n\nSistema de Informações de Produtos (SIP)\nProdução assistencial agregada informada pelas operadoras\nAgregado periódico por operadora e item assistencial\n\n\nDocumento de Informações Periódicas das Operadoras de Planos de Assistência à Saúde (DIOPS)\nDemonstrações e informações econômico-financeiras\nOperadora e período contábil\n\n\nFiscalização e NIP\nDemandas, reclamações, intermediações e processos\nDemanda ou processo regulatório\n\n\nRessarcimento ao SUS\nAtendimentos identificados, avisos, impugnações, cobranças e pagamentos\nAtendimento de beneficiário no SUS e processo administrativo\n\n\n\nO SIB recebe atualizações cadastrais mensais das operadoras. Sua lógica é de vínculos, não necessariamente de pessoas únicas: alguém associado a dois produtos pode ter dois registros e dois códigos de controle operacional. Por isso, totais divulgados como “beneficiários” precisam ser lidos segundo a definição do conjunto consultado, especialmente em análises de cobertura populacional (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2024).\nO TISS registra transações assistenciais com granularidade diferente do SIP e do DIOPS. A comparação entre o total de despesas informado no TISS e as demonstrações econômico-financeiras é, inclusive, usada para monitorar completude. A ANS alerta que inconsistências identificadas nos dados enviados pelas operadoras podem afetar análises e visualizações, e mantém processos de monitoramento e correção (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026e).",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
+    "objectID": "ans.html#dados-abertos-e-formas-de-acesso",
+    "href": "ans.html#dados-abertos-e-formas-de-acesso",
+    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "G.4 Dados abertos e formas de acesso",
+    "text": "G.4 Dados abertos e formas de acesso\nA ANS publica dados em formatos e interfaces distintos. Alguns conjuntos são arquivos processáveis por máquina; outros são consultas agregadas, painéis ou publicações. O calendário de atualização, a granularidade, o período disponível e as regras de revisão variam entre os produtos. A página institucional de dados abertos apresenta o plano de abertura, o inventário e o cronograma de novos conjuntos (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026b), enquanto a área de dados e indicadores organiza os acessos por tema (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026c).\nOs principais pontos de entrada são:\n\nPágina de Dados Abertos da ANS, com plano, inventário e orientações.\nConjuntos da ANS no Portal Brasileiro de Dados Abertos, com metadados e recursos para transferência.\nDados e Indicadores do Setor, que reúne beneficiários, operadoras, planos, dados assistenciais, financeiros e painéis.\nTabNet da ANS, para tabulações agregadas de beneficiários, operadoras, produtos, receitas e despesas.\nDiretório de arquivos abertos da ANS, destinado à transferência de bases, dicionários e arquivos históricos.\nPadrão TISS, com documentação técnica, componentes e versões do padrão.\nDados e Publicações do Ressarcimento ao SUS, com bases, painéis e boletins sobre atendimentos de beneficiários no SUS.\n\nEntre os conjuntos mais úteis estão os de beneficiários por município, faixa etária, sexo, operadora, modalidade e tipo de contratação; cadastros de operadoras ativas e canceladas; características e abrangência dos planos; rede de prestadores; procedimentos ambulatoriais e hospitalares informados pelo TISS; produção assistencial do SIP; demonstrações contábeis; receitas e despesas; reajustes; reclamações; IDSS; e ressarcimento ao SUS.\n\nUsos e limites de grupos de dados divulgados pela ANS\n\n\n\n\n\n\n\nGrupo de dados\nPerguntas possíveis\nCuidados principais\n\n\n\n\nBeneficiários\nQuantos vínculos ativos existem e como se distribuem?\nVínculo não é sempre pessoa única; competência e endereço podem mudar\n\n\nOperadoras e planos\nQuem está ativo, que produtos oferece e em qual abrangência?\nSituação cadastral e comercialização variam no tempo\n\n\nTISS\nQue procedimentos e despesas foram informados no setor suplementar?\nDados públicos podem ser agregados; completude e revisões variam por operadora e período\n\n\nSIP\nQual a produção assistencial agregada das operadoras?\nConceitos e nível de agregação diferem do TISS\n\n\nEconômico-financeiros\nComo evoluem receitas, despesas e solvência?\nRegime contábil não equivale à data clínica do atendimento\n\n\nQualidade e reclamações\nComo operadoras se comparam nos indicadores regulatórios?\nMetodologia, elegibilidade e ano-base precisam acompanhar o resultado\n\n\nRessarcimento ao SUS\nQue atendimentos de beneficiários foram identificados e cobrados?\nIdentificação, cobrança, pagamento e atendimento são etapas diferentes\n\n\n\nOs produtos públicos não expõem toda a base operacional. Informações pessoais do SIB e registros individualizados de atenção são protegidos; arquivos públicos podem estar agregados, anonimizados ou ter variáveis selecionadas. A ausência de identificadores limita o relacionamento individual com outros SIS, mas ainda permite integração por município, período, estabelecimento, operadora, faixa etária ou categoria de procedimento.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
+    "objectID": "ans.html#integração-com-dados-dos-sis",
+    "href": "ans.html#integração-com-dados-dos-sis",
+    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "section": "G.5 Integração com dados dos SIS",
+    "text": "G.5 Integração com dados dos SIS\n\nG.5.1 Coberturas que não são equivalentes\nA primeira decisão ao integrar ANS e SIS é definir quem e o que cada fonte observa. SIH/SUS e SIA/SUS registram produção financiada pelo SUS: internações autorizadas por AIH e procedimentos ambulatoriais captados por APAC, BPA e outros instrumentos. Um hospital privado conveniado pode aparecer nesses sistemas quando presta atendimento financiado pelo SUS; portanto, “dado do SUS” não significa necessariamente “prestador público”.\nO SISAB e o Siaps descrevem atividades da APS no SUS em períodos e arranjos operacionais distintos. Em contraste, TISS e SIP refletem atenção intermediada por operadoras. Consultas e procedimentos privados pagos diretamente pelas famílias podem ficar fora dos dois domínios, pois não foram financiados pelo SUS nem por um plano.\nNem todos os SIS, contudo, se restringem à dimensão pública. SIM e SINASC têm pretensão nacional e registram óbitos e nascimentos ocorridos nos setores público e privado. SINAN recebe notificações compulsórias originadas em serviços públicos e privados. O CNES cadastra estabelecimentos de diferentes naturezas e vínculos. Essas fontes podem funcionar como referências nacionais ou pontes de integração, embora sua cobertura e qualidade precisem ser avaliadas em cada uso.\n\nPossibilidades e limites da integração entre dados da ANS e SIS\n\n\n\n\n\n\n\n\nFonte da ANS\nSIS relacionado\nO que a combinação pode mostrar\nLimite essencial\n\n\n\n\nSIB\nSIH/SUS e SIA/SUS\nUso do SUS por pessoas com vínculo a plano e ressarcimento\nBeneficiário de plano continua tendo direito ao SUS; as populações se sobrepõem\n\n\nTISS\nSIH/SUS\nProdução hospitalar financiada por planos e pelo SUS\nAIH e guia TISS têm conceitos, códigos e regras de pagamento diferentes\n\n\nTISS\nSIA/SUS\nProcedimentos ambulatoriais nos dois regimes de financiamento\nAPAC, BPA e mensagens TISS não são unidades diretamente intercambiáveis\n\n\nSIB e TISS\nSISAB\nRelação entre cobertura por planos e produção da APS pública\nDados agregados não demonstram substituição individual entre serviços\n\n\nRede das operadoras\nCNES\nLocalização, natureza e capacidade dos prestadores\nRede contratada, cadastro ativo e produção realizada são conceitos distintos\n\n\nSIB\nSIM, SINASC ou SINAN\nDesfechos e eventos entre beneficiários, mediante governança\nEsses SIS não representam apenas a dimensão pública e o vínculo individual exige dados protegidos\n\n\n\n\n\nG.5.2 Ressarcimento ao SUS como integração institucional\nO ressarcimento é o exemplo mais concreto de integração entre bases da saúde suplementar e SIS de produção pública. A ANS relaciona o cadastro de vínculos do SIB com registros de internações do SIH/SUS e procedimentos ambulatoriais de média e alta complexidade do SIA/SUS. Quando um atendimento satisfaz os critérios legais, a operadora recebe um Aviso de Beneficiário Identificado (ABI), pode impugnar a identificação e, concluído o processo, o valor devido é encaminhado ao Fundo Nacional de Saúde (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026d).\nEsse fluxo mostra que cobertura de plano e utilização do SUS não são categorias excludentes. Também demonstra a diferença entre o dado analítico e o administrativo: atendimento identificado, valor cobrado, decisão definitiva, pagamento e repasse correspondem a etapas diferentes. Somar quantidades dessas etapas ou interpretar todo atendimento de beneficiário no SUS como dívida confirmada produz resultados incorretos.\nO relacionamento institucional utiliza informações identificadas e regras protegidas por governança. Os dados públicos de ressarcimento permitem analisar volumes, valores, operadoras, períodos e distribuição dos atendimentos, mas não reproduzem a base nominal empregada no processo. A discussão metodológica sobre interoperabilidade e linkage é aprofundada na Apêndice H.\n\n\nG.5.3 Estratégias de integração analítica\nUma análise agregada pode combinar o número de vínculos de beneficiários da ANS com estimativas populacionais para calcular taxa de cobertura por território e período. Essa taxa não deve ser tratada como proporção exata de pessoas com plano quando houver vínculos múltiplos, divergência de competência ou diferenças no endereço. Também não mede uso efetivo: estar vinculado a um plano não informa se a pessoa utilizou sua rede, pagou diretamente ou recorreu ao SUS.\nPara comparar utilização, é preferível construir taxas separadas: eventos financiados pelo SUS sobre a população pertinente e eventos da saúde suplementar sobre os vínculos ou beneficiários elegíveis, conforme a definição da fonte. Somar numeradores antes de harmonizar unidades pode duplicar eventos ou misturar internações, autorizações, guias, procedimentos e itens de cobrança. Uma internação pode gerar uma AIH no SIH/SUS e múltiplos itens TISS em outro regime; os registros não representam necessariamente a mesma unidade analítica.\nO CNES oferece uma chave útil para estabelecimentos. Ele permite associar natureza jurídica, localização, leitos, equipamentos e profissionais a prestadores informados pelas operadoras, desde que o identificador esteja preenchido e válido para o período. Ainda assim, pertencer à rede de um plano não prova que houve atendimento, e constar no CNES não prova disponibilidade para todos os beneficiários ou para o SUS.\nTUSS e SIGTAP exigem mapeamento conceitual. Mesmo quando dois códigos descrevem procedimentos semelhantes, regras de agrupamento, cobertura, faturamento e vigência podem divergir. A comparação deve preservar as versões das tabelas e explicitar se a unidade é procedimento, guia, autorização, atendimento, internação ou pessoa.\n\n\nG.5.4 Cuidados para evitar interpretações incorretas\n\nDefinir a população e o regime de financiamento. Distinguir residentes, vínculos a planos, usuários do SUS, beneficiários atendidos e pessoas únicas.\nAlinhar tempo e território. Compatibilizar competência, data do atendimento, vigência do vínculo, residência do beneficiário e localização do prestador.\nHarmonizar unidades. Não equiparar automaticamente AIH, APAC, BPA, guia TISS, item de procedimento e internação clínica.\nPreservar a sobreposição. Não subtrair todos os beneficiários da população para criar uma suposta “população exclusivamente SUS”; beneficiários também utilizam o sistema público.\nVerificar completude e revisões. Dados recentes do TISS, SIB, SIH/SUS e SIA/SUS podem mudar após correções, reenvios e consolidação.\nControlar duplicidades. Estabelecimentos, vínculos e eventos podem aparecer mais de uma vez conforme produto, competência, guia ou fonte.\nRespeitar a proteção dos dados. Relacionamento individual exige base legal, finalidade, ambiente seguro, minimização e autorização institucional; microdados públicos agregados não devem ser usados para tentar reidentificar pessoas.\nDocumentar o mapeamento. Registrar versões de TUSS, SIGTAP, CNES, regras de inclusão, denominadores e decisões de correspondência.\n\nIntegrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileiro, mas não cria automaticamente uma base completa da assistência nacional. A combinação cobre partes diferentes do financiamento e da prestação, permanece sujeita a lacunas — especialmente o pagamento privado direto — e precisa preservar a dupla condição de muitas pessoas como beneficiárias de planos e usuárias potenciais do SUS. O resultado mais útil não é uma soma indiscriminada, mas uma análise que torne visíveis as fronteiras, as interseções e as diferenças entre as fontes.\n\n\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Resolução Normativa ANS nº 566, de 29 de dezembro de 2022. Disponível em: &lt;https://bvsms.saude.gov.br/bvs/saudelegis/ans/2023/res0566_02_01_2023.html&gt;. Acesso em: 15 jul. 2026.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Sobre o Sistema de Informações de Beneficiários. Disponível em: &lt;https://www.gov.br/ans/pt-br/sobre-o-sib&gt;. Acesso em: 15 jul. 2026.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. TISS: Padrão para Troca de Informação de Saúde Suplementar. Disponível em: &lt;https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss&gt;. Acesso em: 15 jul. 2026a.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados Abertos. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-abertos-1&gt;. Acesso em: 15 jul. 2026b.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados e Indicadores do Setor. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor&gt;. Acesso em: 15 jul. 2026c.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados e Publicações do Ressarcimento ao SUS. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/dados-e-publicacoes-do-ressarcimento-ao-sus&gt;. Acesso em: 15 jul. 2026d.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. ANS atualiza dados abertos do Padrão TISS. Disponível em: &lt;https://www.gov.br/ans/pt-br/assuntos/noticias/operadoras/ans-atualiza-dados-abertos-do-padrao-tiss&gt;. Acesso em: 15 jul. 2026e.\n\n\nBRASIL. Lei nº 9.656, de 3 de junho de 1998. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/leis/l9656.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 9.961, de 28 de janeiro de 2000. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/leis/l9961.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 13.848, de 25 de junho de 2019. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13848.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 14.307, de 3 de março de 2022. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14307.htm&gt;. Acesso em: 15 jul. 2026a.\n\n\nBRASIL. Lei nº 14.454, de 21 de setembro de 2022. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14454.htm&gt;. Acesso em: 15 jul. 2026b.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+    ]
+  },
+  {
     "objectID": "interoperabilidade.html",
     "href": "interoperabilidade.html",
     "title": "Apêndice H — Interoperabilidade entre os Sistemas de Informação em Saúde",
@@ -3649,58 +3704,256 @@
     ]
   },
   {
-    "objectID": "ans.html#criação-e-principais-marcos-regulatórios",
-    "href": "ans.html#criação-e-principais-marcos-regulatórios",
-    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
+    "objectID": "indice.html",
+    "href": "indice.html",
+    "title": "Índice remissivo",
     "section": "",
-    "text": "Marcos selecionados da regulação da saúde suplementar\n\n\n\n\n\n\n\nAno\nMarco\nEfeito principal\n\n\n\n\n1988\nConstituição Federal\nAfirma a universalidade do SUS e a liberdade de atuação privada em saúde nos limites legais\n\n\n1998\nLei nº 9.656\nRegulamenta os planos privados, coberturas, contratos, operadoras e ressarcimento ao SUS\n\n\n2000\nLei nº 9.961\nCria a ANS como autarquia especial vinculada ao Ministério da Saúde\n\n\n2005\nInstituição do padrão TISS\nPadroniza trocas eletrônicas entre operadoras e prestadores e amplia a produção de informação assistencial\n\n\n2011 e 2022\nGarantia de atendimento\nEstabelece e consolida prazos e responsabilidades para acesso dos beneficiários aos serviços cobertos\n\n\n2019\nLei nº 13.848\nUniformiza regras de gestão, decisão, transparência e controle social das agências reguladoras\n\n\n2022\nLeis nº 14.307 e nº 14.454\nReformulam o processo de atualização do Rol e definem critérios legais para coberturas não incluídas na lista\n\n\n\n\n\n\n\n\n\n\n\n\nAvisoNormas em atualização\n\n\n\nO estoque regulatório da ANS é atualizado e consolidado periodicamente. Para decisões assistenciais, contratuais ou jurídicas, consulte a norma vigente e não apenas o ano do marco histórico apresentado neste apêndice.",
+    "text": "A\nEste índice reúne sistemas, documentos, conceitos, métodos e eventos de saúde tratados no livro. Na versão online, cada remissão leva diretamente à seção correspondente.\nA · B · C · D · E · F · G · H · I · J · L · M · N · O · P · Q · R · S · T · U · V · Z",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+      "Índice remissivo"
     ]
   },
   {
-    "objectID": "ans.html#para-que-serve-a-ans",
-    "href": "ans.html#para-que-serve-a-ans",
-    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
-    "section": "G.2 Para que serve a ANS",
-    "text": "G.2 Para que serve a ANS\nA finalidade legal da Agência é promover a defesa do interesse público na assistência suplementar à saúde, regulando as operadoras e contribuindo para o desenvolvimento das ações de saúde no país. Isso envolve interesses que podem entrar em tensão: acesso e proteção dos beneficiários, qualidade assistencial, sustentabilidade das operadoras, remuneração e organização da rede prestadora, concorrência e articulação com o SUS.\n\nPrincipais áreas de atuação da ANS\n\n\n\n\n\n\nÁrea de atuação\nExemplos de atividades\n\n\n\n\nEntrada e permanência no mercado\nRegistrar operadoras, autorizar produtos, acompanhar condições de funcionamento e adotar regimes especiais\n\n\nCobertura e acesso\nDefinir o Rol, segmentações assistenciais, regras contratuais, rede e garantia de atendimento\n\n\nProteção do beneficiário\nReceber reclamações, realizar intermediação, fiscalizar negativas e aplicar sanções\n\n\nRegulação econômica\nAcompanhar solvência, provisões, demonstrações contábeis e reajustes sujeitos à competência da Agência\n\n\nQualidade\nAvaliar desempenho de operadoras, atenção à saúde, acesso, sustentabilidade e qualidade dos dados\n\n\nInformação e interoperabilidade\nManter cadastros, estabelecer TISS e TUSS e receber dados periódicos das operadoras\n\n\nRelação com o SUS\nIdentificar atendimentos de beneficiários no SUS, processar o ressarcimento e produzir informações setoriais\n\n\n\nA Agência registra operadoras e planos, acompanha alterações de rede, monitora garantias financeiras e pode determinar medidas corretivas quando identifica problemas assistenciais ou econômico-financeiros. O Rol delimita a referência de cobertura obrigatória conforme a segmentação do produto, enquanto regras de garantia de atendimento tratam da disponibilidade do serviço dentro dos prazos e da área aplicáveis.\nNa relação com os beneficiários, a ANS disponibiliza canais de informação e recebe demandas contra operadoras. A Notificação de Intermediação Preliminar (NIP) busca solucionar conflitos de natureza assistencial ou não assistencial antes da abertura de processo sancionador. Reclamações, sua resolutividade e seu desfecho também alimentam indicadores de monitoramento.\nO Índice de Desempenho da Saúde Suplementar (IDSS) sintetiza dimensões relacionadas à qualidade da atenção, garantia de acesso, sustentabilidade e gestão de processos e regulação. Ele não deve ser interpretado como uma medida direta e isolada da qualidade de todos os serviços de uma operadora: depende dos indicadores selecionados, das regras do ano-base e da qualidade das informações enviadas.",
+    "objectID": "indice.html#indice-a",
+    "href": "indice.html#indice-a",
+    "title": "Índice remissivo",
+    "section": "",
+    "text": "Acidente de trabalho — SINAN: Acidente de trabalho\n\n\nAcidente de trabalho com material biológico — SINAN: Acidente de trabalho com material biológico\n\n\nAcidente de trânsito — Eventos de saúde: Exemplo integrado: acidente de trânsito\n\n\nAcidentes de trânsito — SIM: Exemplo: acidentes de trânsito\n\n\nAcidentes por animais peçonhentos — SINAN: Acidentes por Animais Peçonhentos\n\n\nAções e Serviços Públicos de Saúde (ASPS) — SIOPS: ASPS e aplicação mínima\n\n\nAids em adultos — SINAN: AIDS em adultos\n\n\nAids em crianças — SINAN: AIDS em crianças\n\n\nAIH — SIH/SUS: AIH, internação e pessoa\n\n\nAIH rejeitada — SIH/SUS: AIHs rejeitadas\n\n\nAnálise espacial — CNES: Geocodificação e análise espacial\n\n\nAnálise temporal — SIM: Análise temporal\n\n\nAnálise territorial — SIM: Análise territorial\n\n\nAnomalias congênitas — SINASC: Anomalias congênitas\n\n\nANS — Agência Nacional de Saúde Suplementar — ANS\n\n\nAPAC — SIA/SUS: APAC e alta complexidade\n\n\nAplicação mínima em saúde — SIOPS: ASPS e aplicação mínima\n\n\nArboviroses — SINAN: Arboviroses\n\n\nArquitetura da RNDS — RNDS: Arquitetura em camadas\n\n\nAtenção Primária à Saúde (APS) — SISAPS\n\n\nAtendimento antirrábico — SINAN: Atendimento antirrábico\n\n\nAutorização de Internação Hospitalar (AIH) — SIH/SUS: Fluxo da AIH\n\n\nAutorização de Procedimentos Ambulatoriais (APAC) — SIA/SUS: Instrumentos de registro",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+      "Índice remissivo"
     ]
   },
   {
-    "objectID": "ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar",
-    "href": "ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar",
-    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
-    "section": "G.3 Sistemas e fluxos de informação da saúde suplementar",
-    "text": "G.3 Sistemas e fluxos de informação da saúde suplementar\nA regulação depende de diferentes sistemas, pois beneficiário, plano, operadora, atendimento e situação financeira são unidades distintas. A existência de um padrão comum não transforma esses registros em uma única base nem elimina diferenças de finalidade.\n\nFontes de informação usadas na regulação da saúde suplementar\n\n\n\n\n\n\n\nFonte\nConteúdo principal\nUnidade ou lógica de registro\n\n\n\n\nSistema de Informações de Beneficiários (SIB)\nIdentificação, endereço e vínculo contratual dos beneficiários\nVínculo entre beneficiário, produto, contratante e operadora\n\n\nCadastro de Operadoras\nRegistro, modalidade, endereço e situação cadastral\nOperadora\n\n\nRegistro de Produtos\nSegmentação, abrangência, contratação e características do plano\nProduto ou plano registrado\n\n\nTISS\nGuias, eventos assistenciais, procedimentos e valores trocados entre prestadores e operadoras\nEvento ou item assistencial, segundo a mensagem e o componente\n\n\nSistema de Informações de Produtos (SIP)\nProdução assistencial agregada informada pelas operadoras\nAgregado periódico por operadora e item assistencial\n\n\nDocumento de Informações Periódicas das Operadoras de Planos de Assistência à Saúde (DIOPS)\nDemonstrações e informações econômico-financeiras\nOperadora e período contábil\n\n\nFiscalização e NIP\nDemandas, reclamações, intermediações e processos\nDemanda ou processo regulatório\n\n\nRessarcimento ao SUS\nAtendimentos identificados, avisos, impugnações, cobranças e pagamentos\nAtendimento de beneficiário no SUS e processo administrativo\n\n\n\nO SIB recebe atualizações cadastrais mensais das operadoras. Sua lógica é de vínculos, não necessariamente de pessoas únicas: alguém associado a dois produtos pode ter dois registros e dois códigos de controle operacional. Por isso, totais divulgados como “beneficiários” precisam ser lidos segundo a definição do conjunto consultado, especialmente em análises de cobertura populacional (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2024).\nO TISS registra transações assistenciais com granularidade diferente do SIP e do DIOPS. A comparação entre o total de despesas informado no TISS e as demonstrações econômico-financeiras é, inclusive, usada para monitorar completude. A ANS alerta que inconsistências identificadas nos dados enviados pelas operadoras podem afetar análises e visualizações, e mantém processos de monitoramento e correção (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026e).",
+    "objectID": "indice.html#indice-b",
+    "href": "indice.html#indice-b",
+    "title": "Índice remissivo",
+    "section": "B",
+    "text": "B\n\n\nBaixo peso ao nascer — SINASC: Exemplo: baixo peso ao nascer\n\n\nBoletim de Produção Ambulatorial (BPA) — SIA/SUS: Instrumentos de registro\n\n\nBotulismo — SINAN: Botulismo",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+      "Índice remissivo"
     ]
   },
   {
-    "objectID": "ans.html#dados-abertos-e-formas-de-acesso",
-    "href": "ans.html#dados-abertos-e-formas-de-acesso",
-    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
-    "section": "G.4 Dados abertos e formas de acesso",
-    "text": "G.4 Dados abertos e formas de acesso\nA ANS publica dados em formatos e interfaces distintos. Alguns conjuntos são arquivos processáveis por máquina; outros são consultas agregadas, painéis ou publicações. O calendário de atualização, a granularidade, o período disponível e as regras de revisão variam entre os produtos. A página institucional de dados abertos apresenta o plano de abertura, o inventário e o cronograma de novos conjuntos (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026b), enquanto a área de dados e indicadores organiza os acessos por tema (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026c).\nOs principais pontos de entrada são:\n\nPágina de Dados Abertos da ANS, com plano, inventário e orientações.\nConjuntos da ANS no Portal Brasileiro de Dados Abertos, com metadados e recursos para transferência.\nDados e Indicadores do Setor, que reúne beneficiários, operadoras, planos, dados assistenciais, financeiros e painéis.\nTabNet da ANS, para tabulações agregadas de beneficiários, operadoras, produtos, receitas e despesas.\nDiretório de arquivos abertos da ANS, destinado à transferência de bases, dicionários e arquivos históricos.\nPadrão TISS, com documentação técnica, componentes e versões do padrão.\nDados e Publicações do Ressarcimento ao SUS, com bases, painéis e boletins sobre atendimentos de beneficiários no SUS.\n\nEntre os conjuntos mais úteis estão os de beneficiários por município, faixa etária, sexo, operadora, modalidade e tipo de contratação; cadastros de operadoras ativas e canceladas; características e abrangência dos planos; rede de prestadores; procedimentos ambulatoriais e hospitalares informados pelo TISS; produção assistencial do SIP; demonstrações contábeis; receitas e despesas; reajustes; reclamações; IDSS; e ressarcimento ao SUS.\n\nUsos e limites de grupos de dados divulgados pela ANS\n\n\n\n\n\n\n\nGrupo de dados\nPerguntas possíveis\nCuidados principais\n\n\n\n\nBeneficiários\nQuantos vínculos ativos existem e como se distribuem?\nVínculo não é sempre pessoa única; competência e endereço podem mudar\n\n\nOperadoras e planos\nQuem está ativo, que produtos oferece e em qual abrangência?\nSituação cadastral e comercialização variam no tempo\n\n\nTISS\nQue procedimentos e despesas foram informados no setor suplementar?\nDados públicos podem ser agregados; completude e revisões variam por operadora e período\n\n\nSIP\nQual a produção assistencial agregada das operadoras?\nConceitos e nível de agregação diferem do TISS\n\n\nEconômico-financeiros\nComo evoluem receitas, despesas e solvência?\nRegime contábil não equivale à data clínica do atendimento\n\n\nQualidade e reclamações\nComo operadoras se comparam nos indicadores regulatórios?\nMetodologia, elegibilidade e ano-base precisam acompanhar o resultado\n\n\nRessarcimento ao SUS\nQue atendimentos de beneficiários foram identificados e cobrados?\nIdentificação, cobrança, pagamento e atendimento são etapas diferentes\n\n\n\nOs produtos públicos não expõem toda a base operacional. Informações pessoais do SIB e registros individualizados de atenção são protegidos; arquivos públicos podem estar agregados, anonimizados ou ter variáveis selecionadas. A ausência de identificadores limita o relacionamento individual com outros SIS, mas ainda permite integração por município, período, estabelecimento, operadora, faixa etária ou categoria de procedimento.",
+    "objectID": "indice.html#indice-c",
+    "href": "indice.html#indice-c",
+    "title": "Índice remissivo",
+    "section": "C",
+    "text": "C\n\n\nCampanha de vacinação — SI-PNI: Rotina, campanha e Covid-19\n\n\nCâncer relacionado ao trabalho — SINAN: Câncer relacionado ao trabalho\n\n\nCausa básica do óbito — SIM: Causa básica do óbito\n\n\nCausas externas — CID: Causas externas\n\n\nCausas múltiplas de morte — SIM: Causa básica e causas múltiplas\n\n\nCenso demográfico — Estimativas populacionais: Censo, contagem, estimativa e projeção\n\n\nChikungunya — SINAN: Chikungunya\n\n\nCID-10 — CID: Estrutura da CID-10\n\n\nCID-11 — CID: CID-11 e transição no Brasil\n\n\nCID — Classificação Internacional de Doenças — CID\n\n\nCNES — Cadastro Nacional de Estabelecimentos de Saúde — CNES\n\n\nCobertura administrativa — SI-PNI: Cobertura administrativa e cobertura de inquérito\n\n\nCobertura de inquérito — SI-PNI: Cobertura administrativa e cobertura de inquérito\n\n\nCobertura dos dados — Organização dos SIS: Cobertura: todo o território, SUS e saúde suplementar\n\n\nCobertura vacinal — SI-PNI: Cobertura vacinal e denominadores\n\n\nCodificação pela CID — SIM: Codificação pela CID\n\n\nCódigo do município — Códigos dos municípios: Estrutura do código\n\n\nCódigos dos municípios — Códigos dos municípios\n\n\nCofinanciamento da APS — SISAPS: Indicadores e cofinanciamento\n\n\nCólera — SINAN: Cólera\n\n\nComparabilidade — Organização dos SIS: Qualidade, completude e comparabilidade\n\n\nCompletude — Organização dos SIS: Qualidade, completude e comparabilidade\n\n\nConhecimento — Introdução: Dados, informação e conhecimento\n\n\nContagem populacional — Estimativas populacionais: Censo, contagem, estimativa e projeção\n\n\nContinuidade do cuidado — RNDS: Continuidade do cuidado\n\n\nControle da qualidade da água — SISAGUA: Controle e Vigilância\n\n\nCoqueluche — SINAN: Coqueluche",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+      "Índice remissivo"
     ]
   },
   {
-    "objectID": "ans.html#integração-com-dados-dos-sis",
-    "href": "ans.html#integração-com-dados-dos-sis",
-    "title": "Apêndice G — Agência Nacional de Saúde Suplementar - ANS",
-    "section": "G.5 Integração com dados dos SIS",
-    "text": "G.5 Integração com dados dos SIS\n\nG.5.1 Coberturas que não são equivalentes\nA primeira decisão ao integrar ANS e SIS é definir quem e o que cada fonte observa. SIH/SUS e SIA/SUS registram produção financiada pelo SUS: internações autorizadas por AIH e procedimentos ambulatoriais captados por APAC, BPA e outros instrumentos. Um hospital privado conveniado pode aparecer nesses sistemas quando presta atendimento financiado pelo SUS; portanto, “dado do SUS” não significa necessariamente “prestador público”.\nO SISAB e o Siaps descrevem atividades da APS no SUS em períodos e arranjos operacionais distintos. Em contraste, TISS e SIP refletem atenção intermediada por operadoras. Consultas e procedimentos privados pagos diretamente pelas famílias podem ficar fora dos dois domínios, pois não foram financiados pelo SUS nem por um plano.\nNem todos os SIS, contudo, se restringem à dimensão pública. SIM e SINASC têm pretensão nacional e registram óbitos e nascimentos ocorridos nos setores público e privado. SINAN recebe notificações compulsórias originadas em serviços públicos e privados. O CNES cadastra estabelecimentos de diferentes naturezas e vínculos. Essas fontes podem funcionar como referências nacionais ou pontes de integração, embora sua cobertura e qualidade precisem ser avaliadas em cada uso.\n\nPossibilidades e limites da integração entre dados da ANS e SIS\n\n\n\n\n\n\n\n\nFonte da ANS\nSIS relacionado\nO que a combinação pode mostrar\nLimite essencial\n\n\n\n\nSIB\nSIH/SUS e SIA/SUS\nUso do SUS por pessoas com vínculo a plano e ressarcimento\nBeneficiário de plano continua tendo direito ao SUS; as populações se sobrepõem\n\n\nTISS\nSIH/SUS\nProdução hospitalar financiada por planos e pelo SUS\nAIH e guia TISS têm conceitos, códigos e regras de pagamento diferentes\n\n\nTISS\nSIA/SUS\nProcedimentos ambulatoriais nos dois regimes de financiamento\nAPAC, BPA e mensagens TISS não são unidades diretamente intercambiáveis\n\n\nSIB e TISS\nSISAB\nRelação entre cobertura por planos e produção da APS pública\nDados agregados não demonstram substituição individual entre serviços\n\n\nRede das operadoras\nCNES\nLocalização, natureza e capacidade dos prestadores\nRede contratada, cadastro ativo e produção realizada são conceitos distintos\n\n\nSIB\nSIM, SINASC ou SINAN\nDesfechos e eventos entre beneficiários, mediante governança\nEsses SIS não representam apenas a dimensão pública e o vínculo individual exige dados protegidos\n\n\n\n\n\nG.5.2 Ressarcimento ao SUS como integração institucional\nO ressarcimento é o exemplo mais concreto de integração entre bases da saúde suplementar e SIS de produção pública. A ANS relaciona o cadastro de vínculos do SIB com registros de internações do SIH/SUS e procedimentos ambulatoriais de média e alta complexidade do SIA/SUS. Quando um atendimento satisfaz os critérios legais, a operadora recebe um Aviso de Beneficiário Identificado (ABI), pode impugnar a identificação e, concluído o processo, o valor devido é encaminhado ao Fundo Nacional de Saúde (AGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR, 2026d).\nEsse fluxo mostra que cobertura de plano e utilização do SUS não são categorias excludentes. Também demonstra a diferença entre o dado analítico e o administrativo: atendimento identificado, valor cobrado, decisão definitiva, pagamento e repasse correspondem a etapas diferentes. Somar quantidades dessas etapas ou interpretar todo atendimento de beneficiário no SUS como dívida confirmada produz resultados incorretos.\nO relacionamento institucional utiliza informações identificadas e regras protegidas por governança. Os dados públicos de ressarcimento permitem analisar volumes, valores, operadoras, períodos e distribuição dos atendimentos, mas não reproduzem a base nominal empregada no processo. A discussão metodológica sobre interoperabilidade e linkage é aprofundada na Apêndice H.\n\n\nG.5.3 Estratégias de integração analítica\nUma análise agregada pode combinar o número de vínculos de beneficiários da ANS com estimativas populacionais para calcular taxa de cobertura por território e período. Essa taxa não deve ser tratada como proporção exata de pessoas com plano quando houver vínculos múltiplos, divergência de competência ou diferenças no endereço. Também não mede uso efetivo: estar vinculado a um plano não informa se a pessoa utilizou sua rede, pagou diretamente ou recorreu ao SUS.\nPara comparar utilização, é preferível construir taxas separadas: eventos financiados pelo SUS sobre a população pertinente e eventos da saúde suplementar sobre os vínculos ou beneficiários elegíveis, conforme a definição da fonte. Somar numeradores antes de harmonizar unidades pode duplicar eventos ou misturar internações, autorizações, guias, procedimentos e itens de cobrança. Uma internação pode gerar uma AIH no SIH/SUS e múltiplos itens TISS em outro regime; os registros não representam necessariamente a mesma unidade analítica.\nO CNES oferece uma chave útil para estabelecimentos. Ele permite associar natureza jurídica, localização, leitos, equipamentos e profissionais a prestadores informados pelas operadoras, desde que o identificador esteja preenchido e válido para o período. Ainda assim, pertencer à rede de um plano não prova que houve atendimento, e constar no CNES não prova disponibilidade para todos os beneficiários ou para o SUS.\nTUSS e SIGTAP exigem mapeamento conceitual. Mesmo quando dois códigos descrevem procedimentos semelhantes, regras de agrupamento, cobertura, faturamento e vigência podem divergir. A comparação deve preservar as versões das tabelas e explicitar se a unidade é procedimento, guia, autorização, atendimento, internação ou pessoa.\n\n\nG.5.4 Cuidados para evitar interpretações incorretas\n\nDefinir a população e o regime de financiamento. Distinguir residentes, vínculos a planos, usuários do SUS, beneficiários atendidos e pessoas únicas.\nAlinhar tempo e território. Compatibilizar competência, data do atendimento, vigência do vínculo, residência do beneficiário e localização do prestador.\nHarmonizar unidades. Não equiparar automaticamente AIH, APAC, BPA, guia TISS, item de procedimento e internação clínica.\nPreservar a sobreposição. Não subtrair todos os beneficiários da população para criar uma suposta “população exclusivamente SUS”; beneficiários também utilizam o sistema público.\nVerificar completude e revisões. Dados recentes do TISS, SIB, SIH/SUS e SIA/SUS podem mudar após correções, reenvios e consolidação.\nControlar duplicidades. Estabelecimentos, vínculos e eventos podem aparecer mais de uma vez conforme produto, competência, guia ou fonte.\nRespeitar a proteção dos dados. Relacionamento individual exige base legal, finalidade, ambiente seguro, minimização e autorização institucional; microdados públicos agregados não devem ser usados para tentar reidentificar pessoas.\nDocumentar o mapeamento. Registrar versões de TUSS, SIGTAP, CNES, regras de inclusão, denominadores e decisões de correspondência.\n\nIntegrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileiro, mas não cria automaticamente uma base completa da assistência nacional. A combinação cobre partes diferentes do financiamento e da prestação, permanece sujeita a lacunas — especialmente o pagamento privado direto — e precisa preservar a dupla condição de muitas pessoas como beneficiárias de planos e usuárias potenciais do SUS. O resultado mais útil não é uma soma indiscriminada, mas uma análise que torne visíveis as fronteiras, as interseções e as diferenças entre as fontes.\n\n\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Resolução Normativa ANS nº 566, de 29 de dezembro de 2022. Disponível em: &lt;https://bvsms.saude.gov.br/bvs/saudelegis/ans/2023/res0566_02_01_2023.html&gt;. Acesso em: 15 jul. 2026.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Sobre o Sistema de Informações de Beneficiários. Disponível em: &lt;https://www.gov.br/ans/pt-br/sobre-o-sib&gt;. Acesso em: 15 jul. 2026.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. TISS: Padrão para Troca de Informação de Saúde Suplementar. Disponível em: &lt;https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss&gt;. Acesso em: 15 jul. 2026a.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados Abertos. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-abertos-1&gt;. Acesso em: 15 jul. 2026b.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados e Indicadores do Setor. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor&gt;. Acesso em: 15 jul. 2026c.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. Dados e Publicações do Ressarcimento ao SUS. Disponível em: &lt;https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/dados-e-publicacoes-do-ressarcimento-ao-sus&gt;. Acesso em: 15 jul. 2026d.\n\n\nAGÊNCIA NACIONAL DE SAÚDE SUPLEMENTAR. ANS atualiza dados abertos do Padrão TISS. Disponível em: &lt;https://www.gov.br/ans/pt-br/assuntos/noticias/operadoras/ans-atualiza-dados-abertos-do-padrao-tiss&gt;. Acesso em: 15 jul. 2026e.\n\n\nBRASIL. Lei nº 9.656, de 3 de junho de 1998. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/leis/l9656.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 9.961, de 28 de janeiro de 2000. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/leis/l9961.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 13.848, de 25 de junho de 2019. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13848.htm&gt;. Acesso em: 15 jul. 2026.\n\n\nBRASIL. Lei nº 14.307, de 3 de março de 2022. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14307.htm&gt;. Acesso em: 15 jul. 2026a.\n\n\nBRASIL. Lei nº 14.454, de 21 de setembro de 2022. Disponível em: &lt;https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14454.htm&gt;. Acesso em: 15 jul. 2026b.",
+    "objectID": "indice.html#indice-d",
+    "href": "indice.html#indice-d",
+    "title": "Índice remissivo",
+    "section": "D",
+    "text": "D\n\n\nDados — Introdução: Dados, informação e conhecimento\n\n\nDados abertos — RNDS: RNDS e dados abertos\n\n\nDados abertos da ANS — ANS: Dados abertos e formas de acesso\n\n\nDados individualizados — SI-PNI: Privacidade e dados individualizados\n\n\nDataSUS — Histórico: O Departamento de Informática do SUS – DataSUS\n\n\nDeclaração de Nascido Vivo (DNV) — SINASC: Fluxo da Declaração de Nascido Vivo\n\n\nDeclaração de Óbito (DO) — SIM: Fluxo da Declaração de Óbito\n\n\nDefinição de caso — SINAN: Definições de caso\n\n\nDeflação — SIOPS: Deflação de valores monetários\n\n\nDengue — Eventos de saúde: Exemplo integrado: dengue; SINAN: Exemplo: dengue; SINAN: Dengue\n\n\nDenominadores — CNES: CNES como denominador; Eventos de saúde: Denominadores e indicadores; Estimativas populacionais: Escolha do denominador; SINASC: Uso como denominador; SISAPS: Qual denominador usar?\n\n\nDermatoses ocupacionais — SINAN: Dermatoses ocupacionais\n\n\nDespesa pública em saúde — SIOPS: Fases da despesa\n\n\nDiagnóstico hospitalar — SIH/SUS: Diagnóstico, procedimento e valores\n\n\nDifteria — SINAN: Difteria\n\n\nDIOPS — ANS: Sistemas e fluxos de informação da saúde suplementar\n\n\nDisseminação pública de dados — Histórico: Disseminação pública e acesso aos dados\n\n\nDivisão Territorial Brasileira (DTB) — Códigos dos municípios: Divisão Territorial Brasileira\n\n\nDoença de Chagas — SINAN: Doença de Chagas\n\n\nDoenças, agravos e eventos de saúde — Organização dos SIS: Doenças, agravos e eventos de saúde\n\n\nDoenças exantemáticas — SINAN: Doenças Exantemáticas\n\n\nDoenças transmitidas por alimentos — SINAN: Surto de doenças transmitidas por alimentos\n\n\nDose de vacina — SI-PNI: Dose, pessoa e esquema\n\n\nDuplicidades — SINAN: Duplicidades e recorrências",
     "crumbs": [
       "Apêndices",
-      "<span class='chapter-number'>G</span>  <span class='chapter-title'>Agência Nacional de Saúde Suplementar - ANS</span>"
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-e",
+    "href": "indice.html#indice-e",
+    "title": "Índice remissivo",
+    "section": "E",
+    "text": "E\n\n\ne-SUS SINAN — SINAN: SINAN NET, SINAN Online e e-SUS SINAN\n\n\nEmergências em saúde pública — SISAGUA: Monitoramento em emergências\n\n\nEmissão da Declaração de Óbito — SIM: Emissão da Declaração de Óbito\n\n\nEpisódio — Eventos de saúde: Evento, pessoa, episódio e registro\n\n\nEquipe de saúde — SISAPS: Identificadores de equipe\n\n\nEsferas federativas — SIOPS: Esferas federativas e responsabilidades\n\n\nEsporotricose — SINAN: Esporotricose (Epizootia)\n\n\nEsquema vacinal — SI-PNI: Dose, pessoa e esquema\n\n\nEsquistossomose mansoni — SINAN: Esquistossomose mansoni\n\n\nEstabelecimento de saúde — CNES: Unidade de análise\n\n\nEstimativas populacionais — Estimativas populacionais\n\n\nEvento de saúde — Eventos de saúde",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-f",
+    "href": "indice.html#indice-f",
+    "title": "Índice remissivo",
+    "section": "F",
+    "text": "F\n\n\nFebre amarela — SINAN: Febre Amarela\n\n\nFebre maculosa — SINAN: Febre Maculosa\n\n\nFebre Oropouche — SINAN: Febre Oropouche\n\n\nFebre tifoide — SINAN: Febre Tifóide\n\n\nFHIR — RNDS: FHIR, terminologias e semântica\n\n\nFinanciamento da saúde — SIOPS: Financiamento, acesso e resultados\n\n\nFluxos de internação — SIH/SUS: Exemplo: fluxos de internação\n\n\nFormas de abastecimento de água — SISAGUA: Formas de abastecimento",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-g",
+    "href": "indice.html#indice-g",
+    "title": "Índice remissivo",
+    "section": "G",
+    "text": "G\n\n\nGeocodificação — CNES: Geocodificação e análise espacial\n\n\nGestação múltipla — SINASC: Gestações múltiplas\n\n\nGovernança de dados — RNDS: Privacidade, segurança e governança\n\n\nGrandes volumes de dados — SIH/SUS: Processamento de grandes volumes",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-h",
+    "href": "indice.html#indice-h",
+    "title": "Índice remissivo",
+    "section": "H",
+    "text": "H\n\n\nHanseníase — SINAN: Hanseníase\n\n\nHantavirose — SINAN: Hantavirose\n\n\nHepatites virais — SINAN: Hepatites Virais\n\n\nHerpes-zóster — SINAN: Varicela / Herpes-Zóster\n\n\nHIV em adultos — SINAN: HIV em adultos\n\n\nHIV em crianças — SINAN: HIV em crianças\n\n\nHIV em gestantes — SINAN: HIV em gestante",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-i",
+    "href": "indice.html#indice-i",
+    "title": "Índice remissivo",
+    "section": "I",
+    "text": "I\n\n\nIBGE — Estimativas populacionais: IBGE – TCU\n\n\nIdentificadores em saúde — RNDS: Identificadores essenciais\n\n\nIDSS — ANS: Para que serve a ANS\n\n\nImunizações — Eventos de saúde: Imunizações\n\n\nIndicador microbiológico — SISAGUA: Exemplo: indicador microbiológico\n\n\nIndicadores — Eventos de saúde: Denominadores e indicadores\n\n\nInfluenza pandêmica — SINAN: Influenza pandêmica\n\n\nInformação — Introdução: Dados, informação e conhecimento\n\n\nInstrumentos de coleta — Histórico: Padronização dos instrumentos de coleta\n\n\nIntegração entre sistemas — Organização dos SIS: Integração entre sistemas\n\n\nInternação hospitalar — SIH/SUS: AIH, internação e pessoa\n\n\nInternações — Eventos de saúde: Internações\n\n\nInternações por Condições Sensíveis à Atenção Primária (ICSAP) — SIH/SUS: Exemplo: internações por condições sensíveis à atenção primária\n\n\nInteroperabilidade — Histórico: Integração, interoperabilidade e novos desafios; Interoperabilidade\n\n\nInteroperabilidade organizacional — Interoperabilidade: O que é interoperabilidade\n\n\nInteroperabilidade semântica — Interoperabilidade: O que é interoperabilidade\n\n\nInteroperabilidade técnica — Interoperabilidade: O que é interoperabilidade\n\n\nIntoxicação exógena — SINAN: Intoxicação Exógena",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-j",
+    "href": "indice.html#indice-j",
+    "title": "Índice remissivo",
+    "section": "J",
+    "text": "J\n\n\nJunção de dados — Códigos dos municípios: Boas práticas para junções",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-l",
+    "href": "indice.html#indice-l",
+    "title": "Índice remissivo",
+    "section": "L",
+    "text": "L\n\n\nLeishmaniose tegumentar americana — SINAN: Leishmaniose Tegumentar Americana\n\n\nLeishmaniose visceral — SINAN: Leishmaniose Visceral\n\n\nLeitos hospitalares — CNES: Exemplo: leitos hospitalares\n\n\nLeptospirose — SINAN: Leptospirose\n\n\nLER/DORT — SINAN: LER/DORT\n\n\nLinkage — Interoperabilidade: O que é linkage",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-m",
+    "href": "indice.html#indice-m",
+    "title": "Índice remissivo",
+    "section": "M",
+    "text": "M\n\n\nMalária — SINAN: Malária\n\n\nMamografia — SIA/SUS: Exemplo: produção de mamografias\n\n\nMeningite — SINAN: Meningite\n\n\nMétodos híbridos de relacionamento — Interoperabilidade: Estratégias híbridas e métodos de classificação\n\n\nModelos de informação — RNDS: Modelos de informação\n\n\nMorbidade — Organização dos SIS: Sistemas de morbidade e vigilância\n\n\nMortalidade e morbidade — CID: Mortalidade e morbidade\n\n\nMortalidade infantil — SIM: Exemplo: mortalidade infantil\n\n\nMpox (Monkeypox) — SINAN: Monkeypox",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-n",
+    "href": "indice.html#indice-n",
+    "title": "Índice remissivo",
+    "section": "N",
+    "text": "N\n\n\nNascido vivo — SINASC: O que é nascido vivo\n\n\nNascimentos — Eventos de saúde: Nascimentos\n\n\nNIP — ANS: Para que serve a ANS\n\n\nNíveis geográficos — Organização dos SIS: Níveis geográficos\n\n\nNotificação — Eventos de saúde: Casos de doenças e agravos\n\n\nNotificação compulsória — SINAN: Fluxo da notificação",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-o",
+    "href": "indice.html#indice-o",
+    "title": "Índice remissivo",
+    "section": "O",
+    "text": "O\n\n\nÓbitos — Eventos de saúde: Óbitos\n\n\nOportunidade da vigilância — SINAN: Oportunidade da vigilância\n\n\nOrçamento público em saúde — SIOPS",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-p",
+    "href": "indice.html#indice-p",
+    "title": "Índice remissivo",
+    "section": "P",
+    "text": "P\n\n\nParalisia Flácida Aguda — SINAN: Poliomielite / Paralisia Flácida Aguda\n\n\nPerda auditiva induzida por ruído — SINAN: Perda auditiva por ruído relacionado ao trabalho\n\n\nPeriodicidade dos dados — Organização dos SIS: Periodicidade e versões dos dados\n\n\nPessoa — Eventos de saúde: Evento, pessoa, episódio e registro\n\n\nPeste — SINAN: Peste\n\n\nPlano de amostragem — SISAGUA: Plano de amostragem\n\n\nPlanos privados de saúde — ANS: Para que serve a ANS\n\n\nPneumoconioses relacionadas ao trabalho — SINAN: Pneumoconioses relacionadas ao trabalho\n\n\nPoliomielite — SINAN: Poliomielite / Paralisia Flácida Aguda\n\n\nPotabilidade — SISAGUA: Parâmetros e potabilidade\n\n\nPré-natal na APS — SISAPS: Exemplo: pré-natal na APS\n\n\nPrivacidade — Interoperabilidade: Privacidade, segurança e uso responsável; RNDS: Privacidade, segurança e governança; SISAPS: Privacidade e agregação\n\n\nProcedimentos ambulatoriais — Eventos de saúde: Procedimentos ambulatoriais\n\n\nProdução ambulatorial — SIA/SUS: Fluxo da produção ambulatorial\n\n\nProdução ambulatorial rejeitada — SIA/SUS: Produção rejeitada e crítica\n\n\nProfissionais de saúde — CNES: Exemplo: profissionais e vínculos\n\n\nPrograma Nacional de Imunizações (PNI) — SI-PNI\n\n\nProjeção populacional — Estimativas populacionais: Censo, contagem, estimativa e projeção\n\n\nProteção de dados — Interoperabilidade: Privacidade, segurança e uso responsável",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-q",
+    "href": "indice.html#indice-q",
+    "title": "Índice remissivo",
+    "section": "Q",
+    "text": "Q\n\n\nQualidade da água — SISAGUA\n\n\nQualidade dos dados — CNES: Qualidade dos dados; Histórico: Qualidade, oportunidade e desigualdades; SIM: Qualidade dos dados; SINASC: Avaliação da qualidade dos dados",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-r",
+    "href": "indice.html#indice-r",
+    "title": "Índice remissivo",
+    "section": "R",
+    "text": "R\n\n\nRaiva humana — SINAN: Raiva Humana\n\n\nRecorrências — SINAN: Duplicidades e recorrências\n\n\nRede filantrópica — CNES: Rede SUS, privada, filantrópica e suplementar\n\n\nRede privada — CNES: Rede SUS, privada, filantrópica e suplementar\n\n\nRede suplementar — CNES: Rede SUS, privada, filantrópica e suplementar\n\n\nRede SUS — CNES: Rede SUS, privada, filantrópica e suplementar\n\n\nRegistro — Eventos de saúde: Evento, pessoa, episódio e registro\n\n\nRegistro Civil — Histórico: Do Registro Civil à aproximação com o setor saúde\n\n\nRegistro de imunização — SI-PNI: O que o SI-PNI registra\n\n\nRegulação da saúde suplementar — ANS: Criação e principais marcos regulatórios\n\n\nRelacionamento determinístico — Interoperabilidade: Relacionamento determinístico\n\n\nRelacionamento entre sistemas — Eventos de saúde: Relacionamento entre sistemas\n\n\nRelacionamento probabilístico — Interoperabilidade: Relacionamento probabilístico\n\n\nRessarcimento ao SUS — ANS: Ressarcimento ao SUS como integração institucional\n\n\nRestos a pagar — SIOPS: Restos a pagar e compensações\n\n\nRNDS — Rede Nacional de Dados em Saúde — RNDS\n\n\nRotavírus — SINAN: Rotavírus",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-s",
+    "href": "indice.html#indice-s",
+    "title": "Índice remissivo",
+    "section": "S",
+    "text": "S\n\n\nSaúde suplementar — ANS: Para que serve a ANS; Organização dos SIS: Cobertura: todo o território, SUS e saúde suplementar\n\n\nSegurança da informação — RNDS: Privacidade, segurança e governança\n\n\nSemântica — RNDS: FHIR, terminologias e semântica\n\n\nSérie histórica do CNES — CNES: Estabelecimentos em série histórica\n\n\nSI-PNI — Sistema de Informações do Programa Nacional de Imunizações — SI-PNI\n\n\nSIA/SUS — Sistema de Informações Ambulatoriais do SUS — SIA/SUS\n\n\nSífilis adquirida — SINAN: Sífilis adquirida\n\n\nSífilis congênita — SINAN: Sífilis Congênita\n\n\nSífilis em gestantes — SINAN: Sífilis em Gestante\n\n\nSIGTAP — SIA/SUS: Procedimentos e SIGTAP; SIH/SUS: Procedimentos e SIGTAP\n\n\nSIH/SUS — Sistema de Informações Hospitalares do SUS — SIH/SUS\n\n\nSIM — Sistema de Informação sobre Mortalidade — SIM\n\n\nSINAN NET — SINAN: SINAN NET, SINAN Online e e-SUS SINAN\n\n\nSINAN Online — SINAN: SINAN NET, SINAN Online e e-SUS SINAN\n\n\nSINAN — Sistema de Informação de Agravos de Notificação — SINAN\n\n\nSINASC — Sistema de Informação sobre Nascidos Vivos — SINASC\n\n\nSíndrome da Rubéola Congênita — SINAN: Síndrome da Rubéola Congênita\n\n\nSIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde — SIOPS\n\n\nSISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — SISAGUA\n\n\nSISAPS — Sistema de Informação para a Atenção Primária à Saúde — SISAPS\n\n\nSistema de Informações de Beneficiários (SIB) — ANS: Sistemas e fluxos de informação da saúde suplementar\n\n\nSistema de Informações de Produtos (SIP) — ANS: Sistemas e fluxos de informação da saúde suplementar\n\n\nSistemas assistenciais — Organização dos SIS: Sistemas assistenciais\n\n\nSistemas cadastrais — Organização dos SIS: Sistemas cadastrais, financeiros e de gestão\n\n\nSistemas de imunização — Organização dos SIS: Sistemas de imunização\n\n\nSistemas de Informação em Saúde (SIS) — Introdução\n\n\nSistemas financeiros — Organização dos SIS: Sistemas cadastrais, financeiros e de gestão\n\n\nSistemas vitais — Organização dos SIS: Sistemas vitais\n\n\nSISVAN — Sistema de Vigilância Alimentar e Nutricional — SISVAN\n\n\nSIVEP — SINAN: SINAN e SIVEP\n\n\nSIVEP-DDA — SIVEP: SIVEP-DDA\n\n\nSIVEP-Gripe — SIVEP: SIVEP-Gripe\n\n\nSIVEP-Malária — SIVEP: SIVEP-Malária\n\n\nSIVEP — Sistema de Vigilância Epidemiológica — SIVEP",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-t",
+    "href": "indice.html#indice-t",
+    "title": "Índice remissivo",
+    "section": "T",
+    "text": "T\n\n\nTerminologia Unificada da Saúde Suplementar (TUSS) — ANS: Sistemas e fluxos de informação da saúde suplementar\n\n\nTerminologias em saúde — RNDS: FHIR, terminologias e semântica\n\n\nTétano acidental — SINAN: Tétano Acidental\n\n\nTétano neonatal — SINAN: Tétano Neonatal\n\n\nTipos de AIH — SIH/SUS: Tipos de AIH e complexidade\n\n\nToxoplasmose congênita — SINAN: Toxoplasmose congênita\n\n\nToxoplasmose gestacional — SINAN: Toxoplasmose gestacional\n\n\nTracoma — SINAN: Notificação de tracoma\n\n\nTranstornos mentais relacionados ao trabalho — SINAN: Transtornos mentais relacionais ao trabalho\n\n\nTroca de Informações na Saúde Suplementar (TISS) — ANS: Sistemas e fluxos de informação da saúde suplementar\n\n\nTuberculose — SINAN: Tuberculose",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-u",
+    "href": "indice.html#indice-u",
+    "title": "Índice remissivo",
+    "section": "U",
+    "text": "U\n\n\nUnidade de análise — Organização dos SIS: Unidade de análise; SIA/SUS: Unidade de análise; SIH/SUS: Cobertura e unidade de análise; SIM: Cobertura e unidade de análise; SINAN: Unidade de análise; SINASC: Cobertura e unidade de análise; SISAGUA: Unidade de análise\n\n\nUso secundário de dados — RNDS: Uso secundário de dados",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-v",
+    "href": "indice.html#indice-v",
+    "title": "Índice remissivo",
+    "section": "V",
+    "text": "V\n\n\nValidação reprodutível — SIA/SUS: Validação reprodutível\n\n\nVaricela — SINAN: Varicela / Herpes-Zóster\n\n\nVigilância alimentar e nutricional — SISVAN\n\n\nVigilância da qualidade da água — SISAGUA: Controle e Vigilância\n\n\nVigilância do óbito — SIM: Vigilância e investigação de óbitos\n\n\nVigilância epidemiológica — Organização dos SIS: Sistemas de morbidade e vigilância\n\n\nVínculo territorial — SISAPS: Vínculo territorial\n\n\nVínculos profissionais — CNES: Exemplo: profissionais e vínculos\n\n\nViolência doméstica e sexual — SINAN: Violência doméstica, sexual e/ou outras violências\n\n\nViolência interpessoal ou autoprovocada — SINAN: Violência Interpessoal/Autoprovocada",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
+    ]
+  },
+  {
+    "objectID": "indice.html#indice-z",
+    "href": "indice.html#indice-z",
+    "title": "Índice remissivo",
+    "section": "Z",
+    "text": "Z\n\n\nZika vírus — SINAN: Zika vírus",
+    "crumbs": [
+      "Apêndices",
+      "Índice remissivo"
     ]
   }
 ]

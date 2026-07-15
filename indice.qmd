@@ -1,0 +1,859 @@
+<!-- Arquivo gerado por scripts/build_subject_index.R. -->
+
+# Índice remissivo {#sec-indice-remissivo .unnumbered}
+
+Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúde tratados no livro. Na versão online, cada remissão leva diretamente à seção correspondente.
+
+[A](#indice-a) · [B](#indice-b) · [C](#indice-c) · [D](#indice-d) · [E](#indice-e) · [F](#indice-f) · [G](#indice-g) · [H](#indice-h) · [I](#indice-i) · [J](#indice-j) · [L](#indice-l) · [M](#indice-m) · [N](#indice-n) · [O](#indice-o) · [P](#indice-p) · [Q](#indice-q) · [R](#indice-r) · [S](#indice-s) · [T](#indice-t) · [U](#indice-u) · [V](#indice-v) · [Z](#indice-z)
+
+## A {#indice-a .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Acidente de trabalho]{.subject-index-term} — [SINAN: Acidente de trabalho](sinan.html#acidente-de-trabalho)
+:::
+::: {.subject-index-entry}
+[Acidente de trabalho com material biológico]{.subject-index-term} — [SINAN: Acidente de trabalho com material biológico](sinan.html#acidente-de-trabalho-com-material-biológico)
+:::
+::: {.subject-index-entry}
+[Acidente de trânsito]{.subject-index-term} — [Eventos de saúde: Exemplo integrado: acidente de trânsito](eventos.html#exemplo-integrado-acidente-de-trânsito)
+:::
+::: {.subject-index-entry}
+[Acidentes de trânsito]{.subject-index-term} — [SIM: Exemplo: acidentes de trânsito](sim.html#exemplo-acidentes-de-trânsito)
+:::
+::: {.subject-index-entry}
+[Acidentes por animais peçonhentos]{.subject-index-term} — [SINAN: Acidentes por Animais Peçonhentos](sinan.html#acidentes-por-animais-peçonhentos)
+:::
+::: {.subject-index-entry}
+[Ações e Serviços Públicos de Saúde (ASPS)]{.subject-index-term} — [SIOPS: ASPS e aplicação mínima](siops.html#asps-e-aplicação-mínima)
+:::
+::: {.subject-index-entry}
+[Aids em adultos]{.subject-index-term} — [SINAN: AIDS em adultos](sinan.html#aids-em-adultos)
+:::
+::: {.subject-index-entry}
+[Aids em crianças]{.subject-index-term} — [SINAN: AIDS em crianças](sinan.html#aids-em-crianças)
+:::
+::: {.subject-index-entry}
+[AIH]{.subject-index-term} — [SIH/SUS: AIH, internação e pessoa](sih.html#aih-internação-e-pessoa)
+:::
+::: {.subject-index-entry}
+[AIH rejeitada]{.subject-index-term} — [SIH/SUS: AIHs rejeitadas](sih.html#aihs-rejeitadas)
+:::
+::: {.subject-index-entry}
+[Análise espacial]{.subject-index-term} — [CNES: Geocodificação e análise espacial](cnes.html#geocodificação-e-análise-espacial)
+:::
+::: {.subject-index-entry}
+[Análise temporal]{.subject-index-term} — [SIM: Análise temporal](sim.html#análise-temporal)
+:::
+::: {.subject-index-entry}
+[Análise territorial]{.subject-index-term} — [SIM: Análise territorial](sim.html#análise-territorial)
+:::
+::: {.subject-index-entry}
+[Anomalias congênitas]{.subject-index-term} — [SINASC: Anomalias congênitas](sinasc.html#anomalias-congênitas)
+:::
+::: {.subject-index-entry}
+[ANS — Agência Nacional de Saúde Suplementar]{.subject-index-term} — [ANS](ans.html)
+:::
+::: {.subject-index-entry}
+[APAC]{.subject-index-term} — [SIA/SUS: APAC e alta complexidade](sia.html#apac-e-alta-complexidade)
+:::
+::: {.subject-index-entry}
+[Aplicação mínima em saúde]{.subject-index-term} — [SIOPS: ASPS e aplicação mínima](siops.html#asps-e-aplicação-mínima)
+:::
+::: {.subject-index-entry}
+[Arboviroses]{.subject-index-term} — [SINAN: Arboviroses](sinan.html#arboviroses)
+:::
+::: {.subject-index-entry}
+[Arquitetura da RNDS]{.subject-index-term} — [RNDS: Arquitetura em camadas](rnds.html#arquitetura-em-camadas)
+:::
+::: {.subject-index-entry}
+[Atenção Primária à Saúde (APS)]{.subject-index-term} — [SISAPS](sisaps.html)
+:::
+::: {.subject-index-entry}
+[Atendimento antirrábico]{.subject-index-term} — [SINAN: Atendimento antirrábico](sinan.html#atendimento-antirrábico)
+:::
+::: {.subject-index-entry}
+[Autorização de Internação Hospitalar (AIH)]{.subject-index-term} — [SIH/SUS: Fluxo da AIH](sih.html#fluxo-da-aih)
+:::
+::: {.subject-index-entry}
+[Autorização de Procedimentos Ambulatoriais (APAC)]{.subject-index-term} — [SIA/SUS: Instrumentos de registro](sia.html#instrumentos-de-registro)
+:::
+::::
+
+## B {#indice-b .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Baixo peso ao nascer]{.subject-index-term} — [SINASC: Exemplo: baixo peso ao nascer](sinasc.html#exemplo-baixo-peso-ao-nascer)
+:::
+::: {.subject-index-entry}
+[Boletim de Produção Ambulatorial (BPA)]{.subject-index-term} — [SIA/SUS: Instrumentos de registro](sia.html#instrumentos-de-registro)
+:::
+::: {.subject-index-entry}
+[Botulismo]{.subject-index-term} — [SINAN: Botulismo](sinan.html#botulismo)
+:::
+::::
+
+## C {#indice-c .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Campanha de vacinação]{.subject-index-term} — [SI-PNI: Rotina, campanha e Covid-19](sipni.html#rotina-campanha-e-covid-19)
+:::
+::: {.subject-index-entry}
+[Câncer relacionado ao trabalho]{.subject-index-term} — [SINAN: Câncer relacionado ao trabalho](sinan.html#câncer-relacionado-ao-trabalho)
+:::
+::: {.subject-index-entry}
+[Causa básica do óbito]{.subject-index-term} — [SIM: Causa básica do óbito](sim.html#causa-básica-do-óbito)
+:::
+::: {.subject-index-entry}
+[Causas externas]{.subject-index-term} — [CID: Causas externas](cid.html#causas-externas)
+:::
+::: {.subject-index-entry}
+[Causas múltiplas de morte]{.subject-index-term} — [SIM: Causa básica e causas múltiplas](sim.html#causa-básica-e-causas-múltiplas)
+:::
+::: {.subject-index-entry}
+[Censo demográfico]{.subject-index-term} — [Estimativas populacionais: Censo, contagem, estimativa e projeção](pop.html#censo-contagem-estimativa-e-projeção)
+:::
+::: {.subject-index-entry}
+[Chikungunya]{.subject-index-term} — [SINAN: Chikungunya](sinan.html#chikungunya)
+:::
+::: {.subject-index-entry}
+[CID-10]{.subject-index-term} — [CID: Estrutura da CID-10](cid.html#estrutura-da-cid-10)
+:::
+::: {.subject-index-entry}
+[CID-11]{.subject-index-term} — [CID: CID-11 e transição no Brasil](cid.html#cid-11-e-transição-no-brasil)
+:::
+::: {.subject-index-entry}
+[CID — Classificação Internacional de Doenças]{.subject-index-term} — [CID](cid.html)
+:::
+::: {.subject-index-entry}
+[CNES — Cadastro Nacional de Estabelecimentos de Saúde]{.subject-index-term} — [CNES](cnes.html)
+:::
+::: {.subject-index-entry}
+[Cobertura administrativa]{.subject-index-term} — [SI-PNI: Cobertura administrativa e cobertura de inquérito](sipni.html#cobertura-administrativa-e-cobertura-de-inquérito)
+:::
+::: {.subject-index-entry}
+[Cobertura de inquérito]{.subject-index-term} — [SI-PNI: Cobertura administrativa e cobertura de inquérito](sipni.html#cobertura-administrativa-e-cobertura-de-inquérito)
+:::
+::: {.subject-index-entry}
+[Cobertura dos dados]{.subject-index-term} — [Organização dos SIS: Cobertura: todo o território, SUS e saúde suplementar](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Cobertura vacinal]{.subject-index-term} — [SI-PNI: Cobertura vacinal e denominadores](sipni.html#cobertura-vacinal-e-denominadores)
+:::
+::: {.subject-index-entry}
+[Codificação pela CID]{.subject-index-term} — [SIM: Codificação pela CID](sim.html#codificação-pela-cid)
+:::
+::: {.subject-index-entry}
+[Código do município]{.subject-index-term} — [Códigos dos municípios: Estrutura do código](codmun.html#estrutura-do-código)
+:::
+::: {.subject-index-entry}
+[Códigos dos municípios]{.subject-index-term} — [Códigos dos municípios](codmun.html)
+:::
+::: {.subject-index-entry}
+[Cofinanciamento da APS]{.subject-index-term} — [SISAPS: Indicadores e cofinanciamento](sisaps.html#indicadores-e-cofinanciamento)
+:::
+::: {.subject-index-entry}
+[Cólera]{.subject-index-term} — [SINAN: Cólera](sinan.html#cólera)
+:::
+::: {.subject-index-entry}
+[Comparabilidade]{.subject-index-term} — [Organização dos SIS: Qualidade, completude e comparabilidade](organizacao.html#qualidade-completude-e-comparabilidade)
+:::
+::: {.subject-index-entry}
+[Completude]{.subject-index-term} — [Organização dos SIS: Qualidade, completude e comparabilidade](organizacao.html#qualidade-completude-e-comparabilidade)
+:::
+::: {.subject-index-entry}
+[Conhecimento]{.subject-index-term} — [Introdução: Dados, informação e conhecimento](introducao.html#dados-informação-e-conhecimento)
+:::
+::: {.subject-index-entry}
+[Contagem populacional]{.subject-index-term} — [Estimativas populacionais: Censo, contagem, estimativa e projeção](pop.html#censo-contagem-estimativa-e-projeção)
+:::
+::: {.subject-index-entry}
+[Continuidade do cuidado]{.subject-index-term} — [RNDS: Continuidade do cuidado](rnds.html#continuidade-do-cuidado)
+:::
+::: {.subject-index-entry}
+[Controle da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e Vigilância](sisagua.html#controle-e-vigilância)
+:::
+::: {.subject-index-entry}
+[Coqueluche]{.subject-index-term} — [SINAN: Coqueluche](sinan.html#coqueluche)
+:::
+::::
+
+## D {#indice-d .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Dados]{.subject-index-term} — [Introdução: Dados, informação e conhecimento](introducao.html#dados-informação-e-conhecimento)
+:::
+::: {.subject-index-entry}
+[Dados abertos]{.subject-index-term} — [RNDS: RNDS e dados abertos](rnds.html#rnds-e-dados-abertos)
+:::
+::: {.subject-index-entry}
+[Dados abertos da ANS]{.subject-index-term} — [ANS: Dados abertos e formas de acesso](ans.html#dados-abertos-e-formas-de-acesso)
+:::
+::: {.subject-index-entry}
+[Dados individualizados]{.subject-index-term} — [SI-PNI: Privacidade e dados individualizados](sipni.html#privacidade-e-dados-individualizados)
+:::
+::: {.subject-index-entry}
+[DataSUS]{.subject-index-term} — [Histórico: O Departamento de Informática do SUS -- DataSUS](historico.html#o-departamento-de-informática-do-sus-datasus)
+:::
+::: {.subject-index-entry}
+[Declaração de Nascido Vivo (DNV)]{.subject-index-term} — [SINASC: Fluxo da Declaração de Nascido Vivo](sinasc.html#fluxo-da-declaração-de-nascido-vivo)
+:::
+::: {.subject-index-entry}
+[Declaração de Óbito (DO)]{.subject-index-term} — [SIM: Fluxo da Declaração de Óbito](sim.html#fluxo-da-declaração-de-óbito)
+:::
+::: {.subject-index-entry}
+[Definição de caso]{.subject-index-term} — [SINAN: Definições de caso](sinan.html#definições-de-caso)
+:::
+::: {.subject-index-entry}
+[Deflação]{.subject-index-term} — [SIOPS: Deflação de valores monetários](siops.html#deflação-de-valores-monetários)
+:::
+::: {.subject-index-entry}
+[Dengue]{.subject-index-term} — [Eventos de saúde: Exemplo integrado: dengue](eventos.html#exemplo-integrado-dengue); [SINAN: Exemplo: dengue](sinan.html#exemplo-dengue); [SINAN: Dengue](sinan.html#dengue)
+:::
+::: {.subject-index-entry}
+[Denominadores]{.subject-index-term} — [CNES: CNES como denominador](cnes.html#cnes-como-denominador); [Eventos de saúde: Denominadores e indicadores](eventos.html#denominadores-e-indicadores); [Estimativas populacionais: Escolha do denominador](pop.html#escolha-do-denominador); [SINASC: Uso como denominador](sinasc.html#uso-como-denominador); [SISAPS: Qual denominador usar?](sisaps.html#qual-denominador-usar)
+:::
+::: {.subject-index-entry}
+[Dermatoses ocupacionais]{.subject-index-term} — [SINAN: Dermatoses ocupacionais](sinan.html#dermatoses-ocupacionais)
+:::
+::: {.subject-index-entry}
+[Despesa pública em saúde]{.subject-index-term} — [SIOPS: Fases da despesa](siops.html#fases-da-despesa)
+:::
+::: {.subject-index-entry}
+[Diagnóstico hospitalar]{.subject-index-term} — [SIH/SUS: Diagnóstico, procedimento e valores](sih.html#diagnóstico-procedimento-e-valores)
+:::
+::: {.subject-index-entry}
+[Difteria]{.subject-index-term} — [SINAN: Difteria](sinan.html#difteria)
+:::
+::: {.subject-index-entry}
+[DIOPS]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Disseminação pública de dados]{.subject-index-term} — [Histórico: Disseminação pública e acesso aos dados](historico.html#disseminação-pública-e-acesso-aos-dados)
+:::
+::: {.subject-index-entry}
+[Divisão Territorial Brasileira (DTB)]{.subject-index-term} — [Códigos dos municípios: Divisão Territorial Brasileira](codmun.html#divisão-territorial-brasileira)
+:::
+::: {.subject-index-entry}
+[Doença de Chagas]{.subject-index-term} — [SINAN: Doença de Chagas](sinan.html#doença-de-chagas)
+:::
+::: {.subject-index-entry}
+[Doenças, agravos e eventos de saúde]{.subject-index-term} — [Organização dos SIS: Doenças, agravos e eventos de saúde](organizacao.html#doenças-agravos-e-eventos-de-saúde)
+:::
+::: {.subject-index-entry}
+[Doenças exantemáticas]{.subject-index-term} — [SINAN: Doenças Exantemáticas](sinan.html#doenças-exantemáticas)
+:::
+::: {.subject-index-entry}
+[Doenças transmitidas por alimentos]{.subject-index-term} — [SINAN: Surto de doenças transmitidas por alimentos](sinan.html#surto-de-doenças-transmitidas-por-alimentos)
+:::
+::: {.subject-index-entry}
+[Dose de vacina]{.subject-index-term} — [SI-PNI: Dose, pessoa e esquema](sipni.html#dose-pessoa-e-esquema)
+:::
+::: {.subject-index-entry}
+[Duplicidades]{.subject-index-term} — [SINAN: Duplicidades e recorrências](sinan.html#duplicidades-e-recorrências)
+:::
+::::
+
+## E {#indice-e .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[e-SUS SINAN]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+:::
+::: {.subject-index-entry}
+[Emergências em saúde pública]{.subject-index-term} — [SISAGUA: Monitoramento em emergências](sisagua.html#monitoramento-em-emergências)
+:::
+::: {.subject-index-entry}
+[Emissão da Declaração de Óbito]{.subject-index-term} — [SIM: Emissão da Declaração de Óbito](sim.html#emissão-da-declaração-de-óbito)
+:::
+::: {.subject-index-entry}
+[Episódio]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)
+:::
+::: {.subject-index-entry}
+[Equipe de saúde]{.subject-index-term} — [SISAPS: Identificadores de equipe](sisaps.html#identificadores-de-equipe)
+:::
+::: {.subject-index-entry}
+[Esferas federativas]{.subject-index-term} — [SIOPS: Esferas federativas e responsabilidades](siops.html#esferas-federativas-e-responsabilidades)
+:::
+::: {.subject-index-entry}
+[Esporotricose]{.subject-index-term} — [SINAN: Esporotricose (Epizootia)](sinan.html#esporotricose-epizootia)
+:::
+::: {.subject-index-entry}
+[Esquema vacinal]{.subject-index-term} — [SI-PNI: Dose, pessoa e esquema](sipni.html#dose-pessoa-e-esquema)
+:::
+::: {.subject-index-entry}
+[Esquistossomose mansoni]{.subject-index-term} — [SINAN: Esquistossomose mansoni](sinan.html#esquistossomose-mansoni)
+:::
+::: {.subject-index-entry}
+[Estabelecimento de saúde]{.subject-index-term} — [CNES: Unidade de análise](cnes.html#unidade-de-análise)
+:::
+::: {.subject-index-entry}
+[Estimativas populacionais]{.subject-index-term} — [Estimativas populacionais](pop.html)
+:::
+::: {.subject-index-entry}
+[Evento de saúde]{.subject-index-term} — [Eventos de saúde](eventos.html)
+:::
+::::
+
+## F {#indice-f .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Febre amarela]{.subject-index-term} — [SINAN: Febre Amarela](sinan.html#febre-amarela)
+:::
+::: {.subject-index-entry}
+[Febre maculosa]{.subject-index-term} — [SINAN: Febre Maculosa](sinan.html#febre-maculosa)
+:::
+::: {.subject-index-entry}
+[Febre Oropouche]{.subject-index-term} — [SINAN: Febre Oropouche](sinan.html#febre-oropouche)
+:::
+::: {.subject-index-entry}
+[Febre tifoide]{.subject-index-term} — [SINAN: Febre Tifóide](sinan.html#febre-tifóide)
+:::
+::: {.subject-index-entry}
+[FHIR]{.subject-index-term} — [RNDS: FHIR, terminologias e semântica](rnds.html#fhir-terminologias-e-semântica)
+:::
+::: {.subject-index-entry}
+[Financiamento da saúde]{.subject-index-term} — [SIOPS: Financiamento, acesso e resultados](siops.html#financiamento-acesso-e-resultados)
+:::
+::: {.subject-index-entry}
+[Fluxos de internação]{.subject-index-term} — [SIH/SUS: Exemplo: fluxos de internação](sih.html#exemplo-fluxos-de-internação)
+:::
+::: {.subject-index-entry}
+[Formas de abastecimento de água]{.subject-index-term} — [SISAGUA: Formas de abastecimento](sisagua.html#formas-de-abastecimento)
+:::
+::::
+
+## G {#indice-g .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Geocodificação]{.subject-index-term} — [CNES: Geocodificação e análise espacial](cnes.html#geocodificação-e-análise-espacial)
+:::
+::: {.subject-index-entry}
+[Gestação múltipla]{.subject-index-term} — [SINASC: Gestações múltiplas](sinasc.html#gestações-múltiplas)
+:::
+::: {.subject-index-entry}
+[Governança de dados]{.subject-index-term} — [RNDS: Privacidade, segurança e governança](rnds.html#privacidade-segurança-e-governança)
+:::
+::: {.subject-index-entry}
+[Grandes volumes de dados]{.subject-index-term} — [SIH/SUS: Processamento de grandes volumes](sih.html#processamento-de-grandes-volumes)
+:::
+::::
+
+## H {#indice-h .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Hanseníase]{.subject-index-term} — [SINAN: Hanseníase](sinan.html#hanseníase)
+:::
+::: {.subject-index-entry}
+[Hantavirose]{.subject-index-term} — [SINAN: Hantavirose](sinan.html#hantavirose)
+:::
+::: {.subject-index-entry}
+[Hepatites virais]{.subject-index-term} — [SINAN: Hepatites Virais](sinan.html#hepatites-virais)
+:::
+::: {.subject-index-entry}
+[Herpes-zóster]{.subject-index-term} — [SINAN: Varicela / Herpes-Zóster](sinan.html#varicela-herpes-zóster)
+:::
+::: {.subject-index-entry}
+[HIV em adultos]{.subject-index-term} — [SINAN: HIV em adultos](sinan.html#hiv-em-adultos)
+:::
+::: {.subject-index-entry}
+[HIV em crianças]{.subject-index-term} — [SINAN: HIV em crianças](sinan.html#hiv-em-crianças)
+:::
+::: {.subject-index-entry}
+[HIV em gestantes]{.subject-index-term} — [SINAN: HIV em gestante](sinan.html#hiv-em-gestante)
+:::
+::::
+
+## I {#indice-i .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[IBGE]{.subject-index-term} — [Estimativas populacionais: IBGE -- TCU](pop.html#ibge-tcu)
+:::
+::: {.subject-index-entry}
+[Identificadores em saúde]{.subject-index-term} — [RNDS: Identificadores essenciais](rnds.html#identificadores-essenciais)
+:::
+::: {.subject-index-entry}
+[IDSS]{.subject-index-term} — [ANS: Para que serve a ANS](ans.html#para-que-serve-a-ans)
+:::
+::: {.subject-index-entry}
+[Imunizações]{.subject-index-term} — [Eventos de saúde: Imunizações](eventos.html#imunizações)
+:::
+::: {.subject-index-entry}
+[Indicador microbiológico]{.subject-index-term} — [SISAGUA: Exemplo: indicador microbiológico](sisagua.html#exemplo-indicador-microbiológico)
+:::
+::: {.subject-index-entry}
+[Indicadores]{.subject-index-term} — [Eventos de saúde: Denominadores e indicadores](eventos.html#denominadores-e-indicadores)
+:::
+::: {.subject-index-entry}
+[Influenza pandêmica]{.subject-index-term} — [SINAN: Influenza pandêmica](sinan.html#influenza-pandêmica)
+:::
+::: {.subject-index-entry}
+[Informação]{.subject-index-term} — [Introdução: Dados, informação e conhecimento](introducao.html#dados-informação-e-conhecimento)
+:::
+::: {.subject-index-entry}
+[Instrumentos de coleta]{.subject-index-term} — [Histórico: Padronização dos instrumentos de coleta](historico.html#padronização-dos-instrumentos-de-coleta)
+:::
+::: {.subject-index-entry}
+[Integração entre sistemas]{.subject-index-term} — [Organização dos SIS: Integração entre sistemas](organizacao.html#integração-entre-sistemas)
+:::
+::: {.subject-index-entry}
+[Internação hospitalar]{.subject-index-term} — [SIH/SUS: AIH, internação e pessoa](sih.html#aih-internação-e-pessoa)
+:::
+::: {.subject-index-entry}
+[Internações]{.subject-index-term} — [Eventos de saúde: Internações](eventos.html#internações)
+:::
+::: {.subject-index-entry}
+[Internações por Condições Sensíveis à Atenção Primária (ICSAP)]{.subject-index-term} — [SIH/SUS: Exemplo: internações por condições sensíveis à atenção primária](sih.html#exemplo-internações-por-condições-sensíveis-à-atenção-primária)
+:::
+::: {.subject-index-entry}
+[Interoperabilidade]{.subject-index-term} — [Histórico: Integração, interoperabilidade e novos desafios](historico.html#integração-interoperabilidade-e-novos-desafios); [Interoperabilidade](interoperabilidade.html)
+:::
+::: {.subject-index-entry}
+[Interoperabilidade organizacional]{.subject-index-term} — [Interoperabilidade: O que é interoperabilidade](interoperabilidade.html#o-que-é-interoperabilidade)
+:::
+::: {.subject-index-entry}
+[Interoperabilidade semântica]{.subject-index-term} — [Interoperabilidade: O que é interoperabilidade](interoperabilidade.html#o-que-é-interoperabilidade)
+:::
+::: {.subject-index-entry}
+[Interoperabilidade técnica]{.subject-index-term} — [Interoperabilidade: O que é interoperabilidade](interoperabilidade.html#o-que-é-interoperabilidade)
+:::
+::: {.subject-index-entry}
+[Intoxicação exógena]{.subject-index-term} — [SINAN: Intoxicação Exógena](sinan.html#intoxicação-exógena)
+:::
+::::
+
+## J {#indice-j .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Junção de dados]{.subject-index-term} — [Códigos dos municípios: Boas práticas para junções](codmun.html#boas-práticas-para-junções)
+:::
+::::
+
+## L {#indice-l .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Leishmaniose tegumentar americana]{.subject-index-term} — [SINAN: Leishmaniose Tegumentar Americana](sinan.html#leishmaniose-tegumentar-americana)
+:::
+::: {.subject-index-entry}
+[Leishmaniose visceral]{.subject-index-term} — [SINAN: Leishmaniose Visceral](sinan.html#leishmaniose-visceral)
+:::
+::: {.subject-index-entry}
+[Leitos hospitalares]{.subject-index-term} — [CNES: Exemplo: leitos hospitalares](cnes.html#exemplo-leitos-hospitalares)
+:::
+::: {.subject-index-entry}
+[Leptospirose]{.subject-index-term} — [SINAN: Leptospirose](sinan.html#leptospirose)
+:::
+::: {.subject-index-entry}
+[LER/DORT]{.subject-index-term} — [SINAN: LER/DORT](sinan.html#lerdort)
+:::
+::: {.subject-index-entry}
+[Linkage]{.subject-index-term} — [Interoperabilidade: O que é linkage](interoperabilidade.html#o-que-é-linkage)
+:::
+::::
+
+## M {#indice-m .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Malária]{.subject-index-term} — [SINAN: Malária](sinan.html#malária)
+:::
+::: {.subject-index-entry}
+[Mamografia]{.subject-index-term} — [SIA/SUS: Exemplo: produção de mamografias](sia.html#exemplo-produção-de-mamografias)
+:::
+::: {.subject-index-entry}
+[Meningite]{.subject-index-term} — [SINAN: Meningite](sinan.html#meningite)
+:::
+::: {.subject-index-entry}
+[Métodos híbridos de relacionamento]{.subject-index-term} — [Interoperabilidade: Estratégias híbridas e métodos de classificação](interoperabilidade.html#estratégias-híbridas-e-métodos-de-classificação)
+:::
+::: {.subject-index-entry}
+[Modelos de informação]{.subject-index-term} — [RNDS: Modelos de informação](rnds.html#modelos-de-informação)
+:::
+::: {.subject-index-entry}
+[Morbidade]{.subject-index-term} — [Organização dos SIS: Sistemas de morbidade e vigilância](organizacao.html#sistemas-de-morbidade-e-vigilância)
+:::
+::: {.subject-index-entry}
+[Mortalidade e morbidade]{.subject-index-term} — [CID: Mortalidade e morbidade](cid.html#mortalidade-e-morbidade)
+:::
+::: {.subject-index-entry}
+[Mortalidade infantil]{.subject-index-term} — [SIM: Exemplo: mortalidade infantil](sim.html#exemplo-mortalidade-infantil)
+:::
+::: {.subject-index-entry}
+[Mpox (Monkeypox)]{.subject-index-term} — [SINAN: Monkeypox](sinan.html#monkeypox)
+:::
+::::
+
+## N {#indice-n .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Nascido vivo]{.subject-index-term} — [SINASC: O que é nascido vivo](sinasc.html#o-que-é-nascido-vivo)
+:::
+::: {.subject-index-entry}
+[Nascimentos]{.subject-index-term} — [Eventos de saúde: Nascimentos](eventos.html#nascimentos)
+:::
+::: {.subject-index-entry}
+[NIP]{.subject-index-term} — [ANS: Para que serve a ANS](ans.html#para-que-serve-a-ans)
+:::
+::: {.subject-index-entry}
+[Níveis geográficos]{.subject-index-term} — [Organização dos SIS: Níveis geográficos](organizacao.html#níveis-geográficos)
+:::
+::: {.subject-index-entry}
+[Notificação]{.subject-index-term} — [Eventos de saúde: Casos de doenças e agravos](eventos.html#casos-de-doenças-e-agravos)
+:::
+::: {.subject-index-entry}
+[Notificação compulsória]{.subject-index-term} — [SINAN: Fluxo da notificação](sinan.html#fluxo-da-notificação)
+:::
+::::
+
+## O {#indice-o .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Óbitos]{.subject-index-term} — [Eventos de saúde: Óbitos](eventos.html#óbitos)
+:::
+::: {.subject-index-entry}
+[Oportunidade da vigilância]{.subject-index-term} — [SINAN: Oportunidade da vigilância](sinan.html#oportunidade-da-vigilância)
+:::
+::: {.subject-index-entry}
+[Orçamento público em saúde]{.subject-index-term} — [SIOPS](siops.html)
+:::
+::::
+
+## P {#indice-p .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Paralisia Flácida Aguda]{.subject-index-term} — [SINAN: Poliomielite / Paralisia Flácida Aguda](sinan.html#poliomielite-paralisia-flácida-aguda)
+:::
+::: {.subject-index-entry}
+[Perda auditiva induzida por ruído]{.subject-index-term} — [SINAN: Perda auditiva por ruído relacionado ao trabalho](sinan.html#perda-auditiva-por-ruído-relacionado-ao-trabalho)
+:::
+::: {.subject-index-entry}
+[Periodicidade dos dados]{.subject-index-term} — [Organização dos SIS: Periodicidade e versões dos dados](organizacao.html#periodicidade-e-versões-dos-dados)
+:::
+::: {.subject-index-entry}
+[Pessoa]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)
+:::
+::: {.subject-index-entry}
+[Peste]{.subject-index-term} — [SINAN: Peste](sinan.html#peste)
+:::
+::: {.subject-index-entry}
+[Plano de amostragem]{.subject-index-term} — [SISAGUA: Plano de amostragem](sisagua.html#plano-de-amostragem)
+:::
+::: {.subject-index-entry}
+[Planos privados de saúde]{.subject-index-term} — [ANS: Para que serve a ANS](ans.html#para-que-serve-a-ans)
+:::
+::: {.subject-index-entry}
+[Pneumoconioses relacionadas ao trabalho]{.subject-index-term} — [SINAN: Pneumoconioses relacionadas ao trabalho](sinan.html#pneumoconioses-relacionadas-ao-trabalho)
+:::
+::: {.subject-index-entry}
+[Poliomielite]{.subject-index-term} — [SINAN: Poliomielite / Paralisia Flácida Aguda](sinan.html#poliomielite-paralisia-flácida-aguda)
+:::
+::: {.subject-index-entry}
+[Potabilidade]{.subject-index-term} — [SISAGUA: Parâmetros e potabilidade](sisagua.html#parâmetros-e-potabilidade)
+:::
+::: {.subject-index-entry}
+[Pré-natal na APS]{.subject-index-term} — [SISAPS: Exemplo: pré-natal na APS](sisaps.html#exemplo-pré-natal-na-aps)
+:::
+::: {.subject-index-entry}
+[Privacidade]{.subject-index-term} — [Interoperabilidade: Privacidade, segurança e uso responsável](interoperabilidade.html#privacidade-segurança-e-uso-responsável); [RNDS: Privacidade, segurança e governança](rnds.html#privacidade-segurança-e-governança); [SISAPS: Privacidade e agregação](sisaps.html#privacidade-e-agregação)
+:::
+::: {.subject-index-entry}
+[Procedimentos ambulatoriais]{.subject-index-term} — [Eventos de saúde: Procedimentos ambulatoriais](eventos.html#procedimentos-ambulatoriais)
+:::
+::: {.subject-index-entry}
+[Produção ambulatorial]{.subject-index-term} — [SIA/SUS: Fluxo da produção ambulatorial](sia.html#fluxo-da-produção-ambulatorial)
+:::
+::: {.subject-index-entry}
+[Produção ambulatorial rejeitada]{.subject-index-term} — [SIA/SUS: Produção rejeitada e crítica](sia.html#produção-rejeitada-e-crítica)
+:::
+::: {.subject-index-entry}
+[Profissionais de saúde]{.subject-index-term} — [CNES: Exemplo: profissionais e vínculos](cnes.html#exemplo-profissionais-e-vínculos)
+:::
+::: {.subject-index-entry}
+[Programa Nacional de Imunizações (PNI)]{.subject-index-term} — [SI-PNI](sipni.html)
+:::
+::: {.subject-index-entry}
+[Projeção populacional]{.subject-index-term} — [Estimativas populacionais: Censo, contagem, estimativa e projeção](pop.html#censo-contagem-estimativa-e-projeção)
+:::
+::: {.subject-index-entry}
+[Proteção de dados]{.subject-index-term} — [Interoperabilidade: Privacidade, segurança e uso responsável](interoperabilidade.html#privacidade-segurança-e-uso-responsável)
+:::
+::::
+
+## Q {#indice-q .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Qualidade da água]{.subject-index-term} — [SISAGUA](sisagua.html)
+:::
+::: {.subject-index-entry}
+[Qualidade dos dados]{.subject-index-term} — [CNES: Qualidade dos dados](cnes.html#qualidade-dos-dados); [Histórico: Qualidade, oportunidade e desigualdades](historico.html#qualidade-oportunidade-e-desigualdades); [SIM: Qualidade dos dados](sim.html#qualidade-dos-dados); [SINASC: Avaliação da qualidade dos dados](sinasc.html#avaliação-da-qualidade-dos-dados)
+:::
+::::
+
+## R {#indice-r .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Raiva humana]{.subject-index-term} — [SINAN: Raiva Humana](sinan.html#raiva-humana)
+:::
+::: {.subject-index-entry}
+[Recorrências]{.subject-index-term} — [SINAN: Duplicidades e recorrências](sinan.html#duplicidades-e-recorrências)
+:::
+::: {.subject-index-entry}
+[Rede filantrópica]{.subject-index-term} — [CNES: Rede SUS, privada, filantrópica e suplementar](cnes.html#rede-sus-privada-filantrópica-e-suplementar)
+:::
+::: {.subject-index-entry}
+[Rede privada]{.subject-index-term} — [CNES: Rede SUS, privada, filantrópica e suplementar](cnes.html#rede-sus-privada-filantrópica-e-suplementar)
+:::
+::: {.subject-index-entry}
+[Rede suplementar]{.subject-index-term} — [CNES: Rede SUS, privada, filantrópica e suplementar](cnes.html#rede-sus-privada-filantrópica-e-suplementar)
+:::
+::: {.subject-index-entry}
+[Rede SUS]{.subject-index-term} — [CNES: Rede SUS, privada, filantrópica e suplementar](cnes.html#rede-sus-privada-filantrópica-e-suplementar)
+:::
+::: {.subject-index-entry}
+[Registro]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)
+:::
+::: {.subject-index-entry}
+[Registro Civil]{.subject-index-term} — [Histórico: Do Registro Civil à aproximação com o setor saúde](historico.html#do-registro-civil-à-aproximação-com-o-setor-saúde)
+:::
+::: {.subject-index-entry}
+[Registro de imunização]{.subject-index-term} — [SI-PNI: O que o SI-PNI registra](sipni.html#o-que-o-si-pni-registra)
+:::
+::: {.subject-index-entry}
+[Regulação da saúde suplementar]{.subject-index-term} — [ANS: Criação e principais marcos regulatórios](ans.html#criação-e-principais-marcos-regulatórios)
+:::
+::: {.subject-index-entry}
+[Relacionamento determinístico]{.subject-index-term} — [Interoperabilidade: Relacionamento determinístico](interoperabilidade.html#relacionamento-determinístico)
+:::
+::: {.subject-index-entry}
+[Relacionamento entre sistemas]{.subject-index-term} — [Eventos de saúde: Relacionamento entre sistemas](eventos.html#relacionamento-entre-sistemas)
+:::
+::: {.subject-index-entry}
+[Relacionamento probabilístico]{.subject-index-term} — [Interoperabilidade: Relacionamento probabilístico](interoperabilidade.html#relacionamento-probabilístico)
+:::
+::: {.subject-index-entry}
+[Ressarcimento ao SUS]{.subject-index-term} — [ANS: Ressarcimento ao SUS como integração institucional](ans.html#ressarcimento-ao-sus-como-integração-institucional)
+:::
+::: {.subject-index-entry}
+[Restos a pagar]{.subject-index-term} — [SIOPS: Restos a pagar e compensações](siops.html#restos-a-pagar-e-compensações)
+:::
+::: {.subject-index-entry}
+[RNDS — Rede Nacional de Dados em Saúde]{.subject-index-term} — [RNDS](rnds.html)
+:::
+::: {.subject-index-entry}
+[Rotavírus]{.subject-index-term} — [SINAN: Rotavírus](sinan.html#rotavírus)
+:::
+::::
+
+## S {#indice-s .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Saúde suplementar]{.subject-index-term} — [ANS: Para que serve a ANS](ans.html#para-que-serve-a-ans); [Organização dos SIS: Cobertura: todo o território, SUS e saúde suplementar](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Segurança da informação]{.subject-index-term} — [RNDS: Privacidade, segurança e governança](rnds.html#privacidade-segurança-e-governança)
+:::
+::: {.subject-index-entry}
+[Semântica]{.subject-index-term} — [RNDS: FHIR, terminologias e semântica](rnds.html#fhir-terminologias-e-semântica)
+:::
+::: {.subject-index-entry}
+[Série histórica do CNES]{.subject-index-term} — [CNES: Estabelecimentos em série histórica](cnes.html#estabelecimentos-em-série-histórica)
+:::
+::: {.subject-index-entry}
+[SI-PNI — Sistema de Informações do Programa Nacional de Imunizações]{.subject-index-term} — [SI-PNI](sipni.html)
+:::
+::: {.subject-index-entry}
+[SIA/SUS — Sistema de Informações Ambulatoriais do SUS]{.subject-index-term} — [SIA/SUS](sia.html)
+:::
+::: {.subject-index-entry}
+[Sífilis adquirida]{.subject-index-term} — [SINAN: Sífilis adquirida](sinan.html#sífilis-adquirida)
+:::
+::: {.subject-index-entry}
+[Sífilis congênita]{.subject-index-term} — [SINAN: Sífilis Congênita](sinan.html#sífilis-congênita)
+:::
+::: {.subject-index-entry}
+[Sífilis em gestantes]{.subject-index-term} — [SINAN: Sífilis em Gestante](sinan.html#sífilis-em-gestante)
+:::
+::: {.subject-index-entry}
+[SIGTAP]{.subject-index-term} — [SIA/SUS: Procedimentos e SIGTAP](sia.html#procedimentos-e-sigtap); [SIH/SUS: Procedimentos e SIGTAP](sih.html#procedimentos-e-sigtap)
+:::
+::: {.subject-index-entry}
+[SIH/SUS — Sistema de Informações Hospitalares do SUS]{.subject-index-term} — [SIH/SUS](sih.html)
+:::
+::: {.subject-index-entry}
+[SIM — Sistema de Informação sobre Mortalidade]{.subject-index-term} — [SIM](sim.html)
+:::
+::: {.subject-index-entry}
+[SINAN NET]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+:::
+::: {.subject-index-entry}
+[SINAN Online]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+:::
+::: {.subject-index-entry}
+[SINAN — Sistema de Informação de Agravos de Notificação]{.subject-index-term} — [SINAN](sinan.html)
+:::
+::: {.subject-index-entry}
+[SINASC — Sistema de Informação sobre Nascidos Vivos]{.subject-index-term} — [SINASC](sinasc.html)
+:::
+::: {.subject-index-entry}
+[Síndrome da Rubéola Congênita]{.subject-index-term} — [SINAN: Síndrome da Rubéola Congênita](sinan.html#síndrome-da-rubéola-congênita)
+:::
+::: {.subject-index-entry}
+[SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde]{.subject-index-term} — [SIOPS](siops.html)
+:::
+::: {.subject-index-entry}
+[SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano]{.subject-index-term} — [SISAGUA](sisagua.html)
+:::
+::: {.subject-index-entry}
+[SISAPS — Sistema de Informação para a Atenção Primária à Saúde]{.subject-index-term} — [SISAPS](sisaps.html)
+:::
+::: {.subject-index-entry}
+[Sistema de Informações de Beneficiários (SIB)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Sistema de Informações de Produtos (SIP)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Sistemas assistenciais]{.subject-index-term} — [Organização dos SIS: Sistemas assistenciais](organizacao.html#sistemas-assistenciais)
+:::
+::: {.subject-index-entry}
+[Sistemas cadastrais]{.subject-index-term} — [Organização dos SIS: Sistemas cadastrais, financeiros e de gestão](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão)
+:::
+::: {.subject-index-entry}
+[Sistemas de imunização]{.subject-index-term} — [Organização dos SIS: Sistemas de imunização](organizacao.html#sistemas-de-imunização)
+:::
+::: {.subject-index-entry}
+[Sistemas de Informação em Saúde (SIS)]{.subject-index-term} — [Introdução](introducao.html)
+:::
+::: {.subject-index-entry}
+[Sistemas financeiros]{.subject-index-term} — [Organização dos SIS: Sistemas cadastrais, financeiros e de gestão](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão)
+:::
+::: {.subject-index-entry}
+[Sistemas vitais]{.subject-index-term} — [Organização dos SIS: Sistemas vitais](organizacao.html#sistemas-vitais)
+:::
+::: {.subject-index-entry}
+[SISVAN — Sistema de Vigilância Alimentar e Nutricional]{.subject-index-term} — [SISVAN](sisvan.html)
+:::
+::: {.subject-index-entry}
+[SIVEP]{.subject-index-term} — [SINAN: SINAN e SIVEP](sinan.html#sinan-e-sivep)
+:::
+::: {.subject-index-entry}
+[SIVEP-DDA]{.subject-index-term} — [SIVEP: SIVEP-DDA](sivep.html#sivep-dda)
+:::
+::: {.subject-index-entry}
+[SIVEP-Gripe]{.subject-index-term} — [SIVEP: SIVEP-Gripe](sivep.html#sivep-gripe)
+:::
+::: {.subject-index-entry}
+[SIVEP-Malária]{.subject-index-term} — [SIVEP: SIVEP-Malária](sivep.html#sivep-malária)
+:::
+::: {.subject-index-entry}
+[SIVEP — Sistema de Vigilância Epidemiológica]{.subject-index-term} — [SIVEP](sivep.html)
+:::
+::::
+
+## T {#indice-t .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Terminologia Unificada da Saúde Suplementar (TUSS)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Terminologias em saúde]{.subject-index-term} — [RNDS: FHIR, terminologias e semântica](rnds.html#fhir-terminologias-e-semântica)
+:::
+::: {.subject-index-entry}
+[Tétano acidental]{.subject-index-term} — [SINAN: Tétano Acidental](sinan.html#tétano-acidental)
+:::
+::: {.subject-index-entry}
+[Tétano neonatal]{.subject-index-term} — [SINAN: Tétano Neonatal](sinan.html#tétano-neonatal)
+:::
+::: {.subject-index-entry}
+[Tipos de AIH]{.subject-index-term} — [SIH/SUS: Tipos de AIH e complexidade](sih.html#tipos-de-aih-e-complexidade)
+:::
+::: {.subject-index-entry}
+[Toxoplasmose congênita]{.subject-index-term} — [SINAN: Toxoplasmose congênita](sinan.html#toxoplasmose-congênita)
+:::
+::: {.subject-index-entry}
+[Toxoplasmose gestacional]{.subject-index-term} — [SINAN: Toxoplasmose gestacional](sinan.html#toxoplasmose-gestacional)
+:::
+::: {.subject-index-entry}
+[Tracoma]{.subject-index-term} — [SINAN: Notificação de tracoma](sinan.html#notificação-de-tracoma)
+:::
+::: {.subject-index-entry}
+[Transtornos mentais relacionados ao trabalho]{.subject-index-term} — [SINAN: Transtornos mentais relacionais ao trabalho](sinan.html#transtornos-mentais-relacionais-ao-trabalho)
+:::
+::: {.subject-index-entry}
+[Troca de Informações na Saúde Suplementar (TISS)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
+:::
+::: {.subject-index-entry}
+[Tuberculose]{.subject-index-term} — [SINAN: Tuberculose](sinan.html#tuberculose)
+:::
+::::
+
+## U {#indice-u .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Unidade de análise]{.subject-index-term} — [Organização dos SIS: Unidade de análise](organizacao.html#unidade-de-análise); [SIA/SUS: Unidade de análise](sia.html#unidade-de-análise); [SIH/SUS: Cobertura e unidade de análise](sih.html#cobertura-e-unidade-de-análise); [SIM: Cobertura e unidade de análise](sim.html#cobertura-e-unidade-de-análise); [SINAN: Unidade de análise](sinan.html#unidade-de-análise); [SINASC: Cobertura e unidade de análise](sinasc.html#cobertura-e-unidade-de-análise); [SISAGUA: Unidade de análise](sisagua.html#unidade-de-análise)
+:::
+::: {.subject-index-entry}
+[Uso secundário de dados]{.subject-index-term} — [RNDS: Uso secundário de dados](rnds.html#uso-secundário-de-dados)
+:::
+::::
+
+## V {#indice-v .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Validação reprodutível]{.subject-index-term} — [SIA/SUS: Validação reprodutível](sia.html#validação-reprodutível)
+:::
+::: {.subject-index-entry}
+[Varicela]{.subject-index-term} — [SINAN: Varicela / Herpes-Zóster](sinan.html#varicela-herpes-zóster)
+:::
+::: {.subject-index-entry}
+[Vigilância alimentar e nutricional]{.subject-index-term} — [SISVAN](sisvan.html)
+:::
+::: {.subject-index-entry}
+[Vigilância da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e Vigilância](sisagua.html#controle-e-vigilância)
+:::
+::: {.subject-index-entry}
+[Vigilância do óbito]{.subject-index-term} — [SIM: Vigilância e investigação de óbitos](sim.html#vigilância-e-investigação-de-óbitos)
+:::
+::: {.subject-index-entry}
+[Vigilância epidemiológica]{.subject-index-term} — [Organização dos SIS: Sistemas de morbidade e vigilância](organizacao.html#sistemas-de-morbidade-e-vigilância)
+:::
+::: {.subject-index-entry}
+[Vínculo territorial]{.subject-index-term} — [SISAPS: Vínculo territorial](sisaps.html#vínculo-territorial)
+:::
+::: {.subject-index-entry}
+[Vínculos profissionais]{.subject-index-term} — [CNES: Exemplo: profissionais e vínculos](cnes.html#exemplo-profissionais-e-vínculos)
+:::
+::: {.subject-index-entry}
+[Violência doméstica e sexual]{.subject-index-term} — [SINAN: Violência doméstica, sexual e/ou outras violências](sinan.html#violência-doméstica-sexual-eou-outras-violências)
+:::
+::: {.subject-index-entry}
+[Violência interpessoal ou autoprovocada]{.subject-index-term} — [SINAN: Violência Interpessoal/Autoprovocada](sinan.html#violência-interpessoalautoprovocada)
+:::
+::::
+
+## Z {#indice-z .unnumbered}
+
+:::: {.subject-index}
+::: {.subject-index-entry}
+[Zika vírus]{.subject-index-term} — [SINAN: Zika vírus](sinan.html#zika-vírus)
+:::
+::::
+
