@@ -178,6 +178,9 @@ FGV
 FHIR
 : Padrão *Fast Healthcare Interoperability Resources* para intercâmbio eletrônico de informações em saúde
 
+HL7
+: *Health Level Seven International*, organização responsável por padrões de intercâmbio eletrônico de informações em saúde, entre eles o FHIR
+
 Fiocruz
 : Fundação Oswaldo Cruz
 

@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Livro sobre os principais Sistemas de Informação em Saúde no Brasil.">
+
+<title>Apêndice H — Interoperabilidade entre os Sistemas de Informação em Saúde – Sistemas de Informação em Saúde no Brasil</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 1em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ans.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2M7VLSRDCB"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
+</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./quadro_resumo.html">Apêndices</a></li><li class="breadcrumb-item"><a href="./interoperabilidade.html"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Interoperabilidade entre os Sistemas de Informação em Saúde</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Sistemas de Informação em Saúde no Brasil</a>
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rfsaldanha/sis" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
+    <a href="./Sistemas-de-Informação-em-Saúde-no-Brasil.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Procurar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container">
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bem-vindo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./siglas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lista de siglas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./introducao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introdução</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./historico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Breve histórico da experiência brasileira</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./organizacao.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Organização dos SIS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./eventos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Eventos de saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sim.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">SIM – Sistema de Informação sobre Mortalidade</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sinasc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">SINASC – Sistema de Informação sobre Nascidos Vivos</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sih.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">SIH – Sistema de Informações Hospitalares do SUS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SIA – Sistema de Informações Ambulatoriais do SUS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sinan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SINAN – Sistema de Informação de Agravos de Notificação</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./cnes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">CNES – Cadastro Nacional de Estabelecimentos de Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sisagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">SISAGUA – Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./siops.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">SIOPS – Sistema de Informações sobre Orçamentos Públicos em Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sisaps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">SISAPS - Sistema de Informação para a Atenção Primária à Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sipni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">SI-PNI – Sistema de Informações do Programa Nacional de Imunizações</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./rnds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">RNDS – Rede Nacional de Dados em Saúde</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./referencias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referências</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apêndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a>
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./quadro_resumo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Quadro resumo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./cid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">CID – Classificação Internacional de Doenças</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./codmun.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Códigos dos municípios</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./pop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Estimativas populacionais</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sivep.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">SIVEP – Sistema de Vigilância Epidemiológica</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./sisvan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">SISVAN – Sistema de Vigilância Alimentar e Nutricional</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./ans.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Agência Nacional de Saúde Suplementar - ANS</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="./interoperabilidade.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Interoperabilidade entre os Sistemas de Informação em Saúde</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Índice</h2>
+
+  <ul>
+  <li><a href="#o-que-é-interoperabilidade" id="toc-o-que-é-interoperabilidade" class="nav-link active" data-scroll-target="#o-que-é-interoperabilidade"><span class="header-section-number">H.1</span> O que é interoperabilidade</a></li>
+  <li><a href="#aplicação-aos-sis" id="toc-aplicação-aos-sis" class="nav-link" data-scroll-target="#aplicação-aos-sis"><span class="header-section-number">H.2</span> Aplicação aos SIS</a></li>
+  <li><a href="#o-que-é-linkage" id="toc-o-que-é-linkage" class="nav-link" data-scroll-target="#o-que-é-linkage"><span class="header-section-number">H.3</span> O que é <em>linkage</em></a></li>
+  <li><a href="#principais-métodos-de-relacionamento" id="toc-principais-métodos-de-relacionamento" class="nav-link" data-scroll-target="#principais-métodos-de-relacionamento"><span class="header-section-number">H.4</span> Principais métodos de relacionamento</a>
+  <ul class="collapse">
+  <li><a href="#relacionamento-determinístico" id="toc-relacionamento-determinístico" class="nav-link" data-scroll-target="#relacionamento-determinístico"><span class="header-section-number">H.4.1</span> Relacionamento determinístico</a></li>
+  <li><a href="#relacionamento-probabilístico" id="toc-relacionamento-probabilístico" class="nav-link" data-scroll-target="#relacionamento-probabilístico"><span class="header-section-number">H.4.2</span> Relacionamento probabilístico</a></li>
+  <li><a href="#estratégias-híbridas-e-métodos-de-classificação" id="toc-estratégias-híbridas-e-métodos-de-classificação" class="nav-link" data-scroll-target="#estratégias-híbridas-e-métodos-de-classificação"><span class="header-section-number">H.4.3</span> Estratégias híbridas e métodos de classificação</a></li>
+  </ul></li>
+  <li><a href="#etapas-de-um-linkage" id="toc-etapas-de-um-linkage" class="nav-link" data-scroll-target="#etapas-de-um-linkage"><span class="header-section-number">H.5</span> Etapas de um <em>linkage</em></a></li>
+  <li><a href="#exemplos-com-sis-brasileiros" id="toc-exemplos-com-sis-brasileiros" class="nav-link" data-scroll-target="#exemplos-com-sis-brasileiros"><span class="header-section-number">H.6</span> Exemplos com SIS brasileiros</a></li>
+  <li><a href="#dados-públicos-e-bases-institucionais" id="toc-dados-públicos-e-bases-institucionais" class="nav-link" data-scroll-target="#dados-públicos-e-bases-institucionais"><span class="header-section-number">H.7</span> Dados públicos e bases institucionais</a></li>
+  <li><a href="#privacidade-segurança-e-uso-responsável" id="toc-privacidade-segurança-e-uso-responsável" class="nav-link" data-scroll-target="#privacidade-segurança-e-uso-responsável"><span class="header-section-number">H.8</span> Privacidade, segurança e uso responsável</a></li>
+  <li><a href="#síntese" id="toc-síntese" class="nav-link" data-scroll-target="#síntese"><span class="header-section-number">H.9</span> Síntese</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/interoperabilidade.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./quadro_resumo.html">Apêndices</a></li><li class="breadcrumb-item"><a href="./interoperabilidade.html"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Interoperabilidade entre os Sistemas de Informação em Saúde</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-interoperabilidade" class="quarto-section-identifier">Apêndice H — Interoperabilidade entre os Sistemas de Informação em Saúde</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+
+
+
+  </div>
+
+
+
+</header>
+
+
+<p>Os Sistemas de Informação em Saúde (SIS) brasileiros foram criados em épocas distintas, por áreas técnicas diferentes e para finalidades próprias. SIM, SINASC, SIH/SUS, SIA/SUS, SINAN, CNES, SISAB, SI-PNI e outros sistemas não compartilham necessariamente a mesma arquitetura, os mesmos conceitos ou os mesmos identificadores. Ainda assim, o cuidado, a vigilância e a gestão precisam combinar informações produzidas nesses ambientes. A interoperabilidade e o relacionamento de registros são duas respostas complementares a esse problema, mas atuam em momentos e de maneiras diferentes.</p>
+<section id="o-que-é-interoperabilidade" class="level2" data-number="H.1">
+<h2 data-number="H.1" class="anchored" data-anchor-id="o-que-é-interoperabilidade"><span class="header-section-number">H.1</span> O que é interoperabilidade</h2>
+<p>Interoperabilidade é a capacidade de dois ou mais sistemas trocarem informações e utilizarem corretamente o que foi recebido. Não basta transportar um arquivo de um ponto a outro: o sistema receptor precisa reconhecer sua estrutura, compreender o significado dos campos, preservar o contexto do registro e empregar a informação de acordo com regras institucionais, jurídicas e assistenciais.</p>
+<p>No SUS, a regulamentação distingue a interoperabilidade sintática da semântica. A primeira trata dos modelos e das técnicas computacionais que permitem a troca padronizada entre sistemas, redes e plataformas. A segunda depende de modelos de informação e de vocabulários padronizados — terminologias, classificações, taxonomias e ontologias — que preservem o significado para as pessoas e instituições envolvidas <span class="citation" data-cites="brasilPortariaConsolidacao12017">(<a href="referencias.html#ref-brasilPortariaConsolidacao12017" role="doc-biblioref">BRASIL, 2017</a>)</span>. Na prática, há ainda dimensões organizacional e jurídica: os participantes precisam definir responsabilidades, finalidades, fluxos, perfis de acesso, segurança, auditoria e resposta a incidentes.</p>
+<table class="caption-top table">
+<caption>Dimensões da interoperabilidade em saúde</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Pergunta central</th>
+<th>Exemplos nos SIS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Técnica</td>
+<td>Os sistemas conseguem conectar-se e transmitir os dados?</td>
+<td>Interfaces, autenticação, APIs e infraestrutura de rede</td>
+</tr>
+<tr class="even">
+<td>Sintática</td>
+<td>A mensagem recebida tem estrutura conhecida?</td>
+<td>Recursos FHIR, formatos de data, cardinalidade e campos obrigatórios</td>
+</tr>
+<tr class="odd">
+<td>Semântica</td>
+<td>O dado tem o mesmo significado na origem e no destino?</td>
+<td>CID para diagnósticos, LOINC para observações laboratoriais e SIGTAP para procedimentos</td>
+</tr>
+<tr class="even">
+<td>Organizacional</td>
+<td>Os processos e as responsabilidades estão articulados?</td>
+<td>Definição de quem registra, envia, corrige, consulta e audita</td>
+</tr>
+<tr class="odd">
+<td>Jurídica e ética</td>
+<td>O intercâmbio tem finalidade e base legal adequadas?</td>
+<td>Controle de acesso, minimização, rastreabilidade e proteção de dados pessoais</td>
+</tr>
+</tbody>
+</table>
+<p>As dimensões se acumulam. Uma mensagem pode chegar ao destino e ser sintaticamente válida, mas conter um código usado com significado diferente pelo serviço de origem. Também pode ser tecnicamente e semanticamente correta, mas ter sido consultada por um perfil sem autorização para aquela finalidade. A interoperabilidade efetiva só ocorre quando todas as dimensões necessárias ao uso estão presentes.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Integração e interoperabilidade">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Integração e interoperabilidade
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Integração permite que sistemas se conectem. Interoperabilidade acrescenta a capacidade de usar corretamente a informação trocada, com significado preservado e governança definida.</p>
+</div>
+</div>
+</section>
+<section id="aplicação-aos-sis" class="level2" data-number="H.2">
+<h2 data-number="H.2" class="anchored" data-anchor-id="aplicação-aos-sis"><span class="header-section-number">H.2</span> Aplicação aos SIS</h2>
+<p>Em sistemas isolados, cada área recebe arquivos, interpreta leiautes próprios, mantém tabelas auxiliares e cria rotinas particulares de importação. Esse arranjo amplia o custo de manutenção e favorece divergências. Com padrões comuns, um sistema local pode representar um atendimento, uma vacina ou um resultado laboratorial de modo que outros componentes autorizados reconheçam o registro sem uma tradução construída exclusivamente para cada par de sistemas.</p>
+<p>A Rede Nacional de Dados em Saúde (RNDS), apresentada na <a href="rnds.html" class="quarto-xref"><span>Capítulo 15</span></a>, é a plataforma oficial de interoperabilidade do Ministério da Saúde. Ela conecta sistemas de saúde e estabelece uma infraestrutura para o compartilhamento padronizado, com acesso aos dados individuais condicionado ao perfil e à finalidade <span class="citation" data-cites="msRNDSPagina2026">(<a href="referencias.html#ref-msRNDSPagina2026" role="doc-biblioref">BRASIL, 2026b</a>)</span>. Modelos como o Registro de Atendimento Clínico (RAC), o Resultado de Exames Laboratoriais (REL), o Registro de Imunobiológico Administrado (RIA) e o Modelo de Informação da Regulação Assistencial (MIRA) organizam tipos específicos de informação. Sua representação computacional emprega o padrão FHIR e terminologias controladas conforme o contexto <span class="citation" data-cites="msRNDSGuia2026">(<a href="referencias.html#ref-msRNDSGuia2026" role="doc-biblioref">BRASIL, 2026c</a>)</span>.</p>
+<p>Uma integração desse tipo pode fazer com que uma vacina registrada em um sistema de origem seja consultada pelo cidadão e por um profissional autorizado, ou que uma informação de regulação seja transmitida à RNDS segundo um modelo nacional. O identificador da pessoa, do estabelecimento e do profissional; as datas do evento e do envio; os códigos clínicos; e as versões do documento precisam conservar seu significado durante o percurso.</p>
+<p>A interoperabilidade não elimina os sistemas finalísticos nem corrige automaticamente seus problemas. Se um diagnóstico foi registrado de maneira imprecisa, se o CNS foi associado à pessoa errada ou se o estabelecimento não enviou o evento, a troca padronizada pode apenas transportar ou tornar mais visível o problema original. Também não garante cobertura nacional uniforme: sistemas, modelos, territórios e serviços podem estar em estágios distintos de integração.</p>
+<p>Além da integração de pessoas e eventos assistenciais, há interoperabilidade entre cadastros e objetos administrativos. O código do CNES permite associar produção ambulatorial, internações e características do estabelecimento; códigos municipais permitem combinar eventos e denominadores territoriais; e terminologias comuns aproximam diagnósticos, exames e procedimentos. Essas junções por estabelecimento, território ou código não são necessariamente um relacionamento de pessoas.</p>
+</section>
+<section id="o-que-é-linkage" class="level2" data-number="H.3">
+<h2 data-number="H.3" class="anchored" data-anchor-id="o-que-é-linkage"><span class="header-section-number">H.3</span> O que é <em>linkage</em></h2>
+<p><em>Linkage</em>, ou relacionamento de registros, é o processo de identificar quais registros de uma ou mais bases se referem à mesma entidade do mundo real. A entidade pode ser uma pessoa, um estabelecimento, um episódio assistencial, uma gestação ou outro objeto de interesse. O termo costuma ser empregado para o relacionamento de pessoas quando não existe, não está disponível ou não é confiável uma chave única comum às bases.</p>
+<p>O relacionamento pode unir bases diferentes, como SIM e SINASC, ou procurar duplicidades dentro da mesma base. No primeiro caso, permite acrescentar informações sobre a trajetória de uma pessoa ou de um evento; no segundo, ajuda a identificar registros repetidos. O resultado não deve ser entendido automaticamente como verdade: trata-se de uma classificação de pares ou conjuntos de registros, sujeita a falsos positivos e falsos negativos.</p>
+<p>Interoperabilidade e <em>linkage</em> se distinguem sobretudo pelo momento e pelo mecanismo. A interoperabilidade organiza a troca entre sistemas, em geral no fluxo operacional, com contratos de informação e identificadores definidos. O <em>linkage</em> costuma atuar depois da produção dos dados, comparando registros que já existem. Uma arquitetura interoperável pode reduzir a necessidade de inferir identidades, mas não elimina o relacionamento de bases históricas, sistemas legados ou registros com identificadores ausentes e incorretos.</p>
+<table class="caption-top table">
+<caption>Diferenças entre interoperabilidade e relacionamento de registros</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspecto</th>
+<th>Interoperabilidade</th>
+<th><em>Linkage</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Problema principal</td>
+<td>Trocar e usar informações entre sistemas</td>
+<td>Reconhecer registros da mesma entidade</td>
+</tr>
+<tr class="even">
+<td>Momento típico</td>
+<td>Durante o fluxo de registro, envio e consulta</td>
+<td>Depois que as bases foram produzidas ou extraídas</td>
+</tr>
+<tr class="odd">
+<td>Mecanismo</td>
+<td>Padrões, modelos, terminologias, interfaces e governança</td>
+<td>Chaves, regras de comparação, escores e classificação de pares</td>
+</tr>
+<tr class="even">
+<td>Resultado</td>
+<td>Informação compreensível e utilizável pelo sistema receptor</td>
+<td>Base relacionada, chave de vínculo ou conjunto de pares</td>
+</tr>
+<tr class="odd">
+<td>Erro característico</td>
+<td>Falha de transmissão, mapeamento ou interpretação</td>
+<td>Falso pareamento ou perda de um par verdadeiro</td>
+</tr>
+<tr class="even">
+<td>Relação entre ambos</td>
+<td>Identificadores e semântica comuns facilitam o relacionamento</td>
+<td>Pode recompor vínculos que a integração não produziu</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="principais-métodos-de-relacionamento" class="level2" data-number="H.4">
+<h2 data-number="H.4" class="anchored" data-anchor-id="principais-métodos-de-relacionamento"><span class="header-section-number">H.4</span> Principais métodos de relacionamento</h2>
+<section id="relacionamento-determinístico" class="level3" data-number="H.4.1">
+<h3 data-number="H.4.1" class="anchored" data-anchor-id="relacionamento-determinístico"><span class="header-section-number">H.4.1</span> Relacionamento determinístico</h3>
+<p>O método determinístico aplica regras explícitas. A forma mais simples exige igualdade em um identificador único confiável, como uma chave gerada e compartilhada pelos sistemas. Quando essa chave não existe, podem ser usadas combinações de campos, como nome, data de nascimento, nome da mãe e município de residência. É comum executar passos sucessivos: começa-se por uma regra estrita e, nos registros ainda não pareados, aplicam-se combinações alternativas.</p>
+<p>O método é transparente, reproduzível e pode alcançar alta precisão quando os identificadores são completos e bem preenchidos. Em contrapartida, um erro de digitação, mudança de nome, data incompleta ou ausência de campo pode impedir o pareamento verdadeiro. Regras excessivamente flexíveis também podem unir pessoas diferentes, sobretudo quando os valores são frequentes.</p>
+</section>
+<section id="relacionamento-probabilístico" class="level3" data-number="H.4.2">
+<h3 data-number="H.4.2" class="anchored" data-anchor-id="relacionamento-probabilístico"><span class="header-section-number">H.4.2</span> Relacionamento probabilístico</h3>
+<p>O método probabilístico considera que concordâncias e discordâncias têm poderes distintos de identificação. Concordar em um sobrenome raro tende a ser mais informativo do que concordar em um nome muito frequente; uma pequena diferença ortográfica pode ser compatível com o mesmo indivíduo, enquanto datas muito divergentes oferecem evidência contrária. No modelo clássico de Fellegi e Sunter, as comparações recebem pesos segundo sua ocorrência esperada entre pares verdadeiros e não verdadeiros, produzindo um escore para classificar os pares <span class="citation" data-cites="fellegiSunter1969">(<a href="referencias.html#ref-fellegiSunter1969" role="doc-biblioref">FELLEGI; SUNTER, 1969</a>)</span>.</p>
+<p>Como comparar todos os registros de duas bases pode gerar um número impraticável de combinações, aplica-se a blocagem: somente pares que concordam em uma ou mais características iniciais seguem para comparação detalhada. Os pares com escore alto são aceitos, os de escore baixo são rejeitados e uma faixa intermediária pode ser submetida a revisão manual. O método tolera melhor erros e variações, mas depende de boa preparação, escolha das variáveis, parâmetros, limiares e validação.</p>
+</section>
+<section id="estratégias-híbridas-e-métodos-de-classificação" class="level3" data-number="H.4.3">
+<h3 data-number="H.4.3" class="anchored" data-anchor-id="estratégias-híbridas-e-métodos-de-classificação"><span class="header-section-number">H.4.3</span> Estratégias híbridas e métodos de classificação</h3>
+<p>Na prática, muitos projetos combinam abordagens. Pares de alta confiança são obtidos por regras determinísticas; os registros restantes passam por comparações aproximadas de texto, tolerância em datas e um modelo probabilístico. Métodos de aprendizado de máquina também podem classificar pares a partir de exemplos previamente rotulados. Eles são úteis em bases volumosas ou com padrões complexos, mas a qualidade depende do conjunto de treinamento e da estabilidade desses padrões em outros períodos e populações.</p>
+<p>O relacionamento com preservação de privacidade transforma ou codifica identificadores antes da comparação e pode empregar resumos criptográficos, filtros de Bloom ou protocolos seguros entre instituições. Essas técnicas reduzem a exposição direta dos identificadores, mas não tornam o processo isento de risco nem dispensam governança. Parâmetros inadequados podem reduzir a qualidade do pareamento, e valores pseudonimizados continuam sujeitos à proteção de dados quando podem ser associados a uma pessoa por informação adicional <span class="citation" data-cites="schnellBachtelerReiher2009 brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>; <a href="referencias.html#ref-schnellBachtelerReiher2009" role="doc-biblioref">SCHNELL; BACHTELER; REIHER, 2009</a>)</span>.</p>
+<table class="caption-top table">
+<caption>Métodos de relacionamento de registros</caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Método</th>
+<th>Como decide</th>
+<th>Vantagem</th>
+<th>Limitação principal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Determinístico por chave</td>
+<td>Igualdade em identificador comum</td>
+<td>Simples e preciso quando a chave é confiável</td>
+<td>Falha com chaves ausentes, erradas ou indisponíveis</td>
+</tr>
+<tr class="even">
+<td>Determinístico por regras</td>
+<td>Igualdade em combinações sucessivas de campos</td>
+<td>Transparente e fácil de auditar</td>
+<td>Sensível a erros e à escolha das regras</td>
+</tr>
+<tr class="odd">
+<td>Probabilístico</td>
+<td>Peso das concordâncias e discordâncias</td>
+<td>Acomoda variações e dados incompletos</td>
+<td>Exige parametrização, limiares e validação</td>
+</tr>
+<tr class="even">
+<td>Híbrido</td>
+<td>Regras estritas seguidas de comparação aproximada</td>
+<td>Aproveita pares fáceis e concentra esforço nos difíceis</td>
+<td>Fluxo mais complexo e dependente da ordem das etapas</td>
+</tr>
+<tr class="odd">
+<td>Aprendizado de máquina</td>
+<td>Classificador treinado com pares rotulados</td>
+<td>Pode representar padrões complexos e operar em escala</td>
+<td>Depende de exemplos confiáveis e pode perder desempenho em outro contexto</td>
+</tr>
+<tr class="even">
+<td>Preservação de privacidade</td>
+<td>Compara representações protegidas dos identificadores</td>
+<td>Reduz o compartilhamento de identificadores em claro</td>
+<td>Não elimina risco, erros nem obrigações legais</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="etapas-de-um-linkage" class="level2" data-number="H.5">
+<h2 data-number="H.5" class="anchored" data-anchor-id="etapas-de-um-linkage"><span class="header-section-number">H.5</span> Etapas de um <em>linkage</em></h2>
+<p>Antes da comparação, é necessário definir a entidade, a população elegível e a relação esperada. Um óbito infantil deve encontrar no máximo uma declaração de nascido vivo correspondente, mas uma pessoa pode ter várias internações ou notificações. A cardinalidade esperada — um para um, um para muitos ou muitos para muitos — orienta o algoritmo e a avaliação dos resultados.</p>
+<ol type="1">
+<li><p>Definir a finalidade e a população. Delimitar a pergunta, o período, os sistemas, os critérios de inclusão e a unidade relacionada.</p></li>
+<li><p>Preparar os campos. Padronizar caracteres, espaços, datas e códigos; separar componentes quando necessário; e preservar as versões originais para auditoria.</p></li>
+<li><p>Avaliar os identificadores. Medir completude, validade, frequência, estabilidade e distribuição dos valores em cada fonte.</p></li>
+<li><p>Gerar pares candidatos. Usar chaves ou blocagem para reduzir as comparações sem descartar uma parcela excessiva de pares verdadeiros.</p></li>
+<li><p>Comparar e classificar. Aplicar regras, funções de similaridade, pesos ou classificadores e registrar a evidência que levou a cada decisão.</p></li>
+<li><p>Resolver conflitos. Examinar empates, relações incompatíveis com a cardinalidade esperada e pares situados na faixa de dúvida.</p></li>
+<li><p>Validar. Estimar precisão, sensibilidade e taxas de falsos positivos e falsos negativos com amostra revisada, padrão de referência ou análises de consistência.</p></li>
+<li><p>Documentar e proteger. Registrar versões das bases, parâmetros, limiares, decisões manuais, incerteza e medidas de segurança; divulgar somente o necessário para a finalidade.</p></li>
+</ol>
+<p>Os erros não são apenas técnicos. Um falso positivo atribui a uma pessoa o evento de outra; um falso negativo fragmenta sua trajetória. Se a probabilidade de erro variar por idade, raça/cor, território ou qualidade do preenchimento, o relacionamento pode introduzir viés diferencial. Por isso, relatar apenas a quantidade de pares encontrados é insuficiente.</p>
+</section>
+<section id="exemplos-com-sis-brasileiros" class="level2" data-number="H.6">
+<h2 data-number="H.6" class="anchored" data-anchor-id="exemplos-com-sis-brasileiros"><span class="header-section-number">H.6</span> Exemplos com SIS brasileiros</h2>
+<p>O relacionamento entre SIM e SINASC permite recuperar informações do nascimento de crianças que morreram antes de completar um ano, melhorar a completude de variáveis comuns e estudar fatores associados à mortalidade infantil. Em cinco cidades brasileiras, um estudo relacionou 90% dos óbitos infantis às respectivas declarações de nascido vivo; 74,5% dos pares foram obtidos na etapa determinística, e a etapa probabilística contribuiu para os demais <span class="citation" data-cites="maiaSouzaMendes2015">(<a href="referencias.html#ref-maiaSouzaMendes2015" role="doc-biblioref">MAIA; SOUZA; MENDES, 2015</a>)</span>. O exemplo mostra por que estratégias sequenciais são úteis: chaves e regras resolvem os pares mais claros, enquanto métodos tolerantes a erros recuperam parte dos restantes.</p>
+<p>O Ministério da Saúde recomenda o relacionamento entre SIH/SUS e SIM como uma das estratégias para qualificar registros inespecíficos de mortes por causas externas. As informações da internação podem apoiar a investigação da circunstância do óbito, mas não devem substituir de forma automática o que foi atestado; inconsistências exigem exame das fontes e, quando necessário, investigação adicional <span class="citation" data-cites="ministerioMortesCausasExternas2023">(<a href="referencias.html#ref-ministerioMortesCausasExternas2023" role="doc-biblioref">BRASIL, 2023</a>)</span>.</p>
+<p>Outras combinações respondem a perguntas distintas. SINAN e SIM podem identificar óbitos entre casos notificados e contribuir para avaliar encerramento e subnotificação. SIH/SUS e SIA/SUS podem recompor partes da utilização de serviços ao longo do tempo quando há identificadores adequados. SISAB, SI-PNI ou sistemas laboratoriais podem ser relacionados para investigar continuidade do cuidado, vacinação e resultados de exames. Em todos esses casos, cobertura, população-alvo e finalidade administrativa dos sistemas permanecem diferentes; encontrar a mesma pessoa não torna os eventos diretamente equivalentes.</p>
+<p>Também há relacionamentos que não envolvem pessoas. O CNES conecta produção e características dos estabelecimentos, códigos municipais permitem integrar indicadores territoriais e códigos de procedimentos ou diagnósticos aproximam tabelas de sistemas diferentes. Esses vínculos costumam ser determinísticos, mas ainda exigem atenção a mudanças de código, vigência temporal e relações de muitos para muitos.</p>
+</section>
+<section id="dados-públicos-e-bases-institucionais" class="level2" data-number="H.7">
+<h2 data-number="H.7" class="anchored" data-anchor-id="dados-públicos-e-bases-institucionais"><span class="header-section-number">H.7</span> Dados públicos e bases institucionais</h2>
+<p>Os dados disseminados ao público não são uma cópia integral das bases operacionais. Para proteger o sigilo e cumprir a legislação, produtos públicos podem retirar identificadores diretos, suprimir ou agrupar categorias, reduzir precisão de datas e localização, selecionar variáveis ou divulgar apenas agregados. No caso do SIM, o Ministério da Saúde informa expressamente que as bases públicas são anonimizadas e que campos pessoais e sensíveis são removidos antes da oferta para tabulação e obtenção de microdados <span class="citation" data-cites="msSIMTransparencia2026">(<a href="referencias.html#ref-msSIMTransparencia2026" role="doc-biblioref">BRASIL, 2026a</a>)</span>. Outros SIS adotam produtos e procedimentos próprios, que precisam ser verificados em cada fonte e versão.</p>
+<p>As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado <span class="citation" data-cites="brasilLei137092018">(<a href="referencias.html#ref-brasilLei137092018" role="doc-biblioref">BRASIL, 2018</a>)</span>.</p>
+<table class="caption-top table">
+<caption>Diferenças gerais entre produtos públicos e bases institucionais</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Característica</th>
+<th>Produto público</th>
+<th>Base de acesso institucional</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Finalidade predominante</td>
+<td>Transparência, estatística, pesquisa e controle social</td>
+<td>Assistência, vigilância, gestão, regulação e funções legais</td>
+</tr>
+<tr class="even">
+<td>Identificação de pessoas</td>
+<td>Removida, anonimizada ou não disponibilizada</td>
+<td>Pode existir quando necessária e autorizada</td>
+</tr>
+<tr class="odd">
+<td>Detalhamento</td>
+<td>Pode haver seleção, recodificação, agrupamento ou supressão</td>
+<td>Pode conservar campos operacionais e maior granularidade</td>
+</tr>
+<tr class="even">
+<td>Atualização</td>
+<td>Segue calendário e versão de disseminação</td>
+<td>Pode acompanhar fluxos preliminares, correções e consolidações</td>
+</tr>
+<tr class="odd">
+<td>Acesso</td>
+<td>Aberto ou sujeito às condições do portal</td>
+<td>Controlado por perfil, finalidade, órgão e ambiente</td>
+</tr>
+<tr class="even">
+<td>Possibilidade de <em>linkage</em> individual</td>
+<td>Limitada pelos campos divulgados e pelo risco de reidentificação</td>
+<td>Maior quando há identificadores e base legal para o relacionamento</td>
+</tr>
+</tbody>
+</table>
+<p>A retirada de identificadores afeta diretamente o <em>linkage</em>. Sem uma chave comum, o relacionamento determinístico individual pode tornar-se impossível; sem nomes, datas completas ou localização detalhada, o probabilístico perde poder de discriminação. Ainda pode ser possível integrar dados em nível agregado — por município, estabelecimento, período ou categoria — mas isso responde a perguntas ecológicas e administrativas, não recompõe trajetórias individuais.</p>
+<p>Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam ao estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de <em>linkage</em>, mesmo em um ambiente mais interoperável.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Interoperabilidade não é abertura">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Aviso</span>Interoperabilidade não é abertura
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Um dado pode circular entre sistemas autorizados e permanecer protegido. Interoperabilidade define como a informação é trocada e compreendida; dados abertos definem o que pode ser divulgado ao público. Uma condição não implica a outra.</p>
+</div>
+</div>
+</section>
+<section id="privacidade-segurança-e-uso-responsável" class="level2" data-number="H.8">
+<h2 data-number="H.8" class="anchored" data-anchor-id="privacidade-segurança-e-uso-responsável"><span class="header-section-number">H.8</span> Privacidade, segurança e uso responsável</h2>
+<p>Relacionar bases aumenta o valor analítico, mas também pode aumentar o risco informacional. A combinação de datas, eventos raros, pequenos territórios e trajetórias assistenciais pode distinguir uma pessoa mesmo quando nome e CPF foram retirados. Por isso, anonimização não deve ser confundida com simples remoção de identificadores, e pseudonimização não deve ser tratada como autorização automática para divulgar ou reutilizar dados.</p>
+<p>O princípio da necessidade orienta a seleção do menor conjunto de dados suficiente para a finalidade. Identificadores devem ser separados dos dados analíticos quando possível; chaves de vínculo precisam ser protegidas; acessos e decisões devem ser auditáveis; resultados com pequenas contagens ou trajetórias singulares exigem controle de divulgação; e arquivos intermediários devem ter retenção definida. O compartilhamento entre órgãos também precisa explicitar objeto, finalidade, base legal, responsabilidades e medidas de segurança.</p>
+<p>A qualidade metodológica e a proteção de dados são inseparáveis. Um projeto bem governado não apenas restringe o acesso: ele documenta por que o relacionamento é necessário, mede seus erros, preserva a rastreabilidade sem expor identidades e limita a divulgação ao que sustenta a finalidade pública. Interoperabilidade confiável e <em>linkage</em> responsável ampliam a capacidade de compreender trajetórias, qualificar registros e coordenar o cuidado sem transformar circulação técnica em acesso indiscriminado.</p>
+</section>
+<section id="síntese" class="level2" data-number="H.9">
+<h2 data-number="H.9" class="anchored" data-anchor-id="síntese"><span class="header-section-number">H.9</span> Síntese</h2>
+<p>Interoperabilidade permite que sistemas troquem e usem dados com estrutura, significado e governança comuns. <em>Linkage</em> identifica registros da mesma entidade em bases já produzidas, por chaves, regras, probabilidades ou métodos de classificação. Identificadores e padrões compartilhados aproximam as duas práticas: melhor interoperabilidade torna o relacionamento mais simples e preciso, enquanto o <em>linkage</em> ajuda a integrar o legado e a lidar com falhas de identificação.</p>
+<p>A possibilidade concreta de relacionamento depende da versão dos dados. Bases institucionais podem conservar identificadores e detalhes necessários às funções do SUS, sob controle de acesso; produtos públicos são preparados para disseminação e podem não conter os campos necessários ao vínculo individual. Portanto, resultados obtidos com microdados públicos não devem ser generalizados para o que seria possível nos ambientes autorizados, e a maior capacidade técnica desses ambientes não dispensa finalidade, proteção, validação e transparência metodológica.</p>
+
+
+<div id="refs" class="references csl-bib-body" data-entry-spacing="1" role="list" style="display: none">
+<div id="ref-brasilPortariaConsolidacao12017" class="csl-entry" role="listitem">
+BRASIL. <strong>Portaria de Consolidação nº 1, de 28 de setembro de 2017</strong>. Disponível em: &lt;<a href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0001_03_10_2017.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0001_03_10_2017.html</a>&gt;. Acesso em: 15 jul. 2026.
+</div>
+<div id="ref-brasilLei137092018" class="csl-entry" role="listitem">
+BRASIL. <strong>Lei nº 13.709, de 14 de agosto de 2018</strong>. Disponível em: &lt;<a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm</a>&gt;. Acesso em: 15 jul. 2026.
+</div>
+<div id="ref-ministerioMortesCausasExternas2023" class="csl-entry" role="listitem">
+BRASIL. <strong>Mortes por causas externas: qualificação dos registros inespecíficos</strong>. Disponível em: &lt;<a href="https://bvsms.saude.gov.br/bvs/publicacoes/mortes_causas_externas_qualificacao_registros.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/mortes_causas_externas_qualificacao_registros.pdf</a>&gt;. Acesso em: 15 jul. 2026.
+</div>
+<div id="ref-msSIMTransparencia2026" class="csl-entry" role="listitem">
+BRASIL. <strong>Mortalidade</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/mortalidade">https://www.gov.br/saude/pt-br/acesso-a-informacao/sic/dados-em-transparencia-ativa/svsa/mortalidade</a>&gt;. Acesso em: 15 jul. 2026a.
+</div>
+<div id="ref-msRNDSPagina2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Rede Nacional de Dados em Saúde</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">https://www.gov.br/saude/pt-br/composicao/seidigi/rnds</a>&gt;. Acesso em: 13 mai. 2026b.
+</div>
+<div id="ref-msRNDSGuia2026" class="csl-entry" role="listitem">
+BRASIL, M. DA S. <strong>Guia de Integração da Rede Nacional de Dados em Saúde</strong>. Disponível em: &lt;<a href="https://rnds-guia.saude.gov.br/">https://rnds-guia.saude.gov.br/</a>&gt;. Acesso em: 13 mai. 2026c.
+</div>
+<div id="ref-fellegiSunter1969" class="csl-entry" role="listitem">
+FELLEGI, I. P.; SUNTER, A. B. <a href="https://doi.org/10.1080/01621459.1969.10501049">A Theory for Record Linkage</a>. <strong>Journal of the American Statistical Association</strong>, v. 64, n. 328, p. 1183–1210, 1969.
+</div>
+<div id="ref-maiaSouzaMendes2015" class="csl-entry" role="listitem">
+MAIA, L. T. DE S.; SOUZA, W. V. DE; MENDES, A. DA C. G. <a href="https://doi.org/10.1590/S1519-38292015000100005">A contribuição do linkage entre o SIM e SINASC para a melhoria das informações da mortalidade infantil em cinco cidades brasileiras</a>. <strong>Revista Brasileira de Saúde Materno Infantil</strong>, v. 15, n. 1, p. 57–66, 2015.
+</div>
+<div id="ref-schnellBachtelerReiher2009" class="csl-entry" role="listitem">
+SCHNELL, R.; BACHTELER, T.; REIHER, J. <a href="https://doi.org/10.1186/1472-6947-9-41">Privacy-preserving record linkage using Bloom filters</a>. <strong>BMC Medical Informatics and Decision Making</strong>, v. 9, p. 41, 2009.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rfsaldanha\.github\.io\/sis\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config);
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined;
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              }
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            }
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./ans.html" class="pagination-link" aria-label="Agência Nacional de Saúde Suplementar - ANS">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Agência Nacional de Saúde Suplementar - ANS</span></span>
+      </a>
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/interoperabilidade.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
