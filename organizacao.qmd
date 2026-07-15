@@ -307,3 +307,17 @@ Erros comuns ao utilizar SIS incluem tratar AIH como pessoa única, contar notif
 :::
 
 O capítulo a seguir detalha o que são eventos de saúde e como eles se relacionam com os principais SIS.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-organizacao}
+
+- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 56.
+
+- [Breve histórico da experiência brasileira — seção “Marcos de criação dos principais sistemas”](historico.html#marcos-de-criação-dos-principais-sistemas). Na edição impressa, p. 22.
+
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 398.
+
+:::
+<!-- END GENERATED SEE ALSO -->

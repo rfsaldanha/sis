@@ -158,3 +158,17 @@ Em séries brasileiras recentes, o uso prático ainda exige atenção à CID-10.
 : Cuidados frequentes ao usar códigos CID
 
 Em síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-cid}
+
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 68.
+
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 108.
+
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 152.
+
+:::
+<!-- END GENERATED SEE ALSO -->

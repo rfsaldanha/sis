@@ -468,3 +468,17 @@ O acesso técnico e documental à RNDS é organizado por páginas oficiais do Mi
 - Guia de integração da RNDS, com orientações para gestores e integradores [@msRNDSGuia2026].
 - Guia de implementação FHIR da RNDS, com especificações computacionais para integradores [@msRNDSFHIR2026].
 - Página sobre compartilhamento de dados de regulação do acesso com a RNDS [@msRNDSRegulacao2026].
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-rnds}
+
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 397.
+
+- [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 40.
+
+- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”](sipni.html#privacidade-e-dados-individualizados). Na edição impressa, p. 316.
+
+:::
+<!-- END GENERATED SEE ALSO -->

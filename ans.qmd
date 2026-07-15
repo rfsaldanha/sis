@@ -181,3 +181,17 @@ TUSS e SIGTAP exigem mapeamento conceitual. Mesmo quando dois códigos descrevem
 8. Documentar o mapeamento. Registrar versões de TUSS, SIGTAP, CNES, regras de inclusão, denominadores e decisões de correspondência.
 
 Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileiro, mas não cria automaticamente uma base completa da assistência nacional. A combinação cobre partes diferentes do financiamento e da prestação, permanece sujeita a lacunas — especialmente o pagamento privado direto — e precisa preservar a dupla condição de muitas pessoas como beneficiárias de planos e usuárias potenciais do SUS. O resultado mais útil não é uma soma indiscriminada, mas uma análise que torne visíveis as fronteiras, as interseções e as diferenças entre as fontes.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-ans}
+
+- [Organização dos SIS — seção “Cobertura: todo o território, SUS e saúde suplementar”](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar). Na edição impressa, p. 36.
+
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 218.
+
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 404.
+
+:::
+<!-- END GENERATED SEE ALSO -->

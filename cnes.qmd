@@ -705,3 +705,17 @@ Antes de concluir uma análise com CNES, verifique se:
 -  Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
 -  Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
 -  Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-cnes}
+
+- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 35.
+
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 110.
+
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 291.
+
+:::
+<!-- END GENERATED SEE ALSO -->

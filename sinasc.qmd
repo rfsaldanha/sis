@@ -471,3 +471,17 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 - Artigo *Qualidade do Sistema de Informações sobre Nascidos Vivos (Sinasc): análise crítica da literatura* [@pedrazaQualidadeSistemaInformacoes2012]. Disponível [aqui](https://doi.org/10.1590/S1413-81232012001000021).
 - Artigo *Qualidade da notificação de anomalias congênitas pelo Sistema de Informações sobre Nascidos Vivos (SINASC): estudo comparativo nos anos 2004 e 2007* [@luquettiQualidadeNotificacaoAnomalias2010]. Disponível [aqui](https://doi.org/10.1590/S0102-311X2010000900009).
 - Artigo *Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC* [@jorgeAnaliseQualidadeEstatisticas2007]. Disponível [aqui](https://doi.org/10.1590/S1413-81232007000300014).
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-sinasc}
+
+- [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 53.
+
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 72.
+
+- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 358.
+
+:::
+<!-- END GENERATED SEE ALSO -->

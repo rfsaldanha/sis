@@ -171,3 +171,17 @@ A linha do tempo a seguir apresenta alguns marcos da criação e consolidação 
 timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 ```
 :::
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-historico}
+
+- [Introdução — seção “Sistemas, contextos e usos”](introducao.html#sistemas-contextos-e-usos). Na edição impressa, p. 15.
+
+- [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 32.
+
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 398.
+
+:::
+<!-- END GENERATED SEE ALSO -->

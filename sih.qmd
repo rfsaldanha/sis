@@ -530,3 +530,17 @@ Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações 
 ### Avaliação da qualidade dos dados
 
 - Artigo *Qualidade das bases de dados hospitalares no Brasil: alguns elementos* [@machadoQualidadeBasesDados2016]. Disponível [aqui](https://doi.org/10.1590/1980-5497201600030008).
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-sih}
+
+- [Eventos de saúde — seção “Internações”](eventos.html#internações). Na edição impressa, p. 52.
+
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 123.
+
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 213.
+
+:::
+<!-- END GENERATED SEE ALSO -->

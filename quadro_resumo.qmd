@@ -13,3 +13,17 @@
 | SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Mensal, com até dois meses de defasagem |
 | SISAB/SISAPS | Sistema de Informação da Atenção Primária à Saúde | 2013; renovação pelo SISAPS/Siaps em 2025 | Equipe, CNES, município, região de saúde, UF, competência e indicador | Dimensão pública do SUS | Mensal, conforme calendário de envio da APS |
 | SI-PNI | Sistema de Informações do Programa Nacional de Imunizações | 1975 (PNI) | Dados agregados e notificações de imunização | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-quadro_resumo}
+
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 41.
+
+- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 56.
+
+- [Introdução — seção “Escopo do livro”](introducao.html#escopo-do-livro). Na edição impressa, p. 17.
+
+:::
+<!-- END GENERATED SEE ALSO -->

@@ -635,3 +635,17 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 
 -  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade* [@oliveiraSistemaInformacaoVigilancia2019]. Disponível [aqui](https://doi.org/10.5123/S1679-49742019000100024).
 -  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-sisagua}
+
+- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 37.
+
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 214.
+
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 54.
+
+:::
+<!-- END GENERATED SEE ALSO -->

@@ -87,3 +87,17 @@ Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e N
 -  Artigo *O Sistema de Vigilância Alimentar e Nutricional como instrumento de monitoramento da Estratégia Nacional para Alimentação Complementar Saudável* [@ferreiraSistemaVigilanciaAlimentar2013]. Disponível [aqui](https://doi.org/10.1590/S1519-38292013000200010).
 -  Artigo *A vigilância alimentar e nutricional em 20 anos da Política Nacional de Alimentação e Nutrição* [@camposVigilanciaAlimentarNutricional2021]. Disponível [aqui](https://doi.org/10.1590/0102-311X00045821).
 -  Artigo *VigiNUTRI Brasil: métodos de solicitação, extração de dados, tratamento e análise de consistência de dados individualizados de adolescentes acompanhados pelo Sistema de Vigilância Alimentar e Nutricional (Sisvan Web)* [@alvesVigiNUTRIBrasilMetodos2024]. Disponível [aqui](https://doi.org/10.1590/S2237-96222024v33e20231479.pt).
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-sisvan}
+
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 290.
+
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 96.
+
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 371.
+
+:::
+<!-- END GENERATED SEE ALSO -->

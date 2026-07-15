@@ -144,3 +144,17 @@ Antes de juntar bases, defina qual chave será usada. Se a base de saúde usa 6 
 : Erros comuns em junções por município
 
 Em síntese, o código municipal é uma chave de integração entre SIS, população, malhas, estabelecimentos e indicadores. Seu uso correto depende de padronizar o formato, declarar o ano da referência territorial e distinguir claramente residência, ocorrência, atendimento, notificação e localização do estabelecimento.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-codmun}
+
+- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 37.
+
+- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 369.
+
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 214.
+
+:::
+<!-- END GENERATED SEE ALSO -->

@@ -301,3 +301,17 @@ Erros frequentes incluem usar data de notificação como se fosse data de iníci
 :::
 
 Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes sobre sua criação, organização, estrutura de dados, formas de acesso, usos, indicadores e cuidados específicos.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-eventos}
+
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 41.
+
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 67.
+
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 152.
+
+:::
+<!-- END GENERATED SEE ALSO -->

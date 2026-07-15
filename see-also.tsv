@@ -1,0 +1,70 @@
+source	target	heading
+introducao	historico	Sistemas nacionais e construção do SUS
+introducao	organizacao	Critérios de organização
+introducao	eventos	Do problema de saúde ao evento registrado
+historico	introducao	Sistemas, contextos e usos
+historico	organizacao	Sistemas como fluxos de registro
+historico	interoperabilidade	Aplicação aos SIS
+organizacao	eventos	Relação entre eventos e perguntas de análise
+organizacao	historico	Marcos de criação dos principais sistemas
+organizacao	interoperabilidade	Aplicação aos SIS
+eventos	organizacao	Como escolher o sistema
+eventos	sim	Causa básica do óbito
+eventos	sinan	Definições de caso
+sim	eventos	Óbitos
+sim	cid	Mortalidade e morbidade
+sim	sinasc	Uso como denominador
+sinasc	eventos	Nascimentos
+sinasc	sim	Exemplo: mortalidade infantil
+sinasc	cid	CID nos sistemas brasileiros
+sih	eventos	Internações
+sih	sia	SIA e SIH
+sih	cnes	Exemplo: CNES + SIH
+sia	eventos	Procedimentos ambulatoriais
+sia	sih	SIH e SIA
+sia	cnes	Relacionamento com outros sistemas
+sinan	eventos	Casos de doenças e agravos
+sinan	sivep	SIVEP-Gripe
+sinan	interoperabilidade	Etapas de um *linkage*
+cnes	organizacao	Sistemas cadastrais, financeiros e de gestão
+cnes	sih	Exemplo: fluxos de internação
+cnes	sisaps	Exemplo: SISAPS + CNES
+sisagua	organizacao	Níveis geográficos
+sisagua	cnes	Geocodificação e análise espacial
+sisagua	eventos	Denominadores e indicadores
+siops	organizacao	Sistemas cadastrais, financeiros e de gestão
+siops	pop	Escolha do denominador
+siops	cnes	CNES como denominador
+sisaps	eventos	Procedimentos ambulatoriais
+sisaps	cnes	Relacionamento com outros sistemas
+sisaps	sinasc	Uso como denominador
+sipni	eventos	Imunizações
+sipni	pop	Escolha do denominador
+sipni	rnds	Modelos de informação
+rnds	interoperabilidade	O que é interoperabilidade
+rnds	organizacao	Integração entre sistemas
+rnds	sipni	Privacidade e dados individualizados
+quadro_resumo	organizacao	Como escolher o sistema
+quadro_resumo	eventos	Relação entre eventos e perguntas de análise
+quadro_resumo	introducao	Escopo do livro
+cid	sim	Codificação pela CID
+cid	sih	Diagnóstico, procedimento e valores
+cid	sinan	Definições de caso
+codmun	organizacao	Níveis geográficos
+codmun	pop	Fontes de estimativas
+codmun	cnes	Geocodificação e análise espacial
+pop	eventos	Denominadores e indicadores
+pop	sisaps	Qual denominador usar?
+pop	sipni	Cobertura vacinal e denominadores
+sivep	sinan	SINAN e SIVEP
+sivep	eventos	Casos de doenças e agravos
+sivep	sisagua	Monitoramento em emergências
+sisvan	sisaps	Exemplo: produção da APS
+sisvan	sinasc	Uso como denominador
+sisvan	pop	Escolha do denominador
+ans	organizacao	Cobertura: todo o território, SUS e saúde suplementar
+ans	cnes	Rede SUS, privada, filantrópica e suplementar
+ans	interoperabilidade	Dados públicos e bases institucionais
+interoperabilidade	rnds	FHIR, terminologias e semântica
+interoperabilidade	eventos	Relacionamento entre sistemas
+interoperabilidade	ans	Integração com dados dos SIS

@@ -152,3 +152,17 @@ A qualidade metodológica e a proteção de dados são inseparáveis. Um projeto
 Interoperabilidade permite que sistemas troquem e usem dados com estrutura, significado e governança comuns. *Linkage* identifica registros da mesma entidade em bases já produzidas, por chaves, regras, probabilidades ou métodos de classificação. Identificadores e padrões compartilhados aproximam as duas práticas: melhor interoperabilidade torna o relacionamento mais simples e preciso, enquanto o *linkage* ajuda a integrar o legado e a lidar com falhas de identificação.
 
 A possibilidade concreta de relacionamento depende da versão dos dados. Bases institucionais podem conservar identificadores e detalhes necessários às funções do SUS, sob controle de acesso; produtos públicos são preparados para disseminação e podem não conter os campos necessários ao vínculo individual. Portanto, resultados obtidos com microdados públicos não devem ser generalizados para o que seria possível nos ambientes autorizados, e a maior capacidade técnica desses ambientes não dispensa finalidade, proteção, validação e transparência metodológica.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-interoperabilidade}
+
+- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 332.
+
+- [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 55.
+
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 392.
+
+:::
+<!-- END GENERATED SEE ALSO -->
