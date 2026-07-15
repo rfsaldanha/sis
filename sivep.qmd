@@ -34,6 +34,8 @@ Essa divisão é importante porque uma análise nacional de malária pode exigir
 
 O acesso operacional ao SIVEP-Malária é voltado à rotina de vigilância e gestão. Diferentemente do SIVEP-Gripe, os microdados nacionais de malária do SIVEP-Malária não têm a mesma disseminação pública ampla em arquivos abertos no Portal de Dados Abertos do SUS. Para análises, pode ser necessário recorrer a tabulações, boletins, solicitações específicas ou bases disponibilizadas por secretarias e pelo Ministério da Saúde, observando regras de sigilo e finalidade de uso.
 
+O Ministério da Saúde mantém o [Painel Epidemiológico da Malária](https://www.gov.br/saude/pt-br/composicao/svsa/cnie/painel-malaria), que oferece visualizações agregadas para o acompanhamento da situação epidemiológica. O painel é útil para consultas exploratórias e monitoramento, mas não substitui o acesso aos microdados quando a análise exigir detalhamento dos registros individuais.
+
 ## SIVEP-DDA
 
 O SIVEP-DDA é usado na vigilância epidemiológica das [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Ele integra a Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia baseada na identificação de casos atendidos em unidades sentinelas de monitoramento, preenchimento de formulários e registro semanal no sistema, conforme a semana epidemiológica de início dos sinais e sintomas [@ministeriodasaudeDDAVigilancia2026].
@@ -42,7 +44,7 @@ O objetivo principal da MDDA é detectar precocemente surtos ou alterações no 
 
 ### Acesso aos dados
 
-O acesso operacional ao SIVEP-DDA é restrito às rotinas de vigilância. Alguns dados agregados são apresentados em um [painel de visualização interativo](https://public.tableau.com/app/profile/dda.brasil/viz/MonitoramentodasDDA/2-MonitoramentoBrasil2025), útil para acompanhamento geral, mas insuficiente para substituir uma extração analítica com microdados quando a pergunta exigir detalhes por unidade, indivíduo, ficha ou investigação.
+O acesso operacional ao SIVEP-DDA é restrito às rotinas de vigilância. O Ministério da Saúde mantém o [Painel Epidemiológico de Doenças Diarreicas Agudas](https://www.gov.br/saude/pt-br/composicao/svsa/cnie/painel-doencas-diarreicas-agudas), que apresenta visualizações agregadas para acompanhamento geral. O painel não substitui uma extração analítica com microdados quando a pergunta exigir detalhes por unidade, indivíduo, ficha ou investigação.
 
 ## Cuidados de interpretação
 
