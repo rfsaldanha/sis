@@ -60,7 +60,7 @@ book:
   title: "Sistemas de Informação em Saúde no Brasil"
   author: "Raphael de Freitas Saldanha"
   isbn: "978-65-01-37841-1"
-  description: "E-book sobre os principais Sistemas de Informação em Saúde no Brasil."
+  description: "Livro sobre os principais Sistemas de Informação em Saúde no Brasil."
   site-url: "https://rfsaldanha.github.io/sis/"
   repo-url: "https://github.com/rfsaldanha/sis"
   repo-actions: [source, issue]

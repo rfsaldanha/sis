@@ -6,7 +6,7 @@ format:
 
 # Bem-vindo {.unnumbered}
 
-Este *e-book* apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.
+Este livro apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.
 
 O material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.
 
@@ -23,19 +23,7 @@ Em seguida, cada sistema é descrito com foco em quatro perguntas práticas:
 
 # Como citar este material?
 
-> SALDANHA, Raphael de Freitas. **Sistemas de Informação em Saúde no Brasil**. E-book. Disponível em <https://rfsaldanha.github.io/sis/>. ISBN: 978-65-01-37841-1.
-
-## BibTeX
-
-```bibtex
-@book{saldanha_sis_brasil,
-  author = {Saldanha, Raphael de Freitas},
-  title = {Sistemas de Informação em Saúde no Brasil},
-  url = {https://rfsaldanha.github.io/sis/},
-  isbn = {978-65-01-37841-1},
-  note = {E-book}
-}
-```
+> SALDANHA, Raphael de Freitas. *Sistemas de Informação em Saúde no Brasil*. Rio de Janeiro: Edição do autor, 2026. ISBN 978-65-01-37841-1. Disponível em: <https://rfsaldanha.github.io/sis/>.
 
 # Sobre o autor
 

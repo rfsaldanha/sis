@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Sistemas de Informação em Saúde no Brasil",
     "section": "",
-    "text": "Bem-vindo\nEste e-book apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.\nO material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.",
+    "text": "Bem-vindo\nEste livro apresenta os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre sua história, organização, cobertura, dados disponíveis, usos analíticos e indicadores derivados.\nO material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.",
     "crumbs": [
       "Bem-vindo"
     ]
@@ -15,16 +15,6 @@
     "title": "Sistemas de Informação em Saúde no Brasil",
     "section": "O que você encontra neste livro",
     "text": "O que você encontra neste livro\nOs capítulos iniciais apresentam conceitos gerais, a trajetória brasileira de implantação dos SIS e a forma como os sistemas se organizam em torno de eventos de saúde, como nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações, imunizações e registros de estabelecimentos.\nEm seguida, cada sistema é descrito com foco em quatro perguntas práticas:\n\nQual evento de saúde o sistema registra?\nQual é sua cobertura e unidade de análise?\nComo os dados são coletados, processados e disseminados?\nQue usos, cuidados e limitações devem ser considerados na análise?",
-    "crumbs": [
-      "Bem-vindo"
-    ]
-  },
-  {
-    "objectID": "index.html#bibtex",
-    "href": "index.html#bibtex",
-    "title": "Sistemas de Informação em Saúde no Brasil",
-    "section": "BibTeX",
-    "text": "BibTeX\n@book{saldanha_sis_brasil,\n  author = {Saldanha, Raphael de Freitas},\n  title = {Sistemas de Informação em Saúde no Brasil},\n  url = {https://rfsaldanha.github.io/sis/},\n  isbn = {978-65-01-37841-1},\n  note = {E-book}\n}",
     "crumbs": [
       "Bem-vindo"
     ]
