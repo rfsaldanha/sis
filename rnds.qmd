@@ -474,11 +474,11 @@ O acesso técnico e documental à RNDS é organizado por páginas oficiais do Mi
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-rnds}
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 397.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 421.
 
-- [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 40.
+- [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 38.
 
-- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”](sipni.html#privacidade-e-dados-individualizados). Na edição impressa, p. 316.
+- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”](sipni.html#privacidade-e-dados-individualizados). Na edição impressa, p. 329.
 
 :::
 <!-- END GENERATED SEE ALSO -->

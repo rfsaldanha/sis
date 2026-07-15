@@ -531,11 +531,11 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sipni}
 
-- [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 54.
+- [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 52.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 371.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 395.
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 330.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 342.
 
 :::
 <!-- END GENERATED SEE ALSO -->

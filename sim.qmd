@@ -594,9 +594,9 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sim}
 
-- [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 53.
+- [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 51.
 
-- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 358.
+- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 379.
 
 - [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 96.
 

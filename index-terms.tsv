@@ -230,6 +230,9 @@ CID-11	cid	CID-11 e transição no Brasil
 Códigos dos municípios	codmun	Códigos dos municípios
 Código do município	codmun	Estrutura do código
 Divisão Territorial Brasileira (DTB)	codmun	Divisão Territorial Brasileira
+Regionalização em saúde	codmun	Regionalização em saúde
+Região de Saúde	codmun	Regionalização em saúde
+Macrorregião de Saúde	codmun	Regionalização em saúde
 Junção de dados	codmun	Boas práticas para junções
 Estimativas populacionais	pop	Estimativas populacionais
 Censo demográfico	pop	Censo, contagem, estimativa e projeção

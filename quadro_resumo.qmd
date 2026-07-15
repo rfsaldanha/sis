@@ -19,11 +19,11 @@
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-quadro_resumo}
 
-- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 41.
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 39.
 
-- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 56.
+- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 55.
 
-- [Introdução — seção “Escopo do livro”](introducao.html#escopo-do-livro). Na edição impressa, p. 17.
+- [Introdução — seção “Escopo do livro”](introducao.html#escopo-do-livro). Na edição impressa, p. 13.
 
 :::
 <!-- END GENERATED SEE ALSO -->

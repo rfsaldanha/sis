@@ -477,11 +477,11 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sinasc}
 
-- [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 53.
+- [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 52.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 72.
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 71.
 
-- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 358.
+- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 378.
 
 :::
 <!-- END GENERATED SEE ALSO -->

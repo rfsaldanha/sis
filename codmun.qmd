@@ -69,7 +69,7 @@ library(dplyr)
 library(stringr)
 library(DT)
 
-mun <- read_municipal_seat() |>
+mun <- read_municipal_seat(year = 2022) |>
   st_drop_geometry() |>
   mutate(
     code_muni_7 = str_pad(as.character(code_muni), width = 7, pad = "0"),
@@ -115,6 +115,47 @@ Essa dimensão temporal importa para séries históricas. Um código válido em 
 | Município ignorado ou estrangeiro | Pode aparecer como código especial ou ausente | Tratar separadamente de municípios válidos |
 : Mudanças territoriais e efeitos analíticos
 
+## Regionalização em saúde
+
+A regionalização organiza o Sistema Único de Saúde (SUS) em espaços que ultrapassam os limites de um único município. Essa organização é necessária porque a infraestrutura, os profissionais e os serviços de maior complexidade não se distribuem de maneira uniforme pelo território. Um município pode assegurar grande parte da atenção primária, mas depender de outro para exames especializados, internações, terapia intensiva ou tratamento oncológico. Assim, analisar os dados dos Sistemas de Informação em Saúde (SIS) apenas por município ou por Unidade da Federação pode ocultar relações assistenciais relevantes e desigualdades de acesso entre territórios [@brasilRegionalizacao2026].
+
+O Decreto nº 7.508, de 28 de junho de 2011, define Região de Saúde como um espaço geográfico contínuo formado por agrupamentos de municípios limítrofes, delimitado a partir de identidades culturais, econômicas e sociais e de redes de comunicação e infraestrutura de transportes compartilhadas. As regiões são instituídas pelos estados, em articulação com os municípios, e devem conter, no mínimo, ações e serviços de atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar e vigilância em saúde. A definição mostra que a região não é apenas uma divisão cartográfica: ela deve expressar uma rede capaz de articular necessidades da população, oferta de serviços e fluxos de atendimento [@brasilDecreto75082011].
+
+A Região de Saúde não substitui o município nem a Unidade da Federação como ente político-administrativo. Trata-se de uma territorialização própria da organização do SUS, que pode ser revista quando mudam as redes, os fluxos ou os pactos interfederativos. Em escala mais ampla, as Macrorregiões de Saúde reúnem uma ou mais regiões e orientam o planejamento de serviços de maior complexidade. A Resolução CIT nº 37, de 22 de março de 2018, consolidou a Macrorregião de Saúde como base do Planejamento Regional Integrado (PRI). O Ministério da Saúde informa atualmente 456 Regiões de Saúde e 117 Macrorregiões de Saúde no país; a relação oficial pode ser consultada em https://www.gov.br/saude/pt-br/composicao/se/dgip/regionalizacao/regionalizacao/ [@brasilResolucaoCIT372018; @brasilRegionalizacao2026]. Essas escalas territoriais se complementam e devem ser analisadas em conjunto.
+
+| Escala | Papel na análise e no planejamento |
+|---|---|
+| Município | Identifica o ente responsável pela gestão local e permite observar necessidades e resultados próximos à população. |
+| Região de Saúde | Agrupa municípios articulados por redes e fluxos assistenciais e apoia a pactuação da oferta regional. |
+| Macrorregião de Saúde | Integra uma ou mais regiões para planejar ações e serviços de maior complexidade e organizar referências em escala ampliada. |
+| Unidade da Federação | Coordena a regionalização, institui as regiões em articulação com os municípios e acompanha desigualdades no território estadual. |
+: Escalas territoriais usadas na regionalização do SUS {#tbl-escalas-regionalizacao}
+
+### Governança e planejamento regional
+
+A regionalização exige coordenação entre diferentes gestores. No âmbito regional, a Comissão Intergestores Regional (CIR) reúne representantes do estado e dos municípios para pactuar responsabilidades, referências assistenciais e prioridades. As decisões que envolvem o conjunto do estado são articuladas na Comissão Intergestores Bipartite (CIB), enquanto a Comissão Intergestores Tripartite (CIT) atua no plano nacional. Esse arranjo procura compatibilizar autonomia municipal e responsabilidade compartilhada, especialmente quando uma linha de cuidado depende de serviços localizados em mais de um município.
+
+O Planejamento Regional Integrado parte da análise das necessidades de saúde da população e da capacidade instalada para definir prioridades, responsabilidades e investimentos na rede. Na prática, pode apoiar decisões sobre onde ampliar leitos, instalar serviços especializados, organizar transporte sanitário e estabelecer referências para urgências ou tratamentos de alta complexidade. O processo deve considerar tanto a residência das pessoas quanto os lugares onde o atendimento efetivamente ocorre, pois a fronteira administrativa nem sempre coincide com o território percorrido pelos usuários [@brasilPlanejamentoRegionalIntegrado2024].
+
+Para trabalhar com essas escalas, o código do município funciona como chave de ligação entre os registros dos SIS e as tabelas que informam a Região e a Macrorregião de Saúde de cada município. Essa classificação não pode ser deduzida dos algarismos do código do IBGE. É necessário obter uma tabela de correspondência produzida para determinado período e registrar sua versão, porque o desenho regional pode ser alterado sem que o código municipal mude. Em séries históricas, deve-se decidir se cada observação será classificada segundo a regionalização vigente no ano do evento ou segundo uma configuração territorial fixa, escolhida para tornar os períodos comparáveis.
+
+### Aplicações aos dados dos SIS
+
+A agregação por Região de Saúde costuma produzir indicadores mais estáveis do que a análise isolada de municípios pequenos, mas não elimina a necessidade de examinar a heterogeneidade interna. Uma média regional favorável pode combinar um município-polo com ampla oferta e municípios periféricos com barreiras de deslocamento. Por isso, resultados regionais devem ser acompanhados, sempre que possível, por medidas municipais, distribuição da oferta e informações sobre tempo ou distância de viagem. A pergunta de pesquisa deve orientar a escolha da unidade territorial e das informações utilizadas.
+
+| Pergunta | Unidade e informação recomendadas |
+|---|---|
+| Qual é o risco de adoecimento ou morte da população regional? | Agregar eventos pelo município de residência e usar denominadores populacionais compatíveis com a mesma composição regional. |
+| A região consegue atender seus próprios residentes? | Comparar residência e local de atendimento, estimando a proporção de atendimentos realizados dentro e fora da região. |
+| Onde se concentra a oferta assistencial? | Agregar estabelecimentos, procedimentos ou internações pelo município de atendimento e relacioná-los à rede regional. |
+| Existem vazios assistenciais ou barreiras de acesso? | Combinar oferta, utilização, fluxos intermunicipais, distâncias e características da população. |
+| A mudança do desenho regional alterou o indicador? | Recalcular a série com uma regionalização fixa e compará-la à classificação vigente em cada período. |
+: Exemplos de uso das Regiões de Saúde na análise dos SIS {#tbl-aplicacoes-regionalizacao}
+
+Também é importante distinguir o município de residência do município de ocorrência ou atendimento. No SIM, por exemplo, o local de residência descreve melhor o risco de mortalidade da população, enquanto o local de ocorrência ajuda a estudar a concentração dos serviços. No SIH/SUS e no SIA/SUS, o cruzamento entre origem e destino permite construir matrizes de fluxo, estimar dependência de outros municípios e identificar polos assistenciais. Regiões definidas administrativamente e regiões formadas pelos fluxos reais podem não coincidir, e essa diferença é uma evidência útil para avaliar a organização da rede [@Xavier2019].
+
+O uso da regionalização acrescenta uma camada substantiva à análise dos códigos municipais. Depois de padronizar o código, verificar mudanças territoriais e selecionar a tabela de correspondência adequada, é possível reunir registros de diferentes sistemas segundo territórios de planejamento comuns. Essa operação favorece a comparação entre necessidades, oferta e utilização dos serviços, mas seus resultados devem ser interpretados à luz dos pactos de referência, dos fluxos observados e das limitações de cobertura de cada SIS.
+
 ## Boas práticas para junções
 
 Códigos municipais devem ser tratados como texto, não como número. Isso preserva zeros à esquerda, evita perda de dígitos e facilita a padronização entre formatos.
@@ -150,11 +191,11 @@ Em síntese, o código municipal é uma chave de integração entre SIS, popula�
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-codmun}
 
-- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 37.
+- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
 
-- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 369.
+- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 393.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 214.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 217.
 
 :::
 <!-- END GENERATED SEE ALSO -->

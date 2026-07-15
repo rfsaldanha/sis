@@ -678,11 +678,11 @@ Antes de concluir uma análise com SIA, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sia}
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 52.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 50.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 102.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 103.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 217.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 220.
 
 :::
 <!-- END GENERATED SEE ALSO -->
