@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: docs
+  pre-render: Rscript scripts/build_acronym_frontmatter.R
   resources:
     - podcast/introducao_dialogo_eleven_v3.mp3
     - podcast/introducao.md
@@ -115,4 +116,7 @@ format:
       dark: darkly
     css: styles.css
   pdf:
-   documentclass: scrreprt
+    documentclass: scrreprt
+    toc: true
+    toc-title: Sumário
+    include-before-body: siglas.tex
