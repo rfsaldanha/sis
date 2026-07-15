@@ -16,6 +16,9 @@ Esta lista reúne as siglas, os acrônimos e as abreviações empregados no text
 AB
 : Atenção Básica
 
+ABI
+: Aviso de Beneficiário Identificado
+
 Aids/AIDS
 : Síndrome da imunodeficiência adquirida; a sigla deriva do inglês *acquired immunodeficiency syndrome*
 
@@ -115,6 +118,9 @@ DCC
 DDA
 : Doenças Diarreicas Agudas
 
+DIOPS
+: Documento de Informações Periódicas das Operadoras de Planos de Assistência à Saúde
+
 DN
 : Declaração de Nascido Vivo; forma abreviada também representada por DNV
 
@@ -135,6 +141,9 @@ DTA
 
 DTB
 : Divisão Territorial Brasileira
+
+D-TISS
+: Painel dos Dados do Padrão de Troca de Informações na Saúde Suplementar
 
 EAPV
 : Eventos Adversos Pós-Vacinação
@@ -178,11 +187,11 @@ FGV
 FHIR
 : Padrão *Fast Healthcare Interoperability Resources* para intercâmbio eletrônico de informações em saúde
 
-HL7
-: *Health Level Seven International*, organização responsável por padrões de intercâmbio eletrônico de informações em saúde, entre eles o FHIR
-
 Fiocruz
 : Fundação Oswaldo Cruz
+
+FNS
+: Fundo Nacional de Saúde
 
 FPM
 : Fundo de Participação dos Municípios
@@ -202,6 +211,9 @@ H1N1
 HIV
 : Vírus da imunodeficiência humana; a sigla deriva do inglês *human immunodeficiency virus*
 
+HL7
+: *Health Level Seven International*, organização responsável por padrões de intercâmbio eletrônico de informações em saúde, entre eles o FHIR
+
 IBGE
 : Instituto Brasileiro de Geografia e Estatística
 
@@ -213,6 +225,9 @@ ICICT
 
 ICSAP
 : Internações por Condições Sensíveis à Atenção Primária
+
+IDSS
+: Índice de Desempenho da Saúde Suplementar
 
 IML
 : Instituto Médico-Legal
@@ -258,6 +273,9 @@ MS
 
 MS/PGR
 : Ministério da Saúde/Procuradoria-Geral da República
+
+NIP
+: Notificação de Intermediação Preliminar
 
 OMS
 : Organização Mundial da Saúde
@@ -352,6 +370,9 @@ SIA/SUS
 SIAB
 : Sistema de Informação da Atenção Básica
 
+SIB
+: Sistema de Informações de Beneficiários
+
 SICAPS
 : Sistema de Informação e Controle Ambulatorial da Previdência Social
 
@@ -375,6 +396,9 @@ SINASC
 
 SIOPS
 : Sistema de Informações sobre Orçamentos Públicos em Saúde
+
+SIP
+: Sistema de Informações de Produtos
 
 SIS
 : Sistemas de Informação em Saúde
@@ -423,6 +447,12 @@ SVS/MS
 
 TCU
 : Tribunal de Contas da União
+
+TISS
+: Padrão de Troca de Informações na Saúde Suplementar
+
+TUSS
+: Terminologia Unificada da Saúde Suplementar
 
 UBS
 : Unidade Básica de Saúde
