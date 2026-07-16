@@ -668,9 +668,9 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 
 - [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 52.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 336.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 338.
 
 :::
 <!-- END GENERATED SEE ALSO -->
