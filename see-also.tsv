@@ -65,3 +65,11 @@ ans	interoperabilidade	Dados públicos e bases institucionais
 interoperabilidade	rnds	FHIR, terminologias e semântica
 interoperabilidade	eventos	Relacionamento entre sistemas
 interoperabilidade	ans	Integração com dados dos SIS
+siscan	sia	Exemplo: produção de mamografias
+siscan	cnes	Relacionamento com outros sistemas
+siscan	interoperabilidade	Relacionamento determinístico
+siscan	eventos	Procedimentos ambulatoriais
+sia	siscan	Integração com SIA/SUS, CNES e CADSUS
+cnes	siscan	Integração com SIA/SUS, CNES e CADSUS
+interoperabilidade	siscan	Painel Oncologia
+eventos	siscan	Quando usar o SISCAN

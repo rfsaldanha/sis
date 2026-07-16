@@ -62,6 +62,9 @@ BPA-C
 BPA-I
 : Boletim de Produção Ambulatorial Individualizado
 
+CADSUS
+: Cadastro de Usuários do Sistema Único de Saúde
+
 CBO
 : Classificação Brasileira de Ocupações
 
@@ -239,6 +242,9 @@ IML
 INAMPS
 : Instituto Nacional de Assistência Médica da Previdência Social
 
+INCA
+: Instituto Nacional de Câncer José Alencar Gomes da Silva
+
 INE
 : Identificador Nacional de Equipe
 
@@ -268,6 +274,12 @@ LOINC
 
 MDDA
 : Monitorização das Doenças Diarreicas Agudas
+
+MEQ
+: Monitoramento Externo da Qualidade
+
+MIQ
+: Monitoramento Interno da Qualidade
 
 MIRA
 : Modelo de Informação da Regulação Assistencial
@@ -415,6 +427,15 @@ SISAGUA
 
 SISAPS/Siaps
 : Sistema de Informação para a Atenção Primária à Saúde
+
+SISCAN
+: Sistema de Informação de Câncer
+
+SISCOLO
+: Sistema de Informação do Controle do Câncer do Colo do Útero
+
+SISMAMA
+: Sistema de Informação do Controle do Câncer de Mama
 
 SISVAN
 : Sistema de Vigilância Alimentar e Nutricional

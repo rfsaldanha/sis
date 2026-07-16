@@ -1,0 +1,356 @@
+---
+always_allow_html: true
+---
+
+# SISCAN -- Sistema de Informação de Câncer {#sec-siscan}
+
+## Resumo
+
+::: {#qua-siscan-caracteristicas-gerais-do-siscan}
+
+| Característica | Descrição |
+|---|---|
+| Ano de instituição | 2013 |
+| Sistemas antecessores | SISCOLO e SISMAMA |
+| Eventos registrados | Solicitações, exames citopatológicos e histopatológicos do colo do útero, mamografias, resultados e seguimento |
+| Unidade de análise | Requisição, exame, laudo, pessoa, estabelecimento e competência |
+| Cobertura | Serviços que realizam ações de detecção precoce e confirmação diagnóstica no âmbito do SUS |
+| Alimentação | Registro nominal em ambiente *web* por unidades solicitantes, prestadores e laboratórios |
+| Uso central | Monitoramento do rastreamento, do diagnóstico, da qualidade dos exames e do seguimento de resultados alterados |
+
+Características gerais do SISCAN
+
+:::
+
+O Sistema de Informação de Câncer (SISCAN) organiza dados das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no Sistema Único de Saúde (SUS). O sistema acompanha a solicitação, a realização e o resultado de exames, além de apoiar o seguimento de pessoas com achados alterados e o monitoramento da qualidade dos serviços [@brasilPortaria3394Siscan2013; @incaManualSiscan2021].
+
+O SISCAN não é um registro populacional de câncer e não mede, isoladamente, a incidência ou a prevalência de todos os tipos de câncer. Sua cobertura e sua unidade de registro refletem processos assistenciais específicos. Para responder a perguntas sobre tratamento oncológico, internações, óbitos ou ocorrência populacional, é necessário combiná-lo com outras fontes.
+
+## Quando usar o SISCAN
+
+Use o SISCAN quando a pergunta envolve rastreamento, investigação diagnóstica, resultados de exames do colo do útero e da mama, qualidade dos exames ou seguimento de resultados alterados na rede vinculada ao SUS.
+
+::: {#qua-siscan-perguntas-comuns-e-fontes-adequadas}
+
+| Pergunta | Fonte principal | Cuidado de interpretação |
+|---|---|---|
+| Quantas mamografias foram realizadas? | SISCAN ou SIA/SUS | SISCAN acrescenta indicação e resultado; SIA/SUS é a referência para produção faturada |
+| Qual a proporção de exames de rastreamento por faixa etária? | SISCAN | Distinguir rastreamento de investigação diagnóstica |
+| Quais foram os resultados citopatológicos? | SISCAN | Verificar adequabilidade, nomenclatura e período |
+| Pessoas com resultado alterado foram acompanhadas? | SISCAN | Registro de seguimento incompleto não comprova ausência de cuidado |
+| Quanto tempo transcorreu entre diagnóstico e primeiro tratamento? | Painel Oncologia | Confirmar as fontes e as datas usadas pelo painel |
+| Qual a incidência de câncer no território? | Registros de câncer | SISCAN não substitui registro populacional ou hospitalar de câncer |
+
+Perguntas comuns e fontes adequadas
+
+:::
+
+O @qua-siscan-perguntas-comuns-e-fontes-adequadas mostra que a escolha da fonte depende do evento e da unidade de análise. Para produção ambulatorial e faturamento, o SIA/SUS costuma ser mais abrangente; para indicação clínica, resultado e seguimento, o SISCAN oferece variáveis mais específicas.
+
+::: {.callout-warning title="Atenção"}
+Uma linha no SISCAN representa um registro do processo de cuidado, não necessariamente uma pessoa única. A mesma pessoa pode realizar vários exames, ter mais de uma requisição e aparecer em diferentes competências.
+:::
+
+## SISCAN, SISCOLO e SISMAMA
+
+O Sistema de Informação do Controle do Câncer do Colo do Útero (SISCOLO) foi instituído em 1999 para apoiar o acompanhamento das ações de prevenção, detecção e controle desse câncer. O Sistema de Informação do Controle do Câncer de Mama (SISMAMA), implantado nacionalmente em 2009, passou a registrar mamografias e exames relacionados à investigação do câncer de mama [@incaHistoricoColo2025; @incaHistoricoMama2025; @datasusSiscoloSismama2026].
+
+Em 2013, a Portaria GM/MS nº 3.394 instituiu o SISCAN, sistema nominal e integrado destinado a substituir gradualmente o SISCOLO e o SISMAMA. A mudança reuniu os dois componentes em ambiente *web*, incorporou identificação pelo Cartão Nacional de Saúde (CNS), utilizou dados do Cadastro Nacional de Estabelecimentos de Saúde (CNES) e ampliou as possibilidades de acompanhamento longitudinal [@brasilPortaria3394Siscan2013; @datasusSiscan2026].
+
+::: {#qua-siscan-comparacao-entre-siscolo-sismama-e-siscan}
+
+| Sistema | Início | Escopo principal | Organização dos dados | Situação para séries históricas |
+|---|---:|---|---|---|
+| SISCOLO | 1999 | Exames citopatológicos e histopatológicos do colo do útero | Aplicação específica, com consolidação periódica | Necessário para períodos anteriores à implantação do SISCAN |
+| SISMAMA | 2009 | Mamografias e investigação diagnóstica da mama | Aplicação específica, com consolidação periódica | Necessário para períodos anteriores à implantação do SISCAN |
+| SISCAN | 2013 | Colo do útero e mama, com solicitação, resultado, qualidade e seguimento | Sistema nominal, integrado e em ambiente *web* | Fonte corrente, cuja implantação foi gradual entre os territórios |
+
+Comparação entre SISCOLO, SISMAMA e SISCAN
+
+:::
+
+A existência do SISCAN não torna dispensáveis as bases históricas. Séries que atravessam a transição precisam avaliar conjuntamente SISCOLO, SISMAMA, SISCAN e SIA/SUS, pois a migração foi gradual e ocorreu com ritmos diferentes entre unidades federativas, municípios e prestadores [@tomazelliCoberturaSistemasCancer2022].
+
+## Fluxo de informação
+
+O fluxo começa na unidade de saúde, que identifica a pessoa e registra a solicitação do exame. A unidade prestadora ou o laboratório recebe a requisição, realiza o procedimento e informa o laudo. O resultado retorna à unidade solicitante e alimenta ações de seguimento, avaliação da qualidade e gestão. Parte da informação também subsidia o faturamento ambulatorial.
+
+::: {.content-hidden when-format="epub"}
+```{mermaid}
+%%| fig-cap: "Fluxo simplificado de informação do SISCAN e do Painel Oncologia"
+%%| label: fig-siscan-fluxo
+flowchart LR
+  usu[Pessoa atendida] --> sol[Unidade solicitante]
+  sol --> req[Requisição no SISCAN]
+  req --> pres[Laboratório ou unidade de mamografia]
+  pres --> lau[Exame e laudo]
+  lau --> sis[SISCAN]
+  sis --> ret[Resultado e seguimento]
+  sis --> bpa[BPA individualizado]
+  bpa --> sia[SIA/SUS]
+  sis --> pai[Painel Oncologia]
+  sia --> pai
+  sih[SIH/SUS] --> pai
+```
+:::
+
+::: {#qua-siscan-atores-e-responsabilidades-no-fluxo}
+
+| Ator | Responsabilidade informacional | Ponto de atenção |
+|---|---|---|
+| Unidade solicitante | Identificar a pessoa, registrar a indicação e solicitar o exame | Qualidade da identificação e da indicação clínica |
+| Laboratório ou unidade de mamografia | Registrar recebimento, realização, laudo e liberação do resultado | Oportunidade, padronização e completitude do laudo |
+| Coordenação municipal | Acompanhar fluxos, resultados alterados e prestadores | Conferir cobertura e atrasos de digitação |
+| Coordenação estadual | Monitorar implantação, qualidade e desempenho regional | Comparar territórios com capacidades distintas |
+| Ministério da Saúde e INCA | Definir padrões, consolidar informações e apoiar monitoramento nacional | Mudanças de versão, regras e disseminação |
+
+Atores e responsabilidades no fluxo do SISCAN
+
+:::
+
+O @qua-siscan-atores-e-responsabilidades-no-fluxo evidencia que a qualidade final depende de diferentes pontos da rede. Erros cadastrais na solicitação, atrasos no prestador ou ausência de atualização do seguimento produzem limitações distintas e devem ser tratados separadamente.
+
+## O que o SISCAN registra
+
+O SISCAN reúne quatro grandes grupos de informação: identificação e contexto da solicitação; características do exame; resultado ou laudo; e seguimento. Os campos variam conforme o procedimento e o órgão investigado.
+
+::: {#qua-siscan-principais-componentes-do-registro}
+
+| Componente | Exemplos de informações | Uso analítico |
+|---|---|---|
+| Identificação | CNS, idade, sexo, residência e unidade solicitante | Deduplicação, perfil demográfico e análise territorial |
+| Solicitação | Data, motivo, indicação clínica e exame anterior | Avaliação do acesso e adequação do rastreamento |
+| Colo do útero | Citopatologia, histopatologia, adequabilidade e resultado | Distribuição de achados e qualidade diagnóstica |
+| Mama | Mamografia, categoria de resultado e informações clínicas | Rastreamento, investigação e encaminhamento |
+| Estabelecimento | Unidade solicitante, prestador e laboratório | Análise de rede, produção e desempenho |
+| Tempo | Solicitação, realização, liberação do laudo e seguimento | Medidas de oportunidade e intervalos assistenciais |
+| Seguimento | Conduta e acompanhamento de resultados alterados | Continuidade do cuidado e perdas de acompanhamento |
+
+Principais componentes do registro no SISCAN
+
+:::
+
+### Exames do colo do útero
+
+Os registros de citopatologia e histopatologia permitem estudar adequabilidade da amostra, resultados, alterações celulares e confirmação diagnóstica. A nomenclatura e as categorias devem ser conferidas no manual e no dicionário correspondentes ao período analisado. Uma contagem de exames não deve ser automaticamente interpretada como número de mulheres examinadas.
+
+### Exames da mama
+
+Os registros de mamografia incluem a indicação do exame e categorias padronizadas de resultado. Essa distinção permite separar mamografias de rastreamento das realizadas para investigação diagnóstica. Exames histopatológicos podem complementar a análise da confirmação diagnóstica, mas o percurso assistencial completo exige outras fontes.
+
+### Qualidade dos exames
+
+O sistema oferece informações para o Monitoramento Interno da Qualidade (MIQ) e o Monitoramento Externo da Qualidade (MEQ) dos exames citopatológicos. Essas atividades avaliam processos e resultados laboratoriais e não devem ser reduzidas à simples comparação de volume entre estabelecimentos [@incaManualSiscan2021].
+
+## Unidade de análise
+
+A unidade de análise precisa ser declarada antes do cálculo. O SISCAN pode ser lido como base de exames, requisições, laudos, pessoas, estabelecimentos ou competências, mas cada perspectiva demanda regras próprias.
+
+::: {#qua-siscan-unidades-de-analise-e-riscos-de-contagem}
+
+| Unidade | Exemplo de medida | Risco frequente |
+|---|---|---|
+| Exame | Número de mamografias realizadas | Interpretar exames como pessoas |
+| Requisição | Solicitações registradas | Ignorar cancelamentos ou repetições |
+| Laudo | Resultados liberados | Misturar laudos preliminares e finais |
+| Pessoa | Pessoas examinadas no período | Não deduplicar CNS ou identificadores inconsistentes |
+| Estabelecimento | Produção por prestador | Atribuir produção ao município de residência |
+| Competência | Volume mensal registrado | Confundir competência de processamento com data clínica |
+
+Unidades de análise e riscos de contagem
+
+:::
+
+Para contar pessoas, é necessário estabelecer uma janela temporal e um critério de identificação. Para medir produção, a unidade é o procedimento ou exame. Para analisar acesso territorial, município de residência, município da unidade solicitante e município do prestador respondem a perguntas diferentes.
+
+## Rastreamento, diagnóstico e seguimento
+
+Rastreamento é a aplicação sistemática de exames em população assintomática definida por critérios de idade e periodicidade. Investigação diagnóstica ocorre diante de sinais, sintomas ou achados anteriores. Misturar as duas indicações altera denominadores, positividade esperada e avaliação de desempenho.
+
+O seguimento começa quando um resultado exige nova investigação, confirmação diagnóstica ou tratamento. O SISCAN pode apoiar sua gestão, mas ausência de atualização no módulo não significa necessariamente que a pessoa não tenha recebido cuidado. O atendimento pode ter ocorrido sem registro, em outro serviço, em outra fonte de dados ou fora do SUS.
+
+::: {.callout-tip title="Interpretação"}
+Ao avaliar cobertura de rastreamento, use como numerador exames de rastreamento realizados na população-alvo e como denominador uma estimativa populacional compatível. Informe se o indicador representa exames ou pessoas examinadas.
+:::
+
+## Integração com SIA/SUS, CNES e CADSUS
+
+O SISCAN utiliza o Cadastro de Usuários do SUS (CADSUS) para identificação nominal e o CNES para caracterizar unidades solicitantes e prestadores. Essa integração reduz redigitação, apoia o acompanhamento da pessoa e permite relacionar produção, território e capacidade instalada.
+
+O sistema também gera o Boletim de Produção Ambulatorial Individualizado (BPA-I) para procedimentos compatíveis, que segue para processamento no SIA/SUS. As bases, porém, não são equivalentes. O SISCAN reúne dados clínicos e de resultado; o SIA/SUS registra procedimentos apresentados e processados para fins administrativos. Diferenças de implantação, envio e crítica podem fazer com que os totais não coincidam [@brasilPortaria3394Siscan2013; @tomazelliCoberturaSistemasCancer2022].
+
+::: {#qua-siscan-comparacao-entre-siscan-e-sia-sus}
+
+| Dimensão | SISCAN | SIA/SUS |
+|---|---|---|
+| Finalidade predominante | Detecção precoce, diagnóstico, qualidade e seguimento | Produção e processamento ambulatorial |
+| Unidade típica | Requisição, exame e laudo nominal | Procedimento apresentado ou aprovado |
+| Conteúdo clínico | Indicação e resultado detalhados | Procedimento, quantidade, valor e dados administrativos |
+| Melhor uso | Perfil dos exames, resultados e percurso inicial | Séries de produção, financiamento e oferta ambulatorial |
+| Limitação comparativa | Implantação e completitude variáveis | Menor detalhamento do resultado clínico |
+
+Comparação entre SISCAN e SIA/SUS
+
+:::
+
+## Painel Oncologia
+
+O Painel Oncologia é uma ferramenta de monitoramento do intervalo entre diagnóstico e primeiro tratamento do câncer no SUS. Ele foi desenvolvido para apoiar a gestão e o acompanhamento da Lei nº 12.732/2012, que estabeleceu prazo para o início do primeiro tratamento de neoplasia maligna comprovada [@brasilLei127322012; @brasilPainelOncologia2026].
+
+O painel não é um módulo isolado do SISCAN. Ele integra registros do SIA/SUS — incluindo BPA-I e Autorizações de Procedimentos Ambulatoriais de Alta Complexidade (APAC) —, do SIH/SUS e do SISCAN. A construção dos casos utiliza relacionamento determinístico, principalmente com base no CNS e no diagnóstico, para localizar a data diagnóstica e o primeiro procedimento de tratamento [@attyPainelOncologia2020].
+
+::: {#qua-siscan-leitura-do-painel-oncologia}
+
+| O painel permite | O painel não permite, sozinho |
+|---|---|
+| Descrever casos com diagnóstico e primeiro tratamento identificados | Estimar incidência populacional de câncer |
+| Calcular intervalos entre as datas registradas | Reconstruir toda a trajetória assistencial |
+| Estratificar informações por território, diagnóstico e período | Captar atendimento não informado nas fontes integradas |
+| Identificar atrasos e desigualdades no início do tratamento | Atribuir causalidade aos atrasos observados |
+| Apoiar monitoramento da oportunidade do cuidado | Avaliar qualidade ou resultado clínico do tratamento |
+
+Possibilidades e limites do Painel Oncologia
+
+:::
+
+O intervalo exibido depende de duas datas encontradas nas bases administrativas. Se o diagnóstico ou o tratamento não for registrado, estiver fora do escopo das fontes ou não puder ser relacionado por problemas de identificação, o caso pode não compor a medida. A data do primeiro procedimento registrado também não representa toda a linha de cuidado.
+
+O acesso público ao Painel Oncologia está disponível em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A consulta deve registrar a data de extração, os filtros, a abrangência geográfica e o período selecionado.
+
+## Qualidade e cobertura
+
+A cobertura do SISCAN varia no tempo e no espaço. A implantação gradual, a coexistência com os sistemas antecessores e diferenças locais de digitação fazem com que a ausência de registros possa indicar tanto ausência de procedimento quanto falha ou atraso de informação. Após 2015, as bases nacionais de SISCOLO e SISMAMA deixaram de receber atualizações regulares, sem que o SISCAN alcançasse de imediato a mesma cobertura em todos os locais [@tomazelliCoberturaSistemasCancer2022].
+
+Relatórios de qualidade mostram que campos essenciais e complementares apresentam graus distintos de preenchimento. A avaliação deve considerar completitude, consistência, duplicidade, oportunidade e coerência entre solicitação, resultado e seguimento [@incaQualidadeSiscan2022].
+
+::: {#qua-siscan-dimensoes-de-qualidade-e-verificacoes}
+
+| Dimensão | Verificação prática | Consequência possível |
+|---|---|---|
+| Cobertura | Comparar produção com SIA/SUS e séries locais | Subestimação de exames e resultados |
+| Completitude | Medir campos vazios por período e território | Viés em estratificações clínicas |
+| Consistência | Confrontar indicação, idade, exame e resultado | Classificações incompatíveis |
+| Duplicidade | Examinar identificador, datas e prestador | Superestimação de pessoas ou exames |
+| Oportunidade | Comparar realização, liberação e competência | Interpretação incorreta de tendências recentes |
+| Continuidade | Avaliar atualização do seguimento | Subestimação do cuidado posterior |
+
+Dimensões de qualidade e verificações recomendadas
+
+:::
+
+## Indicadores e exemplos de análise
+
+O SISCAN permite construir indicadores de produção, perfil, resultado, qualidade e oportunidade. A definição deve explicitar população, período, unidade de contagem e fonte do denominador.
+
+::: {#qua-siscan-exemplos-de-indicadores}
+
+| Indicador | Numerador | Denominador ou referência | Cuidado |
+|---|---|---|---|
+| Razão de exames de rastreamento | Exames de rastreamento na população-alvo | População-alvo estimada | Exames não equivalem a pessoas cobertas |
+| Proporção de resultados alterados | Exames com resultado definido como alterado | Exames satisfatórios com resultado válido | Categorias variam por tipo de exame |
+| Proporção de amostras insatisfatórias | Exames classificados como insatisfatórios | Exames processados | Avaliar laboratório e período |
+| Tempo para liberação do laudo | Diferença entre realização e liberação | Distribuição de exames com datas válidas | Preferir mediana e percentis |
+| Seguimento registrado | Pessoas com conduta ou acompanhamento informado | Pessoas com resultado que requer seguimento | Registro incompleto reduz o indicador |
+| Tratamento oportuno | Casos tratados dentro do intervalo definido | Casos com diagnóstico e tratamento vinculados | Usar Painel Oncologia e documentar critérios |
+
+Exemplos de indicadores derivados do SISCAN e do Painel Oncologia
+
+:::
+
+### Exemplo: cobertura de mamografia
+
+Uma análise de mamografia pode começar pelo número de exames de rastreamento em mulheres da faixa etária definida, distribuído por residência e ano. Esse numerador pode ser relacionado à população feminina estimada, mas o resultado é uma razão de exames, não a proporção exata de mulheres rastreadas. Pessoas com exames repetidos elevam o numerador.
+
+### Exemplo: oportunidade do diagnóstico e do tratamento
+
+Para estudar tempo, identifique claramente os marcos usados: solicitação, realização, liberação do resultado, diagnóstico ou primeiro tratamento. O SISCAN detalha parte inicial desse percurso; o Painel Oncologia relaciona diagnóstico e tratamento em diferentes sistemas. Os dois intervalos não são intercambiáveis.
+
+## Análise territorial e temporal
+
+O território pode ser atribuído pela residência da pessoa, pela unidade solicitante ou pelo prestador. A residência descreve a população atendida; a unidade solicitante expressa a porta de entrada; o prestador mostra onde o exame foi realizado. Compará-los permite estudar deslocamentos e organização regional da oferta.
+
+Em séries temporais, competência de processamento, data da solicitação, data do exame e data do laudo podem produzir curvas diferentes. Períodos recentes são particularmente sensíveis a atraso de digitação. Mudanças de versão, regras, implantação e cobertura precisam ser assinaladas junto aos resultados.
+
+## Acesso aos dados
+
+### SISCAN no TabNet
+
+As tabulações públicas do SISCAN estão disponíveis na página do DATASUS em https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/. As opções e os períodos disponíveis devem ser conferidos na data da consulta [@datasusSiscan2026].
+
+### SISCOLO e SISMAMA
+
+As séries históricas dos sistemas antecessores podem ser consultadas em https://datasus.saude.gov.br/acesso-a-informacao/cancer-de-colo-de-utero-e-de-mama-siscolo-sismama/. Elas são importantes para análises anteriores e para avaliar a transição entre sistemas [@datasusSiscoloSismama2026].
+
+### Acesso ao Painel Oncologia
+
+O Painel Oncologia pode ser tabulado em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A página institucional de controle do câncer, em https://www.gov.br/saude/pt-br/composicao/saes/cgcan, descreve a ferramenta e suas fontes [@brasilPainelOncologia2026].
+
+### Manuais e relatórios
+
+O manual do SISCAN está organizado em módulos sobre apresentação e fluxo, exames e faturamento, seguimento e monitoramento da qualidade. Ele pode ser consultado em https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4 [@incaManualSiscan2021]. O relatório de qualidade dos dados está disponível em https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020 [@incaQualidadeSiscan2022].
+
+## Relacionamento com outros sistemas
+
+O SISCAN ganha valor analítico quando relacionado ao CNES, para caracterizar os serviços; ao SIA/SUS, para comparar a produção ambulatorial; ao SIH/SUS, para localizar internações; ao SIM, para estudar mortalidade; e aos registros de câncer, para completar informações clínicas e epidemiológicas. O Painel Oncologia é um exemplo institucional dessa integração.
+
+Relacionamentos nominais exigem identificadores protegidos, governança e base legal. Nas bases públicas, identificadores pessoais são suprimidos ou limitados, o que reduz a possibilidade de *linkage* individual. A ausência de vínculo em dados disseminados não demonstra que os registros não correspondam à mesma pessoa.
+
+## Cuidados de interpretação
+
+- Diferencie exames, requisições, laudos e pessoas;
+- Separe rastreamento de investigação diagnóstica;
+- Identifique o território usado: residência, solicitação ou prestação;
+- Não interprete competência como data clínica sem verificação;
+- Avalie a implantação local antes de comparar territórios;
+- Compare SISCAN e SIA/SUS quando a pergunta envolver volume de procedimentos;
+- Preserve SISCOLO e SISMAMA nas séries históricas;
+- Trate seguimento ausente como informação desconhecida, não como ausência de cuidado;
+- Registre filtros, categorias, versão, período e data de extração;
+- Não use SISCAN ou Painel Oncologia como estimadores isolados de incidência.
+
+## Checklist final
+
+Antes de concluir uma análise, verifique se:
+
+- A pergunta foi associada à fonte adequada;
+- A unidade de contagem foi declarada;
+- Exames repetidos foram tratados de acordo com o objetivo;
+- A indicação de rastreamento ou diagnóstico foi considerada;
+- Datas clínicas e competência foram mantidas distintas;
+- SISCOLO e SISMAMA foram avaliados quando o período inclui a transição;
+- A cobertura foi comparada com SIA/SUS ou outra referência pertinente;
+- Completitude, consistência, duplicidade e oportunidade foram examinadas;
+- Os limites do relacionamento de registros foram descritos;
+- Resultados do Painel Oncologia foram interpretados conforme suas fontes;
+- Endereços, filtros e data de acesso foram documentados;
+- As limitações foram apresentadas junto às conclusões.
+
+## Bibliografia recomendada
+
+### Documentos oficiais
+
+- [Portaria GM/MS nº 3.394, de 30 de dezembro de 2013](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt3394_30_12_2013.html) [@brasilPortaria3394Siscan2013].
+- [Manual do Sistema de Informação de Câncer](https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4) [@incaManualSiscan2021].
+- [Qualidade dos dados do SISCAN](https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020) [@incaQualidadeSiscan2022].
+- [Painel Oncologia](https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=) [@brasilPainelOncologia2026].
+
+### Artigos
+
+- Artigo *PAINEL-Oncologia: uma ferramenta de gestão* [@attyPainelOncologia2020]. Disponível em https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827.
+- Artigo *Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019* [@tomazelliCoberturaSistemasCancer2022]. Disponível em https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544.
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-siscan}
+
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 136.
+
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 225.
+
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 446.
+
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 50.
+
+:::
+<!-- END GENERATED SEE ALSO -->

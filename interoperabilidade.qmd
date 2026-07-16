@@ -178,11 +178,13 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-interoperabilidade}
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 350.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 366.
 
-- [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 52.
+- [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 54.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 421.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 439.
+
+- [SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 240.
 
 :::
 <!-- END GENERATED SEE ALSO -->

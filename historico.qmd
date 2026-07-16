@@ -91,6 +91,7 @@ A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando 
 | SISAGUA (@sec-sisagua) | Implantado em 1999 | Vigilância da qualidade da água para consumo humano |
 | CNES (@sec-cnes) | Criado em 2000 | Cadastro nacional de estabelecimentos, serviços, equipamentos e profissionais de saúde |
 | SIOPS (@sec-siops) | Criado em 2000 | Informações sobre receitas e despesas públicas em saúde |
+| SISCAN (@sec-siscan) | Instituído em 2013, em substituição gradual ao SISCOLO e ao SISMAMA | Detecção precoce, diagnóstico e seguimento dos cânceres do colo do útero e de mama |
 | SISAB/SISAPS (@sec-siaps) | SISAB implantado em 2013 e renovado pelo SISAPS/Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
 
 Marcos de criação e consolidação dos principais sistemas abordados no livro
@@ -194,9 +195,9 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 
 - [Introdução — seção “Sistemas, contextos e usos”](introducao.html#sistemas-contextos-e-usos). Na edição impressa, p. 11.
 
-- [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 28.
+- [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 29.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 426.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 444.
 
 :::
 <!-- END GENERATED SEE ALSO -->

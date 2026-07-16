@@ -8,6 +8,7 @@
 | SINASC | Sistema de Informação sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual, com um ano de defasagem |
 | SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Internações financiadas pelo SUS na rede pública e conveniada | Mensal, com até dois meses de defasagem |
 | SIA | Sistema de Informações Ambulatoriais do SUS | 1990 | Procedimento, BPA, APAC ou RAAS | Procedimentos financiados pelo SUS na rede pública e conveniada | Mensal, com até dois meses de defasagem |
+| SISCAN | Sistema de Informação de Câncer | 2013 | Requisição, exame e laudo | Ações de detecção precoce e diagnóstico vinculadas ao SUS | Conforme registro e disseminação do sistema |
 | SINAN | Sistema de Informação de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Mensal, com até dois meses de defasagem |
 
 Síntese dos sistemas de eventos vitais, assistência e notificação abordados no livro

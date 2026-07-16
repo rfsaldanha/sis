@@ -75,6 +75,7 @@ flowchart TD
   Vig --> SISAGUA[SISAGUA]
   Assist --> SIH[SIH]
   Assist --> SIA[SIA]
+  Assist --> SISCAN[SISCAN]
   Gestao --> CNES[CNES]
   Gestao --> SIOPS[SIOPS]
   Gestao --> SISAPS[SISAB/SISAPS]
@@ -140,7 +141,7 @@ Esses sistemas são especialmente importantes para monitoramento de epidemias, i
 
 ## Sistemas assistenciais
 
-Os sistemas assistenciais registram ações realizadas nos serviços de saúde. Dois sistemas são centrais nesse grupo: o Sistema de Informações Hospitalares do SUS (SIH) (@sec-sih) e o Sistema de Informações Ambulatoriais do SUS (SIA) (@sec-sia).
+Os sistemas assistenciais registram ações realizadas nos serviços de saúde. O Sistema de Informações Hospitalares do SUS (SIH) (@sec-sih) e o Sistema de Informações Ambulatoriais do SUS (SIA) (@sec-sia) organizam grande parte da produção hospitalar e ambulatorial. O SISCAN (@sec-siscan) acrescenta informações clínicas sobre detecção precoce e confirmação diagnóstica dos cânceres do colo do útero e de mama.
 
 O SIH registra internações financiadas pelo SUS, enquanto o SIA registra produção ambulatorial, incluindo consultas, procedimentos, exames, terapias e ações de apoio diagnóstico e terapêutico. Ambos têm origem administrativa, mas são amplamente utilizados em análises epidemiológicas, avaliação de serviços e estudos sobre acesso à atenção à saúde [@pepeSistemaInformacoesHospitalares2009].
 
@@ -152,6 +153,7 @@ A origem administrativa é decisiva para a interpretação. Esses sistemas foram
 |---|---|---|---|
 | SIH (@sec-sih) | Internações hospitalares | Autorização de Internação Hospitalar (AIH) | Rede pública e conveniada ao SUS |
 | SIA (@sec-sia) | Procedimentos ambulatoriais | APAC, BPA e outros instrumentos de produção | Rede pública e conveniada ao SUS |
+| SISCAN (@sec-siscan) | Solicitações e exames do colo do útero e da mama | Requisição, exame e laudo | Serviços vinculados ao SUS |
 
 Sistemas assistenciais abordados no livro
 
@@ -199,7 +201,7 @@ No SI-PNI, a unidade observada pode mudar conforme o arquivo ou relatório utili
 
 Um ponto central na organização dos SIS é a cobertura. Alguns sistemas buscam registrar eventos ocorridos em todo o território nacional, independentemente de terem acontecido em serviços públicos, privados, filantrópicos ou suplementares. É o caso de SIM (@sec-sim), SINASC (@sec-sinasc), SINAN (@sec-sinan), CNES (@sec-cnes) e SISAGUA (@sec-sisagua), ainda que cada um tenha suas próprias regras e limitações de cobertura.
 
-Outros sistemas registram principalmente eventos, produção ou gestão vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SIOPS (@sec-siops), SISAB/SISAPS (@sec-siaps) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
+Outros sistemas registram principalmente eventos, produção ou gestão vinculados à dimensão pública do SUS, incluindo rede própria e rede conveniada. SIH (@sec-sih), SIA (@sec-sia), SISCAN (@sec-siscan), SIOPS (@sec-siops), SISAB/SISAPS (@sec-siaps) e SI-PNI (@sec-sipni) devem ser interpretados com essa delimitação em mente.
 
 A distinção entre cobertura territorial e cobertura assistencial é uma das mais importantes. Um sistema pode ter presença nacional e, ao mesmo tempo, registrar apenas um subconjunto dos eventos de interesse. O SIH, por exemplo, pode ser analisado para todos os municípios do país, mas a sua cobertura se refere às internações financiadas pelo SUS, não a todas as internações ocorridas no território brasileiro.
 
@@ -363,11 +365,11 @@ O capítulo a seguir detalha o que são eventos de saúde e como eles se relacio
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-organizacao}
 
-- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 53.
+- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 55.
 
 - [Breve histórico da experiência brasileira — seção “Marcos de criação dos principais sistemas”](historico.html#marcos-de-criação-dos-principais-sistemas). Na edição impressa, p. 18.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 426.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 444.
 
 :::
 <!-- END GENERATED SEE ALSO -->

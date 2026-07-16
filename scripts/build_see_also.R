@@ -49,6 +49,7 @@ chapter_titles <- c(
   sia = "SIA — Sistema de Informações Ambulatoriais do SUS",
   sinan = "SINAN — Sistema de Informação de Agravos de Notificação",
   cnes = "CNES — Cadastro Nacional de Estabelecimentos de Saúde",
+  siscan = "SISCAN — Sistema de Informação de Câncer",
   sisagua = "SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano",
   siops = "SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde",
   sisaps = "SISAPS — Sistema de Informação para a Atenção Primária à Saúde",

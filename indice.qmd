@@ -101,6 +101,12 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Campanha de vacinação]{.subject-index-term} — [SI-PNI: Rotina, campanha e Covid-19](sipni.html#rotina-campanha-e-covid-19)
 :::
 ::: {.subject-index-entry}
+[Câncer de mama]{.subject-index-term} — [SISCAN: Rastreamento, diagnóstico e seguimento](siscan.html#rastreamento-diagnóstico-e-seguimento)
+:::
+::: {.subject-index-entry}
+[Câncer do colo do útero]{.subject-index-term} — [SISCAN: Rastreamento, diagnóstico e seguimento](siscan.html#rastreamento-diagnóstico-e-seguimento)
+:::
+::: {.subject-index-entry}
 [Câncer relacionado ao trabalho]{.subject-index-term} — [SINAN: Câncer relacionado ao trabalho](sinan.html#câncer-relacionado-ao-trabalho)
 :::
 ::: {.subject-index-entry}
@@ -221,6 +227,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Despesa pública em saúde]{.subject-index-term} — [SIOPS: Fases da despesa](siops.html#fases-da-despesa)
+:::
+::: {.subject-index-entry}
+[Detecção precoce do câncer]{.subject-index-term} — [SISCAN: Quando usar o SISCAN](siscan.html#quando-usar-o-siscan)
 :::
 ::: {.subject-index-entry}
 [Diagnóstico hospitalar]{.subject-index-term} — [SIH/SUS: Diagnóstico, procedimento e valores](sih.html#diagnóstico-procedimento-e-valores)
@@ -470,7 +479,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Malária]{.subject-index-term} — [SINAN: Malária](sinan.html#malária)
 :::
 ::: {.subject-index-entry}
-[Mamografia]{.subject-index-term} — [SIA/SUS: Exemplo: produção de mamografias](sia.html#exemplo-produção-de-mamografias)
+[Mamografia]{.subject-index-term} — [SIA/SUS: Exemplo: produção de mamografias](sia.html#exemplo-produção-de-mamografias); [SISCAN: O que o SISCAN registra](siscan.html#o-que-o-siscan-registra)
 :::
 ::: {.subject-index-entry}
 [Meningite]{.subject-index-term} — [SINAN: Meningite](sinan.html#meningite)
@@ -480,6 +489,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Modelos de informação]{.subject-index-term} — [RNDS: Modelos de informação](rnds.html#modelos-de-informação)
+:::
+::: {.subject-index-entry}
+[Monitoramento externo da qualidade]{.subject-index-term} — [SISCAN: Qualidade e cobertura](siscan.html#qualidade-e-cobertura)
 :::
 ::: {.subject-index-entry}
 [Morbidade]{.subject-index-term} — [Organização dos SIS: Sistemas de morbidade e vigilância](organizacao.html#sistemas-de-morbidade-e-vigilância)
@@ -535,6 +547,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 ## P {#indice-p .unnumbered}
 
 :::: {.subject-index}
+::: {.subject-index-entry}
+[Painel Oncologia]{.subject-index-term} — [SISCAN: Painel Oncologia](siscan.html#painel-oncologia)
+:::
 ::: {.subject-index-entry}
 [Paralisia flácida aguda]{.subject-index-term} — [SINAN: Poliomielite/paralisia flácida aguda](sinan.html#poliomieliteparalisia-flácida-aguda)
 :::
@@ -610,6 +625,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::: {.subject-index}
 ::: {.subject-index-entry}
 [Raiva humana]{.subject-index-term} — [SINAN: Raiva humana](sinan.html#raiva-humana)
+:::
+::: {.subject-index-entry}
+[Rastreamento do câncer]{.subject-index-term} — [SISCAN: Rastreamento, diagnóstico e seguimento](siscan.html#rastreamento-diagnóstico-e-seguimento)
 :::
 ::: {.subject-index-entry}
 [Recorrências]{.subject-index-term} — [SINAN: Duplicidades e recorrências](sinan.html#duplicidades-e-recorrências)
@@ -729,6 +747,15 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [SISAPS — Sistema de Informação para a Atenção Primária à Saúde]{.subject-index-term} — [SISAPS](sisaps.html)
+:::
+::: {.subject-index-entry}
+[SISCAN — Sistema de Informação de Câncer]{.subject-index-term} — [SISCAN](siscan.html)
+:::
+::: {.subject-index-entry}
+[SISCOLO]{.subject-index-term} — [SISCAN: SISCAN, SISCOLO e SISMAMA](siscan.html#siscan-siscolo-e-sismama)
+:::
+::: {.subject-index-entry}
+[SISMAMA]{.subject-index-term} — [SISCAN: SISCAN, SISCOLO e SISMAMA](siscan.html#siscan-siscolo-e-sismama)
 :::
 ::: {.subject-index-entry}
 [Sistema de Informações de Beneficiários (SIB)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)

@@ -149,6 +149,7 @@ chapter_labels <- c(
   sia = "SIA/SUS",
   sinan = "SINAN",
   cnes = "CNES",
+  siscan = "SISCAN",
   sisagua = "SISAGUA",
   siops = "SIOPS",
   sisaps = "SISAPS",

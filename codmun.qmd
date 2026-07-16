@@ -226,11 +226,11 @@ Em síntese, o código municipal é uma chave de integração entre SIS, popula�
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-codmun}
 
-- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
+- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 35.
 
-- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 397.
+- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 415.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 220.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 222.
 
 :::
 <!-- END GENERATED SEE ALSO -->
