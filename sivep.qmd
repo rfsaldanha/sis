@@ -67,11 +67,11 @@ O @qua-sivep-diferencas-praticas-entre-componentes-do-sivep sintetiza os element
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sivep}
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 196.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 192.
 
 - [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 48.
 
-- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 246.
+- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 242.
 
 :::
 <!-- END GENERATED SEE ALSO -->
