@@ -221,7 +221,9 @@ Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileir
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 226.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 450.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 470.
+
+- [Inquéritos e pesquisas de saúde — seção “Vigitel”](inqueritos.html#vigitel). Na edição impressa, p. 429.
 
 :::
 <!-- END GENERATED SEE ALSO -->

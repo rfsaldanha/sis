@@ -564,7 +564,7 @@ O acesso técnico e documental à RNDS é organizado por páginas oficiais do Mi
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-rnds}
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 443.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 463.
 
 - [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 38.
 

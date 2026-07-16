@@ -370,7 +370,7 @@ Antes de concluir uma análise, verifique se:
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 225.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 446.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 466.
 
 - [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 50.
 

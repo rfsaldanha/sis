@@ -59,6 +59,7 @@ chapter_titles <- c(
   cid = "CID — Classificação Internacional de Doenças",
   codmun = "Códigos dos municípios",
   pop = "Estimativas populacionais",
+  inqueritos = "Inquéritos e pesquisas de saúde",
   sivep = "SIVEP — Sistema de Vigilância Epidemiológica",
   sisvan = "SISVAN — Sistema de Vigilância Alimentar e Nutricional",
   ans = "Agência Nacional de Saúde Suplementar — ANS",

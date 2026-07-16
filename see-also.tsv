@@ -73,3 +73,11 @@ sia	siscan	Integração com SIA/SUS, CNES e CADSUS
 cnes	siscan	Integração com SIA/SUS, CNES e CADSUS
 interoperabilidade	siscan	Painel Oncologia
 eventos	siscan	Quando usar o SISCAN
+inqueritos	eventos	Denominadores e indicadores
+inqueritos	pop	Escolha do denominador
+inqueritos	sinan	Relacionamento com outros sistemas
+inqueritos	ans	Coberturas que não são equivalentes
+eventos	inqueritos	Inquéritos e sistemas de informação
+pop	inqueritos	Pesos, desenho e variância
+sinan	inqueritos	VIVA: sistema e inquérito
+ans	inqueritos	Vigitel

@@ -1,0 +1,387 @@
+# Inquéritos e pesquisas de saúde {#sec-inqueritos}
+
+Inquéritos e pesquisas amostrais complementam os Sistemas de Informação em Saúde (SIS) ao produzir dados que não nascem rotineiramente nos serviços. Eles permitem investigar condições de vida, comportamentos, fatores de risco e proteção, percepção do estado de saúde, acesso e uso de serviços, cobertura por planos e experiências de violência ou acidentes.
+
+Este apêndice apresenta quatro referências centrais para a análise da saúde no Brasil: a Pesquisa Nacional de Saúde (PNS), os suplementos de saúde da Pesquisa Nacional por Amostra de Domicílios (PNAD), o Sistema de Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico (Vigitel) e o Inquérito de Violências e Acidentes em Serviços Sentinela de Urgência e Emergência (VIVA Inquérito).
+
+::: {#qua-inqueritos-caracteristicas-gerais-das-pesquisas}
+
+| Fonte | Desenho central | População ou universo observado | Abrangência principal | Periodicidade ou edições |
+|---|---|---|---|---|
+| PNS | Inquérito domiciliar probabilístico | Moradores de domicílios particulares; questionário individual para morador selecionado | Nacional, com domínios geográficos definidos no plano | 2013, 2019 e coleta de 2026 |
+| PNAD — suplementos de saúde | Inquérito domiciliar probabilístico de propósito múltiplo | Moradores dos domicílios da amostra da PNAD | Nacional, com limites variáveis nas edições históricas | Suplementos e pesquisas especiais; série de saúde de 1998, 2003 e 2008 |
+| Vigitel | Inquérito telefônico probabilístico | Pessoas com 18 anos ou mais contatadas por linhas sorteadas | Historicamente, capitais e Distrito Federal | Anual desde 2006; sem coleta em 2022 |
+| VIVA Inquérito | Inquérito transversal em serviços sentinela | Atendimentos por violências e acidentes em turnos e serviços selecionados | Serviços de urgência e emergência participantes | 2006, 2007, 2009, 2011, 2014, 2017 e 2024 |
+
+Características gerais das pesquisas abordadas
+
+:::
+
+O @qua-inqueritos-caracteristicas-gerais-das-pesquisas evidencia que a palavra “inquérito” não identifica um único desenho. PNS e PNAD partem de domicílios; o Vigitel parte de linhas telefônicas; o VIVA Inquérito parte de atendimentos em serviços selecionados. População-alvo, unidade de observação e possibilidade de inferência precisam ser definidas separadamente para cada fonte.
+
+## Inquéritos e sistemas de informação
+
+SIS de registro contínuo, como SIM, SINASC, SINAN, SIH/SUS e SIA/SUS, procuram captar eventos ou processos administrativos conforme regras institucionais. Inquéritos selecionam uma amostra e fazem perguntas padronizadas em determinado período. Essa diferença muda o significado da ausência de registro, do denominador e da incerteza.
+
+::: {#qua-inqueritos-diferencas-entre-inqueritos-e-sis}
+
+| Dimensão | Inquérito ou pesquisa amostral | Sistema de informação contínuo |
+|---|---|---|
+| Entrada de dados | Entrevista, aferição ou formulário aplicado à amostra | Registro de evento, atendimento, cadastro ou processo administrativo |
+| Cobertura | Definida pelo plano amostral e pela resposta | Definida por norma, fluxo institucional e capacidade de registro |
+| Denominador | População representada pelos pesos ou universo sentinela | Eventos, pessoas, procedimentos ou população externa, conforme o indicador |
+| Incerteza | Erro amostral, não resposta e erro de mensuração | Sub-registro, duplicidade, atraso, erro de preenchimento e mudança de fluxo |
+| Frequência | Periódica, anual ou eventual | Contínua, mensal, anual ou por competência |
+| Melhor uso | Prevalências, comportamentos, percepção, acesso e desigualdades | Contagem e acompanhamento de eventos, produção, cadastros e gestão |
+
+Diferenças gerais entre inquéritos e sistemas de informação contínuos
+
+:::
+
+As fontes são complementares. Um sistema pode informar quantas internações foram financiadas pelo SUS, enquanto uma pesquisa domiciliar estima quantas pessoas declararam internação, que cobertura assistencial possuíam e quais barreiras enfrentaram. Os totais não precisam coincidir: conceitos, períodos de referência, unidades e populações são diferentes.
+
+::: {.callout-note title="Fontes complementares"}
+Inquéritos não substituem os SIS, e os SIS não substituem inquéritos. A escolha deve começar pelo fenômeno que se deseja observar e pela população sobre a qual se pretende concluir.
+:::
+
+## Conceitos de desenho amostral
+
+A leitura de resultados exige distinguir população-alvo, cadastro de seleção, amostra realizada e domínio de divulgação. A população-alvo é o conjunto sobre o qual a pesquisa pretende produzir inferências. O cadastro ou quadro amostral contém as unidades que podem ser selecionadas. A amostra realizada reúne as entrevistas ou atendimentos efetivamente observados.
+
+::: {#qua-inqueritos-conceitos-essenciais-de-amostragem}
+
+| Conceito | Significado | Consequência analítica |
+|---|---|---|
+| Estrato | Grupo dentro do qual a seleção é organizada | Deve ser informado na estimação da variância |
+| Unidade primária de amostragem | Primeira unidade selecionada, frequentemente setor censitário ou conjunto de setores | Observações do mesmo conglomerado não são independentes |
+| Peso amostral | Número de unidades da população representadas por uma observação, após ajustes | Percentuais sem peso podem não representar a população-alvo |
+| Domínio | Subpopulação para a qual se deseja uma estimativa | O tamanho efetivo pode ser insuficiente, mesmo em amostra nacional grande |
+| Não resposta | Unidade selecionada que não forneceu informação completa | Pode reduzir precisão e introduzir viés se for seletiva |
+| Erro amostral | Variação decorrente de observar uma amostra em vez de toda a população | Deve acompanhar estimativas por intervalo de confiança ou medida equivalente |
+| Efeito do desenho | Diferença entre a variância do plano complexo e a de uma amostra aleatória simples | Ignorá-lo costuma produzir erros-padrão incorretos |
+
+Conceitos essenciais para análise de pesquisas amostrais
+
+:::
+
+Uma pesquisa nacional não produz automaticamente estimativas confiáveis para qualquer município, idade rara ou combinação de características. A divulgação territorial e temática depende dos domínios previstos, do número de observações e da precisão alcançada.
+
+## PNS
+
+A Pesquisa Nacional de Saúde é realizada pelo IBGE em parceria com o Ministério da Saúde. Sua primeira edição foi a campo em 2013 para ampliar o escopo dos suplementos de saúde da PNAD. A segunda ocorreu em 2019, e a terceira edição iniciou a coleta em julho de 2026 [@ibgePNSProduto2026; @ibgePNSColeta2026].
+
+### Objetivos e temas
+
+A PNS produz informações sobre condições de saúde, estilos de vida, doenças crônicas, acesso e utilização de serviços, cobertura por planos, saúde bucal, saúde da mulher, saúde da pessoa idosa, deficiência, acidentes, violências e determinantes sociais. O questionário combina informações do domicílio, de todos os moradores e de um morador selecionado para módulos individuais [@stopaPNS20192020].
+
+::: {#qua-inqueritos-edicoes-da-pns}
+
+| Edição | Características selecionadas | Situação dos dados |
+|---|---|---|
+| 2013 | Primeira edição; questionário individual para morador adulto selecionado; medidas físicas e exames laboratoriais em componentes específicos | Resultados, documentação e microdados disponíveis |
+| 2019 | Questionário individual para pessoa selecionada com 15 anos ou mais; novos módulos e antropometria em subamostra | Resultados, documentação e microdados disponíveis, com histórico de atualizações |
+| 2026 | Cerca de 140 mil domicílios; questionário individual para morador com 15 anos ou mais; pressão arterial, peso e altura; sangue e urina em subamostra de pessoas com 35 anos ou mais em capitais e regiões metropolitanas | Coleta prevista de julho a novembro de 2026; resultados ainda não disponíveis |
+
+Edições da Pesquisa Nacional de Saúde
+
+:::
+
+Na edição de 2026, a coleta de biomarcadores em uma subamostra de 15 mil a 20 mil participantes deverá incluir exames relacionados a perfil lipídico, hemoglobina glicada, função renal, eletrólitos, chikungunya e exposição a metais. Como a operação está em campo, tamanho realizado, perdas, pesos e documentação definitiva só poderão ser avaliados após a divulgação [@ibgePNSColeta2026].
+
+### Plano amostral e unidades
+
+A PNS utiliza amostragem por conglomerados em estágios. Setores censitários ou conjuntos de setores formam unidades primárias; domicílios são selecionados dentro deles; e um morador elegível é sorteado para responder aos módulos individuais. A idade de elegibilidade e a presença de subamostras mudaram entre edições.
+
+As informações de todos os moradores não devem ser confundidas com as do morador selecionado. Variáveis domiciliares, variáveis de moradores e respostas individuais possuem universos distintos. Medidas físicas e laboratoriais podem ter pesos próprios porque foram obtidas apenas em subamostras.
+
+::: {.callout-warning title="PNS 2026 em coleta"}
+Notícias sobre o plano da PNS 2026 descrevem a operação prevista, não resultados. Não use o número anunciado de domicílios ou participantes como tamanho final da amostra realizada.
+:::
+
+### Principais usos e limites
+
+A PNS é apropriada para estimar prevalências, desigualdades sociais, acesso, utilização e fatores de risco na população representada. Ela também permite comparar respostas com características do domicílio e, nos módulos aplicáveis, com aferições diretas.
+
+Diagnósticos autorreferidos dependem de acesso prévio aos serviços e conhecimento da condição. Uma prevalência declarada de hipertensão, por exemplo, combina ocorrência, diagnóstico e memória. Medidas diretas e biomarcadores aproximam outros conceitos e podem ter universo menor.
+
+## PNAD e os suplementos de saúde
+
+A PNAD anual foi uma pesquisa domiciliar de propósito múltiplo realizada pelo IBGE entre 1967 e 2015. Seu questionário básico investigava características demográficas, educação, trabalho, rendimento e habitação; suplementos e pesquisas especiais incorporavam temas adicionais em anos selecionados.
+
+Questões de saúde apareceram em operações anteriores, mas a principal série comparável de suplementos amplos foi realizada em 1998, 2003 e 2008. Ela investigou autoavaliação da saúde, doenças crônicas, restrição de atividades, acesso e uso de serviços, internações, planos de saúde, saúde bucal e outros temas. A edição de 2008 ampliou fatores de risco, acidentes, violência, atividade física, tabagismo e cadastramento na Estratégia Saúde da Família [@ibgePNADSaude2008; @ibgeSuplementosPNAD2026].
+
+::: {#qua-inqueritos-pnad-pns-e-pnad-continua}
+
+| Operação | Papel para a saúde | Cuidado de comparabilidade |
+|---|---|---|
+| PNAD com suplementos de saúde | Série domiciliar histórica, especialmente 1998, 2003 e 2008 | Questionários, categorias, cobertura rural e pesos precisam ser harmonizados |
+| PNS | Pesquisa específica que ampliou o escopo da saúde a partir de 2013 | Não é continuação automática de cada variável da PNAD |
+| PNAD Contínua | Pesquisa voltada principalmente à força de trabalho e a temas suplementares | Não deve ser chamada de “PNAD Saúde”; módulos e períodos próprios exigem documentação específica |
+
+Relação entre PNAD, PNS e PNAD Contínua
+
+:::
+
+### Séries históricas
+
+Comparações de 1998, 2003 e 2008 devem usar variáveis harmonizadas e observar mudanças na abrangência da PNAD, na redação das perguntas, nas categorias de resposta, nos períodos de referência e na reponderação dos microdados. Resultados publicados pelo IBGE mostram séries harmonizadas apenas para indicadores cuja comparabilidade foi considerada possível [@ibgePNADSaude2008].
+
+A PNS aprofundou temas antes investigados como suplementos, mas a semelhança do assunto não garante equivalência da medida. Mudanças no informante, na seleção do morador, no período de referência ou nas alternativas de resposta podem produzir quebras.
+
+### Informante direto e informante substituto
+
+Na PNAD, uma pessoa do domicílio podia fornecer informações sobre outros moradores. Esse informante substituto, também chamado *proxy*, pode não conhecer diagnósticos, limitações, uso de serviços ou comportamentos de todos. A PNS reserva módulos detalhados ao morador selecionado, reduzindo parte desse problema, mas não elimina erro de memória e autorrelato.
+
+## Vigitel
+
+O Vigitel é conduzido pelo Ministério da Saúde desde 2006 para monitorar anualmente fatores de risco e proteção para doenças crônicas entre pessoas com 18 anos ou mais. A série consolidada disponível reúne dados de 2006 a 2024 para as capitais dos 26 estados e o Distrito Federal [@brasilVigitel2024; @brasilVigitelDados2026].
+
+Entre os temas frequentes estão tabagismo, alimentação, atividade física, consumo de álcool, excesso de peso, obesidade e diagnóstico médico referido de doenças crônicas. O instrumento curto e a coleta telefônica favorecem oportunidade e repetição anual, mas limitam profundidade, medidas diretas e população coberta.
+
+### Amostragem e ponderação
+
+Números de telefone são sorteados e pessoas adultas elegíveis são selecionadas conforme o procedimento da edição. Os pesos corrigem probabilidades de seleção, não resposta e diferenças entre a composição da amostra e a população adulta de referência. A incorporação de telefones móveis ampliou o quadro de seleção em relação ao período baseado apenas em linhas fixas [@brasilVigitelAmostragem2026].
+
+::: {#qua-inqueritos-mudancas-metodologicas-do-vigitel}
+
+| Período | Característica metodológica | Consequência para séries |
+|---|---|---|
+| 2006–2019 | Metodologia relativamente estável, baseada em telefonia fixa e cerca de 2 mil entrevistas por cidade como referência | Forma o núcleo histórico da série, ainda dependente de ponderação para não cobertura telefônica |
+| 2020–2021 | Operação afetada pela pandemia e redução de amostras; novo cadastro de linhas fornecido pela Anatel em 2021 | Comparações requerem consulta às notas de cada edição |
+| 2022 | Não houve coleta | Não interpolar o ano como se fosse observação |
+| 2023 | Operação simplificada, amostra mínima reduzida e início de entrevistas por telefone móvel | Mudança do quadro de seleção e menor precisão |
+| 2024 | Cerca de mil entrevistas por cidade, coleta concentrada em parte do ano, forte participação de linhas móveis e pesos atualizados com o Censo 2022 | Cautela com sazonalidade, precisão e comparação direta |
+
+Mudanças metodológicas relevantes do Vigitel
+
+:::
+
+O relatório 2006–2024 recalculou fatores de ponderação para parte da série com projeções atualizadas a partir do Censo 2022. Por isso, valores da base e da publicação atual podem diferir de relatórios antigos. Uma análise reprodutível deve usar a versão consolidada e registrar a data de obtenção [@brasilVigitel2024].
+
+Em 2025, a coleta passou a incluir telefones fixos e móveis de capitais e municípios do interior. Essa expansão representa nova etapa metodológica, mas não deve ser aplicada retrospectivamente à abrangência dos dados consolidados até 2024 [@brasilVigitelColeta2025].
+
+### Principais usos e limites
+
+O Vigitel é especialmente útil para tendências anuais de comportamentos e fatores de risco em adultos das localidades cobertas. Estimativas nacionais publicadas resultam da agregação e ponderação definidas na metodologia, não de uma amostra desenhada para representar cada município brasileiro.
+
+Peso e altura são geralmente autorreferidos, assim como diagnóstico médico de doenças. A entrevista telefônica exclui pessoas sem acesso às linhas do quadro de seleção; ponderação reduz diferenças observáveis, mas não garante eliminação de todo viés de cobertura ou não resposta.
+
+## VIVA: sistema e inquérito
+
+O Sistema de Vigilância de Violências e Acidentes (VIVA), implantado em 2006, possui dois componentes. O VIVA/Sinan registra continuamente violências interpessoais e autoprovocadas notificadas pelos serviços de saúde. O VIVA Inquérito descreve atendimentos por violências e acidentes em serviços sentinela de urgência e emergência [@brasilVigilanciaViolencias2026].
+
+::: {#qua-inqueritos-componentes-do-viva}
+
+| Componente | Evento observado | Fluxo | Unidade de análise |
+|---|---|---|---|
+| VIVA/Sinan | Violência interpessoal ou autoprovocada sujeita à notificação | Contínuo, integrado ao SINAN | Ficha de notificação ou caso registrado |
+| VIVA Inquérito | Atendimento por violência ou acidente em serviço sentinela participante | Coleta periódica em turnos selecionados | Atendimento realizado durante o turno amostrado |
+
+Componentes do Sistema de Vigilância de Violências e Acidentes
+
+:::
+
+Acidentes não integram o VIVA/Sinan como um conjunto geral de notificação compulsória, mas são observados no VIVA Inquérito quando geram atendimento nos serviços participantes. Somar os dois componentes produziria duplicidade conceitual e registros com critérios diferentes.
+
+### Edições e seleção
+
+O VIVA Inquérito foi realizado em 2006, 2007, 2009, 2011, 2014, 2017 e 2024. A seleção de serviços é intencional. Dentro dos serviços participantes, turnos diurnos e noturnos de 12 horas são distribuídos ao longo de um período de coleta, e os atendimentos elegíveis ocorridos nesses turnos são registrados [@brasilVivaInquerito2026].
+
+::: {#qua-inqueritos-edicoes-selecionadas-do-viva-inquerito}
+
+| Edição | Abrangência descrita pelo Ministério da Saúde | Observação |
+|---|---|---|
+| 2006 | 65 serviços, 34 municípios e Distrito Federal, em 23 unidades federativas | Primeira edição |
+| 2011 | 105 serviços em 24 capitais, Distrito Federal e 11 municípios selecionados | Consolidação da estratégia sentinela |
+| 2014 | 114 serviços em 24 capitais, Distrito Federal e 11 municípios selecionados | Comparação depende da composição dos serviços |
+| 2017 | 121 serviços em 23 capitais, Distrito Federal e 13 municípios selecionados | Última edição antes do intervalo prolongado |
+| 2024 | 627 serviços públicos de urgência e emergência nos estados e Distrito Federal, com exceção informada para serviços estaduais de Santa Catarina | Expansão expressiva do número de serviços |
+
+Edições selecionadas do VIVA Inquérito
+
+:::
+
+### O que os dados representam
+
+A unidade é o atendimento, não a pessoa única. A mesma pessoa pode gerar mais de um atendimento, e eventos que não chegam aos serviços selecionados ficam fora. Como os serviços não formam uma amostra probabilística de todos os estabelecimentos do país, os resultados não devem ser convertidos em prevalência populacional de violência ou acidente.
+
+O desenho permite caracterizar vítimas, circunstâncias, tipos de ocorrência, meios de transporte, local do evento, natureza da lesão e evolução do atendimento nos serviços e turnos abrangidos. Comparações entre edições precisam controlar mudanças de municípios, serviços, turnos e instrumentos.
+
+::: {.callout-warning title="Vigilância sentinela"}
+Mais atendimentos em um serviço sentinela não significam necessariamente maior risco populacional no território. Oferta, referência regional, gravidade, procura e composição dos turnos influenciam o volume observado.
+:::
+
+## Comparação entre as fontes
+
+::: {#qua-inqueritos-escolha-da-fonte-conforme-a-pergunta}
+
+| Pergunta | Fonte inicial | Por quê? | Limite principal |
+|---|---|---|---|
+| Qual a prevalência de doença crônica ou limitação na população? | PNS | Inquérito domiciliar amplo, com variáveis sociais e de saúde | Periodicidade longa e parte das condições autorreferida |
+| Como evoluiu o acesso aos serviços entre 1998 e 2008? | PNAD Saúde | Série histórica de suplementos harmonizáveis | Não prolongar automaticamente a série com PNS |
+| Como mudaram tabagismo, obesidade ou atividade física ano a ano? | Vigitel | Repetição anual de indicadores padronizados | Cobertura telefônica, autorrelato e mudanças recentes |
+| Qual o perfil dos atendimentos por causas externas em urgências sentinela? | VIVA Inquérito | Detalha circunstâncias e lesões em atendimentos selecionados | Não representa todos os serviços nem a população geral |
+| Quantos óbitos por causa externa ocorreram? | SIM | Registro contínuo dos óbitos | Não substitui informações circunstanciais dos inquéritos |
+| Quantas violências foram notificadas? | SINAN | Registro contínuo das notificações compulsórias | Notificação não mede toda violência ocorrida |
+
+Escolha inicial da fonte conforme a pergunta
+
+:::
+
+Uma pergunta pode exigir mais de uma fonte. Tendências do Vigitel podem ser confrontadas com estimativas periódicas da PNS; internações declaradas na PNAD ou PNS podem ser analisadas junto ao SIH/SUS; e atendimentos do VIVA Inquérito podem ser contextualizados por mortalidade do SIM e notificações do SINAN. A comparação deve preservar as definições próprias.
+
+## Pesos, desenho e variância
+
+Microdados de pesquisas complexas não devem ser analisados como amostras aleatórias simples. Pesos produzem estimativas para a população ou universo representado; estratos e unidades primárias são necessários para estimar corretamente erros-padrão e intervalos de confiança.
+
+::: {#qua-inqueritos-decisoes-na-analise-de-amostras-complexas}
+
+| Decisão | Procedimento adequado | Erro frequente |
+|---|---|---|
+| Estimar percentual | Aplicar o peso correspondente ao universo da variável | Usar contagem bruta da amostra como percentual populacional |
+| Estimar incerteza | Declarar estratos e conglomerados conforme a documentação | Calcular erro-padrão como se todas as pessoas fossem independentes |
+| Analisar subgrupo | Definir domínio dentro do desenho completo | Excluir previamente todos os demais registros e alterar a variância |
+| Combinar edições | Verificar identificadores, estratos, pesos e documentação de cada ano | Reutilizar nomes de variáveis sem conferir significado |
+| Usar subamostra | Selecionar o peso específico de antropometria ou laboratório | Aplicar o peso geral a medidas coletadas em subconjunto |
+| Publicar estimativa | Informar intervalo, coeficiente de variação ou regra de precisão | Divulgar estimativa instável sem advertência |
+
+Decisões essenciais na análise de amostras complexas
+
+:::
+
+O tamanho bruto da amostra não determina sozinho a precisão. Conglomeração, desigualdade dos pesos, não resposta e raridade do evento afetam o tamanho efetivo. Estimativas para grupos pequenos podem exigir agregação, supressão ou apresentação explícita de grande incerteza.
+
+## Comparabilidade temporal
+
+Séries exigem um inventário de mudanças antes do cálculo. Nome igual não garante indicador igual, e mudança de estimativa não implica necessariamente mudança real da população.
+
+::: {#qua-inqueritos-fontes-de-quebra-em-series-temporais}
+
+| Fonte de quebra | Exemplo | Estratégia |
+|---|---|---|
+| Redação da pergunta | Diagnóstico “por médico” versus “por médico ou profissional de saúde” | Restringir a categorias comparáveis ou marcar a quebra |
+| Universo | Todos os moradores versus morador selecionado de determinada idade | Recalcular no mesmo grupo elegível |
+| Período de referência | Duas semanas, 12 meses ou alguma vez na vida | Não combinar medidas sem equivalência |
+| Quadro amostral | Telefonia fixa versus inclusão de celular | Usar notas metodológicas e análise de sensibilidade |
+| Peso | Nova projeção populacional ou reponderação | Preferir versão consolidada e registrar revisão |
+| Serviços participantes | Mudança de hospitais no VIVA Inquérito | Comparar subconjunto estável ou interpretar como edições distintas |
+| Modo de resposta | Informante substituto versus resposta direta | Discutir viés e evitar continuidade automática |
+
+Fontes de quebra em séries temporais
+
+:::
+
+Ao empilhar microdados, preserve uma variável de edição e mantenha os dicionários originais. A harmonização deve ser documentada em uma tabela de correspondência com pergunta, universo, categorias e regra de recodificação.
+
+## Autorrelato, informante substituto e medidas diretas
+
+PNS, PNAD e Vigitel dependem amplamente de respostas. Autorrelato é apropriado para percepção, comportamento e experiência, mas está sujeito a memória, compreensão e desejabilidade social. Diagnóstico referido também depende de acesso e comunicação com profissionais.
+
+Informação fornecida por outra pessoa do domicílio pode ser adequada para idade ou escolaridade, mas menos precisa para dor, saúde mental, violência, consumo de álcool ou uso de serviço. A identidade do respondente e a possibilidade de resposta reservada influenciam temas sensíveis.
+
+Medidas diretas, como peso, altura, pressão arterial e biomarcadores, reduzem alguns erros de autorrelato, mas introduzem outros: calibração, protocolo, jejum, perda seletiva e peso específico da subamostra. “Medido” não significa ausência de erro.
+
+## Integração com os SIS
+
+Inquéritos públicos geralmente não incluem identificadores pessoais que permitam ligação direta com registros administrativos. A integração mais comum ocorre por grupos, território e período ou em ambientes institucionais autorizados, com proteção de dados.
+
+::: {#qua-inqueritos-complementaridade-com-sistemas-de-informacao}
+
+| Inquérito | SIS complementar | Possibilidade de análise | Cuidado |
+|---|---|---|---|
+| PNS ou PNAD | SIH/SUS | Comparar internação declarada e produção financiada pelo SUS | População, cobertura privada, período e unidade diferem |
+| PNS ou PNAD | SIA/SUS | Contextualizar uso ambulatorial e barreiras de acesso | Procedimento não equivale a pessoa que declarou atendimento |
+| Vigitel ou PNS | SIM | Relacionar tendências de fatores de risco e mortalidade | Associação temporal agregada não demonstra causalidade individual |
+| Vigitel ou PNS | SISAPS | Comparar fatores de risco e ações da atenção primária | Cobertura geográfica e populações observadas são diferentes |
+| VIVA Inquérito | SIM | Contrastar perfil de atendimentos e óbitos por causas externas | Gravidade e seleção de casos são distintas |
+| VIVA/Sinan | SINAN | É o próprio fluxo contínuo de notificação de violências | Não confundir com a amostra de atendimentos do VIVA Inquérito |
+
+Complementaridade entre inquéritos e sistemas de informação
+
+:::
+
+Resultados agregados podem revelar coerência, divergência ou lacunas entre fontes. Eles não autorizam somar pessoas, atendimentos e registros como se fossem a mesma unidade. Quando houver relacionamento nominal, protocolo, base legal, segurança e avaliação da qualidade dos identificadores são indispensáveis.
+
+## Acesso aos dados
+
+### Acesso à PNS
+
+A página do IBGE reúne resultados, questionários, documentação, microdados e históricos de atualização das edições de 2013 e 2019: https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html. Informações sobre a coleta de 2026 estão em https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47518-ibge-inicia-coleta-em-todo-o-pais-da-pesquisa-nacional-de-saude-2026 [@ibgePNSProduto2026; @ibgePNSColeta2026].
+
+### Acesso à PNAD
+
+O portal de suplementos da PNAD e seu repositório de arquivos oferecem publicações, microdados, questionários e dicionários: https://www.ibge.gov.br/estatisticas/sociais/saude/19898-suplementos-pnad3.html e https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/. Para 2008, a documentação está organizada em https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/2008/Documentacao_pnad2008/ [@ibgeSuplementosPNAD2026].
+
+### Acesso ao Vigitel
+
+O Ministério da Saúde disponibiliza base consolidada de 2006 a 2024 em CSV e DTA, dicionário, orientações e nota metodológica em https://svs.aids.gov.br/daent/cgdnt/vigitel/. O relatório está em https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigitel/vigitel-brasil-2006-2024.pdf [@brasilVigitelDados2026; @brasilVigitel2024].
+
+### Acesso ao VIVA Inquérito
+
+A página institucional reúne histórico, metodologia, relatórios e acesso às tabulações: https://www.gov.br/saude/pt-br/composicao/svsa/inqueritos-de-saude/viva-inquerito. A distinção entre o inquérito e o componente contínuo está documentada em https://www.gov.br/saude/pt-br/composicao/svsa/vigilancia-de-doencas-cronicas-nao-transmissiveis/vigilancia-de-violencias-e-acidentes [@brasilVivaInquerito2026; @brasilVigilanciaViolencias2026].
+
+## Cuidados de interpretação
+
+- Diferencie pessoa, domicílio, linha telefônica, atendimento e ficha de notificação;
+- Identifique a população-alvo e o quadro de seleção;
+- Use peso, estrato e unidade primária conforme a documentação;
+- Não trate amostra nacional como representativa de todo município;
+- Informe intervalo de confiança ou outra medida de precisão;
+- Separe resposta direta, informante substituto e medida aferida;
+- Verifique idade elegível e universo de cada módulo;
+- Harmonize perguntas, categorias e períodos antes de construir tendências;
+- Considere a ausência de coleta do Vigitel em 2022;
+- Marque as mudanças de telefonia e ponderação do Vigitel;
+- Não transforme o VIVA Inquérito em prevalência populacional;
+- Não confunda VIVA Inquérito com VIVA/Sinan;
+- Trate dados da PNS 2026 como operação em coleta, não como resultados;
+- Registre versão, dicionário, data de extração e regras de recodificação.
+
+## Checklist final
+
+Antes de publicar uma análise, verifique se:
+
+- A fonte responde à pergunta proposta;
+- A unidade de observação foi declarada;
+- A população-alvo e as exclusões estão descritas;
+- O peso corresponde ao módulo ou subamostra usados;
+- Estratos e conglomerados entraram na estimação da variância;
+- O domínio possui tamanho e precisão suficientes;
+- Não resposta e dados ausentes foram examinados;
+- Perguntas respondidas por informante substituto foram identificadas;
+- Medidas autorreferidas e aferidas não foram misturadas;
+- A edição e a versão dos microdados foram registradas;
+- Quebras metodológicas foram marcadas na série;
+- Comparações com SIS respeitam cobertura, período e unidade;
+- Resultados instáveis foram suprimidos ou acompanhados de advertência;
+- As limitações aparecem junto às conclusões.
+
+## Bibliografia recomendada
+
+### PNS e PNAD
+
+- [Portal da Pesquisa Nacional de Saúde](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html) [@ibgePNSProduto2026].
+- Artigo *Pesquisa Nacional de Saúde 2019: histórico, métodos e perspectivas* [@stopaPNS20192020]. Disponível em https://doi.org/10.1590/S1679-49742020000500004.
+- [Suplementos da PNAD](https://www.ibge.gov.br/estatisticas/sociais/saude/19898-suplementos-pnad3.html) [@ibgeSuplementosPNAD2026].
+
+### Vigitel e VIVA
+
+- [Vigitel Brasil 2006–2024](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigitel/vigitel-brasil-2006-2024.pdf) [@brasilVigitel2024].
+- [Base de dados e documentação do Vigitel](https://svs.aids.gov.br/daent/cgdnt/vigitel/) [@brasilVigitelDados2026].
+- [VIVA Inquérito](https://www.gov.br/saude/pt-br/composicao/svsa/inqueritos-de-saude/viva-inquerito) [@brasilVivaInquerito2026].
+
+
+<!-- BEGIN GENERATED SEE ALSO -->
+::: {.content-hidden when-format="typst"}
+## Veja também {#sec-veja-tambem-inqueritos}
+
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 53.
+
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 419.
+
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 199.
+
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 459.
+
+:::
+<!-- END GENERATED SEE ALSO -->

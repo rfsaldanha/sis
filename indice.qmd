@@ -40,6 +40,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [AIH rejeitada]{.subject-index-term} — [SIH/SUS: AIHs rejeitadas](sih.html#aihs-rejeitadas)
 :::
 ::: {.subject-index-entry}
+[Amostragem complexa]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
 [Análise espacial]{.subject-index-term} — [CNES: Geocodificação e análise espacial](cnes.html#geocodificação-e-análise-espacial)
 :::
 ::: {.subject-index-entry}
@@ -78,6 +81,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 ::: {.subject-index-entry}
 [Autorização de Procedimentos Ambulatoriais (APAC)]{.subject-index-term} — [SIA/SUS: Instrumentos de registro](sia.html#instrumentos-de-registro)
 :::
+::: {.subject-index-entry}
+[Autorrelato]{.subject-index-term} — [Inquéritos de saúde: Autorrelato, informante substituto e medidas diretas](inqueritos.html#autorrelato-informante-substituto-e-medidas-diretas)
+:::
 ::::
 
 ## B {#indice-b .unnumbered}
@@ -85,6 +91,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::: {.subject-index}
 ::: {.subject-index-entry}
 [Baixo peso ao nascer]{.subject-index-term} — [SINASC: Exemplo: baixo peso ao nascer](sinasc.html#exemplo-baixo-peso-ao-nascer)
+:::
+::: {.subject-index-entry}
+[Biomarcadores]{.subject-index-term} — [Inquéritos de saúde: PNS](inqueritos.html#pns)
 :::
 ::: {.subject-index-entry}
 [Boletim de Produção Ambulatorial (BPA)]{.subject-index-term} — [SIA/SUS: Instrumentos de registro](sia.html#instrumentos-de-registro)
@@ -273,6 +282,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [e-SUS SINAN]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
 :::
 ::: {.subject-index-entry}
+[Efeito do desenho]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
 [Emergências em saúde pública]{.subject-index-term} — [SISAGUA: Monitoramento em emergências](sisagua.html#monitoramento-em-emergências)
 :::
 ::: {.subject-index-entry}
@@ -283,6 +295,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Equipe de saúde]{.subject-index-term} — [SISAPS: Identificadores de equipe](sisaps.html#identificadores-de-equipe)
+:::
+::: {.subject-index-entry}
+[Erro amostral]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
 :::
 ::: {.subject-index-entry}
 [Esferas federativas]{.subject-index-term} — [SIOPS: Esferas federativas e responsabilidades](siops.html#esferas-federativas-e-responsabilidades)
@@ -407,6 +422,18 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Informação]{.subject-index-term} — [Introdução: Dados, informação e conhecimento](introducao.html#dados-informação-e-conhecimento)
 :::
 ::: {.subject-index-entry}
+[Informante substituto]{.subject-index-term} — [Inquéritos de saúde: Informante direto e informante substituto](inqueritos.html#informante-direto-e-informante-substituto)
+:::
+::: {.subject-index-entry}
+[Inquérito telefônico]{.subject-index-term} — [Inquéritos de saúde: Vigitel](inqueritos.html#vigitel)
+:::
+::: {.subject-index-entry}
+[Inquéritos de saúde]{.subject-index-term} — [Inquéritos de saúde: Inquéritos e sistemas de informação](inqueritos.html#inquéritos-e-sistemas-de-informação)
+:::
+::: {.subject-index-entry}
+[Inquéritos e pesquisas de saúde]{.subject-index-term} — [Inquéritos de saúde](inqueritos.html)
+:::
+::: {.subject-index-entry}
 [Instrumentos de coleta]{.subject-index-term} — [Histórico: Padronização dos instrumentos de coleta](historico.html#padronização-dos-instrumentos-de-coleta)
 :::
 ::: {.subject-index-entry}
@@ -432,6 +459,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Interoperabilidade técnica]{.subject-index-term} — [Interoperabilidade: O que é interoperabilidade](interoperabilidade.html#o-que-é-interoperabilidade)
+:::
+::: {.subject-index-entry}
+[Intervalo de confiança]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
 :::
 ::: {.subject-index-entry}
 [Intoxicação exógena]{.subject-index-term} — [SINAN: Intoxicação exógena](sinan.html#intoxicação-exógena)
@@ -511,6 +541,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
+[Não resposta]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
 [Nascido vivo]{.subject-index-term} — [SINASC: O que é nascido vivo](sinasc.html#o-que-é-nascido-vivo)
 :::
 ::: {.subject-index-entry}
@@ -560,6 +593,12 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Periodicidade dos dados]{.subject-index-term} — [Organização dos SIS: Periodicidade e versões dos dados](organizacao.html#periodicidade-e-versões-dos-dados)
 :::
 ::: {.subject-index-entry}
+[Peso amostral]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
+[Pesquisa amostral]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
 [Pessoa]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)
 :::
 ::: {.subject-index-entry}
@@ -572,7 +611,16 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Planos privados de saúde]{.subject-index-term} — [ANS: Para que serve a ANS](ans.html#para-que-serve-a-ans)
 :::
 ::: {.subject-index-entry}
+[PNAD Contínua]{.subject-index-term} — [Inquéritos de saúde: PNAD e os suplementos de saúde](inqueritos.html#pnad-e-os-suplementos-de-saúde)
+:::
+::: {.subject-index-entry}
+[PNAD — Pesquisa Nacional por Amostra de Domicílios]{.subject-index-term} — [Inquéritos de saúde: PNAD e os suplementos de saúde](inqueritos.html#pnad-e-os-suplementos-de-saúde)
+:::
+::: {.subject-index-entry}
 [Pneumoconioses relacionadas ao trabalho]{.subject-index-term} — [SINAN: Pneumoconioses relacionadas ao trabalho](sinan.html#pneumoconioses-relacionadas-ao-trabalho)
+:::
+::: {.subject-index-entry}
+[PNS — Pesquisa Nacional de Saúde]{.subject-index-term} — [Inquéritos de saúde: PNS](inqueritos.html#pns)
 :::
 ::: {.subject-index-entry}
 [Poliomielite]{.subject-index-term} — [SINAN: Poliomielite/paralisia flácida aguda](sinan.html#poliomieliteparalisia-flácida-aguda)
@@ -846,6 +894,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Unidade de análise]{.subject-index-term} — [Organização dos SIS: Unidade de análise](organizacao.html#unidade-de-análise); [SIA/SUS: Unidade de análise](sia.html#unidade-de-análise); [SIH/SUS: Cobertura e unidade de análise](sih.html#cobertura-e-unidade-de-análise); [SIM: Cobertura e unidade de análise](sim.html#cobertura-e-unidade-de-análise); [SINAN: Unidade de análise](sinan.html#unidade-de-análise); [SINASC: Cobertura e unidade de análise](sinasc.html#cobertura-e-unidade-de-análise); [SISAGUA: Unidade de análise](sisagua.html#unidade-de-análise)
 :::
 ::: {.subject-index-entry}
+[Unidade primária de amostragem]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
+:::
+::: {.subject-index-entry}
 [Uso secundário de dados]{.subject-index-term} — [RNDS: Uso secundário de dados](rnds.html#uso-secundário-de-dados)
 :::
 ::::
@@ -872,6 +923,12 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Vigilância epidemiológica]{.subject-index-term} — [Organização dos SIS: Sistemas de morbidade e vigilância](organizacao.html#sistemas-de-morbidade-e-vigilância)
 :::
 ::: {.subject-index-entry}
+[Vigilância sentinela]{.subject-index-term} — [Inquéritos de saúde: VIVA: sistema e inquérito](inqueritos.html#viva-sistema-e-inquérito)
+:::
+::: {.subject-index-entry}
+[Vigitel]{.subject-index-term} — [Inquéritos de saúde: Vigitel](inqueritos.html#vigitel)
+:::
+::: {.subject-index-entry}
 [Vínculo territorial]{.subject-index-term} — [SISAPS: Vínculo territorial](sisaps.html#vínculo-territorial)
 :::
 ::: {.subject-index-entry}
@@ -882,6 +939,15 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Violência interpessoal ou autoprovocada]{.subject-index-term} — [SINAN: Violência interpessoal/autoprovocada](sinan.html#violência-interpessoalautoprovocada)
+:::
+::: {.subject-index-entry}
+[VIVA Inquérito]{.subject-index-term} — [Inquéritos de saúde: VIVA: sistema e inquérito](inqueritos.html#viva-sistema-e-inquérito)
+:::
+::: {.subject-index-entry}
+[VIVA/Sinan]{.subject-index-term} — [Inquéritos de saúde: VIVA: sistema e inquérito](inqueritos.html#viva-sistema-e-inquérito)
+:::
+::: {.subject-index-entry}
+[VIVA — Sistema de Vigilância de Violências e Acidentes]{.subject-index-term} — [Inquéritos de saúde: VIVA: sistema e inquérito](inqueritos.html#viva-sistema-e-inquérito)
 :::
 ::::
 

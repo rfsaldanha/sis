@@ -159,6 +159,7 @@ chapter_labels <- c(
   cid = "CID",
   codmun = "Códigos dos municípios",
   pop = "Estimativas populacionais",
+  inqueritos = "Inquéritos de saúde",
   sivep = "SIVEP",
   sisvan = "SISVAN",
   ans = "ANS",

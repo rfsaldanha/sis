@@ -35,6 +35,9 @@ AIU
 AMS
 : Pesquisa da Assistência Médico-Sanitária
 
+Anatel
+: Agência Nacional de Telecomunicações
+
 ANS
 : Agência Nacional de Saúde Suplementar
 
@@ -100,6 +103,9 @@ CRIE
 
 CSV
 : Valores separados por vírgula, do inglês *comma-separated values*
+
+CV
+: Coeficiente de variação
 
 D1/D2
 : Primeira dose e segunda dose de um esquema vacinal
@@ -224,6 +230,9 @@ HL7
 IBGE
 : Instituto Brasileiro de Geografia e Estatística
 
+IC
+: Intervalo de confiança
+
 ICD
 : *International Classification of Diseases*, denominação em inglês da CID
 
@@ -317,8 +326,14 @@ PEC
 PFA
 : Paralisia Flácida Aguda
 
+PNAD
+: Pesquisa Nacional por Amostra de Domicílios
+
 PNI
 : Programa Nacional de Imunizações
+
+PNS
+: Pesquisa Nacional de Saúde
 
 POP
 : Estimativas populacionais; rótulo usado no livro para o apêndice e para fontes de denominadores
@@ -488,6 +503,9 @@ UF
 UFRN
 : Universidade Federal do Rio Grande do Norte
 
+UPA
+: Unidade de Pronto Atendimento; em planos amostrais, unidade primária de amostragem
+
 URL
 : Localizador uniforme de recursos, do inglês *Uniform Resource Locator*
 
@@ -496,6 +514,12 @@ UTI
 
 VAN
 : Vigilância Alimentar e Nutricional
+
+Vigitel
+: Sistema de Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico
+
+VIVA
+: Sistema de Vigilância de Violências e Acidentes
 
 XML
 : Linguagem extensível de marcação, do inglês *Extensible Markup Language*

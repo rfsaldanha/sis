@@ -350,5 +350,7 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 
 - [SISCAN — Sistema de Informação de Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 234.
 
+- [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 424.
+
 :::
 <!-- END GENERATED SEE ALSO -->

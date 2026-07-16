@@ -189,5 +189,7 @@ Antes de publicar um indicador com denominador populacional, verifique:
 
 - [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 341.
 
+- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 434.
+
 :::
 <!-- END GENERATED SEE ALSO -->

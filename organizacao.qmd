@@ -207,6 +207,8 @@ A distinção entre cobertura territorial e cobertura assistencial é uma das ma
 
 Em sentido inverso, sistemas com obrigação ampla de registro também podem apresentar sub-registro ou atraso de envio em contextos específicos. Portanto, dizer que uma base tem abrangência nacional não elimina a necessidade de avaliar completude, oportunidade e consistência, especialmente em municípios pequenos, áreas remotas, períodos de transição tecnológica ou eventos raros.
 
+Inquéritos e pesquisas amostrais oferecem outra forma de cobertura. PNS, PNAD, Vigitel e VIVA observam populações, linhas telefônicas ou atendimentos selecionados por desenhos próprios e produzem estimativas com incerteza amostral. O apêndice sobre inquéritos e pesquisas de saúde (@sec-inqueritos) apresenta suas diferenças e a forma adequada de combiná-los com os SIS.
+
 ::::: {.callout}
 O Sistema Único de Saúde (SUS) organiza ações e serviços de saúde no Brasil e envolve responsabilidades públicas de gestão, financiamento, regulação e prestação de serviços. Na prática, a rede utilizada pelo SUS pode incluir estabelecimentos públicos, filantrópicos e privados conveniados.
 
@@ -369,7 +371,7 @@ O capítulo a seguir detalha o que são eventos de saúde e como eles se relacio
 
 - [Breve histórico da experiência brasileira — seção “Marcos de criação dos principais sistemas”](historico.html#marcos-de-criação-dos-principais-sistemas). Na edição impressa, p. 18.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 444.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 464.
 
 :::
 <!-- END GENERATED SEE ALSO -->
