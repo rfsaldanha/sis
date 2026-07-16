@@ -4,6 +4,28 @@ always_allow_html: true
 
 # SISCAN -- Sistema de Informação de Câncer {#sec-siscan}
 
+::: {.content-visible when-format="html"}
+```{=html}
+<section class="podcast-player" data-transcript="podcast/siscan_dialogo_eleven_v3_transcript.json?v=20260716-elevenv3">
+<h2>Podcast do capítulo</h2>
+<p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<audio class="podcast-audio" controls preload="metadata">
+  <source src="podcast/siscan_dialogo_eleven_v3.mp3?v=20260716-elevenv3" type="audio/mpeg">
+  Seu navegador não suporta o elemento de áudio.
+</audio>
+<details class="podcast-transcript-wrap">
+<summary>Acompanhar transcrição</summary>
+<div class="podcast-transcript" aria-live="polite"></div>
+</details>
+<noscript>
+Para acompanhar a transcrição, acesse o roteiro em
+<a href="podcast/siscan.md">podcast/siscan.md</a>.
+</noscript>
+<script src="podcast/sync-transcript.js"></script>
+</section>
+```
+:::
+
 ## Resumo
 
 ::: {#qua-siscan-caracteristicas-gerais-do-siscan}

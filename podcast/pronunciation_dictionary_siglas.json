@@ -14,6 +14,36 @@
     },
     {
       "type": "alias",
+      "string_to_replace": "SISCAN",
+      "alias": "sis cân"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SISCOLO",
+      "alias": "sis cólo"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "SISMAMA",
+      "alias": "sis máma"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "INCA",
+      "alias": "ínca"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CNS",
+      "alias": "cê ene ésse"
+    },
+    {
+      "type": "alias",
+      "string_to_replace": "CADSUS",
+      "alias": "cad sús"
+    },
+    {
+      "type": "alias",
       "string_to_replace": "SINASC",
       "alias": "sinásqui"
     },

@@ -1,0 +1,836 @@
+[
+  {
+    "start": 0,
+    "end": 20.88,
+    "speaker": "APRESENTADORA",
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação de Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?"
+  },
+  {
+    "start": 20.88,
+    "end": 29.521,
+    "speaker": "ESTUDANTE",
+    "text": "Minha primeira resposta seria sim. Mil mamografias, mil mulheres. Mas imagino que essa conta esconda alguma coisa."
+  },
+  {
+    "start": 29.521,
+    "end": 48.8,
+    "speaker": "APRESENTADORA",
+    "text": "Esconde uma distinção central: exame não é pessoa. Uma mulher pode realizar mais de um exame no período, e uma mamografia pode ter sido feita para rastreamento ou para investigação diagnóstica. O SISCAN ajuda a enxergar essas diferenças."
+  },
+  {
+    "start": 48.8,
+    "end": 57.04,
+    "speaker": "ESTUDANTE",
+    "text": "Então ele não serve apenas para contar procedimentos. Ele registra o contexto em que o exame foi solicitado e também o resultado."
+  },
+  {
+    "start": 57.04,
+    "end": 74.64,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O SISCAN organiza informações das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no SUS. Acompanha solicitação, exame, laudo e parte do seguimento de resultados alterados."
+  },
+  {
+    "start": 74.64,
+    "end": 78.159,
+    "speaker": "ESTUDANTE",
+    "text": "E ele registra todos os casos de câncer do país?"
+  },
+  {
+    "start": 78.159,
+    "end": 98.4,
+    "speaker": "APRESENTADORA",
+    "text": "Não. Essa é a primeira cautela. O SISCAN não é um registro populacional de câncer e não mede, sozinho, a incidência ou a prevalência de todos os tipos de câncer. Ele descreve processos assistenciais específicos ligados principalmente ao colo do útero e à mama."
+  },
+  {
+    "start": 98.4,
+    "end": 106.88,
+    "speaker": "ESTUDANTE",
+    "text": "Então, para estudar ocorrência populacional, tratamento completo, internações ou óbitos, eu precisaria de outras fontes."
+  },
+  {
+    "start": 106.88,
+    "end": 124.8,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Registros de câncer, SIA, SIH e SIM podem ser necessários conforme a pergunta. Hoje vamos entender o que o SISCAN registra, de onde ele veio, como se relaciona com esses sistemas e onde entra o Painel Oncologia."
+  },
+  {
+    "start": 124.8,
+    "end": 127.76,
+    "speaker": "ESTUDANTE",
+    "text": "E no fim a gente volta às mil mamografias?"
+  },
+  {
+    "start": 128.01,
+    "end": 136.05,
+    "speaker": "APRESENTADORA",
+    "text": "Com certeza. A ideia é terminar sabendo exatamente o que podemos e o que não podemos afirmar com esse número."
+  },
+  {
+    "start": 136.05,
+    "end": 140.73,
+    "speaker": "ESTUDANTE",
+    "text": "Antes de falar do sistema atual, quais eram os sistemas anteriores?"
+  },
+  {
+    "start": 140.73,
+    "end": 157.85,
+    "speaker": "APRESENTADORA",
+    "text": "Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Controle do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos."
+  },
+  {
+    "start": 157.85,
+    "end": 161.85,
+    "speaker": "ESTUDANTE",
+    "text": "E para o câncer de mama existia o SISMAMA."
+  },
+  {
+    "start": 161.85,
+    "end": 173.45,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O SISMAMA foi implantado nacionalmente em 2009 para registrar mamografias e informações da investigação diagnóstica da mama."
+  },
+  {
+    "start": 173.45,
+    "end": 179.77,
+    "speaker": "ESTUDANTE",
+    "text": "Então eram dois sistemas separados, cada um voltado a um órgão e a um conjunto de exames."
+  },
+  {
+    "start": 179.77,
+    "end": 193.769,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Em 2013, uma portaria do Ministério da Saúde instituiu o SISCAN para reunir esses componentes em um sistema nominal, integrado e disponível em ambiente web."
+  },
+  {
+    "start": 193.769,
+    "end": 198.809,
+    "speaker": "ESTUDANTE",
+    "text": "Nominal quer dizer que o registro se refere a uma pessoa identificada?"
+  },
+  {
+    "start": 198.809,
+    "end": 216.169,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CADSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores."
+  },
+  {
+    "start": 216.169,
+    "end": 223.289,
+    "speaker": "ESTUDANTE",
+    "text": "Essa estrutura parece permitir acompanhar melhor o percurso entre solicitação, exame e resultado."
+  },
+  {
+    "start": 223.289,
+    "end": 238.65,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma das vantagens. O sistema integrado amplia a possibilidade de seguimento e reduz a fragmentação entre colo do útero e mama. Mas a substituição dos sistemas anteriores não ocorreu de uma vez."
+  },
+  {
+    "start": 238.65,
+    "end": 240.25,
+    "speaker": "ESTUDANTE",
+    "text": "A implantação foi gradual?"
+  },
+  {
+    "start": 240.25,
+    "end": 259.371,
+    "speaker": "APRESENTADORA",
+    "text": "Foi. Municípios, estados e prestadores entraram no SISCAN em ritmos diferentes. Por isso, uma série histórica que atravessa a década de 2010 não pode simplesmente abandonar SISCOLO e SISMAMA a partir de uma única data nacional."
+  },
+  {
+    "start": 260.58,
+    "end": 264.9,
+    "speaker": "ESTUDANTE",
+    "text": "Então preciso olhar a cobertura local e talvez combinar os três sistemas."
+  },
+  {
+    "start": 264.9,
+    "end": 282.66,
+    "speaker": "APRESENTADORA",
+    "text": "Sim, e muitas vezes comparar também com o SIA. Depois de 2015, as bases nacionais de SISCOLO e SISMAMA deixaram de receber atualizações regulares, mas isso não significa que o SISCAN já tivesse cobertura completa em todos os territórios."
+  },
+  {
+    "start": 282.66,
+    "end": 286.181,
+    "speaker": "ESTUDANTE",
+    "text": "Como começa o fluxo de informação no SISCAN?"
+  },
+  {
+    "start": 286.181,
+    "end": 299.54,
+    "speaker": "APRESENTADORA",
+    "text": "Começa na unidade de saúde. A pessoa é identificada, o profissional registra a indicação e solicita o exame. A requisição segue para um laboratório ou uma unidade de mamografia."
+  },
+  {
+    "start": 299.54,
+    "end": 304.341,
+    "speaker": "ESTUDANTE",
+    "text": "O prestador recebe a solicitação, realiza o exame e registra o laudo."
+  },
+  {
+    "start": 304.341,
+    "end": 319.381,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O resultado retorna à unidade solicitante e também alimenta o SISCAN. Se houver um achado alterado, o sistema pode apoiar o seguimento, a avaliação da qualidade e as ações de gestão."
+  },
+  {
+    "start": 319.381,
+    "end": 322.022,
+    "speaker": "ESTUDANTE",
+    "text": "Quem é responsável pela qualidade do registro?"
+  },
+  {
+    "start": 322.022,
+    "end": 347.542,
+    "speaker": "APRESENTADORA",
+    "text": "Vários atores. A unidade solicitante precisa identificar corretamente a pessoa e informar a indicação. O laboratório ou serviço de imagem registra realização e laudo. As coordenações municipais e estaduais acompanham fluxo, cobertura e atrasos. Ministério da Saúde e INCA definem padrões e apoiam o monitoramento."
+  },
+  {
+    "start": 347.542,
+    "end": 357.782,
+    "speaker": "ESTUDANTE",
+    "text": "Então uma lacuna pode nascer em pontos diferentes. Pode faltar a indicação na solicitação, o laudo pode atrasar ou o seguimento pode não ser atualizado."
+  },
+  {
+    "start": 357.782,
+    "end": 367.382,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. E cada problema tem significado diferente. Dizer apenas que o campo está vazio não explica onde o fluxo falhou."
+  },
+  {
+    "start": 367.382,
+    "end": 370.821,
+    "speaker": "ESTUDANTE",
+    "text": "Quais são os principais grupos de informação do sistema?"
+  },
+  {
+    "start": 370.821,
+    "end": 387.782,
+    "speaker": "APRESENTADORA",
+    "text": "Podemos pensar em quatro grupos: identificação e contexto da solicitação; características do exame; resultado ou laudo; e seguimento. Os campos específicos mudam conforme o exame e o órgão investigado."
+  },
+  {
+    "start": 388.59,
+    "end": 391.789,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos começar pelo colo do útero. O que aparece ali?"
+  },
+  {
+    "start": 391.789,
+    "end": 408.75,
+    "speaker": "APRESENTADORA",
+    "text": "Há informações de exames citopatológicos e histopatológicos, adequabilidade da amostra, categorias de resultado, alterações celulares e confirmação diagnóstica. A nomenclatura deve ser conferida no manual correspondente ao período."
+  },
+  {
+    "start": 408.75,
+    "end": 414.67,
+    "speaker": "ESTUDANTE",
+    "text": "Porque categorias e regras podem mudar com versões do sistema ou atualizações técnicas."
+  },
+  {
+    "start": 414.67,
+    "end": 429.95,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. E existe outra cautela: contar exames citopatológicos não é contar mulheres examinadas. A mesma pessoa pode ter repetição por periodicidade, controle ou necessidade clínica."
+  },
+  {
+    "start": 429.95,
+    "end": 431.63,
+    "speaker": "ESTUDANTE",
+    "text": "E nos registros de mama?"
+  },
+  {
+    "start": 431.63,
+    "end": 449.23,
+    "speaker": "APRESENTADORA",
+    "text": "A mamografia traz informações sobre indicação e resultado. A indicação permite separar o exame de rastreamento daquele feito para investigação diagnóstica. Há também registros relacionados à histopatologia e à confirmação diagnóstica."
+  },
+  {
+    "start": 449.23,
+    "end": 453.75,
+    "speaker": "ESTUDANTE",
+    "text": "Essa distinção parece decisiva para avaliar um programa de rastreamento."
+  },
+  {
+    "start": 453.75,
+    "end": 470.47,
+    "speaker": "APRESENTADORA",
+    "text": "É decisiva. Rastreamento é oferecer exame sistematicamente a uma população assintomática definida por idade e periodicidade. Investigação diagnóstica ocorre diante de sinal, sintoma ou achado anterior."
+  },
+  {
+    "start": 470.47,
+    "end": 480.19,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu misturar os dois grupos, a proporção de resultados alterados pode parecer maior, porque pessoas em investigação têm uma probabilidade diferente de alteração."
+  },
+  {
+    "start": 480.19,
+    "end": 491.87,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Você altera o denominador e a expectativa clínica. Por isso, a indicação não é um detalhe descritivo; ela define a população analisada."
+  },
+  {
+    "start": 491.87,
+    "end": 496.51,
+    "speaker": "ESTUDANTE",
+    "text": "O capítulo também fala de qualidade dos exames. Como o SISCAN entra nisso?"
+  },
+  {
+    "start": 496.51,
+    "end": 508.591,
+    "speaker": "APRESENTADORA",
+    "text": "O sistema apoia o Monitoramento Interno da Qualidade e o Monitoramento Externo da Qualidade dos exames citopatológicos, conhecidos pelas siglas MIQ e MEQ."
+  },
+  {
+    "start": 508.591,
+    "end": 512.191,
+    "speaker": "ESTUDANTE",
+    "text": "É uma comparação de quantos exames cada laboratório realizou?"
+  },
+  {
+    "start": 513.32,
+    "end": 527.56,
+    "speaker": "APRESENTADORA",
+    "text": "Não apenas. Monitoramento da qualidade envolve processos, adequabilidade das amostras, distribuição de resultados, revisão e concordância, entre outros aspectos. Volume isolado não mede qualidade diagnóstica."
+  },
+  {
+    "start": 527.56,
+    "end": 535.4,
+    "speaker": "ESTUDANTE",
+    "text": "Até aqui já apareceram várias unidades possíveis: pessoa, requisição, exame, laudo e estabelecimento."
+  },
+  {
+    "start": 535.4,
+    "end": 543.921,
+    "speaker": "APRESENTADORA",
+    "text": "E esse é o ponto metodológico mais importante. Antes de calcular qualquer indicador, declare qual é a unidade de análise."
+  },
+  {
+    "start": 543.921,
+    "end": 546.361,
+    "speaker": "ESTUDANTE",
+    "text": "Se eu contar linhas, o que estou contando?"
+  },
+  {
+    "start": 546.361,
+    "end": 558.521,
+    "speaker": "APRESENTADORA",
+    "text": "Depende do arquivo e do recorte. Pode ser exame, requisição, laudo ou registro de seguimento. Uma linha não deve ser automaticamente tratada como pessoa única."
+  },
+  {
+    "start": 558.521,
+    "end": 564.761,
+    "speaker": "ESTUDANTE",
+    "text": "Para contar pessoas, preciso de identificador, janela temporal e regra de deduplicação."
+  },
+  {
+    "start": 564.761,
+    "end": 581.481,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Para medir produção, o foco pode ser o procedimento. Para avaliar laboratórios, a unidade pode ser o prestador. Para analisar acesso, talvez seja necessário distinguir residência, unidade solicitante e local de realização."
+  },
+  {
+    "start": 581.481,
+    "end": 585.56,
+    "speaker": "ESTUDANTE",
+    "text": "Esses três territórios respondem a perguntas diferentes, certo?"
+  },
+  {
+    "start": 585.56,
+    "end": 604.201,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Residência descreve de onde vem a população atendida. A unidade solicitante mostra a porta de entrada. O prestador indica onde o exame foi realizado. Comparar esses locais ajuda a estudar deslocamentos e organização regional da oferta."
+  },
+  {
+    "start": 604.201,
+    "end": 607.161,
+    "speaker": "ESTUDANTE",
+    "text": "E a dimensão temporal também tem várias datas."
+  },
+  {
+    "start": 607.161,
+    "end": 617.801,
+    "speaker": "APRESENTADORA",
+    "text": "Tem. Data da solicitação, realização, liberação do laudo, registro do seguimento e competência de processamento não são equivalentes."
+  },
+  {
+    "start": 617.801,
+    "end": 620.441,
+    "speaker": "ESTUDANTE",
+    "text": "Qual delas devo usar para uma série temporal?"
+  },
+  {
+    "start": 620.69,
+    "end": 639.65,
+    "speaker": "APRESENTADORA",
+    "text": "A que corresponde à pergunta. Para produção clínica, a data do exame pode ser adequada. Para oportunidade do laudo, compare realização e liberação. Para processamento administrativo, a competência pode ser relevante. O importante é não trocar uma pela outra sem explicação."
+  },
+  {
+    "start": 639.65,
+    "end": 644.93,
+    "speaker": "ESTUDANTE",
+    "text": "Períodos recentes também podem parecer menores por atraso de digitação."
+  },
+  {
+    "start": 644.93,
+    "end": 653.931,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Uma queda no último mês pode ser apenas incompletude temporária. Sempre avalie o tempo necessário para consolidação."
+  },
+  {
+    "start": 653.931,
+    "end": 660.371,
+    "speaker": "ESTUDANTE",
+    "text": "Você mencionou que o SISCAN se relaciona com o SIA. Como funciona essa integração?"
+  },
+  {
+    "start": 660.371,
+    "end": 671.571,
+    "speaker": "APRESENTADORA",
+    "text": "Para procedimentos compatíveis, o SISCAN pode gerar o Boletim de Produção Ambulatorial Individualizado, o BPA-I, que segue para processamento no SIA."
+  },
+  {
+    "start": 671.571,
+    "end": 675.891,
+    "speaker": "ESTUDANTE",
+    "text": "Então os dois sistemas deveriam apresentar o mesmo total de exames?"
+  },
+  {
+    "start": 675.891,
+    "end": 692.371,
+    "speaker": "APRESENTADORA",
+    "text": "Não necessariamente. Eles têm finalidades e fluxos diferentes. O SISCAN reúne indicação clínica, exame, resultado e seguimento. O SIA registra procedimentos apresentados e processados para fins administrativos."
+  },
+  {
+    "start": 692.371,
+    "end": 695.011,
+    "speaker": "ESTUDANTE",
+    "text": "Que tipo de diferença pode surgir?"
+  },
+  {
+    "start": 695.011,
+    "end": 711.411,
+    "speaker": "APRESENTADORA",
+    "text": "Diferenças de implantação, envio, crítica, processamento e período. Um registro pode existir no SIA e não estar disponível no SISCAN, ou o contrário. Por isso, a comparação entre as fontes faz parte da avaliação de cobertura."
+  },
+  {
+    "start": 711.411,
+    "end": 721.972,
+    "speaker": "ESTUDANTE",
+    "text": "Se minha pergunta for volume de procedimentos e financiamento, o SIA costuma ser a referência. Se for indicação e resultado, o SISCAN tem mais detalhe."
+  },
+  {
+    "start": 721.972,
+    "end": 728.412,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é uma ótima regra inicial. Mas documente sempre o período e a cobertura local."
+  },
+  {
+    "start": 728.412,
+    "end": 732.132,
+    "speaker": "ESTUDANTE",
+    "text": "E o CNES entra para caracterizar os estabelecimentos."
+  },
+  {
+    "start": 732.132,
+    "end": 744.052,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. O código CNES permite identificar a unidade solicitante, o laboratório ou o serviço de mamografia e relacionar o exame à estrutura cadastrada da rede."
+  },
+  {
+    "start": 744.3,
+    "end": 748.78,
+    "speaker": "ESTUDANTE",
+    "text": "E o CADSUS fornece a identificação da pessoa por meio do CNS."
+  },
+  {
+    "start": 748.78,
+    "end": 763.579,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Essa identificação nominal apoia deduplicação e seguimento dentro do ambiente institucional. Nas bases públicas, porém, identificadores pessoais são suprimidos ou limitados para proteger a privacidade."
+  },
+  {
+    "start": 763.579,
+    "end": 772.421,
+    "speaker": "ESTUDANTE",
+    "text": "Então o pesquisador que usa dados públicos não tem a mesma possibilidade de relacionamento individual que as secretarias e o Ministério da Saúde."
+  },
+  {
+    "start": 772.421,
+    "end": 787.181,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. A disseminação pública preserva confidencialidade, mas reduz certas análises de trajetória. Isso não significa que os sistemas não possam ser relacionados em ambientes autorizados e governados."
+  },
+  {
+    "start": 787.181,
+    "end": 789.981,
+    "speaker": "ESTUDANTE",
+    "text": "É aqui que entra o Painel Oncologia?"
+  },
+  {
+    "start": 789.981,
+    "end": 802.861,
+    "speaker": "APRESENTADORA",
+    "text": "Em parte. O Painel Oncologia é um exemplo institucional de integração de registros. Ele monitora o intervalo entre diagnóstico e primeiro tratamento do câncer no SUS."
+  },
+  {
+    "start": 802.861,
+    "end": 804.861,
+    "speaker": "ESTUDANTE",
+    "text": "Ele é um módulo do SISCAN?"
+  },
+  {
+    "start": 804.861,
+    "end": 813.981,
+    "speaker": "APRESENTADORA",
+    "text": "Não. O painel não é um módulo isolado do SISCAN. Ele combina dados do SIA, do SIH e do próprio SISCAN."
+  },
+  {
+    "start": 813.981,
+    "end": 817.341,
+    "speaker": "ESTUDANTE",
+    "text": "Quais registros do SIA entram nessa combinação?"
+  },
+  {
+    "start": 817.341,
+    "end": 834.861,
+    "speaker": "APRESENTADORA",
+    "text": "Entre outros, procedimentos informados no BPA-I e nas Autorizações de Procedimentos Ambulatoriais de Alta Complexidade, as APAC. O SIH contribui com internações, e o SISCAN com diagnósticos registrados em seu escopo."
+  },
+  {
+    "start": 834.861,
+    "end": 841.901,
+    "speaker": "ESTUDANTE",
+    "text": "Como o painel reconhece que registros de sistemas diferentes se referem à mesma pessoa e ao mesmo câncer?"
+  },
+  {
+    "start": 841.901,
+    "end": 857.021,
+    "speaker": "APRESENTADORA",
+    "text": "A construção utiliza relacionamento determinístico, principalmente com base no CNS e no diagnóstico. O processo procura localizar uma data diagnóstica e o primeiro procedimento de tratamento correspondente."
+  },
+  {
+    "start": 857.021,
+    "end": 863.101,
+    "speaker": "ESTUDANTE",
+    "text": "Determinístico quer dizer que os campos precisam obedecer a uma regra exata de correspondência."
+  },
+  {
+    "start": 863.35,
+    "end": 875.669,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Quando identificador e diagnóstico atendem aos critérios definidos, os registros são vinculados. A qualidade do vínculo depende diretamente do preenchimento das fontes."
+  },
+  {
+    "start": 875.669,
+    "end": 880.469,
+    "speaker": "ESTUDANTE",
+    "text": "O painel foi criado por causa da chamada lei dos sessenta dias?"
+  },
+  {
+    "start": 880.469,
+    "end": 895.99,
+    "speaker": "APRESENTADORA",
+    "text": "Ele apoia o monitoramento dessa política. A Lei número 12.732, de 2012, estabeleceu prazo para o início do primeiro tratamento de paciente com neoplasia maligna comprovada no SUS."
+  },
+  {
+    "start": 895.99,
+    "end": 903.51,
+    "speaker": "ESTUDANTE",
+    "text": "Então o painel calcula a diferença entre a data do diagnóstico e a data do primeiro tratamento identificado."
+  },
+  {
+    "start": 903.51,
+    "end": 916.47,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Ele permite descrever intervalos, estratificar por diagnóstico, território e período e identificar desigualdades ou atrasos que merecem investigação."
+  },
+  {
+    "start": 916.47,
+    "end": 920.151,
+    "speaker": "ESTUDANTE",
+    "text": "Mas ele não mostra toda a trajetória do paciente."
+  },
+  {
+    "start": 920.151,
+    "end": 937.91,
+    "speaker": "APRESENTADORA",
+    "text": "Não. O primeiro procedimento registrado não representa todas as consultas, exames, encaminhamentos e tratamentos. O painel também não estima incidência populacional e não avalia, sozinho, qualidade ou resultado clínico do tratamento."
+  },
+  {
+    "start": 937.91,
+    "end": 947.271,
+    "speaker": "ESTUDANTE",
+    "text": "Se o diagnóstico ou o tratamento não aparecer nas fontes, ou se os registros não puderem ser vinculados, o caso pode ficar fora da medida."
+  },
+  {
+    "start": 947.271,
+    "end": 961.59,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Ausência no painel pode significar ausência do evento, falha de registro, atendimento fora do escopo ou problema de identificação. Esses cenários não são equivalentes."
+  },
+  {
+    "start": 961.59,
+    "end": 964.831,
+    "speaker": "ESTUDANTE",
+    "text": "Como devo interpretar o seguimento no próprio SISCAN?"
+  },
+  {
+    "start": 964.831,
+    "end": 982.311,
+    "speaker": "APRESENTADORA",
+    "text": "Com cautela semelhante. Um resultado alterado pode exigir nova investigação, confirmação diagnóstica ou tratamento. O sistema apoia o acompanhamento, mas seguimento não atualizado não prova que o cuidado não aconteceu."
+  },
+  {
+    "start": 982.311,
+    "end": 989.671,
+    "speaker": "ESTUDANTE",
+    "text": "A pessoa pode ter sido atendida em outro serviço, registrada em outra fonte ou até fora do SUS."
+  },
+  {
+    "start": 990.56,
+    "end": 998.08,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. O termo correto diante de um campo vazio é informação desconhecida, não ausência de cuidado."
+  },
+  {
+    "start": 998.08,
+    "end": 1003.439,
+    "speaker": "ESTUDANTE",
+    "text": "Quais dimensões de qualidade devo examinar antes de produzir indicadores?"
+  },
+  {
+    "start": 1003.439,
+    "end": 1015.92,
+    "speaker": "APRESENTADORA",
+    "text": "Cobertura, completitude, consistência, duplicidade, oportunidade e continuidade. Cada uma responde a uma pergunta diferente sobre os dados."
+  },
+  {
+    "start": 1015.92,
+    "end": 1023.36,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos por partes. Cobertura seria comparar o que entrou no SISCAN com alguma referência, como o SIA."
+  },
+  {
+    "start": 1023.36,
+    "end": 1043.36,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. Completitude mede campos preenchidos. Consistência verifica combinações plausíveis de idade, indicação, exame e resultado. Duplicidade procura registros repetidos. Oportunidade avalia atrasos entre datas clínicas e entrada no sistema."
+  },
+  {
+    "start": 1043.36,
+    "end": 1052.479,
+    "speaker": "ESTUDANTE",
+    "text": "E continuidade observa se o processo iniciado por uma solicitação chega ao resultado e, quando necessário, ao seguimento registrado."
+  },
+  {
+    "start": 1052.479,
+    "end": 1063.36,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Mas lembre que nenhuma dessas dimensões deve ser avaliada apenas no total nacional. Diferenças entre territórios e prestadores podem ser grandes."
+  },
+  {
+    "start": 1063.36,
+    "end": 1066.639,
+    "speaker": "ESTUDANTE",
+    "text": "Que indicadores o SISCAN permite construir?"
+  },
+  {
+    "start": 1066.639,
+    "end": 1083.519,
+    "speaker": "APRESENTADORA",
+    "text": "Razões de exames de rastreamento na população-alvo, proporção de resultados alterados, proporção de amostras insatisfatórias, tempo de liberação de laudos e proporção de seguimento registrado são alguns exemplos."
+  },
+  {
+    "start": 1083.519,
+    "end": 1091.439,
+    "speaker": "ESTUDANTE",
+    "text": "E para o tratamento oportuno eu usaria o Painel Oncologia, respeitando os critérios de vínculo e as datas disponíveis."
+  },
+  {
+    "start": 1091.439,
+    "end": 1100.799,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Cada indicador precisa declarar numerador, denominador, unidade de contagem, período e filtros."
+  },
+  {
+    "start": 1100.799,
+    "end": 1107.6,
+    "speaker": "ESTUDANTE",
+    "text": "Vamos finalmente voltar às mil mamografias. Como eu avaliaria cobertura de rastreamento?"
+  },
+  {
+    "start": 1107.85,
+    "end": 1125.45,
+    "speaker": "APRESENTADORA",
+    "text": "Primeiro, filtre mamografias cuja indicação seja rastreamento. Depois, restrinja à população-alvo e ao período definido. O numerador será o número de exames, a menos que você disponha de identificação adequada para contar pessoas únicas."
+  },
+  {
+    "start": 1125.45,
+    "end": 1131.13,
+    "speaker": "ESTUDANTE",
+    "text": "E o denominador pode ser uma estimativa da população feminina na faixa etária escolhida."
+  },
+  {
+    "start": 1131.13,
+    "end": 1142.85,
+    "speaker": "APRESENTADORA",
+    "text": "Sim. O resultado será uma razão de exames por população, não necessariamente a proporção de mulheres rastreadas. Exames repetidos podem elevar o numerador."
+  },
+  {
+    "start": 1142.85,
+    "end": 1149.849,
+    "speaker": "ESTUDANTE",
+    "text": "Então escrever “cobertura de oitenta por cento” pode ser enganoso se eu contei exames, e não mulheres."
+  },
+  {
+    "start": 1149.849,
+    "end": 1164.01,
+    "speaker": "APRESENTADORA",
+    "text": "Pode. Prefira uma denominação que revele a medida, como razão de mamografias de rastreamento por mulheres da população-alvo. Transparência no nome evita uma interpretação maior do que os dados sustentam."
+  },
+  {
+    "start": 1164.01,
+    "end": 1169.851,
+    "speaker": "ESTUDANTE",
+    "text": "Também preciso escolher o território: residência da mulher ou município do prestador."
+  },
+  {
+    "start": 1169.851,
+    "end": 1182.251,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Para aproximação da cobertura populacional, residência costuma ser mais adequada. Para estudar oferta e fluxos, local do prestador pode ser mais informativo."
+  },
+  {
+    "start": 1182.251,
+    "end": 1185.291,
+    "speaker": "ESTUDANTE",
+    "text": "E se eu quiser analisar tempo até o resultado?"
+  },
+  {
+    "start": 1185.291,
+    "end": 1202.651,
+    "speaker": "APRESENTADORA",
+    "text": "Compare datas compatíveis, como realização e liberação do laudo. Avalie dados ausentes e valores impossíveis. Em vez de usar apenas a média, apresente mediana e percentis, porque os tempos costumam ter distribuição assimétrica."
+  },
+  {
+    "start": 1202.651,
+    "end": 1208.731,
+    "speaker": "ESTUDANTE",
+    "text": "Para tempo entre diagnóstico e tratamento, mudo de fonte e uso o Painel Oncologia."
+  },
+  {
+    "start": 1208.731,
+    "end": 1217.292,
+    "speaker": "APRESENTADORA",
+    "text": "Isso. Os intervalos respondem a etapas distintas da linha de cuidado e não devem ser tratados como se fossem a mesma medida."
+  },
+  {
+    "start": 1217.292,
+    "end": 1220.092,
+    "speaker": "ESTUDANTE",
+    "text": "Como o público acessa essas informações?"
+  },
+  {
+    "start": 1220.34,
+    "end": 1236.259,
+    "speaker": "APRESENTADORA",
+    "text": "O DATASUS oferece tabulações do SISCAN, além das séries históricas de SISCOLO e SISMAMA. O Painel Oncologia também está disponível em TabNet. O capítulo online reúne os endereços, manuais e relatórios de qualidade."
+  },
+  {
+    "start": 1236.259,
+    "end": 1243.22,
+    "speaker": "ESTUDANTE",
+    "text": "Como as páginas podem mudar, vale registrar a data de acesso, os filtros e o período consultado."
+  },
+  {
+    "start": 1243.22,
+    "end": 1253.22,
+    "speaker": "APRESENTADORA",
+    "text": "Sempre. Guarde também a definição das categorias e, quando possível, o arquivo ou a tabela extraída. Isso torna a análise reprodutível."
+  },
+  {
+    "start": 1253.22,
+    "end": 1257.62,
+    "speaker": "ESTUDANTE",
+    "text": "Se você tivesse de resumir os erros mais comuns, quais seriam?"
+  },
+  {
+    "start": 1257.62,
+    "end": 1278.26,
+    "speaker": "APRESENTADORA",
+    "text": "Contar exames como pessoas; misturar rastreamento e diagnóstico; tratar competência como data clínica; ignorar a transição entre SISCOLO, SISMAMA e SISCAN; comparar territórios sem avaliar cobertura; e interpretar seguimento ausente como cuidado não realizado."
+  },
+  {
+    "start": 1278.26,
+    "end": 1286.26,
+    "speaker": "ESTUDANTE",
+    "text": "Eu acrescentaria usar o Painel Oncologia como se fosse um registro de incidência ou uma descrição completa da trajetória."
+  },
+  {
+    "start": 1286.26,
+    "end": 1295.581,
+    "speaker": "APRESENTADORA",
+    "text": "Muito bem. E também esquecer que SIA e SISCAN têm finalidades diferentes, mesmo quando registram procedimentos relacionados."
+  },
+  {
+    "start": 1295.581,
+    "end": 1299.141,
+    "speaker": "ESTUDANTE",
+    "text": "Qual seria um bom checklist antes de publicar um resultado?"
+  },
+  {
+    "start": 1299.141,
+    "end": 1319.541,
+    "speaker": "APRESENTADORA",
+    "text": "Pergunte: escolhi a fonte adequada? Declarei a unidade? Separei rastreamento e diagnóstico? Tratei repetição? Conferi as datas? Avaliei cobertura e completitude? Registrei filtros e data de extração? Descrevi limites do relacionamento?"
+  },
+  {
+    "start": 1319.541,
+    "end": 1327.781,
+    "speaker": "ESTUDANTE",
+    "text": "E, se o período atravessa a implantação, verifiquei SISCOLO, SISMAMA e SIA, em vez de presumir continuidade perfeita."
+  },
+  {
+    "start": 1327.781,
+    "end": 1336.981,
+    "speaker": "APRESENTADORA",
+    "text": "Exatamente. Essa verificação histórica evita interpretar mudança de sistema como mudança epidemiológica ou assistencial."
+  },
+  {
+    "start": 1336.981,
+    "end": 1346.021,
+    "speaker": "ESTUDANTE",
+    "text": "Agora consigo responder à pergunta inicial. Mil mamografias não significam automaticamente mil mulheres rastreadas."
+  },
+  {
+    "start": 1346.27,
+    "end": 1366.669,
+    "speaker": "APRESENTADORA",
+    "text": "Perfeito. Elas significam mil exames dentro do recorte consultado. Para saber quantas eram de rastreamento, quantas mulheres únicas participaram, onde residiam e quais foram os resultados, precisamos examinar indicação, identificadores, território e qualidade dos registros."
+  },
+  {
+    "start": 1366.669,
+    "end": 1375.791,
+    "speaker": "ESTUDANTE",
+    "text": "E o valor do SISCAN está justamente em acrescentar contexto clínico e assistencial à contagem, desde que a gente respeite seus limites."
+  },
+  {
+    "start": 1375.791,
+    "end": 1396.67,
+    "speaker": "APRESENTADORA",
+    "text": "Essa é a síntese. O SISCAN conecta solicitação, exame, resultado, qualidade e seguimento nos cânceres do colo do útero e de mama. SISCOLO e SISMAMA preservam a história, e o Painel Oncologia mostra como a integração de sistemas pode apoiar o monitoramento do tratamento."
+  },
+  {
+    "start": 1396.67,
+    "end": 1405.949,
+    "speaker": "ESTUDANTE",
+    "text": "Fico com uma regra simples: antes de contar, pergunte se a linha representa exame, pessoa, laudo ou etapa do cuidado."
+  },
+  {
+    "start": 1405.949,
+    "end": 1418.43,
+    "speaker": "APRESENTADORA",
+    "text": "Uma excelente regra. Obrigada pela companhia. Consulte o capítulo online para acessar os painéis, os manuais e os detalhes metodológicos. Até o próximo episódio!"
+  }
+]

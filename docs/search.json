@@ -2034,7 +2034,7 @@
     "href": "siscan.html",
     "title": "11  SISCAN – Sistema de Informação de Câncer",
     "section": "",
-    "text": "11.1 Resumo\nO Sistema de Informação de Câncer (SISCAN) organiza dados das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no Sistema Único de Saúde (SUS). O sistema acompanha a solicitação, a realização e o resultado de exames, além de apoiar o seguimento de pessoas com achados alterados e o monitoramento da qualidade dos serviços (BRASIL. MINISTÉRIO DA SAÚDE, 2013; INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2021).\nO SISCAN não é um registro populacional de câncer e não mede, isoladamente, a incidência ou a prevalência de todos os tipos de câncer. Sua cobertura e sua unidade de registro refletem processos assistenciais específicos. Para responder a perguntas sobre tratamento oncológico, internações, óbitos ou ocorrência populacional, é necessário combiná-lo com outras fontes.",
+    "text": "Podcast do capítulo\nOuça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>SISCAN -- Sistema de Informação de Câncer</span>"
     ]
@@ -2043,8 +2043,8 @@
     "objectID": "siscan.html#resumo",
     "href": "siscan.html#resumo",
     "title": "11  SISCAN – Sistema de Informação de Câncer",
-    "section": "",
-    "text": "Quadro 11.1: Características gerais do SISCAN\n\n\n\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nAno de instituição\n2013\n\n\nSistemas antecessores\nSISCOLO e SISMAMA\n\n\nEventos registrados\nSolicitações, exames citopatológicos e histopatológicos do colo do útero, mamografias, resultados e seguimento\n\n\nUnidade de análise\nRequisição, exame, laudo, pessoa, estabelecimento e competência\n\n\nCobertura\nServiços que realizam ações de detecção precoce e confirmação diagnóstica no âmbito do SUS\n\n\nAlimentação\nRegistro nominal em ambiente web por unidades solicitantes, prestadores e laboratórios\n\n\nUso central\nMonitoramento do rastreamento, do diagnóstico, da qualidade dos exames e do seguimento de resultados alterados",
+    "section": "11.1 Resumo",
+    "text": "11.1 Resumo\n\n\n\nQuadro 11.1: Características gerais do SISCAN\n\n\n\n\n\n\n\n\n\nCaracterística\nDescrição\n\n\n\n\nAno de instituição\n2013\n\n\nSistemas antecessores\nSISCOLO e SISMAMA\n\n\nEventos registrados\nSolicitações, exames citopatológicos e histopatológicos do colo do útero, mamografias, resultados e seguimento\n\n\nUnidade de análise\nRequisição, exame, laudo, pessoa, estabelecimento e competência\n\n\nCobertura\nServiços que realizam ações de detecção precoce e confirmação diagnóstica no âmbito do SUS\n\n\nAlimentação\nRegistro nominal em ambiente web por unidades solicitantes, prestadores e laboratórios\n\n\nUso central\nMonitoramento do rastreamento, do diagnóstico, da qualidade dos exames e do seguimento de resultados alterados\n\n\n\n\n\n\nO Sistema de Informação de Câncer (SISCAN) organiza dados das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no Sistema Único de Saúde (SUS). O sistema acompanha a solicitação, a realização e o resultado de exames, além de apoiar o seguimento de pessoas com achados alterados e o monitoramento da qualidade dos serviços (BRASIL. MINISTÉRIO DA SAÚDE, 2013; INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2021).\nO SISCAN não é um registro populacional de câncer e não mede, isoladamente, a incidência ou a prevalência de todos os tipos de câncer. Sua cobertura e sua unidade de registro refletem processos assistenciais específicos. Para responder a perguntas sobre tratamento oncológico, internações, óbitos ou ocorrência populacional, é necessário combiná-lo com outras fontes.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>SISCAN -- Sistema de Informação de Câncer</span>"
     ]
