@@ -636,11 +636,11 @@ Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações 
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sih}
 
-- [Eventos de saúde — seção “Internações”](eventos.html#internações). Na edição impressa, p. 51.
+- [Eventos de saúde — seção “Internações”](eventos.html#internações). Na edição impressa, p. 49.
 
-- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 129.
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 127.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 219.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 217.
 
 :::
 <!-- END GENERATED SEE ALSO -->
