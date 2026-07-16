@@ -342,7 +342,7 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-eventos}
 
-- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 39.
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 38.
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 68.
 
