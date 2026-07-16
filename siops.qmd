@@ -887,7 +887,7 @@ Antes de concluir uma análise com SIOPS, verifique se:
 
 - [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 32.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “CNES como denominador”](cnes.html#cnes-como-denominador). Na edição impressa, p. 222.
 

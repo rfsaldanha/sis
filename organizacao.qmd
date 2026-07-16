@@ -367,7 +367,7 @@ O capítulo a seguir detalha o que são eventos de saúde e como eles se relacio
 
 - [Breve histórico da experiência brasileira — seção “Marcos de criação dos principais sistemas”](historico.html#marcos-de-criação-dos-principais-sistemas). Na edição impressa, p. 18.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 418.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 416.
 
 :::
 <!-- END GENERATED SEE ALSO -->

@@ -205,10 +205,22 @@ if (mode == "build") {
     }
   }
 
-  for (source in unique(entries$source)) {
+  generated_sources <- names(chapter_titles)[vapply(names(chapter_titles), function(source) {
+    path <- file.path(root, paste0(source, ".qmd"))
+    file.exists(path) && any(
+      readLines(path, warn = FALSE, encoding = "UTF-8") == begin_marker
+    )
+  }, logical(1L))]
+  build_sources <- unique(c(entries$source, generated_sources))
+
+  for (source in build_sources) {
     path <- file.path(root, paste0(source, ".qmd"))
     lines <- remove_generated(readLines(path, warn = FALSE, encoding = "UTF-8"))
     related <- entries[entries$source == source, , drop = FALSE]
+    if (!nrow(related)) {
+      writeLines(lines, path, useBytes = TRUE)
+      next
+    }
     block <- c(
       "",
       "",

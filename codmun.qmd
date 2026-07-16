@@ -228,7 +228,7 @@ Em síntese, o código municipal é uma chave de integração entre SIS, popula�
 
 - [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 35.
 
-- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Fontes de estimativas”](pop.html#fontes-de-estimativas). Na edição impressa, p. 387.
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 217.
 

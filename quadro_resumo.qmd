@@ -1,6 +1,6 @@
 # Quadro resumo {#sec-quadro-resumo}
 
-::: {#qua-quadro-resumo-sistemas}
+::: {#qua-quadro-resumo-eventos-assistencia}
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
@@ -9,6 +9,15 @@
 | SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Apenas internações realizadas pela dimensão pública do SUS | Mensal, com até dois meses de defasagem |
 | SIA | Sistema de Informações Ambulatoriais do SUS | 1990 | Autorização de Procedimento Ambulatorial (AP) e Boletim de Produção Ambulatorial (BPA) | Apenas procedimentos realizados pela dimensão pública do SUS | Mensal, com até dois meses de defasagem |
 | SINAN | Sistema de Informação de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Mensal, com até dois meses de defasagem |
+
+Síntese dos sistemas de eventos vitais, assistência e notificação abordados no livro
+
+:::
+
+::: {#qua-quadro-resumo-vigilancia-gestao}
+
+| Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
+|-------|---------------|-------|--------------|------------|------------|
 | SIVEP | Sistema de Vigilância Epidemiológica | Varia por componente; SIVEP-Gripe desde 2019 para SRAG | Fichas e registros específicos por componente, como SRAG, malária ou DDA | Varia por componente; pode envolver vigilância universal, regional ou sentinela | Varia por componente; SRAG possui bases públicas anuais, com atualização semanal do ano corrente |
 | CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal, com até dois meses de defasagem |
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
@@ -16,20 +25,6 @@
 | SISAB/SISAPS | Sistema de Informação da Atenção Primária à Saúde | 2013; renovação pelo SISAPS/Siaps em 2025 | Equipe, CNES, município, região de saúde, UF, competência e indicador | Dimensão pública do SUS | Mensal, conforme calendário de envio da APS |
 | SI-PNI | Sistema de Informações do Programa Nacional de Imunizações | 1975 (PNI) | Dados agregados e notificações de imunização | Dimensão pública do SUS | Mensal, com até dois meses de defasagem |
 
-Síntese dos Sistemas de Informação em Saúde abordados no livro
+Síntese dos sistemas de vigilância, cadastro, gestão e atenção primária abordados no livro
 
 :::
-
-
-<!-- BEGIN GENERATED SEE ALSO -->
-::: {.content-hidden when-format="typst"}
-## Veja também {#sec-veja-tambem-quadro_resumo}
-
-- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 39.
-
-- [Eventos de saúde — seção “Relação entre eventos e perguntas de análise”](eventos.html#relação-entre-eventos-e-perguntas-de-análise). Na edição impressa, p. 55.
-
-- [Introdução — seção “Escopo do livro”](introducao.html#escopo-do-livro). Na edição impressa, p. 13.
-
-:::
-<!-- END GENERATED SEE ALSO -->
