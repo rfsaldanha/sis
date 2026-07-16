@@ -219,9 +219,9 @@ Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileir
 
 - [Organização dos SIS — seção “Cobertura: todo o território, SUS e saúde suplementar”](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar). Na edição impressa, p. 33.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 222.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 224.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 430.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 432.
 
 :::
 <!-- END GENERATED SEE ALSO -->

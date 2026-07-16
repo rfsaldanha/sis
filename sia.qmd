@@ -366,7 +366,7 @@ O documento de [estrutura do SIA](assets/sia/Informe_Tecnico_SIASUS_2019_07.pdf)
 
 ### Campos mínimos para inspecionar
 
-Os nomes e a disponibilidade das variáveis variam conforme PA, APAC, BPA-I e RAAS. Em uma primeira inspeção, costuma ser útil verificar: (ver @qua-sia-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sia).
+Os nomes e a disponibilidade das variáveis variam conforme PA, APAC, BPA-I e RAAS. O @qua-sia-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sia reúne os campos que costumam orientar uma primeira inspeção.
 
 ::: {#qua-sia-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sia}
 
@@ -535,7 +535,7 @@ Os dados do SIA podem ser acessados por diferentes caminhos, a depender do objet
 | TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
-| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
 
 Formas de acesso aos dados do SIA
 
@@ -609,7 +609,7 @@ A biblioteca PySUS também permite acessar dados do SIA em fluxos de análise em
 
 ### PCDaS
 
-Os dados do SIA também podem ser acessados em ambientes de análise da Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), que organiza bases de saúde para uso em notebooks e infraestrutura de processamento [@pedrosoDataSciencePlatform2023].
+Os dados do SIA também podem ser acessados em ambientes de análise da Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), que organiza bases de saúde para uso em *notebooks* e infraestrutura de processamento [@pedrosoDataSciencePlatform2023].
 
 - [PCDaS](https://pcdas.icict.fiocruz.br/)
 
@@ -807,7 +807,7 @@ Antes de concluir uma análise com SIA, verifique se:
 
 - [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 105.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 221.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 223.
 
 :::
 <!-- END GENERATED SEE ALSO -->

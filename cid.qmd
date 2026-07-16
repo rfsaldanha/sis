@@ -193,7 +193,7 @@ Os cuidados reunidos no @qua-cid-cuidados-frequentes-ao-usar-codigos-cid reforç
 
 - [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 110.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 157.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 159.
 
 :::
 <!-- END GENERATED SEE ALSO -->

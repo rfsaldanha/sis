@@ -32,7 +32,7 @@ Neste capítulo, a organização dos SIS é apresentada como uma ferramenta de l
 
 ## Critérios de organização
 
-Neste livro, os SIS são apresentados a partir de quatro critérios principais: (ver @qua-organizacao-criterios-uteis-para-compreender-a-organizacao-dos-sis-brasileiros).
+Neste livro, os SIS são apresentados a partir de quatro critérios principais — evento de saúde, finalidade institucional, cobertura e unidade de análise —, sistematizados no @qua-organizacao-criterios-uteis-para-compreender-a-organizacao-dos-sis-brasileiros.
 
 ::: {#qua-organizacao-criterios-uteis-para-compreender-a-organizacao-dos-sis-brasileiros}
 
@@ -60,13 +60,13 @@ O esquema a seguir resume uma forma prática de agrupar os SIS abordados neste l
 ::: {.column-page}
 ```{mermaid}
 flowchart TD
-  SIS[Sistemas de Informacao em Saude]
+  SIS[Sistemas de Informação em Saúde]
   SIS --> Vitais[Sistemas vitais]
-  SIS --> Vig[Vigilancia e morbidade]
-  SIS --> Assist[Assistencia]
-  SIS --> Gestao[Cadastro, gestao e financiamento]
-  SIS --> Imun[Imunizacao]
-  SIS --> Supl[Saude suplementar]
+  SIS --> Vig[Vigilância e morbidade]
+  SIS --> Assist[Assistência]
+  SIS --> Gestao[Cadastro, gestão e financiamento]
+  SIS --> Imun[Imunização]
+  SIS --> Supl[Saúde suplementar]
 
   Vitais --> SIM[SIM]
   Vitais --> SINASC[SINASC]
@@ -326,7 +326,7 @@ Escolha inicial do SIS conforme a pergunta de análise
 
 :::
 
-O @qua-organizacao-escolha-inicial-do-sis-conforme-a-pergunta-de-analise deve ser lida como orientação inicial, não como regra fechada. A pergunta "quantas internações ocorreram?", por exemplo, aponta para o SIH quando o interesse é a rede SUS, mas pode exigir bases da saúde suplementar ou de prestadores privados quando o objetivo é estimar toda a assistência hospitalar do país. Do mesmo modo, analisar vacinação pode envolver doses aplicadas, pessoas vacinadas ou cobertura, que são medidas relacionadas, mas não equivalentes.
+O @qua-organizacao-escolha-inicial-do-sis-conforme-a-pergunta-de-analise deve ser lido como orientação inicial, não como regra fechada. A pergunta "quantas internações ocorreram?", por exemplo, aponta para o SIH quando o interesse é a rede SUS, mas pode exigir bases da saúde suplementar ou de prestadores privados quando o objetivo é estimar toda a assistência hospitalar do país. Do mesmo modo, analisar vacinação pode envolver doses aplicadas, pessoas vacinadas ou cobertura, que são medidas relacionadas, mas não equivalentes.
 
 Um bom caminho é formular a pergunta em quatro partes: evento, população, território e período. Depois disso, verifica-se qual sistema registra o evento, qual cobertura ele possui, qual unidade de análise está disponível e qual versão da base é adequada. Essa sequência reduz o risco de começar pela base mais conhecida, mas inadequada para o problema.
 
@@ -367,7 +367,7 @@ O capítulo a seguir detalha o que são eventos de saúde e como eles se relacio
 
 - [Breve histórico da experiência brasileira — seção “Marcos de criação dos principais sistemas”](historico.html#marcos-de-criação-dos-principais-sistemas). Na edição impressa, p. 18.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 424.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 426.
 
 :::
 <!-- END GENERATED SEE ALSO -->

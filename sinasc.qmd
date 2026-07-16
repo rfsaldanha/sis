@@ -89,21 +89,21 @@ O fluxo das vias da DNV explica por que o SINASC tem dupla importância: ele ali
 %%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo"
 %%| label: fig-sinasc-dnv
 flowchart TD
-  parto[Parto com nascido vivo] --> dnv[Declaracao de Nascido Vivo]
-  dnv --> via1[1a via]
-  dnv --> via2[2a via]
-  dnv --> via3[3a via]
+  parto[Parto com nascido vivo] --> dnv[Declaração de Nascido Vivo]
+  dnv --> via1[1ª via]
+  dnv --> via2[2ª via]
+  dnv --> via3[3ª via]
 
-  via1 --> sms[Secretaria Municipal de Saude]
-  sms --> ses[Secretaria Estadual de Saude]
-  ses --> ms[Ministerio da Saude]
+  via1 --> sms[Secretaria Municipal de Saúde]
+  sms --> ses[Secretaria Estadual de Saúde]
+  ses --> ms[Ministério da Saúde]
   ms --> sinasc[Base nacional do SINASC]
 
-  via2 --> fam[Familia]
+  via2 --> fam[Família]
   fam --> rg[Registro Civil]
-  rg --> cert[Certidao de Nascimento]
+  rg --> cert[Certidão de Nascimento]
 
-  via3 --> es[Estabelecimento ou prontuario]
+  via3 --> es[Estabelecimento ou prontuário]
 ```
 
 A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário.
@@ -313,7 +313,7 @@ Antes de produzir indicadores, vale fazer uma inspeção exploratória dos campo
 
 ### Campos mínimos para inspecionar
 
-Os nomes e a disponibilidade das variáveis podem variar conforme o ano e a forma de acesso. Em uma primeira inspeção, costuma ser útil verificar: (ver @qua-sinasc-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sinasc).
+Os nomes e a disponibilidade das variáveis podem variar conforme o ano e a forma de acesso. O @qua-sinasc-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sinasc reúne os campos que costumam orientar uma primeira inspeção.
 
 ::: {#qua-sinasc-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sinasc}
 
@@ -367,7 +367,7 @@ Os dados do SINASC podem ser acessados por diferentes caminhos, a depender do ob
 | TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
-| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
 | OpenDataSUS | Arquivos em formatos abertos, incluindo bases preliminares |
 
 Formas de acesso aos dados do SINASC
@@ -421,7 +421,7 @@ A biblioteca PySUS também permite acessar dados do SINASC em fluxos de análise
 
 ### PCDaS
 
-Os dados do SINASC estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
+Os dados do SINASC estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de *notebooks*.
 
 - [Dados SINASC](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-nascidos-vivos/)
 
@@ -561,7 +561,7 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 72.
 
-- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 381.
+- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 383.
 
 :::
 <!-- END GENERATED SEE ALSO -->

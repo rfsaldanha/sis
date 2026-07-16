@@ -137,7 +137,7 @@ DO
 DPNI
 : Departamento do Programa Nacional de Imunizações
 
-Dsei/DSEI
+DSEI
 : Distrito Sanitário Especial Indígena
 
 DTA

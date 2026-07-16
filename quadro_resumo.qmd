@@ -18,12 +18,12 @@ Síntese dos sistemas de eventos vitais, assistência e notificação abordados 
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
-| SIVEP | Sistema de Vigilância Epidemiológica | Varia; SIVEP-Gripe desde 2019 | Ficha ou registro específico de cada componente | Universal, regional ou sentinela, conforme o componente | Varia; SRAG anual e ano corrente com atualização semanal |
+| SIVEP | Sistema de Vigilância Epidemiológica | Varia; SIVEP-Gripe: 2019 | Ficha ou registro do componente | Universal, regional ou sentinela | Varia; SRAG anual e ano corrente com atualização semanal |
 | CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal, com até dois meses de defasagem |
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | União, estados, Distrito Federal e municípios | Bimestral, com consolidação do exercício no sexto bimestre |
 | SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Mensal, com até dois meses de defasagem |
-| SISAB/SISAPS | Sistemas de informação da Atenção Primária à Saúde | 2013; SISAPS/Siaps em 2025 | Equipe, estabelecimento, território, competência e indicador | APS no SUS | Mensal, conforme calendário de envio da APS |
-| SI-PNI | Sistema de Informações do Programa Nacional de Imunizações | PNI: 1973; informatização posterior | Dose, pessoa vacinada, esquema e imunobiológico | SUS e sistemas integrados à RNDS | Conforme a fonte e o fluxo de integração |
+| SISAB/SISAPS | Sistemas de informação da Atenção Primária à Saúde | 2013; Siaps: 2025 | Equipe, estabelecimento, território, competência e indicador | APS no SUS | Mensal, conforme calendário de envio da APS |
+| SI-PNI | Sistema de Informações do Programa Nacional de Imunizações | PNI: 1973; informatização posterior | Dose, pessoa, esquema e imunobiológico | SUS e sistemas integrados à RNDS | Conforme a fonte e o fluxo de integração |
 
 Síntese dos sistemas de vigilância, cadastro, gestão e atenção primária abordados no livro
 

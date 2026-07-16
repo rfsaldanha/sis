@@ -679,7 +679,7 @@ Quadro&nbsp;5.1: Características gerais do SIM
 </figure>
 </div>
 <p>O Sistema de Informação sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em <a href="eventos.html" class="quarto-xref"><span>Capítulo 4</span></a>.</p>
-<p>O SIM ocupa uma posição particular entre os sistemas nacionais porque lida com um evento vital que tem significado sanitário, jurídico, demográfico e social. Seu funcionamento depende de médicos, estabelecimentos de saúde, Institutos Médico-Legais (IML), Serviços de Verificação de Óbito (SVO), cartórios, secretarias de saúde, Dsei, Ministério da Saúde e equipes de vigilância. A qualidade final da informação depende da articulação entre esses pontos do fluxo.</p>
+<p>O SIM ocupa uma posição particular entre os sistemas nacionais porque lida com um evento vital que tem significado sanitário, jurídico, demográfico e social. Seu funcionamento depende de médicos, estabelecimentos de saúde, Institutos Médico-Legais (IML), Serviços de Verificação de Óbito (SVO), cartórios, secretarias de saúde, DSEI, Ministério da Saúde e equipes de vigilância. A qualidade final da informação depende da articulação entre esses pontos do fluxo.</p>
 </section>
 <section id="quando-usar-o-sim" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="quando-usar-o-sim"><span class="header-section-number">5.2</span> Quando usar o SIM</h2>
@@ -851,16 +851,16 @@ Quadro&nbsp;5.3: Blocos da Declaração de Óbito e usos analíticos
 <div aria-describedby="fig-sim-do-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
 <pre class="mermaid mermaid-js" data-label="fig-sim-do">flowchart TD
-  do[Declaracao de Obito] --&gt; via1[1a via]
-  do --&gt; via2[2a via]
-  do --&gt; via3[3a via]
+  do[Declaração de Óbito] --&gt; via1[1ª via]
+  do --&gt; via2[2ª via]
+  do --&gt; via3[3ª via]
 
-  via1 --&gt; sms[Secretaria Municipal de Saude]
+  via1 --&gt; sms[Secretaria Municipal de Saúde]
   sms --&gt; sim[SIM]
 
-  via2 --&gt; fam[Familia]
+  via2 --&gt; fam[Família]
   fam --&gt; rg[Registro Civil]
-  rg --&gt; cert[Certidao de Obito]
+  rg --&gt; cert[Certidão de Óbito]
 
   via3 --&gt; es[Estabelecimento ou unidade notificadora]
 </pre>
@@ -874,7 +874,7 @@ Figura&nbsp;5.1: Fluxo de emissão e destinação das vias da Declaração de Ó
 </div>
 </div>
 <p>A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via permanece arquivada no estabelecimento de saúde ou na unidade notificadora.</p>
-<p>O controle da numeração da DO é parte do controle do próprio sistema. Os formulários possuem sequência numérica única e são distribuídos pelo Ministério da Saúde às secretarias estaduais, que repassam às secretarias municipais, aos Dsei e às unidades notificadoras. A numeração reduz a possibilidade de duplicidade, extravio e fraude, além de permitir acompanhar a utilização dos formulários. Segundo o manual de preenchimento, podem receber formulários de DO estabelecimentos e serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal de saúde e cartórios apenas em localidades sem médico <span class="citation" data-cites="brasil_ms_2022_do_manual">(<a href="referencias.html#ref-brasil_ms_2022_do_manual" role="doc-biblioref">BRASIL, 2022</a>)</span>.</p>
+<p>O controle da numeração da DO é parte do controle do próprio sistema. Os formulários possuem sequência numérica única e são distribuídos pelo Ministério da Saúde às secretarias estaduais, que repassam às secretarias municipais, aos DSEI e às unidades notificadoras. A numeração reduz a possibilidade de duplicidade, extravio e fraude, além de permitir acompanhar a utilização dos formulários. Segundo o manual de preenchimento, podem receber formulários de DO estabelecimentos e serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal de saúde e cartórios apenas em localidades sem médico <span class="citation" data-cites="brasil_ms_2022_do_manual">(<a href="referencias.html#ref-brasil_ms_2022_do_manual" role="doc-biblioref">BRASIL, 2022</a>)</span>.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1035,7 +1035,7 @@ Quadro&nbsp;5.5: Diferenças entre causa básica e causas múltiplas
 <section id="codificação-pela-cid" class="level2" data-number="5.11">
 <h2 data-number="5.11" class="anchored" data-anchor-id="codificação-pela-cid"><span class="header-section-number">5.11</span> Codificação pela CID</h2>
 <p>As causas de morte são codificadas segundo a Classificação Internacional de Doenças (CID), apresentada no apêndice sobre a CID (<a href="cid.html" class="quarto-xref"><span>Apêndice B</span></a>). Em séries históricas, é importante observar mudanças de revisão da classificação, regras de codificação e agrupamentos utilizados.</p>
-<p>Na prática, as análises podem usar diferentes níveis de detalhe: (ver <a href="#qua-sim-niveis-comuns-de-analise-da-causa-de-morte" class="quarto-xref">Quadro&nbsp;<span>5.6</span></a>).</p>
+<p>Na prática, as análises podem usar diferentes níveis de detalhe, do capítulo da CID a listas e agrupamentos específicos, como distingue o <a href="#qua-sim-niveis-comuns-de-analise-da-causa-de-morte" class="quarto-xref">Quadro&nbsp;<span>5.6</span></a>.</p>
 <div id="qua-sim-niveis-comuns-de-analise-da-causa-de-morte" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sim-niveis-comuns-de-analise-da-causa-de-morte-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1477,13 +1477,13 @@ Quadro&nbsp;5.13: Indicadores operacionais para avaliar qualidade dos dados do S
 <h2 data-number="5.18" class="anchored" data-anchor-id="linha-do-tempo-do-sim"><span class="header-section-number">5.18</span> Linha do tempo do SIM</h2>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-8e3d5eb678feab559e49" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-54c58f075242aefc8fb7" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-8e3d5eb678feab559e49">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small><b>Criação do SIM<\/b><\/small>","start":"1975-01-01"},{"id":"3","content":"<small>Preenchimento da DO em três vias<\/small>","start":"1994-01-01"},{"id":"4","content":"<small>SVS passa a gerir o SIM<\/small>","start":"2003-01-01"},{"id":"5","content":"<small>Informatização do SIM<\/small>","start":"1979-01-01"},{"id":"6","content":"<small>Regulamentação da<\/br>coleta de dados<\/small>","start":"2000-08-31"},{"id":"7","content":"<small>Lei de Registros Públicos<\/small>","start":"1973-01-01"},{"id":"8","content":"<small>Centro Brasileiro de Classificação de Doenças<\/small>","start":"1976-01-01"},{"id":"9","content":"<small>Descentralização da coleta de dados<\/small>","start":"1991-01-01"},{"id":"10","content":"<small>Nova versão da DO<\/small>","start":"1998-01-01"},{"id":"11","content":"<small>Adoção da CID-10<\/small>","start":"1996-01-01"},{"id":"12","content":"<small>Regulamentação detalhada do fluxo de dados<\/small>","start":"2003-10-03"},{"id":"13","content":"<small>Vigilância de óbitos maternos<\/small>","start":"2008-01-01"},{"id":"14","content":"<small>Vigilância do óbito infantil e fetal<\/small>","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-54c58f075242aefc8fb7">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small><b>Criação do SIM<\/b><\/small>","start":"1975-01-01"},{"id":"3","content":"<small>Preenchimento da DO em três vias<\/small>","start":"1994-01-01"},{"id":"4","content":"<small>SVS passa a gerir o SIM<\/small>","start":"2003-01-01"},{"id":"5","content":"<small>Informatização do SIM<\/small>","start":"1979-01-01"},{"id":"6","content":"<small>Regulamentação da<\/br>coleta de dados<\/small>","start":"2000-08-31"},{"id":"7","content":"<small>Lei de Registros Públicos<\/small>","start":"1973-01-01"},{"id":"8","content":"<small>Centro Brasileiro de Classificação de Doenças<\/small>","start":"1976-01-01"},{"id":"9","content":"<small>Descentralização da coleta de dados<\/small>","start":"1991-01-01"},{"id":"10","content":"<small>Nova versão da DO<\/small>","start":"1998-01-01"},{"id":"11","content":"<small>Adoção da CID-10<\/small>","start":"1996-01-01"},{"id":"12","content":"<small>Regulamentação detalhada do fluxo de dados<\/small>","start":"2003-10-03"},{"id":"13","content":"<small>Vigilância de óbitos maternos<\/small>","start":"2008-01-01"},{"id":"14","content":"<small>Vigilância do óbito infantil e fetal<\/small>","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIM</p>
 </div>
 </div>
@@ -1496,7 +1496,7 @@ Quadro&nbsp;5.13: Indicadores operacionais para avaliar qualidade dos dados do S
 <p>Alguns campos são diretamente preenchidos na DO, enquanto outros são calculados, derivados, recodificados ou resultam de investigação. Em estudos reprodutíveis, é recomendável registrar o dicionário usado, a data de acesso e a versão da base.</p>
 <section id="campos-mínimos-para-inspecionar" class="level3" data-number="5.19.1">
 <h3 data-number="5.19.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">5.19.1</span> Campos mínimos para inspecionar</h3>
-<p>Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. Em análises iniciais, costuma ser útil verificar: (ver <a href="#qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim" class="quarto-xref">Quadro&nbsp;<span>5.14</span></a>).</p>
+<p>Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. O <a href="#qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim" class="quarto-xref">Quadro&nbsp;<span>5.14</span></a> reúne os campos que costumam orientar essa inspeção inicial.</p>
 <div id="qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1673,7 +1673,7 @@ Quadro&nbsp;5.16: Formas de acesso aos dados do SIM
 </tr>
 <tr class="odd">
 <td>PCDaS</td>
-<td>Uso em ambiente de notebooks e infraestrutura de dados</td>
+<td>Uso em ambiente de <em>notebooks</em> e infraestrutura de dados</td>
 </tr>
 <tr class="even">
 <td>OpenDataSUS</td>
@@ -1743,7 +1743,7 @@ Quadro&nbsp;5.16: Formas de acesso aos dados do SIM
 </section>
 <section id="pcdas" class="level3" data-number="5.20.5">
 <h3 data-number="5.20.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">5.20.5</span> PCDaS</h3>
-<p>Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.</p>
+<p>Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de <em>notebooks</em>.</p>
 <ul>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/">Dados SIM</a></li>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/">Dados SIM-DOFET</a></li>
@@ -1930,7 +1930,7 @@ Aviso
 <h2 data-number="5.25" class="anchored" data-anchor-id="sec-veja-tambem-sim"><span class="header-section-number">5.25</span> Veja também</h2>
 <ul>
 <li><p><a href="eventos.html#óbitos">Eventos de saúde — seção “Óbitos”</a>. Na edição impressa, p.&nbsp;50.</p></li>
-<li><p><a href="cid.html#mortalidade-e-morbidade">CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”</a>. Na edição impressa, p.&nbsp;382.</p></li>
+<li><p><a href="cid.html#mortalidade-e-morbidade">CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”</a>. Na edição impressa, p.&nbsp;384.</p></li>
 <li><p><a href="sinasc.html#uso-como-denominador">SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”</a>. Na edição impressa, p.&nbsp;98.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
@@ -1944,25 +1944,25 @@ BRASIL, M. DA S. <strong><a href="https://www.gov.br/saude/pt-br/centrais-de-con
 BRASIL, M. DA S. <strong><span>Sistema de Informa<span>ç</span><span>ã</span>o sobre Mortalidade – SIM</span></strong>. Disponível em: &lt;<a href="https://opendatasus.saude.gov.br/dataset/sim">https://opendatasus.saude.gov.br/dataset/sim</a>&gt;. Acesso em: 11 jun. 2026.
 </div>
 <div id="ref-brasil_svs_2009_portaria116" class="csl-entry" role="listitem">
-BRASIL, M. DA SAÚDE. S. DE V. EM S. <strong><span>Portaria n<span></span> 116, de 11 de fevereiro de 2009</span></strong>. Regulamenta a coleta de dados, fluxo e periodicidade de envio das informa<span>ç</span><span>õ</span>es sobre <span>ó</span>bitos e nascidos vivos para os Sistemas de Informa<span>ç</span><span>õ</span>es em Sa<span>ú</span>de sob gest<span>ã</span>o da Secretaria de Vigil<span>â</span>ncia em Sa<span>ú</span>de, 2009. Disponível em: &lt;<a href="https://bvsms.saude.gov.br/bvs/saudelegis/svs/2009/prt0116_11_02_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/svs/2009/prt0116_11_02_2009.html</a>&gt;. Acesso em: 11 jun. 2026
+BRASIL, M. DA SAÚDE. S. DE V. EM S. <strong><span>Portaria nº 116, de 11 de fevereiro de 2009</span></strong>. Regulamenta a coleta de dados, fluxo e periodicidade de envio das informa<span>ç</span><span>õ</span>es sobre <span>ó</span>bitos e nascidos vivos para os Sistemas de Informa<span>ç</span><span>õ</span>es em Sa<span>ú</span>de sob gest<span>ã</span>o da Secretaria de Vigil<span>â</span>ncia em Sa<span>ú</span>de, 2009. Disponível em: &lt;<a href="https://bvsms.saude.gov.br/bvs/saudelegis/svs/2009/prt0116_11_02_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/svs/2009/prt0116_11_02_2009.html</a>&gt;. Acesso em: 11 jun. 2026
 </div>
 <div id="ref-cavalcanteQualidadeDosRegistros2023" class="csl-entry" role="listitem">
 CAVALCANTE, F.; SANTANA, V. S. <a href="https://doi.org/10.1590/1414-462x202331040547"><span>Qualidade dos registros de ocupa<span>ç</span><span>ã</span>o das doen<span>ç</span>as associadas ao asbesto no sistema de informa<span>ç</span><span>ã</span>o sobre mortalidade, Brasil</span></a>. <strong>Cadernos Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 31, n. 4, p. e31040547, 2023.
 </div>
 <div id="ref-jorgeAnaliseQualidadeEstatisticas2007" class="csl-entry" role="listitem">
-JORGE, M. H. P. D. M.; LAURENTI, R.; GOTLIEB, S. L. D. <a href="https://doi.org/10.1590/S1413-81232007000300014"><span>An<span>á</span>lise da qualidade das estat<span>í</span>sticas vitais brasileiras: a experi<span>ê</span>ncia de implanta<span>ç</span><span>ã</span>o do SIM e do SINASC</span></a>. <strong>Ci<span class="nocase">ê</span>ncia &amp; Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 12, n. 3, p. 643–654, jun. 2007.
+JORGE, M. H. P. DE M.; LAURENTI, R.; GOTLIEB, S. L. D. <a href="https://doi.org/10.1590/S1413-81232007000300014"><span>An<span>á</span>lise da qualidade das estat<span>í</span>sticas vitais brasileiras: a experi<span>ê</span>ncia de implanta<span>ç</span><span>ã</span>o do SIM e do SINASC</span></a>. <strong>Ci<span class="nocase">ê</span>ncia &amp; Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 12, n. 3, p. 643–654, jun. 2007.
 </div>
 <div id="ref-reboucasAvaliacaoQualidadeSistema2025" class="csl-entry" role="listitem">
 REBOUÇAS, P. et al. <a href="https://doi.org/10.1590/1413-81232025301.08462023"><span>Avalia<span>ç</span><span>ã</span>o da qualidade do Sistema Brasileiro de Informa<span>ç</span><span>õ</span>es sobre Mortalidade (SIM): uma scoping review</span></a>. <strong>Ci<span class="nocase">ê</span>ncia &amp; Sa<span class="nocase">ú</span>de Coletiva</strong>, v. 30, n. 1, p. e08462023, jan. 2025.
 </div>
 <div id="ref-OPAS2008" class="csl-entry" role="listitem">
-RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
+RIPSA. <strong>Indicadores básicos para a saúde no <span>Brasil</span>: conceitos e aplicações</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
 </div>
 <div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
-SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: pacote para download e pr<span>é</span>-processamento de microdados do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 <div id="ref-sennaSistemaInformacoesSobre2009" class="csl-entry" role="listitem">
-SENNA, M. DE C. M. Sistema de <span>Informa<span>ç</span><span>õ</span>es</span> Sobre <span>Mortalidade</span> (<span>SIM</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+SENNA, M. DE C. M. Sistema de <span>Informa<span>ç</span><span>õ</span>es</span> Sobre <span>Mortalidade</span> (<span>SIM</span>). Em: <strong>A experi<span>ê</span>ncia brasileira em sistemas de informa<span>ç</span><span>ã</span>o em sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
 </div>
 <div id="ref-who_cause_of_death_page" class="csl-entry" role="listitem">
 WHO. <strong>Cause of death</strong>. Disponível em: &lt;<a href="https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death">https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death</a>&gt;. Acesso em: 5 jan. 2026.

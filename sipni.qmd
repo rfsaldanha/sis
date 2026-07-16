@@ -50,7 +50,7 @@ O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou S
 
 ## Como ler este capítulo
 
-Este capítulo foi escrito para quatro usos complementares: (ver @qua-sipni-formas-de-uso-do-capitulo-por-diferentes-publicos).
+O @qua-sipni-formas-de-uso-do-capitulo-por-diferentes-publicos organiza os quatro usos complementares para os quais este capítulo foi escrito.
 
 ::: {#qua-sipni-formas-de-uso-do-capitulo-por-diferentes-publicos}
 
@@ -259,7 +259,7 @@ Unidades de análise frequentes no SI-PNI
 
 ### Dose, pessoa e esquema
 
-Os indicadores mais comuns usam conceitos diferentes: (ver @qua-sipni-diferencas-entre-doses-pessoas-esquemas-e-cobertura).
+Os indicadores mais comuns usam conceitos diferentes, que o @qua-sipni-diferencas-entre-doses-pessoas-esquemas-e-cobertura distingue segundo numerador, denominador e cuidados de interpretação.
 
 ::: {#qua-sipni-diferencas-entre-doses-pessoas-esquemas-e-cobertura}
 
@@ -668,9 +668,9 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 
 - [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 51.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 397.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 399.
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 346.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 348.
 
 :::
 <!-- END GENERATED SEE ALSO -->

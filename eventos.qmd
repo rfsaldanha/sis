@@ -101,11 +101,11 @@ A dengue é um bom exemplo porque pode produzir múltiplos eventos de saúde. A 
 %%| label: fig-eventos-dengue
 flowchart LR
   sint[Sintomas] --> atend[Atendimento ambulatorial]
-  atend --> notif[Notificacao de caso suspeito]
-  notif --> invest[Investigacao e classificacao]
-  atend --> intern[Internacao hospitalar]
+  atend --> notif[Notificação de caso suspeito]
+  notif --> invest[Investigação e classificação]
+  atend --> intern[Internação hospitalar]
   intern --> alta[Alta]
-  intern --> obito[Obito]
+  intern --> obito[Óbito]
 
   atend -.-> SIA[SIA]
   notif -.-> SINAN[SINAN]
@@ -346,7 +346,7 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 66.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 157.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 159.
 
 :::
 <!-- END GENERATED SEE ALSO -->

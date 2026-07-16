@@ -553,7 +553,7 @@ Os dados do CNES podem ser acessados por consulta direta, TabNet, TabWin/DBC, Op
 | ElasticCNES | Painéis exploratórios |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
-| PCDaS | Análise em notebooks e infraestrutura de dados |
+| PCDaS | Análise em *notebooks* e infraestrutura de dados |
 
 Formas de acesso aos dados do CNES
 
@@ -621,7 +621,7 @@ A biblioteca PySUS também permite acessar dados do CNES em fluxos de análise e
 
 ### PCDaS
 
-Os dados do CNES estão disponíveis na PCDaS para acesso em ambiente de notebooks [@pedrosoDataSciencePlatform2023].
+Os dados do CNES estão disponíveis na PCDaS para acesso em ambiente de *notebooks* [@pedrosoDataSciencePlatform2023].
 
 -  [Dados CNES](https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/)
 
@@ -830,7 +830,7 @@ Antes de concluir uma análise com CNES, verifique se:
 
 - [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 113.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 302.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 304.
 
 :::
 <!-- END GENERATED SEE ALSO -->

@@ -173,7 +173,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Continuidade do cuidado]{.subject-index-term} — [RNDS: Continuidade do cuidado](rnds.html#continuidade-do-cuidado)
 :::
 ::: {.subject-index-entry}
-[Controle da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e Vigilância](sisagua.html#controle-e-vigilância)
+[Controle da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e vigilância](sisagua.html#controle-e-vigilância)
 :::
 ::: {.subject-index-entry}
 [Coqueluche]{.subject-index-term} — [SINAN: Coqueluche](sinan.html#coqueluche)
@@ -374,7 +374,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[IBGE]{.subject-index-term} — [Estimativas populacionais: IBGE -- TCU](pop.html#ibge-tcu)
+[IBGE]{.subject-index-term} — [Estimativas populacionais: IBGE — TCU](pop.html#ibge-tcu)
 :::
 ::: {.subject-index-entry}
 [Identificadores em saúde]{.subject-index-term} — [RNDS: Identificadores essenciais](rnds.html#identificadores-essenciais)
@@ -836,7 +836,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Vigilância alimentar e nutricional]{.subject-index-term} — [SISVAN](sisvan.html)
 :::
 ::: {.subject-index-entry}
-[Vigilância da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e Vigilância](sisagua.html#controle-e-vigilância)
+[Vigilância da qualidade da água]{.subject-index-term} — [SISAGUA: Controle e vigilância](sisagua.html#controle-e-vigilância)
 :::
 ::: {.subject-index-entry}
 [Vigilância do óbito]{.subject-index-term} — [SIM: Vigilância e investigação de óbitos](sim.html#vigilância-e-investigação-de-óbitos)

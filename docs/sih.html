@@ -821,16 +821,16 @@ Quadro&nbsp;7.3: Diferenças práticas entre SIH e SIA
 <div aria-describedby="fig-sih-aih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
 <pre class="mermaid mermaid-js" data-label="fig-sih-aih">flowchart TD
-  sol[Solicitacao de internacao] --&gt; aut[Autorizacao da AIH]
-  aut --&gt; int[Internacao hospitalar]
-  int --&gt; alta[Alta, transferencia ou obito]
+  sol[Solicitação de internação] --&gt; aut[Autorização da AIH]
+  aut --&gt; int[Internação hospitalar]
+  int --&gt; alta[Alta, transferência ou óbito]
   alta --&gt; fat[Faturamento da AIH]
-  fat --&gt; crit[Criticas e consistencia]
+  fat --&gt; crit[Críticas e consistência]
   crit --&gt; apr[AIH aprovada]
   crit --&gt; rej[AIH rejeitada]
   apr --&gt; rd[Arquivo RD]
   rej --&gt; rjer[Arquivos RJ/ER]
-  rd --&gt; sis[Disseminacao do SIH]
+  rd --&gt; sis[Disseminação do SIH]
 </pre>
 </div>
 </div>
@@ -1274,7 +1274,7 @@ Nota
 <p>Antes de construir indicadores, vale fazer uma inspeção simples da base: conferir tipos de variáveis, valores ausentes, códigos territoriais, datas impossíveis, diagnósticos vazios, procedimentos não esperados e totais por competência. Essa etapa costuma encontrar problemas pequenos, mas capazes de alterar séries, mapas e taxas quando passam despercebidos.</p>
 <section id="campos-mínimos-para-inspecionar" class="level3" data-number="7.13.1">
 <h3 data-number="7.13.1" class="anchored" data-anchor-id="campos-mínimos-para-inspecionar"><span class="header-section-number">7.13.1</span> Campos mínimos para inspecionar</h3>
-<p>Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. Em análises iniciais, costuma ser útil verificar: (ver <a href="#qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih" class="quarto-xref">Quadro&nbsp;<span>7.11</span></a>).</p>
+<p>Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. O <a href="#qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih" class="quarto-xref">Quadro&nbsp;<span>7.11</span></a> reúne os campos mais úteis para iniciar essa verificação.</p>
 <div id="qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1587,13 +1587,13 @@ Nota
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-892b9d184be8e84553fc" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-69229a892e2488b9c605" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-892b9d184be8e84553fc">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) em Curitiba<\/small>","start":"1981-01-01"},{"id":"3","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) no Paraná<\/small>","start":"1983-01-01"},{"id":"4","content":"<small>Sistema de Informações<\/br>Hospitalares do Sistema Único de Saúde (SIH-SUS)<\/small>","start":"1991-01-01"},{"id":"5","content":"<small>Inclusão de variáveis<\/br>socioeconômicas<\/small>","start":"1998-11-25"},{"id":"6","content":"<small>Sistema Nacional de Controle e Pagamento de<\/br>Contas Hospitalares e Guia de Internação Hospitalar<\/small>","start":"1977-01-01"},{"id":"7","content":"<small>AIH em disquete e captação descentralizada<\/small>","start":"1992-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-69229a892e2488b9c605">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) em Curitiba<\/small>","start":"1981-01-01"},{"id":"3","content":"<small>Sistema de Assistência Médico-Hospitalar<\/br>da Previdência Social (SAMHPS) no Paraná<\/small>","start":"1983-01-01"},{"id":"4","content":"<small>Sistema de Informações<\/br>Hospitalares do Sistema Único de Saúde (SIH-SUS)<\/small>","start":"1991-01-01"},{"id":"5","content":"<small>Inclusão de variáveis<\/br>socioeconômicas<\/small>","start":"1998-11-25"},{"id":"6","content":"<small>Sistema Nacional de Controle e Pagamento de<\/br>Contas Hospitalares e Guia de Internação Hospitalar<\/small>","start":"1977-01-01"},{"id":"7","content":"<small>AIH em disquete e captação descentralizada<\/small>","start":"1992-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIH</p>
 </div>
 </div>
@@ -1634,7 +1634,7 @@ Quadro&nbsp;7.16: Formas de acesso aos dados do SIH
 </tr>
 <tr class="odd">
 <td>PCDaS</td>
-<td>Uso em ambiente de notebooks e infraestrutura de dados</td>
+<td>Uso em ambiente de <em>notebooks</em> e infraestrutura de dados</td>
 </tr>
 </tbody>
 </table>
@@ -1733,7 +1733,7 @@ Quadro&nbsp;7.17: Estratégias para processamento do SIH em escala
 </section>
 <section id="pcdas" class="level3" data-number="7.17.5">
 <h3 data-number="7.17.5" class="anchored" data-anchor-id="pcdas"><span class="header-section-number">7.17.5</span> PCDaS</h3>
-<p>Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.</p>
+<p>Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de <em>notebooks</em>.</p>
 <ul>
 <li><a href="https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/">Dados SIH</a></li>
 </ul>
@@ -1966,7 +1966,7 @@ Aviso
 <ul>
 <li><p><a href="eventos.html#internações">Eventos de saúde — seção “Internações”</a>. Na edição impressa, p.&nbsp;49.</p></li>
 <li><p><a href="sia.html#sia-e-sih">SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”</a>. Na edição impressa, p.&nbsp;127.</p></li>
-<li><p><a href="cnes.html#exemplo-cnes-sih">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”</a>. Na edição impressa, p.&nbsp;217.</p></li>
+<li><p><a href="cnes.html#exemplo-cnes-sih">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”</a>. Na edição impressa, p.&nbsp;219.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 
@@ -1976,7 +1976,7 @@ Aviso
 BRASIL, M. DA S. <a href="https://bvsms.saude.gov.br/bvs/saudelegis/sas/2008/prt0221_17_04_2008.html">Portaria <span>SAS/MS</span> nº 221, de 17 de abril de 2008</a>. <strong>Diário Oficial da União</strong>, 2008.
 </div>
 <div id="ref-machadoQualidadeBasesDados2016" class="csl-entry" role="listitem">
-MACHADO, J. P.; MARTINS, M.; LEITE, I. D. C. <a href="https://doi.org/10.1590/1980-5497201600030008"><span>Qualidade das bases de dados hospitalares no Brasil: alguns elementos</span></a>. <strong>Revista Brasileira de Epidemiologia</strong>, v. 19, n. 3, p. 567–581, set. 2016.
+MACHADO, J. P.; MARTINS, M.; LEITE, I. DA C. <a href="https://doi.org/10.1590/1980-5497201600030008"><span>Qualidade das bases de dados hospitalares no Brasil: alguns elementos</span></a>. <strong>Revista Brasileira de Epidemiologia</strong>, v. 19, n. 3, p. 567–581, set. 2016.
 </div>
 <div id="ref-nedelPacoteCsapaihLista2019" class="csl-entry" role="listitem">
 NEDEL, F. B. <a href="https://doi.org/10.5123/S1679-49742019000200021">Pacote <span>csapAIH</span>: a <span>Lista Brasileira</span> de <span>Internações</span> por <span>Condições Sensíveis</span> à <span>Atenção Primária</span> no programa <span>R</span></a>. <strong>Epidemiologia e Serviços de Saúde</strong>, v. 28, n. 2, p. e2019084, 2019.
@@ -1985,13 +1985,13 @@ NEDEL, F. B. <a href="https://doi.org/10.5123/S1679-49742019000200021">Pacote <s
 <span class="nocase">PEDROSO, M. et al.</span> <strong>Data <span>Science Platform Applied</span> to <span>Health</span> in <span>Contribution</span> to the <span>Brazilian Unified Health System</span></strong>. Joint <span>Workshops</span> at 49th <span>International Conference</span> on <span>Very Large Data Bases</span> (<span>VLDBW</span>’23). <span>Workshop</span> on <span>Data Ecosystems</span> (<span>DEco</span>’23). <strong>Anais</strong>...Vancouver, Canada: 2023.
 </div>
 <div id="ref-pepeSistemaInformacoesHospitalares2009" class="csl-entry" role="listitem">
-PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalares</span> Do <span>Sistema <span>Ú</span>nico</span> de <span>Sa<span>ú</span>de</span> (<span>SIH-SUS</span>). Em: <strong>A Experi<span>ê</span>ncia Brasileira Em Sistemas de Informa<span>ç</span><span>ã</span>o Em Sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
+PEPE, V. E. Sistema de <span>Informa<span>ç</span><span>õ</span>es Hospitalares</span> do <span>Sistema <span>Ú</span>nico</span> de <span>Sa<span>ú</span>de</span> (<span>SIH-SUS</span>). Em: <strong>A experi<span>ê</span>ncia brasileira em sistemas de informa<span>ç</span><span>ã</span>o em sa<span>ú</span>de</strong>. B. <span>Textos B<span>á</span>sicos</span> de <span>Sa<span>ú</span>de</span>. Bras<span>í</span>lia: Minist<span>é</span>rio da Sa<span>ú</span>de, 2009. v. 2.
 </div>
 <div id="ref-OPAS2008" class="csl-entry" role="listitem">
-RIPSA. <strong>Indicadores B<span>á</span>sicos Para a Sa<span>ú</span>de No <span>Brasil</span>: Conceitos e Aplica<span>ç</span><span>õ</span>es</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
+RIPSA. <strong>Indicadores básicos para a saúde no <span>Brasil</span>: conceitos e aplicações</strong>. Bras<span>í</span>lia: Organiza<span>ç</span><span>ã</span>o Pan-Americana da Sa<span>ú</span>de, 2008.
 </div>
 <div id="ref-Saldanha2019a" class="csl-entry" role="listitem">
-SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: Pacote Para Download e Pr<span>é</span>-Processamento de Microdados Do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> Do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
+SALDANHA, R. F.; BASTOS, R. R.; BARCELLOS, C. <a href="https://doi.org/10.1590/0102-311x00032419">Microdatasus: pacote para download e pr<span>é</span>-processamento de microdados do <span>Departamento</span> de <span>Inform<span>á</span>tica</span> do <span>SUS</span> (<span>DATASUS</span>)</a>. <strong>Cadernos de Sa<span class="nocase">ú</span>de P<span class="nocase">ú</span>blica</strong>, v. 35, n. 9, p. 1–9, 2019.
 </div>
 </div>
 </section>

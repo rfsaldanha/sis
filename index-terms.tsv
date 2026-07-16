@@ -174,8 +174,8 @@ Rede suplementar	cnes	Rede SUS, privada, filantrópica e suplementar
 Denominadores	cnes	CNES como denominador
 SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
 Qualidade da água	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
-Controle da qualidade da água	sisagua	Controle e Vigilância
-Vigilância da qualidade da água	sisagua	Controle e Vigilância
+Controle da qualidade da água	sisagua	Controle e vigilância
+Vigilância da qualidade da água	sisagua	Controle e vigilância
 Formas de abastecimento de água	sisagua	Formas de abastecimento
 Unidade de análise	sisagua	Unidade de análise
 Potabilidade	sisagua	Parâmetros e potabilidade
@@ -238,7 +238,7 @@ Estimativas populacionais	pop	Estimativas populacionais
 Censo demográfico	pop	Censo, contagem, estimativa e projeção
 Contagem populacional	pop	Censo, contagem, estimativa e projeção
 Projeção populacional	pop	Censo, contagem, estimativa e projeção
-IBGE	pop	IBGE -- TCU
+IBGE	pop	IBGE — TCU
 Denominadores	pop	Escolha do denominador
 SIVEP — Sistema de Vigilância Epidemiológica	sivep	SIVEP -- Sistema de Vigilância Epidemiológica
 SIVEP-Gripe	sivep	SIVEP-Gripe

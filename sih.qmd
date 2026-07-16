@@ -112,16 +112,16 @@ A AIH estrutura o ciclo administrativo da internação: solicitação, autoriza�
 %%| fig-cap: "Fluxo simplificado da Autorização de Internação Hospitalar"
 %%| label: fig-sih-aih
 flowchart TD
-  sol[Solicitacao de internacao] --> aut[Autorizacao da AIH]
-  aut --> int[Internacao hospitalar]
-  int --> alta[Alta, transferencia ou obito]
+  sol[Solicitação de internação] --> aut[Autorização da AIH]
+  aut --> int[Internação hospitalar]
+  int --> alta[Alta, transferência ou óbito]
   alta --> fat[Faturamento da AIH]
-  fat --> crit[Criticas e consistencia]
+  fat --> crit[Críticas e consistência]
   crit --> apr[AIH aprovada]
   crit --> rej[AIH rejeitada]
   apr --> rd[Arquivo RD]
   rej --> rjer[Arquivos RJ/ER]
-  rd --> sis[Disseminacao do SIH]
+  rd --> sis[Disseminação do SIH]
 ```
 :::
 
@@ -309,7 +309,7 @@ Antes de construir indicadores, vale fazer uma inspeção simples da base: confe
 
 ### Campos mínimos para inspecionar
 
-Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. Em análises iniciais, costuma ser útil verificar: (ver @qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih).
+Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo, o período e o processamento. O @qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih reúne os campos mais úteis para iniciar essa verificação.
 
 ::: {#qua-sih-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sih}
 
@@ -459,7 +459,7 @@ Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objet
 | TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
-| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
 
 Formas de acesso aos dados do SIH
 
@@ -531,7 +531,7 @@ A biblioteca PySUS também permite acessar dados do SIH em fluxos de análise em
 
 ### PCDaS
 
-Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
+Os dados do SIH estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de *notebooks*.
 
 - [Dados SIH](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-hospitalares-do-sus-sihsus/)
 
@@ -640,7 +640,7 @@ Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações 
 
 - [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 127.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 217.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 219.
 
 :::
 <!-- END GENERATED SEE ALSO -->

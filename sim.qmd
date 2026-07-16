@@ -46,7 +46,7 @@ Características gerais do SIM
 
 O Sistema de Informação sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em @sec-eventos.
 
-O SIM ocupa uma posição particular entre os sistemas nacionais porque lida com um evento vital que tem significado sanitário, jurídico, demográfico e social. Seu funcionamento depende de médicos, estabelecimentos de saúde, Institutos Médico-Legais (IML), Serviços de Verificação de Óbito (SVO), cartórios, secretarias de saúde, Dsei, Ministério da Saúde e equipes de vigilância. A qualidade final da informação depende da articulação entre esses pontos do fluxo.
+O SIM ocupa uma posição particular entre os sistemas nacionais porque lida com um evento vital que tem significado sanitário, jurídico, demográfico e social. Seu funcionamento depende de médicos, estabelecimentos de saúde, Institutos Médico-Legais (IML), Serviços de Verificação de Óbito (SVO), cartórios, secretarias de saúde, DSEI, Ministério da Saúde e equipes de vigilância. A qualidade final da informação depende da articulação entre esses pontos do fluxo.
 
 ## Quando usar o SIM
 
@@ -120,23 +120,23 @@ Blocos da Declaração de Óbito e usos analíticos
 %%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito"
 %%| label: fig-sim-do
 flowchart TD
-  do[Declaracao de Obito] --> via1[1a via]
-  do --> via2[2a via]
-  do --> via3[3a via]
+  do[Declaração de Óbito] --> via1[1ª via]
+  do --> via2[2ª via]
+  do --> via3[3ª via]
 
-  via1 --> sms[Secretaria Municipal de Saude]
+  via1 --> sms[Secretaria Municipal de Saúde]
   sms --> sim[SIM]
 
-  via2 --> fam[Familia]
+  via2 --> fam[Família]
   fam --> rg[Registro Civil]
-  rg --> cert[Certidao de Obito]
+  rg --> cert[Certidão de Óbito]
 
   via3 --> es[Estabelecimento ou unidade notificadora]
 ```
 
 A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SIM. A segunda via é entregue à família para apresentação ao Registro Civil. A terceira via permanece arquivada no estabelecimento de saúde ou na unidade notificadora.
 
-O controle da numeração da DO é parte do controle do próprio sistema. Os formulários possuem sequência numérica única e são distribuídos pelo Ministério da Saúde às secretarias estaduais, que repassam às secretarias municipais, aos Dsei e às unidades notificadoras. A numeração reduz a possibilidade de duplicidade, extravio e fraude, além de permitir acompanhar a utilização dos formulários. Segundo o manual de preenchimento, podem receber formulários de DO estabelecimentos e serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal de saúde e cartórios apenas em localidades sem médico [@brasil_ms_2022_do_manual].
+O controle da numeração da DO é parte do controle do próprio sistema. Os formulários possuem sequência numérica única e são distribuídos pelo Ministério da Saúde às secretarias estaduais, que repassam às secretarias municipais, aos DSEI e às unidades notificadoras. A numeração reduz a possibilidade de duplicidade, extravio e fraude, além de permitir acompanhar a utilização dos formulários. Segundo o manual de preenchimento, podem receber formulários de DO estabelecimentos e serviços de saúde, IML, SVO, médicos cadastrados pela secretaria municipal de saúde e cartórios apenas em localidades sem médico [@brasil_ms_2022_do_manual].
 
 ::: callout-warning
 Empresas funerárias não são unidades notificadoras aptas a receber formulários de DO. O fluxo da DO deve preservar a responsabilidade médica, sanitária e cartorial sobre o documento.
@@ -236,7 +236,7 @@ Doenças crônicas, multimorbidade e condições associadas ao envelhecimento to
 
 As causas de morte são codificadas segundo a Classificação Internacional de Doenças (CID), apresentada no apêndice sobre a CID (@sec-cid). Em séries históricas, é importante observar mudanças de revisão da classificação, regras de codificação e agrupamentos utilizados.
 
-Na prática, as análises podem usar diferentes níveis de detalhe: (ver @qua-sim-niveis-comuns-de-analise-da-causa-de-morte).
+Na prática, as análises podem usar diferentes níveis de detalhe, do capítulo da CID a listas e agrupamentos específicos, como distingue o @qua-sim-niveis-comuns-de-analise-da-causa-de-morte.
 
 ::: {#qua-sim-niveis-comuns-de-analise-da-causa-de-morte}
 
@@ -438,7 +438,7 @@ Alguns campos são diretamente preenchidos na DO, enquanto outros são calculado
 
 ### Campos mínimos para inspecionar
 
-Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. Em análises iniciais, costuma ser útil verificar: (ver @qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim).
+Os nomes e a disponibilidade das variáveis podem variar conforme o arquivo e o período, por isso a estrutura do ano analisado deve ser conferida antes do processamento. O @qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim reúne os campos que costumam orientar essa inspeção inicial.
 
 ::: {#qua-sim-campos-uteis-para-uma-primeira-inspecao-dos-dados-do-sim}
 
@@ -498,7 +498,7 @@ Os dados do SIM podem ser acessados por diferentes caminhos, a depender do objet
 | TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
-| PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
+| PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
 | OpenDataSUS | Arquivos em formatos abertos, incluindo bases preliminares |
 
 Formas de acesso aos dados do SIM
@@ -568,7 +568,7 @@ A biblioteca PySUS também permite acessar dados do SIM em fluxos de análise em
 
 ### PCDaS
 
-Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de notebooks.
+Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de *notebooks*.
 
 -   [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
 -   [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
@@ -668,7 +668,7 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 - [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 50.
 
-- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 382.
+- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 384.
 
 - [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 98.
 

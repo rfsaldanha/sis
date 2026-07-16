@@ -76,7 +76,7 @@ Essa descentralização ampliou a capilaridade da produção de dados, mas tamb�
 
 ## Marcos de criação dos principais sistemas
 
-A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando mudanças nas necessidades de vigilância, assistência, financiamento e gestão. Alguns marcos ajudam a compreender a posição de cada sistema no conjunto apresentado neste livro: (ver @qua-historico-marcos-de-criacao-e-consolidacao-dos-principais-sistemas-abordados-no).
+A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando mudanças nas necessidades de vigilância, assistência, financiamento e gestão. O @qua-historico-marcos-de-criacao-e-consolidacao-dos-principais-sistemas-abordados-no reúne alguns marcos que ajudam a compreender a posição de cada sistema no conjunto apresentado neste livro.
 
 ::: {#qua-historico-marcos-de-criacao-e-consolidacao-dos-principais-sistemas-abordados-no}
 
@@ -196,7 +196,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 
 - [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 28.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 424.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 426.
 
 :::
 <!-- END GENERATED SEE ALSO -->

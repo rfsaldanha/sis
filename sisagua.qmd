@@ -99,11 +99,18 @@ O fluxo do SISAGUA combina informações de responsáveis pelo abastecimento e d
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de informação no SISAGUA"
 %%| label: fig-sisagua-fluxo
-flowchart TD
-  cad[Cadastro das formas de abastecimento] --> sis[SISAGUA]
-  ctrl[Controle pelo responsável pelo abastecimento] --> sis
-  vig[Vigilância pelo setor saúde] --> sis
-  lab[Laboratório e resultados analíticos] --> sis
+flowchart LR
+  subgraph fontes[Fontes de informação]
+    direction TB
+    cad[Cadastro das formas de abastecimento]
+    ctrl[Controle pelo responsável pelo abastecimento]
+    vig[Vigilância pelo setor saúde]
+    lab[Laboratório e resultados analíticos]
+  end
+  cad --> sis[SISAGUA]
+  ctrl --> sis
+  vig --> sis
+  lab --> sis
   sis --> rel[Relatórios, painéis e dados abertos]
   rel --> gest[Gestão de risco e ações de saúde]
 ```
@@ -165,7 +172,7 @@ Escolha inicial de bases do SISAGUA
 
 O @qua-sisagua-escolha-inicial-de-bases-do-sisagua funciona como uma triagem metodológica. Perguntas sobre cobertura começam no Cadastro; perguntas sobre cumprimento de responsabilidade operacional começam no Controle; perguntas sobre ação do setor saúde começam na Vigilância. Quando o estudo combina módulos, a etapa de integração deve preservar origem do dado, período, forma de abastecimento e parâmetro.
 
-### Controle e Vigilância
+### Controle e vigilância
 
 Controle e Vigilância são complementares, mas não intercambiáveis. O Controle é executado pelo responsável pelo abastecimento; a Vigilância é executada pelo setor saúde para verificar o atendimento à norma e avaliar risco (ver @qua-sisagua-diferencas-entre-controle-e-vigilancia-no-sisagua).
 
@@ -180,7 +187,7 @@ Controle e Vigilância são complementares, mas não intercambiáveis. O Control
 | Uso comum | Monitorar parâmetros previstos e qualidade operacional | Avaliar risco, priorizar ações e orientar intervenção |
 | Erro comum | Tratar como vigilância pública | Misturar coletas direcionadas com rotina |
 
-Diferenças entre Controle e Vigilância no SISAGUA
+Diferenças entre controle e vigilância no SISAGUA
 
 :::
 
@@ -408,7 +415,7 @@ cumprimento_amostragem
 ```
 
 ::: {.callout-note}
-O exemplo assume que o plano de amostragem esperado já foi estruturado em uma tabela auxiliar. Na prática, esse quadro deve ser derivada da norma vigente e das características da forma de abastecimento.
+O exemplo assume que o plano de amostragem esperado já foi estruturado em uma tabela auxiliar. Na prática, essa tabela deve ser derivada da norma vigente e das características da forma de abastecimento.
 :::
 
 ## Exemplo: indicador microbiológico
@@ -758,7 +765,7 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 
 - [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 218.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 220.
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 51.
 
