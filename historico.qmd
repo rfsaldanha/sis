@@ -112,7 +112,7 @@ Essa ampliação de usos exige cautela. O objetivo original de um sistema influe
 
 A trajetória dos SIS brasileiros também acompanha a transformação dos meios de registro e transmissão. Durante muitos anos, a produção dos dados dependia de formulários em papel, digitação local, envio de arquivos em mídia física ou transferência periódica por canais administrativos. Esse modelo criava intervalos entre a ocorrência do evento, sua digitação, sua consolidação nacional e sua disseminação pública.
 
-A informatização progressiva modificou esse processo. Sistemas com críticas automáticas, rotinas de validação, transmissão eletrônica e bases nacionais reduziram parte dos erros de preenchimento e aceleraram a circulação das informações. Ainda assim, a digitalização não elimina problemas de qualidade: ela muda a forma como esses problemas aparecem. Erros de codificação, duplicidades, campos incompletos, inconsistências entre sistemas e alterações de layout continuam exigindo documentação e monitoramento.
+A informatização progressiva modificou esse processo. Sistemas com críticas automáticas, rotinas de validação, transmissão eletrônica e bases nacionais reduziram parte dos erros de preenchimento e aceleraram a circulação das informações. Ainda assim, a digitalização não elimina problemas de qualidade: ela muda a forma como esses problemas aparecem. Erros de codificação, duplicidades, campos incompletos, inconsistências entre sistemas e alterações de leiaute continuam exigindo documentação e monitoramento.
 
 Mais recentemente, sistemas online e estratégias de integração passaram a criar expectativa de dados em tempo mais oportuno. Essa mudança é particularmente relevante para vigilância epidemiológica, imunizações e acompanhamento assistencial, áreas em que atrasos podem afetar respostas rápidas. Ao mesmo tempo, dados mais oportunos podem ser mais preliminares, sujeitos a revisão e menos completos que bases consolidadas posteriormente.
 
@@ -132,7 +132,7 @@ Uma característica importante da experiência brasileira é a ampla disseminaç
 
 Esse acesso público modificou a relação entre sistemas administrativos e produção de conhecimento. Bases originalmente construídas para rotinas de gestão passaram a alimentar estudos epidemiológicos, painéis de indicadores, avaliações de políticas, monitoramento de desigualdades e análises territoriais. Ferramentas computacionais criadas por comunidades de pesquisa também ampliaram a capacidade de download, pré-processamento e análise desses dados [@Saldanha2019a; @saldanhaAcessoAosDados2023].
 
-Ao mesmo tempo, o acesso aos dados exige atenção a documentação, versões, mudanças de layout, alterações de codificação, atualização retroativa de arquivos e diferenças entre dados preliminares e consolidados. A disponibilidade pública é uma potência dos SIS brasileiros, mas não elimina a necessidade de leitura crítica sobre a origem e o ciclo de vida dos registros.
+Ao mesmo tempo, o acesso aos dados exige atenção a documentação, versões, mudanças de leiaute, alterações de codificação, atualização retroativa de arquivos e diferenças entre dados preliminares e consolidados. A disponibilidade pública é uma potência dos SIS brasileiros, mas não elimina a necessidade de leitura crítica sobre a origem e o ciclo de vida dos registros.
 
 ## Integração, interoperabilidade e novos desafios
 

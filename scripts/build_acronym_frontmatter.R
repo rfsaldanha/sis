@@ -27,6 +27,46 @@ if (length(term_rows) < 100L) stop("Foram localizadas poucas siglas; verifique s
 terms <- lines[term_rows]
 descriptions <- sub("^: ", "", lines[term_rows + 1L])
 
+# Confere as siglas introduzidas entre parênteses no texto. Prefixos de
+# arquivos e nomes de variáveis são deliberadamente excluídos, conforme a
+# nota editorial de siglas.qmd.
+source_paths <- setdiff(
+  list.files(root, pattern = "\\.qmd$", full.names = TRUE),
+  source_path
+)
+source_text <- paste(vapply(source_paths, function(path) {
+  paste(readLines(path, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+}, character(1L)), collapse = "\n")
+normalize_acronym <- function(value) gsub("-", "/", value, fixed = TRUE)
+listed_acronyms <- unique(normalize_acronym(c(
+  terms,
+  unlist(strsplit(terms, "/", fixed = TRUE), use.names = FALSE)
+)))
+introduced_matches <- regmatches(
+  source_text,
+  gregexpr("\\(([A-Z][A-Z0-9/-]{1,})\\)", source_text, perl = TRUE)
+)[[1L]]
+introduced_acronyms <- if (length(introduced_matches) && !identical(introduced_matches, "-1")) {
+  normalize_acronym(substring(introduced_matches, 2L, nchar(introduced_matches) - 1L))
+} else {
+  character()
+}
+technical_identifiers <- normalize_acronym(c(
+  "CHSAMB", "CHSHOSP", "CHSOUTR", "CIINFO", "CODMUN", "CODMUNRES",
+  "DT", "LATITUDE", "LOGRADOURO", "LONGITUDE", "PESO"
+))
+missing_acronyms <- sort(setdiff(
+  unique(introduced_acronyms),
+  c(listed_acronyms, technical_identifiers)
+))
+if (length(missing_acronyms)) {
+  stop(
+    "Siglas introduzidas no texto sem entrada na lista: ",
+    paste(missing_acronyms, collapse = ", "), ".",
+    call. = FALSE
+  )
+}
+
 latex_text <- function(x) {
   x <- gsub("\\*([^*]+)\\*", "\u0001\\1\u0002", x, perl = TRUE)
   x <- gsub("\\", "\\textbackslash{}", x, fixed = TRUE)

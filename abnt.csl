@@ -161,6 +161,15 @@ do autor. Na regra da ABNT o sobrenome deve aparecer com todas as letras em caix
       <date-part name="year"/>
     </date>
   </macro>
+  <macro name="web-publication">
+    <group delimiter=", ">
+      <group delimiter=": ">
+        <text variable="publisher-place"/>
+        <text variable="publisher"/>
+      </group>
+      <text macro="issued"/>
+    </group>
+  </macro>
   <!--A macro 'title' e responsavel por mostrar o titulo principal do arquivo. Em todos os tipos ele aparecera em negrito logo apos os nomes dos
 autores, exceto em arquivos do tipo 'artigo de jornal, artigo de revista, artigo de periodico', nesses arquivos eles irao aparecer em fonte normal.-->
   <macro name="title">
@@ -477,6 +486,14 @@ em caixa alta. Utiliza-se antes do nome da conferencia a expressao "In". Segundo
             <!--Dados complementares "pagina, volume"-->
             <text macro="issued" suffix=". "/>
             <!--Data-->
+            <choose>
+              <if variable="DOI">
+                <text variable="DOI" prefix="DOI: https://doi.org/" suffix="."/>
+              </if>
+              <else>
+                <text macro="access" suffix="."/>
+              </else>
+            </choose>
           </group>
         </else-if>
         <!--Tese-->

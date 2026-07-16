@@ -354,10 +354,10 @@ Exemplos de eventos e sistemas para análise de dengue
 
 O @qua-organizacao-exemplos-de-eventos-e-sistemas-para-analise-de-dengue mostra que a escolha do sistema muda quando a pergunta muda. O SINAN aproxima a vigilância de casos suspeitos e confirmados; o SIH capta internações financiadas pelo SUS; o SIM permite estudar óbitos; o SIA registra procedimentos ambulatoriais; e o CNES descreve a estrutura de serviços envolvida. Nenhuma dessas fontes, isoladamente, esgota o fenômeno dengue.
 
-Esse raciocínio vale para outros temas. Acidentes de trânsito, COVID-19, agravos relacionados ao trabalho, saúde materno-infantil e doenças crônicas podem aparecer em múltiplos SIS, cada um registrando um aspecto diferente do fenômeno. A análise mais robusta é aquela que declara qual aspecto está sendo medido e por que a fonte escolhida é adequada.
+Esse raciocínio vale para outros temas. Acidentes de trânsito, Covid-19, agravos relacionados ao trabalho, saúde materno-infantil e doenças crônicas podem aparecer em múltiplos SIS, cada um registrando um aspecto diferente do fenômeno. A análise mais robusta é aquela que declara qual aspecto está sendo medido e por que a fonte escolhida é adequada.
 
 ::: {.callout-warning}
-Erros comuns ao utilizar SIS incluem tratar AIH como pessoa única, contar notificações do SINAN como casos confirmados sem filtrar a classificação final, usar SIH e SIA como se representassem toda a assistência pública e privada do país, ignorar município de residência versus município de atendimento, comparar bases preliminares com bases consolidadas sem cautela e desconsiderar mudanças de layout ou definição ao longo do tempo.
+Erros comuns ao utilizar SIS incluem tratar AIH como pessoa única, contar notificações do SINAN como casos confirmados sem filtrar a classificação final, usar SIH e SIA como se representassem toda a assistência pública e privada do país, ignorar município de residência versus município de atendimento, comparar bases preliminares com bases consolidadas sem cautela e desconsiderar mudanças de leiaute ou definição ao longo do tempo.
 :::
 
 O capítulo a seguir detalha o que são eventos de saúde e como eles se relacionam com os principais SIS.

@@ -459,7 +459,7 @@ A qualidade do SISAGUA depende de cadastro atualizado, oportunidade do registro,
 | Parâmetros | Unidade, método e resultado coerentes |
 | Duplicidade | Amostras ou cadastros repetidos |
 | Oportunidade | Coleta, resultado e digitação em tempo adequado |
-| Origem do dado | Controle, vigilância, integração laboratorial ou webservice identificados |
+| Origem do dado | Controle, vigilância, integração laboratorial ou serviço web identificados |
 
 Dimensões de qualidade relevantes no SISAGUA
 
@@ -568,7 +568,7 @@ Formas de acesso e integração do SISAGUA
 
 :::
 
-A forma de acesso deve ser escolhida conforme a finalidade. Painéis e relatórios são úteis para acompanhamento e inspeção rápida; dados abertos são mais adequados para reprodutibilidade; webservices e integrações laboratoriais apoiam o fluxo operacional. Em todos os casos, registre a data de extração e o dicionário usado, porque nomes de campos e formatos podem mudar.
+A forma de acesso deve ser escolhida conforme a finalidade. Painéis e relatórios são úteis para acompanhamento e inspeção rápida; dados abertos são mais adequados para reprodutibilidade; serviços web e integrações laboratoriais apoiam o fluxo operacional. Em todos os casos, registre a data de extração e o dicionário usado, porque nomes de campos e formatos podem mudar.
 
 -  [SISAGUA - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
 -  [Vigiagua - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
@@ -719,7 +719,7 @@ Uma análise do SISAGUA deve registrar as decisões que afetam módulo, norma, p
 | Norma | Versão da regra de potabilidade usada |
 | Denominador | Amostras, população abastecida, população residente ou formas cadastradas |
 | Ausentes | Como foram tratados amostras ausentes, resultados vazios e abaixo do limite |
-| Origem | Controle, Vigilância, GAL, webservice ou digitação |
+| Origem | Controle, Vigilância, GAL, serviço web ou digitação |
 
 Itens mínimos para reprodutibilidade em análises do SISAGUA
 
@@ -765,7 +765,7 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 
 - [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 222.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 221.
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 53.
 

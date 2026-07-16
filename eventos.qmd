@@ -131,7 +131,7 @@ Eventos relacionados à dengue e seus sistemas de registro
 
 A leitura do @qua-eventos-eventos-relacionados-a-dengue-e-seus-sistemas-de-registro mostra por que séries de dengue produzidas a partir de sistemas diferentes podem ter formatos e magnitudes diferentes. Uma curva de notificações costuma ser mais sensível à busca por atendimento, à organização da vigilância e à atualização de definições de caso. Uma curva de internações se aproxima mais da pressão sobre a rede hospitalar. Uma curva de óbitos privilegia o desfecho mais grave e depende da qualidade da informação de mortalidade. Essas curvas podem dialogar entre si, mas não substituem umas às outras.
 
-O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, COVID-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas. Em todos esses casos, o evento registrado delimita o que pode ser afirmado com segurança.
+O mesmo raciocínio pode ser usado para acidentes de trânsito, violência, Covid-19, tuberculose, doenças crônicas, saúde materno-infantil e outros temas. Em todos esses casos, o evento registrado delimita o que pode ser afirmado com segurança.
 
 ## Exemplo integrado: acidente de trânsito
 

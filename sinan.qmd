@@ -74,7 +74,7 @@ O @qua-sinan-perguntas-comuns-que-podem-ser-respondidas-com-o-sinan organiza per
 
 ## Histórico e organização
 
-O SINAN é responsável por coletar, transmitir e disseminar dados sobre doenças, agravos e eventos de saúde pública cuja notificação é compulsória em território nacional. A [lista nacional de notificação compulsória](https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria) é atualizada conforme mudanças no cenário epidemiológico, risco de surto ou epidemia, magnitude, gravidade, transcendência e vulnerabilidade. Em 2026, a lista foi atualizada pela [Portaria GM/MS nº 10.175, de 23 de janeiro de 2026](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt10175_26_01_2026.html), incluindo anomalias congênitas.
+O SINAN é responsável por coletar, transmitir e disseminar dados sobre doenças, agravos e eventos de saúde pública cuja notificação é compulsória em território nacional. A [lista nacional de notificação compulsória](https://www.gov.br/saude/pt-br/composicao/svsa/notificacao-compulsoria) é atualizada conforme mudanças no cenário epidemiológico, risco de surto ou epidemia, magnitude, gravidade, transcendência e vulnerabilidade. Em janeiro de 2026, a [Portaria GM/MS nº 10.175](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt10175_26_01_2026.html) incluiu as anomalias congênitas [@brasilPortaria101752026]. Em maio, a [Portaria GM/MS nº 11.211](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt11211_14_05_2026.html) promoveu nova atualização, incluindo caxumba e febre Oropouche, retirando a Covid-19 e alterando nomenclaturas e periodicidades [@brasilPortaria112112026]. Como esse conteúdo é dinâmico, análises devem registrar a norma vigente e a data de consulta.
 
 A lista inclui doenças transmissíveis, doenças imunopreveníveis, agravos relacionados ao trabalho, acidentes por animais peçonhentos, violências, eventos adversos, óbitos de interesse da vigilância, emergências de saúde pública e outros eventos que exigem resposta oportuna.
 
@@ -120,7 +120,7 @@ O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a v
 
 | Sistema ou módulo | Uso principal | Cuidado analítico |
 |---|---|---|
-| SINAN NET | Notificação e investigação de agravos com fichas padronizadas | Layouts e rotinas podem variar por agravo |
+| SINAN NET | Notificação e investigação de agravos com fichas padronizadas | Leiautes e rotinas podem variar por agravo |
 | SINAN Online | Registros on-line de agravos específicos | Nem todo agravo está no mesmo módulo |
 | e-SUS SINAN | Modernização do registro e notificação on-line | Transição pode gerar mudanças de fluxo e estrutura |
 | OpenDataSUS | Bases abertas de alguns agravos | Campos, periodicidade e atualização variam por base |
@@ -129,7 +129,7 @@ Versões e formas de disseminação relacionadas ao SINAN
 
 :::
 
-A coexistência de versões e canais de disseminação cria uma camada adicional de interpretação. Quando uma série histórica atravessa mudanças de sistema ou de forma de acesso, diferenças no número de registros podem refletir tanto mudanças epidemiológicas quanto alterações operacionais. Por isso, comparações temporais devem registrar a origem da base, o layout usado e eventuais mudanças de fluxo no período.
+A coexistência de versões e canais de disseminação cria uma camada adicional de interpretação. Quando uma série histórica atravessa mudanças de sistema ou de forma de acesso, diferenças no número de registros podem refletir tanto mudanças epidemiológicas quanto alterações operacionais. Por isso, comparações temporais devem registrar a origem da base, o leiaute usado e eventuais mudanças de fluxo no período.
 
 O Ministério da Saúde mantém uma página sobre o [SINAN](https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan) e uma plataforma específica do [e-SUS SINAN](https://plataforma.saude.gov.br/esussinan/).
 
@@ -1031,7 +1031,7 @@ Formas de acesso aos dados do SINAN
 
 :::
 
-As formas de acesso diferem em atualização, granularidade, facilidade de uso e rastreabilidade. TabNet é adequado para consulta rápida, mas limita reprodutibilidade e controle fino dos filtros. Microdados em R, Python, OpenDataSUS ou DBC permitem maior transparência metodológica, desde que o analista documente data de acesso, layout, filtros, versão do script e transformação aplicada.
+As formas de acesso diferem em atualização, granularidade, facilidade de uso e rastreabilidade. TabNet é adequado para consulta rápida, mas limita reprodutibilidade e controle fino dos filtros. Microdados em R, Python, OpenDataSUS ou DBC permitem maior transparência metodológica, desde que o analista documente data de acesso, leiaute, filtros, versão do script e transformação aplicada.
 
 ### TabNet
 
@@ -1045,7 +1045,7 @@ Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar 
 
 - [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
-Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, data de acesso e versão do script de leitura. Como os layouts variam por agravo, guarde também o dicionário de dados usado.
+Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, data de acesso e versão do script de leitura. Como os leiautes variam por agravo, guarde também o dicionário de dados usado.
 
 ### R
 
@@ -1209,7 +1209,7 @@ Ao utilizar o SINAN, alguns cuidados são recorrentes:
 
 - Distinguir notificação, caso suspeito, caso confirmado, caso descartado e caso encerrado;
 - Usar a definição de caso vigente no período analisado;
-- Documentar agravo, ficha, versão do layout e forma de acesso;
+- Documentar agravo, ficha, versão do leiaute e forma de acesso;
 - Separar data de sintomas, data de notificação, data de digitação e data de encerramento;
 - Escolher residência, provável infecção ou notificação conforme a pergunta;
 - Avaliar duplicidades e reinfecções quando a análise for individual;

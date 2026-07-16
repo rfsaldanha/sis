@@ -368,7 +368,7 @@ Antes de concluir uma análise, verifique se:
 
 - [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 136.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 225.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 224.
 
 - [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 466.
 

@@ -10,9 +10,9 @@ A vigilância da influenza no Brasil foi implantada em 2000, inicialmente voltad
 
 Entre 2009 e 2018, o sistema oficial para registro de casos e óbitos por SRAG era o Sinan Web Influenza. A partir de 2019, o SIVEP-Gripe passou a ser o sistema oficial para esse registro [@dadosabertosSRAG20092012].
 
-Com a pandemia de COVID-19, a vigilância dos vírus respiratórios foi ampliada. Casos leves e moderados de COVID-19 passaram a ser monitorados por outros fluxos, como o e-SUS Notifica, enquanto os casos de SRAG hospitalizados suspeitos de COVID-19 e os óbitos por SRAG, independentemente de hospitalização, devem ser registrados no SIVEP-Gripe [@ministeriodasaudeDiretrizesRespiratorios2025].
+Com a pandemia de Covid-19, a vigilância dos vírus respiratórios foi ampliada. Casos leves e moderados de Covid-19 passaram a ser monitorados por outros fluxos, como o e-SUS Notifica, enquanto os casos de SRAG hospitalizados suspeitos de Covid-19 e os óbitos por SRAG, independentemente de hospitalização, devem ser registrados no SIVEP-Gripe [@ministeriodasaudeDiretrizesRespiratorios2025].
 
-O SIVEP-Gripe é, portanto, uma fonte central para analisar hospitalizações e óbitos por SRAG, incluindo influenza, COVID-19 e outros vírus respiratórios. Ele não deve ser tratado como uma base de todos os casos respiratórios leves nem como substituto direto dos sistemas usados para síndrome gripal.
+O SIVEP-Gripe é, portanto, uma fonte central para analisar hospitalizações e óbitos por SRAG, incluindo influenza, Covid-19 e outros vírus respiratórios. Ele não deve ser tratado como uma base de todos os casos respiratórios leves nem como substituto direto dos sistemas usados para síndrome gripal.
 
 ### Acesso aos dados
 

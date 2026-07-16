@@ -42,7 +42,7 @@ ANS
 : Agência Nacional de Saúde Suplementar
 
 AP
-: Autorização de Procedimento Ambulatorial; em referências territoriais, Amapá
+: Autorização de Procedimento Ambulatorial
 
 APAC
 : Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo
@@ -71,6 +71,9 @@ CADSUS
 CBO
 : Classificação Brasileira de Ocupações
 
+CIB
+: Comissão Intergestores Bipartite
+
 CDS
 : Coleta de Dados Simplificada
 
@@ -86,13 +89,19 @@ CID-10
 CID-11
 : Décima primeira revisão da Classificação Internacional de Doenças
 
+CIR
+: Comissão Intergestores Regional
+
+CIT
+: Comissão Intergestores Tripartite
+
 CNES
 : Cadastro Nacional de Estabelecimentos de Saúde
 
 CNS
 : Cartão Nacional de Saúde
 
-Covid-19/COVID-19
+Covid-19
 : Doença por coronavírus de 2019; a sigla deriva do inglês *coronavirus disease 2019*
 
 CPF
@@ -306,7 +315,7 @@ OMS
 : Organização Mundial da Saúde
 
 PA
-: Procedimentos ambulatoriais nos arquivos do SIA; em referências territoriais, Pará
+: Procedimentos ambulatoriais nos arquivos do SIA
 
 PAIR
 : Perda Auditiva Induzida por Ruído relacionada ao trabalho
@@ -332,6 +341,9 @@ PNAD
 PNI
 : Programa Nacional de Imunizações
 
+PNIIS
+: Política Nacional de Informação e Informática em Saúde
+
 PNS
 : Pesquisa Nacional de Saúde
 
@@ -340,6 +352,9 @@ POP
 
 PRC/MS
 : Portaria de Consolidação do Ministério da Saúde
+
+PRI
+: Planejamento Regional Integrado
 
 PSE
 : Programa Saúde na Escola
@@ -370,6 +385,9 @@ RIRA
 
 RNDS
 : Rede Nacional de Dados em Saúde
+
+RNIS
+: Rede Nacional de Informações em Saúde
 
 RNVe
 : Registro Nominal de Vacinação Eletrônico
@@ -466,6 +484,9 @@ SIVEP-Gripe
 
 SIVEP-Malária
 : Sistema de Vigilância Epidemiológica da Malária
+
+SNCD
+: Sistema de Notificação Compulsória de Doenças
 
 SNCPCH
 : Sistema Nacional de Controle de Pagamento de Contas Hospitalares

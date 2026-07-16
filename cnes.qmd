@@ -172,7 +172,7 @@ O @qua-cnes-escolha-inicial-de-arquivos-do-cnes funciona como uma triagem inicia
 
 ## Estrutura dos dados
 
-Os dados do CNES são distribuídos em famílias de arquivos por competência, UF e módulo cadastral. O documento de [estrutura do CNES](assets/cnes/IT_CNES_1706.pdf) descreve variáveis e layouts disponíveis (ver @qua-cnes-prefixos-comuns-dos-arquivos-do-cnes).
+Os dados do CNES são distribuídos em famílias de arquivos por competência, UF e módulo cadastral. O documento de [estrutura do CNES](assets/cnes/IT_CNES_1706.pdf) descreve variáveis e leiautes disponíveis (ver @qua-cnes-prefixos-comuns-dos-arquivos-do-cnes).
 
 ::: {#qua-cnes-prefixos-comuns-dos-arquivos-do-cnes}
 
@@ -241,11 +241,11 @@ Variáveis e dimensões prioritárias para inspeção inicial
 
 :::
 
-O dicionário mínimo mostra que o mesmo identificador, `CNES`, aparece em várias camadas, mas o restante dos campos muda conforme o arquivo. Por isso, a análise deve registrar quais variáveis foram extraídas de cada fonte e quais filtros foram aplicados. Em especial, campos de vínculo SUS, tipo de recurso e carga horária precisam ser tratados conforme o layout específico.
+O dicionário mínimo mostra que o mesmo identificador, `CNES`, aparece em várias camadas, mas o restante dos campos muda conforme o arquivo. Por isso, a análise deve registrar quais variáveis foram extraídas de cada fonte e quais filtros foram aplicados. Em especial, campos de vínculo SUS, tipo de recurso e carga horária precisam ser tratados conforme o leiaute específico.
 
 ### Série histórica
 
-Em análises temporais, use a competência como eixo principal. Estabelecimentos podem abrir, fechar, mudar de município, tipo, gestão, natureza jurídica, serviços, habilitações e leitos. Para comparar séries, documente mudanças de layout e classificações. @coelhoAnaliseClarezaMetodologica2024 destacam, por exemplo, mudanças documentais e de clareza metodológica relevantes para interpretar formas de contratação e classificações do CNES.
+Em análises temporais, use a competência como eixo principal. Estabelecimentos podem abrir, fechar, mudar de município, tipo, gestão, natureza jurídica, serviços, habilitações e leitos. Para comparar séries, documente mudanças de leiaute e classificações. @coelhoAnaliseClarezaMetodologica2024 destacam, por exemplo, mudanças documentais e de clareza metodológica relevantes para interpretar formas de contratação e classificações do CNES.
 
 ## Estabelecimentos em série histórica
 
