@@ -114,15 +114,15 @@ Esse fluxo reforça que o SINAN é uma base dinâmica. Dependendo do agravo e do
 
 ## SINAN NET, SINAN Online e e-SUS SINAN
 
-O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a versão usada para grande parte dos agravos; o SINAN Online permanece associado a alguns fluxos, como dengue e chikungunya; e o e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos (ver @qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan).
+O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a versão usada para grande parte dos agravos; o SINAN *Online* permanece associado a alguns fluxos, como dengue e chikungunya; e o e-SUS SINAN moderniza o registro, com formulários *on-line* e integração progressiva de agravos (ver @qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan).
 
 ::: {#qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan}
 
 | Sistema ou módulo | Uso principal | Cuidado analítico |
 |---|---|---|
 | SINAN NET | Notificação e investigação de agravos com fichas padronizadas | Leiautes e rotinas podem variar por agravo |
-| SINAN Online | Registros on-line de agravos específicos | Nem todo agravo está no mesmo módulo |
-| e-SUS SINAN | Modernização do registro e notificação on-line | Transição pode gerar mudanças de fluxo e estrutura |
+| SINAN *Online* | Registros *on-line* de agravos específicos | Nem todo agravo está no mesmo módulo |
+| e-SUS SINAN | Modernização do registro e notificação *on-line* | Transição pode gerar mudanças de fluxo e estrutura |
 | OpenDataSUS | Bases abertas de alguns agravos | Campos, periodicidade e atualização variam por base |
 
 Versões e formas de disseminação relacionadas ao SINAN

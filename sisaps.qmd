@@ -77,7 +77,7 @@ O SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, c
 
 A partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde.
 
-Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o SISAPS/Siaps.
+Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. A Portaria GM/MS nº 7.639/2025 definiu o Siaps como sistema vigente para financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica e estabeleceu a substituição gradual dos sistemas anteriores [@brasilPortaria76392025]. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o SISAPS/Siaps.
 
 ## Arquitetura da informação
 
@@ -718,7 +718,7 @@ Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 224.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 100.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 99.
 
 :::
 <!-- END GENERATED SEE ALSO -->

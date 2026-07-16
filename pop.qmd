@@ -145,7 +145,7 @@ Razões comuns para discrepâncias entre estimativas
 
 :::
 
-[Este aplicativo on-line](https://shiny.icict.fiocruz.br/brpopview/) permite comparar graficamente estimativas populacionais nos municípios brasileiros.
+[Este aplicativo *on-line*](https://shiny.icict.fiocruz.br/brpopview/) permite comparar graficamente estimativas populacionais nos municípios brasileiros.
 
 ## Exemplo de indicador
 
