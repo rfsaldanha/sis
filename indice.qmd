@@ -464,6 +464,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
+[Macrorregião de Saúde]{.subject-index-term} — [Códigos dos municípios: Regionalização em saúde](codmun.html#regionalização-em-saúde)
+:::
+::: {.subject-index-entry}
 [Malária]{.subject-index-term} — [SINAN: Malária](sinan.html#malária)
 :::
 ::: {.subject-index-entry}
@@ -622,6 +625,12 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [Rede SUS]{.subject-index-term} — [CNES: Rede SUS, privada, filantrópica e suplementar](cnes.html#rede-sus-privada-filantrópica-e-suplementar)
+:::
+::: {.subject-index-entry}
+[Região de Saúde]{.subject-index-term} — [Códigos dos municípios: Regionalização em saúde](codmun.html#regionalização-em-saúde)
+:::
+::: {.subject-index-entry}
+[Regionalização em saúde]{.subject-index-term} — [Códigos dos municípios: Regionalização em saúde](codmun.html#regionalização-em-saúde)
 :::
 ::: {.subject-index-entry}
 [Registro]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)

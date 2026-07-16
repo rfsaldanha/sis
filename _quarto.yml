@@ -1,7 +1,9 @@
 project:
   type: book
   output-dir: docs
-  pre-render: Rscript scripts/build_acronym_frontmatter.R
+  pre-render:
+    - Rscript scripts/build_acronym_frontmatter.R
+    - Rscript scripts/build_subject_index.R build . index-terms.tsv
   resources:
     - podcast/introducao_dialogo_eleven_v3.mp3
     - podcast/introducao.md
