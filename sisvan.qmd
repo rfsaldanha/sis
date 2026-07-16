@@ -113,11 +113,11 @@ Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e N
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sisvan}
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 292.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 303.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 95.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 100.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 385.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 399.
 
 :::
 <!-- END GENERATED SEE ALSO -->

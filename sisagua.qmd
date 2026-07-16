@@ -758,7 +758,7 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 
 - [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 35.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 213.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 220.
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 53.
 

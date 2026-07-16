@@ -344,9 +344,9 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 
 - [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 39.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 66.
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 68.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 153.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 159.
 
 :::
 <!-- END GENERATED SEE ALSO -->

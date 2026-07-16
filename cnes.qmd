@@ -828,9 +828,9 @@ Antes de concluir uma análise com CNES, verifique se:
 
 - [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 32.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 109.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 115.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 293.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 304.
 
 :::
 <!-- END GENERATED SEE ALSO -->
