@@ -182,7 +182,7 @@ Cuidados frequentes ao usar códigos CID
 
 :::
 
-O @qua-cid-cuidados-frequentes-ao-usar-codigos-cid sintetiza os elementos discutidos. Em síntese, a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.
+Os cuidados reunidos no @qua-cid-cuidados-frequentes-ao-usar-codigos-cid reforçam que a CID é uma infraestrutura de comparabilidade. Seu valor analítico depende menos do código isolado e mais da combinação entre revisão, campo, sistema de origem, regra de codificação e nível de agregação.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->

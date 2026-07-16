@@ -21,7 +21,7 @@ Em seguida, cada sistema é descrito com foco em quatro perguntas práticas:
 - Como os dados são coletados, processados e disseminados?
 - Que usos, cuidados e limitações devem ser considerados na análise?
 
-# Como citar este material?
+# Como citar
 
 > SALDANHA, Raphael de Freitas. *Sistemas de Informação em Saúde no Brasil*. Rio de Janeiro: Edição do autor, 2026. ISBN 978-65-01-37841-1. Disponível em: <https://rfsaldanha.github.io/sis/>.
 

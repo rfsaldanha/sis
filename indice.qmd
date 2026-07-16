@@ -22,16 +22,16 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Acidentes de trânsito]{.subject-index-term} — [SIM: Exemplo: acidentes de trânsito](sim.html#exemplo-acidentes-de-trânsito)
 :::
 ::: {.subject-index-entry}
-[Acidentes por animais peçonhentos]{.subject-index-term} — [SINAN: Acidentes por Animais Peçonhentos](sinan.html#acidentes-por-animais-peçonhentos)
+[Acidentes por animais peçonhentos]{.subject-index-term} — [SINAN: Acidentes por animais peçonhentos](sinan.html#acidentes-por-animais-peçonhentos)
 :::
 ::: {.subject-index-entry}
 [Ações e Serviços Públicos de Saúde (ASPS)]{.subject-index-term} — [SIOPS: ASPS e aplicação mínima](siops.html#asps-e-aplicação-mínima)
 :::
 ::: {.subject-index-entry}
-[Aids em adultos]{.subject-index-term} — [SINAN: AIDS em adultos](sinan.html#aids-em-adultos)
+[Aids em adultos]{.subject-index-term} — [SINAN: Aids em adultos](sinan.html#aids-em-adultos)
 :::
 ::: {.subject-index-entry}
-[Aids em crianças]{.subject-index-term} — [SINAN: AIDS em crianças](sinan.html#aids-em-crianças)
+[Aids em crianças]{.subject-index-term} — [SINAN: Aids em crianças](sinan.html#aids-em-crianças)
 :::
 ::: {.subject-index-entry}
 [AIH]{.subject-index-term} — [SIH/SUS: AIH, internação e pessoa](sih.html#aih-internação-e-pessoa)
@@ -196,7 +196,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Dados individualizados]{.subject-index-term} — [SI-PNI: Privacidade e dados individualizados](sipni.html#privacidade-e-dados-individualizados)
 :::
 ::: {.subject-index-entry}
-[DataSUS]{.subject-index-term} — [Histórico: O Departamento de Informática do SUS -- DataSUS](historico.html#o-departamento-de-informática-do-sus-datasus)
+[DATASUS]{.subject-index-term} — [Histórico: O Departamento de Informática do SUS -- DATASUS](historico.html#o-departamento-de-informática-do-sus-datasus)
 :::
 ::: {.subject-index-entry}
 [Declaração de Nascido Vivo (DNV)]{.subject-index-term} — [SINASC: Fluxo da Declaração de Nascido Vivo](sinasc.html#fluxo-da-declaração-de-nascido-vivo)
@@ -244,7 +244,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Doenças, agravos e eventos de saúde]{.subject-index-term} — [Organização dos SIS: Doenças, agravos e eventos de saúde](organizacao.html#doenças-agravos-e-eventos-de-saúde)
 :::
 ::: {.subject-index-entry}
-[Doenças exantemáticas]{.subject-index-term} — [SINAN: Doenças Exantemáticas](sinan.html#doenças-exantemáticas)
+[Doenças exantemáticas]{.subject-index-term} — [SINAN: Doenças exantemáticas](sinan.html#doenças-exantemáticas)
 :::
 ::: {.subject-index-entry}
 [Doenças transmitidas por alimentos]{.subject-index-term} — [SINAN: Surto de doenças transmitidas por alimentos](sinan.html#surto-de-doenças-transmitidas-por-alimentos)
@@ -279,7 +279,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Esferas federativas]{.subject-index-term} — [SIOPS: Esferas federativas e responsabilidades](siops.html#esferas-federativas-e-responsabilidades)
 :::
 ::: {.subject-index-entry}
-[Esporotricose]{.subject-index-term} — [SINAN: Esporotricose (Epizootia)](sinan.html#esporotricose-epizootia)
+[Esporotricose]{.subject-index-term} — [SINAN: Esporotricose (epizootia)](sinan.html#esporotricose-epizootia)
 :::
 ::: {.subject-index-entry}
 [Esquema vacinal]{.subject-index-term} — [SI-PNI: Dose, pessoa e esquema](sipni.html#dose-pessoa-e-esquema)
@@ -302,16 +302,16 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[Febre amarela]{.subject-index-term} — [SINAN: Febre Amarela](sinan.html#febre-amarela)
+[Febre amarela]{.subject-index-term} — [SINAN: Febre amarela](sinan.html#febre-amarela)
 :::
 ::: {.subject-index-entry}
-[Febre maculosa]{.subject-index-term} — [SINAN: Febre Maculosa](sinan.html#febre-maculosa)
+[Febre maculosa]{.subject-index-term} — [SINAN: Febre maculosa](sinan.html#febre-maculosa)
 :::
 ::: {.subject-index-entry}
 [Febre Oropouche]{.subject-index-term} — [SINAN: Febre Oropouche](sinan.html#febre-oropouche)
 :::
 ::: {.subject-index-entry}
-[Febre tifoide]{.subject-index-term} — [SINAN: Febre Tifóide](sinan.html#febre-tifóide)
+[Febre tifoide]{.subject-index-term} — [SINAN: Febre tifoide](sinan.html#febre-tifoide)
 :::
 ::: {.subject-index-entry}
 [FHIR]{.subject-index-term} — [RNDS: FHIR, terminologias e semântica](rnds.html#fhir-terminologias-e-semântica)
@@ -354,10 +354,10 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Hantavirose]{.subject-index-term} — [SINAN: Hantavirose](sinan.html#hantavirose)
 :::
 ::: {.subject-index-entry}
-[Hepatites virais]{.subject-index-term} — [SINAN: Hepatites Virais](sinan.html#hepatites-virais)
+[Hepatites virais]{.subject-index-term} — [SINAN: Hepatites virais](sinan.html#hepatites-virais)
 :::
 ::: {.subject-index-entry}
-[Herpes-zóster]{.subject-index-term} — [SINAN: Varicela / Herpes-Zóster](sinan.html#varicela-herpes-zóster)
+[Herpes-zóster]{.subject-index-term} — [SINAN: Varicela/herpes-zóster](sinan.html#varicelaherpes-zóster)
 :::
 ::: {.subject-index-entry}
 [HIV em adultos]{.subject-index-term} — [SINAN: HIV em adultos](sinan.html#hiv-em-adultos)
@@ -425,7 +425,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Interoperabilidade técnica]{.subject-index-term} — [Interoperabilidade: O que é interoperabilidade](interoperabilidade.html#o-que-é-interoperabilidade)
 :::
 ::: {.subject-index-entry}
-[Intoxicação exógena]{.subject-index-term} — [SINAN: Intoxicação Exógena](sinan.html#intoxicação-exógena)
+[Intoxicação exógena]{.subject-index-term} — [SINAN: Intoxicação exógena](sinan.html#intoxicação-exógena)
 :::
 ::::
 
@@ -441,10 +441,10 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[Leishmaniose tegumentar americana]{.subject-index-term} — [SINAN: Leishmaniose Tegumentar Americana](sinan.html#leishmaniose-tegumentar-americana)
+[Leishmaniose tegumentar americana]{.subject-index-term} — [SINAN: Leishmaniose tegumentar americana](sinan.html#leishmaniose-tegumentar-americana)
 :::
 ::: {.subject-index-entry}
-[Leishmaniose visceral]{.subject-index-term} — [SINAN: Leishmaniose Visceral](sinan.html#leishmaniose-visceral)
+[Leishmaniose visceral]{.subject-index-term} — [SINAN: Leishmaniose visceral](sinan.html#leishmaniose-visceral)
 :::
 ::: {.subject-index-entry}
 [Leitos hospitalares]{.subject-index-term} — [CNES: Exemplo: leitos hospitalares](cnes.html#exemplo-leitos-hospitalares)
@@ -491,7 +491,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Mortalidade infantil]{.subject-index-term} — [SIM: Exemplo: mortalidade infantil](sim.html#exemplo-mortalidade-infantil)
 :::
 ::: {.subject-index-entry}
-[Mpox (Monkeypox)]{.subject-index-term} — [SINAN: Monkeypox](sinan.html#monkeypox)
+[Mpox]{.subject-index-term} — [SINAN: Mpox](sinan.html#mpox)
 :::
 ::::
 
@@ -536,7 +536,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[Paralisia Flácida Aguda]{.subject-index-term} — [SINAN: Poliomielite / Paralisia Flácida Aguda](sinan.html#poliomielite-paralisia-flácida-aguda)
+[Paralisia flácida aguda]{.subject-index-term} — [SINAN: Poliomielite/paralisia flácida aguda](sinan.html#poliomieliteparalisia-flácida-aguda)
 :::
 ::: {.subject-index-entry}
 [Perda auditiva induzida por ruído]{.subject-index-term} — [SINAN: Perda auditiva por ruído relacionado ao trabalho](sinan.html#perda-auditiva-por-ruído-relacionado-ao-trabalho)
@@ -560,7 +560,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Pneumoconioses relacionadas ao trabalho]{.subject-index-term} — [SINAN: Pneumoconioses relacionadas ao trabalho](sinan.html#pneumoconioses-relacionadas-ao-trabalho)
 :::
 ::: {.subject-index-entry}
-[Poliomielite]{.subject-index-term} — [SINAN: Poliomielite / Paralisia Flácida Aguda](sinan.html#poliomielite-paralisia-flácida-aguda)
+[Poliomielite]{.subject-index-term} — [SINAN: Poliomielite/paralisia flácida aguda](sinan.html#poliomieliteparalisia-flácida-aguda)
 :::
 ::: {.subject-index-entry}
 [Potabilidade]{.subject-index-term} — [SISAGUA: Parâmetros e potabilidade](sisagua.html#parâmetros-e-potabilidade)
@@ -609,7 +609,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[Raiva humana]{.subject-index-term} — [SINAN: Raiva Humana](sinan.html#raiva-humana)
+[Raiva humana]{.subject-index-term} — [SINAN: Raiva humana](sinan.html#raiva-humana)
 :::
 ::: {.subject-index-entry}
 [Recorrências]{.subject-index-term} — [SINAN: Duplicidades e recorrências](sinan.html#duplicidades-e-recorrências)
@@ -692,10 +692,10 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Sífilis adquirida]{.subject-index-term} — [SINAN: Sífilis adquirida](sinan.html#sífilis-adquirida)
 :::
 ::: {.subject-index-entry}
-[Sífilis congênita]{.subject-index-term} — [SINAN: Sífilis Congênita](sinan.html#sífilis-congênita)
+[Sífilis congênita]{.subject-index-term} — [SINAN: Sífilis congênita](sinan.html#sífilis-congênita)
 :::
 ::: {.subject-index-entry}
-[Sífilis em gestantes]{.subject-index-term} — [SINAN: Sífilis em Gestante](sinan.html#sífilis-em-gestante)
+[Sífilis em gestantes]{.subject-index-term} — [SINAN: Sífilis em gestante](sinan.html#sífilis-em-gestante)
 :::
 ::: {.subject-index-entry}
 [SIGTAP]{.subject-index-term} — [SIA/SUS: Procedimentos e SIGTAP](sia.html#procedimentos-e-sigtap); [SIH/SUS: Procedimentos e SIGTAP](sih.html#procedimentos-e-sigtap)
@@ -719,7 +719,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [SINASC — Sistema de Informação sobre Nascidos Vivos]{.subject-index-term} — [SINASC](sinasc.html)
 :::
 ::: {.subject-index-entry}
-[Síndrome da Rubéola Congênita]{.subject-index-term} — [SINAN: Síndrome da Rubéola Congênita](sinan.html#síndrome-da-rubéola-congênita)
+[Síndrome da rubéola congênita]{.subject-index-term} — [SINAN: Síndrome da rubéola congênita](sinan.html#síndrome-da-rubéola-congênita)
 :::
 ::: {.subject-index-entry}
 [SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde]{.subject-index-term} — [SIOPS](siops.html)
@@ -784,10 +784,10 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Terminologias em saúde]{.subject-index-term} — [RNDS: FHIR, terminologias e semântica](rnds.html#fhir-terminologias-e-semântica)
 :::
 ::: {.subject-index-entry}
-[Tétano acidental]{.subject-index-term} — [SINAN: Tétano Acidental](sinan.html#tétano-acidental)
+[Tétano acidental]{.subject-index-term} — [SINAN: Tétano acidental](sinan.html#tétano-acidental)
 :::
 ::: {.subject-index-entry}
-[Tétano neonatal]{.subject-index-term} — [SINAN: Tétano Neonatal](sinan.html#tétano-neonatal)
+[Tétano neonatal]{.subject-index-term} — [SINAN: Tétano neonatal](sinan.html#tétano-neonatal)
 :::
 ::: {.subject-index-entry}
 [Tipos de AIH]{.subject-index-term} — [SIH/SUS: Tipos de AIH e complexidade](sih.html#tipos-de-aih-e-complexidade)
@@ -802,7 +802,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Tracoma]{.subject-index-term} — [SINAN: Notificação de tracoma](sinan.html#notificação-de-tracoma)
 :::
 ::: {.subject-index-entry}
-[Transtornos mentais relacionados ao trabalho]{.subject-index-term} — [SINAN: Transtornos mentais relacionais ao trabalho](sinan.html#transtornos-mentais-relacionais-ao-trabalho)
+[Transtornos mentais relacionados ao trabalho]{.subject-index-term} — [SINAN: Transtornos mentais relacionados ao trabalho](sinan.html#transtornos-mentais-relacionados-ao-trabalho)
 :::
 ::: {.subject-index-entry}
 [Troca de Informações na Saúde Suplementar (TISS)]{.subject-index-term} — [ANS: Sistemas e fluxos de informação da saúde suplementar](ans.html#sistemas-e-fluxos-de-informação-da-saúde-suplementar)
@@ -830,7 +830,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Validação reprodutível]{.subject-index-term} — [SIA/SUS: Validação reprodutível](sia.html#validação-reprodutível)
 :::
 ::: {.subject-index-entry}
-[Varicela]{.subject-index-term} — [SINAN: Varicela / Herpes-Zóster](sinan.html#varicela-herpes-zóster)
+[Varicela]{.subject-index-term} — [SINAN: Varicela/herpes-zóster](sinan.html#varicelaherpes-zóster)
 :::
 ::: {.subject-index-entry}
 [Vigilância alimentar e nutricional]{.subject-index-term} — [SISVAN](sisvan.html)
@@ -854,7 +854,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Violência doméstica e sexual]{.subject-index-term} — [SINAN: Violência doméstica, sexual e/ou outras violências](sinan.html#violência-doméstica-sexual-eou-outras-violências)
 :::
 ::: {.subject-index-entry}
-[Violência interpessoal ou autoprovocada]{.subject-index-term} — [SINAN: Violência Interpessoal/Autoprovocada](sinan.html#violência-interpessoalautoprovocada)
+[Violência interpessoal ou autoprovocada]{.subject-index-term} — [SINAN: Violência interpessoal/autoprovocada](sinan.html#violência-interpessoalautoprovocada)
 :::
 ::::
 

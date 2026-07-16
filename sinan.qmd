@@ -255,7 +255,7 @@ Escolha de datas para análises com SINAN
 
 :::
 
-O @qua-sinan-escolha-de-datas-para-analises-com-sinan sintetiza os elementos discutidos. Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, a depender do agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.
+As alternativas do @qua-sinan-escolha-de-datas-para-analises-com-sinan dependem da finalidade. Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, a depender do agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.
 
 O ponto decisivo é manter coerência entre objetivo, data e território. Uma curva por data de notificação pode ser adequada para avaliar a pressão recente sobre a vigilância, mas não substitui uma curva por início de sintomas quando a intenção é descrever a dinâmica temporal da transmissão. Da mesma forma, uma taxa por residência é apropriada para risco populacional, enquanto o local provável de infecção é mais útil para investigar exposição.
 
@@ -480,7 +480,7 @@ Em análises comparativas entre arboviroses, evite somar agravos sem harmonizar 
 
 ## Agravos por área de vigilância
 
-Dada a diversidade de doenças e agravos cobertos pelo SINAN, a consulta fica mais fácil quando os arquivos são agrupados por área de vigilância. O quadro abaixo é um guia rápido; os documentos detalhados aparecem na sequência (ver @qua-sinan-guia-rapido-de-agravos-e-prefixos-do-sinan).
+Dada a diversidade de doenças e agravos cobertos pelo SINAN, a consulta fica mais fácil quando os arquivos são agrupados por área de vigilância. O @qua-sinan-guia-rapido-de-agravos-e-prefixos-do-sinan oferece uma orientação inicial, enquanto os documentos detalhados aparecem na sequência.
 
 ::: {#qua-sinan-guia-rapido-de-agravos-e-prefixos-do-sinan}
 
@@ -488,7 +488,7 @@ Dada a diversidade de doenças e agravos cobertos pelo SINAN, a consulta fica ma
 |---|---|---|---|
 | Arboviroses e zoonoses | Dengue, chikungunya, zika, febre amarela, Oropouche, raiva, hantavirose, febre maculosa, leptospirose, Chagas, leishmanioses, acidentes por animais peçonhentos | `DENG`, `CHIK`, `ZIKA`, `RAIV`, `HANT`, `FMAC`, `LEPT`, `CHAG`, `LTAN`, `LEIV`, `ANIM` | Local provável de infecção é central |
 | Imunopreveníveis e exantemáticas | Difteria, coqueluche, tétano, poliomielite/PFA, doenças exantemáticas, síndrome da rubéola congênita | `DIFT`, `COQU`, `TETA`, `TETN`, `PFAN`, `EXAN`, `SRC` | Oportunidade de notificação e investigação é crítica |
-| Infecções e doenças transmissíveis | Tuberculose, hanseníase, hepatites virais, HIV/Aids, meningite, cólera, botulismo, febre tifóide, rotavírus | `TUBE`, `HANS`, `HEPA`, `HIVA`, `AIDA`, `MENI`, `COLE`, `BOTU`, `FTIF`, `ROTA` | Algumas exigem acompanhamento longitudinal |
+| Infecções e doenças transmissíveis | Tuberculose, hanseníase, hepatites virais, HIV/Aids, meningite, cólera, botulismo, febre tifoide, rotavírus | `TUBE`, `HANS`, `HEPA`, `HIVA`, `AIDA`, `MENI`, `COLE`, `BOTU`, `FTIF`, `ROTA` | Algumas exigem acompanhamento longitudinal |
 | Saúde do trabalhador | Acidente de trabalho, material biológico, LER/DORT, dermatoses, pneumoconioses, perda auditiva, câncer e transtornos mentais relacionados ao trabalho | `ACGR`, `ACBI`, `LERD`, `DERM`, `PNEU`, `PAIR`, `CANC`, `MENT` | Vínculo com trabalho e preenchimento ocupacional são essenciais |
 | Violências e acidentes | Violência interpessoal/autoprovocada, violência doméstica/sexual, intoxicação exógena, atendimento antirrábico | `VIOL`, `IEXO`, `ANTR` | Envolve sigilo, fluxos intersetoriais e subnotificação |
 | Eventos específicos e inquéritos | Surtos de DTA, tracoma, inquérito de tracoma, notificação individual, mpox | `SDTA`, `NTRA`, `TRAC`, `NIND`, e-SUS SINAN | Estrutura pode diferir bastante entre bases |
@@ -516,7 +516,7 @@ A seguir estão prefixos, CIDs e documentos locais disponíveis para alguns agra
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
-### AIDS em adultos
+### Aids em adultos
 
 -  Prefixo dos arquivos: AIDA
 -  Códigos CID-10
@@ -525,12 +525,12 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
   -  Gestante HIV: Z21
   -  Criança exposta ao HIV: Z20.6
 
-### AIDS em crianças
+### Aids em crianças
 
 -  Prefixo dos arquivos: AIDC
 -  Código CID-10 (Criança exposta ao HIV): Z20.6
 
-### Acidentes por Animais Peçonhentos
+### Acidentes por animais peçonhentos
 
 -  Prefixo dos arquivos: ANIM
 -  Códigos CID-10
@@ -631,7 +631,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
-### Esporotricose (Epizootia)
+### Esporotricose (epizootia)
 
 -  Prefixo dos arquivos: ESPO
 -  CID-10: B42
@@ -690,14 +690,14 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
-### Doenças Exantemáticas
+### Doenças exantemáticas
 
 -  Prefixo dos arquivos: EXAN
 -  [Ficha de notificação](assets/sinan/agravos/EXANT_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/EXANT_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/EXANT_DIC_DADOS.pdf)
 
-### Febre Amarela
+### Febre amarela
 
 -  CID-10: A95
 -  [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
@@ -709,7 +709,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
-### Febre Maculosa
+### Febre maculosa
 
 -  Prefixo dos arquivos: FMAC
 -  CID-10
@@ -728,7 +728,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 -  [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche ](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
 
-### Febre Tifóide
+### Febre tifoide
 
 -  Prefixo dos arquivos: FTIF
 -  CID-10: A01.0
@@ -757,7 +757,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
-### Hepatites Virais
+### Hepatites virais
 
 -  Prefixo dos arquivos: HEPA
 -  CID-10: B15 – B19.9
@@ -765,14 +765,14 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
 
-### Intoxicação Exógena
+### Intoxicação exógena
 
 -  Prefixo dos arquivos: IEXO
 -  [Ficha de notificação](assets/sinan/agravos/IEXOGN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/IEXOGN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf)
 
-### Leishmaniose Tegumentar Americana
+### Leishmaniose tegumentar americana
 
 -  Prefixo dos arquivos: LTAN
 -  CID-10: B55.1
@@ -781,7 +781,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/LTAN_DIC_DADOS.pdf)
 
-### Leishmaniose Visceral
+### Leishmaniose visceral
 
 -  Prefixo dos arquivos: LEIV
 -  CID-10: B55.0
@@ -830,7 +830,7 @@ A notificação de casos de malária no SINAN cobre a região extra-amazônica. 
 -  [Tutorial de análises epidemiológicas](assets/sinan/agravos/MENIN_TUTORIAL_ANALISES_EPIDEMIO.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/MENIN_DIC_DADOS.pdf)
 
-### Transtornos mentais relacionais ao trabalho 
+### Transtornos mentais relacionados ao trabalho
 
 -  Prefixo dos arquivos: MENT
 
@@ -849,20 +849,20 @@ A notificação de casos de malária no SINAN cobre a região extra-amazônica. 
 
 -  Prefixo dos arquivos: PAIR
 
-### Monkeypox
+### Mpox
 
-A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](http://plataforma.saude.gov.br/esussinan/), uma nova versão do SINAN.
+A notificação de mpox é realizada com o [e-SUS SINAN](http://plataforma.saude.gov.br/esussinan/), uma nova versão do SINAN.
 
 -  [Ficha de notificação](assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf)
 -  [Dicionário de dados](assets/sinan/esus/dicionario-investigacao-monkeypox-esussinan.pdf)
 -  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/mpox)
 
-### Notificação Individual
+### Notificação individual
 
 -  [Ficha de notificação](assets/sinan/agravos/NINDIN_FICHA.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/NINDIN_DIC_DADOS.pdf)
 
-### Notificação Individual e-SUS SINAN
+### Notificação individual e-SUS SINAN
 
 -  [Ficha individual de notificação](assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf)
 -  [Modelo de informação da ficha de notificação](assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf)
@@ -879,13 +879,13 @@ A notificação de Monkeypox (Mpox) está sendo realizada com o [e-SUS SINAN](ht
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
-### Poliomielite / Paralisia Flácida Aguda
+### Poliomielite/paralisia flácida aguda
 
 -  Prefixo dos arquivos: PFAN
 -  CID-10: A80
 -  [Ficha de notificação](assets/sinan/agravos/PFAN_FICHA.pdf)
 -  [Instrucional](assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/PFAN_FICHA.pdf)
+-  [Dicionário de dados](assets/sinan/agravos/PFAN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação epidemiológica de paralisia flácida aguda: conduta frente a casos suspeitos](assets/sinan/img/fluxo_poliomelite.png){#fluxo_poliomelite}
 
@@ -896,7 +896,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  Prefixo dos arquivos: PNEU
 -  CID-10: J64
 
-### Raiva Humana
+### Raiva humana
 
 -  Prefixo dos arquivos: RAIV
 -  CID-10: A82
@@ -917,7 +917,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  Prefixo dos arquivos: SIFA
 -  CID-10: A53.9
 
-### Sífilis Congênita
+### Sífilis congênita
 
 -  Prefixo dos arquivos: SIFC
 -  CID-10: A50
@@ -926,7 +926,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/SIFICN_DIC_DADOS.pdf)
 
-### Sífilis em Gestante
+### Sífilis em gestante
 
 -  Prefixo dos arquivos: SIFG
 -  CID-10: O98.1
@@ -935,7 +935,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 -  [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf)
 
-### Síndrome da Rubéola Congênita
+### Síndrome da rubéola congênita
 
 -  Prefixo dos arquivos: SRC
 -  CID-10: P35.0
@@ -947,7 +947,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
-### Tétano Acidental
+### Tétano acidental
 
 -  Prefixo dos arquivos: TETA
 -  CID-10: A35
@@ -955,7 +955,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 -  [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
 -  [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
 
-### Tétano Neonatal
+### Tétano neonatal
 
 -  Prefixo dos arquivos: TETN
 -  CID-10: A33
@@ -986,7 +986,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
-### Varicela / Herpes-Zóster
+### Varicela/herpes-zóster
 
 -  Prefixo dos arquivos: VARC
 -  CID-10: B01/B02
@@ -995,7 +995,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 -  Prefixo dos arquivos: VIOL
 
-### Violência Interpessoal/Autoprovocada
+### Violência interpessoal/autoprovocada
 
 -  CID-10: Y09
 -  [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
@@ -1020,7 +1020,7 @@ Os dados do SINAN podem ser acessados por diferentes caminhos. A melhor opção 
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` quando o agravo estiver disponível |
 | Python | Fluxos reprodutíveis com PySUS |
 | OpenDataSUS | Bases abertas de alguns agravos, especialmente arboviroses e emergências |
@@ -1035,13 +1035,13 @@ As formas de acesso diferem em atualização, granularidade, facilidade de uso e
 
 ### TabNet
 
-Os dados do SINAN podem ser acessados no sistema TabNet do DataSUS, na seção "Epidemiológicas e Morbidade".
+Os dados do SINAN podem ser acessados no sistema TabNet do DATASUS, na seção "Epidemiológicas e Morbidade".
 
 - [TabNet SINAN](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
 ### TabWin e transferência de arquivos
 
-Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares para tabulação no serviço de transferência de arquivos do DataSUS.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares para tabulação no serviço de transferência de arquivos do DATASUS.
 
 - [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
@@ -1049,7 +1049,7 @@ Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, dat
 
 ### R
 
-O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e processar alguns microdados do DataSUS em R [@Saldanha2019a].
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e processar alguns microdados do DATASUS em R [@Saldanha2019a].
 
 ```{r}
 #| eval: false
@@ -1201,20 +1201,20 @@ Limitações do SINAN por tipo de uso analítico
 
 :::
 
-O @qua-sinan-limitacoes-do-sinan-por-tipo-de-uso-analitico sintetiza os elementos discutidos. As limitações mudam de peso conforme o uso. Para monitoramento oportuno, o atraso recente pode ser o principal problema; para séries históricas, mudanças de definição e sensibilidade da vigilância ganham importância; para letalidade, o desfecho pode exigir vínculo com o SIM. Por isso, a seção de métodos deve vincular cada limitação ao indicador produzido, em vez de listar ressalvas genéricas.
+As limitações do @qua-sinan-limitacoes-do-sinan-por-tipo-de-uso-analitico mudam de peso conforme o uso. Para monitoramento oportuno, o atraso recente pode ser o principal problema; para séries históricas, mudanças de definição e sensibilidade da vigilância ganham importância; para letalidade, o desfecho pode exigir vínculo com o SIM. Por isso, a seção de métodos deve vincular cada limitação ao indicador produzido, em vez de listar ressalvas genéricas.
 
 ## Cuidados de interpretação
 
 Ao utilizar o SINAN, alguns cuidados são recorrentes:
 
-- distinguir notificação, caso suspeito, caso confirmado, caso descartado e caso encerrado;
-- usar a definição de caso vigente no período analisado;
-- documentar agravo, ficha, versão do layout e forma de acesso;
-- separar data de sintomas, data de notificação, data de digitação e data de encerramento;
-- escolher residência, provável infecção ou notificação conforme a pergunta;
-- avaliar duplicidades e reinfecções quando a análise for individual;
-- considerar atraso de notificação e encerramento em bases recentes;
-- verificar completitude e consistência de campos essenciais.
+- Distinguir notificação, caso suspeito, caso confirmado, caso descartado e caso encerrado;
+- Usar a definição de caso vigente no período analisado;
+- Documentar agravo, ficha, versão do layout e forma de acesso;
+- Separar data de sintomas, data de notificação, data de digitação e data de encerramento;
+- Escolher residência, provável infecção ou notificação conforme a pergunta;
+- Avaliar duplicidades e reinfecções quando a análise for individual;
+- Considerar atraso de notificação e encerramento em bases recentes;
+- Verificar completitude e consistência de campos essenciais.
 
 ::: {#qua-sinan-erros-frequentes-em-analises-do-sinan}
 
@@ -1231,22 +1231,22 @@ Erros frequentes em análises do SINAN
 
 :::
 
-O @qua-sinan-erros-frequentes-em-analises-do-sinan sintetiza os elementos discutidos. Esses erros têm em comum a perda do processo de vigilância que produziu o registro. A análise fica mais robusta quando o texto diferencia suspeição, investigação, confirmação, encerramento e atualização da base. Em produtos públicos, essa distinção deve aparecer nas legendas, notas metodológicas e interpretação dos resultados, especialmente quando há comparação temporal ou territorial.
+Os erros reunidos no @qua-sinan-erros-frequentes-em-analises-do-sinan têm em comum a perda do processo de vigilância que produziu o registro. A análise fica mais robusta quando o texto diferencia suspeição, investigação, confirmação, encerramento e atualização da base. Em produtos públicos, essa distinção deve aparecer nas legendas, notas metodológicas e interpretação dos resultados, especialmente quando há comparação temporal ou territorial.
 
 ## Checklist final
 
 Antes de concluir uma análise com SINAN, verifique se:
 
-- o agravo, a ficha e a forma de acesso foram documentados;
-- a unidade de análise foi explicitada;
-- a classificação final usada no numerador foi definida;
-- suspeitos, confirmados, descartados e inconclusivos foram separados;
-- datas e territórios foram escolhidos conforme a pergunta;
-- duplicidades e reinfecções foram avaliadas quando necessário;
-- a completitude dos campos principais foi descrita;
-- atrasos de notificação, digitação e encerramento foram considerados;
-- mudanças de definição de caso ou sistema foram verificadas;
-- os resultados foram interpretados como dados de vigilância, não como ocorrência total sem subnotificação.
+- O agravo, a ficha e a forma de acesso foram documentados;
+- A unidade de análise foi explicitada;
+- A classificação final usada no numerador foi definida;
+- Suspeitos, confirmados, descartados e inconclusivos foram separados;
+- Datas e territórios foram escolhidos conforme a pergunta;
+- Duplicidades e reinfecções foram avaliadas quando necessário;
+- A completitude dos campos principais foi descrita;
+- Atrasos de notificação, digitação e encerramento foram considerados;
+- Mudanças de definição de caso ou sistema foram verificadas;
+- Os resultados foram interpretados como dados de vigilância, não como ocorrência total sem subnotificação.
 
 ## Bibliografia recomendada
 
@@ -1255,7 +1255,7 @@ Antes de concluir uma análise com SINAN, verifique se:
 -  [Manual do Sistema](assets/sinan/manual_sinan.pdf)
 -  [Manual de Normas e Rotinas](assets/sinan/manual_normas_rotinas_2ed.pdf)
 
-### Videos
+### Vídeos
 
 {{< video https://www.youtube.com/watch?v=czwBtHR8g7c >}}
 

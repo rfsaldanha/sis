@@ -130,7 +130,7 @@ Diferenças práticas entre SINASC e SIM em eventos perinatais
 
 :::
 
-O @qua-sinasc-diferencas-praticas-entre-sinasc-e-sim-em-eventos-perinatais comparativo destaca uma distinção operacional que evita muitos erros: nascimento vivo e óbito fetal pertencem a fluxos informacionais diferentes. Quando um recém-nascido apresenta sinal de vida e morre em seguida, o evento precisa aparecer tanto no SINASC quanto no SIM, pois há um nascimento e há um óbito. Essa dupla presença não é duplicidade; é a forma correta de representar dois eventos vitais relacionados.
+A comparação do @qua-sinasc-diferencas-praticas-entre-sinasc-e-sim-em-eventos-perinatais destaca uma distinção operacional que evita muitos erros: nascimento vivo e óbito fetal pertencem a fluxos informacionais diferentes. Quando um recém-nascido apresenta sinal de vida e morre em seguida, o evento precisa aparecer tanto no SINASC quanto no SIM, pois há um nascimento e há um óbito. Essa dupla presença não é duplicidade; é a forma correta de representar dois eventos vitais relacionados.
 
 ## Cobertura e unidade de análise
 
@@ -340,7 +340,7 @@ A lista não esgota o dicionário do SINASC, mas reúne campos que ajudam a conf
 
 ### Prefixo dos arquivos
 
-Nos arquivos de disseminação do DataSUS, o prefixo ajuda a reconhecer o conteúdo antes mesmo da leitura do banco. Isso é útil quando há muitos arquivos baixados localmente ou quando a análise combina diferentes sistemas (ver @qua-sinasc-prefixos-comuns-dos-arquivos-do-sinasc).
+Nos arquivos de disseminação do DATASUS, o prefixo ajuda a reconhecer o conteúdo antes mesmo da leitura do banco. Isso é útil quando há muitos arquivos baixados localmente ou quando a análise combina diferentes sistemas (ver @qua-sinasc-prefixos-comuns-dos-arquivos-do-sinasc).
 
 ::: {#qua-sinasc-prefixos-comuns-dos-arquivos-do-sinasc}
 
@@ -364,7 +364,7 @@ Os dados do SINASC podem ser acessados por diferentes caminhos, a depender do ob
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
@@ -378,13 +378,13 @@ Esse @qua-sinasc-formas-de-acesso-aos-dados-do-sinasc diferencia acesso para con
 
 ### TabNet
 
-Os dados do SINASC podem ser acessados no TabNet do DataSUS, na seção de Estatísticas Vitais.
+Os dados do SINASC podem ser acessados no TabNet do DATASUS, na seção de Estatísticas Vitais.
 
 - [TabNet SINASC](https://datasus.saude.gov.br/nascidos-vivos-desde-1994)
 
 ### TabWin e transferência de arquivos
 
-Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
 - [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
@@ -392,7 +392,7 @@ Esse caminho é útil quando a equipe precisa manter uma cópia local dos dados 
 
 ### R
 
-O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DataSUS em R [@Saldanha2019a].
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DATASUS em R [@Saldanha2019a].
 
 ```{r}
 #| eval: false
@@ -503,14 +503,14 @@ O conjunto de indicadores reúne medidas de naturezas diferentes. Alguns medem v
 
 Ao utilizar o SINASC, alguns cuidados são recorrentes:
 
-- verificar se a unidade de análise é nascido vivo, parto, gestação ou mãe;
-- distinguir município de residência da mãe e município de ocorrência do parto;
-- verificar cobertura antes de comparar municípios pequenos ou áreas remotas;
-- avaliar completitude e consistência de idade gestacional, peso, Apgar, raça/cor, escolaridade e anomalias congênitas;
-- separar nascidos vivos de óbitos fetais;
-- considerar mudanças no formulário, nas regras de preenchimento e na consolidação das bases;
-- evitar interpretar número de consultas pré-natais sem considerar idade gestacional e acesso aos serviços;
-- avaliar duplicidades, especialmente quando a análise usa microdados.
+- Verificar se a unidade de análise é nascido vivo, parto, gestação ou mãe;
+- Distinguir município de residência da mãe e município de ocorrência do parto;
+- Verificar cobertura antes de comparar municípios pequenos ou áreas remotas;
+- Avaliar completitude e consistência de idade gestacional, peso, Apgar, raça/cor, escolaridade e anomalias congênitas;
+- Separar nascidos vivos de óbitos fetais;
+- Considerar mudanças no formulário, nas regras de preenchimento e na consolidação das bases;
+- Evitar interpretar número de consultas pré-natais sem considerar idade gestacional e acesso aos serviços;
+- Avaliar duplicidades, especialmente quando a análise usa microdados.
 
 ::: {#qua-sinasc-checklist-de-qualidade-para-analises-com-sinasc}
 
@@ -528,7 +528,7 @@ Checklist de qualidade para análises com SINASC
 
 :::
 
-O @qua-sinasc-checklist-de-qualidade-para-analises-com-sinasc sintetiza os elementos discutidos. O checklist funciona como uma etapa de controle antes da interpretação substantiva. Ele não precisa ser apresentado integralmente em todos os relatórios, mas as decisões tomadas a partir dele devem aparecer no método: critérios de exclusão, tratamento de ignorados, escolha territorial, período usado e versão da base. Em séries municipais, também é recomendável observar flutuações abruptas que possam refletir atraso de registro ou mudança administrativa, e não alteração real do evento.
+O checklist do @qua-sinasc-checklist-de-qualidade-para-analises-com-sinasc funciona como uma etapa de controle antes da interpretação substantiva. Ele não precisa ser apresentado integralmente em todos os relatórios, mas as decisões tomadas a partir dele devem aparecer no método: critérios de exclusão, tratamento de ignorados, escolha territorial, período usado e versão da base. Em séries municipais, também é recomendável observar flutuações abruptas que possam refletir atraso de registro ou mudança administrativa, e não alteração real do evento.
 
 ::: {.callout-warning}
 Erros comuns incluem calcular taxas por ocorrência com população residente, usar nascidos vivos como proxy de gestantes, comparar prematuridade sem avaliar mudanças na mensuração da idade gestacional e interpretar baixa frequência de anomalias congênitas como ausência do problema sem verificar subnotificação.

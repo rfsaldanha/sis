@@ -75,7 +75,7 @@ O @qua-sia-perguntas-comuns-que-podem-ser-respondidas-com-o-sia delimita o uso m
 
 O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, ações de prevenção e promoção da saúde e procedimentos especializados realizados por unidades públicas e conveniadas ao SUS.
 
-O SIA foi instituído pela Portaria GM/MS n.º 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social.
+O SIA foi instituído pela Portaria GM/MS nº 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social.
 
 A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatorial Consolidado (BPA-C), instrumento em que a produção era registrada de forma agregada por procedimento e quantidade. Em 1996, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo (APAC) foi incorporada ao SIA para registrar procedimentos ambulatoriais de maior complexidade e custo. Em 2008, o Boletim de Produção Ambulatorial Individualizado (BPA-I) passou a permitir registro individualizado de produção, com maior detalhamento de profissional e usuário.
 
@@ -532,7 +532,7 @@ Os dados do SIA podem ser acessados por diferentes caminhos, a depender do objet
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
@@ -568,13 +568,13 @@ Essa organização também facilita refazer apenas a etapa afetada quando uma re
 
 ### TabNet
 
-Os dados do SIA podem ser acessados no TabNet do DataSUS, na seção "Assistência à Saúde".
+Os dados do SIA podem ser acessados no TabNet do DATASUS, na seção "Assistência à Saúde".
 
 - [TabNet SIA](https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/)
 
 ### TabWin e transferência de arquivos
 
-Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
 - [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
@@ -582,7 +582,7 @@ No serviço de transferência, o usuário normalmente seleciona a área de assis
 
 ### R
 
-O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar microdados do DataSUS em R [@Saldanha2019a].
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar microdados do DATASUS em R [@Saldanha2019a].
 
 ```{r}
 #| eval: false
@@ -672,7 +672,7 @@ Checagens automáticas úteis antes da análise
 
 :::
 
-O @qua-sia-checagens-automaticas-uteis-antes-da-analise sintetiza os elementos discutidos. Também é útil comparar totais agregados com o TabNet no mesmo período, UF, instrumento e procedimento. Diferenças pequenas podem resultar de filtros, competência ou processamento; diferenças grandes geralmente indicam seleção incorreta de arquivos ou variáveis.
+As checagens automáticas reunidas no @qua-sia-checagens-automaticas-uteis-antes-da-analise devem ser complementadas pela comparação dos totais agregados com o TabNet no mesmo período, UF, instrumento e procedimento. Diferenças pequenas podem resultar de filtros, competência ou processamento; diferenças grandes geralmente indicam seleção incorreta de arquivos ou variáveis.
 
 ## Principais usos e indicadores
 
@@ -724,14 +724,14 @@ Essas limitações não impedem o uso do SIA. Elas indicam que o sistema é mais
 
 Ao utilizar o SIA, alguns cuidados são recorrentes:
 
-- distinguir produção, procedimento, autorização, tratamento e pessoa;
-- separar BPA-C, BPA-I, APAC e RAAS quando a unidade de análise for diferente;
-- lembrar que a cobertura é SUS e rede conveniada, não todo o setor ambulatorial;
-- diferenciar residência, ocorrência e estabelecimento;
-- registrar códigos SIGTAP, versões e vigência;
-- interpretar valores como remuneração aprovada, não custo real;
-- verificar mudanças em regras de autorização, compatibilidade e instrumentos;
-- avaliar completitude e consistência de idade, sexo, município, estabelecimento, procedimento e quantidade.
+- Distinguir produção, procedimento, autorização, tratamento e pessoa;
+- Separar BPA-C, BPA-I, APAC e RAAS quando a unidade de análise for diferente;
+- Lembrar que a cobertura é SUS e rede conveniada, não todo o setor ambulatorial;
+- Diferenciar residência, ocorrência e estabelecimento;
+- Registrar códigos SIGTAP, versões e vigência;
+- Interpretar valores como remuneração aprovada, não custo real;
+- Verificar mudanças em regras de autorização, compatibilidade e instrumentos;
+- Avaliar completitude e consistência de idade, sexo, município, estabelecimento, procedimento e quantidade.
 
 ::: {#qua-sia-checklist-de-qualidade-para-analises-com-sia}
 
@@ -749,7 +749,7 @@ Checklist de qualidade para análises com SIA
 
 :::
 
-O @qua-sia-checklist-de-qualidade-para-analises-com-sia sintetiza os elementos discutidos. O checklist deve ser usado como uma revisão final da coerência entre pergunta, fonte e indicador. Ele não substitui a leitura do dicionário nem a validação contra totais agregados, mas ajuda a identificar rapidamente se a análise trocou unidade, território ou sentido do valor registrado.
+O checklist do @qua-sia-checklist-de-qualidade-para-analises-com-sia serve como revisão final da coerência entre pergunta, fonte e indicador. Ele não substitui a leitura do dicionário nem a validação contra totais agregados, mas ajuda a identificar rapidamente se a análise trocou unidade, território ou sentido do valor registrado.
 
 ::: {.callout-warning}
 Erros comuns incluem contar procedimentos como pessoas, somar instrumentos diferentes sem harmonizar unidade de análise, comparar valores aprovados como se fossem custos totais e interpretar produção registrada como necessidade de saúde atendida.
@@ -773,22 +773,22 @@ Erros frequentes em análises do SIA
 
 :::
 
-O @qua-sia-erros-frequentes-em-analises-do-sia sintetiza os elementos discutidos. Esses erros são simples de formular, mas têm impacto grande nos resultados. A forma mais eficiente de preveni-los é escrever, antes do processamento, uma especificação curta com arquivo usado, filtros, unidade de análise, campos somados, território e comparação de validação esperada.
+Os erros reunidos no @qua-sia-erros-frequentes-em-analises-do-sia são simples de formular, mas têm grande impacto nos resultados. A forma mais eficiente de preveni-los é escrever, antes do processamento, uma especificação curta com arquivo usado, filtros, unidade de análise, campos somados, território e comparação de validação esperada.
 
 ## Checklist final
 
 Antes de concluir uma análise com SIA, verifique se:
 
-- a unidade de análise foi explicitada;
-- o instrumento usado foi identificado;
-- os códigos SIGTAP e a competência da tabela foram documentados;
-- o recorte territorial distingue residência, ocorrência e estabelecimento;
-- o período usa uma regra única de competência;
-- numerador, denominador e exclusões foram descritos;
-- os dados foram validados contra totais agregados quando possível;
-- valores foram tratados como remuneração aprovada;
-- limitações de cobertura e finalidade administrativa foram discutidas;
-- o código de processamento permite reproduzir os resultados.
+- A unidade de análise foi explicitada;
+- O instrumento usado foi identificado;
+- Os códigos SIGTAP e a competência da tabela foram documentados;
+- O recorte territorial distingue residência, ocorrência e estabelecimento;
+- O período usa uma regra única de competência;
+- Numerador, denominador e exclusões foram descritos;
+- Os dados foram validados contra totais agregados quando possível;
+- Valores foram tratados como remuneração aprovada;
+- Limitações de cobertura e finalidade administrativa foram discutidas;
+- O código de processamento permite reproduzir os resultados.
 
 ## Bibliografia recomendada
 

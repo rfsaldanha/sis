@@ -60,7 +60,7 @@ Diferenças práticas entre componentes do SIVEP
 
 :::
 
-O @qua-sivep-diferencas-praticas-entre-componentes-do-sivep sintetiza os elementos discutidos. Em síntese, o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.
+As diferenças reunidas no @qua-sivep-diferencas-praticas-entre-componentes-do-sivep mostram por que o SIVEP deve ser entendido como uma família de sistemas de vigilância. O nome do componente é parte essencial da definição da base: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA respondem a perguntas diferentes e têm limites próprios de cobertura, acesso e oportunidade.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->

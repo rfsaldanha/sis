@@ -44,8 +44,8 @@ O Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) organi
 
 O SI-PNI deve ser interpretado como um sistema de registro de ações de imunização. Ele não mede diretamente a proteção imunológica da população, a efetividade vacinal, a qualidade da sala de vacina ou a necessidade de vacinação. Para essas perguntas, o registro de doses precisa ser combinado com denominadores populacionais, regras do calendário, investigação epidemiológica e outros sistemas.
 
-::: {.callout-note}
-**Terminologia.** O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.
+::: {.callout-note title="Terminologia"}
+O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.
 :::
 
 ## Como ler este capítulo
@@ -494,15 +494,15 @@ Em competências recentes, verifique atraso de envio antes de interpretar queda 
 
 Como bases abertas podem ser atualizadas, uma análise reprodutível deve documentar:
 
-- conjunto de dados usado;
-- ano e meses baixados;
-- formato dos arquivos;
-- data e horário da extração;
-- versão ou data do dicionário;
-- filtros de vacina, dose, idade, território e estratégia;
-- regra de deduplicação;
-- fonte do denominador;
-- tratamento de registros sem residência, sem dose ou fora da janela.
+- Conjunto de dados usado;
+- Ano e meses baixados;
+- Formato dos arquivos;
+- Data e horário da extração;
+- Versão ou data do dicionário;
+- Filtros de vacina, dose, idade, território e estratégia;
+- Regra de deduplicação;
+- Fonte do denominador;
+- Tratamento de registros sem residência, sem dose ou fora da janela.
 
 ## Privacidade e dados individualizados
 
@@ -645,14 +645,14 @@ Limitações recorrentes do SI-PNI
 
 Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 
-- distinguir dose aplicada, pessoa vacinada, dose válida e esquema completo;
-- separar vacinação de rotina, campanhas, Covid-19 e estratégias especiais;
-- definir se o território é residência da pessoa ou local de aplicação;
-- documentar calendário, idade-alvo, intervalo entre doses e regra vigente;
-- escolher denominador compatível com numerador e período;
-- verificar completitude, duplicidade, oportunidade e data de extração;
-- interpretar coberturas acima de 100% como sinal para investigação metodológica;
-- combinar com SINASC, POP, CNES, SISAPS/SISAB ou SINAN apenas quando a unidade de análise estiver clara.
+- Distinguir dose aplicada, pessoa vacinada, dose válida e esquema completo;
+- Separar vacinação de rotina, campanhas, Covid-19 e estratégias especiais;
+- Definir se o território é residência da pessoa ou local de aplicação;
+- Documentar calendário, idade-alvo, intervalo entre doses e regra vigente;
+- Escolher denominador compatível com numerador e período;
+- Verificar completitude, duplicidade, oportunidade e data de extração;
+- Interpretar coberturas acima de 100% como sinal para investigação metodológica;
+- Combinar com SINASC, POP, CNES, SISAPS/SISAB ou SINAN apenas quando a unidade de análise estiver clara.
 
 ## Bibliografia recomendada
 

@@ -1,4 +1,4 @@
-# SISAPS - Sistema de Informação para a Atenção Primária à Saúde {#sec-siaps}
+# SISAPS -- Sistema de Informação para a Atenção Primária à Saúde {#sec-siaps}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -44,8 +44,8 @@ O Sistema de Informação para a Atenção Primária à Saúde (Siaps), referido
 
 O SISAPS/Siaps não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, incluindo cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal.
 
-::: {.callout-note}
-**Terminologia.** O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, "Sistema de Informação para a Atenção Primária à Saúde". Neste livro, o título usa SISAPS para explicitar a sigla solicitada e o escopo temático, mas as referências oficiais podem aparecer como Siaps.
+::: {.callout-note title="Terminologia"}
+O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, "Sistema de Informação para a Atenção Primária à Saúde". Neste livro, o título usa SISAPS para explicitar a sigla solicitada e o escopo temático, mas as referências oficiais podem aparecer como Siaps.
 :::
 
 ## Quando usar o SISAPS
@@ -621,16 +621,16 @@ Limitações recorrentes do SISAPS/SISAB
 
 Ao utilizar SISAPS/SISAB, alguns cuidados são recorrentes:
 
-- documentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;
-- definir a unidade de análise antes de baixar ou consultar relatórios;
-- verificar competência, prazo de envio e processamento;
-- distinguir população cadastrada, vinculada, acompanhada e residente;
-- comparar equipes do mesmo tipo e com contexto semelhante;
-- conferir regras de cálculo dos indicadores;
-- verificar INE, CNES e situação da equipe na competência;
-- registrar relatório, filtros e data de extração;
-- não interpretar produção registrada como necessidade ou qualidade;
-- combinar com CNES, POP, SIH, SIA, SINAN ou SINASC apenas com território e período compatíveis.
+- Documentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;
+- Definir a unidade de análise antes de baixar ou consultar relatórios;
+- Verificar competência, prazo de envio e processamento;
+- Distinguir população cadastrada, vinculada, acompanhada e residente;
+- Comparar equipes do mesmo tipo e com contexto semelhante;
+- Conferir regras de cálculo dos indicadores;
+- Verificar INE, CNES e situação da equipe na competência;
+- Registrar relatório, filtros e data de extração;
+- Não interpretar produção registrada como necessidade ou qualidade;
+- Combinar com CNES, POP, SIH, SIA, SINAN ou SINASC apenas com território e período compatíveis.
 
 ::: {#qua-sisaps-erros-frequentes-em-analises-da-aps}
 
@@ -677,19 +677,19 @@ Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB
 
 Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 
-- o sistema e o período foram definidos;
-- a transição SISAB-SISAPS foi considerada;
-- a competência e o prazo de envio foram conferidos;
-- a unidade de análise foi declarada;
-- o denominador do indicador foi documentado;
-- tipo de equipe, INE e CNES foram verificados quando usados;
-- regras de cálculo e versão do indicador foram registradas;
-- o calendário de envio e a data de extração foram considerados;
-- dados ausentes, atrasados ou não processados foram separados;
-- comparações territoriais usaram população ou cadastro compatível;
-- requisitos de privacidade foram observados;
-- a extração foi documentada de forma reprodutível;
-- limitações de registro, agregação e privacidade foram discutidas.
+- O sistema e o período foram definidos;
+- A transição SISAB-SISAPS foi considerada;
+- A competência e o prazo de envio foram conferidos;
+- A unidade de análise foi declarada;
+- O denominador do indicador foi documentado;
+- Tipo de equipe, INE e CNES foram verificados quando usados;
+- Regras de cálculo e versão do indicador foram registradas;
+- O calendário de envio e a data de extração foram considerados;
+- Dados ausentes, atrasados ou não processados foram separados;
+- Comparações territoriais usaram população ou cadastro compatível;
+- Requisitos de privacidade foram observados;
+- A extração foi documentada de forma reprodutível;
+- Limitações de registro, agregação e privacidade foram discutidas.
 
 ## Bibliografia recomendada
 
@@ -703,7 +703,7 @@ Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 
 ### Artigos
 
--  Artigo *Atenção Básica e Informação: análise do Sistema de Informação em Saúde para Atenção Básica (SISAB) e estratégia e-SUS AB e suas repercussões para uma gestão da saúde com transparência.[trabalho de conclusão de curso]* [@soares2016atenccao]. Disponível [aqui](https://www.espp.pr.gov.br/sites/escola-saude/arquivos_restritos/files/migrados/File/SISAB.pdf).
+-  Trabalho de conclusão de curso *Atenção Básica e informação: análise do Sistema de Informação em Saúde para Atenção Básica (SISAB) e estratégia e-SUS AB e suas repercussões para uma gestão da saúde com transparência* [@soares2016atenccao]. Disponível [aqui](https://www.espp.pr.gov.br/sites/escola-saude/arquivos_restritos/files/migrados/File/SISAB.pdf).
 
 ### Vídeos
 

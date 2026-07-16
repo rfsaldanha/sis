@@ -1,5 +1,5 @@
 ---
-author: 
+author:
   - Raphael de Freitas Saldanha
   - Mônica de A. F. M. Magalhães
 ---
@@ -40,9 +40,7 @@ O emprego do termo "sistema" indica um processo organizado, composto por instrum
 
 A organização dos SIS varia entre países e também ao longo do tempo. Sua implantação costuma responder a necessidades políticas, econômicas, técnicas, assistenciais e epidemiológicas específicas. Por isso, compreender o contexto de criação e evolução de cada sistema é indispensável para interpretar suas possibilidades e limitações [@worldhealthorganisationFrameworkStandardsCountry2008].
 
-No Brasil, os SIS buscam cobrir diferentes eventos de saúde que ocorrem durante o ciclo de vida da população, bem como eventos relacionados à organização e ao funcionamento do próprio sistema de saúde. Entre esses eventos estão nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias.
-
-A @fig-ciclo-vida-sistemas apresenta as siglas de alguns dos principais SIS existentes no Brasil.
+No Brasil, os SIS buscam cobrir diferentes eventos de saúde que ocorrem durante o ciclo de vida da população, bem como eventos relacionados à organização e ao funcionamento do próprio sistema de saúde. Entre esses eventos estão nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações de doenças e agravos, imunizações, registros de estabelecimentos, produção assistencial e informações orçamentárias. Alguns dos principais sistemas existentes no país e suas siglas são situados ao longo do ciclo de vida na @fig-ciclo-vida-sistemas.
 
 ![Sistemas de informação e o ciclo de vida do cidadão](assets/ciclo_vida_sistemas.png){#fig-ciclo-vida-sistemas}
 

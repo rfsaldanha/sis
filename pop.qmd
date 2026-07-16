@@ -168,15 +168,15 @@ Em séries históricas, preserve a fonte e a versão da população junto com o 
 
 Antes de publicar um indicador com denominador populacional, verifique:
 
--  fonte da população;
--  versão ou data de extração;
--  ano de referência;
--  território do numerador e do denominador;
--  formato do código municipal;
--  recorte por sexo, idade ou faixa etária;
--  tratamento de municípios criados, extintos ou com limites alterados;
--  compatibilidade entre população-alvo e evento contado;
--  estabilidade do indicador em municípios pequenos.
+-  Fonte da população;
+-  Versão ou data de extração;
+-  Ano de referência;
+-  Território do numerador e do denominador;
+-  Formato do código municipal;
+-  Recorte por sexo, idade ou faixa etária;
+-  Tratamento de municípios criados, extintos ou com limites alterados;
+-  Compatibilidade entre população-alvo e evento contado;
+-  Estabilidade do indicador em municípios pequenos.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->

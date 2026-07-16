@@ -48,12 +48,12 @@ A Rede Nacional de Dados em Saúde (RNDS) é a plataforma oficial de interoperab
 
 A RNDS muda a lógica de parte da informação em saúde: em vez de cada sistema permanecer isolado, os registros passam a poder circular por uma infraestrutura nacional de troca de dados. Isso é relevante para continuidade do cuidado, acesso do cidadão aos próprios registros, apoio à decisão clínica, gestão, vigilância e monitoramento.
 
-O quadro resume a RNDS como plataforma, mas essa palavra precisa ser interpretada com cuidado. Plataforma, aqui, não significa apenas um site ou uma aplicação acessada por usuários finais. Significa uma infraestrutura que recebe, valida, organiza e disponibiliza registros segundo regras técnicas e institucionais. O dado que chega à RNDS pode ter sido produzido em um prontuário, em um sistema nacional, em um sistema local, em um laboratório, em um serviço privado ou em uma aplicação de gestão. O ponto comum é que, para circular na rede, esse dado precisa seguir padrões definidos.
+A caracterização inicial da RNDS como plataforma exige interpretar essa palavra com cuidado. Plataforma, aqui, não significa apenas um site ou uma aplicação acessada por usuários finais. Significa uma infraestrutura que recebe, valida, organiza e disponibiliza registros segundo regras técnicas e institucionais. O dado que chega à RNDS pode ter sido produzido em um prontuário, em um sistema nacional, em um sistema local, em um laboratório, em um serviço privado ou em uma aplicação de gestão. O ponto comum é que, para circular na rede, esse dado precisa seguir padrões definidos.
 
 Essa característica torna a RNDS diferente das bases tradicionalmente usadas em epidemiologia e gestão. Quando se trabalha com SIM ou SINASC, por exemplo, a pergunta inicial costuma ser "qual evento foi registrado?". Na RNDS, a pergunta inicial precisa ser anterior: "qual fluxo de informação gerou este registro e por qual modelo ele foi compartilhado?". A resposta condiciona a interpretação de cobertura, atraso, duplicidade, completitude e finalidade de uso.
 
-::: {.callout-note}
-**Interoperabilidade.** Neste capítulo, interoperabilidade significa a capacidade de sistemas diferentes trocarem informações de saúde de forma tecnicamente compatível, semanticamente compreensível e juridicamente governada.
+::: {.callout-note title="Interoperabilidade"}
+Neste capítulo, interoperabilidade significa a capacidade de sistemas diferentes trocarem informações de saúde de forma tecnicamente compatível, semanticamente compreensível e juridicamente governada.
 :::
 
 ## Quando usar a RNDS
@@ -111,7 +111,7 @@ Escopo conceitual da RNDS
 
 :::
 
-O @qua-rnds-escopo-conceitual-da-rnds sintetiza os elementos discutidos. Essa distinção é importante. A RNDS conecta sistemas, mas a qualidade do que circula depende do registro original, do modelo de informação, da identificação correta da pessoa, da conformidade técnica, da governança e do uso adequado por profissionais e gestores.
+A distinção proposta no @qua-rnds-escopo-conceitual-da-rnds é importante: a RNDS conecta sistemas, mas a qualidade do que circula depende do registro original, do modelo de informação, da identificação correta da pessoa, da conformidade técnica, da governança e do uso adequado por profissionais e gestores.
 
 O lado "não é" do quadro é tão importante quanto o lado "é". A expectativa de um prontuário único nacional pode levar a interpretações equivocadas: a RNDS não contém necessariamente toda a história clínica de uma pessoa, nem garante que todos os serviços de saúde do país enviem todos os registros no mesmo prazo e com a mesma qualidade. Ela cria as condições para que registros padronizados circulem, mas a cobertura real depende de adesão, maturidade tecnológica, processos locais, qualidade dos identificadores e regras de integração.
 
@@ -137,7 +137,7 @@ Camadas conceituais da RNDS
 
 :::
 
-O @qua-rnds-camadas-conceituais-da-rnds de camadas ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Cobrar apenas a "RNDS" como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.
+A organização em camadas do @qua-rnds-camadas-conceituais-da-rnds ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Cobrar apenas a "RNDS" como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.
 
 Essa visão em camadas também ajuda na avaliação de maturidade. Um território pode ter bons sistemas locais, mas baixa capacidade de integração. Outro pode enviar registros em grande volume, mas com muitos erros semânticos. Outro pode ter integração tecnicamente estável, mas baixo uso pelos profissionais no ponto de cuidado. A transformação digital em saúde depende de todas essas dimensões ao mesmo tempo.
 
@@ -179,7 +179,7 @@ Etapas gerais do fluxo de integração com a RNDS
 
 :::
 
-O @qua-rnds-etapas-gerais-do-fluxo-de-integracao-com-a-rnds sintetiza os elementos discutidos. Esse fluxo também cria diferenças temporais importantes. A data do atendimento, a data de registro no sistema local, a data de envio à RNDS, a data de validação e a data de disponibilização para consulta podem ser diferentes. Em análises operacionais, esses intervalos ajudam a medir oportunidade e gargalos de integração. Em análises assistenciais, eles ajudam a explicar por que um registro esperado ainda não aparece para o cidadão ou para o profissional.
+O fluxo descrito no @qua-rnds-etapas-gerais-do-fluxo-de-integracao-com-a-rnds também cria diferenças temporais importantes. A data do atendimento, a data de registro no sistema local, a data de envio à RNDS, a data de validação e a data de disponibilização para consulta podem ser diferentes. Em análises operacionais, esses intervalos ajudam a medir oportunidade e gargalos de integração. Em análises assistenciais, eles ajudam a explicar por que um registro esperado ainda não aparece para o cidadão ou para o profissional.
 
 Quando um registro não está disponível, há várias hipóteses possíveis: o evento não ocorreu, ocorreu mas não foi registrado, foi registrado em sistema não integrado, foi enviado com erro, foi rejeitado, ainda está em processamento, foi associado a identificador incorreto ou não está acessível ao perfil que realizou a consulta. A RNDS exige, portanto, uma leitura de fluxo, não apenas uma leitura de presença ou ausência.
 
@@ -335,15 +335,15 @@ Por isso, a qualidade deve ser avaliada em relação à pergunta. Para continuid
 
 Antes de usar informação derivada da RNDS, documente:
 
-- modelo de informação usado;
-- versão do modelo;
-- sistema de origem;
-- período do evento;
-- data de envio ou extração;
-- regra de identificação da pessoa;
-- regra de deduplicação;
-- tratamento de registros rejeitados, retificados ou cancelados;
-- diferença entre ausência de dado e ausência de evento.
+- Modelo de informação usado;
+- Versão do modelo;
+- Sistema de origem;
+- Período do evento;
+- Data de envio ou extração;
+- Regra de identificação da pessoa;
+- Regra de deduplicação;
+- Tratamento de registros rejeitados, retificados ou cancelados;
+- Diferença entre ausência de dado e ausência de evento.
 
 Essa validação mínima funciona como uma ficha metodológica. Sem ela, a análise fica difícil de reproduzir e de comparar com outros períodos ou territórios. Em especial, registros rejeitados ou corrigidos não devem ser tratados como detalhe técnico secundário: eles podem alterar volumes, coberturas e interpretações sobre desempenho dos serviços.
 
@@ -476,7 +476,7 @@ Erros comuns na interpretação da RNDS
 
 :::
 
-O @qua-rnds-erros-comuns-na-interpretacao-da-rnds sintetiza os elementos discutidos. Esses erros aparecem quando se espera da RNDS mais do que ela pode entregar sozinha. O erro mais frequente é interpretar a plataforma como se fosse uma fotografia completa do cuidado em saúde. Na verdade, ela é uma infraestrutura em construção e expansão, dependente de integração progressiva. Outro erro é ignorar que sistemas diferentes produzem registros para finalidades diferentes. Um evento clínico, uma autorização administrativa, uma notificação e um registro cadastral podem se referir a uma mesma pessoa ou serviço, mas respondem a perguntas distintas.
+Os erros reunidos no @qua-rnds-erros-comuns-na-interpretacao-da-rnds aparecem quando se espera da RNDS mais do que ela pode entregar sozinha. O mais frequente é interpretar a plataforma como se fosse uma fotografia completa do cuidado em saúde. Na verdade, ela é uma infraestrutura em construção e expansão, dependente de integração progressiva. Outro erro é ignorar que sistemas diferentes produzem registros para finalidades diferentes. Um evento clínico, uma autorização administrativa, uma notificação e um registro cadastral podem se referir a uma mesma pessoa ou serviço, mas respondem a perguntas distintas.
 
 Também é comum subestimar versões e modelos. Em uma base de interoperabilidade, mudanças aparentemente técnicas podem ter efeitos analíticos concretos: um campo passa a ser obrigatório, uma terminologia muda, um sistema começa a enviar registros com outra granularidade, uma regra de validação rejeita registros antes aceitos. Sem documentação dessas mudanças, séries temporais podem ser interpretadas como mudança de realidade quando são mudança de informação.
 
@@ -496,7 +496,7 @@ Perguntas que exigem RNDS combinada com outras fontes
 
 :::
 
-O @qua-rnds-perguntas-que-exigem-rnds-combinada-com-outras-fontes sintetiza os elementos discutidos. A RNDS tende a ser mais forte quando a pergunta envolve conexão entre registros. Ela tende a ser insuficiente quando a pergunta exige denominadores populacionais, definição epidemiológica de caso, avaliação clínica aprofundada, mensuração de toda a produção assistencial ou análise econômica completa. Nesses casos, a plataforma pode contribuir, mas precisa ser combinada com sistemas finalísticos, cadastros, inquéritos, auditorias, protocolos ou dados locais.
+As perguntas do @qua-rnds-perguntas-que-exigem-rnds-combinada-com-outras-fontes mostram que a RNDS tende a ser mais forte quando o problema envolve conexão entre registros. Ela tende a ser insuficiente quando a análise exige denominadores populacionais, definição epidemiológica de caso, avaliação clínica aprofundada, mensuração de toda a produção assistencial ou análise econômica completa. Nesses casos, a plataforma pode contribuir, mas precisa ser combinada com sistemas finalísticos, cadastros, inquéritos, auditorias, protocolos ou dados locais.
 
 Essa combinação exige clareza sobre a unidade de análise. Se a pergunta é incidência, a unidade pode ser caso novo em população sob risco. Se a pergunta é produção, a unidade pode ser procedimento, atendimento ou AIH. Se a pergunta é trajetória, a unidade pode ser pessoa ao longo do tempo. A RNDS pode participar de todas essas perguntas, mas não define sozinha o denominador nem a regra de elegibilidade.
 
@@ -519,20 +519,20 @@ Limitações recorrentes da RNDS
 
 :::
 
-O @qua-rnds-limitacoes-recorrentes-da-rnds sintetiza os elementos discutidos. Essas limitações não diminuem a relevância da RNDS; elas delimitam seu uso responsável. A plataforma amplia a capacidade de conexão entre sistemas e cria condições para cuidado mais contínuo, mas seu valor depende de implantação, adesão, qualidade do registro e governança. Para gestores e pesquisadores, a pergunta central raramente é "a RNDS tem o dado?", e sim "qual dado, de qual origem, com qual modelo, em qual período, com qual completitude e para qual finalidade?".
+As limitações do @qua-rnds-limitacoes-recorrentes-da-rnds não diminuem a relevância da RNDS; elas delimitam seu uso responsável. A plataforma amplia a capacidade de conexão entre sistemas e cria condições para cuidado mais contínuo, mas seu valor depende de implantação, adesão, qualidade do registro e governança. Para gestores e pesquisadores, a pergunta central raramente é "a RNDS tem o dado?", e sim "qual dado, de qual origem, com qual modelo, em qual período, com qual completitude e para qual finalidade?".
 
 ## Cuidados de interpretação
 
 Ao utilizar ou analisar informações relacionadas à RNDS:
 
-- declare se está tratando de plataforma, modelo, API, painel, base aberta ou produto derivado;
-- identifique o modelo de informação e sua versão;
-- diferencie data do evento, data de registro, data de envio e data de extração;
-- verifique cobertura da integração antes de comparar territórios;
-- não interprete ausência de registro como ausência de evento sem investigar fluxo;
-- avalie completitude, conformidade, oportunidade, duplicidade e retificação;
-- documente sistema de origem e regra de identificação;
-- respeite privacidade, finalidade e governança.
+- Declare se está tratando de plataforma, modelo, API, painel, base aberta ou produto derivado;
+- Identifique o modelo de informação e sua versão;
+- Diferencie data do evento, data de registro, data de envio e data de extração;
+- Verifique cobertura da integração antes de comparar territórios;
+- Não interprete ausência de registro como ausência de evento sem investigar fluxo;
+- Avalie completitude, conformidade, oportunidade, duplicidade e retificação;
+- Documente sistema de origem e regra de identificação;
+- Respeite privacidade, finalidade e governança.
 
 Esses cuidados devem aparecer no método, não apenas como ressalva final. Uma análise que usa informação relacionada à RNDS precisa declarar o que está sendo observado: registros enviados, registros aceitos, registros disponíveis para consulta, base aberta derivada, painel agregado ou indicador produzido por outra área. Cada objeto tem cobertura, periodicidade e limitação próprias.
 

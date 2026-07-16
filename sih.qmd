@@ -371,7 +371,7 @@ Prefixos comuns dos arquivos do SIH
 
 :::
 
-O @qua-sih-prefixos-comuns-dos-arquivos-do-sih sintetiza os elementos discutidos. O arquivo RD costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Arquivos SP são úteis quando a pergunta exige detalhar serviços profissionais vinculados à internação. Arquivos de rejeição ajudam em auditoria e qualidade do processamento, mas não representam produção aprovada.
+Entre os prefixos reunidos no @qua-sih-prefixos-comuns-dos-arquivos-do-sih, o arquivo RD costuma ser o ponto de partida para análises epidemiológicas e de produção hospitalar. Arquivos SP são úteis quando a pergunta exige detalhar serviços profissionais vinculados à internação. Arquivos de rejeição ajudam em auditoria e qualidade do processamento, mas não representam produção aprovada.
 
 ## AIHs rejeitadas
 
@@ -456,7 +456,7 @@ Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objet
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DataSUS |
+| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de notebooks e infraestrutura de dados |
@@ -490,19 +490,19 @@ Uma organização comum é manter os arquivos brutos imutáveis, gerar uma camad
 
 ### TabNet
 
-Os dados do SIH podem ser acessados no TabNet do DataSUS, na seção "Assistência à Saúde".
+Os dados do SIH podem ser acessados no TabNet do DATASUS, na seção "Assistência à Saúde".
 
 - [TabNet SIH](https://datasus.saude.gov.br/acesso-a-informacao/morbidade-hospitalar-do-sus-sih-sus/)
 
 ### TabWin e transferência de arquivos
 
-Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DataSUS.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
 - [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
-O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DataSUS em R [@Saldanha2019a].
+O pacote [`{microdatasus}`](https://rfsaldanha.github.io/microdatasus/index.html) permite baixar e pré-processar microdados do DATASUS em R [@Saldanha2019a].
 
 ```{r}
 #| eval: false
@@ -555,7 +555,7 @@ Integrações frequentes entre o SIH e outros sistemas
 
 Em relacionamentos de registros, a unidade final de análise deve ser definida antes do pareamento. O objetivo pode ser identificar internações, pessoas, episódios, desfechos pós-alta ou trajetórias assistenciais. Cada objetivo exige regras diferentes para duplicidade, janelas temporais e discordâncias.
 
-O quadro mostra combinações frequentes, mas a integração raramente é apenas uma junção mecânica. Em análises agregadas, é preciso compatibilizar território e período. Em relacionamento de registros, entram também identificadores, governança, finalidade legítima, qualidade dos campos de pareamento e regras para registros sem correspondência.
+As combinações frequentes do @qua-sih-integracoes-frequentes-entre-o-sih-e-outros-sistemas deixam claro que a integração raramente é apenas uma junção mecânica. Em análises agregadas, é preciso compatibilizar território e período. Em relacionamento de registros, entram também identificadores, governança, finalidade legítima, qualidade dos campos de pareamento e regras para registros sem correspondência.
 
 ## Principais usos e indicadores
 
@@ -585,14 +585,14 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 
 Ao utilizar o SIH, alguns cuidados são recorrentes:
 
-- distinguir AIH, internação, procedimento e pessoa;
-- lembrar que a cobertura é SUS e rede conveniada, não todo o setor hospitalar;
-- separar residência do paciente e ocorrência da internação;
-- diferenciar competência, data de internação e data de saída;
-- verificar se o arquivo usado é RD, SP, RJ ou ER;
-- interpretar valores como remuneração registrada, não custo econômico total;
-- avaliar mudanças em regras de autorização, tabelas, procedimentos e críticas;
-- verificar completitude e consistência de diagnóstico, procedimento, idade, sexo, município e estabelecimento.
+- Distinguir AIH, internação, procedimento e pessoa;
+- Lembrar que a cobertura é SUS e rede conveniada, não todo o setor hospitalar;
+- Separar residência do paciente e ocorrência da internação;
+- Diferenciar competência, data de internação e data de saída;
+- Verificar se o arquivo usado é RD, SP, RJ ou ER;
+- Interpretar valores como remuneração registrada, não custo econômico total;
+- Avaliar mudanças em regras de autorização, tabelas, procedimentos e críticas;
+- Verificar completitude e consistência de diagnóstico, procedimento, idade, sexo, município e estabelecimento.
 
 ::: {#qua-sih-checklist-de-qualidade-para-analises-com-sih}
 
@@ -610,7 +610,7 @@ Checklist de qualidade para análises com SIH
 
 :::
 
-O @qua-sih-checklist-de-qualidade-para-analises-com-sih sintetiza os elementos discutidos. O checklist deve ser usado antes da interpretação substantiva. Ele ajuda a separar problemas de processamento de achados reais: uma mudança abrupta pode ser efeito de filtros, duplicidade, alteração de procedimento, quebra de competência ou mudança no estabelecimento. Só depois dessas verificações faz sentido discutir hipóteses assistenciais, epidemiológicas ou de gestão.
+O checklist do @qua-sih-checklist-de-qualidade-para-analises-com-sih deve ser usado antes da interpretação substantiva. Ele ajuda a separar problemas de processamento de achados reais: uma mudança abrupta pode ser efeito de filtros, duplicidade, alteração de procedimento, quebra de competência ou mudança no estabelecimento. Só depois dessas verificações faz sentido discutir hipóteses assistenciais, epidemiológicas ou de gestão.
 
 ::: {.callout-warning}
 Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações por ocorrência e população residente, comparar valores pagos como se fossem custos totais, misturar arquivos aprovados e rejeitados, e interpretar óbito hospitalar como mortalidade populacional.

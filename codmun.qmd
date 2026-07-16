@@ -70,7 +70,7 @@ Em arquivos de saúde, campos como `CODMUNRES`, `MUN_RES`, `MUNIC_RES`, `CODMUNO
 
 ## Quadro de códigos
 
-O quadro abaixo, gerado com ajuda do pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr], apresenta os códigos dos municípios brasileiros. Você pode efetuar uma busca pelo nome do município usando a caixa "Procurar".
+O quadro interativo de códigos municipais foi gerado com o pacote [{geobr}](https://ipeagit.github.io/geobr/) [@geobr]. Para localizar um município, use a caixa "Procurar".
 
 ::: {.content-visible when-format="html"}
 

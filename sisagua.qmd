@@ -274,7 +274,7 @@ Conceitos mínimos para análise do SISAGUA
 
 :::
 
-O @qua-sisagua-conceitos-minimos-para-analise-do-sisagua sintetiza os elementos discutidos. O dicionário mínimo explicita termos que costumam ser confundidos na leitura dos dados. Em especial, "fora do padrão" depende de parâmetro, unidade, ponto e norma; "ausência de amostra" é uma informação sobre monitoramento, não sobre qualidade da água. Registrar essas definições evita que o resultado seja interpretado além do que a base permite.
+O dicionário mínimo do @qua-sisagua-conceitos-minimos-para-analise-do-sisagua explicita termos que costumam ser confundidos na leitura dos dados. Em especial, "fora do padrão" depende de parâmetro, unidade, ponto e norma; "ausência de amostra" é uma informação sobre monitoramento, não sobre qualidade da água. Registrar essas definições evita que o resultado seja interpretado além do que a base permite.
 
 ## Parâmetros e potabilidade
 
@@ -629,7 +629,7 @@ Verificações antes de integrar o SISAGUA com outras bases
 
 :::
 
-O @qua-sisagua-verificacoes-antes-de-integrar-o-sisagua-com-outras-bases sintetiza os elementos discutidos. O checklist resume decisões que precisam ser tomadas antes da junção, não depois. Se território, período, denominador e módulo forem definidos apenas ao final da análise, perdas de relacionamento e diferenças de granularidade podem passar despercebidas. A integração deve começar por um desenho explícito de como abastecimento, amostras e eventos serão aproximados.
+O checklist do @qua-sisagua-verificacoes-antes-de-integrar-o-sisagua-com-outras-bases reúne decisões que precisam ser tomadas antes da junção, não depois. Se território, período, denominador e módulo forem definidos apenas ao final da análise, perdas de relacionamento e diferenças de granularidade podem passar despercebidas. A integração deve começar por um desenho explícito de como abastecimento, amostras e eventos serão aproximados.
 
 ## Limitações
 
@@ -649,20 +649,20 @@ Limitações recorrentes do SISAGUA
 
 :::
 
-O @qua-sisagua-limitacoes-recorrentes-do-sisagua sintetiza os elementos discutidos. Essas limitações delimitam o uso correto do sistema. O SISAGUA é indispensável para vigilância da qualidade da água, mas seus registros dependem de cadastro, monitoramento, laboratório e digitação. A ausência de evidência de inconformidade só deve ser interpretada junto com a evidência de que houve monitoramento suficiente e adequado.
+As limitações do @qua-sisagua-limitacoes-recorrentes-do-sisagua delimitam o uso correto do sistema. O SISAGUA é indispensável para vigilância da qualidade da água, mas seus registros dependem de cadastro, monitoramento, laboratório e digitação. A ausência de evidência de inconformidade só deve ser interpretada junto com a evidência de que houve monitoramento suficiente e adequado.
 
 ## Cuidados de interpretação
 
 Ao utilizar o SISAGUA, alguns cuidados são recorrentes:
 
-- definir módulo, forma de abastecimento e unidade de análise;
-- separar dados de controle e vigilância;
-- verificar cadastro e população abastecida antes de calcular cobertura;
-- conferir parâmetro, unidade, ponto de coleta e norma aplicável;
-- distinguir resultado dentro do padrão, resultado fora do padrão e ausência de amostra;
-- validar território, endereço e coordenadas antes de mapear;
-- documentar data de extração, dicionário e versão dos dados;
-- evitar inferir doenças ou impactos clínicos apenas a partir de amostras ambientais.
+- Definir módulo, forma de abastecimento e unidade de análise;
+- Separar dados de controle e vigilância;
+- Verificar cadastro e população abastecida antes de calcular cobertura;
+- Conferir parâmetro, unidade, ponto de coleta e norma aplicável;
+- Distinguir resultado dentro do padrão, resultado fora do padrão e ausência de amostra;
+- Validar território, endereço e coordenadas antes de mapear;
+- Documentar data de extração, dicionário e versão dos dados;
+- Evitar inferir doenças ou impactos clínicos apenas a partir de amostras ambientais.
 
 ::: {#qua-sisagua-erros-frequentes-em-analises-com-sisagua}
 
@@ -685,13 +685,13 @@ Os erros do @qua-sisagua-erros-frequentes-em-analises-com-sisagua têm uma orige
 
 Algumas leituras parecem intuitivas, mas são frágeis:
 
-- "nenhum resultado fora do padrão" pode significar poucas ou nenhuma amostra;
-- amostras de denúncia ou desastre não representam necessariamente a rotina;
-- controle e vigilância têm responsabilidades e vieses diferentes;
-- população abastecida não é automaticamente população residente;
-- ponto de coleta não representa toda a rede ou todo o município;
+- "Nenhum resultado fora do padrão" pode significar poucas ou nenhuma amostra;
+- Amostras de denúncia ou desastre não representam necessariamente a rotina;
+- Controle e vigilância têm responsabilidades e vieses diferentes;
+- População abastecida não é automaticamente população residente;
+- Ponto de coleta não representa toda a rede ou todo o município;
 - SAA, SAC, SAI e carro-pipa não têm o mesmo perfil de risco;
-- parâmetros químicos, microbiológicos e de desinfecção têm frequências e interpretações distintas.
+- Parâmetros químicos, microbiológicos e de desinfecção têm frequências e interpretações distintas.
 
 ## Checklist de reprodutibilidade
 
@@ -724,19 +724,19 @@ A reprodutibilidade no SISAGUA depende de registrar escolhas normativas e operac
 
 Antes de concluir uma análise com SISAGUA, verifique se:
 
-- o módulo analisado foi definido;
-- a forma de abastecimento foi identificada;
-- cadastro, controle e vigilância foram mantidos separados quando necessário;
-- o período e a norma aplicável foram documentados;
-- parâmetro, unidade e ponto de coleta foram conferidos;
-- o número de amostras foi avaliado junto com resultados fora do padrão;
-- o cumprimento do plano de amostragem foi avaliado quando relevante;
-- coletas de rotina e emergenciais foram separadas quando necessário;
-- população abastecida e população residente não foram confundidas;
-- dados ausentes, atrasados e duplicados foram tratados;
-- território e coordenadas foram validados antes de mapas;
-- fonte, data de extração, dicionário e norma foram registrados;
-- limitações de registro, cobertura e representatividade foram discutidas.
+- O módulo analisado foi definido;
+- A forma de abastecimento foi identificada;
+- Cadastro, controle e vigilância foram mantidos separados quando necessário;
+- O período e a norma aplicável foram documentados;
+- Parâmetro, unidade e ponto de coleta foram conferidos;
+- O número de amostras foi avaliado junto com resultados fora do padrão;
+- O cumprimento do plano de amostragem foi avaliado quando relevante;
+- Coletas de rotina e emergenciais foram separadas quando necessário;
+- População abastecida e população residente não foram confundidas;
+- Dados ausentes, atrasados e duplicados foram tratados;
+- Território e coordenadas foram validados antes de mapas;
+- Fonte, data de extração, dicionário e norma foram registrados;
+- Limitações de registro, cobertura e representatividade foram discutidas.
 
 ## Bibliografia recomendada
 

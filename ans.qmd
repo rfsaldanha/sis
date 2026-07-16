@@ -1,4 +1,4 @@
-# Agência Nacional de Saúde Suplementar - ANS {#sec-ans}
+# ANS -- Agência Nacional de Saúde Suplementar {#sec-ans}
 
 A Agência Nacional de Saúde Suplementar (ANS) é a agência reguladora federal responsável pelo setor de planos privados de assistência à saúde. Vinculada ao Ministério da Saúde, ela é uma autarquia sob regime especial, com autonomia administrativa, financeira e técnica, sede no Rio de Janeiro e atuação em todo o território nacional. A Lei nº 9.961, de 28 de janeiro de 2000, atribuiu-lhe funções de regulação, normatização, controle e fiscalização das atividades que garantem a assistência suplementar à saúde [@brasilLei99612000] (ver @qua-ans-caracteristicas-gerais-da-ans).
 

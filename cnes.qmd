@@ -82,7 +82,7 @@ Após a consolidação da FCES, a Portaria SAS/MS nº 403/2000 definiu o Cadastr
 Atualmente, o CNES é usado como identificador de estabelecimentos em diversos sistemas. O código CNES permite relacionar produção ambulatorial, internações, notificações, nascimentos, óbitos, equipes, leitos e serviços à estrutura da rede onde o evento foi registrado.
 
 ::: {.callout-note}
-Estabelecimento de saúde é definido como o espaço físico delimitado e permanente onde são realizados ações e serviços de saúde humana sob responsabilidade técnica (art. 360, da PRC/MS nº 01/2017).
+Estabelecimento de saúde é definido como o espaço físico delimitado e permanente no qual se realizam ações e serviços de saúde humana sob responsabilidade técnica (art. 360 da PRC/MS nº 1/2017).
 :::
 
 Em termos de dimensão, para o mês de abril de 2020, o CNES apresentava 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023].
@@ -567,7 +567,7 @@ As formas de acesso variam em granularidade, atualização e reprodutibilidade. 
 
 ### OpenDataSUS
 
-Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DataSUS, incluindo versões de dados preliminares.
+Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DATASUS, incluindo versões de dados preliminares.
 
 -  [OpenDataSUS - CNES](https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude)
 -  [OpenDataSUS - Monitoramento do CNES](https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes)
@@ -576,19 +576,19 @@ Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido 
 
 ### TabNet
 
-Os dados do CNES podem ser acessados no sistema TabNet do DataSUS, na seção "Rede Assistencial".
+Os dados do CNES podem ser acessados no sistema TabNet do DATASUS, na seção "Rede Assistencial".
 
 -  [TabNet CNES](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
 ### TabWin e transferência de arquivos
 
-Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DataSUS.
+Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DATASUS.
 
 -  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### ElasticCNES
 
-O DataSUS apresenta alguns [painéis do CNES](https://elasticnes.saude.gov.br) construídos a partir da tecnologia ElasticSearch.
+O DATASUS apresenta alguns [painéis do CNES](https://elasticnes.saude.gov.br) construídos a partir da tecnologia ElasticSearch.
 
 ### R
 
@@ -760,22 +760,22 @@ Limitações recorrentes do CNES
 
 :::
 
-O @qua-cnes-limitacoes-recorrentes-do-cnes sintetiza os elementos discutidos. Essas limitações não reduzem a importância do CNES; elas definem seu uso correto. O cadastro é indispensável para conhecer a rede, mas deve ser interpretado como registro administrativo mensal. Sempre que a pergunta envolver funcionamento real, ocupação, acesso ou produção, é necessário integrar fontes ou declarar que o indicador mede apenas estrutura cadastrada.
+As limitações reunidas no @qua-cnes-limitacoes-recorrentes-do-cnes não reduzem a importância do CNES; elas definem seu uso correto. O cadastro é indispensável para conhecer a rede, mas deve ser interpretado como registro administrativo mensal. Sempre que a pergunta envolver funcionamento real, ocupação, acesso ou produção, é necessário integrar fontes ou declarar que o indicador mede apenas estrutura cadastrada.
 
 ## Cuidados de interpretação
 
 Ao utilizar o CNES, alguns cuidados são recorrentes:
 
-- definir a unidade de análise antes de baixar os arquivos;
-- usar a competência compatível com a pergunta;
-- distinguir estabelecimento, serviço, leito, equipamento, equipe e vínculo profissional;
-- não interpretar cadastro como produção assistencial;
-- separar rede SUS, privada, filantrópica e suplementar quando necessário;
-- explicitar quando o CNES for usado como denominador;
-- verificar mudanças históricas de classificação;
-- validar campos territoriais e geográficos antes de mapear;
-- agregar arquivos de recursos antes de relacionar com eventos;
-- documentar prefixos, filtros e versões dos dados.
+- Definir a unidade de análise antes de baixar os arquivos;
+- Usar a competência compatível com a pergunta;
+- Distinguir estabelecimento, serviço, leito, equipamento, equipe e vínculo profissional;
+- Não interpretar cadastro como produção assistencial;
+- Separar rede SUS, privada, filantrópica e suplementar quando necessário;
+- Explicitar quando o CNES for usado como denominador;
+- Verificar mudanças históricas de classificação;
+- Validar campos territoriais e geográficos antes de mapear;
+- Agregar arquivos de recursos antes de relacionar com eventos;
+- Documentar prefixos, filtros e versões dos dados.
 
 ::: {#qua-cnes-erros-frequentes-em-analises-com-cnes}
 
@@ -799,21 +799,21 @@ Os erros do @qua-cnes-erros-frequentes-em-analises-com-cnes têm uma causa comum
 
 Antes de concluir uma análise com CNES, verifique se:
 
-- a competência foi definida;
-- o arquivo ou prefixo corresponde à unidade de análise;
-- o código CNES foi tratado como identificador do estabelecimento;
-- vínculos profissionais não foram interpretados como pessoas únicas sem regra explícita;
-- leitos, equipamentos e serviços foram analisados separadamente;
-- a rede SUS ou não SUS foi delimitada quando necessário;
-- o recorte público, privado, filantrópico ou suplementar foi documentado;
-- denominadores do CNES foram compatíveis com numeradores de produção ou eventos;
-- mudanças de classificação histórica foram consideradas;
-- estabelecimentos que entram, saem ou mudam de perfil na série foram tratados;
-- coordenadas e endereços foram validados antes de análises espaciais;
-- a integração com SIH, SIA, SINAN, SIM ou SINASC usou período compatível;
-- arquivos de recursos foram agregados antes de junções com eventos;
-- perdas de relacionamento por código CNES foram quantificadas;
-- limitações de cadastro, atualização e geocodificação foram discutidas.
+- A competência foi definida;
+- O arquivo ou prefixo corresponde à unidade de análise;
+- O código CNES foi tratado como identificador do estabelecimento;
+- Vínculos profissionais não foram interpretados como pessoas únicas sem regra explícita;
+- Leitos, equipamentos e serviços foram analisados separadamente;
+- A rede SUS ou não SUS foi delimitada quando necessário;
+- O recorte público, privado, filantrópico ou suplementar foi documentado;
+- Denominadores do CNES foram compatíveis com numeradores de produção ou eventos;
+- Mudanças de classificação histórica foram consideradas;
+- Estabelecimentos que entram, saem ou mudam de perfil na série foram tratados;
+- Coordenadas e endereços foram validados antes de análises espaciais;
+- A integração com SIH, SIA, SINAN, SIM ou SINASC usou período compatível;
+- Arquivos de recursos foram agregados antes de junções com eventos;
+- Perdas de relacionamento por código CNES foram quantificadas;
+- Limitações de cadastro, atualização e geocodificação foram discutidas.
 
 ## Bibliografia recomendada
 

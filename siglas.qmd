@@ -101,14 +101,14 @@ CSV
 D1/D2
 : Primeira dose e segunda dose de um esquema vacinal
 
-DataSUS/DATASUS
+DATASUS
 : Departamento de Informática do Sistema Único de Saúde
 
 DATAPREV
 : Empresa de Tecnologia e Informações da Previdência
 
 DBC
-: Formato compactado de arquivos DBF usado pelo DataSUS
+: Formato compactado de arquivos DBF usado pelo DATASUS
 
 DBF
 : Formato de arquivo de banco de dados associado ao *dBASE*

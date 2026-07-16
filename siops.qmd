@@ -148,7 +148,7 @@ Etapas gerais da declaração no SIOPS
 
 :::
 
-O @qua-siops-etapas-gerais-da-declaracao-no-siops sintetiza os elementos discutidos. O fluxo evidencia que o SIOPS não é apenas um repositório de valores monetários. A informação passa por preparação contábil, preenchimento, críticas, transmissão e homologação. Para análise, a etapa de homologação é decisiva, pois separa dados apenas enviados de dados validados no fluxo oficial do sistema.
+O fluxo do @qua-siops-etapas-gerais-da-declaracao-no-siops evidencia que o SIOPS não é apenas um repositório de valores monetários. A informação passa por preparação contábil, preenchimento, críticas, transmissão e homologação. Para análise, a etapa de homologação é decisiva, pois separa dados apenas enviados de dados validados no fluxo oficial do sistema.
 
 ## Unidade de análise
 
@@ -741,7 +741,7 @@ Limitações recorrentes do SIOPS
 
 :::
 
-O @qua-siops-limitacoes-recorrentes-do-siops sintetiza os elementos discutidos. As limitações não reduzem a importância do SIOPS; elas delimitam seu campo de uso. O sistema é essencial para acompanhar financiamento público e cumprimento legal, mas não substitui bases de produção, oferta, acesso ou resultado. Em análises integradas, o gasto deve ser tratado como dimensão financeira agregada.
+As limitações do @qua-siops-limitacoes-recorrentes-do-siops não reduzem a importância do SIOPS; elas delimitam seu campo de uso. O sistema é essencial para acompanhar financiamento público e cumprimento legal, mas não substitui bases de produção, oferta, acesso ou resultado. Em análises integradas, o gasto deve ser tratado como dimensão financeira agregada.
 
 ## Financiamento, acesso e resultados
 
@@ -766,15 +766,15 @@ Essa leitura evita inferência causal simples. Um gasto maior pode refletir maio
 
 Ao utilizar o SIOPS, alguns cuidados são recorrentes:
 
-- definir se a análise usa bimestre ou exercício consolidado;
-- verificar se os dados foram homologados;
-- distinguir receita, despesa, aplicação em ASPS e indicador;
-- escolher a fase da despesa antes de comparar valores;
-- deflacionar valores monetários em séries temporais;
-- padronizar por população quando o objetivo for comparar entes;
-- documentar filtros de esfera, UF, município e período;
-- registrar fonte, data de extração e versão da base;
-- evitar inferir acesso ou qualidade assistencial apenas a partir do gasto.
+- Definir se a análise usa bimestre ou exercício consolidado;
+- Verificar se os dados foram homologados;
+- Distinguir receita, despesa, aplicação em ASPS e indicador;
+- Escolher a fase da despesa antes de comparar valores;
+- Deflacionar valores monetários em séries temporais;
+- Padronizar por população quando o objetivo for comparar entes;
+- Documentar filtros de esfera, UF, município e período;
+- Registrar fonte, data de extração e versão da base;
+- Evitar inferir acesso ou qualidade assistencial apenas a partir do gasto.
 
 ::: {#qua-siops-erros-frequentes-em-analises-com-siops}
 
@@ -793,18 +793,18 @@ Erros frequentes em análises com SIOPS
 
 :::
 
-O @qua-siops-erros-frequentes-em-analises-com-siops sintetiza os elementos discutidos. Os erros mais comuns decorrem de interpretar uma base financeira como se fosse uma base assistencial. O SIOPS informa esforço orçamentário declarado e aplicação legal, mas não mostra diretamente consultas, internações, cobertura efetiva ou qualidade. A redação dos resultados deve preservar essa fronteira.
+Os erros do @qua-siops-erros-frequentes-em-analises-com-siops decorrem principalmente de interpretar uma base financeira como se fosse uma base assistencial. O SIOPS informa esforço orçamentário declarado e aplicação legal, mas não mostra diretamente consultas, internações, cobertura efetiva ou qualidade. A redação dos resultados deve preservar essa fronteira.
 
 ### Armadilhas de interpretação
 
 Algumas leituras parecem intuitivas, mas são frágeis:
 
-- gasto maior não significa automaticamente melhor acesso, eficiência ou qualidade;
-- gasto menor pode refletir subfinanciamento, classificação contábil diferente ou menor responsabilidade regional;
-- crescimento nominal pode ser apenas inflação;
-- gasto per capita em município pequeno pode oscilar muito com poucos eventos orçamentários;
-- percentual mínimo cumprido não significa suficiência de financiamento;
-- despesa municipal não representa todo o gasto público em saúde realizado no território.
+- Gasto maior não significa automaticamente melhor acesso, eficiência ou qualidade;
+- Gasto menor pode refletir subfinanciamento, classificação contábil diferente ou menor responsabilidade regional;
+- Crescimento nominal pode ser apenas inflação;
+- Gasto per capita em município pequeno pode oscilar muito com poucos eventos orçamentários;
+- Percentual mínimo cumprido não significa suficiência de financiamento;
+- Despesa municipal não representa todo o gasto público em saúde realizado no território.
 
 ## Checklist de reprodutibilidade
 
@@ -859,19 +859,19 @@ Esse @qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops transforma cuid
 
 Antes de concluir uma análise com SIOPS, verifique se:
 
-- a esfera federativa foi definida;
-- o exercício e o bimestre foram documentados;
-- a situação de homologação foi conferida;
-- a fase da despesa foi explicitada;
-- receitas, despesas e ASPS foram tratados como conceitos distintos;
-- valores monetários foram deflacionados quando comparados no tempo;
-- indicadores per capita usaram população compatível;
-- comparações entre entes consideraram porte e responsabilidades;
-- exclusões e inclusões de ASPS foram revisadas;
-- dados ausentes, pendentes e não homologados foram separados;
-- integrações com outros sistemas respeitaram território e período;
-- a extração foi documentada de forma reprodutível;
-- limitações de dado declaratório e agregado foram discutidas.
+- A esfera federativa foi definida;
+- O exercício e o bimestre foram documentados;
+- A situação de homologação foi conferida;
+- A fase da despesa foi explicitada;
+- Receitas, despesas e ASPS foram tratados como conceitos distintos;
+- Valores monetários foram deflacionados quando comparados no tempo;
+- Indicadores per capita usaram população compatível;
+- Comparações entre entes consideraram porte e responsabilidades;
+- Exclusões e inclusões de ASPS foram revisadas;
+- Dados ausentes, pendentes e não homologados foram separados;
+- Integrações com outros sistemas respeitaram território e período;
+- A extração foi documentada de forma reprodutível;
+- Limitações de dado declaratório e agregado foram discutidas.
 
 ## Bibliografia recomendada
 

@@ -5,7 +5,7 @@ Informação	introducao	Dados, informação e conhecimento
 Conhecimento	introducao	Dados, informação e conhecimento
 Registro Civil	historico	Do Registro Civil à aproximação com o setor saúde
 Instrumentos de coleta	historico	Padronização dos instrumentos de coleta
-DataSUS	historico	O Departamento de Informática do SUS -- DataSUS
+DATASUS	historico	O Departamento de Informática do SUS -- DATASUS
 Disseminação pública de dados	historico	Disseminação pública e acesso aos dados
 Interoperabilidade	historico	Integração, interoperabilidade e novos desafios
 Qualidade dos dados	historico	Qualidade, oportunidade e desigualdades
@@ -98,9 +98,9 @@ Dengue	sinan	Exemplo: dengue
 Arboviroses	sinan	Arboviroses
 Acidente de trabalho com material biológico	sinan	Acidente de trabalho com material biológico
 Acidente de trabalho	sinan	Acidente de trabalho
-Aids em adultos	sinan	AIDS em adultos
-Aids em crianças	sinan	AIDS em crianças
-Acidentes por animais peçonhentos	sinan	Acidentes por Animais Peçonhentos
+Aids em adultos	sinan	Aids em adultos
+Aids em crianças	sinan	Aids em crianças
+Acidentes por animais peçonhentos	sinan	Acidentes por animais peçonhentos
 Atendimento antirrábico	sinan	Atendimento antirrábico
 Botulismo	sinan	Botulismo
 Câncer relacionado ao trabalho	sinan	Câncer relacionado ao trabalho
@@ -110,7 +110,7 @@ Cólera	sinan	Cólera
 Coqueluche	sinan	Coqueluche
 Dengue	sinan	Dengue
 Dermatoses ocupacionais	sinan	Dermatoses ocupacionais
-Esporotricose	sinan	Esporotricose (Epizootia)
+Esporotricose	sinan	Esporotricose (epizootia)
 HIV em adultos	sinan	HIV em adultos
 HIV em crianças	sinan	HIV em crianças
 HIV em gestantes	sinan	HIV em gestante
@@ -119,43 +119,43 @@ Rotavírus	sinan	Rotavírus
 Doenças transmitidas por alimentos	sinan	Surto de doenças transmitidas por alimentos
 Difteria	sinan	Difteria
 Esquistossomose mansoni	sinan	Esquistossomose mansoni
-Doenças exantemáticas	sinan	Doenças Exantemáticas
-Febre amarela	sinan	Febre Amarela
-Febre maculosa	sinan	Febre Maculosa
+Doenças exantemáticas	sinan	Doenças exantemáticas
+Febre amarela	sinan	Febre amarela
+Febre maculosa	sinan	Febre maculosa
 Febre Oropouche	sinan	Febre Oropouche
-Febre tifoide	sinan	Febre Tifóide
+Febre tifoide	sinan	Febre tifoide
 Hanseníase	sinan	Hanseníase
 Hantavirose	sinan	Hantavirose
-Hepatites virais	sinan	Hepatites Virais
-Intoxicação exógena	sinan	Intoxicação Exógena
-Leishmaniose tegumentar americana	sinan	Leishmaniose Tegumentar Americana
-Leishmaniose visceral	sinan	Leishmaniose Visceral
+Hepatites virais	sinan	Hepatites virais
+Intoxicação exógena	sinan	Intoxicação exógena
+Leishmaniose tegumentar americana	sinan	Leishmaniose tegumentar americana
+Leishmaniose visceral	sinan	Leishmaniose visceral
 Leptospirose	sinan	Leptospirose
 LER/DORT	sinan	LER/DORT
 Malária	sinan	Malária
 Meningite	sinan	Meningite
-Transtornos mentais relacionados ao trabalho	sinan	Transtornos mentais relacionais ao trabalho
+Transtornos mentais relacionados ao trabalho	sinan	Transtornos mentais relacionados ao trabalho
 Tracoma	sinan	Notificação de tracoma
 Perda auditiva induzida por ruído	sinan	Perda auditiva por ruído relacionado ao trabalho
-Mpox (Monkeypox)	sinan	Monkeypox
+Mpox	sinan	Mpox
 Peste	sinan	Peste
-Poliomielite	sinan	Poliomielite / Paralisia Flácida Aguda
-Paralisia Flácida Aguda	sinan	Poliomielite / Paralisia Flácida Aguda
+Poliomielite	sinan	Poliomielite/paralisia flácida aguda
+Paralisia flácida aguda	sinan	Poliomielite/paralisia flácida aguda
 Pneumoconioses relacionadas ao trabalho	sinan	Pneumoconioses relacionadas ao trabalho
-Raiva humana	sinan	Raiva Humana
+Raiva humana	sinan	Raiva humana
 Sífilis adquirida	sinan	Sífilis adquirida
-Sífilis congênita	sinan	Sífilis Congênita
-Sífilis em gestantes	sinan	Sífilis em Gestante
-Síndrome da Rubéola Congênita	sinan	Síndrome da Rubéola Congênita
-Tétano acidental	sinan	Tétano Acidental
-Tétano neonatal	sinan	Tétano Neonatal
+Sífilis congênita	sinan	Sífilis congênita
+Sífilis em gestantes	sinan	Sífilis em gestante
+Síndrome da rubéola congênita	sinan	Síndrome da rubéola congênita
+Tétano acidental	sinan	Tétano acidental
+Tétano neonatal	sinan	Tétano neonatal
 Toxoplasmose congênita	sinan	Toxoplasmose congênita
 Toxoplasmose gestacional	sinan	Toxoplasmose gestacional
 Tuberculose	sinan	Tuberculose
-Varicela	sinan	Varicela / Herpes-Zóster
-Herpes-zóster	sinan	Varicela / Herpes-Zóster
+Varicela	sinan	Varicela/herpes-zóster
+Herpes-zóster	sinan	Varicela/herpes-zóster
 Violência doméstica e sexual	sinan	Violência doméstica, sexual e/ou outras violências
-Violência interpessoal ou autoprovocada	sinan	Violência Interpessoal/Autoprovocada
+Violência interpessoal ou autoprovocada	sinan	Violência interpessoal/autoprovocada
 Zika vírus	sinan	Zika vírus
 SIVEP	sinan	SINAN e SIVEP
 CNES — Cadastro Nacional de Estabelecimentos de Saúde	cnes	CNES -- Cadastro Nacional de Estabelecimentos de Saúde
@@ -191,8 +191,8 @@ Aplicação mínima em saúde	siops	ASPS e aplicação mínima
 Restos a pagar	siops	Restos a pagar e compensações
 Deflação	siops	Deflação de valores monetários
 Financiamento da saúde	siops	Financiamento, acesso e resultados
-SISAPS — Sistema de Informação para a Atenção Primária à Saúde	sisaps	SISAPS - Sistema de Informação para a Atenção Primária à Saúde
-Atenção Primária à Saúde (APS)	sisaps	SISAPS - Sistema de Informação para a Atenção Primária à Saúde
+SISAPS — Sistema de Informação para a Atenção Primária à Saúde	sisaps	SISAPS -- Sistema de Informação para a Atenção Primária à Saúde
+Atenção Primária à Saúde (APS)	sisaps	SISAPS -- Sistema de Informação para a Atenção Primária à Saúde
 Equipe de saúde	sisaps	Identificadores de equipe
 Denominadores	sisaps	Qual denominador usar?
 Cofinanciamento da APS	sisaps	Indicadores e cofinanciamento
@@ -246,7 +246,7 @@ SIVEP-Malária	sivep	SIVEP-Malária
 SIVEP-DDA	sivep	SIVEP-DDA
 SISVAN — Sistema de Vigilância Alimentar e Nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
 Vigilância alimentar e nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
-ANS — Agência Nacional de Saúde Suplementar	ans	Agência Nacional de Saúde Suplementar - ANS
+ANS — Agência Nacional de Saúde Suplementar	ans	ANS -- Agência Nacional de Saúde Suplementar
 Planos privados de saúde	ans	Para que serve a ANS
 Regulação da saúde suplementar	ans	Criação e principais marcos regulatórios
 Saúde suplementar	ans	Para que serve a ANS

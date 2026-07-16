@@ -37,7 +37,7 @@ Essa trajetória ajuda a compreender uma característica central dos Sistemas de
 | Até os anos 1970 | Predomínio de registros civis e administrativos fragmentados | Baixa padronização, subregistro e limitada comparabilidade territorial |
 | Anos 1970-1980 | Criação dos primeiros sistemas nacionais e padronização de instrumentos | Consolidação de estatísticas vitais, imunizações e produção assistencial |
 | A partir de 1988 | Constituição Federal, criação do SUS e descentralização | Municípios e estados assumem papel central na produção e uso dos dados |
-| Anos 1990-2000 | Criação e consolidação do DataSUS | Integração nacional de bases, disseminação pública e infraestrutura tecnológica |
+| Anos 1990-2000 | Criação e consolidação do DATASUS | Integração nacional de bases, disseminação pública e infraestrutura tecnológica |
 | Anos 2010 em diante | Expansão de dados abertos, sistemas online e interoperabilidade | Novas possibilidades de análise, integração e uso em tempo oportuno |
 
 Periodização sintética da experiência brasileira em Sistemas de Informação em Saúde
@@ -115,19 +115,19 @@ A informatização progressiva modificou esse processo. Sistemas com críticas a
 
 Mais recentemente, sistemas online e estratégias de integração passaram a criar expectativa de dados em tempo mais oportuno. Essa mudança é particularmente relevante para vigilância epidemiológica, imunizações e acompanhamento assistencial, áreas em que atrasos podem afetar respostas rápidas. Ao mesmo tempo, dados mais oportunos podem ser mais preliminares, sujeitos a revisão e menos completos que bases consolidadas posteriormente.
 
-## O Departamento de Informática do SUS -- DataSUS
+## O Departamento de Informática do SUS -- DATASUS
 
-Com o estabelecimento do SUS, foi criado em 1991 o Departamento de Informática do SUS (DataSUS), inicialmente vinculado à Fundação Nacional de Saúde (FUNASA) [@brasilDecreto1001991]. O novo departamento incorporou profissionais oriundos da Diretoria de Sistemas de Saúde do DATAPREV, a Empresa de Tecnologia e Informações da Previdência, e de outros órgãos.
+Com o estabelecimento do SUS, foi criado em 1991 o Departamento de Informática do SUS (DATASUS), inicialmente vinculado à Fundação Nacional de Saúde (FUNASA) [@brasilDecreto1001991]. O novo departamento incorporou profissionais oriundos da Diretoria de Sistemas de Saúde da DATAPREV, empresa de tecnologia e informações da Previdência, e de outros órgãos.
 
-A localização institucional inicial do DataSUS fora da administração direta do Ministério da Saúde impunha desafios de coordenação. Em 1998 foram iniciadas ações para sua transferência, efetivada em 2002, quando o departamento passou a integrar diretamente a estrutura do Ministério da Saúde [@brasilDecreto41942002; @BrasilDataSUS2002].
+A localização institucional inicial do DATASUS fora da administração direta do Ministério da Saúde impunha desafios de coordenação. Em 1998 foram iniciadas ações para sua transferência, efetivada em 2002, quando o departamento passou a integrar diretamente a estrutura do Ministério da Saúde [@brasilDecreto41942002; @BrasilDataSUS2002].
 
-Entre as competências atribuídas ao DataSUS, destacam-se a manutenção e o desenvolvimento de sistemas de informação em saúde; a incorporação de tecnologias de informática necessárias às ações de saúde; a definição de normas e padrões para transmissão e transferência de informações; a integração nacional das bases de dados e sistemas do SUS; e a manutenção do acervo nacional de dados em saúde [@brasilDecreto41942002].
+Entre as competências atribuídas ao DATASUS, destacam-se a manutenção e o desenvolvimento de sistemas de informação em saúde; a incorporação de tecnologias de informática necessárias às ações de saúde; a definição de normas e padrões para transmissão e transferência de informações; a integração nacional das bases de dados e sistemas do SUS; e a manutenção do acervo nacional de dados em saúde [@brasilDecreto41942002].
 
-Dessa forma, o DataSUS tornou-se o principal órgão responsável pela infraestrutura informacional dos SIS brasileiros. Sua atuação contribuiu para consolidar bases nacionais, padronizar fluxos de transferência, ampliar a disseminação pública de dados e apoiar o uso das informações por gestores, pesquisadores, profissionais de saúde e sociedade.
+Dessa forma, o DATASUS tornou-se o principal órgão responsável pela infraestrutura informacional dos SIS brasileiros. Sua atuação contribuiu para consolidar bases nacionais, padronizar fluxos de transferência, ampliar a disseminação pública de dados e apoiar o uso das informações por gestores, pesquisadores, profissionais de saúde e sociedade.
 
 ## Disseminação pública e acesso aos dados
 
-Uma característica importante da experiência brasileira é a ampla disseminação pública de dados em saúde. Ao longo do tempo, o DataSUS estruturou mecanismos de tabulação, transferência de arquivos e acesso a bases agregadas e microdados, permitindo que diferentes públicos utilizem informações do SUS para gestão, pesquisa, ensino, controle social e jornalismo de dados.
+Uma característica importante da experiência brasileira é a ampla disseminação pública de dados em saúde. Ao longo do tempo, o DATASUS estruturou mecanismos de tabulação, transferência de arquivos e acesso a bases agregadas e microdados, permitindo que diferentes públicos utilizem informações do SUS para gestão, pesquisa, ensino, controle social e jornalismo de dados.
 
 Esse acesso público modificou a relação entre sistemas administrativos e produção de conhecimento. Bases originalmente construídas para rotinas de gestão passaram a alimentar estudos epidemiológicos, painéis de indicadores, avaliações de políticas, monitoramento de desigualdades e análises territoriais. Ferramentas computacionais criadas por comunidades de pesquisa também ampliaram a capacidade de download, pré-processamento e análise desses dados [@Saldanha2019a; @saldanhaAcessoAosDados2023].
 
@@ -153,7 +153,7 @@ Por isso, a leitura histórica dos SIS não deve ser entendida apenas como uma s
 
 ## Linha do tempo de criação dos principais SIS
 
-O quadro a seguir resume marcos históricos da criação dos principais SIS (ver @qua-historico-marcos-selecionados-da-trajetoria-dos-sis-brasileiros).
+A trajetória institucional descrita nesta seção pode ser acompanhada pelos marcos reunidos no @qua-historico-marcos-selecionados-da-trajetoria-dos-sis-brasileiros.
 
 ::: {#qua-historico-marcos-selecionados-da-trajetoria-dos-sis-brasileiros}
 
@@ -163,15 +163,15 @@ O quadro a seguir resume marcos históricos da criação dos principais SIS (ver
 | 1981 | Início da implantação do SIH |
 | 1988 | Promulgação da Constituição Federal e criação das bases legais do SUS |
 | 1990 | Regulamentação do SUS; implantação do SINASC e instituição do SIA |
-| 1991 | Criação do DataSUS |
+| 1991 | Criação do DATASUS |
 | 1993 | Início da implantação do SINAN |
 | 1999 | Implantação do SISAGUA |
 | 2000 | Criação do CNES e do SIOPS |
 | 2001 | Implantação do novo SI-PNI |
-| 2002 | Transferência do DataSUS para a administração direta do Ministério da Saúde |
+| 2002 | Transferência do DATASUS para a administração direta do Ministério da Saúde |
 | 2013 | Implantação do SISAB |
-| 2025 | Instituição do SISAPS/Siaps como renovação do SISAB |
 | 2020 | Instituição do Programa Conecte SUS e da RNDS |
+| 2025 | Instituição do SISAPS/Siaps como renovação do SISAB |
 
 Marcos selecionados da trajetória dos SIS brasileiros
 
