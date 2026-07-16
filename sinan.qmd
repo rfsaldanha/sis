@@ -1264,13 +1264,13 @@ Antes de concluir uma análise com SINAN, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sinan}
 
-- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 49.
+- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 46.
 
-- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 441.
+- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 411.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 468.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 438.
 
-- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 431.
+- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 401.
 
 :::
 <!-- END GENERATED SEE ALSO -->

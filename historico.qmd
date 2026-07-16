@@ -197,7 +197,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 
 - [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 28.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 464.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 434.
 
 :::
 <!-- END GENERATED SEE ALSO -->

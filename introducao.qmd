@@ -69,7 +69,7 @@ Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória ins
 
 - [Organização dos SIS — seção “Critérios de organização”](organizacao.html#critérios-de-organização). Na edição impressa, p. 25.
 
-- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 44.
+- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 42.
 
 :::
 <!-- END GENERATED SEE ALSO -->

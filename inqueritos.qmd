@@ -375,13 +375,13 @@ Antes de publicar uma análise, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-inqueritos}
 
-- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 53.
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 51.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 419.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 199.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 184.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 459.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 428.
 
 :::
 <!-- END GENERATED SEE ALSO -->

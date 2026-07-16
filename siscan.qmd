@@ -366,13 +366,13 @@ Antes de concluir uma análise, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-siscan}
 
-- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 136.
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 126.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 224.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 207.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 466.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 436.
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 50.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 48.
 
 :::
 <!-- END GENERATED SEE ALSO -->
