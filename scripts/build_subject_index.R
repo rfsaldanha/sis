@@ -223,8 +223,19 @@ if (mode == "build") {
     output <- c(output, "::::", "")
   }
 
-  writeLines(output, file.path(root, "indice.qmd"), useBytes = TRUE)
-  message("Índice online gerado com ", length(grouped), " termos e ", nrow(entries), " remissões.")
+  output_path <- file.path(root, "indice.qmd")
+  current_output <- if (file.exists(output_path)) {
+    readLines(output_path, warn = FALSE, encoding = "UTF-8")
+  } else {
+    character()
+  }
+
+  # `indice.qmd` é uma entrada monitorada pelo preview. Evitar uma escrita sem
+  # mudança de conteúdo impede que o próprio pre-render solicite outro render.
+  if (!identical(current_output, output)) {
+    writeLines(output, output_path, useBytes = TRUE)
+    message("Índice online atualizado com ", length(grouped), " termos e ", nrow(entries), " remissões.")
+  }
 }
 
 typst_escape <- function(x) {

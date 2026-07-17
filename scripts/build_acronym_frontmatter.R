@@ -100,5 +100,16 @@ output <- c(
   "\\clearpage"
 )
 
-writeLines(output, output_path, useBytes = TRUE)
-message("Pré-textual de siglas gerado em ", output_path, ".")
+current_output <- if (file.exists(output_path)) {
+  readLines(output_path, warn = FALSE, encoding = "UTF-8")
+} else {
+  character()
+}
+
+# Durante `quarto preview`, alterar um arquivo usado pela renderização dispara
+# uma nova renderização. Só grave quando a saída realmente mudar para não criar
+# um ciclo entre o pre-render e o observador de arquivos do Quarto.
+if (!identical(current_output, output)) {
+  writeLines(output, output_path, useBytes = TRUE)
+  message("Pré-textual de siglas atualizado em ", output_path, ".")
+}
