@@ -120,7 +120,7 @@ datatable(
 ```
 :::
 
-Nos links a seguir, você pode consultar a hierarquia da CID-10 e da CID-11:
+Nos endereços a seguir, você pode consultar a hierarquia da CID-10 e da CID-11:
 
 -  [CID-10 no DATASUS](http://www2.datasus.gov.br/cid10/V2008/WebHelp/listacateg.htm)
 -  [CID-10 na OMS](https://icd.who.int/browse10)

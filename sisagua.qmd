@@ -459,7 +459,7 @@ A qualidade do SISAGUA depende de cadastro atualizado, oportunidade do registro,
 | Parâmetros | Unidade, método e resultado coerentes |
 | Duplicidade | Amostras ou cadastros repetidos |
 | Oportunidade | Coleta, resultado e digitação em tempo adequado |
-| Origem do dado | Controle, vigilância, integração laboratorial ou serviço web identificados |
+| Origem do dado | Controle, vigilância, integração laboratorial ou serviço *web* identificados |
 
 Dimensões de qualidade relevantes no SISAGUA
 
@@ -619,7 +619,7 @@ Integrações frequentes entre SISAGUA e outros sistemas
 
 As integrações ampliam o valor analítico do SISAGUA, mas também aumentam o risco de inferência indevida. Associar água e doenças, por exemplo, exige cuidado com defasagem temporal, território de exposição, sub-registro e fatores socioambientais. O SISAGUA pode indicar exposição potencial e qualidade monitorada; ele não identifica sozinho o consumo individual nem estabelece causalidade.
 
-### Checklist para integração
+### *Checklist* para integração
 
 ::: {#qua-sisagua-verificacoes-antes-de-integrar-o-sisagua-com-outras-bases}
 
@@ -636,7 +636,7 @@ Verificações antes de integrar o SISAGUA com outras bases
 
 :::
 
-O checklist do @qua-sisagua-verificacoes-antes-de-integrar-o-sisagua-com-outras-bases reúne decisões que precisam ser tomadas antes da junção, não depois. Se território, período, denominador e módulo forem definidos apenas ao final da análise, perdas de relacionamento e diferenças de granularidade podem passar despercebidas. A integração deve começar por um desenho explícito de como abastecimento, amostras e eventos serão aproximados.
+O *checklist* do @qua-sisagua-verificacoes-antes-de-integrar-o-sisagua-com-outras-bases reúne decisões que precisam ser tomadas antes da junção, não depois. Se território, período, denominador e módulo forem definidos apenas ao final da análise, perdas de relacionamento e diferenças de granularidade podem passar despercebidas. A integração deve começar por um desenho explícito de como abastecimento, amostras e eventos serão aproximados.
 
 ## Limitações
 
@@ -700,7 +700,7 @@ Algumas leituras parecem intuitivas, mas são frágeis:
 - SAA, SAC, SAI e carro-pipa não têm o mesmo perfil de risco;
 - Parâmetros químicos, microbiológicos e de desinfecção têm frequências e interpretações distintas.
 
-## Checklist de reprodutibilidade
+## *Checklist* de reprodutibilidade
 
 Uma análise do SISAGUA deve registrar as decisões que afetam módulo, norma, parâmetro, território e denominador.
 
@@ -719,7 +719,7 @@ Uma análise do SISAGUA deve registrar as decisões que afetam módulo, norma, p
 | Norma | Versão da regra de potabilidade usada |
 | Denominador | Amostras, população abastecida, população residente ou formas cadastradas |
 | Ausentes | Como foram tratados amostras ausentes, resultados vazios e abaixo do limite |
-| Origem | Controle, Vigilância, GAL, serviço web ou digitação |
+| Origem | Controle, Vigilância, GAL, serviço *web* ou digitação |
 
 Itens mínimos para reprodutibilidade em análises do SISAGUA
 
@@ -727,7 +727,7 @@ Itens mínimos para reprodutibilidade em análises do SISAGUA
 
 A reprodutibilidade no SISAGUA depende de registrar escolhas normativas e operacionais, não apenas o código usado. Dois estudos podem baixar a mesma base e chegar a resultados diferentes se escolherem módulos, pontos de coleta, formas de abastecimento ou regras para ausentes de maneira distinta. O @qua-sisagua-itens-minimos-para-reprodutibilidade-em-analises-do-sisagua oferece um roteiro mínimo para tornar essas escolhas auditáveis.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com SISAGUA, verifique se:
 

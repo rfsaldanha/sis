@@ -1189,7 +1189,7 @@ Essas limitações não reduzem a importância do SINAN. Elas indicam que o sist
 
 | Uso | Principal risco | Mitigação |
 |---|---|---|
-| Monitoramento oportuno | Atraso de notificação e digitação | Usar curvas por data de sintomas e considerar nowcasting |
+| Monitoramento oportuno | Atraso de notificação e digitação | Usar curvas por data de sintomas e considerar *nowcasting* |
 | Estimativa de incidência | Subnotificação e mudança de sensibilidade | Discutir cobertura da vigilância e comparar períodos com cautela |
 | Detecção de surtos | Aumento pode refletir busca ativa ou mudança de definição | Integrar investigação local e dados laboratoriais |
 | Avaliação de letalidade | Óbitos podem estar incompletos no SINAN | Relacionar com SIM quando possível |
@@ -1233,7 +1233,7 @@ Erros frequentes em análises do SINAN
 
 Os erros reunidos no @qua-sinan-erros-frequentes-em-analises-do-sinan têm em comum a perda do processo de vigilância que produziu o registro. A análise fica mais robusta quando o texto diferencia suspeição, investigação, confirmação, encerramento e atualização da base. Em produtos públicos, essa distinção deve aparecer nas legendas, notas metodológicas e interpretação dos resultados, especialmente quando há comparação temporal ou territorial.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com SINAN, verifique se:
 

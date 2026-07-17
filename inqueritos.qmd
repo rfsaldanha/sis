@@ -337,7 +337,7 @@ A página institucional reúne histórico, metodologia, relatórios e acesso às
 - Trate dados da PNS 2026 como operação em coleta, não como resultados;
 - Registre versão, dicionário, data de extração e regras de recodificação.
 
-## Checklist final
+## *Checklist* final
 
 Antes de publicar uma análise, verifique se:
 

@@ -648,7 +648,7 @@ As integrações tornam o CNES mais analítico, mas exigem cuidado temporal. Um 
 
 Em relacionamentos temporais, escolha se o CNES será usado na competência do evento, em uma competência de referência ou como histórico longitudinal. A escolha muda a interpretação.
 
-### Checklist para relacionamento
+### *Checklist* para relacionamento
 
 Antes de relacionar o CNES com sistemas de eventos ou produção, valide a chave e a granularidade da junção (ver @qua-cnes-verificacoes-antes-de-integrar-cnes-com-outros-sistemas).
 
@@ -668,7 +668,7 @@ Verificações antes de integrar CNES com outros sistemas
 
 :::
 
-Esse checklist é uma etapa de controle de qualidade da junção. Perdas de relacionamento, chaves com zeros à esquerda e granularidades incompatíveis podem produzir vieses silenciosos. A auditoria deve informar quantos eventos foram relacionados, quantos ficaram sem correspondência e se a perda se concentra em algum período, território ou tipo de estabelecimento.
+Esse *checklist* é uma etapa de controle de qualidade da junção. Perdas de relacionamento, chaves com zeros à esquerda e granularidades incompatíveis podem produzir vieses silenciosos. A auditoria deve informar quantos eventos foram relacionados, quantos ficaram sem correspondência e se a perda se concentra em algum período, território ou tipo de estabelecimento.
 
 ## Rede SUS, privada, filantrópica e suplementar
 
@@ -795,7 +795,7 @@ Erros frequentes em análises com CNES
 
 Os erros do @qua-cnes-erros-frequentes-em-analises-com-cnes têm uma causa comum: confundir camadas do cadastro. Estabelecimento, leito, profissional, equipamento e serviço são unidades diferentes, ainda que compartilhem o código CNES. A análise fica mais robusta quando cada etapa explicita a unidade contada, o arquivo usado e o momento temporal do cadastro.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com CNES, verifique se:
 

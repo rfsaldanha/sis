@@ -164,7 +164,7 @@ taxa_mortalidade <- obitos |>
 
 Em séries históricas, preserve a fonte e a versão da população junto com o resultado final. Isso evita que uma atualização posterior do denominador torne tabelas e gráficos irreprodutíveis.
 
-## Checklist
+## *Checklist*
 
 Antes de publicar um indicador com denominador populacional, verifique:
 

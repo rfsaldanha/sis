@@ -565,7 +565,7 @@ Integrações frequentes entre SI-PNI e outros sistemas
 
 :::
 
-### Checklist para integração
+### *Checklist* para integração
 
 ::: {#qua-sipni-verificacoes-antes-de-integrar-si-pni-com-outros-sistemas}
 

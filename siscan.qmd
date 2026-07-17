@@ -330,7 +330,7 @@ Relacionamentos nominais exigem identificadores protegidos, governança e base l
 - Registre filtros, categorias, versão, período e data de extração;
 - Não use SISCAN ou Painel Oncologia como estimadores isolados de incidência.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise, verifique se:
 

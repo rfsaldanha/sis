@@ -524,11 +524,11 @@ Ao utilizar o SINASC, alguns cuidados são recorrentes:
 | Parto único ou múltiplo | Afeta peso, prematuridade e unidade de análise |
 | Base preliminar ou consolidada | Evita que atualizações pareçam tendência |
 
-Checklist de qualidade para análises com SINASC
+*Checklist* de qualidade para análises com SINASC
 
 :::
 
-O checklist do @qua-sinasc-checklist-de-qualidade-para-analises-com-sinasc funciona como uma etapa de controle antes da interpretação substantiva. Ele não precisa ser apresentado integralmente em todos os relatórios, mas as decisões tomadas a partir dele devem aparecer no método: critérios de exclusão, tratamento de ignorados, escolha territorial, período usado e versão da base. Em séries municipais, também é recomendável observar flutuações abruptas que possam refletir atraso de registro ou mudança administrativa, e não alteração real do evento.
+O *checklist* do @qua-sinasc-checklist-de-qualidade-para-analises-com-sinasc funciona como uma etapa de controle antes da interpretação substantiva. Ele não precisa ser apresentado integralmente em todos os relatórios, mas as decisões tomadas a partir dele devem aparecer no método: critérios de exclusão, tratamento de ignorados, escolha territorial, período usado e versão da base. Em séries municipais, também é recomendável observar flutuações abruptas que possam refletir atraso de registro ou mudança administrativa, e não alteração real do evento.
 
 ::: {.callout-warning}
 Erros comuns incluem calcular taxas por ocorrência com população residente, usar nascidos vivos como proxy de gestantes, comparar prematuridade sem avaliar mudanças na mensuração da idade gestacional e interpretar baixa frequência de anomalias congênitas como ausência do problema sem verificar subnotificação.

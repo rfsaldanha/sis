@@ -657,7 +657,7 @@ As integrações ampliam o alcance do SIOPS, mas também expõem diferenças de 
 O SIOPS descreve gasto declarado pelo ente. Sistemas assistenciais registram eventos, produção ou oferta em unidades de saúde. Antes de relacionar bases, defina se o território é de residência, ocorrência, gestão ou localização do serviço.
 :::
 
-### Checklist para integração
+### *Checklist* para integração
 
 Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação (ver @qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas).
 
@@ -676,7 +676,7 @@ Verificações antes de integrar SIOPS com outros sistemas
 
 :::
 
-O checklist de integração deve ser aplicado antes da junção das bases. Se o território, o período, o indicador financeiro e o denominador forem definidos apenas depois, perdas de relacionamento e incompatibilidades de granularidade podem passar despercebidas. O desenho analítico precisa preceder o código.
+O *checklist* de integração deve ser aplicado antes da junção das bases. Se o território, o período, o indicador financeiro e o denominador forem definidos apenas depois, perdas de relacionamento e incompatibilidades de granularidade podem passar despercebidas. O desenho analítico precisa preceder o código.
 
 ## Principais usos e indicadores
 
@@ -806,7 +806,7 @@ Algumas leituras parecem intuitivas, mas são frágeis:
 - Percentual mínimo cumprido não significa suficiência de financiamento;
 - Despesa municipal não representa todo o gasto público em saúde realizado no território.
 
-## Checklist de reprodutibilidade
+## *Checklist* de reprodutibilidade
 
 Uma extração do SIOPS deve deixar claro como o dado foi obtido e transformado (ver @qua-siops-itens-minimos-para-reprodutibilidade-em-analises-do-siops).
 
@@ -855,7 +855,7 @@ Decisões metodológicas antes de analisar o SIOPS
 
 Esse @qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com SIOPS, verifique se:
 

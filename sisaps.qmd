@@ -578,7 +578,7 @@ Integrações frequentes entre SISAPS/SISAB e outros sistemas
 
 :::
 
-### Checklist para integração
+### *Checklist* para integração
 
 Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador (ver @qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas).
 
@@ -648,7 +648,7 @@ Erros frequentes em análises da APS
 
 :::
 
-## Checklist de reprodutibilidade
+## *Checklist* de reprodutibilidade
 
 Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente qual relatório foi usado e como os resultados foram obtidos (ver @qua-sisaps-itens-minimos-para-reprodutibilidade-em-analises-do-sisaps-sisab).
 
@@ -673,7 +673,7 @@ Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB
 
 :::
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 

@@ -745,11 +745,11 @@ Ao utilizar o SIA, alguns cuidados são recorrentes:
 | CNES | Estabelecimentos mudam de perfil e vínculo |
 | Valores extremos | Podem indicar procedimento específico ou erro |
 
-Checklist de qualidade para análises com SIA
+*Checklist* de qualidade para análises com SIA
 
 :::
 
-O checklist do @qua-sia-checklist-de-qualidade-para-analises-com-sia serve como revisão final da coerência entre pergunta, fonte e indicador. Ele não substitui a leitura do dicionário nem a validação contra totais agregados, mas ajuda a identificar rapidamente se a análise trocou unidade, território ou sentido do valor registrado.
+O *checklist* do @qua-sia-checklist-de-qualidade-para-analises-com-sia serve como revisão final da coerência entre pergunta, fonte e indicador. Ele não substitui a leitura do dicionário nem a validação contra totais agregados, mas ajuda a identificar rapidamente se a análise trocou unidade, território ou sentido do valor registrado.
 
 ::: {.callout-warning}
 Erros comuns incluem contar procedimentos como pessoas, somar instrumentos diferentes sem harmonizar unidade de análise, comparar valores aprovados como se fossem custos totais e interpretar produção registrada como necessidade de saúde atendida.
@@ -775,7 +775,7 @@ Erros frequentes em análises do SIA
 
 Os erros reunidos no @qua-sia-erros-frequentes-em-analises-do-sia são simples de formular, mas têm grande impacto nos resultados. A forma mais eficiente de preveni-los é escrever, antes do processamento, uma especificação curta com arquivo usado, filtros, unidade de análise, campos somados, território e comparação de validação esperada.
 
-## Checklist final
+## *Checklist* final
 
 Antes de concluir uma análise com SIA, verifique se:
 

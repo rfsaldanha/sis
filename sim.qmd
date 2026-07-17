@@ -296,9 +296,9 @@ Ao comparar anos, especialmente anos recentes, verifique se as bases têm o mesm
 
 A data do óbito deve ser priorizada quando o objetivo é estudar a ocorrência temporal do evento. Datas de cadastro, recebimento ou atualização ajudam a avaliar oportunidade, mas não substituem a data em que a morte ocorreu.
 
-## Checklist antes da análise
+## *Checklist* antes da análise
 
-Antes de tabular o SIM, defina a unidade de análise, o recorte do numerador e as dimensões de qualidade que serão avaliadas. Esse checklist evita misturar perguntas diferentes no mesmo indicador (ver @qua-sim-decisoes-minimas-antes-de-analisar-dados-do-sim).
+Antes de tabular o SIM, defina a unidade de análise, o recorte do numerador e as dimensões de qualidade que serão avaliadas. Esse *checklist* evita misturar perguntas diferentes no mesmo indicador (ver @qua-sim-decisoes-minimas-antes-de-analisar-dados-do-sim).
 
 ::: {#qua-sim-decisoes-minimas-antes-de-analisar-dados-do-sim}
 

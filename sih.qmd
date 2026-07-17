@@ -606,11 +606,11 @@ Ao utilizar o SIH, alguns cuidados são recorrentes:
 | CNES e município | Estabelecimentos mudam de perfil, gestão e vínculo |
 | Valores extremos | Podem indicar procedimentos específicos ou erro |
 
-Checklist de qualidade para análises com SIH
+*Checklist* de qualidade para análises com SIH
 
 :::
 
-O checklist do @qua-sih-checklist-de-qualidade-para-analises-com-sih deve ser usado antes da interpretação substantiva. Ele ajuda a separar problemas de processamento de achados reais: uma mudança abrupta pode ser efeito de filtros, duplicidade, alteração de procedimento, quebra de competência ou mudança no estabelecimento. Só depois dessas verificações faz sentido discutir hipóteses assistenciais, epidemiológicas ou de gestão.
+O *checklist* do @qua-sih-checklist-de-qualidade-para-analises-com-sih deve ser usado antes da interpretação substantiva. Ele ajuda a separar problemas de processamento de achados reais: uma mudança abrupta pode ser efeito de filtros, duplicidade, alteração de procedimento, quebra de competência ou mudança no estabelecimento. Só depois dessas verificações faz sentido discutir hipóteses assistenciais, epidemiológicas ou de gestão.
 
 ::: {.callout-warning}
 Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações por ocorrência e população residente, comparar valores pagos como se fossem custos totais, misturar arquivos aprovados e rejeitados, e interpretar óbito hospitalar como mortalidade populacional.
