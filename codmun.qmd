@@ -19,11 +19,9 @@ Muitos SIS usam o código municipal com 6 dígitos, sem o dígito verificador. P
 | Característica | Descrição |
 |---|---|
 | Instituição responsável | IBGE |
-| Código completo | 7 dígitos |
-| Código frequente em SIS | 6 dígitos, sem dígito verificador |
-| Dois primeiros dígitos | Código da UF |
-| Próximos quatro dígitos | Código do município dentro da UF |
-| Último dígito | Dígito verificador no código completo do IBGE |
+| Código oficial completo | 7 dígitos: código da UF (2), código do município dentro da UF (4) e dígito verificador (1) |
+| Leitura regional | O primeiro dígito do código da UF também identifica a Grande Região |
+| Formato frequente nos SIS | 6 dígitos, obtidos pela retirada do dígito verificador |
 | Uso central nos SIS | Identificar território de residência, ocorrência, atendimento, notificação ou estabelecimento |
 
 Características gerais dos códigos municipais
@@ -50,23 +48,65 @@ Perguntas comuns envolvendo códigos municipais
 
 ## Estrutura do código
 
-O código municipal completo do IBGE pode ser entendido como uma composição de Grande Região, UF, município e dígito verificador. A informação de que o primeiro dígito identifica a Grande Região é verdadeira; os dois primeiros, em conjunto, identificam a Unidade da Federação [@ibgeMapaIndiceDigital2011]. Por exemplo, o código de Belo Horizonte, MG, é `3106200` (ver @qua-codmun-estrutura-do-codigo-municipal).
+O código municipal do IBGE possui sete dígitos e identifica cada município de forma única no país. Sua composição pode ser lida em três blocos: os dois primeiros dígitos formam o código da UF; os quatro seguintes identificam o município dentro dessa UF; e o último é o dígito verificador. Assim, o código de Belo Horizonte, `3106200`, pode ser separado como `31` + `0620` + `0` [@ibgeCodigosMunicipios2026; @ibgeMapaIndiceDigital2011].
+
+### Leitura dos sete dígitos
+
+O primeiro dígito tem uma segunda função: ele indica a Grande Região. No exemplo, `3` corresponde ao Sudeste. Esse algarismo, porém, não constitui um bloco adicional; ele já é o primeiro dos dois dígitos que formam o código da UF (`31`, Minas Gerais). Da mesma forma, `0620` identifica Belo Horizonte dentro de Minas Gerais, não isoladamente no país. O @qua-codmun-estrutura-do-codigo-municipal mostra essas leituras sobrepostas.
 
 ::: {#qua-codmun-estrutura-do-codigo-municipal}
 
-| Parte | Exemplo | Significado |
+| Posição | Trecho de `3106200` | Leitura |
 |---|---|---|
-| `31` | `31` | Minas Gerais |
-| `0620` | `0620` | Belo Horizonte dentro da UF |
-| `0` | `0` | Dígito verificador |
-| `310620` | `310620` | Formato de 6 dígitos frequente em SIS |
-| `3106200` | `3106200` | Código completo de 7 dígitos do IBGE |
+| 1 | `3` | Grande Região: Sudeste |
+| 1–2 | `31` | Unidade da Federação: Minas Gerais |
+| 3–6 | `0620` | Município dentro da UF: Belo Horizonte |
+| 7 | `0` | Dígito verificador |
 
 Estrutura do código municipal
 
 :::
 
-Em arquivos de saúde, campos como `CODMUNRES`, `MUN_RES`, `MUNIC_RES`, `CODMUNOCOR`, `MUN_NOT` ou `CODMUN` podem aparecer com nomes e tamanhos diferentes. O nome do campo não basta: consulte sempre o dicionário da base para confirmar se o código é de residência, ocorrência, atendimento, notificação ou estabelecimento.
+Os quatro algarismos da parte municipal têm largura fixa. Em `0620`, o zero inicial faz parte desse trecho; se ele for extraído e armazenado como número, torna-se `620`. Tratar códigos como texto preserva o formato e evita operações numéricas sem sentido para um identificador.
+
+### Primeiro dígito e Grande Região
+
+A convenção permite identificar a Grande Região a partir do primeiro algarismo do código (ver @qua-codmun-primeiro-digito-e-grande-regiao).
+
+::: {#qua-codmun-primeiro-digito-e-grande-regiao}
+
+| Dígito | Grande Região | Códigos de UF correspondentes |
+|---:|---|---|
+| `1` | Norte | RO `11`, AC `12`, AM `13`, RR `14`, PA `15`, AP `16`, TO `17` |
+| `2` | Nordeste | MA `21`, PI `22`, CE `23`, RN `24`, PB `25`, PE `26`, AL `27`, SE `28`, BA `29` |
+| `3` | Sudeste | MG `31`, ES `32`, RJ `33`, SP `35` |
+| `4` | Sul | PR `41`, SC `42`, RS `43` |
+| `5` | Centro-Oeste | MS `50`, MT `51`, GO `52`, DF `53` |
+
+Grande Região indicada pelo primeiro dígito
+
+:::
+
+O primeiro dígito é útil para conferência e agrupamento inicial, mas não basta para validar um código municipal. Para junções e análises, use a tabela oficial do IBGE correspondente ao período estudado. A Grande Região do IBGE também não deve ser confundida com regiões e macrorregiões de saúde, que têm outra finalidade e outra composição territorial.
+
+### Formatos encontrados nas bases
+
+O código completo de sete dígitos é usado nas tabelas e em diversos produtos do IBGE. Muitos SIS, entretanto, armazenam apenas os seis primeiros dígitos, sem o dígito verificador. O formato reduzido não é um código diferente: é a mesma chave territorial representada sem o último algarismo (ver @qua-codmun-formatos-do-codigo-municipal).
+
+::: {#qua-codmun-formatos-do-codigo-municipal}
+
+| Formato | Composição | Exemplo | Uso e cuidado |
+|---|---|---|---|
+| 7 dígitos | UF (2) + município (4) + dígito verificador (1) | `3106200` | Formato completo do IBGE |
+| 6 dígitos | UF (2) + município (4) | `310620` | Frequente nos SIS; corresponde ao código completo sem o último dígito |
+
+Formatos do código municipal
+
+:::
+
+Para converter sete dígitos em seis, retire somente o último algarismo. Para passar de seis para sete, associe o valor à tabela oficial do IBGE e recupere o código completo correspondente; não presuma nem calcule o dígito verificador quando a própria tabela pode fornecê-lo.
+
+Em arquivos de saúde, campos como `CODMUNRES`, `MUN_RES`, `MUNIC_RES`, `CODMUNOCOR`, `MUN_NOT` ou `CODMUN` podem aparecer com nomes e tamanhos diferentes. O nome do campo não informa, sozinho, nem o formato nem o significado territorial. Consulte o dicionário da base para confirmar: (1) se o código tem seis ou sete dígitos; e (2) se o município registrado é o de residência, ocorrência, atendimento, notificação ou localização do estabelecimento.
 
 ## Quadro de códigos
 

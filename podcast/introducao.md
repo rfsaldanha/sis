@@ -10,11 +10,11 @@
 
 **Duração estimada:** 6 minutos
 
-> **Nota editorial:** O áudio preserva uma referência a uma versão anterior dos créditos. Na edição atual, a autoria da Introdução é de Raphael de Freitas Saldanha.
+> **Autoria da Introdução:** Raphael de Freitas Saldanha.
 
 ## Roteiro
 
-**APRESENTADORA:** Olá! Este é o podcast do livro Sistemas de Informação em Saúde no Brasil, escrito por Raphael de Freitas Saldanha. Neste capítulo de introdução, Raphael também conta com a autoria de Mônica Magalhães.
+**APRESENTADORA:** Olá! Este é o podcast do livro Sistemas de Informação em Saúde no Brasil, escrito por Raphael de Freitas Saldanha.
 
 **ESTUDANTE:** E qual é a proposta do livro?
 
