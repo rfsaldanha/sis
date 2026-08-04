@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1114,7 +1117,7 @@ Quadro&nbsp;11.8: Possibilidades e limites do Painel Oncologia
 </figure>
 </div>
 <p>O intervalo exibido depende de duas datas encontradas nas bases administrativas. Se o diagnóstico ou o tratamento não for registrado, estiver fora do escopo das fontes ou não puder ser relacionado por problemas de identificação, o caso pode não compor a medida. A data do primeiro procedimento registrado também não representa toda a linha de cuidado.</p>
-<p>O acesso público ao Painel Oncologia está disponível em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A consulta deve registrar a data de extração, os filtros, a abrangência geográfica e o período selecionado.</p>
+<p>O acesso público ao Painel Oncologia está disponível no <a href="https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=">TabNet</a>. A consulta deve registrar a data de extração, os filtros, a abrangência geográfica e o período selecionado.</p>
 </section>
 <section id="qualidade-e-cobertura" class="level2" data-number="11.10">
 <h2 data-number="11.10" class="anchored" data-anchor-id="qualidade-e-cobertura"><span class="header-section-number">11.10</span> Qualidade e cobertura</h2>
@@ -1248,7 +1251,7 @@ Quadro&nbsp;11.10: Exemplos de indicadores derivados do SISCAN e do Painel Oncol
 </section>
 <section id="exemplo-oportunidade-do-diagnóstico-e-do-tratamento" class="level3" data-number="11.11.2">
 <h3 data-number="11.11.2" class="anchored" data-anchor-id="exemplo-oportunidade-do-diagnóstico-e-do-tratamento"><span class="header-section-number">11.11.2</span> Exemplo: oportunidade do diagnóstico e do tratamento</h3>
-<p>Para estudar tempo, identifique claramente os marcos usados: solicitação, realização, liberação do resultado, diagnóstico ou primeiro tratamento. O SISCAN detalha parte inicial desse percurso; o Painel Oncologia relaciona diagnóstico e tratamento em diferentes sistemas. Os dois intervalos não são intercambiáveis.</p>
+<p>Para estudar tempo, identifique claramente os marcos usados: solicitação, realização, liberação do resultado, diagnóstico ou primeiro tratamento. O SISCAN detalha a parte inicial desse percurso; o Painel Oncologia relaciona diagnóstico e tratamento em diferentes sistemas. Os dois intervalos não são intercambiáveis.</p>
 </section>
 </section>
 <section id="análise-territorial-e-temporal" class="level2" data-number="11.12">
@@ -1260,19 +1263,19 @@ Quadro&nbsp;11.10: Exemplos de indicadores derivados do SISCAN e do Painel Oncol
 <h2 data-number="11.13" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">11.13</span> Acesso aos dados</h2>
 <section id="siscan-no-tabnet" class="level3" data-number="11.13.1">
 <h3 data-number="11.13.1" class="anchored" data-anchor-id="siscan-no-tabnet"><span class="header-section-number">11.13.1</span> SISCAN no TabNet</h3>
-<p>As tabulações públicas do SISCAN estão disponíveis na página do DATASUS em https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/. As opções e os períodos disponíveis devem ser conferidos na data da consulta <span class="citation" data-cites="datasusSiscan2026">(<a href="referencias.html#ref-datasusSiscan2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE. DATASUS, 2026b</a>)</span>.</p>
+<p>As tabulações públicas do SISCAN estão disponíveis na <a href="https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/">página do sistema no DATASUS</a>. As opções e os períodos disponíveis devem ser conferidos na data da consulta <span class="citation" data-cites="datasusSiscan2026">(<a href="referencias.html#ref-datasusSiscan2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE. DATASUS, 2026b</a>)</span>.</p>
 </section>
 <section id="siscolo-e-sismama" class="level3" data-number="11.13.2">
 <h3 data-number="11.13.2" class="anchored" data-anchor-id="siscolo-e-sismama"><span class="header-section-number">11.13.2</span> SISCOLO e SISMAMA</h3>
-<p>As séries históricas dos sistemas antecessores podem ser consultadas em https://datasus.saude.gov.br/acesso-a-informacao/cancer-de-colo-de-utero-e-de-mama-siscolo-sismama/. Elas são importantes para análises anteriores e para avaliar a transição entre sistemas <span class="citation" data-cites="datasusSiscoloSismama2026">(<a href="referencias.html#ref-datasusSiscoloSismama2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE. DATASUS, 2026a</a>)</span>.</p>
+<p>As séries históricas dos sistemas antecessores podem ser consultadas na <a href="https://datasus.saude.gov.br/acesso-a-informacao/cancer-de-colo-de-utero-e-de-mama-siscolo-sismama/">página do SISCOLO e do SISMAMA</a>. Elas são importantes para análises anteriores e para avaliar a transição entre sistemas <span class="citation" data-cites="datasusSiscoloSismama2026">(<a href="referencias.html#ref-datasusSiscoloSismama2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE. DATASUS, 2026a</a>)</span>.</p>
 </section>
 <section id="acesso-ao-painel-oncologia" class="level3" data-number="11.13.3">
 <h3 data-number="11.13.3" class="anchored" data-anchor-id="acesso-ao-painel-oncologia"><span class="header-section-number">11.13.3</span> Acesso ao Painel Oncologia</h3>
-<p>O Painel Oncologia pode ser tabulado em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A página institucional de controle do câncer, em https://www.gov.br/saude/pt-br/composicao/saes/cgcan, descreve a ferramenta e suas fontes <span class="citation" data-cites="brasilPainelOncologia2026">(<a href="referencias.html#ref-brasilPainelOncologia2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE, 2026</a>)</span>.</p>
+<p>O Painel Oncologia pode ser tabulado no <a href="https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=">TabNet</a>. A <a href="https://www.gov.br/saude/pt-br/composicao/saes/cgcan">página institucional de controle do câncer</a> descreve a ferramenta e suas fontes <span class="citation" data-cites="brasilPainelOncologia2026">(<a href="referencias.html#ref-brasilPainelOncologia2026" role="doc-biblioref">BRASIL. MINISTÉRIO DA SAÚDE, 2026</a>)</span>.</p>
 </section>
 <section id="manuais-e-relatórios" class="level3" data-number="11.13.4">
 <h3 data-number="11.13.4" class="anchored" data-anchor-id="manuais-e-relatórios"><span class="header-section-number">11.13.4</span> Manuais e relatórios</h3>
-<p>O manual do SISCAN está organizado em módulos sobre apresentação e fluxo, exames e faturamento, seguimento e monitoramento da qualidade. Ele pode ser consultado em https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4 <span class="citation" data-cites="incaManualSiscan2021">(<a href="referencias.html#ref-incaManualSiscan2021" role="doc-biblioref">INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2021</a>)</span>. O relatório de qualidade dos dados está disponível em https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020 <span class="citation" data-cites="incaQualidadeSiscan2022">(<a href="referencias.html#ref-incaQualidadeSiscan2022" role="doc-biblioref">INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2022</a>)</span>.</p>
+<p>O manual do SISCAN está organizado em módulos sobre apresentação e fluxo, exames e faturamento, seguimento e monitoramento da qualidade. Ele pode ser consultado na <a href="https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4">página do manual</a> <span class="citation" data-cites="incaManualSiscan2021">(<a href="referencias.html#ref-incaManualSiscan2021" role="doc-biblioref">INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2021</a>)</span>. O relatório de qualidade dos dados está disponível na <a href="https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020">página do relatório</a> <span class="citation" data-cites="incaQualidadeSiscan2022">(<a href="referencias.html#ref-incaQualidadeSiscan2022" role="doc-biblioref">INSTITUTO NACIONAL DE CÂNCER JOSÉ ALENCAR GOMES DA SILVA, 2022</a>)</span>.</p>
 </section>
 </section>
 <section id="relacionamento-com-outros-sistemas" class="level2" data-number="11.14">
@@ -1327,8 +1330,8 @@ Quadro&nbsp;11.10: Exemplos de indicadores derivados do SISCAN e do Painel Oncol
 <section id="artigos" class="level3" data-number="11.17.2">
 <h3 data-number="11.17.2" class="anchored" data-anchor-id="artigos"><span class="header-section-number">11.17.2</span> Artigos</h3>
 <ul>
-<li>Artigo <em>PAINEL-Oncologia: uma ferramenta de gestão</em> <span class="citation" data-cites="attyPainelOncologia2020">(<a href="referencias.html#ref-attyPainelOncologia2020" role="doc-biblioref">ATTY; JARDIM; DIAS, 2020</a>)</span>. Disponível em https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827.</li>
-<li>Artigo <em>Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019</em> <span class="citation" data-cites="tomazelliCoberturaSistemasCancer2022">(<a href="referencias.html#ref-tomazelliCoberturaSistemasCancer2022" role="doc-biblioref">TOMAZELLI; RIBEIRO; DIAS, 2022</a>)</span>. Disponível em https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544.</li>
+<li>Artigo <em>PAINEL-Oncologia: uma ferramenta de gestão</em> <span class="citation" data-cites="attyPainelOncologia2020">(<a href="referencias.html#ref-attyPainelOncologia2020" role="doc-biblioref">ATTY; JARDIM; DIAS, 2020</a>)</span>. Disponível <a href="https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827">no DOI</a>.</li>
+<li>Artigo <em>Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019</em> <span class="citation" data-cites="tomazelliCoberturaSistemasCancer2022">(<a href="referencias.html#ref-tomazelliCoberturaSistemasCancer2022" role="doc-biblioref">TOMAZELLI; RIBEIRO; DIAS, 2022</a>)</span>. Disponível <a href="https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544">no DOI</a>.</li>
 </ul>
 <!-- BEGIN GENERATED SEE ALSO -->
 </section>
@@ -1336,10 +1339,10 @@ Quadro&nbsp;11.10: Exemplos de indicadores derivados do SISCAN e do Painel Oncol
 <section id="sec-veja-tambem-siscan" class="level2" data-number="11.18">
 <h2 data-number="11.18" class="anchored" data-anchor-id="sec-veja-tambem-siscan"><span class="header-section-number">11.18</span> Veja também</h2>
 <ul>
-<li><p><a href="sia.html#exemplo-produção-de-mamografias">SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”</a>. Na edição impressa, p.&nbsp;126.</p></li>
-<li><p><a href="cnes.html#relacionamento-com-outros-sistemas">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”</a>. Na edição impressa, p.&nbsp;207.</p></li>
-<li><p><a href="interoperabilidade.html#relacionamento-determinístico">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”</a>. Na edição impressa, p.&nbsp;436.</p></li>
-<li><p><a href="eventos.html#procedimentos-ambulatoriais">Eventos de saúde — seção “Procedimentos ambulatoriais”</a>. Na edição impressa, p.&nbsp;48.</p></li>
+<li><p><a href="sia.html#exemplo-produção-de-mamografias">SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”</a>. Na edição impressa, p.&nbsp;143.</p></li>
+<li><p><a href="cnes.html#relacionamento-com-outros-sistemas">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”</a>. Na edição impressa, p.&nbsp;204.</p></li>
+<li><p><a href="interoperabilidade.html#relacionamento-determinístico">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”</a>. Na edição impressa, p.&nbsp;438.</p></li>
+<li><p><a href="eventos.html#procedimentos-ambulatoriais">Eventos de saúde — seção “Procedimentos ambulatoriais”</a>. Na edição impressa, p.&nbsp;58.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

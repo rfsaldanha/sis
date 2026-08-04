@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -97,14 +100,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1370,7 +1373,7 @@ Quadro&nbsp;5.11: Etapas básicas para análise de mortalidade infantil
 </section>
 <section id="qualidade-dos-dados" class="level2" data-number="5.17">
 <h2 data-number="5.17" class="anchored" data-anchor-id="qualidade-dos-dados"><span class="header-section-number">5.17</span> Qualidade dos dados</h2>
-<p>A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a subregistro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade <span class="citation" data-cites="sennaSistemaInformacoesSobre2009 jorgeAnaliseQualidadeEstatisticas2007 reboucasAvaliacaoQualidadeSistema2025">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>; <a href="referencias.html#ref-reboucasAvaliacaoQualidadeSistema2025" role="doc-biblioref">REBOUÇAS et al., 2025</a>; <a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>)</span>.</p>
+<p>A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a sub-registro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade <span class="citation" data-cites="sennaSistemaInformacoesSobre2009 jorgeAnaliseQualidadeEstatisticas2007 reboucasAvaliacaoQualidadeSistema2025">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>; <a href="referencias.html#ref-reboucasAvaliacaoQualidadeSistema2025" role="doc-biblioref">REBOUÇAS et al., 2025</a>; <a href="referencias.html#ref-sennaSistemaInformacoesSobre2009" role="doc-biblioref">SENNA, 2009</a>)</span>.</p>
 <p>Qualidade no SIM não é uma dimensão única. Uma base pode ter boa cobertura de óbitos, mas baixa qualidade de causa; pode ter causas bem codificadas, mas campos sociais incompletos; ou pode ter boa qualidade em capitais e pior desempenho em municípios pequenos. Por isso, avaliações de qualidade devem ser feitas por dimensão, variável, período e território (ver <a href="#qua-sim-problemas-frequentes-que-podem-afetar-analises-com-o-sim" class="quarto-xref">Quadro&nbsp;<span>5.12</span></a>).</p>
 <div id="qua-sim-problemas-frequentes-que-podem-afetar-analises-com-o-sim" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
@@ -1391,7 +1394,7 @@ Quadro&nbsp;5.12: Problemas frequentes que podem afetar análises com o SIM
 </thead>
 <tbody>
 <tr class="odd">
-<td>Subregistro de óbitos</td>
+<td>Sub-registro de óbitos</td>
 <td>Subestima taxas e números absolutos</td>
 </tr>
 <tr class="even">
@@ -1399,7 +1402,7 @@ Quadro&nbsp;5.12: Problemas frequentes que podem afetar análises com o SIM
 <td>Reduz a capacidade de interpretar padrões de mortalidade</td>
 </tr>
 <tr class="odd">
-<td>Códigos garbage</td>
+<td>Códigos <em>garbage</em></td>
 <td>Atribuem óbitos a causas pouco úteis para políticas de prevenção</td>
 </tr>
 <tr class="even">
@@ -1455,7 +1458,7 @@ Quadro&nbsp;5.13: Indicadores operacionais para avaliar qualidade dos dados do S
 <td>Mede quanto da mortalidade por causa ficou pouco esclarecida</td>
 </tr>
 <tr class="even">
-<td>Proporção de códigos garbage</td>
+<td>Proporção de códigos <em>garbage</em></td>
 <td>Indica causas básicas pouco úteis para prevenção ou planejamento</td>
 </tr>
 <tr class="odd">
@@ -1480,7 +1483,7 @@ Quadro&nbsp;5.13: Indicadores operacionais para avaliar qualidade dos dados do S
 </figure>
 </div>
 <p>O campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho <span class="citation" data-cites="cavalcanteQualidadeDosRegistros2023">(<a href="referencias.html#ref-cavalcanteQualidadeDosRegistros2023" role="doc-biblioref">CAVALCANTE; SANTANA, 2023</a>)</span>. Por isso, análises mais detalhadas devem verificar completitude, consistência e mudanças históricas das variáveis utilizadas.</p>
-<p>As causas mal definidas e os chamados códigos garbage merecem atenção especial. Eles indicam causas pouco informativas, muitas vezes relacionadas a falta de assistência médica, ausência de investigação, preenchimento inadequado ou seleção de mecanismos terminais como causa básica. Uma proporção elevada desses códigos pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas.</p>
+<p>As causas mal definidas e os chamados códigos <em>garbage</em> merecem atenção especial. Eles indicam causas pouco informativas, muitas vezes relacionadas à falta de assistência médica, ausência de investigação, preenchimento inadequado ou seleção de mecanismos terminais como causa básica. Uma proporção elevada desses códigos pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas.</p>
 <p>Campos sociais também precisam ser avaliados. Raça/cor, escolaridade e ocupação são fundamentais para estudar desigualdades, mas sua qualidade pode variar segundo período, território, tipo de óbito e circunstância de preenchimento. Em causas externas, a qualidade da circunstância é tão importante quanto a lesão, pois códigos inespecíficos dificultam distinguir acidente, agressão, lesão autoprovocada e evento de intenção indeterminada.</p>
 <p>Essa etapa deve vir antes da análise substantiva, não apenas como anexo metodológico. Quando a qualidade varia muito entre territórios ou anos, a diferença observada no indicador pode refletir tanto uma mudança real de mortalidade quanto uma mudança na qualidade do registro.</p>
 </section>
@@ -1488,13 +1491,13 @@ Quadro&nbsp;5.13: Indicadores operacionais para avaliar qualidade dos dados do S
 <h2 data-number="5.18" class="anchored" data-anchor-id="linha-do-tempo-do-sim"><span class="header-section-number">5.18</span> Linha do tempo do SIM</h2>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-4c76e8c20c280eca1104" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-aa6f09de3b190a8b68e5" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-4c76e8c20c280eca1104">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small><b>Criação do SIM<\/b><\/small>","start":"1975-01-01"},{"id":"3","content":"<small>Preenchimento da DO em três vias<\/small>","start":"1994-01-01"},{"id":"4","content":"<small>SVS passa a gerir o SIM<\/small>","start":"2003-01-01"},{"id":"5","content":"<small>Informatização do SIM<\/small>","start":"1979-01-01"},{"id":"6","content":"<small>Regulamentação da<\/br>coleta de dados<\/small>","start":"2000-08-31"},{"id":"7","content":"<small>Lei de Registros Públicos<\/small>","start":"1973-01-01"},{"id":"8","content":"<small>Centro Brasileiro de Classificação de Doenças<\/small>","start":"1976-01-01"},{"id":"9","content":"<small>Descentralização da coleta de dados<\/small>","start":"1991-01-01"},{"id":"10","content":"<small>Nova versão da DO<\/small>","start":"1998-01-01"},{"id":"11","content":"<small>Adoção da CID-10<\/small>","start":"1996-01-01"},{"id":"12","content":"<small>Regulamentação detalhada do fluxo de dados<\/small>","start":"2003-10-03"},{"id":"13","content":"<small>Vigilância de óbitos maternos<\/small>","start":"2008-01-01"},{"id":"14","content":"<small>Vigilância do óbito infantil e fetal<\/small>","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-aa6f09de3b190a8b68e5">{"x":{"items":[{"id":"1","content":"<small><b>Criação do SUS<\/b><\/small>","start":"1988-10-05"},{"id":"2","content":"<small><b>Criação do SIM<\/b><\/small>","start":"1975-01-01"},{"id":"3","content":"<small>Preenchimento da DO em três vias<\/small>","start":"1994-01-01"},{"id":"4","content":"<small>SVS passa a gerir o SIM<\/small>","start":"2003-01-01"},{"id":"5","content":"<small>Informatização do SIM<\/small>","start":"1979-01-01"},{"id":"6","content":"<small>Regulamentação da<\/br>coleta de dados<\/small>","start":"2000-08-31"},{"id":"7","content":"<small>Lei de Registros Públicos<\/small>","start":"1973-01-01"},{"id":"8","content":"<small>Centro Brasileiro de Classificação de Doenças<\/small>","start":"1976-01-01"},{"id":"9","content":"<small>Descentralização da coleta de dados<\/small>","start":"1991-01-01"},{"id":"10","content":"<small>Nova versão da DO<\/small>","start":"1998-01-01"},{"id":"11","content":"<small>Adoção da CID-10<\/small>","start":"1996-01-01"},{"id":"12","content":"<small>Regulamentação detalhada do fluxo de dados<\/small>","start":"2003-10-03"},{"id":"13","content":"<small>Vigilância de óbitos maternos<\/small>","start":"2008-01-01"},{"id":"14","content":"<small>Vigilância do óbito infantil e fetal<\/small>","start":"2010-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do SIM</p>
 </div>
 </div>
@@ -1647,7 +1650,7 @@ Quadro&nbsp;5.15: Prefixos comuns dos arquivos do SIM
 </section>
 <section id="acesso-aos-dados" class="level2" data-number="5.20">
 <h2 data-number="5.20" class="anchored" data-anchor-id="acesso-aos-dados"><span class="header-section-number">5.20</span> Acesso aos dados</h2>
-<p>Os dados do SIM podem ser acessados por diferentes caminhos, a depender do objetivo da análise (ver <a href="#qua-sim-formas-de-acesso-aos-dados-do-sim" class="quarto-xref">Quadro&nbsp;<span>5.16</span></a>).</p>
+<p>Os dados do SIM podem ser acessados por diferentes caminhos, conforme o objetivo da análise (ver <a href="#qua-sim-formas-de-acesso-aos-dados-do-sim" class="quarto-xref">Quadro&nbsp;<span>5.16</span></a>).</p>
 <div id="qua-sim-formas-de-acesso-aos-dados-do-sim" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sim-formas-de-acesso-aos-dados-do-sim-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1672,7 +1675,7 @@ Quadro&nbsp;5.16: Formas de acesso aos dados do SIM
 </tr>
 <tr class="even">
 <td>TabWin/DBC</td>
-<td>Download e tabulação local de arquivos do DATASUS</td>
+<td>Transferência e tabulação local de arquivos do DATASUS</td>
 </tr>
 <tr class="odd">
 <td>R</td>
@@ -1706,7 +1709,7 @@ Quadro&nbsp;5.16: Formas de acesso aos dados do SIM
 <h3 data-number="5.20.2" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">5.20.2</span> TabWin e transferência de arquivos</h3>
 <p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.</p>
 <ul>
-<li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
+<li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin — Transferência de arquivos</a></li>
 </ul>
 </section>
 <section id="r" class="level3" data-number="5.20.3">
@@ -1764,9 +1767,9 @@ Quadro&nbsp;5.16: Formas de acesso aos dados do SIM
 <h3 data-number="5.20.6" class="anchored" data-anchor-id="opendatasus"><span class="header-section-number">5.20.6</span> OpenDataSUS</h3>
 <p>Dados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.</p>
 <ul>
-<li><a href="https://opendatasus.saude.gov.br/dataset/sim">OpenDataSUS - SIM</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/sim">OpenDataSUS — SIM</a></li>
 </ul>
-<p>Ao usar OpenDataSUS, é importante registrar a data de download e observar se o arquivo é preliminar ou consolidado. A vantagem dos formatos abertos é facilitar uso em diferentes linguagens e ambientes; a cautela é que a atualização de bases recentes pode alterar totais, causas e campos derivados.</p>
+<p>Ao usar OpenDataSUS, é importante registrar a data de obtenção e observar se o arquivo é preliminar ou consolidado. A vantagem dos formatos abertos é facilitar uso em diferentes linguagens e ambientes; a cautela é que a atualização de bases recentes pode alterar totais, causas e campos derivados.</p>
 </section>
 </section>
 <section id="relacionamento-com-outros-sistemas" class="level2" data-number="5.21">
@@ -1940,9 +1943,9 @@ Aviso
 <section id="sec-veja-tambem-sim" class="level2" data-number="5.25">
 <h2 data-number="5.25" class="anchored" data-anchor-id="sec-veja-tambem-sim"><span class="header-section-number">5.25</span> Veja também</h2>
 <ul>
-<li><p><a href="eventos.html#óbitos">Eventos de saúde — seção “Óbitos”</a>. Na edição impressa, p.&nbsp;49.</p></li>
-<li><p><a href="cid.html#mortalidade-e-morbidade">CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”</a>. Na edição impressa, p.&nbsp;373.</p></li>
-<li><p><a href="sinasc.html#uso-como-denominador">SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”</a>. Na edição impressa, p.&nbsp;92.</p></li>
+<li><p><a href="eventos.html#óbitos">Eventos de saúde — seção “Óbitos”</a>. Na edição impressa, p.&nbsp;60.</p></li>
+<li><p><a href="cid.html#mortalidade-e-morbidade">CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”</a>. Na edição impressa, p.&nbsp;374.</p></li>
+<li><p><a href="sinasc.html#uso-como-denominador">SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”</a>. Na edição impressa, p.&nbsp;108.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

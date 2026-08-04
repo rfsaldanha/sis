@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -593,7 +596,7 @@ Quadro&nbsp;2.1: Periodização sintética da experiência brasileira em Sistema
 <tr class="odd">
 <td>Até os anos 1970</td>
 <td>Predomínio de registros civis e administrativos fragmentados</td>
-<td>Baixa padronização, subregistro e limitada comparabilidade territorial</td>
+<td>Baixa padronização, sub-registro e limitada comparabilidade territorial</td>
 </tr>
 <tr class="even">
 <td>Anos 1970-1980</td>
@@ -612,7 +615,7 @@ Quadro&nbsp;2.1: Periodização sintética da experiência brasileira em Sistema
 </tr>
 <tr class="odd">
 <td>Anos 2010 em diante</td>
-<td>Expansão de dados abertos, sistemas online e interoperabilidade</td>
+<td>Expansão de dados abertos, sistemas digitais conectados e interoperabilidade</td>
 <td>Novas possibilidades de análise, integração e uso em tempo oportuno</td>
 </tr>
 </tbody>
@@ -623,7 +626,7 @@ Quadro&nbsp;2.1: Periodização sintética da experiência brasileira em Sistema
 <section id="do-registro-civil-à-aproximação-com-o-setor-saúde" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="do-registro-civil-à-aproximação-com-o-setor-saúde"><span class="header-section-number">2.1</span> Do Registro Civil à aproximação com o setor saúde</h2>
 <p>A regulamentação do <a href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9110-estatisticas-do-registro-civil.html?=&amp;t=o-que-e">Registro Civil</a> ocorreu em 1973 <span class="citation" data-cites="brasilLei60151973">(<a href="referencias.html#ref-brasilLei60151973" role="doc-biblioref">BRASIL, 1973</a>)</span>, atribuindo ao Instituto Brasileiro de Geografia e Estatística (IBGE) a responsabilidade pela produção de estatísticas do Registro Civil. Essas estatísticas passaram a compor uma fonte fundamental para o conhecimento da dinâmica populacional brasileira, incluindo informações sobre nascimentos, casamentos e óbitos.</p>
-<p>Mesmo após a regulamentação, persistiam barreiras importantes de acesso ao Registro Civil. A cobrança para obtenção de registros de nascimento e óbito, a distância entre a população e os cartórios, e as desigualdades territoriais de acesso aos serviços contribuíam para subnotificação e distorções nos quantitativos registrados. Esse cenário produziu um contingente expressivo de pessoas sem registro civil, frequentemente descritas como “sem-registros” <span class="citation" data-cites="viacavaSistemaInformacaoSobre2009 makrakisRegistroCivilNo2000">(<a href="referencias.html#ref-makrakisRegistroCivilNo2000" role="doc-biblioref">MAKRAKIS, 2000</a>; <a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
+<p>Mesmo após a regulamentação, persistiam barreiras importantes de acesso ao Registro Civil. A cobrança para obtenção de registros de nascimento e óbito, a distância entre a população e os cartórios e as desigualdades territoriais de acesso aos serviços contribuíam para o sub-registro e para distorções nas contagens. Esse cenário produziu um contingente expressivo de pessoas sem registro civil <span class="citation" data-cites="viacavaSistemaInformacaoSobre2009 makrakisRegistroCivilNo2000">(<a href="referencias.html#ref-makrakisRegistroCivilNo2000" role="doc-biblioref">MAKRAKIS, 2000</a>; <a href="referencias.html#ref-viacavaSistemaInformacaoSobre2009" role="doc-biblioref">VIACAVA, 2009</a>)</span>.</p>
 <p>O aperfeiçoamento das estatísticas vitais exigia, portanto, aproximar a coleta de dados do local de ocorrência dos eventos. Maternidades, hospitais, serviços de saúde e secretarias de saúde tornaram-se pontos estratégicos para registrar nascimentos, óbitos e outros eventos de interesse sanitário. Essa aproximação entre estatísticas vitais e setor saúde foi decisiva para a criação e consolidação dos primeiros sistemas nacionais.</p>
 <p>No caso dos óbitos, a padronização da Declaração de Óbito permitiu articular o registro produzido no serviço de saúde ao processo de emissão da certidão no Registro Civil. No caso dos nascimentos, a Declaração de Nascido Vivo cumpriu papel semelhante, conectando maternidades, famílias, cartórios e secretarias de saúde. Essa dupla circulação dos documentos fortaleceu a produção de estatísticas vitais e aproximou os registros administrativos de sua utilidade epidemiológica.</p>
 </section>
@@ -637,7 +640,7 @@ Quadro&nbsp;2.1: Periodização sintética da experiência brasileira em Sistema
 <h2 data-number="2.3" class="anchored" data-anchor-id="sistemas-nacionais-e-construção-do-sus"><span class="header-section-number">2.3</span> Sistemas nacionais e construção do SUS</h2>
 <p>Entre as décadas de 1970 e 1980 foram criados os primeiros sistemas de informação em saúde de abrangência nacional <span class="citation" data-cites="ministeriodasaudeExperienciaBrasileiraEm2009">(<a href="referencias.html#ref-ministeriodasaudeExperienciaBrasileiraEm2009" role="doc-biblioref">MINISTÉRIO DA SAÚDE, 2009</a>)</span>. Nesse período, destacam-se a criação do Sistema de Informação sobre Mortalidade (SIM), a estruturação de registros relacionados ao Programa Nacional de Imunizações (PNI) e a organização de bases voltadas à produção assistencial.</p>
 <p>A primeira Reunião Nacional sobre Sistemas de Informação em Saúde ocorreu em 1975, com o objetivo de discutir a implantação mais ampla e articulada desses sistemas <span class="citation" data-cites="ministeriodasaudeRelatorioFinal5a1975">(<a href="referencias.html#ref-ministeriodasaudeRelatorioFinal5a1975" role="doc-biblioref">BRASIL, 1975</a>)</span>. Esse momento expressa uma mudança importante: os dados de saúde deixavam de ser vistos apenas como registros administrativos isolados e passavam a ser tratados como infraestrutura necessária ao planejamento, à vigilância e à avaliação das ações de saúde.</p>
-<p>A promulgação da Constituição Federal de 1988 abriu caminho para a construção do Sistema Único de Saúde (SUS). Sua regulamentação em 1990 <span class="citation" data-cites="brasilLei80801990">(<a href="referencias.html#ref-brasilLei80801990" role="doc-biblioref">BRASIL, 1990a</a>)</span> e as normas relacionadas ao financiamento, à participação social e ao controle social <span class="citation" data-cites="brasilLei81421990">(<a href="referencias.html#ref-brasilLei81421990" role="doc-biblioref">BRASIL, 1990b</a>)</span> consolidaram um novo arranjo institucional para a saúde pública brasileira.</p>
+<p>A promulgação da Constituição Federal de 1988 abriu caminho para a construção do Sistema Único de Saúde (SUS). Sua regulamentação em 1990 <span class="citation" data-cites="brasilLei80801990">(<a href="referencias.html#ref-brasilLei80801990" role="doc-biblioref">BRASIL, 1990a</a>)</span> e as normas relacionadas ao financiamento, à participação e ao controle social <span class="citation" data-cites="brasilLei81421990">(<a href="referencias.html#ref-brasilLei81421990" role="doc-biblioref">BRASIL, 1990b</a>)</span> consolidaram um novo arranjo institucional para a saúde pública brasileira.</p>
 <p>Com a descentralização do SUS, municípios e estados passaram a ter papel central na produção, qualificação e uso dos dados. A gestão local tornou-se responsável por registrar eventos, alimentar sistemas, acompanhar indicadores e utilizar informações para planejamento e tomada de decisão. Assim, os SIS passaram a refletir não apenas eventos de saúde, mas também a própria organização federativa do SUS <span class="citation" data-cites="ministeriodasaudeExperienciaBrasileiraEm2009">(<a href="referencias.html#ref-ministeriodasaudeExperienciaBrasileiraEm2009" role="doc-biblioref">MINISTÉRIO DA SAÚDE, 2009</a>)</span>.</p>
 <p>Essa descentralização ampliou a capilaridade da produção de dados, mas também trouxe novos desafios. A qualidade da informação passou a depender da capacidade técnica e institucional de milhares de unidades notificadoras, secretarias municipais e secretarias estaduais. Diferenças de infraestrutura, formação das equipes, estabilidade dos fluxos de trabalho e prioridade política dada à informação em saúde influenciam diretamente a completitude, a oportunidade e a consistência dos registros.</p>
 </section>
@@ -671,7 +674,7 @@ Quadro&nbsp;2.2: Marcos de criação e consolidação dos principais sistemas ab
 </tr>
 <tr class="even">
 <td>PNI e SI-PNI (<a href="sipni.html" class="quarto-xref"><span>Capítulo 15</span></a>)</td>
-<td>Programa Nacional de Imunizações criado em 1975; novo SI-PNI implantado a partir dos anos 2000</td>
+<td>Programa Nacional de Imunizações formulado em 1973 e institucionalizado em 1975; novo SI-PNI implantado a partir dos anos 2000</td>
 <td>Registro e monitoramento das ações de imunização</td>
 </tr>
 <tr class="odd">
@@ -736,20 +739,20 @@ Quadro&nbsp;2.2: Marcos de criação e consolidação dos principais sistemas ab
 <h2 data-number="2.6" class="anchored" data-anchor-id="do-papel-aos-sistemas-digitais"><span class="header-section-number">2.6</span> Do papel aos sistemas digitais</h2>
 <p>A trajetória dos SIS brasileiros também acompanha a transformação dos meios de registro e transmissão. Durante muitos anos, a produção dos dados dependia de formulários em papel, digitação local, envio de arquivos em mídia física ou transferência periódica por canais administrativos. Esse modelo criava intervalos entre a ocorrência do evento, sua digitação, sua consolidação nacional e sua disseminação pública.</p>
 <p>A informatização progressiva modificou esse processo. Sistemas com críticas automáticas, rotinas de validação, transmissão eletrônica e bases nacionais reduziram parte dos erros de preenchimento e aceleraram a circulação das informações. Ainda assim, a digitalização não elimina problemas de qualidade: ela muda a forma como esses problemas aparecem. Erros de codificação, duplicidades, campos incompletos, inconsistências entre sistemas e alterações de leiaute continuam exigindo documentação e monitoramento.</p>
-<p>Mais recentemente, sistemas online e estratégias de integração passaram a criar expectativa de dados em tempo mais oportuno. Essa mudança é particularmente relevante para vigilância epidemiológica, imunizações e acompanhamento assistencial, áreas em que atrasos podem afetar respostas rápidas. Ao mesmo tempo, dados mais oportunos podem ser mais preliminares, sujeitos a revisão e menos completos que bases consolidadas posteriormente.</p>
+<p>Mais recentemente, sistemas digitais conectados e estratégias de integração passaram a criar a expectativa de maior oportunidade dos dados. Essa mudança é particularmente relevante para vigilância epidemiológica, imunizações e acompanhamento assistencial, áreas em que atrasos podem afetar respostas rápidas. Ao mesmo tempo, dados mais oportunos podem ser mais preliminares, sujeitos a revisão e menos completos que bases consolidadas posteriormente.</p>
 </section>
 <section id="o-departamento-de-informática-do-sus-datasus" class="level2" data-number="2.7">
 <h2 data-number="2.7" class="anchored" data-anchor-id="o-departamento-de-informática-do-sus-datasus"><span class="header-section-number">2.7</span> O Departamento de Informática do SUS – DATASUS</h2>
 <p>Com o estabelecimento do SUS, foi criado em 1991 o Departamento de Informática do SUS (DATASUS), inicialmente vinculado à Fundação Nacional de Saúde (FUNASA) <span class="citation" data-cites="brasilDecreto1001991">(<a href="referencias.html#ref-brasilDecreto1001991" role="doc-biblioref">BRASIL, 1991</a>)</span>. O novo departamento incorporou profissionais oriundos da Diretoria de Sistemas de Saúde da DATAPREV, empresa de tecnologia e informações da Previdência, e de outros órgãos.</p>
 <p>A localização institucional inicial do DATASUS fora da administração direta do Ministério da Saúde impunha desafios de coordenação. Em 1998 foram iniciadas ações para sua transferência, efetivada em 2002, quando o departamento passou a integrar diretamente a estrutura do Ministério da Saúde <span class="citation" data-cites="brasilDecreto41942002 BrasilDataSUS2002">(<a href="referencias.html#ref-brasilDecreto41942002" role="doc-biblioref">BRASIL, 2002a</a>; <a href="referencias.html#ref-BrasilDataSUS2002" role="doc-biblioref">BRASIL, 2002b</a>)</span>.</p>
 <p>Entre as competências atribuídas ao DATASUS, destacam-se a manutenção e o desenvolvimento de sistemas de informação em saúde; a incorporação de tecnologias de informática necessárias às ações de saúde; a definição de normas e padrões para transmissão e transferência de informações; a integração nacional das bases de dados e sistemas do SUS; e a manutenção do acervo nacional de dados em saúde <span class="citation" data-cites="brasilDecreto41942002">(<a href="referencias.html#ref-brasilDecreto41942002" role="doc-biblioref">BRASIL, 2002a</a>)</span>.</p>
-<p>Dessa forma, o DATASUS tornou-se o principal órgão responsável pela infraestrutura informacional dos SIS brasileiros. Sua atuação contribuiu para consolidar bases nacionais, padronizar fluxos de transferência, ampliar a disseminação pública de dados e apoiar o uso das informações por gestores, pesquisadores, profissionais de saúde e sociedade.</p>
+<p>Dessa forma, o DATASUS tornou-se o principal responsável pela infraestrutura informacional dos SIS brasileiros. Sua atuação contribuiu para consolidar bases nacionais, padronizar fluxos de transferência, ampliar a disseminação pública de dados e apoiar o uso das informações por gestores, pesquisadores, profissionais de saúde e sociedade.</p>
 </section>
 <section id="disseminação-pública-e-acesso-aos-dados" class="level2" data-number="2.8">
 <h2 data-number="2.8" class="anchored" data-anchor-id="disseminação-pública-e-acesso-aos-dados"><span class="header-section-number">2.8</span> Disseminação pública e acesso aos dados</h2>
 <p>Uma característica importante da experiência brasileira é a ampla disseminação pública de dados em saúde. Ao longo do tempo, o DATASUS estruturou mecanismos de tabulação, transferência de arquivos e acesso a bases agregadas e microdados, permitindo que diferentes públicos utilizem informações do SUS para gestão, pesquisa, ensino, controle social e jornalismo de dados.</p>
-<p>Esse acesso público modificou a relação entre sistemas administrativos e produção de conhecimento. Bases originalmente construídas para rotinas de gestão passaram a alimentar estudos epidemiológicos, painéis de indicadores, avaliações de políticas, monitoramento de desigualdades e análises territoriais. Ferramentas computacionais criadas por comunidades de pesquisa também ampliaram a capacidade de download, pré-processamento e análise desses dados <span class="citation" data-cites="Saldanha2019a saldanhaAcessoAosDados2023">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>; <a href="referencias.html#ref-saldanhaAcessoAosDados2023" role="doc-biblioref">SALDANHA; PEDROSO; MAGALHÃES, 2023</a>)</span>.</p>
-<p>Ao mesmo tempo, o acesso aos dados exige atenção a documentação, versões, mudanças de leiaute, alterações de codificação, atualização retroativa de arquivos e diferenças entre dados preliminares e consolidados. A disponibilidade pública é uma potência dos SIS brasileiros, mas não elimina a necessidade de leitura crítica sobre a origem e o ciclo de vida dos registros.</p>
+<p>Esse acesso público modificou a relação entre sistemas administrativos e produção de conhecimento. Bases originalmente construídas para rotinas de gestão passaram a alimentar estudos epidemiológicos, painéis de indicadores, avaliações de políticas, monitoramento de desigualdades e análises territoriais. Ferramentas computacionais criadas por comunidades de pesquisa também ampliaram a capacidade de obtenção, pré-processamento e análise desses dados <span class="citation" data-cites="Saldanha2019a saldanhaAcessoAosDados2023">(<a href="referencias.html#ref-Saldanha2019a" role="doc-biblioref">SALDANHA; BASTOS; BARCELLOS, 2019</a>; <a href="referencias.html#ref-saldanhaAcessoAosDados2023" role="doc-biblioref">SALDANHA; PEDROSO; MAGALHÃES, 2023</a>)</span>.</p>
+<p>Ao mesmo tempo, o acesso aos dados exige atenção a documentação, versões, mudanças de leiaute, alterações de codificação, atualização retroativa de arquivos e diferenças entre dados preliminares e consolidados. A disponibilidade pública é uma vantagem dos SIS brasileiros, mas não elimina a necessidade de leitura crítica sobre a origem e o ciclo de vida dos registros.</p>
 </section>
 <section id="integração-interoperabilidade-e-novos-desafios" class="level2" data-number="2.9">
 <h2 data-number="2.9" class="anchored" data-anchor-id="integração-interoperabilidade-e-novos-desafios"><span class="header-section-number">2.9</span> Integração, interoperabilidade e novos desafios</h2>
@@ -759,7 +762,7 @@ Quadro&nbsp;2.2: Marcos de criação e consolidação dos principais sistemas ab
 </section>
 <section id="qualidade-oportunidade-e-desigualdades" class="level2" data-number="2.10">
 <h2 data-number="2.10" class="anchored" data-anchor-id="qualidade-oportunidade-e-desigualdades"><span class="header-section-number">2.10</span> Qualidade, oportunidade e desigualdades</h2>
-<p>A trajetória brasileira demonstra avanços importantes na cobertura e disseminação dos SIS, mas a qualidade dos dados permanece como tema permanente. Problemas de subregistro, atraso de notificação, incompletude, inconsistência, duplicidade e mudança de critérios podem afetar análises e indicadores.</p>
+<p>A trajetória brasileira demonstra avanços importantes na cobertura e disseminação dos SIS, mas a qualidade dos dados permanece como tema permanente. Problemas de sub-registro, atraso de notificação, incompletude, inconsistência, duplicidade e mudança de critérios podem afetar análises e indicadores.</p>
 <p>Esses problemas não se distribuem de forma homogênea. Regiões, municípios e serviços com menor infraestrutura tendem a enfrentar maiores dificuldades para registrar e transmitir dados de forma oportuna. A literatura sobre SIM e SINASC, por exemplo, documenta avanços relevantes de cobertura e qualidade, mas também aponta desigualdades territoriais, campos com pior preenchimento e necessidade de avaliação contínua <span class="citation" data-cites="jorgeAnaliseQualidadeEstatisticas2007 szwarcwaldAvaliacaoInformacoesSistema2019 reboucasAvaliacaoQualidadeSistema2025">(<a href="referencias.html#ref-jorgeAnaliseQualidadeEstatisticas2007" role="doc-biblioref">JORGE; LAURENTI; GOTLIEB, 2007</a>; <a href="referencias.html#ref-reboucasAvaliacaoQualidadeSistema2025" role="doc-biblioref">REBOUÇAS et al., 2025</a>; <a href="referencias.html#ref-szwarcwaldAvaliacaoInformacoesSistema2019" role="doc-biblioref">SZWARCWALD et al., 2019</a>)</span>. Da mesma forma, variáveis socialmente sensíveis, como raça/cor, escolaridade, ocupação e território de residência, podem apresentar preenchimento desigual, comprometendo análises sobre iniquidades em saúde <span class="citation" data-cites="araujoTendenciaTemporalPreenchimento2024">(<a href="referencias.html#ref-araujoTendenciaTemporalPreenchimento2024" role="doc-biblioref">ARAÚJO et al., 2024</a>)</span>.</p>
 <p>Sistemas mais recentes ou com registros individualizados também trazem desafios próprios. Estudos sobre o SI-PNI mostram que perdas de registro e diferenças entre fontes podem comprometer estimativas de cobertura vacinal <span class="citation" data-cites="moraesConfiabilidadeInformacoesRegistradas2024">(<a href="referencias.html#ref-moraesConfiabilidadeInformacoesRegistradas2024" role="doc-biblioref">MORAES et al., 2024</a>)</span>. No SISAGUA, avaliações de completitude indicam a importância de monitorar continuamente campos e formas de abastecimento para qualificar a vigilância da água <span class="citation" data-cites="oliveiraSistemaInformacaoVigilancia2019 mataSistemaInformacaoVigilancia2022">(<a href="referencias.html#ref-mataSistemaInformacaoVigilancia2022" role="doc-biblioref">MATA; OLIVEIRA JÚNIOR; RAMALHO, 2022</a>; <a href="referencias.html#ref-oliveiraSistemaInformacaoVigilancia2019" role="doc-biblioref">OLIVEIRA et al., 2019</a>)</span>.</p>
 <p>Por isso, a leitura histórica dos SIS não deve ser entendida apenas como uma sequência de datas de criação. Ela ajuda a reconhecer que cada base é resultado de relações institucionais, tecnologias disponíveis, regras administrativas, prioridades sanitárias e capacidades locais. Conhecer essa trajetória é uma condição para utilizar os dados de forma responsável.</p>
@@ -787,7 +790,7 @@ Quadro&nbsp;2.3: Marcos selecionados da trajetória dos SIS brasileiros
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">1975</td>
-<td>Criação do SIM e do PNI; realização da primeira Reunião Nacional sobre Sistemas de Informação em Saúde</td>
+<td>Criação do SIM e institucionalização do PNI; realização da primeira Reunião Nacional sobre Sistemas de Informação em Saúde</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">1981</td>
@@ -845,13 +848,13 @@ Quadro&nbsp;2.3: Marcos selecionados da trajetória dos SIS brasileiros
 <p>A linha do tempo a seguir apresenta alguns marcos da criação e consolidação dos principais sistemas abordados neste livro. As datas devem ser interpretadas como pontos de referência para a trajetória institucional dos sistemas, pois muitos deles passaram por mudanças relevantes de escopo, instrumentos, tecnologias e formas de disseminação ao longo do tempo.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-f020b5f2a5437c7a0690" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-ec5300b71d80bd3c22d0" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-f020b5f2a5437c7a0690">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"SIM","start":"1975-01-01"},{"id":"3","content":"SINASC","start":"1990-01-01"},{"id":"4","content":"SIH","start":"1981-01-01"},{"id":"5","content":"SIA","start":"1990-01-01"},{"id":"6","content":"SINAN","start":"1993-01-01"},{"id":"7","content":"CNES","start":"2000-01-01"},{"id":"8","content":"SIOPS","start":"2000-01-01"},{"id":"9","content":"SISAGUA","start":"1999-01-01"},{"id":"10","content":"SISAB","start":"2013-01-01"},{"id":"11","content":"PNI","start":"1975-01-01"},{"id":"12","content":"Novo SI-PNI","start":"2001-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-ec5300b71d80bd3c22d0">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"SIM","start":"1975-01-01"},{"id":"3","content":"SINASC","start":"1990-01-01"},{"id":"4","content":"SIH","start":"1981-01-01"},{"id":"5","content":"SIA","start":"1990-01-01"},{"id":"6","content":"SINAN","start":"1993-01-01"},{"id":"7","content":"CNES","start":"2000-01-01"},{"id":"8","content":"SIOPS","start":"2000-01-01"},{"id":"9","content":"SISAGUA","start":"1999-01-01"},{"id":"10","content":"SISAB","start":"2013-01-01"},{"id":"11","content":"PNI","start":"1973-09-18"},{"id":"12","content":"Novo SI-PNI","start":"2001-01-01"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <!-- BEGIN GENERATED SEE ALSO -->
@@ -859,9 +862,9 @@ Quadro&nbsp;2.3: Marcos selecionados da trajetória dos SIS brasileiros
 <section id="sec-veja-tambem-historico" class="level2" data-number="2.12">
 <h2 data-number="2.12" class="anchored" data-anchor-id="sec-veja-tambem-historico"><span class="header-section-number">2.12</span> Veja também</h2>
 <ul>
-<li><p><a href="introducao.html#sistemas-contextos-e-usos">Introdução — seção “Sistemas, contextos e usos”</a>. Na edição impressa, p.&nbsp;11.</p></li>
-<li><p><a href="organizacao.html#sistemas-como-fluxos-de-registro">Organização dos SIS — seção “Sistemas como fluxos de registro”</a>. Na edição impressa, p.&nbsp;28.</p></li>
-<li><p><a href="interoperabilidade.html#aplicação-aos-sis">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”</a>. Na edição impressa, p.&nbsp;434.</p></li>
+<li><p><a href="introducao.html#sistemas-contextos-e-usos">Introdução — seção “Sistemas, contextos e usos”</a>. Na edição impressa, p.&nbsp;18.</p></li>
+<li><p><a href="organizacao.html#sistemas-como-fluxos-de-registro">Organização dos SIS — seção “Sistemas como fluxos de registro”</a>. Na edição impressa, p.&nbsp;36.</p></li>
+<li><p><a href="interoperabilidade.html#aplicação-aos-sis">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”</a>. Na edição impressa, p.&nbsp;436.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

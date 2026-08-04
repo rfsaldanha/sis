@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -644,7 +647,7 @@ Quadro&nbsp;16.1: Características gerais da RNDS
 <p>A Rede Nacional de Dados em Saúde (RNDS) é a plataforma oficial de interoperabilidade do Ministério da Saúde. Sua função não é substituir todos os sistemas de informação em saúde, mas permitir que dados produzidos em diferentes sistemas, serviços e pontos de atenção sejam compartilhados de forma segura e padronizada <span class="citation" data-cites="msRNDSPagina2026">(<a href="referencias.html#ref-msRNDSPagina2026" role="doc-biblioref">BRASIL, 2026a</a>)</span>.</p>
 <p>A RNDS muda a lógica de parte da informação em saúde: em vez de cada sistema permanecer isolado, os registros passam a poder circular por uma infraestrutura nacional de troca de dados. Isso é relevante para continuidade do cuidado, acesso do cidadão aos próprios registros, apoio à decisão clínica, gestão, vigilância e monitoramento.</p>
 <p>A caracterização inicial da RNDS como plataforma exige interpretar essa palavra com cuidado. Plataforma, aqui, não significa apenas uma página na internet ou uma aplicação acessada por usuários finais. Significa uma infraestrutura que recebe, valida, organiza e disponibiliza registros segundo regras técnicas e institucionais. O dado que chega à RNDS pode ter sido produzido em um prontuário, em um sistema nacional, em um sistema local, em um laboratório, em um serviço privado ou em uma aplicação de gestão. O ponto comum é que, para circular na rede, esse dado precisa seguir padrões definidos.</p>
-<p>Essa característica torna a RNDS diferente das bases tradicionalmente usadas em epidemiologia e gestão. Quando se trabalha com SIM ou SINASC, por exemplo, a pergunta inicial costuma ser “qual evento foi registrado?”. Na RNDS, a pergunta inicial precisa ser anterior: “qual fluxo de informação gerou este registro e por qual modelo ele foi compartilhado?”. A resposta condiciona a interpretação de cobertura, atraso, duplicidade, completitude e finalidade de uso.</p>
+<p>Essa característica torna a RNDS diferente das bases tradicionalmente usadas em epidemiologia e gestão. Quando se trabalha com SIM ou SINASC, por exemplo, a pergunta inicial costuma ser “qual evento foi registrado?”. Na RNDS, a pergunta inicial precisa ser anterior: “qual fluxo de informação gerou este registro e por qual modelo ele foi compartilhado?”. A resposta condiciona a interpretação da cobertura, do atraso, da duplicidade, da completitude e da finalidade de uso.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Interoperabilidade">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -661,7 +664,7 @@ Quadro&nbsp;16.1: Características gerais da RNDS
 </section>
 <section id="quando-usar-a-rnds" class="level2" data-number="16.2">
 <h2 data-number="16.2" class="anchored" data-anchor-id="quando-usar-a-rnds"><span class="header-section-number">16.2</span> Quando usar a RNDS</h2>
-<p>Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos, ou avaliação da transformação digital do SUS.</p>
+<p>Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos ou avaliação da transformação digital do SUS.</p>
 <div id="qua-rnds-perguntas-comuns-relacionadas-a-rnds" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-rnds-perguntas-comuns-relacionadas-a-rnds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -844,7 +847,7 @@ Quadro&nbsp;16.4: Camadas conceituais da RNDS
 </div>
 </figure>
 </div>
-<p>A organização em camadas do <a href="#qua-rnds-camadas-conceituais-da-rnds" class="quarto-xref">Quadro&nbsp;<span>16.4</span></a> ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Cobrar apenas a “RNDS” como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.</p>
+<p>A organização em camadas do <a href="#qua-rnds-camadas-conceituais-da-rnds" class="quarto-xref">Quadro&nbsp;<span>16.4</span></a> ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Examinar apenas a “RNDS” como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.</p>
 <p>Essa visão em camadas também ajuda na avaliação de maturidade. Um território pode ter bons sistemas locais, mas baixa capacidade de integração. Outro pode enviar registros em grande volume, mas com muitos erros semânticos. Outro pode ter integração tecnicamente estável, mas baixo uso pelos profissionais no ponto de cuidado. A transformação digital em saúde depende de todas essas dimensões ao mesmo tempo.</p>
 </section>
 <section id="fluxo-de-informação" class="level2" data-number="16.6">
@@ -1066,7 +1069,7 @@ Quadro&nbsp;16.7: Camadas de interoperabilidade relevantes na RNDS
 </div>
 </figure>
 </div>
-<p>Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir ambiguidade e permitir interpretação comum entre sistemas. Ainda assim, a existência de um código não garante que o registro local tenha sido produzido corretamente.</p>
+<p>Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir a ambiguidade e a permitir uma interpretação comum entre sistemas. Ainda assim, a existência de um código não garante que o registro local tenha sido produzido corretamente.</p>
 <p>Na perspectiva da RNDS, FHIR não deve ser visto apenas como uma tecnologia para desenvolvedores. Ele expressa uma forma de organizar a informação em recursos, perfis, extensões e operações. O guia de implementação da RNDS detalha esse contrato computacional para integradores e profissionais que precisam compreender o conteúdo trocado com a rede <span class="citation" data-cites="msRNDSFHIR2026">(<a href="referencias.html#ref-msRNDSFHIR2026" role="doc-biblioref">BRASIL, 2026e</a>)</span>. Para quem analisa dados, a consequência prática é que mudanças no perfil FHIR, no modelo informacional ou na terminologia usada podem alterar a comparabilidade entre períodos e sistemas.</p>
 <p>As camadas do quadro mostram que interoperabilidade não é uma propriedade única. Um registro pode ser interoperável do ponto de vista sintático, porque tem a estrutura esperada, mas frágil do ponto de vista semântico, porque o campo foi interpretado de modo diferente no sistema de origem. Pode usar um código válido, mas inadequado para o exame ou procedimento realizado. Pode estar bem codificado, mas associado ao cidadão errado. Por isso, a qualidade da RNDS não deve ser avaliada apenas por volume de mensagens aceitas.</p>
 <p>Em análises de dados, essa distinção é decisiva. Se dois sistemas enviam o mesmo tipo de registro, mas um deles usa terminologias com maior precisão e outro usa categorias genéricas, os resultados agregados podem parecer comparáveis sem serem de fato equivalentes. A interoperabilidade semântica é o que permite transformar integração técnica em informação confiável para cuidado, gestão e pesquisa.</p>
@@ -1243,7 +1246,7 @@ Quadro&nbsp;16.10: Diferenças entre RNDS, dados abertos e produtos de dissemina
 </figure>
 </div>
 <p>Uma base aberta derivada da RNDS deve ser analisada como produto de disseminação, não como espelho integral da plataforma. Ela pode ter filtros, anonimização, agregação, supressão de campos, mudança de leiaute, regras de deduplicação e periodicidade própria. O OpenDataSUS, por exemplo, pode disponibilizar bases relacionadas a registros integrados, mas essas bases não autorizam inferir que todos os registros individualizados da RNDS estejam publicamente disponíveis.</p>
-<p>Para pesquisa, essa distinção muda o desenho do estudo. Se o objetivo é avaliar um indicador público, a base aberta pode ser suficiente. Se o objetivo é compreender o fluxo de integração, pode ser necessário estudar metadados de envio, rejeição e processamento. Se o objetivo envolve trajetória individual, linkage ou decisão clínica, entram requisitos éticos, jurídicos e institucionais muito mais restritos.</p>
+<p>Para pesquisa, essa distinção muda o desenho do estudo. Se o objetivo é avaliar um indicador público, a base aberta pode ser suficiente. Se o objetivo é compreender o fluxo de integração, pode ser necessário estudar metadados de envio, rejeição e processamento. Se o objetivo envolve trajetória individual, <em>linkage</em> ou decisão clínica, entram requisitos éticos, jurídicos e institucionais muito mais restritos.</p>
 </section>
 </section>
 <section id="qualidade-dos-dados" class="level2" data-number="16.11">
@@ -1304,7 +1307,7 @@ Quadro&nbsp;16.11: Dimensões de qualidade na RNDS
 </div>
 </figure>
 </div>
-<p>As dimensões de qualidade se acumulam. Um registro completo, mas enviado com grande atraso, pode ser útil para histórico clínico, mas inadequado para vigilância oportuna. Um registro oportuno, mas incompleto, pode sinalizar atividade assistencial sem permitir análise detalhada. Um registro conforme ao modelo, mas semanticamente impreciso, pode passar por validações automáticas e ainda assim induzir interpretação errada.</p>
+<p>As dimensões de qualidade se acumulam. Um registro completo, mas enviado com grande atraso, pode ser útil para histórico clínico, mas inadequado para vigilância oportuna. Um registro oportuno, mas incompleto, pode sinalizar atividade assistencial sem permitir análise detalhada. Um registro em conformidade com o modelo, mas semanticamente impreciso, pode passar por validações automáticas e ainda assim induzir interpretação errada.</p>
 <p>Por isso, a qualidade deve ser avaliada em relação à pergunta. Para continuidade do cuidado, pode ser mais importante que o registro esteja disponível rapidamente e associado à pessoa correta. Para pesquisa, pode ser mais importante conhecer regras de deduplicação, completitude e versão do modelo. Para gestão da integração, rejeições, atrasos e falhas de autenticação podem ser tão importantes quanto o conteúdo clínico.</p>
 <section id="validação-mínima" class="level3" data-number="16.11.1">
 <h3 data-number="16.11.1" class="anchored" data-anchor-id="validação-mínima"><span class="header-section-number">16.11.1</span> Validação mínima</h3>
@@ -1785,9 +1788,9 @@ Quadro&nbsp;16.18: Limitações recorrentes da RNDS
 <section id="sec-veja-tambem-rnds" class="level2" data-number="16.21">
 <h2 data-number="16.21" class="anchored" data-anchor-id="sec-veja-tambem-rnds"><span class="header-section-number">16.21</span> Veja também</h2>
 <ul>
-<li><p><a href="interoperabilidade.html#o-que-é-interoperabilidade">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”</a>. Na edição impressa, p.&nbsp;433.</p></li>
-<li><p><a href="organizacao.html#integração-entre-sistemas">Organização dos SIS — seção “Integração entre sistemas”</a>. Na edição impressa, p.&nbsp;37.</p></li>
-<li><p><a href="sipni.html#privacidade-e-dados-individualizados">SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”</a>. Na edição impressa, p.&nbsp;322.</p></li>
+<li><p><a href="interoperabilidade.html#o-que-é-interoperabilidade">Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”</a>. Na edição impressa, p.&nbsp;435.</p></li>
+<li><p><a href="organizacao.html#integração-entre-sistemas">Organização dos SIS — seção “Integração entre sistemas”</a>. Na edição impressa, p.&nbsp;47.</p></li>
+<li><p><a href="sipni.html#privacidade-e-dados-individualizados">SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”</a>. Na edição impressa, p.&nbsp;321.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

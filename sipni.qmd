@@ -108,7 +108,7 @@ A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração 
 
 Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS.
 
-- [Nota Informativa Conjunta nº 4/2023 - DPNI](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view)
+- [Nota Informativa Conjunta nº 4/2023 — DPNI](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view)
 - [Entenda o novo Sistema de Informação do Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes)
 
 ### O que mudou com o novo SI-PNI
@@ -188,7 +188,7 @@ Escopo informacional do SI-PNI
 
 :::
 
-Essa distinção ajuda a evitar leituras excessivas. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.
+Essa distinção ajuda a evitar conclusões que extrapolem os dados. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.
 
 ## Estrutura dos dados
 
@@ -222,7 +222,7 @@ Os arquivos do OpenDataSUS são disponibilizados por ano e mês de vacinação, 
 
 | Grupo de campos | O que procurar | Uso analítico | Cuidado |
 |---|---|---|---|
-| Pessoa | Identificador anonimizado, sexo, idade, raça/cor, residência | Contar pessoas, avaliar desigualdades e construir esquemas | Identificador público pode não permitir linkage externo |
+| Pessoa | Identificador anonimizado, sexo, idade, raça/cor, residência | Contar pessoas, avaliar desigualdades e construir esquemas | Identificador público pode não permitir *linkage* externo |
 | Vacinação | Vacina, dose, grupo de atendimento, estratégia, data | Definir numerador e validade da dose | Nomes e categorias podem mudar |
 | Produto | Fabricante, lote, imunobiológico | Segurança, rastreio e validação | Produto e dose precisam ser compatíveis |
 | Estabelecimento | CNES, município e UF de aplicação | Produção por serviço ou sala de vacina | Não usar como residência sem justificativa |
@@ -294,7 +294,7 @@ Exemplo de regra operacional antes da análise
 
 :::
 
-O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto não chame uma pela outra.
+O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto as denomine com precisão.
 
 ## Cobertura vacinal e denominadores
 
@@ -506,7 +506,7 @@ Como bases abertas podem ser atualizadas, uma análise reprodutível deve docume
 
 ## Privacidade e dados individualizados
 
-O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para linkage individual, auditoria de pessoa específica e reidentificação (ver @qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni).
+O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para *linkage* individual, auditoria de pessoa específica e reidentificação (ver @qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni).
 
 ::: {#qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni}
 
@@ -531,20 +531,20 @@ Os microdados abertos do novo SI-PNI são publicados no OpenDataSUS em conjuntos
 ### Bases abertas
 
 - [Campanha Nacional de Vacinação contra Covid-19](https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2025](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2024](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2023](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2022](https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2021](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021)
-- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2020](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020)
-- [Dados sobre Eventos Supostamente Atribuíveis à Vacinação - ESAVI](https://opendatasus.saude.gov.br/dataset/esavi)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2025](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2024](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2023](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2022](https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2021](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021)
+- [Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2020](https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020)
+- [Dados sobre Eventos Supostamente Atribuíveis à Vacinação — ESAVI](https://opendatasus.saude.gov.br/dataset/esavi)
 
 ### Documentação e orientação
 
 - [Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/composicao/svsa/pni)
-- [Vacinação - Ministério da Saúde](https://www.gov.br/saude/pt-br/vacinacao)
+- [Vacinação — Ministério da Saúde](https://www.gov.br/saude/pt-br/vacinacao)
 - [Manuais de vacinação](https://www.gov.br/saude/pt-br/vacinacao/manuais)
-- [Guia de integração da RNDS - Registro de Imunobiológico Administrado em Rotina](https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/)
+- [Guia de integração da RNDS — Registro de Imunobiológico Administrado em Rotina](https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/)
 
 ## Relacionamento com outros sistemas
 
@@ -666,11 +666,11 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sipni}
 
-- [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 50.
+- [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 61.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 336.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 334.
 
 :::
 <!-- END GENERATED SEE ALSO -->

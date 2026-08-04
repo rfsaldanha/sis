@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -849,7 +852,7 @@ Quadro&nbsp;I.4: Diferenças gerais entre produtos públicos e bases institucion
 </figure>
 </div>
 <p>A retirada de identificadores afeta diretamente o <em>linkage</em>. Sem uma chave comum, o relacionamento determinístico individual pode tornar-se impossível; sem nomes, datas completas ou localização detalhada, o probabilístico perde poder de discriminação. Ainda pode ser possível integrar dados em nível agregado — por município, estabelecimento, período ou categoria — mas isso responde a perguntas ecológicas e administrativas, não recompõe trajetórias individuais.</p>
-<p>Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam ao estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de <em>linkage</em>, mesmo em um ambiente mais interoperável.</p>
+<p>Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam a estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de <em>linkage</em>, mesmo em um ambiente mais interoperável.</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Interoperabilidade não é abertura">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -879,10 +882,10 @@ Quadro&nbsp;I.4: Diferenças gerais entre produtos públicos e bases institucion
 <section id="sec-veja-tambem-interoperabilidade" class="level2" data-number="I.10">
 <h2 data-number="I.10" class="anchored" data-anchor-id="sec-veja-tambem-interoperabilidade"><span class="header-section-number">I.10</span> Veja também</h2>
 <ul>
-<li><p><a href="rnds.html#fhir-terminologias-e-semântica">RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”</a>. Na edição impressa, p.&nbsp;338.</p></li>
-<li><p><a href="eventos.html#relacionamento-entre-sistemas">Eventos de saúde — seção “Relacionamento entre sistemas”</a>. Na edição impressa, p.&nbsp;52.</p></li>
-<li><p><a href="ans.html#integração-com-dados-dos-sis">Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”</a>. Na edição impressa, p.&nbsp;428.</p></li>
-<li><p><a href="siscan.html#painel-oncologia">SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”</a>. Na edição impressa, p.&nbsp;224.</p></li>
+<li><p><a href="rnds.html#fhir-terminologias-e-semântica">RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”</a>. Na edição impressa, p.&nbsp;336.</p></li>
+<li><p><a href="eventos.html#relacionamento-entre-sistemas">Eventos de saúde — seção “Relacionamento entre sistemas”</a>. Na edição impressa, p.&nbsp;62.</p></li>
+<li><p><a href="ans.html#integração-com-dados-dos-sis">Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”</a>. Na edição impressa, p.&nbsp;430.</p></li>
+<li><p><a href="siscan.html#painel-oncologia">SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”</a>. Na edição impressa, p.&nbsp;221.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

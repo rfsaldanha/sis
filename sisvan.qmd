@@ -74,8 +74,8 @@ As bases individualizadas anonimizadas de estado nutricional disponíveis no Por
 
 Há dois caminhos principais de acesso público:
 
--  [Relatórios públicos do SISVAN](https://sisaps.saude.gov.br/sisvan/relatoriopublico/index), úteis para tabulações rápidas por território, período, fase do curso da vida, estado nutricional e consumo alimentar [@sisvanRelatorioPublico2026].
--  [SISVAN - Estado Nutricional no Portal de Dados Abertos do SUS](https://dadosabertos.saude.gov.br/dataset/sisvan-estado-nutricional), com bases individualizadas anonimizadas, dicionário de dados e API [@dadosabertosSISVANEstadoNutricional2026].
+- [Relatórios públicos do SISVAN](https://sisaps.saude.gov.br/sisvan/relatoriopublico/index), úteis para tabulações rápidas por território, período, fase do curso da vida, estado nutricional e consumo alimentar [@sisvanRelatorioPublico2026].
+- [SISVAN — Estado Nutricional no Portal de Dados Abertos do SUS](https://dadosabertos.saude.gov.br/dataset/sisvan-estado-nutricional), com bases individualizadas anonimizadas, dicionário de dados e API [@dadosabertosSISVANEstadoNutricional2026].
 
 Em maio de 2026, o conjunto de dados abertos de estado nutricional indicava frequência de atualização anual, última atualização em 2 de junho de 2025 e recursos referentes a anos desde 2008. Para análises reprodutíveis, registre a data de extração, o recurso utilizado, o formato do arquivo, o dicionário correspondente e as regras aplicadas para escolher um acompanhamento por pessoa.
 
@@ -103,21 +103,21 @@ Em síntese, o SISVAN é uma fonte estratégica para a Vigilância Alimentar e N
 
 ## Bibliografia recomendada
 
--  Artigo *O Sistema de Vigilância Alimentar e Nutricional (SISVAN) como ferramenta de monitoramento do estado nutricional de crianças e adolescentes no Brasil* [@mrejenSistemaVigilanciaAlimentar2023]. Disponível [aqui](https://doi.org/10.1590/0102-311XPT169622).
--  Artigo *O Sistema de Vigilância Alimentar e Nutricional como instrumento de monitoramento da Estratégia Nacional para Alimentação Complementar Saudável* [@ferreiraSistemaVigilanciaAlimentar2013]. Disponível [aqui](https://doi.org/10.1590/S1519-38292013000200010).
--  Artigo *A vigilância alimentar e nutricional em 20 anos da Política Nacional de Alimentação e Nutrição* [@camposVigilanciaAlimentarNutricional2021]. Disponível [aqui](https://doi.org/10.1590/0102-311X00045821).
--  Artigo *VigiNUTRI Brasil: métodos de solicitação, extração de dados, tratamento e análise de consistência de dados individualizados de adolescentes acompanhados pelo Sistema de Vigilância Alimentar e Nutricional (Sisvan Web)* [@alvesVigiNUTRIBrasilMetodos2024]. Disponível [aqui](https://doi.org/10.1590/S2237-96222024v33e20231479.pt).
+- Artigo *O Sistema de Vigilância Alimentar e Nutricional (SISVAN) como ferramenta de monitoramento do estado nutricional de crianças e adolescentes no Brasil* [@mrejenSistemaVigilanciaAlimentar2023]. Disponível [aqui](https://doi.org/10.1590/0102-311XPT169622).
+- Artigo *O Sistema de Vigilância Alimentar e Nutricional como instrumento de monitoramento da Estratégia Nacional para Alimentação Complementar Saudável* [@ferreiraSistemaVigilanciaAlimentar2013]. Disponível [aqui](https://doi.org/10.1590/S1519-38292013000200010).
+- Artigo *A vigilância alimentar e nutricional em 20 anos da Política Nacional de Alimentação e Nutrição* [@camposVigilanciaAlimentarNutricional2021]. Disponível [aqui](https://doi.org/10.1590/0102-311X00045821).
+- Artigo *VigiNUTRI Brasil: métodos de solicitação, extração de dados, tratamento e análise de consistência de dados individualizados de adolescentes acompanhados pelo Sistema de Vigilância Alimentar e Nutricional (Sisvan Web)* [@alvesVigiNUTRIBrasilMetodos2024]. Disponível [aqui](https://doi.org/10.1590/S2237-96222024v33e20231479.pt).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sisvan}
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 295.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: produção da APS”](sisaps.html#exemplo-produção-da-aps). Na edição impressa, p. 293.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 92.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
 
 :::
 <!-- END GENERATED SEE ALSO -->

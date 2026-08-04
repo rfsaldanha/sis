@@ -93,7 +93,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_siops.csv"))
 
 Um histórico mais detalhado sobre o SIOPS pode ser consultado no portal do Ministério da Saúde.
 
--  [Histórico de institucionalização do SIOPS](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops)
+- [Histórico de institucionalização do SIOPS](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/historico-de-institucionalizacao-do-siops)
 
 ## Esferas federativas e responsabilidades
 
@@ -531,7 +531,7 @@ siops_cnes
 ```
 
 ::: {.callout-warning}
-SIOPS está no nível do ente financiador; CNES está no nível do estabelecimento localizado. A junção por município é útil para exploração, mas não prova que a despesa financiou diretamente aquele estabelecimento.
+O SIOPS está no nível do ente financiador; CNES está no nível do estabelecimento localizado. A junção por município é útil para exploração, mas não prova que a despesa financiou diretamente aquele estabelecimento.
 :::
 
 ## Qualidade dos dados
@@ -618,20 +618,20 @@ O SIOPS pode ser consultado por painéis e relatórios agregados no portal do Mi
 
 As consultas agregadas permitem acompanhar indicadores por ano, bimestre, ente federado e fase da despesa. São úteis para exploração inicial e validação de resultados.
 
--  [SIOPS - Indicadores](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores)
+- [SIOPS — Indicadores](https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores)
 
 ### Dados desagregados
 
 Os dados desagregados permitem análises reprodutíveis e integração com outras bases territoriais, populacionais e fiscais.
 
--  [OpenDataSUS - SIOPS](https://opendatasus.saude.gov.br/dataset/siops)
+- [OpenDataSUS — SIOPS](https://opendatasus.saude.gov.br/dataset/siops)
 
 ### Documentos de orientação
 
 Os documentos de orientação ajudam a interpretar regras de preenchimento, prazos, ASPS, restos a pagar, homologação e penalidades.
 
--  [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
--  [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)
+- [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
+- [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)
 
 ## Relacionamento com outros sistemas
 
@@ -659,7 +659,7 @@ O SIOPS descreve gasto declarado pelo ente. Sistemas assistenciais registram eve
 
 ### *Checklist* para integração
 
-Antes de relacionar SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação (ver @qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas).
+Antes de relacionar o SIOPS com outra base, defina a unidade territorial, a janela temporal e o sentido substantivo da comparação (ver @qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas).
 
 ::: {#qua-siops-verificacoes-antes-de-integrar-siops-com-outros-sistemas}
 
@@ -853,7 +853,7 @@ Decisões metodológicas antes de analisar o SIOPS
 
 :::
 
-Esse @qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.
+O @qua-siops-decisoes-metodologicas-antes-de-analisar-o-siops transforma cuidados metodológicos em escolhas explícitas. Quando essas decisões ficam documentadas no início, a análise se torna mais transparente e os resultados podem ser reproduzidos ou comparados com menor risco de ambiguidade.
 
 ## *Checklist* final
 
@@ -877,19 +877,19 @@ Antes de concluir uma análise com SIOPS, verifique se:
 
 ### Documentos auxiliares
 
--  [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
--  [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)
+- [Cartilha de orientação SIOPS](assets/siops/cartilha-SIOPS-2023.pdf)
+- [Panfleto SIOPS](assets/siops/sistema_informacao_orcamentos_publicos_saude.pdf)
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-siops}
 
-- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 31.
+- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 39.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “CNES como denominador”](cnes.html#cnes-como-denominador). Na edição impressa, p. 210.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “CNES como denominador”](cnes.html#cnes-como-denominador). Na edição impressa, p. 207.
 
 :::
 <!-- END GENERATED SEE ALSO -->

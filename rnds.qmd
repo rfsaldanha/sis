@@ -50,7 +50,7 @@ A RNDS muda a lógica de parte da informação em saúde: em vez de cada sistema
 
 A caracterização inicial da RNDS como plataforma exige interpretar essa palavra com cuidado. Plataforma, aqui, não significa apenas uma página na internet ou uma aplicação acessada por usuários finais. Significa uma infraestrutura que recebe, valida, organiza e disponibiliza registros segundo regras técnicas e institucionais. O dado que chega à RNDS pode ter sido produzido em um prontuário, em um sistema nacional, em um sistema local, em um laboratório, em um serviço privado ou em uma aplicação de gestão. O ponto comum é que, para circular na rede, esse dado precisa seguir padrões definidos.
 
-Essa característica torna a RNDS diferente das bases tradicionalmente usadas em epidemiologia e gestão. Quando se trabalha com SIM ou SINASC, por exemplo, a pergunta inicial costuma ser "qual evento foi registrado?". Na RNDS, a pergunta inicial precisa ser anterior: "qual fluxo de informação gerou este registro e por qual modelo ele foi compartilhado?". A resposta condiciona a interpretação de cobertura, atraso, duplicidade, completitude e finalidade de uso.
+Essa característica torna a RNDS diferente das bases tradicionalmente usadas em epidemiologia e gestão. Quando se trabalha com SIM ou SINASC, por exemplo, a pergunta inicial costuma ser "qual evento foi registrado?". Na RNDS, a pergunta inicial precisa ser anterior: "qual fluxo de informação gerou este registro e por qual modelo ele foi compartilhado?". A resposta condiciona a interpretação da cobertura, do atraso, da duplicidade, da completitude e da finalidade de uso.
 
 ::: {.callout-note title="Interoperabilidade"}
 Neste capítulo, interoperabilidade significa a capacidade de sistemas diferentes trocarem informações de saúde de forma tecnicamente compatível, semanticamente compreensível e juridicamente governada.
@@ -58,7 +58,7 @@ Neste capítulo, interoperabilidade significa a capacidade de sistemas diferente
 
 ## Quando usar a RNDS
 
-Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos, ou avaliação da transformação digital do SUS.
+Use a RNDS como referência quando a pergunta envolve integração de registros clínicos, interoperabilidade entre sistemas, acesso do cidadão ao histórico de saúde, troca de documentos clínicos ou avaliação da transformação digital do SUS.
 
 ::: {#qua-rnds-perguntas-comuns-relacionadas-a-rnds}
 
@@ -137,7 +137,7 @@ Camadas conceituais da RNDS
 
 :::
 
-A organização em camadas do @qua-rnds-camadas-conceituais-da-rnds ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Cobrar apenas a "RNDS" como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.
+A organização em camadas do @qua-rnds-camadas-conceituais-da-rnds ajuda a localizar problemas. Se um registro de vacinação não aparece, o problema pode estar na sala de vacina, no sistema de registro, no envio à RNDS, na validação, na identificação do cidadão ou na interface de consulta. Cada camada exige uma investigação diferente. Examinar apenas a "RNDS" como se fosse uma única base estática pode esconder a etapa real em que ocorreu a falha.
 
 Essa visão em camadas também ajuda na avaliação de maturidade. Um território pode ter bons sistemas locais, mas baixa capacidade de integração. Outro pode enviar registros em grande volume, mas com muitos erros semânticos. Outro pode ter integração tecnicamente estável, mas baixo uso pelos profissionais no ponto de cuidado. A transformação digital em saúde depende de todas essas dimensões ao mesmo tempo.
 
@@ -228,7 +228,7 @@ Camadas de interoperabilidade relevantes na RNDS
 
 :::
 
-Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir ambiguidade e permitir interpretação comum entre sistemas. Ainda assim, a existência de um código não garante que o registro local tenha sido produzido corretamente.
+Terminologias controladas, como LOINC para exames laboratoriais, ajudam a reduzir a ambiguidade e a permitir uma interpretação comum entre sistemas. Ainda assim, a existência de um código não garante que o registro local tenha sido produzido corretamente.
 
 Na perspectiva da RNDS, FHIR não deve ser visto apenas como uma tecnologia para desenvolvedores. Ele expressa uma forma de organizar a informação em recursos, perfis, extensões e operações. O guia de implementação da RNDS detalha esse contrato computacional para integradores e profissionais que precisam compreender o conteúdo trocado com a rede [@msRNDSFHIR2026]. Para quem analisa dados, a consequência prática é que mudanças no perfil FHIR, no modelo informacional ou na terminologia usada podem alterar a comparabilidade entre períodos e sistemas.
 
@@ -304,7 +304,7 @@ Diferenças entre RNDS, dados abertos e produtos de disseminação
 
 Uma base aberta derivada da RNDS deve ser analisada como produto de disseminação, não como espelho integral da plataforma. Ela pode ter filtros, anonimização, agregação, supressão de campos, mudança de leiaute, regras de deduplicação e periodicidade própria. O OpenDataSUS, por exemplo, pode disponibilizar bases relacionadas a registros integrados, mas essas bases não autorizam inferir que todos os registros individualizados da RNDS estejam publicamente disponíveis.
 
-Para pesquisa, essa distinção muda o desenho do estudo. Se o objetivo é avaliar um indicador público, a base aberta pode ser suficiente. Se o objetivo é compreender o fluxo de integração, pode ser necessário estudar metadados de envio, rejeição e processamento. Se o objetivo envolve trajetória individual, linkage ou decisão clínica, entram requisitos éticos, jurídicos e institucionais muito mais restritos.
+Para pesquisa, essa distinção muda o desenho do estudo. Se o objetivo é avaliar um indicador público, a base aberta pode ser suficiente. Se o objetivo é compreender o fluxo de integração, pode ser necessário estudar metadados de envio, rejeição e processamento. Se o objetivo envolve trajetória individual, *linkage* ou decisão clínica, entram requisitos éticos, jurídicos e institucionais muito mais restritos.
 
 ## Qualidade dos dados
 
@@ -327,7 +327,7 @@ Dimensões de qualidade na RNDS
 
 :::
 
-As dimensões de qualidade se acumulam. Um registro completo, mas enviado com grande atraso, pode ser útil para histórico clínico, mas inadequado para vigilância oportuna. Um registro oportuno, mas incompleto, pode sinalizar atividade assistencial sem permitir análise detalhada. Um registro conforme ao modelo, mas semanticamente impreciso, pode passar por validações automáticas e ainda assim induzir interpretação errada.
+As dimensões de qualidade se acumulam. Um registro completo, mas enviado com grande atraso, pode ser útil para histórico clínico, mas inadequado para vigilância oportuna. Um registro oportuno, mas incompleto, pode sinalizar atividade assistencial sem permitir análise detalhada. Um registro em conformidade com o modelo, mas semanticamente impreciso, pode passar por validações automáticas e ainda assim induzir interpretação errada.
 
 Por isso, a qualidade deve ser avaliada em relação à pergunta. Para continuidade do cuidado, pode ser mais importante que o registro esteja disponível rapidamente e associado à pessoa correta. Para pesquisa, pode ser mais importante conhecer regras de deduplicação, completitude e versão do modelo. Para gestão da integração, rejeições, atrasos e falhas de autenticação podem ser tão importantes quanto o conteúdo clínico.
 
@@ -564,11 +564,11 @@ O acesso técnico e documental à RNDS é organizado por páginas oficiais do Mi
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-rnds}
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 433.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 435.
 
-- [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 37.
+- [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 47.
 
-- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”](sipni.html#privacidade-e-dados-individualizados). Na edição impressa, p. 322.
+- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Privacidade e dados individualizados”](sipni.html#privacidade-e-dados-individualizados). Na edição impressa, p. 321.
 
 :::
 <!-- END GENERATED SEE ALSO -->

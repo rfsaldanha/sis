@@ -237,7 +237,7 @@ Possibilidades e limites do Painel Oncologia
 
 O intervalo exibido depende de duas datas encontradas nas bases administrativas. Se o diagnóstico ou o tratamento não for registrado, estiver fora do escopo das fontes ou não puder ser relacionado por problemas de identificação, o caso pode não compor a medida. A data do primeiro procedimento registrado também não representa toda a linha de cuidado.
 
-O acesso público ao Painel Oncologia está disponível em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A consulta deve registrar a data de extração, os filtros, a abrangência geográfica e o período selecionado.
+O acesso público ao Painel Oncologia está disponível no [TabNet](https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=). A consulta deve registrar a data de extração, os filtros, a abrangência geográfica e o período selecionado.
 
 ## Qualidade e cobertura
 
@@ -285,7 +285,7 @@ Uma análise de mamografia pode começar pelo número de exames de rastreamento 
 
 ### Exemplo: oportunidade do diagnóstico e do tratamento
 
-Para estudar tempo, identifique claramente os marcos usados: solicitação, realização, liberação do resultado, diagnóstico ou primeiro tratamento. O SISCAN detalha parte inicial desse percurso; o Painel Oncologia relaciona diagnóstico e tratamento em diferentes sistemas. Os dois intervalos não são intercambiáveis.
+Para estudar tempo, identifique claramente os marcos usados: solicitação, realização, liberação do resultado, diagnóstico ou primeiro tratamento. O SISCAN detalha a parte inicial desse percurso; o Painel Oncologia relaciona diagnóstico e tratamento em diferentes sistemas. Os dois intervalos não são intercambiáveis.
 
 ## Análise territorial e temporal
 
@@ -297,19 +297,19 @@ Em séries temporais, competência de processamento, data da solicitação, data
 
 ### SISCAN no TabNet
 
-As tabulações públicas do SISCAN estão disponíveis na página do DATASUS em https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/. As opções e os períodos disponíveis devem ser conferidos na data da consulta [@datasusSiscan2026].
+As tabulações públicas do SISCAN estão disponíveis na [página do sistema no DATASUS](https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/). As opções e os períodos disponíveis devem ser conferidos na data da consulta [@datasusSiscan2026].
 
 ### SISCOLO e SISMAMA
 
-As séries históricas dos sistemas antecessores podem ser consultadas em https://datasus.saude.gov.br/acesso-a-informacao/cancer-de-colo-de-utero-e-de-mama-siscolo-sismama/. Elas são importantes para análises anteriores e para avaliar a transição entre sistemas [@datasusSiscoloSismama2026].
+As séries históricas dos sistemas antecessores podem ser consultadas na [página do SISCOLO e do SISMAMA](https://datasus.saude.gov.br/acesso-a-informacao/cancer-de-colo-de-utero-e-de-mama-siscolo-sismama/). Elas são importantes para análises anteriores e para avaliar a transição entre sistemas [@datasusSiscoloSismama2026].
 
 ### Acesso ao Painel Oncologia
 
-O Painel Oncologia pode ser tabulado em https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=. A página institucional de controle do câncer, em https://www.gov.br/saude/pt-br/composicao/saes/cgcan, descreve a ferramenta e suas fontes [@brasilPainelOncologia2026].
+O Painel Oncologia pode ser tabulado no [TabNet](https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=). A [página institucional de controle do câncer](https://www.gov.br/saude/pt-br/composicao/saes/cgcan) descreve a ferramenta e suas fontes [@brasilPainelOncologia2026].
 
 ### Manuais e relatórios
 
-O manual do SISCAN está organizado em módulos sobre apresentação e fluxo, exames e faturamento, seguimento e monitoramento da qualidade. Ele pode ser consultado em https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4 [@incaManualSiscan2021]. O relatório de qualidade dos dados está disponível em https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020 [@incaQualidadeSiscan2022].
+O manual do SISCAN está organizado em módulos sobre apresentação e fluxo, exames e faturamento, seguimento e monitoramento da qualidade. Ele pode ser consultado na [página do manual](https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4) [@incaManualSiscan2021]. O relatório de qualidade dos dados está disponível na [página do relatório](https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020) [@incaQualidadeSiscan2022].
 
 ## Relacionamento com outros sistemas
 
@@ -358,21 +358,21 @@ Antes de concluir uma análise, verifique se:
 
 ### Artigos
 
-- Artigo *PAINEL-Oncologia: uma ferramenta de gestão* [@attyPainelOncologia2020]. Disponível em https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827.
-- Artigo *Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019* [@tomazelliCoberturaSistemasCancer2022]. Disponível em https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544.
+- Artigo *PAINEL-Oncologia: uma ferramenta de gestão* [@attyPainelOncologia2020]. Disponível [no DOI](https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827).
+- Artigo *Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019* [@tomazelliCoberturaSistemasCancer2022]. Disponível [no DOI](https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-siscan}
 
-- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 126.
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “Exemplo: produção de mamografias”](sia.html#exemplo-produção-de-mamografias). Na edição impressa, p. 143.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 207.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 204.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 436.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 438.
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 48.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 58.
 
 :::
 <!-- END GENERATED SEE ALSO -->

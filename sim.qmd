@@ -367,7 +367,7 @@ Na prática, uma análise de mortalidade infantil deve verificar idade ao óbito
 
 ## Qualidade dos dados
 
-A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a subregistro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade [@sennaSistemaInformacoesSobre2009; @jorgeAnaliseQualidadeEstatisticas2007; @reboucasAvaliacaoQualidadeSistema2025].
+A partir de 1979, o SIM passou a apresentar dados consolidados e, desde então, a qualidade de preenchimento vem sendo aprimorada. Avanços importantes ocorreram na cobertura e na completitude de variáveis, mas ainda há desafios relacionados a sub-registro, causas mal definidas, campos incompletos e diferenças territoriais de qualidade [@sennaSistemaInformacoesSobre2009; @jorgeAnaliseQualidadeEstatisticas2007; @reboucasAvaliacaoQualidadeSistema2025].
 
 Qualidade no SIM não é uma dimensão única. Uma base pode ter boa cobertura de óbitos, mas baixa qualidade de causa; pode ter causas bem codificadas, mas campos sociais incompletos; ou pode ter boa qualidade em capitais e pior desempenho em municípios pequenos. Por isso, avaliações de qualidade devem ser feitas por dimensão, variável, período e território (ver @qua-sim-problemas-frequentes-que-podem-afetar-analises-com-o-sim).
 
@@ -375,9 +375,9 @@ Qualidade no SIM não é uma dimensão única. Uma base pode ter boa cobertura d
 
 | Problema | Efeito na análise |
 |------------------------------------|------------------------------------|
-| Subregistro de óbitos | Subestima taxas e números absolutos |
+| Sub-registro de óbitos | Subestima taxas e números absolutos |
 | Causas mal definidas | Reduz a capacidade de interpretar padrões de mortalidade |
-| Códigos garbage | Atribuem óbitos a causas pouco úteis para políticas de prevenção |
+| Códigos *garbage* | Atribuem óbitos a causas pouco úteis para políticas de prevenção |
 | Incompletude de raça/cor, escolaridade ou ocupação | Limita análises de desigualdades |
 | Inconsistências entre idade, sexo e causa | Indicam possíveis erros de preenchimento, codificação ou digitação |
 | Duplicidade | Pode superestimar óbitos em agregações |
@@ -396,7 +396,7 @@ Além de listar problemas possíveis, é útil transformar a avaliação de qual
 | Indicador de qualidade | Como interpretar |
 |------------------------------------|------------------------------------|
 | Proporção de causas mal definidas | Mede quanto da mortalidade por causa ficou pouco esclarecida |
-| Proporção de códigos garbage | Indica causas básicas pouco úteis para prevenção ou planejamento |
+| Proporção de códigos *garbage* | Indica causas básicas pouco úteis para prevenção ou planejamento |
 | Completitude de raça/cor, escolaridade e ocupação | Define se análises de desigualdade são sustentáveis |
 | Consistência entre idade, sexo e causa | Ajuda a detectar erros de preenchimento, codificação ou processamento |
 | Proporção de registros investigados | Mostra o grau de qualificação posterior em grupos prioritários |
@@ -408,7 +408,7 @@ Indicadores operacionais para avaliar qualidade dos dados do SIM
 
 O campo ocupação, por exemplo, pode ter limitações importantes em estudos sobre doenças relacionadas ao trabalho [@cavalcanteQualidadeDosRegistros2023]. Por isso, análises mais detalhadas devem verificar completitude, consistência e mudanças históricas das variáveis utilizadas.
 
-As causas mal definidas e os chamados códigos garbage merecem atenção especial. Eles indicam causas pouco informativas, muitas vezes relacionadas a falta de assistência médica, ausência de investigação, preenchimento inadequado ou seleção de mecanismos terminais como causa básica. Uma proporção elevada desses códigos pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas.
+As causas mal definidas e os chamados códigos *garbage* merecem atenção especial. Eles indicam causas pouco informativas, muitas vezes relacionadas à falta de assistência médica, ausência de investigação, preenchimento inadequado ou seleção de mecanismos terminais como causa básica. Uma proporção elevada desses códigos pode esconder a magnitude real de doenças cardiovasculares, neoplasias, causas externas, doenças infecciosas ou outras causas específicas.
 
 Campos sociais também precisam ser avaliados. Raça/cor, escolaridade e ocupação são fundamentais para estudar desigualdades, mas sua qualidade pode variar segundo período, território, tipo de óbito e circunstância de preenchimento. Em causas externas, a qualidade da circunstância é tão importante quanto a lesão, pois códigos inespecíficos dificultam distinguir acidente, agressão, lesão autoprovocada e evento de intenção indeterminada.
 
@@ -488,14 +488,14 @@ Os prefixos do @qua-sim-prefixos-comuns-dos-arquivos-do-sim indicam subconjuntos
 
 ## Acesso aos dados
 
-Os dados do SIM podem ser acessados por diferentes caminhos, a depender do objetivo da análise (ver @qua-sim-formas-de-acesso-aos-dados-do-sim).
+Os dados do SIM podem ser acessados por diferentes caminhos, conforme o objetivo da análise (ver @qua-sim-formas-de-acesso-aos-dados-do-sim).
 
 ::: {#qua-sim-formas-de-acesso-aos-dados-do-sim}
 
 | Forma de acesso | Indicação de uso |
 |------------------------------------|------------------------------------|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
+| TabWin/DBC | Transferência e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
@@ -509,13 +509,13 @@ Formas de acesso aos dados do SIM
 
 Os dados do SIM podem ser acessados no TabNet do DATASUS, na seção de Estatísticas Vitais.
 
--   [TabNet SIM](https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10)
+- [TabNet SIM](https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10)
 
 ### TabWin e transferência de arquivos
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
--   [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
@@ -564,22 +564,22 @@ taxa_mortalidade
 
 A biblioteca PySUS também permite acessar dados do SIM em fluxos de análise em Python.
 
--   [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)
+- [PySUS SIM](https://pysus.readthedocs.io/en/latest/databases/SIM.html)
 
 ### PCDaS
 
 Os dados do SIM estão disponíveis na Plataforma de Ciência de Dados aplicada à Saúde (PCDaS) para acesso em ambiente de *notebooks*.
 
--   [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
--   [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
+- [Dados SIM](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacoes-de-mortalidade-sim/)
+- [Dados SIM-DOFET](https://pcdas.icict.fiocruz.br/conjunto-de-dados/sistema-de-informacao-sobre-mortalidade-declaracao-de-obitos-fetais-sim-dofet/)
 
 ### OpenDataSUS
 
 Dados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.
 
--   [OpenDataSUS - SIM](https://opendatasus.saude.gov.br/dataset/sim)
+- [OpenDataSUS — SIM](https://opendatasus.saude.gov.br/dataset/sim)
 
-Ao usar OpenDataSUS, é importante registrar a data de download e observar se o arquivo é preliminar ou consolidado. A vantagem dos formatos abertos é facilitar uso em diferentes linguagens e ambientes; a cautela é que a atualização de bases recentes pode alterar totais, causas e campos derivados.
+Ao usar OpenDataSUS, é importante registrar a data de obtenção e observar se o arquivo é preliminar ou consolidado. A vantagem dos formatos abertos é facilitar uso em diferentes linguagens e ambientes; a cautela é que a atualização de bases recentes pode alterar totais, causas e campos derivados.
 
 ## Relacionamento com outros sistemas
 
@@ -628,13 +628,13 @@ Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/in
 
 Ao utilizar o SIM, alguns cuidados são recorrentes:
 
--   Distinguir óbitos por residência e por ocorrência;
--   Separar óbitos fetais, infantis, maternos e por causas externas quando necessário;
--   Verificar se a base é preliminar ou consolidada;
--   Avaliar causas mal definidas e campos incompletos;
--   Não interpretar mecanismo terminal de morte como causa básica;
--   Observar mudanças na CID, nos formulários, na investigação e nas regras de codificação;
--   Considerar a qualidade diferencial por região, município, período e variável.
+- Distinguir óbitos por residência e por ocorrência;
+- Separar óbitos fetais, infantis, maternos e por causas externas quando necessário;
+- Verificar se a base é preliminar ou consolidada;
+- Avaliar causas mal definidas e campos incompletos;
+- Não interpretar mecanismo terminal de morte como causa básica;
+- Observar mudanças na CID, nos formulários, na investigação e nas regras de codificação;
+- Considerar a qualidade diferencial por região, município, período e variável.
 
 ::: callout-warning
 Erros comuns incluem calcular taxas com óbitos por ocorrência e população residente, misturar bases preliminares e consolidadas na mesma série, incluir óbitos fetais em indicadores de mortalidade geral, tratar causas mal definidas como grupo substantivo de causa e usar códigos CID muito detalhados em populações pequenas sem avaliar instabilidade.
@@ -644,10 +644,10 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 ### Documentos auxiliares
 
--   [Histórico do SIM](assets/sim/INTRO.pdf)
--   [Estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf)
--   [Manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
--   [A Declaração de Óbito: documento necessário e importante](assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
+- [Histórico do SIM](assets/sim/INTRO.pdf)
+- [Estrutura do SIM](assets/sim/Estrutura_SIM_para_CD.pdf)
+- [Manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf)
+- [A Declaração de Óbito: documento necessário e importante](assets/sim/a-declaracao-de-obito-documento-necessario-e-importante.pdf)
 
 ### Vídeos
 
@@ -657,20 +657,20 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 ### Avaliação da qualidade dos dados
 
--   Artigo *Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil* [@cavalcanteQualidadeDosRegistros2023]. Disponível [aqui](https://doi.org/10.1590/1414-462X202331040547).
--   Artigo *Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC* [@jorgeAnaliseQualidadeEstatisticas2007]. Disponível [aqui](https://doi.org/10.1590/S1413-81232007000300014).
--   Artigo *Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review* [@reboucasAvaliacaoQualidadeSistema2025]. Disponível [aqui](https://doi.org/10.1590/1413-81232025301.08462023).
+- Artigo *Qualidade dos registros de ocupação das doenças associadas ao asbesto no sistema de informação sobre mortalidade, Brasil* [@cavalcanteQualidadeDosRegistros2023]. Disponível [aqui](https://doi.org/10.1590/1414-462X202331040547).
+- Artigo *Análise da qualidade das estatísticas vitais brasileiras: a experiência de implantação do SIM e do SINASC* [@jorgeAnaliseQualidadeEstatisticas2007]. Disponível [aqui](https://doi.org/10.1590/S1413-81232007000300014).
+- Artigo *Avaliação da qualidade do Sistema Brasileiro de Informações sobre Mortalidade (SIM): uma scoping review* [@reboucasAvaliacaoQualidadeSistema2025]. Disponível [aqui](https://doi.org/10.1590/1413-81232025301.08462023).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sim}
 
-- [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 49.
+- [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 60.
 
-- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 373.
+- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 374.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 92.
+- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
 
 :::
 <!-- END GENERATED SEE ALSO -->

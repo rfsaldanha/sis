@@ -472,7 +472,7 @@ Ferramentas como GeoCNES exploram o cadastro para mapear estabelecimentos e apoi
 | Coordenada ausente | Latitude ou longitude vazia | Geocodificar endereço ou excluir de mapas pontuais |
 | Coordenada inválida | Valores zero, invertidos ou fora do Brasil | Corrigir antes de calcular distância |
 | Ponto fora do município | Coordenada não cai no polígono do município cadastrado | Conferir endereço, código municipal e geocodificação |
-| Coordenada repetida | Muitos estabelecimentos no mesmo ponto | Verificar uso de centróide, sede administrativa ou endereço genérico |
+| Coordenada repetida | Muitos estabelecimentos no mesmo ponto | Verificar uso de centroide, sede administrativa ou endereço genérico |
 | Endereço incompleto | Logradouro, número ou bairro ausente | Baixa precisão espacial |
 | Mudança temporal | Endereço ou município muda na série | Separar mudança real de erro cadastral |
 
@@ -480,7 +480,7 @@ Checagens mínimas antes de mapear estabelecimentos do CNES
 
 :::
 
-Essas checagens devem ser feitas antes de produzir mapas ou métricas de distância. Coordenadas ausentes, pontos em centróides municipais e endereços incompletos podem criar padrões espaciais artificiais. Em análises longitudinais, mudanças de endereço também precisam ser avaliadas, pois podem indicar mudança real do estabelecimento ou correção cadastral.
+Essas checagens devem ser feitas antes de produzir mapas ou métricas de distância. Coordenadas ausentes, pontos em centroides municipais e endereços incompletos podem criar padrões espaciais artificiais. Em análises longitudinais, mudanças de endereço também precisam ser avaliadas, pois podem indicar mudança real do estabelecimento ou correção cadastral.
 
 ```{r}
 #| eval: false
@@ -548,7 +548,7 @@ Os dados do CNES podem ser acessados por consulta direta, TabNet, TabWin/DBC, Op
 |---|---|
 | Site CNES | Consulta pontual de estabelecimentos e profissionais |
 | TabNet | Tabulações agregadas rápidas |
-| TabWin/DBC | Download de microdados históricos |
+| TabWin/DBC | Transferência de microdados históricos |
 | OpenDataSUS | Arquivos em formatos abertos e bases temáticas |
 | ElasticCNES | Painéis exploratórios |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
@@ -569,22 +569,22 @@ As formas de acesso variam em granularidade, atualização e reprodutibilidade. 
 
 Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DATASUS, incluindo versões de dados preliminares.
 
--  [OpenDataSUS - CNES](https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude)
--  [OpenDataSUS - Monitoramento do CNES](https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes)
--  [OpenDataSUS - Hospitais e leitos](https://opendatasus.saude.gov.br/dataset/hospitais-e-leitos)
--  [OpenDataSUS - Unidades Básicas de Saúde](https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs)
+- [OpenDataSUS — CNES](https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude)
+- [OpenDataSUS — Monitoramento do CNES](https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes)
+- [OpenDataSUS — Hospitais e leitos](https://opendatasus.saude.gov.br/dataset/hospitais-e-leitos)
+- [OpenDataSUS — Unidades Básicas de Saúde](https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs)
 
 ### TabNet
 
 Os dados do CNES podem ser acessados no sistema TabNet do DATASUS, na seção "Rede Assistencial".
 
--  [TabNet CNES](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
+- [TabNet CNES](https://datasus.saude.gov.br/informacoes-de-saude-tabnet/)
 
 ### TabWin e transferência de arquivos
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DATASUS.
 
--  [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### ElasticCNES
 
@@ -617,13 +617,13 @@ cnes_st_p
 
 A biblioteca PySUS também permite acessar dados do CNES em fluxos de análise em Python.
 
--  [PySUS CNES](https://pysus.readthedocs.io/en/latest/databases/CNES.html)
+- [PySUS CNES](https://pysus.readthedocs.io/en/latest/databases/CNES.html)
 
 ### PCDaS
 
 Os dados do CNES estão disponíveis na PCDaS para acesso em ambiente de *notebooks* [@pedrosoDataSciencePlatform2023].
 
--  [Dados CNES](https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/)
+- [Dados CNES](https://pcdas.icict.fiocruz.br/conjunto-de-dados/cadastro-nacional-de-estabelecimentos-de-saude/)
 
 ## Relacionamento com outros sistemas
 
@@ -817,22 +817,22 @@ Antes de concluir uma análise com CNES, verifique se:
 
 ## Bibliografia recomendada
 
--  Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
--  Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
--  Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).
+- Artigo *Análise da clareza metodológica como dimensão de qualidade do Cadastro Nacional de Estabelecimentos de Saúde* [@coelhoAnaliseClarezaMetodologica2024]. Disponível [aqui](https://doi.org/10.1590/2358-289820241408383P).
+- Artigo *Cadastro Nacional de Estabelecimentos de Saúde como ferramenta de análise da descentralização do atendimento da tuberculose para a atenção básica* [@pelissariCadastroNacionalEstabelecimentos2018]. Disponível [aqui](https://doi.org/10.1590/0102-311X00173917).
+- Artigo *GeoCNES: healthcare mapping in Brazilian cities - a computational tool for improved decision-making* [@assisGeoCNESHealthcareMapping2024]. Disponível [aqui](https://doi.org/10.1590/1413-812320242911.02672024).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-cnes}
 
-- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 31.
+- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 39.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 106.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 123.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 296.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 294.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 223.
+- [SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 220.
 
 :::
 <!-- END GENERATED SEE ALSO -->

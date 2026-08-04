@@ -169,7 +169,7 @@ Unidades de análise possíveis no SIA
 
 :::
 
-Esse @qua-sia-unidades-de-analise-possiveis-no-sia funciona como uma etapa metodológica obrigatória. Antes de tabular, é preciso decidir se o estudo contará quantidades aprovadas, linhas de arquivo, autorizações, procedimentos, tratamentos ou estabelecimentos. A mesma extração pode gerar resultados diferentes se a soma for feita por linha ou por `PA_QTDAPR`, ou se APACs mensais forem interpretadas como novos tratamentos em vez de continuidade de cuidado.
+O @qua-sia-unidades-de-analise-possiveis-no-sia funciona como uma etapa metodológica obrigatória. Antes de tabular, é preciso decidir se o estudo contará quantidades aprovadas, linhas de arquivo, autorizações, procedimentos, tratamentos ou estabelecimentos. A mesma extração pode gerar resultados diferentes se a soma for feita por linha ou por `PA_QTDAPR`, ou se APACs mensais forem interpretadas como novos tratamentos em vez de continuidade de cuidado.
 
 ::: {.callout-note}
 Ao escrever resultados, use a unidade que foi efetivamente analisada. Se o numerador foi `PA_QTDAPR`, o resultado descreve quantidade aprovada de procedimentos, não usuários atendidos.
@@ -216,8 +216,8 @@ Você pode consultar o [SIGTAP](http://sigtap.datasus.gov.br) para verificar des
 
 A documentação oficial do SIGTAP descreve atributos como código, descrição, vigência, modalidade de atendimento, complexidade, instrumentos de registro, idade, sexo, CBO, CID, serviço/classificação, habilitação, financiamento e regras condicionadas. Esses atributos são usados nas críticas do SIA e ajudam a explicar quebras ou mudanças em séries históricas.
 
-- [Wiki SIGTAP - atributos gerais](https://wiki.datasus.gov.br/sigtap/index.php/Gerais)
-- [Wiki SIGTAP - procedimento](https://wiki.datasus.gov.br/sigtap/index.php/Procedimento)
+- [Wiki SIGTAP — atributos gerais](https://wiki.datasus.gov.br/sigtap/index.php/Gerais)
+- [Wiki SIGTAP — procedimento](https://wiki.datasus.gov.br/sigtap/index.php/Procedimento)
 
 ## Análise territorial e temporal
 
@@ -256,7 +256,7 @@ Códigos SIGTAP comuns em análises de mamografia
 
 :::
 
-A distinção entre os dois códigos é substantiva. O primeiro pode reunir mamografias com finalidades clínicas variadas; o segundo é mais alinhado a rastreamento. Se a pergunta for cobertura de rastreamento, misturar os códigos pode inflar o numerador ou mudar seu significado. Se a pergunta for capacidade de oferta de exames, incluir ambos pode ser adequado, desde que a finalidade seja declarada.
+A distinção entre os dois códigos é substantiva. O primeiro pode reunir mamografias com finalidades clínicas variadas; o segundo é mais alinhado ao rastreamento. Se a pergunta for cobertura de rastreamento, misturar os códigos pode inflar o numerador ou mudar seu significado. Se a pergunta for capacidade de oferta de exames, incluir ambos pode ser adequado, desde que a finalidade seja declarada.
 
 ::: {#qua-sia-campos-uteis-em-uma-analise-de-mamografias-no-sia}
 
@@ -525,14 +525,14 @@ A produção rejeitada não deve ser somada automaticamente à produção aprova
 
 ## Acesso aos dados
 
-Os dados do SIA podem ser acessados por diferentes caminhos, a depender do objetivo da análise (ver @qua-sia-formas-de-acesso-aos-dados-do-sia).
+Os dados do SIA podem ser acessados por diferentes caminhos, conforme o objetivo da análise (ver @qua-sia-formas-de-acesso-aos-dados-do-sia).
 
 ::: {#qua-sia-formas-de-acesso-aos-dados-do-sia}
 
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
+| TabWin/DBC | Transferência e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
@@ -541,7 +541,7 @@ Formas de acesso aos dados do SIA
 
 :::
 
-A melhor forma de acesso depende do grau de reprodutibilidade necessário. O TabNet é ótimo para reconhecimento inicial e validação de totais. Arquivos DBC, R, Python e PCDaS são mais adequados quando a análise precisa documentar filtros, combinar várias competências, repetir o processamento ou integrar o SIA a outras bases.
+A melhor forma de acesso depende do grau de reprodutibilidade necessário. O TabNet é adequado para o reconhecimento inicial e validação de totais. Arquivos DBC, R, Python e PCDaS são mais adequados quando a análise precisa documentar filtros, combinar várias competências, repetir o processamento ou integrar o SIA a outras bases.
 
 ## Processamento de grandes volumes
 
@@ -576,7 +576,7 @@ Os dados do SIA podem ser acessados no TabNet do DATASUS, na seção "Assistênc
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
-- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 No serviço de transferência, o usuário normalmente seleciona a área de assistência à saúde, o sistema SIA, o tipo de arquivo, a unidade federativa e a competência. Para análises reprodutíveis, salve também a lista de arquivos baixados, data de acesso, hash dos arquivos e versão do código de processamento.
 
@@ -803,13 +803,13 @@ Antes de concluir uma análise com SIA, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sia}
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 48.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 58.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 98.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 115.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 207.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 204.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 223.
+- [SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 220.
 
 :::
 <!-- END GENERATED SEE ALSO -->

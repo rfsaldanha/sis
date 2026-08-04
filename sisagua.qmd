@@ -239,7 +239,7 @@ Unidades de análise frequentes no SISAGUA
 
 :::
 
-Esse @qua-sisagua-unidades-de-analise-frequentes-no-sisagua reforça que o SISAGUA alterna entre unidades estruturais e unidades laboratoriais. Uma forma de abastecimento pode gerar muitas amostras, uma amostra pode ter vários parâmetros e uma população abastecida pode ser estimada por cadastro. Portanto, a contagem de registros precisa ser traduzida para a unidade substantiva da pergunta antes de virar indicador.
+O @qua-sisagua-unidades-de-analise-frequentes-no-sisagua reforça que o SISAGUA alterna entre unidades estruturais e unidades laboratoriais. Uma forma de abastecimento pode gerar muitas amostras, uma amostra pode ter vários parâmetros e uma população abastecida pode ser estimada por cadastro. Portanto, a contagem de registros precisa ser traduzida para a unidade substantiva da pergunta antes de virar indicador.
 
 ## Estrutura dos dados
 
@@ -561,7 +561,7 @@ O SISAGUA possui diferentes formas de disseminação: dados abertos, relatórios
 | Dados abertos | Processamento reprodutível e análises próprias |
 | Relatórios do sistema | Acompanhamento por usuários autorizados |
 | Painéis Vigiagua/Sisagua | Exploração visual de indicadores e monitoramento |
-| Webservices | Envio de dados por responsáveis pelo abastecimento |
+| Serviços web | Envio de dados por responsáveis pelo abastecimento |
 | Integração com GAL | Transmissão de solicitações e resultados laboratoriais |
 
 Formas de acesso e integração do SISAGUA
@@ -570,10 +570,10 @@ Formas de acesso e integração do SISAGUA
 
 A forma de acesso deve ser escolhida conforme a finalidade. Painéis e relatórios são úteis para acompanhamento e inspeção rápida; dados abertos são mais adequados para reprodutibilidade; serviços web e integrações laboratoriais apoiam o fluxo operacional. Em todos os casos, registre a data de extração e o dicionário usado, porque nomes de campos e formatos podem mudar.
 
--  [SISAGUA - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
--  [Vigiagua - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
--  [OpenDataSUS - SISAGUA](https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&sort=score+desc%2C+metadata_modified+desc)
--  [Norma de Qualidade da Água para Consumo Humano](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade)
+- [SISAGUA — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
+- [Vigiagua — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
+- [OpenDataSUS — SISAGUA](https://opendatasus.saude.gov.br/dataset/?q=SISAGUA&sort=score+desc%2C+metadata_modified+desc)
+- [Norma de Qualidade da Água para Consumo Humano](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade)
 
 ::: {.callout-tip}
 Alguns arquivos do SISAGUA podem ser grandes para planilhas comuns. Prefira R, Python, DuckDB, Arrow ou bancos de dados quando trabalhar com séries extensas de amostras.
@@ -749,25 +749,25 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 
 ### Documentos oficiais
 
--  [SISAGUA - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
--  [Vigiagua - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
--  [Norma de Qualidade da Água para Consumo Humano](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade)
+- [SISAGUA — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/sisagua)
+- [Vigiagua — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua)
+- [Norma de Qualidade da Água para Consumo Humano](https://www.gov.br/saude/pt-br/composicao/svsa/saude-ambiental/vigiagua/norma-de-qualidade)
 
 ### Artigos
 
--  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade* [@oliveiraSistemaInformacaoVigilancia2019]. Disponível [aqui](https://doi.org/10.5123/S1679-49742019000100024).
--  Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).
+- Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade* [@oliveiraSistemaInformacaoVigilancia2019]. Disponível [aqui](https://doi.org/10.5123/S1679-49742019000100024).
+- Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sisagua}
 
-- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 34.
+- [Organização dos SIS — seção “Níveis geográficos”](organizacao.html#níveis-geográficos). Na edição impressa, p. 42.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 204.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Geocodificação e análise espacial”](cnes.html#geocodificação-e-análise-espacial). Na edição impressa, p. 201.
 
-- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 51.
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
 :::
 <!-- END GENERATED SEE ALSO -->

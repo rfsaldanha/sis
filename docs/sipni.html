@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -804,7 +807,7 @@ Aviso
 <p>A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração nacional e maior oportunidade da informação. O novo SI-PNI foi reformulado para operar integrado à <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de Dados em Saúde</a> e à Estratégia de Saúde Digital do Ministério da Saúde, em linha com a proposta de Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial da Saúde.</p>
 <p>Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS.</p>
 <ul>
-<li><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view">Nota Informativa Conjunta nº 4/2023 - DPNI</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view">Nota Informativa Conjunta nº 4/2023 — DPNI</a></li>
 <li><a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes">Entenda o novo Sistema de Informação do Programa Nacional de Imunizações</a></li>
 </ul>
 <section id="o-que-mudou-com-o-novo-si-pni" class="level3" data-number="15.4.1">
@@ -1018,7 +1021,7 @@ Quadro&nbsp;15.6: Escopo informacional do SI-PNI
 </div>
 </figure>
 </div>
-<p>Essa distinção ajuda a evitar leituras excessivas. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.</p>
+<p>Essa distinção ajuda a evitar conclusões que extrapolem os dados. Uma queda de doses registradas pode indicar redução real da vacinação, mas também pode indicar atraso de envio, mudança de sistema, problema de integração, erro de filtro, alteração de calendário ou mudança na população-alvo.</p>
 </section>
 <section id="estrutura-dos-dados" class="level2" data-number="15.7">
 <h2 data-number="15.7" class="anchored" data-anchor-id="estrutura-dos-dados"><span class="header-section-number">15.7</span> Estrutura dos dados</h2>
@@ -1125,7 +1128,7 @@ Quadro&nbsp;15.8: Grupos de campos úteis para ler o dicionário do SI-PNI
 <td>Pessoa</td>
 <td>Identificador anonimizado, sexo, idade, raça/cor, residência</td>
 <td>Contar pessoas, avaliar desigualdades e construir esquemas</td>
-<td>Identificador público pode não permitir linkage externo</td>
+<td>Identificador público pode não permitir <em>linkage</em> externo</td>
 </tr>
 <tr class="even">
 <td>Vacinação</td>
@@ -1360,7 +1363,7 @@ Quadro&nbsp;15.11: Exemplo de regra operacional antes da análise
 </div>
 </figure>
 </div>
-<p>O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto não chame uma pela outra.</p>
+<p>O resultado pode gerar três medidas diferentes: total de registros de dose, pessoas com pelo menos uma dose e pessoas com esquema completo. As três podem ser corretas, desde que o texto as denomine com precisão.</p>
 </section>
 </section>
 <section id="cobertura-vacinal-e-denominadores" class="level2" data-number="15.9">
@@ -1961,7 +1964,7 @@ Dica
 </section>
 <section id="privacidade-e-dados-individualizados" class="level2" data-number="15.13">
 <h2 data-number="15.13" class="anchored" data-anchor-id="privacidade-e-dados-individualizados"><span class="header-section-number">15.13</span> Privacidade e dados individualizados</h2>
-<p>O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para linkage individual, auditoria de pessoa específica e reidentificação (ver <a href="#qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni" class="quarto-xref">Quadro&nbsp;<span>15.22</span></a>).</p>
+<p>O novo SI-PNI trabalha com registros individualizados, mas os microdados públicos precisam proteger dados pessoais. Por isso, bases abertas usam identificadores anonimizados ou pseudonimizados e removem informações diretamente identificáveis. Essa proteção permite análises reprodutíveis em escala nacional, mas impõe limites para <em>linkage</em> individual, auditoria de pessoa específica e reidentificação (ver <a href="#qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni" class="quarto-xref">Quadro&nbsp;<span>15.22</span></a>).</p>
 <div id="qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sipni-implicacoes-de-privacidade-no-uso-dos-dados-do-si-pni-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -2014,22 +2017,22 @@ Quadro&nbsp;15.22: Implicações de privacidade no uso dos dados do SI-PNI
 <h3 data-number="15.14.1" class="anchored" data-anchor-id="bases-abertas"><span class="header-section-number">15.14.1</span> Bases abertas</h3>
 <ul>
 <li><a href="https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao">Campanha Nacional de Vacinação contra Covid-19</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2025</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2024</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2023</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2022</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2021</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) - 2020</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/esavi">Dados sobre Eventos Supostamente Atribuíveis à Vacinação - ESAVI</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2025</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2024</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2023">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2023</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2022</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2021">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2021</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2020">Doses aplicadas pelo Programa Nacional de Imunizações (PNI) — 2020</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/esavi">Dados sobre Eventos Supostamente Atribuíveis à Vacinação — ESAVI</a></li>
 </ul>
 </section>
 <section id="documentação-e-orientação" class="level3" data-number="15.14.2">
 <h3 data-number="15.14.2" class="anchored" data-anchor-id="documentação-e-orientação"><span class="header-section-number">15.14.2</span> Documentação e orientação</h3>
 <ul>
 <li><a href="https://www.gov.br/saude/pt-br/composicao/svsa/pni">Programa Nacional de Imunizações</a></li>
-<li><a href="https://www.gov.br/saude/pt-br/vacinacao">Vacinação - Ministério da Saúde</a></li>
+<li><a href="https://www.gov.br/saude/pt-br/vacinacao">Vacinação — Ministério da Saúde</a></li>
 <li><a href="https://www.gov.br/saude/pt-br/vacinacao/manuais">Manuais de vacinação</a></li>
-<li><a href="https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/">Guia de integração da RNDS - Registro de Imunobiológico Administrado em Rotina</a></li>
+<li><a href="https://rnds-guia.saude.gov.br/docs/ria-rotina/mc-ria-r/">Guia de integração da RNDS — Registro de Imunobiológico Administrado em Rotina</a></li>
 </ul>
 </section>
 </section>
@@ -2356,9 +2359,9 @@ Quadro&nbsp;15.27: Limitações recorrentes do SI-PNI
 <section id="sec-veja-tambem-sipni" class="level2" data-number="15.21">
 <h2 data-number="15.21" class="anchored" data-anchor-id="sec-veja-tambem-sipni"><span class="header-section-number">15.21</span> Veja também</h2>
 <ul>
-<li><p><a href="eventos.html#imunizações">Eventos de saúde — seção “Imunizações”</a>. Na edição impressa, p.&nbsp;50.</p></li>
-<li><p><a href="pop.html#escolha-do-denominador">Estimativas populacionais — seção “Escolha do denominador”</a>. Na edição impressa, p.&nbsp;389.</p></li>
-<li><p><a href="rnds.html#modelos-de-informação">RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”</a>. Na edição impressa, p.&nbsp;336.</p></li>
+<li><p><a href="eventos.html#imunizações">Eventos de saúde — seção “Imunizações”</a>. Na edição impressa, p.&nbsp;61.</p></li>
+<li><p><a href="pop.html#escolha-do-denominador">Estimativas populacionais — seção “Escolha do denominador”</a>. Na edição impressa, p.&nbsp;391.</p></li>
+<li><p><a href="rnds.html#modelos-de-informação">RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”</a>. Na edição impressa, p.&nbsp;334.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

@@ -228,7 +228,7 @@ Escolha inicial da fonte conforme a pergunta
 
 :::
 
-Uma pergunta pode exigir mais de uma fonte. Tendências do Vigitel podem ser confrontadas com estimativas periódicas da PNS; internações declaradas na PNAD ou PNS podem ser analisadas junto ao SIH/SUS; e atendimentos do VIVA Inquérito podem ser contextualizados por mortalidade do SIM e notificações do SINAN. A comparação deve preservar as definições próprias.
+Uma pergunta pode exigir mais de uma fonte. Tendências do Vigitel podem ser confrontadas com estimativas periódicas da PNS; internações declaradas na PNAD ou PNS podem ser analisadas em conjunto com o SIH/SUS; e atendimentos do VIVA Inquérito podem ser contextualizados por mortalidade do SIM e notificações do SINAN. A comparação deve preservar as definições próprias.
 
 ## Pesos, desenho e variância
 
@@ -306,19 +306,19 @@ Resultados agregados podem revelar coerência, divergência ou lacunas entre fon
 
 ### Acesso à PNS
 
-A página do IBGE reúne resultados, questionários, documentação, microdados e históricos de atualização das edições de 2013 e 2019: https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html. Informações sobre a coleta de 2026 estão em https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47518-ibge-inicia-coleta-em-todo-o-pais-da-pesquisa-nacional-de-saude-2026 [@ibgePNSProduto2026; @ibgePNSColeta2026].
+A [página da PNS](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html), mantida pelo IBGE, reúne resultados, questionários, documentação, microdados e históricos de atualização das edições de 2013 e 2019. As informações sobre a coleta de 2026 estão na [notícia publicada pelo instituto](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47518-ibge-inicia-coleta-em-todo-o-pais-da-pesquisa-nacional-de-saude-2026) [@ibgePNSProduto2026; @ibgePNSColeta2026].
 
 ### Acesso à PNAD
 
-O portal de suplementos da PNAD e seu repositório de arquivos oferecem publicações, microdados, questionários e dicionários: https://www.ibge.gov.br/estatisticas/sociais/saude/19898-suplementos-pnad3.html e https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/. Para 2008, a documentação está organizada em https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/2008/Documentacao_pnad2008/ [@ibgeSuplementosPNAD2026].
+O [portal de suplementos da PNAD](https://www.ibge.gov.br/estatisticas/sociais/saude/19898-suplementos-pnad3.html) e seu [repositório de arquivos](https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/) oferecem publicações, microdados, questionários e dicionários. Para 2008, o material está reunido na [documentação da PNAD 2008](https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/2008/Documentacao_pnad2008/) [@ibgeSuplementosPNAD2026].
 
 ### Acesso ao Vigitel
 
-O Ministério da Saúde disponibiliza base consolidada de 2006 a 2024 em CSV e DTA, dicionário, orientações e nota metodológica em https://svs.aids.gov.br/daent/cgdnt/vigitel/. O relatório está em https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigitel/vigitel-brasil-2006-2024.pdf [@brasilVigitelDados2026; @brasilVigitel2024].
+O Ministério da Saúde disponibiliza a [base consolidada do Vigitel](https://svs.aids.gov.br/daent/cgdnt/vigitel/) de 2006 a 2024 em CSV e DTA, além de dicionário, orientações e nota metodológica. O [relatório de 2006 a 2024](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/svsa/vigitel/vigitel-brasil-2006-2024.pdf) também está disponível [@brasilVigitelDados2026; @brasilVigitel2024].
 
 ### Acesso ao VIVA Inquérito
 
-A página institucional reúne histórico, metodologia, relatórios e acesso às tabulações: https://www.gov.br/saude/pt-br/composicao/svsa/inqueritos-de-saude/viva-inquerito. A distinção entre o inquérito e o componente contínuo está documentada em https://www.gov.br/saude/pt-br/composicao/svsa/vigilancia-de-doencas-cronicas-nao-transmissiveis/vigilancia-de-violencias-e-acidentes [@brasilVivaInquerito2026; @brasilVigilanciaViolencias2026].
+A [página do VIVA Inquérito](https://www.gov.br/saude/pt-br/composicao/svsa/inqueritos-de-saude/viva-inquerito) reúne histórico, metodologia, relatórios e acesso às tabulações. A distinção entre o inquérito e o componente contínuo está registrada na [documentação sobre vigilância de violências e acidentes](https://www.gov.br/saude/pt-br/composicao/svsa/vigilancia-de-doencas-cronicas-nao-transmissiveis/vigilancia-de-violencias-e-acidentes) [@brasilVivaInquerito2026; @brasilVigilanciaViolencias2026].
 
 ## Cuidados de interpretação
 
@@ -361,7 +361,7 @@ Antes de publicar uma análise, verifique se:
 ### PNS e PNAD
 
 - [Portal da Pesquisa Nacional de Saúde](https://www.ibge.gov.br/estatisticas/sociais/saude/9160-pesquisa-nacional-de-saude.html) [@ibgePNSProduto2026].
-- Artigo *Pesquisa Nacional de Saúde 2019: histórico, métodos e perspectivas* [@stopaPNS20192020]. Disponível em https://doi.org/10.1590/S1679-49742020000500004.
+- Artigo *Pesquisa Nacional de Saúde 2019: histórico, métodos e perspectivas* [@stopaPNS20192020]. Disponível [no DOI](https://doi.org/10.1590/S1679-49742020000500004).
 - [Suplementos da PNAD](https://www.ibge.gov.br/estatisticas/sociais/saude/19898-suplementos-pnad3.html) [@ibgeSuplementosPNAD2026].
 
 ### Vigitel e VIVA
@@ -375,13 +375,13 @@ Antes de publicar uma análise, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-inqueritos}
 
-- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 51.
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 389.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 184.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 179.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 428.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 430.
 
 :::
 <!-- END GENERATED SEE ALSO -->

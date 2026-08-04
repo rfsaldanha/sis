@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -97,14 +100,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -689,7 +692,7 @@ Quadro&nbsp;14.1: Características gerais do SISAPS/Siaps e do SISAB
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, “Sistema de Informação para a Atenção Primária à Saúde”. Neste livro, o título usa SISAPS para explicitar a sigla solicitada e o escopo temático, mas as referências oficiais podem aparecer como Siaps.</p>
+<p>O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, “Sistema de Informação para a Atenção Primária à Saúde”. Neste livro, adota-se SISAPS no título e na exposição geral, enquanto as referências a materiais oficiais preservam a forma Siaps.</p>
 </div>
 </div>
 </section>
@@ -761,7 +764,7 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>O sistema apoia gestão da APS, mas não substitui prontuário clínico, auditoria de qualidade do cuidado ou inquéritos populacionais. A interpretação deve considerar registro, envio, validação e regras de processamento.</p>
+<p>O sistema apoia a gestão da APS, mas não substitui prontuário clínico, auditoria de qualidade do cuidado ou inquéritos populacionais. A interpretação deve considerar registro, envio, validação e regras de processamento.</p>
 </div>
 </div>
 </section>
@@ -1271,7 +1274,7 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Indicadores de cofinanciamento são indicadores administrativos e de monitoramento. Eles podem apoiar avaliação da APS, mas precisam ser interpretados junto com contexto local, capacidade de registro, composição da equipe e perfil da população.</p>
+<p>Indicadores de cofinanciamento são indicadores administrativos e de monitoramento. Eles podem apoiar avaliação da APS, mas precisam ser interpretados com o contexto local, capacidade de registro, composição da equipe e perfil da população.</p>
 </div>
 </div>
 </section>
@@ -1412,7 +1415,7 @@ Aviso
 </section>
 <section id="exemplo-pré-natal-na-aps" class="level2" data-number="14.11">
 <h2 data-number="14.11" class="anchored" data-anchor-id="exemplo-pré-natal-na-aps"><span class="header-section-number">14.11</span> Exemplo: pré-natal na APS</h2>
-<p>O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil (ver <a href="#qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps" class="quarto-xref">Quadro&nbsp;<span>14.12</span></a>).</p>
+<p>O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendimento, registro oportuno e possível relacionamento com o SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>). A pergunta deve definir se o foco é produção registrada, cobertura do acompanhamento ou desfecho materno-infantil (ver <a href="#qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps" class="quarto-xref">Quadro&nbsp;<span>14.12</span></a>).</p>
 <div id="qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-qua figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-qua" id="qua-sisaps-componentes-de-uma-analise-de-pre-natal-na-aps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1577,7 +1580,7 @@ Nota
 </section>
 <section id="exemplo-produção-da-aps" class="level2" data-number="14.13">
 <h2 data-number="14.13" class="anchored" data-anchor-id="exemplo-produção-da-aps"><span class="header-section-number">14.13</span> Exemplo: produção da APS</h2>
-<p>Produção da APS deve ser lida como registro de atividades realizadas por equipes e profissionais. Ela é útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como medida de necessidade, acesso ou qualidade.</p>
+<p>A produção da APS deve ser lida como registro de atividades realizadas por equipes e profissionais. Ela é útil para gestão do processo de trabalho, mas não deve ser interpretada isoladamente como medida de necessidade, acesso ou qualidade.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1941,7 +1944,7 @@ Quadro&nbsp;14.19: Integrações frequentes entre SISAPS/SISAB e outros sistemas
 <tr class="odd">
 <td>Pré-natal se relaciona a desfechos de nascimento?</td>
 <td>SISAPS/SISAB + SINASC (<a href="sinasc.html" class="quarto-xref"><span>Capítulo 6</span></a>)</td>
-<td>Relacionamento direto exige regras de privacidade e linkage</td>
+<td>Relacionamento direto exige regras de privacidade e <em>linkage</em></td>
 </tr>
 <tr class="even">
 <td>Acompanhamento de agravos aparece na vigilância?</td>
@@ -2079,7 +2082,7 @@ Quadro&nbsp;14.21: Limitações recorrentes do SISAPS/SISAB
 </section>
 <section id="cuidados-de-interpretação" class="level2" data-number="14.21">
 <h2 data-number="14.21" class="anchored" data-anchor-id="cuidados-de-interpretação"><span class="header-section-number">14.21</span> Cuidados de interpretação</h2>
-<p>Ao utilizar SISAPS/SISAB, alguns cuidados são recorrentes:</p>
+<p>Ao utilizar o SISAPS/SISAB, alguns cuidados são recorrentes:</p>
 <ul>
 <li>Documentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;</li>
 <li>Definir a unidade de análise antes de baixar ou consultar relatórios;</li>
@@ -2135,7 +2138,7 @@ Quadro&nbsp;14.22: Erros frequentes em análises da APS
 <td>Conferir prazo de envio e processamento</td>
 </tr>
 <tr class="odd">
-<td>Fazer linkage individual sem governança</td>
+<td>Fazer <em>linkage</em> individual sem governança</td>
 <td>Usar apenas bases autorizadas e regras de privacidade</td>
 </tr>
 </tbody>
@@ -2265,9 +2268,9 @@ Quadro&nbsp;14.23: Itens mínimos para reprodutibilidade em análises do SISAPS/
 <section id="sec-veja-tambem-sisaps" class="level2" data-number="14.25">
 <h2 data-number="14.25" class="anchored" data-anchor-id="sec-veja-tambem-sisaps"><span class="header-section-number">14.25</span> Veja também</h2>
 <ul>
-<li><p><a href="eventos.html#procedimentos-ambulatoriais">Eventos de saúde — seção “Procedimentos ambulatoriais”</a>. Na edição impressa, p.&nbsp;48.</p></li>
-<li><p><a href="cnes.html#relacionamento-com-outros-sistemas">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”</a>. Na edição impressa, p.&nbsp;207.</p></li>
-<li><p><a href="sinasc.html#uso-como-denominador">SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”</a>. Na edição impressa, p.&nbsp;92.</p></li>
+<li><p><a href="eventos.html#procedimentos-ambulatoriais">Eventos de saúde — seção “Procedimentos ambulatoriais”</a>. Na edição impressa, p.&nbsp;58.</p></li>
+<li><p><a href="cnes.html#relacionamento-com-outros-sistemas">CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”</a>. Na edição impressa, p.&nbsp;204.</p></li>
+<li><p><a href="sinasc.html#uso-como-denominador">SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”</a>. Na edição impressa, p.&nbsp;108.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

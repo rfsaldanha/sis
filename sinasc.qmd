@@ -364,7 +364,7 @@ Os dados do SINASC podem ser acessados por diferentes caminhos, a depender do ob
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
+| TabWin/DBC | Transferência e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
@@ -374,7 +374,7 @@ Formas de acesso aos dados do SINASC
 
 :::
 
-Esse @qua-sinasc-formas-de-acesso-aos-dados-do-sinasc diferencia acesso para consulta rápida e acesso para análise reprodutível. TabNet é prático para exploração inicial e conferência de totais. Arquivos DBC, pacotes em R ou Python e bases em plataformas de dados são mais adequados quando a análise precisa documentar filtros, recodificações e versões dos dados.
+O @qua-sinasc-formas-de-acesso-aos-dados-do-sinasc diferencia acesso para consulta rápida e acesso para análise reprodutível. TabNet é prático para exploração inicial e conferência de totais. Arquivos DBC, pacotes em R ou Python e bases em plataformas de dados são mais adequados quando a análise precisa documentar filtros, recodificações e versões dos dados.
 
 ### TabNet
 
@@ -386,9 +386,9 @@ Os dados do SINASC podem ser acessados no TabNet do DATASUS, na seção de Estat
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
-- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
-Esse caminho é útil quando a equipe precisa manter uma cópia local dos dados ou reproduzir tabulações em ambiente sem conexão permanente. Nesse caso, registre a data do download, os arquivos utilizados e qualquer conversão de formato aplicada aos microdados.
+Esse caminho é útil quando a equipe precisa manter uma cópia local dos dados ou reproduzir tabulações em ambiente sem conexão permanente. Nesse caso, registre a data da transferência, os arquivos utilizados e qualquer conversão de formato aplicada aos microdados.
 
 ### R
 
@@ -411,7 +411,7 @@ sinasc_p <- process_sinasc(sinasc_raw)
 sinasc_p
 ```
 
-O exemplo ilustra um fluxo mínimo: baixar os registros, processar os códigos originais e só então iniciar a análise. Em trabalhos reprodutíveis, convém salvar a versão bruta, a versão processada e o script de transformação, para que totais e categorias possam ser auditados depois.
+O exemplo ilustra um fluxo mínimo: baixar os registros, processar os códigos originais e só então iniciar a análise. Em trabalhos reprodutíveis, convém salvar a versão bruta, a versão processada e o código de transformação, para que totais e categorias possam ser auditados depois.
 
 ### Python
 
@@ -429,7 +429,7 @@ Os dados do SINASC estão disponíveis na Plataforma de Ciência de Dados aplica
 
 Dados em formato CSV estão sendo disponibilizados no OpenDataSUS, incluindo versões preliminares de anos recentes.
 
-- [OpenDataSUS - SINASC](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc)
+- [OpenDataSUS — SINASC](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc)
 
 ## Relacionamento com outros sistemas
 
@@ -557,9 +557,9 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sinasc}
 
-- [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 50.
+- [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 60.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 68.
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 83.
 
 - [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 373.
 

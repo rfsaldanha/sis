@@ -145,21 +145,21 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sinan.csv"))
 
 ## Estrutura dos dados
 
-O SINAN apresenta dados para *todos os casos suspeitos notificados*, independentemente do diagnóstico final. Desta forma, para se obter o total de casos *confirmados* para determinada doença ou agravo, deve-se filtrar os dados segundo o diagnóstico final.
+O SINAN apresenta dados para *todos os casos suspeitos notificados*, independentemente do diagnóstico final. Assim, para obter o total de casos *confirmados* para determinada doença ou agravo, deve-se filtrar os dados segundo o diagnóstico final.
 
 Durante epidemias, observa-se no SINAN um aumento de casos notificados, que podem ou não ser confirmados posteriormente com o acompanhamento do caso.
 
 ::: {.callout-note}
-Uma possível utilidade para se manter o registro dos casos descartados é o cálculo do *Indicador de Positividade*, que avalia a proporção de casos confirmados dentre os casos notificados.
+Uma possível utilidade para se manter o registro dos casos descartados é o cálculo do *Indicador de Positividade*, que avalia a proporção de casos confirmados entre os casos notificados.
 
 $$
 pos = \frac{c_c}{c_c + c_d + c_i}
 $$
 
-Onde $c_c$ são casos confirmados, $c_d$ são casos descartados e $c_i$ são casos com diagnóstico inconclusivo.
+Nessa expressão, $c_c$ representa os casos confirmados; $c_d$, os casos descartados; e $c_i$, os casos com diagnóstico inconclusivo.
 :::
 
-A confirmação de casos, em geral, pode ser feita por exames laboratoriais, testes rápidos, critérios clínicos, critérios epidemiológicos ou combinação desses elementos, conforme a definição de caso vigente. A confirmação clínico-epidemiológica costuma ser mais adotada em situações de surtos e epidemias, quando há limitação de exames disponíveis. Em casos suspeitos de dengue, por exemplo, um caso pode ser confirmado a partir de sintomas e vínculo epidemiológico com caso confirmado laboratorialmente.
+A confirmação de casos, em geral, pode ser feita por exames laboratoriais, testes rápidos, critérios clínicos, critérios epidemiológicos ou combinação desses elementos, conforme a definição de caso vigente. A confirmação clínico-epidemiológica costuma ser mais adotada em situações de surtos e epidemias, quando há limitação de exames disponíveis. Em casos suspeitos de dengue, por exemplo, um caso pode ser confirmado a partir de sintomas e vínculo epidemiológico com um caso confirmado laboratorialmente.
 
 > Na impossibilidade de realização de confirmação laboratorial específica ou em casos com resultados laboratoriais inconclusivos, deve-se considerar a confirmação por vínculo epidemiológico com um caso confirmado laboratorialmente, após avaliação da distribuição espacial e espaço-temporal dos casos confirmados. [@ministeriodasaudeGuiaVigilanciaEm2024]
 
@@ -218,7 +218,7 @@ Evite escrever "casos" quando o numerador conta notificações sem filtro de cla
 
 ## Datas e territórios
 
-Dados de casos suspeitos reportados no SINAN podem apresentar diversas variáveis de datas e locais relativas a diferentes momentos do acompanhamento do caso. As datas mais comuns são: data de primeiros sintomas, data de provável infecção, data de notificação, data de digitação, data de exames laboratoriais, data de diagnóstico final, data de encerramento e data de evolução. Já as variáveis de localização mais comuns são: município/UF de provável infecção, município/UF de residência e município/UF de notificação (ver @qua-sinan-datas-e-territorios-usados-em-analises-do-sinan).
+Dados de casos suspeitos notificados no SINAN podem apresentar diversas variáveis de datas e locais relativas a diferentes momentos do acompanhamento do caso. As datas mais comuns são: data dos primeiros sintomas, data de provável infecção, data de notificação, data de digitação, data de exames laboratoriais, data de diagnóstico final, data de encerramento e data de evolução. Já as variáveis de localização mais comuns são: município/UF de provável infecção, município/UF de residência e município/UF de notificação (ver @qua-sinan-datas-e-territorios-usados-em-analises-do-sinan).
 
 ::: {#qua-sinan-datas-e-territorios-usados-em-analises-do-sinan}
 
@@ -259,7 +259,7 @@ As alternativas do @qua-sinan-escolha-de-datas-para-analises-com-sinan dependem 
 
 O ponto decisivo é manter coerência entre objetivo, data e território. Uma curva por data de notificação pode ser adequada para avaliar a pressão recente sobre a vigilância, mas não substitui uma curva por início de sintomas quando a intenção é descrever a dinâmica temporal da transmissão. Da mesma forma, uma taxa por residência é apropriada para risco populacional, enquanto o local provável de infecção é mais útil para investigar exposição.
 
-Casos em que o município ou UF de provável infecção é o mesmo da residência podem ser classificados como autóctones, isto é, a infecção provavelmente ocorreu no território de residência. Quando o local provável de infecção é diferente da residência, podem ser classificados como alóctones.
+Casos em que o município ou a UF de provável infecção coincide com o município ou a UF de residência podem ser classificados como autóctones, isto é, a infecção provavelmente ocorreu no território de residência. Quando o local provável de infecção é diferente da residência, podem ser classificados como alóctones.
 
 ## Dicionário mínimo
 
@@ -506,11 +506,11 @@ A seguir estão prefixos, CIDs e documentos locais disponíveis para alguns agra
 
 ### Acidente de trabalho com material biológico
 
--  Prefixo dos arquivos: ACBI
+- Prefixo dos arquivos: ACBI
 
 ### Acidente de trabalho
 
--  Prefixo dos arquivos: ACGR
+- Prefixo dos arquivos: ACGR
 
 ![Fluxograma de vigilância em saúde do trabalhador](assets/sinan/img/fluxo_ACGR.png){#fluxo_ACGR}
 
@@ -518,55 +518,55 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Aids em adultos
 
--  Prefixo dos arquivos: AIDA
--  Códigos CID-10
-  -  Infecção pelo HIV: Z21
-  -  Aids: B20-B24
-  -  Gestante HIV: Z21
-  -  Criança exposta ao HIV: Z20.6
+- Prefixo dos arquivos: AIDA
+- Códigos CID-10
+  - Infecção pelo HIV: Z21
+  - Aids: B20-B24
+  - Gestante HIV: Z21
+  - Criança exposta ao HIV: Z20.6
 
 ### Aids em crianças
 
--  Prefixo dos arquivos: AIDC
--  Código CID-10 (Criança exposta ao HIV): Z20.6
+- Prefixo dos arquivos: AIDC
+- Código CID-10 (Criança exposta ao HIV): Z20.6
 
 ### Acidentes por animais peçonhentos
 
--  Prefixo dos arquivos: ANIM
--  Códigos CID-10
-   -  Acidente ofídico: X20 e T63.0
-   -  Escorpionismo: X22 e T63.2
-   -  Araneísmo: X21 e T63.3
-   -  Lonomia e outras lagartas: X25 e T63.4
-   -  Himenópteros (abelhas, vespas e formigas): X23 e T63.4
--  [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
--  [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
--  [Dicionário de dados](assets/sinan/agravos/ANIMPN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: ANIM
+- Códigos CID-10
+   - Acidente ofídico: X20 e T63.0
+   - Escorpionismo: X22 e T63.2
+   - Araneísmo: X21 e T63.3
+   - Lonomia e outras lagartas: X25 e T63.4
+   - Himenópteros (abelhas, vespas e formigas): X23 e T63.4
+- [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
+- [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
+- [Dicionário de dados](assets/sinan/agravos/ANIMPN_DIC_DADOS.pdf)
 
 ### Atendimento antirrábico
 
--  Prefixo dos arquivos: ANTR
+- Prefixo dos arquivos: ANTR
 
 ### Botulismo
 
--  Prefixo dos arquivos: BOTU
--  CID-10: A05.1
--  [Ficha de notificação](assets/sinan/agravos/BOTUN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/BOTUN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: BOTU
+- CID-10: A05.1
+- [Ficha de notificação](assets/sinan/agravos/BOTUN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/BOTUN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/BOTUN_DIC_DADOS.pdf)
 
 ### Câncer relacionado ao trabalho
 
--  Prefixo dos arquivos: CANC
+- Prefixo dos arquivos: CANC
 
 ### Doença de Chagas
 
--  Prefixo dos arquivos: CHAG
--  CID-10: B57
--  [Ficha de notificação](assets/sinan/agravos/CHAGAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: CHAG
+- CID-10: B57
+- [Ficha de notificação](assets/sinan/agravos/CHAGAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/CHAGAN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/CHAGAN_DIC_DADOS.pdf)
 
 ![Ciclo de transmissão vetorial da doença de Chagas](assets/sinan/img/ciclo_chagas.png){#ciclo_chagas}
 
@@ -590,16 +590,16 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Chikungunya
 
--  Prefixo dos arquivos: CHIK
--  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya)
+- Prefixo dos arquivos: CHIK
+- [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya)
 
 ### Cólera
 
--  Prefixo dos arquivos: COLE
--  Código CID-10: A00
--  [Ficha de notificação](assets/sinan/agravos/COLEN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: COLE
+- Código CID-10: A00
+- [Ficha de notificação](assets/sinan/agravos/COLEN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/COLEN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/COLEN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação de casos suspeitos de cólera](assets/sinan/img/fluxo_colera.png){#fluxo_colera}
 
@@ -607,25 +607,25 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Coqueluche
 
--  Prefixo dos arquivos: COQU
--  CID-10: A37
--  [Ficha de notificação](assets/sinan/agravos/COQUEN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/COQUEN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/COQUEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: COQU
+- CID-10: A37
+- [Ficha de notificação](assets/sinan/agravos/COQUEN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/COQUEN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/COQUEN_DIC_DADOS.pdf)
 
 ### Dengue
 
--  Prefixo dos arquivos: DENG
--  [Ficha de notificação](assets/sinan/agravos/DENGON_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/DENGON_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/DENGON_DIC_DADOS.pdf)
--  [Nota informativa](assets/sinan/agravos/DENGON_NOTA_INFORMATIVA.pdf)
--  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-dengue)
+- Prefixo dos arquivos: DENG
+- [Ficha de notificação](assets/sinan/agravos/DENGON_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/DENGON_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/DENGON_DIC_DADOS.pdf)
+- [Nota informativa](assets/sinan/agravos/DENGON_NOTA_INFORMATIVA.pdf)
+- [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-dengue)
 
 ### Dermatoses ocupacionais
 
--  Prefixo dos arquivos: DERM
--  CID-10: L98.9
+- Prefixo dos arquivos: DERM
+- CID-10: L98.9
 
 ![Fluxograma de vigilância em saúde do trabalhador para dermatoses](assets/sinan/img/fluxo_dermatose_ocup.png){#fluxo_dermatose_ocup}
 
@@ -633,46 +633,46 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Esporotricose (epizootia)
 
--  Prefixo dos arquivos: ESPO
--  CID-10: B42
+- Prefixo dos arquivos: ESPO
+- CID-10: B42
 
 ### HIV em adultos
 
--  Prefixo dos arquivos: HIVA
+- Prefixo dos arquivos: HIVA
 
 ### HIV em crianças
 
--  Prefixo dos arquivos: HIVC
+- Prefixo dos arquivos: HIVC
 
 ### HIV em crianças expostas
 
--  Prefixo dos arquivos: HIVE
+- Prefixo dos arquivos: HIVE
 
 ### HIV em gestante
 
--  Prefixo dos arquivos: HIVG
+- Prefixo dos arquivos: HIVG
 
 ### Influenza pandêmica
 
--  Prefixo dos arquivos: INFL
+- Prefixo dos arquivos: INFL
 
 ### Rotavírus
 
--  Prefixo dos arquivos: ROTA
--  CID-10: A08.0
--  [Dicionário de dados](assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf)
+- Prefixo dos arquivos: ROTA
+- CID-10: A08.0
+- [Dicionário de dados](assets/sinan/agravos/DIC_DADOS_ROTA_NET_v5.1.pdf)
 
 ### Surto de doenças transmitidas por alimentos
 
--  Prefixo dos arquivos: SDTA
+- Prefixo dos arquivos: SDTA
 
 ### Difteria
 
--  Prefixo dos arquivos: DIFT
--  CID-10: A36
--  [Ficha de notificação](assets/sinan/agravos/DIFTEN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: DIFT
+- CID-10: A36
+- [Ficha de notificação](assets/sinan/agravos/DIFTEN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/DIFTEN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/DIFTEN_DIC_DADOS.pdf)
 
 ![Roteiro de investigação epidemiológica da difteria](assets/sinan/img/fluxo_difteria.png){#fluxo_difteria}
 
@@ -680,11 +680,11 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Esquistossomose mansoni
 
--  Prefixo dos arquivos: ESQU
--  CID-10: B65.1
--  [Ficha de notificação](assets/sinan/agravos/ESQUIN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/ESQUIN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: ESQU
+- CID-10: B65.1
+- [Ficha de notificação](assets/sinan/agravos/ESQUIN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/ESQUIN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/ESQUIN_DIC_DADOS.pdf)
 
 ![Algoritmo do Sistema de Informação para Esquistossomose](assets/sinan/img/fluxo_esquistossomose.png){#fluxo_esquistossomose}
 
@@ -692,18 +692,18 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Doenças exantemáticas
 
--  Prefixo dos arquivos: EXAN
--  [Ficha de notificação](assets/sinan/agravos/EXANT_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/EXANT_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/EXANT_DIC_DADOS.pdf)
+- Prefixo dos arquivos: EXAN
+- [Ficha de notificação](assets/sinan/agravos/EXANT_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/EXANT_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/EXANT_DIC_DADOS.pdf)
 
 ### Febre amarela
 
--  CID-10: A95
--  [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
--  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos)
+- CID-10: A95
+- [Ficha de notificação](assets/sinan/agravos/FAMARN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/FAMARN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/FAMARN_DIC_DADOS.pdf)
+- [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos)
 
 ![Dinâmica de transmissão do vírus da febre amarela, principalmente nos anos recentes no bioma Mata Atlântica](assets/sinan/img/fluxo_febre_amarela.png){#fluxo_febre_amarela}
 
@@ -711,14 +711,14 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Febre maculosa
 
--  Prefixo dos arquivos: FMAC
--  CID-10
-   -  Rickettsioses transmitidas por carrapatos: A77
-   -  Febre maculosa brasileira: A77.0
-   -  Febre maculosa não especificada: A77.9
--  [Ficha de notificação](assets/sinan/agravos/FMACUN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: FMAC
+- CID-10
+   - Rickettsioses transmitidas por carrapatos: A77
+   - Febre maculosa brasileira: A77.0
+   - Febre maculosa não especificada: A77.9
+- [Ficha de notificação](assets/sinan/agravos/FMACUN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação epidemiológica da febre maculosa brasileira](assets/sinan/img/fluxo_febre_maculosa.png){#fluxo_febre_maculosa}
 
@@ -726,32 +726,32 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Febre Oropouche
 
--  [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche ](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
+- [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche ](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
 
 ### Febre tifoide
 
--  Prefixo dos arquivos: FTIF
--  CID-10: A01.0
--  [Ficha de notificação](assets/sinan/agravos/FTIFON_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/FTIFON_DIC_DADOS.pdf)
+- Prefixo dos arquivos: FTIF
+- CID-10: A01.0
+- [Ficha de notificação](assets/sinan/agravos/FTIFON_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/FTIFON_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/FTIFON_DIC_DADOS.pdf)
 
 ### Hanseníase
 
--  Prefixo dos arquivos: HANS
--  CID-10: A30
--  [Ficha de notificação](assets/sinan/agravos/HANSN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf)
--  [Caderno de análise](assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf)
--  [Dicionário de dados](assets/sinan/agravos/HANSN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: HANS
+- CID-10: A30
+- [Ficha de notificação](assets/sinan/agravos/HANSN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/HANSN_INSTRUCIONAL.pdf)
+- [Caderno de análise](assets/sinan/agravos/HANSN_CADERNO_ANALISES.pdf)
+- [Dicionário de dados](assets/sinan/agravos/HANSN_DIC_DADOS.pdf)
 
 ### Hantavirose
 
--  Prefixo dos arquivos: HANT
--  CID-10: B33.4
--  [Ficha de notificação](assets/sinan/agravos/HANTAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: HANT
+- CID-10: B33.4
+- [Ficha de notificação](assets/sinan/agravos/HANTAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/HANTAN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/HANTAN_DIC_DADOS.pdf)
 
 ![Transmissão das hantaviroses](assets/sinan/img/fluxo_hantavirose.png){#fluxo_hantavirose}
 
@@ -759,44 +759,44 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Hepatites virais
 
--  Prefixo dos arquivos: HEPA
--  CID-10: B15 – B19.9
--  [Ficha de notificação](assets/sinan/agravos/HEPANET_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
+- Prefixo dos arquivos: HEPA
+- CID-10: B15 – B19.9
+- [Ficha de notificação](assets/sinan/agravos/HEPANET_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/HEPANET_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/HEPANET_DIC_DADOS.pdf)
 
 ### Intoxicação exógena
 
--  Prefixo dos arquivos: IEXO
--  [Ficha de notificação](assets/sinan/agravos/IEXOGN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/IEXOGN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: IEXO
+- [Ficha de notificação](assets/sinan/agravos/IEXOGN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/IEXOGN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/IEXOGN_DIC_DADOS.pdf)
 
 ### Leishmaniose tegumentar americana
 
--  Prefixo dos arquivos: LTAN
--  CID-10: B55.1
--  [Ficha de notificação](assets/sinan/agravos/LTAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf)
--  [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
--  [Dicionário de dados](assets/sinan/agravos/LTAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: LTAN
+- CID-10: B55.1
+- [Ficha de notificação](assets/sinan/agravos/LTAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/LTAN_INSTRUCIONAL.pdf)
+- [Caderno de análises](assets/sinan/agravos/LTAN_CADERNO_ANALISES.pdf)
+- [Dicionário de dados](assets/sinan/agravos/LTAN_DIC_DADOS.pdf)
 
 ### Leishmaniose visceral
 
--  Prefixo dos arquivos: LEIV
--  CID-10: B55.0
--  [Ficha de notificação](assets/sinan/agravos/LEISHN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf)
--  [Caderno de análise](assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf)
--  [Dicionário de dados](assets/sinan/agravos/LEISHN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: LEIV
+- CID-10: B55.0
+- [Ficha de notificação](assets/sinan/agravos/LEISHN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/LEISHN_INSTRUCIONAL.pdf)
+- [Caderno de análise](assets/sinan/agravos/LEISHN_CADERNO_ANALISES.pdf)
+- [Dicionário de dados](assets/sinan/agravos/LEISHN_DIC_DADOS.pdf)
 
 ### Leptospirose
 
--  Prefixo dos arquivos: LEPT
--  CID-10: A27
--  [Ficha de notificação](assets/sinan/agravos/LEPTON_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
+- Prefixo dos arquivos: LEPT
+- CID-10: A27
+- [Ficha de notificação](assets/sinan/agravos/LEPTON_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/LEPTON_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/LEPTON_DIC_DADOS.pdf)
 
 ![Roteiro de investigação da leptospirose](assets/sinan/img/fluxo_leptospirose.png){#fluxo_leptospirose}
 
@@ -804,76 +804,76 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### LER/DORT
 
--  Prefixo dos arquivos: LERD
+- Prefixo dos arquivos: LERD
 
 ### Malária
 
--  Prefixo dos arquivos: MALA
--  CID-10: B50 a B54 / P37.3 e P37.4
--  [Ficha de notificação](assets/sinan/agravos/MALAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: MALA
+- CID-10: B50 a B54 / P37.3 e P37.4
+- [Ficha de notificação](assets/sinan/agravos/MALAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/MALAN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/MALAN_DIC_DADOS.pdf)
 
 ::: {.callout-caution}
-A notificação de casos de malária no SINAN cobre a região extra-amazônica. Casos de malária na região amazônica são notificados no SIVEP Malária (@sec-sivep).
+A notificação de casos de malária no SINAN cobre a região extra-amazônica. Casos de malária na região amazônica são notificados no SIVEP-Malária (@sec-sivep).
 :::
 
 ### Meningite
 
--  Prefixo dos arquivos: MENI
--  CID-10
+- Prefixo dos arquivos: MENI
+- CID-10
    - Meningite meningocócica: A39.0
    - Meningococcemia aguda: A39.2
--  [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
--  [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
--  [Tutorial de análises epidemiológicas](assets/sinan/agravos/MENIN_TUTORIAL_ANALISES_EPIDEMIO.pdf)
--  [Dicionário de dados](assets/sinan/agravos/MENIN_DIC_DADOS.pdf)
+- [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
+- [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
+- [Tutorial de análises epidemiológicas](assets/sinan/agravos/MENIN_TUTORIAL_ANALISES_EPIDEMIO.pdf)
+- [Dicionário de dados](assets/sinan/agravos/MENIN_DIC_DADOS.pdf)
 
 ### Transtornos mentais relacionados ao trabalho
 
--  Prefixo dos arquivos: MENT
+- Prefixo dos arquivos: MENT
 
 ### Notificação de tracoma
 
--  Prefixo dos arquivos: NTRA
--  CID-10
-   -  Tracoma: A71
-   -  Sequelas de tracoma: B94.0
+- Prefixo dos arquivos: NTRA
+- CID-10
+   - Tracoma: A71
+   - Sequelas de tracoma: B94.0
 
 ### Inquérito de tracoma
 
--  Prefixo dos arquivos: TRAC
+- Prefixo dos arquivos: TRAC
 
 ### Perda auditiva por ruído relacionado ao trabalho
 
--  Prefixo dos arquivos: PAIR
+- Prefixo dos arquivos: PAIR
 
 ### Mpox
 
 A notificação de mpox é realizada com o [e-SUS SINAN](https://esussinan.saude.gov.br), uma nova versão do SINAN.
 
--  [Ficha de notificação](assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf)
--  [Dicionário de dados](assets/sinan/esus/dicionario-investigacao-monkeypox-esussinan.pdf)
--  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/mpox)
+- [Ficha de notificação](assets/sinan/esus/ficha-investigacao-monkeypox-e-SUS-Sinan.pdf)
+- [Dicionário de dados](assets/sinan/esus/dicionario-investigacao-monkeypox-esussinan.pdf)
+- [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/mpox)
 
 ### Notificação individual
 
--  [Ficha de notificação](assets/sinan/agravos/NINDIN_FICHA.pdf)
--  [Dicionário de dados](assets/sinan/agravos/NINDIN_DIC_DADOS.pdf)
+- [Ficha de notificação](assets/sinan/agravos/NINDIN_FICHA.pdf)
+- [Dicionário de dados](assets/sinan/agravos/NINDIN_DIC_DADOS.pdf)
 
 ### Notificação individual e-SUS SINAN
 
--  [Ficha individual de notificação](assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf)
--  [Modelo de informação da ficha de notificação](assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf)
+- [Ficha individual de notificação](assets/sinan/esus/ficha-individual-notificacao-conclusao-e-SUS-Sinan.pdf)
+- [Modelo de informação da ficha de notificação](assets/sinan/esus/modelo-informacao-ficha-notificacao-conclusao-e-SUS-Sinan.pdf)
 
 ### Peste
 
--  Prefixo dos arquivos: PEST
--  CID-10: A20
--  [Ficha de notificação](assets/sinan/agravos/PESTEN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/PESTEN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/PESTEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: PEST
+- CID-10: A20
+- [Ficha de notificação](assets/sinan/agravos/PESTEN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/PESTEN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/PESTEN_DIC_DADOS.pdf)
 
 ![Roteiro da investigação epidemiológica da peste](assets/sinan/img/fluxo_peste.png){#fluxo_peste}
 
@@ -881,11 +881,11 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Poliomielite/paralisia flácida aguda
 
--  Prefixo dos arquivos: PFAN
--  CID-10: A80
--  [Ficha de notificação](assets/sinan/agravos/PFAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/PFAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: PFAN
+- CID-10: A80
+- [Ficha de notificação](assets/sinan/agravos/PFAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/PFAN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/PFAN_DIC_DADOS.pdf)
 
 ![Fluxograma de investigação epidemiológica de paralisia flácida aguda: conduta frente a casos suspeitos](assets/sinan/img/fluxo_poliomelite.png){#fluxo_poliomelite}
 
@@ -893,16 +893,16 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Pneumoconioses relacionadas ao trabalho
 
--  Prefixo dos arquivos: PNEU
--  CID-10: J64
+- Prefixo dos arquivos: PNEU
+- CID-10: J64
 
 ### Raiva humana
 
--  Prefixo dos arquivos: RAIV
--  CID-10: A82
--  [Ficha de notificação](assets/sinan/agravos/RAIVAN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: RAIV
+- CID-10: A82
+- [Ficha de notificação](assets/sinan/agravos/RAIVAN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/RAIVAN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/RAIVAN_DIC_DADOS.pdf)
 
 ![Ciclos epidemiológicos de transmissão da raiva](assets/sinan/img/fluxo_raiva.png){#fluxo_raiva}
 
@@ -914,34 +914,34 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Sífilis adquirida
 
--  Prefixo dos arquivos: SIFA
--  CID-10: A53.9
+- Prefixo dos arquivos: SIFA
+- CID-10: A53.9
 
 ### Sífilis congênita
 
--  Prefixo dos arquivos: SIFC
--  CID-10: A50
--  [Ficha de notificação](assets/sinan/agravos/SIFICN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf)
--  [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
--  [Dicionário de dados](assets/sinan/agravos/SIFICN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: SIFC
+- CID-10: A50
+- [Ficha de notificação](assets/sinan/agravos/SIFICN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/SIFICN_INSTRUCIONAL.pdf)
+- [Nota informativa](assets/sinan/agravos/SIFICN_NOTA_INFORMATIVA.pdf)
+- [Dicionário de dados](assets/sinan/agravos/SIFICN_DIC_DADOS.pdf)
 
 ### Sífilis em gestante
 
--  Prefixo dos arquivos: SIFG
--  CID-10: O98.1
--  [Ficha de notificação](assets/sinan/agravos/SIFIGEN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf)
--  [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf)
--  [Dicionário de dados](assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: SIFG
+- CID-10: O98.1
+- [Ficha de notificação](assets/sinan/agravos/SIFIGEN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/SIFIGEN_INSTRUCIONAL.pdf)
+- [Nota informativa](assets/sinan/agravos/SIFIGEN_NOTA_INFORMATIVA.pdf)
+- [Dicionário de dados](assets/sinan/agravos/SIFIGEN_DIC_DADOS.pdf)
 
 ### Síndrome da rubéola congênita
 
--  Prefixo dos arquivos: SRC
--  CID-10: P35.0
--  [Ficha de notificação](assets/sinan/agravos/SRCN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/SRCN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/SRCN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: SRC
+- CID-10: P35.0
+- [Ficha de notificação](assets/sinan/agravos/SRCN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/SRCN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/SRCN_DIC_DADOS.pdf)
 
 ![Fluxograma do sistema de vigilância da síndrome da rubéola congênita](assets/sinan/img/fluxo_rubeola.png){#fluxo_rubeola}
 
@@ -949,38 +949,38 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 ### Tétano acidental
 
--  Prefixo dos arquivos: TETA
--  CID-10: A35
--  [Ficha de notificação](assets/sinan/agravos/TETACN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: TETA
+- CID-10: A35
+- [Ficha de notificação](assets/sinan/agravos/TETACN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/TETACN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/TETACN_DIC_DADOS.pdf)
 
 ### Tétano neonatal
 
--  Prefixo dos arquivos: TETN
--  CID-10: A33
--  [Ficha de notificação](assets/sinan/agravos/TETANN_FICHA.pdf)
--  [Instrucional](assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/TETANN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: TETN
+- CID-10: A33
+- [Ficha de notificação](assets/sinan/agravos/TETANN_FICHA.pdf)
+- [Instrucional](assets/sinan/agravos/TETANN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/TETANN_DIC_DADOS.pdf)
 
 ### Toxoplasmose congênita
 
--  Prefixo dos arquivos: TOXC
--  CID-10: P37.1
+- Prefixo dos arquivos: TOXC
+- CID-10: P37.1
 
 ### Toxoplasmose gestacional
 
--  Prefixo dos arquivos: TOXG
--  CID-10: O98.6
+- Prefixo dos arquivos: TOXG
+- CID-10: O98.6
 
 ### Tuberculose
 
--  Prefixo dos arquivos: TUBE
--  CID-10: A15 a A19; J65; K93.0; M49.0; M90.0; N74.0; N74.1; O98.0; P37.0
--  [Ficha de notificação](assets/sinan/agravos/TUBEN_FICHA.pdf)
--  [Ficha de acompanhamento](assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf)
--  [Instrucional](assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf)
--  [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
+- Prefixo dos arquivos: TUBE
+- CID-10: A15 a A19; J65; K93.0; M49.0; M90.0; N74.0; N74.1; O98.0; P37.0
+- [Ficha de notificação](assets/sinan/agravos/TUBEN_FICHA.pdf)
+- [Ficha de acompanhamento](assets/sinan/agravos/TUBEN_FICHA_ACOMP.pdf)
+- [Instrucional](assets/sinan/agravos/TUBEN_INSTRUCIONAL.pdf)
+- [Dicionário de dados](assets/sinan/agravos/TUBEN_DIC_DADOS.pdf)
 
 ![Instrumentos de registro utilizados na investigação epidemiológica da tuberculose](assets/sinan/img/fluxo_tuberculose.png){#fluxo_tuberculose}
 
@@ -988,19 +988,19 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 ### Varicela/herpes-zóster
 
--  Prefixo dos arquivos: VARC
--  CID-10: B01/B02
+- Prefixo dos arquivos: VARC
+- CID-10: B01/B02
 
 ### Violência doméstica, sexual e/ou outras violências
 
--  Prefixo dos arquivos: VIOL
+- Prefixo dos arquivos: VIOL
 
 ### Violência interpessoal/autoprovocada
 
--  CID-10: Y09
--  [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
--  [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
--  [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
+- CID-10: Y09
+- [Ficha de notificação](assets/sinan/agravos/VIOLEN_FICHA.pdf)
+- [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
+- [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
 
 ![Fluxo de notificação de violências no Sistema de Informação de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)](assets/sinan/img/fluxo_violencia.png){#fluxo_violencia}
 
@@ -1008,8 +1008,8 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Zika vírus
 
--  Prefixo dos arquivos: ZIKA
--  [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus)
+- Prefixo dos arquivos: ZIKA
+- [OpenDataSUS](https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus)
 
 ## Acesso aos dados
 
@@ -1020,7 +1020,7 @@ Os dados do SINAN podem ser acessados por diferentes caminhos. A melhor opção 
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
+| TabWin/DBC | Transferência e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` quando o agravo estiver disponível |
 | Python | Fluxos reprodutíveis com PySUS |
 | OpenDataSUS | Bases abertas de alguns agravos, especialmente arboviroses e emergências |
@@ -1031,7 +1031,7 @@ Formas de acesso aos dados do SINAN
 
 :::
 
-As formas de acesso diferem em atualização, granularidade, facilidade de uso e rastreabilidade. TabNet é adequado para consulta rápida, mas limita reprodutibilidade e controle fino dos filtros. Microdados em R, Python, OpenDataSUS ou DBC permitem maior transparência metodológica, desde que o analista documente data de acesso, leiaute, filtros, versão do script e transformação aplicada.
+As formas de acesso diferem em atualização, granularidade, facilidade de uso e rastreabilidade. TabNet é adequado para consulta rápida, mas limita a reprodutibilidade e controle fino dos filtros. Microdados em R, Python, OpenDataSUS ou DBC permitem maior transparência metodológica, desde que o analista documente data de acesso, leiaute, filtros, versão do código e transformação aplicada.
 
 ### TabNet
 
@@ -1043,9 +1043,9 @@ Os dados do SINAN podem ser acessados no sistema TabNet do DATASUS, na seção "
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares para tabulação no serviço de transferência de arquivos do DATASUS.
 
-- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
-Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, data de acesso e versão do script de leitura. Como os leiautes variam por agravo, guarde também o dicionário de dados usado.
+Em análises reprodutíveis, registre o agravo, prefixo do arquivo, UF, ano, data de acesso e versão do código de leitura. Como os leiautes variam por agravo, guarde também o dicionário de dados usado.
 
 ### R
 
@@ -1091,7 +1091,7 @@ Algumas bases do SINAN podem ser analisadas em ambientes de *notebooks* e infrae
 
 ### InfoDengue
 
-O projeto InfoDengue, mantido pela FGV EMAp e Fiocruz, apresenta estimativas da incidência da Dengue a partir de dados do SINAN, usando técnicas de *nowcasting* para reduzir os efeitos do atraso de notificação. O acesso aos dados é possível por uma API.
+O projeto InfoDengue, mantido pela FGV EMAp e Fiocruz, apresenta estimativas da incidência da dengue a partir de dados do SINAN, usando técnicas de *nowcasting* para reduzir os efeitos do atraso de notificação. O acesso aos dados é possível por uma API.
 
 - [InfoDengue](https://info.dengue.mat.br)
 - [InfoDengue API](https://info.dengue.mat.br/services/)
@@ -1252,8 +1252,8 @@ Antes de concluir uma análise com SINAN, verifique se:
 
 ### Documentos auxiliares
 
--  [Manual do Sistema](assets/sinan/manual_sinan.pdf)
--  [Manual de Normas e Rotinas](assets/sinan/manual_normas_rotinas_2ed.pdf)
+- [Manual do Sistema](assets/sinan/manual_sinan.pdf)
+- [Manual de Normas e Rotinas](assets/sinan/manual_normas_rotinas_2ed.pdf)
 
 ### Vídeos
 
@@ -1264,13 +1264,13 @@ Antes de concluir uma análise com SINAN, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sinan}
 
-- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 46.
+- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 57.
 
-- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 411.
+- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 413.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 438.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 440.
 
-- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 401.
+- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 403.
 
 :::
 <!-- END GENERATED SEE ALSO -->

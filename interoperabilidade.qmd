@@ -153,7 +153,7 @@ Diferenças gerais entre produtos públicos e bases institucionais
 
 A retirada de identificadores afeta diretamente o *linkage*. Sem uma chave comum, o relacionamento determinístico individual pode tornar-se impossível; sem nomes, datas completas ou localização detalhada, o probabilístico perde poder de discriminação. Ainda pode ser possível integrar dados em nível agregado — por município, estabelecimento, período ou categoria — mas isso responde a perguntas ecológicas e administrativas, não recompõe trajetórias individuais.
 
-Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam ao estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de *linkage*, mesmo em um ambiente mais interoperável.
+Por outro lado, a presença de identificadores nas bases institucionais permite vínculos mais precisos e pode reduzir pares duvidosos. Padrões de interoperabilidade ajudam a estabilizar identificadores, datas, códigos e significados entre sistemas. Se o dado original estiver errado ou ausente, contudo, um identificador comum também pode propagar uma associação incorreta. Bases históricas e sistemas legados continuarão demandando rotinas de *linkage*, mesmo em um ambiente mais interoperável.
 
 ::: {.callout-warning title="Interoperabilidade não é abertura"}
 Um dado pode circular entre sistemas autorizados e permanecer protegido. Interoperabilidade define como a informação é trocada e compreendida; dados abertos definem o que pode ser divulgado ao público. Uma condição não implica a outra.
@@ -178,13 +178,13 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-interoperabilidade}
 
-- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 338.
+- [RNDS — Rede Nacional de Dados em Saúde — seção “FHIR, terminologias e semântica”](rnds.html#fhir-terminologias-e-semântica). Na edição impressa, p. 336.
 
-- [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 52.
+- [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 62.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 428.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 430.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 224.
+- [SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 221.
 
 :::
 <!-- END GENERATED SEE ALSO -->

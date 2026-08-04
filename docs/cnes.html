@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -97,14 +100,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-aa873432a3c62897e6c2091c0d30a948.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-54427c74024eba8e34e34421ce4d6b49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-220a38e0e357eae15b5eefb6ba8a7674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-34c5a3b4267b5fc84912d0e2c27f6752.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -802,13 +805,13 @@ Figura&nbsp;10.1: Fluxo simplificado de atualização do CNES
 </div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-<div class="timevis html-widget html-fill-item" id="htmlwidget-32f54bb3d2fe1a67bc09" style="width:100%;height:464px;">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-df497e54f1e403aa42e4" style="width:100%;height:464px;">
 <div class="btn-group zoom-menu">
 <button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
 <button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
 </div>
 </div>
-<script type="application/json" data-for="htmlwidget-32f54bb3d2fe1a67bc09">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Ficha Cadastral de<\/br>Estabelecimentos de Saúde (FCES)<\/small>","start":"1997-01-01"},{"id":"3","content":"<small>Banco de dados Nacional de Estabelecimentos de Saúde<\/small>","start":"2000-10-03"},{"id":"4","content":"<small>Estabelecimento do CNES<\/small>","start":"2000-10-20"},{"id":"5","content":"<small>Recadastramento informatizado<\/small>","start":"2001-01-01"},{"id":"6","content":"<small>CNES passa a ser utilizado no SIH e SIA<\/small>","start":"2002-10-01"},{"id":"7","content":"<small>Implementação em todo o país<\/small>","start":"2003-08-01"},{"id":"8","content":"<small>CNES Net<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Inclusão da saúde suplementar<\/br>(estabelecimentos de saúde privados)<\/small>","start":"2001-01-01"},{"id":"10","content":"<small>Desativação automática de CNES<\/br>por falta de atualização<\/small>","start":"2014-02-18"},{"id":"11","content":"<small>Regras de vínculos profissionais<\/small>","start":"2015-02-11"},{"id":"12","content":"<small>Geolocalização e horário<\/br>de funcionamento<\/small>","start":"2019-03-15"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-df497e54f1e403aa42e4">{"x":{"items":[{"id":"1","content":"<b>Criação do SUS<\/b>","start":"1988-10-05"},{"id":"2","content":"<small>Ficha Cadastral de<\/br>Estabelecimentos de Saúde (FCES)<\/small>","start":"1997-01-01"},{"id":"3","content":"<small>Banco de dados Nacional de Estabelecimentos de Saúde<\/small>","start":"2000-10-03"},{"id":"4","content":"<small>Estabelecimento do CNES<\/small>","start":"2000-10-20"},{"id":"5","content":"<small>Recadastramento informatizado<\/small>","start":"2001-01-01"},{"id":"6","content":"<small>CNES passa a ser utilizado no SIH e SIA<\/small>","start":"2002-10-01"},{"id":"7","content":"<small>Implementação em todo o país<\/small>","start":"2003-08-01"},{"id":"8","content":"<small>CNES Net<\/small>","start":"2005-01-01"},{"id":"9","content":"<small>Inclusão da saúde suplementar<\/br>(estabelecimentos de saúde privados)<\/small>","start":"2001-01-01"},{"id":"10","content":"<small>Desativação automática de CNES<\/br>por falta de atualização<\/small>","start":"2014-02-18"},{"id":"11","content":"<small>Regras de vínculos profissionais<\/small>","start":"2015-02-11"},{"id":"12","content":"<small>Geolocalização e horário<\/br>de funcionamento<\/small>","start":"2019-03-15"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
 <p>Linha do tempo do CNES</p>
 </div>
 </div>
@@ -1697,7 +1700,7 @@ Quadro&nbsp;10.14: Checagens mínimas antes de mapear estabelecimentos do CNES
 <tr class="even">
 <td>Coordenada repetida</td>
 <td>Muitos estabelecimentos no mesmo ponto</td>
-<td>Verificar uso de centróide, sede administrativa ou endereço genérico</td>
+<td>Verificar uso de centroide, sede administrativa ou endereço genérico</td>
 </tr>
 <tr class="odd">
 <td>Endereço incompleto</td>
@@ -1714,7 +1717,7 @@ Quadro&nbsp;10.14: Checagens mínimas antes de mapear estabelecimentos do CNES
 </div>
 </figure>
 </div>
-<p>Essas checagens devem ser feitas antes de produzir mapas ou métricas de distância. Coordenadas ausentes, pontos em centróides municipais e endereços incompletos podem criar padrões espaciais artificiais. Em análises longitudinais, mudanças de endereço também precisam ser avaliadas, pois podem indicar mudança real do estabelecimento ou correção cadastral.</p>
+<p>Essas checagens devem ser feitas antes de produzir mapas ou métricas de distância. Coordenadas ausentes, pontos em centroides municipais e endereços incompletos podem criar padrões espaciais artificiais. Em análises longitudinais, mudanças de endereço também precisam ser avaliadas, pois podem indicar mudança real do estabelecimento ou correção cadastral.</p>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -1827,7 +1830,7 @@ Quadro&nbsp;10.16: Formas de acesso aos dados do CNES
 </tr>
 <tr class="odd">
 <td>TabWin/DBC</td>
-<td>Download de microdados históricos</td>
+<td>Transferência de microdados históricos</td>
 </tr>
 <tr class="even">
 <td>OpenDataSUS</td>
@@ -1863,10 +1866,10 @@ Quadro&nbsp;10.16: Formas de acesso aos dados do CNES
 <h3 data-number="10.14.2" class="anchored" data-anchor-id="opendatasus"><span class="header-section-number">10.14.2</span> OpenDataSUS</h3>
 <p>Dados em formato CSV estão sendo disponibilizados no site OpenDataSUS, mantido pelo DATASUS, incluindo versões de dados preliminares.</p>
 <ul>
-<li><a href="https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude">OpenDataSUS - CNES</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes">OpenDataSUS - Monitoramento do CNES</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/hospitais-e-leitos">OpenDataSUS - Hospitais e leitos</a></li>
-<li><a href="https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs">OpenDataSUS - Unidades Básicas de Saúde</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude">OpenDataSUS — CNES</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/monitoramento-no-cadastro-nacional-de-estabelecimentos-de-saude-cnes">OpenDataSUS — Monitoramento do CNES</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/hospitais-e-leitos">OpenDataSUS — Hospitais e leitos</a></li>
+<li><a href="https://opendatasus.saude.gov.br/dataset/unidades-basicas-de-saude-ubs">OpenDataSUS — Unidades Básicas de Saúde</a></li>
 </ul>
 </section>
 <section id="tabnet" class="level3" data-number="10.14.3">
@@ -1880,7 +1883,7 @@ Quadro&nbsp;10.16: Formas de acesso aos dados do CNES
 <h3 data-number="10.14.4" class="anchored" data-anchor-id="tabwin-e-transferência-de-arquivos"><span class="header-section-number">10.14.4</span> TabWin e transferência de arquivos</h3>
 <p>Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos DBC e arquivos auxiliares no serviço de transferência de arquivos do DATASUS.</p>
 <ul>
-<li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin - Transferência de arquivos</a></li>
+<li><a href="https://datasus.saude.gov.br/transferencia-de-arquivos/">TabWin — Transferência de arquivos</a></li>
 </ul>
 </section>
 <section id="elasticcnes" class="level3" data-number="10.14.5">
@@ -2411,10 +2414,10 @@ Quadro&nbsp;10.23: Erros frequentes em análises com CNES
 <section id="sec-veja-tambem-cnes" class="level2" data-number="10.23">
 <h2 data-number="10.23" class="anchored" data-anchor-id="sec-veja-tambem-cnes"><span class="header-section-number">10.23</span> Veja também</h2>
 <ul>
-<li><p><a href="organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão">Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”</a>. Na edição impressa, p.&nbsp;31.</p></li>
-<li><p><a href="sih.html#exemplo-fluxos-de-internação">SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”</a>. Na edição impressa, p.&nbsp;106.</p></li>
-<li><p><a href="sisaps.html#exemplo-sisaps-cnes">SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”</a>. Na edição impressa, p.&nbsp;296.</p></li>
-<li><p><a href="siscan.html#integração-com-siasus-cnes-e-cadsus">SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”</a>. Na edição impressa, p.&nbsp;223.</p></li>
+<li><p><a href="organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão">Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”</a>. Na edição impressa, p.&nbsp;39.</p></li>
+<li><p><a href="sih.html#exemplo-fluxos-de-internação">SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”</a>. Na edição impressa, p.&nbsp;123.</p></li>
+<li><p><a href="sisaps.html#exemplo-sisaps-cnes">SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”</a>. Na edição impressa, p.&nbsp;294.</p></li>
+<li><p><a href="siscan.html#integração-com-siasus-cnes-e-cadsus">SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”</a>. Na edição impressa, p.&nbsp;220.</p></li>
 </ul>
 <!-- END GENERATED SEE ALSO -->
 

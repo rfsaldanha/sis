@@ -56,7 +56,7 @@ Assim, os Sistemas de Informação em Saúde podem ser entendidos como mecanismo
 
 ## Escopo do livro
 
-O objetivo deste livro é apresentar estes SIS com informações atualizadas sobre sua história, características dos dados e sua utilização, visando um melhor aproveitamento de seu potencial para a saúde pública brasileira.
+Este livro apresenta os principais SIS brasileiros, com informações atualizadas sobre sua história, as características de seus dados e suas formas de uso. O objetivo é favorecer o aproveitamento crítico de seu potencial para a saúde pública brasileira.
 
 Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória institucional, cobertura, unidade de análise, estrutura dos dados, formas de disseminação, usos frequentes e cuidados de interpretação. A intenção é apoiar uma leitura crítica dos dados em saúde, evitando tanto a subutilização das bases disponíveis quanto interpretações que desconsiderem seus processos de produção.
 
@@ -65,11 +65,11 @@ Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória ins
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-introducao}
 
-- [Breve histórico da experiência brasileira — seção “Sistemas nacionais e construção do SUS”](historico.html#sistemas-nacionais-e-construção-do-sus). Na edição impressa, p. 17.
+- [Breve histórico da experiência brasileira — seção “Sistemas nacionais e construção do SUS”](historico.html#sistemas-nacionais-e-construção-do-sus). Na edição impressa, p. 23.
 
-- [Organização dos SIS — seção “Critérios de organização”](organizacao.html#critérios-de-organização). Na edição impressa, p. 25.
+- [Organização dos SIS — seção “Critérios de organização”](organizacao.html#critérios-de-organização). Na edição impressa, p. 34.
 
-- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 42.
+- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 52.
 
 :::
 <!-- END GENERATED SEE ALSO -->

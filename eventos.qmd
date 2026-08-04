@@ -205,7 +205,7 @@ No SIA, a unidade de análise costuma ser o procedimento ou instrumento de produ
 Essa característica torna o SIA muito valioso para perguntas sobre funcionamento da rede. Ele permite observar onde procedimentos são realizados, quais estabelecimentos produzem determinado tipo de cuidado, como a produção varia no tempo e quais procedimentos estão associados a políticas, linhas de cuidado ou formas específicas de financiamento. Ao mesmo tempo, a interpretação epidemiológica exige cautela: maior produção pode indicar maior necessidade, maior oferta, mudança de registro, expansão de acesso ou combinação desses fatores.
 
 ::: {.callout-tip}
-Ao analisar SIA, evite interpretar diretamente o número de procedimentos como número de pessoas atendidas. A equivalência depende do procedimento, da forma de registro e da pergunta de análise.
+Ao analisar o SIA, evite interpretar diretamente o número de procedimentos como número de pessoas atendidas. A equivalência depende do procedimento, da forma de registro e da pergunta de análise.
 :::
 
 ## Internações
@@ -342,15 +342,15 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-eventos}
 
-- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 38.
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 48.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 63.
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 78.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 146.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 165.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 218.
+- [SISCAN — Sistema de Informação de Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 214.
 
-- [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 394.
+- [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 396.
 
 :::
 <!-- END GENERATED SEE ALSO -->

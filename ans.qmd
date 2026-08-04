@@ -115,19 +115,19 @@ A ANS publica dados em formatos e interfaces distintos. Alguns conjuntos são ar
 
 Os principais pontos de entrada são:
 
--   [Página de Dados Abertos da ANS](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-abertos-1), com plano, inventário e orientações.
+- [Página de Dados Abertos da ANS](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-abertos-1), com plano, inventário e orientações.
 
--   [Conjuntos da ANS no Portal Brasileiro de Dados Abertos](https://dados.gov.br/dados/organizacoes/visualizar/agencia-nacional-de-saude-suplementar), com metadados e recursos para transferência.
+- [Conjuntos da ANS no Portal Brasileiro de Dados Abertos](https://dados.gov.br/dados/organizacoes/visualizar/agencia-nacional-de-saude-suplementar), com metadados e recursos para transferência.
 
--   [Dados e Indicadores do Setor](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor), que reúne beneficiários, operadoras, planos, dados assistenciais, financeiros e painéis.
+- [Dados e Indicadores do Setor](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor), que reúne beneficiários, operadoras, planos, dados assistenciais, financeiros e painéis.
 
--   [TabNet da ANS](https://www.ans.gov.br/anstabnet/), para tabulações agregadas de beneficiários, operadoras, produtos, receitas e despesas.
+- [TabNet da ANS](https://www.ans.gov.br/anstabnet/), para tabulações agregadas de beneficiários, operadoras, produtos, receitas e despesas.
 
--   [Diretório de arquivos abertos da ANS](https://dadosabertos.ans.gov.br/FTP/), destinado à transferência de bases, dicionários e arquivos históricos.
+- [Diretório de arquivos abertos da ANS](https://dadosabertos.ans.gov.br/FTP/), destinado à transferência de bases, dicionários e arquivos históricos.
 
--   [Padrão TISS](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss), com documentação técnica, componentes e versões do padrão.
+- [Padrão TISS](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss), com documentação técnica, componentes e versões do padrão.
 
--   [Dados e Publicações do Ressarcimento ao SUS](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/dados-e-publicacoes-do-ressarcimento-ao-sus), com bases, painéis e boletins sobre atendimentos de beneficiários no SUS.
+- [Dados e Publicações do Ressarcimento ao SUS](https://www.gov.br/ans/pt-br/acesso-a-informacao/perfil-do-setor/dados-e-indicadores-do-setor/dados-e-publicacoes-do-ressarcimento-ao-sus), com bases, painéis e boletins sobre atendimentos de beneficiários no SUS.
 
 Entre os conjuntos mais úteis estão os de beneficiários por município, faixa etária, sexo, operadora, modalidade e tipo de contratação; cadastros de operadoras ativas e canceladas; características e abrangência dos planos; rede de prestadores; procedimentos ambulatoriais e hospitalares informados pelo TISS; produção assistencial do SIP; demonstrações contábeis; receitas e despesas; reajustes; reclamações; IDSS; e ressarcimento ao SUS (ver @qua-ans-usos-e-limites-de-grupos-de-dados-divulgados-pela-ans).
 
@@ -217,13 +217,13 @@ Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileir
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-ans}
 
-- [Organização dos SIS — seção “Cobertura: todo o território, SUS e saúde suplementar”](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar). Na edição impressa, p. 33.
+- [Organização dos SIS — seção “Cobertura: todo o território, SUS e saúde suplementar”](organizacao.html#cobertura-todo-o-território-sus-e-saúde-suplementar). Na edição impressa, p. 41.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 209.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 206.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 440.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 442.
 
-- [Inquéritos e pesquisas de saúde — seção “Vigitel”](inqueritos.html#vigitel). Na edição impressa, p. 399.
+- [Inquéritos e pesquisas de saúde — seção “Vigitel”](inqueritos.html#vigitel). Na edição impressa, p. 401.
 
 :::
 <!-- END GENERATED SEE ALSO -->

@@ -67,7 +67,7 @@ O IBGE divulga estimativas anuais de população para municípios e Unidades da 
 
 O IBGE disponibiliza anualmente estimativas populacionais dos municípios e das Unidades da Federação, publicadas no Diário Oficial da União e enviadas ao Tribunal de Contas da União. Na edição consultada em maio de 2026, a página do IBGE apresentava estimativas para 1º de julho de 2025 e arquivos atualizados em janeiro de 2026, inclusive com observações sobre decisões judiciais, atualização toponímica e alterações territoriais [@ibgeEstimativasPopulacao2026].
 
--  [Estimativas de população do IBGE](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
+- [Estimativas de população do IBGE](https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html)
 
 ::::: {.callout-warning}
 As estimativas do IBGE para o TCU podem ser atualizadas por decisões judiciais, mudanças de limites territoriais e revisões metodológicas. Evite misturar arquivos publicados em datas diferentes sem registrar a versão usada.
@@ -77,8 +77,8 @@ As estimativas do IBGE para o TCU podem ser atualizadas por decisões judiciais,
 
 O Ministério da Saúde disponibiliza dados populacionais para uso em indicadores de saúde. Em maio de 2026, a página de Dados Populacionais listava projeção da população por UF de 2000 a 2070, população municipal utilizada pelo TCU para 2024 a 2025, população municipal por sexo e idade de 2000 a 2025, e uma base antiga marcada como não mais em uso para indicadores [@ministeriodasaudeDadosPopulacionais2026].
 
--  [Dados Populacionais - Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais)
--  [População municipal por sexo e idade - 2000 a 2025](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
+- [Dados Populacionais — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/demas/dados-populacionais)
+- [População municipal por sexo e idade — 2000 a 2025](http://tabnet.datasus.gov.br/cgi/deftohtm.exe?ibge/cnv/popsvs2024br.def)
 
 As estimativas do DATASUS/Ministério da Saúde são especialmente úteis quando a análise exige população por sexo e idade simples ou faixa etária em séries anuais. Para indicadores de saúde, isso costuma ser mais útil do que uma tabela municipal apenas com população total.
 
@@ -86,7 +86,7 @@ As estimativas do DATASUS/Ministério da Saúde são especialmente úteis quando
 
 O Laboratório de Estimativas e Projeções Populacionais (LEPP), do Departamento de Demografia da UFRN, disponibiliza projeções populacionais municipais por sexo e idade para pequenas áreas. A página do projeto informa projeções por sexo e idade para municípios e microrregiões brasileiras, incluindo resultados de 2010 a 2030 e novas projeções municipais com intervalos de previsão de 2010 a 2070 [@ufrnLEPPProjecoes2026].
 
--  [Projeções populacionais UFRN/LEPP](https://demografiaufrn.net/projecao-populacional/)
+- [Projeções populacionais UFRN/LEPP](https://demografiaufrn.net/projecao-populacional/)
 
 Essas projeções são úteis para análises que exigem séries longas, idades detalhadas ou cenários, mas devem ser citadas como fonte metodologicamente distinta das estimativas oficiais anuais do IBGE para o TCU.
 
@@ -168,28 +168,28 @@ Em séries históricas, preserve a fonte e a versão da população junto com o 
 
 Antes de publicar um indicador com denominador populacional, verifique:
 
--  Fonte da população;
--  Versão ou data de extração;
--  Ano de referência;
--  Território do numerador e do denominador;
--  Formato do código municipal;
--  Recorte por sexo, idade ou faixa etária;
--  Tratamento de municípios criados, extintos ou com limites alterados;
--  Compatibilidade entre população-alvo e evento contado;
--  Estabilidade do indicador em municípios pequenos.
+- Fonte da população;
+- Versão ou data de extração;
+- Ano de referência;
+- Território do numerador e do denominador;
+- Formato do código municipal;
+- Recorte por sexo, idade ou faixa etária;
+- Tratamento de municípios criados, extintos ou com limites alterados;
+- Compatibilidade entre população-alvo e evento contado;
+- Estabilidade do indicador em municípios pequenos.
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-pop}
 
-- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 51.
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 290.
+- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 288.
 
 - [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 315.
 
-- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 403.
+- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 406.
 
 :::
 <!-- END GENERATED SEE ALSO -->

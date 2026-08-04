@@ -18,9 +18,9 @@ O SIVEP-Gripe é, portanto, uma fonte central para analisar hospitalizações e 
 
 Os dados públicos de SRAG estão disponíveis no Portal de Dados Abertos do SUS. Em maio de 2026, o portal disponibilizava bases de 2019 a 2026 em arquivos por ano epidemiológico, com formatos como CSV, JSON, XML e Parquet, além de dicionário de variáveis e ficha de notificação. O portal informa que os bancos de 2019 a 2024 estavam congelados e que o banco do ano corrente era atualizado semanalmente [@dadosabertosSRAGSIVEPGripe2026].
 
--  [Dados Abertos do SUS - SRAG 2019 a 2026](https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026)
--  [Dados Abertos do SUS - SRAG 2009 a 2012](https://dadosabertos.saude.gov.br/dataset/srag-2009-2012)
--  [Dados Abertos do SUS - SRAG 2013 a 2018](https://dadosabertos.saude.gov.br/dataset/srag-2013-2018)
+- [Dados Abertos do SUS — SRAG 2019 a 2026](https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026)
+- [Dados Abertos do SUS — SRAG 2009 a 2012](https://dadosabertos.saude.gov.br/dataset/srag-2009-2012)
+- [Dados Abertos do SUS — SRAG 2013 a 2018](https://dadosabertos.saude.gov.br/dataset/srag-2013-2018)
 
 Ao usar esses arquivos, é importante preservar a data de extração, o ano epidemiológico e o dicionário correspondente. Bases de vigilância podem ser revisadas, e a interpretação de campos, critérios de confirmação e versões da ficha pode mudar ao longo do tempo.
 
@@ -32,7 +32,7 @@ Essa divisão é importante porque uma análise nacional de malária pode exigir
 
 ### Acesso aos dados
 
-O acesso operacional ao SIVEP-Malária é voltado à rotina de vigilância e gestão. Diferentemente do SIVEP-Gripe, os microdados nacionais de malária do SIVEP-Malária não têm a mesma disseminação pública ampla em arquivos abertos no Portal de Dados Abertos do SUS. Para análises, pode ser necessário recorrer a tabulações, boletins, solicitações específicas ou bases disponibilizadas por secretarias e pelo Ministério da Saúde, observando regras de sigilo e finalidade de uso.
+O acesso operacional ao SIVEP-Malária é voltado à rotina de vigilância e gestão. Diferentemente do SIVEP-Gripe, os microdados nacionais de malária do SIVEP-Malária não têm disseminação pública tão ampla em arquivos abertos no Portal de Dados Abertos do SUS. Para análises, pode ser necessário recorrer a tabulações, boletins, solicitações específicas ou bases disponibilizadas por secretarias e pelo Ministério da Saúde, observando regras de sigilo e finalidade de uso.
 
 O Ministério da Saúde mantém o [Painel Epidemiológico da Malária](https://www.gov.br/saude/pt-br/composicao/svsa/cnie/painel-malaria), que oferece visualizações agregadas para o acompanhamento da situação epidemiológica. O painel é útil para consultas exploratórias e monitoramento, mas não substitui o acesso aos microdados quando a análise exigir detalhamento dos registros individuais.
 
@@ -67,11 +67,11 @@ As diferenças reunidas no @qua-sivep-diferencas-praticas-entre-componentes-do-s
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sivep}
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 184.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 180.
 
-- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 46.
+- [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 57.
 
-- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 248.
+- [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano — seção “Monitoramento em emergências”](sisagua.html#monitoramento-em-emergências). Na edição impressa, p. 244.
 
 :::
 <!-- END GENERATED SEE ALSO -->

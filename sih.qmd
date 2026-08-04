@@ -68,7 +68,7 @@ Perguntas comuns que podem ser respondidas com o SIH
 
 :::
 
-Esse @qua-sih-perguntas-comuns-que-podem-ser-respondidas-com-o-sih funciona como um primeiro filtro de adequação da fonte. Quando a pergunta se refere a produção hospitalar financiada pelo SUS, o SIH tende a ser a fonte central; quando envolve risco populacional, estrutura da rede, mortalidade total ou regras de procedimento, a análise costuma precisar de outra base para complementar o numerador, o denominador ou a interpretação.
+O @qua-sih-perguntas-comuns-que-podem-ser-respondidas-com-o-sih funciona como um primeiro filtro de adequação da fonte. Quando a pergunta se refere a produção hospitalar financiada pelo SUS, o SIH tende a ser a fonte central; quando envolve risco populacional, estrutura da rede, mortalidade total ou regras de procedimento, a análise costuma precisar de outra base para complementar o numerador, o denominador ou a interpretação.
 
 ## SIH e SIA
 
@@ -411,7 +411,7 @@ Campos úteis em uma análise de ICSAP
 
 :::
 
-Esse @qua-sih-campos-uteis-em-uma-analise-de-icsap explicita que o indicador de ICSAP não nasce apenas da seleção de códigos CID. Ele combina lista diagnóstica, definição de território, denominador, idade, período e cobertura. A interpretação deve ser cautelosa: reduções ou aumentos podem refletir mudanças na atenção primária, mas também alterações no acesso hospitalar, na oferta de leitos, no perfil etário ou no registro das internações.
+O @qua-sih-campos-uteis-em-uma-analise-de-icsap explicita que o indicador de ICSAP não nasce apenas da seleção de códigos CID. Ele combina lista diagnóstica, definição de território, denominador, idade, período e cobertura. A interpretação deve ser cautelosa: reduções ou aumentos podem refletir mudanças na atenção primária, mas também alterações no acesso hospitalar, na oferta de leitos, no perfil etário ou no registro das internações.
 
 ```{r}
 #| eval: false
@@ -456,7 +456,7 @@ Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objet
 | Forma de acesso | Indicação de uso |
 |---|---|
 | TabNet | Tabulações rápidas e consultas agregadas |
-| TabWin/DBC | Download e tabulação local de arquivos do DATASUS |
+| TabWin/DBC | Transferência e tabulação local de arquivos do DATASUS |
 | R | Fluxos reprodutíveis com `{microdatasus}` |
 | Python | Fluxos reprodutíveis com PySUS |
 | PCDaS | Uso em ambiente de *notebooks* e infraestrutura de dados |
@@ -465,7 +465,7 @@ Formas de acesso aos dados do SIH
 
 :::
 
-As formas de acesso não são equivalentes. TabNet é útil para exploração rápida e conferência de totais; arquivos DBC favorecem reprodutibilidade e controle local; pacotes em R ou Python automatizam download e processamento; e ambientes como a PCDaS reduzem o custo de lidar com grandes volumes. A escolha depende do equilíbrio entre rapidez, transparência do método e escala da análise.
+As formas de acesso não são equivalentes. TabNet é útil para exploração rápida e conferência de totais; arquivos DBC favorecem reprodutibilidade e controle local; pacotes em R ou Python automatizam a transferência e o processamento; e ambientes como a PCDaS reduzem o custo de lidar com grandes volumes. A escolha depende do equilíbrio entre rapidez, transparência do método e escala da análise.
 
 ## Processamento de grandes volumes
 
@@ -498,7 +498,7 @@ Os dados do SIH podem ser acessados no TabNet do DATASUS, na seção "Assistênc
 
 Para uso no TabWin ou em fluxos próprios de processamento, é possível baixar arquivos de dados no formato DBC e arquivos auxiliares de tabulação no serviço de transferência de arquivos do DATASUS.
 
-- [TabWin - Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
+- [TabWin — Transferência de arquivos](https://datasus.saude.gov.br/transferencia-de-arquivos/)
 
 ### R
 
@@ -636,11 +636,11 @@ Erros comuns incluem contar AIHs como pessoas, calcular taxas com internações 
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sih}
 
-- [Eventos de saúde — seção “Internações”](eventos.html#internações). Na edição impressa, p. 49.
+- [Eventos de saúde — seção “Internações”](eventos.html#internações). Na edição impressa, p. 59.
 
-- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 119.
+- [SIA — Sistema de Informações Ambulatoriais do SUS — seção “SIA e SIH”](sia.html#sia-e-sih). Na edição impressa, p. 137.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 203.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Exemplo: CNES + SIH”](cnes.html#exemplo-cnes-sih). Na edição impressa, p. 200.
 
 :::
 <!-- END GENERATED SEE ALSO -->

@@ -81,10 +81,10 @@ Em muitos arquivos do DATASUS, o ponto da subcategoria é removido. Assim, `A00.
 
 Para "Cólera devida a *Vibrio cholerae* 01, biótipo El Tor" na CID-10:
 
--  Capítulo: Capítulo I -- Algumas doenças infecciosas e parasitárias (`A00-B99`)
--  Bloco: Doenças infecciosas intestinais (`A00-A09`)
--  Categoria: Cólera (`A00`)
--  Subcategoria: Cólera El Tor (`A00.1`, frequentemente `A001` em bases sem ponto)
+- Capítulo: Capítulo I -- Algumas doenças infecciosas e parasitárias (`A00-B99`)
+- Bloco: Doenças infecciosas intestinais (`A00-A09`)
+- Categoria: Cólera (`A00`)
+- Subcategoria: Cólera El Tor (`A00.1`, frequentemente `A001` em bases sem ponto)
 
 Você pode acessar e explorar o catálogo da CID-10 no quadro abaixo:
 
@@ -122,9 +122,9 @@ datatable(
 
 Nos endereços a seguir, você pode consultar a hierarquia da CID-10 e da CID-11:
 
--  [CID-10 no DATASUS](http://www2.datasus.gov.br/cid10/V2008/WebHelp/listacateg.htm)
--  [CID-10 na OMS](https://icd.who.int/browse10)
--  [CID-11 na OMS](https://icd.who.int/browse/2026-01/mms/pt)
+- [CID-10 no DATASUS](http://www2.datasus.gov.br/cid10/V2008/WebHelp/listacateg.htm)
+- [CID-10 na OMS](https://icd.who.int/browse10)
+- [CID-11 na OMS](https://icd.who.int/browse/2026-01/mms/pt)
 
 ## CID nos sistemas brasileiros
 
@@ -157,7 +157,7 @@ Não use apenas códigos de lesão para estudar causas externas sem verificar se
 
 ## CID-11 e transição no Brasil
 
-A CID-11 foi adotada pela 72ª Assembleia Mundial da Saúde em maio de 2019 e entrou em vigor internacionalmente em 1º de janeiro de 2022 [@whoICDPage2026]. Ela foi desenhada para uso digital, com ferramentas online, API, tradução controlada e maior flexibilidade de codificação [@whoICD11FactSheet2022].
+A CID-11 foi adotada pela 72ª Assembleia Mundial da Saúde em maio de 2019 e entrou em vigor internacionalmente em 1º de janeiro de 2022 [@whoICDPage2026]. Ela foi desenhada para uso digital, com ferramentas *on-line*, API, tradução controlada e maior flexibilidade de codificação [@whoICD11FactSheet2022].
 
 No Brasil, a implementação da CID-11 é um processo gradual. Nota técnica do Ministério da Saúde de dezembro de 2024 informa que a versão em português está disponível no navegador da OMS desde fevereiro de 2024, que o país passou a atualizar a CID-10 da versão 2008 para a versão 2019, e que o início do uso da CID-11 nos sistemas de vigilância em saúde estava previsto para janeiro de 2027 [@ministeriodasaudeNotaTecnicaCID112024].
 
@@ -189,11 +189,11 @@ Os cuidados reunidos no @qua-cid-cuidados-frequentes-ao-usar-codigos-cid reforç
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-cid}
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 65.
+- [SIM — Sistema de Informação sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 79.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 104.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 121.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 146.
+- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 165.
 
 :::
 <!-- END GENERATED SEE ALSO -->
