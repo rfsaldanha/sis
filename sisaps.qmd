@@ -1,4 +1,4 @@
-# SISAPS -- Sistema de Informação para a Atenção Primária à Saúde {#sec-siaps}
+# Siaps — Sistema de Informação para a Atenção Primária à Saúde {#sec-siaps}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -28,7 +28,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 | Característica | Descrição |
 |---|---|
-| Sistema atual | SISAPS/Siaps, em implantação progressiva |
+| Sistema atual | Siaps, em implantação progressiva |
 | Sistema anterior | SISAB, instituído em 2013 |
 | Área temática | Atenção Primária à Saúde (APS) |
 | Fontes de registro | Estratégia e-SUS APS, incluindo PEC, CDS e aplicativos |
@@ -36,25 +36,25 @@ Para acompanhar a transcrição, acesse o roteiro em
 | Periodicidade | Mensal, com prazos de envio definidos em calendário da APS |
 | Uso central | Gestão, monitoramento, cofinanciamento e avaliação da APS |
 
-Características gerais do SISAPS/Siaps e do SISAB
+Características gerais do Siaps e do SISAB
 
 :::
 
-O Sistema de Informação para a Atenção Primária à Saúde (Siaps), referido neste livro pela sigla SISAPS, substitui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) e organiza informações estratégicas da Atenção Primária à Saúde (APS). O capítulo aborda a transição entre os dois sistemas, necessária para interpretar tanto as séries históricas quanto os dados atuais.
+O Sistema de Informação para a Atenção Primária à Saúde, denominado Siaps nos materiais oficiais, substitui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) e organiza informações estratégicas da Atenção Primária à Saúde (APS). O capítulo aborda a transição entre os dois sistemas, necessária para interpretar tanto as séries históricas quanto os dados atuais.
 
-O SISAPS/Siaps não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, incluindo cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal.
+O Siaps não é um sistema de eventos vitais, internações ou notificações. Ele consolida informações da APS, incluindo cadastros, produção, indicadores, vínculo territorial, acompanhamento de pessoas e subsídios para cofinanciamento federal.
 
 ::: {.callout-note title="Terminologia"}
-O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, “Sistema de Informação para a Atenção Primária à Saúde”. Neste livro, adota-se SISAPS no título e na exposição geral, enquanto as referências a materiais oficiais preservam a forma Siaps.
+O nome histórico é SISAB. A plataforma renovada aparece nos materiais oficiais como Siaps, "Sistema de Informação para a Atenção Primária à Saúde". Neste livro, usa-se Siaps para a plataforma atual e SISAB para o sistema anterior; quando a transição é o foco, os dois nomes são explicitados.
 :::
 
-## Quando usar o SISAPS
+## Quando usar o Siaps {#quando-usar-o-sisaps}
 
-Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS (ver @qua-sisaps-perguntas-comuns-que-podem-ser-respondidas-com-sisaps-sisab).
+Use o SISAB ou o Siaps quando a pergunta envolve organização, produção, acompanhamento e desempenho da APS (ver @qua-sisaps-perguntas-comuns-que-podem-ser-respondidas-com-sisaps-sisab).
 
 ::: {#qua-sisaps-perguntas-comuns-que-podem-ser-respondidas-com-sisaps-sisab}
 
-| Pergunta de análise | Usar SISAPS/SISAB para | Cuidado principal |
+| Pergunta de análise | Usar SISAB ou Siaps para | Cuidado principal |
 |---|---|---|
 | Como está a produção da APS? | Consultar atendimentos, procedimentos, visitas e atividades coletivas | Produção registrada não equivale à necessidade da população |
 | Como acompanhar indicadores de APS? | Monitorar indicadores de cofinanciamento e desempenho | Verificar regras de cálculo e competência |
@@ -63,7 +63,7 @@ Use o SISAPS/SISAB quando a pergunta envolve organização, produção, acompanh
 | Como acompanhar pré-natal, vacinas ou condições crônicas na APS? | Usar relatórios e indicadores específicos | Eventos podem aparecer também em outros sistemas |
 | Como relacionar oferta e produção? | Combinar com CNES (@sec-cnes) e SIA (@sec-sia) | Alinhar equipe, estabelecimento, competência e território |
 
-Perguntas comuns que podem ser respondidas com SISAPS/SISAB
+Perguntas comuns que podem ser respondidas com SISAB e Siaps
 
 :::
 
@@ -77,11 +77,11 @@ O SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, c
 
 A partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde.
 
-Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. A Portaria GM/MS nº 7.639/2025 definiu o Siaps como sistema vigente para financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica e estabeleceu a substituição gradual dos sistemas anteriores [@brasilPortaria76392025]. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o SISAPS/Siaps.
+Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. A Portaria GM/MS nº 7.639/2025 definiu o Siaps como sistema vigente para financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica e estabeleceu a substituição gradual dos sistemas anteriores [@brasilPortaria76392025]. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o Siaps.
 
 ## Arquitetura da informação
 
-O SISAPS/Siaps integra informações oriundas da estratégia e-SUS APS. Os registros são produzidos no processo de trabalho das equipes e depois enviados para consolidação nacional.
+O Siaps integra informações oriundas da estratégia e-SUS APS. Os registros são produzidos no processo de trabalho das equipes e depois enviados para consolidação nacional.
 
 ::: {.content-hidden when-format="epub"}
 ```{mermaid}
@@ -91,7 +91,7 @@ flowchart TD
   equipe[Equipe de APS] --> registro[Registro no PEC, CDS ou aplicativo]
   registro --> esus[e-SUS APS local]
   esus --> envio[Envio mensal ao repositório nacional]
-  envio --> sisaps[SISAPS/Siaps]
+  envio --> sisaps[Siaps]
   sisaps --> rel[Relatórios e indicadores]
   rel --> gest[Gestão, cofinanciamento e avaliação]
 ```
@@ -105,7 +105,7 @@ flowchart TD
 | CDS | Coleta simplificada de dados | Pode ser usado em cenários com menor informatização |
 | Aplicativos | Registro territorial e atividades específicas | Conferir integração e competência de envio |
 | e-SUS APS | Estratégia de registro e envio da APS | Atrasos e inconsistências afetam indicadores |
-| SISAPS/Siaps | Consolidação, relatórios e indicadores | Resultado depende das regras de processamento |
+| Siaps | Consolidação, relatórios e indicadores | Resultado depende das regras de processamento |
 
 Componentes do fluxo informacional da APS
 
@@ -127,7 +127,7 @@ A unidade de análise varia conforme o relatório ou indicador. Antes de compara
 | Equipe | eSF, eAP, eSB ou outras equipes | Monitoramento e cofinanciamento | Equipes podem mudar composição e credenciamento |
 | Município/UF | Agregação territorial | Comparações e gestão | Diferenças de porte e rede afetam interpretação |
 
-Unidades de análise frequentes no SISAPS/SISAB
+Unidades de análise frequentes no SISAB e no Siaps
 
 :::
 
@@ -177,7 +177,7 @@ Para comparar equipes, monte primeiro um painel por `INE`, `CNES`, tipo de equip
 
 ## Estrutura dos dados e relatórios
 
-O SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o SISAPS/Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação (ver @qua-sisaps-dimensoes-analiticas-comuns-na-aps).
+O SISAB organizava relatórios públicos e gerenciais que continuam sendo referência para compreender a transição para o Siaps. A nova plataforma tende a reorganizar a experiência de consulta, mas as principais dimensões analíticas permanecem relacionadas a cadastro, produção, indicadores e validação (ver @qua-sisaps-dimensoes-analiticas-comuns-na-aps).
 
 ::: {#qua-sisaps-dimensoes-analiticas-comuns-na-aps}
 
@@ -234,7 +234,7 @@ Denominadores frequentes em análises da APS
 
 ## Indicadores e cofinanciamento
 
-O uso do SISAPS/Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos (ver @qua-sisaps-elementos-de-indicadores-de-cofinanciamento-da-aps).
+O uso do Siaps para cofinanciamento exige cuidado com regras de cálculo, competência, prazo de envio e composição dos denominadores. Mudanças normativas podem alterar indicadores e dificultar comparações entre períodos (ver @qua-sisaps-elementos-de-indicadores-de-cofinanciamento-da-aps).
 
 ::: {#qua-sisaps-elementos-de-indicadores-de-cofinanciamento-da-aps}
 
@@ -319,8 +319,8 @@ O acompanhamento pré-natal é um exemplo útil porque envolve cadastro, atendim
 
 | Elemento | Fonte principal | Cuidado |
 |---|---|---|
-| Gestantes acompanhadas | SISAPS/SISAB | Depende de cadastro e registro correto |
-| Consultas de pré-natal | SISAPS/SISAB | Mede registro de atendimento na APS |
+| Gestantes acompanhadas | SISAB e Siaps | Depende de cadastro e registro correto |
+| Consultas de pré-natal | SISAB e Siaps | Mede registro de atendimento na APS |
 | Nascidos vivos | SINASC (@sec-sinasc) | Mede ocorrência de nascimento, não acompanhamento na APS |
 | Território | Município, equipe ou residência | Evitar misturar local de atendimento e residência |
 | Tempo | Competência de atendimento e data de nascimento | Definir janela de acompanhamento |
@@ -347,7 +347,7 @@ prenatal_aps <- sisaps_indicadores |>
 prenatal_aps
 ```
 
-## Exemplo: SISAPS + SINASC
+## Exemplo: Siaps + SINASC {#exemplo-sisaps-sinasc}
 
 O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC pode ser feito de forma agregada, por município e ano, para análises ecológicas. Essa abordagem não acompanha gestantes individualmente; ela compara indicadores territoriais (ver @qua-sisaps-exemplo-de-integracao-ecologica-entre-aps-e-sinasc).
 
@@ -355,7 +355,7 @@ O relacionamento entre indicadores de pré-natal da APS e desfechos do SINASC po
 
 | Elemento | Fonte | Cuidado |
 |---|---|---|
-| Indicador de pré-natal APS | SISAPS/SISAB | Mede acompanhamento registrado na APS |
+| Indicador de pré-natal APS | SISAB e Siaps | Mede acompanhamento registrado na APS |
 | Nascidos vivos | SINASC (@sec-sinasc) | Mede nascimentos ocorridos ou residentes, conforme campo usado |
 | Baixo peso ao nascer | SINASC (@sec-sinasc) | Desfecho multifatorial, não atribuível apenas à APS |
 | Território | Município de residência | Manter o mesmo recorte nas duas bases |
@@ -426,7 +426,7 @@ producao_municipal
 Produção por equipe pode variar por perfil populacional, tamanho da equipe, informatização, disponibilidade de profissionais, agenda local e qualidade do envio. Compare equipes semelhantes e sempre verifique denominadores.
 :::
 
-## Exemplo: SISAPS + CNES
+## Exemplo: Siaps + CNES {#sec-related-sisaps-exemplo-sisaps-cnes}
 
 A integração com o CNES ajuda a validar se equipes e estabelecimentos existem na competência analisada, além de caracterizar a estrutura da rede da APS (ver @qua-sisaps-validacoes-entre-sisaps-sisab-e-cnes).
 
@@ -434,13 +434,13 @@ A integração com o CNES ajuda a validar se equipes e estabelecimentos existem 
 
 | Checagem | Fonte | Cuidado |
 |---|---|---|
-| CNES da equipe existe? | SISAPS + CNES (@sec-cnes) | Relacionar pela mesma competência ou competência de referência |
+| CNES da equipe existe? | Siaps + CNES (@sec-cnes) | Relacionar pela mesma competência ou competência de referência |
 | Tipo de estabelecimento é compatível? | CNES `ST` | UBS, posto, centro de saúde e outros tipos devem ser interpretados |
-| Equipe está ativa? | SISAPS e CNES `EP` quando disponível | Situação pode mudar no mês |
-| Produção tem equipe identificada? | SISAPS/SISAB | Registros sem INE prejudicam avaliação por equipe |
+| Equipe está ativa? | Siaps e CNES `EP` quando disponível | Situação pode mudar no mês |
+| Produção tem equipe identificada? | SISAB e Siaps | Registros sem INE prejudicam avaliação por equipe |
 | Município do CNES é compatível? | CNES | Conferir mudança territorial ou erro cadastral |
 
-Validações entre SISAPS/SISAB e CNES
+Validações entre SISAB, Siaps e CNES
 
 :::
 
@@ -477,7 +477,7 @@ A qualidade dos dados da APS depende do registro no ponto de cuidado, da consist
 | Mudança normativa | Regras de indicadores comparáveis entre competências |
 | Processamento | Registros enviados foram processados e aceitos |
 
-Dimensões de qualidade relevantes no SISAPS/SISAB
+Dimensões de qualidade relevantes no SISAB e no Siaps
 
 :::
 
@@ -508,7 +508,7 @@ Dados da APS envolvem informações clínicas, territoriais e pessoais. Por isso
 |---|---|
 | Dados pessoais e clínicos | Exigem proteção, controle de acesso e finalidade definida |
 | Relatórios agregados | Favorecem transparência sem expor pessoas |
-| Linkage individual | Depende de autorização, governança e base legal |
+| *Linkage* individual | Depende de autorização, governança e base legal |
 | Reprodutibilidade | Deve registrar relatório, filtros, data de extração e versão |
 | Pequenos números | Podem exigir supressão ou agregação adicional |
 
@@ -518,13 +518,13 @@ Implicações de privacidade e agregação na APS
 
 ## Análise temporal e territorial
 
-Séries temporais do SISAPS/SISAB exigem atenção à transição SIAB-SISAB-SISAPS, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes (ver @qua-sisaps-cuidados-em-analises-temporais-e-territoriais-da-aps).
+Séries temporais do SISAB e do Siaps exigem atenção à transição SIAB–SISAB–Siaps, mudanças de indicadores, mudanças de financiamento, prazos de envio e reorganização de equipes (ver @qua-sisaps-cuidados-em-analises-temporais-e-territoriais-da-aps).
 
 ::: {#qua-sisaps-cuidados-em-analises-temporais-e-territoriais-da-aps}
 
 | Comparação | Recomendação | Cuidado |
 |---|---|---|
-| Antes e depois da transição | Separar períodos SIAB, SISAB e SISAPS | Quebras tecnológicas podem parecer mudança assistencial |
+| Antes e depois da transição | Separar períodos SIAB, SISAB e Siaps | Quebras tecnológicas podem parecer mudança assistencial |
 | Entre municípios | Padronizar por população, equipe ou cadastro | Municípios têm porte e rede muito diferentes |
 | Entre equipes | Comparar equipes do mesmo tipo | eSF, eAP e eSB têm atribuições diferentes |
 | Entre competências | Verificar calendário de envio | Atrasos podem reduzir indicadores temporariamente |
@@ -545,7 +545,7 @@ O acesso é realizado principalmente por relatórios e painéis públicos ou res
 | Relatórios públicos | Consulta de indicadores e produção agregada |
 | Área de gestores | Monitoramento municipal, estadual e federal |
 | SISAB | Consulta histórica e relatórios da APS |
-| SISAPS/Siaps | Plataforma renovada para gestão da informação da APS |
+| Siaps | Plataforma renovada para gestão da informação da APS |
 | e-Gestor APS | Acesso a sistemas e relatórios de gestão |
 | Documentação oficial | Regras, calendários, manuais e modelos de informação |
 
@@ -553,34 +553,34 @@ Formas de acesso a informações da APS
 
 :::
 
-- [SISAPS/Siaps](https://sisaps.saude.gov.br/sistemas/siaps/)
+- [Siaps](https://sisaps.saude.gov.br/sistemas/siaps/)
 - [SISAB](https://sisaps.saude.gov.br/sistemas/sisab/)
 - [Manual do SISAB](https://sisaps.saude.gov.br/sistemas/sisab/docs/manual/visao-geral/)
-- [Manual do SISAPS/Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/)
+- [Manual do Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/)
 - [Calendário Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/calendario-siaps/)
 
 ## Relacionamento com outros sistemas
 
-O SISAPS/SISAB pode ser combinado com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento (ver @qua-sisaps-integracoes-frequentes-entre-sisaps-sisab-e-outros-sistemas).
+Dados do SISAB e do Siaps podem ser combinados com sistemas de oferta, produção, eventos e população. O ponto crítico é distinguir território de residência, território de acompanhamento, estabelecimento, equipe e local do evento (ver @qua-sisaps-integracoes-frequentes-entre-sisaps-sisab-e-outros-sistemas).
 
 ::: {#qua-sisaps-integracoes-frequentes-entre-sisaps-sisab-e-outros-sistemas}
 
 | Pergunta | Fontes combinadas | Cuidado principal |
 |---|---|---|
-| Oferta da APS acompanha produção? | SISAPS/SISAB + CNES (@sec-cnes) | Equipes e estabelecimentos devem ser compatíveis por competência |
-| APS reduz internações evitáveis? | SISAPS/SISAB + SIH (@sec-sih) | Evitar inferência causal simples com dados agregados |
-| Pré-natal se relaciona a desfechos de nascimento? | SISAPS/SISAB + SINASC (@sec-sinasc) | Relacionamento direto exige regras de privacidade e *linkage* |
-| Acompanhamento de agravos aparece na vigilância? | SISAPS/SISAB + SINAN (@sec-sinan) | Notificação e cuidado são processos diferentes |
-| Produção ambulatorial é coerente? | SISAPS/SISAB + SIA (@sec-sia) | Produção da APS e faturamento/procedimentos têm escopos distintos |
-| Cobertura por população | SISAPS/SISAB + POP (@sec-pop) | População cadastrada e população residente são denominadores diferentes |
+| Oferta da APS acompanha produção? | (SISAB ou Siaps) + CNES (@sec-cnes) | Equipes e estabelecimentos devem ser compatíveis por competência |
+| APS reduz internações evitáveis? | (SISAB ou Siaps) + SIH (@sec-sih) | Evitar inferência causal simples com dados agregados |
+| Pré-natal se relaciona a desfechos de nascimento? | (SISAB ou Siaps) + SINASC (@sec-sinasc) | Relacionamento direto exige regras de privacidade e *linkage* |
+| Acompanhamento de agravos aparece na vigilância? | (SISAB ou Siaps) + SINAN (@sec-sinan) | Notificação e cuidado são processos diferentes |
+| Produção ambulatorial é coerente? | (SISAB ou Siaps) + SIA (@sec-sia) | Produção da APS e faturamento/procedimentos têm escopos distintos |
+| Cobertura por população | (SISAB ou Siaps) + POP (@sec-pop) | População cadastrada e população residente são denominadores diferentes |
 
-Integrações frequentes entre SISAPS/SISAB e outros sistemas
+Integrações frequentes entre SISAB, Siaps e outros sistemas
 
 :::
 
 ### *Checklist* para integração
 
-Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade territorial, a competência e o denominador (ver @qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas).
+Antes de combinar dados do SISAB ou do Siaps com outra base, defina claramente a unidade territorial, a competência e o denominador (ver @qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas).
 
 ::: {#qua-sisaps-verificacoes-antes-de-integrar-dados-da-aps-com-outros-sistemas}
 
@@ -591,7 +591,7 @@ Antes de combinar SISAPS/SISAB com outra base, defina claramente a unidade terri
 | INE e CNES válidos | Equipe e estabelecimento precisam existir na competência |
 | Denominador explícito | Cadastro, vínculo, residência e usuários atendidos medem populações diferentes |
 | Regras de indicador versionadas | Indicadores de cofinanciamento podem mudar |
-| Privacidade respeitada | Linkage individual exige governança própria |
+| Privacidade respeitada | *Linkage* individual exige governança própria |
 
 Verificações antes de integrar dados da APS com outros sistemas
 
@@ -603,7 +603,7 @@ Verificações antes de integrar dados da APS com outros sistemas
 
 | Limitação | Consequência analítica |
 |---|---|
-| Transição de sistema | Séries podem ter quebras entre SISAB e SISAPS |
+| Transição de sistema | Séries podem ter quebras entre SISAB e Siaps |
 | Dados dependem do registro local | Sub-registro e atraso de envio afetam indicadores |
 | Relatórios agregados | Microdados identificáveis não estão disponíveis publicamente |
 | Denominadores variáveis | População cadastrada, vinculada e residente têm significados distintos |
@@ -611,17 +611,17 @@ Verificações antes de integrar dados da APS com outros sistemas
 | Produção não é necessidade | Baixa produção pode refletir sub-registro, acesso reduzido ou menor demanda |
 | Equipes não são homogêneas | Composição, carga horária e território variam |
 | Calendário de envio afeta resultados | Competências recentes podem estar incompletas |
-| Linkage individual é restrito | Privacidade limita pareamentos públicos entre bases |
+| *Linkage* individual é restrito | Privacidade limita pareamentos públicos entre bases |
 
-Limitações recorrentes do SISAPS/SISAB
+Limitações recorrentes do SISAB e do Siaps
 
 :::
 
 ## Cuidados de interpretação
 
-Ao utilizar o SISAPS/SISAB, alguns cuidados são recorrentes:
+Ao utilizar o SISAB ou o Siaps, alguns cuidados são recorrentes:
 
-- Documentar se a análise usa SISAB, SISAPS/Siaps ou período de transição;
+- Documentar se a análise usa SISAB, Siaps ou período de transição;
 - Definir a unidade de análise antes de baixar ou consultar relatórios;
 - Verificar competência, prazo de envio e processamento;
 - Distinguir população cadastrada, vinculada, acompanhada e residente;
@@ -636,7 +636,7 @@ Ao utilizar o SISAPS/SISAB, alguns cuidados são recorrentes:
 
 | Erro | Como evitar |
 |---|---|
-| Comparar SISAB e SISAPS como série homogênea | Marcar a transição e verificar mudanças de regra |
+| Comparar SISAB e Siaps como série homogênea | Marcar a transição e verificar mudanças de regra |
 | Usar população cadastrada como população residente | Declarar o denominador e, quando necessário, usar POP |
 | Tratar ausência de produção como ausência de cuidado | Verificar envio, processamento e sub-registro |
 | Comparar equipes diferentes sem ajuste | Estratificar por tipo de equipe e contexto |
@@ -656,7 +656,7 @@ Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente
 
 | Item | Registrar |
 |---|---|
-| Plataforma | SISAB, SISAPS/Siaps, e-Gestor APS ou outro acesso |
+| Plataforma | SISAB, Siaps, e-Gestor APS ou outro acesso |
 | Data de extração | Dia em que o relatório foi consultado ou baixado |
 | Relatório | Nome do relatório, painel ou indicador |
 | Competência | Mês, ano e se o dado é acumulado |
@@ -669,16 +669,16 @@ Uma extração de dados da APS deve permitir que outra pessoa entenda exatamente
 | Filtros | Sexo, idade, equipe, condição, programa ou categoria |
 | Tratamento de ausentes | Como atrasos, não processados e zeros foram tratados |
 
-Itens mínimos para reprodutibilidade em análises do SISAPS/SISAB
+Itens mínimos para reprodutibilidade em análises do SISAB e do Siaps
 
 :::
 
 ## *Checklist* final
 
-Antes de concluir uma análise com SISAPS/SISAB, verifique se:
+Antes de concluir uma análise com SISAB ou Siaps, verifique se:
 
 - O sistema e o período foram definidos;
-- A transição SISAB-SISAPS foi considerada;
+- A transição SISAB–Siaps foi considerada;
 - A competência e o prazo de envio foram conferidos;
 - A unidade de análise foi declarada;
 - O denominador do indicador foi documentado;
@@ -695,10 +695,10 @@ Antes de concluir uma análise com SISAPS/SISAB, verifique se:
 
 ### Documentos oficiais
 
-- [SISAPS/Siaps](https://sisaps.saude.gov.br/sistemas/siaps/)
+- [Siaps](https://sisaps.saude.gov.br/sistemas/siaps/)
 - [SISAB](https://sisaps.saude.gov.br/sistemas/sisab/)
 - [Manual do SISAB](https://sisaps.saude.gov.br/sistemas/sisab/docs/manual/visao-geral/)
-- [Manual do SISAPS/Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/)
+- [Manual do Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/apresentacao/)
 - [Calendário Siaps](https://sisaps.saude.gov.br/sistemas/siaps/docs/manual/calendario-siaps/)
 
 ### Artigos

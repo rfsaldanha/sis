@@ -1,4 +1,4 @@
-# SIVEP -- Sistema de Vigilância Epidemiológica {#sec-sivep}
+# SIVEP — Sistema de Vigilância Epidemiológica {#sec-sivep}
 
 De forma complementar a outros SIS, o Sistema de Vigilância Epidemiológica (SIVEP) reúne componentes voltados à vigilância de agravos, síndromes ou eventos específicos. Na prática, o termo SIVEP não se refere a uma base única e homogênea: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA têm objetivos, fluxos de registro, unidades de análise e formas de disseminação diferentes.
 
@@ -26,7 +26,7 @@ Ao usar esses arquivos, é importante preservar a data de extração, o ano epid
 
 ## SIVEP-Malária
 
-O SIVEP-Malária registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica -- estados da Região Norte, Maranhão e Mato Grosso -- e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador [@ministeriodasaudePQAVS2023].
+O SIVEP-Malária registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica — estados da Região Norte, Maranhão e Mato Grosso — e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador [@ministeriodasaudePQAVS2023].
 
 Essa divisão é importante porque uma análise nacional de malária pode exigir a combinação de fontes. Casos da região amazônica e casos da região extra-amazônica não devem ser buscados automaticamente em uma única base sem verificar o fluxo vigente de notificação.
 

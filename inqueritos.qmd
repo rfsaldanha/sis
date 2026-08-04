@@ -17,7 +17,7 @@ Características gerais das pesquisas abordadas
 
 :::
 
-O @qua-inqueritos-caracteristicas-gerais-das-pesquisas evidencia que a palavra “inquérito” não identifica um único desenho. PNS e PNAD partem de domicílios; o Vigitel parte de linhas telefônicas; o VIVA Inquérito parte de atendimentos em serviços selecionados. População-alvo, unidade de observação e possibilidade de inferência precisam ser definidas separadamente para cada fonte.
+O @qua-inqueritos-caracteristicas-gerais-das-pesquisas evidencia que a palavra "inquérito" não identifica um único desenho. PNS e PNAD partem de domicílios; o Vigitel parte de linhas telefônicas; o VIVA Inquérito parte de atendimentos em serviços selecionados. População-alvo, unidade de observação e possibilidade de inferência precisam ser definidas separadamente para cada fonte.
 
 ## Inquéritos e sistemas de informação
 
@@ -116,7 +116,7 @@ Questões de saúde apareceram em operações anteriores, mas a principal série
 |---|---|---|
 | PNAD com suplementos de saúde | Série domiciliar histórica, especialmente 1998, 2003 e 2008 | Questionários, categorias, cobertura rural e pesos precisam ser harmonizados |
 | PNS | Pesquisa específica que ampliou o escopo da saúde a partir de 2013 | Não é continuação automática de cada variável da PNAD |
-| PNAD Contínua | Pesquisa voltada principalmente à força de trabalho e a temas suplementares | Não deve ser chamada de “PNAD Saúde”; módulos e períodos próprios exigem documentação específica |
+| PNAD Contínua | Pesquisa voltada principalmente à força de trabalho e a temas suplementares | Não deve ser chamada de "PNAD Saúde"; módulos e períodos próprios exigem documentação específica |
 
 Relação entre PNAD, PNS e PNAD Contínua
 
@@ -259,7 +259,7 @@ Séries exigem um inventário de mudanças antes do cálculo. Nome igual não ga
 
 | Fonte de quebra | Exemplo | Estratégia |
 |---|---|---|
-| Redação da pergunta | Diagnóstico “por médico” versus “por médico ou profissional de saúde” | Restringir a categorias comparáveis ou marcar a quebra |
+| Redação da pergunta | Diagnóstico "por médico" versus "por médico ou profissional de saúde" | Restringir a categorias comparáveis ou marcar a quebra |
 | Universo | Todos os moradores versus morador selecionado de determinada idade | Recalcular no mesmo grupo elegível |
 | Período de referência | Duas semanas, 12 meses ou alguma vez na vida | Não combinar medidas sem equivalência |
 | Quadro amostral | Telefonia fixa versus inclusão de celular | Usar notas metodológicas e análise de sensibilidade |
@@ -279,7 +279,7 @@ PNS, PNAD e Vigitel dependem amplamente de respostas. Autorrelato é apropriado 
 
 Informação fornecida por outra pessoa do domicílio pode ser adequada para idade ou escolaridade, mas menos precisa para dor, saúde mental, violência, consumo de álcool ou uso de serviço. A identidade do respondente e a possibilidade de resposta reservada influenciam temas sensíveis.
 
-Medidas diretas, como peso, altura, pressão arterial e biomarcadores, reduzem alguns erros de autorrelato, mas introduzem outros: calibração, protocolo, jejum, perda seletiva e peso específico da subamostra. “Medido” não significa ausência de erro.
+Medidas diretas, como peso, altura, pressão arterial e biomarcadores, reduzem alguns erros de autorrelato, mas introduzem outros: calibração, protocolo, jejum, perda seletiva e peso específico da subamostra. "Medido" não significa ausência de erro.
 
 ## Integração com os SIS
 
@@ -292,7 +292,7 @@ Inquéritos públicos geralmente não incluem identificadores pessoais que permi
 | PNS ou PNAD | SIH/SUS | Comparar internação declarada e produção financiada pelo SUS | População, cobertura privada, período e unidade diferem |
 | PNS ou PNAD | SIA/SUS | Contextualizar uso ambulatorial e barreiras de acesso | Procedimento não equivale a pessoa que declarou atendimento |
 | Vigitel ou PNS | SIM | Relacionar tendências de fatores de risco e mortalidade | Associação temporal agregada não demonstra causalidade individual |
-| Vigitel ou PNS | SISAPS | Comparar fatores de risco e ações da atenção primária | Cobertura geográfica e populações observadas são diferentes |
+| Vigitel ou PNS | Siaps | Comparar fatores de risco e ações da atenção primária | Cobertura geográfica e populações observadas são diferentes |
 | VIVA Inquérito | SIM | Contrastar perfil de atendimentos e óbitos por causas externas | Gravidade e seleção de casos são distintas |
 | VIVA/Sinan | SINAN | É o próprio fluxo contínuo de notificação de violências | Não confundir com a amostra de atendimentos do VIVA Inquérito |
 
@@ -354,7 +354,7 @@ Antes de publicar uma análise, verifique se:
 - Quebras metodológicas foram marcadas na série;
 - Comparações com SIS respeitam cobertura, período e unidade;
 - Resultados instáveis foram suprimidos ou acompanhados de advertência;
-- As limitações aparecem junto às conclusões.
+- As limitações aparecem nas conclusões.
 
 ## Bibliografia recomendada
 
@@ -377,11 +377,11 @@ Antes de publicar uma análise, verifique se:
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 393.
 
 - [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 179.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 430.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 432.
 
 :::
 <!-- END GENERATED SEE ALSO -->

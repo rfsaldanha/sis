@@ -1,1 +1,1 @@
-# SIAB -- Sistema de Informação de Atenção Básica {#sec-siab}
+# SIAB — Sistema de Informação de Atenção Básica {#sec-siab}

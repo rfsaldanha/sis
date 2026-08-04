@@ -1,15 +1,17 @@
 # Quadro-resumo {#sec-quadro-resumo}
 
+Os quadros desta seção sintetizam os sistemas e as infraestruturas de informação que recebem capítulos ou apêndices próprios no livro. CID, códigos municipais, estimativas populacionais e inquéritos aparecem em apêndices metodológicos, mas não integram os quadros porque não constituem sistemas contínuos de registro com o mesmo tipo de fluxo operacional.
+
 ::: {#qua-quadro-resumo-eventos-assistencia}
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
-| SIM | Sistema de Informação sobre Mortalidade | 1975 | Declaração de Óbito (DO) | Todo o território nacional | Anual, com um ano de defasagem |
-| SINASC | Sistema de Informação sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual, com um ano de defasagem |
-| SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Internações financiadas pelo SUS na rede pública e conveniada | Mensal, com até dois meses de defasagem |
-| SIA | Sistema de Informações Ambulatoriais do SUS | 1990 | Procedimento, BPA, APAC ou RAAS | Procedimentos financiados pelo SUS na rede pública e conveniada | Mensal, com até dois meses de defasagem |
+| SIM | Sistema de Informação sobre Mortalidade | 1975 | Declaração de Óbito (DO) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
+| SINASC | Sistema de Informação sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
+| SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Internações financiadas pelo SUS na rede pública e conveniada | Mensal; dados recentes podem ser revistos ou reapresentados |
+| SIA | Sistema de Informações Ambulatoriais do SUS | 1990 | Procedimento, BPA, APAC ou RAAS | Procedimentos financiados pelo SUS na rede pública e conveniada | Mensal; dados recentes podem ser revistos ou reapresentados |
 | SISCAN | Sistema de Informação de Câncer | 2013 | Requisição, exame e laudo | Ações de detecção precoce e diagnóstico vinculadas ao SUS | Conforme registro e disseminação do sistema |
-| SINAN | Sistema de Informação de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Mensal, com até dois meses de defasagem |
+| SINAN | Sistema de Informação de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Conforme a base, o agravo e o estágio de encerramento dos casos |
 
 Síntese dos sistemas de eventos vitais, assistência e notificação abordados no livro
 
@@ -20,12 +22,25 @@ Síntese dos sistemas de eventos vitais, assistência e notificação abordados 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
 | SIVEP | Sistema de Vigilância Epidemiológica | Varia; SIVEP-Gripe: 2019 | Ficha ou registro do componente | Universal, regional ou sentinela | Varia; SRAG anual e ano corrente com atualização semanal |
-| CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal, com até dois meses de defasagem |
+| CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal; consultar a competência e a data de processamento |
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | União, estados, Distrito Federal e municípios | Bimestral, com consolidação do exercício no sexto bimestre |
-| SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Mensal, com até dois meses de defasagem |
-| SISAB/SISAPS | Sistemas de informação da Atenção Primária à Saúde | 2013; Siaps: 2025 | Equipe, estabelecimento, território, competência e indicador | APS no SUS | Mensal, conforme calendário de envio da APS |
+| SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Conforme o ciclo de monitoramento e a atualização da fonte consultada |
+| SISAB–Siaps | Sistemas de informação da Atenção Primária à Saúde | SISAB: 2013; Siaps: 2025 | Equipe, estabelecimento, território, competência e indicador | APS no SUS | Mensal, conforme calendário de envio da APS |
 | SI-PNI | Sistema de Informações do Programa Nacional de Imunizações | PNI: 1973; informatização posterior | Dose, pessoa, esquema e imunobiológico | SUS e sistemas integrados à RNDS | Conforme a fonte e o fluxo de integração |
+| RNDS | Rede Nacional de Dados em Saúde | 2020 | Registro clínico ou modelo de informação interoperável | Estabelecimentos e sistemas integrados à rede | Conforme o serviço, o modelo de informação e o fluxo de integração |
 
 Síntese dos sistemas de vigilância, cadastro, gestão e atenção primária abordados no livro
+
+:::
+
+
+::: {#qua-quadro-resumo-fontes-complementares}
+
+| Sigla | Nome | Marco de implantação | Unidade de análise | Cobertura | Disseminação de dados |
+|---|---|---|---|---|---|
+| SISVAN | Sistema de Vigilância Alimentar e Nutricional | Experiências desde 1977; regulamentação nacional em 1990; versão eletrônica desde 2008 | Pessoa acompanhada, acompanhamento, município, fase do curso da vida e competência | Pessoas acompanhadas pela APS e por programas que alimentam o sistema | Relatórios públicos e bases anonimizadas; periodicidade conforme o produto consultado |
+| ANS | Fontes de informação da Agência Nacional de Saúde Suplementar, como SIB, TISS, DIOPS e SIP | Agência criada em 2000; marcos variam conforme a fonte | Beneficiário, vínculo, operadora, plano, evento assistencial ou informação econômico-financeira | Setor de planos privados de assistência à saúde | Dados abertos, arquivos, TabNet, painéis e publicações, conforme a fonte |
+
+Síntese de fontes complementares de vigilância nutricional e saúde suplementar abordadas nos apêndices
 
 :::

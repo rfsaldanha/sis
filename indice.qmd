@@ -70,7 +70,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Arquitetura da RNDS]{.subject-index-term} — [RNDS: Arquitetura em camadas](rnds.html#arquitetura-em-camadas)
 :::
 ::: {.subject-index-entry}
-[Atenção Primária à Saúde (APS)]{.subject-index-term} — [SISAPS](sisaps.html)
+[Atenção Primária à Saúde (APS)]{.subject-index-term} — [Siaps](sisaps.html)
 :::
 ::: {.subject-index-entry}
 [Atendimento antirrábico]{.subject-index-term} — [SINAN: Atendimento antirrábico](sinan.html#atendimento-antirrábico)
@@ -167,7 +167,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Códigos dos municípios]{.subject-index-term} — [Códigos dos municípios](codmun.html)
 :::
 ::: {.subject-index-entry}
-[Cofinanciamento da APS]{.subject-index-term} — [SISAPS: Indicadores e cofinanciamento](sisaps.html#indicadores-e-cofinanciamento)
+[Cofinanciamento da APS]{.subject-index-term} — [Siaps: Indicadores e cofinanciamento](sisaps.html#indicadores-e-cofinanciamento)
 :::
 ::: {.subject-index-entry}
 [Cólera]{.subject-index-term} — [SINAN: Cólera](sinan.html#cólera)
@@ -211,7 +211,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Dados individualizados]{.subject-index-term} — [SI-PNI: Privacidade e dados individualizados](sipni.html#privacidade-e-dados-individualizados)
 :::
 ::: {.subject-index-entry}
-[DATASUS]{.subject-index-term} — [Histórico: O Departamento de Informática do SUS -- DATASUS](historico.html#o-departamento-de-informática-do-sus-datasus)
+[DATASUS]{.subject-index-term} — [Histórico: O Departamento de Informática do SUS — DATASUS](historico.html#o-departamento-de-informática-do-sus-datasus)
 :::
 ::: {.subject-index-entry}
 [Declaração de Nascido Vivo (DNV)]{.subject-index-term} — [SINASC: Fluxo da Declaração de Nascido Vivo](sinasc.html#fluxo-da-declaração-de-nascido-vivo)
@@ -229,7 +229,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Dengue]{.subject-index-term} — [Eventos de saúde: Exemplo integrado: dengue](eventos.html#exemplo-integrado-dengue); [SINAN: Exemplo: dengue](sinan.html#exemplo-dengue); [SINAN: Dengue](sinan.html#dengue)
 :::
 ::: {.subject-index-entry}
-[Denominadores]{.subject-index-term} — [CNES: CNES como denominador](cnes.html#cnes-como-denominador); [Eventos de saúde: Denominadores e indicadores](eventos.html#denominadores-e-indicadores); [Estimativas populacionais: Escolha do denominador](pop.html#escolha-do-denominador); [SINASC: Uso como denominador](sinasc.html#uso-como-denominador); [SISAPS: Qual denominador usar?](sisaps.html#qual-denominador-usar)
+[Denominadores]{.subject-index-term} — [CNES: CNES como denominador](cnes.html#cnes-como-denominador); [Eventos de saúde: Denominadores e indicadores](eventos.html#denominadores-e-indicadores); [Estimativas populacionais: Escolha do denominador](pop.html#escolha-do-denominador); [SINASC: Uso como denominador](sinasc.html#uso-como-denominador); [Siaps: Qual denominador usar?](sisaps.html#qual-denominador-usar)
 :::
 ::: {.subject-index-entry}
 [Dermatoses ocupacionais]{.subject-index-term} — [SINAN: Dermatoses ocupacionais](sinan.html#dermatoses-ocupacionais)
@@ -294,7 +294,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Episódio]{.subject-index-term} — [Eventos de saúde: Evento, pessoa, episódio e registro](eventos.html#evento-pessoa-episódio-e-registro)
 :::
 ::: {.subject-index-entry}
-[Equipe de saúde]{.subject-index-term} — [SISAPS: Identificadores de equipe](sisaps.html#identificadores-de-equipe)
+[Equipe de saúde]{.subject-index-term} — [Siaps: Identificadores de equipe](sisaps.html#identificadores-de-equipe)
 :::
 ::: {.subject-index-entry}
 [Erro amostral]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
@@ -629,10 +629,10 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Potabilidade]{.subject-index-term} — [SISAGUA: Parâmetros e potabilidade](sisagua.html#parâmetros-e-potabilidade)
 :::
 ::: {.subject-index-entry}
-[Pré-natal na APS]{.subject-index-term} — [SISAPS: Exemplo: pré-natal na APS](sisaps.html#exemplo-pré-natal-na-aps)
+[Pré-natal na APS]{.subject-index-term} — [Siaps: Exemplo: pré-natal na APS](sisaps.html#exemplo-pré-natal-na-aps)
 :::
 ::: {.subject-index-entry}
-[Privacidade]{.subject-index-term} — [Interoperabilidade: Privacidade, segurança e uso responsável](interoperabilidade.html#privacidade-segurança-e-uso-responsável); [RNDS: Privacidade, segurança e governança](rnds.html#privacidade-segurança-e-governança); [SISAPS: Privacidade e agregação](sisaps.html#privacidade-e-agregação)
+[Privacidade]{.subject-index-term} — [Interoperabilidade: Privacidade, segurança e uso responsável](interoperabilidade.html#privacidade-segurança-e-uso-responsável); [RNDS: Privacidade, segurança e governança](rnds.html#privacidade-segurança-e-governança); [Siaps: Privacidade e agregação](sisaps.html#privacidade-e-agregação)
 :::
 ::: {.subject-index-entry}
 [Procedimentos ambulatoriais]{.subject-index-term} — [Eventos de saúde: Procedimentos ambulatoriais](eventos.html#procedimentos-ambulatoriais)
@@ -755,6 +755,9 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [SIA/SUS — Sistema de Informações Ambulatoriais do SUS]{.subject-index-term} — [SIA/SUS](sia.html)
 :::
 ::: {.subject-index-entry}
+[Siaps — Sistema de Informação para a Atenção Primária à Saúde]{.subject-index-term} — [Siaps](sisaps.html)
+:::
+::: {.subject-index-entry}
 [Sífilis adquirida]{.subject-index-term} — [SINAN: Sífilis adquirida](sinan.html#sífilis-adquirida)
 :::
 ::: {.subject-index-entry}
@@ -792,9 +795,6 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 :::
 ::: {.subject-index-entry}
 [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano]{.subject-index-term} — [SISAGUA](sisagua.html)
-:::
-::: {.subject-index-entry}
-[SISAPS — Sistema de Informação para a Atenção Primária à Saúde]{.subject-index-term} — [SISAPS](sisaps.html)
 :::
 ::: {.subject-index-entry}
 [SISCAN — Sistema de Informação de Câncer]{.subject-index-term} — [SISCAN](siscan.html)
@@ -929,7 +929,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [Vigitel]{.subject-index-term} — [Inquéritos de saúde: Vigitel](inqueritos.html#vigitel)
 :::
 ::: {.subject-index-entry}
-[Vínculo territorial]{.subject-index-term} — [SISAPS: Vínculo territorial](sisaps.html#vínculo-territorial)
+[Vínculo territorial]{.subject-index-term} — [Siaps: Vínculo territorial](sisaps.html#vínculo-territorial)
 :::
 ::: {.subject-index-entry}
 [Vínculos profissionais]{.subject-index-term} — [CNES: Exemplo: profissionais e vínculos](cnes.html#exemplo-profissionais-e-vínculos)

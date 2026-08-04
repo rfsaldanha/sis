@@ -12,376 +12,376 @@
 
 ## Roteiro
 
-**APRESENTADORA:** [warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo Organização dos SIS, do livro Sistemas de Informação em Saúde no Brasil.
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo Organização dos SIS, do livro Sistemas de Informação em Saúde no Brasil.
 
-**ESTUDANTE:** [curious] Organização dos SIS parece um capítulo cheio de classificações e siglas. Por onde a gente começa?
+**ESTUDANTE:** Organização dos SIS parece um capítulo cheio de classificações e siglas. Por onde a gente começa?
 
-**APRESENTADORA:** [lightly] Por uma cena bem comum. Alguém recebe uma pergunta sobre saúde, abre a base que conhece melhor, conta as linhas e entrega um número. O cálculo pode estar correto, mas a resposta pode estar completamente errada.
+**APRESENTADORA:** Por uma cena bem comum. Alguém recebe uma pergunta sobre saúde, abre a base que conhece melhor, conta as linhas e entrega um número. O cálculo pode estar correto, mas a resposta pode estar completamente errada.
 
-**ESTUDANTE:** [surprised] Mesmo sem erro no código ou na soma?
+**ESTUDANTE:** Mesmo sem erro no código ou na soma?
 
-**APRESENTADORA:** [affirming] Mesmo assim. Se a fonte não registra o evento, a população ou a unidade que a pergunta exige, nenhuma técnica sofisticada conserta a escolha inicial.
+**APRESENTADORA:** Mesmo assim. Se a fonte não registra o evento, a população ou a unidade que a pergunta exige, nenhuma técnica sofisticada conserta a escolha inicial.
 
-**ESTUDANTE:** [thinking] Então o problema começa antes da análise. Começa na seleção da fonte.
+**ESTUDANTE:** Então o problema começa antes da análise. Começa na seleção da fonte.
 
-**APRESENTADORA:** [warmly] Exatamente. Neste episódio, vamos transformar uma pergunta vaga em uma escolha bem fundamentada. Para isso, construiremos uma espécie de passaporte da fonte de dados.
+**APRESENTADORA:** Exatamente. Neste episódio, vamos transformar uma pergunta vaga em uma escolha bem fundamentada. Para isso, construiremos uma espécie de passaporte da fonte de dados.
 
-**ESTUDANTE:** [curious] O que entra nesse passaporte?
+**ESTUDANTE:** O que entra nesse passaporte?
 
-**APRESENTADORA:** [explaining] Evento registrado, finalidade institucional, cobertura, unidade de análise, território, período, versão e fluxo de produção. Esses elementos ajudam a entender o que a base mostra e, igualmente importante, o que ela não mostra.
+**APRESENTADORA:** Evento registrado, finalidade institucional, cobertura, unidade de análise, território, período, versão e fluxo de produção. Esses elementos ajudam a entender o que a base mostra e, igualmente importante, o que ela não mostra.
 
-**ESTUDANTE:** [engaged] Um mapa para não confundir familiaridade com adequação.
+**ESTUDANTE:** Um mapa para não confundir familiaridade com adequação.
 
-**APRESENTADORA:** [affirming] Perfeito. A base mais conhecida ou mais fácil de baixar não é necessariamente a melhor para a pergunta.
+**APRESENTADORA:** Perfeito. A base mais conhecida ou mais fácil de baixar não é necessariamente a melhor para a pergunta.
 
-**ESTUDANTE:** [curious] Qual é a primeira pergunta do passaporte?
+**ESTUDANTE:** Qual é a primeira pergunta do passaporte?
 
-**APRESENTADORA:** [thoughtful] O que aconteceu? Um nascimento, um óbito, uma internação, uma notificação, uma vacinação, um procedimento, um cadastro ou um lançamento financeiro?
+**APRESENTADORA:** O que aconteceu? Um nascimento, um óbito, uma internação, uma notificação, uma vacinação, um procedimento, um cadastro ou um lançamento financeiro?
 
-**ESTUDANTE:** [thinking] Isso é o evento registrado.
+**ESTUDANTE:** Isso é o evento registrado.
 
-**APRESENTADORA:** [affirming] Sim. Os sistemas não guardam temas abstratos. Eles registram acontecimentos ou operações definidos por instrumentos e regras.
+**APRESENTADORA:** Sim. Os sistemas não guardam temas abstratos. Eles registram acontecimentos ou operações definidos por instrumentos e regras.
 
-**ESTUDANTE:** [curious] Qual é a diferença entre tema e evento?
+**ESTUDANTE:** Qual é a diferença entre tema e evento?
 
-**APRESENTADORA:** [explaining] Uma doença é um tema. Ela pode estar relacionada a uma notificação, uma consulta, uma internação ou um óbito. Já o evento diz o que efetivamente entrou no sistema.
+**APRESENTADORA:** Uma doença é um tema. Ela pode estar relacionada a uma notificação, uma consulta, uma internação ou um óbito. Já o evento diz o que efetivamente entrou no sistema.
 
-**ESTUDANTE:** [engaged] O capítulo seguinte vai aprofundar justamente essa relação entre eventos e sistemas.
+**ESTUDANTE:** O capítulo seguinte vai aprofundar justamente essa relação entre eventos e sistemas.
 
-**APRESENTADORA:** [warmly] Isso. Aqui basta guardar a virada metodológica: não comece perguntando qual base fala do meu tema. Pergunte qual acontecimento preciso observar.
+**APRESENTADORA:** Isso. Aqui basta guardar a virada metodológica: não comece perguntando qual base fala do meu tema. Pergunte qual acontecimento preciso observar.
 
-**ESTUDANTE:** [curious] E se a minha pergunta ainda estiver vaga?
+**ESTUDANTE:** E se a minha pergunta ainda estiver vaga?
 
-**APRESENTADORA:** [thoughtful] Vale reescrevê-la. Em vez de “quero estudar saúde materna”, por exemplo, diga se o interesse está em nascimentos, óbitos, internações, acesso a serviços, oferta de leitos ou outra dimensão.
+**APRESENTADORA:** Vale reescrevê-la. Em vez de "quero estudar saúde materna", por exemplo, diga se o interesse está em nascimentos, óbitos, internações, acesso a serviços, oferta de leitos ou outra dimensão.
 
-**ESTUDANTE:** [thinking] Quando o evento fica claro, algumas fontes entram no mapa e outras saem.
+**ESTUDANTE:** Quando o evento fica claro, algumas fontes entram no mapa e outras saem.
 
-**APRESENTADORA:** [affirming] Exatamente. Essa é a primeira coordenada.
+**APRESENTADORA:** Exatamente. Essa é a primeira coordenada.
 
-**ESTUDANTE:** [curious] A segunda é a finalidade institucional?
+**ESTUDANTE:** A segunda é a finalidade institucional?
 
-**APRESENTADORA:** [explaining] Sim. Para que o sistema foi criado? Vigilância, assistência, cadastro, financiamento, regulação ou gestão? A finalidade orienta os campos, os fluxos e as regras de preenchimento.
+**APRESENTADORA:** Sim. Para que o sistema foi criado? Vigilância, assistência, cadastro, financiamento, regulação ou gestão? A finalidade orienta os campos, os fluxos e as regras de preenchimento.
 
-**ESTUDANTE:** [thoughtful] Uma base feita para autorizar e pagar serviços não nasce com a mesma lógica de uma base de vigilância.
+**ESTUDANTE:** Uma base feita para autorizar e pagar serviços não nasce com a mesma lógica de uma base de vigilância.
 
-**APRESENTADORA:** [affirming] Exato. Isso não impede usos secundários. Sistemas administrativos podem apoiar pesquisa e avaliação, mas sua origem continua influenciando o que aparece nos registros.
+**APRESENTADORA:** Exato. Isso não impede usos secundários. Sistemas administrativos podem apoiar pesquisa e avaliação, mas sua origem continua influenciando o que aparece nos registros.
 
-**ESTUDANTE:** [curious] Pode dar um exemplo sem entrar no capítulo específico de cada sistema?
+**ESTUDANTE:** Pode dar um exemplo sem entrar no capítulo específico de cada sistema?
 
-**APRESENTADORA:** [explaining] Pense no SIH e no SIA. Eles organizam, respectivamente, internações e produção ambulatorial financiadas pelo SUS. São fontes valiosas, mas seus registros seguem uma lógica assistencial e administrativa, não a de um inquérito populacional.
+**APRESENTADORA:** Pense no SIH e no SIA. Eles organizam, respectivamente, internações e produção ambulatorial financiadas pelo SUS. São fontes valiosas, mas seus registros seguem uma lógica assistencial e administrativa, não a de um inquérito populacional.
 
-**ESTUDANTE:** [thinking] Então eu posso estudar utilização de serviços, mas não chamar automaticamente cada linha de pessoa doente.
+**ESTUDANTE:** Então eu posso estudar utilização de serviços, mas não chamar automaticamente cada linha de pessoa doente.
 
-**APRESENTADORA:** [affirming] Perfeito. A finalidade ajuda a formular uma afirmação compatível com a base.
+**APRESENTADORA:** Perfeito. A finalidade ajuda a formular uma afirmação compatível com a base.
 
-**ESTUDANTE:** [curious] A terceira coordenada é cobertura. Quem consegue aparecer?
+**ESTUDANTE:** A terceira coordenada é cobertura. Quem consegue aparecer?
 
-**APRESENTADORA:** [explaining] Exatamente. Alguns sistemas buscam registrar determinado evento em todo o território nacional. Outros cobrem principalmente ações, serviços ou recursos vinculados ao SUS. Há ainda bases específicas da saúde suplementar.
+**APRESENTADORA:** Exatamente. Alguns sistemas buscam registrar determinado evento em todo o território nacional. Outros cobrem principalmente ações, serviços ou recursos vinculados ao SUS. Há ainda bases específicas da saúde suplementar.
 
-**ESTUDANTE:** [engaged] Então “base nacional” não quer dizer “todos os eventos do país”.
+**ESTUDANTE:** Então "base nacional" não quer dizer "todos os eventos do país".
 
-**APRESENTADORA:** [emphatically] Essa distinção é essencial. Uma base pode ter registros de todos os estados e, ainda assim, representar apenas um segmento da assistência.
+**APRESENTADORA:** Essa distinção é essencial. Uma base pode ter registros de todos os estados e, ainda assim, representar apenas um segmento da assistência.
 
-**ESTUDANTE:** [curious] Como eu deveria escrever um resultado para deixar isso claro?
+**ESTUDANTE:** Como eu deveria escrever um resultado para deixar isso claro?
 
-**APRESENTADORA:** [explaining] Em vez de dizer “houve tantas internações no Brasil”, talvez a formulação adequada seja “foram registradas tantas internações financiadas pelo SUS”. A delimitação não enfraquece o resultado; ela o torna preciso.
+**APRESENTADORA:** Em vez de dizer "houve tantas internações no Brasil", talvez a formulação adequada seja "foram registradas tantas internações financiadas pelo SUS". A delimitação não enfraquece o resultado; ela o torna preciso.
 
-**ESTUDANTE:** [thoughtful] Cobertura define o universo sobre o qual posso falar.
+**ESTUDANTE:** Cobertura define o universo sobre o qual posso falar.
 
-**APRESENTADORA:** [affirming] Isso. E cobertura planejada não garante cobertura perfeita. Subregistro, atraso e diferenças territoriais ainda precisam ser avaliados.
+**APRESENTADORA:** Isso. E cobertura planejada não garante cobertura perfeita. Subregistro, atraso e diferenças territoriais ainda precisam ser avaliados.
 
-**ESTUDANTE:** [curious] Agora vem a pergunta mais perigosa: o que cada linha representa?
+**ESTUDANTE:** Agora vem a pergunta mais perigosa: o que cada linha representa?
 
-**APRESENTADORA:** [warmly] A unidade de análise. Uma linha pode representar uma pessoa, um evento, uma declaração, uma autorização, um procedimento, um estabelecimento, uma equipe ou uma informação financeira.
+**APRESENTADORA:** A unidade de análise. Uma linha pode representar uma pessoa, um evento, uma declaração, uma autorização, um procedimento, um estabelecimento, uma equipe ou uma informação financeira.
 
-**ESTUDANTE:** [thinking] Contar linhas só responde alguma coisa quando eu sei a identidade da linha.
+**ESTUDANTE:** Contar linhas só responde alguma coisa quando eu sei a identidade da linha.
 
-**APRESENTADORA:** [affirming] Exatamente. No SIM, o registro corresponde a um óbito. No SINASC, a um nascido vivo. No SINAN, a uma ficha de notificação. No SIH, a unidade central é a AIH. No SIA, ela pode estar associada a procedimentos ou instrumentos de produção.
+**APRESENTADORA:** Exatamente. No SIM, o registro corresponde a um óbito. No SINASC, a um nascido vivo. No SINAN, a uma ficha de notificação. No SIH, a unidade central é a AIH. No SIA, ela pode estar associada a procedimentos ou instrumentos de produção.
 
-**ESTUDANTE:** [curious] E uma ficha de notificação não é necessariamente um caso confirmado.
+**ESTUDANTE:** E uma ficha de notificação não é necessariamente um caso confirmado.
 
-**APRESENTADORA:** [explaining] Correto. Assim como uma autorização não equivale automaticamente a uma pessoa única, e vários procedimentos podem pertencer ao mesmo usuário.
+**APRESENTADORA:** Correto. Assim como uma autorização não equivale automaticamente a uma pessoa única, e vários procedimentos podem pertencer ao mesmo usuário.
 
-**ESTUDANTE:** [engaged] O passaporte já tem quatro campos: evento, finalidade, cobertura e unidade.
+**ESTUDANTE:** O passaporte já tem quatro campos: evento, finalidade, cobertura e unidade.
 
-**APRESENTADORA:** [warmly] Esses são os quatro critérios centrais do capítulo. Mas, para usar a base, precisamos acrescentar outras camadas.
+**APRESENTADORA:** Esses são os quatro critérios centrais do capítulo. Mas, para usar a base, precisamos acrescentar outras camadas.
 
-**ESTUDANTE:** [curious] Qual vem primeiro?
+**ESTUDANTE:** Qual vem primeiro?
 
-**APRESENTADORA:** [thoughtful] O fluxo de registro. Um SIS não é apenas o arquivo que chega ao computador do analista.
+**APRESENTADORA:** O fluxo de registro. Um SIS não é apenas o arquivo que chega ao computador do analista.
 
-**ESTUDANTE:** [curious] Como esse fluxo pode ser resumido?
+**ESTUDANTE:** Como esse fluxo pode ser resumido?
 
-**APRESENTADORA:** [explaining] Primeiro, alguém produz o registro em um serviço ou instituição. Depois, informações podem ser conferidas, complementadas e transmitidas. Regras de crítica e consolidação entram no caminho. Só então os dados são disseminados em painéis, tabuladores, relatórios ou microdados.
+**APRESENTADORA:** Primeiro, alguém produz o registro em um serviço ou instituição. Depois, informações podem ser conferidas, complementadas e transmitidas. Regras de crítica e consolidação entram no caminho. Só então os dados são disseminados em painéis, tabuladores, relatórios ou microdados.
 
-**ESTUDANTE:** [thinking] Cada etapa pode alterar o tempo e a qualidade do dado disponível.
+**ESTUDANTE:** Cada etapa pode alterar o tempo e a qualidade do dado disponível.
 
-**APRESENTADORA:** [affirming] Sim. Um registro recente pode ainda não ter chegado à base nacional. Uma investigação pode mudar sua classificação. Uma inconsistência pode ser corrigida em uma versão posterior.
+**APRESENTADORA:** Sim. Um registro recente pode ainda não ter chegado à base nacional. Uma investigação pode mudar sua classificação. Uma inconsistência pode ser corrigida em uma versão posterior.
 
-**ESTUDANTE:** [curious] Isso explica a diferença entre dados preliminares e consolidados?
+**ESTUDANTE:** Isso explica a diferença entre dados preliminares e consolidados?
 
-**APRESENTADORA:** [explaining] Explica parte dela. Dados preliminares chegam mais cedo e apoiam monitoramento oportuno. Dados consolidados costumam passar por mais revisão, mas chegam com maior defasagem.
+**APRESENTADORA:** Explica parte dela. Dados preliminares chegam mais cedo e apoiam monitoramento oportuno. Dados consolidados costumam passar por mais revisão, mas chegam com maior defasagem.
 
-**ESTUDANTE:** [thoughtful] Nenhuma versão é sempre melhor. Depende do uso.
+**ESTUDANTE:** Nenhuma versão é sempre melhor. Depende do uso.
 
-**APRESENTADORA:** [affirming] Exatamente. Para acompanhar uma situação em curso, pode ser necessário aceitar maior incerteza. Para uma série histórica ou indicador oficial, uma base consolidada tende a ser mais apropriada.
+**APRESENTADORA:** Exatamente. Para acompanhar uma situação em curso, pode ser necessário aceitar maior incerteza. Para uma série histórica ou indicador oficial, uma base consolidada tende a ser mais apropriada.
 
-**ESTUDANTE:** [curious] O que eu preciso registrar no método?
+**ESTUDANTE:** O que eu preciso registrar no método?
 
-**APRESENTADORA:** [explaining] A data de extração, a versão da base, o período selecionado e o campo temporal utilizado. “Quando baixei” e “a que período o dado se refere” são informações diferentes.
+**APRESENTADORA:** A data de extração, a versão da base, o período selecionado e o campo temporal utilizado. "Quando baixei" e "a que período o dado se refere" são informações diferentes.
 
-**ESTUDANTE:** [thinking] E mensal, anual, preliminar e consolidado também não são sinônimos.
+**ESTUDANTE:** E mensal, anual, preliminar e consolidado também não são sinônimos.
 
-**APRESENTADORA:** [affirming] Isso. Periodicidade fala do ritmo de disponibilização. Situação da base fala do estágio de revisão. As duas dimensões precisam ser documentadas.
+**APRESENTADORA:** Isso. Periodicidade fala do ritmo de disponibilização. Situação da base fala do estágio de revisão. As duas dimensões precisam ser documentadas.
 
-**ESTUDANTE:** [curious] Falta o território.
+**ESTUDANTE:** Falta o território.
 
-**APRESENTADORA:** [explaining] E território não é um único campo. Podemos encontrar município de residência, de ocorrência, de atendimento, de notificação ou do estabelecimento.
+**APRESENTADORA:** E território não é um único campo. Podemos encontrar município de residência, de ocorrência, de atendimento, de notificação ou do estabelecimento.
 
-**ESTUDANTE:** [curious] Como escolher entre eles?
+**ESTUDANTE:** Como escolher entre eles?
 
-**APRESENTADORA:** [thoughtful] Retornando à pergunta. Para estudar risco entre moradores, residência costuma ser central. Para examinar oferta e fluxos assistenciais, atendimento ou estabelecimento pode ser mais informativo. Para observar a operação da vigilância, o local de notificação pode ter outro significado.
+**APRESENTADORA:** Retornando à pergunta. Para estudar risco entre moradores, residência costuma ser central. Para examinar oferta e fluxos assistenciais, atendimento ou estabelecimento pode ser mais informativo. Para observar a operação da vigilância, o local de notificação pode ter outro significado.
 
-**ESTUDANTE:** [thinking] Um evento pode atravessar vários territórios.
+**ESTUDANTE:** Um evento pode atravessar vários territórios.
 
-**APRESENTADORA:** [affirming] Sim. Uma pessoa pode morar em um município, receber atendimento em outro e ter o registro processado por uma unidade regional. Colocar tudo no mesmo mapa apaga deslocamentos importantes.
+**APRESENTADORA:** Sim. Uma pessoa pode morar em um município, receber atendimento em outro e ter o registro processado por uma unidade regional. Colocar tudo no mesmo mapa apaga deslocamentos importantes.
 
-**ESTUDANTE:** [engaged] Então o passaporte também precisa dizer qual território o registro representa.
+**ESTUDANTE:** Então o passaporte também precisa dizer qual território o registro representa.
 
-**APRESENTADORA:** [warmly] Perfeito. Sem isso, numerador e denominador podem falar de populações diferentes.
+**APRESENTADORA:** Perfeito. Sem isso, numerador e denominador podem falar de populações diferentes.
 
-**ESTUDANTE:** [curious] Agora que temos as coordenadas, como os sistemas são agrupados no capítulo?
+**ESTUDANTE:** Agora que temos as coordenadas, como os sistemas são agrupados no capítulo?
 
-**APRESENTADORA:** [explaining] Como um mapa de entrada, não como uma classificação rígida. O capítulo apresenta sistemas vitais; vigilância e morbidade; assistência; cadastro, gestão e financiamento; imunização; e saúde suplementar.
+**APRESENTADORA:** Como um mapa de entrada, não como uma classificação rígida. O capítulo apresenta sistemas vitais; vigilância e morbidade; assistência; cadastro, gestão e financiamento; imunização; e saúde suplementar.
 
-**ESTUDANTE:** [curious] Por que dizer que as fronteiras não são rígidas?
+**ESTUDANTE:** Por que dizer que as fronteiras não são rígidas?
 
-**APRESENTADORA:** [thoughtful] Porque uma base assistencial pode apoiar vigilância. Uma base cadastral pode ser indispensável para interpretar produção. Informações financeiras podem ajudar a compreender capacidade de execução de políticas.
+**APRESENTADORA:** Porque uma base assistencial pode apoiar vigilância. Uma base cadastral pode ser indispensável para interpretar produção. Informações financeiras podem ajudar a compreender capacidade de execução de políticas.
 
-**ESTUDANTE:** [engaged] O grupo indica a porta de entrada, mas não limita todos os usos.
+**ESTUDANTE:** O grupo indica a porta de entrada, mas não limita todos os usos.
 
-**APRESENTADORA:** [affirming] Exatamente. Pense nos grupos como regiões de um mapa. Eles orientam a busca, mas as perguntas podem atravessar fronteiras.
+**APRESENTADORA:** Exatamente. Pense nos grupos como regiões de um mapa. Eles orientam a busca, mas as perguntas podem atravessar fronteiras.
 
-**ESTUDANTE:** [curious] Podemos percorrer esse mapa sem transformar o episódio em uma lista de siglas?
+**ESTUDANTE:** Podemos percorrer esse mapa sem transformar o episódio em uma lista de siglas?
 
-**APRESENTADORA:** [warmly] Podemos. Nos sistemas vitais, o foco está no início e no fim da vida, com SIM e SINASC. Na vigilância, aparecem notificações, investigações e condições de interesse sanitário, com sistemas como SINAN, SIVEP e SISAGUA.
+**APRESENTADORA:** Podemos. Nos sistemas vitais, o foco está no início e no fim da vida, com SIM e SINASC. Na vigilância, aparecem notificações, investigações e condições de interesse sanitário, com sistemas como SINAN, SIVEP e SISAGUA.
 
-**ESTUDANTE:** [thinking] Na assistência, entram os registros hospitalares e ambulatoriais.
+**ESTUDANTE:** Na assistência, entram os registros hospitalares e ambulatoriais.
 
-**APRESENTADORA:** [explaining] Isso. SIH e SIA ajudam a observar produção e utilização de serviços do SUS. No campo de cadastro e gestão, CNES, SIOPS e os sistemas da atenção primária descrevem estrutura, financiamento e organização.
+**APRESENTADORA:** Isso. SIH e SIA ajudam a observar produção e utilização de serviços do SUS. No campo de cadastro e gestão, CNES, SIOPS e os sistemas da atenção primária descrevem estrutura, financiamento e organização.
 
-**ESTUDANTE:** [curious] E vacinação e saúde suplementar têm fontes próprias.
+**ESTUDANTE:** E vacinação e saúde suplementar têm fontes próprias.
 
-**APRESENTADORA:** [affirming] Sim. O SI-PNI organiza registros de imunização, enquanto a ANS dissemina dados relativos à saúde suplementar.
+**APRESENTADORA:** Sim. O SI-PNI organiza registros de imunização, enquanto a ANS dissemina dados relativos à saúde suplementar.
 
-**ESTUDANTE:** [thoughtful] O objetivo não é memorizar o mapa inteiro, mas saber em qual região começar a procura.
+**ESTUDANTE:** O objetivo não é memorizar o mapa inteiro, mas saber em qual região começar a procura.
 
-**APRESENTADORA:** [warmly] Exato. Os capítulos específicos aprofundam história, variáveis e limitações de cada sistema. Aqui estamos aprendendo a localizar a fonte antes de entrar nela.
+**APRESENTADORA:** Exato. Os capítulos específicos aprofundam história, variáveis e limitações de cada sistema. Aqui estamos aprendendo a localizar a fonte antes de entrar nela.
 
-**ESTUDANTE:** [curious] Esse mapa se parece mais com uma árvore ou com uma matriz?
+**ESTUDANTE:** Esse mapa se parece mais com uma árvore ou com uma matriz?
 
-**APRESENTADORA:** [thoughtful] Com uma matriz. Uma árvore colocaria cada sistema em um único galho. Mas os critérios do capítulo são eixos independentes: evento, finalidade, cobertura e unidade podem ser combinados de maneiras diferentes.
+**APRESENTADORA:** Com uma matriz. Uma árvore colocaria cada sistema em um único galho. Mas os critérios do capítulo são eixos independentes: evento, finalidade, cobertura e unidade podem ser combinados de maneiras diferentes.
 
-**ESTUDANTE:** [thinking] Então dois sistemas do mesmo grupo podem ter coberturas ou unidades muito distintas.
+**ESTUDANTE:** Então dois sistemas do mesmo grupo podem ter coberturas ou unidades muito distintas.
 
-**APRESENTADORA:** [affirming] Sim. E sistemas de grupos diferentes podem compartilhar território, periodicidade ou códigos. A classificação organiza a comparação sem apagar essas diferenças.
+**APRESENTADORA:** Sim. E sistemas de grupos diferentes podem compartilhar território, periodicidade ou códigos. A classificação organiza a comparação sem apagar essas diferenças.
 
-**ESTUDANTE:** [curious] Isso também impede uma ideia de hierarquia? Como se uma base de eventos fosse mais importante que uma base cadastral.
+**ESTUDANTE:** Isso também impede uma ideia de hierarquia? Como se uma base de eventos fosse mais importante que uma base cadastral.
 
-**APRESENTADORA:** [emphatically] Exatamente. Importância depende da pergunta. Se o problema é disponibilidade de serviços, uma base cadastral pode ser central. Se o interesse é financiamento, uma base orçamentária deixa de ser contexto e vira a fonte principal.
+**APRESENTADORA:** Exatamente. Importância depende da pergunta. Se o problema é disponibilidade de serviços, uma base cadastral pode ser central. Se o interesse é financiamento, uma base orçamentária deixa de ser contexto e vira a fonte principal.
 
-**ESTUDANTE:** [engaged] A mesma fonte pode mudar de papel entre dois estudos.
+**ESTUDANTE:** A mesma fonte pode mudar de papel entre dois estudos.
 
-**APRESENTADORA:** [affirming] Pode. Em uma análise, o CNES pode ser o objeto principal. Em outra, pode apenas contextualizar a produção de um serviço. O papel analítico não está fixado no nome da base.
+**APRESENTADORA:** Pode. Em uma análise, o CNES pode ser o objeto principal. Em outra, pode apenas contextualizar a produção de um serviço. O papel analítico não está fixado no nome da base.
 
-**ESTUDANTE:** [curious] Então vale distinguir fonte principal e fonte complementar.
+**ESTUDANTE:** Então vale distinguir fonte principal e fonte complementar.
 
-**APRESENTADORA:** [explaining] Sim. A principal mede o núcleo da pergunta. As complementares ajudam a descrever população, estrutura, território ou recursos. Essa distinção evita exigir de uma única base respostas para dimensões que ela nunca pretendeu registrar.
+**APRESENTADORA:** Sim. A principal mede o núcleo da pergunta. As complementares ajudam a descrever população, estrutura, território ou recursos. Essa distinção evita exigir de uma única base respostas para dimensões que ela nunca pretendeu registrar.
 
-**ESTUDANTE:** [thoughtful] Também ajuda a explicar por que fontes diferentes não precisam apresentar números idênticos.
+**ESTUDANTE:** Também ajuda a explicar por que fontes diferentes não precisam apresentar números idênticos.
 
-**APRESENTADORA:** [warmly] Perfeito. Antes de buscar concordância, precisamos verificar se elas observam o mesmo evento, universo e unidade.
+**APRESENTADORA:** Perfeito. Antes de buscar concordância, precisamos verificar se elas observam o mesmo evento, universo e unidade.
 
-**ESTUDANTE:** [curious] Podemos testar o passaporte com uma pergunta prática?
+**ESTUDANTE:** Podemos testar o passaporte com uma pergunta prática?
 
-**APRESENTADORA:** [engaged] Vamos imaginar que uma gestão queira estudar acesso a internações de moradores de uma região.
+**APRESENTADORA:** Vamos imaginar que uma gestão queira estudar acesso a internações de moradores de uma região.
 
-**ESTUDANTE:** [thinking] O evento é internação. A população são os moradores da região. O território principal é residência. E precisamos definir um período.
+**ESTUDANTE:** O evento é internação. A população são os moradores da região. O território principal é residência. E precisamos definir um período.
 
-**APRESENTADORA:** [affirming] Muito bem. A finalidade da análise aponta para utilização de serviços, e a fonte provável é o SIH quando o interesse está nas internações financiadas pelo SUS.
+**APRESENTADORA:** Muito bem. A finalidade da análise aponta para utilização de serviços, e a fonte provável é o SIH quando o interesse está nas internações financiadas pelo SUS.
 
-**ESTUDANTE:** [curious] A unidade seria a AIH, não uma pessoa única.
+**ESTUDANTE:** A unidade seria a AIH, não uma pessoa única.
 
-**APRESENTADORA:** [affirming] Correto. Depois precisamos decidir se o estudo contará autorizações, episódios aproximados ou outra medida possível. A linguagem do resultado deve acompanhar essa decisão.
+**APRESENTADORA:** Correto. Depois precisamos decidir se o estudo contará autorizações, episódios aproximados ou outra medida possível. A linguagem do resultado deve acompanhar essa decisão.
 
-**ESTUDANTE:** [curious] E se a gestão quiser entender por que alguns moradores viajam para outra cidade?
+**ESTUDANTE:** E se a gestão quiser entender por que alguns moradores viajam para outra cidade?
 
-**APRESENTADORA:** [explaining] A comparação entre residência e atendimento ajuda a observar deslocamentos. Informações do CNES podem contextualizar onde existem estabelecimentos, serviços ou recursos no período.
+**APRESENTADORA:** A comparação entre residência e atendimento ajuda a observar deslocamentos. Informações do CNES podem contextualizar onde existem estabelecimentos, serviços ou recursos no período.
 
-**ESTUDANTE:** [engaged] A pergunta começou com uma base e terminou pedindo fontes complementares.
+**ESTUDANTE:** A pergunta começou com uma base e terminou pedindo fontes complementares.
 
-**APRESENTADORA:** [affirming] Isso acontece com frequência. Uma fonte registra o evento; outra descreve o contexto. Organização não significa procurar uma base que contenha tudo.
+**APRESENTADORA:** Isso acontece com frequência. Uma fonte registra o evento; outra descreve o contexto. Organização não significa procurar uma base que contenha tudo.
 
-**ESTUDANTE:** [curious] Mas combinar fontes não é simplesmente juntar tabelas.
+**ESTUDANTE:** Mas combinar fontes não é simplesmente juntar tabelas.
 
-**APRESENTADORA:** [emphatically] Não. Antes de relacionar arquivos, precisamos verificar compatibilidade conceitual, temporal e territorial.
+**APRESENTADORA:** Não. Antes de relacionar arquivos, precisamos verificar compatibilidade conceitual, temporal e territorial.
 
-**ESTUDANTE:** [curious] O que seria compatibilidade conceitual?
+**ESTUDANTE:** O que seria compatibilidade conceitual?
 
-**APRESENTADORA:** [explaining] Confirmar que categorias aparentemente iguais têm o mesmo significado. Um código, um estabelecimento ou uma medida pode mudar conforme o sistema, o arquivo e o período.
+**APRESENTADORA:** Confirmar que categorias aparentemente iguais têm o mesmo significado. Um código, um estabelecimento ou uma medida pode mudar conforme o sistema, o arquivo e o período.
 
-**ESTUDANTE:** [thinking] Compatibilidade temporal seria alinhar datas que representam processos comparáveis.
+**ESTUDANTE:** Compatibilidade temporal seria alinhar datas que representam processos comparáveis.
 
-**APRESENTADORA:** [affirming] Exatamente. Mês de competência, data de atendimento, data de notificação e data de ocorrência não são intercambiáveis.
+**APRESENTADORA:** Exatamente. Mês de competência, data de atendimento, data de notificação e data de ocorrência não são intercambiáveis.
 
-**ESTUDANTE:** [curious] E compatibilidade territorial exige saber se estou usando residência, atendimento ou localização do serviço.
+**ESTUDANTE:** E compatibilidade territorial exige saber se estou usando residência, atendimento ou localização do serviço.
 
-**APRESENTADORA:** [warmly] Perfeito. Sem essas três verificações, uma integração pode parecer precisa, mas combinar coisas diferentes.
+**APRESENTADORA:** Perfeito. Sem essas três verificações, uma integração pode parecer precisa, mas combinar coisas diferentes.
 
-**ESTUDANTE:** [curious] E quando a análise relaciona registros individuais?
+**ESTUDANTE:** E quando a análise relaciona registros individuais?
 
-**APRESENTADORA:** [serious] Entram questões adicionais: qualidade das chaves, duplicidades, perdas de relacionamento, segurança e privacidade. Toda regra precisa ser documentada.
+**APRESENTADORA:** Entram questões adicionais: qualidade das chaves, duplicidades, perdas de relacionamento, segurança e privacidade. Toda regra precisa ser documentada.
 
-**ESTUDANTE:** [thinking] Integração responsável mostra também o que não conseguiu integrar.
+**ESTUDANTE:** Integração responsável mostra também o que não conseguiu integrar.
 
-**APRESENTADORA:** [affirming] Sim. Informar perdas e limites é parte do resultado, não um detalhe constrangedor.
+**APRESENTADORA:** Sim. Informar perdas e limites é parte do resultado, não um detalhe constrangedor.
 
-**ESTUDANTE:** [curious] O nível de detalhamento também deveria entrar nessa decisão?
+**ESTUDANTE:** O nível de detalhamento também deveria entrar nessa decisão?
 
-**APRESENTADORA:** [explaining] Deveria. Uma fonte pode oferecer totais agregados, tabelas por município, arquivos de microdados ou registros individualizados. Cada nível permite perguntas diferentes.
+**APRESENTADORA:** Deveria. Uma fonte pode oferecer totais agregados, tabelas por município, arquivos de microdados ou registros individualizados. Cada nível permite perguntas diferentes.
 
-**ESTUDANTE:** [thinking] Existe uma tendência de achar que o arquivo mais detalhado é sempre melhor.
+**ESTUDANTE:** Existe uma tendência de achar que o arquivo mais detalhado é sempre melhor.
 
-**APRESENTADORA:** [thoughtful] E isso nem sempre é verdade. Se uma tabela agregada responde exatamente à pergunta, ela pode ser mais simples, estável e segura. Mais colunas não significam mais validade.
+**APRESENTADORA:** E isso nem sempre é verdade. Se uma tabela agregada responde exatamente à pergunta, ela pode ser mais simples, estável e segura. Mais colunas não significam mais validade.
 
-**ESTUDANTE:** [curious] Quando os microdados se tornam necessários?
+**ESTUDANTE:** Quando os microdados se tornam necessários?
 
-**APRESENTADORA:** [explaining] Quando precisamos construir recortes que não estão disponíveis nas tabelas prontas, combinar variáveis, aplicar critérios específicos ou estudar distribuições mais detalhadas.
+**APRESENTADORA:** Quando precisamos construir recortes que não estão disponíveis nas tabelas prontas, combinar variáveis, aplicar critérios específicos ou estudar distribuições mais detalhadas.
 
-**ESTUDANTE:** [curious] E qual é o custo dessa flexibilidade?
+**ESTUDANTE:** E qual é o custo dessa flexibilidade?
 
-**APRESENTADORA:** [serious] Mais responsabilidade com documentação, processamento, valores ausentes, sigilo e risco de identificação. Também aumenta a possibilidade de criar medidas que parecem sofisticadas, mas não respeitam o desenho da fonte.
+**APRESENTADORA:** Mais responsabilidade com documentação, processamento, valores ausentes, sigilo e risco de identificação. Também aumenta a possibilidade de criar medidas que parecem sofisticadas, mas não respeitam o desenho da fonte.
 
-**ESTUDANTE:** [engaged] Então devemos escolher o nível mínimo de detalhe suficiente para responder à pergunta.
+**ESTUDANTE:** Então devemos escolher o nível mínimo de detalhe suficiente para responder à pergunta.
 
-**APRESENTADORA:** [warmly] Essa é uma ótima regra. Ela reduz complexidade desnecessária e deixa mais clara a relação entre fonte e resultado.
+**APRESENTADORA:** Essa é uma ótima regra. Ela reduz complexidade desnecessária e deixa mais clara a relação entre fonte e resultado.
 
-**ESTUDANTE:** [curious] E se o dado agregado esconder diferenças importantes?
+**ESTUDANTE:** E se o dado agregado esconder diferenças importantes?
 
-**APRESENTADORA:** [explaining] Aí a pergunta exige maior granularidade. Podemos precisar de faixa etária, sexo, território menor ou outro estrato. O ponto é justificar o detalhe, não buscá-lo por hábito.
+**APRESENTADORA:** Aí a pergunta exige maior granularidade. Podemos precisar de faixa etária, sexo, território menor ou outro estrato. O ponto é justificar o detalhe, não buscá-lo por hábito.
 
-**ESTUDANTE:** [thinking] Granularidade também tem dimensão temporal e territorial.
+**ESTUDANTE:** Granularidade também tem dimensão temporal e territorial.
 
-**APRESENTADORA:** [affirming] Sim. Um dado diário não é automaticamente melhor que um dado mensal, e um mapa muito detalhado pode produzir instabilidade quando há poucos eventos. A escala precisa ser compatível com o fenômeno e com a qualidade do registro.
+**APRESENTADORA:** Sim. Um dado diário não é automaticamente melhor que um dado mensal, e um mapa muito detalhado pode produzir instabilidade quando há poucos eventos. A escala precisa ser compatível com o fenômeno e com a qualidade do registro.
 
-**ESTUDANTE:** [curious] Onde a qualidade entra no passaporte?
+**ESTUDANTE:** Onde a qualidade entra no passaporte?
 
-**APRESENTADORA:** [thoughtful] Como uma avaliação transversal. Qualidade não é uma nota única para toda a base.
+**APRESENTADORA:** Como uma avaliação transversal. Qualidade não é uma nota única para toda a base.
 
-**ESTUDANTE:** [curious] Que dimensões precisam ser observadas?
+**ESTUDANTE:** Que dimensões precisam ser observadas?
 
-**APRESENTADORA:** [explaining] Completude dos campos, consistência interna, oportunidade, cobertura do evento, validade dos códigos, estabilidade das definições e comparabilidade entre períodos e territórios.
+**APRESENTADORA:** Completude dos campos, consistência interna, oportunidade, cobertura do evento, validade dos códigos, estabilidade das definições e comparabilidade entre períodos e territórios.
 
-**ESTUDANTE:** [thinking] Uma base pode ser excelente para contar um evento e limitada para analisar determinada variável social.
+**ESTUDANTE:** Uma base pode ser excelente para contar um evento e limitada para analisar determinada variável social.
 
-**APRESENTADORA:** [affirming] Exatamente. A qualidade depende da pergunta, do campo, do lugar e do período. Por isso, frases como “essa base é boa” ou “essa base é ruim” dizem pouco sem contexto.
+**APRESENTADORA:** Exatamente. A qualidade depende da pergunta, do campo, do lugar e do período. Por isso, frases como "essa base é boa" ou "essa base é ruim" dizem pouco sem contexto.
 
-**ESTUDANTE:** [curious] Como investigar uma mudança brusca em uma série?
+**ESTUDANTE:** Como investigar uma mudança brusca em uma série?
 
-**APRESENTADORA:** [explaining] Primeiro, verifique se houve alteração de formulário, sistema, campo obrigatório, classificação, cobertura ou forma de disseminação. Só depois trate a ruptura como mudança no fenômeno.
+**APRESENTADORA:** Primeiro, verifique se houve alteração de formulário, sistema, campo obrigatório, classificação, cobertura ou forma de disseminação. Só depois trate a ruptura como mudança no fenômeno.
 
-**ESTUDANTE:** [thoughtful] O número pode mudar porque a realidade mudou, porque o registro mudou ou pelos dois motivos.
+**ESTUDANTE:** O número pode mudar porque a realidade mudou, porque o registro mudou ou pelos dois motivos.
 
-**APRESENTADORA:** [affirming] Perfeito. A documentação ajuda a separar essas hipóteses.
+**APRESENTADORA:** Perfeito. A documentação ajuda a separar essas hipóteses.
 
-**ESTUDANTE:** [curious] E os indicadores? Eles entram como produto final desse processo?
+**ESTUDANTE:** E os indicadores? Eles entram como produto final desse processo?
 
-**APRESENTADORA:** [explaining] Sim, mas um indicador não é apenas uma fórmula. Ele exige definir numerador, denominador, população de referência, território, período, fonte e critérios de inclusão e exclusão.
+**APRESENTADORA:** Sim, mas um indicador não é apenas uma fórmula. Ele exige definir numerador, denominador, população de referência, território, período, fonte e critérios de inclusão e exclusão.
 
-**ESTUDANTE:** [thinking] Ou seja, o indicador também precisa de passaporte.
+**ESTUDANTE:** Ou seja, o indicador também precisa de passaporte.
 
-**APRESENTADORA:** [warmly] Boa síntese. Uma ficha conceitual permite que outras pessoas entendam e reproduzam a medida.
+**APRESENTADORA:** Boa síntese. Uma ficha conceitual permite que outras pessoas entendam e reproduzam a medida.
 
-**ESTUDANTE:** [curious] Como comparar duas fontes candidatas antes de escolher uma?
+**ESTUDANTE:** Como comparar duas fontes candidatas antes de escolher uma?
 
-**APRESENTADORA:** [thoughtful] Podemos montar uma pequena tabela de decisão. Nas linhas, colocamos os requisitos da pergunta. Nas colunas, as fontes candidatas. Depois verificamos evento, cobertura, unidade, território, período, granularidade e qualidade conhecida.
+**APRESENTADORA:** Podemos montar uma pequena tabela de decisão. Nas linhas, colocamos os requisitos da pergunta. Nas colunas, as fontes candidatas. Depois verificamos evento, cobertura, unidade, território, período, granularidade e qualidade conhecida.
 
-**ESTUDANTE:** [engaged] Em vez de perguntar qual base é melhor, perguntamos qual atende melhor a cada requisito.
+**ESTUDANTE:** Em vez de perguntar qual base é melhor, perguntamos qual atende melhor a cada requisito.
 
-**APRESENTADORA:** [affirming] Exatamente. Uma fonte pode ter cobertura mais adequada e outra oferecer mais detalhe. A escolha depende de qual requisito é indispensável e quais limitações podem ser assumidas.
+**APRESENTADORA:** Exatamente. Uma fonte pode ter cobertura mais adequada e outra oferecer mais detalhe. A escolha depende de qual requisito é indispensável e quais limitações podem ser assumidas.
 
-**ESTUDANTE:** [curious] E quando nenhuma fonte atende completamente?
+**ESTUDANTE:** E quando nenhuma fonte atende completamente?
 
-**APRESENTADORA:** [explaining] Há três caminhos honestos: reformular a pergunta, combinar fontes compatíveis ou declarar que a resposta disponível é parcial. O que não devemos fazer é esconder a lacuna com uma afirmação mais ampla que os dados.
+**APRESENTADORA:** Há três caminhos honestos: reformular a pergunta, combinar fontes compatíveis ou declarar que a resposta disponível é parcial. O que não devemos fazer é esconder a lacuna com uma afirmação mais ampla que os dados.
 
-**ESTUDANTE:** [thoughtful] Essa comparação também ajuda a planejar uma análise antes de gastar tempo baixando arquivos enormes.
+**ESTUDANTE:** Essa comparação também ajuda a planejar uma análise antes de gastar tempo baixando arquivos enormes.
 
-**APRESENTADORA:** [warmly] Sim. Ler dicionários, notas técnicas e descrições de cobertura pode poupar muito trabalho. Metadados não são uma etapa burocrática posterior; são parte da escolha da fonte.
+**APRESENTADORA:** Sim. Ler dicionários, notas técnicas e descrições de cobertura pode poupar muito trabalho. Metadados não são uma etapa burocrática posterior; são parte da escolha da fonte.
 
-**ESTUDANTE:** [curious] O passaporte poderia ser preenchido durante essa leitura.
+**ESTUDANTE:** O passaporte poderia ser preenchido durante essa leitura.
 
-**APRESENTADORA:** [affirming] Perfeito. Ao final, teremos uma justificativa curta e verificável para a fonte escolhida, além de uma lista explícita de limitações.
+**APRESENTADORA:** Perfeito. Ao final, teremos uma justificativa curta e verificável para a fonte escolhida, além de uma lista explícita de limitações.
 
-**ESTUDANTE:** [curious] Se eu estiver diante de muitas bases, qual sequência prática você recomenda?
+**ESTUDANTE:** Se eu estiver diante de muitas bases, qual sequência prática você recomenda?
 
-**APRESENTADORA:** [thoughtful] Primeiro, escreva a pergunta em quatro partes: evento, população, território e período.
+**APRESENTADORA:** Primeiro, escreva a pergunta em quatro partes: evento, população, território e período.
 
-**ESTUDANTE:** [engaged] Segundo, identifique qual sistema registra o evento.
+**ESTUDANTE:** Segundo, identifique qual sistema registra o evento.
 
-**APRESENTADORA:** [affirming] Terceiro, confira finalidade e cobertura. Pergunte por que a base existe e quem pode aparecer nela.
+**APRESENTADORA:** Terceiro, confira finalidade e cobertura. Pergunte por que a base existe e quem pode aparecer nela.
 
-**ESTUDANTE:** [engaged] Quarto, descubra a unidade de análise e o significado dos campos principais.
+**ESTUDANTE:** Quarto, descubra a unidade de análise e o significado dos campos principais.
 
-**APRESENTADORA:** [affirming] Quinto, escolha a versão e a referência temporal adequadas.
+**APRESENTADORA:** Quinto, escolha a versão e a referência temporal adequadas.
 
-**ESTUDANTE:** [engaged] Sexto, avalie qualidade e mudanças ocorridas no período.
+**ESTUDANTE:** Sexto, avalie qualidade e mudanças ocorridas no período.
 
-**APRESENTADORA:** [warmly] E sétimo, documente tudo: fonte, extração, filtros, categorias, perdas e limitações.
+**APRESENTADORA:** E sétimo, documente tudo: fonte, extração, filtros, categorias, perdas e limitações.
 
-**ESTUDANTE:** [curious] Essa sequência evita começar pelo download.
+**ESTUDANTE:** Essa sequência evita começar pelo download.
 
-**APRESENTADORA:** [emphatically] Exatamente. O download vem depois da definição conceitual. Começar pelo arquivo pode fazer a pergunta se adaptar ao que está disponível, sem que essa mudança fique explícita.
+**APRESENTADORA:** Exatamente. O download vem depois da definição conceitual. Começar pelo arquivo pode fazer a pergunta se adaptar ao que está disponível, sem que essa mudança fique explícita.
 
-**ESTUDANTE:** [thinking] Às vezes adaptar a pergunta é necessário, mas precisa ser uma decisão consciente.
+**ESTUDANTE:** Às vezes adaptar a pergunta é necessário, mas precisa ser uma decisão consciente.
 
-**APRESENTADORA:** [affirming] Sim. Podemos reformular o objetivo diante das limitações da fonte. O problema é fingir que a base responde algo que ela não mede.
+**APRESENTADORA:** Sim. Podemos reformular o objetivo diante das limitações da fonte. O problema é fingir que a base responde algo que ela não mede.
 
-**ESTUDANTE:** [curious] Quais sinais indicam que escolhi a fonte errada?
+**ESTUDANTE:** Quais sinais indicam que escolhi a fonte errada?
 
-**APRESENTADORA:** [explaining] Você não consegue dizer o que cada linha representa; a população de interesse inclui pessoas que não podem aparecer; o território disponível não corresponde à pergunta; ou a finalidade do registro mede uma operação diferente do fenômeno pretendido.
+**APRESENTADORA:** Você não consegue dizer o que cada linha representa; a população de interesse inclui pessoas que não podem aparecer; o território disponível não corresponde à pergunta; ou a finalidade do registro mede uma operação diferente do fenômeno pretendido.
 
-**ESTUDANTE:** [curious] E quais são os erros mais comuns depois que a fonte foi escolhida?
+**ESTUDANTE:** E quais são os erros mais comuns depois que a fonte foi escolhida?
 
-**APRESENTADORA:** [explaining] Tratar AIH como pessoa única; contar toda notificação como caso confirmado; interpretar SIH e SIA como toda a assistência do país; misturar residência e atendimento; comparar preliminar com consolidado sem aviso; e ignorar mudanças de definição.
+**APRESENTADORA:** Tratar AIH como pessoa única; contar toda notificação como caso confirmado; interpretar SIH e SIA como toda a assistência do país; misturar residência e atendimento; comparar preliminar com consolidado sem aviso; e ignorar mudanças de definição.
 
-**ESTUDANTE:** [thoughtful] Todos parecem diferentes, mas têm a mesma raiz: esquecer o passaporte do registro.
+**ESTUDANTE:** Todos parecem diferentes, mas têm a mesma raiz: esquecer o passaporte do registro.
 
-**APRESENTADORA:** [affirming] Exatamente. O erro aparece quando retiramos o número de seu evento, finalidade, cobertura, unidade, tempo e território.
+**APRESENTADORA:** Exatamente. O erro aparece quando retiramos o número de seu evento, finalidade, cobertura, unidade, tempo e território.
 
-**ESTUDANTE:** [curious] Vamos voltar à cena do início? A pessoa abriu uma base, contou linhas e entregou um número.
+**ESTUDANTE:** Vamos voltar à cena do início? A pessoa abriu uma base, contou linhas e entregou um número.
 
-**APRESENTADORA:** [reflective] Agora ela faria uma pausa antes do cálculo. Reescreveria a pergunta, identificaria o evento e verificaria quem entra na base. Depois descobriria a unidade da linha, escolheria território e versão e só então calcularia.
+**APRESENTADORA:** Agora ela faria uma pausa antes do cálculo. Reescreveria a pergunta, identificaria o evento e verificaria quem entra na base. Depois descobriria a unidade da linha, escolheria território e versão e só então calcularia.
 
-**ESTUDANTE:** [engaged] Talvez o número final fosse o mesmo, mas a frase usada para apresentá-lo seria mais precisa.
+**ESTUDANTE:** Talvez o número final fosse o mesmo, mas a frase usada para apresentá-lo seria mais precisa.
 
-**APRESENTADORA:** [affirming] Sim. E talvez o número mudasse, porque filtros, unidade ou cobertura estavam inadequados. Nos dois casos, a análise melhora.
+**APRESENTADORA:** Sim. E talvez o número mudasse, porque filtros, unidade ou cobertura estavam inadequados. Nos dois casos, a análise melhora.
 
-**ESTUDANTE:** [thinking] Organizar os SIS é, no fundo, organizar o raciocínio antes de organizar as tabelas.
+**ESTUDANTE:** Organizar os SIS é, no fundo, organizar o raciocínio antes de organizar as tabelas.
 
-**APRESENTADORA:** [warmly] Essa é a ideia central. As categorias do capítulo não servem para encaixar cada sistema em uma caixa definitiva. Elas servem para fazer perguntas melhores.
+**APRESENTADORA:** Essa é a ideia central. As categorias do capítulo não servem para encaixar cada sistema em uma caixa definitiva. Elas servem para fazer perguntas melhores.
 
-**ESTUDANTE:** [curious] Se eu tivesse que guardar uma frase, qual seria?
+**ESTUDANTE:** Se eu tivesse que guardar uma frase, qual seria?
 
-**APRESENTADORA:** [thoughtful] Não existe a melhor base em abstrato. Existe a fonte mais adequada para um evento, uma população, um território, um período e uma pergunta claramente formulada.
+**APRESENTADORA:** Não existe a melhor base em abstrato. Existe a fonte mais adequada para um evento, uma população, um território, um período e uma pergunta claramente formulada.
 
-**ESTUDANTE:** [warmly] E o passaporte ajuda a demonstrar por que aquela escolha é adequada.
+**ESTUDANTE:** E o passaporte ajuda a demonstrar por que aquela escolha é adequada.
 
-**APRESENTADORA:** [affirming] Exatamente. Ele transforma a seleção da fonte em uma decisão metodológica transparente.
+**APRESENTADORA:** Exatamente. Ele transforma a seleção da fonte em uma decisão metodológica transparente.
 
-**ESTUDANTE:** [curious] O próximo capítulo aprofunda o primeiro campo desse passaporte: os eventos de saúde?
+**ESTUDANTE:** O próximo capítulo aprofunda o primeiro campo desse passaporte: os eventos de saúde?
 
-**APRESENTADORA:** [warmly] Sim. Vamos olhar com mais atenção para os acontecimentos que geram registros e entender por que um mesmo tema pode aparecer em sistemas diferentes.
+**APRESENTADORA:** Sim. Vamos olhar com mais atenção para os acontecimentos que geram registros e entender por que um mesmo tema pode aparecer em sistemas diferentes.
 
-**ESTUDANTE:** [warmly] Ótimo. Saímos da sopa de siglas com um mapa e uma sequência de perguntas.
+**ESTUDANTE:** Ótimo. Saímos da sopa de siglas com um mapa e uma sequência de perguntas.
 
-**APRESENTADORA:** [warmly] É isso. Obrigada pela companhia, e até o próximo capítulo!
+**APRESENTADORA:** É isso. Obrigada pela companhia, e até o próximo capítulo!

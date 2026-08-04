@@ -1,7 +1,7 @@
 ---
 title: Evolução dos Sistemas de Informação em Saúde no Brasil
 author: Raphael de Freitas Saldanha
-lang: pt 
+lang: pt
 isbn: "978-65-01-37841-1"
 date: today
 format: closeread-html
@@ -47,19 +47,19 @@ Desenvolvido pelo Ministério da Saúde para unificar dezenas de modelos de decl
 Anos 1980 – Sistemas da Previdência (SAMHPS, SICAPS, GAP) @cr-f05
 
 :::{#cr-f05}
-Sistemas da Previdência Social para controle da assistência médico-hospitalar e ambulatorial (SAMHPS, SICAPS, GAP) antecedem os atuais SIH/SUS e SIA/SUS. 
+Sistemas da Previdência Social para controle da assistência médico-hospitalar e ambulatorial (SAMHPS, SICAPS, GAP) antecedem os atuais SIH/SUS e SIA/SUS.
 :::
 
 1981 – Criação do Sistema de Informações Hospitalares (origem do SIH/SUS) @cr-f06
 
 :::{#cr-f06}
-Sistema para controle de pagamento de internações via AIH, criado em 1981 e posteriormente ampliado e adaptado para o SUS. 
+Sistema para controle de pagamento de internações via AIH, criado em 1981 e posteriormente ampliado e adaptado para o SUS.
 :::
 
 1984 – Consolidação do Sistema de Informações Hospitalares (SIH-SUS) @cr-f07
 
 :::{#cr-f07}
-Marco do SIH-SUS na trajetória da informatização da saúde. 
+Marco do SIH-SUS na trajetória da informatização da saúde.
 :::
 
 :::
@@ -75,19 +75,19 @@ Marco do SIH-SUS na trajetória da informatização da saúde.
 1988 – Constituição Federal de 1988 @cr-f09
 
 :::{#cr-f09}
-Os artigos 196 a 198 definem a saúde como direito de todos e dever do Estado e organizam as ações e serviços em um Sistema Único de Saúde (SUS), regionalizado e hierarquizado. 
+Os artigos 196 a 198 definem a saúde como direito de todos e dever do Estado e organizam as ações e serviços em um Sistema Único de Saúde (SUS), regionalizado e hierarquizado.
 :::
 
 1990 – Lei nº 8.080/1990 (Lei Orgânica da Saúde) @cr-f10
 
 :::{#cr-f10}
-Em 19/09/1990, a Lei 8.080 dispõe sobre as condições para promoção, proteção e recuperação da saúde, organiza o SUS e prevê a necessidade de um Sistema Nacional de Informações em Saúde. 
+Em 19/09/1990, a Lei 8.080 dispõe sobre as condições para promoção, proteção e recuperação da saúde, organiza o SUS e prevê a necessidade de um Sistema Nacional de Informações em Saúde.
 :::
 
 1990 – Lei nº 8.142/1990 @cr-f11
 
 :::{#cr-f11}
-Em 28/12/1990, a Lei 8.142 trata da participação da comunidade na gestão do SUS (conferências e conselhos de saúde) e das transferências intergovernamentais de recursos, completando o arcabouço legal do SUS. 
+Em 28/12/1990, a Lei 8.142 trata da participação da comunidade na gestão do SUS (conferências e conselhos de saúde) e das transferências intergovernamentais de recursos, completando o arcabouço legal do SUS.
 :::
 
 :::
@@ -102,51 +102,51 @@ Em 28/12/1990, a Lei 8.142 trata da participação da comunidade na gestão do S
 1990 – Regulamentação nacional do SISVAN @cr-f13
 
 :::{#cr-f13}
-A Portaria MS nº 80/1990 (16/10/1990) regulamenta o SISVAN em nível nacional, tornando sua existência em nível municipal pré-requisito para programas alimentares e nutricionais. 
+A Portaria MS nº 80/1990 (16/10/1990) regulamenta o SISVAN em nível nacional, tornando sua existência em nível municipal pré-requisito para programas alimentares e nutricionais.
 :::
 
 1990 – Criação/implantação oficial do SINASC (Sistema de Informações sobre Nascidos Vivos) @cr-f14
 
 :::{#cr-f14}
-O Ministério da Saúde implanta oficialmente o SINASC a partir de 1990, para coletar dados de nascidos vivos em todo o país e produzir indicadores de natalidade. 
+O Ministério da Saúde implanta oficialmente o SINASC a partir de 1990, para coletar dados de nascidos vivos em todo o país e produzir indicadores de natalidade.
 :::
 
 1990–1993 – Desenvolvimento do SINAN (Sistema de Informação de Agravos de Notificação) @cr-f15
 
 :::{#cr-f15}
-O SINAN é desenvolvido entre 1990 e 1993 para substituir o antigo Sistema de Notificação Compulsória de Doenças (SNCD), corrigindo limitações e padronizando a vigilância de agravos de notificação compulsória. 
+O SINAN é desenvolvido entre 1990 e 1993 para substituir o antigo Sistema de Notificação Compulsória de Doenças (SNCD), corrigindo limitações e padronizando a vigilância de agravos de notificação compulsória.
 :::
 
 1990 – Portaria GM/MS nº 896/1990: SIA/SUS @cr-f16
 
 :::{#cr-f16}
-A Portaria GM/MS nº 896, de 29/06/1990, institui o Sistema de Informações Ambulatoriais (SIA/SUS) como sistema nacional para registro da produção ambulatorial do SUS. 
+A Portaria GM/MS nº 896, de 29/06/1990, institui o Sistema de Informações Ambulatoriais (SIA/SUS) como sistema nacional para registro da produção ambulatorial do SUS.
 :::
 
 1991 – Criação do DATASUS (Decreto nº 100/1991) @cr-f17
 
 :::{#cr-f17}
-O Departamento de Informática do SUS (DATASUS) é criado em 1991, juntamente com a Fundação Nacional de Saúde (FUNASA), pelo Decreto nº 100, de 16/04/1991, transferindo e reorganizando funções de informação antes dispersas (incluindo atividades da DATAPREV) para apoiar o SUS.
+O Departamento de Informática do SUS (DATASUS) é criado em 1991, juntamente com a Fundação Nacional de Saúde (Funasa), pelo Decreto nº 100, de 16/04/1991, transferindo e reorganizando funções de informação antes dispersas (incluindo atividades da DATAPREV) para apoiar o SUS.
 :::
 
 1992–1994 – Implantação nacional de SINASC, SINAN e SIA/SUS @cr-f18
 
 :::{#cr-f18}
--  1992: expansão nacional do SINASC. 
--  1993: implantação do aplicativo SINAN-DOS em estados-piloto, seguida de expansão nacional. 
--  1994: implantação do SIA/SUS nas secretarias estaduais substituindo GAP e SICAPS; adoção progressiva por secretarias municipais a partir da NOB-96. 
+-  1992: expansão nacional do SINASC.
+-  1993: implantação do aplicativo SINAN-DOS em estados-piloto, seguida de expansão nacional.
+-  1994: implantação do SIA/SUS nas secretarias estaduais substituindo GAP e SICAPS; adoção progressiva por secretarias municipais a partir da NOB-96.
 :::
 
 1994 – Cobertura nacional do SIM @cr-f19
 
 :::{#cr-f19}
-Embora criado em 1975, o SIM é implementado gradualmente e alcança cobertura em todas as unidades da federação a partir de 1994. 
+Embora criado em 1975, o SIM é implementado gradualmente e alcança cobertura em todas as unidades da federação a partir de 1994.
 :::
 
 1996 – Criação da RIPSA (Rede Interagencial de Informações para a Saúde) @cr-f20
 
 :::{#cr-f20}
-Rede que articula instituições (MS, IBGE, Ipea, Fiocruz, etc.) para produzir indicadores e análises integradas sobre a situação de saúde no país. 
+Rede que articula instituições (MS, IBGE, Ipea, Fiocruz, etc.) para produzir indicadores e análises integradas sobre a situação de saúde no país.
 :::
 
 1998 – SIAB, sistemas de câncer e Rede Nacional de Informações em Saúde @cr-f21
@@ -154,7 +154,7 @@ Rede que articula instituições (MS, IBGE, Ipea, Fiocruz, etc.) para produzir i
 :::{#cr-f21}
 -  SIAB – Sistema de Informação da Atenção Básica, voltado à ESF,
 -  Sistema de informação de câncer de colo de útero e mama (origem do atual SISCAN),
--  Rede Nacional de Informações em Saúde (RNIS). 
+-  Rede Nacional de Informações em Saúde (RNIS).
 :::
 
 :::
@@ -170,13 +170,13 @@ Rede que articula instituições (MS, IBGE, Ipea, Fiocruz, etc.) para produzir i
 1999 – Projeto SIOPS (Sistema de Informações sobre Orçamentos Públicos em Saúde) @cr-f23
 
 :::{#cr-f23}
-Em 30/04/1999, a Portaria Interministerial MS/PGR nº 529 designa equipe para desenvolver o SIOPS; o sistema é concebido para acompanhar a aplicação dos recursos em ações e serviços públicos de saúde. 
+Em 30/04/1999, a Portaria Interministerial MS/PGR nº 529 designa equipe para desenvolver o SIOPS; o sistema é concebido para acompanhar a aplicação dos recursos em ações e serviços públicos de saúde.
 :::
 
 1999 – Desenvolvimento do SI-PNI (Sistema de Informação do Programa Nacional de Imunizações) @cr-f24
 
 :::{#cr-f24}
-Em parceria entre PNI e DATASUS, são iniciadas as discussões que resultam no desenvolvimento do SI-PNI como sistema nacional de registros de vacinação. 
+Em parceria entre PNI e DATASUS, são iniciadas as discussões que resultam no desenvolvimento do SI-PNI como sistema nacional de registros de vacinação.
 :::
 
 :::
@@ -192,126 +192,126 @@ Em parceria entre PNI e DATASUS, são iniciadas as discussões que resultam no d
 2000 – Criação do CNES (Cadastro Nacional de Estabelecimentos de Saúde) @cr-f26
 
 :::{#cr-f26}
-A Portaria SAS/MS nº 403, de 20/10/2000, cria o CNES como base nacional para identificar todos os estabelecimentos de saúde, inicialmente com foco nos que atendem ao SUS, servindo de base para SIH, SIA e diversos outros sistemas. 
+A Portaria SAS/MS nº 403, de 20/10/2000, cria o CNES como base nacional para identificar todos os estabelecimentos de saúde, inicialmente com foco nos que atendem ao SUS, servindo de base para SIH, SIA e diversos outros sistemas.
 :::
 
 2000 – Concepção da 1ª versão do SISAGUA @cr-f27
 
 :::{#cr-f27}
-A primeira versão do Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua 1) é concebida em 2000; o sistema é instrumento do Programa Vigiagua para registrar dados de formas de abastecimento e qualidade da água. 
+A primeira versão do Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua 1) é concebida em 2000; o sistema é instrumento do Programa Vigiagua para registrar dados de formas de abastecimento e qualidade da água.
 :::
 
 2001 – NOAS-SUS 01/2001 e criação do SISREG @cr-f28
 
 :::{#cr-f28}
-A Norma Operacional de Assistência à Saúde (NOAS 01/2001) aprofunda a descentralização e a regionalização da assistência; no mesmo contexto, é criado o SISREG, sistema nacional de regulação de consultas, exames e internações (marcado na linha do tempo da EPSJV em 2001). 
+A Norma Operacional de Assistência à Saúde (NOAS 01/2001) aprofunda a descentralização e a regionalização da assistência; no mesmo contexto, é criado o SISREG, sistema nacional de regulação de consultas, exames e internações (marcado na linha do tempo da EPSJV em 2001).
 :::
 
 2002 – SISPRENATAL (Sistema de Acompanhamento da Gestante) @cr-f29
 
 :::{#cr-f29}
-Sistema para acompanhamento do pré-natal, destacado na linha do tempo da informatização da saúde. 
+Sistema para acompanhamento do pré-natal, destacado na linha do tempo da informatização da saúde.
 :::
 
 2004 – Política Nacional de Informação e Informática em Saúde (PNIIS) @cr-f30
 
 :::{#cr-f30}
-Grupo de trabalho coordenado pelo DATASUS, com CONASS e CONASEMS, elabora o documento base da PNIIS, consolidando diretrizes para governança da informação e da informática em saúde; o ano de 2004 marca sua formulação e divulgação. 
+Grupo de trabalho coordenado pelo DATASUS, com CONASS e CONASEMS, elabora o documento base da PNIIS, consolidando diretrizes para governança da informação e da informática em saúde; o ano de 2004 marca sua formulação e divulgação.
 :::
 
 2004–2006 – Evolução do SISAGUA @cr-f31
 
 :::{#cr-f31}
-O Sisagua passa pelas versões 1 e 2 (2000–2006), acompanhando as sucessivas portarias de potabilidade da água (Portarias 1469/2000 e 518/2004). 
+O Sisagua passa pelas versões 1 e 2 (2000–2006), acompanhando as sucessivas portarias de potabilidade da água (Portarias 1469/2000 e 518/2004).
 :::
 
 2006 – Pacto pela Saúde (Portaria GM/MS nº 399/2006) @cr-f32
 
 :::{#cr-f32}
-A Portaria GM/MS nº 399/2006 divulga o Pacto pela Saúde 2006 – Consolidação do SUS, e aprova diretrizes operacionais dos pactos Pela Vida, em Defesa do SUS e de Gestão, enfatizando o uso de sistemas de informação como base para planejamento, monitoramento e avaliação. 
+A Portaria GM/MS nº 399/2006 divulga o Pacto pela Saúde 2006 – Consolidação do SUS, e aprova diretrizes operacionais dos pactos Pela Vida, em Defesa do SUS e de Gestão, enfatizando o uso de sistemas de informação como base para planejamento, monitoramento e avaliação.
 :::
 
 2006 – SISCOLO e fortalecimento dos sistemas de câncer @cr-f33
 
 :::{#cr-f33}
-A linha do tempo destaca a criação do SISCOLO (câncer do colo do útero) em 2006 e, posteriormente, do SISMAMA (câncer de mama) em 2009, que mais tarde convergiriam para o SISCAN. 
+A linha do tempo destaca a criação do SISCOLO (câncer do colo do útero) em 2006 e, posteriormente, do SISMAMA (câncer de mama) em 2009, que mais tarde convergiriam para o SISCAN.
 :::
 
 2008–2009 – GAL, SISMAMA e Comitê de Informação e Informática em Saúde (CIINFO) @cr-f34
 
 :::{#cr-f34}
--  2008: implantação do Sistema Gerenciador de Ambiente Laboratorial (GAL). 
--  2009: criação do SISMAMA e da Portaria MS nº 2466/2009, que institui o CIINFO/MS para gerir e aperfeiçoar a PNIIS e o Cartão SUS. 
+-  2008: implantação do Sistema Gerenciador de Ambiente Laboratorial (GAL).
+-  2009: criação do SISMAMA e da Portaria MS nº 2466/2009, que institui o CIINFO/MS para gerir e aperfeiçoar a PNIIS e o Cartão SUS.
 :::
 
 :::
 
 :::{.cr-section}
 
-**Década de 2010 – e-SUS, SISAB, SIPNI e consolidação normativa** @cr-f35
+**Década de 2010 – e-SUS, SISAB, SI-PNI e consolidação normativa** @cr-f35
 
 :::{#cr-f35}
 
 :::
 
-2010 – Implantação nacional do SIPNI (Sistema de Informação do PNI) @cr-f36
+2010 – Implantação nacional do SI-PNI (Sistema de Informação do PNI) @cr-f36
 
 :::{#cr-f36}
-A partir de 2010, o SIPNI entra em processo de implantação em todo o país, permitindo avaliação da situação vacinal em tempo quase real e registro nominal de doses. 
+A partir de 2010, o SI-PNI entra em processo de implantação em todo o país, permitindo avaliação da situação vacinal em tempo quase real e registro nominal de doses.
 :::
 
 2011 – Decreto nº 7.508/2011 (regulamenta a Lei 8.080) @cr-f37
 
 :::{#cr-f37}
-O Decreto nº 7.508, de 28/06/2011, regulamenta a Lei 8.080 para dispor sobre a organização do SUS, planejamento da saúde, assistência e articulação interfederativa, reforçando a importância da informação em saúde para regionalização, redes de atenção e contrato interfederativo. 
+O Decreto nº 7.508, de 28/06/2011, regulamenta a Lei 8.080 para dispor sobre a organização do SUS, planejamento da saúde, assistência e articulação interfederativa, reforçando a importância da informação em saúde para regionalização, redes de atenção e contrato interfederativo.
 :::
 
 2011 – Reestruturação do CIINFO e padrões de interoperabilidade @cr-f38
 
 :::{#cr-f38}
-Portarias MS nº 2072 e 2073/2011 redefinem atribuições do CIINFO e estabelecem padrões para registro eletrônico em saúde e interoperabilidade de informações em todo o território nacional. 
+Portarias MS nº 2072 e 2073/2011 redefinem atribuições do CIINFO e estabelecem padrões para registro eletrônico em saúde e interoperabilidade de informações em todo o território nacional.
 :::
 
 2012 – Portaria MS nº 188/2012 e agenda e-Saúde @cr-f39
 
 :::{#cr-f39}
-A Portaria MS nº 188/2012 aprova o regimento interno do CIINFO e institui subcomitês de segurança da informação e governança de TI; o período é marcado pela formulação da estratégia e-Saúde. 
+A Portaria MS nº 188/2012 aprova o regimento interno do CIINFO e institui subcomitês de segurança da informação e governança de TI; o período é marcado pela formulação da estratégia e-Saúde.
 :::
 
 2013 – Criação do SISAB e do e-SUS AB (Portaria GM/MS nº 1.412/2013) @cr-f40
 
 :::{#cr-f40}
-A Portaria GM/MS nº 1.412, de 10/07/2013, institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) como sistema oficial da APS para fins de financiamento e adesão à PNAB, operacionalizado por meio do e-SUS AB. O SISAB substitui o SIAB como sistema de produção da APS. 
+A Portaria GM/MS nº 1.412, de 10/07/2013, institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB) como sistema oficial da APS para fins de financiamento e adesão à PNAB, operacionalizado por meio do e-SUS AB. O SISAB substitui o SIAB como sistema de produção da APS.
 :::
 
 2013–2014 – Reformulação do SISAGUA (Sisagua 4) @cr-f41
 
 :::{#cr-f41}
-Grandes reformulações em 2013 adequam o Sisagua à Portaria 2.914/2011 (norma de potabilidade); em 2014 é disponibilizado o Sisagua 4, com painel público e relatórios consolidados. 
+Grandes reformulações em 2013 adequam o Sisagua à Portaria 2.914/2011 (norma de potabilidade); em 2014 é disponibilizado o Sisagua 4, com painel público e relatórios consolidados.
 :::
 
 2012–2013 – Estratégia e-Saúde e aplicativos móveis @cr-f42
 
 :::{#cr-f42}
-A linha do tempo da EPSJV lista 2012 como marco das estratégias e-Saúde e 2017 como ano do aplicativo e-Saúde para celulares, reforçando o movimento de digitalização e acesso cidadão à informação. 
+A linha do tempo da EPSJV lista 2012 como marco das estratégias e-Saúde e 2017 como ano do aplicativo e-Saúde para celulares, reforçando o movimento de digitalização e acesso cidadão à informação.
 :::
 
 2012 – Lei Complementar nº 141/2012: obrigatoriedade do SIOPS @cr-f43
 
 :::{#cr-f43}
-A LC nº 141/2012 regulamenta a EC 29 e torna obrigatório o registro de dados sobre despesas em saúde no SIOPS pelos entes federativos, sob responsabilidade do gestor do SUS. 
+A LC nº 141/2012 regulamenta a EC 29 e torna obrigatório o registro de dados sobre despesas em saúde no SIOPS pelos entes federativos, sob responsabilidade do gestor do SUS.
 :::
 
 2017 – Portaria de Consolidação nº 5/2017 @cr-f44
 
 :::{#cr-f44}
-Consolida diversas normas infralegais do MS, incluindo o Anexo XX sobre procedimentos de controle e vigilância da qualidade da água para consumo humano, que fundamenta o uso do Sisagua. 
+Consolida diversas normas infralegais do MS, incluindo o Anexo XX sobre procedimentos de controle e vigilância da qualidade da água para consumo humano, que fundamenta o uso do Sisagua.
 :::
 
 2017 – Aplicativo e-Saúde @cr-f45
 
 :::{#cr-f45}
-Lançamento do aplicativo e-Saúde (citada na linha do tempo da EPSJV) como parte da estratégia de ampliar o acesso cidadão às informações do SUS. 
+Lançamento do aplicativo e-Saúde (citada na linha do tempo da EPSJV) como parte da estratégia de ampliar o acesso cidadão às informações do SUS.
 :::
 
 :::
@@ -327,13 +327,13 @@ Lançamento do aplicativo e-Saúde (citada na linha do tempo da EPSJV) como part
 2021 – Portaria nº 4, de 28/01/2021: prazos de envio ao SISAB @cr-f47
 
 :::{#cr-f47}
-Estabelece prazos para o envio da produção da Atenção Primária para o SISAB a partir de 1º/01/2021, reforçando a centralidade do sistema no financiamento da APS. 
+Estabelece prazos para o envio da produção da Atenção Primária para o SISAB a partir de 1º/01/2021, reforçando a centralidade do sistema no financiamento da APS.
 :::
 
 Atualidade – Consolidação dos painéis e dados abertos @cr-f48
 
 :::{#cr-f48}
-Painéis e bases do SIM, SINASC, SINAN, SIH/SUS, SIA/SUS, SISAB, SIOPS, SISAGUA, SIPNI e outros são mantidos em portais como DATASUS/OpenDataSUS, com funções de download e visualização. 
+Painéis e bases do SIM, SINASC, SINAN, SIH/SUS, SIA/SUS, SISAB, SIOPS, SISAGUA, SI-PNI e outros são mantidos em portais como DATASUS/OpenDataSUS, com funções de download e visualização.
 :::
 
 :::

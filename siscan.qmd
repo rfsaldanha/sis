@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SISCAN -- Sistema de Informação de Câncer {#sec-siscan}
+# SISCAN — Sistema de Informação de Câncer {#sec-siscan}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -291,7 +291,7 @@ Para estudar tempo, identifique claramente os marcos usados: solicitação, real
 
 O território pode ser atribuído pela residência da pessoa, pela unidade solicitante ou pelo prestador. A residência descreve a população atendida; a unidade solicitante expressa a porta de entrada; o prestador mostra onde o exame foi realizado. Compará-los permite estudar deslocamentos e organização regional da oferta.
 
-Em séries temporais, competência de processamento, data da solicitação, data do exame e data do laudo podem produzir curvas diferentes. Períodos recentes são particularmente sensíveis a atraso de digitação. Mudanças de versão, regras, implantação e cobertura precisam ser assinaladas junto aos resultados.
+Em séries temporais, competência de processamento, data da solicitação, data do exame e data do laudo podem produzir curvas diferentes. Períodos recentes são particularmente sensíveis a atraso de digitação. Mudanças de versão, regras, implantação e cobertura precisam ser assinaladas nos resultados.
 
 ## Acesso aos dados
 
@@ -345,7 +345,7 @@ Antes de concluir uma análise, verifique se:
 - Os limites do relacionamento de registros foram descritos;
 - Resultados do Painel Oncologia foram interpretados conforme suas fontes;
 - Endereços, filtros e data de acesso foram documentados;
-- As limitações foram apresentadas junto às conclusões.
+- As limitações foram apresentadas nas conclusões.
 
 ## Bibliografia recomendada
 
@@ -359,7 +359,7 @@ Antes de concluir uma análise, verifique se:
 ### Artigos
 
 - Artigo *PAINEL-Oncologia: uma ferramenta de gestão* [@attyPainelOncologia2020]. Disponível [no DOI](https://doi.org/10.32635/2176-9745.RBC.2020v66n2.827).
-- Artigo *Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008-2019* [@tomazelliCoberturaSistemasCancer2022]. Disponível [no DOI](https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544).
+- Artigo *Cobertura dos Sistemas de Informação dos Cânceres do Colo do Útero e de Mama no Brasil, 2008–2019* [@tomazelliCoberturaSistemasCancer2022]. Disponível [no DOI](https://doi.org/10.32635/2176-9745.RBC.2022v68n1.1544).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->
@@ -370,7 +370,7 @@ Antes de concluir uma análise, verifique se:
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 204.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 438.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Relacionamento determinístico”](interoperabilidade.html#relacionamento-determinístico). Na edição impressa, p. 440.
 
 - [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 58.
 

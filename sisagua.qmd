@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano {#sec-sisagua}
+# SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano {#sec-sisagua}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -656,7 +656,7 @@ Limitações recorrentes do SISAGUA
 
 :::
 
-As limitações do @qua-sisagua-limitacoes-recorrentes-do-sisagua delimitam o uso correto do sistema. O SISAGUA é indispensável para vigilância da qualidade da água, mas seus registros dependem de cadastro, monitoramento, laboratório e digitação. A ausência de evidência de inconformidade só deve ser interpretada junto com a evidência de que houve monitoramento suficiente e adequado.
+As limitações do @qua-sisagua-limitacoes-recorrentes-do-sisagua delimitam o uso correto do sistema. O SISAGUA é indispensável para vigilância da qualidade da água, mas seus registros dependem de cadastro, monitoramento, laboratório e digitação. A ausência de evidência de inconformidade só deve ser interpretada em conjunto com a evidência de que houve monitoramento suficiente e adequado.
 
 ## Cuidados de interpretação
 
@@ -736,7 +736,7 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 - Cadastro, controle e vigilância foram mantidos separados quando necessário;
 - O período e a norma aplicável foram documentados;
 - Parâmetro, unidade e ponto de coleta foram conferidos;
-- O número de amostras foi avaliado junto com resultados fora do padrão;
+- O número de amostras foi avaliado em conjunto com os resultados fora do padrão;
 - O cumprimento do plano de amostragem foi avaliado quando relevante;
 - Coletas de rotina e emergenciais foram separadas quando necessário;
 - População abastecida e população residente não foram confundidas;
@@ -756,7 +756,7 @@ Antes de concluir uma análise com SISAGUA, verifique se:
 ### Artigos
 
 - Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): características, evolução e aplicabilidade* [@oliveiraSistemaInformacaoVigilancia2019]. Disponível [aqui](https://doi.org/10.5123/S1679-49742019000100024).
-- Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014-2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).
+- Artigo *Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (Sisagua): avaliação da completitude dos dados sobre cobertura de abastecimento, 2014–2020* [@mataSistemaInformacaoVigilancia2022]. Disponível [aqui](https://doi.org/10.1590/S2237-96222022000300003).
 
 
 <!-- BEGIN GENERATED SEE ALSO -->

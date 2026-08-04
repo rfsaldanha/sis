@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SIA -- Sistema de Informações Ambulatoriais do SUS {#sec-sia}
+# SIA — Sistema de Informações Ambulatoriais do SUS {#sec-sia}
 
 ::: {.content-visible when-format="html"}
 ```{=html}

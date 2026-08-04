@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# RNDS -- Rede Nacional de Dados em Saúde {#sec-rnds}
+# RNDS — Rede Nacional de Dados em Saúde {#sec-rnds}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -385,7 +385,7 @@ A RNDS se relaciona com vários sistemas, mas a relação não é sempre a mesma
 | Sistema ou área | Relação com a RNDS | Cuidado |
 |---|---|---|
 | SI-PNI (@sec-sipni) | Registros de imunização podem ser integrados por RIA | Dose, pessoa, residência e aplicação precisam ser diferenciadas |
-| SISAPS/SISAB (@sec-siaps) | Registros da APS podem compor fluxos de atendimento e vacinação | Fluxos intermediários podem gerar atraso |
+| SISAB e Siaps (@sec-siaps) | Registros da APS podem compor fluxos de atendimento e vacinação | Fluxos intermediários podem gerar atraso |
 | CNES (@sec-cnes) | Estabelecimentos precisam estar identificados | CNES deve estar válido e compatível com o evento |
 | SINAN (@sec-sinan) | Vigilância pode se beneficiar de integração e documentos clínicos | Notificação e atendimento são eventos diferentes |
 | SIA/SIH (@sec-sia; @sec-sih) | Produção e internação podem dialogar com trajetória assistencial | Faturamento/produção não equivale a prontuário completo |
@@ -564,7 +564,7 @@ O acesso técnico e documental à RNDS é organizado por páginas oficiais do Mi
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-rnds}
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 435.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “O que é interoperabilidade”](interoperabilidade.html#o-que-é-interoperabilidade). Na edição impressa, p. 437.
 
 - [Organização dos SIS — seção “Integração entre sistemas”](organizacao.html#integração-entre-sistemas). Na edição impressa, p. 47.
 

@@ -23,8 +23,8 @@ AB
 ABI
 : Aviso de Beneficiário Identificado
 
-Aids/AIDS
-: Síndrome da imunodeficiência adquirida; a sigla deriva do inglês *acquired immunodeficiency syndrome*
+Aids
+: Síndrome da imunodeficiência adquirida; a sigla AIDS deriva do inglês *acquired immunodeficiency syndrome*
 
 AIH
 : Autorização de Internação Hospitalar
@@ -71,11 +71,11 @@ CADSUS
 CBO
 : Classificação Brasileira de Ocupações
 
-CIB
-: Comissão Intergestores Bipartite
-
 CDS
 : Coleta de Dados Simplificada
+
+CIB
+: Comissão Intergestores Bipartite
 
 CID
 : Classificação Internacional de Doenças
@@ -119,11 +119,11 @@ CV
 D1/D2
 : Primeira dose e segunda dose de um esquema vacinal
 
-DATASUS
-: Departamento de Informática do Sistema Único de Saúde
-
 DATAPREV
 : Empresa de Tecnologia e Informações da Previdência
+
+DATASUS
+: Departamento de Informática do Sistema Único de Saúde
 
 DBC
 : Formato compactado de arquivos DBF usado pelo DATASUS
@@ -167,23 +167,23 @@ DTB
 D-TISS
 : Painel dos Dados do Padrão de Troca de Informações na Saúde Suplementar
 
+eAP
+: Equipe de Atenção Primária
+
 EAPV
 : Eventos Adversos Pós-Vacinação
 
 EDI
 : Estoque e Distribuição de Imunobiológicos
 
+e-Gestor APS
+: Plataforma eletrônica de gestão da Atenção Primária à Saúde
+
 EMAp
 : Escola de Matemática Aplicada da Fundação Getulio Vargas
 
 ESAVI
 : Eventos Supostamente Atribuíveis à Vacinação ou Imunização
-
-eAP
-: Equipe de Atenção Primária
-
-e-Gestor APS
-: Plataforma eletrônica de gestão da Atenção Primária à Saúde
 
 eSB
 : Equipe de Saúde Bucal
@@ -218,8 +218,8 @@ FNS
 FPM
 : Fundo de Participação dos Municípios
 
-Funasa/FUNASA
-: Fundação Nacional de Saúde
+Funasa
+: Fundação Nacional de Saúde; a forma FUNASA aparece em documentos históricos
 
 GAL
 : Gerenciador de Ambiente Laboratorial
@@ -410,14 +410,14 @@ SAS/MS
 SG
 : Síndrome gripal
 
-SI-PNI/SIPNI
-: Sistema de Informações do Programa Nacional de Imunizações
-
 SIA/SUS
 : Sistema de Informações Ambulatoriais do Sistema Único de Saúde
 
 SIAB
 : Sistema de Informação da Atenção Básica
+
+Siaps
+: Sistema de Informação para a Atenção Primária à Saúde; também grafado SISAPS em alguns materiais institucionais
 
 SIB
 : Sistema de Informações de Beneficiários
@@ -449,6 +449,9 @@ SIOPS
 SIP
 : Sistema de Informações de Produtos
 
+SI-PNI
+: Sistema de Informações do Programa Nacional de Imunizações; também grafado SIPNI
+
 SIS
 : Sistemas de Informação em Saúde
 
@@ -457,9 +460,6 @@ SISAB
 
 SISAGUA
 : Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
-
-SISAPS/Siaps
-: Sistema de Informação para a Atenção Primária à Saúde
 
 SISCAN
 : Sistema de Informação de Câncer

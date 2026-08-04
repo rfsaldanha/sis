@@ -5,7 +5,7 @@ Informação	introducao	Dados, informação e conhecimento
 Conhecimento	introducao	Dados, informação e conhecimento
 Registro Civil	historico	Do Registro Civil à aproximação com o setor saúde
 Instrumentos de coleta	historico	Padronização dos instrumentos de coleta
-DATASUS	historico	O Departamento de Informática do SUS -- DATASUS
+DATASUS	historico	O Departamento de Informática do SUS — DATASUS
 Disseminação pública de dados	historico	Disseminação pública e acesso aos dados
 Interoperabilidade	historico	Integração, interoperabilidade e novos desafios
 Qualidade dos dados	historico	Qualidade, oportunidade e desigualdades
@@ -40,7 +40,7 @@ Imunizações	eventos	Imunizações
 Denominadores	eventos	Denominadores e indicadores
 Indicadores	eventos	Denominadores e indicadores
 Relacionamento entre sistemas	eventos	Relacionamento entre sistemas
-SIM — Sistema de Informação sobre Mortalidade	sim	SIM -- Sistema de Informação sobre Mortalidade
+SIM — Sistema de Informação sobre Mortalidade	sim	SIM — Sistema de Informação sobre Mortalidade
 Declaração de Óbito (DO)	sim	Fluxo da Declaração de Óbito
 Emissão da Declaração de Óbito	sim	Emissão da Declaração de Óbito
 Vigilância do óbito	sim	Vigilância e investigação de óbitos
@@ -53,7 +53,7 @@ Análise temporal	sim	Análise temporal
 Acidentes de trânsito	sim	Exemplo: acidentes de trânsito
 Mortalidade infantil	sim	Exemplo: mortalidade infantil
 Qualidade dos dados	sim	Qualidade dos dados
-SINASC — Sistema de Informação sobre Nascidos Vivos	sinasc	SINASC -- Sistema de Informação sobre Nascidos Vivos
+SINASC — Sistema de Informação sobre Nascidos Vivos	sinasc	SINASC — Sistema de Informação sobre Nascidos Vivos
 Declaração de Nascido Vivo (DNV)	sinasc	Fluxo da Declaração de Nascido Vivo
 Nascido vivo	sinasc	O que é nascido vivo
 Unidade de análise	sinasc	Cobertura e unidade de análise
@@ -62,7 +62,7 @@ Anomalias congênitas	sinasc	Anomalias congênitas
 Baixo peso ao nascer	sinasc	Exemplo: baixo peso ao nascer
 Denominadores	sinasc	Uso como denominador
 Qualidade dos dados	sinasc	Avaliação da qualidade dos dados
-SIH/SUS — Sistema de Informações Hospitalares do SUS	sih	SIH -- Sistema de Informações Hospitalares do SUS
+SIH/SUS — Sistema de Informações Hospitalares do SUS	sih	SIH — Sistema de Informações Hospitalares do SUS
 Autorização de Internação Hospitalar (AIH)	sih	Fluxo da AIH
 AIH	sih	AIH, internação e pessoa
 Internação hospitalar	sih	AIH, internação e pessoa
@@ -74,7 +74,7 @@ Fluxos de internação	sih	Exemplo: fluxos de internação
 AIH rejeitada	sih	AIHs rejeitadas
 Internações por Condições Sensíveis à Atenção Primária (ICSAP)	sih	Exemplo: internações por condições sensíveis à atenção primária
 Grandes volumes de dados	sih	Processamento de grandes volumes
-SIA/SUS — Sistema de Informações Ambulatoriais do SUS	sia	SIA -- Sistema de Informações Ambulatoriais do SUS
+SIA/SUS — Sistema de Informações Ambulatoriais do SUS	sia	SIA — Sistema de Informações Ambulatoriais do SUS
 Produção ambulatorial	sia	Fluxo da produção ambulatorial
 Boletim de Produção Ambulatorial (BPA)	sia	Instrumentos de registro
 Autorização de Procedimentos Ambulatoriais (APAC)	sia	Instrumentos de registro
@@ -84,7 +84,7 @@ Mamografia	sia	Exemplo: produção de mamografias
 APAC	sia	APAC e alta complexidade
 Produção ambulatorial rejeitada	sia	Produção rejeitada e crítica
 Validação reprodutível	sia	Validação reprodutível
-SINAN — Sistema de Informação de Agravos de Notificação	sinan	SINAN -- Sistema de Informação de Agravos de Notificação
+SINAN — Sistema de Informação de Agravos de Notificação	sinan	SINAN — Sistema de Informação de Agravos de Notificação
 Notificação compulsória	sinan	Fluxo da notificação
 SINAN NET	sinan	SINAN NET, SINAN Online e e-SUS SINAN
 SINAN Online	sinan	SINAN NET, SINAN Online e e-SUS SINAN
@@ -158,7 +158,7 @@ Violência doméstica e sexual	sinan	Violência doméstica, sexual e/ou outras v
 Violência interpessoal ou autoprovocada	sinan	Violência interpessoal/autoprovocada
 Zika vírus	sinan	Zika vírus
 SIVEP	sinan	SINAN e SIVEP
-CNES — Cadastro Nacional de Estabelecimentos de Saúde	cnes	CNES -- Cadastro Nacional de Estabelecimentos de Saúde
+CNES — Cadastro Nacional de Estabelecimentos de Saúde	cnes	CNES — Cadastro Nacional de Estabelecimentos de Saúde
 Estabelecimento de saúde	cnes	Unidade de análise
 Série histórica do CNES	cnes	Estabelecimentos em série histórica
 Leitos hospitalares	cnes	Exemplo: leitos hospitalares
@@ -172,8 +172,8 @@ Rede privada	cnes	Rede SUS, privada, filantrópica e suplementar
 Rede filantrópica	cnes	Rede SUS, privada, filantrópica e suplementar
 Rede suplementar	cnes	Rede SUS, privada, filantrópica e suplementar
 Denominadores	cnes	CNES como denominador
-SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
-Qualidade da água	sisagua	SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano	sisagua	SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+Qualidade da água	sisagua	SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
 Controle da qualidade da água	sisagua	Controle e vigilância
 Vigilância da qualidade da água	sisagua	Controle e vigilância
 Formas de abastecimento de água	sisagua	Formas de abastecimento
@@ -182,8 +182,8 @@ Potabilidade	sisagua	Parâmetros e potabilidade
 Plano de amostragem	sisagua	Plano de amostragem
 Indicador microbiológico	sisagua	Exemplo: indicador microbiológico
 Emergências em saúde pública	sisagua	Monitoramento em emergências
-SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde	siops	SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde
-Orçamento público em saúde	siops	SIOPS -- Sistema de Informações sobre Orçamentos Públicos em Saúde
+SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde	siops	SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde
+Orçamento público em saúde	siops	SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde
 Esferas federativas	siops	Esferas federativas e responsabilidades
 Despesa pública em saúde	siops	Fases da despesa
 Ações e Serviços Públicos de Saúde (ASPS)	siops	ASPS e aplicação mínima
@@ -191,16 +191,16 @@ Aplicação mínima em saúde	siops	ASPS e aplicação mínima
 Restos a pagar	siops	Restos a pagar e compensações
 Deflação	siops	Deflação de valores monetários
 Financiamento da saúde	siops	Financiamento, acesso e resultados
-SISAPS — Sistema de Informação para a Atenção Primária à Saúde	sisaps	SISAPS -- Sistema de Informação para a Atenção Primária à Saúde
-Atenção Primária à Saúde (APS)	sisaps	SISAPS -- Sistema de Informação para a Atenção Primária à Saúde
+Siaps — Sistema de Informação para a Atenção Primária à Saúde	sisaps	Siaps — Sistema de Informação para a Atenção Primária à Saúde
+Atenção Primária à Saúde (APS)	sisaps	Siaps — Sistema de Informação para a Atenção Primária à Saúde
 Equipe de saúde	sisaps	Identificadores de equipe
 Denominadores	sisaps	Qual denominador usar?
 Cofinanciamento da APS	sisaps	Indicadores e cofinanciamento
 Vínculo territorial	sisaps	Vínculo territorial
 Pré-natal na APS	sisaps	Exemplo: pré-natal na APS
 Privacidade	sisaps	Privacidade e agregação
-SI-PNI — Sistema de Informações do Programa Nacional de Imunizações	sipni	SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações
-Programa Nacional de Imunizações (PNI)	sipni	SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações
+SI-PNI — Sistema de Informações do Programa Nacional de Imunizações	sipni	SI-PNI — Sistema de Informações do Programa Nacional de Imunizações
+Programa Nacional de Imunizações (PNI)	sipni	SI-PNI — Sistema de Informações do Programa Nacional de Imunizações
 Registro de imunização	sipni	O que o SI-PNI registra
 Dose de vacina	sipni	Dose, pessoa e esquema
 Esquema vacinal	sipni	Dose, pessoa e esquema
@@ -209,7 +209,7 @@ Cobertura administrativa	sipni	Cobertura administrativa e cobertura de inquérit
 Cobertura de inquérito	sipni	Cobertura administrativa e cobertura de inquérito
 Campanha de vacinação	sipni	Rotina, campanha e Covid-19
 Dados individualizados	sipni	Privacidade e dados individualizados
-RNDS — Rede Nacional de Dados em Saúde	rnds	RNDS -- Rede Nacional de Dados em Saúde
+RNDS — Rede Nacional de Dados em Saúde	rnds	RNDS — Rede Nacional de Dados em Saúde
 Arquitetura da RNDS	rnds	Arquitetura em camadas
 Modelos de informação	rnds	Modelos de informação
 FHIR	rnds	FHIR, terminologias e semântica
@@ -222,7 +222,7 @@ Segurança da informação	rnds	Privacidade, segurança e governança
 Governança de dados	rnds	Privacidade, segurança e governança
 Continuidade do cuidado	rnds	Continuidade do cuidado
 Uso secundário de dados	rnds	Uso secundário de dados
-CID — Classificação Internacional de Doenças	cid	CID -- Classificação Internacional de Doenças
+CID — Classificação Internacional de Doenças	cid	CID — Classificação Internacional de Doenças
 CID-10	cid	Estrutura da CID-10
 Mortalidade e morbidade	cid	Mortalidade e morbidade
 Causas externas	cid	Causas externas
@@ -240,13 +240,13 @@ Contagem populacional	pop	Censo, contagem, estimativa e projeção
 Projeção populacional	pop	Censo, contagem, estimativa e projeção
 IBGE	pop	IBGE — TCU
 Denominadores	pop	Escolha do denominador
-SIVEP — Sistema de Vigilância Epidemiológica	sivep	SIVEP -- Sistema de Vigilância Epidemiológica
+SIVEP — Sistema de Vigilância Epidemiológica	sivep	SIVEP — Sistema de Vigilância Epidemiológica
 SIVEP-Gripe	sivep	SIVEP-Gripe
 SIVEP-Malária	sivep	SIVEP-Malária
 SIVEP-DDA	sivep	SIVEP-DDA
-SISVAN — Sistema de Vigilância Alimentar e Nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
-Vigilância alimentar e nutricional	sisvan	SISVAN -- Sistema de Vigilância Alimentar e Nutricional
-ANS — Agência Nacional de Saúde Suplementar	ans	ANS -- Agência Nacional de Saúde Suplementar
+SISVAN — Sistema de Vigilância Alimentar e Nutricional	sisvan	SISVAN — Sistema de Vigilância Alimentar e Nutricional
+Vigilância alimentar e nutricional	sisvan	SISVAN — Sistema de Vigilância Alimentar e Nutricional
+ANS — Agência Nacional de Saúde Suplementar	ans	ANS — Agência Nacional de Saúde Suplementar
 Planos privados de saúde	ans	Para que serve a ANS
 Regulação da saúde suplementar	ans	Criação e principais marcos regulatórios
 Saúde suplementar	ans	Para que serve a ANS
@@ -269,7 +269,7 @@ Relacionamento probabilístico	interoperabilidade	Relacionamento probabilístico
 Métodos híbridos de relacionamento	interoperabilidade	Estratégias híbridas e métodos de classificação
 Privacidade	interoperabilidade	Privacidade, segurança e uso responsável
 Proteção de dados	interoperabilidade	Privacidade, segurança e uso responsável
-SISCAN — Sistema de Informação de Câncer	siscan	SISCAN -- Sistema de Informação de Câncer
+SISCAN — Sistema de Informação de Câncer	siscan	SISCAN — Sistema de Informação de Câncer
 SISCOLO	siscan	SISCAN, SISCOLO e SISMAMA
 SISMAMA	siscan	SISCAN, SISCOLO e SISMAMA
 Painel Oncologia	siscan	Painel Oncologia

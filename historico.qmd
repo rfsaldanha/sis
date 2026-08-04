@@ -35,9 +35,9 @@ Essa trajetória ajuda a compreender uma característica central dos Sistemas de
 | Período | Movimento principal | Efeito sobre os SIS |
 |---|---|---|
 | Até os anos 1970 | Predomínio de registros civis e administrativos fragmentados | Baixa padronização, sub-registro e limitada comparabilidade territorial |
-| Anos 1970-1980 | Criação dos primeiros sistemas nacionais e padronização de instrumentos | Consolidação de estatísticas vitais, imunizações e produção assistencial |
+| Anos 1970–1980 | Criação dos primeiros sistemas nacionais e padronização de instrumentos | Consolidação de estatísticas vitais, imunizações e produção assistencial |
 | A partir de 1988 | Constituição Federal, criação do SUS e descentralização | Municípios e estados assumem papel central na produção e uso dos dados |
-| Anos 1990-2000 | Criação e consolidação do DATASUS | Integração nacional de bases, disseminação pública e infraestrutura tecnológica |
+| Anos 1990–2000 | Criação e consolidação do DATASUS | Integração nacional de bases, disseminação pública e infraestrutura tecnológica |
 | Anos 2010 em diante | Expansão de dados abertos, sistemas digitais conectados e interoperabilidade | Novas possibilidades de análise, integração e uso em tempo oportuno |
 
 Periodização sintética da experiência brasileira em Sistemas de Informação em Saúde
@@ -92,7 +92,7 @@ A consolidação dos SIS brasileiros ocorreu de forma progressiva, acompanhando 
 | CNES (@sec-cnes) | Criado em 2000 | Cadastro nacional de estabelecimentos, serviços, equipamentos e profissionais de saúde |
 | SIOPS (@sec-siops) | Criado em 2000 | Informações sobre receitas e despesas públicas em saúde |
 | SISCAN (@sec-siscan) | Instituído em 2013, em substituição gradual ao SISCOLO e ao SISMAMA | Detecção precoce, diagnóstico e seguimento dos cânceres do colo do útero e de mama |
-| SISAB/SISAPS (@sec-siaps) | SISAB implantado em 2013 e renovado pelo SISAPS/Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
+| SISAB e Siaps (@sec-siaps) | SISAB implantado em 2013 e renovado pelo Siaps em 2025 | Informações da APS, vínculo territorial, acompanhamento de equipes e produção |
 
 Marcos de criação e consolidação dos principais sistemas abordados no livro
 
@@ -116,9 +116,9 @@ A informatização progressiva modificou esse processo. Sistemas com críticas a
 
 Mais recentemente, sistemas digitais conectados e estratégias de integração passaram a criar a expectativa de maior oportunidade dos dados. Essa mudança é particularmente relevante para vigilância epidemiológica, imunizações e acompanhamento assistencial, áreas em que atrasos podem afetar respostas rápidas. Ao mesmo tempo, dados mais oportunos podem ser mais preliminares, sujeitos a revisão e menos completos que bases consolidadas posteriormente.
 
-## O Departamento de Informática do SUS -- DATASUS
+## O Departamento de Informática do SUS — DATASUS
 
-Com o estabelecimento do SUS, foi criado em 1991 o Departamento de Informática do SUS (DATASUS), inicialmente vinculado à Fundação Nacional de Saúde (FUNASA) [@brasilDecreto1001991]. O novo departamento incorporou profissionais oriundos da Diretoria de Sistemas de Saúde da DATAPREV, empresa de tecnologia e informações da Previdência, e de outros órgãos.
+Com o estabelecimento do SUS, foi criado em 1991 o Departamento de Informática do SUS (DATASUS), inicialmente vinculado à Fundação Nacional de Saúde (Funasa) [@brasilDecreto1001991]. O novo departamento incorporou profissionais oriundos da Diretoria de Sistemas de Saúde da DATAPREV, empresa de tecnologia e informações da Previdência, e de outros órgãos.
 
 A localização institucional inicial do DATASUS fora da administração direta do Ministério da Saúde impunha desafios de coordenação. Em 1998 foram iniciadas ações para sua transferência, efetivada em 2002, quando o departamento passou a integrar diretamente a estrutura do Ministério da Saúde [@brasilDecreto41942002; @BrasilDataSUS2002].
 
@@ -172,7 +172,7 @@ A trajetória institucional descrita nesta seção pode ser acompanhada pelos ma
 | 2002 | Transferência do DATASUS para a administração direta do Ministério da Saúde |
 | 2013 | Implantação do SISAB |
 | 2020 | Instituição do Programa Conecte SUS e da RNDS |
-| 2025 | Instituição do SISAPS/Siaps como renovação do SISAB |
+| 2025 | Instituição do Siaps como renovação do SISAB |
 
 Marcos selecionados da trajetória dos SIS brasileiros
 
@@ -197,7 +197,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 
 - [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 36.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 436.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 438.
 
 :::
 <!-- END GENERATED SEE ALSO -->

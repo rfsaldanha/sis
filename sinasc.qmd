@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SINASC -- Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
+# SINASC — Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -69,7 +69,7 @@ Perguntas comuns que podem ser respondidas com o SINASC
 
 :::
 
-Esse conjunto de perguntas mostra que o SINASC pode responder tanto perguntas descritivas, como a contagem de nascidos vivos, quanto perguntas analíticas, como desigualdades no peso ao nascer ou no tipo de parto. O ponto decisivo é não transformar automaticamente variáveis disponíveis em conclusões sobre qualidade da assistência. Número de consultas, tipo de parto, Apgar e anomalias congênitas, por exemplo, precisam ser lidos junto com contexto clínico, cobertura, completitude e diferenças de preenchimento entre serviços.
+Esse conjunto de perguntas mostra que o SINASC pode responder tanto perguntas descritivas, como a contagem de nascidos vivos, quanto perguntas analíticas, como desigualdades no peso ao nascer ou no tipo de parto. O ponto decisivo é não transformar automaticamente variáveis disponíveis em conclusões sobre qualidade da assistência. Número de consultas, tipo de parto, Apgar e anomalias congênitas, por exemplo, precisam ser lidos em conjunto com o contexto clínico, cobertura, completitude e diferenças de preenchimento entre serviços.
 
 ## Histórico e organização
 
@@ -106,9 +106,9 @@ flowchart TD
   via3 --> es[Estabelecimento ou prontuário]
 ```
 
-A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou junto ao prontuário.
+A primeira via é encaminhada à secretaria municipal de saúde para processamento e alimentação do SINASC. A segunda via é entregue à família para apresentação ao Registro Civil e emissão da certidão de nascimento. A terceira via permanece no estabelecimento de saúde ou anexada ao prontuário.
 
-Esse encadeamento ajuda a interpretar problemas de oportunidade. Um nascimento pode ter ocorrido em determinada data, mas entrar na base municipal ou nacional depois, a depender do tempo de envio, digitação, crítica e consolidação. Por isso, análises de anos recentes devem explicitar se usam base preliminar ou consolidada.
+Esse encadeamento ajuda a interpretar problemas de oportunidade. Um nascimento pode ter ocorrido em determinada data, mas entrar na base municipal ou nacional depois, conforme o tempo de envio, digitação, crítica e consolidação. Por isso, análises de anos recentes devem explicitar se usam base preliminar ou consolidada.
 
 ## O que é nascido vivo
 
@@ -266,7 +266,7 @@ Campos úteis em uma análise de baixo peso ao nascer
 
 :::
 
-Uma análise mais consistente deve avaliar baixo peso junto com idade gestacional. Um recém-nascido pode ter baixo peso por prematuridade, restrição de crescimento intrauterino ou combinação de fatores. Em municípios pequenos, use períodos agregados ou medidas de suavização quando a proporção for instável.
+Uma análise mais consistente deve avaliar baixo peso em conjunto com a idade gestacional. Um recém-nascido pode ter baixo peso por prematuridade, restrição de crescimento intrauterino ou combinação de fatores. Em municípios pequenos, use períodos agregados ou medidas de suavização quando a proporção for instável.
 
 Os elementos do quadro funcionam como um roteiro mínimo para evitar uma proporção aparentemente simples, mas frágil. O denominador deve excluir registros sem peso válido, a estratificação precisa considerar perdas de informação e o território deve ser coerente com a pergunta. Se o interesse for desigualdade entre residentes, use residência da mãe; se for perfil de serviços de parto, use ocorrência ou estabelecimento.
 
@@ -305,7 +305,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
 
 ## Estrutura dos dados
 
-A imagem da DNV ajuda a perceber que o SINASC nasce de um formulário estruturado, não de um banco criado apenas para pesquisa. Campos aparentemente simples carregam instruções de preenchimento, categorias oficiais e limites do momento em que a informação é registrada. Por isso, o manual da DNV e o dicionário de dados devem ser consultados junto com a base.
+A imagem da DNV ajuda a perceber que o SINASC nasce de um formulário estruturado, não de um banco criado apenas para pesquisa. Campos aparentemente simples carregam instruções de preenchimento, categorias oficiais e limites do momento em que a informação é registrada. Por isso, o manual da DNV e o dicionário de dados devem ser consultados em conjunto com a base.
 
 O documento de [estrutura do SINASC](assets/sinasc/Estrutura_SINASC_para_CD.pdf) descreve as variáveis disponíveis nos arquivos de disseminação. Entre os campos de maior uso estão data de nascimento, município de residência da mãe, município de ocorrência, idade materna, escolaridade, raça/cor, número de consultas de pré-natal, tipo de parto, idade gestacional, peso ao nascer, Apgar e presença de anomalia congênita.
 
@@ -357,7 +357,7 @@ Em análises nacionais, registros de residentes no exterior geralmente precisam 
 
 ## Acesso aos dados
 
-Os dados do SINASC podem ser acessados por diferentes caminhos, a depender do objetivo da análise.
+Os dados do SINASC podem ser acessados por diferentes caminhos, conforme o objetivo da análise.
 
 ::: {#qua-sinasc-formas-de-acesso-aos-dados-do-sinasc}
 
@@ -561,7 +561,7 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 
 - [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 83.
 
-- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 373.
+- [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 375.
 
 :::
 <!-- END GENERATED SEE ALSO -->

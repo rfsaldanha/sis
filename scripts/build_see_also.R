@@ -52,7 +52,7 @@ chapter_titles <- c(
   siscan = "SISCAN — Sistema de Informação de Câncer",
   sisagua = "SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano",
   siops = "SIOPS — Sistema de Informações sobre Orçamentos Públicos em Saúde",
-  sisaps = "SISAPS — Sistema de Informação para a Atenção Primária à Saúde",
+  sisaps = "Siaps — Sistema de Informação para a Atenção Primária à Saúde",
   sipni = "SI-PNI — Sistema de Informações do Programa Nacional de Imunizações",
   rnds = "RNDS — Rede Nacional de Dados em Saúde",
   quadro_resumo = "Quadro-resumo",

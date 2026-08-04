@@ -152,7 +152,7 @@ chapter_labels <- c(
   siscan = "SISCAN",
   sisagua = "SISAGUA",
   siops = "SIOPS",
-  sisaps = "SISAPS",
+  sisaps = "Siaps",
   sipni = "SI-PNI",
   rnds = "RNDS",
   quadro_resumo = "Quadro-resumo",

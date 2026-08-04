@@ -162,7 +162,7 @@ taxa_mortalidade <- obitos |>
   mutate(taxa_100mil = obitos / populacao * 100000)
 ```
 
-Em séries históricas, preserve a fonte e a versão da população junto com o resultado final. Isso evita que uma atualização posterior do denominador torne tabelas e gráficos irreprodutíveis.
+Em séries históricas, preserve a fonte e a versão da população associadas ao resultado final. Isso evita que uma atualização posterior do denominador torne tabelas e gráficos irreprodutíveis.
 
 ## *Checklist*
 
@@ -185,11 +185,11 @@ Antes de publicar um indicador com denominador populacional, verifique:
 
 - [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 288.
+- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 288.
 
 - [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 315.
 
-- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 406.
+- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 408.
 
 :::
 <!-- END GENERATED SEE ALSO -->

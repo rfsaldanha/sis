@@ -1,7 +1,6 @@
 ---
 author:
   - Raphael de Freitas Saldanha
-  - Mônica de A. F. M. Magalhães
 ---
 
 # Introdução
@@ -11,6 +10,7 @@ author:
 <section class="podcast-player" data-transcript="podcast/introducao_dialogo_eleven_v3_transcript.json">
 <h2>Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
+<p><strong>Nota editorial:</strong> o áudio preserva uma referência a uma versão anterior dos créditos. Na edição atual, a autoria da Introdução é de Raphael de Freitas Saldanha.</p>
 <audio class="podcast-audio" controls preload="metadata">
   <source src="podcast/introducao_dialogo_eleven_v3.mp3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
@@ -31,7 +31,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 A disponibilidade oportuna de dados confiáveis é essencial para a tomada de decisão em saúde. Sistemas de vigilância, planejamento, financiamento, regulação, assistência e avaliação dependem de registros capazes de descrever o que acontece com a população e com os serviços. Nesse contexto, os Sistemas de Informação em Saúde (SIS) são componentes centrais dos sistemas de saúde e também integram redes mais amplas de estatísticas nacionais e internacionais [@abouzahrHealthInformationSystems2005; @worldhealthorganisationFrameworkStandardsCountry2008].
 
 ::::: {.callout}
-Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, reportar e usar* informações e conhecimento de saúde para influenciar a tomada de decisão, ações programáticas e pesquisa [@lippeveldRoutineHealthInformation2001].
+Sistemas de Informação em Saúde (SIS) podem ser entendidos como um esforço integrado para *coletar, processar, comunicar e utilizar* informações e conhecimentos em saúde para subsidiar decisões, ações programáticas e pesquisas [@lippeveldRoutineHealthInformation2001].
 :::
 
 O emprego do termo "sistema" indica um processo organizado, composto por instrumentos, pessoas, normas, tecnologias, fluxos e usos. Um SIS, portanto, não se resume a um banco de dados. Ele envolve a definição do evento a ser registrado, os formulários ou interfaces de entrada, as regras de validação, os caminhos de transmissão, as rotinas de consolidação, as formas de acesso e as práticas de análise que transformam registros em informação útil.

@@ -1,4 +1,4 @@
-# SI-PNI -- Sistema de Informações do Programa Nacional de Imunizações {#sec-sipni}
+# SI-PNI — Sistema de Informações do Programa Nacional de Imunizações {#sec-sipni}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -124,7 +124,7 @@ A mudança para o novo SI-PNI não é apenas uma troca de interface. Ela altera 
 | Cobertura | Fortemente apoiada em doses agregadas | Pode combinar dose, pessoa e esquema | Método de cálculo precisa ser documentado |
 | Território | Agregações por local e período | Possibilidade de residência e estabelecimento | Diferenciar cobertura populacional de produção do serviço |
 | Comparabilidade histórica | Séries agregadas de longa duração | Bases individualizadas recentes | Transições podem gerar quebras artificiais |
-| Privacidade | Dados públicos mais agregados | Microdados abertos com proteção de identificação | Linkage individual público é limitado |
+| Privacidade | Dados públicos mais agregados | Microdados abertos com proteção de identificação | *Linkage* individual público é limitado |
 
 Mudanças práticas entre o SI-PNI antigo e o novo SI-PNI
 
@@ -216,7 +216,7 @@ Antes de calcular qualquer indicador, defina se a unidade é dose, pessoa, esque
 
 ### Orientação para dicionário de dados
 
-Os arquivos do OpenDataSUS são disponibilizados por ano e mês de vacinação, com dicionário próprio. O conjunto de campos pode mudar entre anos, campanhas e versões da base. Em consulta ao conjunto de 2025, o portal informava 60 variáveis, fonte RNDS, atualização semanal e recursos em CSV, JSON, XML e API. Por isso, o dicionário usado na análise deve ser preservado junto com a data de extração (ver @qua-sipni-grupos-de-campos-uteis-para-ler-o-dicionario-do-si-pni).
+Os arquivos do OpenDataSUS são disponibilizados por ano e mês de vacinação, com dicionário próprio. O conjunto de campos pode mudar entre anos, campanhas e versões da base. Em consulta ao conjunto de 2025, o portal informava 60 variáveis, fonte RNDS, atualização semanal e recursos em CSV, JSON, XML e API. Por isso, o dicionário usado na análise deve ser preservado com a data de extração (ver @qua-sipni-grupos-de-campos-uteis-para-ler-o-dicionario-do-si-pni).
 
 ::: {#qua-sipni-grupos-de-campos-uteis-para-ler-o-dicionario-do-si-pni}
 
@@ -514,7 +514,7 @@ O novo SI-PNI trabalha com registros individualizados, mas os microdados públic
 |---|---|
 | Registro nominal | Permite acompanhar esquemas e pessoas no sistema de origem |
 | Base pública anonimizada | Protege pessoas e permite análise agregada |
-| Linkage individual | Exige autorização, governança, finalidade e base legal |
+| *Linkage* individual | Exige autorização, governança, finalidade e base legal |
 | Pequenos números | Podem exigir agregação adicional em resultados públicos |
 | Reprodutibilidade | Depende de registrar data de extração, filtros e versão da base |
 
@@ -556,7 +556,7 @@ O SI-PNI é frequentemente combinado com sistemas de população, eventos vitais
 |---|---|---|
 | Qual é a cobertura infantil? | SI-PNI + SINASC (@sec-sinasc) | Coorte de nascimento, idade-alvo e residência |
 | Qual é a cobertura por faixa etária? | SI-PNI + POP (@sec-pop) | População estimada do mesmo ano e território |
-| A APS está registrando vacinação? | SI-PNI + SISAPS/SISAB (@sec-siaps) | Sistemas podem ter fluxos e prazos diferentes |
+| A APS está registrando vacinação? | SI-PNI + (SISAB ou Siaps) (@sec-siaps) | Sistemas podem ter fluxos e prazos diferentes |
 | Onde a vacinação foi aplicada? | SI-PNI + CNES (@sec-cnes) | CNES representa o estabelecimento vacinador |
 | Há relação com surtos ou agravos? | SI-PNI + SINAN (@sec-sinan) | Vacinação e notificação têm unidades e tempos distintos |
 | Como avaliar eventos relacionados? | SI-PNI + ESAVI + investigação epidemiológica | Notificação isolada não estabelece causalidade |
@@ -634,7 +634,7 @@ Perguntas que exigem SI-PNI combinado com outras evidências
 | Mudanças no calendário | Séries históricas exigem versionamento das regras |
 | Diferença entre residência e aplicação | Produção por estabelecimento não equivale à cobertura do território |
 | Transição de sistemas | Quebras entre SI-PNI antigo, novo SI-PNI e RNDS podem afetar comparabilidade |
-| Microdados anonimizados | Linkage individual público é limitado por privacidade |
+| Microdados anonimizados | *Linkage* individual público é limitado por privacidade |
 | Evento adverso notificado | Notificação não prova causalidade sem investigação |
 
 Limitações recorrentes do SI-PNI
@@ -652,7 +652,7 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 - Escolher denominador compatível com numerador e período;
 - Verificar completitude, duplicidade, oportunidade e data de extração;
 - Interpretar coberturas acima de 100% como sinal para investigação metodológica;
-- Combinar com SINASC, POP, CNES, SISAPS/SISAB ou SINAN apenas quando a unidade de análise estiver clara.
+- Combinar com SINASC, POP, CNES, SISAB, Siaps ou SINAN apenas quando a unidade de análise estiver clara.
 
 ## Bibliografia recomendada
 
@@ -668,7 +668,7 @@ Ao utilizar o SI-PNI, alguns cuidados são recorrentes:
 
 - [Eventos de saúde — seção “Imunizações”](eventos.html#imunizações). Na edição impressa, p. 61.
 
-- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 391.
+- [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 393.
 
 - [RNDS — Rede Nacional de Dados em Saúde — seção “Modelos de informação”](rnds.html#modelos-de-informação). Na edição impressa, p. 334.
 

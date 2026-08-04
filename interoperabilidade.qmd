@@ -134,7 +134,7 @@ Também há relacionamentos que não envolvem pessoas. O CNES conecta produção
 
 Os dados disseminados ao público não são uma cópia integral das bases operacionais. Para proteger o sigilo e cumprir a legislação, produtos públicos podem retirar identificadores diretos, suprimir ou agrupar categorias, reduzir precisão de datas e localização, selecionar variáveis ou divulgar apenas agregados. No caso do SIM, o Ministério da Saúde informa expressamente que as bases públicas são anonimizadas e que campos pessoais e sensíveis são removidos antes da oferta para tabulação e obtenção de microdados [@msSIMTransparencia2026]. Outros SIS adotam produtos e procedimentos próprios, que precisam ser verificados em cada fonte e versão.
 
-As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente “completa”. Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado [@brasilLei137092018] (ver @qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais).
+As secretarias de saúde e o Ministério da Saúde podem dispor, conforme sua competência, finalidade, perfil e autorização, de dados identificados ou mais detalhados necessários à assistência, vigilância, regulação, auditoria e gestão. Isso não significa acesso irrestrito por qualquer servidor nem uma base perfeita e universalmente "completa". Os sistemas têm fluxos descentralizados, versões, retificações, atrasos e campos não preenchidos; o acesso deve observar necessidade, base legal, segurança, rastreabilidade e responsabilização. A LGPD classifica dados de saúde como pessoais sensíveis e disciplina seu tratamento e uso compartilhado [@brasilLei137092018] (ver @qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais).
 
 ::: {#qua-interoperabilidade-diferencas-gerais-entre-produtos-publicos-e-bases-institucionais}
 
@@ -182,7 +182,7 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 
 - [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 62.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 430.
+- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 432.
 
 - [SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 221.
 

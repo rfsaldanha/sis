@@ -1,7 +1,7 @@
-# Podcast: SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+# Podcast: SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
 
 **Livro:** Sistemas de Informação em Saúde no Brasil
-**Capítulo:** SISAGUA -- Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
+**Capítulo:** SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
 **Formato:** conversa entre apresentadora e estudante
 **Tom:** acadêmico, mas relaxado
 
@@ -13,312 +13,312 @@ O episódio acompanha uma dúvida de vigilância em um município rural: não ho
 
 ## Roteiro
 
-**APRESENTADORA:** [warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SISAGUA, o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, imagine um município rural cujo relatório não mostra resultado fora do padrão. Isso significa que a água está segura?
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SISAGUA, o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, imagine um município rural cujo relatório não mostra resultado fora do padrão. Isso significa que a água está segura?
 
-**ESTUDANTE:** [curious] Então ele não é como o SINAN, que registra notificações de agravos, nem como o SIH, que registra internações. Ele olha para a água e para o abastecimento.
+**ESTUDANTE:** Então ele não é como o SINAN, que registra notificações de agravos, nem como o SIH, que registra internações. Ele olha para a água e para o abastecimento.
 
-**APRESENTADORA:** [affirming] Exatamente. O SISAGUA não registra doenças; ele ajuda a enxergar riscos ligados à água consumida pela população. Descreve formas de abastecimento, monitoramento, resultados de controle e ações de vigilância. É uma base ambiental e sanitária, não uma base clínica. No fim do episódio, vamos voltar ao município e decidir o que aquele silêncio realmente permite afirmar.
+**APRESENTADORA:** Exatamente. O SISAGUA não registra doenças; ele ajuda a enxergar riscos ligados à água consumida pela população. Descreve formas de abastecimento, monitoramento, resultados de controle e ações de vigilância. É uma base ambiental e sanitária, não uma base clínica. No fim do episódio, vamos voltar ao município e decidir o que aquele silêncio realmente permite afirmar.
 
-**ESTUDANTE:** [thinking] Isso já muda a pergunta. Em vez de perguntar "quem adoeceu?", eu pergunto "como a água está sendo abastecida, monitorada e avaliada?"
+**ESTUDANTE:** Isso já muda a pergunta. Em vez de perguntar "quem adoeceu?", eu pergunto "como a água está sendo abastecida, monitorada e avaliada?"
 
-**APRESENTADORA:** [explaining] Perfeito. E essa diferença é essencial para não forçar o dado além do que ele mede. O SISAGUA apoia a vigilância, a gestão de risco e a prevenção de doenças de veiculação hídrica.
+**APRESENTADORA:** Perfeito. E essa diferença é essencial para não forçar o dado além do que ele mede. O SISAGUA apoia a vigilância, a gestão de risco e a prevenção de doenças de veiculação hídrica.
 
-**ESTUDANTE:** [curious] O sistema está ligado ao Vigiagua, certo?
+**ESTUDANTE:** O sistema está ligado ao Vigiagua, certo?
 
-**APRESENTADORA:** [affirming] Sim. O SISAGUA é um dos principais instrumentos do Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano, o Vigiagua.
+**APRESENTADORA:** Sim. O SISAGUA é um dos principais instrumentos do Programa Nacional de Vigilância da Qualidade da Água para Consumo Humano, o Vigiagua.
 
-**ESTUDANTE:** [engaged] Então o sistema é a infraestrutura de informação de um programa de vigilância.
+**ESTUDANTE:** Então o sistema é a infraestrutura de informação de um programa de vigilância.
 
-**APRESENTADORA:** [thoughtful] Isso. O Vigiagua define uma agenda de promoção da saúde, prevenção de agravos e vigilância da água. O SISAGUA organiza os registros que ajudam a acompanhar essa agenda.
+**APRESENTADORA:** Isso. O Vigiagua define uma agenda de promoção da saúde, prevenção de agravos e vigilância da água. O SISAGUA organiza os registros que ajudam a acompanhar essa agenda.
 
-**ESTUDANTE:** [curious] E por que água precisa de um sistema próprio? Não bastaria monitorar surtos depois que eles acontecem?
+**ESTUDANTE:** E por que água precisa de um sistema próprio? Não bastaria monitorar surtos depois que eles acontecem?
 
-**APRESENTADORA:** [firm] Não. Se a vigilância só aparece depois do surto, ela chega tarde. A água para consumo humano precisa ser monitorada antes que o problema vire doença. O objetivo é antecipar risco, identificar falhas e orientar resposta.
+**APRESENTADORA:** Não. Se a vigilância só aparece depois do surto, ela chega tarde. A água para consumo humano precisa ser monitorada antes que o problema vire doença. O objetivo é antecipar risco, identificar falhas e orientar resposta.
 
-**ESTUDANTE:** [thinking] Então o SISAGUA trabalha mais perto da prevenção do que da assistência.
+**ESTUDANTE:** Então o SISAGUA trabalha mais perto da prevenção do que da assistência.
 
-**APRESENTADORA:** [affirming] Exatamente. Ele ajuda a perguntar: que formas de abastecimento existem? A população está coberta por formas cadastradas? O controle está fazendo análises? A vigilância coletou amostras? Há resultado fora do padrão? Há ausência de amostra?
+**APRESENTADORA:** Exatamente. Ele ajuda a perguntar: que formas de abastecimento existem? A população está coberta por formas cadastradas? O controle está fazendo análises? A vigilância coletou amostras? Há resultado fora do padrão? Há ausência de amostra?
 
-**ESTUDANTE:** [curious] Essa última pergunta parece crucial: ausência de amostra não é a mesma coisa que água segura.
+**ESTUDANTE:** Essa última pergunta parece crucial: ausência de amostra não é a mesma coisa que água segura.
 
-**APRESENTADORA:** [warmly] Essa é uma das mensagens centrais do capítulo. "Não houve resultado fora do padrão" e "não houve amostra registrada" são situações sanitárias muito diferentes.
+**APRESENTADORA:** Essa é uma das mensagens centrais do capítulo. "Não houve resultado fora do padrão" e "não houve amostra registrada" são situações sanitárias muito diferentes.
 
-**ESTUDANTE:** [engaged] A primeira pode sugerir que as amostras analisadas estavam adequadas. A segunda diz que talvez nem se tenha olhado.
+**ESTUDANTE:** A primeira pode sugerir que as amostras analisadas estavam adequadas. A segunda diz que talvez nem se tenha olhado.
 
-**APRESENTADORA:** [affirming] Exatamente. E, quando não se olha, não dá para concluir que está tudo bem. Pode haver segurança, mas também pode haver invisibilidade.
+**APRESENTADORA:** Exatamente. E, quando não se olha, não dá para concluir que está tudo bem. Pode haver segurança, mas também pode haver invisibilidade.
 
-**ESTUDANTE:** [curious] Vamos voltar no tempo. Quando o SISAGUA surge?
+**ESTUDANTE:** Vamos voltar no tempo. Quando o SISAGUA surge?
 
-**APRESENTADORA:** [explaining] Ele surge no contexto do Vigiagua. A primeira versão foi concebida pela Funasa em 1999 e disponibilizada em 2000. Depois, em 2003, passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde.
+**APRESENTADORA:** Ele surge no contexto do Vigiagua. A primeira versão foi concebida pela Funasa em 1999 e disponibilizada em 2000. Depois, em 2003, passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde.
 
-**ESTUDANTE:** [thinking] E foi se adaptando às normas de potabilidade.
+**ESTUDANTE:** E foi se adaptando às normas de potabilidade.
 
-**APRESENTADORA:** [affirming] Sim. As reformulações acompanharam mudanças na norma de qualidade da água, nos fluxos de cadastro, controle e vigilância, e nas formas de disseminação por relatórios, painéis e dados abertos.
+**APRESENTADORA:** Sim. As reformulações acompanharam mudanças na norma de qualidade da água, nos fluxos de cadastro, controle e vigilância, e nas formas de disseminação por relatórios, painéis e dados abertos.
 
-**ESTUDANTE:** [curious] Isso significa que séries históricas podem ser afetadas por mudanças de sistema e de norma?
+**ESTUDANTE:** Isso significa que séries históricas podem ser afetadas por mudanças de sistema e de norma?
 
-**APRESENTADORA:** [explaining] Podem. Mudanças normativas, versões do sistema, capacidade local de monitoramento e completitude cadastral podem alterar a série. Uma variação observada pode refletir mudança real da água, mas também mudança no registro, na exigência ou na vigilância.
+**APRESENTADORA:** Podem. Mudanças normativas, versões do sistema, capacidade local de monitoramento e completitude cadastral podem alterar a série. Uma variação observada pode refletir mudança real da água, mas também mudança no registro, na exigência ou na vigilância.
 
-**ESTUDANTE:** [engaged] Então, de novo, não basta olhar a curva. É preciso entender como o dado foi produzido.
+**ESTUDANTE:** Então, de novo, não basta olhar a curva. É preciso entender como o dado foi produzido.
 
-**APRESENTADORA:** [affirming] Sim. Essa frase vale para quase todos os sistemas, mas no SISAGUA ela é ainda mais importante porque o dado combina cadastro, laboratório, norma e ação de vigilância.
+**APRESENTADORA:** Sim. Essa frase vale para quase todos os sistemas, mas no SISAGUA ela é ainda mais importante porque o dado combina cadastro, laboratório, norma e ação de vigilância.
 
-**ESTUDANTE:** [curious] Como funciona o fluxo de informação?
+**ESTUDANTE:** Como funciona o fluxo de informação?
 
-**APRESENTADORA:** [explaining] O fluxo combina informações de responsáveis pelo abastecimento, profissionais de vigilância em saúde, laboratórios, gestão municipal e estadual, e Ministério da Saúde.
+**APRESENTADORA:** O fluxo combina informações de responsáveis pelo abastecimento, profissionais de vigilância em saúde, laboratórios, gestão municipal e estadual, e Ministério da Saúde.
 
-**ESTUDANTE:** [thinking] Então há vários produtores de informação, não apenas uma equipe digitando tudo.
+**ESTUDANTE:** Então há vários produtores de informação, não apenas uma equipe digitando tudo.
 
-**APRESENTADORA:** [affirming] Isso. O responsável pelo abastecimento informa dados de controle da qualidade da água. A vigilância em saúde registra ações do setor saúde. Laboratórios geram resultados analíticos. A gestão acompanha cadastro, análise, resposta e completitude.
+**APRESENTADORA:** Isso. O responsável pelo abastecimento informa dados de controle da qualidade da água. A vigilância em saúde registra ações do setor saúde. Laboratórios geram resultados analíticos. A gestão acompanha cadastro, análise, resposta e completitude.
 
-**ESTUDANTE:** [curious] E o Ministério da Saúde consolida, dissemina e organiza painéis e dados abertos.
+**ESTUDANTE:** E o Ministério da Saúde consolida, dissemina e organiza painéis e dados abertos.
 
-**APRESENTADORA:** [affirming] Exatamente. Essa cadeia cria uma riqueza grande de informação, mas também exige cuidado: atraso, lacuna ou divergência podem ter origem em pontos diferentes do fluxo.
+**APRESENTADORA:** Exatamente. Essa cadeia cria uma riqueza grande de informação, mas também exige cuidado: atraso, lacuna ou divergência podem ter origem em pontos diferentes do fluxo.
 
-**ESTUDANTE:** [engaged] Vamos falar dos módulos. O capítulo destaca Cadastro, Controle e Vigilância.
+**ESTUDANTE:** Vamos falar dos módulos. O capítulo destaca Cadastro, Controle e Vigilância.
 
-**APRESENTADORA:** [explaining] Esses são os três módulos principais. O Cadastro descreve as formas de abastecimento e características associadas. O Controle reúne o monitoramento realizado pelo responsável pelo abastecimento. A Vigilância reúne o monitoramento realizado pelo setor saúde.
+**APRESENTADORA:** Esses são os três módulos principais. O Cadastro descreve as formas de abastecimento e características associadas. O Controle reúne o monitoramento realizado pelo responsável pelo abastecimento. A Vigilância reúne o monitoramento realizado pelo setor saúde.
 
-**ESTUDANTE:** [thinking] Então o Cadastro define o universo. O Controle mostra a responsabilidade operacional. A Vigilância mostra a ação do setor saúde.
+**ESTUDANTE:** Então o Cadastro define o universo. O Controle mostra a responsabilidade operacional. A Vigilância mostra a ação do setor saúde.
 
-**APRESENTADORA:** [affirming] Excelente resumo. E a análise precisa preservar essas diferenças.
+**APRESENTADORA:** Excelente resumo. E a análise precisa preservar essas diferenças.
 
-**ESTUDANTE:** [curious] Se eu quiser saber que formas de abastecimento existem em um município, uso Cadastro.
+**ESTUDANTE:** Se eu quiser saber que formas de abastecimento existem em um município, uso Cadastro.
 
-**APRESENTADORA:** [affirming] Sim. Se quiser avaliar se o prestador realizou análises previstas, você olha o Controle. Se quiser avaliar coletas feitas pelo setor saúde, olha a Vigilância.
+**APRESENTADORA:** Sim. Se quiser avaliar se o prestador realizou análises previstas, você olha o Controle. Se quiser avaliar coletas feitas pelo setor saúde, olha a Vigilância.
 
-**ESTUDANTE:** [engaged] E se eu quiser resultados fora do padrão?
+**ESTUDANTE:** E se eu quiser resultados fora do padrão?
 
-**APRESENTADORA:** [explaining] Pode olhar Controle ou Vigilância, mas mantendo a origem do dado. Resultado de controle e resultado de vigilância não devem ser misturados automaticamente.
+**APRESENTADORA:** Pode olhar Controle ou Vigilância, mas mantendo a origem do dado. Resultado de controle e resultado de vigilância não devem ser misturados automaticamente.
 
-**ESTUDANTE:** [curious] Por quê?
+**ESTUDANTE:** Por quê?
 
-**APRESENTADORA:** [firm] Porque têm finalidades diferentes. O Controle verifica e mantém a potabilidade da água fornecida pelo responsável pelo abastecimento. A Vigilância verifica o cumprimento da norma e avalia risco à saúde de forma independente.
+**APRESENTADORA:** Porque têm finalidades diferentes. O Controle verifica e mantém a potabilidade da água fornecida pelo responsável pelo abastecimento. A Vigilância verifica o cumprimento da norma e avalia risco à saúde de forma independente.
 
-**ESTUDANTE:** [thinking] E as amostras da vigilância podem ser direcionadas a risco.
+**ESTUDANTE:** E as amostras da vigilância podem ser direcionadas a risco.
 
-**APRESENTADORA:** [affirming] Sim. Podem ser de rotina, denúncia, surto, desastre, enchente, seca ou outra ação específica. Se você mistura tudo com controle, perde o sentido da coleta.
+**APRESENTADORA:** Sim. Podem ser de rotina, denúncia, surto, desastre, enchente, seca ou outra ação específica. Se você mistura tudo com controle, perde o sentido da coleta.
 
-**ESTUDANTE:** [curious] Então uma proporção alta de amostras fora do padrão na vigilância pode indicar pior qualidade, mas também pode indicar que a vigilância foi atrás de locais mais problemáticos.
+**ESTUDANTE:** Então uma proporção alta de amostras fora do padrão na vigilância pode indicar pior qualidade, mas também pode indicar que a vigilância foi atrás de locais mais problemáticos.
 
-**APRESENTADORA:** [thoughtful] Exatamente. Por isso, o resultado precisa ser interpretado junto com a estratégia de coleta.
+**APRESENTADORA:** Exatamente. Por isso, o resultado precisa ser interpretado junto com a estratégia de coleta.
 
-**ESTUDANTE:** [engaged] Agora as formas de abastecimento. SAA, SAC, SAI e carro-pipa aparecem bastante.
+**ESTUDANTE:** Agora as formas de abastecimento. SAA, SAC, SAI e carro-pipa aparecem bastante.
 
-**APRESENTADORA:** [explaining] Sim. SAA é Sistema de Abastecimento de Água, em geral coletivo, com rede de distribuição. SAC é Solução Alternativa Coletiva. SAI é Solução Alternativa Individual, como poço ou nascente de uso individual. E carro-pipa representa abastecimento por transporte de água.
+**APRESENTADORA:** Sim. SAA é Sistema de Abastecimento de Água, em geral coletivo, com rede de distribuição. SAC é Solução Alternativa Coletiva. SAI é Solução Alternativa Individual, como poço ou nascente de uso individual. E carro-pipa representa abastecimento por transporte de água.
 
-**ESTUDANTE:** [curious] Essas categorias parecem técnicas, mas têm implicações práticas enormes.
+**ESTUDANTE:** Essas categorias parecem técnicas, mas têm implicações práticas enormes.
 
-**APRESENTADORA:** [affirming] Têm. Cada forma tem responsabilidades, riscos, possibilidades de controle e formas de monitoramento diferentes. Um sistema com rede de distribuição não é comparável diretamente a uma solução individual ou a abastecimento por carro-pipa.
+**APRESENTADORA:** Têm. Cada forma tem responsabilidades, riscos, possibilidades de controle e formas de monitoramento diferentes. Um sistema com rede de distribuição não é comparável diretamente a uma solução individual ou a abastecimento por carro-pipa.
 
-**ESTUDANTE:** [thinking] Se eu comparar municípios sem separar essas formas, posso esconder desigualdades.
+**ESTUDANTE:** Se eu comparar municípios sem separar essas formas, posso esconder desigualdades.
 
-**APRESENTADORA:** [affirming] Sim. Um município pode parecer bem monitorado no conjunto, mas ter lacunas importantes em soluções alternativas, áreas rurais, comunidades isoladas ou uso emergencial de carro-pipa.
+**APRESENTADORA:** Sim. Um município pode parecer bem monitorado no conjunto, mas ter lacunas importantes em soluções alternativas, áreas rurais, comunidades isoladas ou uso emergencial de carro-pipa.
 
-**ESTUDANTE:** [curious] Qual é a unidade de análise do SISAGUA?
+**ESTUDANTE:** Qual é a unidade de análise do SISAGUA?
 
-**APRESENTADORA:** [explaining] Depende do módulo. Pode ser forma de abastecimento, município abastecido, ponto de coleta, amostra, parâmetro ou população estimada abastecida.
+**APRESENTADORA:** Depende do módulo. Pode ser forma de abastecimento, município abastecido, ponto de coleta, amostra, parâmetro ou população estimada abastecida.
 
-**ESTUDANTE:** [thinking] Então contar cadastros não é contar amostras, e contar amostras não é contar pessoas expostas.
+**ESTUDANTE:** Então contar cadastros não é contar amostras, e contar amostras não é contar pessoas expostas.
 
-**APRESENTADORA:** [affirming] Perfeito. Uma forma de abastecimento pode gerar várias amostras. Uma amostra pode ter vários parâmetros. E uma estimativa de população abastecida não é automaticamente a população residente.
+**APRESENTADORA:** Perfeito. Uma forma de abastecimento pode gerar várias amostras. Uma amostra pode ter vários parâmetros. E uma estimativa de população abastecida não é automaticamente a população residente.
 
-**ESTUDANTE:** [curious] Isso lembra o CNES: a linha muda de significado conforme o arquivo.
+**ESTUDANTE:** Isso lembra o CNES: a linha muda de significado conforme o arquivo.
 
-**APRESENTADORA:** [thoughtful] Boa conexão. No SISAGUA, a regra é parecida: antes de contar, pergunte o que a linha representa.
+**APRESENTADORA:** Boa conexão. No SISAGUA, a regra é parecida: antes de contar, pergunte o que a linha representa.
 
-**ESTUDANTE:** [engaged] Que dimensões precisam estar sempre no radar?
+**ESTUDANTE:** Que dimensões precisam estar sempre no radar?
 
-**APRESENTADORA:** [explaining] Tempo, território, forma de abastecimento, responsável, ponto de coleta, parâmetro, resultado e origem do dado.
+**APRESENTADORA:** Tempo, território, forma de abastecimento, responsável, ponto de coleta, parâmetro, resultado e origem do dado.
 
-**ESTUDANTE:** [curious] Tempo parece simples, mas tem cadastro anual e amostras mensais ou eventuais.
+**ESTUDANTE:** Tempo parece simples, mas tem cadastro anual e amostras mensais ou eventuais.
 
-**APRESENTADORA:** [affirming] Sim. Cadastro e amostra não vivem no mesmo relógio. O cadastro pode ter referência anual, enquanto resultados de monitoramento têm data e, muitas vezes, mês de coleta.
+**APRESENTADORA:** Sim. Cadastro e amostra não vivem no mesmo relógio. O cadastro pode ter referência anual, enquanto resultados de monitoramento têm data e, muitas vezes, mês de coleta.
 
-**ESTUDANTE:** [thinking] Território também é delicado, porque pode haver município, localidade, endereço, coordenada, ponto de captação, ponto de consumo...
+**ESTUDANTE:** Território também é delicado, porque pode haver município, localidade, endereço, coordenada, ponto de captação, ponto de consumo...
 
-**APRESENTADORA:** [affirming] Exatamente. O lugar da amostra não é sempre o lugar da exposição, e o município abastecido pode diferir de outros pontos do ciclo de abastecimento.
+**APRESENTADORA:** Exatamente. O lugar da amostra não é sempre o lugar da exposição, e o município abastecido pode diferir de outros pontos do ciclo de abastecimento.
 
-**ESTUDANTE:** [curious] Vamos falar dos parâmetros. O que costuma aparecer?
+**ESTUDANTE:** Vamos falar dos parâmetros. O que costuma aparecer?
 
-**APRESENTADORA:** [explaining] Há parâmetros microbiológicos, como coliformes totais e Escherichia coli; parâmetros de desinfecção, como cloro residual livre; físico-químicos, como turbidez, cor e pH; fluoretação, como fluoreto; e substâncias químicas, como agrotóxicos e metais.
+**APRESENTADORA:** Há parâmetros microbiológicos, como coliformes totais e Escherichia coli; parâmetros de desinfecção, como cloro residual livre; físico-químicos, como turbidez, cor e pH; fluoretação, como fluoreto; e substâncias químicas, como agrotóxicos e metais.
 
-**ESTUDANTE:** [engaged] Cada grupo aponta para um tipo de risco.
+**ESTUDANTE:** Cada grupo aponta para um tipo de risco.
 
-**APRESENTADORA:** [affirming] Sim. Microbiológicos podem indicar contaminação fecal e exigem atenção rápida. Desinfecção e turbidez ajudam a avaliar barreiras sanitárias e tratamento. Substâncias químicas podem demandar séries longas, método analítico adequado e frequência específica.
+**APRESENTADORA:** Sim. Microbiológicos podem indicar contaminação fecal e exigem atenção rápida. Desinfecção e turbidez ajudam a avaliar barreiras sanitárias e tratamento. Substâncias químicas podem demandar séries longas, método analítico adequado e frequência específica.
 
-**ESTUDANTE:** [curious] Então não faz sentido juntar tudo em uma categoria única de "qualidade da água".
+**ESTUDANTE:** Então não faz sentido juntar tudo em uma categoria única de "qualidade da água".
 
-**APRESENTADORA:** [firm] Exatamente. Qualidade da água não é uma variável única. É uma avaliação normativa e técnica baseada em parâmetros, unidades, métodos, ponto de coleta e padrão de potabilidade.
+**APRESENTADORA:** Exatamente. Qualidade da água não é uma variável única. É uma avaliação normativa e técnica baseada em parâmetros, unidades, métodos, ponto de coleta e padrão de potabilidade.
 
-**ESTUDANTE:** [thinking] O mesmo valor pode ter interpretação diferente dependendo da norma vigente.
+**ESTUDANTE:** O mesmo valor pode ter interpretação diferente dependendo da norma vigente.
 
-**APRESENTADORA:** [affirming] Sim. Por isso, qualquer análise séria precisa documentar a norma usada no período.
+**APRESENTADORA:** Sim. Por isso, qualquer análise séria precisa documentar a norma usada no período.
 
-**ESTUDANTE:** [curious] E o plano de amostragem? O capítulo dá bastante peso a isso.
+**ESTUDANTE:** E o plano de amostragem? O capítulo dá bastante peso a isso.
 
-**APRESENTADORA:** [explaining] Porque ele é o elo entre cadastro, norma e monitoramento. O número esperado de amostras depende da norma vigente, população abastecida, forma de abastecimento, parâmetro, frequência de monitoramento e ponto de coleta.
+**APRESENTADORA:** Porque ele é o elo entre cadastro, norma e monitoramento. O número esperado de amostras depende da norma vigente, população abastecida, forma de abastecimento, parâmetro, frequência de monitoramento e ponto de coleta.
 
-**ESTUDANTE:** [thinking] Então não existe um número fixo de amostras que vale para todos os municípios.
+**ESTUDANTE:** Então não existe um número fixo de amostras que vale para todos os municípios.
 
-**APRESENTADORA:** [affirming] Não. Um município, uma forma de abastecimento e um parâmetro podem ter exigências diferentes de outro município, outra forma e outro parâmetro.
+**APRESENTADORA:** Não. Um município, uma forma de abastecimento e um parâmetro podem ter exigências diferentes de outro município, outra forma e outro parâmetro.
 
-**ESTUDANTE:** [engaged] Antes de interpretar proporção fora do padrão, eu preciso saber se a amostragem foi suficiente.
+**ESTUDANTE:** Antes de interpretar proporção fora do padrão, eu preciso saber se a amostragem foi suficiente.
 
-**APRESENTADORA:** [affirming] Sim. Um indicador pode parecer excelente simplesmente porque houve pouca amostragem. Por isso, proporção de inconformidade e cobertura de monitoramento precisam andar juntas.
+**APRESENTADORA:** Sim. Um indicador pode parecer excelente simplesmente porque houve pouca amostragem. Por isso, proporção de inconformidade e cobertura de monitoramento precisam andar juntas.
 
-**ESTUDANTE:** [curious] Vamos para os exemplos. Primeiro, cobertura de abastecimento.
+**ESTUDANTE:** Vamos para os exemplos. Primeiro, cobertura de abastecimento.
 
-**APRESENTADORA:** [explaining] Uma análise inicial pode estimar a distribuição da população abastecida por tipo de forma de abastecimento. Isso ajuda a entender a estrutura de abastecimento do território.
+**APRESENTADORA:** Uma análise inicial pode estimar a distribuição da população abastecida por tipo de forma de abastecimento. Isso ajuda a entender a estrutura de abastecimento do território.
 
-**ESTUDANTE:** [thinking] Mas população abastecida é uma estimativa cadastral.
+**ESTUDANTE:** Mas população abastecida é uma estimativa cadastral.
 
-**APRESENTADORA:** [affirming] Isso. Ela não equivale automaticamente à população residente. Pode haver sobreposição entre formas de abastecimento, cadastro desatualizado ou estimativas inconsistentes.
+**APRESENTADORA:** Isso. Ela não equivale automaticamente à população residente. Pode haver sobreposição entre formas de abastecimento, cadastro desatualizado ou estimativas inconsistentes.
 
-**ESTUDANTE:** [curious] Então, se a soma de população abastecida passa da população residente, isso precisa ser investigado.
+**ESTUDANTE:** Então, se a soma de população abastecida passa da população residente, isso precisa ser investigado.
 
-**APRESENTADORA:** [affirming] Sim. Pode haver dupla contagem, sobreposição, erro cadastral ou particularidade local. Não é algo para aceitar sem auditoria.
+**APRESENTADORA:** Sim. Pode haver dupla contagem, sobreposição, erro cadastral ou particularidade local. Não é algo para aceitar sem auditoria.
 
-**ESTUDANTE:** [engaged] Segundo exemplo: amostras fora do padrão.
+**ESTUDANTE:** Segundo exemplo: amostras fora do padrão.
 
-**APRESENTADORA:** [explaining] Esse indicador deve ser calculado por parâmetro, território, período, forma de abastecimento, origem do dado e ponto de coleta. Sem essas camadas, a proporção pode ficar enganosa.
+**APRESENTADORA:** Esse indicador deve ser calculado por parâmetro, território, período, forma de abastecimento, origem do dado e ponto de coleta. Sem essas camadas, a proporção pode ficar enganosa.
 
-**ESTUDANTE:** [thinking] Por exemplo, turbidez fora do padrão na rede de distribuição não tem a mesma leitura que um problema em ponto de consumo ou captação.
+**ESTUDANTE:** Por exemplo, turbidez fora do padrão na rede de distribuição não tem a mesma leitura que um problema em ponto de consumo ou captação.
 
-**APRESENTADORA:** [affirming] Correto. O ponto de coleta muda a interpretação.
+**APRESENTADORA:** Correto. O ponto de coleta muda a interpretação.
 
-**ESTUDANTE:** [curious] E para E. coli?
+**ESTUDANTE:** E para E. coli?
 
-**APRESENTADORA:** [explaining] A presença de E. coli indica contaminação fecal e é central para risco sanitário. Mas mesmo esse indicador precisa de contexto: quantas amostras? Em quais pontos? Em qual forma de abastecimento? Controle ou vigilância? Rotina ou denúncia?
+**APRESENTADORA:** A presença de E. coli indica contaminação fecal e é central para risco sanitário. Mas mesmo esse indicador precisa de contexto: quantas amostras? Em quais pontos? Em qual forma de abastecimento? Controle ou vigilância? Rotina ou denúncia?
 
-**ESTUDANTE:** [engaged] Então uma única presença pode ser sanitariamente importante, mas não permite generalizar para todo o município sem entender representatividade.
+**ESTUDANTE:** Então uma única presença pode ser sanitariamente importante, mas não permite generalizar para todo o município sem entender representatividade.
 
-**APRESENTADORA:** [affirming] Exatamente. O dado pode acionar investigação e resposta, mas a inferência territorial exige cuidado.
+**APRESENTADORA:** Exatamente. O dado pode acionar investigação e resposta, mas a inferência territorial exige cuidado.
 
-**ESTUDANTE:** [curious] O terceiro exemplo é cumprimento do plano de amostragem.
+**ESTUDANTE:** O terceiro exemplo é cumprimento do plano de amostragem.
 
-**APRESENTADORA:** [explaining] Esse é um indicador de monitoramento. Ele compara amostras realizadas com amostras esperadas, por município, forma de abastecimento, parâmetro, origem do dado e período.
+**APRESENTADORA:** Esse é um indicador de monitoramento. Ele compara amostras realizadas com amostras esperadas, por município, forma de abastecimento, parâmetro, origem do dado e período.
 
-**ESTUDANTE:** [thinking] Ele não diz diretamente se a água está boa ou ruim. Ele diz se o território foi monitorado como deveria.
+**ESTUDANTE:** Ele não diz diretamente se a água está boa ou ruim. Ele diz se o território foi monitorado como deveria.
 
-**APRESENTADORA:** [affirming] Exato. E isso é decisivo. Sem monitoramento, o silêncio da base não é tranquilizador.
+**APRESENTADORA:** Exato. E isso é decisivo. Sem monitoramento, o silêncio da base não é tranquilizador.
 
-**ESTUDANTE:** [curious] Como avaliar qualidade dos dados do SISAGUA?
+**ESTUDANTE:** Como avaliar qualidade dos dados do SISAGUA?
 
-**APRESENTADORA:** [explaining] Verifique completitude cadastral, atualização, consistência territorial, plano de amostragem, unidade e método dos parâmetros, duplicidade, oportunidade e origem do dado.
+**APRESENTADORA:** Verifique completitude cadastral, atualização, consistência territorial, plano de amostragem, unidade e método dos parâmetros, duplicidade, oportunidade e origem do dado.
 
-**ESTUDANTE:** [engaged] Qualidade não é só campo preenchido.
+**ESTUDANTE:** Qualidade não é só campo preenchido.
 
-**APRESENTADORA:** [affirming] Sim. Um cadastro pode estar preenchido, mas desatualizado. Um resultado pode estar presente, mas com unidade incoerente. Uma série pode ter muitas amostras, mas concentradas em poucos pontos.
+**APRESENTADORA:** Sim. Um cadastro pode estar preenchido, mas desatualizado. Um resultado pode estar presente, mas com unidade incoerente. Uma série pode ter muitas amostras, mas concentradas em poucos pontos.
 
-**ESTUDANTE:** [curious] E oportunidade?
+**ESTUDANTE:** E oportunidade?
 
-**APRESENTADORA:** [explaining] É o tempo entre coleta, resultado, registro e uso da informação. Em vigilância da água, atraso pode reduzir a capacidade de resposta.
+**APRESENTADORA:** É o tempo entre coleta, resultado, registro e uso da informação. Em vigilância da água, atraso pode reduzir a capacidade de resposta.
 
-**ESTUDANTE:** [thinking] Porque o risco pode estar acontecendo enquanto o dado ainda não chegou.
+**ESTUDANTE:** Porque o risco pode estar acontecendo enquanto o dado ainda não chegou.
 
-**APRESENTADORA:** [affirming] Exatamente. Para gestão de risco, o tempo do dado importa.
+**APRESENTADORA:** Exatamente. Para gestão de risco, o tempo do dado importa.
 
-**ESTUDANTE:** [curious] Vamos falar de espaço. O capítulo alerta que mapas do SISAGUA precisam ser lidos com cuidado.
+**ESTUDANTE:** Vamos falar de espaço. O capítulo alerta que mapas do SISAGUA precisam ser lidos com cuidado.
 
-**APRESENTADORA:** [explaining] Sim. Captação, tratamento, reservatório, rede de distribuição e ponto de consumo são etapas diferentes. Um mapa de pontos amostrados não representa automaticamente a qualidade da água de todo o município.
+**APRESENTADORA:** Sim. Captação, tratamento, reservatório, rede de distribuição e ponto de consumo são etapas diferentes. Um mapa de pontos amostrados não representa automaticamente a qualidade da água de todo o município.
 
-**ESTUDANTE:** [thinking] Um ponto de captação mostra água bruta. Um ponto de consumo mostra água depois de todo o caminho, possivelmente com influência do domicílio.
+**ESTUDANTE:** Um ponto de captação mostra água bruta. Um ponto de consumo mostra água depois de todo o caminho, possivelmente com influência do domicílio.
 
-**APRESENTADORA:** [affirming] Isso. E uma coordenada pode estar ausente, imprecisa ou representar sede administrativa. Antes de calcular distância ou fazer mapa de risco, é preciso validar o que o ponto representa.
+**APRESENTADORA:** Isso. E uma coordenada pode estar ausente, imprecisa ou representar sede administrativa. Antes de calcular distância ou fazer mapa de risco, é preciso validar o que o ponto representa.
 
-**ESTUDANTE:** [curious] Então, para inferir área abastecida, preciso relacionar forma de abastecimento, população estimada, setor ou localidade, quando disponível.
+**ESTUDANTE:** Então, para inferir área abastecida, preciso relacionar forma de abastecimento, população estimada, setor ou localidade, quando disponível.
 
-**APRESENTADORA:** [affirming] Sim. O ponto no mapa é só uma parte da história.
+**APRESENTADORA:** Sim. O ponto no mapa é só uma parte da história.
 
-**ESTUDANTE:** [engaged] E as emergências? Denúncia, surto, enchente, seca, desastre...
+**ESTUDANTE:** E as emergências? Denúncia, surto, enchente, seca, desastre...
 
-**APRESENTADORA:** [explaining] Nessas situações, as coletas podem ser direcionadas a locais de maior risco. Isso é excelente para resposta em saúde pública, mas dificulta comparar com rotina.
+**APRESENTADORA:** Nessas situações, as coletas podem ser direcionadas a locais de maior risco. Isso é excelente para resposta em saúde pública, mas dificulta comparar com rotina.
 
-**ESTUDANTE:** [thinking] Uma série com muitas coletas motivadas por denúncia pode parecer pior porque procurou problemas.
+**ESTUDANTE:** Uma série com muitas coletas motivadas por denúncia pode parecer pior porque procurou problemas.
 
-**APRESENTADORA:** [affirming] Exatamente. A vigilância fica mais sensível ao risco. Isso precisa ser registrado, não tratado como viés inconveniente a ser ignorado.
+**APRESENTADORA:** Exatamente. A vigilância fica mais sensível ao risco. Isso precisa ser registrado, não tratado como viés inconveniente a ser ignorado.
 
-**ESTUDANTE:** [curious] A forma de acesso muda a análise?
+**ESTUDANTE:** A forma de acesso muda a análise?
 
-**APRESENTADORA:** [explaining] Pode mudar granularidade, atualização, campos disponíveis e dicionário. O capítulo apresenta dados abertos, relatórios, painéis e integrações laboratoriais. Seja qual for o caminho, registre fonte, data de extração, módulo, período, território, forma de abastecimento, parâmetro, ponto de coleta, norma e origem do dado.
+**APRESENTADORA:** Pode mudar granularidade, atualização, campos disponíveis e dicionário. O capítulo apresenta dados abertos, relatórios, painéis e integrações laboratoriais. Seja qual for o caminho, registre fonte, data de extração, módulo, período, território, forma de abastecimento, parâmetro, ponto de coleta, norma e origem do dado.
 
-**ESTUDANTE:** [thinking] Isso parece burocrático, mas é o que torna a análise auditável.
+**ESTUDANTE:** Isso parece burocrático, mas é o que torna a análise auditável.
 
-**APRESENTADORA:** [affirming] Exatamente. No SISAGUA, duas análises podem chegar a resultados diferentes se escolherem módulos, parâmetros ou regras de ausentes de forma diferente.
+**APRESENTADORA:** Exatamente. No SISAGUA, duas análises podem chegar a resultados diferentes se escolherem módulos, parâmetros ou regras de ausentes de forma diferente.
 
-**ESTUDANTE:** [curious] O SISAGUA pode ser relacionado a população, doenças, serviços, saneamento e registros de desastre?
+**ESTUDANTE:** O SISAGUA pode ser relacionado a população, doenças, serviços, saneamento e registros de desastre?
 
-**APRESENTADORA:** [firm] Pode, mas não precisamos aprofundar cada integração aqui. A regra central é evitar inferência causal simples: o SISAGUA indica exposição potencial e qualidade monitorada; ele não identifica consumo individual nem prova causalidade.
+**APRESENTADORA:** Pode, mas não precisamos aprofundar cada integração aqui. A regra central é evitar inferência causal simples: o SISAGUA indica exposição potencial e qualidade monitorada; ele não identifica consumo individual nem prova causalidade.
 
-**ESTUDANTE:** [thinking] Por exemplo, um município com resultado fora do padrão e aumento de diarreia pode levantar hipótese, mas não fechar causalidade.
+**ESTUDANTE:** Por exemplo, um município com resultado fora do padrão e aumento de diarreia pode levantar hipótese, mas não fechar causalidade.
 
-**APRESENTADORA:** [affirming] Perfeito. É um sinal para investigação, não uma sentença causal automática.
+**APRESENTADORA:** Perfeito. É um sinal para investigação, não uma sentença causal automática.
 
-**ESTUDANTE:** [curious] Quais limitações são mais importantes?
+**ESTUDANTE:** Quais limitações são mais importantes?
 
-**APRESENTADORA:** [explaining] Dependência de registro local e prestadores; cadastro possivelmente desatualizado; ausência de amostra que não indica segurança; diferenças entre controle e vigilância; frequências distintas por parâmetro; ponto de coleta localizado; e mudanças normativas ao longo do tempo.
+**APRESENTADORA:** Dependência de registro local e prestadores; cadastro possivelmente desatualizado; ausência de amostra que não indica segurança; diferenças entre controle e vigilância; frequências distintas por parâmetro; ponto de coleta localizado; e mudanças normativas ao longo do tempo.
 
-**ESTUDANTE:** [engaged] E todas essas limitações não tornam o sistema menos importante.
+**ESTUDANTE:** E todas essas limitações não tornam o sistema menos importante.
 
-**APRESENTADORA:** [affirming] Não. Elas definem como usá-lo corretamente. O SISAGUA é indispensável para vigilância da qualidade da água, mas precisa ser lido como sistema de monitoramento e gestão de risco.
+**APRESENTADORA:** Não. Elas definem como usá-lo corretamente. O SISAGUA é indispensável para vigilância da qualidade da água, mas precisa ser lido como sistema de monitoramento e gestão de risco.
 
-**ESTUDANTE:** [curious] Vamos organizar os erros comuns.
+**ESTUDANTE:** Vamos organizar os erros comuns.
 
-**APRESENTADORA:** [explaining] Primeiro: tratar ausência de resultado fora do padrão como água segura. Segundo: somar Controle e Vigilância sem distinção. Terceiro: usar população abastecida como se fosse população residente.
+**APRESENTADORA:** Primeiro: tratar ausência de resultado fora do padrão como água segura. Segundo: somar Controle e Vigilância sem distinção. Terceiro: usar população abastecida como se fosse população residente.
 
-**ESTUDANTE:** [engaged] Quarto: comparar SAA, SAC, SAI e carro-pipa sem estratificar. Quinto: interpretar ponto de coleta como toda a rede. Sexto: ignorar mudanças da norma de potabilidade.
+**ESTUDANTE:** Quarto: comparar SAA, SAC, SAI e carro-pipa sem estratificar. Quinto: interpretar ponto de coleta como toda a rede. Sexto: ignorar mudanças da norma de potabilidade.
 
-**APRESENTADORA:** [affirming] Exatamente. E eu acrescentaria: calcular proporção fora do padrão sem mostrar número de amostras e cumprimento do plano de amostragem.
+**APRESENTADORA:** Exatamente. E eu acrescentaria: calcular proporção fora do padrão sem mostrar número de amostras e cumprimento do plano de amostragem.
 
-**ESTUDANTE:** [thinking] Esse talvez seja o erro mais sedutor, porque a porcentagem parece objetiva.
+**ESTUDANTE:** Esse talvez seja o erro mais sedutor, porque a porcentagem parece objetiva.
 
-**APRESENTADORA:** [thoughtful] Sim. Percentual sem denominador e sem amostragem é uma falsa precisão.
+**APRESENTADORA:** Sim. Percentual sem denominador e sem amostragem é uma falsa precisão.
 
-**ESTUDANTE:** [curious] Se eu estivesse começando uma análise do SISAGUA, qual seria o checklist mínimo?
+**ESTUDANTE:** Se eu estivesse começando uma análise do SISAGUA, qual seria o checklist mínimo?
 
-**APRESENTADORA:** [explaining] Defina módulo, forma de abastecimento, unidade de análise, período, norma, parâmetro, ponto de coleta, origem do dado e denominador. Depois verifique amostras ausentes, resultados vazios, duplicidades, oportunidade e cobertura do monitoramento.
+**APRESENTADORA:** Defina módulo, forma de abastecimento, unidade de análise, período, norma, parâmetro, ponto de coleta, origem do dado e denominador. Depois verifique amostras ausentes, resultados vazios, duplicidades, oportunidade e cobertura do monitoramento.
 
-**ESTUDANTE:** [engaged] E, se for integrar com outras bases, definir território e tempo antes da junção.
+**ESTUDANTE:** E, se for integrar com outras bases, definir território e tempo antes da junção.
 
-**APRESENTADORA:** [affirming] Sim. Município, localidade, ponto de coleta e área abastecida podem não coincidir. Cadastro anual e amostras mensais ou eventuais também não são equivalentes.
+**APRESENTADORA:** Sim. Município, localidade, ponto de coleta e área abastecida podem não coincidir. Cadastro anual e amostras mensais ou eventuais também não são equivalentes.
 
-**ESTUDANTE:** [curious] Vamos imaginar um caso prático. Um gestor quer saber se um município rural está vulnerável por depender de soluções alternativas. Por onde começa?
+**ESTUDANTE:** Vamos imaginar um caso prático. Um gestor quer saber se um município rural está vulnerável por depender de soluções alternativas. Por onde começa?
 
-**APRESENTADORA:** [explaining] Eu começaria pelo Cadastro, separando SAA, SAC, SAI e carro-pipa. Depois olharia população estimada abastecida, atualização cadastral, localidades cobertas e possível sobreposição com população residente.
+**APRESENTADORA:** Eu começaria pelo Cadastro, separando SAA, SAC, SAI e carro-pipa. Depois olharia população estimada abastecida, atualização cadastral, localidades cobertas e possível sobreposição com população residente.
 
-**ESTUDANTE:** [thinking] Só depois eu entraria nas amostras.
+**ESTUDANTE:** Só depois eu entraria nas amostras.
 
-**APRESENTADORA:** [affirming] Isso. Nas amostras, eu separaria Controle e Vigilância, verificaria parâmetros prioritários, número de coletas, pontos de coleta e cumprimento do plano de amostragem.
+**APRESENTADORA:** Isso. Nas amostras, eu separaria Controle e Vigilância, verificaria parâmetros prioritários, número de coletas, pontos de coleta e cumprimento do plano de amostragem.
 
-**ESTUDANTE:** [engaged] Se houver poucas amostras em SAI ou carro-pipa, o problema pode ser invisibilidade.
+**ESTUDANTE:** Se houver poucas amostras em SAI ou carro-pipa, o problema pode ser invisibilidade.
 
-**APRESENTADORA:** [thoughtful] Exatamente. A ausência de inconformidade em uma forma pouco monitorada não deve ser lida como segurança. Pode ser uma lacuna de vigilância.
+**APRESENTADORA:** Exatamente. A ausência de inconformidade em uma forma pouco monitorada não deve ser lida como segurança. Pode ser uma lacuna de vigilância.
 
-**ESTUDANTE:** [curious] E se aparecer presença de Escherichia coli em algumas coletas?
+**ESTUDANTE:** E se aparecer presença de Escherichia coli em algumas coletas?
 
-**APRESENTADORA:** [explaining] Aí o sinal é sanitariamente relevante. Mas a resposta analítica ainda precisa localizar o ponto, identificar a forma de abastecimento, separar rotina de denúncia, verificar recorrência e avaliar se há população potencialmente exposta.
+**APRESENTADORA:** Aí o sinal é sanitariamente relevante. Mas a resposta analítica ainda precisa localizar o ponto, identificar a forma de abastecimento, separar rotina de denúncia, verificar recorrência e avaliar se há população potencialmente exposta.
 
-**ESTUDANTE:** [thinking] Então o SISAGUA ajuda tanto a priorizar ação imediata quanto a construir diagnóstico.
+**ESTUDANTE:** Então o SISAGUA ajuda tanto a priorizar ação imediata quanto a construir diagnóstico.
 
-**APRESENTADORA:** [affirming] Sim. Ele serve para gestão cotidiana e para análise epidemiológica ambiental. A diferença está no desenho: resposta rápida foca o evento e o risco; análise de série histórica foca comparabilidade, completitude e norma.
+**APRESENTADORA:** Sim. Ele serve para gestão cotidiana e para análise epidemiológica ambiental. A diferença está no desenho: resposta rápida foca o evento e o risco; análise de série histórica foca comparabilidade, completitude e norma.
 
-**ESTUDANTE:** [curious] E como comunicar resultados sem exagerar?
+**ESTUDANTE:** E como comunicar resultados sem exagerar?
 
-**APRESENTADORA:** [explaining] Use frases precisas. Diga "amostras registradas", "formas de abastecimento cadastradas", "população estimada abastecida", "resultados fora do padrão" e "ausência de amostra". Evite dizer "a água do município é segura" se você não avaliou cobertura de monitoramento e representatividade.
+**APRESENTADORA:** Use frases precisas. Diga "amostras registradas", "formas de abastecimento cadastradas", "população estimada abastecida", "resultados fora do padrão" e "ausência de amostra". Evite dizer "a água do município é segura" se você não avaliou cobertura de monitoramento e representatividade.
 
-**ESTUDANTE:** [engaged] A linguagem evita conclusões indevidas.
+**ESTUDANTE:** A linguagem evita conclusões indevidas.
 
-**APRESENTADORA:** [affirming] Exatamente. No SISAGUA, uma boa redação protege a interpretação tanto quanto uma boa tabela.
+**APRESENTADORA:** Exatamente. No SISAGUA, uma boa redação protege a interpretação tanto quanto uma boa tabela.
 
-**ESTUDANTE:** [curious] Vamos voltar ao município do começo. Se não houve resultado fora do padrão, a água está segura?
+**ESTUDANTE:** Vamos voltar ao município do começo. Se não houve resultado fora do padrão, a água está segura?
 
-**APRESENTADORA:** [thoughtful] Só podemos responder depois de verificar se houve amostragem suficiente, em quais formas de abastecimento, pontos e parâmetros, e sob qual norma. Se não houve amostra registrada, o silêncio indica falta de informação, não segurança.
+**APRESENTADORA:** Só podemos responder depois de verificar se houve amostragem suficiente, em quais formas de abastecimento, pontos e parâmetros, e sob qual norma. Se não houve amostra registrada, o silêncio indica falta de informação, não segurança.
 
-**ESTUDANTE:** [engaged] Então a pergunta não é apenas “deu fora do padrão?”, mas “foi monitorado, onde, por quem e com qual representatividade?”
+**ESTUDANTE:** Então a pergunta não é apenas "deu fora do padrão?", mas "foi monitorado, onde, por quem e com qual representatividade?"
 
-**APRESENTADORA:** [affirming] Exatamente. O SISAGUA não mede doença diretamente, mas ajuda a prevenir adoecimento ao revelar monitoramento, inconformidade, lacuna e risco.
+**APRESENTADORA:** Exatamente. O SISAGUA não mede doença diretamente, mas ajuda a prevenir adoecimento ao revelar monitoramento, inconformidade, lacuna e risco.
 
-**ESTUDANTE:** [thinking] Quando essas camadas estão claras, o dado laboratorial ganha sentido de vigilância.
+**ESTUDANTE:** Quando essas camadas estão claras, o dado laboratorial ganha sentido de vigilância.
 
-**APRESENTADORA:** [warmly] Essa é a melhor síntese. O SISAGUA transforma cadastro e monitoramento em uma ferramenta de gestão e proteção da saúde pública, desde que a ausência de dado nunca seja confundida com ausência de risco. Que esse cuidado acompanhe cada mapa e indicador: antes de concluir que a água está segura, confirme se o território foi realmente observado. Obrigada pela companhia, e até o próximo episódio!
+**APRESENTADORA:** Essa é a melhor síntese. O SISAGUA transforma cadastro e monitoramento em uma ferramenta de gestão e proteção da saúde pública, desde que a ausência de dado nunca seja confundida com ausência de risco. Que esse cuidado acompanhe cada mapa e indicador: antes de concluir que a água está segura, confirme se o território foi realmente observado. Obrigada pela companhia, e até o próximo episódio!

@@ -10,16 +10,26 @@ Este livro apresenta os principais Sistemas de Informação em Saúde (SIS) no B
 
 O material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.
 
-## O que você encontra neste livro
+## Percursos de leitura
 
-Os capítulos iniciais apresentam conceitos gerais, a trajetória brasileira de implantação dos SIS e a forma como os sistemas se organizam em torno de eventos de saúde, como nascimentos, óbitos, internações, atendimentos ambulatoriais, notificações, imunizações e registros de estabelecimentos.
+- **Leitura sequencial:** indicada para quem está iniciando. A introdução, o histórico, a organização dos SIS e a discussão dos eventos de saúde formam a base comum para os demais capítulos.
+- **Consulta por sistema:** indicada para quem precisa compreender uma base específica. Cada capítulo pode ser consultado de forma autônoma, com remissões aos conceitos e apêndices necessários.
+- **Consulta metodológica:** indicada para análises em andamento. A lista de siglas, o índice remissivo e os apêndices ajudam a localizar temas como datas, unidades de análise, códigos territoriais, cobertura, qualidade, vinculação e interoperabilidade.
 
-Em seguida, cada sistema é descrito com foco em quatro perguntas práticas:
+## Organização dos capítulos
 
-- Qual evento de saúde o sistema registra?
-- Qual é sua cobertura e unidade de análise?
+Os capítulos dedicados aos sistemas procuram responder a quatro perguntas práticas:
+
+- Qual evento ou processo o sistema registra?
+- Qual é sua cobertura e sua unidade de análise?
 - Como os dados são coletados, processados e disseminados?
 - Que usos, cuidados e limitações devem ser considerados na análise?
+
+Linhas do tempo sintetizam mudanças institucionais e tecnológicas; quadros reúnem definições, comparações e cuidados de interpretação; e remissões internas conectam assuntos desenvolvidos em diferentes partes do livro.
+
+## Recursos complementares
+
+A versão *online* reúne documentos técnicos, páginas institucionais, ferramentas de acesso, vídeos e podcasts. A edição impressa oferece uma leitura estável e concentrada; a edição digital pode receber atualizações posteriores. Quando houver diferença entre elas, convém verificar a data, a norma e a versão do sistema discutido.
 
 # Como citar
 

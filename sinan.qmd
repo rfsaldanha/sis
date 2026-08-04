@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SINAN -- Sistema de Informação de Agravos de Notificação {#sec-sinan}
+# SINAN — Sistema de Informação de Agravos de Notificação {#sec-sinan}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -255,7 +255,7 @@ Escolha de datas para análises com SINAN
 
 :::
 
-As alternativas do @qua-sinan-escolha-de-datas-para-analises-com-sinan dependem da finalidade. Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, a depender do agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.
+As alternativas do @qua-sinan-escolha-de-datas-para-analises-com-sinan dependem da finalidade. Para acompanhamento epidemiológico, é comum usar data de início de sintomas, semana epidemiológica ou data provável de infecção, conforme o agravo. Para taxas populacionais, use município de residência; para investigação de transmissão, use local provável de infecção; para gestão de serviços, use município ou unidade notificadora.
 
 O ponto decisivo é manter coerência entre objetivo, data e território. Uma curva por data de notificação pode ser adequada para avaliar a pressão recente sobre a vigilância, mas não substitui uma curva por início de sintomas quando a intenção é descrever a dinâmica temporal da transmissão. Da mesma forma, uma taxa por residência é apropriada para risco populacional, enquanto o local provável de infecção é mais útil para investigar exposição.
 
@@ -520,10 +520,10 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 - Prefixo dos arquivos: AIDA
 - Códigos CID-10
-  - Infecção pelo HIV: Z21
-  - Aids: B20-B24
-  - Gestante HIV: Z21
-  - Criança exposta ao HIV: Z20.6
+    - Infecção pelo HIV: Z21
+    - Aids: B20-B24
+    - Gestante HIV: Z21
+    - Criança exposta ao HIV: Z20.6
 
 ### Aids em crianças
 
@@ -534,11 +534,11 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024a
 
 - Prefixo dos arquivos: ANIM
 - Códigos CID-10
-   - Acidente ofídico: X20 e T63.0
-   - Escorpionismo: X22 e T63.2
-   - Araneísmo: X21 e T63.3
-   - Lonomia e outras lagartas: X25 e T63.4
-   - Himenópteros (abelhas, vespas e formigas): X23 e T63.4
+    - Acidente ofídico: X20 e T63.0
+    - Escorpionismo: X22 e T63.2
+    - Araneísmo: X21 e T63.3
+    - Lonomia e outras lagartas: X25 e T63.4
+    - Himenópteros (abelhas, vespas e formigas): X23 e T63.4
 - [Ficha de notificação](assets/sinan/agravos/ANIMPN_FICHA.pdf)
 - [Instrucional](assets/sinan/agravos/ANIMPN_INSTRUCIONAL.pdf)
 - [Roteiro de uso](assets/sinan/agravos/ANIMPN_CADERNO_ANALISES.pdf)
@@ -713,9 +713,9 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 
 - Prefixo dos arquivos: FMAC
 - CID-10
-   - Rickettsioses transmitidas por carrapatos: A77
-   - Febre maculosa brasileira: A77.0
-   - Febre maculosa não especificada: A77.9
+    - Rickettsioses transmitidas por carrapatos: A77
+    - Febre maculosa brasileira: A77.0
+    - Febre maculosa não especificada: A77.9
 - [Ficha de notificação](assets/sinan/agravos/FMACUN_FICHA.pdf)
 - [Instrucional](assets/sinan/agravos/FMACUN_INSTRUCIONAL.pdf)
 - [Dicionário de dados](assets/sinan/agravos/FMACUN_DIC_DADOS.pdf)
@@ -726,7 +726,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Febre Oropouche
 
-- [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche ](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
+- [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
 
 ### Febre tifoide
 
@@ -822,8 +822,8 @@ A notificação de casos de malária no SINAN cobre a região extra-amazônica. 
 
 - Prefixo dos arquivos: MENI
 - CID-10
-   - Meningite meningocócica: A39.0
-   - Meningococcemia aguda: A39.2
+    - Meningite meningocócica: A39.0
+    - Meningococcemia aguda: A39.2
 - [Ficha de notificação](assets/sinan/agravos/MENIN_FICHA.pdf)
 - [Instrucional](assets/sinan/agravos/MENIN_INSTRUCIONAL.pdf)
 - [Caderno de análises](assets/sinan/agravos/MENIN_CADERNO_ANALISES.pdf)
@@ -838,8 +838,8 @@ A notificação de casos de malária no SINAN cobre a região extra-amazônica. 
 
 - Prefixo dos arquivos: NTRA
 - CID-10
-   - Tracoma: A71
-   - Sequelas de tracoma: B94.0
+    - Tracoma: A71
+    - Sequelas de tracoma: B94.0
 
 ### Inquérito de tracoma
 
@@ -1266,11 +1266,11 @@ Antes de concluir uma análise com SINAN, verifique se:
 
 - [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 57.
 
-- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 413.
+- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 415.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 440.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 442.
 
-- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 403.
+- [Inquéritos e pesquisas de saúde — seção “VIVA: sistema e inquérito”](inqueritos.html#viva-sistema-e-inquérito). Na edição impressa, p. 405.
 
 :::
 <!-- END GENERATED SEE ALSO -->

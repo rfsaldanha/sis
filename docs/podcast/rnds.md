@@ -1,8 +1,8 @@
-# Podcast: RNDS -- Rede Nacional de Dados em Saúde
+# Podcast: RNDS — Rede Nacional de Dados em Saúde
 
-**Livro:** Sistemas de Informação em Saúde no Brasil  
-**Capítulo:** RNDS -- Rede Nacional de Dados em Saúde  
-**Formato:** conversa entre apresentadora e estudante  
+**Livro:** Sistemas de Informação em Saúde no Brasil
+**Capítulo:** RNDS — Rede Nacional de Dados em Saúde
+**Formato:** conversa entre apresentadora e estudante
 **Tom:** acadêmico, mas relaxado
 
 ## Roteiro

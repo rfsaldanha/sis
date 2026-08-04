@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# CNES -- Cadastro Nacional de Estabelecimentos de Saúde {#sec-cnes}
+# CNES — Cadastro Nacional de Estabelecimentos de Saúde {#sec-cnes}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -830,7 +830,7 @@ Antes de concluir uma análise com CNES, verifique se:
 
 - [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 123.
 
-- [SISAPS — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: SISAPS + CNES”](sisaps.html#exemplo-sisaps-cnes). Na edição impressa, p. 294.
+- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: Siaps + CNES”](sisaps.html#sec-related-sisaps-exemplo-sisaps-cnes). Na edição impressa, p. 294.
 
 - [SISCAN — Sistema de Informação de Câncer — seção “Integração com SIA/SUS, CNES e CADSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 220.
 

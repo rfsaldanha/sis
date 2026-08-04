@@ -1,4 +1,4 @@
-# ANS -- Agência Nacional de Saúde Suplementar {#sec-ans}
+# ANS — Agência Nacional de Saúde Suplementar {#sec-ans}
 
 A Agência Nacional de Saúde Suplementar (ANS) é a agência reguladora federal responsável pelo setor de planos privados de assistência à saúde. Vinculada ao Ministério da Saúde, ela é uma autarquia sob regime especial, com autonomia administrativa, financeira e técnica, sede no Rio de Janeiro e atuação em todo o território nacional. A Lei nº 9.961, de 28 de janeiro de 2000, atribuiu-lhe funções de regulação, normatização, controle e fiscalização das atividades que garantem a assistência suplementar à saúde [@brasilLei99612000] (ver @qua-ans-caracteristicas-gerais-da-ans).
 
@@ -20,7 +20,7 @@ Características gerais da ANS
 
 O campo de atuação da Agência precisa ser delimitado com precisão. A ANS não regula diretamente toda consulta, clínica ou hospital privado do país. Sua competência está concentrada nas relações organizadas por planos privados de assistência à saúde: autorização e acompanhamento de operadoras e produtos, coberturas contratadas, garantias dos beneficiários, rede assistencial, equilíbrio econômico-financeiro, padrões de informação e fiscalização. Serviços privados pagos diretamente pelas pessoas, sem intermediação de um plano, não passam a integrar o setor regulado apenas por serem privados.
 
-Também não há oposição simples entre “população do SUS” e “população dos planos”. O SUS é universal, e possuir um plano não retira o direito de utilizar serviços públicos. Uma mesma pessoa pode receber atenção financiada pela operadora em determinado momento e pelo SUS em outro. Essa sobreposição é decisiva para interpretar dados da ANS e para integrá-los aos SIS.
+Também não há oposição simples entre "população do SUS" e "população dos planos". O SUS é universal, e possuir um plano não retira o direito de utilizar serviços públicos. Uma mesma pessoa pode receber atenção financiada pela operadora em determinado momento e pelo SUS em outro. Essa sobreposição é decisiva para interpretar dados da ANS e para integrá-los aos SIS.
 
 ::: {.callout-note title="Saúde suplementar e participação complementar"}
 Saúde suplementar designa a assistência intermediada por planos privados. Ela não é sinônimo de toda assistência privada nem da participação complementar de estabelecimentos privados contratados pelo SUS.
@@ -105,7 +105,7 @@ Fontes de informação usadas na regulação da saúde suplementar
 
 :::
 
-O SIB recebe atualizações cadastrais mensais das operadoras. Sua lógica é de vínculos, não necessariamente de pessoas únicas: alguém associado a dois produtos pode ter dois registros e dois códigos de controle operacional. Por isso, totais divulgados como “beneficiários” precisam ser lidos segundo a definição do conjunto consultado, especialmente em análises de cobertura populacional [@ansSIB2024].
+O SIB recebe atualizações cadastrais mensais das operadoras. Sua lógica é de vínculos, não necessariamente de pessoas únicas: alguém associado a dois produtos pode ter dois registros e dois códigos de controle operacional. Por isso, totais divulgados como "beneficiários" precisam ser lidos segundo a definição do conjunto consultado, especialmente em análises de cobertura populacional [@ansSIB2024].
 
 O TISS registra transações assistenciais com granularidade diferente do SIP e do DIOPS. A comparação entre o total de despesas informado no TISS e as demonstrações econômico-financeiras é, inclusive, usada para monitorar completude. A ANS alerta que inconsistências identificadas nos dados enviados pelas operadoras podem afetar análises e visualizações, e mantém processos de monitoramento e correção [@ansTISSDados2026].
 
@@ -153,7 +153,7 @@ Os produtos públicos não expõem toda a base operacional. Informações pessoa
 
 ### Coberturas que não são equivalentes
 
-A primeira decisão ao integrar ANS e SIS é definir quem e o que cada fonte observa. SIH/SUS e SIA/SUS registram produção financiada pelo SUS: internações autorizadas por AIH e procedimentos ambulatoriais captados por APAC, BPA e outros instrumentos. Um hospital privado conveniado pode aparecer nesses sistemas quando presta atendimento financiado pelo SUS; portanto, “dado do SUS” não significa necessariamente “prestador público”.
+A primeira decisão ao integrar ANS e SIS é definir quem e o que cada fonte observa. SIH/SUS e SIA/SUS registram produção financiada pelo SUS: internações autorizadas por AIH e procedimentos ambulatoriais captados por APAC, BPA e outros instrumentos. Um hospital privado conveniado pode aparecer nesses sistemas quando presta atendimento financiado pelo SUS; portanto, "dado do SUS" não significa necessariamente "prestador público".
 
 O SISAB e o Siaps descrevem atividades da APS no SUS em períodos e arranjos operacionais distintos. Em contraste, TISS e SIP refletem atenção intermediada por operadoras. Consultas e procedimentos privados pagos diretamente pelas famílias podem ficar fora dos dois domínios, pois não foram financiados pelo SUS nem por um plano.
 
@@ -200,7 +200,7 @@ TUSS e SIGTAP exigem mapeamento conceitual. Mesmo quando dois códigos descrevem
 
 3. Harmonizar unidades. Não equiparar automaticamente AIH, APAC, BPA, guia TISS, item de procedimento e internação clínica.
 
-4. Preservar a sobreposição. Não subtrair todos os beneficiários da população para criar uma suposta “população exclusivamente SUS”; beneficiários também utilizam o sistema público.
+4. Preservar a sobreposição. Não subtrair todos os beneficiários da população para criar uma suposta "população exclusivamente SUS"; beneficiários também utilizam o sistema público.
 
 5. Verificar completude e revisões. Dados recentes do TISS, SIB, SIH/SUS e SIA/SUS podem mudar após correções, reenvios e consolidação.
 
@@ -221,9 +221,9 @@ Integrar ANS e SIS amplia a capacidade de observar o sistema de saúde brasileir
 
 - [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Rede SUS, privada, filantrópica e suplementar”](cnes.html#rede-sus-privada-filantrópica-e-suplementar). Na edição impressa, p. 206.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 442.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Dados públicos e bases institucionais”](interoperabilidade.html#dados-públicos-e-bases-institucionais). Na edição impressa, p. 444.
 
-- [Inquéritos e pesquisas de saúde — seção “Vigitel”](inqueritos.html#vigitel). Na edição impressa, p. 401.
+- [Inquéritos e pesquisas de saúde — seção “Vigitel”](inqueritos.html#vigitel). Na edição impressa, p. 403.
 
 :::
 <!-- END GENERATED SEE ALSO -->

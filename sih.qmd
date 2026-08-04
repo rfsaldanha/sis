@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SIH -- Sistema de Informações Hospitalares do SUS {#sec-sih}
+# SIH — Sistema de Informações Hospitalares do SUS {#sec-sih}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -99,7 +99,7 @@ A adoção da AIH e a implantação do SIH começaram em 1981, com projeto pilot
 
 A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema [@pedrosoDataSciencePlatform2023].
 
-Este é um dos sistemas de informação em saúde com atualização mais frequente, junto com o Sistema de Informações Ambulatoriais -- SIA (@sec-sia). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.
+Este é um dos sistemas de informação em saúde com atualização mais frequente, assim como o Sistema de Informações Ambulatoriais — SIA (@sec-sia). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.
 
 Essa origem não diminui o valor analítico do SIH, mas orienta a leitura dos dados. O sistema registra a internação a partir de um fluxo de autorização, faturamento e crítica, e não a partir de um prontuário clínico completo. Por isso, o melhor uso do SIH combina conhecimento sobre a assistência hospitalar com conhecimento das regras de registro.
 
@@ -432,7 +432,7 @@ icsap_mun
 ```
 
 ::: {.callout-note}
-O objeto `lista_icsap_cid10` representa uma lista previamente preparada de códigos CID-10 sensíveis à atenção primária. Em uma análise real, essa lista deve ser construída a partir da portaria ou de pacote específico e versionada junto ao código.
+O objeto `lista_icsap_cid10` representa uma lista previamente preparada de códigos CID-10 sensíveis à atenção primária. Em uma análise real, essa lista deve ser construída a partir da portaria ou de pacote específico e versionada com o código.
 :::
 
 ::: {.content-visible when-format="html"}
@@ -449,7 +449,7 @@ A linha do tempo sintetiza marcos institucionais e tecnológicos do SIH. Ela dev
 
 ## Acesso aos dados
 
-Os dados do SIH podem ser acessados por diferentes caminhos, a depender do objetivo da análise (ver @qua-sih-formas-de-acesso-aos-dados-do-sih).
+Os dados do SIH podem ser acessados por diferentes caminhos, conforme o objetivo da análise (ver @qua-sih-formas-de-acesso-aos-dados-do-sih).
 
 ::: {#qua-sih-formas-de-acesso-aos-dados-do-sih}
 

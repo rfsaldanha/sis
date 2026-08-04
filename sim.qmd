@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SIM -- Sistema de Informação sobre Mortalidade {#sec-sim}
+# SIM — Sistema de Informação sobre Mortalidade {#sec-sim}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -668,7 +668,7 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 - [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 60.
 
-- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 374.
+- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 376.
 
 - [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
 
