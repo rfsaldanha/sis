@@ -90,6 +90,8 @@ A adoção da CID-10, em 1996, marcou uma mudança relevante nas séries histór
 
 No plano normativo, a Portaria SVS/MS nº 116/2009 regulamentou a coleta de dados, o fluxo e a periodicidade de envio das informações sobre óbitos e nascidos vivos para os sistemas sob gestão da Secretaria de Vigilância em Saúde [@brasil_svs_2009_portaria116]. Essa regulamentação reforça que a DO é o documento padrão de uso obrigatório em todo o território nacional para a coleta dos dados sobre óbitos e também o documento hábil para a lavratura da certidão de óbito.
 
+Em 2022, o Ministério da Saúde iniciou o projeto *e-SUS Declarações*, concebido para permitir a emissão eletrônica da DO e da DNV. O marco registra o início de uma modernização gradual e não significa, por si só, a substituição imediata dos formulários e fluxos então vigentes [@ministeriodasaudeCaminhosVigilancia2022].
+
 ## Fluxo da Declaração de Óbito
 
 O documento básico do SIM é a Declaração de Óbito (DO), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. A DO é emitida em três vias, com destinações distintas.

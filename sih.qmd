@@ -103,6 +103,8 @@ Este é um dos sistemas de informação em saúde com atualização mais frequen
 
 Essa origem não diminui o valor analítico do SIH, mas orienta a leitura dos dados. O sistema registra a internação a partir de um fluxo de autorização, faturamento e crítica, e não a partir de um prontuário clínico completo. Por isso, o melhor uso do SIH combina conhecimento sobre a assistência hospitalar com conhecimento das regras de registro.
 
+Em 2016, a Comissão Intergestores Tripartite instituiu o Conjunto Mínimo de Dados da Atenção à Saúde (CMD), com implantação incremental e gradual e previsão de integração dos registros do SIH, do SIA e de sistemas relacionados. Trata-se de uma agenda de convergência informacional, não de evidência de descontinuação imediata do SIH [@brasilResolucaoCMD2016]. Em 2025, a Portaria GM/MS nº 7.639 incluiu o SIH e o CMD entre os bancos nacionais cuja alimentação deve ocorrer de forma mensal e sistemática [@brasilPortaria76392025].
+
 ## Fluxo da AIH
 
 A AIH estrutura o ciclo administrativo da internação: solicitação, autorização, registro da internação, faturamento, crítica, aprovação ou rejeição e posterior disseminação dos dados.

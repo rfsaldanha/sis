@@ -112,6 +112,13 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.css" rel="stylesheet">
+<script src="site_libs/visjs-7.4.9/vis-timeline-graph2d.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet">
+<script src="site_libs/timevis-binding-2.1.0/timevis.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -567,7 +574,7 @@ gtag('config', 'G-2M7VLSRDCB', { 'anonymize_ip': false});
 <div class="toc-actions"><ul><li><a href="https://github.com/rfsaldanha/sis/blob/main/sipni.qmd" class="toc-action"><i class="bi bi-github"></i>Ver o código fonte</a></li><li><a href="https://github.com/rfsaldanha/sis/issues/new" class="toc-action"><i class="bi empty"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -791,7 +798,7 @@ Aviso
 </div>
 </div>
 </section>
-<section id="histórico-e-organização" class="level2" data-number="15.4">
+<section id="histórico-e-organização" class="level2 page-columns page-full" data-number="15.4">
 <h2 data-number="15.4" class="anchored" data-anchor-id="histórico-e-organização"><span class="header-section-number">15.4</span> Histórico e organização</h2>
 <p>O Programa Nacional de Imunizações (PNI) foi criado em 1973 e consolidado no contexto das políticas nacionais de vigilância epidemiológica e controle de doenças imunopreveníveis. A institucionalização da vacinação como ação nacional permanente antecede a informatização do sistema e envolve calendário vacinal, rede de frio, distribuição de imunobiológicos, normas técnicas, campanhas e salas de vacinação <span class="citation" data-cites="ministeriodasaudeRelatorioFinal5a1975">(<a href="referencias.html#ref-ministeriodasaudeRelatorioFinal5a1975" role="doc-biblioref">BRASIL, 1975</a>)</span>.</p>
 <p>Com a expansão do programa, o registro informatizado passou a apoiar o acompanhamento de doses aplicadas, coberturas, estoques, distribuição e eventos adversos. O SI-PNI antigo organizava diferentes módulos e aplicações, entre eles:</p>
@@ -806,6 +813,19 @@ Aviso
 </ul>
 <p>A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração nacional e maior oportunidade da informação. O novo SI-PNI foi reformulado para operar integrado à <a href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de Dados em Saúde</a> e à Estratégia de Saúde Digital do Ministério da Saúde, em linha com a proposta de Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial da Saúde.</p>
 <p>Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS <span class="citation" data-cites="brasilNovoSIPNI2023">(<a href="referencias.html#ref-brasilNovoSIPNI2023" role="doc-biblioref">BRASIL, 2023</a>)</span>.</p>
+<p>Em 2024, a Portaria GM/MS nº 5.663 determinou que os sistemas de registro de vacinação encaminhassem os dados de doses aplicadas exclusivamente à RNDS, conforme o modelo vigente de Registro de Imunobiológico Aplicado (RIA). A norma manteve a possibilidade de uso do SI-PNI, do e-SUS APS e de sistemas próprios ou de terceiros, desde que observadas as regras de interoperabilidade com a RNDS <span class="citation" data-cites="brasilPortaria56632024">(<a href="referencias.html#ref-brasilPortaria56632024" role="doc-biblioref">BRASIL, 2024</a>)</span>.</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-page">
+<div class="timevis html-widget html-fill-item" id="htmlwidget-272a3b080435633f2f7a" style="width:100%;height:464px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-272a3b080435633f2f7a">{"x":{"items":[{"id":"1","content":"<small>Formulação do <b>Programa Nacional de Imunizações<\/b><\/small>","start":"1973-09-18"},{"id":"2","content":"<small>Institucionalização do PNI<\/small>","start":"1975-10-30"},{"id":"3","content":"<small>Retomada da informatização com o SI-API<\/small>","start":"1994-01-01","end":"1997-12-31"},{"id":"4","content":"<small>Implantação do SI-PNI nominal<\/small>","start":"2010-01-01"},{"id":"5","content":"<small>Novo SI-PNI registra a vacinação contra a Covid-19 e integra dados à RNDS<\/small>","start":"2021-01-01"},{"id":"6","content":"<small>Encerramento das entradas no SI-PNI Web/Desktop e novo módulo de rotina<\/small>","start":"2023-06-01"},{"id":"7","content":"<small>Envio dos registros vacinais exclusivamente à RNDS<\/small>","start":"2024-10-31"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"timezone":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>Linha do tempo do SI-PNI</p>
+</div>
+</div>
 <ul>
 <li><a href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view">Nota Informativa Conjunta nº 4/2023 — DPNI</a></li>
 <li><a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes">Entenda o novo Sistema de Informação do Programa Nacional de Imunizações</a></li>
@@ -2372,6 +2392,9 @@ ARAÚJO, E. M. DE et al. Tendência temporal do preenchimento do campo raça/cor
 </div>
 <div id="ref-brasilNovoSIPNI2023" class="csl-entry" role="listitem">
 BRASIL. <strong>Entenda o novo Sistema de Informação do Programa Nacional de Imunizações</strong>. Disponível em: &lt;<a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes">https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes</a>&gt;. Acesso em: 4 ago. 2026.
+</div>
+<div id="ref-brasilPortaria56632024" class="csl-entry" role="listitem">
+BRASIL. <strong>Portaria <span>GM/MS</span> nº 5.663, de 31 de outubro de 2024: Altera a Portaria de Consolidação <span>GM/MS</span> nº 1, de 28 de setembro de 2017, para dispor sobre o registro de dados de vacinação e o envio à Rede Nacional de Dados em Saúde</strong>. Brasília, DFMinistério da Saúde, 31 out. 2024. Disponível em: &lt;<a href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5663_04_11_2024.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5663_04_11_2024.html</a>&gt;. Acesso em: 4 ago. 2026
 </div>
 <div id="ref-ministeriodasaudeRelatorioFinal5a1975" class="csl-entry" role="listitem">
 BRASIL, M. DA S. <strong>Relatório final da 5ª Conferência Nacional de Saúde</strong>. Bras<span>í</span>lia: MS, 1975.

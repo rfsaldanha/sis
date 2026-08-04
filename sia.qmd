@@ -81,6 +81,8 @@ A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatoria
 
 Ao longo do tempo, o SIA passou a reunir instrumentos com granularidade e finalidades diferentes. Essa diversidade é uma força do sistema, mas também exige cuidado: BPA-C, BPA-I, APAC e RAAS não devem ser tratados como se tivessem a mesma unidade de análise.
 
+Em 2016, a Comissão Intergestores Tripartite instituiu o Conjunto Mínimo de Dados da Atenção à Saúde (CMD), com implantação incremental e gradual e previsão de integração dos registros do SIA, do SIH e de sistemas relacionados [@brasilResolucaoCMD2016]. Em 2025, a Portaria GM/MS nº 7.639 incluiu o SIA e o CMD entre os bancos nacionais cuja alimentação deve ocorrer de forma mensal e sistemática [@brasilPortaria76392025]. Esses marcos registram uma agenda de convergência informacional, não a descontinuação imediata do SIA.
+
 ## SIA e SIH
 
 SIA e SIH (@sec-sih) são sistemas de produção assistencial e remuneração, mas registram tipos diferentes de cuidado (ver @qua-sia-diferencas-praticas-entre-sia-e-sih).

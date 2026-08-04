@@ -132,6 +132,8 @@ Versões e formas de disseminação relacionadas ao SINAN
 
 A coexistência de versões e canais de disseminação cria uma camada adicional de interpretação. Quando uma série histórica atravessa mudanças de sistema ou de forma de acesso, diferenças no número de registros podem refletir tanto mudanças epidemiológicas quanto alterações operacionais. Por isso, comparações temporais devem registrar a origem da base, o leiaute usado e eventuais mudanças de fluxo no período.
 
+Em 2025, as versões 2.x ampliaram as funções do e-SUS SINAN. A versão 2.0.2 incorporou a ficha de notificação/conclusão para doenças e agravos sem ficha específica de investigação, e o histórico oficial da plataforma registra ainda a versão 2.3.0 no mesmo ano [@secretariadesaudeRJESUSSinan2025; @ministeriodasaudeESUSSinan2026].
+
 O Ministério da Saúde mantém uma página sobre o [SINAN](https://www.gov.br/saude/pt-br/composicao/svsa/sistemas-de-informacao/sinan/sinan) e uma plataforma específica do [e-SUS SINAN](https://plataforma.saude.gov.br/esussinan/).
 
 ::: {.content-visible when-format="html"}

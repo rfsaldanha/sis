@@ -79,6 +79,8 @@ Estudos de avaliação indicam melhora importante da cobertura e da qualidade do
 
 Na prática, isso significa que a série histórica do SINASC não deve ser lida apenas como uma sequência de nascimentos. Ela também reflete mudanças de implantação, qualificação das rotinas municipais e estaduais, informatização, revisão de formulários e estratégias de busca ativa. Comparações temporais muito longas precisam considerar esses elementos, principalmente quando o interesse está em municípios pequenos ou em variáveis de preenchimento mais sensível.
 
+Em 2022, o Ministério da Saúde iniciou o projeto *e-SUS Declarações*, concebido para permitir a emissão eletrônica da DNV e da DO. O marco registra o início de uma modernização gradual e não significa, por si só, a substituição imediata dos formulários e fluxos então vigentes [@ministeriodasaudeCaminhosVigilancia2022].
+
 ## Fluxo da Declaração de Nascido Vivo
 
 O documento básico do SINASC é a Declaração de Nascido Vivo (DNV), padronizada nacionalmente, gerenciada e distribuída pelo Ministério da Saúde. Assim como a DO, a DNV é emitida em três vias e distribuída gratuitamente.

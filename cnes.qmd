@@ -87,6 +87,8 @@ Estabelecimento de saúde é definido como o espaço físico delimitado e perman
 
 Como se trata de um cadastro, as informações são atualizadas continuamente e disseminadas por competência. Isso permite acompanhar mensalmente mudanças na rede de serviços, mas também exige cuidado para não interpretar uma fotografia cadastral como produção assistencial ou disponibilidade real em tempo integral.
 
+Marcos posteriores alteraram aspectos importantes do cadastro. Em 2017, a Portaria nº 2.022 passou a determinar a classificação automática do tipo de estabelecimento com base nas atividades cadastradas [@brasilPortariaCNES2017]. Em 2024, a Portaria GM/MS nº 5.337 admitiu, nas situações previstas na legislação, o registro de profissionais liberais ou empresas que prestam ações e serviços de saúde em domicílio ou a distância, mediados por telessaúde, mesmo sem sede física [@brasilPortariaCNES2024].
+
 ## Fluxo cadastral
 
 O CNES segue um ciclo de cadastro, atualização, validação e disseminação. A qualidade da base depende do preenchimento correto, da atualização regular pelos gestores e da coerência entre informações de estabelecimento, serviços, leitos, equipamentos e profissionais.

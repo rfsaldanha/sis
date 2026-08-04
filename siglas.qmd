@@ -95,6 +95,9 @@ CIR
 CIT
 : Comissão Intergestores Tripartite
 
+CMD
+: Conjunto Mínimo de Dados da Atenção à Saúde
+
 CNES
 : Cadastro Nacional de Estabelecimentos de Saúde
 

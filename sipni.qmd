@@ -108,6 +108,18 @@ A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração 
 
 Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS [@brasilNovoSIPNI2023].
 
+Em 2024, a Portaria GM/MS nº 5.663 determinou que os sistemas de registro de vacinação encaminhassem os dados de doses aplicadas exclusivamente à RNDS, conforme o modelo vigente de Registro de Imunobiológico Aplicado (RIA). A norma manteve a possibilidade de uso do SI-PNI, do e-SUS APS e de sistemas próprios ou de terceiros, desde que observadas as regras de interoperabilidade com a RNDS [@brasilPortaria56632024].
+
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SI-PNI"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sipni.csv"))
+```
+:::
+
 - [Nota Informativa Conjunta nº 4/2023 — DPNI](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view)
 - [Entenda o novo Sistema de Informação do Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes)
 
