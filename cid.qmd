@@ -50,9 +50,9 @@ Um código CID isolado raramente define a análise inteira. Declare sempre o sis
 
 ## Histórico
 
-As primeiras classificações estatísticas de causas de morte estão ligadas aos trabalhos de John Graunt (1620–1674) e às tabelas de mortalidade de Londres. O objetivo inicial era organizar causas de óbito de forma suficientemente padronizada para comparar padrões de mortalidade no tempo.
+As primeiras classificações estatísticas de causas de morte estão ligadas aos trabalhos de John Graunt (1620–1674) e às tabelas de mortalidade de Londres. O objetivo inicial era organizar causas de óbito de forma suficientemente padronizada para comparar padrões de mortalidade no tempo [@whoICDPage2026].
 
-No século XIX, William Farr (1807–1883) contribuiu para a padronização da nomenclatura e da classificação das causas de morte. Em 1891, o Instituto Internacional de Estatística criou um comitê presidido por Jacques Bertillon (1851–1922) para preparar uma classificação internacional de causas de óbito. A chamada Classificação de Bertillon foi inspirada na classificação usada em Paris e passou a ser adotada em diferentes países.
+No século XIX, William Farr (1807–1883) contribuiu para a padronização da nomenclatura e da classificação das causas de morte. Em 1891, o Instituto Internacional de Estatística criou um comitê presidido por Jacques Bertillon (1851–1922) para preparar uma classificação internacional de causas de óbito. A chamada Classificação de Bertillon foi inspirada na classificação usada em Paris e passou a ser adotada em diferentes países [@whoICDPage2026].
 
 Ao longo do século XX, sucessivas revisões ampliaram o escopo e reorganizaram a estrutura da classificação. Com a criação da Organização Mundial da Saúde, em 1948, a OMS passou a coordenar a manutenção e a atualização da classificação internacional. A CID tornou-se a base internacional para estatísticas comparáveis de mortalidade e morbidade entre países e ao longo do tempo [@whoICDPage2026].
 

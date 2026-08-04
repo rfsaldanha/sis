@@ -99,6 +99,7 @@ A dengue é um bom exemplo porque pode produzir múltiplos eventos de saúde. A 
 ```{mermaid}
 %%| fig-cap: "Eventos de saúde e possíveis sistemas de registro no exemplo da dengue"
 %%| label: fig-eventos-dengue
+%%| fig-alt: "Fluxograma de uma trajetória de dengue: sintomas levam a atendimento, notificação, investigação, internação, alta ou óbito; SIA, SINAN, SIH e SIM registram etapas diferentes."
 flowchart LR
   sint[Sintomas] --> atend[Atendimento ambulatorial]
   atend --> notif[Notificação de caso suspeito]

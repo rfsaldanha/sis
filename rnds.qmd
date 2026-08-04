@@ -149,6 +149,7 @@ O fluxo básico da RNDS começa em um sistema de origem, passa por transformaç�
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de integração com a RNDS"
 %%| label: fig-rnds-fluxo
+%%| fig-alt: "Fluxograma da RNDS: o dado do serviço passa pelo sistema de origem, pelo modelo de informação e recurso FHIR, por autenticação, envio e validações; então integra a RNDS e seus usos por cidadãos, profissionais e gestores."
 flowchart TD
   serv[Serviço ou estabelecimento de saúde] --> origem[Sistema de origem]
   origem --> modelo[Modelo de informação e recurso FHIR]

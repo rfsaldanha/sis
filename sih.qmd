@@ -93,11 +93,11 @@ Na prática, a distinção entre SIH e SIA evita duas confusões comuns. A prime
 
 ## Histórico e organização
 
-A concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH).
+A concepção do SIH tem origem administrativa, voltada ao pagamento de internações, controle, auditoria e organização da produção hospitalar. Em 1977, já havia um sistema nacional para controle de contas hospitalares, mas com problemas de preenchimento, previsibilidade de faturamento e risco de fraude. A solução proposta foi simplificar e padronizar o processo por meio de um instrumento único: a Autorização de Internação Hospitalar (AIH) [@pepeSistemaInformacoesHospitalares2009].
 
 A adoção da AIH e a implantação do SIH começaram em 1981, com projeto piloto em Curitiba, e avançaram para implantação nacional em 1983. Ao longo do tempo, o sistema incorporou mudanças tecnológicas, regras de crítica e mecanismos de validação. Atualmente, há críticas automáticas para identificar incompatibilidades entre idade, sexo, procedimento, diagnóstico, capacidade declarada e características do estabelecimento, contribuindo para a consistência do registro [@pepeSistemaInformacoesHospitalares2009].
 
-A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas. Entre 2008 e maio de 2024, a PCDaS/ICICT compilava 186.302.654 AIHs cadastradas, ilustrando a escala do sistema [@pedrosoDataSciencePlatform2023].
+A cobertura do SIH se limita às internações financiadas pelo SUS na rede pública e conveniada. A AIH reúne informações demográficas, município de residência, estabelecimento, diagnósticos, procedimentos, datas, permanência, desfecho, valores e regras administrativas.
 
 Este é um dos sistemas de informação em saúde com atualização mais frequente, assim como o Sistema de Informações Ambulatoriais — SIA (@sec-sia). A análise em escala nacional exige atenção a volume de dados, processamento incremental, uso de bancos relacionais ou formatos colunares e documentação clara dos filtros aplicados.
 
@@ -111,6 +111,7 @@ A AIH estrutura o ciclo administrativo da internação: solicitação, autoriza�
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado da Autorização de Internação Hospitalar"
 %%| label: fig-sih-aih
+%%| fig-alt: "Fluxograma da AIH: solicitação, autorização, internação e desfecho precedem faturamento e críticas; AIHs aprovadas seguem ao arquivo RD e à disseminação do SIH, enquanto rejeitadas seguem aos arquivos RJ ou ER."
 flowchart TD
   sol[Solicitação de internação] --> aut[Autorização da AIH]
   aut --> int[Internação hospitalar]

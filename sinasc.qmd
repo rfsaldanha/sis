@@ -73,7 +73,7 @@ Esse conjunto de perguntas mostra que o SINASC pode responder tanto perguntas de
 
 ## Histórico e organização
 
-O SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990 e os dados consolidados passaram a estar disponíveis a partir de 1994. Nos primeiros anos, o sistema enfrentou problemas de cobertura, especialmente em áreas mais remotas e em municípios das regiões Norte e Nordeste, além de desafios de rotina de crítica, duplicidade e controle de qualidade.
+O SINASC foi concebido de forma semelhante ao SIM, com documento padronizado, fluxo nacional e integração com o Registro Civil. A implantação nacional começou em 1990 e os dados consolidados passaram a estar disponíveis a partir de 1994. Nos primeiros anos, o sistema enfrentou problemas de cobertura, especialmente em áreas mais remotas e em municípios das regiões Norte e Nordeste, além de desafios de rotina de crítica, duplicidade e controle de qualidade [@jorgeAnaliseQualidadeEstatisticas2007].
 
 Estudos de avaliação indicam melhora importante da cobertura e da qualidade do SINASC, mas também mostram heterogeneidade entre municípios e variáveis. A experiência de implantação do SIM e do SINASC é descrita como parte do esforço de construção de séries nacionais mais completas para eventos vitais, ainda que com diferenças regionais no ritmo de consolidação [@jorgeAnaliseQualidadeEstatisticas2007]. @szwarcwaldAvaliacaoInformacoesSistema2019 estimam cobertura superior a 90% na maioria das Unidades da Federação, embora municípios remotos e mais vulneráveis ainda possam apresentar cobertura insuficiente. A qualidade também varia conforme o campo analisado; idade gestacional, paridade, escolaridade materna e anomalias congênitas exigem atenção especial [@pedrazaQualidadeSistemaInformacoes2012; @luquettiQualidadeNotificacaoAnomalias2010].
 
@@ -88,6 +88,7 @@ O fluxo das vias da DNV explica por que o SINASC tem dupla importância: ele ali
 ```{mermaid}
 %%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Nascido Vivo"
 %%| label: fig-sinasc-dnv
+%%| fig-alt: "Fluxograma da Declaração de Nascido Vivo: a primeira via percorre as secretarias municipal e estadual até a base nacional do SINASC; a segunda permite à família obter a certidão de nascimento; a terceira fica no estabelecimento ou prontuário."
 flowchart TD
   parto[Parto com nascido vivo] --> dnv[Declaração de Nascido Vivo]
   dnv --> via1[1ª via]
@@ -301,7 +302,7 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
 
 ## Modelo da Declaração de Nascido Vivo
 
-![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv fig-alt="Modelo de Declaração de Nascido Vivo" width="90%"}
+![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv fig-alt="Reprodução da via branca do formulário oficial da Declaração de Nascido Vivo, com campos sobre identificação, local do parto, mãe, gestação e parto, recém-nascido, anomalias congênitas e responsável pelo preenchimento." width="90%"}
 
 ## Estrutura dos dados
 

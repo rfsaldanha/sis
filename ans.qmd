@@ -28,7 +28,7 @@ Saúde suplementar designa a assistência intermediada por planos privados. Ela 
 
 ## Criação e principais marcos regulatórios
 
-A Constituição Federal de 1988 consolidou a saúde como direito de todos e dever do Estado, instituiu as bases do SUS e permitiu a atuação da iniciativa privada na assistência à saúde. Durante a década seguinte, o mercado de planos operou sem uma agência setorial e com regras fragmentadas, embora seguradoras já estivessem submetidas ao controle econômico-financeiro da Superintendência de Seguros Privados.
+A Constituição Federal de 1988 consolidou a saúde como direito de todos e dever do Estado, instituiu as bases do SUS e permitiu a atuação da iniciativa privada na assistência à saúde. Durante a década seguinte, o mercado de planos operou sem uma agência setorial e com regras fragmentadas, embora seguradoras já estivessem submetidas ao controle econômico-financeiro da Superintendência de Seguros Privados [@brasilConstituicao1988].
 
 A Lei nº 9.656, de 3 de junho de 1998, estabeleceu o marco legal dos planos e seguros privados de assistência à saúde. A norma definiu produtos e operadoras, instituiu exigências de cobertura e contratação, disciplinou registros e criou a obrigação de ressarcimento ao SUS pelos atendimentos sujeitos aos critérios legais [@brasilLei96561998]. Dois anos depois, a Lei nº 9.961/2000 criou a ANS e reuniu em uma agência especializada a regulação assistencial e econômico-financeira do setor (ver @qua-ans-marcos-selecionados-da-regulacao-da-saude-suplementar).
 

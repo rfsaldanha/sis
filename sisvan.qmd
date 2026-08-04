@@ -24,7 +24,7 @@ Características gerais do SISVAN
 
 ## Histórico e organização
 
-O conceito de vigilância alimentar e nutricional ganhou destaque internacional na década de 1970, no contexto das discussões sobre alimentação, nutrição e grupos populacionais em maior vulnerabilidade. No Brasil, experiências de implantação do SISVAN começaram em 1977 e foram posteriormente incorporadas à organização das ações de alimentação e nutrição no SUS.
+O conceito de vigilância alimentar e nutricional ganhou destaque internacional na década de 1970, no contexto das discussões sobre alimentação, nutrição e grupos populacionais em maior vulnerabilidade. No Brasil, experiências de implantação do SISVAN começaram em 1977 e foram posteriormente incorporadas à organização das ações de alimentação e nutrição no SUS [@camposVigilanciaAlimentarNutricional2021].
 
 A Portaria MS nº 80, de 16 de outubro de 1990, regulamentou o SISVAN em âmbito nacional e vinculou sua existência e funcionamento municipal a programas alimentares e nutricionais. Ao longo das décadas seguintes, o sistema passou por mudanças de escopo, informatização e integração com rotinas da APS, acompanhando a consolidação da Política Nacional de Alimentação e Nutrição [@camposVigilanciaAlimentarNutricional2021].
 

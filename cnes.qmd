@@ -73,19 +73,17 @@ O @qua-cnes-perguntas-comuns-que-podem-ser-respondidas-com-o-cnes evidencia que 
 
 ## Histórico e organização
 
-Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS), realizada pelo IBGE. No mesmo ano, foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH), no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH fosse administrativo, voltado ao pagamento de serviços prestados, sua implantação demandou fichas cadastrais de estabelecimentos e profissionais de saúde.
+Os primeiros esforços para sistematizar dados sobre estabelecimentos de saúde no Brasil ocorreram em 1976, com a Pesquisa da Assistência Médico-Sanitária (AMS), realizada pelo IBGE. No mesmo ano, foi implantado o Sistema Nacional de Controle de Pagamento de Contas Hospitalares (SNCPCH), no âmbito do Instituto Nacional de Assistência Médica da Previdência Social (INAMPS). Ainda que o objetivo do SNCPCH fosse administrativo, voltado ao pagamento de serviços prestados, sua implantação demandou fichas cadastrais de estabelecimentos e profissionais de saúde [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
-O SNCPCH foi extinto em 1980, mas suas fichas permaneceram ativas no Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e no SIH, na década de 1990. Após a implantação do SIA em 1994 e a identificação de inconsistências nos dados de estabelecimentos, foi criada a Ficha de Cadastro de Estabelecimentos de Saúde (FCES), pela Portaria GM/MS nº 1.890/1997.
+O SNCPCH foi extinto em 1980, mas suas fichas permaneceram ativas no Sistema de Assistência Médico-Hospitalar da Previdência Social (SAMPS), na década de 1980, e no SIH, na década de 1990. Após a implantação do SIA em 1994 e a identificação de inconsistências nos dados de estabelecimentos, foi criada a Ficha de Cadastro de Estabelecimentos de Saúde (FCES), pela Portaria GM/MS nº 1.890/1997 [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
-Após a consolidação da FCES, a Portaria SAS/MS nº 403/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), inicialmente com forte vínculo ao faturamento no SIA e no SIH, mas com potencial para pesquisas, planejamento e gestão da rede. A primeira versão foi disponibilizada em 2001, seguida por um processo de recadastramento informatizado entre 2001 e 2003.
+Após a consolidação da FCES, a Portaria SAS/MS nº 403/2000 definiu o Cadastro Nacional de Estabelecimentos de Saúde (CNES), inicialmente com forte vínculo ao faturamento no SIA e no SIH, mas com potencial para pesquisas, planejamento e gestão da rede. A primeira versão foi disponibilizada em 2001, seguida por um processo de recadastramento informatizado entre 2001 e 2003 [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
 Atualmente, o CNES é usado como identificador de estabelecimentos em diversos sistemas. O código CNES permite relacionar produção ambulatorial, internações, notificações, nascimentos, óbitos, equipes, leitos e serviços à estrutura da rede onde o evento foi registrado.
 
 ::: {.callout-note}
-Estabelecimento de saúde é definido como o espaço físico delimitado e permanente no qual se realizam ações e serviços de saúde humana sob responsabilidade técnica (art. 360 da PRC/MS nº 1/2017).
+Estabelecimento de saúde é definido como o espaço físico delimitado e permanente no qual se realizam ações e serviços de saúde humana sob responsabilidade técnica (art. 360 da PRC/MS nº 1/2017) [@brasilPortariaConsolidacao12017].
 :::
-
-Em termos de dimensão, para o mês de abril de 2020, o CNES apresentava 409.829 estabelecimentos de saúde, segundo dados compilados pela PCDaS/ICICT [@pedrosoDataSciencePlatform2023].
 
 Como se trata de um cadastro, as informações são atualizadas continuamente e disseminadas por competência. Isso permite acompanhar mensalmente mudanças na rede de serviços, mas também exige cuidado para não interpretar uma fotografia cadastral como produção assistencial ou disponibilidade real em tempo integral.
 
@@ -97,6 +95,7 @@ O CNES segue um ciclo de cadastro, atualização, validação e disseminação. 
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de atualização do CNES"
 %%| label: fig-cnes-fluxo
+%%| fig-alt: "Fluxograma do CNES: o estabelecimento preenche ou atualiza a FCES; o gestor municipal ou estadual aplica críticas e validações; a base por competência alimenta TabNet, arquivos DBC, OpenDataSUS, SIA, SIH e outros sistemas."
 flowchart TD
   est[Estabelecimento de saúde] --> fces[Preenchimento ou atualização da FCES]
   fces --> gest[Gestor municipal ou estadual]

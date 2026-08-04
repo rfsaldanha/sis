@@ -92,7 +92,7 @@ Cobertura vacinal não é apenas a contagem de doses aplicadas. Ela depende de n
 
 ## Histórico e organização
 
-O Programa Nacional de Imunizações (PNI) foi criado em 1973 e consolidado no contexto das políticas nacionais de vigilância epidemiológica e controle de doenças imunopreveníveis. A institucionalização da vacinação como ação nacional permanente antecede a informatização do sistema e envolve calendário vacinal, rede de frio, distribuição de imunobiológicos, normas técnicas, campanhas e salas de vacinação.
+O Programa Nacional de Imunizações (PNI) foi criado em 1973 e consolidado no contexto das políticas nacionais de vigilância epidemiológica e controle de doenças imunopreveníveis. A institucionalização da vacinação como ação nacional permanente antecede a informatização do sistema e envolve calendário vacinal, rede de frio, distribuição de imunobiológicos, normas técnicas, campanhas e salas de vacinação [@ministeriodasaudeRelatorioFinal5a1975].
 
 Com a expansão do programa, o registro informatizado passou a apoiar o acompanhamento de doses aplicadas, coberturas, estoques, distribuição e eventos adversos. O SI-PNI antigo organizava diferentes módulos e aplicações, entre eles:
 
@@ -106,7 +106,7 @@ Com a expansão do programa, o registro informatizado passou a apoiar o acompanh
 
 A pandemia de Covid-19 acelerou a necessidade de registro nominal, integração nacional e maior oportunidade da informação. O novo SI-PNI foi reformulado para operar integrado à [Rede Nacional de Dados em Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds) e à Estratégia de Saúde Digital do Ministério da Saúde, em linha com a proposta de Registro Nominal de Vacinação Eletrônico (RNVe) da Organização Mundial da Saúde.
 
-Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS.
+Em 31 de maio de 2023, foi encerrada a inserção de dados nos módulos SI-PNI web e desktop para o Registro de Vacinação Individualizado e Movimentação de Imunobiológicos. A partir de 1º de junho de 2023, o Ministério da Saúde disponibilizou o módulo de vacinação de rotina no novo SI-PNI, direcionando o registro para a nova plataforma integrada à RNDS [@brasilNovoSIPNI2023].
 
 - [Nota Informativa Conjunta nº 4/2023 — DPNI](https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2023/sei_ms-0033542444-nota-informativa-conjunta.pdf/view)
 - [Entenda o novo Sistema de Informação do Programa Nacional de Imunizações](https://www.gov.br/saude/pt-br/assuntos/noticias/2023/junho/entenda-o-novo-sistema-de-informacao-do-programa-nacional-de-imunizacoes)
@@ -142,6 +142,7 @@ No modelo atual, o registro de vacinação pode ser feito diretamente no novo SI
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de registros de vacinação no SI-PNI"
 %%| label: fig-sipni-fluxo
+%%| fig-alt: "Fluxograma do SI-PNI: a vacinação é registrada no novo SI-PNI, em sistema local integrado ou no e-SUS APS; os registros convergem para a RNDS e alimentam bases e relatórios de gestão, vigilância, cobertura e pesquisa."
 flowchart TD
   sala[Sala de vacinação ou serviço vacinador] --> registro[Registro da vacinação]
   registro --> sipni[Novo SI-PNI]

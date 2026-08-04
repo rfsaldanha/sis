@@ -46,7 +46,7 @@ Periodização sintética da experiência brasileira em Sistemas de Informação
 
 ## Do Registro Civil à aproximação com o setor saúde
 
-A regulamentação do [Registro Civil](https://www.ibge.gov.br/estatisticas/sociais/populacao/9110-estatisticas-do-registro-civil.html?=&t=o-que-e) ocorreu em 1973 [@brasilLei60151973], atribuindo ao Instituto Brasileiro de Geografia e Estatística (IBGE) a responsabilidade pela produção de estatísticas do Registro Civil. Essas estatísticas passaram a compor uma fonte fundamental para o conhecimento da dinâmica populacional brasileira, incluindo informações sobre nascimentos, casamentos e óbitos.
+A Lei de Registros Públicos, promulgada em 1973, reorganizou o [Registro Civil](https://www.ibge.gov.br/estatisticas/sociais/populacao/9110-estatisticas-do-registro-civil.html?=&t=o-que-e) e estabeleceu o envio ao Instituto Brasileiro de Geografia e Estatística (IBGE) das informações necessárias à produção das estatísticas do Registro Civil [@brasilLei60151973]. Essas estatísticas passaram a compor uma fonte fundamental para o conhecimento da dinâmica populacional brasileira, incluindo informações sobre nascimentos, casamentos e óbitos.
 
 Mesmo após a regulamentação, persistiam barreiras importantes de acesso ao Registro Civil. A cobrança para obtenção de registros de nascimento e óbito, a distância entre a população e os cartórios e as desigualdades territoriais de acesso aos serviços contribuíam para o sub-registro e para distorções nas contagens. Esse cenário produziu um contingente expressivo de pessoas sem registro civil [@viacavaSistemaInformacaoSobre2009; @makrakisRegistroCivilNo2000].
 

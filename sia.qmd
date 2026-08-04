@@ -75,9 +75,9 @@ O @qua-sia-perguntas-comuns-que-podem-ser-respondidas-com-o-sia delimita o uso m
 
 O Sistema de Informações Ambulatoriais (SIA) abrange dados sobre atendimentos ambulatoriais, serviços de apoio diagnóstico e terapêutico, ações de prevenção e promoção da saúde e procedimentos especializados realizados por unidades públicas e conveniadas ao SUS.
 
-O SIA foi instituído pela Portaria GM/MS nº 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social.
+O SIA foi instituído pela Portaria GM/MS nº 896, de 29 de junho de 1990, tendo origem no projeto SICAPS, o Sistema de Informação e Controle Ambulatorial da Previdência Social [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
-A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatorial Consolidado (BPA-C), instrumento em que a produção era registrada de forma agregada por procedimento e quantidade. Em 1996, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo (APAC) foi incorporada ao SIA para registrar procedimentos ambulatoriais de maior complexidade e custo. Em 2008, o Boletim de Produção Ambulatorial Individualizado (BPA-I) passou a permitir registro individualizado de produção, com maior detalhamento de profissional e usuário.
+A implantação nacional ocorreu em 1995 com o Boletim de Produção Ambulatorial Consolidado (BPA-C), instrumento em que a produção era registrada de forma agregada por procedimento e quantidade. Em 1996, a Autorização de Procedimentos Ambulatoriais de Alta Complexidade/Custo (APAC) foi incorporada ao SIA para registrar procedimentos ambulatoriais de maior complexidade e custo. Em 2008, o Boletim de Produção Ambulatorial Individualizado (BPA-I) passou a permitir registro individualizado de produção, com maior detalhamento de profissional e usuário [@ministeriodasaudeExperienciaBrasileiraEm2009].
 
 Ao longo do tempo, o SIA passou a reunir instrumentos com granularidade e finalidades diferentes. Essa diversidade é uma força do sistema, mas também exige cuidado: BPA-C, BPA-I, APAC e RAAS não devem ser tratados como se tivessem a mesma unidade de análise.
 
@@ -110,6 +110,7 @@ A produção ambulatorial segue um ciclo administrativo: realização do atendim
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado da produção ambulatorial no SIA"
 %%| label: fig-sia-fluxo
+%%| fig-alt: "Fluxograma do SIA: atendimentos e procedimentos são registrados em BPA, APAC ou RAAS, enviados ao gestor e submetidos a críticas; a produção aprovada integra a disseminação do sistema e a rejeitada não a integra."
 flowchart TD
   prod[Atendimento ou procedimento ambulatorial] --> inst[Instrumento de registro]
   inst --> bpa[BPA]

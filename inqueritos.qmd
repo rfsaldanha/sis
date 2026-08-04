@@ -106,7 +106,7 @@ Diagnósticos autorreferidos dependem de acesso prévio aos serviços e conhecim
 
 ## PNAD e os suplementos de saúde
 
-A PNAD anual foi uma pesquisa domiciliar de propósito múltiplo realizada pelo IBGE entre 1967 e 2015. Seu questionário básico investigava características demográficas, educação, trabalho, rendimento e habitação; suplementos e pesquisas especiais incorporavam temas adicionais em anos selecionados.
+A PNAD anual foi uma pesquisa domiciliar de propósito múltiplo realizada pelo IBGE entre 1967 e 2015. Seu questionário básico investigava características demográficas, educação, trabalho, rendimento e habitação; suplementos e pesquisas especiais incorporavam temas adicionais em anos selecionados [@ibgePNADSaude2008; @ibgeSuplementosPNAD2026].
 
 Questões de saúde apareceram em operações anteriores, mas a principal série comparável de suplementos amplos foi realizada em 1998, 2003 e 2008. Ela investigou autoavaliação da saúde, doenças crônicas, restrição de atividades, acesso e uso de serviços, internações, planos de saúde, saúde bucal e outros temas. A edição de 2008 ampliou fatores de risco, acidentes, violência, atividade física, tabagismo e cadastramento na Estratégia Saúde da Família [@ibgePNADSaude2008; @ibgeSuplementosPNAD2026].
 

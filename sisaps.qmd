@@ -28,7 +28,7 @@ Para acompanhar a transcrição, acesse o roteiro em
 
 | Característica | Descrição |
 |---|---|
-| Sistema atual | Siaps, em implantação progressiva |
+| Situação em 2026 | Siaps, em implantação progressiva |
 | Sistema anterior | SISAB, instituído em 2013 |
 | Área temática | Atenção Primária à Saúde (APS) |
 | Fontes de registro | Estratégia e-SUS APS, incluindo PEC, CDS e aplicativos |
@@ -73,9 +73,9 @@ O sistema apoia a gestão da APS, mas não substitui prontuário clínico, audit
 
 ## Histórico e transição
 
-O SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, como sistema oficial da Atenção Básica para fins de financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo Sistema de Informação da Atenção Básica (SIAB) e passou a ser alimentado pela estratégia e-SUS Atenção Primária à Saúde (e-SUS APS).
+O SISAB foi instituído pela Portaria GM/MS nº 1.412, de 10 de julho de 2013, como sistema oficial da Atenção Básica para fins de financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica. Ele substituiu progressivamente o antigo Sistema de Informação da Atenção Básica (SIAB) e passou a ser alimentado pela estratégia e-SUS Atenção Primária à Saúde (e-SUS APS) [@brasilPortaria14122013].
 
-A partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde.
+A partir de 2016, o envio de informações passou a ocorrer exclusivamente para o SISAB, no contexto da transição do SIAB para o e-SUS APS. O SISAB consolidou relatórios de cadastro, produção, indicadores, saúde e validação, sendo usado para monitoramento de equipes, municípios, estados e regiões de saúde [@soares2016atenccao].
 
 Em 2025, o Siaps foi instituído como renovação do SISAB, com implantação incremental. Seu objetivo é modernizar a infraestrutura tecnológica, centralizar dados da APS em um repositório nacional, melhorar a navegação e apoiar o monitoramento de indicadores de cofinanciamento e qualidade. A Portaria GM/MS nº 7.639/2025 definiu o Siaps como sistema vigente para financiamento e adesão aos programas e estratégias da Política Nacional de Atenção Básica e estabeleceu a substituição gradual dos sistemas anteriores [@brasilPortaria76392025]. Na prática, análises históricas ainda dependem de compreender o SISAB, enquanto análises recentes devem observar a transição para o Siaps.
 
@@ -87,6 +87,7 @@ O Siaps integra informações oriundas da estratégia e-SUS APS. Os registros s�
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de informação da APS"
 %%| label: fig-sisaps-fluxo
+%%| fig-alt: "Fluxograma da APS: a equipe registra no PEC, na CDS ou em aplicativo; o e-SUS APS local envia mensalmente ao repositório nacional e ao Siaps, que produz relatórios e indicadores para gestão, cofinanciamento e avaliação."
 flowchart TD
   equipe[Equipe de APS] --> registro[Registro no PEC, CDS ou aplicativo]
   registro --> esus[e-SUS APS local]

@@ -101,6 +101,7 @@ O fluxo começa na unidade de saúde, que identifica a pessoa e registra a solic
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de informação do SISCAN e do Painel Oncologia"
 %%| label: fig-siscan-fluxo
+%%| fig-alt: "Fluxograma do SISCAN: a unidade solicita o exame, o prestador realiza e emite o laudo, e o sistema envia resultados ao seguimento, ao BPA individualizado e ao Painel Oncologia, que também recebe dados do SIA e do SIH."
 flowchart LR
   usu[Pessoa atendida] --> sol[Unidade solicitante]
   sol --> req[Requisição no SISCAN]

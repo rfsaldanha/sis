@@ -82,9 +82,9 @@ A padronização da DO reorganizou o fluxo de informações sobre mortalidade. O
 
 Esse fluxo aproximou o Registro Civil do setor saúde. A certidão de óbito permanece vinculada ao processo cartorial, mas a DO passou a produzir também informação epidemiológica, permitindo que os óbitos fossem analisados por idade, sexo, raça/cor, município, local de ocorrência e causa de morte.
 
-A organização nacional do SIM também acompanhou mudanças institucionais e tecnológicas. Nos primeiros anos, a preocupação central era estabelecer um instrumento único, definir fluxos, treinar equipes e construir rotinas de crítica, codificação e tabulação. Com a expansão da informática em saúde, o processamento passou a incorporar digitação e crítica em secretarias estaduais e municipais, aumentando a capacidade de uso local da informação.
+A organização nacional do SIM também acompanhou mudanças institucionais e tecnológicas. Nos primeiros anos, a preocupação central era estabelecer um instrumento único, definir fluxos, treinar equipes e construir rotinas de crítica, codificação e tabulação. Com a expansão da informática em saúde, o processamento passou a incorporar digitação e crítica em secretarias estaduais e municipais, aumentando a capacidade de uso local da informação [@sennaSistemaInformacoesSobre2009].
 
-Outro eixo fundamental foi a codificação das causas de morte. O atestado médico da causa segue o modelo internacional recomendado pela Organização Mundial da Saúde, e as causas são codificadas pela Classificação Internacional de Doenças (CID). A criação do Centro Brasileiro de Classificação de Doenças, em 1976, ajudou a estruturar treinamento, tradução e aplicação das regras da CID em português.
+Outro eixo fundamental foi a codificação das causas de morte. O atestado médico da causa segue o modelo internacional recomendado pela Organização Mundial da Saúde, e as causas são codificadas pela Classificação Internacional de Doenças (CID). A criação do Centro Brasileiro de Classificação de Doenças, em 1976, ajudou a estruturar treinamento, tradução e aplicação das regras da CID em português [@sennaSistemaInformacoesSobre2009].
 
 A adoção da CID-10, em 1996, marcou uma mudança relevante nas séries históricas. Comparações de mortalidade por causa antes e depois da mudança de revisão da CID exigem cautela, porque categorias, agrupamentos e regras de codificação podem mudar. Mesmo quando a pergunta parece simples, como "a mortalidade por determinada causa aumentou?", a resposta depende da continuidade das definições usadas na seleção e na tabulação da causa.
 
@@ -119,6 +119,7 @@ Blocos da Declaração de Óbito e usos analíticos
 ```{mermaid}
 %%| fig-cap: "Fluxo de emissão e destinação das vias da Declaração de Óbito"
 %%| label: fig-sim-do
+%%| fig-alt: "Fluxograma da Declaração de Óbito: a primeira via segue à Secretaria Municipal de Saúde e ao SIM; a segunda vai com a família ao Registro Civil; a terceira permanece no estabelecimento ou unidade notificadora."
 flowchart TD
   do[Declaração de Óbito] --> via1[1ª via]
   do --> via2[2ª via]
@@ -144,7 +145,7 @@ Empresas funerárias não são unidades notificadoras aptas a receber formulári
 
 ## Modelo da Declaração de Óbito
 
-![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do fig-alt="Modelo de Declaração de Óbito" width="90%"}
+![Modelo de Declaração de Óbito](assets/sim/wiki_modelo_do.jpg){#modelo-do fig-alt="Reprodução do formulário oficial da Declaração de Óbito, organizado em nove blocos para identificação, residência, ocorrência, óbito fetal ou infantil, causas, médico, causas externas, cartório e localidade sem médico." width="90%"}
 
 Mais informações sobre o preenchimento estão disponíveis no [manual de preenchimento da Declaração de Óbito](assets/sim/declaracao-obito-manual-instrucoes-preenchimento.pdf), disponibilizado pelo Ministério da Saúde.
 
@@ -668,7 +669,7 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 - [Eventos de saúde — seção “Óbitos”](eventos.html#óbitos). Na edição impressa, p. 60.
 
-- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 376.
+- [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 375.
 
 - [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
 

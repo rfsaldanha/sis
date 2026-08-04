@@ -75,9 +75,9 @@ O SISAGUA apoia vigilância e gestão de risco. A análise deve separar "não ho
 
 ## Histórico e organização
 
-O SISAGUA surgiu no contexto do Vigiagua, programa voltado a promover saúde, prevenir doenças e agravos de veiculação hídrica e apoiar a vigilância da qualidade da água para consumo humano. A primeira versão foi concebida pela Fundação Nacional de Saúde (Funasa) em 1999 e disponibilizada em 2000.
+O SISAGUA surgiu no contexto do Vigiagua, programa voltado a promover saúde, prevenir doenças e agravos de veiculação hídrica e apoiar a vigilância da qualidade da água para consumo humano. A primeira versão foi concebida pela Fundação Nacional de Saúde (Funasa) em 1999 e disponibilizada em 2000 [@oliveiraSistemaInformacaoVigilancia2019].
 
-Em 2003, o sistema passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde. Ao longo do tempo, foi atualizado para acompanhar mudanças na norma de qualidade da água, incorporar melhorias operacionais e ampliar sua capacidade de produzir informações para planejamento, tomada de decisão e ações de saúde.
+Em 2003, o sistema passou a ser vinculado à Secretaria de Vigilância em Saúde do Ministério da Saúde. Ao longo do tempo, foi atualizado para acompanhar mudanças na norma de qualidade da água, incorporar melhorias operacionais e ampliar sua capacidade de produzir informações para planejamento, tomada de decisão e ações de saúde [@oliveiraSistemaInformacaoVigilancia2019].
 
 As reformulações posteriores adequaram o sistema às normas de potabilidade, aos fluxos de cadastro, controle e vigilância e à disseminação por relatórios, painéis e dados abertos. Estudos sobre o SISAGUA destacam sua evolução, aplicabilidade para a vigilância e importância da avaliação de completitude dos dados [@oliveiraSistemaInformacaoVigilancia2019; @mataSistemaInformacaoVigilancia2022].
 
@@ -99,6 +99,7 @@ O fluxo do SISAGUA combina informações de responsáveis pelo abastecimento e d
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de informação no SISAGUA"
 %%| label: fig-sisagua-fluxo
+%%| fig-alt: "Fluxograma do SISAGUA: cadastro das formas de abastecimento, controle pelo responsável, vigilância do setor saúde e resultados laboratoriais alimentam o sistema; relatórios, painéis e dados abertos apoiam a gestão de risco e as ações de saúde."
 flowchart LR
   subgraph fontes[Fontes de informação]
     direction TB

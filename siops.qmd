@@ -75,11 +75,11 @@ O SIOPS não mede produção assistencial, acesso, qualidade do cuidado ou neces
 
 ## Histórico e organização
 
-A demanda por informações sistematizadas sobre gastos públicos em saúde ganhou força na década de 1990, em um contexto de consolidação do SUS e de necessidade de acompanhar a aplicação de recursos pela União, estados, Distrito Federal e municípios.
+A demanda por informações sistematizadas sobre gastos públicos em saúde ganhou força na década de 1990, em um contexto de consolidação do SUS e de necessidade de acompanhar a aplicação de recursos pela União, estados, Distrito Federal e municípios [@brasilHistoricoSIOPS2026].
 
-Em 1993, no Conselho Nacional de Saúde, foi discutida a criação de um sistema nacional para reunir informações sobre despesas em saúde dos entes federados. Em 1999, a Portaria Interministerial MS/PGR nº 529 designou equipe para desenvolver o projeto de implantação do SIOPS. Em 2000, a Portaria Conjunta MS/PGR nº 1.163 institucionalizou o sistema.
+Em 1993, no Conselho Nacional de Saúde, foi discutida a criação de um sistema nacional para reunir informações sobre despesas em saúde dos entes federados. Em 1999, a Portaria Interministerial MS/PGR nº 529 designou equipe para desenvolver o projeto de implantação do SIOPS. Em 2000, a Portaria Conjunta MS/PGR nº 1.163 institucionalizou o sistema [@brasilHistoricoSIOPS2026].
 
-A Emenda Constitucional nº 29/2000 estabeleceu bases para a aplicação mínima de recursos em saúde. Posteriormente, a Lei Complementar nº 141/2012 regulamentou os valores mínimos a serem aplicados em ASPS, as regras de fiscalização, avaliação e controle, e a obrigatoriedade de declaração no SIOPS. A partir de 2013, a homologação dos dados no sistema passou a ser obrigatória, com uso de certificação digital e penalidades em caso de ausência de declaração ou não cumprimento dos mínimos legais.
+A Emenda Constitucional nº 29/2000 estabeleceu bases para a aplicação mínima de recursos em saúde. Posteriormente, a Lei Complementar nº 141/2012 regulamentou os valores mínimos a serem aplicados em ASPS, as regras de fiscalização, avaliação e controle, e a obrigatoriedade de declaração no SIOPS. A partir de 2013, a homologação dos dados no sistema passou a ser obrigatória, com uso de certificação digital e penalidades em caso de ausência de declaração ou não cumprimento dos mínimos legais [@brasilHistoricoSIOPS2026].
 
 ::: {.content-visible when-format="html"}
 ```{r}
@@ -122,6 +122,7 @@ O SIOPS combina preenchimento, transmissão e homologação. A simples transmiss
 ```{mermaid}
 %%| fig-cap: "Fluxo simplificado de declaração no SIOPS"
 %%| label: fig-siops-fluxo
+%%| fig-alt: "Fluxograma do SIOPS: dados contábeis e orçamentários são preparados, preenchidos, criticados, transmitidos e homologados; depois, indicadores e relatórios apoiam controle social, fiscalização e pesquisa."
 flowchart TD
   cont[Contabilidade e orçamento do ente] --> prep[Preparação das receitas e despesas]
   prep --> preen[Preenchimento no sistema SIOPS]

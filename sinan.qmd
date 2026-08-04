@@ -90,6 +90,7 @@ O fluxo geral do SINAN começa na suspeita ou confirmação de um evento de noti
 ```{mermaid}
 %%| fig-cap: "Fluxo de notificação do SINAN"
 %%| label: fig-sinan-fluxo
+%%| fig-alt: "Fluxograma do SINAN: um caso suspeito ou confirmado é notificado pela unidade e percorre as secretarias municipal e estadual até o Ministério da Saúde; a investigação leva à classificação final e ao encerramento ou acompanhamento."
 
 flowchart TD
   cs[Caso suspeito ou confirmado] --> us[Unidade notificadora]
