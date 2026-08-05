@@ -183,13 +183,13 @@ Antes de publicar um indicador com denominador populacional, verifique:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-pop}
 
-- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 63.
+- [Eventos de saúde — seção “Denominadores e indicadores”](eventos.html#denominadores-e-indicadores). Na edição impressa, p. 61.
 
-- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 299.
+- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Qual denominador usar?”](sisaps.html#qual-denominador-usar). Na edição impressa, p. 297.
 
-- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 326.
+- [SI-PNI — Sistema de Informações do Programa Nacional de Imunizações — seção “Cobertura vacinal e denominadores”](sipni.html#cobertura-vacinal-e-denominadores). Na edição impressa, p. 324.
 
-- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 422.
+- [Inquéritos e pesquisas de saúde — seção “Pesos, desenho e variância”](inqueritos.html#pesos-desenho-e-variância). Na edição impressa, p. 418.
 
 :::
 <!-- END GENERATED SEE ALSO -->

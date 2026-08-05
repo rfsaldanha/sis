@@ -193,11 +193,11 @@ timevis::timevis(readr::read_csv2(file = "linha_tempo_sis.csv"))
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-historico}
 
-- [Introdução — seção “Sistemas, contextos e usos”](introducao.html#sistemas-contextos-e-usos). Na edição impressa, p. 20.
+- [Introdução — seção “Sistemas, contextos e usos”](introducao.html#sistemas-contextos-e-usos). Na edição impressa, p. 18.
 
-- [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 38.
+- [Organização dos SIS — seção “Sistemas como fluxos de registro”](organizacao.html#sistemas-como-fluxos-de-registro). Na edição impressa, p. 36.
 
-- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 452.
+- [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Aplicação aos SIS”](interoperabilidade.html#aplicação-aos-sis). Na edição impressa, p. 448.
 
 :::
 <!-- END GENERATED SEE ALSO -->

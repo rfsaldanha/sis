@@ -806,13 +806,13 @@ Antes de concluir uma análise com SIA, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sia}
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 60.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 58.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 117.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “SIH e SIA”](sih.html#sih-e-sia). Na edição impressa, p. 115.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 209.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 207.
 
-- [SISCAN — Sistema de Informação do Câncer — seção “Integração com SIA/SUS, CNES e CadSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 226.
+- [SISCAN — Sistema de Informação do Câncer — seção “Integração com SIA/SUS, CNES e CadSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 224.
 
 :::
 <!-- END GENERATED SEE ALSO -->

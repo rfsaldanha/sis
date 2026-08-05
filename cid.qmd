@@ -189,11 +189,11 @@ Os cuidados reunidos no @qua-cid-cuidados-frequentes-ao-usar-codigos-cid reforç
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-cid}
 
-- [SIM — Sistema de Informações sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 81.
+- [SIM — Sistema de Informações sobre Mortalidade — seção “Codificação pela CID”](sim.html#codificação-pela-cid). Na edição impressa, p. 79.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 123.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Diagnóstico, procedimento e valores”](sih.html#diagnóstico-procedimento-e-valores). Na edição impressa, p. 121.
 
-- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 169.
+- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 167.
 
 :::
 <!-- END GENERATED SEE ALSO -->

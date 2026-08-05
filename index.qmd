@@ -33,7 +33,7 @@ A versão *online* reúne documentos técnicos, páginas institucionais, ferrame
 
 # Como citar
 
-> SALDANHA, Raphael de Freitas. *Sistemas de Informação em Saúde no Brasil*. Rio de Janeiro: Edição do autor, 2026. ISBN 978-65-01-37841-1. Disponível em: <https://rfsaldanha.github.io/sis/>.
+> SALDANHA, Raphael de Freitas. *Sistemas de Informação em Saúde no Brasil*. Rio de Janeiro: Edição do autor, 2026. ISBN 978-65-01-37841-1. Disponível em: <https://rfsaldanha.github.io/sis/>. Acesso em: 5 ago. 2026.
 
 # Sobre o autor
 

@@ -65,11 +65,11 @@ Ao longo dos capítulos, cada sistema é tratado a partir de sua trajetória ins
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-introducao}
 
-- [Breve histórico da experiência brasileira — seção “Sistemas nacionais e construção do SUS”](historico.html#sistemas-nacionais-e-construção-do-sus). Na edição impressa, p. 25.
+- [Breve histórico da experiência brasileira — seção “Sistemas nacionais e construção do SUS”](historico.html#sistemas-nacionais-e-construção-do-sus). Na edição impressa, p. 23.
 
-- [Organização dos SIS — seção “Critérios de organização”](organizacao.html#critérios-de-organização). Na edição impressa, p. 36.
+- [Organização dos SIS — seção “Critérios de organização”](organizacao.html#critérios-de-organização). Na edição impressa, p. 34.
 
-- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 54.
+- [Eventos de saúde — seção “Do problema de saúde ao evento registrado”](eventos.html#do-problema-de-saúde-ao-evento-registrado). Na edição impressa, p. 52.
 
 :::
 <!-- END GENERATED SEE ALSO -->
