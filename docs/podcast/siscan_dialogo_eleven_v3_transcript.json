@@ -3,7 +3,7 @@
     "start": 0,
     "end": 20.88,
     "speaker": "APRESENTADORA",
-    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação de Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?"
+    "text": "Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação do Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?"
   },
   {
     "start": 20.88,
@@ -75,7 +75,7 @@
     "start": 140.73,
     "end": 157.85,
     "speaker": "APRESENTADORA",
-    "text": "Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Controle do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos."
+    "text": "Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos."
   },
   {
     "start": 157.85,
@@ -111,7 +111,7 @@
     "start": 198.809,
     "end": 216.169,
     "speaker": "APRESENTADORA",
-    "text": "Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CADSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores."
+    "text": "Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CadSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores."
   },
   {
     "start": 216.169,
@@ -441,7 +441,7 @@
     "start": 744.3,
     "end": 748.78,
     "speaker": "ESTUDANTE",
-    "text": "E o CADSUS fornece a identificação da pessoa por meio do CNS."
+    "text": "E o CadSUS fornece a identificação da pessoa por meio do CNS."
   },
   {
     "start": 748.78,

@@ -1,7 +1,7 @@
-# Podcast: SISCAN — Sistema de Informação de Câncer
+# Podcast: SISCAN — Sistema de Informação do Câncer
 
 **Livro:** Sistemas de Informação em Saúde no Brasil
-**Capítulo:** SISCAN — Sistema de Informação de Câncer
+**Capítulo:** SISCAN — Sistema de Informação do Câncer
 **Formato:** conversa entre apresentadora e estudante
 **Tom:** acadêmico, mas relaxado
 
@@ -13,7 +13,7 @@ O episódio parte da pergunta sobre se mil mamografias representam mil mulheres 
 
 ## Roteiro
 
-**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação de Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação do Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?
 
 **ESTUDANTE:** Minha primeira resposta seria sim. Mil mamografias, mil mulheres. Mas imagino que essa conta esconda alguma coisa.
 
@@ -37,7 +37,7 @@ O episódio parte da pergunta sobre se mil mamografias representam mil mulheres 
 
 **ESTUDANTE:** Antes de falar do sistema atual, quais eram os sistemas anteriores?
 
-**APRESENTADORA:** Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Controle do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos.
+**APRESENTADORA:** Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos.
 
 **ESTUDANTE:** E para o câncer de mama existia o SISMAMA.
 
@@ -49,7 +49,7 @@ O episódio parte da pergunta sobre se mil mamografias representam mil mulheres 
 
 **ESTUDANTE:** Nominal quer dizer que o registro se refere a uma pessoa identificada?
 
-**APRESENTADORA:** Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CADSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores.
+**APRESENTADORA:** Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CadSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores.
 
 **ESTUDANTE:** Essa estrutura parece permitir acompanhar melhor o percurso entre solicitação, exame e resultado.
 
@@ -159,7 +159,7 @@ O episódio parte da pergunta sobre se mil mamografias representam mil mulheres 
 
 **APRESENTADORA:** Isso. O código CNES permite identificar a unidade solicitante, o laboratório ou o serviço de mamografia e relacionar o exame à estrutura cadastrada da rede.
 
-**ESTUDANTE:** E o CADSUS fornece a identificação da pessoa por meio do CNS.
+**ESTUDANTE:** E o CadSUS fornece a identificação da pessoa por meio do CNS.
 
 **APRESENTADORA:** Sim. Essa identificação nominal apoia deduplicação e seguimento dentro do ambiente institucional. Nas bases públicas, porém, identificadores pessoais são suprimidos ou limitados para proteger a privacidade.
 

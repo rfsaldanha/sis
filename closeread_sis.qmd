@@ -111,7 +111,7 @@ A Portaria MS nº 80/1990 (16/10/1990) regulamenta o SISVAN em nível nacional, 
 O Ministério da Saúde implanta oficialmente o SINASC a partir de 1990, para coletar dados de nascidos vivos em todo o país e produzir indicadores de natalidade.
 :::
 
-1990–1993 – Desenvolvimento do SINAN (Sistema de Informação de Agravos de Notificação) @cr-f15
+1990–1993 – Desenvolvimento do SINAN (Sistema de Informações de Agravos de Notificação) @cr-f15
 
 :::{#cr-f15}
 O SINAN é desenvolvido entre 1990 e 1993 para substituir o antigo Sistema de Notificação Compulsória de Doenças (SNCD), corrigindo limitações e padronizando a vigilância de agravos de notificação compulsória.

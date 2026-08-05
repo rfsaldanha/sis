@@ -69,8 +69,8 @@ siscan	sia	Exemplo: produção de mamografias
 siscan	cnes	Relacionamento com outros sistemas
 siscan	interoperabilidade	Relacionamento determinístico
 siscan	eventos	Procedimentos ambulatoriais
-sia	siscan	Integração com SIA/SUS, CNES e CADSUS
-cnes	siscan	Integração com SIA/SUS, CNES e CADSUS
+sia	siscan	Integração com SIA/SUS, CNES e CadSUS
+cnes	siscan	Integração com SIA/SUS, CNES e CadSUS
 interoperabilidade	siscan	Painel Oncologia
 eventos	siscan	Quando usar o SISCAN
 inqueritos	eventos	Denominadores e indicadores

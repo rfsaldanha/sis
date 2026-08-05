@@ -1,4 +1,4 @@
-APRESENTADORA	[warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação de Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?
+APRESENTADORA	[warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SISCAN, o Sistema de Informação do Câncer, do livro Sistemas de Informação em Saúde no Brasil. Para começar, imagine que um município registrou mil mamografias em um ano. Isso significa que mil mulheres foram rastreadas?
 ESTUDANTE	[curious] Minha primeira resposta seria sim. Mil mamografias, mil mulheres. Mas imagino que essa conta esconda alguma coisa.
 APRESENTADORA	[affirming] Esconde uma distinção central: exame não é pessoa. Uma mulher pode realizar mais de um exame no período, e uma mamografia pode ter sido feita para rastreamento ou para investigação diagnóstica. O SISCAN ajuda a enxergar essas diferenças.
 ESTUDANTE	[thinking] Então ele não serve apenas para contar procedimentos. Ele registra o contexto em que o exame foi solicitado e também o resultado.
@@ -10,13 +10,13 @@ APRESENTADORA	[affirming] Isso. Registros de câncer, SIA, SIH e SIM podem ser n
 ESTUDANTE	[warmly] E no fim a gente volta às mil mamografias?
 APRESENTADORA	[laughing lightly] Com certeza. A ideia é terminar sabendo exatamente o que podemos e o que não podemos afirmar com esse número.
 ESTUDANTE	[curious] Antes de falar do sistema atual, quais eram os sistemas anteriores?
-APRESENTADORA	[explaining] Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Controle do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos.
+APRESENTADORA	[explaining] Para o câncer do colo do útero, havia o SISCOLO, o Sistema de Informação do Câncer do Colo do Útero. Ele foi instituído em 1999 e apoiava o acompanhamento de exames citopatológicos e histopatológicos.
 ESTUDANTE	[curious] E para o câncer de mama existia o SISMAMA.
 APRESENTADORA	[affirming] Exatamente. O SISMAMA foi implantado nacionalmente em 2009 para registrar mamografias e informações da investigação diagnóstica da mama.
 ESTUDANTE	[thinking] Então eram dois sistemas separados, cada um voltado a um órgão e a um conjunto de exames.
 APRESENTADORA	[explaining] Sim. Em 2013, uma portaria do Ministério da Saúde instituiu o SISCAN para reunir esses componentes em um sistema nominal, integrado e disponível em ambiente web.
 ESTUDANTE	[curious] Nominal quer dizer que o registro se refere a uma pessoa identificada?
-APRESENTADORA	[affirming] Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CADSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores.
+APRESENTADORA	[affirming] Isso. O sistema utiliza identificação pelo Cartão Nacional de Saúde, o CNS, e dados cadastrais do CadSUS. Também se integra ao CNES para identificar unidades solicitantes, laboratórios e outros prestadores.
 ESTUDANTE	[engaged] Essa estrutura parece permitir acompanhar melhor o percurso entre solicitação, exame e resultado.
 APRESENTADORA	[thoughtful] Essa é uma das vantagens. O sistema integrado amplia a possibilidade de seguimento e reduz a fragmentação entre colo do útero e mama. Mas a substituição dos sistemas anteriores não ocorreu de uma vez.
 ESTUDANTE	[curious] A implantação foi gradual?
@@ -71,7 +71,7 @@ ESTUDANTE	[thinking] Se minha pergunta for volume de procedimentos e financiamen
 APRESENTADORA	[affirming] Essa é uma ótima regra inicial. Mas documente sempre o período e a cobertura local.
 ESTUDANTE	[curious] E o CNES entra para caracterizar os estabelecimentos.
 APRESENTADORA	[explaining] Isso. O código CNES permite identificar a unidade solicitante, o laboratório ou o serviço de mamografia e relacionar o exame à estrutura cadastrada da rede.
-ESTUDANTE	[curious] E o CADSUS fornece a identificação da pessoa por meio do CNS.
+ESTUDANTE	[curious] E o CadSUS fornece a identificação da pessoa por meio do CNS.
 APRESENTADORA	[affirming] Sim. Essa identificação nominal apoia deduplicação e seguimento dentro do ambiente institucional. Nas bases públicas, porém, identificadores pessoais são suprimidos ou limitados para proteger a privacidade.
 ESTUDANTE	[thinking] Então o pesquisador que usa dados públicos não tem a mesma possibilidade de relacionamento individual que as secretarias e o Ministério da Saúde.
 APRESENTADORA	[affirming] Exatamente. A disseminação pública preserva confidencialidade, mas reduz certas análises de trajetória. Isso não significa que os sistemas não possam ser relacionados em ambientes autorizados e governados.

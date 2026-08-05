@@ -184,7 +184,7 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 
 - [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 432.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 221.
+- [SISCAN — Sistema de Informação do Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 221.
 
 :::
 <!-- END GENERATED SEE ALSO -->

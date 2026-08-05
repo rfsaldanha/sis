@@ -65,8 +65,8 @@ BPA-C
 BPA-I
 : Boletim de Produção Ambulatorial Individualizado
 
-CADSUS
-: Cadastro de Usuários do Sistema Único de Saúde
+CadSUS
+: Sistema de Cadastramento de Usuários do SUS
 
 CBO
 : Classificação Brasileira de Ocupações
@@ -200,8 +200,8 @@ e-SUS
 e-SUS APS
 : Estratégia e-SUS Atenção Primária à Saúde
 
-e-SUS Sinan
-: Plataforma e-SUS do Sistema de Informação de Agravos de Notificação
+e-SUS SINAN
+: Plataforma e-SUS do Sistema de Informações de Agravos de Notificação
 
 FCES
 : Ficha de Cadastro de Estabelecimentos de Saúde
@@ -438,13 +438,13 @@ SIH/SUS
 : Sistema de Informações Hospitalares do Sistema Único de Saúde
 
 SIM
-: Sistema de Informação sobre Mortalidade
+: Sistema de Informações sobre Mortalidade
 
 SINAN
-: Sistema de Informação de Agravos de Notificação
+: Sistema de Informações de Agravos de Notificação
 
 SINASC
-: Sistema de Informação sobre Nascidos Vivos
+: Sistema de Informações sobre Nascidos Vivos
 
 SIOPS
 : Sistema de Informações sobre Orçamentos Públicos em Saúde
@@ -465,10 +465,10 @@ SISAGUA
 : Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano
 
 SISCAN
-: Sistema de Informação de Câncer
+: Sistema de Informação do Câncer
 
 SISCOLO
-: Sistema de Informação do Controle do Câncer do Colo do Útero
+: Sistema de Informação do Câncer do Colo do Útero
 
 SISMAMA
 : Sistema de Informação do Controle do Câncer de Mama
@@ -477,16 +477,16 @@ SISVAN
 : Sistema de Vigilância Alimentar e Nutricional
 
 SIVEP
-: Sistema de Vigilância Epidemiológica
+: família de sistemas de vigilância epidemiológica
 
 SIVEP-DDA
-: Sistema de Vigilância Epidemiológica das Doenças Diarreicas Agudas
+: Sistema de Informação de Vigilância Epidemiológica das Doenças Diarreicas Agudas
 
 SIVEP-Gripe
-: Sistema de Vigilância Epidemiológica da Gripe
+: Sistema de Informação de Vigilância da Gripe
 
 SIVEP-Malária
-: Sistema de Vigilância Epidemiológica da Malária
+: Sistema de Informação de Vigilância Epidemiológica — Malária
 
 SNCD
 : Sistema de Notificação Compulsória de Doenças

@@ -1,7 +1,7 @@
-# Podcast: SIM — Sistema de Informação sobre Mortalidade
+# Podcast: SIM — Sistema de Informações sobre Mortalidade
 
 **Livro:** Sistemas de Informação em Saúde no Brasil
-**Capítulo:** SIM — Sistema de Informação sobre Mortalidade
+**Capítulo:** SIM — Sistema de Informações sobre Mortalidade
 **Formato:** conversa entre apresentadora e estudante
 **Tom:** acadêmico, natural e conversado
 **Duração:** 26 minutos e 44 segundos
@@ -10,7 +10,7 @@
 
 ### Ato 1 — Antes de existir um número
 
-**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SIM, Sistema de Informação sobre Mortalidade, do livro Sistemas de Informação em Saúde no Brasil.
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SIM, Sistema de Informações sobre Mortalidade, do livro Sistemas de Informação em Saúde no Brasil.
 
 **ESTUDANTE:** E qual caminho vamos percorrer neste episódio?
 
@@ -18,7 +18,7 @@
 
 **ESTUDANTE:** Essa abertura já muda o jeito de olhar para o SIM. Porque não é só uma base para contar óbitos.
 
-**APRESENTADORA:** Exatamente. O SIM, Sistema de Informação sobre Mortalidade, é a principal fonte nacional para estudar óbitos no Brasil. Ele permite analisar níveis, tendências, desigualdades e causas de mortalidade. Mas o ponto mais importante é este: o dado não nasce pronto. Ele começa em uma Declaração de Óbito, passa por um fluxo jurídico, sanitário e cartorial, pode ser investigado, codificado, corrigido e só então vira indicador.
+**APRESENTADORA:** Exatamente. O SIM, Sistema de Informações sobre Mortalidade, é a principal fonte nacional para estudar óbitos no Brasil. Ele permite analisar níveis, tendências, desigualdades e causas de mortalidade. Mas o ponto mais importante é este: o dado não nasce pronto. Ele começa em uma Declaração de Óbito, passa por um fluxo jurídico, sanitário e cartorial, pode ser investigado, codificado, corrigido e só então vira indicador.
 
 **ESTUDANTE:** Então o episódio de hoje não é só "onde baixo a base do SIM".
 

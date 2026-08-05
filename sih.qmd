@@ -562,7 +562,7 @@ As combinações frequentes do @qua-sih-integracoes-frequentes-entre-o-sih-e-out
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SIH são utilizados na construção de indicadores de morbidade hospitalar, produção e gasto. A ficha de cada indicador deve explicitar se conta AIHs, internações, procedimentos, valores ou pessoas.
+Segundo @OPAS2026, os dados do SIH são utilizados na construção de indicadores de morbidade hospitalar, produção e gasto. A ficha de cada indicador deve explicitar se conta AIHs, internações, procedimentos, valores ou pessoas.
 
 ::: {#qua-sih-exemplos-de-indicadores-construidos-com-dados-do-sih}
 
@@ -582,7 +582,7 @@ Exemplos de indicadores construídos com dados do SIH
 
 Os indicadores do @qua-sih-exemplos-de-indicadores-construidos-com-dados-do-sih usam o mesmo sistema, mas não têm a mesma interpretação. Taxas dependem de denominadores populacionais; proporções dependem do conjunto de AIHs usado como referência; letalidade hospitalar se restringe ao desfecho da internação; e valores médios expressam remuneração aprovada. A ficha técnica do indicador deve deixar explícito o numerador, o denominador, os filtros e a unidade territorial.
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+Consulte a 3ª edição de *Indicadores básicos para a saúde no Brasil: conceitos e aplicações*, publicada pela OPAS em 2026 [@OPAS2026], para as fichas de qualificação atualizadas desses e de outros indicadores.
 
 ## Cuidados de interpretação
 

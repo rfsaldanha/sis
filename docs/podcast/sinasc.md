@@ -1,8 +1,8 @@
-# Podcast: SINASC — Sistema de Informação sobre Nascidos Vivos
+# Podcast: SINASC — Sistema de Informações sobre Nascidos Vivos
 
 **Livro:** Sistemas de Informação em Saúde no Brasil
 
-**Capítulo:** SINASC — Sistema de Informação sobre Nascidos Vivos
+**Capítulo:** SINASC — Sistema de Informações sobre Nascidos Vivos
 
 **Formato:** conversa entre apresentadora e estudante
 
@@ -12,7 +12,7 @@
 
 ## Roteiro
 
-**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SINASC, Sistema de Informação sobre Nascidos Vivos, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos começar sem tabela e sem definição. Imagine uma pergunta simples feita em uma secretaria municipal: nasceram menos crianças este ano, ou a base ainda não está completa? Essa dúvida parece administrativa, mas abre quase todo o capítulo.
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SINASC, Sistema de Informações sobre Nascidos Vivos, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos começar sem tabela e sem definição. Imagine uma pergunta simples feita em uma secretaria municipal: nasceram menos crianças este ano, ou a base ainda não está completa? Essa dúvida parece administrativa, mas abre quase todo o capítulo.
 
 **ESTUDANTE:** Gostei desse começo, porque dá para sentir o problema. À primeira vista, contar nascimentos parece uma coisa direta: a criança nasceu, registrou, somou. Mas pelo jeito o SINASC exige mais cuidado do que isso.
 

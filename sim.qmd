@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SIM — Sistema de Informação sobre Mortalidade {#sec-sim}
+# SIM — Sistema de Informações sobre Mortalidade {#sec-sim}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -44,7 +44,7 @@ Características gerais do SIM
 
 :::
 
-O Sistema de Informação sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em @sec-eventos.
+O Sistema de Informações sobre Mortalidade (SIM) é a principal fonte nacional para análise dos óbitos ocorridos no Brasil. Seus dados permitem estudar níveis, tendências, desigualdades e causas de mortalidade, subsidiando vigilância, planejamento, avaliação de políticas públicas e produção de indicadores de saúde. Como o óbito é um tipo de evento de saúde, o SIM também se conecta à discussão geral sobre eventos, registros e unidades de análise apresentada em @sec-eventos.
 
 O SIM ocupa uma posição particular entre os sistemas nacionais porque lida com um evento vital que tem significado sanitário, jurídico, demográfico e social. Seu funcionamento depende de médicos, estabelecimentos de saúde, Institutos Médico-Legais (IML), Serviços de Verificação de Óbito (SVO), cartórios, secretarias de saúde, DSEI, Ministério da Saúde e equipes de vigilância. A qualidade final da informação depende da articulação entre esses pontos do fluxo.
 
@@ -608,7 +608,7 @@ Na integração com SINASC, a coerência entre nascimento vivo e óbito infantil
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. A ficha de cada indicador deve explicitar numerador, denominador, recorte territorial, período, idade, causa e critérios de exclusão (ver @qua-sim-exemplos-de-indicadores-construidos-com-dados-do-sim).
+Segundo @OPAS2026, os dados do SIM são utilizados na construção de diversos indicadores de mortalidade. A ficha de cada indicador deve explicitar numerador, denominador, recorte territorial, período, idade, causa e critérios de exclusão (ver @qua-sim-exemplos-de-indicadores-construidos-com-dados-do-sim).
 
 ::: {#qua-sim-exemplos-de-indicadores-construidos-com-dados-do-sim}
 
@@ -625,7 +625,7 @@ Exemplos de indicadores construídos com dados do SIM
 
 :::
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+Consulte a 3ª edição de *Indicadores básicos para a saúde no Brasil: conceitos e aplicações*, publicada pela OPAS em 2026 [@OPAS2026], para as fichas de qualificação atualizadas desses e de outros indicadores.
 
 ## Cuidados de interpretação
 
@@ -673,7 +673,7 @@ Erros comuns incluem calcular taxas com óbitos por ocorrência e população re
 
 - [CID — Classificação Internacional de Doenças — seção “Mortalidade e morbidade”](cid.html#mortalidade-e-morbidade). Na edição impressa, p. 375.
 
-- [SINASC — Sistema de Informação sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
+- [SINASC — Sistema de Informações sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
 
 :::
 <!-- END GENERATED SEE ALSO -->

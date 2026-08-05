@@ -279,7 +279,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 
 :::: {.subject-index}
 ::: {.subject-index-entry}
-[e-SUS SINAN]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+[e-SUS SINAN]{.subject-index-term} — [SINAN: SINAN Net, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
 :::
 ::: {.subject-index-entry}
 [Efeito do desenho]{.subject-index-term} — [Inquéritos de saúde: Conceitos de desenho amostral](inqueritos.html#conceitos-de-desenho-amostral)
@@ -773,19 +773,19 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [SIH/SUS — Sistema de Informações Hospitalares do SUS]{.subject-index-term} — [SIH/SUS](sih.html)
 :::
 ::: {.subject-index-entry}
-[SIM — Sistema de Informação sobre Mortalidade]{.subject-index-term} — [SIM](sim.html)
+[SIM — Sistema de Informações sobre Mortalidade]{.subject-index-term} — [SIM](sim.html)
 :::
 ::: {.subject-index-entry}
-[SINAN NET]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+[SINAN Net]{.subject-index-term} — [SINAN: SINAN Net, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
 :::
 ::: {.subject-index-entry}
-[SINAN Online]{.subject-index-term} — [SINAN: SINAN NET, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
+[SINAN Online]{.subject-index-term} — [SINAN: SINAN Net, SINAN Online e e-SUS SINAN](sinan.html#sinan-net-sinan-online-e-e-sus-sinan)
 :::
 ::: {.subject-index-entry}
-[SINAN — Sistema de Informação de Agravos de Notificação]{.subject-index-term} — [SINAN](sinan.html)
+[SINAN — Sistema de Informações de Agravos de Notificação]{.subject-index-term} — [SINAN](sinan.html)
 :::
 ::: {.subject-index-entry}
-[SINASC — Sistema de Informação sobre Nascidos Vivos]{.subject-index-term} — [SINASC](sinasc.html)
+[SINASC — Sistema de Informações sobre Nascidos Vivos]{.subject-index-term} — [SINASC](sinasc.html)
 :::
 ::: {.subject-index-entry}
 [Síndrome da rubéola congênita]{.subject-index-term} — [SINAN: Síndrome da rubéola congênita](sinan.html#síndrome-da-rubéola-congênita)
@@ -797,7 +797,7 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [SISAGUA — Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano]{.subject-index-term} — [SISAGUA](sisagua.html)
 :::
 ::: {.subject-index-entry}
-[SISCAN — Sistema de Informação de Câncer]{.subject-index-term} — [SISCAN](siscan.html)
+[SISCAN — Sistema de Informação do Câncer]{.subject-index-term} — [SISCAN](siscan.html)
 :::
 ::: {.subject-index-entry}
 [SISCOLO]{.subject-index-term} — [SISCAN: SISCAN, SISCOLO e SISMAMA](siscan.html#siscan-siscolo-e-sismama)
@@ -839,13 +839,13 @@ Este índice reúne sistemas, documentos, conceitos, métodos e eventos de saúd
 [SIVEP-DDA]{.subject-index-term} — [SIVEP: SIVEP-DDA](sivep.html#sivep-dda)
 :::
 ::: {.subject-index-entry}
+[SIVEP — família de sistemas de vigilância epidemiológica]{.subject-index-term} — [SIVEP](sivep.html)
+:::
+::: {.subject-index-entry}
 [SIVEP-Gripe]{.subject-index-term} — [SIVEP: SIVEP-Gripe](sivep.html#sivep-gripe)
 :::
 ::: {.subject-index-entry}
 [SIVEP-Malária]{.subject-index-term} — [SIVEP: SIVEP-Malária](sivep.html#sivep-malária)
-:::
-::: {.subject-index-entry}
-[SIVEP — Sistema de Vigilância Epidemiológica]{.subject-index-term} — [SIVEP](sivep.html)
 :::
 ::::
 

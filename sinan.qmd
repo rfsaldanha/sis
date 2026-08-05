@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SINAN — Sistema de Informação de Agravos de Notificação {#sec-sinan}
+# SINAN — Sistema de Informações de Agravos de Notificação {#sec-sinan}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -44,7 +44,7 @@ Características gerais do SINAN
 
 :::
 
-O Sistema de Informação de Agravos de Notificação (SINAN) é uma das principais fontes da vigilância epidemiológica no Brasil. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde.
+O Sistema de Informações de Agravos de Notificação (SINAN) é uma das principais fontes da vigilância epidemiológica no Brasil. Ele registra doenças, agravos e eventos de saúde pública que exigem notificação, investigação, monitoramento ou resposta do sistema de saúde. A forma singular, “Sistema de Informação de Agravos de Notificação”, também aparece em normas e páginas institucionais; esta edição adota no texto corrente o título da página central do sistema mantida pelo Ministério da Saúde.
 
 As características resumidas no quadro indicam que o SINAN deve ser lido como um sistema de vigilância, e não como um cadastro universal de doenças. Seu desenho privilegia eventos que demandam ação do poder público, investigação epidemiológica ou acompanhamento. Isso torna o sistema muito útil para detectar tendências, orientar respostas e avaliar a oportunidade da vigilância, mas exige cuidado quando os dados são usados para estimar ocorrência total na população.
 
@@ -113,15 +113,15 @@ flowchart TD
 
 Esse fluxo reforça que o SINAN é uma base dinâmica. Dependendo do agravo e do momento da extração, uma base pode conter notificações recentes ainda sem encerramento, registros antigos corrigidos ou casos descartados após investigação.
 
-## SINAN NET, SINAN Online e e-SUS SINAN
+## SINAN Net, SINAN Online e e-SUS SINAN
 
-O SINAN teve diferentes versões e estratégias operacionais. O SINAN NET é a versão usada para grande parte dos agravos; o SINAN *Online* permanece associado a alguns fluxos, como dengue e chikungunya; e o e-SUS SINAN moderniza o registro, com formulários *on-line* e integração progressiva de agravos (ver @qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan).
+O SINAN teve diferentes versões e estratégias operacionais. O SINAN Net é a versão usada para grande parte dos agravos; o SINAN *Online* permanece associado a alguns fluxos, como dengue e chikungunya; e o e-SUS SINAN moderniza o registro, com formulários *on-line* e integração progressiva de agravos (ver @qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan).
 
 ::: {#qua-sinan-versoes-e-formas-de-disseminacao-relacionadas-ao-sinan}
 
 | Sistema ou módulo | Uso principal | Cuidado analítico |
 |---|---|---|
-| SINAN NET | Notificação e investigação de agravos com fichas padronizadas | Leiautes e rotinas podem variar por agravo |
+| SINAN Net | Notificação e investigação de agravos com fichas padronizadas | Leiautes e rotinas podem variar por agravo |
 | SINAN *Online* | Registros *on-line* de agravos específicos | Nem todo agravo está no mesmo módulo |
 | e-SUS SINAN | Modernização do registro e notificação *on-line* | Transição pode gerar mudanças de fluxo e estrutura |
 | OpenDataSUS | Bases abertas de alguns agravos | Campos, periodicidade e atualização variam por base |
@@ -729,7 +729,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
 ### Febre Oropouche
 
-- [POP de manuseio do e-SUS Sinan para a notificação de Febre Oropouche](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
+- [POP de manuseio do e-SUS SINAN para a notificação de Febre Oropouche](assets/sinan/esus/POP-manuseio-e-SUS-Sinan-notificacao-Febre-Oropouche.pdf)
 
 ### Febre tifoide
 
@@ -1005,7 +1005,7 @@ Fonte: @ministeriodasaudeGuiaVigilanciaEm2024
 - [Caderno de Análise](assets/sinan/agravos/VIOLEN_CADERNO_ANALISE.pdf)
 - [Dicionário de dados](assets/sinan/agravos/VIOLEN_DIC_DADOS.pdf)
 
-![Fluxo de notificação de violências no Sistema de Informação de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)](assets/sinan/img/fluxo_violencia.png){#fluxo_violencia}
+![Fluxo de notificação de violências no Sistema de Informações de Agravos de Notificação (Sinan) – Componente Contínuo da Vigilância de Violências e Acidentes (Viva Sinan)](assets/sinan/img/fluxo_violencia.png){#fluxo_violencia}
 
 Fonte: @ministeriodasaudeGuiaVigilanciaEm2024b
 
@@ -1269,7 +1269,7 @@ Antes de concluir uma análise com SINAN, verifique se:
 
 - [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 57.
 
-- [SIVEP — Sistema de Vigilância Epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 415.
+- [SIVEP — família de sistemas de vigilância epidemiológica — seção “SIVEP-Gripe”](sivep.html#sivep-gripe). Na edição impressa, p. 415.
 
 - [Interoperabilidade entre os Sistemas de Informação em Saúde — seção “Etapas de um *linkage*”](interoperabilidade.html#etapas-de-um-linkage). Na edição impressa, p. 442.
 

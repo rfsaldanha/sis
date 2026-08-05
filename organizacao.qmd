@@ -49,7 +49,7 @@ Critérios úteis para compreender a organização dos SIS brasileiros
 
 Esses critérios se complementam e devem ser usados em conjunto. A coluna de exemplos mostra que a mesma base pode ser descrita por mais de uma dimensão: o evento ajuda a localizar o fenômeno observado, a finalidade institucional indica por que o dado foi produzido, a cobertura delimita quem pode aparecer nos registros e a unidade de análise define o que pode ser contado diretamente.
 
-O Sistema de Informações Hospitalares (SIH) (@sec-sih), por exemplo, registra internações, tem origem administrativa e financeira, cobre internações realizadas no SUS e utiliza a Autorização de Internação Hospitalar (AIH) como unidade central de análise. Já o Sistema de Informação sobre Mortalidade (SIM) (@sec-sim) registra óbitos, cobre todo o território nacional e tem como documento básico a Declaração de Óbito. Comparar SIH e SIM sem considerar essas diferenças pode levar a conclusões frágeis, mesmo quando ambos usam códigos da Classificação Internacional de Doenças.
+O Sistema de Informações Hospitalares (SIH) (@sec-sih), por exemplo, registra internações, tem origem administrativa e financeira, cobre internações realizadas no SUS e utiliza a Autorização de Internação Hospitalar (AIH) como unidade central de análise. Já o Sistema de Informações sobre Mortalidade (SIM) (@sec-sim) registra óbitos, cobre todo o território nacional e tem como documento básico a Declaração de Óbito. Comparar SIH e SIM sem considerar essas diferenças pode levar a conclusões frágeis, mesmo quando ambos usam códigos da Classificação Internacional de Doenças.
 
 Para uma comparação tabular dos principais sistemas, com ano de criação, unidade de análise, cobertura e periodicidade de disseminação, consulte o quadro-resumo (@sec-quadro-resumo).
 
@@ -98,7 +98,7 @@ Na prática, dados muito oportunos podem ser menos completos, enquanto dados mai
 
 ## Sistemas vitais
 
-Os sistemas vitais registram eventos diretamente relacionados ao início e ao fim da vida. No Brasil, os principais são o Sistema de Informação sobre Mortalidade (SIM) (@sec-sim) e o Sistema de Informação sobre Nascidos Vivos (SINASC) (@sec-sinasc).
+Os sistemas vitais registram eventos diretamente relacionados ao início e ao fim da vida. No Brasil, os principais são o Sistema de Informações sobre Mortalidade (SIM) (@sec-sim) e o Sistema de Informações sobre Nascidos Vivos (SINASC) (@sec-sinasc).
 
 A implantação desses sistemas está associada à reorganização das estatísticas vitais brasileiras e à padronização de documentos nacionais: a Declaração de Óbito (DO) e a Declaração de Nascido Vivo (DNV). Esses documentos conectam serviços de saúde, famílias, cartórios, secretarias municipais e Ministério da Saúde [@sennaSistemaInformacoesSobre2009; @viacavaSistemaInformacaoSobre2009].
 
@@ -119,9 +119,9 @@ Ainda assim, cobertura nacional não significa ausência de problemas. A qualida
 
 ## Sistemas de morbidade e vigilância
 
-Os sistemas de morbidade e vigilância registram doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento do sistema de saúde. O principal sistema desse grupo é o Sistema de Informação de Agravos de Notificação (SINAN) (@sec-sinan), responsável por registrar casos suspeitos e confirmados de doenças e agravos de notificação compulsória [@caetanoSistemaInformacaoAgravos2009].
+Os sistemas de morbidade e vigilância registram doenças, agravos, eventos de interesse sanitário e situações que exigem acompanhamento do sistema de saúde. O principal sistema desse grupo é o Sistema de Informações de Agravos de Notificação (SINAN) (@sec-sinan), responsável por registrar casos suspeitos e confirmados de doenças e agravos de notificação compulsória [@caetanoSistemaInformacaoAgravos2009].
 
-Também entram nesse conjunto sistemas e subsistemas de vigilância específicos, como o Sistema de Vigilância Epidemiológica (SIVEP) (@sec-sivep), que possui componentes voltados a agravos ou síndromes específicos, e o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (SISAGUA) (@sec-sisagua).
+Também entram nesse conjunto sistemas e subsistemas de vigilância específicos, como os componentes agrupados sob a sigla SIVEP (@sec-sivep), voltados a agravos ou síndromes específicos, e o Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano (SISAGUA) (@sec-sisagua).
 
 ::: {#qua-organizacao-sistemas-de-morbidade-e-vigilancia-abordados-no-livro}
 
@@ -135,7 +135,7 @@ Sistemas de morbidade e vigilância abordados no livro
 
 :::
 
-O ponto comum entre esses sistemas é a função de vigilância, mas cada linha do @qua-organizacao-sistemas-de-morbidade-e-vigilancia-abordados-no-livro representa lógicas de registro diferentes. No SINAN, a ficha pode iniciar com uma suspeita e só depois receber classificação final. No SIVEP, a definição de caso e o conjunto de variáveis dependem do componente analisado. No SISAGUA, o foco não é uma pessoa doente, mas uma condição ambiental de interesse para a saúde coletiva.
+O ponto comum entre esses sistemas é a função de vigilância, mas cada linha do @qua-organizacao-sistemas-de-morbidade-e-vigilancia-abordados-no-livro representa uma lógica de registro diferente. No SINAN, a ficha pode iniciar com uma suspeita e só depois receber classificação final. No SIVEP, a definição de caso e o conjunto de variáveis dependem do componente analisado. No SISAGUA, o foco não é uma pessoa doente, mas uma condição ambiental de interesse para a saúde coletiva.
 
 Esses sistemas são especialmente importantes para monitoramento de epidemias, investigação de surtos, vigilância de agravos e planejamento de ações de prevenção e controle. Ao usá-los, é essencial separar data de notificação, data de início de sintomas, data de investigação, data de encerramento e data de digitação, pois cada uma responde a uma pergunta temporal distinta.
 
@@ -288,7 +288,7 @@ Por isso, antes de calcular frequências, taxas ou proporções, é necessário 
 
 Qualidade de dados em SIS não é uma propriedade única. Ela envolve completude dos campos, consistência interna, oportunidade de envio, cobertura do evento, estabilidade das definições, validade dos códigos e comparabilidade entre períodos e territórios. Uma base pode ser muito boa para uma pergunta e limitada para outra.
 
-Indicadores calculados a partir dos SIS também carregam essas escolhas. A construção de um indicador exige definir numerador, denominador, população de referência, período, território, fonte de dados e critérios de inclusão e exclusão. Essa ficha conceitual é tão importante quanto o cálculo em si, porque permite que outras pessoas compreendam e reproduzam a análise [@OPAS2008; @sobralDefinicoesBasicasDado2011].
+Indicadores calculados a partir dos SIS também carregam essas escolhas. A construção de um indicador exige definir numerador, denominador, população de referência, período, território, fonte de dados e critérios de inclusão e exclusão. Essa ficha conceitual é tão importante quanto o cálculo em si, porque permite que outras pessoas compreendam e reproduzam a análise [@OPAS2026; @sobralDefinicoesBasicasDado2011].
 
 Mudanças de formulário, implantação de novos sistemas, alterações em campos obrigatórios, incorporação de municípios, transições de codificação e revisões de bases podem produzir quebras artificiais em séries históricas. Quando houver mudança abrupta em um indicador, uma boa prática é investigar se houve alteração real no fenômeno ou mudança no processo de registro.
 

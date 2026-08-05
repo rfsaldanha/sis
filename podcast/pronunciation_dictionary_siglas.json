@@ -39,7 +39,7 @@
     },
     {
       "type": "alias",
-      "string_to_replace": "CADSUS",
+      "string_to_replace": "CadSUS",
       "alias": "cad sús"
     },
     {
@@ -329,7 +329,7 @@
     },
     {
       "type": "alias",
-      "string_to_replace": "SINAN NET",
+      "string_to_replace": "SINAN Net",
       "alias": "sinã nét"
     },
     {

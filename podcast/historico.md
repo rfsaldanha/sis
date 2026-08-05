@@ -88,7 +88,7 @@
 
 **ESTUDANTE:** Quando esse segundo movimento ganha força?
 
-**APRESENTADORA:** Entre as décadas de 1970 e 1980. Em 1975, foi criado o Sistema de Informação sobre Mortalidade, o SIM. O Programa Nacional de Imunizações também nasceu naquele contexto, e bases ligadas à produção assistencial começaram a se estruturar.
+**APRESENTADORA:** Entre as décadas de 1970 e 1980. Em 1975, foi criado o Sistema de Informações sobre Mortalidade, o SIM. O Programa Nacional de Imunizações também nasceu naquele contexto, e bases ligadas à produção assistencial começaram a se estruturar.
 
 **ESTUDANTE:** O ano de 1975 também teve uma reunião nacional sobre informação em saúde, certo?
 

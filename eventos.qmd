@@ -225,7 +225,7 @@ O pacote `{csapAIH}` do R facilita a classificação de registros de internaçõ
 
 ## Óbitos
 
-O óbito é um evento vital e epidemiológico central. Os óbitos são registrados no Sistema de Informação sobre Mortalidade (SIM) (@sec-sim), a partir da Declaração de Óbito. Esse sistema permite estudar mortalidade por idade, sexo, raça/cor, município de residência, município de ocorrência e causa de morte.
+O óbito é um evento vital e epidemiológico central. Os óbitos são registrados no Sistema de Informações sobre Mortalidade (SIM) (@sec-sim), a partir da Declaração de Óbito. Esse sistema permite estudar mortalidade por idade, sexo, raça/cor, município de residência, município de ocorrência e causa de morte.
 
 Uma definição importante é a causa básica do óbito: a doença, agravo ou circunstância que iniciou a cadeia de eventos que levou diretamente à morte. Essa definição permite padronizar estatísticas de mortalidade por causa e comparar territórios e períodos [@who_cause_of_death_page; @brasil_ms_2022_do_manual].
 
@@ -235,7 +235,7 @@ O SIM também permite distinguir município de residência e município de ocorr
 
 ## Nascimentos
 
-O nascimento de uma criança é um evento de saúde que envolve o recém-nascido, a pessoa gestante, a assistência ao pré-natal, o parto e as condições do nascimento. Os nascidos vivos são registrados no Sistema de Informação sobre Nascidos Vivos (SINASC) (@sec-sinasc), a partir da Declaração de Nascido Vivo.
+O nascimento de uma criança é um evento de saúde que envolve o recém-nascido, a pessoa gestante, a assistência ao pré-natal, o parto e as condições do nascimento. Os nascidos vivos são registrados no Sistema de Informações sobre Nascidos Vivos (SINASC) (@sec-sinasc), a partir da Declaração de Nascido Vivo.
 
 > Nascido vivo é a expulsão ou extração completa do corpo da mãe, independentemente da duração da gravidez, de um produto da concepção que, depois da separação, respire ou apresente qualquer outro sinal de vida, independentemente de sua viabilidade [@viacavaSistemaInformacaoSobre2009].
 
@@ -255,7 +255,7 @@ Uma dose aplicada é um evento; uma pessoa vacinada é uma unidade individual; u
 
 Muitos indicadores combinam eventos registrados em um SIS com denominadores vindos de outra fonte. O numerador costuma ser uma contagem de eventos; o denominador define a população, o conjunto de nascidos vivos, o número de internações, a população-alvo ou outra base de comparação.
 
-Indicadores de saúde são construções sintéticas: transformam registros em medidas comparáveis. Para isso, precisam de numerador, denominador, período, território, população de referência e regra de inclusão. A literatura de indicadores em saúde enfatiza que uma boa medida depende não apenas da fórmula, mas da clareza conceitual sobre o que está sendo medido e com que finalidade [@OPAS2008] (ver @qua-eventos-exemplos-de-numeradores-e-denominadores-em-indicadores-de-saude).
+Indicadores de saúde são construções sintéticas: transformam registros em medidas comparáveis. Para isso, precisam de numerador, denominador, período, território, população de referência e regra de inclusão. A literatura de indicadores em saúde enfatiza que uma boa medida depende não apenas da fórmula, mas da clareza conceitual sobre o que está sendo medido e com que finalidade [@OPAS2026] (ver @qua-eventos-exemplos-de-numeradores-e-denominadores-em-indicadores-de-saude).
 
 ::: {#qua-eventos-exemplos-de-numeradores-e-denominadores-em-indicadores-de-saude}
 
@@ -345,11 +345,11 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 
 - [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 48.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 77.
+- [SIM — Sistema de Informações sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 77.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 165.
+- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 165.
 
-- [SISCAN — Sistema de Informação de Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 214.
+- [SISCAN — Sistema de Informação do Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 214.
 
 - [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 398.
 

@@ -1,8 +1,8 @@
-# Podcast: SINAN — Sistema de Informação de Agravos de Notificação
+# Podcast: SINAN — Sistema de Informações de Agravos de Notificação
 
 **Livro:** Sistemas de Informação em Saúde no Brasil
 
-**Capítulo:** SINAN — Sistema de Informação de Agravos de Notificação
+**Capítulo:** SINAN — Sistema de Informações de Agravos de Notificação
 
 **Formato:** diálogo entre apresentadora e estudante
 
@@ -16,7 +16,7 @@ O episódio acompanha uma notificação fictícia desde a suspeita inicial até 
 
 ## Roteiro
 
-**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SINAN, o Sistema de Informação de Agravos de Notificação, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma notificação desde a suspeita inicial até o encerramento da investigação.
+**APRESENTADORA:** Olá! Que bom ter você aqui. Este é o podcast do capítulo SINAN, o Sistema de Informações de Agravos de Notificação, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma notificação desde a suspeita inicial até o encerramento da investigação.
 
 **ESTUDANTE:** Eu conheço o SINAN de nome, principalmente por causa de dengue, violência, tuberculose... mas confesso que sempre fico com uma dúvida básica: ele registra casos ou notificações?
 
@@ -66,9 +66,9 @@ O episódio acompanha uma notificação fictícia desde a suspeita inicial até 
 
 **APRESENTADORA:** Sim. Ele se tornou uma infraestrutura essencial para a vigilância. Mas, como qualquer sistema longevo, passou por mudanças de fluxo, versões, módulos e formas de disseminação.
 
-**ESTUDANTE:** O capítulo fala de SINAN NET, SINAN Online e e-SUS SINAN. Eles são versões do mesmo sistema?
+**ESTUDANTE:** O capítulo fala de SINAN Net, SINAN Online e e-SUS SINAN. Eles são versões do mesmo sistema?
 
-**APRESENTADORA:** São formas e estratégias operacionais relacionadas ao SINAN. O SINAN NET foi usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
+**APRESENTADORA:** São formas e estratégias operacionais relacionadas ao SINAN. O SINAN Net foi usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
 
 **ESTUDANTE:** E a existência dessas versões afeta a análise.
 

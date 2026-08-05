@@ -1,6 +1,6 @@
-# SIVEP — Sistema de Vigilância Epidemiológica {#sec-sivep}
+# SIVEP — família de sistemas de vigilância epidemiológica {#sec-sivep}
 
-De forma complementar a outros SIS, o Sistema de Vigilância Epidemiológica (SIVEP) reúne componentes voltados à vigilância de agravos, síndromes ou eventos específicos. Na prática, o termo SIVEP não se refere a uma base única e homogênea: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA têm objetivos, fluxos de registro, unidades de análise e formas de disseminação diferentes.
+De forma complementar a outros SIS, a sigla SIVEP designa, neste livro, uma família de sistemas voltados à vigilância de agravos, síndromes ou eventos específicos. Na prática, o termo SIVEP não se refere a uma base única e homogênea: SIVEP-Gripe, SIVEP-Malária e SIVEP-DDA têm objetivos, fluxos de registro, unidades de análise e formas de disseminação diferentes.
 
 O ponto comum entre esses componentes é o uso para vigilância epidemiológica mais oportuna, com fichas e rotinas próprias. Por isso, antes de usar dados do SIVEP é preciso identificar qual componente está sendo consultado, qual evento é registrado e se a base representa vigilância universal, vigilância sentinela ou outro recorte operacional.
 
@@ -8,7 +8,7 @@ O ponto comum entre esses componentes é o uso para vigilância epidemiológica 
 
 A vigilância da influenza no Brasil foi implantada em 2000, inicialmente voltada ao monitoramento de vírus respiratórios por meio de uma rede de vigilância sentinela de síndrome gripal (SG). Em 2009, com a pandemia de Influenza A(H1N1)pdm09, a vigilância de Síndrome Respiratória Aguda Grave (SRAG) foi incorporada à rede de vigilância de influenza e outros vírus respiratórios [@dadosabertosSRAG20092012].
 
-Entre 2009 e 2018, o sistema oficial para registro de casos e óbitos por SRAG era o Sinan Web Influenza. A partir de 2019, o SIVEP-Gripe passou a ser o sistema oficial para esse registro [@dadosabertosSRAG20092012].
+Entre 2009 e 2018, o sistema oficial para registro de casos e óbitos por SRAG era o Sinan Web Influenza. A partir de 2019, o Sistema de Informação de Vigilância da Gripe (SIVEP-Gripe) passou a ser o sistema oficial para esse registro [@dadosabertosSRAG20092012].
 
 Com a pandemia de Covid-19, a vigilância dos vírus respiratórios foi ampliada. Casos leves e moderados de Covid-19 passaram a ser monitorados por outros fluxos, como o e-SUS Notifica, enquanto os casos de SRAG hospitalizados suspeitos de Covid-19 e os óbitos por SRAG, independentemente de hospitalização, devem ser registrados no SIVEP-Gripe [@ministeriodasaudeDiretrizesRespiratorios2025].
 
@@ -26,7 +26,7 @@ Ao usar esses arquivos, é importante preservar a data de extração, o ano epid
 
 ## SIVEP-Malária
 
-O SIVEP-Malária registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica — estados da Região Norte, Maranhão e Mato Grosso — e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador [@ministeriodasaudePQAVS2023].
+O Sistema de Informação de Vigilância Epidemiológica — Malária (SIVEP-Malária) registra dados de vigilância epidemiológica da malária em áreas de transmissão específicas, especialmente na região amazônica. Nos indicadores nacionais de vigilância, o Ministério da Saúde diferencia o uso do SIVEP-Malária para a região amazônica — estados da Região Norte, Maranhão e Mato Grosso — e do SINAN para as demais unidades da federação, com exceções definidas no próprio indicador [@ministeriodasaudePQAVS2023].
 
 Essa divisão é importante porque uma análise nacional de malária pode exigir a combinação de fontes. Casos da região amazônica e casos da região extra-amazônica não devem ser buscados automaticamente em uma única base sem verificar o fluxo vigente de notificação.
 
@@ -38,7 +38,7 @@ O Ministério da Saúde mantém o [Painel Epidemiológico da Malária](https://w
 
 ## SIVEP-DDA
 
-O SIVEP-DDA é usado na vigilância epidemiológica das [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Ele integra a Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia baseada na identificação de casos atendidos em unidades sentinelas de monitoramento, preenchimento de formulários e registro semanal no sistema, conforme a semana epidemiológica de início dos sinais e sintomas [@ministeriodasaudeDDAVigilancia2026].
+O Sistema de Informação de Vigilância Epidemiológica das Doenças Diarreicas Agudas (SIVEP-DDA) é usado na vigilância epidemiológica das [Doenças Diarreicas Agudas (DDA)](https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dda). Ele integra a Monitorização das Doenças Diarreicas Agudas (MDDA), estratégia baseada na identificação de casos atendidos em unidades sentinelas de monitoramento, preenchimento de formulários e registro semanal no sistema, conforme a semana epidemiológica de início dos sinais e sintomas [@ministeriodasaudeDDAVigilancia2026].
 
 O objetivo principal da MDDA é detectar precocemente surtos ou alterações no padrão epidemiológico das DDA. Por esse motivo, a análise dos registros do SIVEP-DDA deve considerar que se trata de uma estratégia de vigilância em unidades sentinelas, e não de uma contagem exaustiva de todos os episódios de diarreia na população [@ministeriodasaudeDDASituacao2026].
 
@@ -67,7 +67,7 @@ As diferenças reunidas no @qua-sivep-diferencas-praticas-entre-componentes-do-s
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sivep}
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 180.
+- [SINAN — Sistema de Informações de Agravos de Notificação — seção “SINAN e SIVEP”](sinan.html#sinan-e-sivep). Na edição impressa, p. 180.
 
 - [Eventos de saúde — seção “Casos de doenças e agravos”](eventos.html#casos-de-doenças-e-agravos). Na edição impressa, p. 57.
 

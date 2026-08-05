@@ -64,7 +64,7 @@ Assim, a história dos SIS brasileiros é também a história da construção de
 
 ## Sistemas nacionais e construção do SUS
 
-Entre as décadas de 1970 e 1980 foram criados os primeiros sistemas de informação em saúde de abrangência nacional [@ministeriodasaudeExperienciaBrasileiraEm2009]. Nesse período, destacam-se a criação do Sistema de Informação sobre Mortalidade (SIM), a estruturação de registros relacionados ao Programa Nacional de Imunizações (PNI) e a organização de bases voltadas à produção assistencial.
+Entre as décadas de 1970 e 1980 foram criados os primeiros sistemas de informação em saúde de abrangência nacional [@ministeriodasaudeExperienciaBrasileiraEm2009]. Nesse período, destacam-se a criação do Sistema de Informações sobre Mortalidade (SIM), a estruturação de registros relacionados ao Programa Nacional de Imunizações (PNI) e a organização de bases voltadas à produção assistencial.
 
 A primeira Reunião Nacional sobre Sistemas de Informação em Saúde ocorreu em 1975, com o objetivo de discutir a implantação mais ampla e articulada desses sistemas [@ministeriodasaudeRelatorioFinal5a1975]. Esse momento expressa uma mudança importante: os dados de saúde deixavam de ser vistos apenas como registros administrativos isolados e passavam a ser tratados como infraestrutura necessária ao planejamento, à vigilância e à avaliação das ações de saúde.
 

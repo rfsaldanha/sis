@@ -1,4 +1,4 @@
-APRESENTADORA	[warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SINAN, o Sistema de Informação de Agravos de Notificação, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma notificação desde a suspeita inicial até o encerramento da investigação.
+APRESENTADORA	[warmly] Olá! Que bom ter você aqui. Este é o podcast do capítulo SINAN, o Sistema de Informações de Agravos de Notificação, do livro Sistemas de Informação em Saúde no Brasil. Para entrar no tema, vamos acompanhar uma notificação desde a suspeita inicial até o encerramento da investigação.
 ESTUDANTE	[curious] Eu conheço o SINAN de nome, principalmente por causa de dengue, violência, tuberculose... mas confesso que sempre fico com uma dúvida básica: ele registra casos ou notificações?
 APRESENTADORA	[thoughtful] Essa é a melhor pergunta para começar. O SINAN não é apenas uma lista de casos confirmados. Ele registra um processo: notificação, investigação, confirmação ou descarte, acompanhamento e encerramento. No fim do episódio, vamos voltar ao nosso registro inicial e perguntar o que ele realmente permite contar.
 ESTUDANTE	[engaged] Então, se eu abro uma base do SINAN e conto as linhas, eu não estou necessariamente contando pessoas doentes.
@@ -23,8 +23,8 @@ ESTUDANTE	[curious] E historicamente, quando o SINAN começa?
 APRESENTADORA	[explaining] A implantação começou em 1993, de forma gradual. Depois, em 1998, a alimentação regular da base nacional foi regulamentada como obrigatória para municípios, estados e Distrito Federal.
 ESTUDANTE	[engaged] Isso ajuda a entender por que ele é tão central hoje.
 APRESENTADORA	[affirming] Sim. Ele se tornou uma infraestrutura essencial para a vigilância. Mas, como qualquer sistema longevo, passou por mudanças de fluxo, versões, módulos e formas de disseminação.
-ESTUDANTE	[curious] O capítulo fala de SINAN NET, SINAN Online e e-SUS SINAN. Eles são versões do mesmo sistema?
-APRESENTADORA	[explaining] São formas e estratégias operacionais relacionadas ao SINAN. O SINAN NET foi usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
+ESTUDANTE	[curious] O capítulo fala de SINAN Net, SINAN Online e e-SUS SINAN. Eles são versões do mesmo sistema?
+APRESENTADORA	[explaining] São formas e estratégias operacionais relacionadas ao SINAN. O SINAN Net foi usado para grande parte dos agravos. O SINAN Online permaneceu associado a alguns fluxos, como dengue e chikungunya. O e-SUS SINAN moderniza o registro, com formulários on-line e integração progressiva de agravos.
 ESTUDANTE	[thinking] E a existência dessas versões afeta a análise.
 APRESENTADORA	[affirming] Afeta bastante. Mudanças de módulo podem alterar campos, códigos, periodicidade, oportunidade, forma de preenchimento e layout. Em uma série histórica, uma quebra pode ser tecnológica ou operacional, não necessariamente epidemiológica.
 ESTUDANTE	[curious] Então, antes de calcular qualquer coisa, eu preciso saber de onde veio a base.

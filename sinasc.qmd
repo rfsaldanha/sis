@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SINASC — Sistema de Informação sobre Nascidos Vivos {#sec-sinasc}
+# SINASC — Sistema de Informações sobre Nascidos Vivos {#sec-sinasc}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -44,7 +44,7 @@ Características gerais do SINASC
 
 :::
 
-O Sistema de Informação sobre Nascidos Vivos (SINASC) é a principal fonte nacional para estudar nascimentos, condições da gestação, parto, recém-nascido e características maternas. Seus dados são usados para descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar a atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil.
+O Sistema de Informações sobre Nascidos Vivos (SINASC) é a principal fonte nacional para estudar nascimentos, condições da gestação, parto, recém-nascido e características maternas. Seus dados são usados para descrever o perfil dos nascidos vivos, acompanhar desigualdades, avaliar a atenção pré-natal e ao parto, construir denominadores para indicadores infantis e apoiar o planejamento da rede materno-infantil.
 
 Como se trata de um sistema baseado em evento vital, o SINASC não acompanha a gestante durante toda a gravidez. Ele registra o desfecho nascimento vivo e reúne informações observadas ou declaradas no momento do parto e do preenchimento da Declaração de Nascido Vivo. Essa característica é uma vantagem quando a análise precisa de uma base nacional padronizada de nascimentos, mas exige cautela quando a pergunta envolve trajetória assistencial, qualidade clínica do pré-natal ou causalidade entre exposição materna e desfecho neonatal.
 
@@ -273,6 +273,20 @@ Uma análise mais consistente deve avaliar baixo peso em conjunto com a idade ge
 
 Os elementos do quadro funcionam como um roteiro mínimo para evitar uma proporção aparentemente simples, mas frágil. O denominador deve excluir registros sem peso válido, a estratificação precisa considerar perdas de informação e o território deve ser coerente com a pergunta. Se o interesse for desigualdade entre residentes, use residência da mãe; se for perfil de serviços de parto, use ocorrência ou estabelecimento.
 
+::: {.content-visible when-format="html"}
+```{r}
+#| echo: false
+#| message: false
+#| fig-cap: "Linha do tempo do SINASC"
+#| column: page
+timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
+```
+:::
+
+## Modelo da Declaração de Nascido Vivo
+
+![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv fig-alt="Reprodução da via branca do formulário oficial da Declaração de Nascido Vivo, com campos sobre identificação, local do parto, mãe, gestação e parto, recém-nascido, anomalias congênitas e responsável pelo preenchimento." width="90%"}
+
 ```{r}
 #| eval: false
 #| message: false
@@ -291,20 +305,6 @@ baixo_peso_mun <- sinasc_p |>
 
 baixo_peso_mun
 ```
-
-::: {.content-visible when-format="html"}
-```{r}
-#| echo: false
-#| message: false
-#| fig-cap: "Linha do tempo do SINASC"
-#| column: page
-timevis::timevis(readr::read_csv2(file = "linha_tempo_sinasc.csv"))
-```
-:::
-
-## Modelo da Declaração de Nascido Vivo
-
-![Modelo de Declaração de Nascido Vivo](assets/sinasc/modelo_dnv.png){#modelo-dnv fig-alt="Reprodução da via branca do formulário oficial da Declaração de Nascido Vivo, com campos sobre identificação, local do parto, mãe, gestação e parto, recém-nascido, anomalias congênitas e responsável pelo preenchimento." width="90%"}
 
 ## Estrutura dos dados
 
@@ -332,7 +332,7 @@ Os nomes e a disponibilidade das variáveis podem variar conforme o ano e a form
 | `GESTACAO` | Idade gestacional |
 | `PARTO` | Tipo de parto |
 | `PESO` | Peso ao nascer |
-| `APGAR1` e `APGAR5` | Vitalidade no 1o e 5o minutos |
+| `APGAR1` e `APGAR5` | Vitalidade no 1º e 5º minutos |
 | `IDANOMAL` ou equivalente | Presença de anomalia congênita |
 
 Campos úteis para uma primeira inspeção dos dados do SINASC
@@ -480,7 +480,7 @@ Os indicadores do quadro têm em comum a necessidade de compatibilizar tempo e t
 
 ## Principais usos e indicadores
 
-Segundo @OPAS2008, os dados do SINASC são utilizados na construção de indicadores demográficos, reprodutivos e materno-infantis. A ficha de cada indicador deve explicitar numerador, denominador, período, território, faixa etária materna e critérios de inclusão (ver @qua-sinasc-exemplos-de-indicadores-construidos-com-dados-do-sinasc).
+Segundo @OPAS2026, os dados do SINASC são utilizados na construção de indicadores demográficos, reprodutivos e materno-infantis. A ficha de cada indicador deve explicitar numerador, denominador, período, território, faixa etária materna e critérios de inclusão (ver @qua-sinasc-exemplos-de-indicadores-construidos-com-dados-do-sinasc).
 
 ::: {#qua-sinasc-exemplos-de-indicadores-construidos-com-dados-do-sinasc}
 
@@ -498,7 +498,7 @@ Exemplos de indicadores construídos com dados do SINASC
 
 :::
 
-Consulte o [livro da RIPSA](http://tabnet.datasus.gov.br/tabdata/livroidb/2ed/indicadores.pdf) para mais detalhes sobre esses e outros indicadores.
+Consulte a 3ª edição de *Indicadores básicos para a saúde no Brasil: conceitos e aplicações*, publicada pela OPAS em 2026 [@OPAS2026], para as fichas de qualificação atualizadas desses e de outros indicadores.
 
 O conjunto de indicadores reúne medidas de naturezas diferentes. Alguns medem volume ou fecundidade e exigem população como denominador; outros medem proporções entre nascidos vivos; e outros combinam SINASC e SIM. Separar esses grupos evita confundir taxa, proporção e razão, além de facilitar a escrita da ficha técnica de cada indicador.
 
@@ -562,7 +562,7 @@ Erros comuns incluem calcular taxas por ocorrência com população residente, u
 
 - [Eventos de saúde — seção “Nascimentos”](eventos.html#nascimentos). Na edição impressa, p. 60.
 
-- [SIM — Sistema de Informação sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 82.
+- [SIM — Sistema de Informações sobre Mortalidade — seção “Exemplo: mortalidade infantil”](sim.html#exemplo-mortalidade-infantil). Na edição impressa, p. 82.
 
 - [CID — Classificação Internacional de Doenças — seção “CID nos sistemas brasileiros”](cid.html#cid-nos-sistemas-brasileiros). Na edição impressa, p. 375.
 

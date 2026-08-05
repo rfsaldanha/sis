@@ -6,12 +6,12 @@ Os quadros desta seção sintetizam os sistemas e as infraestruturas de informa�
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
-| SIM | Sistema de Informação sobre Mortalidade | 1975 | Declaração de Óbito (DO) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
-| SINASC | Sistema de Informação sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
+| SIM | Sistema de Informações sobre Mortalidade | 1975 | Declaração de Óbito (DO) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
+| SINASC | Sistema de Informações sobre Nascidos Vivos | 1990 | Declaração de Nascido Vivo (DNV) | Todo o território nacional | Anual; consultar a competência e a data de atualização da fonte |
 | SIH | Sistema de Informações Hospitalares do SUS | 1981 | Autorização de Internação Hospitalar (AIH) | Internações financiadas pelo SUS na rede pública e conveniada | Mensal; dados recentes podem ser revistos ou reapresentados |
 | SIA | Sistema de Informações Ambulatoriais do SUS | 1990 | Procedimento, BPA, APAC ou RAAS | Procedimentos financiados pelo SUS na rede pública e conveniada | Mensal; dados recentes podem ser revistos ou reapresentados |
-| SISCAN | Sistema de Informação de Câncer | 2013 | Requisição, exame e laudo | Ações de detecção precoce e diagnóstico vinculadas ao SUS | Conforme registro e disseminação do sistema |
-| SINAN | Sistema de Informação de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Conforme a base, o agravo e o estágio de encerramento dos casos |
+| SISCAN | Sistema de Informação do Câncer | 2013 | Requisição, exame e laudo | Ações de detecção precoce e diagnóstico vinculadas ao SUS | Conforme registro e disseminação do sistema |
+| SINAN | Sistema de Informações de Agravos de Notificação | 1993 | Ficha de notificação | Todo o território nacional | Conforme a base, o agravo e o estágio de encerramento dos casos |
 
 Síntese dos sistemas de eventos vitais, assistência e notificação abordados no livro
 
@@ -21,7 +21,7 @@ Síntese dos sistemas de eventos vitais, assistência e notificação abordados 
 
 | Sigla | Nome | Ano de criação | Unidade de análise | Cobertura | Disseminação de dados |
 |-------|---------------|-------|--------------|------------|------------|
-| SIVEP | Sistema de Vigilância Epidemiológica | Varia; SIVEP-Gripe: 2019 | Ficha ou registro do componente | Universal, regional ou sentinela | Varia; SRAG anual e ano corrente com atualização semanal |
+| SIVEP | Família de sistemas de vigilância epidemiológica | Varia; SIVEP-Gripe: 2019 | Ficha ou registro do componente | Universal, regional ou sentinela | Varia; SRAG anual e ano corrente com atualização semanal |
 | CNES | Cadastro Nacional de Estabelecimentos de Saúde | 2000 | Ficha de cadastro | Todo o território nacional | Mensal; consultar a competência e a data de processamento |
 | SIOPS | Sistema de Informações sobre Orçamentos Públicos em Saúde | 2000 | Lançamentos contábeis | União, estados, Distrito Federal e municípios | Bimestral, com consolidação do exercício no sexto bimestre |
 | SISAGUA | Sistema de Informação de Vigilância da Qualidade da Água para Consumo Humano | 1999 | Resultados laboratoriais e fichas cadastrais | Todo o território nacional | Conforme o ciclo de monitoramento e a atualização da fonte consultada |

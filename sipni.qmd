@@ -45,7 +45,7 @@ O Sistema de Informações do Programa Nacional de Imunizações (SI-PNI) organi
 O SI-PNI deve ser interpretado como um sistema de registro de ações de imunização. Ele não mede diretamente a proteção imunológica da população, a efetividade vacinal, a qualidade da sala de vacina ou a necessidade de vacinação. Para essas perguntas, o registro de doses precisa ser combinado com denominadores populacionais, regras do calendário, investigação epidemiológica e outros sistemas.
 
 ::: {.callout-note title="Terminologia"}
-O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.
+O programa é o PNI; o sistema de informação é usualmente chamado SI-PNI ou SIPNI. Documentos institucionais alternam as formas “Sistema de Informação” e “Sistema de Informações”; esta edição adota “Sistema de Informações do Programa Nacional de Imunizações”, denominação exibida no portal do SI-PNI. Neste capítulo, SI-PNI é usado como nome do sistema, preservando a forma mais comum nos capítulos do livro.
 :::
 
 ## Como ler este capítulo

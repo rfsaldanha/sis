@@ -2,7 +2,7 @@
 always_allow_html: true
 ---
 
-# SISCAN — Sistema de Informação de Câncer {#sec-siscan}
+# SISCAN — Sistema de Informação do Câncer {#sec-siscan}
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -44,7 +44,7 @@ Características gerais do SISCAN
 
 :::
 
-O Sistema de Informação de Câncer (SISCAN) organiza dados das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no Sistema Único de Saúde (SUS). O sistema acompanha a solicitação, a realização e o resultado de exames, além de apoiar o seguimento de pessoas com achados alterados e o monitoramento da qualidade dos serviços [@brasilPortaria3394Siscan2013; @incaManualSiscan2021].
+O Sistema de Informação do Câncer (SISCAN) organiza dados das ações de detecção precoce dos cânceres do colo do útero e de mama realizadas no Sistema Único de Saúde (SUS). O sistema acompanha a solicitação, a realização e o resultado de exames, além de apoiar o seguimento de pessoas com achados alterados e o monitoramento da qualidade dos serviços [@brasilPortaria3394Siscan2013; @incaManualSiscan2021].
 
 O SISCAN não é um registro populacional de câncer e não mede, isoladamente, a incidência ou a prevalência de todos os tipos de câncer. Sua cobertura e sua unidade de registro refletem processos assistenciais específicos. Para responder a perguntas sobre tratamento oncológico, internações, óbitos ou ocorrência populacional, é necessário combiná-lo com outras fontes.
 
@@ -75,7 +75,7 @@ Uma linha no SISCAN representa um registro do processo de cuidado, não necessar
 
 ## SISCAN, SISCOLO e SISMAMA
 
-O Sistema de Informação do Controle do Câncer do Colo do Útero (SISCOLO) foi instituído em 1999 para apoiar o acompanhamento das ações de prevenção, detecção e controle desse câncer. O Sistema de Informação do Controle do Câncer de Mama (SISMAMA), implantado nacionalmente em 2009, passou a registrar mamografias e exames relacionados à investigação do câncer de mama [@incaHistoricoColo2025; @incaHistoricoMama2025; @datasusSiscoloSismama2026].
+O Sistema de Informação do Câncer do Colo do Útero (SISCOLO) foi instituído em 1999 para apoiar o acompanhamento das ações de prevenção, detecção e controle desse câncer. O Sistema de Informação do Controle do Câncer de Mama (SISMAMA), implantado nacionalmente em 2009, passou a registrar mamografias e exames relacionados à investigação do câncer de mama [@incaHistoricoColo2025; @incaHistoricoMama2025; @datasusSiscoloSismama2026].
 
 Em 2013, a Portaria GM/MS nº 3.394 instituiu o SISCAN, sistema nominal e integrado destinado a substituir gradualmente o SISCOLO e o SISMAMA. A mudança reuniu os dois componentes em ambiente *web*, incorporou identificação pelo Cartão Nacional de Saúde (CNS), utilizou dados do Cadastro Nacional de Estabelecimentos de Saúde (CNES) e ampliou as possibilidades de acompanhamento longitudinal [@brasilPortaria3394Siscan2013; @datasusSiscan2026].
 
@@ -196,9 +196,9 @@ O seguimento começa quando um resultado exige nova investigação, confirmaçã
 Ao avaliar cobertura de rastreamento, use como numerador exames de rastreamento realizados na população-alvo e como denominador uma estimativa populacional compatível. Informe se o indicador representa exames ou pessoas examinadas.
 :::
 
-## Integração com SIA/SUS, CNES e CADSUS
+## Integração com SIA/SUS, CNES e CadSUS
 
-O SISCAN utiliza o Cadastro de Usuários do SUS (CADSUS) para identificação nominal e o CNES para caracterizar unidades solicitantes e prestadores. Essa integração reduz redigitação, apoia o acompanhamento da pessoa e permite relacionar produção, território e capacidade instalada.
+O SISCAN utiliza o Sistema de Cadastramento de Usuários do SUS (CadSUS) para identificação nominal e o CNES para caracterizar unidades solicitantes e prestadores. Essa integração reduz redigitação, apoia o acompanhamento da pessoa e permite relacionar produção, território e capacidade instalada.
 
 O sistema também gera o Boletim de Produção Ambulatorial Individualizado (BPA-I) para procedimentos compatíveis, que segue para processamento no SIA/SUS. As bases, porém, não são equivalentes. O SISCAN reúne dados clínicos e de resultado; o SIA/SUS registra procedimentos apresentados e processados para fins administrativos. Diferenças de implantação, envio e crítica podem fazer com que os totais não coincidam [@brasilPortaria3394Siscan2013; @tomazelliCoberturaSistemasCancer2022].
 
@@ -353,7 +353,7 @@ Antes de concluir uma análise, verifique se:
 ### Documentos oficiais
 
 - [Portaria GM/MS nº 3.394, de 30 de dezembro de 2013](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt3394_30_12_2013.html) [@brasilPortaria3394Siscan2013].
-- [Manual do Sistema de Informação de Câncer](https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4) [@incaManualSiscan2021].
+- [Manual do Sistema de Informação do Câncer](https://www.inca.gov.br/publicacoes/manuais/manual-do-sistema-de-informacao-do-cancer-siscan-modulos-1-2-3-e-4) [@incaManualSiscan2021].
 - [Qualidade dos dados do SISCAN](https://www.inca.gov.br/publicacoes/relatorios/qualidade-dos-dados-do-sistema-de-informacao-do-cancer-siscan-2016-2020) [@incaQualidadeSiscan2022].
 - [Painel Oncologia](https://tabnet.datasus.gov.br/cgi/dhdat.exe?PAINEL_ONCO/PAINEL_ONCOLOGIABR.def=) [@brasilPainelOncologia2026].
 

@@ -40,7 +40,7 @@ Imunizações	eventos	Imunizações
 Denominadores	eventos	Denominadores e indicadores
 Indicadores	eventos	Denominadores e indicadores
 Relacionamento entre sistemas	eventos	Relacionamento entre sistemas
-SIM — Sistema de Informação sobre Mortalidade	sim	SIM — Sistema de Informação sobre Mortalidade
+SIM — Sistema de Informações sobre Mortalidade	sim	SIM — Sistema de Informações sobre Mortalidade
 Declaração de Óbito (DO)	sim	Fluxo da Declaração de Óbito
 Emissão da Declaração de Óbito	sim	Emissão da Declaração de Óbito
 Vigilância do óbito	sim	Vigilância e investigação de óbitos
@@ -53,7 +53,7 @@ Análise temporal	sim	Análise temporal
 Acidentes de trânsito	sim	Exemplo: acidentes de trânsito
 Mortalidade infantil	sim	Exemplo: mortalidade infantil
 Qualidade dos dados	sim	Qualidade dos dados
-SINASC — Sistema de Informação sobre Nascidos Vivos	sinasc	SINASC — Sistema de Informação sobre Nascidos Vivos
+SINASC — Sistema de Informações sobre Nascidos Vivos	sinasc	SINASC — Sistema de Informações sobre Nascidos Vivos
 Declaração de Nascido Vivo (DNV)	sinasc	Fluxo da Declaração de Nascido Vivo
 Nascido vivo	sinasc	O que é nascido vivo
 Unidade de análise	sinasc	Cobertura e unidade de análise
@@ -84,11 +84,11 @@ Mamografia	sia	Exemplo: produção de mamografias
 APAC	sia	APAC e alta complexidade
 Produção ambulatorial rejeitada	sia	Produção rejeitada e crítica
 Validação reprodutível	sia	Validação reprodutível
-SINAN — Sistema de Informação de Agravos de Notificação	sinan	SINAN — Sistema de Informação de Agravos de Notificação
+SINAN — Sistema de Informações de Agravos de Notificação	sinan	SINAN — Sistema de Informações de Agravos de Notificação
 Notificação compulsória	sinan	Fluxo da notificação
-SINAN NET	sinan	SINAN NET, SINAN Online e e-SUS SINAN
-SINAN Online	sinan	SINAN NET, SINAN Online e e-SUS SINAN
-e-SUS SINAN	sinan	SINAN NET, SINAN Online e e-SUS SINAN
+SINAN Net	sinan	SINAN Net, SINAN Online e e-SUS SINAN
+SINAN Online	sinan	SINAN Net, SINAN Online e e-SUS SINAN
+e-SUS SINAN	sinan	SINAN Net, SINAN Online e e-SUS SINAN
 Definição de caso	sinan	Definições de caso
 Unidade de análise	sinan	Unidade de análise
 Oportunidade da vigilância	sinan	Oportunidade da vigilância
@@ -240,7 +240,7 @@ Contagem populacional	pop	Censo, contagem, estimativa e projeção
 Projeção populacional	pop	Censo, contagem, estimativa e projeção
 IBGE	pop	IBGE — TCU
 Denominadores	pop	Escolha do denominador
-SIVEP — Sistema de Vigilância Epidemiológica	sivep	SIVEP — Sistema de Vigilância Epidemiológica
+SIVEP — família de sistemas de vigilância epidemiológica	sivep	SIVEP — família de sistemas de vigilância epidemiológica
 SIVEP-Gripe	sivep	SIVEP-Gripe
 SIVEP-Malária	sivep	SIVEP-Malária
 SIVEP-DDA	sivep	SIVEP-DDA
@@ -269,7 +269,7 @@ Relacionamento probabilístico	interoperabilidade	Relacionamento probabilístico
 Métodos híbridos de relacionamento	interoperabilidade	Estratégias híbridas e métodos de classificação
 Privacidade	interoperabilidade	Privacidade, segurança e uso responsável
 Proteção de dados	interoperabilidade	Privacidade, segurança e uso responsável
-SISCAN — Sistema de Informação de Câncer	siscan	SISCAN — Sistema de Informação de Câncer
+SISCAN — Sistema de Informação do Câncer	siscan	SISCAN — Sistema de Informação do Câncer
 SISCOLO	siscan	SISCAN, SISCOLO e SISMAMA
 SISMAMA	siscan	SISCAN, SISCOLO e SISMAMA
 Painel Oncologia	siscan	Painel Oncologia

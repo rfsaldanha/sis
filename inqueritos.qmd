@@ -379,7 +379,7 @@ Antes de publicar uma análise, verifique se:
 
 - [Estimativas populacionais — seção “Escolha do denominador”](pop.html#escolha-do-denominador). Na edição impressa, p. 393.
 
-- [SINAN — Sistema de Informação de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 179.
+- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 179.
 
 - [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 432.
 
