@@ -343,15 +343,15 @@ Os capítulos seguintes apresentam os principais SIS brasileiros com detalhes so
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-eventos}
 
-- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 48.
+- [Organização dos SIS — seção “Como escolher o sistema”](organizacao.html#como-escolher-o-sistema). Na edição impressa, p. 50.
 
-- [SIM — Sistema de Informações sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 77.
+- [SIM — Sistema de Informações sobre Mortalidade — seção “Causa básica do óbito”](sim.html#causa-básica-do-óbito). Na edição impressa, p. 79.
 
-- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 165.
+- [SINAN — Sistema de Informações de Agravos de Notificação — seção “Definições de caso”](sinan.html#definições-de-caso). Na edição impressa, p. 169.
 
-- [SISCAN — Sistema de Informação do Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 214.
+- [SISCAN — Sistema de Informação do Câncer — seção “Quando usar o SISCAN”](siscan.html#quando-usar-o-siscan). Na edição impressa, p. 220.
 
-- [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 398.
+- [Inquéritos e pesquisas de saúde — seção “Inquéritos e sistemas de informação”](inqueritos.html#inquéritos-e-sistemas-de-informação). Na edição impressa, p. 412.
 
 :::
 <!-- END GENERATED SEE ALSO -->

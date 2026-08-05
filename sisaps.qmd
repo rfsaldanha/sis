@@ -715,11 +715,11 @@ Antes de concluir uma análise com SISAB ou Siaps, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-sisaps}
 
-- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 58.
+- [Eventos de saúde — seção “Procedimentos ambulatoriais”](eventos.html#procedimentos-ambulatoriais). Na edição impressa, p. 60.
 
-- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 204.
+- [CNES — Cadastro Nacional de Estabelecimentos de Saúde — seção “Relacionamento com outros sistemas”](cnes.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 209.
 
-- [SINASC — Sistema de Informações sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 108.
+- [SINASC — Sistema de Informações sobre Nascidos Vivos — seção “Uso como denominador”](sinasc.html#uso-como-denominador). Na edição impressa, p. 110.
 
 :::
 <!-- END GENERATED SEE ALSO -->

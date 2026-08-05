@@ -827,13 +827,13 @@ Antes de concluir uma análise com CNES, verifique se:
 ::: {.content-hidden when-format="typst"}
 ## Veja também {#sec-veja-tambem-cnes}
 
-- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 39.
+- [Organização dos SIS — seção “Sistemas cadastrais, financeiros e de gestão”](organizacao.html#sistemas-cadastrais-financeiros-e-de-gestão). Na edição impressa, p. 41.
 
-- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 123.
+- [SIH — Sistema de Informações Hospitalares do SUS — seção “Exemplo: fluxos de internação”](sih.html#exemplo-fluxos-de-internação). Na edição impressa, p. 125.
 
-- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: Siaps + CNES”](sisaps.html#sec-related-sisaps-exemplo-sisaps-cnes). Na edição impressa, p. 294.
+- [Siaps — Sistema de Informação para a Atenção Primária à Saúde — seção “Exemplo: Siaps + CNES”](sisaps.html#sec-related-sisaps-exemplo-sisaps-cnes). Na edição impressa, p. 305.
 
-- [SISCAN — Sistema de Informação do Câncer — seção “Integração com SIA/SUS, CNES e CadSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 220.
+- [SISCAN — Sistema de Informação do Câncer — seção “Integração com SIA/SUS, CNES e CadSUS”](siscan.html#integração-com-siasus-cnes-e-cadsus). Na edição impressa, p. 226.
 
 :::
 <!-- END GENERATED SEE ALSO -->
