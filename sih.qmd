@@ -10,7 +10,7 @@ always_allow_html: true
 <h2>Podcast do capítulo</h2>
 <p>Ouça a conversa e acompanhe a transcrição sincronizada. Áudio gerado por IA.</p>
 <audio class="podcast-audio" controls preload="metadata">
-  <source src="podcast/sih.mp3?v=20260712-elevenv3" type="audio/mpeg">
+  <source src="https://sis-podcasts.nyc3.cdn.digitaloceanspaces.com/sih.mp3?v=20260712-elevenv3" type="audio/mpeg">
   Seu navegador não suporta o elemento de áudio.
 </audio>
 <details class="podcast-transcript-wrap">
