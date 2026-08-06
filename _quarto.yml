@@ -116,8 +116,3 @@ format:
       light: journal
       dark: darkly
     css: styles.css
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    toc-title: Sumário
-    include-before-body: siglas.tex
