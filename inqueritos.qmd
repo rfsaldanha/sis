@@ -381,7 +381,7 @@ Antes de publicar uma análise, verifique se:
 
 - [SINAN — Sistema de Informações de Agravos de Notificação — seção “Relacionamento com outros sistemas”](sinan.html#relacionamento-com-outros-sistemas). Na edição impressa, p. 181.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 442.
+- [ANS — Agência Nacional de Saúde Suplementar — seção “Coberturas que não são equivalentes”](ans.html#coberturas-que-não-são-equivalentes). Na edição impressa, p. 442.
 
 :::
 <!-- END GENERATED SEE ALSO -->

@@ -182,7 +182,7 @@ A possibilidade concreta de relacionamento depende da versão dos dados. Bases i
 
 - [Eventos de saúde — seção “Relacionamento entre sistemas”](eventos.html#relacionamento-entre-sistemas). Na edição impressa, p. 62.
 
-- [Agência Nacional de Saúde Suplementar — ANS — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 442.
+- [ANS — Agência Nacional de Saúde Suplementar — seção “Integração com dados dos SIS”](ans.html#integração-com-dados-dos-sis). Na edição impressa, p. 442.
 
 - [SISCAN — Sistema de Informação do Câncer — seção “Painel Oncologia”](siscan.html#painel-oncologia). Na edição impressa, p. 225.
 

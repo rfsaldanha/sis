@@ -62,7 +62,7 @@ chapter_titles <- c(
   inqueritos = "Inquéritos e pesquisas de saúde",
   sivep = "SIVEP — família de sistemas de vigilância epidemiológica",
   sisvan = "SISVAN — Sistema de Vigilância Alimentar e Nutricional",
-  ans = "Agência Nacional de Saúde Suplementar — ANS",
+  ans = "ANS — Agência Nacional de Saúde Suplementar",
   interoperabilidade = "Interoperabilidade entre os Sistemas de Informação em Saúde"
 )
 
