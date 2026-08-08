@@ -56,8 +56,6 @@ book:
   repo-actions: [source, issue]
   date: today
   search: true
-  # Reativar no lançamento oficial da versão PDF.
-  # downloads: [pdf]
   google-analytics: 
     tracking-id: G-2M7VLSRDCB
     anonymize-ip: false

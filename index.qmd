@@ -10,6 +10,22 @@ Este livro apresenta os principais Sistemas de Informação em Saúde (SIS) no B
 
 O material foi pensado como uma porta de entrada para estudantes, profissionais de saúde, pesquisadores e gestores que precisam compreender como os dados em saúde são produzidos, circulam e podem ser utilizados no contexto do SUS.
 
+::: {.book-sale}
+::: {.book-sale-cover}
+<a href="https://loja.uiclap.com/titulo/ua191948" target="_blank" rel="noopener" aria-label="Comprar a edição impressa na UICLAP">
+  <img src="assets/capa-livro-impresso.jpg" alt="Capa do livro Sistemas de Informação em Saúde no Brasil">
+</a>
+:::
+
+::: {.book-sale-content}
+## Edição impressa {.unnumbered}
+
+Prefere ler no papel? A edição impressa de *Sistemas de Informação em Saúde no Brasil* é vendida a preço de custo e está disponível para compra na UICLAP.
+
+[Comprar o livro impresso](https://loja.uiclap.com/titulo/ua191948){.btn .btn-primary target="_blank" rel="noopener"}
+:::
+:::
+
 ## Percursos de leitura
 
 - **Leitura sequencial:** indicada para quem está iniciando. A introdução, o histórico, a organização dos SIS e a discussão dos eventos de saúde formam a base comum para os demais capítulos.

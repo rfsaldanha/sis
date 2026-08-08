@@ -13,6 +13,79 @@
   border: 1px solid var(--bs-border-color, #777) !important;
 }
 
+.book-sale {
+    display: grid;
+    grid-template-columns: minmax(8.5rem, 10.5rem) minmax(0, 1fr);
+    gap: clamp(1.25rem, 4vw, 2.5rem);
+    align-items: center;
+    margin: 2rem 0 2.5rem;
+    padding: clamp(1.25rem, 4vw, 2rem);
+    border: 1px solid rgba(127, 127, 127, 0.28);
+    border-radius: 0.75rem;
+    background: transparent;
+    box-shadow: none;
+    color: inherit;
+}
+
+.book-sale-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0.15rem;
+    box-shadow: 0 0.4rem 1rem rgba(18, 42, 60, 0.22);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.book-sale-cover a:hover img,
+.book-sale-cover a:focus img {
+    transform: translateY(-0.15rem);
+    box-shadow: 0 0.6rem 1.25rem rgba(18, 42, 60, 0.28);
+}
+
+.book-sale-content h2 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.book-sale-content p:last-child {
+    margin-bottom: 0;
+}
+
+.book-sale .btn-primary {
+    border-color: #a94f35;
+    background-color: #a94f35;
+    color: #fff;
+}
+
+.book-sale .btn-primary:hover,
+.book-sale .btn-primary:focus {
+    border-color: #8e3e29;
+    background-color: #8e3e29;
+    color: #fff;
+}
+
+@media (max-width: 520px) {
+    .book-sale {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .book-sale-cover {
+        width: 8rem;
+        justify-self: center;
+    }
+
+    .book-sale-content {
+        text-align: center;
+    }
+
+    .book-sale-content h2 {
+        font-size: 1.3rem;
+    }
+}
+
 .timevis {
     height: auto !important;
     min-height: 0;

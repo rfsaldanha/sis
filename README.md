@@ -2,7 +2,9 @@
 
 E-book sobre os principais Sistemas de Informação em Saúde (SIS) no Brasil, reunindo informações sobre história, organização, cobertura, dados disponíveis, usos analíticos, indicadores derivados e limitações.
 
-Livro: <https://rfsaldanha.github.io/sis/>
+Livro online: <https://rfsaldanha.github.io/sis/>
+
+Edição impressa: <https://loja.uiclap.com/titulo/ua191948>
 
 ## Como citar
 
@@ -35,7 +37,7 @@ Sistemas de Informação em Saúde; SUS; DATASUS; Informação em Saúde; Saúde
 
 ## Formatos
 
-O livro está disponível em HTML, PDF e EPUB.
+O livro virtual está disponível em HTML. A edição impressa pode ser adquirida na UICLAP.
 
 ## Licença
 

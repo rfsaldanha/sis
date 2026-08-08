@@ -50,3 +50,6 @@ rsconnect/
 **/*.quarto_ipynb
 .DS_Store
 **/.DS_Store
+
+# PDF integral do livro (artefato local da edição impressa)
+docs/Sistemas-de-Informação-em-Saúde-no-Brasil*.pdf
