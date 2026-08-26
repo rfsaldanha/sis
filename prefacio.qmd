@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 # Prefácio do autor {.unnumbered}
 
 Existem muitos materiais sobre os Sistemas de Informação em Saúde no Brasil. Manuais de preenchimento, notas técnicas, dicionários de dados, portarias, páginas institucionais, artigos científicos, apresentações e orientações produzidas por equipes gestoras registram partes importantes de sua história e de seu funcionamento. O problema não é apenas encontrar informação, mas reunir peças dispersas, publicadas em épocas e formatos diferentes, distinguir o que ainda está vigente e compreender como uma mudança normativa ou tecnológica afeta o dado disponível para análise.

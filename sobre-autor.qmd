@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 # Sobre o autor {.unnumbered}
 
 Raphael de Freitas Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, mestre em Saúde Coletiva e doutor em Informação e Comunicação em Saúde. É Pesquisador em Saúde Pública no Laboratório de Informação em Saúde do Instituto de Comunicação e Informação Científica e Tecnológica em Saúde da Fundação Oswaldo Cruz.

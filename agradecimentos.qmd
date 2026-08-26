@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 # Agradecimentos {.unnumbered}
 
 Este livro nasceu de muitos anos de trabalho, estudo, ensino e conversa. Agradeço, em primeiro lugar, à minha família. À Nathália, pela parceria, pela paciência e pela presença em todas as etapas; a Mauro, Atena e Havana, por renovarem cotidianamente minha curiosidade, minha alegria e meu sentido de futuro.
