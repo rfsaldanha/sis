@@ -1,0 +1,7 @@
+# Sobre o autor {.unnumbered}
+
+Raphael de Freitas Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, mestre em Saúde Coletiva e doutor em Informação e Comunicação em Saúde. É Pesquisador em Saúde Pública no Laboratório de Informação em Saúde do Instituto de Comunicação e Informação Científica e Tecnológica em Saúde da Fundação Oswaldo Cruz.
+
+É criador e mantenedor do pacote `microdatasus`, desenvolvido para facilitar o acesso aos microdados públicos dos Sistemas de Informação em Saúde brasileiros e sua preparação para análise. Seu trabalho reúne pesquisa, desenvolvimento de ferramentas abertas, ensino e divulgação sobre informação em saúde.
+
+**Contato:** <raphael.saldanha@fiocruz.br>

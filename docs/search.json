@@ -50,6 +50,36 @@
     ]
   },
   {
+    "objectID": "agradecimentos.html",
+    "href": "agradecimentos.html",
+    "title": "Agradecimentos",
+    "section": "",
+    "text": "Este livro nasceu de muitos anos de trabalho, estudo, ensino e conversa. Agradeço, em primeiro lugar, à minha família. À Nathália, pela parceria, pela paciência e pela presença em todas as etapas; a Mauro, Atena e Havana, por renovarem cotidianamente minha curiosidade, minha alegria e meu sentido de futuro.\nAos colegas com quem compartilhei projetos, bases de dados, códigos, aulas, perguntas e dúvidas sobre os Sistemas de Informação em Saúde, agradeço as discussões, leituras, correções e experiências práticas que ajudaram a tornar este trabalho mais claro e útil. Muitas das explicações reunidas nestas páginas foram amadurecidas em conversas de trabalho, reuniões, salas de aula e mensagens de pessoas interessadas em compreender e utilizar melhor os dados do SUS.\nÀ Fundação Oswaldo Cruz, em especial ao Instituto de Comunicação e Informação Científica e Tecnológica em Saúde e ao Laboratório de Informação em Saúde, agradeço o ambiente institucional que reconhece a informação em saúde como bem público e estimula a pesquisa, o ensino, a cooperação e o desenvolvimento aberto. A convivência com profissionais comprometidos com o SUS e com a qualidade da informação deu direção e propósito a este livro.\nAgradeço, por fim, às pessoas que desenvolvem, mantêm, documentam e utilizam os SIS nas diferentes esferas do SUS. Este trabalho depende do esforço cotidiano, muitas vezes pouco visível, de quem registra, verifica, processa e transforma dados administrativos, assistenciais e epidemiológicos em informação para a saúde pública.",
+    "crumbs": [
+      "Agradecimentos"
+    ]
+  },
+  {
+    "objectID": "prefacio.html",
+    "href": "prefacio.html",
+    "title": "Prefácio do autor",
+    "section": "",
+    "text": "Existem muitos materiais sobre os Sistemas de Informação em Saúde no Brasil. Manuais de preenchimento, notas técnicas, dicionários de dados, portarias, páginas institucionais, artigos científicos, apresentações e orientações produzidas por equipes gestoras registram partes importantes de sua história e de seu funcionamento. O problema não é apenas encontrar informação, mas reunir peças dispersas, publicadas em épocas e formatos diferentes, distinguir o que ainda está vigente e compreender como uma mudança normativa ou tecnológica afeta o dado disponível para análise.\nEssa dificuldade se tornou especialmente clara para mim durante a criação e a manutenção do pacote microdatasus para o R, desenvolvido para facilitar o acesso aos microdados públicos do DATASUS e sua preparação para análise. Ao longo do tempo, passei a receber muitas perguntas de usuários do pacote. Uma parte delas dizia respeito ao código, à instalação ou ao uso de funções. Muitas outras, embora chegassem como dúvidas sobre o microdatasus, eram na realidade perguntas sobre os próprios sistemas: qual arquivo escolher, o que cada registro representa, por que determinada variável muda entre anos, quais datas definem uma competência, como interpretar duplicidades, diferenças de cobertura ou alterações no fluxo de informação.\nEssas perguntas mostraram que facilitar o acesso técnico aos arquivos é apenas uma parte do trabalho. Para analisar um SIS, é preciso conhecer o evento que ele registra, a finalidade administrativa ou epidemiológica que orientou sua criação, os instrumentos de coleta, os fluxos entre serviços e esferas de gestão, as regras de processamento e as transformações acumuladas ao longo do tempo. Sem esse contexto, um banco de dados aparentemente simples pode levar a comparações inadequadas e a conclusões que os registros não sustentam.\nO ponto de partida deste livro foi uma necessidade muito concreta. Enquanto eu estudava para o concurso público de pesquisador da Fundação Oswaldo Cruz, comecei a compilar um material de estudo sobre os principais SIS brasileiros. Reuni conceitos, marcos históricos, documentos institucionais, formas de acesso e observações metodológicas que estavam espalhados em diversas fontes. As notas cresceram, ganharam organização e se transformaram primeiro em um livro publicado na internet, aberto à consulta e à atualização. A obra que o leitor tem agora em mãos é o passo seguinte desse percurso: uma versão impressa, revista e organizada para uma leitura contínua.\nA passagem da tela ao papel exigiu mais do que transpor páginas. A edição impressa favorece a visão de conjunto, a leitura sequencial e a consulta concentrada; a edição online permite acompanhar atualizações, acessar bases, ferramentas e documentos externos e explorar materiais que não caberiam no volume. Por isso, as duas versões foram concebidas como complementares. Códigos QR indicados ao longo dos capítulos mantêm a ligação entre elas.\nEste livro não pretende encerrar a descrição dos SIS, tarefa impossível diante de sistemas que continuam a mudar. Seu propósito é oferecer um mapa: apresentar origens, conceitos, estruturas, usos e cuidados de interpretação, aproximando documentos técnicos da prática de estudantes, profissionais, gestores e pesquisadores. Espero que a leitura ajude não apenas a localizar dados, mas a formular perguntas melhores sobre como eles são produzidos e sobre o que podem — e o que não podem — dizer a respeito da saúde da população e do funcionamento do SUS.\n\nRaphael de Freitas Saldanha\nRio de Janeiro, agosto de 2026",
+    "crumbs": [
+      "Prefácio do autor"
+    ]
+  },
+  {
+    "objectID": "sobre-autor.html",
+    "href": "sobre-autor.html",
+    "title": "Sobre o autor",
+    "section": "",
+    "text": "Raphael de Freitas Saldanha é geógrafo, especialista em Métodos Estatísticos Computacionais, mestre em Saúde Coletiva e doutor em Informação e Comunicação em Saúde. É Pesquisador em Saúde Pública no Laboratório de Informação em Saúde do Instituto de Comunicação e Informação Científica e Tecnológica em Saúde da Fundação Oswaldo Cruz.\nÉ criador e mantenedor do pacote microdatasus, desenvolvido para facilitar o acesso aos microdados públicos dos Sistemas de Informação em Saúde brasileiros e sua preparação para análise. Seu trabalho reúne pesquisa, desenvolvimento de ferramentas abertas, ensino e divulgação sobre informação em saúde.\nContato: raphael.saldanha@fiocruz.br",
+    "crumbs": [
+      "Sobre o autor"
+    ]
+  },
+  {
     "objectID": "siglas.html",
     "href": "siglas.html",
     "title": "Lista de siglas",

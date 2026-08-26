@@ -1,0 +1,18 @@
+# Prefácio do autor {.unnumbered}
+
+Existem muitos materiais sobre os Sistemas de Informação em Saúde no Brasil. Manuais de preenchimento, notas técnicas, dicionários de dados, portarias, páginas institucionais, artigos científicos, apresentações e orientações produzidas por equipes gestoras registram partes importantes de sua história e de seu funcionamento. O problema não é apenas encontrar informação, mas reunir peças dispersas, publicadas em épocas e formatos diferentes, distinguir o que ainda está vigente e compreender como uma mudança normativa ou tecnológica afeta o dado disponível para análise.
+
+Essa dificuldade se tornou especialmente clara para mim durante a criação e a manutenção do pacote `microdatasus` para o R, desenvolvido para facilitar o acesso aos microdados públicos do DATASUS e sua preparação para análise. Ao longo do tempo, passei a receber muitas perguntas de usuários do pacote. Uma parte delas dizia respeito ao código, à instalação ou ao uso de funções. Muitas outras, embora chegassem como dúvidas sobre o `microdatasus`, eram na realidade perguntas sobre os próprios sistemas: qual arquivo escolher, o que cada registro representa, por que determinada variável muda entre anos, quais datas definem uma competência, como interpretar duplicidades, diferenças de cobertura ou alterações no fluxo de informação.
+
+Essas perguntas mostraram que facilitar o acesso técnico aos arquivos é apenas uma parte do trabalho. Para analisar um SIS, é preciso conhecer o evento que ele registra, a finalidade administrativa ou epidemiológica que orientou sua criação, os instrumentos de coleta, os fluxos entre serviços e esferas de gestão, as regras de processamento e as transformações acumuladas ao longo do tempo. Sem esse contexto, um banco de dados aparentemente simples pode levar a comparações inadequadas e a conclusões que os registros não sustentam.
+
+O ponto de partida deste livro foi uma necessidade muito concreta. Enquanto eu estudava para o concurso público de pesquisador da Fundação Oswaldo Cruz, comecei a compilar um material de estudo sobre os principais SIS brasileiros. Reuni conceitos, marcos históricos, documentos institucionais, formas de acesso e observações metodológicas que estavam espalhados em diversas fontes. As notas cresceram, ganharam organização e se transformaram primeiro em um livro publicado na internet, aberto à consulta e à atualização. A obra que o leitor tem agora em mãos é o passo seguinte desse percurso: uma versão impressa, revista e organizada para uma leitura contínua.
+
+A passagem da tela ao papel exigiu mais do que transpor páginas. A edição impressa favorece a visão de conjunto, a leitura sequencial e a consulta concentrada; a edição online permite acompanhar atualizações, acessar bases, ferramentas e documentos externos e explorar materiais que não caberiam no volume. Por isso, as duas versões foram concebidas como complementares. Códigos QR indicados ao longo dos capítulos mantêm a ligação entre elas.
+
+Este livro não pretende encerrar a descrição dos SIS, tarefa impossível diante de sistemas que continuam a mudar. Seu propósito é oferecer um mapa: apresentar origens, conceitos, estruturas, usos e cuidados de interpretação, aproximando documentos técnicos da prática de estudantes, profissionais, gestores e pesquisadores. Espero que a leitura ajude não apenas a localizar dados, mas a formular perguntas melhores sobre como eles são produzidos e sobre o que podem — e o que não podem — dizer a respeito da saúde da população e do funcionamento do SUS.
+
+::: {.text-end}
+Raphael de Freitas Saldanha\
+Rio de Janeiro, agosto de 2026
+:::
